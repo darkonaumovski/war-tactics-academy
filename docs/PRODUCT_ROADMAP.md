@@ -9,9 +9,9 @@
 
 ## Priority 2 — Curriculum and media
 
-1. Add Classical Warfare and Industrial & World Wars as complete, reviewed learning paths.
-2. Add deeper quizzes, advanced learning levels and source-criticism exercises; retain feedback rather than performance rankings.
-3. Curate verified official video embeds, licensed historical portraits, maps and primary-document excerpts with full attribution.
+1. Specialist review of all four learning paths, especially the newer Classical Warfare and Industrial and World Wars courses.
+2. Add deeper quizzes (currently one question per lesson), advanced learning levels and source-criticism exercises; retain feedback rather than performance rankings.
+3. Grow the nine-record media library: verified official video embeds beyond D-Day, more public-domain portraits, maps and primary documents, each with full attribution.
 4. Extend commander profiles with dated biography timelines, named principal commands and richer links.
 
 ## Priority 3 — Product and architecture

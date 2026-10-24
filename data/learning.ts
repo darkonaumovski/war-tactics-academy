@@ -1,4 +1,5 @@
 import type { Course, Lesson, Scenario } from "../lib/types";
+import { additionalCourses } from "./additional-courses";
 const lesson = (
   slug: string,
   title: string,
@@ -17,7 +18,7 @@ const lesson = (
   battleSlugs,
   questions: [{ prompt, choices, answer, explanation }],
 });
-export const courses: Course[] = [
+const initialCourses: Course[] = [
   {
     slug: "foundations",
     title: "Foundations of Military History",
@@ -256,6 +257,12 @@ export const courses: Course[] = [
       ),
     ],
   },
+];
+export const courses: Course[] = [
+  initialCourses[0],
+  additionalCourses[0],
+  initialCourses[1],
+  additionalCourses[1],
 ];
 export const scenarios: Scenario[] = [
   {

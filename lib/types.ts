@@ -79,6 +79,9 @@ export type Lesson = {
   paragraphs: string[];
   battleSlugs: string[];
   questions: Question[];
+  sources?: Source[];
+  diagram?: string[];
+  seminar?: { prompt: string; guidance: string };
 };
 export type Course = {
   slug: string;

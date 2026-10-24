@@ -8,6 +8,8 @@ The route dispatcher in `app/[[...route]]/page.tsx` resolves supported route fam
 
 `lib/content.ts` reads the actual seeded database. React `cache` deduplicates repeated reads within a server render, including metadata generation. It is not an indefinite process cache. The first edition reads the catalog in bulk; query-level pagination and selective loading are appropriate when the corpus grows.
 
+Curated media is the exception to database reads: `lib/media.ts` validates `data/media.json` with Zod at module load, and the library and profile views import it directly. The same records are seeded into `MediaResource`/`HistoricalSource` so the relational source graph stays complete. Course order comes from the `LearningCourse.ordinal` column.
+
 The schema stores explicit relational links plus validated JSON editorial/read projections. Server views consume those projections for simple type-safe rendering. The seed writes both forms in one transaction. Editing a projection directly without its relationship rows is unsupported; editorial source files and the seed are the update path.
 
 ## Design decisions
@@ -15,6 +17,7 @@ The schema stores explicit relational links plus validated JSON editorial/read p
 - **Plain CSS and reusable components:** bespoke editorial styling avoids unnecessary component/theme dependencies. CSS variables, breakpoints and native controls provide consistent dark/light and responsive behavior. Tailwind, shadcn and a motion library are not mandatory for this design.
 - **SVG rather than network tiles:** a bundled Natural Earth world atlas keeps the core experience available offline and eliminates API keys, external tile failures and tracking. Approximate atlas locations are distinct from conceptual battle replay geometry.
 - **System fonts and original SVGs:** no remote font service or unlicensed artwork. Content pages remain usable when external publishers are unreachable.
+- **Opt-in external media:** YouTube players use `youtube-nocookie.com` and are created only after the reader presses a load button. Portrait images are served through the Next.js image optimizer, restricted by `images.remotePatterns` to one archive path, and replaced by an attributed text fallback on error.
 - **Browser-local progress:** `lib/persistence.ts` is the replaceable persistence boundary. Versioned data includes bookmarks, recent visits, scores, choices and theme. Invalid JSON, incompatible versions, blocked storage and unsafe stored link targets are handled defensively.
 - **No authentication or write API:** the local MVP does not need public mutation endpoints. Content updates occur through versioned files and a transactional seed. Account synchronization should introduce authorization and server validation as a separate phase.
 

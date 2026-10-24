@@ -1,8 +1,13 @@
 import { readFile } from "node:fs/promises";
 import { db } from "../lib/db";
 import { battles, wars, campaigns, eras, slugify } from "../data/catalog";
-import { courses, scenarios } from "../data/learning";
-import { commanderSchema, researchSchema } from "../lib/validation";
+import { courses as courseData, scenarios } from "../data/learning";
+import {
+  commanderSchema,
+  courseSchema,
+  researchSchema,
+} from "../lib/validation";
+import { media } from "../lib/media";
 import type { Prisma } from "../generated/prisma/client";
 import type { Source } from "../lib/types";
 const json = (v: unknown) =>
@@ -13,6 +18,7 @@ const research = researchSchema.parse(
 const commanders = commanderSchema.parse(
   JSON.parse(await readFile("data/commanders.json", "utf8")),
 );
+const courses = courseSchema.parse(courseData);
 // All reads/validation precede the transaction; a failed seed never leaves a partial catalog.
 await db.$transaction(
   async (tx) => {
@@ -167,19 +173,21 @@ await db.$transaction(
         });
       }
     }
-    for (const course of courses) {
+    for (const [courseOrdinal, course] of courses.entries()) {
       await tx.learningCourse.upsert({
         where: { id: course.slug },
         update: {
           title: course.title,
           description: course.description,
           level: course.level,
+          ordinal: courseOrdinal,
         },
         create: {
           id: course.slug,
           title: course.title,
           description: course.description,
           level: course.level,
+          ordinal: courseOrdinal,
         },
       });
       for (const [ordinal, lesson] of course.lessons.entries()) {
@@ -211,9 +219,12 @@ await db.$transaction(
               choices: json(q.choices),
             },
           });
-        const refs = research
-          .filter((r) => lesson.battleSlugs.includes(r.slug))
-          .flatMap((r) => r.sources);
+        const refs = [
+          ...(lesson.sources ?? []),
+          ...research
+            .filter((r) => lesson.battleSlugs.includes(r.slug))
+            .flatMap((r) => r.sources),
+        ];
         for (const ref of refs) {
           const s = await source(ref);
           await tx.lessonSource.upsert({
@@ -223,6 +234,31 @@ await db.$transaction(
           });
         }
       }
+    }
+    for (const item of media) {
+      const s = await source({
+        title: item.title,
+        url: item.url,
+        publisher: item.publisher,
+      });
+      await tx.mediaResource.upsert({
+        where: { id: item.id },
+        update: {
+          sourceId: s.id,
+          kind: item.kind,
+          author: item.publisher,
+          license: item.license,
+          attribution: item.attribution,
+        },
+        create: {
+          id: item.id,
+          sourceId: s.id,
+          kind: item.kind,
+          author: item.publisher,
+          license: item.license,
+          attribution: item.attribution,
+        },
+      });
     }
     for (const scenario of scenarios) {
       await tx.historicalDecision.upsert({
@@ -251,6 +287,6 @@ await db.$transaction(
   { timeout: 60000 },
 );
 console.log(
-  `Seed complete: ${battles.length} engagements, ${commanders.length} commanders, ${research.length} studies, ${courses.length} courses, ${scenarios.length} exercises.`,
+  `Seed complete: ${battles.length} engagements, ${commanders.length} commanders, ${research.length} studies, ${courses.length} courses, ${scenarios.length} exercises, ${media.length} media records.`,
 );
 await db.$disconnect();

@@ -14,9 +14,9 @@ A working, local-first historical learning application built with Next.js, React
 - Searchable battle and commander catalogs; combined era, region and engagement-type filters; global search across battles, commanders, wars, campaigns and learning.
 - An offline-capable world atlas using bundled Natural Earth geography. No tile server is required. Battle replay supports pan, zoom, selection, playback, event popups, legends and a full text timeline.
 - Three decision exercises with historical feedback, explicit counterfactual limits and saved completion.
-- Two five-lesson learning paths with objectives, historical cases, concept diagrams, quizzes and persistent best scores.
+- Four learning paths with 21 lessons: Foundations of Military History, Classical Warfare, Napoleonic Warfare, and Industrial and World Wars. Each lesson has objectives, historical cases, a concept diagram, a quiz and a persistent best score. Classical and Industrial lessons add lesson-specific readings and seminar prompts.
 - Browser-local bookmarks, recently visited records, lesson results, decision choices and theme preferences.
-- Source library with verified reading references, attribution metadata and an honest video-library empty state.
+- Curated media library with nine verified records: two official National Archives (UK) YouTube videos, loaded only on request through privacy-enhanced embeds; two public-domain portraits (Grant and Eisenhower), also shown on their commander profiles; two historic maps; and three primary documents. Every record stores publisher, license, attribution and verification date. The source reading list remains alongside it.
 - Normalized relational database schema, versioned migration, transactional idempotent seed, validation and automated tests.
 
 ## Quick start
@@ -49,7 +49,7 @@ npm run db:migrate
 npm run db:seed
 ```
 
-The seed uses upserts inside a transaction. Repeating it updates matching records without duplicating them. It does not remove obsolete records after editorial deletions; removal requires an explicit migration/editorial cleanup. Browser learning progress is independent of the catalog database.
+After pulling changes that include new migrations, run `npm run db:migrate` and `npm run db:seed` again (or `npm run db:setup`). The seed uses upserts inside a transaction. Repeating it updates matching records without duplicating them. It does not remove obsolete records after editorial deletions; removal requires an explicit migration/editorial cleanup. Browser learning progress is independent of the catalog database.
 
 ## Production
 
@@ -113,17 +113,17 @@ Read [source audit](docs/SOURCE_AUDIT.md) and [commander sourcing notes](docs/CO
 
 ## Media and licensing
 
-The interface's map art, monograms and diagrams are original SVG graphics. Monograms are not historical portraits. Natural Earth world geography is public domain, distributed through `world-atlas`; [Natural Earth terms](https://www.naturalearthdata.com/about/terms-of-use/) apply. System Georgia/Arial/monospace stacks avoid distributing font files.
+The interface's map art, monograms and diagrams are original SVG graphics. Monograms are graphic identifiers, not likenesses; only commanders with an item-level public-domain portrait record show a photograph. Natural Earth world geography is public domain, distributed through `world-atlas`; [Natural Earth terms](https://www.naturalearthdata.com/about/terms-of-use/) apply. System Georgia/Arial/monospace stacks avoid distributing font files.
 
-External readings remain with their publishers. No publisher artwork or full article has been copied. Database media metadata records source, author/publisher, license/reuse note and attribution. No video IDs are invented; the video tab intentionally explains that curation is pending. Verified, appropriately licensed portraits, historic maps and official video embeds can be added later.
+External readings remain with their publishers. No publisher artwork or full article has been copied. Curated media lives in `data/media.json`, is validated by `lib/media.ts` and is also seeded into the `MediaResource` table with its source, publisher, license and attribution. Video IDs were checked against the publisher's own page and YouTube oEmbed; nothing is autoplayed or rehosted. Portraits are loaded from the holding archive through the Next.js image optimizer (only that archive path is allowed) and fall back to a text notice with attribution if the image cannot load. Historic maps and documents are linked, not reproduced. See [media provenance](docs/MEDIA_RESEARCH_UPDATE.md).
 
 ## Known limitations
 
-- Two complete paths are available. Classical Warfare and Industrial & World Wars are clearly identified as planned, not empty courses.
+- The four learning paths are introductory editorial courses (one question per lesson), not reviewed university curricula.
 - The eight battle analyses and 44 commander summaries need deeper scholarly review, fuller biographies and claim-level citations before being treated as an academic reference work.
 - War/campaign pages are contextual indexes, not comprehensive operational histories. Some commander profiles have no dedicated engagement study yet.
 - Replay diagrams explain abstract relationships; they do not simulate combat or reconstruct exact formations. Atlas locations and Natural Earth coastlines are approximate modern geographic context.
-- The media library currently links readings. No reproduced portraits, historic maps or verified videos are included.
+- The media library is a small starting collection (nine records). Most engagements and commanders have no video, portrait or map yet; the two videos cover only D-Day. Embeds and archive images depend on third-party availability.
 - Progress belongs to one browser and is lost if its local storage is cleared. Storage denial is handled without crashing; save actions report failures.
 - SQLite and the JSON read projections favor a simple local edition. A historian-facing editor, accounts, synchronization, claim-level citation workflow and larger-scale database queries are future work.
 - Automated accessibility tests supplement, but do not replace, manual screen-reader testing. No Lighthouse score or universal accessibility certification is claimed.

@@ -18,6 +18,7 @@ export const getCatalog = cache(async (): Promise<Catalog> => {
       db.war.findMany(),
       db.campaign.findMany(),
       db.learningCourse.findMany({
+        orderBy: { ordinal: "asc" },
         include: { lessons: { orderBy: { ordinal: "asc" } } },
       }),
       db.historicalDecision.findMany(),

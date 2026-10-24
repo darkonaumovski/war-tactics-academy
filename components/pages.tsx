@@ -46,6 +46,8 @@ import {
   ScenarioStatus,
 } from "./persistence-ui";
 import { Quiz, DecisionExercise } from "./learning";
+import { media } from "../lib/media";
+import { MediaLibrary, HistoricalPortrait } from "./media-library";
 export function HomePage({ c }: { c: Catalog }) {
   const featured = c.battles.find((b) => b.slug === "waterloo")!;
   const featuredCommanders = [
@@ -116,7 +118,12 @@ export function HomePage({ c }: { c: Catalog }) {
         </div>
         <div>
           <GraduationCap />
-          <strong>10</strong>
+          <strong>
+            {c.courses.reduce(
+              (total, course) => total + course.lessons.length,
+              0,
+            )}
+          </strong>
           <span>Lessons in command</span>
         </div>
       </div>
@@ -518,6 +525,9 @@ export function CommanderPage({
   commander: Commander;
   c: Catalog;
 }) {
+  const portrait = media.find(
+    (item) => item.kind === "portrait" && item.commanderSlugs.includes(x.slug),
+  );
   return (
     <div className="page-container">
       <Breadcrumbs
@@ -538,22 +548,28 @@ export function CommanderPage({
         />
       </div>
       <div className="profile-intro">
-        <div className="large-monogram" aria-hidden="true">
-          {x.name
-            .split(" ")
-            .map((w) => w[0])
-            .slice(0, 2)
-            .join("")}
-          <span>HISTORICAL PROFILE</span>
-        </div>
+        {portrait ? (
+          <HistoricalPortrait item={portrait} />
+        ) : (
+          <div className="large-monogram" aria-hidden="true">
+            {x.name
+              .split(" ")
+              .map((w) => w[0])
+              .slice(0, 2)
+              .join("")}
+            <span>HISTORICAL PROFILE</span>
+          </div>
+        )}
         <div>
           <span className="eyebrow">A LIFE IN CONTEXT</span>
           <p className="lead">{x.summary}</p>
           <span className="editorial-note">
             Editorial status: catalog summary. The reading below supports
             context; a full scholarly biography and claim-by-claim review remain
-            future editorial work. Monograms are graphic identifiers, not
-            portraits.
+            future editorial work. Assessments are interpretations, not
+            performance ratings. Profiles without an attributed public-domain
+            portrait use a monogram, which is a graphic identifier, not a
+            likeness.
           </span>
         </div>
       </div>
@@ -792,11 +808,12 @@ export function AcademyPage({ c }: { c: Catalog }) {
       <div className="catalog-notice">
         <BookOpen />
         <div>
-          <h2>A growing curriculum</h2>
+          <h2>From foundations to source criticism</h2>
           <p>
-            Classical Warfare and Industrial & World Wars are planned learning
-            paths. This edition provides two complete introductory paths;
-            specialist and advanced courses await editorial development.
+            Begin with Foundations, examine ancient and Napoleonic cases, then
+            compare evidence in Industrial and World Wars. Seminar prompts
+            invite deeper analysis; quizzes and completion are saved in this
+            browser.
           </p>
         </div>
       </div>
@@ -846,7 +863,10 @@ export function LessonPage({
   const battles = c.battles.filter((b) => l.battleSlugs.includes(b.slug));
   const sources = [
     ...new Map(
-      battles.flatMap((b) => b.research?.sources ?? []).map((s) => [s.url, s]),
+      [
+        ...(l.sources ?? []),
+        ...battles.flatMap((b) => b.research?.sources ?? []),
+      ].map((s) => [s.url, s]),
     ).values(),
   ];
   return (
@@ -878,18 +898,35 @@ export function LessonPage({
       <div
         className="concept-diagram"
         role="img"
-        aria-label="Historical analysis connects objectives to constraints, decisions and consequences"
+        aria-label={`Concept sequence: ${(l.diagram ?? ["Objectives", "Constraints", "Decisions", "Consequences"]).join(" → ")}`}
       >
-        {["Objectives", "Constraints", "Decisions", "Consequences"].map(
-          (s, i) => (
-            <div key={s}>
-              <span>0{i + 1}</span>
-              <strong>{s}</strong>
-              {i < 3 && <ArrowRight size={18} />}
-            </div>
-          ),
-        )}
+        {(
+          l.diagram ?? [
+            "Objectives",
+            "Constraints",
+            "Decisions",
+            "Consequences",
+          ]
+        ).map((s, i) => (
+          <div key={s}>
+            <span>0{i + 1}</span>
+            <strong>{s}</strong>
+            {i < 3 && <ArrowRight size={18} />}
+          </div>
+        ))}
       </div>
+      {l.seminar && (
+        <section className="seminar note">
+          <div>
+            <span className="eyebrow">SEMINAR / EXTEND YOUR ANALYSIS</span>
+            <h2>{l.seminar.prompt}</h2>
+            <details>
+              <summary>Approach to the evidence</summary>
+              <p>{l.seminar.guidance}</p>
+            </details>
+          </div>
+        </section>
+      )}
       <h2>Read the historical examples</h2>
       <div className="lesson-battles">
         {battles.map((b) => (
@@ -998,6 +1035,9 @@ export function LibraryPage({ c, videos }: { c: Catalog; videos: boolean }) {
         .map((s) => [s.url, s]),
     ).values(),
   ];
+  const labels = Object.fromEntries(
+    [...c.battles, ...c.commanders].map((x) => [x.slug, x.name]),
+  );
   return (
     <div className="page-container">
       <Heading
@@ -1016,27 +1056,27 @@ export function LibraryPage({ c, videos }: { c: Catalog; videos: boolean }) {
           Documentaries & lectures
         </Link>
       </div>
-      {videos ? (
-        <Empty
-          title="A considered video library is coming"
-          text="No video has yet passed our verification and attribution review. We don’t embed unverified identifiers. Explore the reading collection while this section is curated."
-        />
-      ) : (
-        <Sources sources={sources} />
-      )}
+      <MediaLibrary
+        key={String(videos)}
+        items={media}
+        labels={labels}
+        videos={videos}
+      />
+      {!videos && <Sources sources={sources} />}
       <section className="licensing">
         <h2>Media & attribution</h2>
         <p>
-          All cartographic artwork, diagrams and monograms are original
-          interface graphics. They are not period maps or historical portraits.
-          The world atlas uses public-domain Natural Earth geography,
-          distributed through world-atlas.
+          Interface cartography, diagrams and monograms are original graphics.
+          Historical objects are separately identified with their dates and
+          attribution. The world atlas uses public-domain Natural Earth
+          geography, distributed through world-atlas.
         </p>
         <p>
           External readings remain the property of their publishers. Links
-          provide access; the academy does not reproduce their images or full
-          text. Video, portrait and historic-map reproduction require recorded
-          author, source, license and attribution before inclusion.
+          provide access to documents and historic maps. Portraits use
+          item-level public-domain records; videos use official embeds. Each
+          resource records its author or institution, source and usage
+          conditions.
         </p>
         <a
           className="text-link"

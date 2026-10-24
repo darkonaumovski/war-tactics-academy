@@ -1,7 +1,11 @@
 import { it, expect } from "vitest";
 import research from "../../data/research.json";
 import commanders from "../../data/commanders.json";
-import { researchSchema, commanderSchema } from "../../lib/validation";
+import {
+  researchSchema,
+  commanderSchema,
+  courseSchema,
+} from "../../lib/validation";
 import { battles, wars, campaigns, eras } from "../../data/catalog";
 import { courses } from "../../data/learning";
 it("validates source-backed analyses and the commander corpus", () => {
@@ -38,4 +42,32 @@ it("has source-backed examples and valid answers in every lesson", () => {
         expect(q.answer).toBeLessThan(q.choices.length);
       }
     }
+});
+it("validates all four learning paths in curriculum order", () => {
+  const parsed = courseSchema.parse(courses);
+  expect(parsed.map((c) => c.slug)).toEqual([
+    "foundations",
+    "classical-warfare",
+    "napoleonic-warfare",
+    "industrial-world-wars",
+  ]);
+  for (const course of parsed) {
+    const slugs = course.lessons.map((l) => l.slug);
+    expect(new Set(slugs).size).toBe(slugs.length);
+    expect(course.lessons.length).toBeGreaterThanOrEqual(5);
+  }
+});
+it("gives every extended-path lesson a diagram, seminar and traceable sources", () => {
+  for (const slug of ["classical-warfare", "industrial-world-wars"]) {
+    const course = courses.find((c) => c.slug === slug)!;
+    for (const l of course.lessons) {
+      expect(l.diagram?.length, l.slug).toBeGreaterThanOrEqual(2);
+      expect(l.seminar?.prompt, l.slug).toBeTruthy();
+      // A lesson without its own reading must lean on a referenced battle study.
+      expect(
+        (l.sources?.length ?? 0) + l.battleSlugs.length,
+        l.slug,
+      ).toBeGreaterThan(0);
+    }
+  }
 });

@@ -181,6 +181,39 @@ test("lesson quiz accepts an answer, explains it and persists progress", async (
   await page.getByRole("link", { name: "Back to course" }).click();
   await expect(page.getByText("1 of 5 lessons completed")).toBeVisible();
 });
+test("extended learning paths are listed and their lessons persist progress", async ({
+  page,
+}) => {
+  await page.goto("/academy");
+  await expect(
+    page.getByRole("heading", { name: "Classical Warfare", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("heading", {
+      name: "Industrial and World Wars",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(page.getByText("0 of 6 lessons completed")).toBeVisible();
+  await page.goto("/academy/classical-warfare");
+  await page.getByRole("link", { name: /Historical siege warfare/ }).click();
+  await expect(page).toHaveTitle(/Historical siege warfare/);
+  await page.getByText("Approach to the evidence").click();
+  await expect(page.getByText(/Assess specific claims/)).toBeVisible();
+  await page
+    .getByRole("radio", {
+      name: "Roman forces faced pressure from inside and outside",
+    })
+    .check();
+  await page.getByRole("button", { name: "Check my understanding" }).click();
+  await expect(page.getByRole("status")).toContainText("1/1");
+  await page.reload();
+  await expect(
+    page.getByText("Previously completed · score 1/1"),
+  ).toBeVisible();
+  await page.getByRole("link", { name: "Back to course" }).click();
+  await expect(page.getByText("1 of 5 lessons completed")).toBeVisible();
+});
 test("decision feedback separates history and counterfactual and persists", async ({
   page,
 }) => {
@@ -247,6 +280,54 @@ test("bookmarks survive reload and can be removed", async ({ page }) => {
   await expect(
     page.getByRole("button", { name: "Save to collection", exact: true }),
   ).toHaveAttribute("aria-pressed", "false");
+});
+test("media library filters records and loads official embeds on request", async ({
+  page,
+}) => {
+  await page.route(/youtube(-nocookie)?\.com/, (r) => r.abort());
+  await page.goto("/library");
+  await expect(page.getByRole("status")).toHaveText("9 resources");
+  await page.getByLabel("Media type").selectOption("portrait");
+  await expect(page.getByRole("status")).toHaveText("2 resources");
+  await page.getByLabel("Search media").fill("Grant");
+  await expect(page.getByRole("status")).toHaveText("1 resource");
+  await page.getByLabel("Search media").fill("no such record");
+  await page.getByRole("button", { name: "Clear media filters" }).click();
+  await expect(page.getByRole("status")).toHaveText("9 resources");
+  await page.getByRole("link", { name: "Documentaries & lectures" }).click();
+  await expect(page).toHaveURL(/type=videos/);
+  await expect(page.getByRole("status")).toHaveText("2 resources");
+  await expect(page.locator("iframe")).toHaveCount(0);
+  await page
+    .getByRole("button", {
+      name: "Load video: Archives Live: D-Day",
+      exact: true,
+    })
+    .click();
+  await expect(
+    page.getByTitle("Archives Live: D-Day", { exact: true }),
+  ).toHaveAttribute("src", /^https:\/\/www\.youtube-nocookie\.com\/embed\//);
+  await page
+    .getByRole("link", { name: "Study: Normandy campaign →" })
+    .first()
+    .click();
+  await expect(page).toHaveURL(/battles\/normandy$/);
+});
+test("commander portrait carries attribution and degrades if unavailable", async ({
+  page,
+}) => {
+  await page.goto("/commanders/ulysses-s-grant");
+  const portrait = page.locator(".profile-intro figure");
+  await expect(
+    portrait.getByRole("link", { name: /Ulysses S. Grant portrait/ }),
+  ).toBeVisible();
+  await expect(portrait).toContainText("Public domain");
+  await page.route("**/_next/image**", (r) => r.abort());
+  await page.reload();
+  await expect(portrait).toContainText("Image unavailable");
+  await expect(
+    portrait.getByRole("link", { name: /Ulysses S. Grant portrait/ }),
+  ).toBeVisible();
 });
 test("global search includes campaigns and learning", async ({ page }) => {
   await page.goto("/");
@@ -326,8 +407,11 @@ for (const width of [375, 768, 1440])
       "/commanders",
       "/commanders/compare",
       "/academy/foundations/terrain",
+      "/academy/classical-warfare/siege-warfare",
       "/simulator/hold-the-ridge",
       "/atlas",
+      "/library",
+      "/commanders/ulysses-s-grant",
     ]) {
       await page.goto(route);
       expect(
@@ -344,8 +428,11 @@ for (const route of [
   "/battles/waterloo",
   "/commanders/compare",
   "/academy/foundations/strategy-and-tactics",
+  "/academy/industrial-world-wars/air-and-naval-operations",
   "/simulator/hold-the-ridge",
   "/atlas",
+  "/library",
+  "/commanders/ulysses-s-grant",
 ])
   test(`accessibility: ${route}`, async ({ page }) => {
     await page.goto(route);

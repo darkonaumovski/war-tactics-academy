@@ -2,23 +2,25 @@
 
 ## Unit and component tests
 
-Vitest runs four test files with 24 cases covering BCE/CE formatting, forbidden year zero, normalized search, combined filtering, empty results, phase advancement, quiz scoring, decision transitions, scenario consistency, persistence round trips, corrupt/unsupported storage, unsafe destinations, storage denial, source schemas, relationship integrity and quiz feedback/retry behavior. React Testing Library exercises the quiz through visible controls.
+Vitest runs six test files with 33 cases covering BCE/CE formatting, forbidden year zero, normalized search, combined filtering, empty results, phase advancement, quiz scoring, decision transitions, scenario consistency, persistence round trips, corrupt/unsupported storage, unsafe destinations, storage denial, source schemas, relationship integrity and quiz feedback/retry behavior. Course checks validate all four paths, curriculum order, unique lesson slugs, answer indexes, and the diagrams, seminars and sources of the extended paths. Media checks validate every record, unique IDs, video-only embeds, portrait hosts permitted by the image optimizer, and links to existing battles and commanders. React Testing Library exercises the quiz and the media library (filters, empty-state recovery, the video tab, on-request embeds and the portrait error fallback) through visible controls.
 
 ## Browser tests
 
-Playwright defines Chromium, Firefox and WebKit projects. Each runs the same 28 scenarios. Tests use accessible roles and labels where possible; stable semantic containers scope repeated content. They cover:
+Playwright defines Chromium, Firefox and WebKit projects. Each runs the same 34 scenarios. Tests use accessible roles and labels where possible; stable semantic containers scope repeated content. They cover:
 
 - Homepage actions, main navigation, featured study and mobile navigation.
 - Battle search, combined filters, no-results recovery, details, commander navigation and actual HTTP 404 response.
 - All eight replay timelines, phase selection, playback, zoom, keyboard pan, event popup and text alternative.
 - Atlas functionality with all external HTTPS requests blocked.
 - Commander search, profile associations and qualitative comparison.
-- Lesson answers, explanatory results and completion after reload.
+- Lesson answers, explanatory results and completion after reload, in both the Foundations path and the Classical Warfare path, including seminar guidance and lesson page titles.
+- Media library filtering, empty-state recovery, the video tab, on-request official embeds (with YouTube blocked) and links to related studies.
+- Commander portrait attribution and the fallback when the image request fails.
 - All three decision exercises, history/counterfactual separation and persistence.
 - Bookmark save/reload/remove and global search across content families.
 - Era/war/campaign/engagement navigation, theme persistence and keyboard skip link.
-- Eight representative pages at 375, 768 and 1440 pixels with no document-level horizontal overflow.
-- Seven principal screens with axe-core serious/critical violations asserted absent.
+- Eleven representative pages at 375, 768 and 1440 pixels with no document-level horizontal overflow.
+- Ten principal screens, including the library, a portrait profile and an Industrial and World Wars lesson, with axe-core serious/critical violations asserted absent.
 - Three additional light-theme screens with the same accessibility threshold.
 - All main sections checked for successful HTTP responses and uncaught browser errors.
 

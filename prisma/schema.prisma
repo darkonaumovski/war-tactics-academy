@@ -146,6 +146,7 @@ model MediaResource {
 model LearningCourse {
   id String @id
   title String
+  ordinal Int @default(0)
   level String
   description String
   lessons Lesson[]

@@ -22,72 +22,167 @@
       {
         "title": "Historical background",
         "text": "In 490 BCE an Achaemenid expedition under Datis and Artaphernes crossed the Aegean and reached Attica.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.94–102"
+          },
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Political and strategic context",
         "text": "The expedition sought to subdue Athens and Eretria. These were imperial objectives, wider than a single battlefield.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.94"
+          },
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Campaign objectives",
         "text": "Athens needed to preserve its independence; the expedition needed political submission as well as military success.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Geography and terrain",
         "text": "Marathon was a coastal plain in northeastern Attica. Herodotus describes it as suitable for cavalry.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.102"
+          }
+        ]
       },
       {
         "title": "Opposing forces and command structures",
         "text": "Athenian and Plataean infantry opposed the Persian expedition. Athenian command included Miltiades and the polemarch Callimachus.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.103–111"
+          }
+        ]
       },
       {
         "title": "Initial deployment",
         "text": "Herodotus describes stronger Greek wings and a shallower center. This is a literary account, not a surveyed deployment.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.111"
+          }
+        ]
       },
       {
         "title": "Chronological phases",
         "text": "The narrative moves from an advance to fighting in the center, success on the wings, and a struggle near the ships.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.112–115"
+          }
+        ]
       },
       {
         "title": "Important command decisions",
         "text": "Committing to battle involved accepting risk without certainty about Persian intentions. The surviving narrative cannot recover a commander's private reasoning.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.109–110"
+          }
+        ]
       },
       {
         "title": "Decisive turning points",
         "text": "The Greek wings prevailed while their center gave ground; the wings then converged against the remaining Persian troops.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.113"
+          }
+        ]
       },
       {
         "title": "Outcome",
         "text": "The Persian force withdrew by sea. The Athenians returned to protect Athens.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.115–116"
+          },
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Consequences",
         "text": "The battle became a durable civic memory: the Marathon museum preserves finds associated with the Athenian and Plataean burial mounds.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          }
+        ]
       },
       {
         "title": "Historical lessons",
         "text": "Compare battlefield success with the continuing task of defending the city. A successful engagement does not remove every operational threat.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.116"
+          }
+        ]
       },
       {
         "title": "Historiographical debates",
         "text": "Persian cavalry activity and exact troop positions are unresolved here. Accounts of Datis's fate conflict; a schematic must not imply certainty.",
-        "evidence": "uncertainty"
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Source references",
         "text": "Read Herodotus as a later Greek narrative, Iranica for Datis and source criticism, and the archaeological museum for material context.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
       }
     ],
     "phases": [
@@ -142,72 +237,172 @@
       {
         "title": "Historical background",
         "text": "Cannae followed Roman defeats at the Trebia and Lake Trasimene during Hannibal's invasion of Italy.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.70–74, 3.80–85"
+          }
+        ]
       },
       {
         "title": "Political and strategic context",
         "text": "Fabius had avoided favorable battle conditions for Hannibal. The consuls of 216 BCE instead commanded a major concentration of Roman forces.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.87–90, 3.106–107"
+          }
+        ]
       },
       {
         "title": "Campaign objectives",
         "text": "Rome sought a decisive battlefield recovery; Hannibal sought another defeat severe enough to weaken Roman resistance.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.107–109"
+          }
+        ]
       },
       {
         "title": "Geography and terrain",
-        "text": "The armies fought near the Aufidus river in Apulia. Livy emphasizes ground favorable to cavalry.",
-        "evidence": "fact"
+        "text": "The armies fought near the Aufidus river in Apulia. Polybius reports that Paullus judged the open, level ground unfavorable because Hannibal was stronger in cavalry.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.110, 3.113"
+          }
+        ]
       },
       {
         "title": "Opposing forces and command structures",
         "text": "Hannibal commanded African, Iberian, Celtic and Numidian contingents. Roman consuls were Lucius Aemilius Paullus and Gaius Terentius Varro.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.110, 3.113–114"
+          }
+        ]
       },
       {
         "title": "Initial deployment",
         "text": "Polybius describes a projecting Iberian-Celtic center with African infantry on either side; both armies placed cavalry on their wings.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.113–114"
+          }
+        ]
       },
       {
         "title": "Chronological phases",
         "text": "Cavalry fighting accompanied the infantry collision. Roman pressure bent Hannibal's center inward before the Africans attacked the Roman flanks.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.115"
+          }
+        ]
       },
       {
         "title": "Important command decisions",
         "text": "Concentration against the enemy center made sense as a breakthrough attempt, but success there did not guarantee security on the flanks.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.113, 3.115"
+          }
+        ]
       },
       {
         "title": "Decisive turning points",
         "text": "Victorious Carthaginian cavalry returned against the Roman rear while infantry closed from the sides.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.115–116"
+          }
+        ]
       },
       {
         "title": "Outcome",
         "text": "The Roman army suffered a catastrophic defeat. Paullus died; Varro survived.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.116–117"
+          },
+          {
+            "source": 3,
+            "locator": "Periocha 22"
+          }
+        ]
       },
       {
         "title": "Consequences",
         "text": "Rome continued the war. Livy's epitome records emergency recruitment and the refusal to ransom prisoners.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3,
+            "locator": "Periocha 22"
+          }
+        ]
       },
       {
         "title": "Historical lessons",
         "text": "Cannae separates tactical achievement from strategic resolution: destroying an army did not compel the Roman state to surrender.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.118"
+          }
+        ]
       },
       {
         "title": "Historiographical debates",
         "text": "Ancient casualty totals differ. Livy's hostile portrayal of Varro should not be treated as a neutral record of responsibility or private motives.",
-        "evidence": "uncertainty"
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.117"
+          },
+          {
+            "source": 3,
+            "locator": "Periocha 22"
+          }
+        ]
       },
       {
         "title": "Source references",
-        "text": "Polybius supplies the core battle narrative. Livy provides another tradition; the Cambridge introduction contextualizes the preceding campaign.",
-        "evidence": "fact"
+        "text": "Polybius supplies the core battle narrative. Livy provides another tradition, read here in translation and through the periochae. The Cambridge edition's introduction explains Livy's life, composition and how his text survives.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
       }
     ],
     "phases": [
@@ -239,7 +434,11 @@
         "known": "His own army combined infantry contingents with strong cavalry.",
         "uncertainty": "Whether the center could remain coherent under pressure.",
         "constraints": "A multinational army required coordination across separate arms.",
-        "decision": "The ancient narratives describe a yielding center and attacks from the flanks. This explanation reconstructs the plan; it is not a surviving order."
+        "decision": "The ancient narratives describe a yielding center and attacks from the flanks. This explanation reconstructs the plan; it is not a surviving order.",
+        "forces": "A multinational army of African, Iberian and Celtic infantry with Iberian, Celtic and Numidian cavalry. Polybius reports it was outnumbered in infantry; ancient totals are uncertain.",
+        "terrain": "Open ground near the Aufidus favored his stronger cavalry, while the river limited the Romans' room to extend their line.",
+        "logistics": "Far from Carthage, he lived on what he could take in Italy. Before the battle he seized the Roman supply depot at Cannae.",
+        "outcome": "The Roman army was destroyed, but Rome refused to negotiate. Later admiration for the battle as a model of envelopment can obscure that Hannibal lost the war."
       },
       {
         "name": "Gaius Terentius Varro and Lucius Aemilius Paullus",
@@ -247,7 +446,11 @@
         "known": "Rome had assembled a large infantry force after earlier defeats.",
         "uncertainty": "The effect of Hannibal's deployment and the cavalry contest.",
         "constraints": "Shared consular command and pressure to reverse Roman losses.",
-        "decision": "They fought a pitched battle. Livy assigns the initiative to Varro, but his moral contrast between the consuls requires caution."
+        "decision": "They fought a pitched battle. Livy assigns the initiative to Varro, but his moral contrast between the consuls requires caution.",
+        "forces": "A very large Roman and allied army, strongest in heavy infantry and weaker in cavalry. Ancient figures for its size differ.",
+        "terrain": "Polybius reports that Paullus considered the open plain unfavorable against Hannibal's cavalry.",
+        "logistics": "A large concentrated army needed steady supply, and Hannibal's capture of the Cannae depot added pressure to act.",
+        "outcome": "A catastrophic defeat in which Paullus died. Ancient writers assigned blame along political lines, especially against Varro."
       }
     ]
   },
@@ -274,72 +477,167 @@
       {
         "title": "Historical background",
         "text": "In 52 BCE Vercingetorix's forces occupied Alesia during the resistance to Caesar's conquest of Gaul.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.68–69"
+          }
+        ]
       },
       {
         "title": "Political and strategic context",
         "text": "Caesar's account presents Roman command from the conqueror's perspective. Political self-presentation shapes the narrative.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Campaign objectives",
         "text": "The Romans sought surrender by siege; the defenders awaited a relief army.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.71–72"
+          }
+        ]
       },
       {
         "title": "Geography and terrain",
         "text": "Caesar describes a hilltop settlement, nearby rivers, a plain and surrounding heights. The museum interprets the site at Alise-Sainte-Reine.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.69"
+          },
+          {
+            "source": 2
+          }
+        ]
       },
       {
         "title": "Opposing forces and command structures",
         "text": "Caesar directed Roman legions and cavalry; Vercingetorix led the besieged force. Several Gallic leaders shared command of the relief army.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.71"
+          },
+          {
+            "source": 1,
+            "locator": "7.75–76"
+          }
+        ]
       },
       {
         "title": "Initial deployment",
         "text": "Roman works faced both the settlement and the approaching relief force.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.72–74"
+          }
+        ]
       },
       {
         "title": "Chronological phases",
         "text": "Investment was followed by relief attempts, attacks from inside and outside, and the defeat of the relieving army.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "7.79–88"
+          }
+        ]
       },
       {
         "title": "Important command decisions",
         "text": "Caesar reports moving reserves to threatened sectors and sending cavalry around the outer works.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "7.85–87"
+          }
+        ]
       },
       {
         "title": "Decisive turning points",
         "text": "In his narrative, Roman reinforcement and a cavalry attack in the rear broke the final external assault.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "7.87–88"
+          }
+        ]
       },
       {
         "title": "Outcome",
         "text": "Vercingetorix surrendered. Caesar distributed many prisoners as enslaved captives.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "7.89–90"
+          }
+        ]
       },
       {
         "title": "Consequences",
         "text": "The result strengthened Roman domination while imposing conquest and captivity on the defeated population.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "7.89–90"
+          }
+        ]
       },
       {
         "title": "Historical lessons",
         "text": "Study siege engineering together with food supply and coordination. Static fortifications still required decisions about mobile reserves.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.72–74, 7.77"
+          }
+        ]
       },
       {
         "title": "Historiographical debates",
         "text": "Enemy numbers and dramatic speeches come from Caesar's interested account. The displayed phases simplify an extended siege, not a measured hour-by-hour reconstruction.",
-        "evidence": "uncertainty"
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "7.76–77"
+          }
+        ]
       },
       {
         "title": "Source references",
         "text": "Caesar supplies the principal narrative; museum archaeology and landscape interpretation provide a different kind of evidence.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
       }
     ],
     "phases": [
@@ -364,7 +662,32 @@
         "description": "Vercingetorix is surrendered and the defenders lose their freedom."
       }
     ],
-    "perspectives": []
+    "perspectives": [
+      {
+        "name": "Gaius Julius Caesar",
+        "objective": "Force the surrender of Vercingetorix's army before a Gallic relief force could break the siege.",
+        "known": "Vercingetorix had sent his cavalry out to summon a relief army from across Gaul.",
+        "uncertainty": "When the relief force would arrive and where it would attack.",
+        "constraints": "Food and fodder for his legions, and long lines to man against two fronts at once.",
+        "forces": "Roman legions with allied cavalry, including Germanic horsemen.",
+        "terrain": "The hilltop settlement, its rivers and the surrounding heights set the course of the works. A weak point on the outer line became the focus of the final assault.",
+        "logistics": "He gathered supplies to sustain the army inside its lines.",
+        "decision": "He built inner and outer lines and, in the final assaults, moved reserves to threatened sectors and sent cavalry outside the works. The record of these decisions is Caesar's own.",
+        "outcome": "Vercingetorix surrendered. Caesar's narrative presents the victory as his personal achievement."
+      },
+      {
+        "name": "Vercingetorix and the Gallic relief commanders",
+        "objective": "Hold Alesia until a relief army could break the Roman lines from outside.",
+        "known": "Food in the settlement was limited, and a relief army was being raised across Gaul.",
+        "uncertainty": "Whether the relief army would arrive before supplies ran out.",
+        "constraints": "Coordinating attacks from inside and outside the Roman lines without reliable communication.",
+        "forces": "The besieged army in the settlement and a relief army under several commanders, including Vercassivellaunus.",
+        "terrain": "Roman works blocked access across the plain and the surrounding hills.",
+        "logistics": "Caesar reports that the Mandubii, inhabitants of Alesia, were expelled to save food and were refused passage through the Roman lines.",
+        "decision": "Breakouts were timed with the relief army's assaults. After those failed, Vercingetorix surrendered. Gallic decisions are known almost entirely through Caesar.",
+        "outcome": "Surrender, captivity and enslavement for many of the defeated."
+      }
+    ]
   },
   {
     "slug": "hastings",
@@ -389,57 +712,127 @@
       {
         "title": "Historical background",
         "text": "Edward the Confessor's death opened a disputed succession. Harold became king; William of Normandy claimed the crown.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Political and strategic context",
         "text": "Harold defeated the Norwegian invasion at Stamford Bridge before returning south to face William's landing in Sussex.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Campaign objectives",
         "text": "William needed to defeat the reigning king to advance his claim. Harold needed to contain an invader while preserving royal authority.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Geography and terrain",
         "text": "The English held a ridge near the modern town of Battle. The battlefield's exact extent remains uncertain.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Opposing forces and command structures",
         "text": "Harold's army fought on foot, including household warriors. William's army used infantry, archers and mounted troops.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Initial deployment",
         "text": "The English occupied the ridge in a defensive formation; William's forces approached from rising ground to the south.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Chronological phases",
         "text": "Repeated assaults lasted throughout 14 October 1066. A Norman retreat and rally preceded renewed attacks.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Important command decisions",
         "text": "William rallied his troops after a report that he had died. English pursuit during retreats exposed parts of their formation.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Decisive turning points",
         "text": "The interaction of lost cohesion and repeated pressure matters more than explaining the result through a single weapon.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Outcome",
         "text": "Harold was killed and his army broken. William was crowned on Christmas Day.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Consequences",
         "text": "The victory opened the Norman conquest and transformed England's political relationship with continental Europe.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Historical lessons",
@@ -449,12 +842,28 @@
       {
         "title": "Historiographical debates",
         "text": "The Bayeux Tapestry and written narratives leave details unresolved. This account does not specify Harold's exact fatal wound or precise unit positions.",
-        "evidence": "uncertainty"
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Source references",
         "text": "English Heritage summarizes the narrative and material setting. Historic England documents the registered battlefield and surviving source problems.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
       }
     ],
     "phases": [
@@ -479,7 +888,32 @@
         "description": "Harold's death accompanies the defeat of his army."
       }
     ],
-    "perspectives": []
+    "perspectives": [
+      {
+        "name": "William, Duke of Normandy",
+        "objective": "Defeat Harold in battle to make good his claim to the English crown.",
+        "known": "Harold had come south after Stamford Bridge, and the English held a strong position on a ridge.",
+        "uncertainty": "How long the English shield wall could hold, and whether his own army would stay together under repeated repulses.",
+        "constraints": "An invading army in hostile country, dependent on its ships and on foraging.",
+        "forces": "Norman, Breton and other French troops, combining infantry, archers and mounted warriors.",
+        "terrain": "His army attacked uphill from rising ground to the south of the English position.",
+        "logistics": "The army was sustained from its base near Hastings and by foraging in Sussex.",
+        "decision": "He launched repeated assaults and, in the narratives, rallied his troops after a rumor of his death. Whether later Norman retreats were deliberate feints is debated.",
+        "outcome": "Harold was killed and his army broken. William was crowned on Christmas Day 1066."
+      },
+      {
+        "name": "Harold II of England",
+        "objective": "Defeat or contain the invasion and preserve his kingship.",
+        "known": "William had landed at Pevensey. Harold's own army had just fought at Stamford Bridge in Yorkshire.",
+        "uncertainty": "Whether more troops would join him if he waited, and what William would do in the meantime.",
+        "constraints": "Losses and fatigue after Stamford Bridge and a hurried march south.",
+        "forces": "Household warriors and other troops fighting on foot in a shield wall.",
+        "terrain": "The ridge gave a strong defensive position but little room to maneuver.",
+        "logistics": "The rapid march from Yorkshire left little time to gather fresh forces.",
+        "decision": "He gave battle quickly near Hastings instead of waiting for a larger army. Historians debate whether he meant to fight at once or to pin William near the coast.",
+        "outcome": "His death and the collapse of his army opened the way to the Norman conquest."
+      }
+    ]
   },
   {
     "slug": "austerlitz",
@@ -504,57 +938,139 @@
       {
         "title": "Historical background",
         "text": "The 1805 campaign carried the Grande Armée from the Channel camps through the Ulm campaign and into Austria.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Political and strategic context",
         "text": "Austria and Russia confronted Napoleon within the Third Coalition. The battle took place on 2 December 1805 in present-day Czechia.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
       },
       {
         "title": "Campaign objectives",
         "text": "Napoleon sought a decisive result before the coalition could improve its position. The Allies attempted to turn the French right.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Geography and terrain",
         "text": "The Pratzen Heights dominated the battlefield; Telnitz and Sokolnitz lay in the southern sector.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Opposing forces and command structures",
         "text": "French corps under commanders including Soult, Davout and Lannes faced a combined Austro-Russian army.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Initial deployment",
         "text": "Allied formations occupied the heights before moving substantial forces south against Napoleon's right.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
       },
       {
         "title": "Chronological phases",
         "text": "The southern fighting developed first. Soult then attacked the weakened center, followed by fighting for the plateau and an Allied retreat.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
       },
       {
         "title": "Important command decisions",
         "text": "Napoleon committed Soult against the Pratzen Heights as Allied troops moved away.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
       },
       {
         "title": "Decisive turning points",
         "text": "Control of the center divided the coalition's fight and allowed the French to redirect forces against its southern wing.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2
+          }
+        ]
       },
       {
         "title": "Outcome",
         "text": "The French won decisively. Austria signed an armistice on 6 December.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Consequences",
         "text": "The Treaty of Pressburg followed on 26 December, reshaping the political settlement after the campaign.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
       },
       {
         "title": "Historical lessons",
@@ -564,12 +1080,28 @@
       {
         "title": "Historiographical debates",
         "text": "The popular image of a perfectly controlled trap compresses a contested battle. This overview omits disputed losses and exact minute-by-minute timing.",
-        "evidence": "uncertainty"
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 2
+          }
+        ]
       },
       {
         "title": "Source references",
         "text": "The Fondation Napoléon timeline and site guide supply sequence and geography. The French Army page represents an institutional commemorative interpretation.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
       }
     ],
     "phases": [
@@ -594,7 +1126,32 @@
         "description": "The divided Allied army retreats; French forces press its southern wing."
       }
     ],
-    "perspectives": []
+    "perspectives": [
+      {
+        "name": "Napoleon Bonaparte",
+        "objective": "Win a decisive battle before Prussia joined the coalition and before further Allied reinforcements arrived.",
+        "known": "The Allies had advanced toward him and occupied the Pratzen Heights, which he had left to them. An attack on his right was expected.",
+        "uncertainty": "Whether reinforcements marching from the south would arrive in time to hold the southern sector, and when the Allies would weaken their center.",
+        "constraints": "A long line of communication through Austria after the Ulm campaign, and an army that was smaller on the field until its corps concentrated.",
+        "forces": "Corps including those of Soult, Lannes, Bernadotte and Davout, with the Guard and Murat's cavalry.",
+        "terrain": "The Pratzen plateau dominated the center. Streams, ponds and the villages of Telnitz and Sokolnitz shaped the southern fighting.",
+        "logistics": "Far from France, the army needed a quick decision rather than a prolonged campaign in Moravia.",
+        "decision": "He held Soult's corps ready and launched it against the Pratzen Heights once Allied columns had moved south, around 8–8:30 a.m. in the sources. This describes observable decisions, not his private thoughts.",
+        "outcome": "A decisive French victory, followed by an Austrian armistice on 6 December. The image of a perfectly controlled trap compresses a hard-fought battle."
+      },
+      {
+        "name": "Allied command: Kutuzov, Weyrother and the allied emperors",
+        "objective": "Turn the French right and cut Napoleon's communications with Vienna.",
+        "known": "French forces appeared weaker on their right, and the Allies held the Pratzen plateau.",
+        "uncertainty": "The true strength and position of the French army, including forces arriving from the south.",
+        "constraints": "A divided command with Alexander I and Francis I present, and a complex plan requiring several columns to march across the plateau.",
+        "forces": "A combined Russian and Austrian army organized in several attack columns.",
+        "terrain": "Moving off the Pratzen plateau to support the southern attack left the center exposed.",
+        "logistics": "Supplies in Moravia were strained. Waiting for reinforcements and for Prussia was an alternative some favored.",
+        "decision": "They committed most columns to the southern attack, weakening the center. Accounts differ on Kutuzov's reservations about the plan; they are not reconstructed here.",
+        "outcome": "Defeat split the army and Austria left the war. Russian and Austrian accounts later blamed each other."
+      }
+    ]
   },
   {
     "slug": "waterloo",
@@ -615,81 +1172,190 @@
         "publisher": "Fondation Napoléon"
       },
       {
-        "title": "Sketch of the Battle of Waterloo",
-        "url": "https://www.nationalarchives.gov.uk/education/resources/significant-events/battle-of-waterloo-1815/",
-        "publisher": "The National Archives"
+        "title": "Three plans showing the Battle of Waterloo, 1815 (MPH 1/387)",
+        "url": "https://beta.nationalarchives.gov.uk/catalogue/id/C4562194",
+        "publisher": "The National Archives (UK)"
       }
     ],
     "sections": [
       {
         "title": "Historical background",
         "text": "Napoleon returned from Elba in 1815. A new coalition mobilized against him.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Political and strategic context",
         "text": "His advance into Belgium sought to separate Wellington's and Blücher's armies before larger coalition forces arrived.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Campaign objectives",
         "text": "The French needed a rapid decision; the Allies needed to sustain cooperation despite separate command structures.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
       },
       {
         "title": "Geography and terrain",
         "text": "Wellington held the Mont-Saint-Jean ridge with forward strongpoints including Hougoumont and La Haye Sainte.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Opposing forces and command structures",
         "text": "Napoleon faced Wellington's multinational army and, later, Blücher's Prussian corps.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
       },
       {
         "title": "Initial deployment",
-        "text": "Much Allied infantry sheltered behind the ridge. The surviving archival sketch also identifies infantry squares and the Prussian approach.",
-        "evidence": "fact"
+        "text": "Much Allied infantry sheltered behind the crest of the ridge, out of sight and partly protected from artillery. Squares formed against the later cavalry attacks.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Chronological phases",
         "text": "Attacks on the strongpoints and center were followed by cavalry assaults, Prussian intervention and the final Guard attack.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Important command decisions",
         "text": "Wellington chose to stand with promised Prussian support. Blücher marched toward him after the defeat at Ligny.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Decisive turning points",
         "text": "Prussian pressure forced Napoleon to divide attention and reserves. The Imperial Guard's repulse preceded general French retreat.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
       },
       {
         "title": "Outcome",
         "text": "The coalition won on 18 June. Napoleon's attempt to restore his rule failed.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Consequences",
         "text": "The campaign ended with Allied occupation of Paris and Napoleon's final exile.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
       },
       {
         "title": "Historical lessons",
         "text": "Coalition cooperation can be an operational capability. Study liaison and marching decisions alongside the actions visible on the battlefield.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2
+          }
+        ]
       },
       {
         "title": "Historiographical debates",
-        "text": "National narratives assign credit differently. The schematic simplifies simultaneous engagements and does not reproduce archival coordinates.",
-        "evidence": "uncertainty"
+        "text": "National narratives assign credit differently, including the weight given to the Prussian intervention. The schematic simplifies simultaneous engagements and is not derived from period maps.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 2
+          }
+        ]
       },
       {
         "title": "Source references",
-        "text": "Compare the National Army Museum narrative with Royal Armouries, the Prussian-focused Fondation dossier and an archival map.",
-        "evidence": "fact"
+        "text": "Compare the National Army Museum narrative with Royal Armouries and the Prussian-focused Fondation Napoléon dossier. The National Archives holds three 1815 plans of the battle (MPH 1/387); they are catalogued but not digitised.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
       }
     ],
     "phases": [
@@ -721,7 +1387,11 @@
         "known": "Ligny had forced a Prussian retreat, but its direction and recovery remained critical.",
         "uncertainty": "How much Prussian force could reach the battlefield in time.",
         "constraints": "Wet ground, elapsed time and competing demands for reserves.",
-        "decision": "He continued the attack while allocating troops to the Prussian threat. The account describes actions, not an invented inner monologue."
+        "decision": "He continued the attack while allocating troops to the Prussian threat. The account describes actions, not an invented inner monologue.",
+        "forces": "The Army of the North, strong in artillery and cavalry, with the Imperial Guard as a final reserve. Grouchy's wing had been detached to follow the Prussians.",
+        "terrain": "Rain-soaked ground delayed the attack and hampered artillery and cavalry. Fortified farms broke up assaults before they reached the ridge.",
+        "logistics": "The campaign had to succeed quickly, before larger coalition armies reached France's frontiers.",
+        "outcome": "Defeat ended his return to power. Debate continues over the late start, Grouchy's movements and the use of the cavalry and the Guard."
       },
       {
         "name": "Arthur Wellesley, Duke of Wellington",
@@ -729,7 +1399,11 @@
         "known": "Blücher had promised support; his arrival depended on a difficult march.",
         "uncertainty": "The timing and scale of reinforcement.",
         "constraints": "A mixed army, an extended defensive line and repeated French pressure.",
-        "decision": "He defended the ridge and strongpoints, then advanced as the French attack failed."
+        "decision": "He defended the ridge and strongpoints, then advanced as the French attack failed.",
+        "forces": "A multinational army of British, Dutch-Belgian, Hanoverian, Brunswick and Nassau troops of uneven experience.",
+        "terrain": "The Mont-Saint-Jean ridge sheltered infantry behind its crest. Hougoumont and La Haye Sainte broke up attacks in front of the line.",
+        "logistics": "His communications ran north toward Brussels and the coast. Contact with the Prussians was essential to the plan.",
+        "outcome": "A combined Allied victory. British national narratives long underplayed the Prussian contribution."
       },
       {
         "name": "Gebhard Leberecht von Blücher",
@@ -737,7 +1411,11 @@
         "known": "Wellington intended to fight near Waterloo.",
         "uncertainty": "March delays and the situation when each corps arrived.",
         "constraints": "Reorganization after defeat and routes from Wavre.",
-        "decision": "He committed corps toward Waterloo. Their intervention turned a two-army encounter into a coalition victory."
+        "decision": "He committed corps toward Waterloo. Their intervention turned a two-army encounter into a coalition victory.",
+        "forces": "Prussian corps regrouping after Ligny. Bülow's corps, which had not fought at Ligny, led the march to Waterloo.",
+        "terrain": "Muddy lanes slowed the march from Wavre. Plancenoit became the focus of the Prussian attack on the French right.",
+        "logistics": "Retreating north to Wavre after Ligny, rather than east toward Prussia, kept the army in reach of Wellington while it regrouped.",
+        "outcome": "The Prussian attack and pursuit turned the French defeat into a rout. Some national narratives have underestimated this role."
       }
     ]
   },
@@ -769,72 +1447,172 @@
       {
         "title": "Historical background",
         "text": "After rapid Japanese expansion, the Combined Fleet planned an operation against Midway in June 1942.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Political and strategic context",
         "text": "Yamamoto hoped to draw American carriers into a decisive engagement. U.S. intelligence identified Midway as the principal objective.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Campaign objectives",
         "text": "Japan sought a favorable fleet battle; Nimitz sought to protect Midway while exploiting advance warning.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Geography and terrain",
         "text": "The engagement spread across open ocean around the atoll. Scouting aircraft connected widely separated forces.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Opposing forces and command structures",
         "text": "Nagumo led four Japanese fleet carriers. Fletcher and Spruance commanded three American carriers under Nimitz's operational direction.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Initial deployment",
         "text": "American carrier groups waited northeast of Midway; the Japanese carrier force approached to support the island attack.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Chronological phases",
         "text": "The 4 June island strike was followed by unsuccessful American attacks, devastating dive-bomber strikes and Japanese counterattacks.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
       },
       {
         "title": "Important command decisions",
         "text": "Fletcher authorized Spruance's early strike while retaining aircraft pending better information. Nagumo faced conflicting demands to rearm aircraft and recover the island strike.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Decisive turning points",
         "text": "American dive bombers disabled three Japanese carriers in the morning; Hiryu was mortally damaged later that day.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
       },
       {
         "title": "Outcome",
         "text": "Japan abandoned the invasion. Four Japanese carriers and the American Yorktown were lost.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Consequences",
         "text": "The result materially altered the carrier balance, but did not end the Pacific War.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Historical lessons",
         "text": "Intelligence created opportunity without removing uncertainty. Scouting, carrier deck operations, navigation and command decisions shaped whether it could be exploited.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Historiographical debates",
         "text": "A simple luck-versus-genius explanation obscures interacting causes. The schematic illustrates sequence, not verified ship tracks.",
-        "evidence": "uncertainty"
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Source references",
         "text": "NHHC provides chronology and intelligence context; the Naval War College study supports analysis of command decisions and incomplete information.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
       }
     ],
     "phases": [
@@ -866,7 +1644,11 @@
         "known": "Communications intelligence indicated the objective, approximate timing and force.",
         "uncertainty": "Contact reports did not initially locate every enemy carrier.",
         "constraints": "Three carriers, aircraft range and the time needed to launch and recover strikes.",
-        "decision": "Nimitz concentrated carriers near Midway; Fletcher and Spruance launched attacks based on scouting reports. These were decisions under uncertainty, not omniscient ambush management."
+        "decision": "Nimitz concentrated carriers near Midway; Fletcher and Spruance launched attacks based on scouting reports. These were decisions under uncertainty, not omniscient ambush management.",
+        "forces": "Three carriers, Enterprise, Hornet and the hastily repaired Yorktown, supported by land-based aircraft on Midway.",
+        "terrain": "Open ocean. Weather, distance and aircraft range governed when and where strikes could be launched.",
+        "logistics": "Yorktown's rapid repair after Coral Sea added a third carrier to the American force.",
+        "outcome": "Four Japanese fleet carriers were sunk and Yorktown was lost. Interpretations range from emphasizing intelligence to stressing the contingency of strike timing."
       },
       {
         "name": "Chūichi Nagumo",
@@ -874,7 +1656,11 @@
         "known": "The first attack reported a need for another island strike; later scouting identified American ships.",
         "uncertainty": "The enemy's carrier strength and immediate intentions.",
         "constraints": "Rearming, landing returning aircraft and defending the carriers competed for time.",
-        "decision": "He ordered preparations for another island strike before new contact information changed the situation. Reasons are reconstructed from operational records rather than private thoughts."
+        "decision": "He ordered preparations for another island strike before new contact information changed the situation. Reasons are reconstructed from operational records rather than private thoughts.",
+        "forces": "Four fleet carriers, Akagi, Kaga, Sōryū and Hiryū, with the main battleship force far to the rear.",
+        "terrain": "Operating within range of Midway's aircraft exposed his carriers to repeated attacks from the island as well as the American carriers.",
+        "logistics": "Flight decks could not at once recover the island strike, rearm aircraft and launch against ships; each choice took time.",
+        "outcome": "All four carriers were lost. Postwar accounts, including the story that the carriers were five minutes from launching, have been revised by later research."
       }
     ]
   },
@@ -901,72 +1687,166 @@
       {
         "title": "Historical background",
         "text": "Germany's 1942 southern offensive aimed toward the Caucasus oilfields and the Volga region after the failure to defeat the Soviet Union in 1941.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Political and strategic context",
         "text": "Army Group South was divided, creating competing demands between the Caucasus and Stalingrad.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Campaign objectives",
         "text": "The campaign combined resource objectives with control of a major transport corridor. Reducing it to a contest over the city's name is inadequate.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Geography and terrain",
         "text": "Stalingrad extended along the Volga. The surrounding steppe remained essential to the wider battle.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          }
+        ]
       },
       {
         "title": "Opposing forces and command structures",
         "text": "Paulus commanded the German Sixth Army. Soviet defense included the 62nd Army under Chuikov; Romanian formations held exposed sectors outside the city.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Initial deployment",
         "text": "German forces advanced toward the Volga while Soviet forces defended the approaches and then the urban area.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Chronological phases",
         "text": "The campaign moved from the summer advance through urban fighting to Operation Uranus and the destruction of the encircled force.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Important command decisions",
         "text": "Soviet learning and organizational reform helped make the counteroffensive possible; no single commander's personality adequately explains it.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Decisive turning points",
         "text": "The November Soviet offensive broke through the flanks and encircled the Sixth Army.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Outcome",
         "text": "The remaining German forces surrendered by 2 February 1943.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
       },
       {
         "title": "Consequences",
         "text": "The defeat damaged German strategic prospects and became a major psychological turning point.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Historical lessons",
         "text": "Examine an urban battlefield inside its operational setting. Tactical advances through a city can coexist with growing vulnerability outside it.",
-        "evidence": "interpretation"
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
       },
       {
         "title": "Historiographical debates",
         "text": "German and Soviet postwar narratives both simplified responsibility. Casualty totals depend on whether they cover the city, encirclement or wider campaign.",
-        "evidence": "uncertainty"
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
       },
       {
         "title": "Source references",
         "text": "The National WWII Museum emphasizes Soviet adaptation; USHMM places the defeat in the war's broader course. NAM supplies additional operational context.",
-        "evidence": "fact"
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
       }
     ],
     "phases": [
@@ -991,6 +1871,31 @@
         "description": "The encircled force is defeated in separate pockets."
       }
     ],
-    "perspectives": []
+    "perspectives": [
+      {
+        "name": "Friedrich Paulus and the German Sixth Army command",
+        "objective": "Take Stalingrad and secure the Volga flank of the German southern offensive.",
+        "known": "By autumn most of the city had been taken. The flanks were held by Romanian, Hungarian and Italian armies.",
+        "uncertainty": "The strength of Soviet forces gathering beyond the flanks.",
+        "constraints": "Overstretched supply lines, and orders from Hitler that limited withdrawal and, later, a breakout.",
+        "forces": "The Sixth Army, worn down by months of fighting in the city.",
+        "terrain": "Ruined city blocks favored defenders, while the open steppe beyond the flanks was thinly held.",
+        "logistics": "After the encirclement, air supply could not sustain the army, and its strength declined through December and January.",
+        "decision": "He kept fighting in the city and, once encircled, did not break out against orders. Whether a breakout was feasible remains debated.",
+        "outcome": "Surrender by 2 February 1943. About 91,000 survivors went into captivity."
+      },
+      {
+        "name": "Soviet command: Chuikov's 62nd Army and the Stavka planners",
+        "objective": "Hold the city to fix German forces in place while preparing a counteroffensive against the flanks.",
+        "known": "German strength was concentrated in the city, and the flanks were held by weaker allied armies.",
+        "uncertainty": "Whether the 62nd Army could hold its shrinking strip along the river until the counteroffensive was ready.",
+        "constraints": "Reinforcements had to cross the Volga under fire, and the offensive had to be prepared in secret.",
+        "forces": "The 62nd Army in the city, and fronts to the north and south strengthened by newly formed tank and mechanized corps.",
+        "terrain": "A narrow strip along the Volga inside the city, and open steppe for the encirclement.",
+        "logistics": "River crossings sustained the defense, while the counteroffensive required concentrating forces without detection.",
+        "decision": "The 62nd Army fought a layered, small-unit defense, and Operation Uranus struck the flanks in November. Credit for planning Uranus is disputed in memoirs.",
+        "outcome": "Encirclement and destruction of the Sixth Army, at very great cost to soldiers and civilians."
+      }
+    ]
   }
 ]

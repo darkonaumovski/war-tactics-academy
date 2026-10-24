@@ -28,7 +28,7 @@ The authoritative schema is `prisma/schema.prisma`; two checked-in SQL migration
 
 ## Editorial and normalized data
 
-`data/catalog.ts` supplies 29 engagements, 23 war/context indexes, 29 campaign indexes and seven era groupings. `data/commanders.json` supplies 44 profiles. `data/research.json` supplies eight detailed analyses, 32 ordered phases and seven perspectives. `data/learning.ts` contains the Foundations and Napoleonic courses and three scenarios, and combines them with the Classical Warfare and Industrial and World Wars courses from `data/additional-courses.ts`: four courses and 21 lessons in curriculum order. `data/media.json` holds nine curated media records, validated by `lib/media.ts`.
+`data/catalog.ts` supplies 29 engagements, 23 war/context indexes, 29 campaign indexes and seven era groupings. `data/commanders.json` supplies 44 profiles, each with a `details` object (command role, titles, principal commands, chronology, notable decision, setback). `data/war-details.ts` supplies participants, geographic scope and a chronology for all 23 wars; `data/catalog.ts` merges them into each war record. `data/research.json` supplies eight detailed analyses, 32 ordered phases and 15 perspectives across seven battles. Study sections may carry `refs`: indexes into the study's `sources` with an optional standard locator such as `6.102`. `data/learning.ts` contains the Foundations and Napoleonic courses and six scenarios, and combines them with the Classical Warfare and Industrial and World Wars courses from `data/additional-courses.ts`: four courses and 21 lessons in curriculum order. `data/media.json` holds nine curated media records, validated by `lib/media.ts`.
 
 JSON fields retain authored prose, perspective objects and render-ready domain records. These are deliberate read projections, not substitutes for the relational links. All seed writes are transactional. Unique IDs and joins make repeated seeds idempotent. The seed does not automatically prune removed entries; destructive editorial changes need explicit migrations or cleanup.
 
@@ -44,4 +44,4 @@ The versioned `wta-progress-v1` localStorage value contains bookmarks, at most s
 
 ## Expansion
 
-Add claim-level citations, source editions and page locators before expanding detailed analysis. Add explicit perspective/claim tables when editorial tooling requires querying them individually. Richer chronological dates need calendar and uncertainty fields. Future account tables must remain separate from the historical content graph.
+Section references are stored in the editorial projection rather than as relational rows. Add sentence-level citations, source editions and page locators before expanding detailed analysis. Add explicit perspective/claim tables when editorial tooling requires querying them individually. Richer chronological dates need calendar and uncertainty fields. Future account tables must remain separate from the historical content graph.

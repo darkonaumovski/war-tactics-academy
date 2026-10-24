@@ -4,6 +4,9 @@ export const sourceSchema = z.object({
   url: z.url().refine((v) => v.startsWith("https://")),
   publisher: z.string(),
 });
+const chronologySchema = z
+  .array(z.object({ date: z.string().min(1), event: z.string().min(1) }))
+  .min(1);
 export const researchSchema = z.array(
   z.object({
     slug: z.string(),
@@ -14,6 +17,15 @@ export const researchSchema = z.array(
           title: z.string(),
           text: z.string(),
           evidence: z.enum(["fact", "interpretation", "uncertainty"]),
+          refs: z
+            .array(
+              z.object({
+                source: z.number().int().nonnegative(),
+                locator: z.string().min(1).optional(),
+              }),
+            )
+            .min(1)
+            .optional(),
         }),
       )
       .min(14),
@@ -35,6 +47,10 @@ export const researchSchema = z.array(
           uncertainty: z.string(),
           constraints: z.string(),
           decision: z.string(),
+          forces: z.string().min(1).optional(),
+          terrain: z.string().min(1).optional(),
+          logistics: z.string().min(1).optional(),
+          outcome: z.string().min(1).optional(),
         }),
       )
       .optional(),
@@ -56,6 +72,30 @@ export const commanderSchema = z.array(
     battleSlugs: z.array(z.string()),
     source: sourceSchema,
     editorialStatus: z.string().optional(),
+    details: z
+      .object({
+        category: z.enum([
+          "Ruler-commander",
+          "Field commander",
+          "Naval commander",
+          "Staff planner",
+          "Coalition and theater commander",
+        ]),
+        titles: z.string().min(1),
+        principalCommands: z.array(z.string().min(1)).min(1),
+        timeline: chronologySchema.min(4),
+        notableDecision: z.string().min(1),
+        setback: z.string().min(1),
+      })
+      .optional(),
+  }),
+);
+export const warDetailsSchema = z.record(
+  z.string(),
+  z.object({
+    participants: z.array(z.string().min(1)).min(2),
+    geography: z.string().min(1),
+    developments: chronologySchema.min(3),
   }),
 );
 const questionSchema = z

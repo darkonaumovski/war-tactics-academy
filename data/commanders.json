@@ -17,7 +17,51 @@
       "url": "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/",
       "publisher": "Encyclopaedia Iranica"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "King of Macedon (336–323 BCE); hegemon of the League of Corinth; claimed the Achaemenid kingship",
+      "principalCommands": [
+        "Macedonian royal army and allied Greek contingents, 334–323 BCE",
+        "Siege operations at Tyre and Gaza, 332 BCE"
+      ],
+      "timeline": [
+        {
+          "date": "356 BCE",
+          "event": "Born at Pella, son of Philip II"
+        },
+        {
+          "date": "336 BCE",
+          "event": "Succeeds Philip II after his assassination"
+        },
+        {
+          "date": "334 BCE",
+          "event": "Crosses into Asia; battle at the Granicus"
+        },
+        {
+          "date": "333 BCE",
+          "event": "Defeats Darius III at Issus"
+        },
+        {
+          "date": "332 BCE",
+          "event": "Captures Tyre after a long siege; enters Egypt"
+        },
+        {
+          "date": "331 BCE",
+          "event": "Battle of Gaugamela"
+        },
+        {
+          "date": "326 BCE",
+          "event": "Battle at the Hydaspes; army refuses to advance beyond the Hyphasis"
+        },
+        {
+          "date": "323 BCE",
+          "event": "Dies at Babylon"
+        }
+      ],
+      "notableDecision": "After Issus he moved south along the Levantine coast to take Phoenician ports and Egypt, including the long siege of Tyre, before turning inland against Darius III. The choice denied bases to the Persian fleet at the cost of time.",
+      "setback": "At the Hyphasis (326 BCE) his army refused to march farther east. The return march through Gedrosia caused severe losses; ancient figures for them are unreliable."
+    }
   },
   {
     "slug": "hannibal-barca",
@@ -37,7 +81,55 @@
       "url": "https://classicalstudies.org/hannibal-historian-ticinus-and-cannae",
       "publisher": "Society for Classical Studies"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Carthaginian general; commander in Iberia from 221 BCE; later suffete (chief magistrate) of Carthage, c. 196 BCE",
+      "principalCommands": [
+        "Carthaginian army in Iberia and Italy, 221–203 BCE",
+        "Carthaginian army at Zama, 202 BCE"
+      ],
+      "timeline": [
+        {
+          "date": "247 BCE",
+          "event": "Born (traditional date), son of Hamilcar Barca"
+        },
+        {
+          "date": "221 BCE",
+          "event": "Takes command of Carthaginian forces in Iberia"
+        },
+        {
+          "date": "219 BCE",
+          "event": "Besieges and takes Saguntum"
+        },
+        {
+          "date": "218 BCE",
+          "event": "Crosses the Alps into Italy; victory at the Trebia"
+        },
+        {
+          "date": "217 BCE",
+          "event": "Victory at Lake Trasimene"
+        },
+        {
+          "date": "216 BCE",
+          "event": "Victory at Cannae"
+        },
+        {
+          "date": "203 BCE",
+          "event": "Recalled to Africa"
+        },
+        {
+          "date": "202 BCE",
+          "event": "Defeated by Scipio at Zama"
+        },
+        {
+          "date": "c. 183–181 BCE",
+          "event": "Dies in exile in Bithynia"
+        }
+      ],
+      "notableDecision": "In 218 BCE he invaded Italy overland across the Alps rather than waiting for Rome to carry the war to Iberia or Africa. The march brought the war to Roman territory but cost heavy losses and left him far from reinforcement.",
+      "setback": "Despite his victories, Rome's alliance system largely held in central Italy. He could not take Rome, and he was defeated at Zama in 202 BCE."
+    }
   },
   {
     "slug": "scipio-africanus",
@@ -57,7 +149,51 @@
       "url": "https://www.nationalgallery.org.uk/paintings/glossary/scipio",
       "publisher": "National Gallery"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Publius Cornelius Scipio Africanus; proconsul in Hispania (210–206 BCE); consul in 205 and 194 BCE",
+      "principalCommands": [
+        "Roman forces in Hispania, 210–206 BCE",
+        "Roman invasion of Africa, 204–202 BCE"
+      ],
+      "timeline": [
+        {
+          "date": "236 BCE",
+          "event": "Born into the patrician Cornelii Scipiones"
+        },
+        {
+          "date": "216 BCE",
+          "event": "Survives Cannae as a military tribune, according to Livy"
+        },
+        {
+          "date": "210 BCE",
+          "event": "Receives proconsular command in Hispania"
+        },
+        {
+          "date": "209 BCE",
+          "event": "Captures New Carthage (date debated: 210 or 209 BCE)"
+        },
+        {
+          "date": "206 BCE",
+          "event": "Victory at Ilipa"
+        },
+        {
+          "date": "204 BCE",
+          "event": "Lands in Africa"
+        },
+        {
+          "date": "202 BCE",
+          "event": "Defeats Hannibal at Zama"
+        },
+        {
+          "date": "c. 183 BCE",
+          "event": "Dies at Liternum after leaving public life"
+        }
+      ],
+      "notableDecision": "He struck New Carthage, the main Carthaginian base in Iberia, before seeking battle with the Carthaginian field armies. Its capture gave Rome a port, stores and hostages.",
+      "setback": "Political prosecutions at Rome in the 180s BCE, the so-called trials of the Scipios, ended his public career; he withdrew to Liternum."
+    }
   },
   {
     "slug": "julius-caesar",
@@ -73,11 +209,55 @@
     "legacy": "Conquest involved mass violence and enslavement. His dictatorship contributed to the Republic's collapse.",
     "battleSlugs": ["alesia"],
     "source": {
-      "title": "César, tous les chemins mènent à Rome: exhibition dossier",
-      "url": "https://www.alesia.com/wp-content/uploads/2025/04/BD-ALESIA-DOSSIER_DE_PRESSE-2025-Pages-Simple.pdf",
-      "publisher": "MuséoParc Alésia"
+      "title": "Julius Caesar — Jona Lendering",
+      "url": "https://www.livius.org/articles/person/caesar/",
+      "publisher": "Livius.org"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "Gaius Julius Caesar; consul (59 BCE); proconsul of Gaul and Illyricum (58–49 BCE); dictator",
+      "principalCommands": [
+        "Proconsular army in Gaul, 58–50 BCE",
+        "Armies of the civil war, 49–45 BCE"
+      ],
+      "timeline": [
+        {
+          "date": "100 BCE",
+          "event": "Born at Rome"
+        },
+        {
+          "date": "59 BCE",
+          "event": "Consul"
+        },
+        {
+          "date": "58 BCE",
+          "event": "Begins Gallic command against the Helvetii"
+        },
+        {
+          "date": "55–54 BCE",
+          "event": "Bridges the Rhine; expeditions to Britain"
+        },
+        {
+          "date": "52 BCE",
+          "event": "Repulsed at Gergovia; besieges and takes Alesia"
+        },
+        {
+          "date": "49 BCE",
+          "event": "Crosses the Rubicon, beginning civil war"
+        },
+        {
+          "date": "48 BCE",
+          "event": "Defeats Pompey at Pharsalus"
+        },
+        {
+          "date": "44 BCE",
+          "event": "Assassinated in Rome"
+        }
+      ],
+      "notableDecision": "At Alesia he built lines of fortification facing both the besieged settlement and the expected relief army, instead of lifting the siege.",
+      "setback": "He was repulsed at Gergovia in 52 BCE. His own account presents the reverse as troops exceeding his orders, which is self-interested testimony."
+    }
   },
   {
     "slug": "belisarius",
@@ -97,7 +277,56 @@
       "url": "https://cgsc.contentdm.oclc.org/digital/api/collection/p4013coll2/id/963/download",
       "publisher": "U.S. Army Command and General Staff College"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Magister militum per Orientem (master of soldiers in the East); general of Justinian I",
+      "principalCommands": [
+        "Eastern field army against Sasanian Persia, 527–531",
+        "Expedition against the Vandal kingdom, 533–534",
+        "Italian campaigns against the Ostrogoths, 535–540 and 544–549"
+      ],
+      "timeline": [
+        {
+          "date": "c. 500",
+          "event": "Born in the Balkans"
+        },
+        {
+          "date": "530",
+          "event": "Victory over a Sasanian army at Dara"
+        },
+        {
+          "date": "531",
+          "event": "Defeated at Callinicum"
+        },
+        {
+          "date": "532",
+          "event": "Helps suppress the Nika riots in Constantinople"
+        },
+        {
+          "date": "533",
+          "event": "Victories at Ad Decimum and Tricamarum; Carthage taken"
+        },
+        {
+          "date": "537–538",
+          "event": "Holds Rome against a year-long Gothic siege"
+        },
+        {
+          "date": "540",
+          "event": "Enters Ravenna"
+        },
+        {
+          "date": "559",
+          "event": "Repels a Kutrigur raid near Constantinople"
+        },
+        {
+          "date": "565",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "In 533 he landed in Africa and advanced directly on Carthage with a relatively small expeditionary force, exploiting divisions within the Vandal kingdom.",
+      "setback": "He was defeated at Callinicum in 531. His second Italian command (544–549) was poorly resourced and failed to end the war."
+    }
   },
   {
     "slug": "khalid-ibn-al-walid",
@@ -117,7 +346,52 @@
       "url": "https://www.uop.edu.jo/En/News/pages/%D8%BA%D9%88%D8%A7%D9%86%D9%85%D8%A9-%D8%AA%D8%B4%D8%A7%D8%B1%D9%83-%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%8A%D9%82%D8%A7%D8%AF-%D8%B4%D8%B9%D9%84%D8%A9-%D8%A7%D9%84%D9%8A%D8%B1%D9%85%D9%88%D9%83.aspx",
       "publisher": "University of Petra"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Commander in the early Islamic conquests; called Sayf Allah (“Sword of God”) in Islamic tradition",
+      "principalCommands": [
+        "Campaigns of the Ridda wars, 632–633",
+        "Operations in Iraq, 633–634",
+        "Syrian campaign under the Rashidun caliphs, 634–636"
+      ],
+      "timeline": [
+        {
+          "date": "c. 592",
+          "event": "Born in Mecca, of the Makhzum clan of Quraysh"
+        },
+        {
+          "date": "625",
+          "event": "Fights on the Meccan side at Uhud"
+        },
+        {
+          "date": "c. 629",
+          "event": "Embraces Islam"
+        },
+        {
+          "date": "632–633",
+          "event": "Commands in the Ridda wars"
+        },
+        {
+          "date": "633",
+          "event": "Campaigns in Iraq"
+        },
+        {
+          "date": "634",
+          "event": "Marches from Iraq to join the Muslim armies in Syria"
+        },
+        {
+          "date": "636",
+          "event": "Battle of the Yarmuk"
+        },
+        {
+          "date": "642",
+          "event": "Dies (Homs or Medina; traditions differ)"
+        }
+      ],
+      "notableDecision": "Traditional accounts describe a rapid desert march from Iraq to Syria in 634. The narratives, compiled later, disagree about its route and timing.",
+      "setback": "The caliph Umar removed him from supreme command. Accounts differ on the reasons and on when it happened."
+    }
   },
   {
     "slug": "genghis-khan",
@@ -137,7 +411,48 @@
       "url": "https://www.smb.museum/en/museums-institutions/museumsinsel-berlin/exhibitions/detail/genghis-khan/",
       "publisher": "National Museums in Berlin"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "Temüjin, proclaimed Chinggis Khan in 1206; founder of the Mongol Empire",
+      "principalCommands": [
+        "Unification of the Mongolian steppe confederations, to 1206",
+        "Campaigns against the Jin, from 1211",
+        "Campaign against the Khwarazmian Empire, 1219–1223"
+      ],
+      "timeline": [
+        {
+          "date": "c. 1162",
+          "event": "Born in the Mongolian steppe"
+        },
+        {
+          "date": "1206",
+          "event": "Proclaimed Chinggis Khan at an assembly (quriltai)"
+        },
+        {
+          "date": "1209–1210",
+          "event": "The Western Xia kingdom submits"
+        },
+        {
+          "date": "1211",
+          "event": "Invades the Jin empire"
+        },
+        {
+          "date": "1215",
+          "event": "Zhongdu (Beijing) falls"
+        },
+        {
+          "date": "1219–1221",
+          "event": "Destroys the Khwarazmian Empire"
+        },
+        {
+          "date": "1227",
+          "event": "Dies during the campaign against the Western Xia"
+        }
+      ],
+      "notableDecision": "He reorganized his followers into decimal units led by appointed loyal commanders, weakening the authority of older lineage leaders.",
+      "setback": "Before 1206 he suffered defeats, including by his rival Jamukha. The Secret History, the main source, is a literary work and its dates are uncertain."
+    }
   },
   {
     "slug": "subutai",
@@ -157,7 +472,48 @@
       "url": "https://doi.org/10.1163/22127453-12341323",
       "publisher": "Journal of Chinese Military History, Brill"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Senior Mongol general (ba'atur); of the Uriankhai",
+      "principalCommands": [
+        "Western raid with Jebe, 1220–1223",
+        "Final campaign against the Jin, 1230–1234",
+        "Western campaign into Rus' and Hungary, 1236–1242"
+      ],
+      "timeline": [
+        {
+          "date": "c. 1175",
+          "event": "Born among the Uriankhai"
+        },
+        {
+          "date": "1221–1223",
+          "event": "Leads, with Jebe, a raid through the Caucasus and the steppe"
+        },
+        {
+          "date": "1223",
+          "event": "Victory over Rus' and Cuman forces at the Kalka River"
+        },
+        {
+          "date": "1232–1233",
+          "event": "Besieges Kaifeng, the Jin capital"
+        },
+        {
+          "date": "1237–1240",
+          "event": "Campaigns in Rus' under Batu"
+        },
+        {
+          "date": "1241",
+          "event": "Battle of Mohi in Hungary"
+        },
+        {
+          "date": "1248",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "At Mohi in 1241 Mongol forces forced the crossing of the Sajó while another detachment crossed elsewhere. Sources differ on Subutai's precise role and on his disputes with Batu.",
+      "setback": "Sources record heavy losses at the Sajó bridge and friction with Batu. The western campaign halted in 1242; historians debate whether Ögedei's death was the main reason."
+    }
   },
   {
     "slug": "saladin",
@@ -177,7 +533,55 @@
       "url": "https://www.worldhistory.org/timeline/Saladin/",
       "publisher": "World History Encyclopedia"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "Salah al-Din Yusuf ibn Ayyub; vizier of Egypt (1169); sultan and founder of the Ayyubid dynasty",
+      "principalCommands": [
+        "Ayyubid armies of Egypt and Syria, 1174–1193",
+        "Campaign of 1187 against the Kingdom of Jerusalem"
+      ],
+      "timeline": [
+        {
+          "date": "1137/38",
+          "event": "Born in Tikrit"
+        },
+        {
+          "date": "1169",
+          "event": "Becomes vizier of Fatimid Egypt"
+        },
+        {
+          "date": "1171",
+          "event": "Ends the Fatimid caliphate"
+        },
+        {
+          "date": "1174",
+          "event": "Takes Damascus after Nur al-Din's death"
+        },
+        {
+          "date": "1177",
+          "event": "Defeated at Montgisard"
+        },
+        {
+          "date": "1187",
+          "event": "Victory at Hattin; Jerusalem surrenders"
+        },
+        {
+          "date": "1191",
+          "event": "Acre falls to the Third Crusade; defeat at Arsuf"
+        },
+        {
+          "date": "1192",
+          "event": "Truce with Richard I (Treaty of Jaffa)"
+        },
+        {
+          "date": "1193",
+          "event": "Dies in Damascus"
+        }
+      ],
+      "notableDecision": "In July 1187 he attacked Tiberias, drawing the Frankish field army into a march across dry ground toward Hattin.",
+      "setback": "He was defeated at Montgisard in 1177. In 1191 he could not prevent the fall of Acre and was defeated at Arsuf."
+    }
   },
   {
     "slug": "richard-i",
@@ -197,7 +601,47 @@
       "url": "https://www.royal.uk/richard-i",
       "publisher": "The Royal Household"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "King of England, Duke of Normandy and Aquitaine, Count of Anjou (1189–1199)",
+      "principalCommands": [
+        "Angevin forces in the Third Crusade, 1190–1192",
+        "Wars with Philip II of France, 1194–1199"
+      ],
+      "timeline": [
+        {
+          "date": "1157",
+          "event": "Born in Oxford"
+        },
+        {
+          "date": "1189",
+          "event": "Crowned king"
+        },
+        {
+          "date": "1191",
+          "event": "Takes Cyprus; Acre surrenders; orders the killing of Muslim prisoners when ransom terms break down"
+        },
+        {
+          "date": "1191",
+          "event": "Victory at Arsuf"
+        },
+        {
+          "date": "1192",
+          "event": "Relieves Jaffa; truce with Saladin"
+        },
+        {
+          "date": "1192–1194",
+          "event": "Held captive in Germany until ransomed"
+        },
+        {
+          "date": "1199",
+          "event": "Dies of a crossbow wound at Châlus-Chabrol"
+        }
+      ],
+      "notableDecision": "He twice approached Jerusalem (1191–1192) but withdrew, reportedly judging that a captured city could not be held once crusaders went home.",
+      "setback": "Captured on his return from crusade, he was held for ransom from 1192 to 1194. Philip II used his absence to make gains in Normandy."
+    }
   },
   {
     "slug": "mehmed-ii",
@@ -217,7 +661,55 @@
       "url": "https://www.sakipsabancimuzesi.org/en/collections-and-research/search/1355",
       "publisher": "Sakıp Sabancı Museum"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "Ottoman sultan (1444–1446 and 1451–1481); called Fatih, “the Conqueror”",
+      "principalCommands": [
+        "Siege of Constantinople, 1453",
+        "Balkan and Anatolian campaigns, 1450s–1470s"
+      ],
+      "timeline": [
+        {
+          "date": "1432",
+          "event": "Born in Edirne"
+        },
+        {
+          "date": "1444",
+          "event": "First, brief reign"
+        },
+        {
+          "date": "1451",
+          "event": "Accedes again as sultan"
+        },
+        {
+          "date": "1452",
+          "event": "Builds the Rumeli Hisarı fortress on the Bosphorus"
+        },
+        {
+          "date": "1453",
+          "event": "Takes Constantinople on 29 May"
+        },
+        {
+          "date": "1456",
+          "event": "Siege of Belgrade fails"
+        },
+        {
+          "date": "1473",
+          "event": "Defeats Uzun Hasan at Otlukbeli"
+        },
+        {
+          "date": "1480",
+          "event": "Siege of Rhodes fails; Otranto taken"
+        },
+        {
+          "date": "1481",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "In April 1453 he had ships hauled overland into the Golden Horn, bypassing the chain that closed the harbor.",
+      "setback": "His siege of Belgrade in 1456 failed and he was wounded. Rhodes also held against his forces in 1480."
+    }
   },
   {
     "slug": "yi-sun-sin",
@@ -237,7 +729,47 @@
       "url": "https://vcm.museum.go.kr/ENG/contents/E0202010000.do?exhiSpThemId=3225173&listType=gallery&menuId=current&schM=view",
       "publisher": "National Museum of Korea"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Naval commander",
+      "titles": "Joseon admiral; Supreme Naval Commander of the Three Provinces (Samdo Sugun Tongjesa)",
+      "principalCommands": [
+        "Left Jeolla Naval Command, from 1591",
+        "Joseon fleet in the Imjin War, 1592–1598"
+      ],
+      "timeline": [
+        {
+          "date": "1545",
+          "event": "Born in Hanseong (Seoul)"
+        },
+        {
+          "date": "1591",
+          "event": "Appointed commander of the Left Jeolla Navy"
+        },
+        {
+          "date": "1592",
+          "event": "Victories at Okpo, Sacheon and Hansan Island"
+        },
+        {
+          "date": "1593",
+          "event": "Appointed supreme naval commander"
+        },
+        {
+          "date": "1597",
+          "event": "Dismissed and imprisoned; reinstated after the fleet's destruction at Chilcheollyang"
+        },
+        {
+          "date": "1597",
+          "event": "Victory at Myeongnyang"
+        },
+        {
+          "date": "1598",
+          "event": "Killed at the battle of Noryang"
+        }
+      ],
+      "notableDecision": "At Myeongnyang in 1597 he fought with a much-reduced fleet in a narrow channel where tidal currents limited the enemy's numerical advantage.",
+      "setback": "In 1597 he was dismissed and imprisoned after court intrigue and his refusal of an order he judged a trap. The fleet was then destroyed at Chilcheollyang under his successor."
+    }
   },
   {
     "slug": "oda-nobunaga",
@@ -257,7 +789,51 @@
       "url": "https://www.rekihaku.gifu.gifu.jp/en/exhibition/",
       "publisher": "Gifu City Museum of History"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "Daimyō of Owari; dominant power in central Japan from 1568",
+      "principalCommands": [
+        "Oda forces in Owari, from the 1550s",
+        "Campaigns in central Japan, 1568–1582"
+      ],
+      "timeline": [
+        {
+          "date": "1534",
+          "event": "Born in Owari province"
+        },
+        {
+          "date": "1560",
+          "event": "Defeats Imagawa Yoshimoto at Okehazama"
+        },
+        {
+          "date": "1568",
+          "event": "Enters Kyoto with Ashikaga Yoshiaki"
+        },
+        {
+          "date": "1571",
+          "event": "Destroys the Enryakuji temple complex on Mount Hiei, killing many people"
+        },
+        {
+          "date": "1573",
+          "event": "Expels the shogun Yoshiaki"
+        },
+        {
+          "date": "1575",
+          "event": "Oda–Tokugawa victory at Nagashino"
+        },
+        {
+          "date": "1580",
+          "event": "Ishiyama Honganji surrenders after a long siege"
+        },
+        {
+          "date": "1582",
+          "event": "Dies at Honnōji when his general Akechi Mitsuhide turns against him"
+        }
+      ],
+      "notableDecision": "At Nagashino in 1575 the allied Oda–Tokugawa army fought from field fortifications with massed arquebuses. The famous image of rotating volley ranks is debated by historians.",
+      "setback": "In 1582 Akechi Mitsuhide attacked him at Honnōji in Kyoto, where he died."
+    }
   },
   {
     "slug": "tokugawa-ieyasu",
@@ -277,7 +853,56 @@
       "url": "https://www.visit-shizuoka.com/en/event/detail_687.html",
       "publisher": "Shizuoka City / Shizuoka City History Museum"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "Daimyō; shogun (1603–1605); founder of the Tokugawa shogunate",
+      "principalCommands": [
+        "Tokugawa forces in the Sengoku wars",
+        "Eastern army at Sekigahara, 1600",
+        "Osaka campaigns, 1614–1615"
+      ],
+      "timeline": [
+        {
+          "date": "1543",
+          "event": "Born at Okazaki"
+        },
+        {
+          "date": "1560",
+          "event": "Gains independence from the Imagawa after Okehazama"
+        },
+        {
+          "date": "1573",
+          "event": "Heavily defeated by Takeda Shingen at Mikatagahara"
+        },
+        {
+          "date": "1584",
+          "event": "Fights Toyotomi Hideyoshi at Komaki and Nagakute"
+        },
+        {
+          "date": "1590",
+          "event": "Moves to the Kantō, based at Edo"
+        },
+        {
+          "date": "1600",
+          "event": "Victory at Sekigahara"
+        },
+        {
+          "date": "1603",
+          "event": "Appointed shogun"
+        },
+        {
+          "date": "1615",
+          "event": "Osaka summer campaign destroys the Toyotomi"
+        },
+        {
+          "date": "1616",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "Before Sekigahara he secured defections and promises of neutrality from lords nominally in the western army.",
+      "setback": "Takeda Shingen defeated him heavily at Mikatagahara in January 1573."
+    }
   },
   {
     "slug": "gustavus-adolphus",
@@ -297,7 +922,47 @@
       "url": "https://www.vasamuseet.se/en/explore/vasa-history/gustav-ii-adolf",
       "publisher": "Vasa Museum"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "Gustav II Adolf, King of Sweden (1611–1632)",
+      "principalCommands": [
+        "Swedish forces against Denmark, Russia and Poland–Lithuania, 1611–1629",
+        "Swedish army in Germany, 1630–1632"
+      ],
+      "timeline": [
+        {
+          "date": "1594",
+          "event": "Born in Stockholm"
+        },
+        {
+          "date": "1611",
+          "event": "Accedes to the throne"
+        },
+        {
+          "date": "1617",
+          "event": "Peace of Stolbovo with Russia"
+        },
+        {
+          "date": "1621",
+          "event": "Takes Riga"
+        },
+        {
+          "date": "1630",
+          "event": "Lands in Pomerania"
+        },
+        {
+          "date": "1631",
+          "event": "Victory at Breitenfeld"
+        },
+        {
+          "date": "1632",
+          "event": "Repulsed at the Alte Veste; killed at Lützen"
+        }
+      ],
+      "notableDecision": "He entered the German war in 1630, financed in part by French subsidies (Treaty of Bärwalde, 1631), and built alliances with Protestant princes.",
+      "setback": "His assault on Wallenstein's fortified camp at the Alte Veste near Nuremberg failed in 1632. He was killed at Lützen later that year."
+    }
   },
   {
     "slug": "john-churchill",
@@ -317,7 +982,58 @@
       "url": "https://www.nam.ac.uk/explore/marlborough",
       "publisher": "National Army Museum"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "1st Duke of Marlborough; Captain-General of English (from 1707 British) forces",
+      "principalCommands": [
+        "Anglo-Dutch and allied armies in the Low Countries and Germany, 1702–1711"
+      ],
+      "timeline": [
+        {
+          "date": "1650",
+          "event": "Born in Devon"
+        },
+        {
+          "date": "1685",
+          "event": "Second in command at Sedgemoor"
+        },
+        {
+          "date": "1688",
+          "event": "Defects to William of Orange"
+        },
+        {
+          "date": "1702",
+          "event": "Captain-General; created duke"
+        },
+        {
+          "date": "1704",
+          "event": "March to the Danube; victory at Blenheim"
+        },
+        {
+          "date": "1706",
+          "event": "Victory at Ramillies"
+        },
+        {
+          "date": "1708",
+          "event": "Victory at Oudenarde; siege of Lille"
+        },
+        {
+          "date": "1709",
+          "event": "Costly victory at Malplaquet"
+        },
+        {
+          "date": "1711",
+          "event": "Dismissed"
+        },
+        {
+          "date": "1722",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "In 1704 he marched an allied army from the Low Countries to the Danube to support Austria against France and Bavaria.",
+      "setback": "Malplaquet in 1709 was a very costly allied victory. A change of government in Britain brought his dismissal in 1711."
+    }
   },
   {
     "slug": "frederick-the-great",
@@ -337,7 +1053,51 @@
       "url": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/frederick-the-great",
       "publisher": "George Washington's Mount Vernon"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "Frederick II, King in (from 1772 of) Prussia (1740–1786)",
+      "principalCommands": [
+        "Prussian army in the Silesian Wars, 1740–1745",
+        "Prussian army in the Seven Years' War, 1756–1763"
+      ],
+      "timeline": [
+        {
+          "date": "1712",
+          "event": "Born in Berlin"
+        },
+        {
+          "date": "1740",
+          "event": "Accedes; invades Silesia"
+        },
+        {
+          "date": "1745",
+          "event": "Victory at Hohenfriedberg"
+        },
+        {
+          "date": "1756",
+          "event": "Invades Saxony"
+        },
+        {
+          "date": "1757",
+          "event": "Defeated at Kolín; victories at Rossbach and Leuthen"
+        },
+        {
+          "date": "1759",
+          "event": "Severe defeat at Kunersdorf"
+        },
+        {
+          "date": "1763",
+          "event": "Peace of Hubertusburg"
+        },
+        {
+          "date": "1786",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "In December 1740 he invaded Silesia after Maria Theresa's accession, without a declaration of war.",
+      "setback": "He suffered severe defeats at Kolín (1757) and Kunersdorf (1759). Prussia survived partly because Russia left the war after Empress Elizabeth died in 1762."
+    }
   },
   {
     "slug": "nader-shah",
@@ -357,7 +1117,48 @@
       "url": "https://www.iranicaonline.org/articles/nader-shah/",
       "publisher": "Encyclopaedia Iranica"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "Commander for the Safavid Tahmasp II; Shah of Iran (1736–1747)",
+      "principalCommands": [
+        "Campaign against Hotaki Afghan rule in Iran, 1729",
+        "Wars with the Ottoman Empire, 1730s–1740s",
+        "Invasion of Mughal India, 1738–1739"
+      ],
+      "timeline": [
+        {
+          "date": "1688",
+          "event": "Born in Khorasan"
+        },
+        {
+          "date": "1729",
+          "event": "Defeats Ashraf Hotaki, ending Afghan rule in Isfahan"
+        },
+        {
+          "date": "1736",
+          "event": "Crowned shah on the Mughan plain"
+        },
+        {
+          "date": "1738",
+          "event": "Takes Kandahar"
+        },
+        {
+          "date": "1739",
+          "event": "Defeats the Mughal army at Karnal; troops massacre inhabitants of Delhi"
+        },
+        {
+          "date": "1741–1742",
+          "event": "Daghestan campaign fails"
+        },
+        {
+          "date": "1747",
+          "event": "Assassinated by his own officers"
+        }
+      ],
+      "notableDecision": "In 1738–1739 he advanced through the Khyber Pass toward Delhi, defeating the Mughal army at Karnal.",
+      "setback": "His campaign in Daghestan failed. His increasingly harsh rule ended with his assassination by his own officers in 1747."
+    }
   },
   {
     "slug": "shivaji",
@@ -377,7 +1178,52 @@
       "url": "https://nsktu.ac.in/storage/2022/11/CDOE-Study-PRAK-Sastri-Paper.9-Indian-History-1526-1947-A.D.pdf",
       "publisher": "National Sanskrit University"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "Maratha ruler; crowned Chhatrapati in 1674",
+      "principalCommands": ["Maratha forces in the western Deccan, 1640s–1680"],
+      "timeline": [
+        {
+          "date": "1630",
+          "event": "Born at Shivneri (traditional date; 1627 is also cited)"
+        },
+        {
+          "date": "1659",
+          "event": "Kills the Bijapur general Afzal Khan at Pratapgad"
+        },
+        {
+          "date": "1663",
+          "event": "Night attack on the Mughal governor Shaista Khan at Pune"
+        },
+        {
+          "date": "1664",
+          "event": "Raids Surat"
+        },
+        {
+          "date": "1665",
+          "event": "Treaty of Purandar with the Mughals"
+        },
+        {
+          "date": "1666",
+          "event": "Detained at Agra; escapes"
+        },
+        {
+          "date": "1674",
+          "event": "Crowned at Raigad"
+        },
+        {
+          "date": "1677–1678",
+          "event": "Campaign in the south, including Gingee"
+        },
+        {
+          "date": "1680",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "He relied on hill forts and mobile light forces in the Western Ghats rather than seeking set-piece battle with larger imperial armies.",
+      "setback": "He was forced to cede forts to the Mughals in the Treaty of Purandar (1665) and was detained at Agra in 1666."
+    }
   },
   {
     "slug": "alexander-suvorov",
@@ -397,7 +1243,48 @@
       "url": "https://suvorovmuseum.ru/en/",
       "publisher": "State Memorial Museum of Alexander Suvorov"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Field marshal (1794); generalissimo (1799); Count Rymniksky; Prince Italiysky",
+      "principalCommands": [
+        "Russian forces in wars against the Ottoman Empire, 1773–1790",
+        "Suppression of the Kościuszko Uprising, 1794",
+        "Austro-Russian army in Italy and Switzerland, 1799"
+      ],
+      "timeline": [
+        {
+          "date": "1730",
+          "event": "Born in Moscow"
+        },
+        {
+          "date": "1773–1774",
+          "event": "Victories at Turtukai and Kozludzha"
+        },
+        {
+          "date": "1789",
+          "event": "Victories at Focșani and Rymnik"
+        },
+        {
+          "date": "1790",
+          "event": "Storms Izmail"
+        },
+        {
+          "date": "1794",
+          "event": "Storms Praga, the Warsaw suburb; many inhabitants are killed"
+        },
+        {
+          "date": "1799",
+          "event": "Victories at the Trebbia and Novi; crosses the Swiss Alps"
+        },
+        {
+          "date": "1800",
+          "event": "Dies in St Petersburg"
+        }
+      ],
+      "notableDecision": "In December 1790 he ordered the assault on Izmail after brief preparation rather than conducting a prolonged siege.",
+      "setback": "In 1799 the allied plan left his army isolated in Switzerland after Korsakov's defeat at Zurich, forcing a costly withdrawal through the Alps."
+    }
   },
   {
     "slug": "napoleon-bonaparte",
@@ -417,7 +1304,65 @@
       "url": "https://www.nam.ac.uk/explore/battle-waterloo",
       "publisher": "National Army Museum"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "General; First Consul (1799–1804); Emperor of the French (1804–1814 and 1815)",
+      "principalCommands": [
+        "Army of Italy, 1796–1797",
+        "Army of the Orient (Egypt), 1798–1799",
+        "Grande Armée, 1805–1814",
+        "Army of the North, 1815"
+      ],
+      "timeline": [
+        {
+          "date": "1769",
+          "event": "Born in Ajaccio, Corsica"
+        },
+        {
+          "date": "1796–1797",
+          "event": "Italian campaign"
+        },
+        {
+          "date": "1798",
+          "event": "Invades Egypt"
+        },
+        {
+          "date": "1799",
+          "event": "Seizes power in the coup of Brumaire"
+        },
+        {
+          "date": "1804",
+          "event": "Crowned emperor"
+        },
+        {
+          "date": "1805",
+          "event": "Victory at Austerlitz"
+        },
+        {
+          "date": "1812",
+          "event": "Invasion of Russia"
+        },
+        {
+          "date": "1813",
+          "event": "Defeated at Leipzig"
+        },
+        {
+          "date": "1814",
+          "event": "Abdicates; exiled to Elba"
+        },
+        {
+          "date": "1815",
+          "event": "Returns; defeated at Waterloo"
+        },
+        {
+          "date": "1821",
+          "event": "Dies on St Helena"
+        }
+      ],
+      "notableDecision": "At Austerlitz he accepted battle in a position that invited the allies to attack his right, while holding forces ready to strike the Pratzen Heights.",
+      "setback": "The 1812 invasion of Russia destroyed most of the Grande Armée. Defeats at Leipzig (1813) and Waterloo (1815) followed."
+    }
   },
   {
     "slug": "arthur-wellesley",
@@ -437,7 +1382,56 @@
       "url": "https://www.nam.ac.uk/explore/duke-wellington",
       "publisher": "National Army Museum"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "1st Duke of Wellington; field marshal; prime minister (1828–1830)",
+      "principalCommands": [
+        "British forces in India, 1797–1805",
+        "British–Portuguese army in the Peninsular War, 1808–1814",
+        "Allied army in the Netherlands, 1815"
+      ],
+      "timeline": [
+        {
+          "date": "1769",
+          "event": "Born in Dublin"
+        },
+        {
+          "date": "1803",
+          "event": "Victory at Assaye"
+        },
+        {
+          "date": "1808",
+          "event": "Victory at Vimeiro"
+        },
+        {
+          "date": "1809",
+          "event": "Battle of Talavera"
+        },
+        {
+          "date": "1810",
+          "event": "Holds the Lines of Torres Vedras"
+        },
+        {
+          "date": "1812",
+          "event": "Victory at Salamanca; siege of Burgos fails"
+        },
+        {
+          "date": "1813",
+          "event": "Victory at Vitoria"
+        },
+        {
+          "date": "1815",
+          "event": "Victory at Waterloo with Blücher"
+        },
+        {
+          "date": "1852",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "In 1810 he built the Lines of Torres Vedras and stripped the countryside ahead of Masséna's advance. The strategy halted the French but imposed severe hardship on Portuguese civilians.",
+      "setback": "His siege of Burgos failed in 1812 and was followed by a difficult retreat."
+    }
   },
   {
     "slug": "mikhail-kutuzov",
@@ -457,7 +1451,48 @@
       "url": "https://museum-artillery.ru/en/main-exposition/mikhail-kutuzov-and-the-war-of-1812.html",
       "publisher": "Military-Historical Museum of Artillery, Engineer and Signal Corps"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Field marshal; Prince of Smolensk",
+      "principalCommands": [
+        "Russian forces against the Ottoman Empire, 1770s–1812",
+        "Russian army in the 1805 campaign",
+        "Commander-in-chief of the Russian armies, 1812–1813"
+      ],
+      "timeline": [
+        {
+          "date": "1745",
+          "event": "Born in St Petersburg"
+        },
+        {
+          "date": "1774",
+          "event": "Severely wounded in the Crimea"
+        },
+        {
+          "date": "1790",
+          "event": "Serves under Suvorov at Izmail"
+        },
+        {
+          "date": "1805",
+          "event": "Commands the Russian army in the Austerlitz campaign"
+        },
+        {
+          "date": "1812",
+          "event": "Treaty of Bucharest with the Ottomans; appointed commander-in-chief"
+        },
+        {
+          "date": "1812",
+          "event": "Battle of Borodino; abandons Moscow; pursues the retreating French"
+        },
+        {
+          "date": "1813",
+          "event": "Dies at Bunzlau in Silesia"
+        }
+      ],
+      "notableDecision": "After Borodino in September 1812 he abandoned Moscow in order to preserve the army.",
+      "setback": "Austerlitz in 1805 ended in defeat while the allied emperors were present. Accounts differ on how far he opposed the allied plan."
+    }
   },
   {
     "slug": "ulysses-s-grant",
@@ -477,7 +1512,52 @@
       "url": "https://www.loc.gov/exhibits/civil-war-in-america/biographies/ulysses-s-grant.html",
       "publisher": "Library of Congress"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "Lieutenant general and commanding general of the U.S. Army (1864–1869); 18th President of the United States (1869–1877)",
+      "principalCommands": [
+        "Union forces in the western theater, 1861–1863",
+        "Military Division of the Mississippi, 1863–1864",
+        "All Union armies, 1864–1865"
+      ],
+      "timeline": [
+        {
+          "date": "1822",
+          "event": "Born in Point Pleasant, Ohio"
+        },
+        {
+          "date": "1846–1848",
+          "event": "Serves in the Mexican–American War"
+        },
+        {
+          "date": "1862",
+          "event": "Takes Forts Henry and Donelson; battle of Shiloh"
+        },
+        {
+          "date": "1863",
+          "event": "Vicksburg surrenders on 4 July; victory at Chattanooga"
+        },
+        {
+          "date": "1864",
+          "event": "Promoted lieutenant general; Overland Campaign"
+        },
+        {
+          "date": "1865",
+          "event": "Lee surrenders at Appomattox"
+        },
+        {
+          "date": "1869",
+          "event": "Becomes president"
+        },
+        {
+          "date": "1885",
+          "event": "Dies after completing his memoirs"
+        }
+      ],
+      "notableDecision": "In May 1863 he moved his army below Vicksburg, cut loose from a conventional supply line and defeated Confederate forces inland before besieging the city.",
+      "setback": "He was surprised at Shiloh in April 1862. The 1864 Overland Campaign, including Cold Harbor, brought very heavy casualties."
+    }
   },
   {
     "slug": "robert-e-lee",
@@ -497,7 +1577,52 @@
       "url": "https://www.nps.gov/arho/learn/historyculture/robert-e-lee-and-slavery.htm",
       "publisher": "National Park Service"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "General; commander of the Confederate Army of Northern Virginia (1862–1865); Confederate general-in-chief (1865)",
+      "principalCommands": ["Army of Northern Virginia, 1862–1865"],
+      "timeline": [
+        {
+          "date": "1807",
+          "event": "Born in Virginia"
+        },
+        {
+          "date": "1846–1848",
+          "event": "Serves in the Mexican–American War"
+        },
+        {
+          "date": "1859",
+          "event": "Leads the force that captures John Brown at Harpers Ferry"
+        },
+        {
+          "date": "1861",
+          "event": "Resigns his U.S. commission and joins the Confederacy"
+        },
+        {
+          "date": "1862",
+          "event": "Takes command of the Army of Northern Virginia; Seven Days, Second Manassas and Antietam"
+        },
+        {
+          "date": "1863",
+          "event": "Chancellorsville; defeated at Gettysburg"
+        },
+        {
+          "date": "1864–1865",
+          "event": "Siege of Petersburg"
+        },
+        {
+          "date": "1865",
+          "event": "Surrenders at Appomattox"
+        },
+        {
+          "date": "1870",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "On 3 July 1863 at Gettysburg he ordered the massed assault on the Union center later known as Pickett's Charge.",
+      "setback": "His invasions of the North ended at Antietam (1862) and Gettysburg (1863). He fought for a Confederacy founded to preserve slavery, a context central to assessing his career."
+    }
   },
   {
     "slug": "william-t-sherman",
@@ -517,7 +1642,51 @@
       "url": "https://www.nps.gov/vick/learn/historyculture/william-tecumseh-sherman.htm",
       "publisher": "National Park Service"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Major general; commander of the Military Division of the Mississippi (1864–1865); commanding general of the U.S. Army (1869–1883)",
+      "principalCommands": [
+        "Atlanta campaign, 1864",
+        "March to the Sea and Carolinas campaign, 1864–1865"
+      ],
+      "timeline": [
+        {
+          "date": "1820",
+          "event": "Born in Lancaster, Ohio"
+        },
+        {
+          "date": "1861",
+          "event": "Brigade command at First Bull Run; relieved in Kentucky"
+        },
+        {
+          "date": "1862",
+          "event": "Division command at Shiloh"
+        },
+        {
+          "date": "1863",
+          "event": "Vicksburg and Chattanooga campaigns"
+        },
+        {
+          "date": "1864",
+          "event": "Takes Atlanta on 2 September; marches to Savannah"
+        },
+        {
+          "date": "1865",
+          "event": "Carolinas campaign; Johnston surrenders at Bennett Place"
+        },
+        {
+          "date": "1869–1883",
+          "event": "Commanding general during the wars against Plains nations"
+        },
+        {
+          "date": "1891",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "In November–December 1864 he left Atlanta without a secure supply line, living off the country and deliberately destroying economic resources across Georgia.",
+      "setback": "His assault at Kennesaw Mountain failed in June 1864. In 1861 he was relieved in Kentucky amid doubts about his judgment."
+    }
   },
   {
     "slug": "helmuth-von-moltke",
@@ -537,7 +1706,56 @@
       "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781444338232.wbeow422",
       "publisher": "Wiley Encyclopedia of War"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Staff planner",
+      "titles": "Chief of the Prussian (later German) General Staff (1857–1888); field marshal",
+      "principalCommands": [
+        "Planning and direction of the war against Denmark, 1864",
+        "Austro-Prussian War, 1866",
+        "Franco-Prussian War, 1870–1871"
+      ],
+      "timeline": [
+        {
+          "date": "1800",
+          "event": "Born in Parchim, Mecklenburg"
+        },
+        {
+          "date": "1835–1839",
+          "event": "Military adviser in the Ottoman army"
+        },
+        {
+          "date": "1857",
+          "event": "Becomes chief of the General Staff"
+        },
+        {
+          "date": "1864",
+          "event": "Shapes the later conduct of the war against Denmark"
+        },
+        {
+          "date": "1866",
+          "event": "Victory at Königgrätz"
+        },
+        {
+          "date": "1870",
+          "event": "Encirclement and capitulation at Sedan"
+        },
+        {
+          "date": "1871",
+          "event": "Paris capitulates; German Empire proclaimed"
+        },
+        {
+          "date": "1888",
+          "event": "Retires"
+        },
+        {
+          "date": "1891",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "In 1866 he used railways to deploy separate armies that converged on the battlefield, accepting the risk of dispersal.",
+      "setback": "Coordination nearly failed before Königgrätz. After Sedan the war continued through the siege of Paris and resistance by new French armies."
+    }
   },
   {
     "slug": "shaka",
@@ -557,7 +1775,40 @@
       "url": "https://sahistory.org.za/place/heritage-route-king-shaka",
       "publisher": "South African History Online"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "King of the Zulu (c. 1816–1828)",
+      "principalCommands": ["Zulu amabutho (age-regiments), c. 1816–1828"],
+      "timeline": [
+        {
+          "date": "c. 1787",
+          "event": "Born, son of Senzangakhona"
+        },
+        {
+          "date": "c. 1816",
+          "event": "Becomes Zulu chief with Mthethwa support"
+        },
+        {
+          "date": "c. 1818",
+          "event": "Fights the Ndwandwe (Gqokli Hill in tradition)"
+        },
+        {
+          "date": "c. 1819",
+          "event": "Defeats the Ndwandwe at the Mhlatuze River"
+        },
+        {
+          "date": "1824",
+          "event": "Receives traders from Port Natal"
+        },
+        {
+          "date": "1828",
+          "event": "Assassinated by Dingane and Mhlangana"
+        }
+      ],
+      "notableDecision": "Traditions credit him with reorganizing the age-regiments and emphasizing close combat. Historians debate how much was innovation and how much continued existing practice.",
+      "setback": "He was assassinated in 1828. Later accounts of his rule were shaped by colonial writers and remain contested."
+    }
   },
   {
     "slug": "menelik-ii",
@@ -577,7 +1828,47 @@
       "url": "https://blogs.loc.gov/international-collections/2020/03/emperor-menelik-ii-of-ethiopia-and-the-battle-of-adwa-a-pictorial-history/",
       "publisher": "Library of Congress"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "King of Shewa (1865–1889); Emperor of Ethiopia (1889–1913)",
+      "principalCommands": [
+        "Shewan and imperial Ethiopian armies",
+        "Ethiopian coalition army at Adwa, 1896"
+      ],
+      "timeline": [
+        {
+          "date": "1844",
+          "event": "Born in Shewa"
+        },
+        {
+          "date": "1865",
+          "event": "Escapes Tewodros II's custody; king of Shewa"
+        },
+        {
+          "date": "1889",
+          "event": "Becomes emperor; signs the Treaty of Wuchale with Italy"
+        },
+        {
+          "date": "1893",
+          "event": "Repudiates the Wuchale treaty"
+        },
+        {
+          "date": "1896",
+          "event": "Defeats the Italian army at Adwa on 1 March"
+        },
+        {
+          "date": "1896",
+          "event": "Treaty of Addis Ababa recognizes Ethiopian independence"
+        },
+        {
+          "date": "1913",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "Before the confrontation with Italy he mobilized a coalition of regional rulers and acquired modern rifles and artillery.",
+      "setback": "His expansion into southern and western regions in the 1880s–1890s involved conquest and coercion of other peoples. Illness after 1906 led to a succession crisis."
+    }
   },
   {
     "slug": "togo-heihachiro",
@@ -597,7 +1888,46 @@
       "url": "https://www.ndl.go.jp/portrait/e/datas/141",
       "publisher": "National Diet Library, Japan"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Naval commander",
+      "titles": "Admiral; commander-in-chief of the Combined Fleet (1903–1905); fleet admiral (gensui, 1913)",
+      "principalCommands": [
+        "Combined Fleet in the Russo-Japanese War, 1904–1905"
+      ],
+      "timeline": [
+        {
+          "date": "1848",
+          "event": "Born in Kagoshima, Satsuma"
+        },
+        {
+          "date": "1871–1878",
+          "event": "Naval training in Britain"
+        },
+        {
+          "date": "1894",
+          "event": "As captain of Naniwa, sinks the transport Kowshing"
+        },
+        {
+          "date": "1903",
+          "event": "Commander-in-chief of the Combined Fleet"
+        },
+        {
+          "date": "1904",
+          "event": "Attack on Port Arthur; battle of the Yellow Sea"
+        },
+        {
+          "date": "1905",
+          "event": "Victory at Tsushima, 27–28 May"
+        },
+        {
+          "date": "1934",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "At Tsushima he turned his battle line across the Russian advance under fire, bringing concentrated gunfire to bear.",
+      "setback": "The February 1904 attack on Port Arthur did not destroy the Russian squadron, and at the Yellow Sea in August 1904 most Russian ships escaped back to port."
+    }
   },
   {
     "slug": "ferdinand-foch",
@@ -617,7 +1947,52 @@
       "url": "https://encyclopedia.1914-1918-online.net/wp-content/uploads/2023/01/ams/958119/pdf/1914-1918-Online-foch_ferdinand-2015-11-18.pdf",
       "publisher": "International Encyclopedia of the First World War"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "Marshal of France (1918); General-in-Chief of the Allied Armies on the Western Front (1918)",
+      "principalCommands": [
+        "French Ninth Army, 1914",
+        "Northern Army Group, 1915–1916",
+        "Allied armies on the Western Front, 1918"
+      ],
+      "timeline": [
+        {
+          "date": "1851",
+          "event": "Born in Tarbes"
+        },
+        {
+          "date": "1908",
+          "event": "Commandant of the École supérieure de guerre"
+        },
+        {
+          "date": "1914",
+          "event": "Commands the Ninth Army at the Marne"
+        },
+        {
+          "date": "1916",
+          "event": "Army group command on the Somme; removed in December"
+        },
+        {
+          "date": "1917",
+          "event": "Chief of the French General Staff"
+        },
+        {
+          "date": "1918",
+          "event": "Coordinating role agreed at Doullens (26 March); Allied supreme command"
+        },
+        {
+          "date": "1918",
+          "event": "Directs the Hundred Days offensives; armistice signed at Compiègne"
+        },
+        {
+          "date": "1929",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "From August 1918 he coordinated a sequence of limited Allied offensives along the front rather than seeking one decisive breakthrough.",
+      "setback": "His prewar emphasis on the offensive contributed to costly French doctrine in 1914. He was removed from army group command after the Somme."
+    }
   },
   {
     "slug": "douglas-haig",
@@ -637,7 +2012,52 @@
       "url": "https://www.nam.ac.uk/explore/douglas-haig",
       "publisher": "National Army Museum"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "Field marshal; commander-in-chief of the British Expeditionary Force (1915–1919); 1st Earl Haig",
+      "principalCommands": [
+        "I Corps, 1914",
+        "First Army, 1915",
+        "British Expeditionary Force, 1915–1918"
+      ],
+      "timeline": [
+        {
+          "date": "1861",
+          "event": "Born in Edinburgh"
+        },
+        {
+          "date": "1898",
+          "event": "Serves in the Sudan campaign at Omdurman"
+        },
+        {
+          "date": "1914",
+          "event": "Commands I Corps at Mons and First Ypres"
+        },
+        {
+          "date": "1915",
+          "event": "Battle of Loos; appointed commander-in-chief in December"
+        },
+        {
+          "date": "1916",
+          "event": "Somme offensive opens on 1 July"
+        },
+        {
+          "date": "1917",
+          "event": "Third Ypres (Passchendaele)"
+        },
+        {
+          "date": "1918",
+          "event": "German spring offensive; Allied advance from Amiens"
+        },
+        {
+          "date": "1928",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "He continued the Somme (1916) and Third Ypres (1917) offensives for months despite very heavy losses.",
+      "setback": "The first day of the Somme brought the British Army's heaviest single-day casualties. Historians still debate his responsibility for the losses and his share in the 1918 victories."
+    }
   },
   {
     "slug": "aleksei-brusilov",
@@ -657,7 +2077,48 @@
       "url": "https://encyclopedia.1914-1918-online.net/wp-content/uploads/2023/01/ams/957522/pdf/1914-1918-Online-brusilov_aleksei_alekseevich-2018-04-24.pdf",
       "publisher": "International Encyclopedia of the First World War"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "General; commander of the Southwestern Front (1916–1917); Russian commander-in-chief (May–July 1917)",
+      "principalCommands": [
+        "Eighth Army, 1914–1916",
+        "Southwestern Front, 1916–1917",
+        "Russian Army, 1917"
+      ],
+      "timeline": [
+        {
+          "date": "1853",
+          "event": "Born in Tiflis"
+        },
+        {
+          "date": "1877–1878",
+          "event": "Serves in the Russo-Turkish War"
+        },
+        {
+          "date": "1914",
+          "event": "Commands the Eighth Army in Galicia"
+        },
+        {
+          "date": "1916",
+          "event": "Takes over the Southwestern Front; offensive opens in June"
+        },
+        {
+          "date": "1917",
+          "event": "Commander-in-chief; the July offensive collapses and he is replaced"
+        },
+        {
+          "date": "1920",
+          "event": "Serves the Red Army in an advisory role"
+        },
+        {
+          "date": "1926",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "In June 1916 he attacked at many points across a broad front after careful preparation, so the enemy could not identify a single main effort.",
+      "setback": "The 1916 offensive could not be sustained as losses mounted. As commander-in-chief in 1917 he presided over the failed July offensive."
+    }
   },
   {
     "slug": "mustafa-kemal-ataturk",
@@ -677,7 +2138,56 @@
       "url": "https://www.awm.gov.au/articles/encyclopedia/ataturk",
       "publisher": "Australian War Memorial"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Ottoman officer; commander in the Turkish War of Independence; first President of the Republic of Turkey (1923–1938)",
+      "principalCommands": [
+        "19th Division at Gallipoli, 1915",
+        "Corps and army commands in the Caucasus and Palestine, 1916–1918",
+        "Nationalist forces, 1919–1922"
+      ],
+      "timeline": [
+        {
+          "date": "1881",
+          "event": "Born in Thessaloniki"
+        },
+        {
+          "date": "1911–1912",
+          "event": "Fights against Italy in Libya"
+        },
+        {
+          "date": "1915",
+          "event": "Commands the 19th Division against the Anzac landing; Anafarta battles"
+        },
+        {
+          "date": "1918",
+          "event": "Commands the Seventh Army during the collapse in Palestine"
+        },
+        {
+          "date": "1919",
+          "event": "Lands at Samsun to organize resistance"
+        },
+        {
+          "date": "1921",
+          "event": "Battle of the Sakarya"
+        },
+        {
+          "date": "1922",
+          "event": "Great Offensive; the advance ends with the burning of Smyrna (İzmir) and mass flight of its Greek and Armenian inhabitants"
+        },
+        {
+          "date": "1923",
+          "event": "Republic proclaimed; becomes president"
+        },
+        {
+          "date": "1938",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "On 25 April 1915 he committed his division against the Anzac landing on the heights above the beaches without waiting for full orders.",
+      "setback": "His Seventh Army was swept up in the Ottoman collapse in Palestine in 1918. Responsibility for the destruction at Smyrna in 1922 remains disputed."
+    }
   },
   {
     "slug": "georgy-zhukov",
@@ -697,7 +2207,53 @@
       "url": "https://museum-vf.ru/en/exhibition/vystavka-georgiy-zhukov-en/",
       "publisher": "Museum of Military Uniforms"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "Marshal of the Soviet Union (1943); Deputy Supreme Commander (from August 1942); minister of defense (1955–1957)",
+      "principalCommands": [
+        "1st Army Group at Khalkhin Gol, 1939",
+        "Western Front, 1941–1942",
+        "Stavka coordination at Stalingrad and Kursk",
+        "1st Belorussian Front, 1944–1945"
+      ],
+      "timeline": [
+        {
+          "date": "1896",
+          "event": "Born in Kaluga province"
+        },
+        {
+          "date": "1939",
+          "event": "Defeats Japanese forces at Khalkhin Gol"
+        },
+        {
+          "date": "1941",
+          "event": "Chief of the General Staff (January–July); directs the defense of Moscow"
+        },
+        {
+          "date": "1942",
+          "event": "Deputy Supreme Commander; Uranus and Mars operations"
+        },
+        {
+          "date": "1943",
+          "event": "Coordinates fronts at Kursk"
+        },
+        {
+          "date": "1945",
+          "event": "Takes Berlin"
+        },
+        {
+          "date": "1957",
+          "event": "Dismissed as defense minister"
+        },
+        {
+          "date": "1974",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "With Aleksandr Vasilevsky and the Stavka, he helped plan the November 1942 encirclement at Stalingrad (Operation Uranus).",
+      "setback": "Operation Mars against the Rzhev salient (November–December 1942) failed with heavy losses. Operations under his direction were often very costly in lives."
+    }
   },
   {
     "slug": "konstantin-rokossovsky",
@@ -717,7 +2273,58 @@
       "url": "https://www.nationalww2museum.org/war/articles/allied-responses-warsaw-uprising-1944",
       "publisher": "The National WWII Museum"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Marshal of the Soviet Union (1944); later Marshal of Poland and Polish minister of defense (1949–1956)",
+      "principalCommands": [
+        "16th Army, 1941–1942",
+        "Don Front, 1942–1943",
+        "Central Front at Kursk, 1943",
+        "1st Belorussian Front, 1944",
+        "2nd Belorussian Front, 1944–1945"
+      ],
+      "timeline": [
+        {
+          "date": "1896",
+          "event": "Born (Warsaw or Velikiye Luki; sources differ)"
+        },
+        {
+          "date": "1937",
+          "event": "Arrested during the purges"
+        },
+        {
+          "date": "1940",
+          "event": "Released"
+        },
+        {
+          "date": "1941",
+          "event": "Commands an army in the defense of Moscow"
+        },
+        {
+          "date": "1942",
+          "event": "Takes command of the Don Front"
+        },
+        {
+          "date": "1943",
+          "event": "Operation Ring and Paulus's surrender; defends the northern face of the Kursk salient"
+        },
+        {
+          "date": "1944",
+          "event": "Operation Bagration"
+        },
+        {
+          "date": "1949",
+          "event": "Becomes Polish minister of defense"
+        },
+        {
+          "date": "1968",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "At Kursk he prepared deep, layered defenses on the northern face to absorb the German attack before counterattacking.",
+      "setback": "He was imprisoned from 1937 to 1940. In August 1944 his front halted before Warsaw during the Warsaw Uprising; whether exhaustion or political choice explains the halt remains debated."
+    }
   },
   {
     "slug": "dwight-d-eisenhower",
@@ -737,7 +2344,53 @@
       "url": "https://www.nps.gov/eise/learn/historyculture/d-day.htm",
       "publisher": "National Park Service"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "General of the Army (1944); Supreme Commander, Allied Expeditionary Force (1944–1945); 34th President of the United States (1953–1961)",
+      "principalCommands": [
+        "Allied invasion of North Africa (Operation Torch), 1942",
+        "Allied forces in the Mediterranean, 1943",
+        "SHAEF, 1944–1945",
+        "NATO Supreme Allied Commander Europe, 1951–1952"
+      ],
+      "timeline": [
+        {
+          "date": "1890",
+          "event": "Born in Denison, Texas"
+        },
+        {
+          "date": "1915",
+          "event": "Graduates from West Point"
+        },
+        {
+          "date": "1942",
+          "event": "Commands Operation Torch"
+        },
+        {
+          "date": "1943",
+          "event": "Sicily and Italy; named Supreme Commander in December"
+        },
+        {
+          "date": "1944",
+          "event": "D-Day on 6 June; German Ardennes offensive in December"
+        },
+        {
+          "date": "1945",
+          "event": "Germany surrenders in May"
+        },
+        {
+          "date": "1953–1961",
+          "event": "President of the United States"
+        },
+        {
+          "date": "1969",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "He confirmed 6 June 1944 for the Normandy landings on the basis of a forecast break in the weather.",
+      "setback": "Inexperienced American forces were defeated at Kasserine Pass (February 1943), and the German Ardennes offensive surprised Allied commanders in December 1944."
+    }
   },
   {
     "slug": "bernard-montgomery",
@@ -757,7 +2410,51 @@
       "url": "https://www.nam.ac.uk/explore/bernard-montgomery",
       "publisher": "National Army Museum"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Field marshal (1944); 1st Viscount Montgomery of Alamein",
+      "principalCommands": [
+        "Eighth Army, 1942–1943",
+        "21st Army Group, 1944–1945, including Allied ground command in Normandy"
+      ],
+      "timeline": [
+        {
+          "date": "1887",
+          "event": "Born in London"
+        },
+        {
+          "date": "1914",
+          "event": "Severely wounded at Méteren"
+        },
+        {
+          "date": "1940",
+          "event": "Commands a division in the retreat to Dunkirk"
+        },
+        {
+          "date": "1942",
+          "event": "Takes command of the Eighth Army; Second Battle of El Alamein"
+        },
+        {
+          "date": "1943",
+          "event": "Tunisia, Sicily and Italy"
+        },
+        {
+          "date": "1944",
+          "event": "Normandy; Operation Market Garden fails at Arnhem"
+        },
+        {
+          "date": "1945",
+          "event": "Accepts German surrender at Lüneburg Heath on 4 May"
+        },
+        {
+          "date": "1976",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "He delayed the Alamein offensive until reinforcement and preparation were complete in October 1942.",
+      "setback": "Operation Market Garden (September 1944) failed to secure a Rhine crossing at Arnhem. His relations with American commanders were often strained."
+    }
   },
   {
     "slug": "george-s-patton",
@@ -777,7 +2474,45 @@
       "url": "https://www.nationalww2museum.org/war/articles/general-george-s-patton-world-war-ii",
       "publisher": "The National WWII Museum"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "General; commander of the U.S. Third Army (1944–1945)",
+      "principalCommands": [
+        "Western Task Force, Operation Torch, 1942",
+        "II Corps in Tunisia, 1943",
+        "Seventh Army in Sicily, 1943",
+        "Third Army, 1944–1945"
+      ],
+      "timeline": [
+        {
+          "date": "1885",
+          "event": "Born in San Gabriel, California"
+        },
+        {
+          "date": "1918",
+          "event": "Leads a tank brigade at Saint-Mihiel"
+        },
+        {
+          "date": "1942",
+          "event": "Commands the Western Task Force in Operation Torch"
+        },
+        {
+          "date": "1943",
+          "event": "Takes over II Corps; commands the Seventh Army in Sicily; strikes soldiers in hospital"
+        },
+        {
+          "date": "1944",
+          "event": "Third Army breaks out in August; relieves Bastogne in December"
+        },
+        {
+          "date": "1945",
+          "event": "Removed as military governor of Bavaria; dies after a road accident"
+        }
+      ],
+      "notableDecision": "In December 1944 he turned the Third Army north to attack toward Bastogne during the German Ardennes offensive.",
+      "setback": "He was sidelined after striking soldiers suffering from combat stress in Sicily (1943). In 1945 he was removed as governor of Bavaria after remarks minimizing denazification."
+    }
   },
   {
     "slug": "erwin-rommel",
@@ -797,7 +2532,52 @@
       "url": "https://encyclopedia.ushmm.org/content/en/article/erwin-rommel",
       "publisher": "United States Holocaust Memorial Museum"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Field marshal (1942); commander of German and Italian forces in North Africa; commander of Army Group B (1944)",
+      "principalCommands": [
+        "7th Panzer Division, 1940",
+        "Afrika Korps and Panzer Army Africa, 1941–1943",
+        "Army Group B, 1944"
+      ],
+      "timeline": [
+        {
+          "date": "1891",
+          "event": "Born in Heidenheim"
+        },
+        {
+          "date": "1917",
+          "event": "Wins distinction at Caporetto"
+        },
+        {
+          "date": "1937",
+          "event": "Publishes Infanterie greift an"
+        },
+        {
+          "date": "1940",
+          "event": "Commands the 7th Panzer Division in France"
+        },
+        {
+          "date": "1941",
+          "event": "Arrives in North Africa"
+        },
+        {
+          "date": "1942",
+          "event": "Takes Tobruk; defeated at El Alamein"
+        },
+        {
+          "date": "1944",
+          "event": "Commands Army Group B in France; wounded in July"
+        },
+        {
+          "date": "1944",
+          "event": "Forced to take poison on 14 October after being linked to the plot against Hitler"
+        }
+      ],
+      "notableDecision": "In November 1942, after a delay caused by Hitler's order to stand fast, he withdrew from Alamein to save what remained of his army.",
+      "setback": "He was decisively defeated at El Alamein. He served the Nazi regime, and his reputation for a ‘clean war’ is largely a contested postwar construction."
+    }
   },
   {
     "slug": "chester-w-nimitz",
@@ -813,11 +2593,55 @@
     "legacy": "His career illustrates command through institutions, staffs and trusted subordinates rather than battlefield micromanagement.",
     "battleSlugs": ["midway"],
     "source": {
-      "title": "Midway's Strategic Lessons",
-      "url": "https://www.history.navy.mil/content/history/nhhc/research/library/online-reading-room/title-list-alphabetically/m/midways-strategic-lessons.html",
+      "title": "Fleet Admiral Chester W. Nimitz",
+      "url": "https://www.history.navy.mil/browse-by-topic/people/chiefs-of-naval-operations/fleet-admiral-chester-w--nimitz.html",
       "publisher": "Naval History and Heritage Command"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Naval commander",
+      "titles": "Fleet admiral (1944); Commander in Chief, Pacific Fleet and Pacific Ocean Areas (1941–1945); Chief of Naval Operations (1945–1947)",
+      "principalCommands": [
+        "U.S. Pacific Fleet, 1941–1945",
+        "Pacific Ocean Areas (joint command), 1942–1945"
+      ],
+      "timeline": [
+        {
+          "date": "1885",
+          "event": "Born in Fredericksburg, Texas"
+        },
+        {
+          "date": "1905",
+          "event": "Graduates from the Naval Academy"
+        },
+        {
+          "date": "1941",
+          "event": "Takes command of the Pacific Fleet after Pearl Harbor"
+        },
+        {
+          "date": "1942",
+          "event": "Coral Sea and Midway"
+        },
+        {
+          "date": "1943–1944",
+          "event": "Central Pacific offensive, including Tarawa and the Marianas"
+        },
+        {
+          "date": "1945",
+          "event": "Signs the Japanese surrender aboard USS Missouri"
+        },
+        {
+          "date": "1945–1947",
+          "event": "Chief of Naval Operations"
+        },
+        {
+          "date": "1966",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "He committed his carriers to meet the Japanese Midway operation on the basis of codebreakers' assessments of its objective and timing.",
+      "setback": "Early 1942 brought heavy losses, including the carrier Lexington at Coral Sea. Later amphibious assaults such as Tarawa (1943) were very costly."
+    }
   },
   {
     "slug": "isoroku-yamamoto",
@@ -837,7 +2661,52 @@
       "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1942/midway.html",
       "publisher": "Naval History and Heritage Command"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Naval commander",
+      "titles": "Admiral; Commander-in-Chief of the Combined Fleet (1939–1943)",
+      "principalCommands": ["Combined Fleet, 1939–1943"],
+      "timeline": [
+        {
+          "date": "1884",
+          "event": "Born in Nagaoka"
+        },
+        {
+          "date": "1905",
+          "event": "Wounded at Tsushima"
+        },
+        {
+          "date": "1919–1921",
+          "event": "Studies at Harvard"
+        },
+        {
+          "date": "1926–1928",
+          "event": "Naval attaché in Washington"
+        },
+        {
+          "date": "1936–1939",
+          "event": "Vice minister of the navy; opposes alliance with Germany"
+        },
+        {
+          "date": "1939",
+          "event": "Commander-in-chief of the Combined Fleet"
+        },
+        {
+          "date": "1941",
+          "event": "Attack on Pearl Harbor"
+        },
+        {
+          "date": "1942",
+          "event": "Midway operation fails"
+        },
+        {
+          "date": "1943",
+          "event": "Killed when his aircraft is shot down over Bougainville"
+        }
+      ],
+      "notableDecision": "In 1941 he pressed the Naval General Staff to accept his plan to attack the U.S. fleet at Pearl Harbor.",
+      "setback": "At Midway (June 1942) his complex, dispersed plan failed and four Japanese fleet carriers were lost."
+    }
   },
   {
     "slug": "douglas-macarthur",
@@ -857,7 +2726,57 @@
       "url": "https://www.thenmusa.org/biographies/douglas-macarthur/",
       "publisher": "National Museum of the United States Army"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "General of the Army (1944); Supreme Commander for the Allied Powers in Japan (1945–1951); commander of the United Nations Command in Korea (1950–1951)",
+      "principalCommands": [
+        "U.S. Army Forces in the Far East, 1941–1942",
+        "Southwest Pacific Area, 1942–1945",
+        "Allied occupation of Japan, 1945–1951",
+        "United Nations Command, Korea, 1950–1951"
+      ],
+      "timeline": [
+        {
+          "date": "1880",
+          "event": "Born in Little Rock, Arkansas"
+        },
+        {
+          "date": "1918",
+          "event": "Brigade command in France"
+        },
+        {
+          "date": "1930–1935",
+          "event": "Army Chief of Staff; disperses the Bonus Army (1932)"
+        },
+        {
+          "date": "1941–1942",
+          "event": "Defense of the Philippines; ordered to Australia"
+        },
+        {
+          "date": "1944",
+          "event": "Returns to the Philippines at Leyte"
+        },
+        {
+          "date": "1945–1951",
+          "event": "Directs the occupation of Japan"
+        },
+        {
+          "date": "1950",
+          "event": "Inchon landing"
+        },
+        {
+          "date": "1951",
+          "event": "Relieved by President Truman"
+        },
+        {
+          "date": "1964",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "In September 1950 he landed at Inchon, behind the North Korean armies.",
+      "setback": "Many of his aircraft were destroyed on the ground in the Philippines in December 1941 despite warning. In 1950 he failed to anticipate Chinese intervention, and he was relieved in 1951."
+    }
   },
   {
     "slug": "vo-nguyen-giap",
@@ -877,6 +2796,50 @@
       "url": "https://en.baochinhphu.vn/biography-of-general-vo-nguyen-giap-11117953.htm",
       "publisher": "Viet Nam Government News"
     },
-    "editorialStatus": "catalog-summary"
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "General (1948); commander-in-chief of the People's Army of Vietnam; minister of defense",
+      "principalCommands": [
+        "Viet Minh forces and the People's Army of Vietnam, 1944–1954",
+        "PAVN high command in the war against the United States and the Republic of Vietnam"
+      ],
+      "timeline": [
+        {
+          "date": "1911",
+          "event": "Born in Quảng Bình province"
+        },
+        {
+          "date": "1944",
+          "event": "Forms the Armed Propaganda Brigade"
+        },
+        {
+          "date": "1946",
+          "event": "War with France begins"
+        },
+        {
+          "date": "1950",
+          "event": "Border campaign around Cao Bằng"
+        },
+        {
+          "date": "1951",
+          "event": "Costly defeats in the Red River Delta, including Vĩnh Yên"
+        },
+        {
+          "date": "1954",
+          "event": "Victory at Điện Biên Phủ"
+        },
+        {
+          "date": "1968",
+          "event": "Tet Offensive (his role is debated)"
+        },
+        {
+          "date": "2013",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "At Điện Biên Phủ he postponed the planned assault of January 1954 in favor of methodical artillery preparation and siege.",
+      "setback": "His 1951 frontal assaults in the Red River Delta failed with heavy losses."
+    }
   }
 ]

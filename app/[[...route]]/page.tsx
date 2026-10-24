@@ -34,6 +34,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title =
     c.battles.find((b) => b.slug === slug)?.name ??
     c.commanders.find((b) => b.slug === slug)?.name ??
+    (route[0] === "wars"
+      ? c.wars.find((w) => w.slug === slug)?.name
+      : undefined) ??
+    (route[0] === "campaigns"
+      ? c.campaigns.find((x) => x.slug === slug)?.name
+      : undefined) ??
+    (route[0] === "simulator"
+      ? c.scenarios.find((x) => x.slug === slug)?.title
+      : undefined) ??
     c.courses.find((b) => b.slug === slug)?.title ??
     (route[0] === "academy" && route.length === 3
       ? c.courses

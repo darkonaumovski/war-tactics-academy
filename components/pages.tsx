@@ -362,6 +362,24 @@ export function BattlePage({ battle: b, c }: { battle: Battle; c: Catalog }) {
                     </span>
                   </div>
                   <p>{s.text}</p>
+                  {!!s.refs?.length && (
+                    <p className="section-refs">
+                      <span>Draws on</span>
+                      {s.refs.map((r) => {
+                        const source = b.research!.sources[r.source];
+                        return (
+                          <a
+                            key={`${r.source}-${r.locator ?? ""}`}
+                            href={`#source-${r.source + 1}`}
+                            title={source.title}
+                          >
+                            [{r.source + 1}] {source.publisher}
+                            {r.locator && `, ${r.locator}`}
+                          </a>
+                        );
+                      })}
+                    </p>
+                  )}
                 </section>
               ))}
             </article>
@@ -419,7 +437,9 @@ export function BattlePage({ battle: b, c }: { battle: Battle; c: Catalog }) {
               <SectionTitle number="↔" title="The commander’s perspective" />
               <p className="muted">
                 Historian-reconstructed reasoning, not invented private thoughts
-                or direct quotations. Read alongside the sources.
+                or direct quotations. Read alongside the sources. Force
+                descriptions are qualitative; ancient and modern estimates of
+                numbers differ.
               </p>
               <div className="perspective-grid">
                 {b.research.perspectives.map((p) => (
@@ -432,14 +452,20 @@ export function BattlePage({ battle: b, c }: { battle: Battle; c: Catalog }) {
                         ["Available information", "known"],
                         ["Principal uncertainty", "uncertainty"],
                         ["Operational constraints", "constraints"],
+                        ["Available forces", "forces"],
+                        ["Terrain considerations", "terrain"],
+                        ["Logistics", "logistics"],
                         ["Historical decisions", "decision"],
+                        ["Outcome & retrospective interpretation", "outcome"],
                       ] as const
-                    ).map(([label, key]) => (
-                      <div key={key}>
-                        <h4>{label}</h4>
-                        <p>{p[key]}</p>
-                      </div>
-                    ))}
+                    )
+                      .filter(([, key]) => p[key])
+                      .map(([label, key]) => (
+                        <div key={key}>
+                          <h4>{label}</h4>
+                          <p>{p[key]}</p>
+                        </div>
+                      ))}
                   </article>
                 ))}
               </div>
@@ -561,15 +587,20 @@ export function CommanderPage({
           </div>
         )}
         <div>
-          <span className="eyebrow">A LIFE IN CONTEXT</span>
+          <span className="eyebrow">
+            A LIFE IN CONTEXT
+            {x.details && ` · ${x.details.category.toUpperCase()}`}
+          </span>
           <p className="lead">{x.summary}</p>
+          {x.details && <p className="profile-titles">{x.details.titles}</p>}
           <span className="editorial-note">
-            Editorial status: catalog summary. The reading below supports
-            context; a full scholarly biography and claim-by-claim review remain
-            future editorial work. Assessments are interpretations, not
-            performance ratings. Profiles without an attributed public-domain
-            portrait use a monogram, which is a graphic identifier, not a
-            likeness.
+            Editorial status: concise profile. The chronology and command record
+            summarize well-established events; the reading below offers further
+            context but is not a citation for every entry, and claim-by-claim
+            review remains future editorial work. Assessments are
+            interpretations, not performance ratings. Profiles without an
+            attributed public-domain portrait use a monogram, which is a graphic
+            identifier, not a likeness.
           </span>
         </div>
       </div>
@@ -586,6 +617,39 @@ export function CommanderPage({
           </section>
         ))}
       </div>
+      {x.details && <SectionTitle number="⌖" title="Command record" />}
+      {x.details && (
+        <div className="command-record">
+          <section>
+            <h3>Principal commands</h3>
+            <ul>
+              {x.details.principalCommands.map((command) => (
+                <li key={command}>{command}</li>
+              ))}
+            </ul>
+            <h3>A notable decision</h3>
+            <p>{x.details.notableDecision}</p>
+            <h3>Defeats & reverses</h3>
+            <p>{x.details.setback}</p>
+          </section>
+          <section aria-labelledby="chronology-title">
+            <h2 className="sr-only" id="chronology-title">
+              Chronology
+            </h2>
+            <span className="eyebrow" aria-hidden="true">
+              CHRONOLOGY
+            </span>
+            <ol className="chronology">
+              {x.details.timeline.map((entry) => (
+                <li key={`${entry.date}-${entry.event}`}>
+                  <strong>{entry.date}</strong>
+                  <span>{entry.event}</span>
+                </li>
+              ))}
+            </ol>
+          </section>
+        </div>
+      )}
       <SectionTitle number="↗" title="Associated engagements" />
       {x.battleSlugs.length ? (
         <div className="battle-grid">
@@ -663,7 +727,13 @@ export function WarsPage({ c }: { c: Catalog }) {
 }
 export function WarPage({ war: w, c }: { war: War; c: Catalog }) {
   const battles = c.battles.filter((b) => b.warId === w.slug);
-  const sources = battles.flatMap((b) => b.research?.sources ?? []);
+  const commanders = c.commanders.filter((x) =>
+    x.battleSlugs.some((slug) => battles.some((b) => b.slug === slug)),
+  );
+  const sources = [
+    ...battles.flatMap((b) => b.research?.sources ?? []),
+    ...commanders.map((x) => x.source),
+  ];
   return (
     <div className="page-container">
       <Breadcrumbs
@@ -680,6 +750,45 @@ export function WarPage({ war: w, c }: { war: War; c: Catalog }) {
           <p>{w.consequences}</p>
         </section>
       </div>
+      {w.details && (
+        <div className="war-context">
+          <section>
+            <h2>Principal participants</h2>
+            <ul>
+              {w.details.participants.map((p) => (
+                <li key={p}>{p}</li>
+              ))}
+            </ul>
+            <h2>Geographic scope</h2>
+            <p>{w.details.geography}</p>
+          </section>
+          <section>
+            <h2>Key developments</h2>
+            <ol className="chronology">
+              {w.details.developments.map((entry) => (
+                <li key={`${entry.date}-${entry.event}`}>
+                  <strong>{entry.date}</strong>
+                  <span>{entry.event}</span>
+                </li>
+              ))}
+            </ol>
+          </section>
+        </div>
+      )}
+      {!!commanders.length && (
+        <>
+          <h2>Key commanders</h2>
+          <div className="campaign-list">
+            {commanders.map((x) => (
+              <Link href={`/commanders/${x.slug}`} key={x.slug}>
+                <Shield size={18} />
+                {x.name}
+                <ArrowRight size={16} />
+              </Link>
+            ))}
+          </div>
+        </>
+      )}
       <h2>Campaigns in this collection</h2>
       <div className="campaign-list">
         {c.campaigns
@@ -698,15 +807,16 @@ export function WarPage({ war: w, c }: { war: War; c: Catalog }) {
           <BattleCard key={b.slug} battle={b} />
         ))}
       </div>
-      {sources.length ? (
+      <p className="editorial-note">
+        Participants, scope and chronology are editorial orientation drawn from
+        well-established events. The reading below comes from the linked battle
+        studies and commander profiles; a dedicated war bibliography is future
+        editorial work.
+      </p>
+      {!!sources.length && (
         <Sources
           sources={[...new Map(sources.map((s) => [s.url, s])).values()]}
         />
-      ) : (
-        <p className="editorial-note">
-          Introductory war summary; a dedicated bibliography is pending.
-          Associated commander pages offer further reading.
-        </p>
       )}
     </div>
   );

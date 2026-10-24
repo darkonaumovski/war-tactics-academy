@@ -367,4 +367,106 @@ export const scenarios: Scenario[] = [
       },
     ],
   },
+  {
+    slug: "strike-the-plateau",
+    title: "When to strike the plateau",
+    battleSlug: "austerlitz",
+    commander: "Napoleon Bonaparte",
+    situation:
+      "Morning, 2 December 1805, near Brünn in Moravia. Allied columns hold the Pratzen Heights and are moving against your right. Your army is far from France and needs a decision.",
+    known:
+      "You have left the plateau to the Allies and expect an attack in the south. Soult's corps is concealed below the heights, ready to advance.",
+    unknown:
+      "How much of the Allied army has left the plateau, and whether your southern sector can hold until the center is won.",
+    historical:
+      "Napoleon launched Soult's corps against the Pratzen Heights once Allied columns had moved south, around 8–8:30 a.m. in the sources. Control of the center split the Allied army and the French won decisively.",
+    options: [
+      {
+        text: "Attack the heights now, while Allied columns are still moving south.",
+        feedback:
+          "This matches the historical decision. Striking during the Allied movement aimed at a weakened center, but it relied on the southern sector holding and on accurate judgment of timing.",
+        historical: true,
+      },
+      {
+        text: "Wait until the Allied attack in the south is fully committed.",
+        feedback:
+          "Waiting might expose an even weaker center, but it would leave your right under pressure longer and give the Allies time to notice the danger. The result cannot be known.",
+        historical: false,
+      },
+      {
+        text: "Reinforce the southern sector and fight a defensive battle.",
+        feedback:
+          "Defense would reduce the risk to your right but give up the chance of a decisive result, which the strategic situation demanded. This is an interpretive alternative, not a documented plan.",
+        historical: false,
+      },
+    ],
+  },
+  {
+    slug: "two-fronts-at-alesia",
+    title: "Besieger and besieged",
+    battleSlug: "alesia",
+    commander: "Julius Caesar",
+    situation:
+      "52 BCE. Vercingetorix's army is shut inside Alesia, but his cavalry has escaped to raise a relief army across Gaul. Your legions may soon face attack from two directions.",
+    known:
+      "The defenders' food is limited. A large relief force is being gathered, though its strength and timing are uncertain; Caesar's own figures for it are not reliable.",
+    unknown:
+      "When the relief army will arrive, where it will strike, and whether your supplies will last as long as the defenders'.",
+    historical:
+      "Caesar built an inner line facing Alesia and an outer line facing the relief army, gathered supplies, and used reserves and cavalry to defeat the final combined assaults. Vercingetorix then surrendered. The account is Caesar's own.",
+    options: [
+      {
+        text: "Lift the siege and fight the relief army in the open.",
+        feedback:
+          "Meeting the relief force away from the town could avoid fighting on two fronts, but it would release the besieged army. A different outcome is speculation, not history.",
+        historical: false,
+      },
+      {
+        text: "Fortify against both the town and the relief army, and stay.",
+        feedback:
+          "This reflects Caesar's historical course. It kept the siege intact but stretched the legions along long lines and depended on supplies and reserves holding out.",
+        historical: true,
+      },
+      {
+        text: "Withdraw toward the Roman province to regroup.",
+        feedback:
+          "Withdrawal would preserve the army but abandon the campaign at a moment of Gallic unity. Its political and military consequences cannot be established.",
+        historical: false,
+      },
+    ],
+  },
+  {
+    slug: "march-south",
+    title: "Fight now or gather strength",
+    battleSlug: "hastings",
+    commander: "Harold II",
+    situation:
+      "Early October 1066. You have defeated a Norwegian invasion at Stamford Bridge in Yorkshire. William of Normandy has landed at Pevensey in Sussex.",
+    known:
+      "Your army has fought one battle and marched far. William's force is established near the coast and depends on its ships and foraging.",
+    unknown:
+      "How many more troops would join you if you waited, and what William would do to the surrounding country in the meantime.",
+    historical:
+      "Harold marched south quickly and gave battle near Hastings on 14 October. His army held a ridge through a long day of assaults before he was killed and it broke. Historians debate whether he intended to fight at once.",
+    options: [
+      {
+        text: "Wait near London to gather a larger army.",
+        feedback:
+          "More troops might have joined, but William would have had time to strengthen his position and ravage the region. Whether waiting would have changed the result is unknowable.",
+        historical: false,
+      },
+      {
+        text: "Blockade William's base and avoid pitched battle.",
+        feedback:
+          "Containment could strain an invader dependent on foraging, but it required time, supplies and a way to hold the army together. This is a counterfactual, not a documented option.",
+        historical: false,
+      },
+      {
+        text: "March south quickly and confront William near the coast.",
+        feedback:
+          "This resembles the historical course. Speed could contain the invasion and protect the south, but it meant fighting before all available forces had gathered.",
+        historical: true,
+      },
+    ],
+  },
 ];

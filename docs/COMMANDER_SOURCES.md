@@ -8,7 +8,7 @@ All records are marked `editorialStatus: "catalog-summary"`. They are concise ed
 
 The biographical overview and named engagements summarize the conventional historical record. The `approach`, `strength`, `limitation` and `legacy` fields are editorial synthesis; they should be introduced in the interface as historical interpretation, not direct quotations or numerical rankings. No private thoughts, direct quotations, casualty totals or exact unit positions were invented.
 
-The app should retain a visible catalog-summary label. For future publication as a scholarly reference, profiles need multiple sources, claim-level citations and specialist review, especially for disputed dates and accounts written long after the events.
+The app shows a visible editorial-status note on every profile; the chronology and command record are concise syntheses of well-established events, and the listed reading is further reading rather than a citation for each entry. For future publication as a scholarly reference, profiles need multiple sources, claim-level citations and specialist review, especially for disputed dates and accounts written long after the events.
 
 ## Types of sources
 

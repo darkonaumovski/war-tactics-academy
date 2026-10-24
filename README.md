@@ -8,12 +8,13 @@ A working, local-first historical learning application built with Next.js, React
 
 - Editorial dark interface, optional persistent light theme, desktop sidebar and mobile navigation.
 - 29 engagement records spanning seven era groupings, with battle/siege/campaign classifications and approximate geographic locations.
-- 44 commander profiles with qualitative comparisons, linked engagements, further reading and explicit editorial status.
-- Eight referenced studies: Marathon, Cannae, Alesia, Hastings, Austerlitz, Waterloo, Midway and Stalingrad. Each has 14 analysis sections and four replay phases.
-- Seven historical perspectives across Cannae, Waterloo and Midway, clearly described as reconstructed reasoning rather than quotations.
+- 44 commander profiles, each with a command role (ruler-commander, field, naval, staff or coalition and theater commander), ranks and titles, principal commands, a dated chronology, a notable decision, defeats and reverses, qualitative comparison, linked engagements and further reading. The catalog can be filtered by command role.
+- War pages for all 23 wars with principal participants, geographic scope, a short chronology of key developments, key commanders and reading drawn from linked studies and profiles.
+- Eight referenced studies: Marathon, Cannae, Alesia, Hastings, Austerlitz, Waterloo, Midway and Stalingrad. Each has 14 analysis sections and four replay phases. 110 of the 112 sections show which listed sources they draw on, with book and chapter locators for classical texts.
+- Fifteen command perspectives across seven battles (Cannae, Alesia, Hastings, Austerlitz, Waterloo, Midway and Stalingrad). Each covers objective, available information, uncertainty, constraints, forces, terrain, logistics, decisions and retrospective interpretation, clearly described as reconstructed reasoning rather than quotations.
 - Searchable battle and commander catalogs; combined era, region and engagement-type filters; global search across battles, commanders, wars, campaigns and learning.
 - An offline-capable world atlas using bundled Natural Earth geography. No tile server is required. Battle replay supports pan, zoom, selection, playback, event popups, legends and a full text timeline.
-- Three decision exercises with historical feedback, explicit counterfactual limits and saved completion.
+- Six decision exercises (Waterloo, Cannae, Midway, Austerlitz, Alesia and Hastings) with historical feedback, explicit counterfactual limits and saved completion.
 - Four learning paths with 21 lessons: Foundations of Military History, Classical Warfare, Napoleonic Warfare, and Industrial and World Wars. Each lesson has objectives, historical cases, a concept diagram, a quiz and a persistent best score. Classical and Industrial lessons add lesson-specific readings and seminar prompts.
 - Browser-local bookmarks, recently visited records, lesson results, decision choices and theme preferences.
 - Curated media library with nine verified records: two official National Archives (UK) YouTube videos, loaded only on request through privacy-enhanced embeds; two public-domain portraits (Grant and Eisenhower), also shown on their commander profiles; two historic maps; and three primary documents. Every record stores publisher, license, attribution and verification date. The source reading list remains alongside it.
@@ -105,7 +106,7 @@ The App Router dispatcher implements `/`, `/battles`, `/battles/[slug]`, `/comma
 
 ## Historical methodology
 
-Historical fact, scholarly interpretation, uncertainty and counterfactual analysis are explicitly distinguished. Detailed studies cite institutional histories and primary texts, with caveats about retrospective testimony and conflicting evidence. The eight studies are concise editorial syntheses, not full scholarly monographs. Other records are clearly labeled catalog introductions. Sources support the relevant study as a whole; claim-level footnotes are future editorial work.
+Historical fact, scholarly interpretation, uncertainty and counterfactual analysis are explicitly distinguished. Detailed studies cite institutional histories and primary texts, with caveats about retrospective testimony and conflicting evidence. The eight studies are concise editorial syntheses, not full scholarly monographs. Other records are clearly labeled catalog introductions. Study sections name the listed sources they draw on. These references were assigned only after each institutional page had been read; sources that could not be opened are not attached to individual sections. They are section-level references, not footnotes for every sentence. Commander chronologies and war overviews summarize well-established events; their further reading is not a citation for each entry.
 
 No casualty totals, private thoughts, invented quotations, precise intelligence logs or commander performance ratings are fabricated. Geographic markers indicate approximate places. Replay geometry is an abstract teaching schematic, not verified troop coordinates or surveyed movements. Force blocks do not represent equal unit sizes. Political and civilian consequences remain part of the historical context.
 
@@ -120,8 +121,8 @@ External readings remain with their publishers. No publisher artwork or full art
 ## Known limitations
 
 - The four learning paths are introductory editorial courses (one question per lesson), not reviewed university curricula.
-- The eight battle analyses and 44 commander summaries need deeper scholarly review, fuller biographies and claim-level citations before being treated as an academic reference work.
-- War/campaign pages are contextual indexes, not comprehensive operational histories. Some commander profiles have no dedicated engagement study yet.
+- The eight battle analyses and 44 commander profiles need deeper scholarly review, fuller biographies and sentence-level citations before being treated as an academic reference work. Study sections are still brief.
+- War pages give orientation, not comprehensive operational histories, and have no dedicated bibliography. Campaign pages remain indexes. Some commander profiles have no dedicated engagement study yet.
 - Replay diagrams explain abstract relationships; they do not simulate combat or reconstruct exact formations. Atlas locations and Natural Earth coastlines are approximate modern geographic context.
 - The media library is a small starting collection (nine records). Most engagements and commanders have no video, portrait or map yet; the two videos cover only D-Day. Embeds and archive images depend on third-party availability.
 - Progress belongs to one browser and is lost if its local storage is cleared. Storage denial is handled without crashing; save actions report failures.

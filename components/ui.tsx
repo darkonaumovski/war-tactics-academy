@@ -121,7 +121,10 @@ export function CommanderCard({ commander }: { commander: Commander }) {
       <div>
         <span className="eyebrow">{commander.state}</span>
         <h3>{commander.name}</h3>
-        <span className="muted small">{commander.years}</span>
+        <span className="muted small">
+          {commander.years}
+          {commander.details && ` · ${commander.details.category}`}
+        </span>
         <p>{commander.approach}</p>
       </div>
       <ArrowUpRight className="corner-arrow" size={18} />
@@ -140,7 +143,7 @@ export function Sources({ sources }: { sources: Source[] }) {
       </p>
       <ol>
         {sources.map((s, i) => (
-          <li key={`${s.url}-${i}`}>
+          <li key={`${s.url}-${i}`} id={`source-${i + 1}`}>
             <a href={s.url} target="_blank" rel="noreferrer">
               {s.title}
               <ArrowUpRight size={14} />

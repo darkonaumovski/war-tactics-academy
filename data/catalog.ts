@@ -1,4 +1,5 @@
 import type { Battle, War, Campaign } from "../lib/types";
+import { warDetails } from "./war-details";
 export const eras = [
   { id: "ancient", name: "Classical antiquity", period: "490 BCE – 500 CE" },
   { id: "medieval", name: "Medieval worlds", period: "500 – 1500" },
@@ -224,6 +225,7 @@ export const wars: War[] = [
   summary,
   causes,
   consequences,
+  details: warDetails[slug],
 }));
 type Row = [
   string,

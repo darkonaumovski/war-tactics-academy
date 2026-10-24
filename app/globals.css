@@ -2426,6 +2426,101 @@ progress::-moz-progress-bar {
 .profile-intro > .historical-portrait {
   flex: 0 0 220px;
 }
+.section-refs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  margin-top: 10px !important;
+  font-size: 11px !important;
+  color: var(--muted);
+}
+.section-refs > span {
+  font: 9px monospace;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+}
+.section-refs a {
+  color: var(--muted);
+  border-bottom: 1px dotted var(--line);
+}
+.section-refs a:hover {
+  color: var(--gold);
+}
+.profile-titles {
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--muted);
+  font-style: italic;
+}
+.command-record,
+.war-context {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin: 20px 0 40px;
+}
+.command-record h3 {
+  font-size: 17px;
+  margin: 22px 0 8px;
+}
+.command-record h3:first-child {
+  margin-top: 0;
+}
+.command-record,
+.war-context {
+  align-items: start;
+}
+.command-record p,
+.command-record li,
+.war-context p,
+.war-context li {
+  font-size: 13px;
+}
+.command-record ul,
+.war-context ul {
+  margin: 0;
+  padding-left: 18px;
+}
+.war-context h2 {
+  font-size: 22px;
+  margin: 0 0 14px;
+}
+.war-context section > h2:not(:first-child) {
+  margin-top: 28px;
+}
+.chronology {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+  border-left: 1px solid var(--line);
+}
+.chronology li {
+  display: grid;
+  grid-template-columns: minmax(90px, 30%) 1fr;
+  gap: 14px;
+  padding: 8px 0 8px 16px;
+  position: relative;
+}
+.chronology li::before {
+  content: "";
+  position: absolute;
+  left: -4px;
+  top: 15px;
+  width: 7px;
+  height: 7px;
+  background: var(--gold-dim);
+}
+.chronology strong {
+  font: 11px monospace;
+  color: var(--gold);
+  font-weight: 400;
+  padding-top: 2px;
+}
+.comparison-table td ul {
+  margin: 0;
+  padding-left: 16px;
+}
 .seminar.note {
   margin: 35px 0;
   padding: 24px 28px;
@@ -2916,6 +3011,15 @@ progress::-moz-progress-bar {
   }
 }
 @media (max-width: 760px) {
+  .command-record,
+  .war-context {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .chronology li {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
   .profile-intro > .historical-portrait {
     flex-basis: auto;
     max-width: 100%;

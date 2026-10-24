@@ -241,11 +241,14 @@ test("decision feedback separates history and counterfactual and persists", asyn
     page.getByRole("button", { name: "Examine this decision" }),
   ).toBeDisabled();
 });
-test("all three historical exercises are usable", async ({ page }) => {
+test("all six historical exercises are usable", async ({ page }) => {
   for (const slug of [
     "after-cannae",
     "midway-intelligence",
     "hold-the-ridge",
+    "strike-the-plateau",
+    "two-fronts-at-alesia",
+    "march-south",
   ]) {
     await page.goto(`/simulator/${slug}`);
     await page.getByRole("radio").first().check();
@@ -328,6 +331,73 @@ test("commander portrait carries attribution and degrades if unavailable", async
   await expect(
     portrait.getByRole("link", { name: /Ulysses S. Grant portrait/ }),
   ).toBeVisible();
+});
+test("commander profile shows its command record and role filter", async ({
+  page,
+}) => {
+  await page.goto("/commanders");
+  await page.getByLabel("Commander type").selectOption("Naval commander");
+  await expect(page.getByRole("status")).toContainText("4 historical figures");
+  await page.getByRole("link", { name: /Yi Sun-sin/ }).click();
+  await expect(page).toHaveTitle(/Yi Sun-sin/);
+  await expect(
+    page.getByRole("heading", { name: /Command record/ }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("heading", { name: "Chronology" }),
+  ).toBeAttached();
+  await expect(page.locator(".chronology")).toContainText("Myeongnyang");
+  await expect(
+    page.getByRole("heading", { name: "Defeats & reverses" }),
+  ).toBeVisible();
+});
+test("comparison includes principal commands and notable decisions", async ({
+  page,
+}) => {
+  await page.goto("/commanders/compare");
+  await expect(
+    page.getByRole("rowheader", { name: "Principal commands" }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("row", { name: /A notable decision/ }),
+  ).toContainText("Pratzen");
+});
+test("war page shows participants, chronology and key commanders", async ({
+  page,
+}) => {
+  await page.goto("/wars/punic");
+  await expect(page).toHaveTitle(/Second Punic War/);
+  await expect(
+    page.getByRole("heading", { name: "Principal participants" }),
+  ).toBeVisible();
+  await expect(page.locator(".war-context .chronology")).toContainText(
+    "Battle of Cannae",
+  );
+  await page.getByRole("link", { name: "Hannibal Barca", exact: true }).click();
+  await expect(page).toHaveURL(/commanders\/hannibal-barca$/);
+});
+test("study sections link to their sources and perspectives show every field", async ({
+  page,
+}) => {
+  await page.goto("/battles/marathon");
+  const terrain = page.locator(".analysis-section").filter({
+    has: page.getByRole("heading", { name: "Geography and terrain" }),
+  });
+  await terrain.getByRole("link", { name: /\[1\].*6\.102/ }).click();
+  await expect(page).toHaveURL(/#source-1$/);
+  await expect(page.locator("#source-1")).toContainText("Herodotus");
+  await page.goto("/battles/austerlitz");
+  const perspectives = page.locator(".perspective-grid > article");
+  await expect(perspectives).toHaveCount(2);
+  for (const label of [
+    "Available forces",
+    "Terrain considerations",
+    "Logistics",
+    "Outcome & retrospective interpretation",
+  ])
+    await expect(
+      perspectives.first().getByRole("heading", { name: label }),
+    ).toBeVisible();
 });
 test("global search includes campaigns and learning", async ({ page }) => {
   await page.goto("/");

@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 import { useSearchParams } from "next/navigation";
 import { Search, SlidersHorizontal, X } from "lucide-react";
 import { eras } from "../data/catalog";
@@ -107,10 +107,17 @@ export function CommanderCatalog({ commanders }: { commanders: Commander[] }) {
   const ready = useHydrated();
   const [q, setQ] = useState("");
   const [era, setEra] = useState("");
+  const [category, setCategory] = useState("");
+  const categories = [
+    ...new Set(commanders.flatMap((c) => c.details?.category ?? [])),
+  ].sort();
   const result = commanders.filter(
     (c) =>
       (!era || c.eraId === era) &&
-      normalize(`${c.name} ${c.state} ${c.role}`).includes(normalize(q)),
+      (!category || c.details?.category === category) &&
+      normalize(
+        `${c.name} ${c.state} ${c.role} ${c.details?.titles ?? ""}`,
+      ).includes(normalize(q)),
   );
   return (
     <>
@@ -135,6 +142,19 @@ export function CommanderCatalog({ commanders }: { commanders: Commander[] }) {
           {eras.map((e) => (
             <option key={e.id} value={e.id}>
               {e.name}
+            </option>
+          ))}
+        </select>
+        <select
+          disabled={!ready}
+          aria-label="Commander type"
+          value={category}
+          onChange={(e) => setCategory(e.target.value)}
+        >
+          <option value="">All command roles</option>
+          {categories.map((x) => (
+            <option key={x} value={x}>
+              {x}
             </option>
           ))}
         </select>
@@ -209,19 +229,34 @@ export function Comparison({ commanders }: { commanders: Commander[] }) {
           <tbody>
             {(
               [
-                ["Context", "state"],
-                ["Lifetime", "years"],
-                ["Responsibility", "role"],
-                ["Approach & resources", "approach"],
-                ["Documented strengths", "strength"],
-                ["Setbacks & limitations", "limitation"],
-                ["Legacy", "legacy"],
-              ] as const
-            ).map(([label, key]) => (
-              <tr key={key}>
+                ["Context", (c) => c.state],
+                ["Lifetime", (c) => c.years],
+                ["Command role", (c) => c.details?.category],
+                ["Ranks & titles", (c) => c.details?.titles],
+                ["Responsibility", (c) => c.role],
+                [
+                  "Principal commands",
+                  (c) =>
+                    c.details && (
+                      <ul>
+                        {c.details.principalCommands.map((x) => (
+                          <li key={x}>{x}</li>
+                        ))}
+                      </ul>
+                    ),
+                ],
+                ["Approach & resources", (c) => c.approach],
+                ["Documented strengths", (c) => c.strength],
+                ["A notable decision", (c) => c.details?.notableDecision],
+                ["Setbacks & limitations", (c) => c.limitation],
+                ["Defeats & reverses", (c) => c.details?.setback],
+                ["Legacy", (c) => c.legacy],
+              ] as [string, (c: Commander) => ReactNode][]
+            ).map(([label, cell]) => (
+              <tr key={label}>
                 <th scope="row">{label}</th>
                 {pair.map((c) => (
-                  <td key={c.slug}>{c[key]}</td>
+                  <td key={c.slug}>{cell(c) ?? "—"}</td>
                 ))}
               </tr>
             ))}

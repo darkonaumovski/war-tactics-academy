@@ -6,7 +6,9 @@ import {
   commanderSchema,
   courseSchema,
   researchSchema,
+  warDetailsSchema,
 } from "../lib/validation";
+import { warDetails } from "../data/war-details";
 import { media } from "../lib/media";
 import type { Prisma } from "../generated/prisma/client";
 import type { Source } from "../lib/types";
@@ -19,6 +21,7 @@ const commanders = commanderSchema.parse(
   JSON.parse(await readFile("data/commanders.json", "utf8")),
 );
 const courses = courseSchema.parse(courseData);
+warDetailsSchema.parse(warDetails);
 // All reads/validation precede the transaction; a failed seed never leaves a partial catalog.
 await db.$transaction(
   async (tx) => {
@@ -69,6 +72,10 @@ await db.$transaction(
         },
       });
       const ref = await source(commander.source);
+      // Source joins mirror the current editorial files, so replaced links drop out.
+      await tx.commanderSource.deleteMany({
+        where: { commanderId: commander.slug, sourceId: { not: ref.id } },
+      });
       await tx.commanderSource.upsert({
         where: {
           commanderId_sourceId: {
@@ -149,6 +156,7 @@ await db.$transaction(
           },
         });
       }
+      await tx.battleSource.deleteMany({ where: { battleId: battle.slug } });
       for (const ref of study?.sources ?? []) {
         const s = await source(ref);
         await tx.battleSource.upsert({
@@ -225,6 +233,7 @@ await db.$transaction(
             .filter((r) => lesson.battleSlugs.includes(r.slug))
             .flatMap((r) => r.sources),
         ];
+        await tx.lessonSource.deleteMany({ where: { lessonId: id } });
         for (const ref of refs) {
           const s = await source(ref);
           await tx.lessonSource.upsert({

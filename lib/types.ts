@@ -8,11 +8,22 @@ export type Perspective = {
   uncertainty: string;
   constraints: string;
   decision: string;
+  forces?: string;
+  terrain?: string;
+  logistics?: string;
+  outcome?: string;
 };
+// Index into the study's `sources`, with a standard book/chapter locator where one exists.
+export type SectionRef = { source: number; locator?: string };
 export type Research = {
   slug: string;
   sources: Source[];
-  sections: { title: string; text: string; evidence: Evidence }[];
+  sections: {
+    title: string;
+    text: string;
+    evidence: Evidence;
+    refs?: SectionRef[];
+  }[];
   phases: Phase[];
   perspectives?: Perspective[];
 };
@@ -50,6 +61,27 @@ export type Commander = {
   battleSlugs: string[];
   source: Source;
   editorialStatus?: string;
+  details?: CommanderDetails;
+};
+export type Chronology = { date: string; event: string }[];
+export type CommanderCategory =
+  | "Ruler-commander"
+  | "Field commander"
+  | "Naval commander"
+  | "Staff planner"
+  | "Coalition and theater commander";
+export type CommanderDetails = {
+  category: CommanderCategory;
+  titles: string;
+  principalCommands: string[];
+  timeline: Chronology;
+  notableDecision: string;
+  setback: string;
+};
+export type WarDetails = {
+  participants: string[];
+  geography: string;
+  developments: Chronology;
 };
 export type War = {
   slug: string;
@@ -59,6 +91,7 @@ export type War = {
   summary: string;
   causes: string;
   consequences: string;
+  details?: WarDetails;
 };
 export type Campaign = {
   slug: string;

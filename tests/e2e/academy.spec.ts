@@ -1,0 +1,401 @@
+import { test, expect } from "@playwright/test";
+import AxeBuilder from "@axe-core/playwright";
+test("homepage navigation, featured study and hero actions", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await expect(page.getByRole("heading", { level: 1 })).toContainText(
+    "Command",
+  );
+  await expect(
+    page.getByRole("navigation", { name: "Main navigation" }),
+  ).toBeVisible();
+  await page
+    .getByRole("link", { name: "Explore Battles", exact: true })
+    .click();
+  await expect(page).toHaveURL(/\/battles$/);
+  await page.goto("/");
+  await page
+    .getByRole("link", { name: "Enter the Academy", exact: true })
+    .click();
+  await expect(page).toHaveURL(/\/academy$/);
+  await page.goto("/");
+  await page.getByRole("link", { name: "Explore the Waterloo study" }).click();
+  await expect(
+    page.getByRole("heading", { name: "Waterloo", exact: true, level: 1 }),
+  ).toBeVisible();
+});
+test("battle search and combined filters", async ({ page }) => {
+  await page.goto("/battles");
+  await expect(page.getByRole("status")).toHaveText("29 engagements");
+  await page.getByRole("textbox", { name: "Search battles" }).fill("Waterloo");
+  await expect(page.getByRole("status")).toHaveText("1 engagements");
+  await page.getByRole("link", { name: /Time, terrain & coalition/ }).click();
+  await expect(page).toHaveURL(/waterloo$/);
+  await page.goto("/battles");
+  await page
+    .getByLabel("Historical era", { exact: true })
+    .selectOption("world-wars");
+  await page.getByLabel("Region", { exact: true }).selectOption("Pacific");
+  await expect(page.getByRole("status")).toHaveText("1 engagements");
+  await expect(
+    page.getByRole("heading", { name: "Midway", exact: true }),
+  ).toBeVisible();
+  await page.getByLabel("Search battles").fill("absent");
+  await expect(
+    page.getByRole("heading", { name: "No records match" }),
+  ).toBeVisible();
+  await page.getByRole("button", { name: "Clear filters" }).click();
+  await expect(page.getByRole("status")).toHaveText("29 engagements");
+});
+test("battle detail related commander and proper not-found", async ({
+  page,
+}) => {
+  await page.goto("/battles/waterloo");
+  await page
+    .locator(".study-aside")
+    .getByRole("link", { name: "Napoleon Bonaparte" })
+    .click();
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText(
+    "Napoleon Bonaparte",
+  );
+  await expect(
+    page.getByRole("heading", { name: "Waterloo", exact: true }),
+  ).toBeVisible();
+  const response = await page.goto("/battles/not-a-real-battle");
+  await expect(
+    page.getByRole("heading", { name: "This record isn’t in the archive." }),
+  ).toBeVisible();
+  expect(response?.status()).toBe(404);
+});
+test("timeline selection, playback, zoom and accessible alternative", async ({
+  page,
+}) => {
+  await page.goto("/battles/waterloo");
+  const phases = page
+    .getByRole("group", { name: "Select battle phase" })
+    .getByRole("button");
+  await expect(phases).toHaveCount(4);
+  await phases.nth(2).click();
+  await expect(phases.nth(2)).toHaveAttribute("aria-pressed", "true");
+  await expect(page.locator(".phase-info .eyebrow")).toContainText("03");
+  await page.getByRole("button", { name: "Zoom in", exact: true }).click();
+  await page.getByRole("group", { name: /Battle schematic/ }).focus();
+  await page.keyboard.press("ArrowRight");
+  await page.getByRole("button", { name: "Reset map view" }).click();
+  await page.getByRole("button", { name: "Phase 3 event" }).click();
+  await expect(page.locator(".event-popup")).toBeVisible();
+  await page.getByRole("button", { name: "Reset timeline" }).click();
+  await page.getByRole("button", { name: "Play timeline" }).click();
+  await expect(phases.nth(1)).toHaveAttribute("aria-pressed", "true", {
+    timeout: 7000,
+  });
+  await page.getByRole("button", { name: "Pause timeline" }).click();
+  await page.getByText("Read the complete accessible timeline").click();
+  await expect(page.locator(".text-timeline li")).toHaveCount(4);
+});
+test("all eight detailed studies have functional timelines", async ({
+  page,
+}) => {
+  for (const slug of [
+    "marathon",
+    "cannae",
+    "alesia",
+    "hastings",
+    "austerlitz",
+    "waterloo",
+    "midway",
+    "stalingrad",
+  ]) {
+    await page.goto(`/battles/${slug}`);
+    const buttons = page
+      .getByRole("group", { name: "Select battle phase" })
+      .getByRole("button");
+    await expect(buttons).toHaveCount(4);
+    await buttons.nth(3).click();
+    await expect(page.locator(".phase-info .eyebrow")).toContainText("04");
+    await expect(page.locator(".analysis-section")).toHaveCount(14);
+  }
+});
+test("atlas works without external network services", async ({ page }) => {
+  await page.route("https://**/*", (r) => r.abort());
+  await page.goto("/atlas");
+  await expect(
+    page.getByRole("group", {
+      name: "World map of approximate engagement locations",
+    }),
+  ).toBeVisible();
+  await page.getByLabel("Atlas era").selectOption("ancient");
+  await page.getByRole("button", { name: "Show Cannae", exact: true }).click();
+  await expect(page.locator(".atlas-selection h3")).toHaveText("Cannae");
+  await page.getByRole("button", { name: "Zoom atlas in" }).click();
+  await page.getByRole("link", { name: "Explore engagement" }).click();
+  await expect(page).toHaveURL(/cannae$/);
+});
+test("commander search, profile and comparison", async ({ page }) => {
+  await page.goto("/commanders");
+  await page.getByLabel("Search commanders").fill("Hannibal");
+  await page.getByRole("link", { name: /Hannibal Barca/ }).click();
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText(
+    "Hannibal Barca",
+  );
+  await expect(
+    page.getByRole("heading", { name: "Cannae", exact: true }),
+  ).toBeVisible();
+  await page
+    .getByRole("link", { name: "Compare historical approaches" })
+    .click();
+  await page
+    .getByLabel("Commander 1", { exact: true })
+    .selectOption("hannibal-barca");
+  await page
+    .getByLabel("Commander 2", { exact: true })
+    .selectOption("chester-w-nimitz");
+  await expect(
+    page.getByRole("columnheader", { name: "Hannibal Barca" }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("columnheader", { name: "Chester W. Nimitz" }),
+  ).toBeVisible();
+});
+test("lesson quiz accepts an answer, explains it and persists progress", async ({
+  page,
+}) => {
+  await page.goto("/academy");
+  await page
+    .getByRole("link", { name: "Explore this learning path" })
+    .first()
+    .click();
+  await page.getByRole("link", { name: /Strategy versus tactics/ }).click();
+  await page
+    .getByRole("radio", {
+      name: "Tactical victory and political settlement are different problems.",
+    })
+    .check();
+  await page.getByRole("button", { name: "Check my understanding" }).click();
+  await expect(page.getByRole("status")).toContainText("1/1");
+  await page.reload();
+  await expect(
+    page.getByText("Previously completed · score 1/1"),
+  ).toBeVisible();
+  await page.getByRole("link", { name: "Back to course" }).click();
+  await expect(page.getByText("1 of 5 lessons completed")).toBeVisible();
+});
+test("decision feedback separates history and counterfactual and persists", async ({
+  page,
+}) => {
+  await page.goto("/simulator/hold-the-ridge");
+  await expect(
+    page.getByRole("heading", { name: "What remains uncertain" }),
+  ).toBeVisible();
+  await page.getByRole("radio", { name: /Withdraw early/ }).check();
+  await page.getByRole("button", { name: "Examine this decision" }).click();
+  await expect(
+    page.getByRole("heading", { name: "What actually happened" }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("heading", { name: "Counterfactual interpretation" }),
+  ).toBeVisible();
+  await page.reload();
+  await expect(
+    page.getByRole("heading", { name: "What actually happened" }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("radio", { name: /Withdraw early/ }),
+  ).toBeChecked();
+  await page.getByRole("button", { name: "Explore another approach" }).click();
+  await expect(
+    page.getByRole("button", { name: "Examine this decision" }),
+  ).toBeDisabled();
+});
+test("all three historical exercises are usable", async ({ page }) => {
+  for (const slug of [
+    "after-cannae",
+    "midway-intelligence",
+    "hold-the-ridge",
+  ]) {
+    await page.goto(`/simulator/${slug}`);
+    await page.getByRole("radio").first().check();
+    await page.getByRole("button", { name: "Examine this decision" }).click();
+    await expect(
+      page.getByRole("heading", { name: "What actually happened" }),
+    ).toBeVisible();
+  }
+});
+test("bookmarks survive reload and can be removed", async ({ page }) => {
+  await page.goto("/battles/waterloo");
+  await page
+    .getByRole("button", { name: "Save to collection", exact: true })
+    .click();
+  await expect(
+    page.getByRole("button", { name: "Saved to collection" }),
+  ).toHaveAttribute("aria-pressed", "true");
+  await page.reload();
+  await expect(
+    page.getByRole("button", { name: "Saved to collection" }),
+  ).toHaveAttribute("aria-pressed", "true");
+  await page.goto("/saved");
+  await expect(
+    page
+      .locator(".saved-records")
+      .first()
+      .getByRole("link", { name: /Waterloo/ }),
+  ).toBeVisible();
+  await page.goto("/battles/waterloo");
+  await page.getByRole("button", { name: "Saved to collection" }).click();
+  await page.reload();
+  await expect(
+    page.getByRole("button", { name: "Save to collection", exact: true }),
+  ).toHaveAttribute("aria-pressed", "false");
+});
+test("global search includes campaigns and learning", async ({ page }) => {
+  await page.goto("/");
+  await page
+    .getByRole("searchbox", { name: "Search the academy" })
+    .fill("Waterloo");
+  await page.getByRole("button", { name: "Submit search" }).click();
+  await expect(page.locator(".search-results")).toContainText(
+    "Waterloo campaign",
+  );
+  await page
+    .getByLabel("Content type", { exact: true })
+    .selectOption("Learning");
+  await page.getByRole("button", { name: "Search", exact: true }).click();
+  await expect(page.locator(".search-results")).toContainText(
+    "Coalition warfare",
+  );
+});
+test("war to campaign to battle hierarchy", async ({ page }) => {
+  await page.goto("/wars/napoleonic");
+  await page
+    .getByRole("link", { name: "Waterloo campaign", exact: true })
+    .click();
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText(
+    "Waterloo campaign",
+  );
+  await page.getByRole("link", { name: /Time, terrain & coalition/ }).click();
+  await expect(page).toHaveURL(/battles\/waterloo$/);
+});
+test("theme preference persists", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: "Light reading mode" }).click();
+  await expect(page.locator("html")).toHaveAttribute("data-theme", "light");
+  await page.reload();
+  await expect(page.locator("html")).toHaveAttribute("data-theme", "light");
+  await page.getByRole("button", { name: "Dark reading mode" }).click();
+  await expect(page.locator("html")).toHaveAttribute("data-theme", "dark");
+});
+test("mobile navigation opens and closes after navigation", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 375, height: 812 });
+  await page.goto("/");
+  await page
+    .getByRole("button", { name: "Open navigation", exact: true })
+    .click();
+  await expect(
+    page.getByRole("navigation", { name: "Main navigation" }),
+  ).toBeVisible();
+  await page
+    .getByRole("navigation", { name: "Main navigation" })
+    .getByRole("link", { name: "The Academy", exact: true })
+    .click();
+  await expect(page).toHaveURL(/academy$/);
+  await expect(
+    page.getByRole("button", { name: "Open navigation", exact: true }),
+  ).toHaveAttribute("aria-expanded", "false");
+});
+test("keyboard skip navigation reaches the main landmark", async ({ page }) => {
+  await page.goto("/");
+  await page.keyboard.press("Tab");
+  await expect(
+    page.getByRole("link", { name: "Skip to content" }),
+  ).toBeFocused();
+  await page.keyboard.press("Enter");
+  await expect(page.getByRole("main")).toBeFocused();
+});
+for (const width of [375, 768, 1440])
+  test(`responsive pages have no horizontal overflow at ${width}px`, async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width, height: 1000 });
+    for (const route of [
+      "/",
+      "/battles",
+      "/battles/waterloo",
+      "/commanders",
+      "/commanders/compare",
+      "/academy/foundations/terrain",
+      "/simulator/hold-the-ridge",
+      "/atlas",
+    ]) {
+      await page.goto(route);
+      expect(
+        await page.evaluate(
+          () => document.documentElement.scrollWidth <= window.innerWidth + 1,
+        ),
+        route,
+      ).toBe(true);
+    }
+  });
+for (const route of [
+  "/",
+  "/battles",
+  "/battles/waterloo",
+  "/commanders/compare",
+  "/academy/foundations/strategy-and-tactics",
+  "/simulator/hold-the-ridge",
+  "/atlas",
+])
+  test(`accessibility: ${route}`, async ({ page }) => {
+    await page.goto(route);
+    await expect(page.getByRole("main")).toBeVisible();
+    const result = await new AxeBuilder({ page }).analyze();
+    expect(
+      result.violations.filter(
+        (v) => v.impact === "serious" || v.impact === "critical",
+      ),
+    ).toEqual([]);
+  });
+test("main routes produce no browser runtime errors", async ({ page }) => {
+  const errors: string[] = [];
+  page.on("pageerror", (e) => errors.push(e.message));
+  for (const route of [
+    "/",
+    "/battles",
+    "/commanders",
+    "/wars",
+    "/atlas",
+    "/academy",
+    "/simulator",
+    "/library",
+    "/library?type=videos",
+    "/about",
+    "/saved",
+    "/search?q=terrain",
+  ]) {
+    const response = await page.goto(route);
+    expect(response?.status()).toBe(200);
+    await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
+  }
+  expect(errors).toEqual([]);
+});
+
+test("light theme maintains accessible contrast", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: "Light reading mode" }).click();
+  for (const route of [
+    "/",
+    "/academy/foundations/strategy-and-tactics",
+    "/simulator/hold-the-ridge",
+  ]) {
+    await page.goto(route);
+    await expect(page.locator("html")).toHaveAttribute("data-theme", "light");
+    const result = await new AxeBuilder({ page }).analyze();
+    expect(
+      result.violations.filter(
+        (v) => v.impact === "serious" || v.impact === "critical",
+      ),
+    ).toEqual([]);
+  }
+});

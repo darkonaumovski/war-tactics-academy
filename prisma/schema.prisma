@@ -1,0 +1,185 @@
+generator client {
+  provider = "prisma-client"
+  output = "../generated/prisma"
+}
+datasource db {
+  provider = "sqlite"
+}
+model HistoricalEra {
+  id String @id
+  name String
+  wars War[]
+  commanders Commander[]
+}
+model War {
+  id String @id
+  name String
+  eraId String
+  era HistoricalEra @relation(fields: [eraId], references: [id])
+  payload Json
+  campaigns Campaign[]
+}
+model Campaign {
+  id String @id
+  name String
+  warId String
+  war War @relation(fields: [warId], references: [id])
+  payload Json
+  battles Battle[]
+}
+model Battle {
+  id String @id
+  name String
+  kind String
+  year Int
+  region String
+  latitude Float
+  longitude Float
+  campaignId String
+  campaign Campaign @relation(fields: [campaignId], references: [id])
+  payload Json
+  participants BattleParticipant[]
+  assignments CommanderAssignment[]
+  phases BattlePhase[]
+  decisions HistoricalDecision[]
+  sources BattleSource[]
+  @@index([year, region, kind])
+}
+model Commander {
+  id String @id
+  name String
+  eraId String
+  era HistoricalEra @relation(fields: [eraId], references: [id])
+  payload Json
+  assignments CommanderAssignment[]
+  sources CommanderSource[]
+}
+model Faction {
+  id String @id
+  name String
+  participants BattleParticipant[]
+}
+model BattleParticipant {
+  battleId String
+  factionId String
+  battle Battle @relation(fields: [battleId], references: [id], onDelete: Cascade)
+  faction Faction @relation(fields: [factionId], references: [id])
+  @@id([battleId, factionId])
+}
+model CommanderAssignment {
+  battleId String
+  commanderId String
+  role String
+  battle Battle @relation(fields: [battleId], references: [id], onDelete: Cascade)
+  commander Commander @relation(fields: [commanderId], references: [id])
+  @@id([battleId, commanderId])
+}
+model BattlePhase {
+  id String @id
+  battleId String
+  ordinal Int
+  title String
+  description String
+  time String
+  battle Battle @relation(fields: [battleId], references: [id], onDelete: Cascade)
+  events MapEvent[]
+  @@unique([battleId, ordinal])
+}
+model MapEvent {
+  id String @id
+  phaseId String
+  label String
+  description String
+  coordinateSystem String @default("schematic")
+  phase BattlePhase @relation(fields: [phaseId], references: [id], onDelete: Cascade)
+}
+model HistoricalDecision {
+  id String @id
+  battleId String
+  title String
+  payload Json
+  battle Battle @relation(fields: [battleId], references: [id])
+  options DecisionOption[]
+}
+model DecisionOption {
+  id String @id
+  decisionId String
+  ordinal Int
+  text String
+  feedback String
+  historical Boolean
+  decision HistoricalDecision @relation(fields: [decisionId], references: [id], onDelete: Cascade)
+}
+model HistoricalSource {
+  id String @id
+  title String
+  url String @unique
+  publisher String
+  battles BattleSource[]
+  commanders CommanderSource[]
+  media MediaResource[]
+  lessons LessonSource[]
+}
+model BattleSource {
+  battleId String
+  sourceId String
+  battle Battle @relation(fields: [battleId], references: [id], onDelete: Cascade)
+  source HistoricalSource @relation(fields: [sourceId], references: [id])
+  @@id([battleId, sourceId])
+}
+model CommanderSource {
+  commanderId String
+  sourceId String
+  commander Commander @relation(fields: [commanderId], references: [id], onDelete: Cascade)
+  source HistoricalSource @relation(fields: [sourceId], references: [id])
+  @@id([commanderId, sourceId])
+}
+model MediaResource {
+  id String @id
+  sourceId String
+  kind String
+  author String
+  license String
+  attribution String
+  source HistoricalSource @relation(fields: [sourceId], references: [id])
+}
+model LearningCourse {
+  id String @id
+  title String
+  level String
+  description String
+  lessons Lesson[]
+}
+model Lesson {
+  id String @id
+  courseId String
+  ordinal Int
+  title String
+  payload Json
+  course LearningCourse @relation(fields: [courseId], references: [id])
+  quiz Quiz?
+  sources LessonSource[]
+  @@unique([courseId, ordinal])
+}
+model LessonSource {
+  lessonId String
+  sourceId String
+  lesson Lesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  source HistoricalSource @relation(fields: [sourceId], references: [id])
+  @@id([lessonId, sourceId])
+}
+model Quiz {
+  id String @id
+  lessonId String @unique
+  lesson Lesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  questions QuizQuestion[]
+}
+model QuizQuestion {
+  id String @id
+  quizId String
+  prompt String
+  choices Json
+  answer Int
+  explanation String
+  quiz Quiz @relation(fields: [quizId], references: [id], onDelete: Cascade)
+}

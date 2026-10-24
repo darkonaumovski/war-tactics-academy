@@ -1,0 +1,882 @@
+[
+  {
+    "slug": "alexander-the-great",
+    "name": "Alexander III of Macedon",
+    "years": "356–323 BCE",
+    "state": "Macedon",
+    "eraId": "ancient",
+    "role": "King and expeditionary commander",
+    "summary": "Inherited Philip II's army and conquered the Achaemenid Empire, campaigning from the eastern Mediterranean to the Indus.",
+    "approach": "Combined infantry, cavalry, siege engineering and diplomacy across a succession of campaigns.",
+    "strength": "Adapted inherited military institutions to different opponents and environments.",
+    "limitation": "Expansion strained manpower and political cohesion; his troops refused to advance farther at the Hyphasis.",
+    "legacy": "His conquests reshaped the Hellenistic world through cultural exchange, coercion, enslavement and destructive sieges.",
+    "battleSlugs": ["gaugamela"],
+    "source": {
+      "title": "Alexander the Great — Pierre Briant",
+      "url": "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/",
+      "publisher": "Encyclopaedia Iranica"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "hannibal-barca",
+    "name": "Hannibal Barca",
+    "years": "247–c.183 BCE",
+    "state": "Carthage",
+    "eraId": "ancient",
+    "role": "General",
+    "summary": "Led Carthage's invasion of Italy during the Second Punic War, winning at Trebia, Lake Trasimene and Cannae.",
+    "approach": "Sought to defeat Roman armies and weaken Rome's network of Italian allies.",
+    "strength": "Integrated troops from different communities and exploited terrain and opponents' expectations.",
+    "limitation": "Tactical victories did not destroy Roman political cohesion; he was ultimately defeated at Zama.",
+    "legacy": "Cannae became a famous case study, but ancient accounts require critical reading rather than treating reconstructed speeches as transcripts.",
+    "battleSlugs": ["cannae"],
+    "source": {
+      "title": "Hannibal the Historian at Ticinus and Cannae — Charles Oughton",
+      "url": "https://classicalstudies.org/hannibal-historian-ticinus-and-cannae",
+      "publisher": "Society for Classical Studies"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "scipio-africanus",
+    "name": "Publius Cornelius Scipio Africanus",
+    "years": "236–183 BCE",
+    "state": "Roman Republic",
+    "eraId": "ancient",
+    "role": "General and consul",
+    "summary": "Commanded Roman operations in Iberia and later Africa during the Second Punic War; defeated Hannibal at Zama.",
+    "approach": "Shifted the war toward Carthage's resource bases and cultivated Numidian alliances.",
+    "strength": "Combined battlefield adaptation with coalition building, including cooperation with Masinissa.",
+    "limitation": "Later political controversy shows that military success did not guarantee security within republican competition.",
+    "legacy": "His victories helped establish Roman predominance in the western Mediterranean. Later stories of exemplary virtue also shaped his reputation.",
+    "battleSlugs": [],
+    "source": {
+      "title": "Scipio: historical context and reception",
+      "url": "https://www.nationalgallery.org.uk/paintings/glossary/scipio",
+      "publisher": "National Gallery"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "julius-caesar",
+    "name": "Gaius Julius Caesar",
+    "years": "100–44 BCE",
+    "state": "Roman Republic",
+    "eraId": "ancient",
+    "role": "General, consul and dictator",
+    "summary": "Conquered much of Gaul before defeating Roman rivals in civil war and concentrating political power.",
+    "approach": "Used rapid campaigning, extensive field engineering and personally loyal legions.",
+    "strength": "The siege works at Alesia demonstrate the importance of engineering and labor organization.",
+    "limitation": "Setbacks at Gergovia and Dyrrachium complicate an uninterrupted-success narrative; his own accounts defend his conduct.",
+    "legacy": "Conquest involved mass violence and enslavement. His dictatorship contributed to the Republic's collapse.",
+    "battleSlugs": ["alesia"],
+    "source": {
+      "title": "César, tous les chemins mènent à Rome: exhibition dossier",
+      "url": "https://www.alesia.com/wp-content/uploads/2025/04/BD-ALESIA-DOSSIER_DE_PRESSE-2025-Pages-Simple.pdf",
+      "publisher": "MuséoParc Alésia"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "belisarius",
+    "name": "Belisarius",
+    "years": "c.500–565",
+    "state": "Eastern Roman Empire",
+    "eraId": "ancient",
+    "role": "General",
+    "summary": "Served Justinian in wars against Sasanian Persia, the Vandals in North Africa and the Ostrogoths in Italy.",
+    "approach": "Adjusted operations to limited forces, fortified positions and changing imperial priorities.",
+    "strength": "Recovered North Africa and initially gained extensive territory in Italy with relatively constrained expeditionary resources.",
+    "limitation": "Reversals and competing demands limited durable control; Procopius offers valuable but strongly positioned accounts.",
+    "legacy": "Later depictions of a blinded beggar are legendary reception, not a reliable account of his final years.",
+    "battleSlugs": [],
+    "source": {
+      "title": "The Generalship of Belisarius",
+      "url": "https://cgsc.contentdm.oclc.org/digital/api/collection/p4013coll2/id/963/download",
+      "publisher": "U.S. Army Command and General Staff College"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "khalid-ibn-al-walid",
+    "name": "Khalid ibn al-Walid",
+    "years": "c.592–642",
+    "state": "Rashidun Caliphate",
+    "eraId": "medieval",
+    "role": "Field commander",
+    "summary": "A leading commander in the Ridda wars and early Muslim campaigns in Iraq and Syria, associated with the victory at Yarmouk.",
+    "approach": "Traditions emphasize mobile operations and the coordination of forces over wide distances.",
+    "strength": "Helped sustain campaigning during the rapid expansion of the early caliphate.",
+    "limitation": "Later narrative sources differ on chronology, troop numbers and the division of command responsibilities.",
+    "legacy": "His military reputation is inseparable from early Islamic state formation; detailed tactical reconstructions remain debated.",
+    "battleSlugs": ["yarmouk"],
+    "source": {
+      "title": "Yarmouk Battle Panorama: research and commemoration",
+      "url": "https://www.uop.edu.jo/En/News/pages/%D8%BA%D9%88%D8%A7%D9%86%D9%85%D8%A9-%D8%AA%D8%B4%D8%A7%D8%B1%D9%83-%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%8A%D9%82%D8%A7%D8%AF-%D8%B4%D8%B9%D9%84%D8%A9-%D8%A7%D9%84%D9%8A%D8%B1%D9%85%D9%88%D9%83.aspx",
+      "publisher": "University of Petra"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "genghis-khan",
+    "name": "Genghis Khan (Temüjin)",
+    "years": "c.1162–1227",
+    "state": "Mongol Empire",
+    "eraId": "medieval",
+    "role": "Khan and imperial founder",
+    "summary": "United competing steppe groups and launched conquests into northern China and Central Asia.",
+    "approach": "Combined political integration, mounted forces, intelligence networks and specialist expertise drawn from conquered populations.",
+    "strength": "Built institutions that allowed armies to operate across great distances.",
+    "limitation": "Imperial expansion depended on coercion and caused devastating massacres, displacement and destruction.",
+    "legacy": "His empire transformed Eurasian connections, while national memory and hostile chronicles shape contrasting portrayals.",
+    "battleSlugs": [],
+    "source": {
+      "title": "Genghis Khan and the World of the Mongols",
+      "url": "https://www.smb.museum/en/museums-institutions/museumsinsel-berlin/exhibitions/detail/genghis-khan/",
+      "publisher": "National Museums in Berlin"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "subutai",
+    "name": "Subutai (Sübe'etei)",
+    "years": "c.1175–1248",
+    "state": "Mongol Empire",
+    "eraId": "medieval",
+    "role": "Senior general",
+    "summary": "Served several Mongol rulers in campaigns across Eurasia, including the invasions of eastern Europe.",
+    "approach": "Associated with the coordination of widely separated forces and sustained long-distance operations.",
+    "strength": "Experience across different theaters helped connect reconnaissance, movement and operational planning.",
+    "limitation": "Popular biographies often repeat unsupported claims; translations of the Yuan Shi complicate familiar stories.",
+    "legacy": "His career illustrates collective imperial military organization as well as the destructive consequences of conquest.",
+    "battleSlugs": [],
+    "source": {
+      "title": "Subutai: Sorting Fact from Fiction — Stephen Pow and Jingjing Liao",
+      "url": "https://doi.org/10.1163/22127453-12341323",
+      "publisher": "Journal of Chinese Military History, Brill"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "saladin",
+    "name": "Salah al-Din Yusuf ibn Ayyub (Saladin)",
+    "years": "1137/38–1193",
+    "state": "Ayyubid Sultanate",
+    "eraId": "medieval",
+    "role": "Sultan and commander",
+    "summary": "Consolidated power in Egypt and Syria, defeated the Crusader army at Hattin and recovered Jerusalem in 1187.",
+    "approach": "Built a political coalition before concentrating forces against the Latin states.",
+    "strength": "Connected diplomacy, resource mobilization and battlefield pressure.",
+    "limitation": "Defeats at Montgisard and Arsuf, and the loss of Acre, show the limits of his military position.",
+    "legacy": "Later ideals of chivalry can obscure warfare's coercion, prisoner executions and the complexity of religious politics.",
+    "battleSlugs": ["hattin"],
+    "source": {
+      "title": "Saladin: historical chronology",
+      "url": "https://www.worldhistory.org/timeline/Saladin/",
+      "publisher": "World History Encyclopedia"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "richard-i",
+    "name": "Richard I of England",
+    "years": "1157–1199",
+    "state": "Angevin realms",
+    "eraId": "medieval",
+    "role": "King and campaign commander",
+    "summary": "Led major operations during the Third Crusade and later fought to defend his continental possessions.",
+    "approach": "Combined siege warfare, coastal supply and negotiated settlements.",
+    "strength": "Maintained an expeditionary army and won at Arsuf and Jaffa.",
+    "limitation": "Could not recover Jerusalem; captivity and ransom exposed the financial and political costs of distant campaigning.",
+    "legacy": "His military fame coexists with the killing of prisoners at Acre and the burden imposed on his subjects.",
+    "battleSlugs": [],
+    "source": {
+      "title": "Richard I Coeur de Lion (r.1189–1199)",
+      "url": "https://www.royal.uk/richard-i",
+      "publisher": "The Royal Household"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "mehmed-ii",
+    "name": "Mehmed II",
+    "years": "1432–1481",
+    "state": "Ottoman Empire",
+    "eraId": "early-modern",
+    "role": "Sultan and commander",
+    "summary": "Captured Constantinople in 1453 and expanded Ottoman rule in the Balkans and Anatolia.",
+    "approach": "Mobilized siege artillery, fleets, fortifications and imperial administrative resources.",
+    "strength": "Integrated different military and technical capabilities in the campaign against Constantinople.",
+    "limitation": "The failed siege of Belgrade in 1456 demonstrates that artillery and imperial resources did not ensure victory.",
+    "legacy": "He transformed Constantinople into an Ottoman capital; conquest also brought killing, enslavement and forced population movement.",
+    "battleSlugs": ["constantinople"],
+    "source": {
+      "title": "Portrait of Mehmed II: historical context",
+      "url": "https://www.sakipsabancimuzesi.org/en/collections-and-research/search/1355",
+      "publisher": "Sakıp Sabancı Museum"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "yi-sun-sin",
+    "name": "Yi Sun-sin",
+    "years": "1545–1598",
+    "state": "Joseon Korea",
+    "eraId": "early-modern",
+    "role": "Admiral",
+    "summary": "Led Korean naval resistance during Japan's invasions of Korea in the 1590s.",
+    "approach": "Used coastal knowledge, preparation and naval gunnery to contest Japanese maritime movement.",
+    "strength": "His war diary provides unusually rich evidence about command, supplies and personal responsibilities.",
+    "limitation": "Court politics interrupted his command; popular retellings can overstate the role of turtle ships in every victory.",
+    "legacy": "Killed at Noryang, he became a central figure in Korean historical memory. His surviving writings should be distinguished from later legend.",
+    "battleSlugs": [],
+    "source": {
+      "title": "The Great Admiral Yi Sun-sin: exhibition and primary documents",
+      "url": "https://vcm.museum.go.kr/ENG/contents/E0202010000.do?exhiSpThemId=3225173&listType=gallery&menuId=current&schM=view",
+      "publisher": "National Museum of Korea"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "oda-nobunaga",
+    "name": "Oda Nobunaga",
+    "years": "1534–1582",
+    "state": "Sengoku Japan",
+    "eraId": "early-modern",
+    "role": "Daimyō and political consolidator",
+    "summary": "Expanded from Owari, entered Kyoto and helped dismantle the Ashikaga shogunate during Japan's wars of unification.",
+    "approach": "Linked military expansion to castle bases, commercial policy and alliances.",
+    "strength": "Mobilized resources and firearms within an expanding territorial organization.",
+    "limitation": "Dependent relationships with retainers remained vulnerable; Akechi Mitsuhide's attack ended his rule in 1582.",
+    "legacy": "Unification included severe violence against religious and political opponents; simplified accounts of firearm innovation require caution.",
+    "battleSlugs": [],
+    "source": {
+      "title": "Nobunaga and the Sengoku period: permanent exhibition",
+      "url": "https://www.rekihaku.gifu.gifu.jp/en/exhibition/",
+      "publisher": "Gifu City Museum of History"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "tokugawa-ieyasu",
+    "name": "Tokugawa Ieyasu",
+    "years": "1543–1616",
+    "state": "Tokugawa Japan",
+    "eraId": "early-modern",
+    "role": "Daimyō and shogun",
+    "summary": "Survived the Sengoku conflicts, won at Sekigahara and founded the Tokugawa shogunate.",
+    "approach": "Built a durable territorial base and managed alliances before securing political supremacy.",
+    "strength": "Converted military success into institutions that sustained Tokugawa rule.",
+    "limitation": "His earlier defeat at Mikatagahara and dependence on other leaders complicate the image of inevitable victory.",
+    "legacy": "The regime brought prolonged domestic stability through hierarchical control; the Toyotomi were eliminated in the Osaka campaigns.",
+    "battleSlugs": ["sekigahara"],
+    "source": {
+      "title": "Tokugawa Ieyasu and the Toyotomi Regime",
+      "url": "https://www.visit-shizuoka.com/en/event/detail_687.html",
+      "publisher": "Shizuoka City / Shizuoka City History Museum"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "gustavus-adolphus",
+    "name": "Gustav II Adolf (Gustavus Adolphus)",
+    "years": "1594–1632",
+    "state": "Sweden",
+    "eraId": "early-modern",
+    "role": "King and commander",
+    "summary": "Led Sweden through Baltic wars and intervened in the Thirty Years' War, winning at Breitenfeld.",
+    "approach": "Combined military organization with taxation, bureaucracy, alliances and coordinated battlefield arms.",
+    "strength": "Sweden's state institutions supported campaigning beyond its limited population base.",
+    "limitation": "War consumed most of his reign; he died at Lützen, and Swedish forces relied heavily on non-Swedish soldiers.",
+    "legacy": "Often associated with military innovation, his achievements grew from earlier developments and imposed heavy human and fiscal costs.",
+    "battleSlugs": ["breitenfeld"],
+    "source": {
+      "title": "Gustav II Adolf",
+      "url": "https://www.vasamuseet.se/en/explore/vasa-history/gustav-ii-adolf",
+      "publisher": "Vasa Museum"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "john-churchill",
+    "name": "John Churchill, Duke of Marlborough",
+    "years": "1650–1722",
+    "state": "England / Great Britain",
+    "eraId": "early-modern",
+    "role": "Captain-general and coalition commander",
+    "summary": "Commanded allied armies in the War of the Spanish Succession, working closely with Prince Eugene of Savoy.",
+    "approach": "Linked long-distance maneuver, logistical preparation and diplomacy within a multinational coalition.",
+    "strength": "His march to the Danube and victory at Blenheim relieved pressure on the Habsburg allies.",
+    "limitation": "Military effectiveness depended on domestic political support; he was dismissed in 1711.",
+    "legacy": "His career demonstrates the importance of alliance management alongside battlefield command.",
+    "battleSlugs": ["blenheim"],
+    "source": {
+      "title": "The Duke of Marlborough: Corporal John",
+      "url": "https://www.nam.ac.uk/explore/marlborough",
+      "publisher": "National Army Museum"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "frederick-the-great",
+    "name": "Frederick II of Prussia",
+    "years": "1712–1786",
+    "state": "Prussia",
+    "eraId": "early-modern",
+    "role": "King and commander",
+    "summary": "Seized Silesia and led Prussia through the War of the Austrian Succession and the Seven Years' War.",
+    "approach": "Used a drilled standing army and rapid concentration while managing a vulnerable state's resources.",
+    "strength": "Sustained Prussia's position against powerful opponents.",
+    "limitation": "Defeats such as Kunersdorf and the importance of diplomatic changes challenge explanations based solely on military genius.",
+    "legacy": "Prussia's rise combined institutional development with aggressive territorial expansion and severe wartime losses.",
+    "battleSlugs": [],
+    "source": {
+      "title": "Frederick the Great",
+      "url": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/frederick-the-great",
+      "publisher": "George Washington's Mount Vernon"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "nader-shah",
+    "name": "Nader Shah Afshar",
+    "years": "1688–1747",
+    "state": "Afsharid Iran",
+    "eraId": "early-modern",
+    "role": "Shah and commander",
+    "summary": "Rose amid Safavid collapse, fought Afghan and Ottoman opponents and invaded Mughal India.",
+    "approach": "Built a diverse army and used sustained campaigning to restore and enlarge Iranian power.",
+    "strength": "Recovered territory and defeated major regional armies.",
+    "limitation": "Unsuccessful campaigns, heavy taxation and brutal repression undermined his rule; his officers assassinated him.",
+    "legacy": "Military expansion brought plunder and mass violence, including the sack of Delhi. His empire fragmented soon after his death.",
+    "battleSlugs": [],
+    "source": {
+      "title": "Nāder Shah — Ernest Tucker",
+      "url": "https://www.iranicaonline.org/articles/nader-shah/",
+      "publisher": "Encyclopaedia Iranica"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "shivaji",
+    "name": "Shivaji Bhonsle",
+    "years": "1630–1680",
+    "state": "Maratha kingdom",
+    "eraId": "early-modern",
+    "role": "King and military-political founder",
+    "summary": "Built an independent kingdom in the western Deccan amid conflict with Mughal and regional sultanate powers.",
+    "approach": "Linked hill forts, mobile campaigning, revenue administration and coastal defenses.",
+    "strength": "Adapted political and military organization to the terrain and fragmented authority of the Deccan.",
+    "limitation": "Negotiated submissions and reversals, including the Treaty of Purandar, show constrained choices rather than constant victory.",
+    "legacy": "His state provided foundations for later Maratha expansion; later national narratives should not replace examination of contemporary conditions.",
+    "battleSlugs": [],
+    "source": {
+      "title": "Indian History from 1526–1947: Shivaji and administration",
+      "url": "https://nsktu.ac.in/storage/2022/11/CDOE-Study-PRAK-Sastri-Paper.9-Indian-History-1526-1947-A.D.pdf",
+      "publisher": "National Sanskrit University"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "alexander-suvorov",
+    "name": "Alexander Suvorov",
+    "years": "1730–1800",
+    "state": "Russian Empire",
+    "eraId": "early-modern",
+    "role": "Field marshal and generalissimo",
+    "summary": "Commanded Russian forces against Ottoman armies and in the 1799 Italian and Swiss campaigns.",
+    "approach": "Emphasized readiness, disciplined movement and energetic offensive action.",
+    "strength": "Gained extensive experience in different terrains and coalition campaigns.",
+    "limitation": "The Swiss campaign exposed coordination and supply problems within the anti-French coalition.",
+    "legacy": "His reputation must include the violent suppression of the Polish uprising and the massacre at Praga, alongside battlefield achievements.",
+    "battleSlugs": [],
+    "source": {
+      "title": "Alexander Suvorov: museum and research collections",
+      "url": "https://suvorovmuseum.ru/en/",
+      "publisher": "State Memorial Museum of Alexander Suvorov"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "napoleon-bonaparte",
+    "name": "Napoleon Bonaparte",
+    "years": "1769–1821",
+    "state": "France",
+    "eraId": "napoleonic",
+    "role": "Emperor and army commander",
+    "summary": "Rose during the Revolutionary Wars and led French campaigns across Europe before final defeat in 1815.",
+    "approach": "Used corps organization, operational concentration and the resources of a mobilized imperial state.",
+    "strength": "At Austerlitz, combined campaign positioning and battlefield opportunity against a coalition army.",
+    "limitation": "The invasion of Russia, war in Spain and renewed coalitions exposed logistical and political limits.",
+    "legacy": "His legacy joins administrative reform to authoritarian rule, imperial conquest and enormous human losses.",
+    "battleSlugs": ["austerlitz", "waterloo"],
+    "source": {
+      "title": "Battle of Waterloo",
+      "url": "https://www.nam.ac.uk/explore/battle-waterloo",
+      "publisher": "National Army Museum"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "arthur-wellesley",
+    "name": "Arthur Wellesley, Duke of Wellington",
+    "years": "1769–1852",
+    "state": "Great Britain / United Kingdom",
+    "eraId": "napoleonic",
+    "role": "Field marshal and coalition commander",
+    "summary": "Commanded in India and the Peninsular War, then led the Anglo-Allied army at Waterloo.",
+    "approach": "Prioritized supplies, intelligence, defensible positions and dependable cooperation with allies.",
+    "strength": "Combined defensive preparation with offensive opportunities, notably at Salamanca.",
+    "limitation": "The failed siege of Burgos forced a retreat; his career also served British colonial expansion.",
+    "legacy": "Waterloo depended on a multinational army and Prussian intervention, making it a study of coalition warfare.",
+    "battleSlugs": ["waterloo"],
+    "source": {
+      "title": "Wellington: The Iron Duke",
+      "url": "https://www.nam.ac.uk/explore/duke-wellington",
+      "publisher": "National Army Museum"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "mikhail-kutuzov",
+    "name": "Mikhail Golenishchev-Kutuzov",
+    "years": "1745–1813",
+    "state": "Russian Empire",
+    "eraId": "napoleonic",
+    "role": "Field marshal",
+    "summary": "Commanded Russian forces at Austerlitz and took overall command during Napoleon's 1812 invasion.",
+    "approach": "Balanced the preservation of the army against pressure to defend territory and engage the invader.",
+    "strength": "After Borodino, accepted the abandonment of Moscow while maintaining an army capable of continuing the war.",
+    "limitation": "Austerlitz was a major defeat; the division of responsibility among commanders and monarchs remains important.",
+    "legacy": "The 1812 outcome depended on supply failures, resistance, weather and many commanders, not a single all-knowing plan.",
+    "battleSlugs": ["austerlitz"],
+    "source": {
+      "title": "Mikhail Kutuzov and the War of 1812",
+      "url": "https://museum-artillery.ru/en/main-exposition/mikhail-kutuzov-and-the-war-of-1812.html",
+      "publisher": "Military-Historical Museum of Artillery, Engineer and Signal Corps"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "ulysses-s-grant",
+    "name": "Ulysses S. Grant",
+    "years": "1822–1885",
+    "state": "United States",
+    "eraId": "industrial",
+    "role": "General-in-chief; later president",
+    "summary": "Led Union victories in the western theater before taking overall command of Union armies in 1864.",
+    "approach": "Coordinated simultaneous pressure across theaters and sustained operations against Confederate armies and resources.",
+    "strength": "The Vicksburg campaign and cooperation with other commanders demonstrate operational flexibility.",
+    "limitation": "The Overland Campaign incurred severe casualties; Grant later regretted the assault at Cold Harbor.",
+    "legacy": "His military leadership helped defeat a rebellion founded on slavery; his presidency also involved Reconstruction and protection of civil rights.",
+    "battleSlugs": [],
+    "source": {
+      "title": "Ulysses S. Grant: Civil War biography",
+      "url": "https://www.loc.gov/exhibits/civil-war-in-america/biographies/ulysses-s-grant.html",
+      "publisher": "Library of Congress"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "robert-e-lee",
+    "name": "Robert E. Lee",
+    "years": "1807–1870",
+    "state": "Confederate States",
+    "eraId": "industrial",
+    "role": "General, Army of Northern Virginia",
+    "summary": "Commanded the Confederacy's principal army in the eastern theater of the American Civil War.",
+    "approach": "Frequently sought initiative and decisive engagements despite a constrained resource base.",
+    "strength": "Coordinated successful maneuvers at Second Manassas and Chancellorsville.",
+    "limitation": "Offensive choices brought costly losses; the Gettysburg campaign failed to achieve its strategic aims.",
+    "legacy": "Lee owned enslaved people and fought for a slaveholding Confederacy. Lost Cause mythology must be separated from historical assessment.",
+    "battleSlugs": ["gettysburg"],
+    "source": {
+      "title": "Robert E. Lee and Slavery",
+      "url": "https://www.nps.gov/arho/learn/historyculture/robert-e-lee-and-slavery.htm",
+      "publisher": "National Park Service"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "william-t-sherman",
+    "name": "William Tecumseh Sherman",
+    "years": "1820–1891",
+    "state": "United States",
+    "eraId": "industrial",
+    "role": "Army commander; later commanding general",
+    "summary": "Served with Grant in the western theater, then led the Atlanta campaign and the March to the Sea.",
+    "approach": "Targeted Confederate transport, supplies and capacity to sustain the war while maneuvering large armies.",
+    "strength": "Linked campaigning to the opponent's wider economic and logistical system.",
+    "limitation": "Operations inflicted extensive civilian hardship; later campaigns against Indigenous peoples remain central to evaluating his career.",
+    "legacy": "His campaigns helped end the Confederacy, while debate continues about the scope and consequences of destructive warfare.",
+    "battleSlugs": [],
+    "source": {
+      "title": "William Tecumseh Sherman",
+      "url": "https://www.nps.gov/vick/learn/historyculture/william-tecumseh-sherman.htm",
+      "publisher": "National Park Service"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "helmuth-von-moltke",
+    "name": "Helmuth von Moltke the Elder",
+    "years": "1800–1891",
+    "state": "Prussia / German Empire",
+    "eraId": "industrial",
+    "role": "Chief of the General Staff",
+    "summary": "Directed Prussian operational planning in the wars of 1864, 1866 and 1870–71.",
+    "approach": "Used staff preparation, rail mobilization and separate army movements aimed at concentration.",
+    "strength": "Strengthened an institutional approach to command that could coordinate multiple armies.",
+    "limitation": "Decentralized action could create unintended battles; operational success did not resolve war's political consequences.",
+    "legacy": "His staff system influenced later armies and helped enable German unification through war.",
+    "battleSlugs": ["sedan"],
+    "source": {
+      "title": "Moltke, Field Marshal Helmuth von, the Elder — Matthew S. Seligmann",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781444338232.wbeow422",
+      "publisher": "Wiley Encyclopedia of War"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "shaka",
+    "name": "Shaka kaSenzangakhona",
+    "years": "c.1787–1828",
+    "state": "Zulu kingdom",
+    "eraId": "industrial",
+    "role": "King and military-political founder",
+    "summary": "Expanded Zulu power in southeastern Africa during the early nineteenth century.",
+    "approach": "Consolidated authority through military organization, alliances and coercion.",
+    "strength": "Helped transform regional political relationships and the scale of mobilization.",
+    "limitation": "Claims that he single-handedly invented particular weapons or formations are difficult to establish from uneven sources.",
+    "legacy": "Oral traditions and colonial accounts require careful comparison. Debates about regional upheaval should not reduce complex causes to one ruler.",
+    "battleSlugs": [],
+    "source": {
+      "title": "Heritage Route of King Shaka",
+      "url": "https://sahistory.org.za/place/heritage-route-king-shaka",
+      "publisher": "South African History Online"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "menelik-ii",
+    "name": "Menelik II",
+    "years": "1844–1913",
+    "state": "Ethiopia",
+    "eraId": "industrial",
+    "role": "Emperor and coalition leader",
+    "summary": "Led Ethiopia during the First Italo-Ethiopian War and the victory at Adwa in 1896.",
+    "approach": "Mobilized regional armies and acquired modern arms while using diplomacy among competing powers.",
+    "strength": "United substantial forces against an invading colonial army, with vital contributions from regional leaders and Empress Taytu.",
+    "limitation": "The campaign required difficult coalition management and supply arrangements; victories should not erase these collective contributions.",
+    "legacy": "Adwa protected Ethiopian sovereignty and became a global anti-colonial symbol. Menelik's own territorial expansion also involved coercion and subjugation.",
+    "battleSlugs": [],
+    "source": {
+      "title": "Emperor Menelik II and the Battle of Adwa: A Pictorial History",
+      "url": "https://blogs.loc.gov/international-collections/2020/03/emperor-menelik-ii-of-ethiopia-and-the-battle-of-adwa-a-pictorial-history/",
+      "publisher": "Library of Congress"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "togo-heihachiro",
+    "name": "Tōgō Heihachirō",
+    "years": "1848–1934",
+    "state": "Japan",
+    "eraId": "industrial",
+    "role": "Admiral",
+    "summary": "Commanded Japan's Combined Fleet during the Russo-Japanese War and defeated the Russian Baltic Fleet at Tsushima.",
+    "approach": "Combined fleet preparation, surveillance and concentrated naval action.",
+    "strength": "Experience, training and an effective fleet organization supported decisive operations.",
+    "limitation": "Victory depended on institutional resources and the opposing fleet's condition, not solely a commander's maneuver.",
+    "legacy": "His prestige shaped Japanese naval culture within a period of imperial expansion.",
+    "battleSlugs": ["tsushima"],
+    "source": {
+      "title": "Tōgō Heihachirō: Portraits of Modern Japanese Historical Figures",
+      "url": "https://www.ndl.go.jp/portrait/e/datas/141",
+      "publisher": "National Diet Library, Japan"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "ferdinand-foch",
+    "name": "Ferdinand Foch",
+    "years": "1851–1929",
+    "state": "France / Allied coalition",
+    "eraId": "world-wars",
+    "role": "Marshal and Allied supreme commander",
+    "summary": "Held corps, army and army-group commands before becoming Allied supreme commander in 1918.",
+    "approach": "Developed from prewar offensive theory toward coordinating coalition operations and reserves.",
+    "strength": "Helped maintain Allied cohesion during the German spring offensives and subsequent counteroffensives.",
+    "limitation": "Earlier offensives produced severe losses, and coalition command still depended on national governments and army leaders.",
+    "legacy": "His career shows the distinction between tactical command, military theory and the political work of allied direction.",
+    "battleSlugs": [],
+    "source": {
+      "title": "Foch, Ferdinand — Elizabeth Greenhalgh",
+      "url": "https://encyclopedia.1914-1918-online.net/wp-content/uploads/2023/01/ams/958119/pdf/1914-1918-Online-foch_ferdinand-2015-11-18.pdf",
+      "publisher": "International Encyclopedia of the First World War"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "douglas-haig",
+    "name": "Douglas Haig",
+    "years": "1861–1928",
+    "state": "United Kingdom",
+    "eraId": "world-wars",
+    "role": "Field marshal, British Expeditionary Force",
+    "summary": "Commanded British forces on the Western Front from late 1915 through the 1918 victory.",
+    "approach": "Sought to wear down German forces while developing an expanding mass army.",
+    "strength": "The army under his command improved coordination among infantry, artillery, aircraft and tanks.",
+    "limitation": "The Somme and Passchendaele involved enormous casualties and failed expectations; continuation of attacks remains heavily debated.",
+    "legacy": "Assessment must include learning and final success without minimizing suffering or treating victory as proof every decision was sound.",
+    "battleSlugs": [],
+    "source": {
+      "title": "Douglas Haig: The chief",
+      "url": "https://www.nam.ac.uk/explore/douglas-haig",
+      "publisher": "National Army Museum"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "aleksei-brusilov",
+    "name": "Aleksei Brusilov",
+    "years": "1853–1926",
+    "state": "Russian Empire",
+    "eraId": "world-wars",
+    "role": "Front commander; later commander-in-chief",
+    "summary": "Directed the Southwestern Front's major 1916 offensive against Austria-Hungary.",
+    "approach": "Prepared attacks along a broad front, reducing obvious concentration at a single predictable point.",
+    "strength": "Achieved substantial initial gains and disrupted Austro-Hungarian forces.",
+    "limitation": "Casualties, logistical strain and uneven support limited exploitation; later command in 1917 did not reverse army disintegration.",
+    "legacy": "His career spans imperial service, revolution and later cooperation with the Red Army, complicating simple national narratives.",
+    "battleSlugs": [],
+    "source": {
+      "title": "Brusilov, Alekseĭ Alekseevich",
+      "url": "https://encyclopedia.1914-1918-online.net/wp-content/uploads/2023/01/ams/957522/pdf/1914-1918-Online-brusilov_aleksei_alekseevich-2018-04-24.pdf",
+      "publisher": "International Encyclopedia of the First World War"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "mustafa-kemal-ataturk",
+    "name": "Mustafa Kemal Atatürk",
+    "years": "1881–1938",
+    "state": "Ottoman Empire / Turkey",
+    "eraId": "world-wars",
+    "role": "Army commander; later president",
+    "summary": "Commanded at Gallipoli and subsequently led the Turkish nationalist movement and its armies.",
+    "approach": "Connected defensive military action with political organization and state formation.",
+    "strength": "At Gallipoli, rapidly committed forces to contest key terrain and later held wider sector command.",
+    "limitation": "The Ottoman defeat in 1918 and the wider violence of state collapse frame his subsequent career.",
+    "legacy": "Founder of the Turkish republic, he became a major national figure; battlefield accounts should be separated from later commemorative traditions.",
+    "battleSlugs": [],
+    "source": {
+      "title": "Atatürk (Mustafa Kemal)",
+      "url": "https://www.awm.gov.au/articles/encyclopedia/ataturk",
+      "publisher": "Australian War Memorial"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "georgy-zhukov",
+    "name": "Georgy Zhukov",
+    "years": "1896–1974",
+    "state": "Soviet Union",
+    "eraId": "world-wars",
+    "role": "Marshal and senior operational coordinator",
+    "summary": "Held major commands and high-level coordinating roles during the Soviet war against Nazi Germany.",
+    "approach": "Integrated large-scale reserves, artillery and successive operations within a vast mobilized military system.",
+    "strength": "Played major roles in the defense of Moscow and subsequent Soviet offensives.",
+    "limitation": "Costly operations and disputes over credit require attention to other commanders, staffs and political direction.",
+    "legacy": "His role in defeating Nazi Germany is central, alongside the human cost, coercive Soviet institutions and abuses committed by advancing forces.",
+    "battleSlugs": ["stalingrad", "kursk"],
+    "source": {
+      "title": "Georgy Zhukov: Time of Power and Forgotten Reforms",
+      "url": "https://museum-vf.ru/en/exhibition/vystavka-georgiy-zhukov-en/",
+      "publisher": "Museum of Military Uniforms"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "konstantin-rokossovsky",
+    "name": "Konstantin Rokossovsky",
+    "years": "1896–1968",
+    "state": "Soviet Union / postwar Poland",
+    "eraId": "world-wars",
+    "role": "Marshal and front commander",
+    "summary": "Commanded major formations at Stalingrad, Kursk and in the 1944 Soviet offensives.",
+    "approach": "Associated with careful operational preparation and coordination across broad fronts.",
+    "strength": "Led the Don Front in the reduction of the encircled German forces at Stalingrad.",
+    "limitation": "Operations near Warsaw in 1944 involved military constraints and Stalin's political calculations; explanations remain contested.",
+    "legacy": "A survivor of Stalin's purges, he later held senior office in Soviet-dominated Poland, linking military reputation to disputed political authority.",
+    "battleSlugs": ["stalingrad", "kursk"],
+    "source": {
+      "title": "The Allied Responses to the Warsaw Uprising of 1944",
+      "url": "https://www.nationalww2museum.org/war/articles/allied-responses-warsaw-uprising-1944",
+      "publisher": "The National WWII Museum"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "dwight-d-eisenhower",
+    "name": "Dwight D. Eisenhower",
+    "years": "1890–1969",
+    "state": "United States / Allied coalition",
+    "eraId": "world-wars",
+    "role": "Supreme Allied Commander",
+    "summary": "Directed Allied operations in the Mediterranean and commanded the 1944 invasion of western Europe.",
+    "approach": "Prioritized coalition unity, logistical preparation and coordination of land, sea and air forces.",
+    "strength": "Managed competing national priorities and accepted responsibility for the decision to launch D-Day.",
+    "limitation": "Strategic choices were constrained by ports, transport and disagreements among senior commanders.",
+    "legacy": "His contribution illustrates theater command and alliance management rather than personal control of every battlefield action.",
+    "battleSlugs": ["normandy"],
+    "source": {
+      "title": "General Eisenhower and D-Day",
+      "url": "https://www.nps.gov/eise/learn/historyculture/d-day.htm",
+      "publisher": "National Park Service"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "bernard-montgomery",
+    "name": "Bernard Law Montgomery",
+    "years": "1887–1976",
+    "state": "United Kingdom",
+    "eraId": "world-wars",
+    "role": "Field marshal and army-group commander",
+    "summary": "Commanded the Eighth Army in North Africa and later Allied ground forces in Normandy.",
+    "approach": "Emphasized preparation, clear plans, training and accumulated material strength.",
+    "strength": "Helped rebuild confidence and organize the offensive at Second El Alamein.",
+    "limitation": "Operation Market Garden failed to achieve its objectives; interpersonal disputes strained coalition relations.",
+    "legacy": "His record joins successful set-piece operations with contested judgments about speed, opportunity and the claims made for his own role.",
+    "battleSlugs": ["el-alamein", "normandy"],
+    "source": {
+      "title": "Bernard Law Montgomery: Unbeatable and unbearable",
+      "url": "https://www.nam.ac.uk/explore/bernard-montgomery",
+      "publisher": "National Army Museum"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "george-s-patton",
+    "name": "George S. Patton Jr.",
+    "years": "1885–1945",
+    "state": "United States",
+    "eraId": "world-wars",
+    "role": "Army commander",
+    "summary": "Commanded American forces in North Africa, Sicily and western Europe, including the Third Army.",
+    "approach": "Emphasized mobility, offensive tempo and exploitation once opposing defenses were disrupted.",
+    "strength": "Helped convert the Normandy breakout into a rapid advance across France.",
+    "limitation": "Supply limits constrained pursuit; abusive conduct toward soldiers and inflammatory statements damaged his standing.",
+    "legacy": "His operational achievements should be evaluated alongside disciplinary failures and the combined efforts of staffs, supporting arms and soldiers.",
+    "battleSlugs": ["normandy"],
+    "source": {
+      "title": "General George S. Patton",
+      "url": "https://www.nationalww2museum.org/war/articles/general-george-s-patton-world-war-ii",
+      "publisher": "The National WWII Museum"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "erwin-rommel",
+    "name": "Erwin Rommel",
+    "years": "1891–1944",
+    "state": "Nazi Germany",
+    "eraId": "world-wars",
+    "role": "Field marshal",
+    "summary": "Commanded armored forces in France, Axis forces in North Africa and later defenses in Normandy.",
+    "approach": "Used forward command and rapid exploitation of opportunities.",
+    "strength": "His early desert operations displayed adaptability and initiative.",
+    "limitation": "Advances strained Axis supply capacity; defeat in North Africa exposed the gap between tactical success and strategic resources.",
+    "legacy": "The apolitical 'clean' Rommel legend is misleading. His rise relied on Hitler's favor and Nazi propaganda; his relationship with the regime requires scrutiny.",
+    "battleSlugs": ["el-alamein", "normandy"],
+    "source": {
+      "title": "Erwin Rommel",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/erwin-rommel",
+      "publisher": "United States Holocaust Memorial Museum"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "chester-w-nimitz",
+    "name": "Chester W. Nimitz",
+    "years": "1885–1966",
+    "state": "United States",
+    "eraId": "world-wars",
+    "role": "Fleet admiral and theater commander",
+    "summary": "Commanded the Pacific Fleet and Pacific Ocean Areas during the Second World War.",
+    "approach": "Used intelligence, clear objectives and delegated tactical authority within a large joint campaign.",
+    "strength": "At Midway, concentrated limited carrier forces using advance intelligence about Japanese intentions.",
+    "limitation": "Intelligence remained incomplete; amphibious advances carried severe costs and depended on industrial and logistical resources.",
+    "legacy": "His career illustrates command through institutions, staffs and trusted subordinates rather than battlefield micromanagement.",
+    "battleSlugs": ["midway"],
+    "source": {
+      "title": "Midway's Strategic Lessons",
+      "url": "https://www.history.navy.mil/content/history/nhhc/research/library/online-reading-room/title-list-alphabetically/m/midways-strategic-lessons.html",
+      "publisher": "Naval History and Heritage Command"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "isoroku-yamamoto",
+    "name": "Isoroku Yamamoto",
+    "years": "1884–1943",
+    "state": "Imperial Japan",
+    "eraId": "world-wars",
+    "role": "Admiral, Combined Fleet",
+    "summary": "Directed Japan's Combined Fleet and shaped the Pearl Harbor and Midway operations.",
+    "approach": "Sought decisive naval action to weaken American capacity early in the Pacific War.",
+    "strength": "Recognized the importance of carrier aviation and organized ambitious fleet operations.",
+    "limitation": "The complex Midway plan relied on faulty assumptions and dispersed forces; American intelligence undermined surprise.",
+    "legacy": "His reservations about a prolonged war did not prevent him from directing operations in service of Japanese imperial aggression.",
+    "battleSlugs": ["midway"],
+    "source": {
+      "title": "Battle of Midway",
+      "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1942/midway.html",
+      "publisher": "Naval History and Heritage Command"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "douglas-macarthur",
+    "name": "Douglas MacArthur",
+    "years": "1880–1964",
+    "state": "United States",
+    "eraId": "world-wars",
+    "role": "General of the Army and theater commander",
+    "summary": "Commanded in the Southwest Pacific, oversaw occupied Japan and led United Nations forces during the Korean War.",
+    "approach": "Combined amphibious operations, air power and political theater-level leadership.",
+    "strength": "The New Guinea campaign and Inchon landing demonstrate operational ambition and adaptation.",
+    "limitation": "The Philippine defeat in 1942, Chinese intervention in Korea and conflict with civilian authority expose serious limits.",
+    "legacy": "His long career connects military command, occupation governance and the constitutional principle of civilian control.",
+    "battleSlugs": [],
+    "source": {
+      "title": "Douglas MacArthur",
+      "url": "https://www.thenmusa.org/biographies/douglas-macarthur/",
+      "publisher": "National Museum of the United States Army"
+    },
+    "editorialStatus": "catalog-summary"
+  },
+  {
+    "slug": "vo-nguyen-giap",
+    "name": "Võ Nguyên Giáp",
+    "years": "1911–2013",
+    "state": "Democratic Republic of Vietnam",
+    "eraId": "modern",
+    "role": "General, commander-in-chief and defense minister",
+    "summary": "Helped build the Viet Minh's armed forces and commanded the campaign against the French garrison at Dien Bien Phu.",
+    "approach": "Linked political mobilization and logistics to a transition from guerrilla operations to conventional campaigning.",
+    "strength": "At Dien Bien Phu, sustained a siege through extensive transport, labor and artillery preparation.",
+    "limitation": "Earlier offensives suffered major setbacks; later decisions were collective and cannot all be assigned to Giáp personally.",
+    "legacy": "His career shaped Vietnamese independence and warfare at immense human cost. Official commemorative accounts require comparison with independent scholarship.",
+    "battleSlugs": ["dien-bien-phu"],
+    "source": {
+      "title": "Biography of General Vo Nguyen Giap",
+      "url": "https://en.baochinhphu.vn/biography-of-general-vo-nguyen-giap-11117953.htm",
+      "publisher": "Viet Nam Government News"
+    },
+    "editorialStatus": "catalog-summary"
+  }
+]

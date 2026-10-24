@@ -1,6 +1,6 @@
 # Verification record
 
-Date: 24 October 2026 (Europe/Warsaw). Environment: Windows, Node 24.20.0, npm 11.19.0. Local servers were bound to loopback. The site is published to GitHub Pages by the deploy workflow; this record covers local verification of the route restructure before it is pushed.
+Date: 24 October 2026 (Europe/Warsaw). Environment: Windows, Node 24.20.0, npm 11.19.0. Local servers were bound to loopback. The site is published to GitHub Pages by the deploy workflow; this record covers local verification of the typography and motion update before it is pushed.
 
 ## Completed checks
 
@@ -13,14 +13,16 @@ Date: 24 October 2026 (Europe/Warsaw). Environment: Windows, Node 24.20.0, npm 1
 | Build with `BASE_PATH` and `SITE_URL` for GitHub Pages | Passed; canonical, Open Graph and sitemap URLs use `https://darkonaumovski.github.io/war-tactics-academy/` |
 | `npm run db:setup`                                     | Passed; both checked-in migrations applied (`initial`, `course_ordinal`) and catalog populated             |
 | Repeated `npm run db:seed`                             | Passed; no duplicate catalog records; the renamed campaign's old record removed                            |
-| Full Playwright run against static export              | **120 passed, 0 failed, 0 skipped** in 4.7 minutes                                                         |
-| Chromium / Firefox / WebKit                            | 40 passed each                                                                                             |
+| Full Playwright run against static export              | **135 passed, 0 failed, 0 skipped** in 5.6 minutes                                                         |
+| Chromium / Firefox / WebKit                            | 45 passed each                                                                                             |
+| Motion-sensitive tests, 4 repeats per engine           | 36 of 36 passed                                                                                            |
+| Preloaded fonts / home page JavaScript                 | 2 files, 84 KB / 258 KB gzipped (223 KB before Motion)                                                     |
 
-The browser runs built the static export and served it with `scripts/serve-static.mjs`, the same files that are deployed. The suite has 40 scenarios per engine (120 in total). No retries were configured and nothing was skipped.
+The browser runs built the static export and served it with `scripts/serve-static.mjs`, the same files that are deployed. The suite has 45 scenarios per engine (135 in total). No retries were configured and nothing was skipped.
 
-In the previous update, a WebKit test ("main routes produce no browser runtime errors") failed intermittently because WebKit reports link prefetches cancelled by the test's next `page.goto` as errors. The test now waits for each page's network to settle before navigating on; the error assertion was not changed or filtered. It passed in every run since, including 12 of 12 repeated runs across the three engines.
+The first full run with Motion failed two WebKit accessibility tests: a home section stayed transparent after the test scrolled quickly through the page. WebKit evaluated intersections too infrequently to see a block that was passed in one step, which a visitor jumping with the End key could also hit. The reveal now also checks on scroll whether a block has entered or been passed, and a test jumps straight to the end to cover this. A repeat run then exposed a test-only race (the scroll pass finished before hydration), so the audit helper repeats its scroll pass until every section is visible. After both changes, the full suite passed 135 of 135 and the motion-sensitive tests passed 36 of 36 repeated runs.
 
-The original edition recorded 24 unit and 84 browser tests. Later updates recorded 33 unit and 102 browser tests, 38 unit and 114 browser tests, and the static-export conversion. This record reflects the file-based route restructure, page metadata and the Operation engagement type.
+The original edition recorded 24 unit and 84 browser tests. Later updates recorded 33 unit and 102 browser tests, 38 unit and 114 browser tests, the static-export conversion, and 41 unit and 120 browser tests after the route restructure. This record reflects self-hosted typography and Motion animations.
 
 ## Database verification
 
@@ -158,6 +160,13 @@ Found while restructuring the routes:
 - The seed updated only the JSON payload of existing engagements, so a changed name, kind or campaign never reached the relational columns. It now updates them too.
 - Renaming a campaign left its old record in the database, where it would have produced an empty campaign page. The seed now deletes campaigns that are no longer in the data.
 - Generated route types in .next/ still referenced the removed catch-all route and failed type checking until regenerated.
+
+Found while adding typography and motion:
+
+- next/font preloads every listed subset, so the first configuration preloaded six font files (221 KB). The generated CSS declares all unicode ranges regardless, so only Latin is now preloaded (two files, 84 KB) and other ranges load when a page uses them.
+- next/font rejects options passed through a shared variable; each family now lists its options literally.
+- Scroll reveals could leave a section hidden after a fast jump in WebKit; reveals now also trigger once a section has been scrolled past.
+- The preview screenshot script takes full-page captures without scrolling, which would show unrevealed sections as blank; it now emulates reduced motion.
 
 ## Screenshots and reports
 

@@ -1,4 +1,5 @@
 "use client";
+import { FadeIn } from "./motion";
 import { useState, useEffect } from "react";
 import { CheckCircle, ArrowRight, RotateCcw, Info } from "lucide-react";
 import type { Lesson, Scenario } from "../lib/types";
@@ -82,30 +83,32 @@ export function Quiz({
           </button>
         ) : (
           <div className="quiz-feedback" role="status">
-            <h3>
-              {score === lesson.questions.length
-                ? "Well reasoned."
-                : "A useful moment to reflect."}{" "}
-              {score}/{lesson.questions.length}
-            </h3>
-            {lesson.questions.map((q) => (
-              <p key={q.prompt}>{q.explanation}</p>
-            ))}
-            <p className="small">
-              {failed
-                ? "Storage unavailable. Completion could not be saved."
-                : "Lesson completion and your best score are saved in this browser."}
-            </p>
-            <button
-              type="button"
-              className="text-button"
-              onClick={() => {
-                setSubmitted(false);
-                setAnswers([]);
-              }}
-            >
-              <RotateCcw size={15} /> Try again
-            </button>
+            <FadeIn>
+              <h3>
+                {score === lesson.questions.length
+                  ? "Well reasoned."
+                  : "A useful moment to reflect."}{" "}
+                {score}/{lesson.questions.length}
+              </h3>
+              {lesson.questions.map((q) => (
+                <p key={q.prompt}>{q.explanation}</p>
+              ))}
+              <p className="small">
+                {failed
+                  ? "Storage unavailable. Completion could not be saved."
+                  : "Lesson completion and your best score are saved in this browser."}
+              </p>
+              <button
+                type="button"
+                className="text-button"
+                onClick={() => {
+                  setSubmitted(false);
+                  setAnswers([]);
+                }}
+              >
+                <RotateCcw size={15} /> Try again
+              </button>
+            </FadeIn>
           </div>
         )}
       </form>
@@ -188,38 +191,40 @@ export function DecisionExercise({ scenario }: { scenario: Scenario }) {
           </button>
         ) : (
           <div className="decision-feedback" role="status">
-            <span className="eyebrow">YOUR DECISION / REFLECTION</span>
-            <p>{selected !== null && scenario.options[selected].feedback}</p>
-            <h3>What actually happened</h3>
-            <p>{scenario.historical}</p>
-            <h3>Counterfactual interpretation</h3>
-            <p>
-              Alternative choices are teaching prompts. Their consequences
-              cannot be verified, and the historical outcome does not prove that
-              every other choice would have failed.
-            </p>
-            <div className="note">
-              <Info size={16} />
-              <span>
-                {failed
-                  ? "Browser storage is unavailable. Progress could not be saved."
-                  : "Your exploration is saved in this browser. This exercise assesses reasoning, not battlefield performance."}
-              </span>
-            </div>
-            <button
-              className="text-button"
-              onClick={() => {
-                setState("briefing");
-                setSelected(null);
-                writeProgress((p) => {
-                  const scenarios = { ...p.scenarios };
-                  delete scenarios[scenario.slug];
-                  return { ...p, scenarios };
-                });
-              }}
-            >
-              <RotateCcw size={16} /> Explore another approach
-            </button>
+            <FadeIn>
+              <span className="eyebrow">YOUR DECISION / REFLECTION</span>
+              <p>{selected !== null && scenario.options[selected].feedback}</p>
+              <h3>What actually happened</h3>
+              <p>{scenario.historical}</p>
+              <h3>Counterfactual interpretation</h3>
+              <p>
+                Alternative choices are teaching prompts. Their consequences
+                cannot be verified, and the historical outcome does not prove
+                that every other choice would have failed.
+              </p>
+              <div className="note">
+                <Info size={16} />
+                <span>
+                  {failed
+                    ? "Browser storage is unavailable. Progress could not be saved."
+                    : "Your exploration is saved in this browser. This exercise assesses reasoning, not battlefield performance."}
+                </span>
+              </div>
+              <button
+                className="text-button"
+                onClick={() => {
+                  setState("briefing");
+                  setSelected(null);
+                  writeProgress((p) => {
+                    const scenarios = { ...p.scenarios };
+                    delete scenarios[scenario.slug];
+                    return { ...p, scenarios };
+                  });
+                }}
+              >
+                <RotateCcw size={16} /> Explore another approach
+              </button>
+            </FadeIn>
           </div>
         )}
       </section>

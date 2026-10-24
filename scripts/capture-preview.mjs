@@ -6,6 +6,8 @@ const browser = await chromium.launch();
 const page = await browser.newPage({
   viewport: { width: 1440, height: 1000 },
   deviceScaleFactor: 1,
+  // Full-page captures never scroll, so scroll reveals would show as blank.
+  reducedMotion: "reduce",
 });
 await page.goto(origin);
 await page.getByRole("heading", { level: 1 }).waitFor();

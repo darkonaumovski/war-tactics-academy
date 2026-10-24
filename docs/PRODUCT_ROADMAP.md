@@ -17,7 +17,7 @@
 ## Priority 3 — Product and architecture
 
 1. Add query-level filtering, pagination and selective database projections as the catalog grows; add Open Graph images for shared links.
-2. Profile production bundles and Core Web Vitals; lazy-load geography where beneficial, test with screen readers and high zoom.
+2. Run Lighthouse on the published site and profile Core Web Vitals, including font and Motion costs; lazy-load geography where beneficial, test with screen readers and high zoom.
 3. Add progress export/import, optional accounts and cloud synchronization with explicit data ownership and privacy controls.
 4. Add an editorial CMS with provenance, corrections, review status and audit history.
 5. The static GitHub Pages site needs no runtime database. Migrate to PostgreSQL and a server deployment only if accounts or writes are added, with a backup strategy.

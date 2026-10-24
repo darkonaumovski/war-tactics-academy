@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Shell } from "../components/shell";
+import { MotionProvider } from "../components/motion";
 import { siteDescription, siteName, siteUrl } from "../lib/metadata";
+import { fontVariables } from "./fonts";
 import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: siteUrl,
@@ -18,9 +20,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" data-scroll-behavior="smooth" suppressHydrationWarning>
+    <html
+      lang="en"
+      className={fontVariables}
+      data-scroll-behavior="smooth"
+      suppressHydrationWarning
+    >
       <body>
-        <Shell>{children}</Shell>
+        <MotionProvider>
+          <Shell>{children}</Shell>
+        </MotionProvider>
       </body>
     </html>
   );

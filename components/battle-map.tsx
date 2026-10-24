@@ -1,4 +1,5 @@
 "use client";
+import { FadeIn } from "./motion";
 import { useEffect, useState, useRef, useId } from "react";
 import {
   Play,
@@ -235,9 +236,11 @@ export function BattleMap({ battle }: { battle: Battle }) {
             PHASE {String(phase + 1).padStart(2, "0")} /{" "}
             {String(phases.length).padStart(2, "0")}
           </span>
-          <span className="phase-time">{current.time}</span>
-          <h3>{current.title}</h3>
-          <p>{current.description}</p>
+          <FadeIn key={phase}>
+            <span className="phase-time">{current.time}</span>
+            <h3>{current.title}</h3>
+            <p>{current.description}</p>
+          </FadeIn>
           <div className="note">
             <Info size={15} />
             <span>

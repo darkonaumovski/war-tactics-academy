@@ -1,5 +1,23 @@
 import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
+import type { Page } from "@playwright/test";
+// Scroll-revealed sections stay transparent until seen, and axe skips
+// transparent text. Scroll through the page so every section is audited.
+// The pass repeats because hydration can finish after an early pass, at which
+// point sections below the top are (correctly) hidden until scrolled to again.
+async function revealAll(page: Page) {
+  await expect(async () => {
+    await page.evaluate(async () => {
+      for (let y = 0; y <= document.body.scrollHeight; y += 400) {
+        window.scrollTo({ top: y, behavior: "instant" });
+        await new Promise((r) => setTimeout(r, 80));
+      }
+      window.scrollTo({ top: 0, behavior: "instant" });
+    });
+    for (const block of await page.locator(".home-content > div").all())
+      await expect(block).toHaveCSS("opacity", "1", { timeout: 1500 });
+  }).toPass({ timeout: 20000 });
+}
 test("homepage navigation, featured study and hero actions", async ({
   page,
 }) => {
@@ -535,10 +553,15 @@ for (const route of [
   "/atlas",
   "/library",
   "/commanders/ulysses-s-grant",
+  "/commanders/yi-sun-sin",
+  "/battles/austerlitz",
+  "/wars/punic",
+  "/search?q=terrain",
 ])
   test(`accessibility: ${route}`, async ({ page }) => {
     await page.goto(route);
     await expect(page.getByRole("main")).toBeVisible();
+    if (route === "/") await revealAll(page);
     const result = await new AxeBuilder({ page }).analyze();
     expect(
       result.violations.filter(
@@ -546,6 +569,33 @@ for (const route of [
       ),
     ).toEqual([]);
   });
+test("home sections reveal on scroll and respect reduced motion", async ({
+  page,
+}) => {
+  await page.goto("/");
+  const commanders = page.locator(".home-content > .commander-grid");
+  // Content that starts in view is never hidden.
+  await expect(page.locator(".hero h1")).toHaveCSS("opacity", "1");
+  await expect(commanders).toHaveCSS("opacity", "0");
+  await commanders.scrollIntoViewIfNeeded();
+  await expect(commanders).toHaveCSS("opacity", "1");
+  // Jumping straight to the end must not leave skipped sections hidden.
+  await page.reload();
+  await page.evaluate(() =>
+    window.scrollTo({ top: document.body.scrollHeight, behavior: "instant" }),
+  );
+  await expect(page.locator(".home-content > .era-strip")).toHaveCSS(
+    "opacity",
+    "1",
+  );
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  await page.reload();
+  await expect(page.locator(".home-content > .challenge-banner")).toHaveCSS(
+    "opacity",
+    "1",
+  );
+  await expect(commanders).toHaveCSS("transform", "none");
+});
 test("main routes produce no browser runtime errors", async ({ page }) => {
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
@@ -580,9 +630,12 @@ test("light theme maintains accessible contrast", async ({ page }) => {
     "/",
     "/academy/foundations/strategy-and-tactics",
     "/simulator/hold-the-ridge",
+    "/battles/austerlitz",
+    "/commanders/yi-sun-sin",
   ]) {
     await page.goto(route);
     await expect(page.locator("html")).toHaveAttribute("data-theme", "light");
+    if (route === "/") await revealAll(page);
     const result = await new AxeBuilder({ page }).analyze();
     expect(
       result.violations.filter(

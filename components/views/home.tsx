@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Reveal } from "../motion";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -103,7 +104,7 @@ export function HomePage({ c }: { c: Catalog }) {
           href="/battles"
           label="Explore the atlas"
         />
-        <div className="featured-study">
+        <Reveal className="featured-study">
           <Link className="featured-map" href="/battles/waterloo">
             <Cartography />
             <span className="feature-badge">FEATURED BATTLE STUDY</span>
@@ -139,12 +140,12 @@ export function HomePage({ c }: { c: Catalog }) {
               Explore the Waterloo study <ArrowRight size={17} />
             </Link>
           </div>
-        </div>
-        <div className="battle-grid home-battles">
+        </Reveal>
+        <Reveal className="battle-grid home-battles">
           {["cannae", "austerlitz", "midway"].map((s) => (
             <BattleCard key={s} battle={c.battles.find((b) => b.slug === s)!} />
           ))}
-        </div>
+        </Reveal>
         <SectionTitle
           number="02"
           title="History has a geography"
@@ -158,16 +159,16 @@ export function HomePage({ c }: { c: Catalog }) {
           href="/commanders"
           label="Meet the commanders"
         />
-        <div className="commander-grid home-commanders">
+        <Reveal className="commander-grid home-commanders">
           {featuredCommanders
             .map((s) => c.commanders.find((x) => x.slug === s))
             .filter((x): x is Commander => !!x)
             .map((commander) => (
               <CommanderCard key={commander.slug} commander={commander} />
             ))}
-        </div>
+        </Reveal>
         <SectionTitle number="04" title="Across the ages" />
-        <div className="era-strip">
+        <Reveal className="era-strip">
           {eras.map((e, i) => (
             <Link href={`/battles?era=${e.id}`} key={e.id}>
               <span className="era-number">0{i + 1}</span>
@@ -176,8 +177,8 @@ export function HomePage({ c }: { c: Catalog }) {
               <ArrowUpRight size={16} />
             </Link>
           ))}
-        </div>
-        <div className="learning-feature">
+        </Reveal>
+        <Reveal className="learning-feature">
           <div>
             <span className="eyebrow">THE ACADEMY / STRUCTURED LEARNING</span>
             <h2>
@@ -206,14 +207,14 @@ export function HomePage({ c }: { c: Catalog }) {
               </Link>
             ))}
           </div>
-        </div>
+        </Reveal>
         <SectionTitle
           number="05"
           title="The wider campaign"
           href="/wars"
           label="Wars & campaigns"
         />
-        <div className="war-links">
+        <Reveal className="war-links">
           {["punic", "napoleonic", "ww2"].map((s) => {
             const w = c.wars.find((w) => w.slug === s)!;
             return (
@@ -227,8 +228,8 @@ export function HomePage({ c }: { c: Catalog }) {
               </Link>
             );
           })}
-        </div>
-        <div className="challenge-banner">
+        </Reveal>
+        <Reveal className="challenge-banner">
           <div className="challenge-icon">
             <Target size={42} strokeWidth={1} />
           </div>
@@ -243,7 +244,7 @@ export function HomePage({ c }: { c: Catalog }) {
           <Link className="button" href={`/simulator/${challenge.slug}`}>
             Take the commander’s seat <ArrowRight size={16} />
           </Link>
-        </div>
+        </Reveal>
         <SectionTitle
           number="06"
           title="Your continuing exploration"

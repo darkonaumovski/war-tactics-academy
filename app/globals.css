@@ -22,7 +22,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
   font-size: 14px;
   line-height: 1.7;
 }
@@ -69,8 +69,8 @@ p {
 h1,
 h2,
 h3 {
-  font-family: Georgia, "Times New Roman", serif;
-  font-weight: 400;
+  font-family: var(--font-display);
+  font-weight: 500;
   line-height: 1.2;
 }
 h1 {
@@ -263,7 +263,7 @@ legend {
   align-items: center;
   gap: 10px;
   margin: 0 5px 48px;
-  font-family: Georgia, serif;
+  font-family: var(--font-display);
   font-size: 12px;
   letter-spacing: 1.7px;
   line-height: 1.5;
@@ -276,7 +276,7 @@ legend {
 }
 .brand small {
   display: block;
-  font-family: Arial, sans-serif;
+  font-family: var(--font-sans);
   font-size: 6px;
   letter-spacing: 2px;
   color: var(--gold);
@@ -351,7 +351,7 @@ legend {
   letter-spacing: 1.2px;
 }
 .academy-note p {
-  font-family: Georgia, serif;
+  font-family: var(--font-serif);
   font-size: 12px;
   margin: 12px 0;
   color: #a9b1b6;
@@ -449,7 +449,7 @@ footer > span {
 }
 footer > span span {
   display: block;
-  font-family: Georgia, serif;
+  font-family: var(--font-display);
   font-size: 11px;
   letter-spacing: 0;
   margin-top: 3px;
@@ -554,7 +554,7 @@ footer > div {
   top: 28px;
   z-index: 1;
   color: #a8b3ab;
-  font-family: monospace;
+  font-family: var(--font-mono);
   font-size: 8px;
   letter-spacing: 1.4px;
   text-align: right;
@@ -601,9 +601,7 @@ footer > div {
   stroke-width: 1.2;
 }
 .stat-strip strong {
-  font:
-    26px Georgia,
-    serif;
+  font: 26px var(--font-display);
   line-height: 1;
 }
 .stat-strip span {
@@ -630,7 +628,7 @@ footer > div {
   gap: 13px;
 }
 .section-title h2 > span {
-  font-family: monospace;
+  font-family: var(--font-mono);
   font-size: 10px;
   color: var(--gold-dim);
   letter-spacing: 0;
@@ -679,14 +677,12 @@ footer > div {
   color: #ede0bf;
   font-size: 39px;
   letter-spacing: 5px;
-  font-family: Georgia, serif;
+  font-family: var(--font-display);
   text-shadow: 0 2px 15px #111;
 }
 .feature-map-label small {
   display: block;
-  font:
-    8px Arial,
-    sans-serif;
+  font: 8px var(--font-sans);
   letter-spacing: 4px;
   margin-top: 4px;
 }
@@ -772,7 +768,7 @@ footer > div {
   left: 15px;
   font-size: 7px;
   letter-spacing: 1.2px;
-  font-family: monospace;
+  font-family: var(--font-mono);
   color: #ddd5b8;
 }
 .kind-pill {
@@ -790,7 +786,7 @@ footer > div {
   position: absolute;
   bottom: 13px;
   left: 16px;
-  font-family: monospace;
+  font-family: var(--font-mono);
   font-size: 12px;
   letter-spacing: 1px;
   color: #e4d2ab;
@@ -868,9 +864,7 @@ footer > div {
   background: radial-gradient(ellipse, #354039, #1b2829);
   border: 1px solid #5a5c46;
   color: #d1bc8d;
-  font:
-    27px Georgia,
-    serif;
+  font: 27px var(--font-display);
 }
 .commander-monogram > span {
   font-size: 15px;
@@ -929,7 +923,7 @@ footer > div {
 }
 .era-number {
   color: var(--gold);
-  font: 10px monospace;
+  font: 10px var(--font-mono);
 }
 .era-strip h3 {
   font-size: 20px;
@@ -982,13 +976,11 @@ footer > div {
   gap: 15px;
   padding: 18px 0;
   border-bottom: 1px solid #3a4547;
-  font:
-    18px Georgia,
-    serif;
+  font: 18px var(--font-display);
   color: #e6dfd0;
 }
 .learning-topics span {
-  font: 10px monospace;
+  font: 10px var(--font-mono);
   color: #bfa775;
 }
 .learning-topics svg {
@@ -1061,7 +1053,7 @@ footer > div {
   gap: 12px;
   padding: 15px;
   border: 1px solid var(--line);
-  font-family: Georgia, serif;
+  font-family: var(--font-display);
   font-size: 18px;
 }
 .saved-records svg {
@@ -1069,9 +1061,7 @@ footer > div {
 }
 .saved-records small {
   display: block;
-  font:
-    8px Arial,
-    sans-serif;
+  font: 8px var(--font-sans);
   letter-spacing: 1px;
   color: var(--muted);
   text-transform: uppercase;
@@ -1230,7 +1220,7 @@ footer > div {
   margin: 16px 0 28px;
 }
 .related-bar > span {
-  font: 8px monospace;
+  font: 8px var(--font-mono);
   letter-spacing: 1px;
   color: var(--muted);
 }
@@ -1298,7 +1288,7 @@ footer > div {
   flex-wrap: wrap;
 }
 .analysis-heading > span:first-child {
-  font: 9px monospace;
+  font: 9px var(--font-mono);
   color: var(--gold-dim);
 }
 .analysis-heading h3 {
@@ -1375,9 +1365,7 @@ footer > div {
   font-size: 8px;
 }
 .aside-challenge strong {
-  font:
-    20px Georgia,
-    serif;
+  font: 20px var(--font-display);
   display: block;
   margin-top: 8px;
 }
@@ -1581,7 +1569,7 @@ footer > div {
 }
 .phase-time {
   display: block;
-  font: 10px monospace;
+  font: 10px var(--font-mono);
   color: var(--muted);
   margin: 18px 0 8px;
 }
@@ -1638,7 +1626,7 @@ footer > div {
 }
 .phase-tabs button span {
   display: block;
-  font: 9px monospace;
+  font: 9px var(--font-mono);
   margin-bottom: 6px;
   color: var(--gold-dim);
 }
@@ -1768,15 +1756,11 @@ footer > div {
   border: 1px solid var(--line);
   padding: 14px;
   text-align: left;
-  font:
-    19px Georgia,
-    serif;
+  font: 19px var(--font-display);
 }
 .atlas-list button small {
   display: block;
-  font:
-    9px Arial,
-    sans-serif;
+  font: 9px var(--font-sans);
   color: var(--muted);
   margin-top: 10px;
 }
@@ -1801,22 +1785,18 @@ footer > div {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font:
-    65px Georgia,
-    serif;
+  font: 65px var(--font-display);
   color: #d2bb8b;
 }
 .large-monogram > span {
-  font:
-    7px Arial,
-    sans-serif;
+  font: 7px var(--font-sans);
   letter-spacing: 2px;
   margin-top: 25px;
 }
 .lead {
   font-size: 18px !important;
   line-height: 1.8;
-  font-family: Georgia, serif;
+  font-family: var(--font-serif);
   color: var(--text);
   margin-top: 16px;
 }
@@ -1875,15 +1855,11 @@ td {
   line-height: 1.8;
 }
 thead th {
-  font:
-    24px Georgia,
-    serif;
+  font: 24px var(--font-display);
   background: var(--panel);
 }
 thead th:first-child {
-  font:
-    12px Arial,
-    sans-serif;
+  font: 12px var(--font-sans);
 }
 tbody th {
   width: 18%;
@@ -1907,7 +1883,7 @@ td {
   margin-bottom: 20px;
 }
 .war-era > h2 > span {
-  font: 10px monospace;
+  font: 10px var(--font-mono);
   color: var(--muted);
 }
 .war-grid {
@@ -1943,9 +1919,7 @@ td {
   align-items: center;
   padding: 18px 0;
   border-bottom: 1px solid var(--line);
-  font:
-    20px Georgia,
-    serif;
+  font: 20px var(--font-display);
 }
 .campaign-list svg {
   color: var(--gold);
@@ -2021,9 +1995,7 @@ progress::-moz-progress-bar {
   border-bottom: 1px solid var(--line);
 }
 .lesson-number {
-  font:
-    22px Georgia,
-    serif;
+  font: 22px var(--font-display);
   color: var(--gold-dim);
 }
 .lesson-list h2 {
@@ -2060,7 +2032,7 @@ progress::-moz-progress-bar {
 .lesson-article {
   margin: 30px 0;
   font-size: 17px;
-  font-family: Georgia, serif;
+  font-family: var(--font-serif);
 }
 .lesson-article p {
   margin: 24px 0;
@@ -2080,13 +2052,11 @@ progress::-moz-progress-bar {
 }
 .concept-diagram span {
   display: block;
-  font: 9px monospace;
+  font: 9px var(--font-mono);
   color: var(--gold);
 }
 .concept-diagram strong {
-  font:
-    18px Georgia,
-    serif;
+  font: 18px var(--font-display);
   display: block;
   margin-top: 12px;
 }
@@ -2107,12 +2077,10 @@ progress::-moz-progress-bar {
   align-items: center;
   padding: 15px 20px;
   border: 1px solid var(--line);
-  font:
-    23px Georgia,
-    serif;
+  font: 23px var(--font-display);
 }
 .lesson-battles span {
-  font: 10px monospace;
+  font: 10px var(--font-mono);
   color: var(--muted);
   margin-left: auto;
 }
@@ -2196,9 +2164,7 @@ progress::-moz-progress-bar {
 }
 .scenario-number {
   display: block;
-  font:
-    50px Georgia,
-    serif;
+  font: 50px var(--font-display);
   color: var(--gold-dim);
   margin-bottom: 25px;
 }
@@ -2251,9 +2217,7 @@ progress::-moz-progress-bar {
   border: 1px solid var(--gold-dim);
   height: 30px;
   width: 30px;
-  font:
-    16px Georgia,
-    serif;
+  font: 16px var(--font-display);
   color: var(--gold);
   flex-shrink: 0;
 }
@@ -2321,7 +2285,7 @@ progress::-moz-progress-bar {
   text-transform: none;
 }
 .media-filters + [role="status"] {
-  font: 10px monospace;
+  font: 10px var(--font-mono);
   color: var(--muted);
   margin: 20px 0;
 }
@@ -2435,7 +2399,7 @@ progress::-moz-progress-bar {
   color: var(--muted);
 }
 .section-refs > span {
-  font: 9px monospace;
+  font: 9px var(--font-mono);
   letter-spacing: 1.2px;
   text-transform: uppercase;
   color: var(--gold-dim);
@@ -2512,7 +2476,7 @@ progress::-moz-progress-bar {
   background: var(--gold-dim);
 }
 .chronology strong {
-  font: 11px monospace;
+  font: 11px var(--font-mono);
   color: var(--gold);
   font-weight: 400;
   padding-top: 2px;
@@ -3042,9 +3006,7 @@ progress::-moz-progress-bar {
     display: flex;
     align-items: center;
     gap: 10px;
-    font:
-      11px Georgia,
-      serif;
+    font: 11px var(--font-display);
     letter-spacing: 1.3px;
   }
   .mobile-brand svg {

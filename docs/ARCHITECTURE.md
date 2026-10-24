@@ -2,11 +2,11 @@
 
 ## Runtime and boundaries
 
-Next.js App Router renders the application on a local Node server. TypeScript is strict. SQLite persistence is managed by Prisma 7.10.1 with the better-sqlite3 adapter. React 19.3.1 and Next.js 16.4.3 are locked in the package lock; the Prisma 8 prerelease was deliberately not adopted.
+Next.js App Router prerenders the whole application at build time as a static export (`output: "export"`, `trailingSlash: true`, an optional `basePath` from `BASE_PATH`). TypeScript is strict. SQLite persistence is managed by Prisma 7.10.1 with the better-sqlite3 adapter. React 19.3.1 and Next.js 16.4.3 are locked in the package lock; the Prisma 8 prerelease was deliberately not adopted.
 
-The route dispatcher in `app/[[...route]]/page.tsx` resolves supported route families, checks slugs and calls `notFound()` for unknown paths. The root layout provides a persistent shell. Server-rendered page views receive domain data from `lib/content.ts`; catalogs, maps, quizzes, theme and progress components hydrate as interactive client boundaries. All text uses React escaping; there is no HTML injection or dynamic evaluation of historical content.
+The route dispatcher in `app/[[...route]]/page.tsx` lists every page in `generateStaticParams` and sets `dynamicParams = false`, so unlisted paths are served the static 404 page. It still checks slugs and calls `notFound()` defensively. The root layout provides a persistent shell. Server-rendered page views receive domain data from `lib/content.ts`; catalogs, maps, quizzes, theme and progress components hydrate as interactive client boundaries. All text uses React escaping; there is no HTML injection or dynamic evaluation of historical content.
 
-`lib/content.ts` reads the actual seeded database. React `cache` deduplicates repeated reads within a server render, including metadata generation. It is not an indefinite process cache. The first edition reads the catalog in bulk; query-level pagination and selective loading are appropriate when the corpus grows.
+`lib/content.ts` reads the seeded database during the build only; the deployed site has no server or database. React `cache` deduplicates repeated reads within a render, including metadata generation. The first edition reads the catalog in bulk; query-level pagination and selective loading are appropriate when the corpus grows.
 
 Curated media is the exception to database reads: `lib/media.ts` validates `data/media.json` with Zod at module load, and the library and profile views import it directly. The same records are seeded into `MediaResource`/`HistoricalSource` so the relational source graph stays complete. Course order comes from the `LearningCourse.ordinal` column.
 
@@ -27,10 +27,12 @@ The layout is persistent across navigation. The server waits for route resolutio
 
 Metadata is generated for principal records and sections. Reading bookmarks do not affect server content. Daily challenge rotation follows Europe/Warsaw calendar days.
 
-## Deployment boundary
+## Deployment
 
-No external publication occurred. The compatible initial deployment shape is a Node process with a persistent writable SQLite volume and backups, fronted by a configured HTTPS proxy. The checked-in commands bind to loopback for local use. Horizontal scale would require an appropriate database strategy. A PostgreSQL migration changes the provider, driver adapter, connection configuration and migration history; the logical entity graph can remain.
+The site is published to GitHub Pages by `.github/workflows/deploy.yml`, which builds with `BASE_PATH=/<repository-name>/` and uploads `out/`. Query-string state cannot be rendered on a static host, so the search page and battle catalog render their default state at build time and apply `?q=`, `?type=` and `?era=` in the browser (`useSearchParams` inside a `Suspense` boundary whose fallback is the prerendered default). The video tab is a separate page, `/library/videos/`. Search forms use `next/form`, which applies the base path. `scripts/serve-static.mjs` reproduces Pages behavior locally and for Playwright.
+
+If a server is needed later (accounts, writes), the compatible shape is a Node process with a persistent database and backups behind an HTTPS proxy. Horizontal scale would require an appropriate database strategy. A PostgreSQL migration changes the provider, driver adapter, connection configuration and migration history; the logical entity graph can remain.
 
 ## Performance and remaining work
 
-The app requires no tile requests or downloaded fonts and does not autoplay animations. Replay playback is explicitly started and cleaned up on unmount. Reduced-motion preferences disable CSS transitions. Original vector artwork scales without raster downloads. The initial full catalog and world geography are small enough for the MVP but should be profiled as they grow. Lazy loading heavier atlas assets, route-specific database projections and a production Lighthouse run are future performance work; no unmeasured score is claimed.
+The app requires no tile requests or downloaded fonts and does not autoplay animations. Static export output is about 21 MB, mostly prerendered pages and route payloads. Replay playback is explicitly started and cleaned up on unmount. Reduced-motion preferences disable CSS transitions. Original vector artwork scales without raster downloads. The initial full catalog and world geography are small enough for the MVP but should be profiled as they grow. Lazy loading heavier atlas assets, route-specific database projections and a production Lighthouse run are future performance work; no unmeasured score is claimed.

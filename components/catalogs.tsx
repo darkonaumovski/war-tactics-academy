@@ -1,5 +1,5 @@
 "use client";
-import { useState, type ReactNode } from "react";
+import { Suspense, useState, type ReactNode } from "react";
 import { useSearchParams } from "next/navigation";
 import { Search, SlidersHorizontal, X } from "lucide-react";
 import { eras } from "../data/catalog";
@@ -7,11 +7,40 @@ import { filterBattles, normalize } from "../lib/logic";
 import type { Battle, Commander } from "../lib/types";
 import { BattleCard, CommanderCard, Empty } from "./ui";
 import { useHydrated } from "../lib/use-hydrated";
+// Pages are prerendered for static hosting, so the unfiltered catalog is the
+// build-time fallback and URL filters (?era=, ?q=) apply once the page hydrates.
 export function BattleCatalog({ battles }: { battles: Battle[] }) {
-  const ready = useHydrated();
+  return (
+    <Suspense fallback={<BattleCatalogView battles={battles} />}>
+      <BattleCatalogFromUrl battles={battles} />
+    </Suspense>
+  );
+}
+function BattleCatalogFromUrl({ battles }: { battles: Battle[] }) {
   const params = useSearchParams();
-  const [q, setQ] = useState(params.get("q") ?? "");
-  const [era, setEra] = useState(params.get("era") ?? "");
+  const q = params.get("q") ?? "";
+  const era = params.get("era") ?? "";
+  return (
+    <BattleCatalogView
+      key={`${q}|${era}`}
+      battles={battles}
+      initialQuery={q}
+      initialEra={era}
+    />
+  );
+}
+function BattleCatalogView({
+  battles,
+  initialQuery = "",
+  initialEra = "",
+}: {
+  battles: Battle[];
+  initialQuery?: string;
+  initialEra?: string;
+}) {
+  const ready = useHydrated();
+  const [q, setQ] = useState(initialQuery);
+  const [era, setEra] = useState(initialEra);
   const [region, setRegion] = useState("");
   const [kind, setKind] = useState("");
   const result = filterBattles(battles, q, era, region, kind);

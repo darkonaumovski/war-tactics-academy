@@ -22,7 +22,7 @@ it("embeds only verified privacy-enhanced YouTube players for videos", () => {
     else expect(m.embedUrl, m.id).toBeUndefined();
   }
 });
-it("serves portrait images only from hosts allowed by the image optimizer", () => {
+it("lists every portrait host in the image configuration allowlist", () => {
   const patterns = config.images?.remotePatterns ?? [];
   for (const m of media.filter((m) => m.imageUrl)) {
     expect(m.kind, m.id).toBe("portrait");

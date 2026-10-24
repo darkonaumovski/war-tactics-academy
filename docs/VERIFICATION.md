@@ -1,29 +1,27 @@
 # Verification record
 
-Date: 24 October 2026 (Europe/Warsaw). Environment: Windows, Node 24.20.0, npm 11.19.0. All application servers were bound to loopback; no publication or external deployment occurred.
+Date: 24 October 2026 (Europe/Warsaw). Environment: Windows, Node 24.20.0, npm 11.19.0. Local servers were bound to loopback. The GitHub Pages workflow was added in this update; this record covers local verification before the first publication.
 
 ## Completed checks
 
-| Check                          | Result                                                                                         |
-| ------------------------------ | ---------------------------------------------------------------------------------------------- |
-| `npm run lint`                 | Passed, no warnings or errors                                                                  |
-| `npm run typecheck`            | Passed, strict TypeScript                                                                      |
-| `npm test`                     | 38 passed, 0 failed, 7 test files                                                              |
-| `npm run build`                | Passed; optimized Next.js production build and generated Prisma client                         |
-| `npm run db:setup`             | Passed; both checked-in migrations applied (`initial`, `course_ordinal`) and catalog populated |
-| Repeated `npm run db:seed`     | Passed; no duplicate catalog records                                                           |
-| Full Playwright production run | **113 passed, 1 failed, 0 skipped** in 3.7 minutes                                             |
-| Chromium                       | 38 passed                                                                                      |
-| Firefox                        | 38 passed                                                                                      |
-| WebKit, full run               | 37 passed, 1 failed (intermittent; see below)                                                  |
-| WebKit, failed test repeated   | 5 of 5 passed                                                                                  |
-| WebKit, whole project rerun    | 38 passed                                                                                      |
+| Check                                     | Result                                                                                         |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| `npm run lint`                            | Passed, no warnings or errors                                                                  |
+| `npm run typecheck`                       | Passed, strict TypeScript                                                                      |
+| `npm test`                                | 38 passed, 0 failed, 7 test files                                                              |
+| `npm run build`                           | Passed; static export of 171 prerendered pages to `out/`                                       |
+| `BASE_PATH=/war-tactics-academy/` build   | Passed; links and assets carry the base path; checked in a browser                             |
+| `npm run db:setup`                        | Passed; both checked-in migrations applied (`initial`, `course_ordinal`) and catalog populated |
+| Repeated `npm run db:seed`                | Passed; no duplicate catalog records                                                           |
+| Full Playwright run against static export | **114 passed, 0 failed, 0 skipped** in 4.4 minutes                                             |
+| Chromium / Firefox / WebKit               | 38 passed each                                                                                 |
+| Runtime-errors test, 4 repeats per engine | 12 of 12 passed                                                                                |
 
-The browser runs used the built production server, with `PLAYWRIGHT_BASE_URL=http://127.0.0.1:3000`. The suite has 38 scenarios per engine (114 in total) across Chromium, Firefox and WebKit. No retries were configured, nothing was skipped and no assertion was weakened. The configuration enables failure screenshots, HTML/JSON reports and first-retry traces.
+The browser runs built the static export and served it with `scripts/serve-static.mjs`, the same files that are deployed. The suite has 38 scenarios per engine (114 in total). No retries were configured and nothing was skipped.
 
-In the full three-engine run, WebKit's "main routes produce no browser runtime errors" test failed once. It recorded errors of the form "…?\_rsc=… due to access control checks" for eight routes: React Server Component prefetch requests that WebKit reported as failed while the test navigated rapidly from page to page. The test passed in five isolated repetitions and in a rerun of the whole WebKit project. This is recorded as an intermittent WebKit prefetch-cancellation failure under parallel load, not as a pass. It has not yet been investigated further.
+The first full run against the static export failed one WebKit test, "main routes produce no browser runtime errors". As in the previous update, the errors had the form "…\_\_next.\_tree.txt?\_rsc=… due to access control checks": link prefetches that WebKit reports as failed when the test's next `page.goto` cancels them. Having now recurred in two full runs, the test waits for each page's network to settle before navigating on. The error assertion itself was not changed or filtered. After the change, the full suite passed 114 of 114 and the test passed 12 of 12 repeated runs across the three engines.
 
-The original edition recorded 24 unit and 84 browser tests. A later update recorded 33 unit and 102 browser tests after the extended learning paths and media library were completed. This record reflects the deeper commander, war, perspective, source-reference and exercise content.
+The original edition recorded 24 unit and 84 browser tests. Later updates recorded 33 unit and 102 browser tests, then 38 unit and 114 browser tests with one intermittent WebKit failure. This record reflects the conversion to a static export for GitHub Pages.
 
 ## Database verification
 
@@ -103,6 +101,20 @@ PLAYWRIGHT_BASE_URL=http://127.0.0.1:3000 npx playwright test --project=webkit -
 PLAYWRIGHT_BASE_URL=http://127.0.0.1:3000 npx playwright test --project=webkit
 ```
 
+Static export for GitHub Pages:
+
+```text
+npm run lint
+npm run typecheck
+npm test
+npm run build
+MSYS_NO_PATHCONV=1 BASE_PATH=/war-tactics-academy/ npm run build
+MSYS_NO_PATHCONV=1 BASE_PATH=/war-tactics-academy/ PORT=3100 node scripts/serve-static.mjs
+npx playwright test --project=chromium
+npx playwright test
+npx playwright test -g "no browser runtime errors" --repeat-each=4
+```
+
 Windows commands used the `npm.cmd` shim. Source files were formatted with Prettier. The Sites dependency helper initially failed to launch npm correctly on this Windows host; direct npm installation succeeded. Prisma's relative CLI database path was corrected to resolve against the workspace root. Restricted-shell user lookup prevented tsx from starting, so authorized local execution was used. An approval-review usage limit interrupted one diagnostic during the first session; it was successfully resumed after the user requested continuation.
 
 ## Defects found and fixed
@@ -135,6 +147,12 @@ Found while deepening the historical content:
 - Seeding left source joins for replaced links in place. The seed now replaces each record's source joins.
 - War, campaign and exercise pages used the generic site title. Metadata now resolves their names.
 - The Zod commander and research schemas would have silently stripped the new fields during seeding. They now validate them.
+
+Found while converting to a static export for GitHub Pages:
+
+- The global search box and the search page used plain HTML forms with action "/search", which ignore the base path and would have sent visitors to the wrong site under /war-tactics-academy/. Both now use next/form, which applies the base path.
+- Request-time query strings cannot be rendered statically. Search and battle filters now read them in the browser, and the video tab moved to its own page.
+- The portrait-fallback test blocked the Next image optimizer, which a static site does not use. It now blocks the archive host directly.
 
 ## Screenshots and reports
 

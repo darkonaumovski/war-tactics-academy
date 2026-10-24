@@ -1,5 +1,6 @@
 "use client";
 import Link, { useLinkStatus } from "next/link";
+import Form from "next/form";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import {
@@ -139,7 +140,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
           <span className="topbar-title">
             HISTORY THROUGH THE LENS OF COMMAND
           </span>
-          <form action="/search" className="global-search">
+          <Form action="/search" className="global-search">
             <Search size={16} />
             <input
               type="search"
@@ -150,7 +151,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
             <button type="submit" aria-label="Submit search">
               ↵
             </button>
-          </form>
+          </Form>
           <Link
             className="collection-icon"
             href="/saved"

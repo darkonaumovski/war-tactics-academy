@@ -23,7 +23,6 @@ import type {
   Scenario,
 } from "../lib/types";
 import { eras } from "../data/catalog";
-import { normalize } from "../lib/logic";
 import { dailyChallengeIndex } from "../lib/daily-challenge";
 import {
   Heading,
@@ -48,6 +47,7 @@ import {
 import { Quiz, DecisionExercise } from "./learning";
 import { media } from "../lib/media";
 import { MediaLibrary, HistoricalPortrait } from "./media-library";
+import { SearchResults, type SearchRecord } from "./search";
 export function HomePage({ c }: { c: Catalog }) {
   const featured = c.battles.find((b) => b.slug === "waterloo")!;
   const featuredCommanders = [
@@ -1137,7 +1137,13 @@ export function ScenarioPage({
     </div>
   );
 }
-export function LibraryPage({ c, videos }: { c: Catalog; videos: boolean }) {
+export function LibraryPage({
+  c,
+  videos = false,
+}: {
+  c: Catalog;
+  videos?: boolean;
+}) {
   const sources = [
     ...new Map(
       c.battles
@@ -1159,10 +1165,7 @@ export function LibraryPage({ c, videos }: { c: Catalog; videos: boolean }) {
         <Link aria-current={!videos ? "page" : undefined} href="/library">
           Sources & documents
         </Link>
-        <Link
-          aria-current={videos ? "page" : undefined}
-          href="/library?type=videos"
-        >
+        <Link aria-current={videos ? "page" : undefined} href="/library/videos">
           Documentaries & lectures
         </Link>
       </div>
@@ -1269,16 +1272,8 @@ export function AboutPage() {
     </div>
   );
 }
-export function SearchPage({
-  c,
-  query,
-  type,
-}: {
-  c: Catalog;
-  query: string;
-  type: string;
-}) {
-  const records = [
+export function SearchPage({ c }: { c: Catalog }) {
+  const records: SearchRecord[] = [
     ...c.battles.map((b) => ({
       title: b.name,
       text: b.summary,
@@ -1318,54 +1313,10 @@ export function SearchPage({
       })),
     ]),
   ];
-  const result = records.filter(
-    (r) =>
-      (!type || r.type === type) &&
-      normalize(`${r.title} ${r.text}`).includes(normalize(query.trim())),
-  );
   return (
     <div className="page-container">
       <Heading eyebrow="FOLLOW YOUR CURIOSITY" title="Search the Academy" />
-      <form className="filter-bar" action="/search">
-        <input
-          type="search"
-          name="q"
-          aria-label="Search query"
-          defaultValue={query}
-          placeholder="A person, battle, campaign or idea…"
-        />
-        <select name="type" aria-label="Content type" defaultValue={type}>
-          <option value="">All content</option>
-          {["Battle", "Commander", "War", "Campaign", "Learning"].map((t) => (
-            <option key={t}>{t}</option>
-          ))}
-        </select>
-        <button type="submit" className="button">
-          Search <ArrowRight size={15} />
-        </button>
-      </form>
-      <p role="status" className="muted">
-        {result.length} results {query && `for “${query}”`}
-      </p>
-      {result.length ? (
-        <div className="search-results">
-          {result.map((r) => (
-            <Link href={r.href} key={r.href}>
-              <span className="eyebrow">{r.type}</span>
-              <h2>
-                {r.title}
-                <ArrowUpRight size={19} />
-              </h2>
-              <p>
-                {r.text.slice(0, 220)}
-                {r.text.length > 220 ? "…" : ""}
-              </p>
-            </Link>
-          ))}
-        </div>
-      ) : (
-        <Empty />
-      )}
+      <SearchResults records={records} />
     </div>
   );
 }

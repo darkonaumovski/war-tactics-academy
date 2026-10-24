@@ -20,7 +20,7 @@
 2. Profile production bundles and Core Web Vitals; lazy-load geography where beneficial, test with screen readers and high zoom.
 3. Add progress export/import, optional accounts and cloud synchronization with explicit data ownership and privacy controls.
 4. Add an editorial CMS with provenance, corrections, review status and audit history.
-5. Migrate to PostgreSQL for multi-user publishing needs; deploy only with explicit owner authorization and a backup strategy.
+5. The static GitHub Pages site needs no runtime database. Migrate to PostgreSQL and a server deployment only if accounts or writes are added, with a backup strategy.
 
 ## Later
 

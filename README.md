@@ -2,7 +2,7 @@
 
 **The Art of Command — Learn from History. Think Like a General.**
 
-A working, local-first historical learning application built with Next.js, React, TypeScript, Prisma and SQLite. No login, paid service, remote database or API key is required. The application has not been deployed to a public web host.
+A working historical learning application built with Next.js, React, TypeScript, Prisma and SQLite. No login, paid service, remote database or API key is required. It builds to a fully static site, and a GitHub Actions workflow publishes it to GitHub Pages at `https://darkonaumovski.github.io/war-tactics-academy/` once Pages is enabled for the repository.
 
 ## Implemented
 
@@ -52,14 +52,29 @@ npm run db:seed
 
 After pulling changes that include new migrations, run `npm run db:migrate` and `npm run db:seed` again (or `npm run db:setup`). The seed uses upserts inside a transaction. Repeating it updates matching records without duplicating them. It does not remove obsolete records after editorial deletions; removal requires an explicit migration/editorial cleanup. Browser learning progress is independent of the catalog database.
 
-## Production
+## Production build and hosting
 
 ```sh
 npm run build
 npm start
 ```
 
-Build after database setup. The server binds to loopback by default. A deployment would require an explicitly authorized Node hosting environment, persistent storage for SQLite, backups and a reverse proxy. Ephemeral serverless filesystems are not an appropriate durable SQLite deployment. PostgreSQL migration is a later option; no deployment has been performed.
+The app is a Next.js static export. `npm run build` reads the seeded SQLite catalog once and prerenders every page (171 at present) into `out/`; run it after database setup. `npm start` serves `out/` on http://127.0.0.1:3000 with `scripts/serve-static.mjs`, which mimics GitHub Pages: directory paths resolve to `index.html`, paths without a trailing slash redirect, and unknown paths return `404.html` with a 404 status. No database or Node server is needed at runtime.
+
+### GitHub Pages
+
+`.github/workflows/deploy.yml` runs on every push to `main`: it installs dependencies, sets up and seeds the database, runs lint, type checking and unit tests, builds with `BASE_PATH=/<repository-name>/`, and publishes `out/` to GitHub Pages. One-time setup: repository Settings → Pages → Source: "GitHub Actions". On a free GitHub plan, Pages requires a public repository.
+
+To preview the project-pages layout locally:
+
+```sh
+BASE_PATH=/war-tactics-academy/ npm run build
+BASE_PATH=/war-tactics-academy/ npm start
+```
+
+Then open http://127.0.0.1:3000/war-tactics-academy/. In Git Bash on Windows, prefix both commands with `MSYS_NO_PATHCONV=1` so the path is not rewritten.
+
+Static hosting constraints: URLs end with a trailing slash; search results and battle filters from the query string (`?q=`, `?era=`) are applied in the browser; the video tab is its own page (`/library/videos/`); portraits load directly from the holding archive because there is no image optimizer. Changes to the catalog reach the site only through a new build.
 
 ## Development and verification
 
@@ -78,7 +93,7 @@ Playwright uses Chromium, Firefox and WebKit projects. Install browser binaries 
 npx playwright install chromium firefox webkit
 ```
 
-Tests automatically start the application on port 3000 if needed. `PLAYWRIGHT_BASE_URL` targets an already-running server and disables automatic startup. A local running server is reused outside CI. HTML reports are written to `playwright-report/`, JSON results to `test-results/results.json`, screenshots on failures, and traces on the first retry. CI retries once; local runs do not hide failures with automatic retries.
+Tests automatically build the static export and serve it on port 3000 if needed, so they exercise the same files that are deployed. `PLAYWRIGHT_BASE_URL` targets an already-running server and disables automatic startup. A local running server is reused outside CI. HTML reports are written to `playwright-report/`, JSON results to `test-results/results.json`, screenshots on failures, and traces on the first retry. CI retries once; local runs do not hide failures with automatic retries.
 
 See [verification results](docs/VERIFICATION.md) for actual execution results and limits, and [test strategy](docs/TEST_STRATEGY.md) for coverage.
 
@@ -126,7 +141,7 @@ External readings remain with their publishers. No publisher artwork or full art
 - Replay diagrams explain abstract relationships; they do not simulate combat or reconstruct exact formations. Atlas locations and Natural Earth coastlines are approximate modern geographic context.
 - The media library is a small starting collection (nine records). Most engagements and commanders have no video, portrait or map yet; the two videos cover only D-Day. Embeds and archive images depend on third-party availability.
 - Progress belongs to one browser and is lost if its local storage is cleared. Storage denial is handled without crashing; save actions report failures.
-- SQLite and the JSON read projections favor a simple local edition. A historian-facing editor, accounts, synchronization, claim-level citation workflow and larger-scale database queries are future work.
+- The site is static: the database is a build-time content store, and updates require a rebuild. SQLite and the JSON read projections favor a simple edition. A historian-facing editor, accounts, synchronization, claim-level citation workflow and larger-scale database queries are future work.
 - Automated accessibility tests supplement, but do not replace, manual screen-reader testing. No Lighthouse score or universal accessibility certification is claimed.
 
 See [prioritized roadmap](docs/PRODUCT_ROADMAP.md).

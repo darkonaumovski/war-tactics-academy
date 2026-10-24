@@ -13,12 +13,12 @@ test("homepage navigation, featured study and hero actions", async ({
   await page
     .getByRole("link", { name: "Explore Battles", exact: true })
     .click();
-  await expect(page).toHaveURL(/\/battles$/);
+  await expect(page).toHaveURL(/\/battles\/$/);
   await page.goto("/");
   await page
     .getByRole("link", { name: "Enter the Academy", exact: true })
     .click();
-  await expect(page).toHaveURL(/\/academy$/);
+  await expect(page).toHaveURL(/\/academy\/$/);
   await page.goto("/");
   await page.getByRole("link", { name: "Explore the Waterloo study" }).click();
   await expect(
@@ -31,7 +31,7 @@ test("battle search and combined filters", async ({ page }) => {
   await page.getByRole("textbox", { name: "Search battles" }).fill("Waterloo");
   await expect(page.getByRole("status")).toHaveText("1 engagements");
   await page.getByRole("link", { name: /Time, terrain & coalition/ }).click();
-  await expect(page).toHaveURL(/waterloo$/);
+  await expect(page).toHaveURL(/waterloo\/$/);
   await page.goto("/battles");
   await page
     .getByLabel("Historical era", { exact: true })
@@ -130,7 +130,7 @@ test("atlas works without external network services", async ({ page }) => {
   await expect(page.locator(".atlas-selection h3")).toHaveText("Cannae");
   await page.getByRole("button", { name: "Zoom atlas in" }).click();
   await page.getByRole("link", { name: "Explore engagement" }).click();
-  await expect(page).toHaveURL(/cannae$/);
+  await expect(page).toHaveURL(/cannae\/$/);
 });
 test("commander search, profile and comparison", async ({ page }) => {
   await page.goto("/commanders");
@@ -298,7 +298,7 @@ test("media library filters records and loads official embeds on request", async
   await page.getByRole("button", { name: "Clear media filters" }).click();
   await expect(page.getByRole("status")).toHaveText("9 resources");
   await page.getByRole("link", { name: "Documentaries & lectures" }).click();
-  await expect(page).toHaveURL(/type=videos/);
+  await expect(page).toHaveURL(/\/library\/videos\/$/);
   await expect(page.getByRole("status")).toHaveText("2 resources");
   await expect(page.locator("iframe")).toHaveCount(0);
   await page
@@ -314,7 +314,7 @@ test("media library filters records and loads official embeds on request", async
     .getByRole("link", { name: "Study: Normandy campaign →" })
     .first()
     .click();
-  await expect(page).toHaveURL(/battles\/normandy$/);
+  await expect(page).toHaveURL(/battles\/normandy\/$/);
 });
 test("commander portrait carries attribution and degrades if unavailable", async ({
   page,
@@ -325,7 +325,7 @@ test("commander portrait carries attribution and degrades if unavailable", async
     portrait.getByRole("link", { name: /Ulysses S. Grant portrait/ }),
   ).toBeVisible();
   await expect(portrait).toContainText("Public domain");
-  await page.route("**/_next/image**", (r) => r.abort());
+  await page.route("https://catalog.archives.gov/**", (r) => r.abort());
   await page.reload();
   await expect(portrait).toContainText("Image unavailable");
   await expect(
@@ -374,7 +374,7 @@ test("war page shows participants, chronology and key commanders", async ({
     "Battle of Cannae",
   );
   await page.getByRole("link", { name: "Hannibal Barca", exact: true }).click();
-  await expect(page).toHaveURL(/commanders\/hannibal-barca$/);
+  await expect(page).toHaveURL(/commanders\/hannibal-barca\/$/);
 });
 test("study sections link to their sources and perspectives show every field", async ({
   page,
@@ -425,7 +425,7 @@ test("war to campaign to battle hierarchy", async ({ page }) => {
     "Waterloo campaign",
   );
   await page.getByRole("link", { name: /Time, terrain & coalition/ }).click();
-  await expect(page).toHaveURL(/battles\/waterloo$/);
+  await expect(page).toHaveURL(/battles\/waterloo\/$/);
 });
 test("theme preference persists", async ({ page }) => {
   await page.goto("/");
@@ -451,7 +451,7 @@ test("mobile navigation opens and closes after navigation", async ({
     .getByRole("navigation", { name: "Main navigation" })
     .getByRole("link", { name: "The Academy", exact: true })
     .click();
-  await expect(page).toHaveURL(/academy$/);
+  await expect(page).toHaveURL(/academy\/$/);
   await expect(
     page.getByRole("button", { name: "Open navigation", exact: true }),
   ).toHaveAttribute("aria-expanded", "false");
@@ -526,7 +526,7 @@ test("main routes produce no browser runtime errors", async ({ page }) => {
     "/academy",
     "/simulator",
     "/library",
-    "/library?type=videos",
+    "/library/videos/",
     "/about",
     "/saved",
     "/search?q=terrain",
@@ -534,6 +534,9 @@ test("main routes produce no browser runtime errors", async ({ page }) => {
     const response = await page.goto(route);
     expect(response?.status()).toBe(200);
     await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
+    // Let link prefetches finish: WebKit reports fetches cancelled by the next
+    // page.goto as errors, which a reader who stays on the page never triggers.
+    await page.waitForLoadState("networkidle");
   }
   expect(errors).toEqual([]);
 });

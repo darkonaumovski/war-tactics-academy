@@ -6,7 +6,7 @@ Vitest runs seven test files with 38 cases covering BCE/CE formatting, forbidden
 
 ## Browser tests
 
-Playwright defines Chromium, Firefox and WebKit projects. Each runs the same 38 scenarios. Tests use accessible roles and labels where possible; stable semantic containers scope repeated content. They cover:
+Playwright defines Chromium, Firefox and WebKit projects. Unless `PLAYWRIGHT_BASE_URL` is set, it builds the static export and serves it with `scripts/serve-static.mjs`, so browser tests run against the files that are deployed, including real 404 responses. Each runs the same 38 scenarios. Tests use accessible roles and labels where possible; stable semantic containers scope repeated content. They cover:
 
 - Homepage actions, main navigation, featured study and mobile navigation.
 - Battle search, combined filters, no-results recovery, details, commander navigation and actual HTTP 404 response.
@@ -25,7 +25,7 @@ Playwright defines Chromium, Firefox and WebKit projects. Each runs the same 38 
 - Eleven representative pages at 375, 768 and 1440 pixels with no document-level horizontal overflow.
 - Ten principal screens, including the library, a portrait profile and an Industrial and World Wars lesson, with axe-core serious/critical violations asserted absent.
 - Three additional light-theme screens with the same accessibility threshold.
-- All main sections checked for successful HTTP responses and uncaught browser errors.
+- All main sections checked for successful HTTP responses and uncaught browser errors. The check waits for each page's network to settle before moving on, because WebKit reports link prefetches cancelled by the next navigation as errors.
 
 ## Execution artifacts
 

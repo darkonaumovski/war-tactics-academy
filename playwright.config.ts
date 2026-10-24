@@ -25,9 +25,10 @@ export default defineConfig({
   webServer: process.env.PLAYWRIGHT_BASE_URL
     ? undefined
     : {
-        command: "npm run dev -- --port 3000",
+        // Tests run against the static export, as deployed to GitHub Pages.
+        command: "npm run build && npm start",
         url: "http://127.0.0.1:3000",
         reuseExistingServer: !process.env.CI,
-        timeout: 120000,
+        timeout: 300000,
       },
 });

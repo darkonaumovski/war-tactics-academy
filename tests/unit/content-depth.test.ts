@@ -81,3 +81,9 @@ it("defines six exercises, each with one historical choice and a study", () => {
       .size,
   ).toBeGreaterThan(1);
 });
+it("distinguishes battles, sieges, operations and campaigns", () => {
+  expect(new Set(battles.map((b) => b.kind))).toEqual(
+    new Set(["Battle", "Siege", "Operation", "Campaign"]),
+  );
+  expect(battles.find((b) => b.slug === "normandy")?.kind).toBe("Operation");
+});

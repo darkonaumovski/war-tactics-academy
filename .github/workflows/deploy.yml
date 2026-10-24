@@ -36,6 +36,8 @@ jobs:
         run: npm run build
         env:
           BASE_PATH: /${{ github.event.repository.name }}/
+          # Absolute origin for canonical URLs, Open Graph and the sitemap.
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
       - run: touch out/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:

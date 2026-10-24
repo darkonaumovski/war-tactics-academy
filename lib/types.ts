@@ -33,7 +33,7 @@ export type Battle = {
   year: number;
   date: string;
   eraId: string;
-  kind: "Battle" | "Siege" | "Campaign";
+  kind: "Battle" | "Siege" | "Operation" | "Campaign";
   region: string;
   location: string;
   lat: number;

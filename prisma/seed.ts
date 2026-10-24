@@ -92,7 +92,16 @@ await db.$transaction(
       const record = { ...battle, research: study };
       await tx.battle.upsert({
         where: { id: battle.slug },
-        update: { payload: json(record) },
+        update: {
+          name: battle.name,
+          kind: battle.kind,
+          year: battle.year,
+          region: battle.region,
+          latitude: battle.lat,
+          longitude: battle.lon,
+          campaignId: battle.campaignId,
+          payload: json(record),
+        },
         create: {
           id: battle.slug,
           name: battle.name,
@@ -181,6 +190,11 @@ await db.$transaction(
         });
       }
     }
+    // Battles now point at current campaigns; drop campaigns renamed or removed
+    // from the editorial data so they do not linger as empty pages.
+    await tx.campaign.deleteMany({
+      where: { id: { notIn: campaigns.map((c) => c.slug) } },
+    });
     for (const [courseOrdinal, course] of courses.entries()) {
       await tx.learningCourse.upsert({
         where: { id: course.slug },

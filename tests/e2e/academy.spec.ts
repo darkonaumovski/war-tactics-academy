@@ -311,7 +311,7 @@ test("media library filters records and loads official embeds on request", async
     page.getByTitle("Archives Live: D-Day", { exact: true }),
   ).toHaveAttribute("src", /^https:\/\/www\.youtube-nocookie\.com\/embed\//);
   await page
-    .getByRole("link", { name: "Study: Normandy campaign →" })
+    .getByRole("link", { name: "Study: Operation Overlord (Normandy) →" })
     .first()
     .click();
   await expect(page).toHaveURL(/battles\/normandy\/$/);
@@ -398,6 +398,38 @@ test("study sections link to their sources and perspectives show every field", a
     await expect(
       perspectives.first().getByRole("heading", { name: label }),
     ).toBeVisible();
+});
+test("engagement category filter distinguishes operations", async ({
+  page,
+}) => {
+  await page.goto("/battles");
+  await page.getByLabel("Engagement category").selectOption("Operation");
+  await expect(page.getByRole("status")).toHaveText("1 engagements");
+  await page
+    .getByRole("link", { name: /Operation Overlord \(Normandy\)/ })
+    .click();
+  await expect(page.getByText("North-west Europe campaign")).toBeVisible();
+});
+test("pages publish descriptive metadata and a sitemap", async ({ page }) => {
+  await page.goto("/battles/waterloo/");
+  await expect(page).toHaveTitle("Waterloo | War Tactics Academy");
+  await expect(page.locator('meta[name="description"]')).toHaveAttribute(
+    "content",
+    /Hundred Days/,
+  );
+  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
+    "href",
+    /\/battles\/waterloo\/$/,
+  );
+  await expect(page.locator('meta[property="og:type"]')).toHaveAttribute(
+    "content",
+    "article",
+  );
+  const sitemap = await page.request.get("/sitemap.xml");
+  expect(sitemap.ok()).toBe(true);
+  const xml = await sitemap.text();
+  expect(xml).toContain("/battles/waterloo/</loc>");
+  expect(xml).toContain("/academy/classical-warfare/siege-warfare/</loc>");
 });
 test("global search includes campaigns and learning", async ({ page }) => {
   await page.goto("/");

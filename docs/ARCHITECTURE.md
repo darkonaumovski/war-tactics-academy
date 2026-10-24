@@ -4,7 +4,7 @@
 
 Next.js App Router prerenders the whole application at build time as a static export (`output: "export"`, `trailingSlash: true`, an optional `basePath` from `BASE_PATH`). TypeScript is strict. SQLite persistence is managed by Prisma 7.10.1 with the better-sqlite3 adapter. React 19.3.1 and Next.js 16.4.3 are locked in the package lock; the Prisma 8 prerelease was deliberately not adopted.
 
-The route dispatcher in `app/[[...route]]/page.tsx` lists every page in `generateStaticParams` and sets `dynamicParams = false`, so unlisted paths are served the static 404 page. It still checks slugs and calls `notFound()` defensively. The root layout provides a persistent shell. Server-rendered page views receive domain data from `lib/content.ts`; catalogs, maps, quizzes, theme and progress components hydrate as interactive client boundaries. All text uses React escaping; there is no HTML injection or dynamic evaluation of historical content.
+Each URL family has its own App Router route under `app/` (for example `app/battles/[slug]/page.tsx`). Route files are thin: they load the catalog, list their records in `generateStaticParams` with `dynamicParams = false` (so unlisted paths get the static 404 page), build metadata and render a view. Views live in `components/views/`, one module per section. The root layout provides a persistent shell. Views receive domain data from `lib/content.ts`; catalogs, maps, quizzes, theme and progress components hydrate as interactive client boundaries. All text uses React escaping; there is no HTML injection or dynamic evaluation of historical content.
 
 `lib/content.ts` reads the seeded database during the build only; the deployed site has no server or database. React `cache` deduplicates repeated reads within a render, including metadata generation. The first edition reads the catalog in bulk; query-level pagination and selective loading are appropriate when the corpus grows.
 
@@ -25,7 +25,7 @@ The schema stores explicit relational links plus validated JSON editorial/read p
 
 The layout is persistent across navigation. The server waits for route resolution before returning a page, allowing missing records to return a genuine HTTP 404. A root loading boundary was removed after browser tests showed it began streaming a 200 response before invalid-slug resolution. Main navigation instead provides inline pending feedback with `useLinkStatus`. Catalog inputs remain disabled until hydration attaches their handlers, avoiding lost early input on slower browsers. Empty catalogs, unavailable media, storage failures and runtime errors each have contextual messages.
 
-Metadata is generated for principal records and sections. Reading bookmarks do not affect server content. Daily challenge rotation follows Europe/Warsaw calendar days.
+`lib/metadata.ts` builds each page's title, description, canonical URL and Open Graph and Twitter fields. The root layout sets `metadataBase` from `SITE_URL`, which includes the GitHub Pages base path, so root-relative canonical paths resolve to full public URLs. `app/sitemap.ts` lists every content page. No `robots.txt` is generated: crawlers only read it at a domain root, which a project site does not control. Reading bookmarks do not affect server content. Daily challenge rotation follows Europe/Warsaw calendar days.
 
 ## Deployment
 

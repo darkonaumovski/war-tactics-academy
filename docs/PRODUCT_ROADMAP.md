@@ -16,7 +16,7 @@
 
 ## Priority 3 — Product and architecture
 
-1. Split the route dispatcher/page-view module as the route surface grows; add query-level filtering, pagination and selective database projections.
+1. Add query-level filtering, pagination and selective database projections as the catalog grows; add Open Graph images for shared links.
 2. Profile production bundles and Core Web Vitals; lazy-load geography where beneficial, test with screen readers and high zoom.
 3. Add progress export/import, optional accounts and cloud synchronization with explicit data ownership and privacy controls.
 4. Add an editorial CMS with provenance, corrections, review status and audit history.

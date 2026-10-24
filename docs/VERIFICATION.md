@@ -1,27 +1,26 @@
 # Verification record
 
-Date: 24 October 2026 (Europe/Warsaw). Environment: Windows, Node 24.20.0, npm 11.19.0. Local servers were bound to loopback. The GitHub Pages workflow was added in this update; this record covers local verification before the first publication.
+Date: 24 October 2026 (Europe/Warsaw). Environment: Windows, Node 24.20.0, npm 11.19.0. Local servers were bound to loopback. The site is published to GitHub Pages by the deploy workflow; this record covers local verification of the route restructure before it is pushed.
 
 ## Completed checks
 
-| Check                                     | Result                                                                                         |
-| ----------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| `npm run lint`                            | Passed, no warnings or errors                                                                  |
-| `npm run typecheck`                       | Passed, strict TypeScript                                                                      |
-| `npm test`                                | 38 passed, 0 failed, 7 test files                                                              |
-| `npm run build`                           | Passed; static export of 171 prerendered pages to `out/`                                       |
-| `BASE_PATH=/war-tactics-academy/` build   | Passed; links and assets carry the base path; checked in a browser                             |
-| `npm run db:setup`                        | Passed; both checked-in migrations applied (`initial`, `course_ordinal`) and catalog populated |
-| Repeated `npm run db:seed`                | Passed; no duplicate catalog records                                                           |
-| Full Playwright run against static export | **114 passed, 0 failed, 0 skipped** in 4.4 minutes                                             |
-| Chromium / Firefox / WebKit               | 38 passed each                                                                                 |
-| Runtime-errors test, 4 repeats per engine | 12 of 12 passed                                                                                |
+| Check                                                  | Result                                                                                                     |
+| ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
+| `npm run lint`                                         | Passed, no warnings or errors                                                                              |
+| `npm run typecheck`                                    | Passed, strict TypeScript                                                                                  |
+| `npm test`                                             | 41 passed, 0 failed, 8 test files                                                                          |
+| `npm run build`                                        | Passed; 171 prerendered pages plus `sitemap.xml` from file-based routes                                    |
+| Build with `BASE_PATH` and `SITE_URL` for GitHub Pages | Passed; canonical, Open Graph and sitemap URLs use `https://darkonaumovski.github.io/war-tactics-academy/` |
+| `npm run db:setup`                                     | Passed; both checked-in migrations applied (`initial`, `course_ordinal`) and catalog populated             |
+| Repeated `npm run db:seed`                             | Passed; no duplicate catalog records; the renamed campaign's old record removed                            |
+| Full Playwright run against static export              | **120 passed, 0 failed, 0 skipped** in 4.7 minutes                                                         |
+| Chromium / Firefox / WebKit                            | 40 passed each                                                                                             |
 
-The browser runs built the static export and served it with `scripts/serve-static.mjs`, the same files that are deployed. The suite has 38 scenarios per engine (114 in total). No retries were configured and nothing was skipped.
+The browser runs built the static export and served it with `scripts/serve-static.mjs`, the same files that are deployed. The suite has 40 scenarios per engine (120 in total). No retries were configured and nothing was skipped.
 
-The first full run against the static export failed one WebKit test, "main routes produce no browser runtime errors". As in the previous update, the errors had the form "…\_\_next.\_tree.txt?\_rsc=… due to access control checks": link prefetches that WebKit reports as failed when the test's next `page.goto` cancels them. Having now recurred in two full runs, the test waits for each page's network to settle before navigating on. The error assertion itself was not changed or filtered. After the change, the full suite passed 114 of 114 and the test passed 12 of 12 repeated runs across the three engines.
+In the previous update, a WebKit test ("main routes produce no browser runtime errors") failed intermittently because WebKit reports link prefetches cancelled by the test's next `page.goto` as errors. The test now waits for each page's network to settle before navigating on; the error assertion was not changed or filtered. It passed in every run since, including 12 of 12 repeated runs across the three engines.
 
-The original edition recorded 24 unit and 84 browser tests. Later updates recorded 33 unit and 102 browser tests, then 38 unit and 114 browser tests with one intermittent WebKit failure. This record reflects the conversion to a static export for GitHub Pages.
+The original edition recorded 24 unit and 84 browser tests. Later updates recorded 33 unit and 102 browser tests, 38 unit and 114 browser tests, and the static-export conversion. This record reflects the file-based route restructure, page metadata and the Operation engagement type.
 
 ## Database verification
 
@@ -153,6 +152,12 @@ Found while converting to a static export for GitHub Pages:
 - The global search box and the search page used plain HTML forms with action "/search", which ignore the base path and would have sent visitors to the wrong site under /war-tactics-academy/. Both now use next/form, which applies the base path.
 - Request-time query strings cannot be rendered statically. Search and battle filters now read them in the browser, and the video tab moved to its own page.
 - The portrait-fallback test blocked the Next image optimizer, which a static site does not use. It now blocks the archive host directly.
+
+Found while restructuring the routes:
+
+- The seed updated only the JSON payload of existing engagements, so a changed name, kind or campaign never reached the relational columns. It now updates them too.
+- Renaming a campaign left its old record in the database, where it would have produced an empty campaign page. The seed now deletes campaigns that are no longer in the data.
+- Generated route types in .next/ still referenced the removed catch-all route and failed type checking until regenerated.
 
 ## Screenshots and reports
 

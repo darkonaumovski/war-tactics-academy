@@ -94,7 +94,7 @@ function BattleCatalogView({
           onChange={(e) => setKind(e.target.value)}
         >
           <option value="">All categories</option>
-          {["Battle", "Siege", "Campaign"].map((k) => (
+          {["Battle", "Siege", "Operation", "Campaign"].map((k) => (
             <option key={k}>{k}</option>
           ))}
         </select>

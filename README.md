@@ -7,7 +7,7 @@ A working historical learning application built with Next.js, React, TypeScript,
 ## Implemented
 
 - Editorial dark interface, optional persistent light theme, desktop sidebar and mobile navigation.
-- 29 engagement records spanning seven era groupings, with battle/siege/campaign classifications and approximate geographic locations.
+- 29 engagement records spanning seven era groupings, classified as battles, sieges, operations or campaigns, with approximate geographic locations. Operation Overlord (Normandy) is the first operation record.
 - 44 commander profiles, each with a command role (ruler-commander, field, naval, staff or coalition and theater commander), ranks and titles, principal commands, a dated chronology, a notable decision, defeats and reverses, qualitative comparison, linked engagements and further reading. The catalog can be filtered by command role.
 - War pages for all 23 wars with principal participants, geographic scope, a short chronology of key developments, key commanders and reading drawn from linked studies and profiles.
 - Eight referenced studies: Marathon, Cannae, Alesia, Hastings, Austerlitz, Waterloo, Midway and Stalingrad. Each has 14 analysis sections and four replay phases. 110 of the 112 sections show which listed sources they draw on, with book and chapter locators for classical texts.
@@ -106,8 +106,9 @@ With the local server running, this captures the desktop homepage, mobile homepa
 ## Project structure
 
 ```text
-app/                  Root layout, route dispatcher, error and 404 pages, styles
-components/           Page views and reusable UI, catalogs, maps, quizzes, progress
+app/                  Root layout, one file-based route per page, sitemap, error and 404 pages, styles
+components/views/     Page views, one module per section (battles, commanders, wars, academy…)
+components/           Reusable UI, catalogs, maps, quizzes, search, media and progress
 data/                 Engagements, commanders, research, learning and scenarios
 lib/                  Domain types, Prisma client, repository, validation, persistence
 prisma/               Relational schema, migration and transactional seed
@@ -117,7 +118,7 @@ scripts/              Preview capture and focused browser diagnostics
 docs/                 Architecture, schema, source audits, roadmap and results
 ```
 
-The App Router dispatcher implements `/`, `/battles`, `/battles/[slug]`, `/commanders`, `/commanders/[slug]`, `/commanders/compare`, `/wars`, `/wars/[slug]`, `/campaigns/[slug]`, `/atlas`, `/academy`, `/academy/[courseSlug]`, `/academy/[courseSlug]/[lessonSlug]`, `/simulator`, `/simulator/[scenarioSlug]`, `/library`, `/about`, `/search` and `/saved`. Unknown paths and unknown entity slugs render the custom not-found page.
+File-based App Router routes implement `/`, `/battles`, `/battles/[slug]`, `/commanders`, `/commanders/[slug]`, `/commanders/compare`, `/wars`, `/wars/[slug]`, `/campaigns/[slug]`, `/atlas`, `/academy`, `/academy/[courseSlug]`, `/academy/[courseSlug]/[lessonSlug]`, `/simulator`, `/simulator/[scenarioSlug]`, `/library`, `/library/videos`, `/about`, `/search` and `/saved`, plus `/sitemap.xml`. Each dynamic route lists its records in `generateStaticParams` with `dynamicParams = false`, so unknown paths and slugs render the custom not-found page. Every page has a title, description, canonical URL and Open Graph and Twitter metadata; `SITE_URL` sets the absolute origin used for them and for the sitemap.
 
 ## Historical methodology
 

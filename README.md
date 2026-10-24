@@ -2,27 +2,60 @@
 
 **The Art of Command — Learn from History. Think Like a General.**
 
-A working historical learning application built with Next.js, React, TypeScript, Prisma and SQLite. No login, paid service, remote database or API key is required. It builds to a fully static site, and a GitHub Actions workflow publishes it to GitHub Pages at `https://darkonaumovski.github.io/war-tactics-academy/` once Pages is enabled for the repository.
+[![Deploy to GitHub Pages](https://github.com/darkonaumovski/war-tactics-academy/actions/workflows/deploy.yml/badge.svg)](https://github.com/darkonaumovski/war-tactics-academy/actions/workflows/deploy.yml)
 
-## Implemented
+**Live site: [darkonaumovski.github.io/war-tactics-academy](https://darkonaumovski.github.io/war-tactics-academy/)**
 
-- Editorial dark interface, optional persistent light theme, desktop sidebar and mobile navigation.
-- 29 engagement records spanning seven era groupings, classified as battles, sieges, operations or campaigns, with approximate geographic locations. Operation Overlord (Normandy) is the first operation record.
-- 44 commander profiles, each with a command role (ruler-commander, field, naval, staff or coalition and theater commander), ranks and titles, principal commands, a dated chronology, a notable decision, defeats and reverses, qualitative comparison, linked engagements and further reading. The catalog can be filtered by command role.
-- War pages for all 23 wars with principal participants, geographic scope, a short chronology of key developments, key commanders and reading drawn from linked studies and profiles.
-- Eight referenced studies: Marathon, Cannae, Alesia, Hastings, Austerlitz, Waterloo, Midway and Stalingrad. Each has 14 analysis sections and four replay phases. 110 of the 112 sections show which listed sources they draw on, with book and chapter locators for classical texts.
-- Fifteen command perspectives across seven battles (Cannae, Alesia, Hastings, Austerlitz, Waterloo, Midway and Stalingrad). Each covers objective, available information, uncertainty, constraints, forces, terrain, logistics, decisions and retrospective interpretation, clearly described as reconstructed reasoning rather than quotations.
-- Searchable battle and commander catalogs; combined era, region and engagement-type filters; global search across battles, commanders, wars, campaigns and learning.
-- An offline-capable world atlas using bundled Natural Earth geography. No tile server is required. Battle replay supports pan, zoom, selection, playback, event popups, legends and a full text timeline.
-- Six decision exercises (Waterloo, Cannae, Midway, Austerlitz, Alesia and Hastings) with historical feedback, explicit counterfactual limits and saved completion.
-- Four learning paths with 21 lessons: Foundations of Military History, Classical Warfare, Napoleonic Warfare, and Industrial and World Wars. Each lesson has objectives, historical cases, a concept diagram, a quiz and a persistent best score. Classical and Industrial lessons add lesson-specific readings and seminar prompts.
-- Browser-local bookmarks, recently visited records, lesson results, decision choices and theme preferences.
-- Curated media library with nine verified records: two official National Archives (UK) YouTube videos, loaded only on request through privacy-enhanced embeds; two public-domain portraits (Grant and Eisenhower), also shown on their commander profiles; two historic maps; and three primary documents. Every record stores publisher, license, attribution and verification date. The source reading list remains alongside it.
-- Normalized relational database schema, versioned migration, transactional idempotent seed, validation and automated tests.
+A historical learning application about military history, command decisions and their consequences. It combines a battle atlas, commander profiles, wars and campaigns, a decision simulator and a structured academy. It is built with Next.js, React, TypeScript, Prisma and SQLite, and is published as a fully static site on GitHub Pages. No login, paid service, remote database or API key is required.
+
+The guiding principle is to explain what commanders knew, what they decided and why, and to keep historical fact, scholarly interpretation, uncertainty and counterfactual reasoning clearly apart.
+
+![Home page](docs/screenshots/home-desktop-viewport.png)
+
+## Features
+
+### Historical catalog
+
+- **29 engagements** across seven eras, classified as battles, sieges, operations or campaigns, with approximate locations. Operation Overlord (Normandy) is the first operation record.
+- **Eight detailed studies** (Marathon, Cannae, Alesia, Hastings, Austerlitz, Waterloo, Midway and Stalingrad), each with 14 analysis sections and a four-phase interactive replay. 110 of the 112 sections show which listed sources they draw on, with book and chapter locators for classical texts.
+- **Fifteen command perspectives** across seven battles. Each covers objective, available information, uncertainty, constraints, forces, terrain, logistics, decisions and retrospective interpretation, clearly presented as reconstructed reasoning rather than quotations.
+- **44 commander profiles**, each with a command role (ruler-commander, field, naval, staff planner, or coalition and theater commander), ranks and titles, principal commands, a dated chronology, a notable decision, defeats and reverses, linked engagements and further reading. The catalog filters by era and command role, and any two commanders can be compared side by side without numerical ratings.
+- **23 war pages** with principal participants, geographic scope, a chronology of key developments, key commanders and reading from linked studies and profiles; each links to its campaigns and engagements.
+
+### Interactive learning
+
+- **Battle replay** with pan, zoom, phase selection, playback, event popups, a legend and a full text timeline. Replay diagrams are labeled as schematic, never as surveyed troop positions.
+- **Offline world atlas** using bundled Natural Earth geography; no map tile server is needed.
+- **Six decision exercises** (Waterloo, Cannae, Midway, Austerlitz, Alesia and Hastings): read the situation, choose under uncertainty, then compare with what happened and with an explicitly counterfactual interpretation.
+- **Four learning paths with 21 lessons**: Foundations of Military History, Classical Warfare, Napoleonic Warfare, and Industrial and World Wars. Each lesson has objectives, historical cases, a concept diagram and a quiz; the Classical and Industrial lessons add readings and seminar prompts.
+- **Curated media library** of nine verified records: two official National Archives (UK) D-Day videos, loaded only on request through privacy-enhanced YouTube embeds; public-domain portraits of Grant and Eisenhower, also shown on their profiles; two historic maps; and three primary documents. Each record stores publisher, license, attribution and verification date.
+- **Search and filters**: global search across battles, commanders, wars, campaigns and lessons, plus era, region, category and command-role filters.
+- **Saved progress** in the browser: bookmarks, recently visited records, lesson scores, decision choices and the light or dark theme. No account is needed.
+
+### Design and accessibility
+
+- Editorial dark interface with an optional light theme, a desktop sidebar and mobile navigation.
+- Self-hosted typography: Cormorant Garamond for headings, Source Serif 4 for reading text, Inter for the interface and IBM Plex Mono for labels and coordinates.
+- Subtle motion: home-page sections fade up as they scroll into view, and new timeline phases and quiz or decision feedback ease in. Nothing is hidden or moved for readers who prefer reduced motion, and content is visible without JavaScript.
+- Every page has its own title, description, canonical URL and link-preview (Open Graph and Twitter) metadata, and a [sitemap](https://darkonaumovski.github.io/war-tactics-academy/sitemap.xml) lists all content pages.
+- Keyboard navigation, a skip link, semantic landmarks and automated accessibility checks on 14 pages in the dark theme and 5 in the light theme.
+
+## Technology
+
+| Area       | Choice                                                                                 |
+| ---------- | -------------------------------------------------------------------------------------- |
+| Framework  | Next.js 16.4.3 App Router, static export (`output: "export"`)                          |
+| UI         | React 19.3.1, TypeScript (strict), plain CSS with design tokens, Lucide icons          |
+| Typography | `next/font` with four SIL Open Font License families, self-hosted                      |
+| Motion     | Motion 13.5.1 through `LazyMotion`, respecting reduced-motion settings                 |
+| Data       | Prisma 7.10.1 with SQLite, read at build time; Zod validation                          |
+| Maps       | d3-geo with bundled Natural Earth data (`world-atlas`); SVG replay diagrams            |
+| Testing    | Vitest and React Testing Library; Playwright (Chromium, Firefox, WebKit) with axe-core |
+| Hosting    | GitHub Pages, deployed by GitHub Actions on every push to `main`                       |
 
 ## Quick start
 
-Prerequisites: Node.js **22.12 or later** (tested with Node 24.20.0), npm and a supported desktop operating system. SQLite is embedded; no separate server is needed. Internet access is needed for the initial package/browser installation and external reading links, but not for atlas rendering.
+Prerequisites: Node.js **22.12 or later** (tested with Node 24.20.0) and npm. SQLite is embedded; no separate database server is needed. Internet access is needed to install packages and browsers and to download fonts during the first build.
 
 ```sh
 git clone https://github.com/darkonaumovski/war-tactics-academy.git
@@ -34,38 +67,30 @@ npm run dev
 
 Open **http://127.0.0.1:3000**. In PowerShell environments that block npm's `.ps1` shim, use `npm.cmd` instead of `npm`.
 
-The default database is `prisma/academy.db`. Optional configuration:
+The default database is `prisma/academy.db`. Copy `.env.example` to `.env` only to change it:
 
 ```env
 DATABASE_URL="file:./prisma/academy.db"
 ```
 
-Copy `.env.example` to `.env` only if customization is needed. The CLI resolves relative SQLite paths against the project root to avoid Windows/schema-directory ambiguity. Run scripts from the project root. Generated clients, databases and environment files are ignored by Git.
+`npm run db:setup` generates the Prisma client, applies the checked-in migrations and seeds the catalog. After pulling changes, run it again (or `npm run db:migrate` followed by `npm run db:seed`). The seed is transactional and idempotent: it updates existing records, replaces each record's source links and removes campaigns no longer in the data; other removed records are not pruned automatically. Browser progress is independent of the database.
 
-`npm run db:setup` generates the Prisma client, applies checked-in migrations and seeds the catalog. For existing installations:
-
-```sh
-npm run db:generate
-npm run db:migrate
-npm run db:seed
-```
-
-After pulling changes that include new migrations, run `npm run db:migrate` and `npm run db:seed` again (or `npm run db:setup`). The seed uses upserts inside a transaction. Repeating it updates matching records without duplicating them. It does not remove obsolete records after editorial deletions; removal requires an explicit migration/editorial cleanup. Browser learning progress is independent of the catalog database.
-
-## Production build and hosting
+## Production build and deployment
 
 ```sh
 npm run build
 npm start
 ```
 
-The app is a Next.js static export. `npm run build` reads the seeded SQLite catalog once and prerenders every page (171 at present) into `out/`; run it after database setup. `npm start` serves `out/` on http://127.0.0.1:3000 with `scripts/serve-static.mjs`, which mimics GitHub Pages: directory paths resolve to `index.html`, paths without a trailing slash redirect, and unknown paths return `404.html` with a 404 status. No database or Node server is needed at runtime.
+`npm run build` reads the seeded catalog once and prerenders every page (171 pages plus `sitemap.xml`) into `out/`. `npm start` serves `out/` on http://127.0.0.1:3000 with `scripts/serve-static.mjs`, which behaves like GitHub Pages: folder paths resolve to `index.html`, paths without a trailing slash redirect, and unknown paths return the custom `404.html` with a 404 status. The deployed site needs no server or database.
 
 ### GitHub Pages
 
-`.github/workflows/deploy.yml` runs on every push to `main`: it installs dependencies, sets up and seeds the database, runs lint, type checking and unit tests, builds with `BASE_PATH=/<repository-name>/`, and publishes `out/` to GitHub Pages. One-time setup: repository Settings → Pages → Source: "GitHub Actions". On a free GitHub plan, Pages requires a public repository.
+The site is live at **[darkonaumovski.github.io/war-tactics-academy](https://darkonaumovski.github.io/war-tactics-academy/)**. [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) runs on every push to `main`. It installs dependencies, sets up and seeds the database, runs lint, type checking and unit tests, builds with `BASE_PATH=/<repository-name>/` and `SITE_URL` set to the Pages address, and publishes `out/`. If any check fails, the previous version stays live. Progress is visible in the repository's [Actions tab](https://github.com/darkonaumovski/war-tactics-academy/actions).
 
-To preview the project-pages layout locally:
+To set this up in a fork: Settings → Pages → Source: "GitHub Actions". On a free GitHub plan, Pages requires a public repository.
+
+To preview the Pages URL layout locally:
 
 ```sh
 BASE_PATH=/war-tactics-academy/ npm run build
@@ -74,9 +99,9 @@ BASE_PATH=/war-tactics-academy/ npm start
 
 Then open http://127.0.0.1:3000/war-tactics-academy/. In Git Bash on Windows, prefix both commands with `MSYS_NO_PATHCONV=1` so the path is not rewritten.
 
-Static hosting constraints: URLs end with a trailing slash; search results and battle filters from the query string (`?q=`, `?era=`) are applied in the browser; the video tab is its own page (`/library/videos/`); portraits load directly from the holding archive because there is no image optimizer. Changes to the catalog reach the site only through a new build.
+Static hosting shapes a few details: URLs end with a trailing slash; search terms and battle filters in the query string (`?q=`, `?era=`) are applied in the browser; the video tab is its own page (`/library/videos/`); portraits load directly from the holding archive because there is no image optimizer; and catalog changes reach the site only through a new build.
 
-## Development and verification
+## Testing
 
 ```sh
 npm run lint
@@ -87,62 +112,71 @@ npm run test:e2e
 npm run test:report
 ```
 
-Playwright uses Chromium, Firefox and WebKit projects. Install browser binaries when absent:
+- **Unit and component tests** (Vitest, 41 tests): date formatting, search and filters, phase selection, decision state, quiz scoring, persistence, data integrity, content depth, media records, metadata, and the quiz and media-library components.
+- **Browser tests** (Playwright, 45 scenarios in each of Chromium, Firefox and WebKit, 135 in total): main workflows, bookmarks and saved progress, timelines, the atlas without network access, search, metadata and the sitemap, scroll reveals and reduced motion, responsive layouts at 375, 768 and 1440 pixels, runtime errors, and axe-core accessibility checks.
 
-```sh
-npx playwright install chromium firefox webkit
-```
+Playwright builds the static export and serves it automatically, so tests run against the files that are deployed. `PLAYWRIGHT_BASE_URL` targets an already running server instead. Install browsers when needed with `npx playwright install chromium firefox webkit`. Reports are written to `playwright-report/` and `test-results/`.
 
-Tests automatically build the static export and serve it on port 3000 if needed, so they exercise the same files that are deployed. `PLAYWRIGHT_BASE_URL` targets an already-running server and disables automatic startup. A local running server is reused outside CI. HTML reports are written to `playwright-report/`, JSON results to `test-results/results.json`, screenshots on failures, and traces on the first retry. CI retries once; local runs do not hide failures with automatic retries.
-
-See [verification results](docs/VERIFICATION.md) for actual execution results and limits, and [test strategy](docs/TEST_STRATEGY.md) for coverage.
-
-```sh
-node scripts/capture-preview.mjs
-```
-
-With the local server running, this captures the desktop homepage, mobile homepage and Waterloo study into `docs/screenshots/`.
+See [verification results](docs/VERIFICATION.md) for the latest runs and [test strategy](docs/TEST_STRATEGY.md) for coverage. `node scripts/capture-preview.mjs` refreshes the screenshots in `docs/screenshots/` while the local server is running.
 
 ## Project structure
 
 ```text
-app/                  Root layout, one file-based route per page, sitemap, error and 404 pages, styles
+app/                  Root layout, fonts, one route per page, sitemap, error and 404 pages, styles
 components/views/     Page views, one module per section (battles, commanders, wars, academy…)
-components/           Reusable UI, catalogs, maps, quizzes, search, media and progress
-data/                 Engagements, commanders, research, learning and scenarios
-lib/                  Domain types, Prisma client, repository, validation, persistence
-prisma/               Relational schema, migration and transactional seed
-tests/unit/           Logic, persistence, data integrity and quiz component tests
-tests/e2e/            Playwright workflows, accessibility and responsive tests
-scripts/              Preview capture and focused browser diagnostics
-docs/                 Architecture, schema, source audits, roadmap and results
+components/           Reusable UI, catalogs, maps, quizzes, search, media, motion and progress
+data/                 Engagements, commanders, wars, research, learning, scenarios and media
+lib/                  Types, Prisma client, catalog loader, validation, metadata and persistence
+prisma/               Relational schema, migrations and transactional seed
+tests/unit/           Vitest unit and component tests
+tests/e2e/            Playwright workflow, accessibility and responsive tests
+scripts/              Static server, preview capture and browser diagnostics
+docs/                 Architecture, data model, sources, roadmap, test strategy and results
+.github/workflows/    GitHub Pages deployment
 ```
 
-File-based App Router routes implement `/`, `/battles`, `/battles/[slug]`, `/commanders`, `/commanders/[slug]`, `/commanders/compare`, `/wars`, `/wars/[slug]`, `/campaigns/[slug]`, `/atlas`, `/academy`, `/academy/[courseSlug]`, `/academy/[courseSlug]/[lessonSlug]`, `/simulator`, `/simulator/[scenarioSlug]`, `/library`, `/library/videos`, `/about`, `/search` and `/saved`, plus `/sitemap.xml`. Each dynamic route lists its records in `generateStaticParams` with `dynamicParams = false`, so unknown paths and slugs render the custom not-found page. Every page has a title, description, canonical URL and Open Graph and Twitter metadata; `SITE_URL` sets the absolute origin used for them and for the sitemap.
+Routes: `/`, `/battles`, `/battles/[slug]`, `/commanders`, `/commanders/[slug]`, `/commanders/compare`, `/wars`, `/wars/[slug]`, `/campaigns/[slug]`, `/atlas`, `/academy`, `/academy/[courseSlug]`, `/academy/[courseSlug]/[lessonSlug]`, `/simulator`, `/simulator/[scenarioSlug]`, `/library`, `/library/videos`, `/about`, `/search` and `/saved`, plus `/sitemap.xml`. Each dynamic route lists its pages at build time, so unknown paths and slugs show the custom not-found page. More detail is in [architecture](docs/ARCHITECTURE.md) and the [data model](docs/DATA_MODEL.md).
 
 ## Historical methodology
 
-Historical fact, scholarly interpretation, uncertainty and counterfactual analysis are explicitly distinguished. Detailed studies cite institutional histories and primary texts, with caveats about retrospective testimony and conflicting evidence. The eight studies are concise editorial syntheses, not full scholarly monographs. Other records are clearly labeled catalog introductions. Study sections name the listed sources they draw on. These references were assigned only after each institutional page had been read; sources that could not be opened are not attached to individual sections. They are section-level references, not footnotes for every sentence. Commander chronologies and war overviews summarize well-established events; their further reading is not a citation for each entry.
+Historical fact, scholarly interpretation, uncertainty and counterfactual analysis are explicitly distinguished. Detailed studies cite institutional histories and primary texts, with caveats about retrospective testimony and conflicting evidence. The eight studies are concise editorial syntheses, not full scholarly monographs; other engagements are labeled catalog introductions.
 
-No casualty totals, private thoughts, invented quotations, precise intelligence logs or commander performance ratings are fabricated. Geographic markers indicate approximate places. Replay geometry is an abstract teaching schematic, not verified troop coordinates or surveyed movements. Force blocks do not represent equal unit sizes. Political and civilian consequences remain part of the historical context.
+Study sections name the listed sources they draw on. These references were assigned only after each source page had been read; sources that could not be opened are listed but not attached to individual sections. They are section-level references, not footnotes for every sentence. Commander chronologies and war overviews summarize well-established events; their further reading is not a citation for each entry. All source links were checked, and dead links were replaced with verified pages.
 
-Read [source audit](docs/SOURCE_AUDIT.md) and [commander sourcing notes](docs/COMMANDER_SOURCES.md). Some verification used indexed source text; the audit identifies retrieval limits. Specialist review and fuller contrasting bibliographies remain important next steps.
+No casualty totals, private thoughts, invented quotations, precise intelligence logs or commander performance ratings are fabricated. Geographic markers show approximate places. Replay geometry is an abstract teaching schematic, not verified troop coordinates or surveyed movements. Political and civilian consequences, including atrocities, remain part of the historical context.
+
+See the [source audit](docs/SOURCE_AUDIT.md) and [commander sourcing notes](docs/COMMANDER_SOURCES.md). Specialist review and fuller contrasting bibliographies remain important next steps.
 
 ## Media and licensing
 
-The interface's map art, monograms and diagrams are original SVG graphics. Monograms are graphic identifiers, not likenesses; only commanders with an item-level public-domain portrait record show a photograph. Natural Earth world geography is public domain, distributed through `world-atlas`; [Natural Earth terms](https://www.naturalearthdata.com/about/terms-of-use/) apply. Typography uses four SIL Open Font License families: Cormorant Garamond for headings, Source Serif 4 for reading text, Inter for the interface and IBM Plex Mono for labels and coordinates. `next/font` downloads them at build time and serves them with the site, so visitors' browsers never contact Google; only the Latin files (about 84 KB) are preloaded, and other scripts load on demand.
+Map art, monograms and diagrams are original SVG graphics. Monograms are graphic identifiers, not likenesses; only commanders with an item-level public-domain portrait record show a photograph. Natural Earth world geography is public domain, distributed through `world-atlas`; [Natural Earth terms](https://www.naturalearthdata.com/about/terms-of-use/) apply.
 
-External readings remain with their publishers. No publisher artwork or full article has been copied. Curated media lives in `data/media.json`, is validated by `lib/media.ts` and is also seeded into the `MediaResource` table with its source, publisher, license and attribution. Video IDs were checked against the publisher's own page and YouTube oEmbed; nothing is autoplayed or rehosted. Portraits are loaded from the holding archive through the Next.js image optimizer (only that archive path is allowed) and fall back to a text notice with attribution if the image cannot load. Historic maps and documents are linked, not reproduced. See [media provenance](docs/MEDIA_RESEARCH_UPDATE.md).
+The four typefaces are licensed under the SIL Open Font License. `next/font` downloads them at build time and serves them from the site, so visitors' browsers never contact Google. Only the Latin files (about 84 KB) are preloaded; other character ranges, such as Vietnamese, load only on pages that use them.
+
+External readings remain with their publishers; no publisher artwork or full article is copied. Curated media lives in `data/media.json`, is validated by `lib/media.ts` and is also seeded into the `MediaResource` table with its source, publisher, license and attribution. Video IDs were checked against the publisher's own page and YouTube oEmbed; nothing is autoplayed or rehosted. Portraits load directly from the holding archive and fall back to a text notice with attribution if the image cannot load. Historic maps and documents are linked, not reproduced. See [media provenance](docs/MEDIA_RESEARCH_UPDATE.md).
+
+## Release history
+
+All releases are deployed to the live site.
+
+| Commit    | Change                                                                                                                                                                                            |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `3686290` | Self-hosted typography (four Open Font License families) and subtle Motion animations that respect reduced motion; accessibility checks extended to 14 pages.                                     |
+| `bcad0f9` | One App Router route per page, page views split into section modules, full page metadata and a sitemap; Operation engagement type, with Operation Overlord within the North-west Europe campaign. |
+| `cea7872` | Converted to a static export and published on GitHub Pages with an automatic deploy workflow; search and filters read the URL in the browser.                                                     |
+| `dd2ab3f` | Commander chronologies and command records, war context pages, extended and new command perspectives, section-level source references, three new decision exercises; dead source links replaced.  |
+| `7931e1f` | Classical Warfare and Industrial and World Wars courses, the curated media library with portraits and official videos, and their tests.                                                           |
+| `1728672` | First edition: catalog, eight studies, atlas, replay, commanders, academy, simulator, bookmarks and tests.                                                                                        |
 
 ## Known limitations
 
 - The four learning paths are introductory editorial courses (one question per lesson), not reviewed university curricula.
-- The eight battle analyses and 44 commander profiles need deeper scholarly review, fuller biographies and sentence-level citations before being treated as an academic reference work. Study sections are still brief.
-- War pages give orientation, not comprehensive operational histories, and have no dedicated bibliography. Campaign pages remain indexes. Some commander profiles have no dedicated engagement study yet.
-- Replay diagrams explain abstract relationships; they do not simulate combat or reconstruct exact formations. Atlas locations and Natural Earth coastlines are approximate modern geographic context.
-- The media library is a small starting collection (nine records). Most engagements and commanders have no video, portrait or map yet; the two videos cover only D-Day. Embeds and archive images depend on third-party availability.
-- Progress belongs to one browser and is lost if its local storage is cleared. Storage denial is handled without crashing; save actions report failures.
-- The site is static: the database is a build-time content store, and updates require a rebuild. SQLite and the JSON read projections favor a simple edition. A historian-facing editor, accounts, synchronization, claim-level citation workflow and larger-scale database queries are future work.
-- Automated accessibility tests supplement, but do not replace, manual screen-reader testing. No Lighthouse score or universal accessibility certification is claimed.
+- The eight battle analyses and 44 commander profiles need deeper scholarly review, fuller biographies and sentence-level citations before being treated as an academic reference work. Study sections are still brief, and 21 engagements have catalog introductions only.
+- War pages give orientation, not comprehensive operational histories, and have no dedicated bibliography. Campaign pages remain indexes.
+- Replay diagrams explain abstract relationships; they do not simulate combat or reconstruct exact formations. Atlas locations and Natural Earth coastlines are approximate modern context.
+- The media library is a small starting collection (nine records); the two videos cover only D-Day. Embeds and archive images depend on third-party availability.
+- Progress belongs to one browser and is lost if its storage is cleared; storage failures are reported without crashing.
+- The site is static: the database is a build-time content store and updates require a rebuild. Accounts, synchronization, a historian-facing editor and sentence-level citation workflows are future work.
+- Automated accessibility checks supplement, but do not replace, manual screen-reader testing. No Lighthouse score is claimed.
 
-See [prioritized roadmap](docs/PRODUCT_ROADMAP.md).
+See the [prioritized roadmap](docs/PRODUCT_ROADMAP.md).

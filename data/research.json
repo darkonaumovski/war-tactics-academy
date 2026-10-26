@@ -1897,5 +1897,1045 @@
         "outcome": "Encirclement and destruction of the Sixth Army, at very great cost to soldiers and civilians."
       }
     ]
+  },
+  {
+    "slug": "gaugamela",
+    "sources": [
+      {
+        "title": "Gaugamela (331 BCE)",
+        "url": "https://www.livius.org/articles/battle/gaugamela-331-bce/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Arrian, Anabasis of Alexander 3.8–15 (trans. E. J. Chinnock)",
+        "url": "https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_III/Chapter_VIII",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Astronomical Diaries",
+        "url": "https://www.livius.org/articles/concept/astronomical-diaries/",
+        "publisher": "Livius.org (Jona Lendering)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After his earlier victories over Persian armies, Alexander moved from the Mediterranean coast into Mesopotamia in 331 BCE. Darius III had meanwhile assembled a new army drawn from across his empire, each contingent under its own commander.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "3.8"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Alexander lingered in Tyre and other cities while Greek affairs, including the rising of Agis III of Sparta, demanded attention. Darius made a further peace offer, which Alexander rejected. Reinforcements Alexander expected from Europe never arrived, possibly because Antipater needed them against Agis.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Darius sought a battle on open ground where his numbers, cavalry and scythed chariots could be used, having been persuaded that the narrow field at Issus had cost him. Alexander needed to defeat the king's army in the field to make good his claim to rule Asia.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "3.8"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The armies met on a broad plain near Gaugamela, north-west of Arbela (modern Erbil). Arrian reports that the Persians had long before levelled the uneven ground so that chariots and cavalry could move freely. The exact site cannot be fixed with certainty.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "3.8"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The Persian army combined many regional contingents, Greek mercenaries, a few Indian elephants and scythed chariots. Arrian's reported Persian totals are not credible counts, and Livius gives no totals. Alexander commanded the Companion cavalry on the right; Parmenion commanded the left wing.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "3.8, 3.11"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Darius stood in the centre with his kinsmen and guard. Bactrian and Scythian cavalry under Bessus, with chariots in front, faced Alexander's right, while Greek mercenaries faced the phalanx. Alexander placed a second line behind the first, with orders to face about if the army were surrounded, and set angled flank guards on both wings.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "3.11–12"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The Macedonians crossed the Tigris largely unopposed in mid-September, and a lunar eclipse followed on about 20 September. The Persian army spent the night before the battle under arms. On 1 October Alexander edged to the right, a cavalry fight developed on that flank, the chariots were neutralized, and Alexander then charged the Persian centre.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "3.11–14"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Arrian reports that Alexander rejected Parmenion's advice to attack at night, citing the risks of night fighting in unfamiliar country. Darius, fearing a surprise attack, kept his army standing in formation overnight. During the battle Darius sent cavalry around the Macedonian right to halt Alexander's movement.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "3.10–11, 3.13"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "As Persian cavalry was drawn into the fight on Alexander's right, a gap opened in the Persian front. Alexander formed a wedge of Companions and nearby infantry and drove toward Darius. The opportunity arose from the Persians' own outflanking effort rather than from a fixed plan.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "3.14"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Darius fled and his army dispersed. Alexander turned back to help Parmenion's hard-pressed wing, then pursued to Arbela, where he took the royal treasure and Darius's chariot but not the king himself. The Babylonian diary records that the king's troops deserted him.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "3.14–15"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The battle decided the fate of the Achaemenid empire. A contemporary Babylonian diary calls the victor \"king of the world\", and Darius escaped to Media intending to raise another army.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Preparing ground for one arm can tie an army to that ground. Alexander's second line, ordered to face about if surrounded, shows how a reserve can protect against the breakthroughs a broad enemy line makes likely.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "3.12"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Dust hid much of the fighting, so its exact course is unknown. Arrian says Darius fled first, while the contemporary diary says his troops abandoned him; Livius prefers the diary. Greek accounts may also carry Macedonian propaganda, and their troop and casualty figures are unreliable.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "3.8, 3.14"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Arrian's narrative draws on earlier accounts, citing Aristobulus for the captured Persian order of battle. Livius sets the Greek tradition beside the Babylonian Astronomical Diaries, which date the eclipse and the battle independently.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "3.11"
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Approach and omens",
+        "time": "September 331 BCE",
+        "description": "The Macedonians cross the Tigris; a lunar eclipse unsettles the Persian army."
+      },
+      {
+        "title": "Drift to the right",
+        "time": "1 October 331 BCE · opening",
+        "description": "Alexander edges right; Persian cavalry rides around his flank and the scythed chariots are neutralized."
+      },
+      {
+        "title": "The gap",
+        "time": "1 October · decisive charge",
+        "description": "Persian cavalry is drawn away; Alexander's wedge strikes toward Darius, who flees."
+      },
+      {
+        "title": "Left wing and pursuit",
+        "time": "1–2 October",
+        "description": "Parmenion's wing is pressed and the camp raided; Alexander returns, then pursues to Arbela."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Alexander III of Macedon",
+        "objective": "Destroy Darius's new army in battle and with it the king's authority.",
+        "known": "Captured Persian riders reported that Darius was near. The Persians held a broad plain prepared for cavalry and chariots.",
+        "uncertainty": "The Persian line far overlapped his own, and he could not know whether his wings would hold against envelopment.",
+        "constraints": "Expected reinforcements from Europe had not arrived. In Arrian's account he judged a night attack too risky in country the enemy knew better.",
+        "forces": "The Macedonian phalanx, Companion cavalry, Thessalian and allied cavalry, and light troops such as Agrianians and archers.",
+        "terrain": "Open, levelled ground that favoured the larger Persian cavalry and the chariots.",
+        "logistics": "A fortified camp, with the baggage guarded by Thracian infantry; it was raided during the battle.",
+        "decision": "He refused a night attack, built a second line and angled flank guards, edged to the right and charged into the gap in the Persian front.",
+        "outcome": "Darius fled, but a call for help from Parmenion drew Alexander back, and the king escaped to Media."
+      },
+      {
+        "name": "Darius III of Persia",
+        "objective": "Fight on open ground where numbers, cavalry and scythed chariots could be used, unlike the narrow field at Issus.",
+        "known": "Alexander had crossed the Euphrates and Tigris and was approaching the prepared battlefield.",
+        "uncertainty": "When and how Alexander would attack; Arrian says he feared a night assault.",
+        "constraints": "An army of many peoples under their own commanders, whose morale Livius describes as shaken by the eclipse and other omens.",
+        "forces": "Regional cavalry from Bactria, Media, Parthia and elsewhere, Greek mercenaries, a few elephants and scythed chariots.",
+        "terrain": "A broad plain he had chosen and levelled for his chariots.",
+        "logistics": "His base at Arbela held treasure and royal property, which fell to Alexander after the battle.",
+        "decision": "He kept his army under arms overnight, sent cavalry around Alexander's right and launched the chariots against the phalanx.",
+        "outcome": "When Alexander's charge reached his centre he fled, or in the Babylonian account was abandoned by his troops, and escaped east."
+      }
+    ]
+  },
+  {
+    "slug": "agincourt",
+    "sources": [
+      {
+        "title": "The Chronicles of Enguerrand de Monstrelet, vol. 4 (trans. Thomas Johnes)",
+        "url": "https://www.gutenberg.org/cache/epub/52889/pg52889-images.html",
+        "publisher": "Project Gutenberg"
+      },
+      {
+        "title": "The truth about Agincourt",
+        "url": "https://www.southampton.ac.uk/news/2016/05/the-truth-about-agincourt.page",
+        "publisher": "University of Southampton"
+      },
+      {
+        "title": "The soldier in later medieval England and the battle of Agincourt",
+        "url": "https://www.southampton.ac.uk/humanities/research/impact/the_soldier_in_later_medieval_england_and_the_battle_of_agincourt.page",
+        "publisher": "University of Southampton"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "In 1415 Henry V of England invaded Normandy and besieged and took Harfleur. He then resolved to march through northern France to English-held Calais.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "chs. 26, 29"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Henry pressed a claim to the French throne, which the victory later strengthened. The French king summoned men-at-arms from across the kingdom, and a royal council resolved to give battle, while France's princes remained divided by their own conflicts.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "chs. 28, 30, 35–39"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Henry needed to bring his army safely to Calais. The French aimed to intercept and destroy it before it got there.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "chs. 29–30"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Barred from the Somme ford at Blanchetaque, the English crossed further upstream and were met near Azincourt. They advanced from Maisoncelles over fields recently sown with corn, with Tramecourt to one side. Record-based research argues the ground could not have held the very large French army of popular accounts.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "chs. 29, 31"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Anne Curry's study of English and French financial records suggests roughly 8,500–9,000 English and about 12,000 French, a much smaller gap than the chronicles imply. Most of Henry's army were archers, and Welsh soldiers were a small share. The French command was shared among the constable, the marshal and several great princes.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. 31"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Monstrelet describes the French in a vanguard, main body and rearguard, with mounted wings to strike the English flanks. The vanguard was led by the constable with the dukes of Orléans and Bourbon and Marshal Boucicaut. The English placed archers in front, each with a sharpened stake, men-at-arms behind and horses and baggage to the rear.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. 31"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On Friday 25 October the French waited by their banners. The English advanced and opened with heavy archery. A French mounted attack on the flanks failed, and wounded horses recoiled into the vanguard. Close fighting followed, then a raid on the English baggage, the killing of prisoners and the withdrawal of the French rear.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. 31"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "The French chose to wait for an attack, confident in their numbers, although Monstrelet says some leaders privately feared an open battle. Henry advanced to bring on the fight. When the baggage was attacked and a renewed assault seemed possible, he ordered the prisoners killed.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. 31"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The failed mounted attack disordered the French vanguard. Pressed together, it could fight only with its front rank, while English archers and men-at-arms struck it.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. 31"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The English won. Monstrelet lists many French princes and lords among the dead and captured. Henry withdrew to Maisoncelles, then marched to Calais and embarked for England.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "chs. 31–34"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The victory supported Henry's claim to the French throne. The battle later became central to English and British national memory, shaped above all by Shakespeare's Henry V.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Archery from a protected position mattered most against an enemy that was crowded and disordered. The size of an army counted for less than whether it could use its numbers.",
+        "evidence": "interpretation"
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Army sizes remain debated: chronicles give far larger French totals than the administrative records. Ransom contracts suggest the killing of prisoners did not spare men by rank. The archers' V sign has no contemporary record, and the Welsh did not form most of the army.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. 31"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Monstrelet gives a detailed French narrative, but figures such as his 13,000 English archers conflict with record evidence. University of Southampton research uses muster rolls, pay records and ransom contracts to test the chronicles.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. 31"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "The armies draw up",
+        "time": "25 October 1415 · morning",
+        "description": "The French form three divisions and wait; English archers plant stakes in front of the line."
+      },
+      {
+        "title": "English advance",
+        "time": "After the French wait",
+        "description": "The English move forward and open heavy archery; the French mounted flank attack fails."
+      },
+      {
+        "title": "Close combat",
+        "time": "Main engagement",
+        "description": "Recoiling horses disorder the crowded French vanguard, which is defeated hand to hand."
+      },
+      {
+        "title": "Alarm and killing of prisoners",
+        "time": "Later in the day",
+        "description": "A raid on the baggage leads Henry to order prisoners killed; the French rear withdraws."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Henry V of England",
+        "objective": "Bring his army from Harfleur to Calais and uphold his claim in France.",
+        "known": "A French army had gathered across his route after he was forced away from the Somme ford at Blanchetaque.",
+        "uncertainty": "Whether the French would attack or simply block his road, and whether his outnumbered army could survive a battle.",
+        "constraints": "An army that had besieged Harfleur and then detoured upstream to cross the Somme, far from its base.",
+        "forces": "Mainly archers with a smaller body of men-at-arms; record evidence suggests about 8,500–9,000 men.",
+        "terrain": "Open fields recently sown with corn between Maisoncelles, Azincourt and Tramecourt.",
+        "logistics": "Horses and baggage were kept to the rear, where a French raid struck them.",
+        "decision": "He advanced to provoke an attack, with archers protected by stakes, and later ordered the prisoners killed when a renewed attack seemed possible.",
+        "outcome": "A decisive victory, after which he continued to Calais and returned to England."
+      },
+      {
+        "name": "Charles d'Albret, constable of France",
+        "objective": "Stop the English army before it reached Calais, as the royal council had resolved.",
+        "known": "The English army was smaller and had been marching through hostile country.",
+        "uncertainty": "Whether waiting or attacking would serve better; Monstrelet says some leaders privately feared an open battle.",
+        "constraints": "Command of the vanguard was shared with royal dukes and other great lords. This analysis infers rather than documents how far that limited his authority.",
+        "forces": "Men-at-arms, archers and crossbowmen in three divisions with mounted wings; record evidence suggests about 12,000 men.",
+        "terrain": "Recently sown fields where the vanguard became crowded once the fighting began.",
+        "logistics": "Men-at-arms summoned from across the kingdom to intercept the English march.",
+        "decision": "The French waited in position, then sent mounted wings against the English flanks before the vanguard closed.",
+        "outcome": "The vanguard was defeated; Monstrelet lists many French princes and lords killed or captured."
+      }
+    ]
+  },
+  {
+    "slug": "gettysburg",
+    "sources": [
+      {
+        "title": "Gettysburg Overview",
+        "url": "https://www.nps.gov/gett/learn/historyculture/gettysburg-overview.htm",
+        "publisher": "National Park Service, Gettysburg National Military Park"
+      },
+      {
+        "title": "Essential Background: The Battle of Gettysburg",
+        "url": "https://www.nps.gov/gett/learn/education/classrooms/essential-background-the-battle-of-gettysburg.htm",
+        "publisher": "National Park Service, Gettysburg National Military Park"
+      },
+      {
+        "title": "Gettysburg National Military Park, Historical Handbook No. 9 (Frederick Tilberg)",
+        "url": "https://npshistory.com/handbooks/historical/9/index.htm",
+        "publisher": "National Park Service (hosted by NPS History)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "By 1863 the Union had gained ground on most fronts: Grant was besieging Vicksburg and the navy was blockading Southern ports. The Eastern Theater remained the Confederacy's main success, and after victory at Chancellorsville in May Lee decided to invade the North.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The National Park Service describes Lee's aims as raising Confederate morale, easing pressure on Vicksburg, drawing the Union army onto better ground, gathering supplies from Pennsylvania farms and winning victories that might push the Union toward peace.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Lee's plan included destroying the Susquehanna bridge at Harrisburg and disabling the Pennsylvania Railroad. Lincoln and Halleck ordered the Army of the Potomac to stay between Lee and Washington; on 28 June George Meade replaced Joseph Hooker in command.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "The Plan of Campaign"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "After 1 July the Union held high ground south of the town in a fishhook-shaped line from Culp's Hill through Cemetery Hill and Cemetery Ridge to Little Round Top. The Confederates formed a longer, outer arc along Seminary Ridge about a mile away, with open fields between.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Lee commanded the Army of Northern Virginia, with corps under Longstreet, Ewell and Hill. Meade commanded the Army of the Potomac, which he had led for only a few days. Stuart's cavalry was out of contact with Lee as the armies converged.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "The Plan of Campaign"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Learning that Union forces had crossed the Potomac, Lee concentrated near Cashtown, west of Gettysburg. Heth's division approached along the Chambersburg Pike while Buford's Union cavalry approached from the south. Neither commander expected to fight at Gettysburg.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "The Plan of Campaign"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 1 July Confederates attacked on McPherson Ridge and drove Union troops through the town to Cemetery Hill. On 2 July Lee attacked both Union flanks. On 3 July Union troops retook works on Culp's Hill, a two-hour bombardment preceded an assault on the Union centre, and that assault failed. Lee withdrew from 4 July.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "The Third Day; End of Invasion"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "At midnight on 2 July Meade's corps commanders advised holding their positions, and he did. Having found the Union flanks strong, Lee attacked the centre on 3 July with about 12,000 men in what became known as Pickett's Charge.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "The Third Day"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "On the high ground, the Union's shorter interior line let Meade shift troops to threatened points, while Confederate attacks from the outer arc were harder to coordinate. The failure of the 3 July assault ended Lee's hope of victory on this field.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Lee began an orderly retreat late on 4 July, with a long train of wounded. Heavy rain slowed both armies, and the swollen Potomac trapped Lee until the river fell and he crossed into Virginia. Critics charged that Meade had let the Confederate army slip away.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "End of Invasion"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Gettysburg's churches, public buildings and homes became hospitals. A Soldiers' National Cemetery was established, and Lincoln spoke at its dedication on 19 November 1863. The war continued until Lee surrendered at Appomattox in April 1865.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "An unplanned meeting engagement can commit whole armies to ground neither commander chose. Lee's loss of cavalry reconnaissance shows how gaps in information shape decisions before the fighting starts.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "The Plan of Campaign"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Park Service pages describe Lee's aims with different emphases, and their figures are approximations. Meade's pursuit remains debated. This study does not adopt labels such as \"high-water mark\" or repeat casualty totals.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "End of Invasion"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The National Park Service overview and teaching background give the campaign and the three days. The park's historical handbook adds the plan of campaign, Meade's council of war and the retreat.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Meeting engagement",
+        "time": "1 July 1863",
+        "description": "Confederates attack west of town and drive Union troops back to Cemetery Hill."
+      },
+      {
+        "title": "Attacks on both flanks",
+        "time": "2 July 1863",
+        "description": "Longstreet strikes the Union left and Ewell the right; the Union line holds."
+      },
+      {
+        "title": "Assault on the centre",
+        "time": "3 July 1863",
+        "description": "After a bombardment, about 12,000 Confederates advance on Cemetery Ridge and are repulsed."
+      },
+      {
+        "title": "Retreat",
+        "time": "4–14 July 1863",
+        "description": "Lee withdraws toward Virginia; Meade pursues but Lee crosses the Potomac when the river falls."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Robert E. Lee",
+        "objective": "Win a decisive victory on Northern soil that would raise Confederate morale and press the Union toward peace.",
+        "known": "On the night of 28 June an agent reported that the Union army had crossed the Potomac and was close.",
+        "uncertainty": "With Stuart's cavalry out of contact, he had little reconnaissance of Union strength and positions.",
+        "constraints": "A supply line stretched far from Virginia, and corps that had to concentrate quickly from scattered positions.",
+        "forces": "The Army of Northern Virginia, with corps under Longstreet, Ewell and Hill.",
+        "terrain": "Seminary Ridge, an exterior line facing open fields toward the Union centre.",
+        "logistics": "The army foraged in Pennsylvania farmland; its retreat began with a wagon train of wounded many miles long.",
+        "decision": "He attacked both Union flanks on 2 July and, finding them strong, attacked the centre on 3 July.",
+        "outcome": "The assault failed, and he retreated to Virginia."
+      },
+      {
+        "name": "George G. Meade",
+        "objective": "Keep the Army of the Potomac between Lee and Washington and defeat the invasion.",
+        "known": "He took command on 28 June at Frederick, Maryland, only days before the battle.",
+        "uncertainty": "Where Lee would strike next; before 3 July he expected the main attack on his left.",
+        "constraints": "New to army command, with corps arriving at Gettysburg piecemeal after the first day.",
+        "forces": "The Army of the Potomac, whose corps commanders he consulted in a midnight council of war.",
+        "terrain": "High ground in a fishhook-shaped interior line from Culp's Hill to Little Round Top.",
+        "logistics": "Reserve batteries were brought up behind the centre, and the Baltimore Pike ran behind the Union right.",
+        "decision": "He held his positions and kept three corps on his left, while Hancock strengthened the stone wall at the centre; after the battle he pursued Lee.",
+        "outcome": "A defensive victory, followed by criticism that Lee had been allowed to escape."
+      }
+    ]
+  },
+  {
+    "slug": "normandy",
+    "sources": [
+      {
+        "title": "D-Day: The Allied Invasion of Normandy",
+        "url": "https://www.nam.ac.uk/explore/d-day",
+        "publisher": "National Army Museum"
+      },
+      {
+        "title": "German response to D-Day",
+        "url": "https://www.iwm.org.uk/history/second-world-war/d-day/the-german-response-to-d-day",
+        "publisher": "Imperial War Museums"
+      },
+      {
+        "title": "World War II: D-Day, The Invasion of Normandy",
+        "url": "https://www.eisenhowerlibrary.gov/research/online-documents/world-war-ii-d-day-invasion-normandy",
+        "publisher": "Dwight D. Eisenhower Presidential Library"
+      },
+      {
+        "title": "The Battle of Normandy (backgrounder)",
+        "url": "https://www.veterans.gc.ca/pdf/media_kits/battle-of-normandy-backgrounder.pdf",
+        "publisher": "Veterans Affairs Canada"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "By spring 1944 Germany had dominated western Europe for four years; Anglo-American offensives in North Africa and the Mediterranean had ruled out an earlier return to northern France. Allied conferences in 1943 shaped the invasion plan, and Eisenhower was appointed to command it in December 1943.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The Allies considered a second front in north-west Europe essential to defeating Germany and to relieving pressure on the Soviet Union. Hitler's Directive No. 51 ordered the western defences reinforced, and he hoped that defeating an invasion would free forces for the Eastern Front.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The Allies aimed to land, establish a lodgement including Caen, then break out and liberate France. German commanders disagreed over how to defeat them: Rommel wanted to fight on the beaches, while Geyr von Schweppenburg wanted to hold armour back for a mass counterattack.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Normandy was chosen over the shorter crossing to Calais for its beaches, weaker defences and position within fighter range. The Atlantic Wall was nearly continuous only in the Pas de Calais. Inland, enclosed bocage country favoured the defenders.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Eisenhower was Supreme Allied Commander, with Montgomery commanding the ground forces. On the German side, Rundstedt commanded in the west and Rommel led Army Group B. Hitler split the panzer reserve: Rommel controlled three divisions, and four could not move without Hitler's permission.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Americans landed at Utah and Omaha, British troops at Gold and Sword, and Canadians at Juno, with airborne forces on both flanks. Static divisions of uneven quality held most of the coast, but the veteran 352nd Infantry Division, undetected by Allied intelligence, defended Omaha. Only 21st Panzer was within striking distance.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Airborne landings and bombardment preceded the beach assaults on 6 June. Cherbourg fell on 27 June and St-Lô on 19 July, while British and Canadian attacks ground forward around Caen. Operation Cobra broke through from 25 July. The German counterattack at Mortain on 7 August failed, and the Falaise Pocket closed in the third week of August.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Eisenhower launched the invasion in a spell of bad weather that made the decision fraught; he had drafted a press statement for use if it failed. Hitler refused withdrawal and ordered the Mortain counterattack, which exposed his armies to encirclement.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Deception held the German Fifteenth Army in the Pas de Calais. Repeated British and Canadian attacks drew most German armour to Caen, leaving the western sector weaker for the American breakout.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Allies were established in France. The Falaise Pocket was sealed in late August; many Germans escaped without their equipment, but Seventh Army and Fifth Panzer Army had effectively ceased to exist. The campaign ended with the liberation of Paris on 25 August.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The campaign opened the way to the liberation of France and the advance into Germany. The war in Europe continued until Germany's unconditional surrender, signed at Reims on 7 May 1945.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Combined operations depend on deception, air superiority and supply as much as on the assault. D-Day missed many first-day objectives, including Caen, yet put more than 160,000 troops ashore and secured a foothold.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Casualty figures differ between and even within institutional accounts. The date the Falaise Gap closed is given as 19, 21 or 22 August, depending on whether the link-up or the end of resistance is meant. Imperial War Museums credits German defensive skill while doubting any strategy could have changed the outcome.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The National Army Museum covers planning and the landings. Imperial War Museums gives the German command debate and campaign. The Eisenhower Library holds planning and command documents, and Veterans Affairs Canada summarizes the Canadian part of the campaign.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Landings",
+        "time": "6 June 1944",
+        "description": "Airborne drops, bombardment and assaults on five beaches establish a foothold."
+      },
+      {
+        "title": "Battle for the lodgement",
+        "time": "June – mid-July 1944",
+        "description": "Cherbourg falls; British and Canadian attacks around Caen hold German armour in the east."
+      },
+      {
+        "title": "Breakout",
+        "time": "25 July – early August 1944",
+        "description": "Operation Cobra breaks through in the west; the German counterattack at Mortain fails."
+      },
+      {
+        "title": "Falaise Pocket",
+        "time": "August 1944",
+        "description": "Allied armies close the pocket around German forces; Paris is liberated on 25 August."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Dwight D. Eisenhower",
+        "objective": "Land Allied armies in France, build up the lodgement and defeat German forces in the west.",
+        "known": "Air reconnaissance, special forces and the French Resistance had mapped much of the German coastal defence.",
+        "uncertainty": "Whether the weather would allow the landing, and whether it would succeed; he drafted a statement in case it failed.",
+        "constraints": "A short weather window and a multinational coalition of land, sea and air forces.",
+        "forces": "More than 5,000 ships, airborne divisions and assault divisions from several nations, with Montgomery commanding on land.",
+        "terrain": "Beaches of varying strength, then enclosed bocage country inland.",
+        "logistics": "Southern England was packed with men, vehicles and supplies; by 30 June over 850,000 men had landed.",
+        "decision": "He launched the invasion on 6 June despite the uncertain weather.",
+        "outcome": "The landings succeeded, and by late August the campaign had broken German resistance in Normandy."
+      },
+      {
+        "name": "Erwin Rommel",
+        "objective": "Defeat the invasion on the beaches.",
+        "known": "Invasion was imminent, and Allied air superiority would make it hard to move armour once the battle began.",
+        "uncertainty": "Where the main landing would fall; deception convinced the German high command that Normandy was a feint.",
+        "constraints": "He controlled only three panzer divisions, and four more could not move without Hitler's permission.",
+        "forces": "Army Group B, with Seventh Army in Normandy and Brittany and Fifteenth Army north of the Seine.",
+        "terrain": "An Atlantic Wall that was incomplete outside the Pas de Calais, which he strengthened with obstacles and mines.",
+        "logistics": "Air attacks held up fuel, ammunition and reinforcements.",
+        "decision": "He pushed for armour near the coast and strengthened the beach defences; he was away in Germany when the landings began.",
+        "outcome": "German resistance contained the Allies for weeks but could not throw them back. Rommel was badly wounded on 17 July."
+      }
+    ]
   }
 ]

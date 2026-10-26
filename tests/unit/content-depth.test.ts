@@ -43,11 +43,15 @@ it("covers every perspective field for battles with commander perspectives", () 
     .parse(research)
     .filter((s) => s.perspectives?.length);
   expect(withPerspectives.map((s) => s.slug).sort()).toEqual([
+    "agincourt",
     "alesia",
     "austerlitz",
     "cannae",
+    "gaugamela",
+    "gettysburg",
     "hastings",
     "midway",
+    "normandy",
     "stalingrad",
     "waterloo",
   ]);

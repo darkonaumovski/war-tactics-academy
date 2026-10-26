@@ -5896,5 +5896,1180 @@
         "outcome": "His army was routed and he was badly wounded."
       }
     ]
+  },
+  {
+    "slug": "blenheim",
+    "sources": [
+      {
+        "title": "Battle of Blenheim",
+        "url": "https://www.britannica.com/event/Battle-of-Blenheim",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Blenheim (Encyclopædia Britannica, 1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Blenheim",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "The Battle of Blenheim, 13 August 1704",
+        "url": "https://www.nam.ac.uk/explore/battle-blenheim-13-august-1704",
+        "publisher": "National Army Museum"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "In the War of the Spanish Succession (1702–13) a Franco-Bavarian army threatened Vienna and the Austrian position in Germany. To prevent an Austrian collapse, the Duke of Marlborough marched an army from the Low Countries to the Danube, unnoticed by the French, and joined Prince Eugene of Savoy's Austrian army.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "England, Austria and the Dutch Republic were allied against Louis XIV, while the elector of Bavaria fought on the French side. Losing Vienna would have threatened the alliance itself.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Marlborough and Eugene aimed to save Vienna by defeating the Franco-Bavarian army. Marshal Tallard, expecting them to stay on the defensive to protect Vienna, did not think their slightly smaller army would attack.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Blenheim (now Blindheim) lies on the Danube about 16 km south-west of Donauwörth, where the road to Ulm passes between hills and the marshy river valley. The French front ran along the Nebel stream, covered by the villages of Blenheim, Unterglau and Oberglau, with its left in the hills near Lutzingen.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Britannica gives about 52,000 British, Dutch and Austrian troops under Marlborough and Eugene against about 60,000 French and Bavarians. The French army was in two nearly independent parts: Tallard commanded the right, and Marshal Marsin and the elector the left.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Tallard placed a large force of his best infantry in Blenheim and his cavalry on the wings. The junction between his army and Marsin's was held by cavalry with little infantry support. Marlborough faced Tallard, and Eugene faced Marsin and the elector.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Marlborough and Eugene joined on 12 August and advanced next morning over broken ground cut by streams. The battle opened about 12:30 p.m. Lord Cutts made two failed assaults on Blenheim while Eugene kept Marsin engaged. Marlborough then crossed the Nebel, his cavalry broke the French centre and wheeled against Tallard's wing, and the troops in Blenheim were surrounded.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "The allies chose to attack a larger army in a strong position. Cutts's attacks drew more French reserves into Blenheim than Tallard intended. Marlborough made his main effort against the weak centre, helped by a cavalry corps that Eugene lent him.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The allied cavalry broke through at the junction of the two French armies, separating Marsin from Tallard. With Tallard's infantry packed into Blenheim, his centre had too little to stop the attack.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Tallard was captured and his army almost destroyed, many of its men driven into the Danube. The infantry and dragoons trapped in Blenheim surrendered, while Marsin and the elector withdrew in the dusk.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The battle saved Vienna, preserved the alliance and knocked Bavaria out of the war. Britannica calls it the first major defeat of a French army in over 50 years. It began a lasting partnership between Marlborough and Eugene, and Queen Anne rewarded Marlborough with the manor of Woodstock and funds for Blenheim Palace.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Allied commanders who coordinated closely could defeat a larger army whose two halves fought almost separately. Attacks that pin an enemy's strongpoints can draw away the reserves needed elsewhere.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Figures differ: the 1911 Britannica calls the French only somewhat superior in numbers, and the battalions trapped in Blenheim are given as about 23 or 24. The National Army Museum lists Prussians in the alliance, while Britannica names British, Dutch and Austrian troops. Verdicts such as ending the illusion of French invincibility are judgments.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica gives the main narrative and the 1911 edition the timings and deployments. The National Army Museum's page interprets John Wootton's painting, made about 40 years after the battle. No contemporary account was read.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "March to the Danube",
+        "time": "Summer 1704",
+        "description": "Marlborough marches from the Low Countries to protect Vienna."
+      },
+      {
+        "title": "Allies join",
+        "time": "12 August 1704",
+        "description": "Marlborough and Eugene unite opposite the Franco-Bavarian camp."
+      },
+      {
+        "title": "Attacks on the flanks",
+        "time": "13 August, from 12:30 p.m.",
+        "description": "Cutts attacks Blenheim and Eugene engages Marsin."
+      },
+      {
+        "title": "Breakthrough in the centre",
+        "time": "13 August, afternoon – dusk",
+        "description": "Allied cavalry break the French centre; Tallard is captured and Blenheim surrenders."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Duke of Marlborough",
+        "objective": "Save Vienna by defeating the Franco-Bavarian army.",
+        "known": "The enemy was camped behind the Nebel and did not expect an attack.",
+        "uncertainty": "Whether attacking a larger army in a strong position would succeed.",
+        "constraints": "Command shared with Eugene, a slightly smaller army and broken ground cut by streams.",
+        "forces": "About 52,000 British, Dutch and Austrian troops with Eugene.",
+        "terrain": "A marshy stream covered by fortified villages, with the Danube on one flank.",
+        "logistics": "A long march from the Low Countries to southern Germany.",
+        "decision": "He pinned the villages and flanks, then crossed the Nebel against the centre.",
+        "outcome": "Tallard was captured and Vienna was saved."
+      },
+      {
+        "name": "Marshal Tallard",
+        "objective": "Support Bavaria and keep up the threat to Vienna.",
+        "known": "The allies were slightly weaker and intent on protecting Vienna.",
+        "uncertainty": "Whether the allies would risk an attack.",
+        "constraints": "An army in two nearly independent parts, with command shared with Marsin and the elector.",
+        "forces": "About 60,000 French and Bavarians in total.",
+        "terrain": "A line behind the Nebel between the Danube and the hills.",
+        "logistics": "The sources read do not describe his supply.",
+        "decision": "He garrisoned Blenheim strongly and fed in more reserves under Cutts's attacks.",
+        "outcome": "His army was almost destroyed and he was taken prisoner."
+      }
+    ]
+  },
+  {
+    "slug": "saratoga",
+    "sources": [
+      {
+        "title": "Saratoga National Historical Park (NPS Historical Handbook No. 4, 1950, revised 1959)",
+        "url": "https://www.npshistory.com/handbooks/historical/4/hh4toc.htm",
+        "publisher": "National Park Service (via NPS History)"
+      },
+      {
+        "title": "French Alliance, French Assistance, and European Diplomacy during the American Revolution, 1778–1782",
+        "url": "https://history.state.gov/milestones/1776-1783/french-alliance",
+        "publisher": "Office of the Historian, U.S. Department of State"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "John Burgoyne proposed, and the King and Cabinet approved, a plan for 1777: Burgoyne would march south from Canada and Sir William Howe north from New York to meet at Albany, while Barry St. Leger moved east along the Mohawk from Oswego.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "The British Plan of 1777"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Control of the Hudson–Champlain route would cut New England off from the other colonies. But Howe moved against Philadelphia instead, and the handbook says the order for him to cooperate was apparently never sent.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "The British Plan of 1777; Retreat and Surrender"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Burgoyne aimed to reach Albany. The Americans aimed to stop him at Bemis Heights, where their line blocked the river road south.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "The Battle of Bennington; The American Line"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Bluffs, ravines and heavy forest covered the ground in 1777. The American line, designed by Thaddeus Kosciuszko, was anchored on the river bluffs and left only a narrow corridor along the river. The woods north of it hindered coordinated attacks and the use of artillery.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "The American Line; Guide to the Park"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The handbook gives Burgoyne about 9,400 men at the start, about half British and half German with several hundred Canadians, Loyalists and Native allies, but elsewhere about 8,500. Horatio Gates replaced Philip Schuyler on 19 August, and his army grew from about 3,000 to 9,000 at Bemis Heights, with Daniel Morgan's riflemen in Benedict Arnold's division.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "The Burgoyne Campaign; Retreat of the Americans; The American Line"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Burgoyne crossed the Hudson at Saratoga on 13 September, cutting his communications with Canada. On 19 September he advanced in three columns: Simon Fraser on the right, Burgoyne in the centre and Friedrich Riedesel on the river road with the artillery and baggage.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "The Battle of Bennington; The Battle of September 19"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Burgoyne took Ticonderoga in early July but needed until 30 July to reach Fort Edward. A raid for supplies was defeated at Bennington on 16 August. On 19 September the British held the field at Freeman's Farm at heavy cost. On 7 October a British reconnaissance in force was defeated, and on 17 October Burgoyne surrendered.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "The Burgoyne Campaign to Retreat and Surrender"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Schuyler slowed the British by felling trees across the roads and stripping the country. On 19 September Gates accepted Arnold's argument for fighting in the woods and sent out Morgan, but held about 5,000 men back. On 7 October Burgoyne sent about 1,500 men to probe the American left, and Gates ordered Morgan, Poor and Learned to attack.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Retreat of the Americans; The Battle of September 19; The Battle of October 7"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The handbook judges that Riedesel's arrival late on 19 September saved the British line. On 7 October the capture of the Breymann Redoubt, which covered the right and rear of Burgoyne's camp, forced a general retreat.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "The Battle of September 19; The Battle of October 7"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Burgoyne retreated to Saratoga, where an American force grown to about 20,000 surrounded him. With provisions nearly gone, he surrendered on 17 October under a convention that his troops would be shipped to England. Congress did not keep the terms, and the prisoners were held in America.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Retreat and Surrender"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "News of the surrender reached France's foreign minister, Vergennes, in December 1777. Hearing of possible British peace offers, he decided not to wait for Spain, and on 6 February 1778 France signed treaties of alliance and of commerce with the United States.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A plan of converging columns failed when one column went elsewhere and another was turned back. An invading army far from its supplies, in country stripped before it, steadily weakened while its opponent grew.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Retreat and Surrender"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The handbook, written in 1950, spreads the blame across Germain, Howe, Clinton, St. Leger and Burgoyne's lack of drive. It credits Arnold, Morgan and militia mobilisation, and says Fraser was perhaps shot by a marksman Morgan assigned. Its own figures for Burgoyne's army do not agree.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "The Battle of October 7; Retreat and Surrender"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The main source is an older National Park Service handbook, read section by section. The Office of the Historian essay, from a series no longer maintained, covers the French alliance. No British, German or American participant accounts were read.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Advance from Canada",
+        "time": "17 June – 30 July 1777",
+        "description": "Burgoyne leaves Canada, takes Ticonderoga and struggles through to Fort Edward."
+      },
+      {
+        "title": "Bennington and the crossing",
+        "time": "16 August – 13 September 1777",
+        "description": "A supply raid is defeated at Bennington; Burgoyne crosses the Hudson."
+      },
+      {
+        "title": "Freeman's Farm",
+        "time": "19 September 1777",
+        "description": "Three British columns attack; the British hold the field at heavy cost."
+      },
+      {
+        "title": "Bemis Heights and surrender",
+        "time": "7–17 October 1777",
+        "description": "A British probe is defeated, the Breymann Redoubt falls and Burgoyne surrenders."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "John Burgoyne",
+        "objective": "Reach Albany and meet Howe's army.",
+        "known": "The Americans were entrenched at Bemis Heights, blocking the river road.",
+        "uncertainty": "Whether Howe or Clinton would come up the Hudson, and the exact American position.",
+        "constraints": "Supplies brought from Canada, losses at Bennington and the loss of his Native allies.",
+        "forces": "About 9,400 at the start, British and German regulars with auxiliaries, fewer by September.",
+        "terrain": "Wooded ground cut by ravines, with the river corridor blocked by fortified bluffs.",
+        "logistics": "A long line to Canada, which he cut when he crossed the Hudson.",
+        "decision": "He crossed the Hudson, attacked in three columns on 19 September and probed again on 7 October.",
+        "outcome": "He was surrounded and surrendered his army on 17 October."
+      },
+      {
+        "name": "Horatio Gates",
+        "objective": "Block the Hudson route to Albany.",
+        "known": "His scouts counted Burgoyne's men, tents, wagons and boats.",
+        "uncertainty": "Where the main British attack would fall; he expected it on the river road.",
+        "constraints": "An army of Continentals and arriving militia, and a quarrel with Arnold.",
+        "forces": "About 9,000 at Bemis Heights, rising to about 20,000 by the surrender.",
+        "terrain": "Kosciuszko's fortified line on Bemis Heights, anchored on the bluffs.",
+        "logistics": "Men and supplies flowing in from the surrounding states.",
+        "decision": "He sent Morgan out on 19 September while holding a reserve, and attacked the British probe on 7 October.",
+        "outcome": "Burgoyne surrendered to him."
+      }
+    ]
+  },
+  {
+    "slug": "sedan",
+    "sources": [
+      {
+        "title": "Battle of Sedan",
+        "url": "https://www.britannica.com/event/Battle-of-Sedan",
+        "publisher": "Encyclopaedia Britannica (John Swift)"
+      },
+      {
+        "title": "The Battle of Sedan",
+        "url": "https://www.napoleon.org/en/history-of-the-two-empires/articles/the-battle-of-sedan/",
+        "publisher": "Fondation Napoléon (Eymeric Job)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After defeats at Mars-la-Tour and Gravelotte in August 1870, Marshal Bazaine's army was besieged in Metz. Marshal MacMahon's Army of Châlons was the only French army left in the field.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Britannica says Napoleon III, ill and in severe pain, could not fall back on Paris because such an admission of failure would doom his dynasty. The emperor accompanied the army but MacMahon held command.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "MacMahon advanced north towards the Belgian border, intending to turn south-east and relieve Metz. The Germans under Helmuth von Moltke knew of his intentions and moved to intercept him.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Sedan was a small fortress town on the Meuse that could neither feed nor hold the army. Heights surrounded it, from Frénois, where King Wilhelm and Bismarck watched, to the Plateau d'Illy in the north; Bazeilles lay to the south-east.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "About 120,000 French troops faced more than 200,000 Germans; the Fondation Napoléon gives nearly 600 French and 800 German guns. Two German armies, under the Crown Prince of Prussia and Prince Albert of Saxony, closed on the town.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "MacMahon's corps gathered around the citadel. Marine infantry held Bazeilles, and General Margueritte's reserve cavalry stood on the Plateau d'Illy.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "After clashes at Nouart, Beaumont and Bazeilles on 29–31 August, MacMahon fell back into Sedan. Early on 1 September Bavarian troops attacked Bazeilles and MacMahon was badly wounded. Command passed in confusion between Ducrot and Wimpffen while German armies closed the ring, and French cavalry charged in vain to break it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Ducrot ordered a retreat westward towards Mézières. Wimpffen, claiming authority from the war minister, countermanded him and attacked towards Bazeilles to open a road east. Late in the day Napoleon refused to lead a final breakout, judging that it would only bring pointless slaughter.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "MacMahon's wound left the army under three commanders in a few hours, with conflicting orders and few maps, while German artillery ringed the town. The Fondation Napoléon attributes the disaster largely to this breakdown in communication.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "A white flag was raised and Napoleon offered his sword to King Wilhelm. Moltke and Bismarck demanded unconditional surrender, which Wimpffen signed on 2 September. The army went into captivity and the emperor was held at Wilhelmshöhe.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "When the news reached Paris, a popular uprising overthrew the Second Empire, and the Republic was proclaimed on 4 September. The new government would not accept German terms, and the war went on for five more months.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "An operation driven by dynastic politics led an army into a place it could not supply or hold. A command that changed hands mid-battle could not carry out any single plan.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The two accounts disagree on the timing of the white flag: Britannica says early on 2 September, the Fondation Napoléon on the afternoon of 1 September. They name different breakout routes and describe the emperor's surrender differently. Their figures for prisoners also differ.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica's article and the Fondation Napoléon's account, which draws on French and German scholarship, are the sources read. No primary accounts were read.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "March to relieve Metz",
+        "time": "Late August 1870",
+        "description": "MacMahon and Napoleon III march north-east towards Metz, shadowed by the Germans."
+      },
+      {
+        "title": "Driven into Sedan",
+        "time": "29–31 August 1870",
+        "description": "Clashes at Nouart, Beaumont and Bazeilles; the army falls back into Sedan."
+      },
+      {
+        "title": "Encirclement",
+        "time": "1 September 1870",
+        "description": "MacMahon is wounded, orders conflict and German armies close the ring."
+      },
+      {
+        "title": "Capitulation",
+        "time": "1–2 September 1870",
+        "description": "The white flag is raised and the army and emperor surrender."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Napoleon III",
+        "objective": "Relieve Metz and save his dynasty.",
+        "known": "His armies had been beaten and Bazaine was shut in Metz.",
+        "uncertainty": "Whether the march could outrun the German armies.",
+        "constraints": "Severe illness, a dynasty that could not afford a retreat to Paris, and command held by MacMahon.",
+        "forces": "About 120,000 men with nearly 600 guns.",
+        "terrain": "A small fortress town overlooked by heights on every side.",
+        "logistics": "Sedan could feed the army for only a few days.",
+        "decision": "He refused to lead a final breakout and ordered the white flag raised.",
+        "outcome": "He became a prisoner and the Second Empire fell within days."
+      },
+      {
+        "name": "Helmuth von Moltke",
+        "objective": "Destroy the Army of Châlons.",
+        "known": "The French intended to march round to relieve Metz.",
+        "uncertainty": "Whether the French would break out before the ring was closed.",
+        "constraints": "Two armies converging from different directions had to link up around the town.",
+        "forces": "More than 200,000 men with about 800 guns.",
+        "terrain": "The heights surrounding Sedan.",
+        "logistics": "The sources read do not describe his supply.",
+        "decision": "He intercepted the French march, sealed the breakout routes and ringed the town with artillery.",
+        "outcome": "The French army capitulated with the emperor."
+      }
+    ]
+  },
+  {
+    "slug": "tsushima",
+    "sources": [
+      {
+        "title": "Battle of Tsushima",
+        "url": "https://www.britannica.com/event/Battle-of-Tsushima",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Voyage to Tsushima",
+        "url": "https://www.usni.org/magazines/naval-history-magazine/2012/may/voyage-tsushima",
+        "publisher": "U.S. Naval Institute, Naval History (Capt. Shannon R. Butler)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Russia and Japan both sought dominance in Manchuria and Korea. On 8 February 1904 Admiral Tōgō Heihachirō's ships attacked the Russian squadron at Port Arthur before Japan's declaration of war, then blockaded the port. The able Russian commander, Admiral Makarov, was killed in April.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Japan had not secured complete command of the sea. In 1904 the tsar decided to send much of the Baltic Fleet, renamed the Second Pacific Squadron, to break the blockade. Port Arthur fell on 2 January 1905, before it arrived.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The squadron was first meant to join the Port Arthur squadron and overwhelm the Japanese navy; after Port Arthur fell, its aim became to reach Vladivostok. Tōgō aimed to intercept and destroy it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The voyage covered about 18,000 miles with no Russian bases on the way, and French and Portuguese ports turned the squadron away. Admiral Zinovy Rozhestvensky chose the route to Vladivostok through the Tsushima Strait, where Tōgō waited near Pusan on the Korean coast.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Butler counts 38 Russian combatants, including 12 battleships, ranging from very old ships to the newest; many crews had little ocean-going experience. Britannica calls many of the ships old and unserviceable and the Japanese ships superior in speed and armament.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Japanese cruisers shadowed the Russians from early on 27 May. Rozhestvensky tried to form line abreast, but only three battleships managed it, so he reverted to two columns with his four newest battleships on the right.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The squadron left the Baltic in October 1904 and fired on British trawlers off the Dogger Bank. At Nossi-Bé off Madagascar it learned that Port Arthur had fallen, and off Indochina it waited for reinforcements. On 27 May Tōgō's fleet crossed ahead of it and turned, and the leading Russian battleships were quickly disabled. Night torpedo attacks followed, and on 28 May Rear Admiral Nebogatov surrendered.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "After Nossi-Bé, Rozhestvensky proposed returning but went on, expecting reinforcements. He opened fire at 13:49 while the Japanese fleet was turning. Wounded, he was moved to a destroyer; Nebogatov led the remnant north-east, and Rear Admiral Enkvist took his cruisers south to Manila.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The Russian gunners missed during the Japanese turn, and Japanese fire soon disabled the leading battleships, including the flagship. With its commander wounded, the battle became a melee that the Russians could not control.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Most of the Russian fleet was sunk, captured or interned. Britannica says four ships reached Vladivostok; Butler says three of 38 combatants eventually did. Nebogatov surrendered the ships still with him.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Within a few hundred miles of its destination, the Baltic Fleet was shattered, and with it Russia's hope of regaining command of the sea. The war ended in disaster for imperial Russia.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A fleet sent across the world without bases arrived worn down before it fought. Butler applies Clausewitz's idea of friction: heat, disease, spoiled food, lack of mail and leave, and exhausting coaling at sea all lowered readiness.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Butler argues that most analyses stress material weaknesses and underrate the human friction of the voyage and Rozhestvensky's leadership. The sources differ on details: the battle is dated 27–28 or 27–29 May, the Dogger Bank incident 21 October or the night of 22–23 October, and the ships reaching Vladivostok as three or four.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Butler draws on Russian participant memoirs and on Westwood, Hough and Pleshakov. Britannica gives a concise summary. No Japanese sources were read. Butler places Vladivostok on Kamchatka, an error not followed here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Voyage begins",
+        "time": "October 1904",
+        "description": "The Second Pacific Squadron leaves the Baltic; the Dogger Bank incident."
+      },
+      {
+        "title": "Waiting and reinforcement",
+        "time": "January – May 1905",
+        "description": "News of Port Arthur's fall at Nossi-Bé; a long wait off Indochina."
+      },
+      {
+        "title": "Main fleets engage",
+        "time": "27 May 1905, afternoon",
+        "description": "Tōgō crosses ahead and turns; the Russian battleships are disabled."
+      },
+      {
+        "title": "Night attacks and surrender",
+        "time": "27–28 May 1905",
+        "description": "Torpedo attacks in the night; Nebogatov surrenders on 28 May."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Zinovy Rozhestvensky",
+        "objective": "After Port Arthur fell, bring his squadron through to Vladivostok.",
+        "known": "Japanese cruisers were shadowing his fleet on 27 May.",
+        "uncertainty": "How his inexperienced, exhausted crews would fight a rested enemy.",
+        "constraints": "No bases, coaling at sea, a mix of old and new ships and poorly trained crews.",
+        "forces": "38 combatants, including 12 battleships.",
+        "terrain": "The narrow Tsushima Strait between Korea and Japan.",
+        "logistics": "Colliers, dangerous coaling in open water and spoiled provisions.",
+        "decision": "He took the direct route through the strait and opened fire as the Japanese turned.",
+        "outcome": "He was wounded and his fleet was destroyed."
+      },
+      {
+        "name": "Tōgō Heihachirō",
+        "objective": "Destroy the Russian fleet before it reached Vladivostok.",
+        "known": "His scouts were tracking the Russian approach.",
+        "uncertainty": "The sources read do not record his assessment.",
+        "constraints": "His ships were briefly exposed while turning in succession onto a new course.",
+        "forces": "Battleships and armoured cruisers superior in speed and armament.",
+        "terrain": "Waiting positions on the Korean coast near Pusan.",
+        "logistics": "A rested fleet close to the battle area.",
+        "decision": "He crossed ahead of the Russian columns and turned to engage them.",
+        "outcome": "He won a decisive victory."
+      }
+    ]
+  },
+  {
+    "slug": "tannenberg",
+    "sources": [
+      {
+        "title": "Battle of Tannenberg",
+        "url": "https://www.britannica.com/event/Battle-of-Tannenberg-World-War-I-1914",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Alexander Samsonov, 1859–1914, Russian General",
+        "url": "https://www.historyofwar.org/articles/people_samsonov.html",
+        "publisher": "History of War (J. Rickard)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "To ease German pressure on France, the Russian commander-in-chief, Grand Duke Nicholas, urged his First and Second Armies into East Prussia before they were fully ready. General Zhilinsky had earlier pledged to France that Russia would field 800,000 men by the 15th day of mobilisation.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Initial developments"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "With more than two-to-one superiority, a combined Russian attack could have destroyed the German Eighth Army. But the two army commanders, Rennenkampf and Samsonov, had quarrelled bitterly since the Russo-Japanese War.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Initial developments"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Zhilinsky's plan had Rennenkampf's First Army attack from the east to draw the Germans on, while Samsonov's Second Army crossed the southern frontier two days later to cut them off from the Vistula. The Germans aimed to break the invasion.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Initial developments; Outcome and aftermath"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The 80-km chain of the Masurian Lakes separated the two Russian armies, and the Königsberg fortifications narrowed Rennenkampf's approach. The Russians had left their own border country a barrier of poor railways and worse roads, which now slowed Samsonov.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Initial developments"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Rennenkampf had six and a half infantry and five cavalry divisions; Samsonov ten infantry and three cavalry divisions, both under Zhilinsky. The German Eighth Army was commanded by Prittwitz, then by Hindenburg, appointed on 22 August, with Ludendorff as chief of staff and Max Hoffmann on the staff.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Initial developments"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Rennenkampf crossed the frontier and pushed back much of the Eighth Army at Gumbinnen on 19–20 August. Samsonov's army, hurried on by Zhilinsky, reached the southern frontier tired, hungry and with its transport incomplete, and spread across a front of nearly 100 km.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Initial developments; Planning and execution"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 20 August Prittwitz spoke of retreating behind the Vistula, but his staff prepared a move against Samsonov's left; he was replaced two days later. On 26 August François's I Corps attacked near Usdau, and on 27 August the Russian left broke. By 29 August the Germans held the road behind the Russian centre, which surrendered in the forests.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Initial developments; Planning and execution"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Hoffmann trusted Russian wireless orders sent uncoded, which his superiors suspected were a deception. Ludendorff took the risk of withdrawing almost everything from in front of Rennenkampf, leaving a cavalry screen, to strike both of Samsonov's flanks. Zhilinsky drove Samsonov forward and diverted Rennenkampf towards Königsberg.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Planning and execution"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "On 27 August the Russian left wing broke under bombardment before the German infantry attacked. François then turned east to Neidenburg, closing the line of retreat of the Russian centre.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Planning and execution"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Russian centre dissolved into exhausted groups that surrendered in large numbers. Samsonov, caught in the retreat, shot himself; Britannica places this early on 30 August, Rickard probably on 29 August.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Planning and execution; Outcome and aftermath"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Reinforced from the west, the Germans drove Rennenkampf out of East Prussia in September. Britannica notes that they could not turn the victory into a strategic one, and that the corps sent east helped make possible the French recovery on the Marne.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Outcome and aftermath"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Two armies separated by terrain and unwilling to cooperate could be beaten one at a time. Uncoded radio gave the defender the knowledge to take great risks, and railways let it shift forces quickly.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Planning and execution"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Britannica gives Hoffmann chief credit for the design and François the essential role, and calls the double envelopment an afterthought rather than a planned second Cannae; Rickard notes that German commanders credited Hindenburg and Ludendorff. Britannica blames Zhilinsky above all, Rickard Samsonov's own push. Dates differ by a day or two.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Outcome and aftermath"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica gives a detailed narrative and Rickard a short biography of Samsonov. No German or Russian primary sources were read, and the 1914–1918-online encyclopedia article could not be opened.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Invasion and Gumbinnen",
+        "time": "17–20 August 1914",
+        "description": "Rennenkampf invades and wins at Gumbinnen; Samsonov reaches the southern frontier."
+      },
+      {
+        "title": "German redeployment",
+        "time": "20–25 August 1914",
+        "description": "Prittwitz is replaced; troops move by rail and road against Samsonov."
+      },
+      {
+        "title": "Breaking the Russian left",
+        "time": "26–27 August 1914",
+        "description": "François attacks near Usdau and the Russian left wing collapses."
+      },
+      {
+        "title": "Encirclement",
+        "time": "28–30 August 1914",
+        "description": "The road behind the Russian centre is closed and its troops surrender."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Alexander Samsonov",
+        "objective": "Cross the southern frontier and cut the Germans off from the Vistula.",
+        "known": "Zhilinsky believed the Germans were already retreating to the Vistula.",
+        "uncertainty": "The German strength in front of him and what Rennenkampf was doing.",
+        "constraints": "Tired, hungry troops, incomplete transport, bad roads and no contact with Rennenkampf.",
+        "forces": "Ten infantry and three cavalry divisions.",
+        "terrain": "Barren border country, forests and lakes.",
+        "logistics": "Supply services in chaos.",
+        "decision": "He pressed forward on a wide front and went forward himself to control the battle.",
+        "outcome": "His army's centre was encircled and he took his own life."
+      },
+      {
+        "name": "Erich Ludendorff",
+        "objective": "Break the Russian invasion of East Prussia.",
+        "known": "Intercepted Russian wireless messages showed Rennenkampf moving slowly.",
+        "uncertainty": "Whether Rennenkampf would stay passive.",
+        "constraints": "Fewer troops than the Russians overall, and movements already under way when he arrived.",
+        "forces": "The Eighth Army's corps, including François's I, Scholtz's XX and Mackensen's XVII.",
+        "terrain": "The lakes that kept the Russian armies apart.",
+        "logistics": "Railways to move divisions from the Gumbinnen front.",
+        "decision": "He confirmed Hoffmann's plan and stripped Rennenkampf's front to strike both of Samsonov's flanks.",
+        "outcome": "Samsonov's army was destroyed; credit for the plan is disputed."
+      }
+    ]
   }
 ]

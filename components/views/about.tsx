@@ -34,11 +34,11 @@ export function AboutPage() {
         </p>
         <h2>An honest first edition</h2>
         <p>
-          Twenty-four engagements have referenced analyses. Other engagement
-          records, war indexes and commander summaries provide orientation and
-          identify their editorial limits. Dates and transliterations follow
-          common modern conventions; no year zero is used. Figures are assessed
-          qualitatively, without invented ratings.
+          Every engagement has a referenced analysis. War indexes and commander
+          summaries provide orientation and identify their editorial limits.
+          Dates and transliterations follow common modern conventions; no year
+          zero is used. Figures are assessed qualitatively, without invented
+          ratings.
         </p>
         <h2>Learning, not winning</h2>
         <p>

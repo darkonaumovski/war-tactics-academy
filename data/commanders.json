@@ -217,7 +217,7 @@
     "strength": "The siege works at Alesia demonstrate the importance of engineering and labor organization.",
     "limitation": "Setbacks at Gergovia and Dyrrachium complicate an uninterrupted-success narrative; his own accounts defend his conduct.",
     "legacy": "Conquest involved mass violence and enslavement. His dictatorship contributed to the Republic's collapse.",
-    "battleSlugs": ["alesia"],
+    "battleSlugs": ["alesia", "pharsalus"],
     "source": {
       "title": "Julius Caesar — Jona Lendering",
       "url": "https://www.livius.org/articles/person/caesar/",

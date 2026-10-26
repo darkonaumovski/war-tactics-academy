@@ -1558,5 +1558,1143 @@
         "outcome": "Surrender, captivity and enslavement for many of the defeated."
       }
     ]
+  },
+  {
+    "slug": "pharsalus",
+    "sources": [
+      {
+        "title": "Pharsalus (48 BCE), with Caesar, Civil War 3.88–99 (trans. McDevitte and Bohn)",
+        "url": "https://www.livius.org/articles/battle/pharsalus-48-bce/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Plutarch, Life of Pompey (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Pompey%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Cassius Dio on the Battle of Pharsalus (41.52–63, trans. E. Cary)",
+        "url": "https://www.livius.org/sources/content/cassius-dio/cassius-dio-the-battle-of-pharsalus/",
+        "publisher": "Livius.org (Jona Lendering)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Caesar crossed the Rubicon early in 49 BCE when the Senate would not let him stand for the consulship; Pompey fought for the Senate and withdrew from Italy to the east. In January 48 Caesar crossed the Adriatic. After months of opposing siege lines at Dyrrhachium he was defeated on 7 July and marched inland into Thessaly.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Pompey's camp held many senators. Plutarch says Pompey wanted to wear Caesar down by delay, but his followers mocked his caution and pressed for a decisive battle, and he gave way.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "66–67"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Caesar, short of supplies after Dyrrhachium, needed a battle; Pompey's best course was delay, which his own camp would not accept. The two commanders therefore had unequal reasons to fight.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "66–67"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The battle was fought near Pharsalus in Thessaly. Caesar says Pompey's right was covered by a river with steep banks. Scholars disagree whether the field lay north-west or north-east of the town; the author of the Livius article favours the north-east.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Caesar's account gives Pompey a much larger army than his own, and Dio says the Pompeians excelled in numbers and in cavalry and archers. Pompey's cavalry, archers and slingers were massed under Labienus. Caesar's veteran legions included the Tenth on his right and the Ninth, weakened at Dyrrhachium, on his left. Caesar's figures are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.88–89"
+          },
+          {
+            "source": 2,
+            "locator": "41.52–63"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "In Caesar's account Pompey commanded his left with two legions Caesar had returned to the Senate, Scipio the centre, and the Cilician legion with Spanish cohorts the right by the river, with the cavalry massed on the left. Caesar placed Antony on his left, Domitius Calvinus in the centre and Sulla on the right. Expecting the cavalry to ride round his right, he took one cohort from each legion of his third line and formed a fourth line behind the right.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.88–89"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Livius dates the battle to 9 August 48 BCE. Pompey ordered his infantry to await the charge; Caesar's men, seeing them stand, halted midway, recovered their breath, then charged. Pompey's cavalry drove back Caesar's horse and began to outflank his line. The fourth line charged the cavalry, which fled, leaving the archers and slingers to be cut down, and then wheeled onto the Pompeian left from behind. Caesar committed his fresh third line, and the Pompeian army broke.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.92–94"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Caesar's decisive choice was to read Pompey's main effort and post a reserve against it. Pompey's order to stand and receive the charge was, in Caesar's judgement, a mistake that threw away the impetus of a charge. Plutarch says Caesar told the reserve cohorts to strike at the horsemen's faces.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.89, 3.92"
+          },
+          {
+            "source": 1,
+            "locator": "69, 71"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The rout of the cavalry by the fourth line removed Pompey's main striking force and exposed his left wing to attack from the flank and rear.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.93–94"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Pompey rode back to his camp, which Caesar's men stormed, and escaped to Larisa and the coast. Pompeian troops who took refuge on a waterless hill surrendered and, in Caesar's account, were pardoned. Pompey sailed to Egypt, where King Ptolemy's advisers had him killed as he came ashore.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.94–98"
+          },
+          {
+            "source": 1,
+            "locator": "72–80"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Livius calls the battle the end of the Roman Republic and the start of Caesar's autocracy. Dio says Caesar enrolled many captured soldiers in his own legions. Plutarch says Caesar, reaching Egypt after Pompey's death, had his murderers Achillas and Pothinus executed.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "41.52–63"
+          },
+          {
+            "source": 1,
+            "locator": "80"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Anticipating the enemy's main effort and placing a reserve to meet it can defeat superior numbers. Cohorts detached from their legions gave Caesar the flexibility to build a new line during deployment.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.89, 3.93"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Caesar's account is that of a participant defending his cause, and its figures favour him; Plutarch, citing Asinius Pollio, gives far lower Pompeian losses. Plutarch places Pompey on the right and Domitius with the cavalry on the left, where Caesar puts Pompey on the left, and he speaks of six reserve cohorts. Dio describes a long, even fight without a reserve and says Caesar executed captured senators, where Caesar stresses his clemency. The site is disputed.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "69, 72"
+          },
+          {
+            "source": 2,
+            "locator": "41.52–63"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Caesar's Civil War 3.88–99, in the translation on Livius, is the main narrative. Plutarch's Life of Pompey draws on it, on Asinius Pollio and on others. Dio's account, also on Livius, is independent but rhetorical, with speeches and omens.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "66–80"
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Dyrrhachium and retreat",
+        "time": "January–July 48 BCE",
+        "description": "Caesar's siege lines fail at Dyrrhachium; he marches into Thessaly and Pompey follows."
+      },
+      {
+        "title": "The fourth line",
+        "time": "9 August 48 BCE · deployment",
+        "description": "Pompey masses cavalry on his left; Caesar forms a fourth line behind his right."
+      },
+      {
+        "title": "Cavalry charge",
+        "time": "Battle",
+        "description": "Pompey's cavalry turns Caesar's flank and is routed by the fourth line, which wheels onto the Pompeian left."
+      },
+      {
+        "title": "Collapse and flight",
+        "time": "Battle · end",
+        "description": "Caesar commits his third line; the Pompeian army breaks and the camp is stormed."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Gaius Julius Caesar",
+        "objective": "Bring Pompey to battle and destroy his army before supply problems wore down his own.",
+        "known": "Pompey's cavalry, archers and slingers were massed opposite his right.",
+        "uncertainty": "Whether his own small cavalry force could hold off Pompey's horse.",
+        "constraints": "His army was outnumbered and short of supplies after Dyrrhachium.",
+        "forces": "Veteran legions, including the Tenth and the weakened Ninth, and a smaller cavalry force.",
+        "terrain": "A plain near Pharsalus, with Pompey's right covered by a river.",
+        "logistics": "After his defeat at Dyrrhachium he had marched inland, Plutarch says for lack of supplies.",
+        "decision": "He formed a fourth line from his third-line cohorts behind his right and held the third line in reserve.",
+        "outcome": "Pompey's army broke and Pompey fled to Egypt."
+      },
+      {
+        "name": "Gnaeus Pompeius Magnus (Pompey)",
+        "objective": "Plutarch says he preferred to wear Caesar down by delay rather than risk battle.",
+        "known": "His army and cavalry were much larger than Caesar's.",
+        "uncertainty": "Whether his less experienced troops could beat Caesar's veterans in open battle.",
+        "constraints": "Senators in his camp pressed for an immediate battle.",
+        "forces": "Legions including two that Caesar had returned, Syrian and Cilician legions, Spanish cohorts, and a large force of cavalry, archers and slingers.",
+        "terrain": "A river protecting his right flank.",
+        "logistics": "Better supplied than Caesar, which made delay a realistic option.",
+        "decision": "He massed cavalry under Labienus to turn Caesar's right and ordered his infantry to await the charge.",
+        "outcome": "His cavalry was routed, his army broke and he was killed in Egypt."
+      }
+    ]
+  },
+  {
+    "slug": "actium",
+    "sources": [
+      {
+        "title": "Actium (31 BCE)",
+        "url": "https://www.livius.org/articles/battle/actium-31-bce/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Plutarch, Life of Antony (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Antony%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "M. Vipsanius Agrippa (2)",
+        "url": "https://www.livius.org/articles/person/vipsanius-agrippa/vipsanius-agrippa-2/",
+        "publisher": "Livius.org (Jona Lendering)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Caesar's murder, Antony and Octavian defeated the assassins at Philippi in 42 BCE and divided the empire. Antony took the East, where he allied with Cleopatra VII of Egypt, and relations with Octavian deteriorated.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Octavian used a document, probably forged in Livius's view, suggesting that Antony meant to give Roman land to Cleopatra. The Senate declared war on Cleopatra and stripped Antony of his powers. Livius notes that Octavian's annexation of Dalmatia gave him a land route to the Balkans.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "60"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Antony intended to cross to Italy, but Octavian moved first, landing in Epirus and establishing himself at the Gulf of Ambracia while Agrippa cut Antony's sea communications from the south. Plutarch says Antony, though stronger on land, insisted on a decision at sea to please Cleopatra.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1,
+            "locator": "62"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Antony's fleet lay inside the Ambracian Gulf, whose narrow mouth is flanked by the promontory of Actium to the south. Antony camped on Actium and bridged to the northern promontory; Octavian's camp there later became Nicopolis. The battle was fought off the gulf's mouth in the afternoon, when northerly winds favoured a breakout to the south.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Antony had large, heavy warships carrying soldiers and archers; Plutarch says his crews were short and poorly trained, while Octavian's lighter ships were well manned. Agrippa, whom Octavian regarded as the better commander, led the fleet. The ancient fleet and army sizes are paper strengths and are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "62, 64"
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Octavian and Agrippa strengthened their wings so as not to be outflanked; Antony aimed his main attack through his own centre. Before the battle Antony burned most of the Egyptian ships, keeping sixty, and had sails carried aboard.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "64–65"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Agrippa's seizure of bases in the western Peloponnese and at Patras cut Antony's supply lines, and hunger wore down his army; allies such as Domitius, Amyntas and Deiotarus deserted. On 2 September 31 BCE the fleets engaged off the gulf. Antony's centre broke through Agrippa's centre, Cleopatra's sixty ships passed through the gap and sailed south, and Antony followed with his own squadron.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1,
+            "locator": "63–66"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Antony chose to break out by sea rather than retreat overland, as Canidius advised. Octavian refused battle while the blockade did its work.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "63"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The departure of Cleopatra and Antony left the remaining fleet without its commander. Plutarch says it fought on until late afternoon before giving up; Livius, following Dio, describes lighter Italian ships setting the large galleys on fire.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "68"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Antony's army waited seven days and then, deserted by Canidius, went over to Octavian, who offered favourable terms. Antony and Cleopatra reached Egypt.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "68"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "In 30 BCE Octavian pursued them to Egypt, and both killed themselves as he besieged Alexandria. Octavian, as Augustus, ruled alone for over forty years. He founded Nicopolis on the site of his camp and commemorated the victory as a war against a foreign queen.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "The battle was largely decided by the blockade that preceded it: supply, morale and the loyalty of allies had collapsed before the fleets met. Livius argues that the breakout was a tactical success that brought strategic ruin, because the army was left behind.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Whether the escape was a planned breakout or a flight is debated: Livius treats it as a breakout that succeeded, while Plutarch presents Cleopatra's flight and Antony's pursuit of her as desertion of his men. Augustan propaganda, visible in Virgil and in monuments such as the Palestrina relief, cast the civil war as a foreign war and shaped later accounts. Plutarch's fleet and army figures are not repeated.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "66–67"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Plutarch's Life of Antony and Cassius Dio, through Livius's summary of 50.32–35, are the main narratives; Dio was not read directly. Livius treats Virgil's Aeneid 8 and the commemorative monuments as evidence of propaganda.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "56–69"
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Blockade",
+        "time": "Spring–summer 31 BCE",
+        "description": "Agrippa cuts Antony's supply lines; hunger and desertion weaken his army at Actium."
+      },
+      {
+        "title": "Preparing the breakout",
+        "time": "Before the battle",
+        "description": "Antony burns surplus ships and prepares to force a passage by sea."
+      },
+      {
+        "title": "Through the centre",
+        "time": "2 September 31 BCE",
+        "description": "Antony's centre breaks through; Cleopatra's squadron and then Antony sail south."
+      },
+      {
+        "title": "Surrender",
+        "time": "September 31 BCE",
+        "description": "The remaining fleet is destroyed or surrenders; the army goes over to Octavian after seven days."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Octavian and Agrippa",
+        "objective": "Destroy Antony's power without fighting on unequal terms.",
+        "known": "Antony's army was going hungry and his allies were wavering.",
+        "uncertainty": "Whether and when Antony would try to break out by sea or by land.",
+        "constraints": "Antony was the stronger on land.",
+        "forces": "Lighter, well-manned warships under Agrippa, and the legions in the camp on the northern promontory.",
+        "terrain": "The narrow mouth of the Ambracian Gulf, which Antony had to pass.",
+        "logistics": "Bases in the Peloponnese and at Patras that cut Antony's sea routes.",
+        "decision": "They refused battle while the blockade worked, then strengthened their wings against the breakout.",
+        "outcome": "Antony and Cleopatra escaped, but their fleet was destroyed and their army surrendered."
+      },
+      {
+        "name": "Mark Antony",
+        "objective": "Break out of the gulf and preserve his cause.",
+        "known": "His army was being worn down by hunger and allies were deserting.",
+        "uncertainty": "Whether his army could follow by land once the fleet had escaped.",
+        "constraints": "Short-handed and poorly trained crews, in Plutarch's account, and Cleopatra's insistence on a sea battle.",
+        "forces": "Large warships carrying soldiers and archers, Cleopatra's squadron with the treasury, and a large army under Canidius.",
+        "terrain": "A gulf whose mouth his fleet had to force.",
+        "logistics": "Supply lines cut by Agrippa; Cleopatra's ships carried the treasury.",
+        "decision": "He burned surplus ships, attacked through the centre and followed Cleopatra when she broke away.",
+        "outcome": "He escaped to Egypt but lost his fleet, his army and, in 30 BCE, his life."
+      }
+    ]
+  },
+  {
+    "slug": "teutoburg",
+    "sources": [
+      {
+        "title": "Teutoburg Forest (9 CE)",
+        "url": "https://www.livius.org/articles/battle/teutoburg-forest-9-ce/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Teutoburg Forest (5)",
+        "url": "https://www.livius.org/articles/battle/teutoburg-forest-9-ce/teutoburg-forest-5/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Teutoburg Forest (6)",
+        "url": "https://www.livius.org/articles/battle/teutoburg-forest-9-ce/teutoburg-forest-6/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Teutoburg Forest (7)",
+        "url": "https://www.livius.org/articles/battle/teutoburg-forest-9-ce/teutoburg-forest-7/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Kalkriese",
+        "url": "https://www.livius.org/articles/battle/teutoburg-forest-9-ce/kalkriese/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Paterculus on the Battle in the Teutoburg Forest (2.117–120, trans. F. W. Shipley)",
+        "url": "https://www.livius.org/sources/content/paterculus-on-the-battle-in-the-teutoburg-forest/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Cassius Dio, Roman History 56.18–24 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/56%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Rome had campaigned east of the Rhine since Drusus reached the Elbe in 9 BCE, and Tiberius renewed the conquest in 4–5 CE. Varus, a senator and friend of Augustus, governed the land between the Lower Rhine and the Lower Elbe with the aim of turning it into a regular province.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Dio says Varus pressed harder to change local customs and demanded tribute as from subjects, which the leaders resented; Velleius portrays a governor who thought Germans could be ruled by law rather than the sword. Arminius, a Cheruscan noble with Roman equestrian rank, was among his trusted companions.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 6,
+            "locator": "56.18–19"
+          },
+          {
+            "source": 5,
+            "locator": "2.117–118"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Arminius aimed to draw the army away from its bases into ground where it could not fight in formation. Varus meant to deal with a reported rising; Livius reconstructs his route north-west toward the Ems and the army's later turn toward the Rhine.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 6,
+            "locator": "56.19"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Part of the fighting took place at Kalkriese, north of modern Osnabrück, where a strip of solid ground about 220 metres wide runs between the Kalkrieser Berg and a great bog, and the slope was fortified. Livius argues that the Latin saltus means narrows rather than forest, and treats Dio's steep ravines and dense trees as a literary convention.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 4
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 6,
+            "locator": "56.20"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Varus led three legions, the Seventeenth, Eighteenth and Nineteenth, with cavalry and auxiliary cohorts, encumbered by wagons, animals, women, children and servants. Arminius's coalition fought with javelins, spears and shields, and grew as wavering groups joined it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 5,
+            "locator": "2.117"
+          },
+          {
+            "source": 6,
+            "locator": "56.20–21"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Velleius and Dio say Varus was warned of the plot, by Segestes according to Velleius, and refused to believe it. The conspirators asked leave to gather allied forces, then killed the Roman detachments in their communities and attacked the column on the march.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 5,
+            "locator": "2.118"
+          },
+          {
+            "source": 6,
+            "locator": "56.19"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Dio describes several days of fighting. The Romans camped and burned or abandoned their wagons, reached open country with losses, and were attacked again in woods where cavalry and infantry collided; rain and wind soaked their shields and bows. On the fourth day, in Dio's account, Varus and his senior officers killed themselves and resistance collapsed. Livius reconstructs the route from near Minden past Kalkriese toward the Ems.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 6,
+            "locator": "56.20–22"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "As the sources tell it, Varus's decisive errors were to ignore the warning and to march a column with its baggage into hostile country on the strength of Arminius's report. Velleius says the cavalry commander Vala Numonius abandoned the infantry and the camp prefect Ceionius proposed surrender.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 5,
+            "locator": "2.118–119"
+          },
+          {
+            "source": 6,
+            "locator": "56.19"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "At Kalkriese the column, unable to form ranks among its wagons and noncombatants, was attacked from the fortified slope and, on Livius's reading of the finds, cut in two.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 6,
+            "locator": "56.20"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The three legions were destroyed. Captured officers were sacrificed; other captives were enslaved, and some were later ransomed. Varus's body was mutilated and his head sent to Maroboduus and then to Augustus. One fortress, probably Haltern, held out.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 5,
+            "locator": "2.119–120"
+          },
+          {
+            "source": 6,
+            "locator": "56.22"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Dio says Augustus feared an invasion of Italy and levied troops. Tiberius secured the Rhine. Germanicus campaigned beyond it from 14 to 16 CE, buried the dead on the battlefield and recovered an eagle, but Tiberius chose not to occupy Germania east of the Rhine.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 6,
+            "locator": "56.23–24"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Reliance on a trusted informant, combined with a long baggage-laden column in difficult country, turned a political misjudgement into a military disaster. The defeat showed the limits of Roman power rather than ending it.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 5,
+            "locator": "2.118"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Whether Kalkriese is the main battlefield or one episode is debated; Livius treats it as the scene of the first major attack. Florus has Varus summon Arminius, where Velleius and Dio have him reject the warning. Velleius knew some of those involved and writes with a pro-Roman, pro-Tiberian slant. Livius argues that Rome's decision not to reconquer Germania was a choice that predated the defeat, and that nineteenth-century nationalism inflated the battle's meaning.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The literary sources are Velleius Paterculus, an officer of the period, Cassius Dio 56.18–24, and the passages of Tacitus and Florus discussed by Livius. Livius's multi-part reconstruction combines them with the archaeology at Kalkriese.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6,
+            "locator": "56.18–24"
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "The warning ignored",
+        "time": "September 9 CE",
+        "description": "Varus dismisses the warning and marches to deal with a reported rising."
+      },
+      {
+        "title": "Ambush on the march",
+        "time": "Days 1–2",
+        "description": "The conspirators leave the column; at Kalkriese it is attacked from a fortified slope and split."
+      },
+      {
+        "title": "Open country and woods",
+        "time": "Day 3",
+        "description": "The Romans burn their wagons, reach open ground and are caught again in woodland."
+      },
+      {
+        "title": "Storm and collapse",
+        "time": "Day 4",
+        "description": "In rain and wind Varus and his officers kill themselves and the army disintegrates."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Publius Quinctilius Varus",
+        "objective": "Turn Germania into a regular province and suppress a reported rising.",
+        "known": "Arminius, a trusted officer, reported unrest among distant peoples.",
+        "uncertainty": "Velleius and Dio say he was warned of a plot but did not believe it.",
+        "constraints": "His troops had been dispersed among communities, and the march carried a heavy baggage train.",
+        "forces": "Three legions, cavalry and auxiliaries, with wagons and noncombatants.",
+        "terrain": "Marsh, forest and narrow strips of solid ground.",
+        "logistics": "A long column building roads and bridges as it went.",
+        "decision": "He ignored the warning and marched the army, with its baggage, toward the reported rising.",
+        "outcome": "His army was destroyed and he killed himself."
+      },
+      {
+        "name": "Arminius",
+        "objective": "Destroy the Roman army and end Roman rule east of the Rhine.",
+        "known": "Varus's plans and routes, as one of his trusted companions.",
+        "uncertainty": "Whether the Romans would believe the reported rising and leave their known routes.",
+        "constraints": "His warriors were lightly armed and could not beat legions in formation or storm a fortified camp.",
+        "forces": "A coalition led by the Cherusci that grew as other groups joined after early successes.",
+        "terrain": "Narrows between hill and bog, which his men fortified.",
+        "logistics": "Local knowledge and support among communities hostile to Roman tribute.",
+        "decision": "He reported a distant rising, left the column with his allies and attacked the army on the march over several days.",
+        "outcome": "Three legions were destroyed and Germania remained outside the empire."
+      }
+    ]
+  },
+  {
+    "slug": "watling-street",
+    "sources": [
+      {
+        "title": "Tacitus, Annals 14.29–39 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/14B%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Boudica's Defeat",
+        "url": "https://warwick.ac.uk/fac/arts/classics/warwickclassicsnetwork/romancoventry/resources/boudica/defeat",
+        "publisher": "Warwick Classics Network, University of Warwick"
+      },
+      {
+        "title": "Boudica (Boudicca)",
+        "url": "https://penelope.uchicago.edu/encyclopaedia_romana/britannia/boudica/boudicanrevolt.html",
+        "publisher": "Encyclopaedia Romana, University of Chicago"
+      },
+      {
+        "title": "Legio XIIII Gemina",
+        "url": "https://www.livius.org/articles/legion/legio-xiiii-gemina/",
+        "publisher": "Livius.org (Jona Lendering)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Claudius invaded Britain in 43 CE. By about 60 the governor Suetonius Paulinus was campaigning in the west and attacked the island of Mona (Anglesey), where Britons and Druids resisted.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 0,
+            "locator": "14.29–30"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "When the Icenian king Prasutagus died, leaving Nero co-heir with his daughters, his kingdom was plundered, his widow Boudica was flogged and his daughters raped, according to Tacitus. The Iceni rose, and the Trinovantes joined them, angry at the veterans of the colony at Camulodunum who had seized their land.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "14.31"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The rebels sought revenge and the destruction of Roman power in the province. Paulinus needed to concentrate a force and fight on ground of his own choosing before the revolt spread further.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "14.33–34"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The battlefield is unknown. Proposals include a point on Watling Street near High Cross, Mancetter (Manduessedum), sites nearer Coventry, Arbury Banks and Church Stowe. Tacitus describes a narrow defile with woods behind the Roman line and an open plain in front.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 0,
+            "locator": "14.34"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Paulinus had the Fourteenth Legion, a detachment of the Twentieth and auxiliaries; the camp prefect of the Second, Poenius Postumus, did not join him. The British host was far larger, armed with long swords, spears and shields and mostly without armour. Tacitus's and Dio's figures are not credible and are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "14.34, 14.37"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Paulinus placed the legionaries in close order in the centre, light troops on the flanks and cavalry on the wings. The Britons, confident of victory, brought their families in wagons to watch from the edge of the plain.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "14.34"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The rebels sacked Camulodunum, whose temple held out for two days, and routed the Ninth Legion under Petilius Cerialis. Paulinus marched to Londinium, judged it indefensible and left it with its people; Londinium and Verulamium were destroyed and their inhabitants killed. In the battle the legionaries held the defile until the Britons had spent their missiles, then advanced in a wedge with the auxiliaries and cavalry.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "14.32–33, 14.37"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Paulinus's decisive choices were to abandon Londinium, sacrificing its people to preserve his army, and to accept battle only on ground that narrowed the British front and protected his flanks and rear.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "14.33–34"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Once the British attack was spent, the Roman wedge drove into the crowded host. In the narrow ground the Britons could not use their long swords, and their own wagons blocked their retreat.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "14.37"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Tacitus says no quarter was given, even to women. Boudica died by poison in Tacitus's account and of illness in Dio's. Poenius Postumus killed himself.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "14.37"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Reinforcements came from Germany and the army harried hostile tribes; famine followed because the Britons had not sown their crops. The procurator Classicianus urged a milder policy, and Paulinus was replaced by Petronius Turpilianus, who avoided conflict. The Fourteenth Legion received the title Martia Victrix.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "14.38–39"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Terrain that narrows the frontage can let a disciplined smaller force defeat a much larger one, and a crowd without a line of retreat is vulnerable once checked. The revolt's origins show how misgovernment can create a military crisis.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "14.31, 14.34–37"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The site and the year are uncertain: Tacitus places the revolt in 61 CE, while the Encyclopaedia Romana judges 60 more likely. The ancient figures for the dead in the towns and in the battle are not credible, as the Warwick page notes. Tacitus and Dio disagree on Boudica's death, and Tacitus writes from a Roman perspective that emphasizes Roman superiority.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Tacitus's Annals 14.29–39 is the main narrative. The Warwick Classics Network page, adapted from Caitlin Gillespie's study of Boudica, reviews the location debate and the reliability of the figures; the Encyclopaedia Romana summarizes Dio's alternative account, which was not read directly.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "14.29–39"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Mona and the revolt",
+        "time": "60 or 61 CE",
+        "description": "Paulinus attacks Mona as the Iceni and Trinovantes rise behind him."
+      },
+      {
+        "title": "The towns destroyed",
+        "time": "During the revolt",
+        "description": "Camulodunum falls, the Ninth is routed, and Londinium and Verulamium are abandoned and destroyed."
+      },
+      {
+        "title": "Choosing the ground",
+        "time": "Before the battle",
+        "description": "Paulinus concentrates his army in a defile with woods behind and open ground in front."
+      },
+      {
+        "title": "Wedge and rout",
+        "time": "Day of battle",
+        "description": "The legions hold, then advance in a wedge; the wagons trap the fleeing Britons."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Gaius Suetonius Paulinus",
+        "objective": "Destroy the rebel army before the revolt spread further.",
+        "known": "The towns had fallen and the Ninth Legion had been defeated.",
+        "uncertainty": "Whether the Second Legion would join him; it did not.",
+        "constraints": "A small force far from reinforcement, facing a much larger host.",
+        "forces": "The Fourteenth Legion, a detachment of the Twentieth and auxiliaries.",
+        "terrain": "A defile with woods behind and an open plain in front.",
+        "logistics": "Cut off from the abandoned towns; reinforcements from Germany came only after the battle.",
+        "decision": "He abandoned Londinium and fought only on ground that narrowed the British front.",
+        "outcome": "The rebel army was destroyed, but his harsh policy afterwards led to his replacement."
+      },
+      {
+        "name": "Boudica",
+        "objective": "Avenge the outrages against her family and people and drive out Roman rule.",
+        "known": "The colony, Londinium and Verulamium had fallen and a legion had been beaten.",
+        "uncertainty": "Whether a host of many peoples could beat a disciplined Roman army in open battle.",
+        "constraints": "Her forces were numerous but largely unarmoured and loosely organized, with families present.",
+        "forces": "Warriors of the Iceni, Trinovantes and their allies, with chariots, spears and long swords.",
+        "terrain": "An open plain leading into the defile the Romans held.",
+        "logistics": "Wagons carrying families followed the army; famine later followed the neglected harvest.",
+        "decision": "She attacked the Roman position head-on.",
+        "outcome": "Her army was destroyed and she died soon after, by poison in Tacitus's account."
+      }
+    ]
   }
 ]

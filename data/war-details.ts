@@ -144,7 +144,10 @@ export const warDetails: Record<string, WarDetails> = {
       ["44 BCE", "Caesar assassinated"],
       ["42 BCE", "Battles of Philippi"],
       ["31 BCE", "Battle of Actium"],
-      ["30 BCE", "Deaths of Antony and Cleopatra; Egypt annexed"],
+      [
+        "30 BCE",
+        "Octavian takes Alexandria; Antony and Cleopatra kill themselves",
+      ],
     ),
   },
   "roman-germanic": {
@@ -157,7 +160,7 @@ export const warDetails: Record<string, WarDetails> = {
       "The Rhine frontier and the lands between the Rhine, Weser and Elbe.",
     developments: t(
       ["12–9 BCE", "Drusus campaigns east of the Rhine, reaching the Elbe"],
-      ["4–6 CE", "Tiberius campaigns in Germania"],
+      ["4–5 CE", "Tiberius renews the conquest and advances to the Elbe"],
       ["9 CE", "Varus's three legions destroyed in the Teutoburg Forest"],
       ["14–16 CE", "Germanicus campaigns east of the Rhine"],
       ["16 CE", "Battle of Idistaviso; Germanicus recalled soon after"],
@@ -174,13 +177,13 @@ export const warDetails: Record<string, WarDetails> = {
       "Lowland Britain, Wales and northern Britain as far as the Scottish Highlands.",
     developments: t(
       ["43", "Claudian invasion"],
-      ["51", "Caratacus defeated and later handed over to Rome"],
+      ["Late 40s–50s", "Campaigns in Wales and against the Brigantes"],
       [
         "60 or 61",
         "Boudica's revolt destroys Camulodunum, Londinium and Verulamium before Roman victory",
       ],
-      ["77–84", "Agricola campaigns in the north"],
-      ["83 or 84", "Battle of Mons Graupius"],
+      ["78", "Agricola brings northern England under Roman control"],
+      ["78–84", "Agricola campaigns in the Scottish Highlands"],
     ),
   },
   "jewish-roman": {

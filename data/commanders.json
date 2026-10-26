@@ -11,7 +11,17 @@
     "strength": "Adapted inherited military institutions to different opponents and environments.",
     "limitation": "Expansion strained manpower and political cohesion; his troops refused to advance farther at the Hyphasis.",
     "legacy": "His conquests reshaped the Hellenistic world through cultural exchange, coercion, enslavement and destructive sieges.",
-    "battleSlugs": ["granicus", "issus", "tyre", "gaza-332-bce", "gaugamela"],
+    "battleSlugs": [
+      "granicus",
+      "issus",
+      "tyre",
+      "gaza-332-bce",
+      "gaugamela",
+      "persian-gate",
+      "jaxartes",
+      "sogdian-rock",
+      "hydaspes"
+    ],
     "source": {
       "title": "Alexander the Great — Pierre Briant",
       "url": "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/",

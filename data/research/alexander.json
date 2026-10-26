@@ -1395,5 +1395,1082 @@
         "outcome": "When Alexander's charge reached his centre he fled, or in the Babylonian account was abandoned by his troops, and escaped east."
       }
     ]
+  },
+  {
+    "slug": "persian-gate",
+    "sources": [
+      {
+        "title": "Persian Gate (330 BCE)",
+        "url": "https://www.livius.org/articles/battle/persian-gate-330-bce/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Ariobarzanes (2)",
+        "url": "https://www.livius.org/articles/person/ariobarzanes-2/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Arrian, Anabasis of Alexander 3.18 (trans. E. J. Chinnock)",
+        "url": "https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_III/Chapter_XVIII",
+        "publisher": "Wikisource"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Gaugamela Alexander took Babylonia and Elam and wanted to reach Persis, the Persian homeland, before winter. The Royal Road linked Susa with Persepolis and Pasargadae. The army divided: Parmenion took the baggage and heavier troops along the road, while Alexander led the Macedonian infantry, the Companions and the light troops through the Zagros.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "3.18"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Persepolis held a royal treasury. Ariobarzanes, satrap of Persis, an office Livius thinks Darius created during the war, set out to block the mountain route. On the way the Uxians had been massacred, and Livius says no one else then dared to stand in Alexander's way.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Ariobarzanes needed to hold the pass, or at least delay Alexander, to protect Persepolis. Alexander needed speed: Arrian says he reached Persepolis before its guards could plunder the treasury.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "3.18"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Livius places the Persian Gate in the Tang-e Meyran, a valley of the Zagros north-east of Yasuj that is wide at first and then narrows into a gorge, with Ariobarzanes's position near the village of Cheshmeh chenar. The passes were snowbound in winter. Rockfall and road building make the line of any wall hard to identify today.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Alexander had the Macedonian infantry, the Companion cavalry, light cavalry, Agrianians and archers. Ariobarzanes held the slopes and the pass; Livius cites Curtius for catapults among his weapons. Arrian's figures for the Persian force are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "3.18"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "According to Arrian, Ariobarzanes built a wall across the pass and camped beside it. Livius describes troops on the northern slope ready to roll boulders, and archers and catapults on the southern slope.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "3.18"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Livius dates the battle to about 20 January 330 BCE. The Macedonians entered the valley, apparently without effective reconnaissance, and were caught where it narrowed; the front had to withdraw, leaving its dead. Alexander then marched by night along another route to the Persian rear, destroyed the outposts before daylight and attacked the camp at dawn, while Craterus attacked the wall on a trumpet signal.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "3.18"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Alexander divided his force. Craterus stayed at the camp with his own and Meleager's battalions, some archers and cavalry, under orders to attack the wall when trumpets sounded behind it. Alexander took the hypaspists, Perdiccas's battalion, the lightest archers, the Agrianians and part of the Companions on the mountain path. Arrian says Amyntas, Philotas and Coenus led the rest toward the plain to bridge the river on the road into Persis.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "3.18"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Caught between Alexander's force and Craterus's attack, the Persians broke. Many were cut down inside the fortifications, which Arrian says Ptolemy had been posted to hold, and others fell over the precipices. Ariobarzanes escaped into the mountains with a few horsemen.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "3.18"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Alexander crossed the bridged river and reached Persepolis before its treasury could be plundered, also taking the treasury at Pasargadae and appointing Phrasaortes satrap. Livius says the commander at Persepolis refused Ariobarzanes entry and that he was probably killed.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "3.18"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Alexander burned the palace at Persepolis, about four months after his arrival according to Livius. Arrian reports that Parmenion argued against it and that Alexander called it revenge for the Persian destruction of Athens; Arrian judges the act unwise.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "3.18"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Speed without reconnaissance led the army into an ambush. Recovery depended on local knowledge, a night march and a fixing force timed to attack at the same moment. A frontal attack on a prepared defile was costly; turning it was decisive.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "3.18"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The site is disputed: Livius places it in the Tang-e Meyran, while Abuzar Hemati proposes a site between Kopan and Yasuj and a battle fought by local nomads, which Livius rejects. Livius doubts the story of a guide because it resembles Herodotus's account of Ephialtes at Thermopylae, and doubts that a wall was needed. Arrian sends Philotas to bridge the river, while Livius has Philotas attack a Persian-held rock. Arrian says only that Ariobarzanes escaped; his death is not securely documented.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "3.18"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Arrian gives the clearest account of the divided forces and the signals. Livius's article, which updates an earlier study by Henry Speck, sets the narrative against the terrain and the Persepolis Fortification Tablets and draws on Curtius for the catapults.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "3.18"
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Into the Zagros",
+        "time": "Winter 331/330 BCE",
+        "description": "The army divides; Alexander takes the mountain route toward Persis while Parmenion follows the Royal Road."
+      },
+      {
+        "title": "Ambush in the defile",
+        "time": "c. 20 January 330 BCE",
+        "description": "The Macedonians are caught where the valley narrows and withdraw, leaving their dead."
+      },
+      {
+        "title": "Night march",
+        "time": "Following night",
+        "description": "Alexander leads a picked force by another route; Craterus waits at the camp for the signal."
+      },
+      {
+        "title": "Attack from two sides",
+        "time": "Dawn",
+        "description": "Outposts and camp fall, Craterus attacks the wall and Ariobarzanes escapes into the mountains."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Alexander III of Macedon",
+        "objective": "Reach Persepolis and its treasury before they could be emptied or defended.",
+        "known": "The pass was held; his first attack had failed against troops on the heights.",
+        "uncertainty": "Whether the path described by prisoners would bring him to the Persian rear in time.",
+        "constraints": "Snow and ice, a narrow defile, and an army divided, with Parmenion's half on the road.",
+        "forces": "Macedonian infantry, the hypaspists, Companion cavalry, Agrianians and archers.",
+        "terrain": "A valley narrowing into a gorge, with slopes held by the defenders.",
+        "logistics": "A light force on a forced march, with the baggage sent along the Royal Road.",
+        "decision": "He left Craterus to fix the wall and led a night march round to attack from behind on a trumpet signal.",
+        "outcome": "The defenders broke and he reached Persepolis before its treasury was plundered."
+      },
+      {
+        "name": "Ariobarzanes, satrap of Persis",
+        "objective": "Hold the Persian Gate to protect Persepolis.",
+        "known": "In Livius's reconstruction he knew the terrain and anticipated the Macedonian movements.",
+        "uncertainty": "Whether his position could be turned by another route.",
+        "constraints": "He faced Alexander's striking force while Parmenion's column advanced along the Royal Road.",
+        "forces": "Troops on the slopes with stones, archers and, according to Curtius as cited by Livius, catapults.",
+        "terrain": "A narrow gorge where defenders above could strike attackers below.",
+        "logistics": "A camp beside the wall in a snowbound pass.",
+        "decision": "He blocked the pass and let the Macedonians advance into the narrow ground before attacking from the heights.",
+        "outcome": "His position was turned; he escaped, but Livius says he was refused entry to Persepolis and was probably killed."
+      }
+    ]
+  },
+  {
+    "slug": "jaxartes",
+    "sources": [
+      {
+        "title": "Jaxartes (329 BCE)",
+        "url": "https://www.livius.org/articles/battle/jaxartes-329-bce/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Alexander 2.12",
+        "url": "https://www.livius.org/articles/person/alexander-the-great/alexander-2.12/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Arrian, Anabasis of Alexander 4.3–5 (trans. E. J. Chinnock)",
+        "url": "https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_IV/Chapter_III",
+        "publisher": "Wikisource"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Alexander treated the Jaxartes (Syr Darya) as the north-eastern frontier of his empire and in July 329 BCE founded Alexandria Eschate, the furthest Alexandria, at modern Khujand, as a garrison against the nomads north of the river. The foundation helped provoke a Sogdian revolt, and in the fighting Alexander was struck on the head and neck by a stone.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "4.3"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "As nomad horsemen, whom Arrian calls Scythians and Livius Sacae, gathered on the far bank, the Sogdian leader Spitamenes besieged the garrison at Maracanda to the south. Alexander sent a relief force under Pharnuches and turned on the nomads himself.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "4.3"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Alexander wanted a decisive local defeat to secure the river line. Arrian says the nomads shot across the river and taunted him, and that he risked the crossing despite unfavourable sacrifices rather than be mocked as Darius I had been by the Scythians. Livius suggests the nomads expected to catch the Macedonians as they landed.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "4.4"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Livius describes the river as wider than a bowshot, so that boats would come under arrow fire partway across; Arrian calls it narrow and names it the Tanais. The fighting took place on open ground on the far bank, near the new city.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "4.4"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Alexander had Companion and allied cavalry, horse-lancers, archers, slingers, Agrianians and other light troops, the phalanx and bolt-shooting engines. The nomads were mounted archers who relied on mobility. Livius notes that the steppe suited neither the phalanx nor the Companion cavalry against horse archers.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "4.4"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Arrian says the army was drawn up at the river with hide floats prepared. On a signal the engines shot at horsemen riding along the far bank; one was struck through shield and breastplate and fell, and the rest drew back from the bank.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "4.4"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Livius dates the battle to August 329 BCE. Archers and slingers crossed first and screened the landing until the cavalry was across. A first detachment of allied cavalry and horse-lancers was surrounded and harried by the horse archers. Alexander then attacked with light infantry mixed among his cavalry, and charged with Companion regiments, the horse-lancers and the rest of his horse.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "4.4"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Alexander chose to fight rather than simply hold the river line. Livius reads the forward detachment as bait that the nomads misjudged; Arrian describes it only as too weak to hold them. Alexander then combined light infantry with cavalry so that the horsemen could not wheel away.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "4.4"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Once light infantry and cavalry attacked together, the nomads could no longer wheel and escape, and their flight began. Their commander Satraces was among the dead.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "4.4"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The pursuit was cut short: Alexander drank bad water, fell seriously ill and was carried back to camp. Envoys of the Scythian king then came to say that the attack had been the work of raiders, not of their state, and Alexander sent a courteous reply. Livius adds that he released the prisoners without ransom.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "4.4–5"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The victory did not end the revolt. Spitamenes destroyed the relief force sent toward Maracanda at the river Polytimetus. The war in Sogdiana continued into 327 BCE, with forts stormed, their men killed and women sold, and parts of the country ravaged. Livius says the northern frontier itself was not seriously threatened again.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "4.5"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Against a mobile opponent, missile engines, light infantry and cavalry had to work together to force close combat. A tactical victory over one enemy could not settle a revolt behind the lines.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The exact crossing site near Khujand is not fixed, and Arrian calls the river the Tanais. Livius's account of the nomads' misjudgement is a modern reconstruction, as is his view that this was tactically Alexander's most brilliant victory. Arrian's casualty figures, and his belief that the whole enemy force would have been destroyed but for Alexander's illness, are not repeated as fact.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "4.4"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Arrian supplies the narrative of the crossing and the fighting. Livius's article reconstructs the tactics, and his survey of the Sogdian campaigns places the battle in the wider revolt, warning that Arrian's account of these years is fragmented and hard to follow.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "4.3–5"
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Frontier city",
+        "time": "July 329 BCE",
+        "description": "Alexandria Eschate is founded; Sogdiana rises and nomad horsemen gather across the river."
+      },
+      {
+        "title": "Engines and crossing",
+        "time": "August 329 BCE",
+        "description": "Bolt-shooters drive the riders from the bank; archers and slingers screen the landing."
+      },
+      {
+        "title": "Bait and envelopment",
+        "time": "Day of battle",
+        "description": "A forward detachment is surrounded; light infantry and cavalry then attack together and pin the horsemen."
+      },
+      {
+        "title": "Pursuit and terms",
+        "time": "After the battle",
+        "description": "Alexander's illness cuts the pursuit short; the Scythian king disowns the attack."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Alexander III of Macedon",
+        "objective": "Secure the river frontier with a decisive defeat of the nomads.",
+        "known": "Horse archers were massed on the far bank, taunting the Macedonians.",
+        "uncertainty": "Whether his landing could survive arrow fire, and whether mounted archers could be made to stand.",
+        "constraints": "He was recovering from a head wound, the sacrifices were unfavourable, and the Sogdian revolt demanded troops in the south.",
+        "forces": "Cavalry, horse-lancers, archers, slingers, Agrianians, the phalanx and bolt-shooting engines.",
+        "terrain": "A river crossing followed by open ground suited to horse archers.",
+        "logistics": "Hide floats for the crossing and the new city as a base.",
+        "decision": "He crossed under the cover of his engines, let a forward detachment draw the horsemen in and attacked with light infantry and cavalry together.",
+        "outcome": "The nomads were routed, but illness cut short the pursuit."
+      },
+      {
+        "name": "The Saka (Scythian) horsemen",
+        "objective": "In Arrian's and Livius's accounts, exploit the revolt and defeat the Macedonians as they crossed.",
+        "known": "The Macedonians were preparing to cross the river.",
+        "uncertainty": "Whether Alexander would risk a crossing against them.",
+        "constraints": "Livius argues that their way of war made them unwilling to sacrifice men to hold ground.",
+        "forces": "Mounted archers.",
+        "terrain": "Open ground on the far bank, suited to wheeling and shooting.",
+        "logistics": "Horses and mobility rather than fixed bases.",
+        "decision": "They harried the river from the bank, pulled back under engine fire and closed on the forward detachment.",
+        "outcome": "Caught between infantry and cavalry, they broke; their king later disowned the attack."
+      }
+    ]
+  },
+  {
+    "slug": "sogdian-rock",
+    "sources": [
+      {
+        "title": "Arrian, Anabasis of Alexander 4.18–19 (trans. E. J. Chinnock)",
+        "url": "https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_IV/Chapter_XVIII",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Alexander 2.12",
+        "url": "https://www.livius.org/articles/person/alexander-the-great/alexander-2.12/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Roxane",
+        "url": "https://www.livius.org/articles/person/roxane/",
+        "publisher": "Livius.org (Jona Lendering)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "By the winter of 328/327 BCE Spitamenes was dead and Alexander's columns had stormed or garrisoned much of Sogdiana. Alexander wintered at Nautaca. Resistance continued from mountain strongholds.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0,
+            "locator": "4.18"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Among the refugees on the Sogdian Rock were the wife and daughters of Oxyartes, who had also revolted. Livius describes the campaign as one of forts stormed, populations resettled and countryside ravaged.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "4.18"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Alexander wanted to break the remaining resistance and to secure the families of its leaders, which gave him leverage over them. The defenders trusted that the fortress could outlast a siege.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "4.18"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Arrian describes a rock steep on every side. Heavy snow made the approach harder for the Macedonians but gave the defenders water, and they had stored provisions for a long siege. Its exact location is unknown.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "4.18"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Many Sogdians had taken refuge on the rock with their families. Alexander had his army and, crucially, soldiers experienced in climbing during sieges.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "4.18–19"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Alexander offered the defenders safe passage home if they surrendered. Arrian says they laughed and told him to find soldiers with wings. He then offered graded rewards to the first men to reach the summit.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "4.18"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Arrian places the advance at the first sign of spring; the notes to the translation and Livius put it in 327 BCE. About three hundred volunteers climbed by night, driving iron tent pegs into bare ground and firm snow and using flax ropes. Arrian says about thirty fell to their deaths. At dawn the survivors signalled from the summit with linen.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "4.18–19"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "The decisive choices were Alexander's: to send climbers up the steepest and least guarded face rather than settle into a siege, and to send a herald announcing that the winged men had arrived and pointing to the soldiers on the crest.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "4.19"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Seeing soldiers above them and overestimating their number, the defenders surrendered.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "4.19"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The captives included the wives and children of many leading men, among them Oxyartes's family. Arrian says Alexander married Oxyartes's daughter Roxane rather than treat her as a captive. Livius places the wedding at Bactra in the summer of 327 BCE.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "4.19"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Livius presents the marriage as a political necessity for pacifying Bactria and Sogdia. It passed over Barsine, mother of Alexander's son Heracles, and slighted her father Artabazus. By the end of the campaign, Livius says, the Bactrian and Sogdian aristocracy had been defeated and the population reduced to serfdom under strong garrisons.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A small force in an unexpected place can break a defender's will before it breaks his walls. Here coercion was followed by a political settlement through marriage with the local elite whose resistance the campaign had faced.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "4.19"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The rock's name, location and date are uncertain, and Livius warns that Arrian's narrative of these years is fragmented and contains doublets. Arrian calls Oxyartes a Bactrian; Livius calls him a Sogdian nobleman. The notes to the translation say Curtius gives different reward figures from Arrian's. Arrian's romantic framing of the marriage sits beside Livius's reading of it as policy.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "4.18–19"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Arrian is the principal narrative. Livius's survey of the Sogdian campaign and his article on Roxane supply the political context and the date and place of the marriage, citing Lucian for its ceremony.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "4.18–19"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Winter at Nautaca",
+        "time": "Winter 328/327 BCE",
+        "description": "The army rests; Alexander prepares to move against the remaining strongholds."
+      },
+      {
+        "title": "Taunt and reward",
+        "time": "Early spring 327 BCE",
+        "description": "The defenders reject terms; Alexander offers rewards to volunteer climbers."
+      },
+      {
+        "title": "Night climb",
+        "time": "Night",
+        "description": "About three hundred climbers scale the steepest face with pegs and ropes; some fall to their deaths."
+      },
+      {
+        "title": "Surrender",
+        "time": "Dawn",
+        "description": "Climbers signal from the summit; the defenders surrender and Oxyartes's family is captured."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Alexander III of Macedon",
+        "objective": "Take the rock and the families sheltering there without a long siege.",
+        "known": "The rock was steep on all sides, supplied for a long siege and watered by snow.",
+        "uncertainty": "Whether climbers could reach the summit unseen, and whether the defenders would yield when they did.",
+        "constraints": "Snow and cliffs ruled out an ordinary assault, and a blockade could be long.",
+        "forces": "His army, including men experienced in siege climbing.",
+        "terrain": "A snow-covered rock, steep on all sides, with a precipitous face that was less closely guarded.",
+        "logistics": "Iron tent pegs and flax ropes for the climb, and rewards to recruit volunteers.",
+        "decision": "He offered terms, then rewards, sent volunteers up the steepest face by night and announced their arrival by herald.",
+        "outcome": "The garrison surrendered; Oxyartes's family was captured and Alexander married Roxane."
+      },
+      {
+        "name": "The Sogdian defenders",
+        "objective": "Outlast the Macedonians on a fortress they believed impregnable.",
+        "known": "Alexander's army was below the rock, offering terms.",
+        "uncertainty": "Whether any part of the rock could be climbed.",
+        "constraints": "They were sheltering families, including Oxyartes's, as well as fighters.",
+        "forces": "Sogdian fighters and refugees.",
+        "terrain": "A steep rock where the snow gave them water.",
+        "logistics": "Provisions stored for a long siege.",
+        "decision": "They refused terms, taunting Alexander to find soldiers with wings.",
+        "outcome": "Seeing soldiers above them, they surrendered."
+      }
+    ]
+  },
+  {
+    "slug": "hydaspes",
+    "sources": [
+      {
+        "title": "Hydaspes (326 BCE)",
+        "url": "https://www.livius.org/articles/battle/hydaspes/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Porus",
+        "url": "https://www.livius.org/articles/person/porus/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Arrian, Anabasis of Alexander 5.9–19 (trans. E. J. Chinnock)",
+        "url": "https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_V/Chapter_IX",
+        "publisher": "Wikisource"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "In 326 BCE Alexander entered the Punjab. Ambhi of Taxila, whom Arrian calls Taxiles, welcomed him as an ally. Porus, king of the Paurava state between the Hydaspes and the Acesines and Ambhi's enemy, sent no envoys to submit.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "5.18"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Livius calls Porus's refusal a grave error, since Alexander meant to conquer all of India. Porus held the far bank of the Hydaspes, the modern Jhelum, hoping to gain time with the river between him and the invaders.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Porus aimed to stop any crossing at the bank, where his elephants would make horses unwilling to land. Alexander needed a crossing that Porus could not oppose in force; Arrian says he openly gathered grain to suggest he would wait for the river to fall in winter.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "5.9–10"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The river was swollen by monsoon rain and Himalayan meltwater. Livius places the battle near modern Jhelum, where the main road to the Ganges plain crossed the river, and suggests a crossing upstream near the modern Mangla dam. Arrian describes a wooded headland at a bend of the river with a wooded island opposite.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "5.9, 5.11"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Porus had infantry, cavalry, chariots and war elephants. Alexander's striking force combined Companion cavalry, horse archers, the hypaspists, phalanx battalions, archers and Agrianians, while Craterus held the main camp with a large part of the army. Livius calls the battle in fact a skirmish fought with only part of Alexander's army. Arrian's numbers for both sides are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "5.11, 5.13–15"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Porus placed his elephants at intervals in front of his infantry, with further infantry on the wings and cavalry and chariots on each flank, on level, firm ground. Alexander massed his cavalry on his right, with horse archers in front and the infantry in order beside it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "5.13, 5.15"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Night after night Alexander's cavalry made noise along the bank as if to cross, until Porus stopped moving his elephants to meet them. In a stormy night Alexander marched to the crossing; at dawn his men crossed in boats and on stuffed hides, landed on what proved to be a large island and forded a deep channel to the far bank. They defeated the force sent under Porus's son, then met Porus's main army. Arrian dates the battle to the Athenian month Munychion, Livius to May 326 BCE.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "5.10–15, 5.19"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Alexander divided his army: Craterus was to cross only if Porus took all his elephants against Alexander or was beaten, and mercenaries under Meleager, Attalus and Gorgias were to cross in detachments once the Indians were engaged. On the field he declined to attack the elephant line and sent Coenus with two cavalry regiments toward the Indian right, to follow the enemy cavalry if it rode out against him.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "5.11–12, 5.16"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Horse archers and the Companions struck the Indian left. When the Indian cavalry turned to meet Coenus behind them, Alexander charged while they were turning, and they fled to the elephants. The phalanx then fought the elephants with javelins aimed at drivers and animals; hemmed in, wounded elephants trampled both sides.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "5.16–17"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Alexander's cavalry encircled the field and the phalanx advanced with locked shields. Craterus crossed and took up the pursuit. Porus's sons and many of his officers were killed. Wounded, Porus withdrew only when his army had broken; brought to Alexander, he asked to be treated as a king, and Alexander restored his kingdom and added territory.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "5.17–19"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Alexander founded Nicaea on the battlefield and Bucephala at the crossing, where his horse Bucephalas died. Soon afterwards the army refused to advance beyond the Hyphasis and Alexander turned back. Porus became a client ruler on the eastern border, keeping that role after Alexander's death until he was murdered in 317 BCE.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "5.19"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Repeated feints conditioned Porus to ignore a real threat, and dividing the army to cross and concentrating it to fight depended on precise orders, which Arrian preserves for Craterus. Against elephants, cavalry won on the flanks while the infantry absorbed an unfamiliar weapon.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "5.10–11, 5.16–17"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The crossing and battle sites are disputed; Livius rejects sites farther downstream on palaeohydrological grounds. Arrian reports three versions of the force under Porus's son and prefers Ptolemy's; how far his reliance on Ptolemy, one of Alexander's companions, shapes the account is uncertain. Livius reads the commemorative coinage, which shows Alexander with Zeus's thunderbolt, as a claim that he had brought the rain. His article on Porus calls the king the long-term winner despite his defeat.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "5.14"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Arrian's chapters are the main narrative and name his own authorities, Ptolemy and Aristobulus. Livius sets them against the terrain and the coinage, and his article on Porus follows the king's later career.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "5.14"
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Feints on the river",
+        "time": "Spring 326 BCE",
+        "description": "Alexander gathers grain and stages nightly feints until Porus stops reacting."
+      },
+      {
+        "title": "Crossing in the storm",
+        "time": "Night and dawn",
+        "description": "A picked force crosses upstream, lands on an island and fords a deep channel to the far bank."
+      },
+      {
+        "title": "Porus's son",
+        "time": "Morning",
+        "description": "The force sent to investigate is defeated; Porus marches against Alexander."
+      },
+      {
+        "title": "Cavalry and elephants",
+        "time": "Day of battle",
+        "description": "Coenus takes the Indian cavalry in the rear; the phalanx fights the elephants and Porus is captured."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Alexander III of Macedon",
+        "objective": "Cross the Hydaspes and defeat Porus without facing his elephants at the bank.",
+        "known": "Porus guarded the crossing opposite the camp and posted detachments at other fords.",
+        "uncertainty": "Whether Porus would detect the crossing, and how he would divide his elephants.",
+        "constraints": "Horses would not land in the face of elephants, and the river was in flood.",
+        "forces": "Companion cavalry, horse archers, hypaspists, phalanx battalions and light troops, with Craterus holding the main camp.",
+        "terrain": "A swollen river with a wooded headland and islands upstream, and firm ground beyond.",
+        "logistics": "Boats cut apart, carried and reassembled, hides stuffed for floats, and grain gathered as a deception.",
+        "decision": "He wore down Porus's vigilance with feints, crossed upstream in a storm, and attacked the Indian left with cavalry while Coenus rode for the rear.",
+        "outcome": "Porus's army was destroyed and Porus captured; Alexander restored him as a client king."
+      },
+      {
+        "name": "Porus, king of the Paurava",
+        "objective": "Hold the river line and prevent a crossing.",
+        "known": "Alexander's army was camped opposite, making noise at night and gathering grain.",
+        "uncertainty": "Which threat was real, and whether Craterus's force would also cross.",
+        "constraints": "He had to watch many fords and keep part of his army facing Craterus.",
+        "forces": "Infantry, cavalry, chariots and war elephants.",
+        "terrain": "Level, firm ground that he chose for his battle line once Alexander had crossed.",
+        "logistics": "Arrian notes that the clayey ground made his son's chariots slow.",
+        "decision": "He stopped reacting to the feints, sent his son to investigate, then marched against Alexander, leaving some elephants facing Craterus.",
+        "outcome": "His army was broken; wounded, he surrendered and was confirmed as king under Alexander."
+      }
+    ]
   }
 ]

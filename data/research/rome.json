@@ -2696,5 +2696,1113 @@
         "outcome": "Her army was destroyed and she died soon after, by poison in Tacitus's account."
       }
     ]
+  },
+  {
+    "slug": "jerusalem-70",
+    "sources": [
+      {
+        "title": "Titus' Siege of Jerusalem",
+        "url": "https://www.livius.org/articles/concept/roman-jewish-wars/roman-jewish-wars-4/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Chronology 66–74",
+        "url": "https://www.livius.org/articles/concept/roman-jewish-wars/roman-jewish-wars-5/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Tacitus, Histories 5.1–13 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Histories/5A%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Tacitus, Histories, fragments (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Histories/Fragments%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Josephus, Jewish War 6.236–243 (trans. W. Whiston)",
+        "url": "https://lexundria.com/j_bj/6.236-6.243/wst",
+        "publisher": "Lexundria"
+      },
+      {
+        "title": "Josephus, Jewish War 6.249–270 (trans. W. Whiston)",
+        "url": "https://lexundria.com/j_bj/6.249-6.270/wst",
+        "publisher": "Lexundria"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "A revolt against Roman rule broke out in Judaea in 66 CE and defeated Legion XII Fulminata that year. Vespasian reduced Galilee in 67, taking Jotapata. In 69 he was proclaimed emperor and left the war to his son Titus, with the former governor Tiberius Julius Alexander as his chief of staff.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Rival factions held Jerusalem. Eleazar son of Simon's Zealots held the Temple until John of Gischala seized it at Passover; Simon bar Giora held the upper city. Tacitus says the factions fought and betrayed one another and burned large stores of grain, uniting only as the Romans approached, while refugees from captured towns crowded into the city.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "5.12"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Titus needed to take the city and end the revolt; Tacitus says the push for an early assault came partly from the soldiers' hope of plunder and Titus's own ambition. The defenders, divided in their aims, trusted to the city's walls and the fortified Temple. Livius credits Vespasian with a strategy of letting the factions weaken one another first.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "5.11"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Jerusalem stood on hills above steep valleys, enclosed by successive walls with towers. Herod's palace and the Antonia fortress overlooked the city, and the Temple was itself built like a fortress, with its own walls and colonnades, a spring and cisterns.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "5.11–12"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Titus had the Fifth, Tenth, Twelfth and Fifteenth legions with detachments of others, auxiliaries from client kingdoms, Arab troops and veterans; Josephus served him as adviser and interpreter. The defenders were divided among the followers of John, Simon and Eleazar. Tacitus's figure for the besieged is not credible and is not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "5.1, 5.12–13"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Titus began the siege at Passover, on 14 April 70 CE. The legions camped north-east of the city and on the Mount of Olives, then moved camps to the west. Because the ground ruled out a quick assault, Titus prepared siege works.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "5.13"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Rams and siege towers broke the first wall in May and the second soon after. Ramps against the Antonia were undermined and burned, and Titus then enclosed the city with a wall to starve it. The Antonia fell in early July and was demolished; the daily sacrifice ended in mid-July. The Temple burned on 10 August, and the upper city fell on 8 September.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Titus's decisive choice was to turn from assault to blockade, enclosing the city and cutting down the trees for a wide radius, so that famine would do what the rams could not. Josephus has him hold a council on the Temple and argue for sparing it. The factions refused repeated calls to surrender.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 4,
+            "locator": "6.236–243"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The fall of the Antonia gave the Romans access to the Temple platform. Once the Temple was burning, organized resistance there collapsed.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 5,
+            "locator": "6.249–270"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The city and its Temple were destroyed. The famine was so severe that, in a surviving fragment of Tacitus, the dead lay unburied in the streets and the starving ate whatever they could, including human flesh. Livius reports that people caught outside the walls were crucified in great numbers, that starving people who surrendered died, and that some were cut open by soldiers searching for swallowed coins. After the fall, many inhabitants were killed; survivors were enslaved, executed or sent to forced labour.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Vespasian and Titus celebrated a triumph in Rome, after which Simon bar Giora was executed; John of Gischala was imprisoned for life. The Temple's treasures paid for coins proclaiming Judaea captured, the Menorah was displayed in Rome, and captives were forced to work on building projects including the Colosseum. Jews throughout the empire had to pay a special tax, the fiscus Judaicus. Masada fell in 73 or 74.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Systematic siegecraft, from towers and rams to ramps and finally a blockade, overcame strong fortifications, at the price of deliberately starving a city's population. Internal division weakened the defence long before the Romans arrived.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "5.12"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Who decided the Temple's fate is disputed. Josephus, an eyewitness in Titus's service, says a soldier set it alight against Titus's wishes; Livius doubts this and notes that the Christian writer Sulpicius Severus, whose account he traces to Tacitus, has Titus order the destruction, as does a fragment printed with Tacitus's Histories. The figures given by Josephus and Tacitus for the population and the dead are not credible and are not repeated. Tacitus's account of Jewish origins and customs is hostile and inaccurate.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4,
+            "locator": "6.236–243"
+          },
+          {
+            "source": 5,
+            "locator": "6.249–270"
+          },
+          {
+            "source": 2,
+            "locator": "5.2–7"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Josephus's Jewish War, in Whiston's translation, is the eyewitness narrative; only the passages on the council and the burning of the Temple were read here. Tacitus's Histories describe the city and the opening of the siege, and the fragments the famine and the council. Livius's articles reconstruct the siege, date its stages and weigh the sources.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "5.1–13"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Encirclement",
+        "time": "14 April 70 CE",
+        "description": "Titus encamps at Passover; the factions inside unite only as the legions arrive."
+      },
+      {
+        "title": "The outer walls",
+        "time": "May 70 CE",
+        "description": "Rams and siege towers break the first and second walls."
+      },
+      {
+        "title": "Famine and the Antonia",
+        "time": "May–July 70 CE",
+        "description": "Ramps fail and a wall encloses the city to starve it; the Antonia falls in early July."
+      },
+      {
+        "title": "Temple and upper city",
+        "time": "10 August – 8 September 70 CE",
+        "description": "The Temple burns; the upper city falls and its people are killed or enslaved."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Titus",
+        "objective": "Take Jerusalem and end the revolt.",
+        "known": "The city was divided among rival factions and crowded with refugees.",
+        "uncertainty": "How long the walls and the fortified Temple could hold.",
+        "constraints": "Strong fortifications on hills, and soldiers Tacitus describes as eager for plunder.",
+        "forces": "Four legions with detachments, auxiliaries and allied troops.",
+        "terrain": "Hills, valleys and successive walls, with the Antonia and the fortified Temple.",
+        "logistics": "Timber for siege works, cut until none was left for a wide radius around the city.",
+        "decision": "He broke the outer walls, then enclosed the city to starve it before storming the Antonia and the Temple.",
+        "outcome": "The city and Temple were destroyed, and he celebrated a triumph in Rome."
+      },
+      {
+        "name": "John of Gischala and Simon bar Giora",
+        "objective": "Hold the city and Temple against Rome.",
+        "known": "The Romans had reduced the rest of the country and encamped around the city.",
+        "uncertainty": "Whether the walls and the Temple could outlast the siege.",
+        "constraints": "Their factions had fought each other and burned grain stores before the siege.",
+        "forces": "Rival armed followings, together with the Zealots who had followed Eleazar.",
+        "terrain": "Successive walls, the Antonia and the Temple.",
+        "logistics": "Stores reduced by their own conflict; famine set in once the Roman wall closed the city.",
+        "decision": "They refused to surrender, undermined and burned the Roman ramps and fought on from the Temple.",
+        "outcome": "John surrendered and was imprisoned; Simon was captured and executed in Rome."
+      }
+    ]
+  },
+  {
+    "slug": "milvian-bridge",
+    "sources": [
+      {
+        "title": "Battle of Milvian Bridge",
+        "url": "https://www.britannica.com/topic/Battle-of-the-Milvian-Bridge",
+        "publisher": "Encyclopaedia Britannica (Myles Hudson)"
+      },
+      {
+        "title": "Lactantius, Of the Manner in Which the Persecutors Died 44 (trans. W. Fletcher)",
+        "url": "https://www.newadvent.org/fathers/0705.htm",
+        "publisher": "New Advent"
+      },
+      {
+        "title": "Eusebius, Life of Constantine 1.26–40 (trans. E. C. Richardson)",
+        "url": "https://www.newadvent.org/fathers/25021.htm",
+        "publisher": "New Advent"
+      },
+      {
+        "title": "Maxentius",
+        "url": "https://www.livius.org/articles/person/maxentius/",
+        "publisher": "Livius.org (Jona Lendering)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Diocletian's Tetrarchy shared rule among two senior and two junior emperors. When Constantius I died in 306, his army proclaimed his son Constantine at York, while in Rome the Senate and the Praetorian Guard proclaimed Maxentius, son of Maximian. The other rulers declared Maxentius a usurper.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Maxentius held Italy and Africa. In 311, after Galerius's death, he declared war on Constantine, blaming him for his father's death, and stationed an army at Verona. Constantine allied with Licinius in the East.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Constantine meant to take Italy and Africa. Maxentius at first intended to wait behind Rome's walls and cut the bridges over the Tiber to slow the invader.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "1.37"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The Via Flaminia approached Rome from the north and crossed the Tiber at the Milvian Bridge. Maxentius had cut that bridge, then built a pontoon bridge some distance away to bring his army across to the north bank, where it fought with the river behind it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "44"
+          },
+          {
+            "source": 2,
+            "locator": "1.38"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Constantine crossed the Alps with his field army. Lactantius says Maxentius had the larger army, drawn from his father's troops and from Mauretania and Italy. Casualties on both sides are unknown.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "44"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "On 28 October 312 Maxentius's army crossed by the pontoon bridge and deployed facing Constantine north of the river. Lactantius says Constantine had camped opposite the Milvian Bridge.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "44"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Constantine took Turin and Milan and defeated the army at Verona together with a relief force, then marched on Rome. Unrest grew in the city. Maxentius consulted the Sibylline books, which seemed to promise that the enemy of the Romans would die that day, and marched out on the anniversary of his accession. Constantine's army broke Maxentius's, and the fugitives overloaded the bridge.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "44"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Maxentius's decision to leave the walls of Rome and fight with a river at his back proved decisive. Lactantius attributes it to unrest in the city and the oracle; Eusebius describes the bridge of boats as a trap Maxentius had set. Both describe a Christian sign adopted by Constantine before the battle.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "44"
+          },
+          {
+            "source": 2,
+            "locator": "1.28–31, 1.38"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "When Maxentius's army broke, its only line of retreat was the bridge, and the crush of fugitives brought it down.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "44"
+          },
+          {
+            "source": 2,
+            "locator": "1.38"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Maxentius fell into the Tiber and drowned. Constantine entered Rome the next day; Maxentius's body was recovered and his head sent to Carthage, and Africa surrendered.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "1.39"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Constantine ruled the West. In 313 he and Licinius issued the Edict of Milan, tolerating Christianity, and Constantine favoured the Church. After defeating Licinius in 324 he ruled the whole empire and moved the capital to Constantinople. Maxentius's memory was condemned.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Giving up a fortified position to fight in the open, with a river behind and a single fragile line of retreat, turned defeat into annihilation.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The religious accounts differ. Lactantius has a dream and a sign painted on shields; Eusebius, writing after Constantine's death, adds a daytime vision and the labarum standard, which he says Constantine confirmed on oath. Some scholars doubt the vision, and the nature and timing of Constantine's conversion are debated. The bridge arrangements differ between accounts, and Eusebius frames the drowning as a re-enactment of Pharaoh's fate.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "44"
+          },
+          {
+            "source": 2,
+            "locator": "1.28–38"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The narratives read here are Lactantius's On the Deaths of the Persecutors and Eusebius's Life of Constantine, both Christian works; Britannica's article, read in a browser, compares them. The Latin panegyrics were not read.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "44"
+          },
+          {
+            "source": 2,
+            "locator": "1.26–40"
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Into Italy",
+        "time": "312",
+        "description": "Constantine crosses the Alps and takes Turin, Milan and Verona."
+      },
+      {
+        "title": "Maxentius comes out",
+        "time": "28 October 312",
+        "description": "Maxentius consults the Sibylline books and crosses the Tiber on a pontoon bridge."
+      },
+      {
+        "title": "The battle",
+        "time": "28 October 312",
+        "description": "Constantine's army breaks Maxentius's line north of the river."
+      },
+      {
+        "title": "The bridge",
+        "time": "28 October 312",
+        "description": "Fugitives overload the bridge and Maxentius drowns in the Tiber."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Constantine I",
+        "objective": "Take Rome and Italy from Maxentius.",
+        "known": "Maxentius's northern army had been defeated and Rome was restless.",
+        "uncertainty": "Whether Maxentius would stand a siege behind the city walls.",
+        "constraints": "A campaign far from his base in Gaul, against a rival with a larger army.",
+        "forces": "His field army from Gaul.",
+        "terrain": "The Via Flaminia to the Tiber, with the bridges cut.",
+        "logistics": "Northern Italy secured behind him after Turin, Milan and Verona.",
+        "decision": "He advanced to the Tiber and, according to Lactantius, had a Christian sign marked on his soldiers' shields.",
+        "outcome": "He won and ruled the West."
+      },
+      {
+        "name": "Maxentius",
+        "objective": "Hold Rome and destroy Constantine's army.",
+        "known": "Constantine had taken northern Italy.",
+        "uncertainty": "Whether the city would stay loyal through a siege.",
+        "constraints": "Unrest in Rome and, in Lactantius's account, an oracle that seemed to promise the enemy's death.",
+        "forces": "An army Lactantius calls the larger, including his father's former troops and forces from Mauretania and Italy.",
+        "terrain": "The north bank of the Tiber, with only a pontoon bridge behind.",
+        "logistics": "Rome and its walls behind him.",
+        "decision": "He left the walls and crossed the river to fight.",
+        "outcome": "His army broke and he drowned in the Tiber."
+      }
+    ]
+  },
+  {
+    "slug": "adrianople",
+    "sources": [
+      {
+        "title": "Ammianus Marcellinus, Roman History 31 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ammian/31%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Adrianople (378 CE)",
+        "url": "https://www.livius.org/articles/battle/adrianople/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Battle of Adrianople",
+        "url": "https://www.britannica.com/event/Battle-of-Adrianople-378",
+        "publisher": "Encyclopaedia Britannica (Michael Kerrigan)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Displaced by the Huns, Gothic groups moved toward the Roman frontier. The Tervingi were admitted into the empire in 376, and the Greuthungi crossed without permission. Relations with Roman officials broke down and the Goths revolted.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Valens, emperor in the East, had been campaigning in Syria and returned to deal with the revolt. His nephew Gratian, emperor in the West, had just defeated the Lentienses and was marching east to join him.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0,
+            "locator": "31.12"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Ammianus says Valens, envious of Gratian's success and urged on by courtiers, wanted a victory of his own before his nephew arrived. Fritigern sought land in Thrace for his people and, in Ammianus's account, negotiated partly to gain time for his cavalry to return.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "31.12"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Livius places the battle about 13 km north of Adrianople (modern Edirne), near the village of Büyükdöllük. The Goths' wagons formed a ring on rising ground. It was a hot August day, and the Goths set fires to dry the plain.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 0,
+            "locator": "31.12"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Valens led his elite eastern troops, including veterans. Fritigern commanded the Tervingi, with Greuthungi under Alatheus and Saphrax, Alans and others. Ammianus says the scouts reported a far smaller Gothic force than was actually nearby, because the cavalry was away. Army sizes are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "31.12"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Valens fortified a camp near the city and held a council at which Sebastianus urged an attack and Victor urged waiting for Gratian. Valens marched out, leaving his baggage and treasury at Adrianople, and reached the Gothic wagon circle around the eighth hour. The right-wing cavalry deployed first while the rest of the column was still coming up.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "31.12"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Negotiations were still under way, with Richomeres volunteering as a hostage, when archers and light troops under Bacurius and Cassio attacked too early and fell back. The Gothic cavalry under Alatheus and Saphrax then returned and struck. The Roman left advanced almost to the wagons but, unsupported, was overwhelmed; the infantry was pressed so close together that it could hardly fight, and the line broke in dust and confusion.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "31.12–13"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Valens's decision to attack without waiting for Gratian, on a faulty scouting report and after a long march in the heat, is the central choice. Fritigern's negotiations, in Ammianus's view, bought time for the Gothic cavalry.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "31.12"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The return of the Gothic cavalry against a Roman army only partly deployed decided the battle.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "31.12–13"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Valens was killed and his body was never found; Ammianus gives two versions of his death. Many senior officers fell, and Ammianus compares the disaster with Cannae.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "31.13"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "A large part of the eastern field army and many experienced officers were lost. Valens's successor Theodosius made peace with the Goths by 382; Livius says he had to grant land to the victors, while Britannica says the Romans first drove the Goths back to Thrace.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Faulty intelligence, impatience and a tired, thirsty army deployed piecemeal against an enemy whose full strength was not yet in view. Waiting for the army to concentrate might have changed the outcome.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "31.12–13"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Ammianus treated the battle as a turning point; Livius says many later writers followed him although the view is not necessarily correct, while Britannica presents it as a victory of horsemen over elite infantry and the start of serious Germanic inroads. Livius's pages give two dates for Valens's death, 9 and 2 August. The circumstances of his death are uncertain, and Ammianus's figures for Roman losses are not repeated.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "31.13"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Ammianus Marcellinus 31.12–13 is the main narrative. Livius and Britannica, read in a browser, give modern summaries. Orosius was not read.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "31.12–13"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "March and council",
+        "time": "Early August 378",
+        "description": "Valens advances to Adrianople and decides not to wait for Gratian."
+      },
+      {
+        "title": "Approach in the heat",
+        "time": "9 August 378 · afternoon",
+        "description": "The army reaches the Gothic wagon circle after a long march; negotiations begin."
+      },
+      {
+        "title": "Premature attack",
+        "time": "Afternoon",
+        "description": "Archers under Bacurius attack too early; the Gothic cavalry returns and strikes."
+      },
+      {
+        "title": "Collapse",
+        "time": "Until nightfall",
+        "description": "The left wing is overwhelmed, the infantry crushed together and Valens killed."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Valens",
+        "objective": "Crush the Gothic revolt with a victory of his own.",
+        "known": "Scouts reported a small Gothic force near Adrianople, and Gratian urged him to wait.",
+        "uncertainty": "Where the Gothic cavalry was and how strong the Goths really were.",
+        "constraints": "Rivalry with Gratian and pressure from courtiers, in Ammianus's account, and a long march in the heat.",
+        "forces": "Elite eastern infantry and cavalry, archers and veterans.",
+        "terrain": "Hot, open ground before a wagon ring on rising ground, with fields set alight.",
+        "logistics": "Baggage and treasury left at Adrianople; Ammianus says the troops suffered hunger and thirst.",
+        "decision": "He attacked without waiting for Gratian.",
+        "outcome": "His army was defeated and he was killed."
+      },
+      {
+        "name": "Fritigern",
+        "objective": "Win land in Thrace for his people.",
+        "known": "Valens's army was approaching while his own cavalry was away.",
+        "uncertainty": "Whether the cavalry would return before the battle began.",
+        "constraints": "He had to hold the Romans off until his allies arrived.",
+        "forces": "Tervingi around the wagon ring, with Greuthungi and Alan cavalry under Alatheus and Saphrax.",
+        "terrain": "A wagon circle on rising ground.",
+        "logistics": "The wagon circle served as the Goths' base.",
+        "decision": "He negotiated, set fires and played for time until his cavalry returned.",
+        "outcome": "His forces destroyed the Roman army."
+      }
+    ]
+  },
+  {
+    "slug": "catalaunian-plains",
+    "sources": [
+      {
+        "title": "Jordanes: The Battle of Châlons, 451 CE (Getica 38)",
+        "url": "https://sourcebooks.web.fordham.edu/source/451jordanes38.asp",
+        "publisher": "Internet Medieval Sourcebook, Fordham University"
+      },
+      {
+        "title": "The battle of the Catalaunian Plains",
+        "url": "https://www.ospreypublishing.com/uk/osprey-blog/2022/the-battle-of-catalaunians-plains",
+        "publisher": "Osprey Publishing (Murray Dahm)"
+      },
+      {
+        "title": "Valentinian III",
+        "url": "https://www.livius.org/articles/person/valentinian-iii/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Thermopylae (447 CE)",
+        "url": "https://www.livius.org/articles/battle/thermopylae-447-ce/",
+        "publisher": "Livius.org (Jona Lendering)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "The Huns under Attila raided the Balkans from 440. In 447 Attila invaded the eastern empire's Balkan provinces, and Theodosius II raised his payments to him. Attila then turned west.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "In 451 the Huns crossed the Rhine, invaded Gaul and sacked Metz. Aetius, the leading Western Roman general, formed a coalition with the Visigothic king Theodoric and other peoples settled in Gaul.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Attila sought plunder and power in Gaul. Aetius needed to protect Gaul without breaking a coalition whose members had their own interests.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The site is unknown. The battle is variously called the Catalaunian Fields, the Campus Mauriacus or Châlons, and scholars place it north, east or west of Troyes. Jordanes describes a plain rising by a sharp slope to a ridge that both armies tried to take.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Aetius's coalition included Romans, Visigoths, Alans, Franks, Burgundians, Saxons and others. Attila's army included Ostrogoths, Gepids and other subject peoples under their own kings. Jordanes's figures for Attila's army and for the dead are not credible and are not repeated.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Jordanes places Theodoric and the Visigoths on the right, Aetius and the Romans on the left, and Attila with his best troops in the centre, with the subject peoples on the wings.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Attila was besieging Orléans when the coalition approached, and he withdrew, probably toward Troyes. In the battle both sides raced for the ridge; Thorismund, Theodoric's son, and Aetius reached it first and threw back the Huns. Dahm describes fighting from mid-afternoon into the night. Theodoric was killed, and the Visigoths pressed on almost to Attila, who withdrew into his wagon laager. Fighting in the dark was confused.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Taking the ridge first was the coalition's decisive tactical choice. Afterwards the allies chose to besiege Attila's laager rather than storm it, and, Jordanes says, quarrels between Romans and Goths let Attila escape.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The loss of the ridge and the Visigothic advance after Theodoric's death forced Attila onto the defensive behind his wagons.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Next morning the Huns stayed in their laager. Jordanes says Attila had a pyre of saddles built, meaning to throw himself on it rather than be captured. Attila then withdrew from Gaul.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Attila invaded Italy in 452, sacking Aquileia and other northern cities before returning home; Livius's timeline says Pope Leo persuaded him to go. Attila died in 453, and Aetius was assassinated in 454.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Coalition armies can win battles but struggle to finish them: once the immediate danger had passed, the allies' separate interests limited the pursuit. Dahm notes that the fighting was mainly a cavalry struggle for a ridge, not a clash on an open plain.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Jordanes wrote about a century later from a Gothic perspective; he drew on the eyewitness Priscus but goes beyond him, and his account, the fullest that survives, differs from others. The location and exact date are uncertain; Dahm gives 20 June. Dahm questions the traditional view of the battle as one of the most decisive in Western history, since Attila remained a threat. Why Aetius let Attila withdraw is not resolved by the sources read here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Jordanes's Getica 38, in an older translation on the Internet Medieval Sourcebook, is the main narrative. Murray Dahm's article for Osprey Publishing summarizes the modern debates, and Livius's articles supply the wider chronology. Hydatius's chronicle and the rest of the Getica were not read.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Invasion of Gaul",
+        "time": "451",
+        "description": "The Huns cross the Rhine and sack Metz; Aetius forms a coalition with the Visigoths."
+      },
+      {
+        "title": "Orléans",
+        "time": "451",
+        "description": "The coalition approaches as Attila besieges Orléans; he withdraws, probably toward Troyes."
+      },
+      {
+        "title": "The ridge",
+        "time": "Day of battle",
+        "description": "Thorismund and Aetius take the ridge; Theodoric is killed as the Visigoths press on."
+      },
+      {
+        "title": "The laager",
+        "time": "Night and following day",
+        "description": "Attila shelters behind his wagons; the coalition does not storm them and he leaves Gaul."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Flavius Aetius",
+        "objective": "Drive Attila out of Gaul while keeping his coalition together.",
+        "known": "Attila was besieging Orléans, then withdrew as the coalition approached.",
+        "uncertainty": "Whether his allies, above all the Visigoths, would fight to a finish.",
+        "constraints": "A coalition of peoples with their own leaders and interests.",
+        "forces": "Romans, Visigoths under Theodoric, Alans, Franks, Burgundians and others.",
+        "terrain": "A plain rising to a ridge.",
+        "logistics": "Fighting in Gaul, the territory the coalition was defending.",
+        "decision": "He and Thorismund seized the ridge first; afterwards the coalition besieged rather than stormed Attila's laager.",
+        "outcome": "Attila left Gaul but invaded Italy the next year."
+      },
+      {
+        "name": "Attila",
+        "objective": "Extend his power and win plunder in Gaul.",
+        "known": "A coalition army was approaching as he besieged Orléans.",
+        "uncertainty": "How firmly the coalition would hold together.",
+        "constraints": "His army combined Huns with subject peoples under their own kings.",
+        "forces": "Huns in the centre, with Ostrogoths, Gepids and other subject peoples on the wings.",
+        "terrain": "A plain sloping up to a ridge, with his wagon laager as a refuge.",
+        "logistics": "Wagons that formed his fortified camp.",
+        "decision": "He tried to seize the ridge, fought on after losing it and withdrew into his laager.",
+        "outcome": "He escaped and left Gaul; he invaded Italy in 452 and died in 453."
+      }
+    ]
   }
 ]

@@ -195,7 +195,7 @@ export const warDetails: Record<string, WarDetails> = {
     geography:
       "Judaea, Galilee and Jerusalem, with the fortress of Masada in the Judaean desert.",
     developments: t(
-      ["66", "Revolt breaks out; Cestius Gallus retreats from Jerusalem"],
+      ["66", "Revolt breaks out; Legion XII Fulminata defeated"],
       ["67", "Vespasian campaigns in Galilee; Jotapata falls"],
       ["69", "Vespasian proclaimed emperor"],
       ["70", "Titus besieges and takes Jerusalem; the Temple is destroyed"],
@@ -229,12 +229,9 @@ export const warDetails: Record<string, WarDetails> = {
     developments: t(
       ["306", "Constantine proclaimed at York; Maxentius seizes power in Rome"],
       ["312", "Battle of the Milvian Bridge"],
-      ["313", "Licinius defeats Maximinus Daia"],
-      [
-        "c. 316",
-        "First war between Constantine and Licinius (the date is debated)",
-      ],
-      ["324", "Constantine defeats Licinius at Adrianople and Chrysopolis"],
+      ["313", "Edict of Milan; Licinius takes Maximinus Daia's lands"],
+      ["314 and 316", "Constantine invades Licinius's territory"],
+      ["324", "Constantine defeats Licinius and rules the whole empire"],
     ),
   },
   "gothic-war": {
@@ -246,11 +243,9 @@ export const warDetails: Record<string, WarDetails> = {
     ],
     geography: "Thrace and the lower Danube frontier.",
     developments: t(
-      ["376", "Goths admitted across the Danube"],
-      ["377", "Revolt and fighting in Thrace"],
+      ["376", "Goths cross the Danube into the empire and revolt"],
       ["9 August 378", "Battle of Adrianople; Valens killed"],
-      ["379", "Theodosius I made eastern emperor"],
-      ["382", "Peace settlement with the Goths"],
+      ["382", "Peace with the Goths under Valens's successor Theodosius"],
     ),
   },
   "hunnic-invasions": {
@@ -262,11 +257,15 @@ export const warDetails: Record<string, WarDetails> = {
     ],
     geography: "The Danube basin, the Balkans, Gaul and northern Italy.",
     developments: t(
-      ["441–447", "Hunnic invasions of the eastern Roman Balkans"],
+      ["440", "Huns begin raiding the Balkans"],
+      [
+        "447",
+        "Attila invades the Balkans; the eastern empire raises its payments",
+      ],
       ["451", "Invasion of Gaul; siege of Orléans; Catalaunian Plains"],
       ["452", "Invasion of northern Italy; Aquileia sacked"],
       ["453", "Attila dies"],
-      ["454", "Former subject peoples defeat Attila's sons at the Nedao"],
+      ["454", "Aetius assassinated"],
     ),
   },
   "byzantine-arab": {

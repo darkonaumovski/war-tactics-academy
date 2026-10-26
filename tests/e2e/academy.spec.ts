@@ -139,7 +139,10 @@ test("atlas works without external network services", async ({ page }) => {
     }),
   ).toBeVisible();
   await page.getByLabel("Atlas era").selectOption("ancient");
-  await page.getByRole("button", { name: "Show Cannae", exact: true }).click();
+  // Nearby markers in Italy overlap at world zoom, so select by keyboard.
+  const cannae = page.getByRole("button", { name: "Show Cannae", exact: true });
+  await cannae.focus();
+  await cannae.press("Enter");
   await expect(page.locator(".atlas-selection h3")).toHaveText("Cannae");
   await page.getByRole("button", { name: "Zoom atlas in" }).click();
   await page.getByRole("link", { name: "Explore engagement" }).click();

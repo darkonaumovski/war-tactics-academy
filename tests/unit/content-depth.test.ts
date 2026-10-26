@@ -47,12 +47,16 @@ it("covers every perspective field for battles with commander perspectives", () 
     "alesia",
     "austerlitz",
     "cannae",
+    "dien-bien-phu",
+    "el-alamein",
     "gaugamela",
     "gettysburg",
     "hastings",
+    "kursk",
     "midway",
     "normandy",
     "stalingrad",
+    "verdun",
     "waterloo",
   ]);
   for (const study of withPerspectives) {

@@ -17,8 +17,8 @@ The guiding principle is to explain what commanders knew, what they decided and 
 ### Historical catalog
 
 - **29 engagements** across seven eras, classified as battles, sieges, operations or campaigns, with approximate locations. Operation Overlord (Normandy) is the first operation record.
-- **Twelve detailed studies** (Marathon, Gaugamela, Cannae, Alesia, Hastings, Agincourt, Austerlitz, Waterloo, Gettysburg, Midway, Stalingrad and Operation Overlord in Normandy), each with 14 analysis sections and a four-phase interactive replay. 165 of the 168 sections show which listed sources they draw on, with book and chapter locators for classical texts and chronicles and section names for handbooks.
-- **Twenty-three command perspectives** across eleven engagements. Each covers objective, available information, uncertainty, constraints, forces, terrain, logistics, decisions and retrospective interpretation, clearly presented as reconstructed reasoning rather than quotations.
+- **Sixteen detailed studies** (Marathon, Gaugamela, Cannae, Alesia, Hastings, Agincourt, Austerlitz, Waterloo, Gettysburg, Verdun, El Alamein, Stalingrad, Midway, Kursk, Operation Overlord in Normandy and Dien Bien Phu), each with 14 analysis sections and a four-phase interactive replay. 221 of the 224 sections show which listed sources they draw on, with book and chapter locators for classical texts and chronicles and section names for handbooks.
+- **Thirty-one command perspectives** across fifteen engagements. Each covers objective, available information, uncertainty, constraints, forces, terrain, logistics, decisions and retrospective interpretation, clearly presented as reconstructed reasoning rather than quotations.
 - **44 commander profiles**, each with a command role (ruler-commander, field, naval, staff planner, or coalition and theater commander), ranks and titles, principal commands, a dated chronology, a notable decision, defeats and reverses, linked engagements and further reading. The catalog filters by era and command role, and any two commanders can be compared side by side without numerical ratings.
 - **23 war pages** with principal participants, geographic scope, a chronology of key developments, key commanders and reading from linked studies and profiles; each links to its campaigns and engagements.
 
@@ -139,7 +139,7 @@ Routes: `/`, `/battles`, `/battles/[slug]`, `/commanders`, `/commanders/[slug]`,
 
 ## Historical methodology
 
-Historical fact, scholarly interpretation, uncertainty and counterfactual analysis are explicitly distinguished. Detailed studies cite institutional histories and primary texts, with caveats about retrospective testimony and conflicting evidence. The twelve studies are concise editorial syntheses, not full scholarly monographs; other engagements are labeled catalog introductions.
+Historical fact, scholarly interpretation, uncertainty and counterfactual analysis are explicitly distinguished. Detailed studies cite institutional histories and primary texts, with caveats about retrospective testimony and conflicting evidence. The sixteen studies are concise editorial syntheses, not full scholarly monographs; other engagements are labeled catalog introductions.
 
 Study sections name the listed sources they draw on. These references were assigned only after each source page had been read; sources that could not be opened are listed but not attached to individual sections. They are section-level references, not footnotes for every sentence. Commander chronologies and war overviews summarize well-established events; their further reading is not a citation for each entry. All source links were checked, and dead links were replaced with verified pages.
 
@@ -172,7 +172,7 @@ All releases are deployed to the live site.
 ## Known limitations
 
 - The four learning paths are introductory editorial courses (one question per lesson), not reviewed university curricula.
-- The twelve battle analyses and 44 commander profiles need deeper scholarly review, fuller biographies and sentence-level citations before being treated as an academic reference work. Study sections are still brief, and 17 engagements have catalog introductions only.
+- The sixteen battle analyses and 44 commander profiles need deeper scholarly review, fuller biographies and sentence-level citations before being treated as an academic reference work. Study sections are still brief, and 13 engagements have catalog introductions only.
 - War pages give orientation, not comprehensive operational histories, and have no dedicated bibliography. Campaign pages remain indexes.
 - Replay diagrams explain abstract relationships; they do not simulate combat or reconstruct exact formations. Atlas locations and Natural Earth coastlines are approximate modern context.
 - The media library is a small starting collection (nine records); the two videos cover only D-Day. Embeds and archive images depend on third-party availability.

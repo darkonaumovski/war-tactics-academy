@@ -112,7 +112,7 @@ test("timeline selection, playback, zoom and accessible alternative", async ({
   await page.getByText("Read the complete accessible timeline").click();
   await expect(page.locator(".text-timeline li")).toHaveCount(4);
 });
-test("all twelve detailed studies have functional timelines", async ({
+test("all sixteen detailed studies have functional timelines", async ({
   page,
 }) => {
   for (const slug of [
@@ -128,6 +128,10 @@ test("all twelve detailed studies have functional timelines", async ({
     "agincourt",
     "gettysburg",
     "normandy",
+    "verdun",
+    "el-alamein",
+    "kursk",
+    "dien-bien-phu",
   ]) {
     await page.goto(`/battles/${slug}`);
     const buttons = page

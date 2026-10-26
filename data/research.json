@@ -2937,5 +2937,945 @@
         "outcome": "German resistance contained the Allies for weeks but could not throw them back. Rommel was badly wounded on 17 July."
       }
     ]
+  },
+  {
+    "slug": "verdun",
+    "sources": [
+      {
+        "title": "The Battle of Verdun",
+        "url": "https://memorial-verdun.fr/en/ressources/la-bataille-de-verdun",
+        "publisher": "Mémorial de Verdun"
+      },
+      {
+        "title": "Battle of Verdun",
+        "url": "https://www.iwm.org.uk/history/first-world-war/western-front/verdun",
+        "publisher": "Imperial War Museums"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "By late 1915 the German chief of staff, Erich von Falkenhayn, believed Germany could not win by military strength alone. He planned to defeat France before British forces were fully deployed, hoping a major French defeat would push its politicians toward peace.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Verdun was chosen in December 1915. Its forts had been stripped of guns in August 1915, its supply routes were limited, and the city combined military value with national pride: French leaders declared that morale would not survive its loss.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Imperial War Museums describes Falkenhayn's concept as using more than 1,200 guns to destroy French units on ground they had to retake, while committing German infantry sparingly. The French aimed simply to hold Verdun.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The fortress city lay on the River Meuse, ringed by 19 forts, of which Douaumont was the largest and highest. Heights on the east (right) bank dominated the area; the Mort-Homme and Hill 304 lay on the west bank. A single road from Bar-le-Duc carried most French supply.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The German Fifth Army attacked under Crown Prince Wilhelm, with General Schmidt von Knobelsdorf an influential adviser. The French Second Army was commanded from 26 February by Philippe Pétain and later by Robert Nivelle, under Joffre as commander-in-chief.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "French positions north of the city were thin. Lieutenant-Colonel Driant, who had warned of the weak defences, held woods in the path of the attack with about 1,200 light infantry; only around a hundred survived unhurt.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "A massive bombardment opened the battle on 21 February 1916, and Fort Douaumont fell on 25 February. Germany attacked the west bank from 6 March, took Fort Vaux on 7 June and reached Fort Souville on 11–12 July before being pushed back. French counteroffensives retook Douaumont on 24 October and Vaux in November, and the battle ended in December.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Pétain defended in depth with mutually supporting strongpoints, rotated divisions through the battle in a system called the noria and greatly increased French artillery. Crown Prince Wilhelm's staff, by contrast, made seizing ground the priority rather than Falkenhayn's limited concept.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Once both armies fought for ground rather than to destroy the other's units, losses fell equally on both. The Somme offensive from late June then forced Germany to reduce its effort at Verdun and let Nivelle attack.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "France held Verdun and recovered Douaumont, Vaux and much of the lost ground. Falkenhayn's plan to destroy the French army had failed.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Verdun's losses, added to those of the Somme, created a German manpower crisis. In France the battle became the national symbol of the Great War. Nine villages were destroyed and never rebuilt, and the Douaumont Ossuary holds the remains of about 130,000 soldiers.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "An attritional plan depends on controlling the objective. When commanders pursue ground for its own sake, the attacker can suffer as heavily as the defender.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Falkenhayn's postwar claim that he meant to bleed the French army white is debated; other readings stress the capture of the town or drawing in Allied reserves. The sources differ on the start of the bombardment (4 a.m. or 7.15 a.m.), the end date (15 or 18 December) and when Pétain left (late April or May).",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The Mémorial de Verdun gives a detailed French chronology, logistics and memory. Imperial War Museums gives the strategic concept and the changing German conduct of the battle.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Opening bombardment",
+        "time": "21–26 February 1916",
+        "description": "German artillery overwhelms the right-bank positions; Fort Douaumont falls."
+      },
+      {
+        "title": "Both banks",
+        "time": "March – early June 1916",
+        "description": "Germany attacks the Mort-Homme and Hill 304 and takes Fort Vaux."
+      },
+      {
+        "title": "Last German push",
+        "time": "June – July 1916",
+        "description": "German attacks reach Fleury and Fort Souville before the Somme draws resources away."
+      },
+      {
+        "title": "French recovery",
+        "time": "October – December 1916",
+        "description": "French counteroffensives retake Douaumont and Vaux and push the line back."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Erich von Falkenhayn",
+        "objective": "Defeat France before British forces reached full strength, and so open the way to a negotiated peace.",
+        "known": "French losses in 1914–1915 had been heavy, and Verdun's forts had lost their guns in August 1915.",
+        "uncertainty": "Whether the French would defend Verdun at any cost, and whether his subordinates would keep to a limited, artillery-led attack.",
+        "constraints": "Germany's limited manpower, and an army command that pursued the capture of ground.",
+        "forces": "The Fifth Army under Crown Prince Wilhelm with more than 1,200 guns.",
+        "terrain": "Heights on the east bank of the Meuse that dominated the city and its forts.",
+        "logistics": "Verdun's limited supply routes appeared to favour the attacker.",
+        "decision": "He launched an artillery-heavy offensive on the east bank on 21 February and extended it to the west bank in March.",
+        "outcome": "The plan failed. German losses at Verdun and the Somme together produced a manpower crisis."
+      },
+      {
+        "name": "Philippe Pétain",
+        "objective": "Hold Verdun and stabilize a collapsing front.",
+        "known": "When he took command on 26 February, much of the right bank had been overrun and Fort Douaumont had fallen.",
+        "uncertainty": "Whether a single supply road could sustain the defence under constant shelling.",
+        "constraints": "The Mémorial de Verdun says Joffre moved him in spring because he demanded too many resources.",
+        "forces": "The French Second Army, with steadily increased artillery.",
+        "terrain": "Ground suited to a defence in depth of mutually supporting strongpoints.",
+        "logistics": "The Voie Sacrée from Bar-le-Duc carried about 90,000 men and 50,000 tonnes of equipment a week.",
+        "decision": "He defended in depth, rotated divisions through the battle and kept the supply road open.",
+        "outcome": "Verdun held. He was succeeded by Nivelle, whose later counterattacks recovered much of the lost ground."
+      }
+    ]
+  },
+  {
+    "slug": "el-alamein",
+    "sources": [
+      {
+        "title": "Second Battle of El Alamein",
+        "url": "https://www.nam.ac.uk/explore/battle-alamein",
+        "publisher": "National Army Museum"
+      },
+      {
+        "title": "El Alamein: outfoxing the “Desert Fox”, 1942",
+        "url": "https://www.awmlondon.gov.au/battles/el-alamein",
+        "publisher": "AWM London (Australian Department of Veterans' Affairs)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Italy invaded Egypt from Libya in 1940, and Germany intervened in 1941. In 1942 Rommel defeated the British at Gazala and took Tobruk on 21 June, and Commonwealth forces fell back to a line at El Alamein.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The First Battle of El Alamein in July and Rommel's failed attack at Alam Halfa on 30 August stopped the Axis advance. Churchill wanted a victory before the Allied landings in North-West Africa and pressed for an early attack; Montgomery, commanding Eighth Army since August, refused until he was ready.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Montgomery aimed to break the Axis position and destroy its army. Short of fuel and mechanized forces, Rommel aimed to hold a deep defensive position.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The Alamein line ran from the Mediterranean to the Qattara Depression, which tanks could not cross, so neither flank could be turned. The Axis protected its positions with deep minefields that Rommel called the \"devil's gardens\".",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Eighth Army drew troops from across the British Empire, including Australia, New Zealand and South Africa, with Greek, Polish and French contingents, and clearly outnumbered the German and Italian army in men, tanks and guns. Alexander was Commander-in-Chief Middle East.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Axis infantry and armour held positions in depth behind the minefields. The 9th Australian Division held the northern end of the Allied line near the coast.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Operation Lightfoot opened on the night of 23 October with a heavy barrage, and infantry and engineers attacked to open corridors through the minefields. A week of attritional fighting followed, with Australian attacks in the north. Operation Supercharge began on the night of 1–2 November, and the Axis line broke on 4 November.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Montgomery built up men, training and equipment before attacking. When armour stalled in the minefield corridors, he continued an attritional phase he called \"crumbling\", made a diversionary attack to draw in Axis reserves and paused to regroup before Supercharge.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The Australian drive toward the sea pulled Axis forces north and unbalanced them. Continued attrition used up Rommel's scarce reserves before Supercharge struck.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "By late afternoon on 4 November the Axis army was in full retreat. Most of its infantry was captured, but Montgomery's caution let the motorized elements escape, and the British pursued into Libya.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "El Alamein was the British Army's first clear, decisive victory over the Axis. Four days later the Torch landings began, and Axis forces in North Africa surrendered in Tunisia in May 1943.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Deliberate preparation and material superiority can overcome a prepared defence, but only through costly attrition, and a cautious exploitation may let a beaten enemy escape.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The National Army Museum suggests Churchill's \"end of the beginning\" framing may overstate the battle's strategic weight, and Montgomery's conduct remains debated. The two sources give different force totals, and disagree on whether Lightfoot opened corridors through the minefields in its first hours.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The National Army Museum gives the British strategic and command narrative and its debates. AWM London gives the Australian 9th Division's role and the RAAF's support.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Lightfoot",
+        "time": "23–24 October 1942",
+        "description": "A heavy barrage; infantry and engineers attack to open corridors through the minefields."
+      },
+      {
+        "title": "Crumbling",
+        "time": "Late October 1942",
+        "description": "Attritional fighting wears down Axis armour; Australian attacks draw Axis forces north."
+      },
+      {
+        "title": "Supercharge",
+        "time": "1–4 November 1942",
+        "description": "New Zealand and British troops attack again; the Axis line breaks on 4 November."
+      },
+      {
+        "title": "Pursuit",
+        "time": "From 4 November 1942",
+        "description": "Axis infantry is captured, but motorized units escape west into Libya."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Bernard Montgomery",
+        "objective": "Break the Alamein position and defeat the Axis army decisively.",
+        "known": "The Axis was short of fuel and mechanized forces and had built deep minefields.",
+        "uncertainty": "Whether armour could pass through narrow minefield corridors under anti-tank fire.",
+        "constraints": "Churchill's pressure for an early victory before the Allied landings in North-West Africa.",
+        "forces": "Eighth Army, drawn from across the British Empire with Greek, Polish and French contingents, superior in men, tanks, guns and aircraft.",
+        "terrain": "A front between the sea and the Qattara Depression, with no open flank to turn.",
+        "logistics": "Weeks of build-up in men, tanks, guns and aircraft before the attack.",
+        "decision": "He delayed until ready, persisted with attrition when the armour stalled, and launched Supercharge after regrouping.",
+        "outcome": "The breakthrough came on 4 November, but the Axis motorized units escaped."
+      },
+      {
+        "name": "Erwin Rommel",
+        "objective": "Hold the Alamein position against a stronger enemy.",
+        "known": "Eighth Army was building up superior forces opposite him.",
+        "uncertainty": "Where the main British blow would fall.",
+        "constraints": "Shortages of fuel and mechanized forces.",
+        "forces": "German and Italian infantry and armour, outnumbered in men, tanks and guns.",
+        "terrain": "Deep minefields he called the \"devil's gardens\", covering a line that could not be outflanked.",
+        "logistics": "Fuel shortages limited how freely he could move his armour.",
+        "decision": "He defended in depth and counterattacked; his reserves were drawn north and worn down.",
+        "outcome": "His army retreated on 4 November; most of the infantry was captured, but motorized units escaped."
+      }
+    ]
+  },
+  {
+    "slug": "kursk",
+    "sources": [
+      {
+        "title": "History Through the Viewfinder: Reflections on the Greatest Tank Battle in History",
+        "url": "https://www.nationalww2museum.org/war/articles/history-through-viewfinder-37",
+        "publisher": "The National WWII Museum (Keith Huxen)"
+      },
+      {
+        "title": "Kursk, Battle of (Encyclopedia of Modern Europe: Europe Since 1914)",
+        "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/kursk-battle-0",
+        "publisher": "Encyclopedia.com (Bruce W. Menning)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After the defeat at Stalingrad in February 1943, Hitler persisted with an offensive in the east despite concerns from commanders such as Guderian. Manstein urged an attack on the Kursk salient, a Soviet bulge between Orel and Belgorod.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Hitler delayed the operation, code-named Citadel, until July to build up armour and assault guns. It became the last major German offensive on the Eastern Front.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The Germans aimed to attack the salient from north and south. The Soviet high command (Stavka) expected the attack and planned to absorb it in deep defences before launching powerful counteroffensives.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The salient extended about 160 miles from north to south and 100 miles from east to west. In the south, the German advance culminated near Prokhorovka.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Both sides concentrated vast forces, with the Soviets holding a clear numerical advantage and a reserve front behind the salient. Manstein commanded the German southern attack. Totals differ substantially between the sources.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Soviet forces built up to six belts of fortifications. Good intelligence, possibly including Enigma intercepts passed on by the British, helped them anticipate the attack.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The German attack began on 5 July. It stalled in the north with slight gains and culminated in the south near Prokhorovka on 11–12 July. A Soviet counteroffensive toward Orel began on 12 July, a second in the south followed from 3 August, and the campaign ended with the capture of Kharkov on 23 August.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Stavka chose to defend first and counterattack later. After the Allied landing in Sicily on 10 July, Hitler told his generals on 12 July that he wanted to move troops to Italy; Menning writes that he diverted the II SS Panzer Corps and ordered Manstein onto the defensive.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Defences in depth absorbed the German attack before it broke into open country, leaving the attackers worn down when the Soviet counteroffensives began.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "For the first time, a German offensive failed to achieve a breakthrough. Soviet counteroffensives took Orel and Kharkov, and the strategic initiative passed permanently to the Soviet side.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Germany could no longer mount a major offensive in the east. For the Red Army, Kursk showed mature coordination of several fronts and effective defence in depth, at an immense human cost to both sides.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Intelligence, prepared depth and well-placed reserves let a defender choose when to shift to the offensive.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Western accounts long relied on German sources, and Menning writes that the full intelligence story \"remains to be told\". The figures for forces and losses cited by the museum, from David Glantz and Karl-Heinz Frieser, differ widely from Menning's. The label \"largest tank battle in history\" depends on how the fighting is counted.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Menning's encyclopedia entry gives the operational narrative and historiography. The National WWII Museum article sets out the battle's scale and the Soviet counteroffensive.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "German pincers",
+        "time": "5–11 July 1943",
+        "description": "German attacks strike the salient from north and south and meet deep Soviet defences."
+      },
+      {
+        "title": "Prokhorovka",
+        "time": "11–12 July 1943",
+        "description": "The southern attack culminates in a great armoured clash; the Soviets halt it at heavy cost."
+      },
+      {
+        "title": "Counterstroke in the north",
+        "time": "From 12 July 1943",
+        "description": "The Soviet Orel offensive strikes Army Group Centre as Hitler shifts forces to Italy."
+      },
+      {
+        "title": "Belgorod–Kharkov",
+        "time": "3–23 August 1943",
+        "description": "A southern counteroffensive breaks through and takes Kharkov, ending the campaign."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Erich von Manstein",
+        "objective": "Cut off the Kursk salient by converging attacks and restore German initiative after Stalingrad.",
+        "known": "The salient between Orel and Belgorod offered a target for attacks from north and south.",
+        "uncertainty": "How strong the Soviet defences had become during the months of delay.",
+        "constraints": "Hitler controlled the timing, and after the Sicily landings he withdrew forces and ordered a defensive posture.",
+        "forces": "German armies and armour concentrated for the southern attack; the sources' totals differ.",
+        "terrain": "Defended belts across the southern face of the salient, with the advance culminating near Prokhorovka.",
+        "logistics": "The delay was used to build up armour and assault guns.",
+        "decision": "He pressed the southern attack from 5 July until it was halted near Prokhorovka.",
+        "outcome": "Ordered onto the defensive, his forces then lost Kharkov to the Soviet counteroffensive in August."
+      },
+      {
+        "name": "Stavka (Soviet high command)",
+        "objective": "Absorb the expected German attack, then launch decisive counteroffensives.",
+        "known": "Intelligence indicated a German attack on the salient, possibly aided by Enigma intercepts passed by the British.",
+        "uncertainty": "When the attack would begin, since Hitler delayed it until July.",
+        "constraints": "The need to hold the salient long enough to wear down German armour before committing reserves.",
+        "forces": "Several fronts with a numerical advantage and a reserve front behind the salient.",
+        "terrain": "Up to six belts of field fortifications across the salient.",
+        "logistics": "Reserves and fresh forces were assembled for counteroffensives in the north and south.",
+        "decision": "It defended first, then attacked toward Orel from 12 July and toward Kharkov from 3 August.",
+        "outcome": "The German offensive failed, and the strategic initiative passed permanently to the Soviet side."
+      }
+    ]
+  },
+  {
+    "slug": "dien-bien-phu",
+    "sources": [
+      {
+        "title": "Indochine 1954",
+        "url": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/guerre-dindochine/indochine-1954",
+        "publisher": "French Ministry of the Armed Forces (Chemins de mémoire)"
+      },
+      {
+        "title": "Dien Bien Phu & the Fall of French Indochina, 1954",
+        "url": "https://history.state.gov/milestones/1953-1960/dien-bien-phu",
+        "publisher": "Office of the Historian, U.S. Department of State"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "The Viet Minh had fought French forces in northern Vietnam since 1946. The United States, alarmed by communist movements in Asia after 1949, funded the French war. In May 1953 General Henri Navarre took command in Indochina, charged with finding an honourable way out.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Navarre's two-year plan was discussed in Paris but never formally approved, and he received no clear answer on what to do if Laos were threatened. The announcement in February 1954 of a Geneva conference raised the stakes, and Chinese aid to the Viet Minh increased sharply.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Navarre meant the base to protect Laos, draw Viet Minh forces away from the Tonkin delta and support operations. The Viet Minh concentrated to destroy the garrison.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The base lay in a valley near the Laotian border. Its key element was the airfield, surrounded by strongpoints with women's names such as Béatrice, Gabrielle, Anne-Marie and Huguette.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Colonel de Castries commanded a garrison of twelve battalions. General Giap concentrated several Viet Minh divisions, with artillery and anti-aircraft regiments, around the valley.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "French and Vietnamese paratroopers dropped into the valley on 20–22 November 1953 in Operation Castor and built an air-ground base. By the end of December the garrison was encircled, while Viet Minh troops dug trenches and tunnels toward its positions.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Viet Minh artillery opened fire on 13 March 1954. Béatrice and Gabrielle fell within two days, and the airstrip could not be used after 26 March. Fighting for the eastern hills lasted from 30 March to 10 April. The final offensive began on 1 May, and resistance ended on 7 May.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "France reinforced the shrinking garrison by parachuting in volunteers, many of them not trained parachutists. Washington would intervene only as part of a coalition, and Britain and other NATO members declined to join.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The loss of the airfield left a garrison designed around air supply dependent on parachute drops, while the Viet Minh tightened the ring.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Late on 7 May, de Castries ordered the fighting to stop. About 10,000 men were taken prisoner; the French ministry states that around 60 per cent of them died in Viet Minh camps.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The Geneva agreements of July 1954 brought a ceasefire and a temporary division of Vietnam at the 17th parallel, with elections planned for 1956. The United States did not sign the second agreement and backed Ngo Dinh Diem in the South. French rule in Indochina ended.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A base that depends on a single airfield is only as secure as that airfield. An opponent who can bring supplies to a remote place should not be underestimated.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The U.S. Office of the Historian counts a four-month siege, from the encirclement; the French ministry dates the battle from the 13 March attack. Navarre's unapproved plan leaves responsibility for the decision open, and Viet Minh losses are historians' estimates.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The French Ministry of the Armed Forces gives the plan, the course of the siege and its human cost. The U.S. Office of the Historian gives American deliberations and the Geneva settlement.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Air-ground base",
+        "time": "November 1953 – March 1954",
+        "description": "Paratroopers seize the valley and build strongpoints around the airfield; the Viet Minh encircle it."
+      },
+      {
+        "title": "Northern strongpoints fall",
+        "time": "13–26 March 1954",
+        "description": "Artillery opens the assault; Béatrice and Gabrielle fall and the airstrip is lost."
+      },
+      {
+        "title": "Battle for the eastern hills",
+        "time": "30 March – April 1954",
+        "description": "Hand-to-hand fighting for Dominique and Éliane; rain and a shrinking perimeter follow."
+      },
+      {
+        "title": "Final assault",
+        "time": "1–7 May 1954",
+        "description": "The remaining positions fall one after another; the fighting stops on 7 May."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Henri Navarre",
+        "objective": "Weaken the Viet Minh enough to allow France an honourable exit from the war.",
+        "known": "His plan had been discussed in Paris, but he had no clear instructions if Laos were threatened.",
+        "uncertainty": "Whether the Viet Minh could concentrate and supply large forces around a remote valley.",
+        "constraints": "A plan never formally approved, and a garrison that could be supplied only by air.",
+        "forces": "Paratroopers in November 1953, growing to twelve battalions under de Castries.",
+        "terrain": "A valley near the Laotian border, centred on an airfield and ringed by strongpoints.",
+        "logistics": "Air supply through the airfield, then parachute drops after it was lost.",
+        "decision": "He occupied the valley in Operation Castor and built an air-ground base there.",
+        "outcome": "The garrison fell on 7 May 1954 as the Geneva conference opened."
+      },
+      {
+        "name": "Võ Nguyên Giáp",
+        "objective": "Destroy the French garrison in the valley.",
+        "known": "The garrison depended on its airfield and was encircled by late December 1953.",
+        "uncertainty": "How long the garrison could be supplied and reinforced by air.",
+        "constraints": "A remote battlefield where heavy weapons, ammunition and fuel had to be brought in overland.",
+        "forces": "Several divisions with artillery and anti-aircraft regiments.",
+        "terrain": "Ground around the valley where trenches and tunnels could be dug toward the French positions.",
+        "logistics": "Chinese aid in weapons, ammunition, trucks and fuel grew sharply from February 1954.",
+        "decision": "He opened with artillery on 13 March, took the strongpoints in stages and launched a final offensive on 1 May.",
+        "outcome": "The garrison surrendered on 7 May, and France left Indochina after the Geneva agreements."
+      }
+    ]
   }
 ]

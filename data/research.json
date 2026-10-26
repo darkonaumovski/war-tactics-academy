@@ -4849,5 +4849,1052 @@
         "outcome": "His army was defeated and he was killed or executed."
       }
     ]
+  },
+  {
+    "slug": "constantinople",
+    "sources": [
+      {
+        "title": "Fall of Constantinople",
+        "url": "https://www.britannica.com/event/Fall-of-Constantinople-1453",
+        "publisher": "Encyclopaedia Britannica (Myles Hudson)"
+      },
+      {
+        "title": "The Siege of Constantinople in 1453, according to Kritovoulos (trans. Charles T. Riggs, 1954)",
+        "url": "https://deremilitari.org/2016/08/the-siege-of-constantinople-in-1453-according-to-kritovoulos/",
+        "publisher": "De Re Militari"
+      },
+      {
+        "title": "The Siege of Constantinople in 1453, according to Nicolo Barbaro (trans. John Melville-Jones, 1969)",
+        "url": "https://deremilitari.org/2016/08/the-siege-of-constantinople-in-1453-according-to-nicolo-barbaro/",
+        "publisher": "De Re Militari"
+      },
+      {
+        "title": "Historiographical texts of the 15th century",
+        "url": "https://fhw.gr/chronos/10/en/pl/pn/pnc2b.html",
+        "publisher": "Foundation of the Hellenic World"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "By the mid-15th century the Byzantine Empire held little more than Constantinople and the land just west of it, and the city's population had fallen to perhaps 40,000–50,000. The Ottomans controlled almost all of the Balkans and most of Anatolia, and Murad II had already besieged the city in 1422 before turning to a rebellion elsewhere.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Context"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Mehmed II, sultan again from 1451, made peace with Hungary and Venice in 1452 and built a fortress at the narrowest point of the Bosporus. Constantine XI appealed to the West. Hungary refused, and the pope pressed for church union, which the city's people resisted. Venice and Genoa sent help; 700 Genoese under Giovanni Giustiniani Longo arrived in January 1453, and Constantine gave him command of the land defences.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Context"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Mehmed meant to blockade the city by land and sea and batter its walls with cannon until he could break in or force a surrender before help came from Christian Europe. Constantine meant to hold the walls until that relief arrived.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Battle"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The land walls ran about 6.5 km as a double line of ramparts behind a moat and had never been breached. Sea walls lined the Golden Horn and the Sea of Marmara, and a chain closed the mouth of the Horn. Kritovoulos says a long stretch of wall along the Horn, inside the chain, was left unguarded.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Battle"
+          },
+          {
+            "source": 1,
+            "locator": "Book 1"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Estimates differ widely. Britannica cites the eyewitness Jacopo Tedaldi for 6,000–7,000 trained soldiers and 30,000–35,000 armed civilians in the city, against 60,000–80,000 Ottoman troops with 69 cannon and a fleet under Baltaoğlu Süleyman Bey. Barbaro puts the sultan's army at about 160,000. Mehmed commanded in person; Giustiniani led the land defence under Constantine.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Battle"
+          },
+          {
+            "source": 2,
+            "locator": "5 April"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Kritovoulos says Mehmed divided the walls among his commanders: Zaganos at Galata and the Horn, Karaja, Ishak and Mahmud on sections of the land wall, the sultan with his guard in the centre and Baltaoğlu with the fleet. Giustiniani concentrated most defenders on the land walls, and Barbaro records nine large ships placed along the boom on 9 April.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "Book 1"
+          },
+          {
+            "source": 0,
+            "locator": "Battle"
+          },
+          {
+            "source": 2,
+            "locator": "9 April"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The bombardment began on 6 April, and an assault the next day was repelled. About 20 April a small relief convoy fought its way through the Ottoman fleet into the harbour. By 22 April Ottoman vessels had been hauled overland into the Golden Horn. Through May the besiegers mined under the walls while the defenders countermined. The general assault began before dawn on 29 May.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Battle"
+          },
+          {
+            "source": 2,
+            "locator": "20 April – 29 May"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "After his fleet failed to force the chain, Mehmed had his smaller ships dragged on greased slipways over the hill behind Galata and into the Horn, stretching the defenders along yet more wall. For the final attack he combined artillery, infantry and ships, and sent in his Janissaries after two waves had been thrown back.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Battle"
+          },
+          {
+            "source": 1,
+            "locator": "Book 1"
+          },
+          {
+            "source": 2,
+            "locator": "22 April"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The defence broke when Giustiniani was wounded and carried from the walls, and his men left their posts. The sources disagree about how. Britannica says he was hit by gunfire and Kritovoulos says by a crossbow bolt, while Barbaro, a Venetian hostile to the Genoese, presents him as deserting and spreading a false alarm that the Turks were in.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Battle"
+          },
+          {
+            "source": 1,
+            "locator": "Book 1"
+          },
+          {
+            "source": 2,
+            "locator": "29 May"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Ottoman troops took the inner wall at the Gate of St Romanus and the city fell on 29 May 1453. A sack followed, which Kritovoulos describes in detail. Mehmed rode to Hagia Sophia and made it a mosque. Accounts of Constantine XI's death differ: Kritovoulos has him fall fighting at the gate, while Barbaro reports only rumours.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Battle"
+          },
+          {
+            "source": 1,
+            "locator": "Book 1"
+          },
+          {
+            "source": 2,
+            "locator": "29 May"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Mehmed moved his capital from Edirne to Constantinople, resettled it with people of many faiths and styled himself Caesar of Rome, then campaigned through the Balkans and Greece. Christian Europe lost its eastern buffer and access to the Black Sea.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Aftermath"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Walls that had held for a thousand years fell to a combination of sustained bombardment and complete blockade. Once the chain was bypassed, a small garrison was spread too thin, and its cohesion depended on a few leaders.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Battle"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Each eyewitness writes from a side. Barbaro dwells on the Venetians and blames the Genoese, and Kritovoulos, who served Mehmed, is the Greek account most favourable to the Ottomans. Numbers vary several-fold between sources. Britannica reports that many scholars see the flight of Greek scholars to Italy as marking the end of the Middle Ages; that is a periodisation, not an event.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "Introduction"
+          },
+          {
+            "source": 2,
+            "locator": "Introduction"
+          },
+          {
+            "source": 0,
+            "locator": "Aftermath"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "This study uses translated extracts from Kritovoulos's History of Mehmed the Conqueror and Nicolo Barbaro's diary, with Britannica for the overall narrative. Other Greek historians of the fall, such as Sphrantzes, Doukas and Chalkokondyles, were not read here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 0
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Preparations",
+        "time": "1452 – March 1453",
+        "description": "Mehmed fortifies the Bosporus and has great cannon built; Giustiniani arrives with Genoese troops."
+      },
+      {
+        "title": "Bombardment and blockade",
+        "time": "6–20 April 1453",
+        "description": "The guns open fire, a first assault fails and a relief convoy breaks into the harbour."
+      },
+      {
+        "title": "Ships over land",
+        "time": "22 April – May 1453",
+        "description": "Ottoman vessels are hauled into the Golden Horn; mining and countermining under the walls."
+      },
+      {
+        "title": "Final assault",
+        "time": "29 May 1453",
+        "description": "A combined assault before dawn; Giustiniani is wounded and the Janissaries break in."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Mehmed II",
+        "objective": "Take Constantinople and complete his father's unfinished aim.",
+        "known": "The walls had never been breached, the garrison was small and a chain closed the Golden Horn.",
+        "uncertainty": "Whether a Christian relief force would arrive in time.",
+        "constraints": "He had to win before relief came, and his galleys were too low to take tall Western ships.",
+        "forces": "A large army with cannon and a fleet; estimates run from 60,000–80,000 to Barbaro's 160,000.",
+        "terrain": "A double land wall with a moat, sea walls and a harbour closed by a chain.",
+        "logistics": "Cannon brought from Edirne and a new fortress controlling the Bosporus.",
+        "decision": "He hauled ships overland into the Horn, then launched a combined assault by land and sea and committed his Janissaries.",
+        "outcome": "The city fell on 29 May and became his capital."
+      },
+      {
+        "name": "Constantine XI",
+        "objective": "Hold the city until help came from the West.",
+        "known": "He had few trained soldiers, and Hungary would not help.",
+        "uncertainty": "Whether Venetian and papal aid would arrive before the walls gave way.",
+        "constraints": "A small, divided population opposed to church union, and walls too long to man fully.",
+        "forces": "Tedaldi's estimate of 6,000–7,000 trained soldiers, with armed civilians and Venetian and Genoese contingents.",
+        "terrain": "The land walls, the weakest sector in their centre, and the sea walls.",
+        "logistics": "Supplied by sea until Ottoman ships entered the Golden Horn.",
+        "decision": "He gave Giustiniani the land defences, concentrated men on the land walls and repaired breaches each night.",
+        "outcome": "The city fell and he was killed; accounts of his death differ."
+      }
+    ]
+  },
+  {
+    "slug": "panipat",
+    "sources": [
+      {
+        "title": "First Battle of Panipat",
+        "url": "https://www.britannica.com/event/First-Battle-of-Panipat-1526",
+        "publisher": "Encyclopaedia Britannica (Tamanna Nangia; Babur by T. G. Percival Spear)"
+      },
+      {
+        "title": "The Bābur-nāma in English (Memoirs of Bābur), trans. Annette Susannah Beveridge (1922)",
+        "url": "https://www.gutenberg.org/ebooks/44608",
+        "publisher": "Project Gutenberg"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Babur, a descendant of Timur and of Genghis Khan, lost his father's principality of Fergana and failed to hold Samarkand against the Uzbeks. He seized Kabul in 1504 and between 1519 and 1524 raided the Punjab four times without gaining a firm hold.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Background; Babur"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Ibrahim Lodi, sultan of Delhi from 1517, sought a centralised rule that alienated powerful nobles. Daulat Khan Lodi, governor of the Punjab, and Ibrahim's uncle Alam Khan urged Babur to invade a fifth time.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Background; The battle"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Babur set out in November 1525 to move against Ibrahim, who held Delhi and the dominions of Hindustan. Reports reached Babur that Ibrahim was advancing slowly to meet him, halting for days at each camp.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Background"
+          },
+          {
+            "source": 1,
+            "locator": "fol. 263"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Panipat lies about 80 km north of Delhi. Babur rested his right on the town and its suburbs, put carts and mantelets across his front and protected his left with a ditch and felled branches. Gaps an arrow's flight apart let out 100 to 200 horsemen at a time.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "First Battle of Panipat"
+          },
+          {
+            "source": 1,
+            "locator": "fols. 264–264b"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Babur reports that Ibrahim's army was estimated at 100,000 men with about 1,000 elephants; Britannica's Babur article gives 100 elephants. Beveridge notes that Babur's army was 12,000 when it crossed the Indus, with later additions in the Punjab, and Babur says a count before the battle fell short of expectations.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "fols. 264–264b and n. 2003"
+          },
+          {
+            "source": 0,
+            "locator": "Forces; Babur"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Seven hundred carts were joined in the Ottoman fashion with rawhide ropes, with mantelets between them for matchlockmen. Humayun led the right and Muhammad Sultan Mirza the left, with a centre, an advance guard and a reserve. Turning parties (tulughma) stood at the tips of both wings to ride round the enemy's rear.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "fols. 264, 266–266b"
+          },
+          {
+            "source": 0,
+            "locator": "Forces"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Humayun defeated Hamid Khan in February 1526, and on 2 April a detachment under Daud Khan Lodi was routed. Babur reached Panipat on 12 April and for a week harassed Ibrahim's camp; a night attack failed. On 20 April Ibrahim advanced at first light and by noon his army was broken. Babur reached Delhi on 24 April and Agra on 4 May.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "fols. 262b–268"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "A council chose to fight from a fortified position anchored on the town. Babur then tried to provoke Ibrahim with raids and a night attack. When the enemy came on, he reinforced his right and ordered the turning parties to wheel round both flanks while the wings closed in.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "fols. 264–266b"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "In Babur's account, Ibrahim's army halted on seeing the prepared line, unable either to stand or to keep advancing. The turning parties reached its rear, and its wings were crowded into the centre so tightly that they could neither attack nor escape.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "fols. 266b–267"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Ibrahim was killed and his body was found among the dead that afternoon. Babur sent columns at once to secure the treasuries of Delhi and Agra, and the Friday sermon was read in his name in Delhi on 27 April.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "fols. 267–268"
+          },
+          {
+            "source": 0,
+            "locator": "The battle"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The battle ended the Lodi dynasty and the Delhi sultanate and set the base for Mughal rule. Unlike Timur, Babur stayed; he persuaded reluctant followers to remain and faced Rana Sanga at Khanua in March 1527.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "The battle; Babur"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A smaller army chose its ground, fortified it and let a larger one attack. Field defences, mobile flanking forces and missile fire worked together against an army whose commander could not rely on his nobles.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Forces"
+          },
+          {
+            "source": 1,
+            "locator": "fols. 264–267"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Babur dates the battle to 20 April; Britannica notes that some scholars prefer 21 April. The role of guns is disputed. Britannica stresses artillery, but Beveridge argues that Babur had few guns, perhaps only two, and that he presents the victory as an archers' success. Babur's portrait of Ibrahim as miserly and untried is the victor's.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "First Battle of Panipat; Forces"
+          },
+          {
+            "source": 1,
+            "locator": "n. 1660, n. 1677"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The main source is Babur's own memoir, written in Turki, in Beveridge's annotated translation, which compares manuscripts and earlier translations. Her notes also report an Afghan tradition that the fighting was unusually desperate. Britannica supplies the wider context.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "n. 1678"
+          },
+          {
+            "source": 0
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "March into Hindustan",
+        "time": "November 1525 – March 1526",
+        "description": "Babur leaves Kabul; Humayun defeats Hamid Khan on the way."
+      },
+      {
+        "title": "Fortified camp",
+        "time": "2–12 April 1526",
+        "description": "An advance force is routed; 700 carts are joined and the army reaches Panipat."
+      },
+      {
+        "title": "Provocation",
+        "time": "12–19 April 1526",
+        "description": "Raids on Ibrahim's camp and a failed night attack."
+      },
+      {
+        "title": "Battle and pursuit",
+        "time": "20 April – 4 May 1526",
+        "description": "Ibrahim attacks and is encircled and killed; Delhi and Agra are occupied."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Babur",
+        "objective": "Defeat Ibrahim Lodi and take Delhi and Agra.",
+        "known": "Ibrahim's army was reported at 100,000 men with many elephants and was advancing slowly.",
+        "uncertainty": "Whether Ibrahim would attack a prepared position, and whether his own anxious men would hold.",
+        "constraints": "A much smaller army, months from home among people whose language it did not speak.",
+        "forces": "About 12,000 at the Indus with later additions: cavalry archers, matchlockmen and a few guns.",
+        "terrain": "The town on his right, carts and mantelets in front, and a ditch and branches on his left.",
+        "logistics": "A distant base at Kabul; carts gathered from the army for the defensive line.",
+        "decision": "He fortified at Panipat, provoked Ibrahim, and when attacked sent turning parties round both flanks.",
+        "outcome": "Ibrahim was killed and Babur occupied Delhi and Agra."
+      },
+      {
+        "name": "Ibrahim Lodi",
+        "objective": "Destroy the invader and keep his throne.",
+        "known": "Babur was entrenched near Panipat, and his advance detachments had been beaten.",
+        "uncertainty": "The loyalty of nobles alienated by his rule.",
+        "constraints": "Disaffected nobles; Babur, a hostile witness, says he would not spend his treasure on extra troops.",
+        "forces": "A large army of cavalry, elephants and hired troops, reported at 100,000.",
+        "terrain": "An open approach to a fortified line.",
+        "logistics": "The treasuries of Delhi and Agra.",
+        "decision": "After a week of provocation he advanced at dawn on 20 April against the prepared line.",
+        "outcome": "His army was encircled and he was killed."
+      }
+    ]
+  },
+  {
+    "slug": "sekigahara",
+    "sources": [
+      {
+        "title": "Battle of Sekigahara",
+        "url": "https://www.britannica.com/event/Battle-of-Sekigahara",
+        "publisher": "Encyclopaedia Britannica (Myles Hudson)"
+      },
+      {
+        "title": "The battle of Sekigahara – what went right?",
+        "url": "https://www.ospreypublishing.com/uk/osprey-blog/2019/the-battle-of-sekigahara-what-went-right",
+        "publisher": "Osprey Publishing (Stephen Turnbull)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Toyotomi Hideyoshi completed the unification of Japan in 1590. Before his death in 1598 he appointed five regents to rule for his young son Hideyori: Uesugi Kagekatsu, Mōri Terumoto, Maeda Toshiie, Ukita Hideie and Tokugawa Ieyasu.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Background"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Ieyasu's political marriages and his move to Ōsaka Castle led others to fear that he meant to supplant the heir. Ishida Mitsunari formed a coalition and on 22 August 1600 denounced him; Ieyasu answered with war. Alliances fell largely along east–west lines, but Uesugi in the east had plotted with Mitsunari.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Background"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Mitsunari aimed to preserve the Toyotomi legacy and stop Ieyasu. His plan was to hold the eastern army in the valley and then signal forces on the surrounding heights to descend and trap it. Ieyasu aimed to break the coalition and reunite his three columns in Mino province.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Background; Battle"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Sekigahara was a village in a mountain valley where several major roads met. Kobayakawa Hideaki's troops held Mount Matsuo to the south, and Mōri and Chōsokabe forces held Mount Nangū behind the eastern army. A thick fog covered the valley until about 8 a.m.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Battle"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Britannica gives Ieyasu nearly 89,000 men against just under 82,000 for the western coalition, including 15,000 under Kobayakawa. Both armies were coalitions of daimyō under their own lords. Turnbull warns that the standard troop layouts derive from an 1893 General Staff reconstruction based on cruder old maps.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Battle"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The western army arrived first after a night withdrawal from Ōgaki Castle. Ukita held the centre, Shimazu Yoshihiro the north and Ōtani Yoshitsugu the south, with Mitsunari behind field fortifications. Ieyasu entered from the Nakasendō road with Fukushima Masanori in the vanguard and Ii Naomasa's shock troops.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Background; Battle"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Ieyasu's columns converged on Mino; Gifu fell, but his son Hidetada was delayed besieging Ueda Castle. On 21 October fighting began when the fog lifted. At 11 a.m. Mitsunari signalled Kobayakawa, who stayed still until shortly after noon and then attacked Ōtani. Other units defected, the western centre broke, Shimazu withdrew, and by 2 p.m. Ieyasu declared victory.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Background; Battle"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Ieyasu attacked into a valley overlooked by enemy forces because he had secret assurances from Kobayakawa and Kikkawa Hiroie. Ōtani turned half his men to face Kobayakawa in expectation of betrayal. Kikkawa's refusal to move held back the Mōri and Chōsokabe troops behind him.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Battle"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Kobayakawa's attack on Ōtani and the defections that followed broke the western line, and Kikkawa's inaction held back some 20,000 Mōri and Chōsokabe troops. Shiramine Jun, as reported by Turnbull, argues that the defection came at the start of the battle rather than at midday.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Battle"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The western coalition was shattered. Mitsunari fled into the mountains and was beheaded in Kyōto within a month, and Ieyasu took Sawayama and Ōsaka castles within days.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Aftermath"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Ieyasu confiscated lands from opponents and rewarded allies, including Kobayakawa and Kikkawa. In 1603 the emperor appointed him shōgun, founding a shogunate that lasted until 1868.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Aftermath"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "The battle was largely decided by negotiation before it began; a plan that depended on allies obeying a signal was only as strong as their loyalty. Turnbull also stresses that it was one battle in a wider war, in which events at Fushimi, Gifu and in the north could have changed the result.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Battle"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Turnbull reports Shiramine Jun's 2014 revision: early reports called the battle Yamanaka, the labels Eastern and Western army appear only in 1698, the story of Ieyasu firing on Kobayakawa is a myth, the hill units were waiting on events, and the battle was shorter. Turnbull finds the defection timing persuasive; Britannica follows the conventional account.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0,
+            "locator": "Battle"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica gives the conventional narrative and Turnbull summarises recent Japanese research. Shiramine's book and the Japanese primary sources were not read directly.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Coalitions form",
+        "time": "1598 – August 1600",
+        "description": "Hideyoshi dies; Mitsunari's coalition denounces Ieyasu, who declares war."
+      },
+      {
+        "title": "Converging columns",
+        "time": "September – 20 October 1600",
+        "description": "Gifu falls, Hidetada is delayed at Ueda and the western army moves to Sekigahara."
+      },
+      {
+        "title": "Battle in the valley",
+        "time": "21 October 1600, morning",
+        "description": "The fog lifts and the armies engage; Mitsunari signals the hill forces."
+      },
+      {
+        "title": "Defection and collapse",
+        "time": "21 October 1600, midday – 2 p.m.",
+        "description": "Kobayakawa attacks Ōtani, other units defect and the western army breaks."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Ishida Mitsunari",
+        "objective": "Preserve Toyotomi authority and stop Ieyasu.",
+        "known": "Ieyasu's army was close by at Gifu and growing.",
+        "uncertainty": "Whether Kobayakawa and the Mōri forces would obey his signal.",
+        "constraints": "A coalition of daimyō with their own interests, some of whom he had slighted.",
+        "forces": "Just under 82,000 on paper, according to Britannica.",
+        "terrain": "Positions in the valley and on Mount Matsuo and Mount Nangū around it.",
+        "logistics": "A base at Ōgaki Castle, with Ōsaka and Fushimi in his coalition's hands.",
+        "decision": "He moved by night to Sekigahara, planning to pin the enemy and then signal the hill forces.",
+        "outcome": "The hill forces defected or stayed still; he fled and was captured and executed."
+      },
+      {
+        "name": "Tokugawa Ieyasu",
+        "objective": "Break the coalition and secure his own power.",
+        "known": "Kobayakawa and Kikkawa had secretly promised not to fight for Mitsunari.",
+        "uncertainty": "Whether those promises would be kept.",
+        "constraints": "Hidetada's column was delayed at Ueda, and Uesugi threatened from the east.",
+        "forces": "Nearly 89,000, according to Britannica.",
+        "terrain": "He entered the valley from the Nakasendō with enemy forces on the heights around him.",
+        "logistics": "Gifu Castle, captured by his Tōkaidō column.",
+        "decision": "He attacked into the valley and, in the conventional account, fired on Kobayakawa's troops to force his hand.",
+        "outcome": "He won and was appointed shōgun in 1603."
+      }
+    ]
+  },
+  {
+    "slug": "breitenfeld",
+    "sources": [
+      {
+        "title": "Battle of Breitenfeld",
+        "url": "https://www.britannica.com/event/Battle-of-Breitenfeld",
+        "publisher": "Encyclopaedia Britannica (Jacob F. Field)"
+      },
+      {
+        "title": "History of Europe: The crisis of the war, 1629–35",
+        "url": "https://www.britannica.com/topic/history-of-Europe/The-crisis-of-the-war-1629-35",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Breitenfeld (Encyclopædia Britannica, 1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Breitenfeld",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Battle of Breitenfeld, 17 September 1631",
+        "url": "https://www.historyofwar.org/articles/battles_breitenfeld.html",
+        "publisher": "History of War (J. Rickard)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Gustav II Adolf of Sweden fought Poland through the 1620s for land on the Baltic. After the Truce of Altmark in 1629 he landed near Stralsund on 6 July 1630. That summer the emperor's Catholic allies forced the dismissal of Wallenstein and the reduction of his army.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The emperor and his allies refused concessions on the Edict of Restitution, which drove reluctant German Protestants towards Sweden, whose army grew with French and Dutch subsidies. The sack of Magdeburg in May 1631 had dashed Protestant hopes. On 15 September the Swedish army joined that of the Electorate of Saxony.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Gustavus wanted a victory that would persuade other Protestant states to join him. Tilly, who had just taken Leipzig, intended according to Rickard to wait for reinforcements, but his deputy Pappenheim pressed for battle.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The armies met on a plain near the village of Breitenfeld, north of Leipzig. The 1911 Britannica describes a low east–west ridge between Göbschelwitz and Breitenfeld, held by the imperialists, with the allies opposite beyond villages along the Loberbach stream.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Britannica gives 23,000 Swedes and 16,000 Saxons against Tilly's 35,000, and Swedish guns outnumbering imperial guns 51 to 27. The 1911 edition gives about 22,000 Swedes, 15,000 Saxons and at least 32,000 imperialists; Rickard gives 42,000 allies against 36,000. The Saxons were commanded by their elector with Arnim; Pappenheim and Fürstenberg led Tilly's cavalry wings.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Tilly drew up his infantry in large blocks with cavalry on the wings and artillery in front. Gustavus formed two lines with a reserve, mixing pikemen and musketeers in smaller units and attaching musketeers to his cavalry. The raw Saxon army, formed like Tilly's, stood separately on the Swedish left.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "An artillery exchange ran from noon to about 2 p.m. Pappenheim's cavalry then attacked the Swedish right and was driven off. The imperial right broke the Saxons, who fled the field. Tilly's infantry turned on the exposed Swedish left, which re-formed to meet it. About 5 p.m. Gustavus counterattacked, and imperial resistance ended at dusk.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Gustavus kept his lines apart from the Saxons and held a second line and reserve. When the Saxons fled, he used them to form a new left flank instead of retreating. His right wing then wheeled, captured Tilly's guns and turned them on the imperial infantry.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The Saxon collapse seemed to open the Swedish flank, but the Swedish formation could change front quickly while Tilly's large blocks could not. The loss of the imperial artillery to the counterattack turned a stalemate into a rout.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The imperial army fled at dusk, with Tilly badly wounded; Rickard credits Pappenheim's cavalry with covering the retreat. Many of the imperial troops who surrendered, mostly mercenaries, enlisted with the Swedes.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "It was the first major Protestant victory of the war. The Swedes overran much of central Germany and Bohemia over the winter of 1631–32 and occupied Bavaria the next summer. Gustavus was hailed as the Lion of the North and drew several Protestant states into alliance, before dying at Lützen in November 1632.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A coalition army is only as strong as its least reliable part, but reserves and flexible formations can absorb the loss of a wing. Artillery placed forward can be captured and used against its owners.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Force figures vary by several thousand between sources. They also differ on the opening: Britannica says a Swedish outflanking move provoked Pappenheim's charge, while the 1911 edition and Rickard simply have Pappenheim open the fighting. Britannica's verdict that the battle proved linear tactics superior is an interpretation.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica's battle article and its history of Europe give the narrative and context, the 1911 Britannica the fullest account of the deployments, and Rickard a concise summary. No contemporary account was read for this study.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Allies join",
+        "time": "15 September 1631",
+        "description": "The Swedish and Saxon armies unite as Tilly takes Leipzig."
+      },
+      {
+        "title": "Cannonade and cavalry",
+        "time": "17 September, noon – afternoon",
+        "description": "An artillery exchange, then Pappenheim's charge against the Swedish right is driven off."
+      },
+      {
+        "title": "Saxon collapse",
+        "time": "17 September, afternoon",
+        "description": "The imperial right routs the Saxons; the Swedes form a new left flank."
+      },
+      {
+        "title": "Counterattack",
+        "time": "17 September, 5 p.m. – dusk",
+        "description": "The Swedes capture Tilly's guns and the imperial army breaks."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Gustavus Adolphus",
+        "objective": "Win a victory that would bring the German Protestant states to his side.",
+        "known": "Tilly held Leipzig, and the Saxon army was newly raised.",
+        "uncertainty": "Whether the Saxons would stand.",
+        "constraints": "Dependence on an untested ally, and on foreign subsidies to keep his army in the field.",
+        "forces": "About 23,000 Swedes in small mixed units, with more guns than the enemy.",
+        "terrain": "Open ground facing an enemy on a low ridge.",
+        "logistics": "Supported by French and Dutch subsidies.",
+        "decision": "He kept his army apart from the Saxons with a reserve, re-formed his left when they fled and counterattacked.",
+        "outcome": "Tilly's army was destroyed and Sweden emerged as a great power."
+      },
+      {
+        "name": "Tilly",
+        "objective": "Defend his position at Leipzig against the newly united Swedish-Saxon army.",
+        "known": "Saxony had joined Sweden, and he had just taken Leipzig.",
+        "uncertainty": "Whether to wait for reinforcements or fight; Pappenheim urged battle.",
+        "constraints": "Fewer guns and large, slow infantry formations.",
+        "forces": "About 35,000 imperial and Catholic League troops; sources differ.",
+        "terrain": "The crest of a low ridge north of Leipzig.",
+        "logistics": "Leipzig behind him.",
+        "decision": "He gave battle, and after the Saxons broke sent his infantry against the exposed Swedish left.",
+        "outcome": "His army was routed and he was badly wounded."
+      }
+    ]
   }
 ]

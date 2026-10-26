@@ -1,5 +1,1281 @@
 [
   {
+    "slug": "toulon",
+    "sources": [
+      {
+        "title": "Siege of Toulon",
+        "url": "https://www.britannica.com/print/article/600675",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Evacuation of Toulon, 1793 (showing many ships on fire)",
+        "url": "https://rmg.co.uk/collections/objects/rmgc-object-143177",
+        "publisher": "Royal Museums Greenwich"
+      },
+      {
+        "title": "View of Toulon, 1793",
+        "url": "https://militarymaps.rct.uk/french-revolutionary-wars-1792-1802/toulon-1793-evacuation-des-puissances",
+        "publisher": "Royal Collection Trust"
+      },
+      {
+        "title": "Les blessures de Napoléon (Xavier Riaud)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/articles/les-blessures-de-napoleon/",
+        "publisher": "Fondation Napoléon"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "In 1793 military defeats and the fall of the Girondins brought the Montagnards to power, and federalist and royalist revolts broke out in the provinces. In Toulon, the main French naval base and arsenal on the Mediterranean, royalists negotiated with the British admiral Lord Hood.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "On 27–28 August 1793 Toulon was handed to an Anglo-Spanish fleet under Hood and Lángara in the name of the child Louis XVII, together with a large part of the French Mediterranean fleet. The base's strategic value and the Revolution's prestige both demanded its recapture.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The republicans needed to retake the port and its ships; the allies needed to keep the anchorage safe. Britannica credits Bonaparte with the plan that Dugommier carried out: to take the forts commanding the anchorage, so that the fleet could not stay, rather than storm the city.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Toulon's harbour is ringed by heights and forts. Whoever held the forts commanding the anchorage could fire on the ships inside it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "General Carteaux began the siege; General Dugommier directed it from November. Bonaparte took over the artillery when its commander was wounded, a post he owed to the commissioner Saliceti. The allied garrison included British, Spanish and Neapolitan troops, commanded from November by General O'Hara.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Through the autumn the republicans built up batteries on the heights around the city, while the allies held the forts and kept their fleet in the harbour.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The siege began in early September and was pressed slowly until Dugommier arrived. On 30 November an allied sortie against French batteries was thrown back and O'Hara was captured. On the night of 16–17 December, under heavy bombardment, the republicans stormed the forts commanding the anchorage, including Fort Mulgrave, where Bonaparte was wounded in the thigh. On 18 December French guns opened fire on the fleet, and the allies evacuated.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Dugommier's adoption of Bonaparte's plan to strike at the forts above the anchorage, rather than the city's defences, was decisive. Hood's decision to evacuate, taking refugees with him and ordering the arsenal and ships burned, followed once the anchorage was under fire.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The capture of the forts over the anchorage made the harbour untenable for the allied fleet.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The allies embarked their troops and many thousands of inhabitants who feared the republicans' vengeance. Ships and much of the arsenal were set on fire, but the destruction was only partly achieved, and a sizable part of the fleet was later recovered and repaired.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Republican troops entered on 19 December, and the reprisals were severe: Jacobins coming out to welcome them were cut down, royalists were rounded up and shot or bayoneted, and special tribunals under representatives of the Convention, among them Barras, Fréron and Augustin Robespierre, sent many more to their deaths. The Convention proposed renaming the city and razing its civilian buildings. On 22 December Bonaparte was promoted to brigadier general. Among the ships that survived was L'Orient, later destroyed at the Nile.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Attacking what makes an enemy's position untenable can achieve more than attacking the position itself: a naval base is held from the heights around it.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Later legend magnified Bonaparte's part. Britannica credits him with the plan; the Royal Museums Greenwich catalogue says only that he played a notable role. The date of his wound is given as 16 or 17 December, and the extent of the fleet's destruction is reported differently. The scale of the reprisals is not quantified here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica's article, read in a browser, gives the fullest narrative. The Royal Museums Greenwich and Royal Collection catalogue entries describe an eyewitness drawing and a contemporary print of the evacuation, and Xavier Riaud's article for the Fondation Napoléon covers Bonaparte's wound. Campaign histories such as Chandler's were not read.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Toulon handed over",
+        "time": "27–28 August 1793",
+        "description": "Royalists hand the port and much of the fleet to Hood's Anglo-Spanish force."
+      },
+      {
+        "title": "Siege and artillery",
+        "time": "September–November 1793",
+        "description": "Carteaux begins the siege; Bonaparte takes over the artillery; Dugommier takes command."
+      },
+      {
+        "title": "The forts stormed",
+        "time": "Night of 16–17 December 1793",
+        "description": "Under bombardment the republicans storm the forts above the anchorage; Bonaparte is wounded."
+      },
+      {
+        "title": "Evacuation and reprisals",
+        "time": "18–19 December 1793 and after",
+        "description": "The allies evacuate and burn ships; republican troops take the city and reprisals follow."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Dugommier and Bonaparte",
+        "objective": "Retake Toulon and its fleet for the Republic.",
+        "known": "The allied fleet depended on an anchorage protected by forts on the heights.",
+        "uncertainty": "Whether the allies would hold the forts, or stay once the anchorage was under fire.",
+        "constraints": "A slow siege under Carteaux and a garrison reinforced by sea.",
+        "forces": "Republican infantry and an artillery train built up through the autumn.",
+        "terrain": "Heights and forts ringing the harbour.",
+        "logistics": "Batteries had to be built up on the heights before the assault.",
+        "decision": "They assaulted the forts commanding the anchorage under heavy bombardment.",
+        "outcome": "The allies evacuated, and Bonaparte was promoted to brigadier general."
+      },
+      {
+        "name": "Admiral Lord Hood",
+        "objective": "Hold Toulon and its ships in the name of Louis XVII.",
+        "known": "Republican batteries were rising on the heights around the city.",
+        "uncertainty": "Whether the forts over the anchorage could be held.",
+        "constraints": "A mixed allied garrison and a fleet that needed a safe anchorage.",
+        "forces": "British, Spanish and Neapolitan troops and the Anglo-Spanish fleet.",
+        "terrain": "Forts on the heights above the harbour.",
+        "logistics": "Supply and reinforcement by sea.",
+        "decision": "When the forts fell and guns opened on the fleet, he evacuated, taking refugees and ordering the arsenal and ships burned.",
+        "outcome": "Toulon was lost, and the burning of the fleet was only partly achieved."
+      }
+    ]
+  },
+  {
+    "slug": "montenotte",
+    "sources": [
+      {
+        "title": "De Paris à Milan, mars–mai 1796 (Revue du Souvenir Napoléonien 406)",
+        "url": "https://www.napoleon.org/wp-content/themes/napoleon/annexes/hors-serie/premiere-campagne-italie/fr/lesecrits/articles/articles01.html",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "La 1ère campagne d'Italie : chronologie",
+        "url": "https://www.napoleon.org/wp-content/themes/napoleon/annexes/hors-serie/premiere-campagne-italie/fr/chronologie/chrono.html",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Il y a 230 ans, les premières victoires de la campagne d'Italie (Pierre Branda)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/articles/la-chronique-de-pierre-branda-il-y-a-230-ans-les-premieres-victoires-de-la-campagne-ditalie/",
+        "publisher": "Fondation Napoléon"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "The Army of Italy, formed in 1792, had spent 1793–1795 fighting at heavy cost in the Alpine passes. On 2 March 1796 the Directory gave Bonaparte its command, and he took over at Nice on 27 March.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The army was strung out along the coast. Facing it, Colli's Sardinian army lay around Ceva and Mondovì and Beaulieu's Austrians further east, each with its own line of retreat. The allies themselves planned an offensive into Provence with British naval support.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Bonaparte planned to cross the Apennines by the Cadibona pass, seize the ground between the two allied armies and defeat each in turn. The Fondation Napoléon article says he had proposed such a plan in 1794, and credits Carnot with the principle of concentrating force on a main theatre.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The campaign was fought in the Ligurian Apennines and the upper valleys of the Bormida and Tanaro, among ridges, castles and narrow valleys. Branda notes that the Austrian corps at Montenotte held high ground but was poorly linked to its rear and far from the Piedmontese.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The article says Bonaparte's mobile forces had fewer infantry than the allies, little cavalry and far fewer guns. His divisions were led by Masséna, Laharpe, Augereau and Sérurier. The allies were dispersed in winter quarters, with detachments under d'Argenteau and Provera linking Beaulieu's Austrians to Colli's Sardinians. The strengths the article gives are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Bonaparte feinted toward Turin and Alessandria and left a brigade at Voltri as a deception. Beaulieu attacked Voltri on 10 April, and d'Argenteau moved against Monte Legino, which a small French force held.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 12 April Laharpe attacked d'Argenteau frontally at Montenotte while Masséna came on his flank, and the Austrians retreated. Augereau took Millesimo on 13 April, and the Piedmontese in the castle of Cosseria surrendered. Masséna took Dego, lost it to an Austrian counterattack on 15 April and recovered it. Bonaparte then turned on the Piedmontese: after checks at Ceva and on the flooded Tanaro, Colli was driven from Mondovì.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Bonaparte chose to defeat the Sardinians first, against the Directory's instruction to strike the Austrians, arguing that Colli was closest and threatened his communications. He shifted his supply line to cover the advance.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The separation of the two allied armies after Montenotte, Millesimo and Dego left Colli to face the concentrated French army alone.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "By the armistice of Cherasco on 28 April 1796, the King of Sardinia left the coalition, handed over Coni, Tortona and Alessandria with their artillery and stores, and granted passage over the Po.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Peace with Piedmont-Sardinia followed in May, ceding Savoy and Nice to France. The army's supply line was shortened, and Bonaparte could turn on Beaulieu in Lombardy. Branda notes that Bonaparte's letters to the Directory, reprinted in French newspapers, began to build his public image; he later said his nobility dated from Montenotte.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Striking the hinge between two allied armies whose interests and lines of retreat diverged let a weaker army defeat each in turn: the strategy of the central position.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "How far the plan was Bonaparte's own is debated; the article traces it to his earlier proposals while acknowledging Carnot's principles. The article also shows how the official version was shaped: credit for holding Monte Legino went to Rampon, and the famous proclamation to the army at Nice was probably reconstructed later. The date of Mondovì is given as 21 or 22 April. Bonaparte's claims of prisoners and captured guns are not repeated.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The main narrative is the Fondation Napoléon's article from the Revue du Souvenir Napoléonien, which draws on Corda, Colin and others and criticizes Napoleon's later Saint Helena accounts as unreliable. Its chronology and Pierre Branda's 2026 chronicle add dates and the role of publicity.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Opening moves",
+        "time": "10–11 April 1796",
+        "description": "Beaulieu attacks Voltri; d'Argenteau is held at Monte Legino."
+      },
+      {
+        "title": "Montenotte",
+        "time": "12 April 1796",
+        "description": "Laharpe and Masséna break d'Argenteau's corps."
+      },
+      {
+        "title": "Millesimo and Dego",
+        "time": "13–15 April 1796",
+        "description": "Augereau takes Millesimo and Cosseria; Dego is taken, lost and retaken."
+      },
+      {
+        "title": "Mondovì and Cherasco",
+        "time": "16–28 April 1796",
+        "description": "Colli is driven from Mondovì, and Piedmont signs the armistice of Cherasco."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Napoleon Bonaparte",
+        "objective": "Separate the Austrian and Sardinian armies and defeat each in turn.",
+        "known": "The allies were dispersed, with detachments linking them across the mountains.",
+        "uncertainty": "Whether he could beat one army before the other came to its aid.",
+        "constraints": "An army short of cavalry, guns and supplies, and Directory orders to strike the Austrians first.",
+        "forces": "Divisions under Masséna, Laharpe, Augereau and Sérurier.",
+        "terrain": "Apennine passes and narrow valleys.",
+        "logistics": "Depots at Ormea and Garessio, with the supply line later shifted toward Ceva.",
+        "decision": "He struck at Montenotte, Millesimo and Dego, then turned on Colli rather than Beaulieu.",
+        "outcome": "Piedmont left the war within weeks."
+      },
+      {
+        "name": "Beaulieu and Colli",
+        "objective": "Defend Piedmont and Lombardy and, the article says, take the offensive into Provence.",
+        "known": "The French army was spread along the coast.",
+        "uncertainty": "Where Bonaparte would strike.",
+        "constraints": "Two armies of different states, in winter quarters, with diverging lines of retreat.",
+        "forces": "Beaulieu's Austrians, Colli's Sardinians and linking detachments under d'Argenteau and Provera.",
+        "terrain": "Mountain positions and castles such as Cosseria.",
+        "logistics": "Separate bases toward Lombardy and Turin.",
+        "decision": "Beaulieu attacked Voltri while d'Argenteau pushed on Monte Legino.",
+        "outcome": "The armies were separated, Colli was beaten and Piedmont signed an armistice."
+      }
+    ]
+  },
+  {
+    "slug": "lodi",
+    "sources": [
+      {
+        "title": "De Paris à Milan, mars–mai 1796 (Revue du Souvenir Napoléonien 406)",
+        "url": "https://www.napoleon.org/wp-content/themes/napoleon/annexes/hors-serie/premiere-campagne-italie/fr/lesecrits/articles/articles01.html",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Lodi",
+        "url": "https://www.napoleon.org/en/magazine/places/lodi-2/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "La 1ère campagne d'Italie : chronologie",
+        "url": "https://www.napoleon.org/wp-content/themes/napoleon/annexes/hors-serie/premiere-campagne-italie/fr/chronologie/chrono.html",
+        "publisher": "Fondation Napoléon"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Cherasco Bonaparte turned against Beaulieu's Austrian army. Instead of forcing the Po at Valenza, he made a surprise crossing near Piacenza while Sérurier made visible preparations at Valenza.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Bonaparte concluded an armistice with the Duke of Parma for money and food. On the night of 9–10 May General Laharpe was killed at Codogno in confused fighting, the article says almost certainly by French fire.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Bonaparte aimed to cut off Beaulieu's retreat west of the Adda. Beaulieu had already crossed, leaving a rearguard under Sebottendorf to hold the bridge at Lodi.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Lodi is a small Lombard city south-east of Milan on the Adda. The single bridge was the focus of the fighting; the present bridge stands a little south of the 1796 one.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Sebottendorf's rearguard held the far bank with infantry and guns. Bonaparte's advance guard included elite battalions and cavalry, and Masséna's troops reached the bridge. The strengths given in the article are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Bonaparte sent cavalry to ford the river upstream and placed guns to cover the bridge so that it could not be destroyed.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 10 May a grenadier column, led by its generals, crossed the bridge under heavy fire, while cavalry under Beaumont and Ordener crossed above the city and struck the Austrian flank. The rearguard withdrew, leaving prisoners and guns.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Bonaparte combined a frontal assault across the bridge with a cavalry crossing upstream, accepting the risk of an attack under fire rather than waiting for the flanking move alone.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The grenadiers' crossing, together with the cavalry on the flank, broke the rearguard.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The bridge was taken, but Beaulieu's main army had already escaped; the Fondation Napoléon article calls the success incomplete because Bonaparte arrived too late.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The victory opened the road to Milan, which Bonaparte entered in mid-May. He wrote to Carnot on 11 May that the battle had given the Republic all of Italy, and Lodi earned him the nickname of the Little Corporal.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A tactically daring action can matter more for morale and reputation than for its operational result: Lodi took a bridge but missed the army it was meant to trap.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Accounts of who led the storming column differ; the article says only that the generals led it, and the places page credits Masséna with getting across. Napoleon's later claim that Lodi revealed his destiny is not documented in the sources read here. The entry into Milan is dated 15 or 16 May.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The Fondation Napoléon's article from the Revue du Souvenir Napoléonien gives the narrative, its places page describes the site and quotes Bonaparte's letter to Carnot, and its chronology supplies dates.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Across the Po",
+        "time": "7–8 May 1796",
+        "description": "Dallemagne's advance guard crosses near Piacenza, and an Austrian division is beaten at Fombio."
+      },
+      {
+        "title": "To Lodi",
+        "time": "9–10 May 1796",
+        "description": "Laharpe is killed at Codogno; Bonaparte reaches Lodi as Beaulieu's rearguard holds the bridge."
+      },
+      {
+        "title": "The bridge",
+        "time": "10 May 1796",
+        "description": "Guns cover the bridge, cavalry fords upstream and grenadiers storm across."
+      },
+      {
+        "title": "Milan",
+        "time": "Mid-May 1796",
+        "description": "The rearguard withdraws and Bonaparte enters Milan, but Beaulieu has escaped."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Napoleon Bonaparte",
+        "objective": "Trap Beaulieu's army west of the Adda.",
+        "known": "Beaulieu was retreating, and a rearguard held Lodi.",
+        "uncertainty": "Whether the main Austrian army was still within reach.",
+        "constraints": "The article notes delays from a lack of shoes and pontoon equipment.",
+        "forces": "Elite battalions, cavalry and guns, with Masséna's troops.",
+        "terrain": "A single bridge over the Adda, with fords upstream.",
+        "logistics": "A long march from Piacenza after the Po crossing.",
+        "decision": "He covered the bridge with guns, sent cavalry upstream and launched a grenadier column across.",
+        "outcome": "He won the bridge but not the army; the road to Milan was open."
+      },
+      {
+        "name": "Sebottendorf's rearguard",
+        "objective": "Hold the Adda crossing while Beaulieu's army withdrew.",
+        "known": "The French were approaching from Piacenza.",
+        "uncertainty": "Whether the bridge could be held long enough or destroyed.",
+        "constraints": "A rearguard, not the main army, with the river in front of it.",
+        "forces": "Infantry and guns on the far bank.",
+        "terrain": "The far bank of the Adda, commanding the bridge.",
+        "logistics": "Its own line of retreat behind the main army.",
+        "decision": "It defended the bridge with fire.",
+        "outcome": "Outflanked by cavalry and stormed, it withdrew, but the main army had escaped."
+      }
+    ]
+  },
+  {
+    "slug": "castiglione",
+    "sources": [
+      {
+        "title": "De Mantoue à Tolentino, juin 1796 – février 1797 (Revue du Souvenir Napoléonien 410)",
+        "url": "https://www.napoleon.org/wp-content/themes/napoleon/annexes/hors-serie/premiere-campagne-italie/fr/lesecrits/articles/articles02.html",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "La 1ère campagne d'Italie : chronologie",
+        "url": "https://www.napoleon.org/wp-content/themes/napoleon/annexes/hors-serie/premiere-campagne-italie/fr/chronologie/chrono.html",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Wurmser, Dagobert Sigismond, comte de (Daniel Reichel, Dictionnaire Napoléon)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/biographies/wurmser-dagobert-sigismond-comte-de-1724-1797-marechal-allemand/",
+        "publisher": "Fondation Napoléon"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Lodi the French blockaded Mantua; the chronology dates the start of the siege to 18 July 1796. Wurmser, a veteran Austrian marshal, replaced Beaulieu and was reinforced from the Rhine to relieve the fortress.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Holding the siege tied much of Bonaparte's army to cordon posts around Mantua, and Wurmser's biography says he believed it would keep Bonaparte pinned.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Wurmser divided his army: Quasdanovich came down the Chiese valley west of Lake Garda while Wurmser came down the Adige to the east, both converging on Mantua. Bonaparte's aim was to concentrate against each column before they could unite.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Lake Garda separated the two Austrian columns, which could not support each other. The main battle was fought between Solferino and Castiglione, south of the lake, with Wurmser's right on the Solferino heights and his left on the plain.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Bonaparte had divisions under Masséna, Augereau, Sérurier, Sauret and Despinoy and a reserve under Kilmaine that included Marmont's horse artillery. Wurmser and Quasdanovich led the two Austrian columns. The article's strengths are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Wurmser faced west across the Brescia–Mantua road. Bonaparte planned a frontal attack by Augereau and Masséna, a flank attack by Sérurier's division brought up from Marcaria by way of Guidizzolo, and a decisive thrust by Kilmaine's reserve.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 29–30 July the Austrian columns drove in the French covering posts, took Brescia and threatened Bonaparte's communications. He lifted the siege of Mantua on 30 July, abandoning siege equipment, and turned on Quasdanovich, whose columns were beaten around Lonato, Salò and Brescia; the fighting of 3 August kept the Austrian columns apart. On 5 August Bonaparte attacked Wurmser at Castiglione.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Bonaparte's decision to give up the siege and sacrifice its equipment in order to concentrate his army was decisive and remains controversial.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Sérurier's flank attack shook the Austrians, and Kilmaine's reserve then made the decisive attack.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Wurmser retreated across the Mincio and the Adige toward Trent. The French, exhausted by days of forced marching, could not pursue, and the siege of Mantua was resumed on 7 August.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Wurmser tried again in September, was defeated at Bassano and ended up shut inside Mantua, which surrendered early in 1797; Bonaparte granted him the honours of war.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Interior lines let a commander strike separated enemy forces one after another, but only by giving up secondary objectives; here the siege train was the price.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Gouvion Saint-Cyr, quoted in the Fondation Napoléon article, argued that the siege train could have been withdrawn in time and that its loss tied the army to Mantua for months; the article itself judges the decision consistent with Bonaparte's principles. Napoleon blamed Wurmser for dividing his army. How well the flank attack was timed is not settled by the sources read here. Mantua's surrender is dated 17 January in the chronology and 2 February 1797 elsewhere.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The Fondation Napoléon's article from the Revue du Souvenir Napoléonien gives the narrative and the debate over the siege train; its chronology and Daniel Reichel's biography of Wurmser from the Dictionnaire Napoléon add dates and the Austrian side.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Wurmser's offensive",
+        "time": "29–31 July 1796",
+        "description": "Austrian columns advance either side of Lake Garda; Brescia falls."
+      },
+      {
+        "title": "The siege lifted",
+        "time": "30 July 1796",
+        "description": "Bonaparte abandons the siege of Mantua to concentrate his army."
+      },
+      {
+        "title": "Lonato",
+        "time": "3 August 1796",
+        "description": "Quasdanovich's column is beaten and the Austrian columns are kept apart."
+      },
+      {
+        "title": "Castiglione",
+        "time": "5 August 1796",
+        "description": "A frontal attack, a flank attack and a reserve thrust drive Wurmser back across the Mincio."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Napoleon Bonaparte",
+        "objective": "Defeat the Austrian relief columns before they could unite.",
+        "known": "Brescia had fallen and his communications were threatened.",
+        "uncertainty": "Whether he could beat one column before the other reached him.",
+        "constraints": "Much of his army was tied to the siege of Mantua.",
+        "forces": "Divisions under Masséna, Augereau, Sérurier, Sauret and Despinoy, and Kilmaine's reserve.",
+        "terrain": "Lake Garda dividing the Austrian columns, and the heights at Solferino.",
+        "logistics": "Days of forced marches, with the siege equipment abandoned.",
+        "decision": "He lifted the siege, beat Quasdanovich, then attacked Wurmser in front and flank.",
+        "outcome": "Wurmser retreated toward the Tyrol, but Mantua had to be besieged again."
+      },
+      {
+        "name": "Dagobert Sigmund von Wurmser",
+        "objective": "Relieve Mantua.",
+        "known": "Bonaparte's army was dispersed around Mantua.",
+        "uncertainty": "Whether his separated columns could coordinate around the lake.",
+        "constraints": "The lake and mountains divided his army.",
+        "forces": "His own column and Quasdanovich's.",
+        "terrain": "The Adige valley and the Solferino heights.",
+        "logistics": "Supply through the Tyrol.",
+        "decision": "He divided his army around Lake Garda and gave battle at Castiglione.",
+        "outcome": "He was defeated and retreated, later to be shut up in Mantua."
+      }
+    ]
+  },
+  {
+    "slug": "arcole",
+    "sources": [
+      {
+        "title": "De Mantoue à Tolentino, juin 1796 – février 1797 (Revue du Souvenir Napoléonien 410)",
+        "url": "https://www.napoleon.org/wp-content/themes/napoleon/annexes/hors-serie/premiere-campagne-italie/fr/lesecrits/articles/articles02.html",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Arcole",
+        "url": "https://www.napoleon.org/en/magazine/places/arcole-2/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "La 1ère campagne d'Italie : chronologie",
+        "url": "https://www.napoleon.org/wp-content/themes/napoleon/annexes/hors-serie/premiere-campagne-italie/fr/chronologie/chrono.html",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Alvinzi, Joseph, baron (Jacques Garnier, Dictionnaire Napoléon)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/biographies/alvinzi-joseph-baron-1726-1810-general-autrichien/",
+        "publisher": "Fondation Napoléon"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After two failed Austrian attempts to relieve Mantua, Alvinczi took command in November 1796. The Austrians advanced on two lines: Alvinczi through Friuli and Davidovich down the Adige valley.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Wurmser was shut up in Mantua. Bonaparte had to keep Alvinczi and Davidovich from joining forces.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Unable to break Alvinczi's position at Caldiero frontally, Bonaparte tried to turn it through the marshes by way of Arcole and Villanova, threatening the Austrian rear.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Arcole lies in marshland near the confluence of the Adige and the Alpone, about 20 km south-east of Verona. The fighting was confined to narrow causeways between the marshes and to the bridge over the Alpone.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Bonaparte's forces included Augereau's and Masséna's divisions. Alvinczi commanded the main Austrian army, with Davidovich's force in the Adige valley. The strengths given in the article are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The army left Verona secretly on the evening of 14 November, and Masséna's troops came up by way of Ronco.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 15 November Augereau's attacks on the Arcole bridge failed, and Bonaparte's own attempt to lead his men across did not carry them. Fighting resumed on the 16th and 17th. Bonaparte had a bridge built over the Alpone so that Augereau's divisions could cross and strike the Austrian rear, while Masséna attacked the Arcole bridge again. After three days Alvinczi retreated.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Bonaparte chose to fight in the marshes, where Austrian numbers could not be deployed, and kept attacking for three days.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The crossing of the Alpone threatened the Austrian rear and, after three days of fighting in which Alvinczi lost many of his best troops, persuaded him to withdraw.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Alvinczi retreated. Joubert defeated Davidovich on 19 November, and Mantua remained isolated.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Alvinczi's next attempt ended at Rivoli in January 1797, and Mantua capitulated soon afterwards. The image of Bonaparte with a flag on the bridge, painted by Gros, became central to his legend, and an obelisk was raised on the site in 1810.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Terrain that restricts movement can cancel numerical superiority, but it also makes attack slow and costly; success came from persistence and a crossing elsewhere.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The flag episode is commemorated on the site and in Gros's painting, but the places page says that on the first day his troops would not follow him; its fame owes much to later propaganda. The story of trumpets sounded behind the Austrian flank does not appear in the sources read here. The chronology dates the decisive day to 17 November.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The Fondation Napoléon's article from the Revue du Souvenir Napoléonien and its places page give the narrative; its chronology and Jacques Garnier's biography of Alvinczi from the Dictionnaire Napoléon add dates and the Austrian commander's career.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Out of Verona",
+        "time": "14 November 1796",
+        "description": "The army leaves Verona secretly to turn Alvinczi's position at Caldiero."
+      },
+      {
+        "title": "The bridge",
+        "time": "15 November 1796",
+        "description": "Attacks on the Arcole bridge fail, and Bonaparte's personal attempt does not carry his men."
+      },
+      {
+        "title": "Renewed attacks",
+        "time": "16 November 1796",
+        "description": "Fighting continues along the causeways through the marshes."
+      },
+      {
+        "title": "Crossing the Alpone",
+        "time": "17 November 1796",
+        "description": "A bridge over the Alpone lets Augereau strike the rear, and Alvinczi retreats."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Napoleon Bonaparte",
+        "objective": "Keep Alvinczi and Davidovich apart and defeat Alvinczi.",
+        "known": "Alvinczi held a strong position at Caldiero.",
+        "uncertainty": "Whether a turning move through the marshes would force Alvinczi out.",
+        "constraints": "Two Austrian forces threatening to unite, and a position he could not break frontally.",
+        "forces": "Augereau's and Masséna's divisions.",
+        "terrain": "Marshes crossed by causeways, and the Alpone with its bridge.",
+        "logistics": "Based on Verona, which he left secretly.",
+        "decision": "He crossed into the marshes, kept attacking for three days and bridged the Alpone to reach the Austrian rear.",
+        "outcome": "Alvinczi retreated, and Mantua remained isolated."
+      },
+      {
+        "name": "József Alvinczi",
+        "objective": "Join Davidovich and relieve Mantua.",
+        "known": "Bonaparte's army stood between him and Mantua.",
+        "uncertainty": "Where the French would strike.",
+        "constraints": "An advance on two separated lines.",
+        "forces": "The main Austrian army.",
+        "terrain": "A strong position at Caldiero and the marshes behind it.",
+        "logistics": "An advance through Friuli.",
+        "decision": "He held the causeways and the bridge at Arcole.",
+        "outcome": "Threatened in the rear, he retreated."
+      }
+    ]
+  },
+  {
     "slug": "austerlitz",
     "sources": [
       {

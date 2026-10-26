@@ -1308,7 +1308,15 @@
     "strength": "At Austerlitz, combined campaign positioning and battlefield opportunity against a coalition army.",
     "limitation": "The invasion of Russia, war in Spain and renewed coalitions exposed logistical and political limits.",
     "legacy": "His legacy joins administrative reform to authoritarian rule, imperial conquest and enormous human losses.",
-    "battleSlugs": ["austerlitz", "waterloo"],
+    "battleSlugs": [
+      "toulon",
+      "montenotte",
+      "lodi",
+      "castiglione",
+      "arcole",
+      "austerlitz",
+      "waterloo"
+    ],
     "source": {
       "title": "Battle of Waterloo",
       "url": "https://www.nam.ac.uk/explore/battle-waterloo",

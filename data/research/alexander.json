@@ -1,5 +1,1141 @@
 [
   {
+    "slug": "granicus",
+    "sources": [
+      {
+        "title": "Granicus (334 BCE)",
+        "url": "https://www.livius.org/articles/battle/granicus/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Arrian, Anabasis of Alexander 1.13–16 (trans. E. J. Chinnock)",
+        "url": "https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_I/Chapter_XIII",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Diodorus Siculus, Library of History 17.17–39 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/17B%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Plutarch on the Battle on the Granicus (Life of Alexander 16)",
+        "url": "https://www.livius.org/sources/content/plutarch/plutarchs-alexander/battle-on-the-granicus/",
+        "publisher": "Livius.org (Jona Lendering)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Persian support for Perinthus against Philip II in 340 BCE made war between Macedon and Persia, in Livius's words, inevitable. Philip's advance force under Parmenion and Attalus was already in Asia when he was assassinated in 336. Alexander joined it with the main army in 334.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Darius III had only recently come to power after the murder of Artaxerxes IV and had revolts to deal with elsewhere, so no royal army met the invasion. The defence of western Asia Minor fell to the regional satraps, with local levies and Greek mercenaries.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Alexander needed an early victory to secure his foothold and open the road south. Diodorus says Memnon of Rhodes urged the Persian commanders to avoid battle, strip the countryside and carry the war into Europe, and that they rejected the plan as beneath their dignity. Livius judges the river position they chose instead a clever one, since it forced Alexander to turn west rather than march south with his communications exposed.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "17.18"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The Granicus, the modern Biga Çayı in north-western Türkiye, is a small river. In Arrian, Parmenion warns that parts of it were deep and its banks high and in places abrupt. Livius states that the banks are too steep for horses to climb and that the landscape has changed little since antiquity.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "1.13"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Alexander commanded the right wing with the Companion cavalry; Parmenion commanded the left, with the Thessalian and allied Greek cavalry, and the phalanx battalions held the centre. Persian command was shared among satraps and nobles, among them Arsites, Spithridates and Mithridates, Darius's son-in-law, with Memnon and his sons among the cavalry. Arrian gives round figures for the Persian cavalry and mercenaries; Livius gives none.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "1.14–15"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "In Arrian the Persians stretched their cavalry along the bank, massing it opposite Alexander, who was conspicuous by his armour, and kept the Greek mercenary infantry behind on higher ground. Diodorus also places the cavalry in front and the infantry behind. Livius reads this order as a defence against a crossing.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "1.14"
+          },
+          {
+            "source": 2,
+            "locator": "17.19"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Arrian has Alexander reject Parmenion's advice to camp and cross at dawn. An advance guard under Amyntas, with Socrates's squadron, entered the river first; Alexander then led the right wing across at an angle to the current so that his line would emerge facing the enemy. Plutarch also places the attack late in the day, but Diodorus has the army cross at dawn before the Persians could stop it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "1.13–14"
+          },
+          {
+            "source": 3,
+            "locator": "16"
+          },
+          {
+            "source": 2,
+            "locator": "17.19"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Arrian presents Alexander's refusal to wait as a matter of reputation: an army that had crossed the Hellespont should not be halted by a stream, and delay would encourage the enemy. The satraps' rejection of Memnon's advice had already committed them to a battle that a strategy of avoidance might have denied Alexander.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "1.13"
+          },
+          {
+            "source": 2,
+            "locator": "17.18"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The first Macedonians to land took heavy losses under missiles and cavalry attack. Alexander's charge then turned the struggle on the bank into a close mêlée. His spear broke; he unhorsed Mithridates and killed Rhoesaces, and Cleitus cut off the arm of Spithridates as he struck at the king from behind. Arrian credits the Macedonians' strength, experience and cornel-wood lances. The Persian centre broke first, then both wings.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "1.15–16"
+          },
+          {
+            "source": 3,
+            "locator": "16"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Persian cavalry fled without a long pursuit. Alexander then surrounded the Greek mercenaries, who had stayed where they stood; Plutarch says they asked for terms and were refused. Most were killed. Arrian says the prisoners were sent in chains to labour in Macedonia for fighting against Greeks, and that Arsites fled and killed himself.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "1.16"
+          },
+          {
+            "source": 3,
+            "locator": "16"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The road south lay open: Sardis and Ephesus fell without a fight, and Dascylium and Gordium were left unprotected. Alexander sent captured armour to Athens as an offering from himself and the Greeks, the Spartans excepted. Persian sea power remained, and Alexander met no further resistance until the Persian fleet appeared at Miletus.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "1.16"
+          },
+          {
+            "source": 3,
+            "locator": "16"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A defensive position depends on how its arms work together: cavalry posted on a bank to stop a crossing cannot be supported by infantry held far behind it. Speed and personal example exploited a divided command, but at a personal risk that nearly ended the campaign in its first battle.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "1.15–16"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Arrian and Plutarch describe a direct assault late in the day; Diodorus describes a crossing at dawn before the Persians could react. Livius prefers Diodorus, arguing that horses could not have climbed the banks and that the Persian order of battle implies Alexander had already crossed safely. The accounts also disagree on who struck whom in the mêlée, and their army and casualty figures are not repeated here. Plutarch attributes the massacre of the mercenaries to anger rather than judgement.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "1.13–16"
+          },
+          {
+            "source": 2,
+            "locator": "17.19–21"
+          },
+          {
+            "source": 3,
+            "locator": "16"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The study compares three ancient narratives: Arrian's, Diodorus's and Plutarch's, who cites Aristobulus for the Macedonian dead. Livius's article sets these traditions against the ground and against the Persian order of battle Arrian reports.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "1.14"
+          },
+          {
+            "source": 2,
+            "locator": "17.19"
+          },
+          {
+            "source": 3,
+            "locator": "16"
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Advance to the river",
+        "time": "Spring 334 BCE",
+        "description": "Scouts report the satraps drawn up on the far bank; Parmenion advises waiting for dawn."
+      },
+      {
+        "title": "Into the river",
+        "time": "Day of battle · opening",
+        "description": "In Arrian's account an advance guard enters the river under missiles; Alexander follows obliquely with the right wing."
+      },
+      {
+        "title": "Mêlée on the bank",
+        "time": "Day of battle · decisive fight",
+        "description": "Alexander is nearly killed and saved by Cleitus; the Persian centre and then both wings break."
+      },
+      {
+        "title": "Mercenaries surrounded",
+        "time": "Close of the battle",
+        "description": "The Greek mercenaries are encircled and destroyed; the prisoners are sent to Macedonia in chains."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Alexander III of Macedon",
+        "objective": "Win a first victory in Asia and open the road to the coastal cities.",
+        "known": "Scouts reported the Persians drawn up on the far bank, with cavalry along the river.",
+        "uncertainty": "Whether his men could climb the banks in order under missiles and cavalry attack.",
+        "constraints": "In Arrian's account Parmenion warned that the river was deep in places, the banks steep, and that a first defeat could decide the war.",
+        "forces": "Companion, Thessalian and allied cavalry, the phalanx battalions, the hypaspists and light troops such as the Agrianians and archers.",
+        "terrain": "A small river with high, uneven banks, which Livius thinks horses could not have climbed.",
+        "logistics": "The baggage marched in the rear of the army; the Persians had a supply base nearby at Dascylium.",
+        "decision": "According to Arrian he refused to wait, sent an advance guard in first and led the right wing across at an angle to the current.",
+        "outcome": "He won, opening Asia Minor, but came close to being killed in the mêlée."
+      },
+      {
+        "name": "The Persian satraps and Memnon",
+        "objective": "Stop the invasion at the edge of Asia without a royal army.",
+        "known": "Alexander's army was advancing from the Hellespont.",
+        "uncertainty": "Where and when he would try to cross the river.",
+        "constraints": "Command was shared among several satraps; Diodorus says they rejected Memnon's advice to avoid battle as beneath Persian dignity.",
+        "forces": "Satrapal cavalry, Greek mercenary infantry and local levies.",
+        "terrain": "The riverbank, which they lined with cavalry, with the infantry on higher ground behind.",
+        "logistics": "Dascylium nearby served as a supply base.",
+        "decision": "They defended the river line and placed their cavalry forward to meet the crossing.",
+        "outcome": "Their cavalry broke and the mercenaries were destroyed; Arrian says Arsites fled and killed himself."
+      }
+    ]
+  },
+  {
+    "slug": "issus",
+    "sources": [
+      {
+        "title": "Issus (333 BCE)",
+        "url": "https://www.livius.org/articles/battle/issus/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Issus (2)",
+        "url": "https://www.livius.org/articles/battle/issus/issus-2/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Issus (3)",
+        "url": "https://www.livius.org/articles/battle/issus/issus-3/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Arrian, Anabasis of Alexander 2.6–11 (trans. E. J. Chinnock)",
+        "url": "https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_II/Chapter_VI",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Polybius, Histories 12.17–22 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/12%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Diodorus Siculus, Library of History 17.17–39 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/17B%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After the Granicus the only organized Persian resistance in the west was the fleet under Memnon and Pharnabazus, largely made up of Phoenician ships. In autumn 333 BCE Alexander entered Cilicia through the Cilician Gate, aiming at the Phoenician ports.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Darius III raised a large royal army, recalling Greek mercenaries from the Aegean, and marched from Babylonia into Syria. Livius reconstructs his plan as defeating Alexander on the plains of Cilicia or northern Syria and then using the fleet to cut off his retreat.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Arrian has the Macedonian exile Amyntas urge Darius to stay on the broad plain near Sochi, where his numbers and cavalry would count. Darius, reading Alexander's delays in Cilicia as reluctance to fight, crossed the Amanus by the Amanian Gate instead and came down behind him at Issus, where his troops killed the sick Macedonians left there.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3,
+            "locator": "2.6–7"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The armies met on the narrow coastal strip between the Amanus mountains and the Gulf of Issus, at the river Pinarus south of Issus, which Livius identifies with the modern Payas. Only the beach suited cavalry, and rain had made the banks slippery. Callisthenes, as reported by Polybius, put the width of the plain at about fourteen stades.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 4,
+            "locator": "12.17"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Darius took the centre, as Persian kings customarily did, with Greek mercenaries facing the phalanx and kardakes on either side. Alexander led the Companions on the right; Parmenion commanded the left by the sea, ordered not to lose contact with it so that the army could not be outflanked. The ancient totals for Darius's army are not credible, and Polybius showed that even Callisthenes's figures could not fit the ground.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3,
+            "locator": "2.8"
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 4,
+            "locator": "12.18–21"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Darius sent cavalry and light infantry across the river to screen his deployment, then recalled them and massed most of his horse on his right by the sea. Troops on the foothills on his left overlapped Alexander's right. Alexander moved the Thessalians behind the phalanx to his left unseen, strengthened his right with two Companion squadrons, and drove the troops on the hill back with Agrianians and archers.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3,
+            "locator": "2.8–9"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Alexander confirmed that Darius was behind him by sending a ship along the coast, recrossed the pass by night and unfolded the column into line as the plain widened. Livius dates the battle to 5 or 6 November 333 BCE, from a Babylonian record of an eclipse and the marching time; Arrian gives the Athenian month Maimacterion. The Macedonians advanced slowly until they were within missile range; then Alexander charged across the river on the right.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3,
+            "locator": "2.7–8, 2.10–11"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Darius chose to leave the open plain for the narrow coast, and then to fight on the defensive behind the river, building stockades where the banks were easiest to climb; Arrian reads this as a loss of nerve. Alexander chose to turn back and attack at once rather than let Darius hold his line of communications.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3,
+            "locator": "2.6, 2.10"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The Persian left broke as soon as Alexander's charge reached it. In the centre the phalanx, disordered by the riverbed, opened a gap that Darius's Greek mercenaries attacked hard, and Ptolemy son of Seleucus fell there. On the seaward wing Persian cavalry under Nabarzanes pressed the Thessalians and allied Greek horse back toward the river. Alexander's victorious right then wheeled against the mercenaries' flank.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3,
+            "locator": "2.10–11"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Darius fled, first in his chariot and then on horseback, leaving his shield, mantle and bow; the Persian cavalry broke once it learned of his flight, and many were trampled in the narrow roads. Alexander pursued until dark. The camp fell with Darius's mother, wife and children, and Parmenion was sent to seize the treasure and baggage at Damascus.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3,
+            "locator": "2.11"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Phoenicia and Egypt were left largely unprotected, with Tyre and Gaza the main exceptions. Darius wrote offering alliance and a ransom for his family; Alexander replied with grievances and demanded recognition as king of Asia. Darius raised a new army, which Alexander met at Gaugamela less than two years later.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 5,
+            "locator": "17.39"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Narrow ground can cancel a numerical advantage, and a commander who leaves open country for a cramped field gives up his main asset. Where authority is concentrated in one person, an attack aimed at his position can decide the battle. Livius calls Issus Alexander's personal triumph, the point after which he rather than Parmenion clearly directed the war.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 3,
+            "locator": "2.6–7"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The identification of the Pinarus is not certain. Polybius criticized Callisthenes's account because its numbers and frontages could not fit the ground. Arrian has Darius flee as soon as his left broke; Diodorus describes fighting around his chariot and a change to a second chariot, which Livius reads as a sign that he did not mean to abandon the battle. Livius's detailed reconstruction rests partly on his own estimates of timing and archery.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "2.11"
+          },
+          {
+            "source": 4,
+            "locator": "12.17–22"
+          },
+          {
+            "source": 5,
+            "locator": "17.34"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Arrian's narrative is compared with Diodorus and with Polybius's critique of Callisthenes. Arrian credits Ptolemy son of Lagus, who rode with Alexander, for the story that the pursuers crossed a ravine filled with bodies. Livius's three-part reconstruction also draws on Curtius Rufus.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3,
+            "locator": "2.11"
+          },
+          {
+            "source": 4,
+            "locator": "12.17"
+          },
+          {
+            "source": 5,
+            "locator": "17.32–37"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Darius behind the lines",
+        "time": "Early November 333 BCE",
+        "description": "Darius crosses the Amanus to Issus; Alexander confirms the report by sea and marches back by night."
+      },
+      {
+        "title": "Deployment on the Pinarus",
+        "time": "Day of battle · deployment",
+        "description": "The Macedonian column unfolds into line; Darius recalls his screen and masses cavalry by the sea."
+      },
+      {
+        "title": "Charge on the right",
+        "time": "Day of battle · assault",
+        "description": "Alexander's charge breaks the Persian left as the mercenaries attack a gap in the phalanx."
+      },
+      {
+        "title": "Flight and pursuit",
+        "time": "Day of battle · until nightfall",
+        "description": "Darius flees, the Persian cavalry breaks and the camp and royal family are taken."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Alexander III of Macedon",
+        "objective": "Defeat the royal army that had appeared on his line of communications.",
+        "known": "A ship sent along the coast confirmed the Persian camp near Issus, where Darius's troops had killed the Macedonian sick.",
+        "uncertainty": "How far the Persian line and the troops on the hills would overlap his right.",
+        "constraints": "Cut off from his rear, he had to fight on a narrow front with a river ahead.",
+        "forces": "Companion, Thessalian and allied Greek cavalry, the phalanx, hypaspists, Agrianians, archers, and Greek mercenaries in reserve.",
+        "terrain": "A coastal plain between mountains and sea, crossed by a river with steep banks in places.",
+        "logistics": "The sick had been left at Issus, and Livius says the baggage stayed behind beyond the pass.",
+        "decision": "He marched back by night, extended his right, shifted the Thessalians to the left unseen and led the charge across the river.",
+        "outcome": "The Persian army broke, but Arrian says Alexander turned to pursue only after the mercenaries had been driven back, and Darius escaped."
+      },
+      {
+        "name": "Darius III of Persia",
+        "objective": "In Livius's reconstruction, catch Alexander, cut his communications and destroy his army.",
+        "known": "Alexander had been delayed in Cilicia, which Arrian says Darius took as reluctance to fight.",
+        "uncertainty": "Whether Alexander would turn and attack; Livius says Darius learned from local people that he had.",
+        "constraints": "His large army, already moving south, could not easily return to open ground.",
+        "forces": "Persian and regional cavalry, Greek mercenaries, kardakes, archers and contingents of many peoples.",
+        "terrain": "A narrow coastal plain where only the beach suited cavalry.",
+        "logistics": "Most of the treasure and many of the non-combatants had been sent to Damascus.",
+        "decision": "He held the north bank of the Pinarus, stockaded the easier stretches and massed his cavalry on the seaward wing.",
+        "outcome": "When his left broke he fled; his family and camp were captured."
+      }
+    ]
+  },
+  {
+    "slug": "tyre",
+    "sources": [
+      {
+        "title": "The siege of Tyre (332 BCE), with Curtius Rufus 4.4.10–21 (trans. J. Yardley)",
+        "url": "https://www.livius.org/articles/battle/tyre-332-bce/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Alexander 2.7",
+        "url": "https://www.livius.org/articles/person/alexander-the-great/alexander-2.7/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Arrian, Anabasis of Alexander 2.15–24 (trans. E. J. Chinnock)",
+        "url": "https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_II/Chapter_XV",
+        "publisher": "Wikisource"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Issus Alexander did not pursue Darius but moved down the Levantine coast. Byblos and Sidon submitted, and Tyrian envoys met him on the march to say that their city would do whatever he commanded.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "2.15"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The Persian fleet still controlled the Aegean and the Hellespont, threatening Alexander's communications, and its crews came largely from the Phoenician cities. Taking those cities would deprive the fleet of its bases and its men.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "2.17"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Arrian gives Alexander a speech arguing that Egypt and Babylon could not safely be attempted while Persia held the sea, and that taking Tyre would bring the Phoenician fleet and Cyprus over to him. Livius regards the siege as strategically unnecessary and its cause as religious: Tyre refused Alexander the right to sacrifice to its god Melqart, whom the Greeks identified with Heracles, and Arrian has the Tyrians refuse to admit any Persian or Macedonian into the city.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "2.16–17"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Tyre stood on an island, walled high on every side. Arrian says the strait was shallow and muddy near the mainland and about three fathoms deep beside the city. The city had two harbours, one facing north toward Sidon and one facing south toward Egypt.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "2.18, 2.20"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Alexander had his field army and engineers, but at first too few ships; Arrian says Tyre still had the advantage at sea. The Tyrian king Azemilcus was away with the Persian fleet. Later, Phoenician and Cypriot squadrons and engineers joined Alexander.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "2.15, 2.18, 2.20–21"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Alexander began a mole from the mainland, built of stone and timber with stakes driven into the mud. Near the city the workers came under missile fire from the walls and attack from Tyrian triremes, so two towers carrying engines, hung with hides against fire, were raised on the mole.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "2.18"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Livius dates the siege from January to July 332 BCE. A Tyrian fireship burned the first towers, and Alexander widened the mole and went to Sidon for ships. With the Phoenician and Cypriot squadrons he blockaded both harbours, cleared stones dropped in the approaches and brought ship-mounted engines against the walls. Arrian dates the fall to the Athenian month Hecatombaeon.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "2.19–24"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Alexander's decisive choice was to accept that the city could not be taken from the land alone and to assemble a fleet. The Tyrians chose to defend the city rather than admit a Macedonian presence, a choice Arrian presents as caution while the outcome of the war was still uncertain.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "2.16, 2.19"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The ships of Aradus, Byblos and Sidon left the Persian fleet when their cities submitted, and the kings of Cyprus followed, giving Alexander command of the sea. The Tyrians declined battle and blocked their harbour mouths, and a midday sortie against the Cypriot ships was beaten back. Engines on ships then broke the wall facing Egypt.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "2.20–22"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Hypaspists under Admetus and Coenus's battalion crossed from ships into the breach while the fleets forced both harbours; resistance ended at the shrine of Agenor. Arrian says the Macedonians were enraged by the length of the siege and by the Tyrians' killing of captured Macedonians on the walls. Those who had taken refuge in the temple of Heracles, including King Azemilcus and Carthaginian envoys, were spared. The rest were killed or sold into slavery, and Curtius reports survivors crucified along the shore.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "2.23–24"
+          },
+          {
+            "source": 0,
+            "locator": "4.4.10–21"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The Tyrians had recalled their ships from the Aegean, as had the other Phoenician cities, ending the Persian naval offensive there; with Tyre fallen, the fleet had lost its Phoenician bases. Alexander sacrificed to Heracles in the city, and the road south to Gaza and Egypt was open.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "2.24"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A navy can be defeated from the land by taking its ports, yet an island fortress could not be taken without ships. Engineering persistence mattered, and so did politics: the naval strength that decided the siege came from cities whose allegiance had changed.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "2.17, 2.20"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The motive for the siege is debated: Arrian presents a strategic argument, while Livius stresses the refusal of the sacrifice. Arrian and Curtius give different figures for those killed and enslaved, and they are not repeated here. Curtius reports that Sidonians serving with Alexander secretly carried many Tyrians to safety, which Arrian does not mention.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "4.4.10–21"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "2.16–17, 2.24"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Arrian gives the fullest narrative of the engineering and naval operations. Livius presents Curtius Rufus's account of the final assault and the reprisals, noting that Curtius drew on earlier Greek writers, and sets the siege in the wider Levantine campaign.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "2.18–24"
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Refusal and the mole",
+        "time": "January 332 BCE",
+        "description": "Tyre refuses to admit Alexander; the Macedonians begin a mole across the strait."
+      },
+      {
+        "title": "Fireship",
+        "time": "Early siege",
+        "description": "A Tyrian fireship burns the towers; Alexander widens the mole and goes to Sidon for ships."
+      },
+      {
+        "title": "Command of the sea",
+        "time": "Middle of the siege",
+        "description": "Phoenician and Cypriot squadrons arrive; both harbours are blockaded and a Tyrian sortie is defeated."
+      },
+      {
+        "title": "Assault from the sea",
+        "time": "July 332 BCE",
+        "description": "Ship-borne engines breach the wall facing Egypt; the city is stormed and its people killed or enslaved."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Alexander III of Macedon",
+        "objective": "Secure the Phoenician coast and deprive the Persian fleet of its bases before moving on Egypt.",
+        "known": "Tyre would obey any order except admitting Persians or Macedonians into the city.",
+        "uncertainty": "Whether a mole could be built under fire, and whether the Phoenician fleets would change sides.",
+        "constraints": "Arrian says Tyre still had the advantage at sea, so the city could not at first be attacked from the water.",
+        "forces": "The field army, engineers from Cyprus and Phoenicia, and later Phoenician, Cypriot and other squadrons.",
+        "terrain": "An island fortress with high walls, a shallow strait near the mainland and deeper water beside the city.",
+        "logistics": "Stone and timber were plentiful; engines were mounted on the mole and on ships.",
+        "decision": "He built a mole, rebuilt it wider after the fireship attack, and gathered a fleet to blockade the city and assault it from the sea.",
+        "outcome": "Tyre fell after a siege that Livius dates from January to July 332 BCE."
+      },
+      {
+        "name": "The leaders of Tyre",
+        "objective": "Keep the city free of foreign troops while the war's outcome was uncertain.",
+        "known": "Alexander had won at Issus and most of the Phoenician cities had submitted.",
+        "uncertainty": "Whether the island's walls and fleet could outlast a siege.",
+        "constraints": "King Azemilcus was away with the Persian fleet, and the other Phoenician squadrons later went over to Alexander.",
+        "forces": "The walls, triremes, a fireship, divers and engines mounted on towers along the walls.",
+        "terrain": "The strait, which protected the city until the mole and the hostile fleets reached it.",
+        "logistics": "Once Alexander's squadrons were stationed outside both harbours, the city lost free use of the sea.",
+        "decision": "They refused Alexander entry, burned his towers with a fireship, cut his ships' cables and sortied against the Cypriot squadron.",
+        "outcome": "The city was stormed; those not sheltering in the temple were killed or enslaved."
+      }
+    ]
+  },
+  {
+    "slug": "gaza-332-bce",
+    "sources": [
+      {
+        "title": "Arrian, Anabasis of Alexander 2.25–27 (trans. E. J. Chinnock)",
+        "url": "https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_II/Chapter_XXV",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Alexander 2.7",
+        "url": "https://www.livius.org/articles/person/alexander-the-great/alexander-2.7/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Curtius Rufus on Alexander killing Batis (4.6.26–29, trans. J. Yardley)",
+        "url": "https://www.livius.org/sources/content/curtius-rufus/alexander-kills-batis/",
+        "publisher": "Livius.org (Jona Lendering)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Tyre fell, most of Palestinian Syria had submitted. Batis, the eunuch governing Gaza, refused; he had hired Arab mercenaries and laid in food for a long siege, confident that the city could not be stormed.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.25"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Gaza stood at the edge of the desert on the road from Phoenicia to Egypt. Darius meanwhile offered terms that Alexander rejected, and prepared for further war; Livius says Batis's resistance bought the king time to raise a new army.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.25–26"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Arrian says Alexander's engineers judged the wall impossible to take by force, and that he insisted because a success would alarm his enemies while a failure would discredit him before the Greeks and Darius. Prestige and the security of the road to Egypt both weighed in the decision.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.26"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Arrian places Gaza about twenty stades from the sea, across heavy sand, on a high mound surrounded by a strong wall. Livius describes a town on a steep hill with strong walls.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.26"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Batis held the city with a garrison that included Arab mercenaries. Alexander had his field army, and the siege engines used at Tyre were brought up by sea.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.25, 2.27"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Alexander had a mound raised against the walls so that his engines could reach them, built highest against the southern wall, where an assault seemed easiest.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.26"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "During a sacrifice a bird dropped a stone on Alexander's head, which the seer Aristander read as a sign that the city would fall but that the king must take care that day. Fighting to relieve hard-pressed troops during a sortie, Alexander was struck in the shoulder by a catapult bolt that passed through his shield and breastplate. The mound was then extended round the city, miners undermined the walls, and the fourth assault succeeded.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.26–27"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Alexander's decision to besiege at all, against his engineers' judgement, is the central choice. Batis chose to resist rather than submit when the rest of the region had already done so.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.25–26"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Mining brought down sections of the wall. At the fourth assault the phalanx attacked from all sides, through the breaches and with ladders; Neoptolemus was first over the wall, and the gates were opened from within.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.27"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The defenders fought on inside the city and were killed at their posts, and the women and children were sold into slavery. Curtius says Batis was brought to Alexander alive and that Alexander, in a rage, had him dragged round the city behind a chariot while still breathing, in imitation of Achilles.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.27"
+          },
+          {
+            "source": 2,
+            "locator": "4.6.26–29"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Alexander resettled Gaza with people from the surrounding area and used it as a fortress. The coastal road to Egypt, his next objective, was open.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.27"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A modest fortress on strong ground could impose a long siege, and a commander's concern for reputation could justify an operation that strategy alone might not. The killing and enslavement that followed show what resistance could cost a besieged population.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.26–27"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The length and date of the siege differ: one Livius page gives about four months and a fall in October 332 BCE, while the page on Curtius dates the capture to November; the notes to Arrian's translation cite Diodorus for two months. The treatment of Batis comes from Curtius; Arrian's narrative does not mention his fate. Arrian's dimensions for the mound are not repeated here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.27"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Arrian supplies the narrative of the siege, Curtius, in Livius's translation, the death of Batis, and Livius's survey the place of the siege in the Levantine campaign.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.25–27"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "4.6.26–29"
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Refusal",
+        "time": "Autumn 332 BCE",
+        "description": "Batis refuses to yield; Alexander's engineers judge the walls too high to storm."
+      },
+      {
+        "title": "The mound",
+        "time": "Opening of the siege",
+        "description": "A mound is raised against the southern wall; Alexander is wounded fighting off a sortie."
+      },
+      {
+        "title": "Engines and mines",
+        "time": "Main siege",
+        "description": "Engines from Tyre arrive by sea; mining brings down sections of the wall."
+      },
+      {
+        "title": "Fourth assault",
+        "time": "Fall of the city",
+        "description": "The city is stormed; its defenders are killed and the women and children enslaved."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Alexander III of Macedon",
+        "objective": "Clear the last fortress on the coastal road to Egypt.",
+        "known": "Batis had mercenaries and supplies and expected the city to withstand an assault.",
+        "uncertainty": "Whether engines could be brought against walls on so high a mound.",
+        "constraints": "His engineers advised against an assault; Arrian says he feared the disgrace of failure.",
+        "forces": "The field army, with siege engines shipped from Tyre.",
+        "terrain": "A high mound with a strong wall, approached across heavy sand.",
+        "logistics": "With the sea secured after Tyre, engines could be brought by ship.",
+        "decision": "He ordered mounds raised against the wall, then round the whole city, and added mining before repeated assaults.",
+        "outcome": "The city fell at the fourth assault; he was wounded in the shoulder during the siege."
+      },
+      {
+        "name": "Batis, governor of Gaza",
+        "objective": "Hold Gaza for the Persian king.",
+        "known": "Tyre had fallen and most of the region had submitted.",
+        "uncertainty": "How long the city could hold, and whether any relief would come.",
+        "constraints": "No Persian army was near; Livius says Darius was still raising a new one.",
+        "forces": "A garrison that included Arab mercenaries.",
+        "terrain": "A city on a high mound with strong walls, which he trusted could not be stormed.",
+        "logistics": "Arrian says he had laid in food for a long siege.",
+        "decision": "He refused to yield and defended the walls through repeated assaults.",
+        "outcome": "He was captured; Curtius says Alexander had him dragged behind a chariot."
+      }
+    ]
+  },
+  {
     "slug": "gaugamela",
     "sources": [
       {

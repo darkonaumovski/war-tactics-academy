@@ -2,6 +2,7 @@ import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 import type { Page } from "@playwright/test";
 import { research } from "../../data/research";
+import { battles } from "../../data/catalog";
 // Scroll-revealed sections stay transparent until seen, and axe skips
 // transparent text. Scroll through the page so every section is audited.
 // The pass repeats because hydration can finish after an early pass, at which
@@ -46,7 +47,9 @@ test("homepage navigation, featured study and hero actions", async ({
 });
 test("battle search and combined filters", async ({ page }) => {
   await page.goto("/battles");
-  await expect(page.getByRole("status")).toHaveText("29 engagements");
+  await expect(page.getByRole("status")).toHaveText(
+    `${battles.length} engagements`,
+  );
   await page.getByRole("textbox", { name: "Search battles" }).fill("Waterloo");
   await expect(page.getByRole("status")).toHaveText("1 engagements");
   await page.getByRole("link", { name: /Time, terrain & coalition/ }).click();
@@ -65,7 +68,9 @@ test("battle search and combined filters", async ({ page }) => {
     page.getByRole("heading", { name: "No records match" }),
   ).toBeVisible();
   await page.getByRole("button", { name: "Clear filters" }).click();
-  await expect(page.getByRole("status")).toHaveText("29 engagements");
+  await expect(page.getByRole("status")).toHaveText(
+    `${battles.length} engagements`,
+  );
 });
 test("battle detail related commander and proper not-found", async ({
   page,

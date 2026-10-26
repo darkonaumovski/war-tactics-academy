@@ -42,23 +42,13 @@ it("covers every perspective field for battles with commander perspectives", () 
   const withPerspectives = researchSchema
     .parse(research)
     .filter((s) => s.perspectives?.length);
-  expect(withPerspectives.map((s) => s.slug).sort()).toEqual([
-    "agincourt",
-    "alesia",
-    "austerlitz",
-    "cannae",
-    "dien-bien-phu",
-    "el-alamein",
-    "gaugamela",
-    "gettysburg",
-    "hastings",
-    "kursk",
-    "midway",
-    "normandy",
-    "stalingrad",
-    "verdun",
-    "waterloo",
-  ]);
+  // Every study except Marathon has command perspectives.
+  expect(withPerspectives.map((s) => s.slug).sort()).toEqual(
+    research
+      .map((s) => s.slug)
+      .filter((s) => s !== "marathon")
+      .sort(),
+  );
   for (const study of withPerspectives) {
     expect(study.perspectives!.length).toBeGreaterThanOrEqual(2);
     for (const p of study.perspectives!)

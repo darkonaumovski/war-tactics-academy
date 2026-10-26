@@ -3877,5 +3877,977 @@
         "outcome": "The garrison surrendered on 7 May, and France left Indochina after the Geneva agreements."
       }
     ]
+  },
+  {
+    "slug": "red-cliffs",
+    "sources": [
+      {
+        "title": "The Three Kingdoms and Western Jin: A History of China in the Third Century AD – I (East Asian History 1, 1991)",
+        "url": "https://openresearch-repository.anu.edu.au/items/d3215751-4afb-433d-a4c3-f47885ec894c",
+        "publisher": "Australian National University (Rafe de Crespigny)"
+      },
+      {
+        "title": "Battle of Red Cliffs",
+        "url": "https://www.worldhistory.org/Battle_of_Red_Cliffs/",
+        "publisher": "World History Encyclopedia (Joshua J. Mark)"
+      },
+      {
+        "title": "Excerpts from The Red Cliff, Part I, by Su Shi",
+        "url": "https://afe.easia.columbia.edu/ps/china/sushi_redcliff.pdf",
+        "publisher": "Asia for Educators, Columbia University"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "As Han authority collapsed, regional warlords fought for control. By 208 Cao Cao held the North China plain and turned south against Liu Biao, Governor of Jing province, and Sun Quan, who controlled the lower Yangzi.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "pp. 7–8"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "De Crespigny notes that when the Later Han was founded, control of the North China plain had decided the civil war, and in 208 most people, including Cao Cao's opponents, expected the pattern to repeat. When Liu Biao died that autumn, his successor Liu Zong surrendered Jing province.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "pp. 7–8"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Cao Cao occupied the naval base at Jiangling and called on Sun Quan to surrender. De Crespigny suggests he probably saw the advance as an armed reconnaissance that he could abandon if it failed. Sun Quan sent troops forward to test Cao Cao's strength while keeping a reserve with which to negotiate.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "pp. 8–9"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The armies met at the Red Cliffs on the Yangzi, between present-day Wuhan and Yueyang. The northern troops were unused to southern waterways and marshland. The precise site remains debated; the cliff where Su Shi's boat party of 1082 took place was only traditionally identified with the battle.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "p. 9"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Sun Quan's power was a fraction of what Cao Cao could mobilize, but his Yangzi navy was experienced and locally superior. Zhou Yu commanded Sun Quan's forces alongside Liu Bei. Much of Cao Cao's fleet had served Liu Biao, and its loyalty was uncertain. Cao Cao's claim of about 800,000 men is not credible.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "pp. 8–9"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Liu Bei tried to hold a line on the Yangzi but was caught and heavily defeated, and turned to Sun Quan. His lieutenant Guan Yu had saved much of the Jing fleet. The allies and Cao Cao's forces then faced each other across the river for several days.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "pp. 8–9"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Cao Cao took over Jing province in autumn 208 and pursued Liu Bei eastward with his army and new fleet. At the Red Cliffs his first attack was driven back. When the wind changed, Zhou Yu sent in fireships, and Cao Cao abandoned his position and retreated, leaving garrisons. The following year Zhou Yu captured Jiangling.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "pp. 8–9"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "After debate at his headquarters, Sun Quan chose to fight rather than surrender. Zhou Yu used the change of wind for a fire attack, a common weapon of the time, and Cao Cao chose to withdraw rather than fight on.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "p. 9"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The fire attack struck an army already worn by forced marches, sickness and uncertain loyalties. A setback became a retreat because Cao Cao's force was not fit for a prolonged river campaign.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "p. 9"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Cao Cao retreated north. The allies, in de Crespigny's words, enhanced their victory with tales of slaughter, and Zhou Yu took Jiangling the next year.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "p. 9"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The south kept naval control of the middle Yangzi, and later northern attempts to break the river defences failed. De Crespigny judges that the campaign proved to be the last chance for many years to reunite the empire, opening the way to the Three Kingdoms.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "p. 9"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Control of a great river and skill on it could offset a large difference in overall strength. An advance meant as a probe can still decide a war if it fails.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "p. 9"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "De Crespigny considers Cao Cao's defeat probably exaggerated and the story embellished by later literature, above all the Romance of the Three Kingdoms (chapters 43–50). Popular retellings add episodes such as a chained fleet and Huang Gai's feigned defection, which this study does not treat as established.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "p. 9 n. 24"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The main historical account is the biography of Zhou Yu in the Records of the Three Kingdoms (Sanguozhi), with Pei Songzhi's commentary. De Crespigny's history is the principal source here; World History Encyclopedia reflects the popular tradition, and Su Shi's essay shows how the battle was remembered.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "p. 9 n. 24"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Southern campaign",
+        "time": "Autumn 208",
+        "description": "Liu Biao dies, Jing province surrenders and Cao Cao defeats Liu Bei."
+      },
+      {
+        "title": "Alliance on the river",
+        "time": "Late 208",
+        "description": "Sun Quan sends Zhou Yu to join Liu Bei; the armies face each other across the Yangzi."
+      },
+      {
+        "title": "Fire attack",
+        "time": "Winter 208–209",
+        "description": "Cao Cao's first attack fails; with a change of wind, fireships drive him from his position."
+      },
+      {
+        "title": "Retreat and Jiangling",
+        "time": "208–209",
+        "description": "Cao Cao withdraws north, leaving garrisons; Zhou Yu captures Jiangling the following year."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Cao Cao",
+        "objective": "Complete the reunification of the empire by subduing Jing province and Sun Quan.",
+        "known": "Jing province had surrendered with its fleet, and Liu Bei had been heavily defeated.",
+        "uncertainty": "Whether Sun Quan would surrender, and whether the former Jing troops and sailors would stay loyal.",
+        "constraints": "Troops tired by a long campaign and forced marches, unused to southern waterways and suffering from sickness.",
+        "forces": "His northern army and the fleet taken over from Liu Biao; his claim of about 800,000 men is not credible.",
+        "terrain": "The middle Yangzi and its marshlands.",
+        "logistics": "The captured naval base at Jiangling.",
+        "decision": "He pursued eastward with army and fleet and demanded Sun Quan's surrender, probably treating the advance as an armed reconnaissance.",
+        "outcome": "Driven from his position by a fire attack, he retreated and lost Jiangling the following year."
+      },
+      {
+        "name": "Sun Quan",
+        "objective": "Preserve his independent state on the lower Yangzi.",
+        "known": "Cao Cao had taken Jing province and its naval base and was advancing downriver.",
+        "uncertainty": "Whether to fight or submit; his headquarters debated the choice at length.",
+        "constraints": "A power only a fraction of Cao Cao's, with an exposed northern flank and inaccessible hill country in the south.",
+        "forces": "An experienced Yangzi navy commanded by Zhou Yu.",
+        "terrain": "The river itself, where his fleet held local superiority.",
+        "logistics": "Control of the Yangzi below Wuhan, the Poyang region and Hangzhou Bay.",
+        "decision": "He sent Zhou Yu forward to join Liu Bei and test Cao Cao's strength, keeping a reserve with which to negotiate if necessary.",
+        "outcome": "Victory secured southern control of the middle Yangzi for many years."
+      }
+    ]
+  },
+  {
+    "slug": "yarmouk",
+    "sources": [
+      {
+        "title": "Al-Baladhuri: The Battle of the Yarmuk (636) and After",
+        "url": "https://sourcebooks.web.fordham.edu/source/yarmuk.asp",
+        "publisher": "Internet Medieval Sourcebook, Fordham University"
+      },
+      {
+        "title": "Battle of Yarmouk",
+        "url": "https://www.worldhistory.org/article/1563/battle-of-yarmouk/",
+        "publisher": "World History Encyclopedia (Syed Muhammad Khan)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After the Ridda Wars reasserted the caliphate's control of Arabia, Muslim armies advanced into Iraq and Syria. They defeated a Byzantine army at Ajnadayn in 634 and took Damascus, Pella and Emesa (Homs). Both the Byzantine and Sasanian empires were exhausted by their long war with each other.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Emperor Heraclius gathered a large army to recover Syria, drawn from Greeks, Syrians, Mesopotamians and Armenians, with Arab tribal contingents under the Ghassanid Jabalah ibn al-Aiham. Al-Baladhuri portrays many Syrians as hostile to Byzantine rule.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Heraclius aimed to drive the Muslim armies out of Syria. The Muslim commanders gave up dispersed positions and concentrated their forces to meet his army in one place.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The battle was fought near the Yarmuk River (the ancient Hieromax), on a plateau suited to light cavalry and cut by deep wadis. Behind the Byzantine position, the gorge of the Wadi Ruqqad could be crossed by a single bridge.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Vahan, an Armenian general, commanded the Byzantine field army. Abu Ubaidah held the Muslim command; World History Encyclopedia says he ceded battlefield direction to Khalid ibn al-Walid. Al-Baladhuri claims about 200,000 Byzantine troops against 24,000 Muslims; modern estimates are far lower, and no reliable count survives.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Muslim forces withdrew from Palestine, Jordan and Emesa to the Yarmuk plateau and were reinforced from Medina. The armies then faced each other for months of negotiation and build-up before fighting began.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "World History Encyclopedia dates the battle to six days, 15–20 August 636; al-Baladhuri dates it to Rajab of the year 15 AH. After opening duels, Byzantine attacks pushed the Muslim flanks back to their camps, where the women helped rally the men. A cavalry reserve restored the line, and on the last day a Muslim envelopment broke the Byzantine army.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "According to World History Encyclopedia, Khalid refused a truce Vahan requested on the fifth day, sent cavalry at night to seize the bridge over the Wadi Ruqqad and then led massed cavalry around the Byzantine left.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Holding the only bridge in the Byzantine rear turned a defeat into the destruction of the army, since the flank attack drove it toward ground with no escape.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Byzantine army was destroyed; survivors fled toward Palestine, Antioch, Aleppo, Mesopotamia and Armenia. Al-Baladhuri reports that Heraclius left Antioch for Constantinople and bade farewell to Syria.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Syria passed permanently to the caliphate, and Jerusalem surrendered in 637. Al-Baladhuri describes the people of Hims opening their gates and paying tribute. Khalid was removed from command soon after his victory.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A mobile reserve and control of the enemy's line of retreat can matter more than numbers. Local attitudes to imperial rule shaped what followed the battle.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Al-Baladhuri died around 892, so the detailed narratives come from two centuries after the battle, and Arab chroniclers tended to inflate enemy numbers. The sources differ on Jabalah: al-Baladhuri places him with the Byzantines and has him convert only later, while some accounts report a defection during the battle. Vahan's fate is uncertain.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Al-Baladhuri's Futuh al-Buldan gives an early Islamic account built from episodes and anecdotes. World History Encyclopedia gives a modern reconstruction drawing on works such as David Nicolle's study of the battle.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Armies gather",
+        "time": "Summer 636",
+        "description": "Muslim forces concentrate on the Yarmuk plateau; Heraclius's army arrives and negotiations begin."
+      },
+      {
+        "title": "Byzantine assaults",
+        "time": "15–19 August 636",
+        "description": "Byzantine attacks drive the Muslim flanks back to their camps; a cavalry reserve restores the line."
+      },
+      {
+        "title": "Closing the bridge",
+        "time": "Night of 19–20 August 636",
+        "description": "Muslim cavalry seizes the bridge over the Wadi Ruqqad behind the Byzantine army."
+      },
+      {
+        "title": "Envelopment and rout",
+        "time": "20 August 636",
+        "description": "A massed cavalry attack turns the Byzantine left; the army breaks with no line of escape."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Vahan",
+        "objective": "Destroy the Muslim army and restore Byzantine rule in Syria.",
+        "known": "The Muslim forces had given up their scattered positions and concentrated on the Yarmuk plateau.",
+        "uncertainty": "Whether a large army of many peoples and allied contingents would hold together in a long battle.",
+        "constraints": "World History Encyclopedia says the Byzantines delayed to coordinate with the Sasanians, giving their opponents time to reinforce.",
+        "forces": "Troops from across the empire and its allies, including Armenians and Ghassanid Arabs.",
+        "terrain": "A line anchored on a gorge and hills, with the Wadi Ruqqad and a single bridge behind it.",
+        "logistics": "The army had been gathered at Antioch, far to the north.",
+        "decision": "He made repeated attacks over several days, then asked for a truce on the fifth day.",
+        "outcome": "His army was destroyed; whether he died in the battle is uncertain."
+      },
+      {
+        "name": "Khalid ibn al-Walid",
+        "objective": "Defeat the Byzantine field army and secure Syria.",
+        "known": "According to World History Encyclopedia, his scouts warned of a Byzantine dawn attack.",
+        "uncertainty": "Whether an outnumbered army could hold its line against repeated assaults.",
+        "constraints": "He was not the formal commander; Abu Ubaidah was ready to accept the Byzantine truce.",
+        "forces": "An army in which light cavalry formed a mobile reserve, reinforced from Medina.",
+        "terrain": "A flat plateau suited to cavalry, and a gorge behind the enemy with only one crossing.",
+        "logistics": "Reinforcements reached the army from Medina before the battle.",
+        "decision": "He refused the truce, seized the bridge by night and led the cavalry around the Byzantine left.",
+        "outcome": "A decisive victory, after which he was nevertheless removed from command."
+      }
+    ]
+  },
+  {
+    "slug": "hattin",
+    "sources": [
+      {
+        "title": "De Expugnatione Terrae Sanctae per Saladinum: The Battle of Hattin, 1187 (trans. James Brundage)",
+        "url": "https://sourcebooks.web.fordham.edu/source/1187hattin.asp",
+        "publisher": "Internet Medieval Sourcebook, Fordham University"
+      },
+      {
+        "title": "The Battle of Hattin (1187): three accounts (trans. Peter W. Edbury)",
+        "url": "https://www.deremilitari.org/RESOURCES/SOURCES/ctit2.htm",
+        "publisher": "De Re Militari"
+      },
+      {
+        "title": "Some Medieval Accounts of Salah al-Din's Recovery of Jerusalem (Al-Quds)",
+        "url": "https://sourcebooks.web.fordham.edu/med/salahdin.asp",
+        "publisher": "Internet Medieval Sourcebook, Fordham University (Hadia Dajani-Shakeel)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "By 1187 Saladin had made the recovery of Jerusalem a central aim. The Latin kingdom of Jerusalem under King Guy of Lusignan was divided by rivalries among its nobles.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Saladin gathered a large army east of the Jordan. Guy, now reconciled with Count Raymond III of Tripoli, assembled the kingdom's forces at the springs of Saffuriya with the Templars, Hospitallers and leading barons, using money from Henry II of England to hire mercenaries.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "letter to Archumbald"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Saladin besieged Tiberias on 2 July, while the Countess Eschiva held out in the citadel and appealed for help. Guy's council resolved to march to relieve the town. Saladin's aim of drawing the army away from water is an interpretation of his actions, not a documented intention.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Between Saffuriya and the lake of Tiberias lay dry ground in high summer. The army was eventually forced onto the Horns of Hattin, near a village whose water it never reached.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "Colbert-Fontainebleau Eracles"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The Frankish army combined the royal host, the military orders and hired troops; De Expugnatione claims 1,200 knights and 18,000 or more infantry. Saladin commanded a large army, and the letter to Archumbald credits Taqi al-Din with the decisive attack.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "letter to Archumbald"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The army marched in divisions, with Raymond of Tripoli in the vanguard and the Templars in the rearguard. The relic of the True Cross was carried with it by the Bishop of Acre.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On Friday 3 July the army left Saffuriya and its supplies and marched under constant harassment. Short of the lake it halted and camped on dry ground, where the Muslims set fire to the brush around it. At dawn on Saturday 4 July Saladin attacked. The infantry fled to a hilltop, the knights were broken up around the True Cross, and the king was captured.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "Lyon Eracles"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "De Expugnatione says Raymond advised against the march because of heat and lack of water, but Guy followed other counsel. The Lyon Eracles says the Templar master and Reynald of Châtillon urged battle. On 3 July Guy ordered the army to camp rather than push on to the lake.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "Lyon Eracles"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The halt without water left a thirsty army surrounded overnight, and it could not fight effectively the next morning.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Guy, the Templar master and many knights were captured, and the True Cross was lost. Reynald of Châtillon was killed; the Lyon Eracles says Saladin killed him himself. De Expugnatione reports that captured Templars and Hospitallers were killed. Raymond, Balian of Ibelin and Reynald of Sidon escaped.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Within two months Saladin recovered most of the kingdom's inland cities and ports. Ashkelon fell in September, and Jerusalem surrendered on 2 October 1187.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Relieving a besieged town can draw a field army onto ground of the enemy's choosing. In summer campaigning, water decided the battle before the fighting began.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The Latin accounts disagree on whose advice led the army astray: one Eracles version blames Raymond's proposed turn toward Hattin, another the Templar master and Reynald. De Expugnatione frames the defeat as divine punishment and favours Raymond, and some Latins suspected Raymond and Reynald of Sidon of collusion with Saladin.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "De Expugnatione is a partisan contemporary Latin chronicle. Edbury translates two versions of the Old French continuation of William of Tyre and a letter written less than two months after the battle. Dajani-Shakeel sets Hattin in the context of Saladin's recovery of Jerusalem, drawing on medieval Arabic accounts.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Muster at Saffuriya",
+        "time": "Late June – 2 July 1187",
+        "description": "The Frankish army gathers at the springs; Saladin besieges Tiberias."
+      },
+      {
+        "title": "March without water",
+        "time": "3 July 1187",
+        "description": "The army marches east under harassment and halts on dry ground short of the lake."
+      },
+      {
+        "title": "Night of fire",
+        "time": "Night of 3–4 July 1187",
+        "description": "Surrounded and thirsty, the camp is harassed by arrows and brush fires."
+      },
+      {
+        "title": "Horns of Hattin",
+        "time": "4 July 1187",
+        "description": "Saladin attacks at dawn; the infantry breaks, Raymond escapes and the king is captured."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Guy of Lusignan",
+        "objective": "Relieve Tiberias and defeat Saladin's invasion.",
+        "known": "Saladin was besieging Tiberias, and the countess in the citadel was appealing for help.",
+        "uncertainty": "Whether the army could cross the dry country to the lake under attack.",
+        "constraints": "A kingdom divided by noble rivalries, with conflicting advice from his council.",
+        "forces": "The royal host, Templars, Hospitallers, barons and mercenaries hired with Henry II's money.",
+        "terrain": "Dry uplands between the springs of Saffuriya and the lake in high summer.",
+        "logistics": "The army left its supplies at Saffuriya and carried little water.",
+        "decision": "He marched to relieve Tiberias, then ordered a halt on 3 July before reaching water.",
+        "outcome": "His army was destroyed, the True Cross was lost and he was taken prisoner."
+      },
+      {
+        "name": "Saladin",
+        "objective": "Defeat the Frankish field army and recover the kingdom, including Jerusalem.",
+        "known": "The Frankish army had gathered at Saffuriya, beside reliable water.",
+        "uncertainty": "Whether the Franks would leave the springs to fight.",
+        "constraints": "The sources read describe his actions rather than his constraints, so this study does not reconstruct them.",
+        "forces": "A large army; the letter to Archumbald names his nephew Taqi al-Din as leading the decisive attack.",
+        "terrain": "Control of the ground and water between Saffuriya and the lake.",
+        "logistics": "The Lyon Eracles says water was poured out in sight of the thirsty Franks.",
+        "decision": "He besieged Tiberias, harassed the march, fired the brush around the camp and attacked at dawn.",
+        "outcome": "A decisive victory, followed within three months by the surrender of Jerusalem."
+      }
+    ]
+  },
+  {
+    "slug": "ain-jalut",
+    "sources": [
+      {
+        "title": "Battle of ʿAyn Jālūt",
+        "url": "https://www.britannica.com/event/Battle-of-Ayn-Jalut",
+        "publisher": "Encyclopaedia Britannica (Charles Phillips)"
+      },
+      {
+        "title": "Battle of Ain Jālūt",
+        "url": "https://www.ebsco.com/research-starters/history/battle-ain-jalut",
+        "publisher": "EBSCO Research Starters (Gilmar E. Visoni)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Mongol forces under Hülegü took Baghdad in 1258 and put the last ʿAbbasid caliph to death. They then took Aleppo and Damascus, ending Ayyubid rule in Syria, and by 1260 had reached Gaza.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The Mongols demanded the submission of the Mamluk sultan Qutuz; Britannica says he executed their envoy. News of the Great Khan Möngke's death led Hülegü to withdraw with much of his army, leaving his general Kitbuqa in Syria with a smaller force.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Qutuz aimed to defeat the Mongol force in Syria before it could be reinforced. Kitbuqa had to hold the newly conquered lands with reduced strength.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Ain Jalut (Goliath's Spring) lay in the Jezreel Valley, beneath wooded hills where troops could be concealed. Beisan lay about 13 km away.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Kitbuqa's army included Syrian, Georgian and Armenian troops. Qutuz led the Mamluk army, with Baybars among his generals. Britannica describes the armies as roughly matched; EBSCO calls the Mamluk army vastly superior.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The Mamluks positioned themselves so that the Mongols faced the rising sun and concealed much of their army in the hills. Kitbuqa kept his Syrian troops in reserve, fearing they might defect.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The Mamluk army left Egypt in late July 1260, defeated a small Mongol force at Gaza and passed through Frankish territory near Acre. On 3 September a Mamluk advance force provoked the Mongols and drew them into an ambush. The Mongols broke the Mamluk left wing, but the Mamluks rallied, Kitbuqa fell and the Mongols retreated to Beisan, where they were defeated again.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "The Franks of Acre declared neutrality and let the Mamluks pass and resupply, after a clash at Sidon had turned them against the Mongols. Kitbuqa chose to pursue the Mamluk advance force into the valley. Contemporary accounts say Qutuz threw down his helmet and rallied his men when the left wing gave way.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The ambush brought the concealed Mamluk army into action, and the rally after the left wing broke prevented a Mongol breakthrough. The defection of the Syrian auxiliaries then tipped the balance.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Kitbuqa was killed in battle or, by another account, captured and beheaded. The Mamluks occupied Damascus and Aleppo and drove the Mongols out of Syria.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Mamluk rule extended from Egypt to the Euphrates. Qutuz was murdered on the way back to Cairo by a conspiracy formed by Baybars, who seized power. Mongol campaigns into Syria continued in later decades, and Mamluk offensives later took the remaining Frankish strongholds, ending with Acre in 1291.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Events far from the battlefield, such as a succession crisis, can change the balance of forces in a theatre. Knowledge of the ground can turn a familiar tactic against its masters.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The sources disagree on who directed the battle, Qutuz or Baybars, and on whether the Mamluk retreat was feigned or a regrouping. They also give different balances of strength and different accounts of Kitbuqa's death. Britannica's claim that the battle saved Islam is a strong retrospective judgement.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica gives a narrative of the battle based on contemporary accounts. The EBSCO research starter gives political context, including the Frankish position, but contains some evident date errors, so it is used here only where it is consistent with Britannica.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Mongol advance",
+        "time": "1258–1260",
+        "description": "Hülegü's forces take Baghdad, Aleppo and Damascus and reach Gaza."
+      },
+      {
+        "title": "March north",
+        "time": "July – August 1260",
+        "description": "The Mamluk army leaves Egypt, defeats a Mongol force at Gaza and passes near Acre."
+      },
+      {
+        "title": "Ambush at Ain Jalut",
+        "time": "3 September 1260",
+        "description": "An advance force draws the Mongols into the valley, where the concealed Mamluk army attacks."
+      },
+      {
+        "title": "Rally and pursuit",
+        "time": "3 September 1260",
+        "description": "The Mamluks recover from a broken wing; Kitbuqa falls and the Mongols are beaten again at Beisan."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Qutuz",
+        "objective": "Defend Mamluk Egypt against the Mongol advance.",
+        "known": "The Mongols had taken Baghdad, Aleppo and Damascus, but Hülegü had withdrawn with much of his army.",
+        "uncertainty": "How the Frankish states would respond to a Mamluk army crossing their territory.",
+        "constraints": "The need to move a large army north through Frankish lands before the Mongols could be reinforced.",
+        "forces": "The Mamluk army, with Baybars, who knew the terrain, among its generals.",
+        "terrain": "A valley overlooked by wooded hills in which much of the army could hide.",
+        "logistics": "The Franks of Acre allowed the army to resupply near the city.",
+        "decision": "He rejected Mongol demands, marched north and fought at Ain Jalut, rallying his men when the left wing broke.",
+        "outcome": "A decisive victory; he was murdered on the way back to Cairo."
+      },
+      {
+        "name": "Kitbuqa",
+        "objective": "Hold Syria for the Mongols after Hülegü's departure.",
+        "known": "A Mamluk army was advancing north from Egypt.",
+        "uncertainty": "The loyalty of his Syrian troops, whom he kept in reserve for fear of defection.",
+        "constraints": "A reduced force, an uprising in Damascus that delayed him, and hostile Franks after his sack of Sidon.",
+        "forces": "Mongols with Syrian, Georgian and Armenian troops.",
+        "terrain": "He advanced into a valley facing the rising sun, with hills on which the enemy waited.",
+        "logistics": "The sources read do not describe his supply, so it is not reconstructed here.",
+        "decision": "He ordered an advance in pursuit of the Mamluk force.",
+        "outcome": "His army was defeated and he was killed or executed."
+      }
+    ]
   }
 ]

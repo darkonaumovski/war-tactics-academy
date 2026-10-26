@@ -1,6 +1,10 @@
 import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 import type { Page } from "@playwright/test";
+import { readFileSync } from "node:fs";
+const research: { slug: string }[] = JSON.parse(
+  readFileSync("data/research.json", "utf8"),
+);
 // Scroll-revealed sections stay transparent until seen, and axe skips
 // transparent text. Scroll through the page so every section is audited.
 // The pass repeats because hydration can finish after an early pass, at which
@@ -112,27 +116,8 @@ test("timeline selection, playback, zoom and accessible alternative", async ({
   await page.getByText("Read the complete accessible timeline").click();
   await expect(page.locator(".text-timeline li")).toHaveCount(4);
 });
-test("all sixteen detailed studies have functional timelines", async ({
-  page,
-}) => {
-  for (const slug of [
-    "marathon",
-    "cannae",
-    "alesia",
-    "hastings",
-    "austerlitz",
-    "waterloo",
-    "midway",
-    "stalingrad",
-    "gaugamela",
-    "agincourt",
-    "gettysburg",
-    "normandy",
-    "verdun",
-    "el-alamein",
-    "kursk",
-    "dien-bien-phu",
-  ]) {
+test("every detailed study has a functional timeline", async ({ page }) => {
+  for (const { slug } of research) {
     await page.goto(`/battles/${slug}`);
     const buttons = page
       .getByRole("group", { name: "Select battle phase" })

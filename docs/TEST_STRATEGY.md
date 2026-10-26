@@ -10,7 +10,7 @@ Playwright defines Chromium, Firefox and WebKit projects. Unless `PLAYWRIGHT_BAS
 
 - Homepage actions, main navigation, featured study and mobile navigation.
 - Battle search, combined filters, no-results recovery, details, commander navigation and actual HTTP 404 response.
-- All sixteen replay timelines, phase selection, playback, zoom, keyboard pan, event popup and text alternative.
+- All twenty replay timelines, phase selection, playback, zoom, keyboard pan, event popup and text alternative.
 - Atlas functionality with all external HTTPS requests blocked.
 - Commander search, profile associations and qualitative comparison.
 - Lesson answers, explanatory results and completion after reload, in both the Foundations path and the Classical Warfare path, including seminar guidance and lesson page titles.

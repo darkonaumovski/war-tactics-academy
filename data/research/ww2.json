@@ -1,0 +1,1226 @@
+[
+  {
+    "slug": "midway",
+    "sources": [
+      {
+        "title": "Battle of Midway, 3–7 June 1942",
+        "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1942/midway.html",
+        "publisher": "Naval History and Heritage Command"
+      },
+      {
+        "title": "H-006-1: Midway overview",
+        "url": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-006/h-006-1.html",
+        "publisher": "Naval History and Heritage Command"
+      },
+      {
+        "title": "Major Fleet-versus-Fleet Operations in the Pacific War, 1941–1945",
+        "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D208_200-PURL-gpo145086/pdf/GOVPUB-D208_200-PURL-gpo145086.pdf",
+        "publisher": "U.S. Naval War College"
+      },
+      {
+        "title": "Battle of Midway 75th Anniversary",
+        "url": "https://www.history.navy.mil/about-us/leadership/director/BOM-75th-Speech.html",
+        "publisher": "Naval History and Heritage Command"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After rapid Japanese expansion, the Combined Fleet planned an operation against Midway in June 1942.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Yamamoto hoped to draw American carriers into a decisive engagement. U.S. intelligence identified Midway as the principal objective.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Japan sought a favorable fleet battle; Nimitz sought to protect Midway while exploiting advance warning.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The engagement spread across open ocean around the atoll. Scouting aircraft connected widely separated forces.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Nagumo led four Japanese fleet carriers. Fletcher and Spruance commanded three American carriers under Nimitz's operational direction.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "American carrier groups waited northeast of Midway; the Japanese carrier force approached to support the island attack.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The 4 June island strike was followed by unsuccessful American attacks, devastating dive-bomber strikes and Japanese counterattacks.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Fletcher authorized Spruance's early strike while retaining aircraft pending better information. Nagumo faced conflicting demands to rearm aircraft and recover the island strike.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "American dive bombers disabled three Japanese carriers in the morning; Hiryu was mortally damaged later that day.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Japan abandoned the invasion. Four Japanese carriers and the American Yorktown were lost.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The result materially altered the carrier balance, but did not end the Pacific War.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Intelligence created opportunity without removing uncertainty. Scouting, carrier deck operations, navigation and command decisions shaped whether it could be exploited.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "A simple luck-versus-genius explanation obscures interacting causes. The schematic illustrates sequence, not verified ship tracks.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "NHHC provides chronology and intelligence context; the Naval War College study supports analysis of command decisions and incomplete information.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Midway attacked",
+        "time": "4 June 1942 · dawn",
+        "description": "Japanese carrier aircraft strike the atoll."
+      },
+      {
+        "title": "Search and launch",
+        "time": "Morning",
+        "description": "American aircraft attack; both sides act on incomplete contact reports."
+      },
+      {
+        "title": "Carrier crisis",
+        "time": "Late morning",
+        "description": "Dive bombers inflict fatal damage on Akagi, Kaga and Soryu."
+      },
+      {
+        "title": "Counterattack and withdrawal",
+        "time": "4–7 June",
+        "description": "Hiryu counterattacks before its loss; Japan withdraws and Yorktown is subsequently lost."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Chester W. Nimitz and the American carrier command",
+        "objective": "Defend Midway and attack the approaching carrier force.",
+        "known": "Communications intelligence indicated the objective, approximate timing and force.",
+        "uncertainty": "Contact reports did not initially locate every enemy carrier.",
+        "constraints": "Three carriers, aircraft range and the time needed to launch and recover strikes.",
+        "decision": "Nimitz concentrated carriers near Midway; Fletcher and Spruance launched attacks based on scouting reports. These were decisions under uncertainty, not omniscient ambush management.",
+        "forces": "Three carriers, Enterprise, Hornet and the hastily repaired Yorktown, supported by land-based aircraft on Midway.",
+        "terrain": "Open ocean. Weather, distance and aircraft range governed when and where strikes could be launched.",
+        "logistics": "Yorktown's rapid repair after Coral Sea added a third carrier to the American force.",
+        "outcome": "Four Japanese fleet carriers were sunk and Yorktown was lost. Interpretations range from emphasizing intelligence to stressing the contingency of strike timing."
+      },
+      {
+        "name": "Chūichi Nagumo",
+        "objective": "Support the Midway operation while retaining capacity to strike enemy ships.",
+        "known": "The first attack reported a need for another island strike; later scouting identified American ships.",
+        "uncertainty": "The enemy's carrier strength and immediate intentions.",
+        "constraints": "Rearming, landing returning aircraft and defending the carriers competed for time.",
+        "decision": "He ordered preparations for another island strike before new contact information changed the situation. Reasons are reconstructed from operational records rather than private thoughts.",
+        "forces": "Four fleet carriers, Akagi, Kaga, Sōryū and Hiryū, with the main battleship force far to the rear.",
+        "terrain": "Operating within range of Midway's aircraft exposed his carriers to repeated attacks from the island as well as the American carriers.",
+        "logistics": "Flight decks could not at once recover the island strike, rearm aircraft and launch against ships; each choice took time.",
+        "outcome": "All four carriers were lost. Postwar accounts, including the story that the carriers were five minutes from launching, have been revised by later research."
+      }
+    ]
+  },
+  {
+    "slug": "stalingrad",
+    "sources": [
+      {
+        "title": "Stalingrad: Experimentation, Adaptation, Implementation",
+        "url": "https://www.nationalww2museum.org/war/articles/stalingrad-experimentation-adaptation-implementation",
+        "publisher": "The National WWII Museum"
+      },
+      {
+        "title": "German Defeat at Stalingrad",
+        "url": "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1942-1945/german-defeat-at-stalingrad",
+        "publisher": "United States Holocaust Memorial Museum"
+      },
+      {
+        "title": "A Soviet mortar team advance at Stalingrad, 1942",
+        "url": "https://collection.nam.ac.uk/detail.php?acc=2007-03-1-8",
+        "publisher": "National Army Museum"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Germany's 1942 southern offensive aimed toward the Caucasus oilfields and the Volga region after the failure to defeat the Soviet Union in 1941.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Army Group South was divided, creating competing demands between the Caucasus and Stalingrad.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The campaign combined resource objectives with control of a major transport corridor. Reducing it to a contest over the city's name is inadequate.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Stalingrad extended along the Volga. The surrounding steppe remained essential to the wider battle.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Paulus commanded the German Sixth Army. Soviet defense included the 62nd Army under Chuikov; Romanian formations held exposed sectors outside the city.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "German forces advanced toward the Volga while Soviet forces defended the approaches and then the urban area.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The campaign moved from the summer advance through urban fighting to Operation Uranus and the destruction of the encircled force.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Soviet learning and organizational reform helped make the counteroffensive possible; no single commander's personality adequately explains it.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The November Soviet offensive broke through the flanks and encircled the Sixth Army.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The remaining German forces surrendered by 2 February 1943.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The defeat damaged German strategic prospects and became a major psychological turning point.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Examine an urban battlefield inside its operational setting. Tactical advances through a city can coexist with growing vulnerability outside it.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "German and Soviet postwar narratives both simplified responsibility. Casualty totals depend on whether they cover the city, encirclement or wider campaign.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The National WWII Museum emphasizes Soviet adaptation; USHMM places the defeat in the war's broader course. NAM supplies additional operational context.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Advance to the Volga",
+        "time": "Summer 1942",
+        "description": "German forces push toward Stalingrad amid Soviet resistance."
+      },
+      {
+        "title": "Urban battle",
+        "time": "September–November 1942",
+        "description": "Fighting narrows the Soviet foothold but does not end resistance."
+      },
+      {
+        "title": "Operation Uranus",
+        "time": "November 1942",
+        "description": "Soviet attacks against the flanks encircle the German army."
+      },
+      {
+        "title": "Final surrender",
+        "time": "January–2 February 1943",
+        "description": "The encircled force is defeated in separate pockets."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Friedrich Paulus and the German Sixth Army command",
+        "objective": "Take Stalingrad and secure the Volga flank of the German southern offensive.",
+        "known": "By autumn most of the city had been taken. The flanks were held by Romanian, Hungarian and Italian armies.",
+        "uncertainty": "The strength of Soviet forces gathering beyond the flanks.",
+        "constraints": "Overstretched supply lines, and orders from Hitler that limited withdrawal and, later, a breakout.",
+        "forces": "The Sixth Army, worn down by months of fighting in the city.",
+        "terrain": "Ruined city blocks favored defenders, while the open steppe beyond the flanks was thinly held.",
+        "logistics": "After the encirclement, air supply could not sustain the army, and its strength declined through December and January.",
+        "decision": "He kept fighting in the city and, once encircled, did not break out against orders. Whether a breakout was feasible remains debated.",
+        "outcome": "Surrender by 2 February 1943. About 91,000 survivors went into captivity."
+      },
+      {
+        "name": "Soviet command: Chuikov's 62nd Army and the Stavka planners",
+        "objective": "Hold the city to fix German forces in place while preparing a counteroffensive against the flanks.",
+        "known": "German strength was concentrated in the city, and the flanks were held by weaker allied armies.",
+        "uncertainty": "Whether the 62nd Army could hold its shrinking strip along the river until the counteroffensive was ready.",
+        "constraints": "Reinforcements had to cross the Volga under fire, and the offensive had to be prepared in secret.",
+        "forces": "The 62nd Army in the city, and fronts to the north and south strengthened by newly formed tank and mechanized corps.",
+        "terrain": "A narrow strip along the Volga inside the city, and open steppe for the encirclement.",
+        "logistics": "River crossings sustained the defense, while the counteroffensive required concentrating forces without detection.",
+        "decision": "The 62nd Army fought a layered, small-unit defense, and Operation Uranus struck the flanks in November. Credit for planning Uranus is disputed in memoirs.",
+        "outcome": "Encirclement and destruction of the Sixth Army, at very great cost to soldiers and civilians."
+      }
+    ]
+  },
+  {
+    "slug": "normandy",
+    "sources": [
+      {
+        "title": "D-Day: The Allied Invasion of Normandy",
+        "url": "https://www.nam.ac.uk/explore/d-day",
+        "publisher": "National Army Museum"
+      },
+      {
+        "title": "German response to D-Day",
+        "url": "https://www.iwm.org.uk/history/second-world-war/d-day/the-german-response-to-d-day",
+        "publisher": "Imperial War Museums"
+      },
+      {
+        "title": "World War II: D-Day, The Invasion of Normandy",
+        "url": "https://www.eisenhowerlibrary.gov/research/online-documents/world-war-ii-d-day-invasion-normandy",
+        "publisher": "Dwight D. Eisenhower Presidential Library"
+      },
+      {
+        "title": "The Battle of Normandy (backgrounder)",
+        "url": "https://www.veterans.gc.ca/pdf/media_kits/battle-of-normandy-backgrounder.pdf",
+        "publisher": "Veterans Affairs Canada"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "By spring 1944 Germany had dominated western Europe for four years; Anglo-American offensives in North Africa and the Mediterranean had ruled out an earlier return to northern France. Allied conferences in 1943 shaped the invasion plan, and Eisenhower was appointed to command it in December 1943.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The Allies considered a second front in north-west Europe essential to defeating Germany and to relieving pressure on the Soviet Union. Hitler's Directive No. 51 ordered the western defences reinforced, and he hoped that defeating an invasion would free forces for the Eastern Front.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The Allies aimed to land, establish a lodgement including Caen, then break out and liberate France. German commanders disagreed over how to defeat them: Rommel wanted to fight on the beaches, while Geyr von Schweppenburg wanted to hold armour back for a mass counterattack.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Normandy was chosen over the shorter crossing to Calais for its beaches, weaker defences and position within fighter range. The Atlantic Wall was nearly continuous only in the Pas de Calais. Inland, enclosed bocage country favoured the defenders.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Eisenhower was Supreme Allied Commander, with Montgomery commanding the ground forces. On the German side, Rundstedt commanded in the west and Rommel led Army Group B. Hitler split the panzer reserve: Rommel controlled three divisions, and four could not move without Hitler's permission.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Americans landed at Utah and Omaha, British troops at Gold and Sword, and Canadians at Juno, with airborne forces on both flanks. Static divisions of uneven quality held most of the coast, but the veteran 352nd Infantry Division, undetected by Allied intelligence, defended Omaha. Only 21st Panzer was within striking distance.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Airborne landings and bombardment preceded the beach assaults on 6 June. Cherbourg fell on 27 June and St-Lô on 19 July, while British and Canadian attacks ground forward around Caen. Operation Cobra broke through from 25 July. The German counterattack at Mortain on 7 August failed, and the Falaise Pocket closed in the third week of August.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Eisenhower launched the invasion in a spell of bad weather that made the decision fraught; he had drafted a press statement for use if it failed. Hitler refused withdrawal and ordered the Mortain counterattack, which exposed his armies to encirclement.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Deception held the German Fifteenth Army in the Pas de Calais. Repeated British and Canadian attacks drew most German armour to Caen, leaving the western sector weaker for the American breakout.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Allies were established in France. The Falaise Pocket was sealed in late August; many Germans escaped without their equipment, but Seventh Army and Fifth Panzer Army had effectively ceased to exist. The campaign ended with the liberation of Paris on 25 August.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The campaign opened the way to the liberation of France and the advance into Germany. The war in Europe continued until Germany's unconditional surrender, signed at Reims on 7 May 1945.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Combined operations depend on deception, air superiority and supply as much as on the assault. D-Day missed many first-day objectives, including Caen, yet put more than 160,000 troops ashore and secured a foothold.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Casualty figures differ between and even within institutional accounts. The date the Falaise Gap closed is given as 19, 21 or 22 August, depending on whether the link-up or the end of resistance is meant. Imperial War Museums credits German defensive skill while doubting any strategy could have changed the outcome.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The National Army Museum covers planning and the landings. Imperial War Museums gives the German command debate and campaign. The Eisenhower Library holds planning and command documents, and Veterans Affairs Canada summarizes the Canadian part of the campaign.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Landings",
+        "time": "6 June 1944",
+        "description": "Airborne drops, bombardment and assaults on five beaches establish a foothold."
+      },
+      {
+        "title": "Battle for the lodgement",
+        "time": "June – mid-July 1944",
+        "description": "Cherbourg falls; British and Canadian attacks around Caen hold German armour in the east."
+      },
+      {
+        "title": "Breakout",
+        "time": "25 July – early August 1944",
+        "description": "Operation Cobra breaks through in the west; the German counterattack at Mortain fails."
+      },
+      {
+        "title": "Falaise Pocket",
+        "time": "August 1944",
+        "description": "Allied armies close the pocket around German forces; Paris is liberated on 25 August."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Dwight D. Eisenhower",
+        "objective": "Land Allied armies in France, build up the lodgement and defeat German forces in the west.",
+        "known": "Air reconnaissance, special forces and the French Resistance had mapped much of the German coastal defence.",
+        "uncertainty": "Whether the weather would allow the landing, and whether it would succeed; he drafted a statement in case it failed.",
+        "constraints": "A short weather window and a multinational coalition of land, sea and air forces.",
+        "forces": "More than 5,000 ships, airborne divisions and assault divisions from several nations, with Montgomery commanding on land.",
+        "terrain": "Beaches of varying strength, then enclosed bocage country inland.",
+        "logistics": "Southern England was packed with men, vehicles and supplies; by 30 June over 850,000 men had landed.",
+        "decision": "He launched the invasion on 6 June despite the uncertain weather.",
+        "outcome": "The landings succeeded, and by late August the campaign had broken German resistance in Normandy."
+      },
+      {
+        "name": "Erwin Rommel",
+        "objective": "Defeat the invasion on the beaches.",
+        "known": "Invasion was imminent, and Allied air superiority would make it hard to move armour once the battle began.",
+        "uncertainty": "Where the main landing would fall; deception convinced the German high command that Normandy was a feint.",
+        "constraints": "He controlled only three panzer divisions, and four more could not move without Hitler's permission.",
+        "forces": "Army Group B, with Seventh Army in Normandy and Brittany and Fifteenth Army north of the Seine.",
+        "terrain": "An Atlantic Wall that was incomplete outside the Pas de Calais, which he strengthened with obstacles and mines.",
+        "logistics": "Air attacks held up fuel, ammunition and reinforcements.",
+        "decision": "He pushed for armour near the coast and strengthened the beach defences; he was away in Germany when the landings began.",
+        "outcome": "German resistance contained the Allies for weeks but could not throw them back. Rommel was badly wounded on 17 July."
+      }
+    ]
+  },
+  {
+    "slug": "el-alamein",
+    "sources": [
+      {
+        "title": "Second Battle of El Alamein",
+        "url": "https://www.nam.ac.uk/explore/battle-alamein",
+        "publisher": "National Army Museum"
+      },
+      {
+        "title": "El Alamein: outfoxing the “Desert Fox”, 1942",
+        "url": "https://www.awmlondon.gov.au/battles/el-alamein",
+        "publisher": "AWM London (Australian Department of Veterans' Affairs)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Italy invaded Egypt from Libya in 1940, and Germany intervened in 1941. In 1942 Rommel defeated the British at Gazala and took Tobruk on 21 June, and Commonwealth forces fell back to a line at El Alamein.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The First Battle of El Alamein in July and Rommel's failed attack at Alam Halfa on 30 August stopped the Axis advance. Churchill wanted a victory before the Allied landings in North-West Africa and pressed for an early attack; Montgomery, commanding Eighth Army since August, refused until he was ready.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Montgomery aimed to break the Axis position and destroy its army. Short of fuel and mechanized forces, Rommel aimed to hold a deep defensive position.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The Alamein line ran from the Mediterranean to the Qattara Depression, which tanks could not cross, so neither flank could be turned. The Axis protected its positions with deep minefields that Rommel called the \"devil's gardens\".",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Eighth Army drew troops from across the British Empire, including Australia, New Zealand and South Africa, with Greek, Polish and French contingents, and clearly outnumbered the German and Italian army in men, tanks and guns. Alexander was Commander-in-Chief Middle East.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Axis infantry and armour held positions in depth behind the minefields. The 9th Australian Division held the northern end of the Allied line near the coast.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Operation Lightfoot opened on the night of 23 October with a heavy barrage, and infantry and engineers attacked to open corridors through the minefields. A week of attritional fighting followed, with Australian attacks in the north. Operation Supercharge began on the night of 1–2 November, and the Axis line broke on 4 November.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Montgomery built up men, training and equipment before attacking. When armour stalled in the minefield corridors, he continued an attritional phase he called \"crumbling\", made a diversionary attack to draw in Axis reserves and paused to regroup before Supercharge.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The Australian drive toward the sea pulled Axis forces north and unbalanced them. Continued attrition used up Rommel's scarce reserves before Supercharge struck.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "By late afternoon on 4 November the Axis army was in full retreat. Most of its infantry was captured, but Montgomery's caution let the motorized elements escape, and the British pursued into Libya.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "El Alamein was the British Army's first clear, decisive victory over the Axis. Four days later the Torch landings began, and Axis forces in North Africa surrendered in Tunisia in May 1943.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Deliberate preparation and material superiority can overcome a prepared defence, but only through costly attrition, and a cautious exploitation may let a beaten enemy escape.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The National Army Museum suggests Churchill's \"end of the beginning\" framing may overstate the battle's strategic weight, and Montgomery's conduct remains debated. The two sources give different force totals, and disagree on whether Lightfoot opened corridors through the minefields in its first hours.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The National Army Museum gives the British strategic and command narrative and its debates. AWM London gives the Australian 9th Division's role and the RAAF's support.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Lightfoot",
+        "time": "23–24 October 1942",
+        "description": "A heavy barrage; infantry and engineers attack to open corridors through the minefields."
+      },
+      {
+        "title": "Crumbling",
+        "time": "Late October 1942",
+        "description": "Attritional fighting wears down Axis armour; Australian attacks draw Axis forces north."
+      },
+      {
+        "title": "Supercharge",
+        "time": "1–4 November 1942",
+        "description": "New Zealand and British troops attack again; the Axis line breaks on 4 November."
+      },
+      {
+        "title": "Pursuit",
+        "time": "From 4 November 1942",
+        "description": "Axis infantry is captured, but motorized units escape west into Libya."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Bernard Montgomery",
+        "objective": "Break the Alamein position and defeat the Axis army decisively.",
+        "known": "The Axis was short of fuel and mechanized forces and had built deep minefields.",
+        "uncertainty": "Whether armour could pass through narrow minefield corridors under anti-tank fire.",
+        "constraints": "Churchill's pressure for an early victory before the Allied landings in North-West Africa.",
+        "forces": "Eighth Army, drawn from across the British Empire with Greek, Polish and French contingents, superior in men, tanks, guns and aircraft.",
+        "terrain": "A front between the sea and the Qattara Depression, with no open flank to turn.",
+        "logistics": "Weeks of build-up in men, tanks, guns and aircraft before the attack.",
+        "decision": "He delayed until ready, persisted with attrition when the armour stalled, and launched Supercharge after regrouping.",
+        "outcome": "The breakthrough came on 4 November, but the Axis motorized units escaped."
+      },
+      {
+        "name": "Erwin Rommel",
+        "objective": "Hold the Alamein position against a stronger enemy.",
+        "known": "Eighth Army was building up superior forces opposite him.",
+        "uncertainty": "Where the main British blow would fall.",
+        "constraints": "Shortages of fuel and mechanized forces.",
+        "forces": "German and Italian infantry and armour, outnumbered in men, tanks and guns.",
+        "terrain": "Deep minefields he called the \"devil's gardens\", covering a line that could not be outflanked.",
+        "logistics": "Fuel shortages limited how freely he could move his armour.",
+        "decision": "He defended in depth and counterattacked; his reserves were drawn north and worn down.",
+        "outcome": "His army retreated on 4 November; most of the infantry was captured, but motorized units escaped."
+      }
+    ]
+  },
+  {
+    "slug": "kursk",
+    "sources": [
+      {
+        "title": "History Through the Viewfinder: Reflections on the Greatest Tank Battle in History",
+        "url": "https://www.nationalww2museum.org/war/articles/history-through-viewfinder-37",
+        "publisher": "The National WWII Museum (Keith Huxen)"
+      },
+      {
+        "title": "Kursk, Battle of (Encyclopedia of Modern Europe: Europe Since 1914)",
+        "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/kursk-battle-0",
+        "publisher": "Encyclopedia.com (Bruce W. Menning)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After the defeat at Stalingrad in February 1943, Hitler persisted with an offensive in the east despite concerns from commanders such as Guderian. Manstein urged an attack on the Kursk salient, a Soviet bulge between Orel and Belgorod.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Hitler delayed the operation, code-named Citadel, until July to build up armour and assault guns. It became the last major German offensive on the Eastern Front.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The Germans aimed to attack the salient from north and south. The Soviet high command (Stavka) expected the attack and planned to absorb it in deep defences before launching powerful counteroffensives.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The salient extended about 160 miles from north to south and 100 miles from east to west. In the south, the German advance culminated near Prokhorovka.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Both sides concentrated vast forces, with the Soviets holding a clear numerical advantage and a reserve front behind the salient. Manstein commanded the German southern attack. Totals differ substantially between the sources.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Soviet forces built up to six belts of fortifications. Good intelligence, possibly including Enigma intercepts passed on by the British, helped them anticipate the attack.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The German attack began on 5 July. It stalled in the north with slight gains and culminated in the south near Prokhorovka on 11–12 July. A Soviet counteroffensive toward Orel began on 12 July, a second in the south followed from 3 August, and the campaign ended with the capture of Kharkov on 23 August.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Stavka chose to defend first and counterattack later. After the Allied landing in Sicily on 10 July, Hitler told his generals on 12 July that he wanted to move troops to Italy; Menning writes that he diverted the II SS Panzer Corps and ordered Manstein onto the defensive.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Defences in depth absorbed the German attack before it broke into open country, leaving the attackers worn down when the Soviet counteroffensives began.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "For the first time, a German offensive failed to achieve a breakthrough. Soviet counteroffensives took Orel and Kharkov, and the strategic initiative passed permanently to the Soviet side.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Germany could no longer mount a major offensive in the east. For the Red Army, Kursk showed mature coordination of several fronts and effective defence in depth, at an immense human cost to both sides.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Intelligence, prepared depth and well-placed reserves let a defender choose when to shift to the offensive.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Western accounts long relied on German sources, and Menning writes that the full intelligence story \"remains to be told\". The figures for forces and losses cited by the museum, from David Glantz and Karl-Heinz Frieser, differ widely from Menning's. The label \"largest tank battle in history\" depends on how the fighting is counted.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Menning's encyclopedia entry gives the operational narrative and historiography. The National WWII Museum article sets out the battle's scale and the Soviet counteroffensive.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "German pincers",
+        "time": "5–11 July 1943",
+        "description": "German attacks strike the salient from north and south and meet deep Soviet defences."
+      },
+      {
+        "title": "Prokhorovka",
+        "time": "11–12 July 1943",
+        "description": "The southern attack culminates in a great armoured clash; the Soviets halt it at heavy cost."
+      },
+      {
+        "title": "Counterstroke in the north",
+        "time": "From 12 July 1943",
+        "description": "The Soviet Orel offensive strikes Army Group Centre as Hitler shifts forces to Italy."
+      },
+      {
+        "title": "Belgorod–Kharkov",
+        "time": "3–23 August 1943",
+        "description": "A southern counteroffensive breaks through and takes Kharkov, ending the campaign."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Erich von Manstein",
+        "objective": "Cut off the Kursk salient by converging attacks and restore German initiative after Stalingrad.",
+        "known": "The salient between Orel and Belgorod offered a target for attacks from north and south.",
+        "uncertainty": "How strong the Soviet defences had become during the months of delay.",
+        "constraints": "Hitler controlled the timing, and after the Sicily landings he withdrew forces and ordered a defensive posture.",
+        "forces": "German armies and armour concentrated for the southern attack; the sources' totals differ.",
+        "terrain": "Defended belts across the southern face of the salient, with the advance culminating near Prokhorovka.",
+        "logistics": "The delay was used to build up armour and assault guns.",
+        "decision": "He pressed the southern attack from 5 July until it was halted near Prokhorovka.",
+        "outcome": "Ordered onto the defensive, his forces then lost Kharkov to the Soviet counteroffensive in August."
+      },
+      {
+        "name": "Stavka (Soviet high command)",
+        "objective": "Absorb the expected German attack, then launch decisive counteroffensives.",
+        "known": "Intelligence indicated a German attack on the salient, possibly aided by Enigma intercepts passed by the British.",
+        "uncertainty": "When the attack would begin, since Hitler delayed it until July.",
+        "constraints": "The need to hold the salient long enough to wear down German armour before committing reserves.",
+        "forces": "Several fronts with a numerical advantage and a reserve front behind the salient.",
+        "terrain": "Up to six belts of field fortifications across the salient.",
+        "logistics": "Reserves and fresh forces were assembled for counteroffensives in the north and south.",
+        "decision": "It defended first, then attacked toward Orel from 12 July and toward Kharkov from 3 August.",
+        "outcome": "The German offensive failed, and the strategic initiative passed permanently to the Soviet side."
+      }
+    ]
+  }
+]

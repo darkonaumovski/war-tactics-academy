@@ -1,5 +1,5 @@
 import { it, expect } from "vitest";
-import research from "../../data/research.json";
+import { research } from "../../data/research";
 import commanders from "../../data/commanders.json";
 import {
   researchSchema,

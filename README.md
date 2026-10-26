@@ -20,7 +20,7 @@ The guiding principle is to explain what commanders knew, what they decided and 
 - **Twenty-nine detailed studies**, one for every engagement in the catalog, each with 14 analysis sections and a four-phase interactive replay. 403 of the 406 sections show which listed sources they draw on, with book and chapter locators for classical texts and chronicles and section names for handbooks.
 - **Fifty-seven command perspectives** across every engagement except Marathon. Each covers objective, available information, uncertainty, constraints, forces, terrain, logistics, decisions and retrospective interpretation, clearly presented as reconstructed reasoning rather than quotations.
 - **44 commander profiles**, each with a command role (ruler-commander, field, naval, staff planner, or coalition and theater commander), ranks and titles, principal commands, a dated chronology, a notable decision, defeats and reverses, linked engagements and further reading. The catalog filters by era and command role, and any two commanders can be compared side by side without numerical ratings.
-- **23 war pages** with principal participants, geographic scope, a chronology of key developments, key commanders and reading from linked studies and profiles; each links to its campaigns and engagements.
+- **33 war pages** with principal participants, geographic scope, a chronology of key developments, key commanders and reading from linked studies and profiles; each links to its campaigns and engagements.
 
 ### Interactive learning
 

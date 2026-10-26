@@ -9,14 +9,13 @@ import {
   warDetailsSchema,
 } from "../lib/validation";
 import { warDetails } from "../data/war-details";
+import { research as researchData } from "../data/research";
 import { media } from "../lib/media";
 import type { Prisma } from "../generated/prisma/client";
 import type { Source } from "../lib/types";
 const json = (v: unknown) =>
   JSON.parse(JSON.stringify(v)) as Prisma.InputJsonValue;
-const research = researchSchema.parse(
-  JSON.parse(await readFile("data/research.json", "utf8")),
-);
+const research = researchSchema.parse(researchData);
 const commanders = commanderSchema.parse(
   JSON.parse(await readFile("data/commanders.json", "utf8")),
 );

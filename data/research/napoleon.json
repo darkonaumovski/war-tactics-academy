@@ -1,0 +1,506 @@
+[
+  {
+    "slug": "austerlitz",
+    "sources": [
+      {
+        "title": "Austerlitz, 2 December 1805: a timeline",
+        "url": "https://www.napoleon.org/en/history-of-the-two-empires/timelines/austerlitz-2-december-1805-a-timeline",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Austerlitz: the battlefield",
+        "url": "https://www.napoleon.org/en/magazine/places/austerlitz-2",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "2 décembre 1805 : La bataille d'Austerlitz",
+        "url": "https://www.defense.gouv.fr/terre/mieux-nous-connaitre/histoire-larmee-terre/larmee-terre-travers-ses-batailles/2-decembre-1805-bataille",
+        "publisher": "French Ministry of the Armed Forces"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "The 1805 campaign carried the Grande Armée from the Channel camps through the Ulm campaign and into Austria.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Austria and Russia confronted Napoleon within the Third Coalition. The battle took place on 2 December 1805 in present-day Czechia.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Napoleon sought a decisive result before the coalition could improve its position. The Allies attempted to turn the French right.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The Pratzen Heights dominated the battlefield; Telnitz and Sokolnitz lay in the southern sector.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "French corps under commanders including Soult, Davout and Lannes faced a combined Austro-Russian army.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Allied formations occupied the heights before moving substantial forces south against Napoleon's right.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The southern fighting developed first. Soult then attacked the weakened center, followed by fighting for the plateau and an Allied retreat.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Napoleon committed Soult against the Pratzen Heights as Allied troops moved away.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Control of the center divided the coalition's fight and allowed the French to redirect forces against its southern wing.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The French won decisively. Austria signed an armistice on 6 December.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The Treaty of Pressburg followed on 26 December, reshaping the political settlement after the campaign.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A useful study question is how timing, terrain and concentration interacted. A deliberate risk can only be assessed against the forces available to support it.",
+        "evidence": "interpretation"
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The popular image of a perfectly controlled trap compresses a contested battle. This overview omits disputed losses and exact minute-by-minute timing.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The Fondation Napoléon timeline and site guide supply sequence and geography. The French Army page represents an institutional commemorative interpretation.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Allied movement south",
+        "time": "2 December 1805 · early morning",
+        "description": "Allied forces advance toward Telnitz and Sokolnitz."
+      },
+      {
+        "title": "Assault on Pratzen",
+        "time": "Morning",
+        "description": "Soult's corps attacks the weakened Allied center."
+      },
+      {
+        "title": "Contest for the center",
+        "time": "Late morning",
+        "description": "Counterattacks fail to restore Allied control of the plateau."
+      },
+      {
+        "title": "Allied withdrawal",
+        "time": "Afternoon",
+        "description": "The divided Allied army retreats; French forces press its southern wing."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Napoleon Bonaparte",
+        "objective": "Win a decisive battle before Prussia joined the coalition and before further Allied reinforcements arrived.",
+        "known": "The Allies had advanced toward him and occupied the Pratzen Heights, which he had left to them. An attack on his right was expected.",
+        "uncertainty": "Whether reinforcements marching from the south would arrive in time to hold the southern sector, and when the Allies would weaken their center.",
+        "constraints": "A long line of communication through Austria after the Ulm campaign, and an army that was smaller on the field until its corps concentrated.",
+        "forces": "Corps including those of Soult, Lannes, Bernadotte and Davout, with the Guard and Murat's cavalry.",
+        "terrain": "The Pratzen plateau dominated the center. Streams, ponds and the villages of Telnitz and Sokolnitz shaped the southern fighting.",
+        "logistics": "Far from France, the army needed a quick decision rather than a prolonged campaign in Moravia.",
+        "decision": "He held Soult's corps ready and launched it against the Pratzen Heights once Allied columns had moved south, around 8–8:30 a.m. in the sources. This describes observable decisions, not his private thoughts.",
+        "outcome": "A decisive French victory, followed by an Austrian armistice on 6 December. The image of a perfectly controlled trap compresses a hard-fought battle."
+      },
+      {
+        "name": "Allied command: Kutuzov, Weyrother and the allied emperors",
+        "objective": "Turn the French right and cut Napoleon's communications with Vienna.",
+        "known": "French forces appeared weaker on their right, and the Allies held the Pratzen plateau.",
+        "uncertainty": "The true strength and position of the French army, including forces arriving from the south.",
+        "constraints": "A divided command with Alexander I and Francis I present, and a complex plan requiring several columns to march across the plateau.",
+        "forces": "A combined Russian and Austrian army organized in several attack columns.",
+        "terrain": "Moving off the Pratzen plateau to support the southern attack left the center exposed.",
+        "logistics": "Supplies in Moravia were strained. Waiting for reinforcements and for Prussia was an alternative some favored.",
+        "decision": "They committed most columns to the southern attack, weakening the center. Accounts differ on Kutuzov's reservations about the plan; they are not reconstructed here.",
+        "outcome": "Defeat split the army and Austria left the war. Russian and Austrian accounts later blamed each other."
+      }
+    ]
+  },
+  {
+    "slug": "waterloo",
+    "sources": [
+      {
+        "title": "Battle of Waterloo",
+        "url": "https://www.nam.ac.uk/explore/battle-waterloo",
+        "publisher": "National Army Museum"
+      },
+      {
+        "title": "Waterloo 1815",
+        "url": "https://royalarmouries.org/objects-and-stories/stories/waterloo-1815",
+        "publisher": "Royal Armouries"
+      },
+      {
+        "title": "Blücher and the Waterloo campaign",
+        "url": "https://www.napoleon.org/en/history-of-the-two-empires/close-up/a-close-up-on-blucher-and-the-waterloo-campaign",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Three plans showing the Battle of Waterloo, 1815 (MPH 1/387)",
+        "url": "https://beta.nationalarchives.gov.uk/catalogue/id/C4562194",
+        "publisher": "The National Archives (UK)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Napoleon returned from Elba in 1815. A new coalition mobilized against him.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "His advance into Belgium sought to separate Wellington's and Blücher's armies before larger coalition forces arrived.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The French needed a rapid decision; the Allies needed to sustain cooperation despite separate command structures.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Wellington held the Mont-Saint-Jean ridge with forward strongpoints including Hougoumont and La Haye Sainte.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Napoleon faced Wellington's multinational army and, later, Blücher's Prussian corps.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Much Allied infantry sheltered behind the crest of the ridge, out of sight and partly protected from artillery. Squares formed against the later cavalry attacks.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Attacks on the strongpoints and center were followed by cavalry assaults, Prussian intervention and the final Guard attack.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Wellington chose to stand with promised Prussian support. Blücher marched toward him after the defeat at Ligny.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Prussian pressure forced Napoleon to divide attention and reserves. The Imperial Guard's repulse preceded general French retreat.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The coalition won on 18 June. Napoleon's attempt to restore his rule failed.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The campaign ended with Allied occupation of Paris and Napoleon's final exile.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Coalition cooperation can be an operational capability. Study liaison and marching decisions alongside the actions visible on the battlefield.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "National narratives assign credit differently, including the weight given to the Prussian intervention. The schematic simplifies simultaneous engagements and is not derived from period maps.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Compare the National Army Museum narrative with Royal Armouries and the Prussian-focused Fondation Napoléon dossier. The National Archives holds three 1815 plans of the battle (MPH 1/387); they are catalogued but not digitised.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Strongpoints attacked",
+        "time": "18 June 1815 · late morning",
+        "description": "French assaults begin against Wellington's forward positions."
+      },
+      {
+        "title": "Assaults on the ridge",
+        "time": "Early afternoon",
+        "description": "Infantry and cavalry fighting tests the Allied line."
+      },
+      {
+        "title": "A second front",
+        "time": "Afternoon",
+        "description": "Prussian forces enter the battle against Napoleon's right."
+      },
+      {
+        "title": "Final repulse",
+        "time": "Evening",
+        "description": "The Guard attack fails; the Allied advance and pursuit follow."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Napoleon Bonaparte",
+        "objective": "Defeat Wellington before the coalition armies could combine effectively.",
+        "known": "Ligny had forced a Prussian retreat, but its direction and recovery remained critical.",
+        "uncertainty": "How much Prussian force could reach the battlefield in time.",
+        "constraints": "Wet ground, elapsed time and competing demands for reserves.",
+        "decision": "He continued the attack while allocating troops to the Prussian threat. The account describes actions, not an invented inner monologue.",
+        "forces": "The Army of the North, strong in artillery and cavalry, with the Imperial Guard as a final reserve. Grouchy's wing had been detached to follow the Prussians.",
+        "terrain": "Rain-soaked ground delayed the attack and hampered artillery and cavalry. Fortified farms broke up assaults before they reached the ridge.",
+        "logistics": "The campaign had to succeed quickly, before larger coalition armies reached France's frontiers.",
+        "outcome": "Defeat ended his return to power. Debate continues over the late start, Grouchy's movements and the use of the cavalry and the Guard."
+      },
+      {
+        "name": "Arthur Wellesley, Duke of Wellington",
+        "objective": "Hold the position until Prussian assistance could make a combined victory possible.",
+        "known": "Blücher had promised support; his arrival depended on a difficult march.",
+        "uncertainty": "The timing and scale of reinforcement.",
+        "constraints": "A mixed army, an extended defensive line and repeated French pressure.",
+        "decision": "He defended the ridge and strongpoints, then advanced as the French attack failed.",
+        "forces": "A multinational army of British, Dutch-Belgian, Hanoverian, Brunswick and Nassau troops of uneven experience.",
+        "terrain": "The Mont-Saint-Jean ridge sheltered infantry behind its crest. Hougoumont and La Haye Sainte broke up attacks in front of the line.",
+        "logistics": "His communications ran north toward Brussels and the coast. Contact with the Prussians was essential to the plan.",
+        "outcome": "A combined Allied victory. British national narratives long underplayed the Prussian contribution."
+      },
+      {
+        "name": "Gebhard Leberecht von Blücher",
+        "objective": "Restore cooperation with Wellington after Ligny.",
+        "known": "Wellington intended to fight near Waterloo.",
+        "uncertainty": "March delays and the situation when each corps arrived.",
+        "constraints": "Reorganization after defeat and routes from Wavre.",
+        "decision": "He committed corps toward Waterloo. Their intervention turned a two-army encounter into a coalition victory.",
+        "forces": "Prussian corps regrouping after Ligny. Bülow's corps, which had not fought at Ligny, led the march to Waterloo.",
+        "terrain": "Muddy lanes slowed the march from Wavre. Plancenoit became the focus of the Prussian attack on the French right.",
+        "logistics": "Retreating north to Wavre after Ligny, rather than east toward Prussia, kept the army in reach of Wellington while it regrouped.",
+        "outcome": "The Prussian attack and pursuit turned the French defeat into a rout. Some national narratives have underestimated this role."
+      }
+    ]
+  }
+]

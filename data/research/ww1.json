@@ -1,0 +1,470 @@
+[
+  {
+    "slug": "verdun",
+    "sources": [
+      {
+        "title": "The Battle of Verdun",
+        "url": "https://memorial-verdun.fr/en/ressources/la-bataille-de-verdun",
+        "publisher": "Mémorial de Verdun"
+      },
+      {
+        "title": "Battle of Verdun",
+        "url": "https://www.iwm.org.uk/history/first-world-war/western-front/verdun",
+        "publisher": "Imperial War Museums"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "By late 1915 the German chief of staff, Erich von Falkenhayn, believed Germany could not win by military strength alone. He planned to defeat France before British forces were fully deployed, hoping a major French defeat would push its politicians toward peace.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Verdun was chosen in December 1915. Its forts had been stripped of guns in August 1915, its supply routes were limited, and the city combined military value with national pride: French leaders declared that morale would not survive its loss.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Imperial War Museums describes Falkenhayn's concept as using more than 1,200 guns to destroy French units on ground they had to retake, while committing German infantry sparingly. The French aimed simply to hold Verdun.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The fortress city lay on the River Meuse, ringed by 19 forts, of which Douaumont was the largest and highest. Heights on the east (right) bank dominated the area; the Mort-Homme and Hill 304 lay on the west bank. A single road from Bar-le-Duc carried most French supply.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The German Fifth Army attacked under Crown Prince Wilhelm, with General Schmidt von Knobelsdorf an influential adviser. The French Second Army was commanded from 26 February by Philippe Pétain and later by Robert Nivelle, under Joffre as commander-in-chief.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "French positions north of the city were thin. Lieutenant-Colonel Driant, who had warned of the weak defences, held woods in the path of the attack with about 1,200 light infantry; only around a hundred survived unhurt.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "A massive bombardment opened the battle on 21 February 1916, and Fort Douaumont fell on 25 February. Germany attacked the west bank from 6 March, took Fort Vaux on 7 June and reached Fort Souville on 11–12 July before being pushed back. French counteroffensives retook Douaumont on 24 October and Vaux in November, and the battle ended in December.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Pétain defended in depth with mutually supporting strongpoints, rotated divisions through the battle in a system called the noria and greatly increased French artillery. Crown Prince Wilhelm's staff, by contrast, made seizing ground the priority rather than Falkenhayn's limited concept.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Once both armies fought for ground rather than to destroy the other's units, losses fell equally on both. The Somme offensive from late June then forced Germany to reduce its effort at Verdun and let Nivelle attack.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "France held Verdun and recovered Douaumont, Vaux and much of the lost ground. Falkenhayn's plan to destroy the French army had failed.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Verdun's losses, added to those of the Somme, created a German manpower crisis. In France the battle became the national symbol of the Great War. Nine villages were destroyed and never rebuilt, and the Douaumont Ossuary holds the remains of about 130,000 soldiers.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "An attritional plan depends on controlling the objective. When commanders pursue ground for its own sake, the attacker can suffer as heavily as the defender.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Falkenhayn's postwar claim that he meant to bleed the French army white is debated; other readings stress the capture of the town or drawing in Allied reserves. The sources differ on the start of the bombardment (4 a.m. or 7.15 a.m.), the end date (15 or 18 December) and when Pétain left (late April or May).",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The Mémorial de Verdun gives a detailed French chronology, logistics and memory. Imperial War Museums gives the strategic concept and the changing German conduct of the battle.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Opening bombardment",
+        "time": "21–26 February 1916",
+        "description": "German artillery overwhelms the right-bank positions; Fort Douaumont falls."
+      },
+      {
+        "title": "Both banks",
+        "time": "March – early June 1916",
+        "description": "Germany attacks the Mort-Homme and Hill 304 and takes Fort Vaux."
+      },
+      {
+        "title": "Last German push",
+        "time": "June – July 1916",
+        "description": "German attacks reach Fleury and Fort Souville before the Somme draws resources away."
+      },
+      {
+        "title": "French recovery",
+        "time": "October – December 1916",
+        "description": "French counteroffensives retake Douaumont and Vaux and push the line back."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Erich von Falkenhayn",
+        "objective": "Defeat France before British forces reached full strength, and so open the way to a negotiated peace.",
+        "known": "French losses in 1914–1915 had been heavy, and Verdun's forts had lost their guns in August 1915.",
+        "uncertainty": "Whether the French would defend Verdun at any cost, and whether his subordinates would keep to a limited, artillery-led attack.",
+        "constraints": "Germany's limited manpower, and an army command that pursued the capture of ground.",
+        "forces": "The Fifth Army under Crown Prince Wilhelm with more than 1,200 guns.",
+        "terrain": "Heights on the east bank of the Meuse that dominated the city and its forts.",
+        "logistics": "Verdun's limited supply routes appeared to favour the attacker.",
+        "decision": "He launched an artillery-heavy offensive on the east bank on 21 February and extended it to the west bank in March.",
+        "outcome": "The plan failed. German losses at Verdun and the Somme together produced a manpower crisis."
+      },
+      {
+        "name": "Philippe Pétain",
+        "objective": "Hold Verdun and stabilize a collapsing front.",
+        "known": "When he took command on 26 February, much of the right bank had been overrun and Fort Douaumont had fallen.",
+        "uncertainty": "Whether a single supply road could sustain the defence under constant shelling.",
+        "constraints": "The Mémorial de Verdun says Joffre moved him in spring because he demanded too many resources.",
+        "forces": "The French Second Army, with steadily increased artillery.",
+        "terrain": "Ground suited to a defence in depth of mutually supporting strongpoints.",
+        "logistics": "The Voie Sacrée from Bar-le-Duc carried about 90,000 men and 50,000 tonnes of equipment a week.",
+        "decision": "He defended in depth, rotated divisions through the battle and kept the supply road open.",
+        "outcome": "Verdun held. He was succeeded by Nivelle, whose later counterattacks recovered much of the lost ground."
+      }
+    ]
+  },
+  {
+    "slug": "tannenberg",
+    "sources": [
+      {
+        "title": "Battle of Tannenberg",
+        "url": "https://www.britannica.com/event/Battle-of-Tannenberg-World-War-I-1914",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Alexander Samsonov, 1859–1914, Russian General",
+        "url": "https://www.historyofwar.org/articles/people_samsonov.html",
+        "publisher": "History of War (J. Rickard)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "To ease German pressure on France, the Russian commander-in-chief, Grand Duke Nicholas, urged his First and Second Armies into East Prussia before they were fully ready. General Zhilinsky had earlier pledged to France that Russia would field 800,000 men by the 15th day of mobilisation.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Initial developments"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "With more than two-to-one superiority, a combined Russian attack could have destroyed the German Eighth Army. But the two army commanders, Rennenkampf and Samsonov, had quarrelled bitterly since the Russo-Japanese War.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Initial developments"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Zhilinsky's plan had Rennenkampf's First Army attack from the east to draw the Germans on, while Samsonov's Second Army crossed the southern frontier two days later to cut them off from the Vistula. The Germans aimed to break the invasion.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Initial developments; Outcome and aftermath"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The 80-km chain of the Masurian Lakes separated the two Russian armies, and the Königsberg fortifications narrowed Rennenkampf's approach. The Russians had left their own border country a barrier of poor railways and worse roads, which now slowed Samsonov.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Initial developments"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Rennenkampf had six and a half infantry and five cavalry divisions; Samsonov ten infantry and three cavalry divisions, both under Zhilinsky. The German Eighth Army was commanded by Prittwitz, then by Hindenburg, appointed on 22 August, with Ludendorff as chief of staff and Max Hoffmann on the staff.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Initial developments"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Rennenkampf crossed the frontier and pushed back much of the Eighth Army at Gumbinnen on 19–20 August. Samsonov's army, hurried on by Zhilinsky, reached the southern frontier tired, hungry and with its transport incomplete, and spread across a front of nearly 100 km.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Initial developments; Planning and execution"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 20 August Prittwitz spoke of retreating behind the Vistula, but his staff prepared a move against Samsonov's left; he was replaced two days later. On 26 August François's I Corps attacked near Usdau, and on 27 August the Russian left broke. By 29 August the Germans held the road behind the Russian centre, which surrendered in the forests.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Initial developments; Planning and execution"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Hoffmann trusted Russian wireless orders sent uncoded, which his superiors suspected were a deception. Ludendorff took the risk of withdrawing almost everything from in front of Rennenkampf, leaving a cavalry screen, to strike both of Samsonov's flanks. Zhilinsky drove Samsonov forward and diverted Rennenkampf towards Königsberg.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Planning and execution"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "On 27 August the Russian left wing broke under bombardment before the German infantry attacked. François then turned east to Neidenburg, closing the line of retreat of the Russian centre.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Planning and execution"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Russian centre dissolved into exhausted groups that surrendered in large numbers. Samsonov, caught in the retreat, shot himself; Britannica places this early on 30 August, Rickard probably on 29 August.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Planning and execution; Outcome and aftermath"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Reinforced from the west, the Germans drove Rennenkampf out of East Prussia in September. Britannica notes that they could not turn the victory into a strategic one, and that the corps sent east helped make possible the French recovery on the Marne.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Outcome and aftermath"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Two armies separated by terrain and unwilling to cooperate could be beaten one at a time. Uncoded radio gave the defender the knowledge to take great risks, and railways let it shift forces quickly.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Planning and execution"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Britannica gives Hoffmann chief credit for the design and François the essential role, and calls the double envelopment an afterthought rather than a planned second Cannae; Rickard notes that German commanders credited Hindenburg and Ludendorff. Britannica blames Zhilinsky above all, Rickard Samsonov's own push. Dates differ by a day or two.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Outcome and aftermath"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica gives a detailed narrative and Rickard a short biography of Samsonov. No German or Russian primary sources were read, and the 1914–1918-online encyclopedia article could not be opened.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Invasion and Gumbinnen",
+        "time": "17–20 August 1914",
+        "description": "Rennenkampf invades and wins at Gumbinnen; Samsonov reaches the southern frontier."
+      },
+      {
+        "title": "German redeployment",
+        "time": "20–25 August 1914",
+        "description": "Prittwitz is replaced; troops move by rail and road against Samsonov."
+      },
+      {
+        "title": "Breaking the Russian left",
+        "time": "26–27 August 1914",
+        "description": "François attacks near Usdau and the Russian left wing collapses."
+      },
+      {
+        "title": "Encirclement",
+        "time": "28–30 August 1914",
+        "description": "The road behind the Russian centre is closed and its troops surrender."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Alexander Samsonov",
+        "objective": "Cross the southern frontier and cut the Germans off from the Vistula.",
+        "known": "Zhilinsky believed the Germans were already retreating to the Vistula.",
+        "uncertainty": "The German strength in front of him and what Rennenkampf was doing.",
+        "constraints": "Tired, hungry troops, incomplete transport, bad roads and no contact with Rennenkampf.",
+        "forces": "Ten infantry and three cavalry divisions.",
+        "terrain": "Barren border country, forests and lakes.",
+        "logistics": "Supply services in chaos.",
+        "decision": "He pressed forward on a wide front and went forward himself to control the battle.",
+        "outcome": "His army's centre was encircled and he took his own life."
+      },
+      {
+        "name": "Erich Ludendorff",
+        "objective": "Break the Russian invasion of East Prussia.",
+        "known": "Intercepted Russian wireless messages showed Rennenkampf moving slowly.",
+        "uncertainty": "Whether Rennenkampf would stay passive.",
+        "constraints": "Fewer troops than the Russians overall, and movements already under way when he arrived.",
+        "forces": "The Eighth Army's corps, including François's I, Scholtz's XX and Mackensen's XVII.",
+        "terrain": "The lakes that kept the Russian armies apart.",
+        "logistics": "Railways to move divisions from the Gumbinnen front.",
+        "decision": "He confirmed Hoffmann's plan and stripped Rennenkampf's front to strike both of Samsonov's flanks.",
+        "outcome": "Samsonov's army was destroyed; credit for the plan is disputed."
+      }
+    ]
+  }
+]

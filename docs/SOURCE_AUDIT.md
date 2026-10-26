@@ -116,3 +116,9 @@ Blenheim, Saratoga, Sedan, Tsushima and Tannenberg were added. Every catalog eng
 | Tannenberg | Encyclopaedia Britannica, “Battle of Tannenberg” (read in a browser); J. Rickard, “Alexander Samsonov”, History of War                                                                                                                                                     | Britannica and Rickard differ on Rennenkampf's crossing date, the battle's end date and the date of Samsonov's death, and assign blame and credit differently.                                                                                                                                                                             |
 
 Pages consulted but not used: the 1914–1918-online article on Tannenberg (behind an automated bot check, which was not passed); guessed Britannica addresses for Sedan (not found).
+
+## Battle expansion, Phase 0: structure (26 October 2026)
+
+Catalog rows moved to `data/battles/*.ts` and studies to `data/research/*.json`, grouped by collection; `data/research.ts` combines them for the seed and the tests. A comparison script confirmed that the engagements, campaigns, wars, eras and all 29 studies are unchanged by the move.
+
+Ten wars were added for the expansion: `macedonian-wars`, `roman-parthian`, `roman-civil-wars`, `roman-germanic`, `roman-britain`, `jewish-roman`, `tetrarchy-civil-wars`, `gothic-war`, `hunnic-invasions` and `french-revolutionary`. Their summaries, periods and chronologies in `data/war-details.ts` are editorial orientation written before any source was read for them, like the existing war records, and carry no citations. Each will be checked against the sources read in the batch that first adds an engagement to that war and corrected there. Until then these ten war pages list no engagements.

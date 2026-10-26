@@ -1,0 +1,263 @@
+[
+  {
+    "slug": "gaugamela",
+    "sources": [
+      {
+        "title": "Gaugamela (331 BCE)",
+        "url": "https://www.livius.org/articles/battle/gaugamela-331-bce/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Arrian, Anabasis of Alexander 3.8–15 (trans. E. J. Chinnock)",
+        "url": "https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_III/Chapter_VIII",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Astronomical Diaries",
+        "url": "https://www.livius.org/articles/concept/astronomical-diaries/",
+        "publisher": "Livius.org (Jona Lendering)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After his earlier victories over Persian armies, Alexander moved from the Mediterranean coast into Mesopotamia in 331 BCE. Darius III had meanwhile assembled a new army drawn from across his empire, each contingent under its own commander.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "3.8"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Alexander lingered in Tyre and other cities while Greek affairs, including the rising of Agis III of Sparta, demanded attention. Darius made a further peace offer, which Alexander rejected. Reinforcements Alexander expected from Europe never arrived, possibly because Antipater needed them against Agis.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Darius sought a battle on open ground where his numbers, cavalry and scythed chariots could be used, having been persuaded that the narrow field at Issus had cost him. Alexander needed to defeat the king's army in the field to make good his claim to rule Asia.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "3.8"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The armies met on a broad plain near Gaugamela, north-west of Arbela (modern Erbil). Arrian reports that the Persians had long before levelled the uneven ground so that chariots and cavalry could move freely. The exact site cannot be fixed with certainty.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "3.8"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The Persian army combined many regional contingents, Greek mercenaries, a few Indian elephants and scythed chariots. Arrian's reported Persian totals are not credible counts, and Livius gives no totals. Alexander commanded the Companion cavalry on the right; Parmenion commanded the left wing.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "3.8, 3.11"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Darius stood in the centre with his kinsmen and guard. Bactrian and Scythian cavalry under Bessus, with chariots in front, faced Alexander's right, while Greek mercenaries faced the phalanx. Alexander placed a second line behind the first, with orders to face about if the army were surrounded, and set angled flank guards on both wings.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "3.11–12"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The Macedonians crossed the Tigris largely unopposed in mid-September, and a lunar eclipse followed on about 20 September. The Persian army spent the night before the battle under arms. On 1 October Alexander edged to the right, a cavalry fight developed on that flank, the chariots were neutralized, and Alexander then charged the Persian centre.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "3.11–14"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Arrian reports that Alexander rejected Parmenion's advice to attack at night, citing the risks of night fighting in unfamiliar country. Darius, fearing a surprise attack, kept his army standing in formation overnight. During the battle Darius sent cavalry around the Macedonian right to halt Alexander's movement.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "3.10–11, 3.13"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "As Persian cavalry was drawn into the fight on Alexander's right, a gap opened in the Persian front. Alexander formed a wedge of Companions and nearby infantry and drove toward Darius. The opportunity arose from the Persians' own outflanking effort rather than from a fixed plan.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "3.14"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Darius fled and his army dispersed. Alexander turned back to help Parmenion's hard-pressed wing, then pursued to Arbela, where he took the royal treasure and Darius's chariot but not the king himself. The Babylonian diary records that the king's troops deserted him.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "3.14–15"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The battle decided the fate of the Achaemenid empire. A contemporary Babylonian diary calls the victor \"king of the world\", and Darius escaped to Media intending to raise another army.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Preparing ground for one arm can tie an army to that ground. Alexander's second line, ordered to face about if surrounded, shows how a reserve can protect against the breakthroughs a broad enemy line makes likely.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "3.12"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Dust hid much of the fighting, so its exact course is unknown. Arrian says Darius fled first, while the contemporary diary says his troops abandoned him; Livius prefers the diary. Greek accounts may also carry Macedonian propaganda, and their troop and casualty figures are unreliable.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "3.8, 3.14"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Arrian's narrative draws on earlier accounts, citing Aristobulus for the captured Persian order of battle. Livius sets the Greek tradition beside the Babylonian Astronomical Diaries, which date the eclipse and the battle independently.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "3.11"
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Approach and omens",
+        "time": "September 331 BCE",
+        "description": "The Macedonians cross the Tigris; a lunar eclipse unsettles the Persian army."
+      },
+      {
+        "title": "Drift to the right",
+        "time": "1 October 331 BCE · opening",
+        "description": "Alexander edges right; Persian cavalry rides around his flank and the scythed chariots are neutralized."
+      },
+      {
+        "title": "The gap",
+        "time": "1 October · decisive charge",
+        "description": "Persian cavalry is drawn away; Alexander's wedge strikes toward Darius, who flees."
+      },
+      {
+        "title": "Left wing and pursuit",
+        "time": "1–2 October",
+        "description": "Parmenion's wing is pressed and the camp raided; Alexander returns, then pursues to Arbela."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Alexander III of Macedon",
+        "objective": "Destroy Darius's new army in battle and with it the king's authority.",
+        "known": "Captured Persian riders reported that Darius was near. The Persians held a broad plain prepared for cavalry and chariots.",
+        "uncertainty": "The Persian line far overlapped his own, and he could not know whether his wings would hold against envelopment.",
+        "constraints": "Expected reinforcements from Europe had not arrived. In Arrian's account he judged a night attack too risky in country the enemy knew better.",
+        "forces": "The Macedonian phalanx, Companion cavalry, Thessalian and allied cavalry, and light troops such as Agrianians and archers.",
+        "terrain": "Open, levelled ground that favoured the larger Persian cavalry and the chariots.",
+        "logistics": "A fortified camp, with the baggage guarded by Thracian infantry; it was raided during the battle.",
+        "decision": "He refused a night attack, built a second line and angled flank guards, edged to the right and charged into the gap in the Persian front.",
+        "outcome": "Darius fled, but a call for help from Parmenion drew Alexander back, and the king escaped to Media."
+      },
+      {
+        "name": "Darius III of Persia",
+        "objective": "Fight on open ground where numbers, cavalry and scythed chariots could be used, unlike the narrow field at Issus.",
+        "known": "Alexander had crossed the Euphrates and Tigris and was approaching the prepared battlefield.",
+        "uncertainty": "When and how Alexander would attack; Arrian says he feared a night assault.",
+        "constraints": "An army of many peoples under their own commanders, whose morale Livius describes as shaken by the eclipse and other omens.",
+        "forces": "Regional cavalry from Bactria, Media, Parthia and elsewhere, Greek mercenaries, a few elephants and scythed chariots.",
+        "terrain": "A broad plain he had chosen and levelled for his chariots.",
+        "logistics": "His base at Arbela held treasure and royal property, which fell to Alexander after the battle.",
+        "decision": "He kept his army under arms overnight, sent cavalry around Alexander's right and launched the chariots against the phalanx.",
+        "outcome": "When Alexander's charge reached his centre he fled, or in the Babylonian account was abandoned by his troops, and escaped east."
+      }
+    ]
+  }
+]

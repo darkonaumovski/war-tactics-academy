@@ -1,10 +1,7 @@
 import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 import type { Page } from "@playwright/test";
-import { readFileSync } from "node:fs";
-const research: { slug: string }[] = JSON.parse(
-  readFileSync("data/research.json", "utf8"),
-);
+import { research } from "../../data/research";
 // Scroll-revealed sections stay transparent until seen, and axe skips
 // transparent text. Scroll through the page so every section is audited.
 // The pass repeats because hydration can finish after an early pass, at which

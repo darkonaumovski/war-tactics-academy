@@ -64,6 +64,27 @@ export const warDetails: Record<string, WarDetails> = {
       ["202 BCE", "Battle of Zama; peace follows in 201 BCE"],
     ),
   },
+  "macedonian-wars": {
+    participants: [
+      "Roman Republic",
+      "Antigonid Macedon",
+      "Aetolian League",
+      "Achaean League and other Greek states",
+      "Pergamon and Rhodes",
+    ],
+    geography:
+      "Macedonia, Thessaly and mainland Greece, with the Adriatic and Aegean coasts.",
+    developments: t(
+      ["214–205 BCE", "First Macedonian War, fought while Rome faced Hannibal"],
+      ["197 BCE", "Battle of Cynoscephalae"],
+      ["196 BCE", "Flamininus proclaims the freedom of the Greeks"],
+      ["168 BCE", "Battle of Pydna; the Antigonid monarchy ends"],
+      [
+        "150–148 BCE",
+        "Revolt of Andriscus suppressed; Macedonia later organized as a province",
+      ],
+    ),
+  },
   gallic: {
     participants: [
       "Roman Republic",
@@ -81,6 +102,99 @@ export const warDetails: Record<string, WarDetails> = {
       ["51 BCE", "Last major resistance ends at Uxellodunum"],
     ),
   },
+  "roman-parthian": {
+    participants: [
+      "Roman Republic, then the Roman Empire",
+      "Parthian (Arsacid) Empire",
+      "Armenia and client kingdoms of the frontier",
+    ],
+    geography:
+      "Upper Mesopotamia, Armenia and Syria along the Euphrates frontier.",
+    developments: t(
+      ["53 BCE", "Crassus defeated at Carrhae"],
+      ["36 BCE", "Mark Antony's Parthian campaign fails"],
+      [
+        "20 BCE",
+        "Augustus recovers the standards lost at Carrhae by negotiation",
+      ],
+      [
+        "116–117 CE",
+        "Trajan reaches the Persian Gulf; Hadrian abandons the conquests",
+      ],
+      ["217 CE", "Battle of Nisibis; Macrinus buys peace"],
+    ),
+  },
+  "roman-civil-wars": {
+    participants: [
+      "Caesar and his supporters",
+      "Pompey and the senatorial cause",
+      "Brutus, Cassius and the other assassins of Caesar",
+      "Octavian",
+      "Mark Antony and Cleopatra VII of Egypt",
+    ],
+    geography:
+      "Italy, Spain, Greece, Egypt, North Africa and the eastern Mediterranean.",
+    developments: t(
+      ["49 BCE", "Caesar crosses the Rubicon"],
+      ["48 BCE", "Battle of Pharsalus; Pompey killed in Egypt"],
+      ["44 BCE", "Caesar assassinated"],
+      ["42 BCE", "Battles of Philippi"],
+      ["31 BCE", "Battle of Actium"],
+      ["30 BCE", "Deaths of Antony and Cleopatra; Egypt annexed"],
+    ),
+  },
+  "roman-germanic": {
+    participants: [
+      "Roman Empire",
+      "Cherusci",
+      "Chatti, Bructeri, Marsi and other Germanic peoples",
+    ],
+    geography:
+      "The Rhine frontier and the lands between the Rhine, Weser and Elbe.",
+    developments: t(
+      ["12–9 BCE", "Drusus campaigns east of the Rhine, reaching the Elbe"],
+      ["4–6 CE", "Tiberius campaigns in Germania"],
+      ["9 CE", "Varus's three legions destroyed in the Teutoburg Forest"],
+      ["14–16 CE", "Germanicus campaigns east of the Rhine"],
+      ["16 CE", "Battle of Idistaviso; Germanicus recalled soon after"],
+    ),
+  },
+  "roman-britain": {
+    participants: [
+      "Roman Empire",
+      "Catuvellauni and other southern British peoples",
+      "Iceni and Trinovantes",
+      "Peoples of Wales and the north, including the Caledonians",
+    ],
+    geography:
+      "Lowland Britain, Wales and northern Britain as far as the Scottish Highlands.",
+    developments: t(
+      ["43", "Claudian invasion"],
+      ["51", "Caratacus defeated and later handed over to Rome"],
+      [
+        "60 or 61",
+        "Boudica's revolt destroys Camulodunum, Londinium and Verulamium before Roman victory",
+      ],
+      ["77–84", "Agricola campaigns in the north"],
+      ["83 or 84", "Battle of Mons Graupius"],
+    ),
+  },
+  "jewish-roman": {
+    participants: [
+      "Roman Empire",
+      "Judaean rebel factions",
+      "Agrippa II and other client rulers allied with Rome",
+    ],
+    geography:
+      "Judaea, Galilee and Jerusalem, with the fortress of Masada in the Judaean desert.",
+    developments: t(
+      ["66", "Revolt breaks out; Cestius Gallus retreats from Jerusalem"],
+      ["67", "Vespasian campaigns in Galilee; Jotapata falls"],
+      ["69", "Vespasian proclaimed emperor"],
+      ["70", "Titus besieges and takes Jerusalem; the Temple is destroyed"],
+      ["73 or 74", "Masada falls"],
+    ),
+  },
   han: {
     participants: [
       "Han court",
@@ -94,6 +208,58 @@ export const warDetails: Record<string, WarDetails> = {
       ["200", "Cao Cao defeats Yuan Shao at Guandu"],
       ["208–209", "Battle of Red Cliffs"],
       ["220", "End of the Han; Cao Pi proclaims the Wei dynasty"],
+    ),
+  },
+  "tetrarchy-civil-wars": {
+    participants: [
+      "Constantine",
+      "Maxentius",
+      "Licinius",
+      "Maximinus Daia",
+      "Galerius and Severus in the early phase",
+    ],
+    geography: "Italy, Gaul, the Balkans and Asia Minor.",
+    developments: t(
+      ["306", "Constantine proclaimed at York; Maxentius seizes power in Rome"],
+      ["312", "Battle of the Milvian Bridge"],
+      ["313", "Licinius defeats Maximinus Daia"],
+      [
+        "c. 316",
+        "First war between Constantine and Licinius (the date is debated)",
+      ],
+      ["324", "Constantine defeats Licinius at Adrianople and Chrysopolis"],
+    ),
+  },
+  "gothic-war": {
+    participants: [
+      "Eastern Roman Empire",
+      "Western Roman Empire",
+      "Tervingi and Greuthungi Goths",
+      "Alan and Hunnic allies of the Goths",
+    ],
+    geography: "Thrace and the lower Danube frontier.",
+    developments: t(
+      ["376", "Goths admitted across the Danube"],
+      ["377", "Revolt and fighting in Thrace"],
+      ["9 August 378", "Battle of Adrianople; Valens killed"],
+      ["379", "Theodosius I made eastern emperor"],
+      ["382", "Peace settlement with the Goths"],
+    ),
+  },
+  "hunnic-invasions": {
+    participants: [
+      "Hunnic empire and subject peoples, including Ostrogoths and Gepids",
+      "Eastern Roman Empire",
+      "Western Roman Empire",
+      "Visigoths and other federates in Gaul",
+    ],
+    geography: "The Danube basin, the Balkans, Gaul and northern Italy.",
+    developments: t(
+      ["441–447", "Hunnic invasions of the eastern Roman Balkans"],
+      ["451", "Invasion of Gaul; siege of Orléans; Catalaunian Plains"],
+      ["452", "Invasion of northern Italy; Aquileia sacked"],
+      ["453", "Attila dies"],
+      ["454", "Former subject peoples defeat Attila's sons at the Nedao"],
     ),
   },
   "byzantine-arab": {
@@ -303,6 +469,26 @@ export const warDetails: Record<string, WarDetails> = {
       ["1778", "Franco-American alliance"],
       ["1781", "British surrender at Yorktown"],
       ["1783", "Treaty of Paris"],
+    ),
+  },
+  "french-revolutionary": {
+    participants: [
+      "Revolutionary France and allied sister republics",
+      "Austria",
+      "Prussia (until 1795)",
+      "Britain",
+      "Spain, Piedmont-Sardinia, Russia, the Ottoman Empire and other coalition members",
+    ],
+    geography:
+      "The Low Countries, the Rhine, northern Italy, Egypt and Syria, and the seas around Europe.",
+    developments: t(
+      ["April 1792", "France declares war on Austria"],
+      ["1793", "Britain joins the war; siege of Toulon"],
+      ["1796–1797", "Bonaparte's Italian campaign; Treaty of Campo Formio"],
+      ["1798–1799", "Expedition to Egypt and Syria"],
+      ["November 1799", "Bonaparte seizes power in the coup of 18 Brumaire"],
+      ["June 1800", "Battle of Marengo"],
+      ["March 1802", "Peace of Amiens"],
     ),
   },
   napoleonic: {

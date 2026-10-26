@@ -1,0 +1,482 @@
+[
+  {
+    "slug": "cannae",
+    "sources": [
+      {
+        "title": "Polybius, Histories, Book 3",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0234%3Abook%3D3&force=y",
+        "publisher": "Perseus Digital Library, Tufts University"
+      },
+      {
+        "title": "Livy, Book XXII: Cannae",
+        "url": "https://facultystaff.richmond.edu/~wstevens/romanhistory/history222texts/livycannae.pdf",
+        "publisher": "University of Richmond"
+      },
+      {
+        "title": "Livy: Book XXII, introduction",
+        "url": "https://assets.cambridge.org/97811084/80147/excerpt/9781108480147_excerpt.pdf",
+        "publisher": "Cambridge University Press"
+      },
+      {
+        "title": "Livy, Periochae 21–25",
+        "url": "https://www.livius.org/sources/content/livy/livy-periochae-21-25/",
+        "publisher": "Livius.org"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Cannae followed Roman defeats at the Trebia and Lake Trasimene during Hannibal's invasion of Italy.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.70–74, 3.80–85"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Fabius had avoided favorable battle conditions for Hannibal. The consuls of 216 BCE instead commanded a major concentration of Roman forces.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.87–90, 3.106–107"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Rome sought a decisive battlefield recovery; Hannibal sought another defeat severe enough to weaken Roman resistance.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.107–109"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The armies fought near the Aufidus river in Apulia. Polybius reports that Paullus judged the open, level ground unfavorable because Hannibal was stronger in cavalry.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.110, 3.113"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Hannibal commanded African, Iberian, Celtic and Numidian contingents. Roman consuls were Lucius Aemilius Paullus and Gaius Terentius Varro.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.110, 3.113–114"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Polybius describes a projecting Iberian-Celtic center with African infantry on either side; both armies placed cavalry on their wings.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.113–114"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Cavalry fighting accompanied the infantry collision. Roman pressure bent Hannibal's center inward before the Africans attacked the Roman flanks.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.115"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Concentration against the enemy center made sense as a breakthrough attempt, but success there did not guarantee security on the flanks.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.113, 3.115"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Victorious Carthaginian cavalry returned against the Roman rear while infantry closed from the sides.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.115–116"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Roman army suffered a catastrophic defeat. Paullus died; Varro survived.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.116–117"
+          },
+          {
+            "source": 3,
+            "locator": "Periocha 22"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Rome continued the war. Livy's epitome records emergency recruitment and the refusal to ransom prisoners.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3,
+            "locator": "Periocha 22"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Cannae separates tactical achievement from strategic resolution: destroying an army did not compel the Roman state to surrender.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.118"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Ancient casualty totals differ. Livy's hostile portrayal of Varro should not be treated as a neutral record of responsibility or private motives.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.117"
+          },
+          {
+            "source": 3,
+            "locator": "Periocha 22"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Polybius supplies the core battle narrative. Livy provides another tradition, read here in translation and through the periochae. The Cambridge edition's introduction explains Livy's life, composition and how his text survives.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Formation",
+        "time": "2 August 216 BCE · traditional date",
+        "description": "The opposing infantry centers and cavalry wings deploy."
+      },
+      {
+        "title": "Roman advance",
+        "time": "Opening engagement",
+        "description": "The Roman infantry presses into the Iberian-Celtic center."
+      },
+      {
+        "title": "Envelopment",
+        "time": "Main engagement",
+        "description": "African infantry turns inward; cavalry threatens the Roman rear."
+      },
+      {
+        "title": "Army defeated",
+        "time": "After the encirclement",
+        "description": "Roman resistance collapses, but Rome continues the war."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Hannibal Barca",
+        "objective": "Defeat the concentrated Roman army.",
+        "known": "His own army combined infantry contingents with strong cavalry.",
+        "uncertainty": "Whether the center could remain coherent under pressure.",
+        "constraints": "A multinational army required coordination across separate arms.",
+        "decision": "The ancient narratives describe a yielding center and attacks from the flanks. This explanation reconstructs the plan; it is not a surviving order.",
+        "forces": "A multinational army of African, Iberian and Celtic infantry with Iberian, Celtic and Numidian cavalry. Polybius reports it was outnumbered in infantry; ancient totals are uncertain.",
+        "terrain": "Open ground near the Aufidus favored his stronger cavalry, while the river limited the Romans' room to extend their line.",
+        "logistics": "Far from Carthage, he lived on what he could take in Italy. Before the battle he seized the Roman supply depot at Cannae.",
+        "outcome": "The Roman army was destroyed, but Rome refused to negotiate. Later admiration for the battle as a model of envelopment can obscure that Hannibal lost the war."
+      },
+      {
+        "name": "Gaius Terentius Varro and Lucius Aemilius Paullus",
+        "objective": "Bring Hannibal to a decisive engagement.",
+        "known": "Rome had assembled a large infantry force after earlier defeats.",
+        "uncertainty": "The effect of Hannibal's deployment and the cavalry contest.",
+        "constraints": "Shared consular command and pressure to reverse Roman losses.",
+        "decision": "They fought a pitched battle. Livy assigns the initiative to Varro, but his moral contrast between the consuls requires caution.",
+        "forces": "A very large Roman and allied army, strongest in heavy infantry and weaker in cavalry. Ancient figures for its size differ.",
+        "terrain": "Polybius reports that Paullus considered the open plain unfavorable against Hannibal's cavalry.",
+        "logistics": "A large concentrated army needed steady supply, and Hannibal's capture of the Cannae depot added pressure to act.",
+        "outcome": "A catastrophic defeat in which Paullus died. Ancient writers assigned blame along political lines, especially against Varro."
+      }
+    ]
+  },
+  {
+    "slug": "alesia",
+    "sources": [
+      {
+        "title": "Caesar, Gallic War, Book 7",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0001%3Abook%3D7",
+        "publisher": "Perseus Digital Library, Tufts University"
+      },
+      {
+        "title": "Caesar, Gallic War 7.75–90",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Gallic_War/7G%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Alésia MuséoParc",
+        "url": "https://alesia.com/en/",
+        "publisher": "Alésia MuséoParc"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "In 52 BCE Vercingetorix's forces occupied Alesia during the resistance to Caesar's conquest of Gaul.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.68–69"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Caesar's account presents Roman command from the conqueror's perspective. Political self-presentation shapes the narrative.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The Romans sought surrender by siege; the defenders awaited a relief army.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.71–72"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Caesar describes a hilltop settlement, nearby rivers, a plain and surrounding heights. The museum interprets the site at Alise-Sainte-Reine.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.69"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Caesar directed Roman legions and cavalry; Vercingetorix led the besieged force. Several Gallic leaders shared command of the relief army.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.71"
+          },
+          {
+            "source": 1,
+            "locator": "7.75–76"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Roman works faced both the settlement and the approaching relief force.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.72–74"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Investment was followed by relief attempts, attacks from inside and outside, and the defeat of the relieving army.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "7.79–88"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Caesar reports moving reserves to threatened sectors and sending cavalry around the outer works.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "7.85–87"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "In his narrative, Roman reinforcement and a cavalry attack in the rear broke the final external assault.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "7.87–88"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Vercingetorix surrendered. Caesar distributed many prisoners as enslaved captives.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "7.89–90"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The result strengthened Roman domination while imposing conquest and captivity on the defeated population.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "7.89–90"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Study siege engineering together with food supply and coordination. Static fortifications still required decisions about mobile reserves.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.72–74, 7.77"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Enemy numbers and dramatic speeches come from Caesar's interested account. The displayed phases simplify an extended siege, not a measured hour-by-hour reconstruction.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "7.76–77"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Caesar supplies the principal narrative; museum archaeology and landscape interpretation provide a different kind of evidence.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Investment",
+        "time": "52 BCE · siege begins",
+        "description": "Roman works close around Alesia."
+      },
+      {
+        "title": "Double front",
+        "time": "Relief army approaches",
+        "description": "The Romans prepare to defend against forces outside and inside."
+      },
+      {
+        "title": "Relief assaults",
+        "time": "Final siege phase",
+        "description": "The relief army attacks while the besieged attempt sorties."
+      },
+      {
+        "title": "Surrender",
+        "time": "After the failed relief",
+        "description": "Vercingetorix is surrendered and the defenders lose their freedom."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Gaius Julius Caesar",
+        "objective": "Force the surrender of Vercingetorix's army before a Gallic relief force could break the siege.",
+        "known": "Vercingetorix had sent his cavalry out to summon a relief army from across Gaul.",
+        "uncertainty": "When the relief force would arrive and where it would attack.",
+        "constraints": "Food and fodder for his legions, and long lines to man against two fronts at once.",
+        "forces": "Roman legions with allied cavalry, including Germanic horsemen.",
+        "terrain": "The hilltop settlement, its rivers and the surrounding heights set the course of the works. A weak point on the outer line became the focus of the final assault.",
+        "logistics": "He gathered supplies to sustain the army inside its lines.",
+        "decision": "He built inner and outer lines and, in the final assaults, moved reserves to threatened sectors and sent cavalry outside the works. The record of these decisions is Caesar's own.",
+        "outcome": "Vercingetorix surrendered. Caesar's narrative presents the victory as his personal achievement."
+      },
+      {
+        "name": "Vercingetorix and the Gallic relief commanders",
+        "objective": "Hold Alesia until a relief army could break the Roman lines from outside.",
+        "known": "Food in the settlement was limited, and a relief army was being raised across Gaul.",
+        "uncertainty": "Whether the relief army would arrive before supplies ran out.",
+        "constraints": "Coordinating attacks from inside and outside the Roman lines without reliable communication.",
+        "forces": "The besieged army in the settlement and a relief army under several commanders, including Vercassivellaunus.",
+        "terrain": "Roman works blocked access across the plain and the surrounding hills.",
+        "logistics": "Caesar reports that the Mandubii, inhabitants of Alesia, were expelled to save food and were refused passage through the Roman lines.",
+        "decision": "Breakouts were timed with the relief army's assaults. After those failed, Vercingetorix surrendered. Gallic decisions are known almost entirely through Caesar.",
+        "outcome": "Surrender, captivity and enslavement for many of the defeated."
+      }
+    ]
+  }
+]

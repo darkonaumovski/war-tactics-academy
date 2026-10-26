@@ -245,6 +245,1086 @@
     ]
   },
   {
+    "slug": "zama",
+    "sources": [
+      {
+        "title": "Polybius, Histories 15.1–16 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/15%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Hannibal Barca",
+        "url": "https://www.livius.org/articles/person/hannibal-3-barca/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Massinissa",
+        "url": "https://www.livius.org/articles/person/massinissa/",
+        "publisher": "Livius.org (Jona Lendering)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After ending the war in Iberia, Scipio crossed to Africa, where the Numidian prince Massinissa joined him. Discouraged by defeats at home, the Carthaginian government recalled Hannibal's army from Italy in 203 BCE.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Massinissa had changed sides after the Carthaginian defeat at Ilipa, in return for Roman support for his claim to the Massylian throne. With Roman help he defeated Syphax and took Cirta, so that Numidian horsemen who had served Carthage now rode with Scipio.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Polybius has Hannibal ask for a meeting, at which he offered to give up Sicily, Sardinia, Spain and the islands between Italy and Africa; Scipio refused anything but surrender or battle. Hannibal sought terms that would save Carthage, and failing that a victory; Scipio needed a decisive battle to end the war on Roman terms.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "15.6–8"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Hannibal camped near Zama and then on a hill some way from Scipio's camp, short of water; Scipio camped near a town Polybius calls Naragara. The exact battlefield is not known.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "15.5–6"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Hannibal had elephants, mercenaries from Liguria, Gaul, the Balearic Islands and Mauretania, Libyan and Carthaginian troops, his veterans from Italy, and Carthaginian and Numidian cavalry. Scipio had the legions in their three lines, the velites, Italian cavalry under Laelius and Massinissa's Numidians.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "15.9, 15.11"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Scipio placed the maniples of each line directly behind one another rather than in the usual staggered pattern, leaving lanes for the elephants that the velites filled until the charge. Laelius held the left with the Italian cavalry and Massinissa the right. Hannibal put the elephants in front, the mercenaries next, then the Libyans and Carthaginians, and his veterans from Italy more than a stade behind, with Numidian horse on his left and Carthaginian horse on his right.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "15.9, 15.11"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Skirmishing between the Numidians opened the battle. The elephant charge failed: some animals panicked and turned on Hannibal's own left, some passed through the lanes and others ran off the field. Laelius and Massinissa drove the Carthaginian cavalry away. When the infantry met, the mercenaries were not supported by the line behind them and the two fell to fighting each other. Scipio then halted, re-formed his lines across ground covered with the dead and advanced against Hannibal's veterans.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "15.12–14"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Scipio's lanes neutralized the elephants, and his decision to re-form his lines before engaging the veterans kept his army in order. Hannibal kept his best troops out of the first clash; Polybius judges that his dispositions were as good as a general could make them.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "15.14–16"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The two infantry lines fought evenly until Laelius and Massinissa returned from the pursuit and attacked Hannibal's army from the rear.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "15.14"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Hannibal's army was destroyed and its camp plundered. Hannibal escaped with a few horsemen to Hadrumetum and then advised negotiation. Livius dates the battle to 19 October 202 BCE.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "15.15"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "In 201 BCE Carthage surrendered its fleet, recognized Roman conquests in Iberia and agreed to pay a large indemnity over fifty years, and Hannibal resigned his command. Massinissa received the throne of all Numidia; his later encroachments on Carthaginian territory led to the war that ended with the sack of Carthage in 146.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Rome won by changing what had lost it Cannae: an alliance reversed the cavalry balance, and a formation was adapted to the specific threat of elephants. Both commanders held reserves, and the side whose cavalry came back decided the infantry battle.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "15.9, 15.14"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The exact site is unknown. Livius describes Hannibal as trying to repeat the encirclement of Cannae and failing, a reading that Polybius's narrative does not make explicit; Polybius also gives no sign that Hannibal's cavalry withdrew deliberately to draw the Roman horse off the field. Polybius's casualty figures are not repeated here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "15.12–14"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Polybius gives the only detailed narrative read for this study. Livius's biographies of Hannibal and Massinissa supply the date, context and consequences; Livy's account was not read.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "15.5–16"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Hannibal recalled",
+        "time": "203–202 BCE",
+        "description": "Scipio's victories in Africa force Carthage to recall Hannibal; Massinissa joins Scipio."
+      },
+      {
+        "title": "Meeting and deployment",
+        "time": "Eve of battle",
+        "description": "Hannibal and Scipio meet without agreement; Scipio leaves lanes in his lines for the elephants."
+      },
+      {
+        "title": "Elephants and cavalry",
+        "time": "19 October 202 BCE · opening",
+        "description": "The elephant charge fails and Laelius and Massinissa drive off the Carthaginian cavalry."
+      },
+      {
+        "title": "Return of the horse",
+        "time": "Day of battle · decision",
+        "description": "Scipio re-forms to face Hannibal's veterans; the returning cavalry strikes their rear."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Publius Cornelius Scipio (Africanus)",
+        "objective": "End the war with a decisive victory in Africa.",
+        "known": "With Massinissa's Numidians his cavalry was stronger than Hannibal's, and Hannibal had elephants.",
+        "uncertainty": "How Hannibal would use the veterans he held back.",
+        "constraints": "He fought far from Italy, relying on a Numidian ally for much of his cavalry.",
+        "forces": "The legions in three lines, velites, Italian cavalry and Massinissa's Numidian horse and foot.",
+        "terrain": "Open ground near Zama; the exact site is unknown.",
+        "logistics": "Operating in Africa with the support of Massinissa's kingdom.",
+        "decision": "He left lanes for the elephants, sent his cavalry against the Carthaginian horse and re-formed his infantry before meeting the veterans.",
+        "outcome": "Victory ended the war; Carthage accepted peace in 201 BCE."
+      },
+      {
+        "name": "Hannibal Barca",
+        "objective": "Save Carthage, by negotiation if possible and otherwise by battle.",
+        "known": "Scipio had the stronger cavalry, including Massinissa's Numidians.",
+        "uncertainty": "Whether elephants and his first lines could disorder the legions before his veterans engaged.",
+        "constraints": "His army mixed mercenaries, Libyan and Carthaginian troops and his veterans from Italy, and Scipio refused his terms.",
+        "forces": "Elephants, mercenaries, Libyan and Carthaginian infantry, his veterans and Carthaginian and Numidian cavalry.",
+        "terrain": "Polybius says his camp was on a hill short of water.",
+        "logistics": "Close to Carthage, but with an army only recently assembled in Africa.",
+        "decision": "He led with elephants, placed mercenaries and other troops in front and kept his veterans in reserve.",
+        "outcome": "The elephants failed, his cavalry was driven off and his army destroyed; he escaped to Hadrumetum."
+      }
+    ]
+  },
+  {
+    "slug": "cynoscephalae",
+    "sources": [
+      {
+        "title": "Cynoscephalae (197 BCE)",
+        "url": "https://www.livius.org/articles/battle/cynoscephalae-197-bce/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Polybius, Histories 18.18–32 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/18%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Philip V",
+        "url": "https://www.livius.org/articles/person/philip-v/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Macedonia (8)",
+        "url": "https://www.livius.org/articles/place/macedonia/macedonia-8/",
+        "publisher": "Livius.org (Jona Lendering)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After the death of Ptolemy IV, Philip V and Antiochus III attacked the Ptolemaic kingdom, and Macedonian power grew in the Aegean. Rome, which had only just ended the war with Hannibal, built an anti-Macedonian coalition in Greece and declared war in 200 BCE.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Philip had allied with Hannibal in 215, beginning the First Macedonian War, which the Peace of Phoenice ended in 205. In 197 Flamininus demanded that Philip evacuate Thessaly, Macedonian since Philip II; Philip refused and the war resumed. The Aetolian League had joined Rome.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Flamininus sought a decisive battle to force Philip out of Greece. Philip, marching toward Scotussa for supplies, had not chosen to fight in the hills where the battle took place; Polybius says he decided to engage only when told the enemy was in flight.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "18.20–22"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Cynoscephalae, \"dogs' heads\", was a range of sharp, closely spaced hills north of Pharsalus on the road to Larisa in Thessaly. Livius cites Hammond's identification of the battlefield between the villages of Zoodochos and Chalciades. Polybius stresses how rough the hills were.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "18.22"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Flamininus commanded Roman legions, elephants, light troops and allies, including Aetolian cavalry. Philip's army centred on the phalanx, with peltasts, mercenaries and cavalry. The ancient figures for losses are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "18.22–24"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Fog hid the armies from each other. Philip sent a covering force to the hills, which met Roman cavalry and light infantry by chance; each side sent reinforcements until both main bodies were committed. Flamininus placed his elephants in front of his right wing and led his left forward.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "18.20–23"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Livius dates the battle to June 197 BCE. Philip's right wing reached the ridge and charged downhill, driving back the Roman left. His left was still arriving on the ridge when Flamininus, moving to his own right, sent the elephants and legions against it, and it broke. A tribune with about twenty maniples then turned against the rear of the victorious Macedonian right.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "18.24–26"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Philip committed his army on ground he had not wanted. Flamininus switched to his successful wing while his left was failing. The decisive move came from a tribune, unnamed by Polybius, who on his own judgement took maniples from the pursuit to strike the phalanx from behind.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "18.22, 18.25–26"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The phalanx could not turn to meet an attack from the rear, and its men threw away their shields and fled. When some Macedonians raised their pikes in the customary sign of surrender, Flamininus held back, but some of his soldiers had already attacked and killed them.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "18.26"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Philip escaped toward Tempe. Romans who went to plunder the Macedonian camp found the Aetolians there before them. Under the peace that followed, Philip had to evacuate Greece and Illyria, pay an indemnity and hand over his son Demetrius as a hostage.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "18.27"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "In 196 BCE Flamininus declared the Greek cities free and autonomous. Livius notes that the withdrawal left a power vacuum that drew in Antiochus III, and that Greeks and Romans misread each other's obligations, leading to conflicts that ended with the sack of Corinth and annexation in 146.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Polybius uses the battle to argue that the phalanx is almost irresistible from the front on level ground but cannot adapt to rough terrain, to attacks from several directions or to a reserve. A subordinate's initiative turned a local success into victory.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "18.28–32"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Polybius's comparison generalizes from an encounter battle fought in fog on broken ground. The accounts disagree on who led the decisive attack: Polybius names no tribune, while the passage of Plutarch quoted by Livius credits Flamininus himself. The Aetolians' plundering of the camp angered the Romans, according to Polybius.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "18.26–32"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Polybius is the main narrative and the basis of the legion-versus-phalanx comparison. Livius's article quotes Plutarch's Life of Flamininus and cites Hammond's study of the battlefield; Livy's account was not read.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "18.18–32"
+          },
+          {
+            "source": 0
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Manoeuvre near Pherae",
+        "time": "June 197 BCE",
+        "description": "The armies shadow each other through Thessaly; Philip marches toward Scotussa for supplies."
+      },
+      {
+        "title": "Contact in the fog",
+        "time": "Morning of battle",
+        "description": "Covering forces collide on the hills and both sides feed in troops."
+      },
+      {
+        "title": "Two wings",
+        "time": "Battle",
+        "description": "Philip's right drives back the Roman left; his left, still forming, is broken by elephants and legions."
+      },
+      {
+        "title": "The tribune's attack",
+        "time": "Decision",
+        "description": "Maniples strike the phalanx from behind; the Macedonians flee and Philip escapes."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Titus Quinctius Flamininus",
+        "objective": "Force Philip out of Greece by a decisive defeat.",
+        "known": "Philip was moving toward Scotussa, and contact had been made in the hills.",
+        "uncertainty": "In the fog, where Philip's main body was and how much of it was engaged.",
+        "constraints": "Fog and broken ground, and a left wing facing the phalanx charging downhill.",
+        "forces": "Roman legions, elephants, light troops and allied Aetolian cavalry.",
+        "terrain": "Sharp, closely spaced hills, poorly suited to a phalanx.",
+        "logistics": "Polybius describes the light stakes his men carried for fortified camps on the march.",
+        "decision": "He fed in reinforcements, then shifted to his right and led elephants and legions against the unformed Macedonian left.",
+        "outcome": "Philip's army was broken and Philip accepted peace."
+      },
+      {
+        "name": "Philip V of Macedon",
+        "objective": "Keep Thessaly and Macedonian power in Greece.",
+        "known": "Messengers told him the enemy was in flight.",
+        "uncertainty": "The real state of the fighting in the fog.",
+        "constraints": "He had not intended to fight on such ground, and his army reached the ridge piecemeal.",
+        "forces": "The phalanx, peltasts, mercenaries and cavalry.",
+        "terrain": "Rough hills where the phalanx struggled to keep its formation.",
+        "logistics": "His march toward Scotussa was meant to secure supplies.",
+        "decision": "He committed to battle and charged with his right before his left had formed.",
+        "outcome": "His right was taken in the rear, his army broke and he fled toward Tempe."
+      }
+    ]
+  },
+  {
+    "slug": "pydna",
+    "sources": [
+      {
+        "title": "Pydna (168 BCE), with Livy 44.40–42 (trans. Canon Roberts)",
+        "url": "https://www.livius.org/articles/battle/pydna-168-bce/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Plutarch, Life of Aemilius (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Aemilius%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Macedonia (8)",
+        "url": "https://www.livius.org/articles/place/macedonia/macedonia-8/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Pydna",
+        "url": "https://www.livius.org/articles/place/pydna/",
+        "publisher": "Livius.org (Jona Lendering)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Perseus inherited strained relations with Rome from his father Philip V, and war broke out in 171 BCE. In its third year Lucius Aemilius Paullus took command against him.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Perseus held a fortified line by the sea at the foot of Mount Olympus. Plutarch says Aemilius learned of an unguarded pass and sent Scipio Nasica round by night; after Nasica drove off the force sent to stop him, Perseus fell back and chose to fight on the plain near Pydna.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "13–16"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Perseus sought level ground suited to the phalanx. Aemilius, according to Plutarch, refused Nasica's urging to attack straight from the march, preferring to rest his men and to wait until the sun would not shine in their eyes.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "16–17"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Pydna was a port in Pieria, north of Mount Olympus. Plutarch describes a plain crossed by the rivers Aeson and Leucus; Livy describes a small river between the camps from which both sides drew water.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 1,
+            "locator": "16"
+          },
+          {
+            "source": 0,
+            "locator": "44.40"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Perseus's army combined the phalanx with Thracians, mercenaries, light troops, elephants and cavalry, among them the Thracian king Cotys and his Odrysians. Aemilius had legions, allied cohorts including Paelignians and Latins, and elephants. Plutarch's army totals are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "44.41–42"
+          },
+          {
+            "source": 1,
+            "locator": "13, 18"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "In Livy's surviving text a legion was thrown into the gap between the Macedonian light troops and the phalanx, the second legion under Lucius Postumius Albinus faced the phalanx in the centre, and elephants and allied cohorts stood on the Roman right, by the river where the fighting had begun.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "44.41"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "A lunar eclipse fell on the night before the battle; Plutarch says the Romans clashed bronze to call back the moon's light while the Macedonians read it as an omen for their king. On the afternoon of 22 June 168 BCE, the conventional date, a skirmish over a loose animal at the river drew in more and more troops. The phalanx advanced and at first pushed the Romans back, and the Paelignians suffered heavily. Then the phalanx lost its alignment and the Romans attacked into the gaps.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "44.40–42"
+          },
+          {
+            "source": 1,
+            "locator": "17–21"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "As Plutarch describes it, Aemilius broke the battle into many separate fights, sending his units into the gaps opening in the phalanx rather than meeting it head-on. Perseus's own conduct is disputed.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "19–20"
+          },
+          {
+            "source": 0,
+            "locator": "44.41"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Once Roman units were inside the phalanx, its long pikes were useless at close quarters; Plutarch says the Macedonians had only small daggers against Roman shields. Attacks at several points and on the flanks made the phalanx collapse.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "20–21"
+          },
+          {
+            "source": 0,
+            "locator": "44.41"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Macedonian infantry was slaughtered, while the cavalry withdrew largely intact. Livy says that men who fled into the sea were killed by crews from the Roman fleet or trampled by elephants as they came ashore. Perseus fled to Pella and then to Samothrace, and Macedonia surrendered within days.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "44.42"
+          },
+          {
+            "source": 1,
+            "locator": "23–24"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The Antigonid kingdom ended. Macedonia was divided into four republics and annexed as a province in 148 BCE, and Pydna itself was looted. On the Senate's orders Aemilius's army plundered Epirus and enslaved its people. Perseus was led in Aemilius's triumph and died in Roman custody.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 1,
+            "locator": "29–34, 37"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A formation built for frontal shock lost its strength once it moved over uneven ground and was attacked at many points. Livy draws the same lesson: the phalanx was irresistible only while it stayed compact.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "44.41"
+          },
+          {
+            "source": 1,
+            "locator": "20"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The opening differs between the accounts: Livy has a loose mule, Plutarch reports both a horse and an attack on foragers. Livy's text has a large gap in the middle of the narrative. Polybius, as cited by Plutarch, says Perseus left for the city on the pretext of a sacrifice, while Posidonius says he was injured and fought on. The notes to the translation question the traditional date of the eclipse. Ancient casualty figures are not repeated here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "17–19"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Livy's account, which drew on Polybius, survives with a lacuna in Canon Roberts's translation on Livius. Plutarch cites Polybius, Posidonius and the letter of Scipio Nasica, who took part in the campaign. Livius's place articles supply the settlement of Macedonia.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "15–21"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Turning the Olympus line",
+        "time": "June 168 BCE",
+        "description": "Nasica marches round by an unguarded pass; Perseus falls back to the plain near Pydna."
+      },
+      {
+        "title": "Eclipse",
+        "time": "Night before the battle",
+        "description": "A lunar eclipse is read as an omen in both camps."
+      },
+      {
+        "title": "Skirmish and phalanx",
+        "time": "22 June 168 BCE · afternoon",
+        "description": "A fight at the river grows into battle, and the phalanx drives the Romans back."
+      },
+      {
+        "title": "Into the gaps",
+        "time": "Late afternoon to nightfall",
+        "description": "The phalanx loses alignment and breaks; survivors are hunted down to the shore."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Lucius Aemilius Paullus",
+        "objective": "Destroy Perseus's army and end Macedonian resistance.",
+        "known": "Perseus had left his line on the Olympus foothills after Nasica's march.",
+        "uncertainty": "Whether his legions could withstand the phalanx's frontal advance.",
+        "constraints": "Plutarch says his army had struggled for water and needed rest after its march.",
+        "forces": "Legions, allied cohorts including Paelignians and Latins, and elephants.",
+        "terrain": "A plain crossed by rivers, with uneven ground where the phalanx could lose its alignment.",
+        "logistics": "Wells dug at the foot of Olympus, by Plutarch's account, and a fleet offshore.",
+        "decision": "He refused to attack from the march, then fed units into the gaps in the phalanx.",
+        "outcome": "The phalanx was destroyed and Macedonia surrendered."
+      },
+      {
+        "name": "Perseus of Macedon",
+        "objective": "Defend Macedonia by fighting on ground suited to the phalanx.",
+        "known": "The Romans had turned his position at Olympus.",
+        "uncertainty": "Whether the phalanx could break the legions before it lost formation.",
+        "constraints": "The outflanking of his line forced a battle on the plain.",
+        "forces": "The phalanx, Thracians, mercenaries, light troops, elephants and cavalry including Cotys's Odrysians.",
+        "terrain": "The plain near Pydna, which he chose.",
+        "logistics": "Pydna and the royal capital Pella lay behind him.",
+        "decision": "He fought on the plain; what he did during the battle is disputed between Polybius and Posidonius.",
+        "outcome": "His infantry was destroyed; he fled to Pella and Samothrace and died in Roman custody."
+      }
+    ]
+  },
+  {
+    "slug": "carrhae",
+    "sources": [
+      {
+        "title": "Carrhae",
+        "url": "https://www.iranicaonline.org/articles/carrhae-harran-town-in-mesopotamia-where-in-may-53-b/",
+        "publisher": "Encyclopaedia Iranica (A. Shapur Shahbazi)"
+      },
+      {
+        "title": "Carrhae (53 BCE)",
+        "url": "https://www.livius.org/articles/battle/carrhae-53-bce/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Plutarch, Life of Crassus 16–33 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Crassus%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Parthian Empire",
+        "url": "https://www.livius.org/articles/misc/parthian-empire/",
+        "publisher": "Livius.org (Jona Lendering)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Roman expansion had brought Rome to the Parthian frontier: Lucullus and Pompey pressed on Parthian dependencies, and Gabinius backed a rebel against the Parthian king Orodes II. Shahbazi argues that the war followed from a century of converging expansion rather than simply from Crassus's ambition.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Crassus, one of the triumvirs, received Syria as his province in 55 BCE. Plutarch says he boasted of conquests as far as Bactria and India, and that Caesar encouraged the war and sent Gallic cavalry under Crassus's son Publius. Shahbazi notes that Crassus plundered temples at Jerusalem and Hierapolis during his first year in Syria.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "16–17"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Crassus aimed to strike toward Seleucia and Ctesiphon. King Artavasdes II of Armenia urged a route through the Armenian hills, where Parthian cavalry would be least effective; Crassus chose Mesopotamia, where he had garrisons. Orodes then invaded Armenia himself, while Surena waited in Mesopotamia with his own horsemen.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "19"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The battle was fought on the plain near Carrhae (Harran), close to the river Balikh. Plutarch describes deep sand and a waterless waste, but Livius describes a steppe with rivers and farmland, and Shahbazi doubts that the route lacked water in spring.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "22"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Crassus led legions with cavalry and light infantry, together with Arab and Osrhoenian allies. Surena commanded his own levies: mailed cavalry and horse archers with a powerful compound bow, backed by a camel train loaded with arrows. Shahbazi notes that the Romans had no experience of such archery and, on foot, could neither escape nor catch the horsemen.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "21, 25"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Crassus formed a hollow square with cavalry along its sides; Shahbazi, following modern reconstructions, places Cassius on the left by the river, Crassus in the centre and Publius on the right. The Parthians approached unseen behind rising ground and kept their armour covered until they were close.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "23"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Shahbazi dates the battle to the afternoon of 6 May 53 BCE, 9 June in the Roman calendar of the time. The Romans reached the Balikh tired, and Crassus pressed on rather than camp. The Parthians surrounded the square and kept shooting, their arrows resupplied from the camels. Publius led a sortie, was drawn away by a feigned retreat, surrounded and killed; the Parthians returned with his head on a lance and shot at the square until nightfall.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "23–26"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Crassus's choices of the Mesopotamian route, of pressing on past the Balikh without rest and of sending Publius out became the familiar charges against him. Surena's decision to bring a camel train of arrows meant that his archers did not run out; Livius judges that this settled the battle.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "25"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The destruction of Publius's force cost Crassus his cavalry and his only offensive option. His Osrhoenian and Arab allies had already left the field, which Roman writers later called treachery.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "25"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "That night the legates led the army away to Carrhae, leaving the wounded, whom the Parthians killed or took prisoner. A further night march toward the Armenian hills failed for Crassus's own group. Surena offered a parley; a scuffle broke out, and Crassus and his officers were killed. His head and hand were sent to Orodes.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "27–31"
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Shahbazi says the victory halted Roman expansion, returned Mesopotamia to Parthia and fixed the Euphrates as the boundary, beginning centuries of rivalry. Crassus's death left Pompey and Caesar as the remaining triumvirs. Captured Romans were settled at Merv, and Orodes later had Surena executed. The lost standards came back only through a peace negotiated by Tiberius in 20 BCE.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 2,
+            "locator": "33"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Missile fire decides a battle only if it can be sustained: Surena's supply train turned archery into fire that an infantry army could not answer. An army without effective missile troops and cavalry of its own could not close with a mobile enemy, and choosing a route meant choosing terrain and allies.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The traditional story blames Crassus's greed, a treacherous guide and a waterless desert. Shahbazi argues that the duplicity of Abgar of Osrhoene, Plutarch's Ariamnes, cannot be demonstrated, and Livius treats treachery and the desert as later excuses. Plutarch's narrative is a moral tale full of omens, though Shahbazi thinks it draws on a well-informed eyewitness. Plutarch's army sizes and losses, including his seven legions, are not repeated as fact, and the sources place the battlefield variously south and east of Carrhae.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "17–22"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Plutarch's Life of Crassus is the main narrative. Shahbazi's Encyclopaedia Iranica entry, read in a browser, evaluates it alongside Dio Cassius, whose account was not read here. Livius gives a shorter assessment of the supply and terrain arguments and the later course of the wars.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "16–33"
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Into Mesopotamia",
+        "time": "Early May 53 BCE",
+        "description": "Crassus crosses the Euphrates and takes the Mesopotamian route; Orodes invades Armenia."
+      },
+      {
+        "title": "The square",
+        "time": "6 May 53 BCE · afternoon",
+        "description": "Surena's horsemen surround the Roman square, resupplied with arrows from a camel train."
+      },
+      {
+        "title": "Publius's sortie",
+        "time": "Afternoon",
+        "description": "Publius is drawn away by a feigned retreat, surrounded and killed."
+      },
+      {
+        "title": "Retreat and parley",
+        "time": "Following days",
+        "description": "The army falls back to Carrhae; Crassus is killed at a parley with Surena."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Marcus Licinius Crassus",
+        "objective": "Win glory and conquests in the East by striking at Seleucia and Ctesiphon.",
+        "known": "His scouts found the land empty, and Arab and Osrhoenian allies offered to guide him.",
+        "uncertainty": "Where the Parthian army was and how it would fight; Shahbazi says he had no idea what the Parthians had prepared.",
+        "constraints": "His Armenian ally was tied down by Orodes's invasion, and his army was built around heavy infantry.",
+        "forces": "Legions, Gallic and other cavalry under Publius, light infantry and allied horsemen.",
+        "terrain": "Open plain by the Balikh, suited to horsemen.",
+        "logistics": "Garrisons along his earlier route; Cassius urged him to keep to the Euphrates for supplies.",
+        "decision": "He took the Mesopotamian route, pressed on without rest, formed a square and sent Publius to break out.",
+        "outcome": "His army was defeated and he was killed at a parley."
+      },
+      {
+        "name": "Surena",
+        "objective": "Defend Mesopotamia while Orodes held Armenia.",
+        "known": "Shahbazi says the Parthians had good intelligence of Roman affairs.",
+        "uncertainty": "Which route Crassus would take.",
+        "constraints": "He led a cavalry force against a larger infantry army.",
+        "forces": "His own levies of mailed cavalry and horse archers.",
+        "terrain": "Rising ground for an unseen approach and open plain for manoeuvre.",
+        "logistics": "A camel train that kept his archers supplied with arrows.",
+        "decision": "He surrounded the square, drew Publius away with a feigned retreat and later offered Crassus a parley.",
+        "outcome": "He destroyed the Roman army; Orodes later had him executed."
+      }
+    ]
+  },
+  {
     "slug": "alesia",
     "sources": [
       {

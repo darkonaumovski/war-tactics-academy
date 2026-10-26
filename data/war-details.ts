@@ -78,11 +78,11 @@ export const warDetails: Record<string, WarDetails> = {
       ["214–205 BCE", "First Macedonian War, fought while Rome faced Hannibal"],
       ["197 BCE", "Battle of Cynoscephalae"],
       ["196 BCE", "Flamininus proclaims the freedom of the Greeks"],
-      ["168 BCE", "Battle of Pydna; the Antigonid monarchy ends"],
       [
-        "150–148 BCE",
-        "Revolt of Andriscus suppressed; Macedonia later organized as a province",
+        "168 BCE",
+        "Battle of Pydna; the Antigonid monarchy ends and Macedonia is divided into four republics",
       ],
+      ["148 BCE", "Macedonia annexed as a Roman province"],
     ),
   },
   gallic: {
@@ -112,16 +112,20 @@ export const warDetails: Record<string, WarDetails> = {
       "Upper Mesopotamia, Armenia and Syria along the Euphrates frontier.",
     developments: t(
       ["53 BCE", "Crassus defeated at Carrhae"],
-      ["36 BCE", "Mark Antony's Parthian campaign fails"],
+      ["36 BCE", "Mark Antony's invasion ends in a costly retreat"],
       [
         "20 BCE",
-        "Augustus recovers the standards lost at Carrhae by negotiation",
+        "Peace negotiated through Tiberius; the standards lost at Carrhae are returned",
       ],
       [
         "116–117 CE",
-        "Trajan reaches the Persian Gulf; Hadrian abandons the conquests",
+        "Trajan takes Ctesiphon; Hadrian gives up the new provinces",
       ],
-      ["217 CE", "Battle of Nisibis; Macrinus buys peace"],
+      ["165 and 198 CE", "Roman armies take Ctesiphon again"],
+      [
+        "224–226 CE",
+        "Ardashir overthrows the Arsacids and founds the Sasanian dynasty",
+      ],
     ),
   },
   "roman-civil-wars": {

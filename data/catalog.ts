@@ -66,7 +66,7 @@ export const wars: War[] = [
     "roman-parthian",
     "Roman–Parthian Wars",
     "ancient",
-    "53 BCE – 217 CE",
+    "53 BCE – 224 CE",
     "Rome and the Arsacid Parthian empire contested Armenia and Mesopotamia for more than two centuries.",
     "Roman expansion in the Near East reached the Euphrates, where Crassus sought a war of conquest.",
     "Neither power conquered the other; the frontier shifted repeatedly until the Sasanians replaced the Arsacids.",

@@ -386,7 +386,11 @@ test("war page shows participants, chronology and key commanders", async ({
   await expect(page.locator(".war-context .chronology")).toContainText(
     "Battle of Cannae",
   );
-  await page.getByRole("link", { name: "Hannibal Barca", exact: true }).click();
+  // A study source shares the name, so target the profile link.
+  await page
+    .getByRole("link", { name: "Hannibal Barca", exact: true })
+    .and(page.locator('[href*="/commanders/"]'))
+    .click();
   await expect(page).toHaveURL(/commanders\/hannibal-barca\/$/);
 });
 test("study sections link to their sources and perspectives show every field", async ({

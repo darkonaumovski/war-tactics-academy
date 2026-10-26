@@ -85,7 +85,7 @@
     "strength": "Integrated troops from different communities and exploited terrain and opponents' expectations.",
     "limitation": "Tactical victories did not destroy Roman political cohesion; he was ultimately defeated at Zama.",
     "legacy": "Cannae became a famous case study, but ancient accounts require critical reading rather than treating reconstructed speeches as transcripts.",
-    "battleSlugs": ["cannae"],
+    "battleSlugs": ["cannae", "zama"],
     "source": {
       "title": "Hannibal the Historian at Ticinus and Cannae — Charles Oughton",
       "url": "https://classicalstudies.org/hannibal-historian-ticinus-and-cannae",
@@ -153,7 +153,7 @@
     "strength": "Combined battlefield adaptation with coalition building, including cooperation with Masinissa.",
     "limitation": "Later political controversy shows that military success did not guarantee security within republican competition.",
     "legacy": "His victories helped establish Roman predominance in the western Mediterranean. Later stories of exemplary virtue also shaped his reputation.",
-    "battleSlugs": [],
+    "battleSlugs": ["zama"],
     "source": {
       "title": "Scipio: historical context and reception",
       "url": "https://www.nationalgallery.org.uk/paintings/glossary/scipio",

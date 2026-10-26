@@ -161,6 +161,7 @@ All releases are deployed to the live site.
 
 | Commit    | Change                                                                                                                                                                                                |
 | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `9af01ec` | Detailed studies for Verdun, the Second Battle of El Alamein, Kursk and Dien Bien Phu, the first batch of the remaining catalog engagements; source audit extended.                                   |
 | `501790c` | Detailed studies for Gaugamela, Agincourt, Gettysburg and Operation Overlord (Normandy), each with section-level references, a four-phase replay and two command perspectives; source audit extended. |
 | `3686290` | Self-hosted typography (four Open Font License families) and subtle Motion animations that respect reduced motion; accessibility checks extended to 14 pages.                                         |
 | `bcad0f9` | One App Router route per page, page views split into section modules, full page metadata and a sitemap; Operation engagement type, with Operation Overlord within the North-west Europe campaign.     |

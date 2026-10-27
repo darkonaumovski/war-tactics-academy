@@ -426,7 +426,10 @@ test("engagement category filter distinguishes operations", async ({
 }) => {
   await page.goto("/battles");
   await page.getByLabel("Engagement category").selectOption("Operation");
-  await expect(page.getByRole("status")).toHaveText("1 engagements");
+  const operations = battles.filter((b) => b.kind === "Operation").length;
+  await expect(page.getByRole("status")).toHaveText(
+    `${operations} engagements`,
+  );
   await page
     .getByRole("link", { name: /Operation Overlord \(Normandy\)/ })
     .click();

@@ -1,1 +1,1098 @@
-[]
+[
+  {
+    "slug": "cer",
+    "sources": [
+      {
+        "title": "Serbia 1914: exhibition catalogue (Miloš Ković, Nebojša Damnjanović, Vuk Obradović and Sanja Veljković)",
+        "url": "https://imus.org.rs/wp-content/uploads/2020/03/Srbija-1914-Katalog.pdf",
+        "publisher": "Historical Museum of Serbia and Military Museum, Belgrade"
+      },
+      {
+        "title": "World War I: The Serbian campaign, 1914 (Dennis E. Showalter)",
+        "url": "https://www.britannica.com/event/World-War-I/The-Serbian-campaign-1914",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Warfare 1914-1918 (South East Europe) (Dmitar Tasić)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/warfare-1914-1918-south-east-europe/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Serbia (Mile Bjelajac)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/serbia/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Report upon the atrocities committed by the Austro-Hungarian army during the first invasion of Serbia (R. A. Reiss, 1916)",
+        "url": "https://archive.org/stream/cu31924027863657/cu31924027863657_djvu.txt",
+        "publisher": "Internet Archive (Cornell University Library copy)"
+      },
+      {
+        "title": "Radomir Putnik",
+        "url": "https://www.britannica.com/biography/Radomir-Putnik",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Commemoration of the 105th anniversary of the Battle of Cer in Tekeriš",
+        "url": "https://mod.gov.rs/eng/14294/na-tekerisu-obelezeno-105-godina-od-cerske-bitke-14294",
+        "publisher": "Ministry of Defence of the Republic of Serbia"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Austria-Hungary declared war on Serbia on 28 July 1914 and shelled Belgrade the same day. Its officers expected a short punitive campaign that would free troops for the war against Russia.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Serbia's plan was to stay on the defensive until the direction of the main invasion became clear, and to draw in as many Austro-Hungarian troops as possible to weaken the effort against Russia.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Oskar Potiorek, governor of Bosnia and Herzegovina, commanded the invasion. His Fifth Army crossed the Drina to break into north-west Serbia, while the Second Army on the Sava threatened Šabac and Belgrade. The Serbian Supreme Command under Radomir Putnik had expected the main attack from the north and had to shift its forces west.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Cer is a mountain ridge in north-west Serbia between the Jadar valley and the plain of Mačva, with Šabac to the north-east and Loznica on the Drina to the west. The Austro-Hungarian corps advanced along both the ridge and the Jadar valley.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Putnik's Supreme Command directed three armies: the First under Petar Bojović, the Second under Stepa Stepanović and the Third under Pavle Jurišić Šturm. On the Austro-Hungarian side the Fifth Army's 8th and 13th Corps led the invasion, with the Sixth Army in Bosnia and the Second Army on the Sava. The Second Army was redirected toward Galicia on 18 August, so the invasion went ahead with fewer troops than planned. Strengths given in the sources are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The Austro-Hungarian attack began on the morning of 12 August, and after two days the corps were across the Drina, pressing the Serbian Third Army's outposts. Šabac was bombarded and taken. Stepanović's Second Army was ordered west to support the Third, sending its Combined Division and 1st Morava Division toward Cer.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On the night of 15–16 August a regiment of the Combined Division met the Austro-Hungarian 21st Division near Tekeriš and drove it back toward the Drina. The next day the 9th Division struck the Combined Division's flank and forced it back, until the 1st Morava Division arrived and Stepanović himself came to the front line. Meanwhile the Third Army was pushed back up the Jadar valley. On 17 and 18 August both sides attacked along the ridge; the 2nd Morava Division restored the Third Army's position. Under constant attack, the 9th Division gave way, exposing the 13th Corps in the Jadar valley, and on the night of 19–20 August the Fifth Army withdrew across the Drina. Šabac was retaken on 24 August.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Putnik and Stepanović committed the Second Army against the flank of the invasion on Cer instead of holding a line farther east. Its cavalry cut the Šabac–Lešnica railway, and the 1st Šumadija Division was sent to Šabac to cover the troops on Cer and keep Austro-Hungarian support from reaching the Fifth Army.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The arrival of the 1st Morava Division and Stepanović's presence on 16 August stopped the crisis on the ridge; the retreat of the 9th Division on 19 August left the 13th Corps in the Jadar valley exposed and forced the whole Fifth Army back.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The invasion was thrown back across the Drina. Britannica and Tasić call Cer the first Allied victory of the war; the Serbian Ministry of Defence counts it among the Serbian army's greatest victories, won under Stepanović's command.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 6
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "During the invasion Austro-Hungarian troops killed civilians in Šabac and across Mačva and the Jadar. R. A. Reiss, a University of Lausanne professor commissioned by the Serbian government, investigated in the autumn of 1914: he documented killings of old people and children, burned villages, hostage-taking and sexual violence, and concluded that some acts were ordered or encouraged by officers. Tasić notes that the violence took place against a background of anti-Serbian propaganda and fear of Serbian irregulars, who looked no different from civilians. The victory raised Serbia's standing with its allies and ended Austro-Hungarian hopes of an easy campaign.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 4
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A defender who waits for the direction of the main attack and then strikes its flank with a concentrated army can defeat an invader who has split his forces between fronts and valleys.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The battle is dated 15–20 August by Britannica, 16–20 August by Bjelajac and 17–19 August by Tasić; the fighting for Šabac ran to 24 August. Reiss's report, written at the Serbian government's request and published in wartime, records the Austro-Hungarian explanations of shots fired from houses and irregulars among civilians alongside his own findings; its figures, which he says understate the toll, are not repeated here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The Historical Museum of Serbia and Military Museum catalogue gives the order of battle and the day-by-day narrative. Britannica's account of the 1914 campaign and its biography of Putnik, and the 1914-1918-online articles by Dmitar Tasić and Mile Bjelajac, place the battle in the war. Reiss's 1916 report documents the violence against civilians, and the Serbian Ministry of Defence page records the memorial at Tekeriš.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Across the Drina",
+        "time": "12–14 August 1914",
+        "description": "The Fifth Army crosses the Drina; Šabac is bombarded and taken."
+      },
+      {
+        "title": "Tekeriš",
+        "time": "15–16 August 1914",
+        "description": "Serbian troops meet the 21st Division at night; the 9th Division counterattacks and Stepanović restores the line."
+      },
+      {
+        "title": "The ridge",
+        "time": "17–19 August 1914",
+        "description": "Attacks and counterattacks on Cer; the 9th Division gives way and the Jadar valley is exposed."
+      },
+      {
+        "title": "Withdrawal and Šabac",
+        "time": "20–24 August 1914",
+        "description": "The Fifth Army recrosses the Drina; Šabac is retaken on 24 August."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Stepa Stepanović",
+        "objective": "Stop the Fifth Army's advance on Cer and protect the Third Army's flank.",
+        "known": "Austro-Hungarian corps were advancing along the Jadar valley and toward the Cer ridge.",
+        "uncertainty": "Whether his divisions could arrive in time and whether the Austro-Hungarian Second Army would join the attack.",
+        "constraints": "A long march west from positions prepared for an attack from the north.",
+        "forces": "The Second Army: the Combined, 1st Morava, 1st Šumadija and 1st Danube Divisions with a cavalry division.",
+        "terrain": "A wooded ridge between the Jadar valley and the Mačva plain.",
+        "logistics": "Shortages of artillery ammunition; peasant women from Mačva helped drag guns into position.",
+        "decision": "He fed divisions into the fight on the ridge, went to the front line himself on 16 August and kept attacking.",
+        "outcome": "The Fifth Army withdrew across the Drina."
+      },
+      {
+        "name": "Oskar Potiorek",
+        "objective": "Defeat Serbia quickly in a punitive campaign.",
+        "known": "Serbian forces had been concentrated for an attack from the north.",
+        "uncertainty": "How quickly the Serbian armies could turn west.",
+        "constraints": "The Second Army was taken away to Galicia on 18 August.",
+        "forces": "The Fifth Army's 8th and 13th Corps, with the Sixth Army in Bosnia.",
+        "terrain": "River crossings on the Drina, then the Jadar valley and the Cer ridge.",
+        "logistics": "Supply over the Drina from Bosnia.",
+        "decision": "His armies invaded from Bosnia across the Drina rather than from the north.",
+        "outcome": "The invasion was beaten on Cer and the Fifth Army withdrew."
+      }
+    ]
+  },
+  {
+    "slug": "syrmia-1914",
+    "sources": [
+      {
+        "title": "Serbia 1914: exhibition catalogue (Miloš Ković, Nebojša Damnjanović, Vuk Obradović and Sanja Veljković)",
+        "url": "https://imus.org.rs/wp-content/uploads/2020/03/Srbija-1914-Katalog.pdf",
+        "publisher": "Historical Museum of Serbia and Military Museum, Belgrade"
+      },
+      {
+        "title": "Das Gefecht bei Šašinci (Thomas Lampersberger)",
+        "url": "https://milak.at/forschung/geschichte/das-gefecht-bei-sasinci",
+        "publisher": "Theresian Military Academy, Wiener Neustadt"
+      },
+      {
+        "title": "Serbia (Mile Bjelajac)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/serbia/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "World War I: The Serbian campaign, 1914 (Dennis E. Showalter)",
+        "url": "https://www.britannica.com/event/World-War-I/The-Serbian-campaign-1914",
+        "publisher": "Encyclopaedia Britannica"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After the victory on Cer, Serbia went over to the offensive. Syrmia, the Austro-Hungarian land between the Sava and the Danube, lay across the Sava from the First Army's positions around Obrenovac.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The offensive was undertaken under pressure from Serbia's allies, to relieve the Russians in Galicia. Bjelajac stresses that the Serbian army was still waiting for promised rifles, ammunition and bridging equipment when the Allies insisted on it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The aim was to take Syrmia. The Timok Division I was to cross the Sava near Mitrovica, supported by parts of the First Army west of Belgrade.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The Sava, about 410 m wide at the crossing, separated Serbia from flat Syrmian farmland. Fields of standing maize limited visibility around Šašinci.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The First Army was commanded by Petar Bojović; the Timok Division I by Vladimir Kondić. On the Austro-Hungarian side the 29th Infantry Division met the crossing. Strengths and the prisoner figures given in the sources are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Kondić received the order at 7 a.m. on 5 September to cross between Mitrovica and Jarak that night. His division was about 35 km from the river and tired by a night march, and its bridging material was incomplete.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The First Army crossed the Sava on the night of 5–6 September. At Šašinci the first boats of the Timok Division I crossed at 7.40 a.m. on 6 September and a pontoon bridge was begun, but Austro-Hungarian regiments counterattacked through the afternoon and evening; at night their guns fired on the bridge, which collapsed under the weight of retreating troops, and many Serbian soldiers were captured. Farther east, by 11 September the First Army's units had reached the line Nova Pazova–Vojka–Popinci–Budjanovac. The offensive was then broken off because of the Austro-Hungarian attack on the Drina, and the First Army was moved south toward Ljubovija.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "The Serbian Supreme Command accepted an offensive it had reason to think premature. Once the second Austro-Hungarian invasion began on the Drina, it gave priority to the defence of Serbia and pulled the First Army back.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The repulse at Šašinci on 6 September ended the attempt to take Syrmia; the Theresian Military Academy's account says it also cost the First Army its bridgehead at Kupinovo.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The offensive was aborted. The Timok Division I was not destroyed and was soon back in action after reinforcement.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The First Army reinforced the Third on the Drina, where its arrival on Mount Soko helped ease a crisis on 17 September.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A river crossing made in haste, without reconnaissance, rested and close-up troops or complete bridging equipment, is vulnerable to a prompt local counterattack; coalition pressure can push an army into operations it is not ready for.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Serbian and Austrian accounts frame the operation differently: the Serbian catalogue stresses the First Army's advance and its recall for the Drina, the Austrian academy's account the victory at Šašinci, for which Austro-Hungarian officers received the Military Order of Maria Theresa. The end date of the offensive is not given in the sources read here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The Historical Museum of Serbia and Military Museum catalogue gives the Serbian narrative, and Thomas Lampersberger's article for the Theresian Military Academy the Austro-Hungarian account of Šašinci (in German). Mile Bjelajac's 1914-1918-online article and Britannica's account of the 1914 campaign give the context.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Orders",
+        "time": "5 September 1914",
+        "description": "The Timok Division I is ordered to cross between Mitrovica and Jarak that night."
+      },
+      {
+        "title": "Across the Sava",
+        "time": "5–6 September 1914",
+        "description": "The First Army crosses the Sava; at Šašinci the first boats cross at 7.40 a.m."
+      },
+      {
+        "title": "Šašinci",
+        "time": "6 September 1914",
+        "description": "Austro-Hungarian regiments counterattack; the bridge collapses and many Serbian soldiers are captured."
+      },
+      {
+        "title": "Recall",
+        "time": "11 September 1914 onward",
+        "description": "The First Army reaches the Nova Pazova–Budjanovac line, then is recalled for the Drina."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Vladimir Kondić",
+        "objective": "Cross the Sava between Mitrovica and Jarak and hold a bridgehead.",
+        "known": "He had less than a day's notice and a long march to the river.",
+        "uncertainty": "What Austro-Hungarian forces stood on the north bank.",
+        "constraints": "Tired troops and incomplete bridging equipment.",
+        "forces": "The Timok Division I.",
+        "terrain": "A wide river and maize fields that hid the enemy.",
+        "logistics": "A single pontoon bridge, unfinished for lack of material.",
+        "decision": "He crossed by boat in daylight and began the bridge.",
+        "outcome": "The bridgehead was overrun and the bridge collapsed."
+      },
+      {
+        "name": "Feldmarschallleutnant Krauß",
+        "objective": "Throw the Serbian crossing back into the Sava.",
+        "known": "Serbian troops were crossing near Šašinci.",
+        "uncertainty": "How large the crossing force was.",
+        "constraints": "Regiments spread across Syrmia and arriving at different times.",
+        "forces": "Regiments of the 29th Infantry Division.",
+        "terrain": "Flat farmland with maize fields.",
+        "logistics": "Local road and rail movement from Ruma and Jarak.",
+        "decision": "He committed the division's regiments to attack the bridgehead as they arrived.",
+        "outcome": "The bridgehead was destroyed and Syrmia was held."
+      }
+    ]
+  },
+  {
+    "slug": "drina-1914",
+    "sources": [
+      {
+        "title": "Serbia 1914: exhibition catalogue (Miloš Ković, Nebojša Damnjanović, Vuk Obradović and Sanja Veljković)",
+        "url": "https://imus.org.rs/wp-content/uploads/2020/03/Srbija-1914-Katalog.pdf",
+        "publisher": "Historical Museum of Serbia and Military Museum, Belgrade"
+      },
+      {
+        "title": "Warfare 1914-1918 (South East Europe) (Dmitar Tasić)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/warfare-1914-1918-south-east-europe/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Serbia (Mile Bjelajac)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/serbia/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "World War I: The Serbian campaign, 1914 (Dennis E. Showalter)",
+        "url": "https://www.britannica.com/event/World-War-I/The-Serbian-campaign-1914",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Spomen-kosturnica na Mačkovom kamenu (Miodrag Sokolović, Saopštenja XVI, 1984)",
+        "url": "https://www.heritage.gov.rs/cirilica/Download/Saopstenja/Saopstenje-XVI-1984/Saopstenje_XVI_1984_Spomen_kosturnica_na_Mackovom_kamenu.pdf",
+        "publisher": "Republic Institute for the Protection of Cultural Monuments, Belgrade"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After the defeat on Cer, Austria-Hungary prepared a second invasion with the Fifth and Sixth Armies on the middle and lower Drina, leaving smaller forces on the upper Drina and in Syrmia.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Serbia was meanwhile attacking into Syrmia under Allied pressure and, with Montenegro, into eastern Bosnia. A new invasion would force it back onto the defensive.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The Austro-Hungarian plan was to encircle and destroy the main Serbian force in the Jadar valley. The Serbian Second and Third Armies and Colonel Mišić's detachment were deployed along the Drina near Ljubovija to repel the crossings and, if possible, go over to the offensive.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The fighting ran along the Drina and into the mountains of western Serbia: the ridge of Gučevo, Mount Soko and Mačkov Kamen, a summit of the Jagodnja range near Krupanj.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Putnik's Supreme Command commanded the Serbian armies; Potiorek the Austro-Hungarian Fifth and Sixth Armies, whose 15th and 16th Corps took Gučevo. Strengths and losses given in the sources are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "When the attack came on 8 September, the Serbian First Army was across the Sava in Syrmia and the Užice Army was preparing to enter Bosnia.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 8 September the Fifth and Sixth Armies attacked across the Drina. By 15 September the Sixth Army's 15th and 16th Corps had driven the Serbian Third Army off Gučevo and Mount Soko. The First Army, recalled from Syrmia, reached the Sokolska area on 17 September and eased the pressure on the Third Army's left. The 16th Corps fell back to Mačkov Kamen, which changed hands in seven days of attacks and counterattacks and was taken by the Austro-Hungarians on 24 September. The fronts then settled into trench warfare in October, before a new Austro-Hungarian general attack on 6 November forced the Serbian army to retreat toward Ub and Valjevo.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "The Serbian Supreme Command broke off the Syrmian offensive and sent the First Army to the Drina, and ordered the Užice Army into Bosnia to threaten the Sixth Army's flank. In November it ordered a retreat to gain time to reinforce its units.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The arrival of the First Army on 17 September stopped the Austro-Hungarian advance from Gučevo; the battle for Mačkov Kamen then exhausted both sides without a breakthrough.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The invasion was held near the river after heavy losses on both sides, and the front settled into a short period of trench warfare. In the museum catalogue's account, the battle ended with the Serbian retreat of November that led into the Kolubara.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Serbian artillery ammunition ran short during the long entrenched fighting, which Bjelajac puts at fifty-five days before the retreat. Sokolović calls Mačkov Kamen one of the bloodiest battles the Serbian army fought in the war; among the dead was Lieutenant-Colonel Dušan Purić, commander of the 4th Regiment. A memorial ossuary designed by Momir Korunović was built on the summit between 1924 and 1936.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Mountain fighting along a river line favours the defender but consumes men and ammunition; a defender with limited industry can win battles and still lose the contest of supply.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The sources frame the battle differently. Britannica describes a second offensive ending in weeks of deadlock; Tasić a series of smaller clashes and a stalemate in October; the museum catalogue a long battle ending with the Serbian retreat in November. Mačkov Kamen is dated 14–22 September in a source Tasić cites and taken on 24 September in the catalogue. Sokolović's figures are not repeated here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The Historical Museum of Serbia and Military Museum catalogue gives the narrative. Dmitar Tasić's and Mile Bjelajac's 1914-1918-online articles and Britannica's account of the 1914 campaign give the context and the dates. Miodrag Sokolović's article for the Republic Institute for the Protection of Cultural Monuments (in Serbian) covers Mačkov Kamen and its ossuary.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "The crossings",
+        "time": "8 September 1914",
+        "description": "The Fifth and Sixth Armies attack across the Drina."
+      },
+      {
+        "title": "Gučevo",
+        "time": "8–15 September 1914",
+        "description": "The Sixth Army drives the Third Army off Gučevo and Mount Soko."
+      },
+      {
+        "title": "Mačkov Kamen",
+        "time": "17–24 September 1914",
+        "description": "The First Army arrives; the summit changes hands until the Austro-Hungarians take it."
+      },
+      {
+        "title": "Trenches and retreat",
+        "time": "October – 6 November 1914",
+        "description": "The front stalls in trenches until a new attack forces the Serbian army back."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Radomir Putnik",
+        "objective": "Hold the Drina line against the second invasion.",
+        "known": "Austria-Hungary was preparing a renewed offensive on the Drina.",
+        "uncertainty": "Where the main crossing would come while his First Army was in Syrmia.",
+        "constraints": "Allied pressure for offensives and a shortage of artillery ammunition.",
+        "forces": "The Second and Third Armies and Mišić's detachment on the Drina, the First Army recalled from Syrmia, and the Užice Army on the upper Drina.",
+        "terrain": "A river line backed by mountains.",
+        "logistics": "Ammunition that ran short during weeks of entrenched fighting.",
+        "decision": "He recalled the First Army to the Drina, sent the Užice Army into Bosnia against the Sixth Army's flank, and in November ordered a retreat.",
+        "outcome": "The invasion was held near the river, but the army withdrew in November."
+      },
+      {
+        "name": "Oskar Potiorek",
+        "objective": "Encircle and destroy the main Serbian force in the Jadar valley.",
+        "known": "Part of the Serbian army was committed in Syrmia and on the upper Drina.",
+        "uncertainty": "Whether the crossings could be exploited before Serbian reinforcements arrived.",
+        "constraints": "Mountain terrain beyond the river.",
+        "forces": "The Fifth and Sixth Armies, including the 15th and 16th Corps.",
+        "terrain": "The Drina crossings, Gučevo, Mount Soko and Mačkov Kamen.",
+        "logistics": "Supply across the Drina from Bosnia.",
+        "decision": "He attacked across the Drina with both armies, then reinforced for a new offensive.",
+        "outcome": "The armies gained ground in the mountains but did not encircle the Serbian force."
+      }
+    ]
+  },
+  {
+    "slug": "romanija-1914",
+    "sources": [
+      {
+        "title": "Serbia 1914: exhibition catalogue (Miloš Ković, Nebojša Damnjanović, Vuk Obradović and Sanja Veljković)",
+        "url": "https://imus.org.rs/wp-content/uploads/2020/03/Srbija-1914-Katalog.pdf",
+        "publisher": "Historical Museum of Serbia and Military Museum, Belgrade"
+      },
+      {
+        "title": "Warfare 1914-1918 (South East Europe) (Dmitar Tasić)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/warfare-1914-1918-south-east-europe/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Serbia (Mile Bjelajac)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/serbia/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Montenegro (Radoslav Raspopović)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/montenegro/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "In August 1914 two-thirds of the Montenegrin army was placed under the Serbian Supreme Command under a joint plan drawn up by Putnik. Montenegro kept most of its army on the Herzegovina front and at Mount Lovćen, with a smaller force around Pljevlja cooperating with the Serbs.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Bjelajac writes that Serbia's allies insisted on offensives across its borders; the move into eastern Bosnia ran in parallel with the crossing into Syrmia.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "With the offensive into Bosnia, the Serbian command wanted to threaten the flank of the Austro-Hungarian Sixth Army fighting on the Drina.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The advance led from the upper Drina into the mountains of eastern Bosnia, toward Srebrenica, Vlasenica and Sarajevo, up to Pale and Mount Romanija on the eastern approaches to Sarajevo.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The Serbian Užice Army attacked alongside the Montenegrin Sanjak Army. The sources read here do not name their commanders. Strengths are not given.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The Užice Army had been grouped at Užice at the start of the war to support the Montenegrin army, and was positioned on the upper Drina for the offensive.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 13 September the Užice Army and the Sanjak Army crossed the Drina. Tasić dates the capture of Višegrad to 25 September; by the same date, in the museum catalogue's account, the Serbian and Montenegrin troops stood before Pale, Srebrenica and Vlasenica, where they remained into October. Once the front on the middle and lower Drina had stabilised, the Austro-Hungarians reinforced and counterattacked. After the battle of Glasinac the Serbian and Montenegrin units were driven back across the Drina, and by 24 October they had left Bosnia.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "The Serbian Supreme Command used the Užice Army, together with Montenegrin forces, as an offensive flank guard, threatening the Sixth Army rather than reinforcing the main front on the Drina.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The Austro-Hungarian counteroffensive in October, which followed the stabilisation of the main front, ended the advance; Glasinac was the decisive engagement.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Serbian and Montenegrin forces withdrew across the Drina. Tasić notes that the offensive forced a redeployment of Habsburg troops before the counteroffensive.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Austria-Hungary could turn to a third invasion of Serbia in November. The offensive also showed the strains in Serbian–Montenegrin cooperation that Raspopović describes, with Montenegro keeping most of its army for its own fronts.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A diversion against an enemy's flank can draw off troops while the main front holds, but it lasts only until the enemy can spare forces to deal with it.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The sources read here are brief: they give the outline and dates but not the commanders, strengths or the course of the battle of Glasinac. Tasić says the troops took Pale, the museum catalogue that they stood before it. Tasić dates the counteroffensive to mid-October, the museum catalogue to 4 October. Raspopović's article shows that Serbian and Montenegrin aims in Bosnia and Herzegovina were not identical.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The Historical Museum of Serbia and Military Museum catalogue and Dmitar Tasić's 1914-1918-online article give the narrative. Mile Bjelajac's and Radoslav Raspopović's articles in the same encyclopedia give the Serbian and Montenegrin context.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Across the upper Drina",
+        "time": "13 September 1914",
+        "description": "The Užice and Sanjak Armies cross into eastern Bosnia."
+      },
+      {
+        "title": "Toward Sarajevo",
+        "time": "To 25 September 1914",
+        "description": "Višegrad is taken and the troops reach the approaches of Pale, Srebrenica and Vlasenica."
+      },
+      {
+        "title": "On the Romanija front",
+        "time": "Late September – early October 1914",
+        "description": "Serbian and Montenegrin troops hold positions before Pale into October."
+      },
+      {
+        "title": "Glasinac and withdrawal",
+        "time": "October 1914",
+        "description": "Austro-Hungarian reinforcements counterattack; after Glasinac the forces recross the Drina by 24 October."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Radomir Putnik",
+        "objective": "Threaten the Sixth Army's flank and draw troops away from the Drina.",
+        "known": "The Sixth Army was committed against the Serbian Third Army on the Drina.",
+        "uncertainty": "How quickly Austria-Hungary could reinforce eastern Bosnia.",
+        "constraints": "Few troops to spare and dependence on Montenegrin cooperation.",
+        "forces": "The Užice Army with the Montenegrin Sanjak Army.",
+        "terrain": "Mountain roads in eastern Bosnia leading toward Sarajevo.",
+        "logistics": "Long lines of supply back across the upper Drina.",
+        "decision": "He sent the Užice Army into Bosnia alongside the Montenegrins.",
+        "outcome": "The troops reached Pale but were driven back across the Drina in October."
+      },
+      {
+        "name": "Oskar Potiorek",
+        "objective": "Secure the right flank of his main force on the Drina.",
+        "known": "Serbian and Montenegrin troops stood before Pale and in eastern Bosnia.",
+        "uncertainty": "Whether troops could be spared from the main front.",
+        "constraints": "The main front on the Drina came first.",
+        "forces": "Reinforcements brought in once the main front had stabilised.",
+        "terrain": "The Romanija and Glasinac uplands east of Sarajevo.",
+        "logistics": "Reinforcement and resupply before the counteroffensive.",
+        "decision": "He reinforced and counterattacked in October.",
+        "outcome": "After Glasinac the Serbian and Montenegrin forces left Bosnia."
+      }
+    ]
+  }
+]

@@ -305,3 +305,7 @@ Coordinates: the rows use the general area of Dobro Pole and of Niš, from gener
 ## Serbian Front, commander profiles C1 (27 October 2026)
 
 Profiles of Radomir Putnik, Stepa Stepanović, Živojin Mišić and Petar Bojović were added; the sources read, the linked source of each profile and their limits are listed in `docs/COMMANDER_SOURCES.md`. New sources read for this batch: Serbian Ministry of Defence pages on Stepanović (2015, 2021), Mišić (2017), Bojović (2017) and Putnik (2017), and the Municipality of Istočno Novo Sarajevo's “Park of the Greats” biography of Stepanović. Pages not used: Wikipedia articles and a Belgrade city cemeteries biography of Bojović, which failed a certificate check. Link check: the Britannica page returns 403 to scripts and was read in the browser; the Ministry of Defence pages return 200.
+
+## Serbian Front, commander profiles C2 (27 October 2026)
+
+Profiles of Crown Prince Alexander, Pavle Jurišić Šturm and Kosta Pećanac were added, and Petar Bojović's date of death was corrected to January 1945 after a second Ministry of Defence page gave 19 rather than 20 January. Sources and limits are listed in `docs/COMMANDER_SOURCES.md`. New sources read: Britannica, “Alexander I (king of Yugoslavia)” (read in the browser; 403 to scripts); Serbian Ministry of Defence, anniversary of Šturm's death (2017) and joint commemoration of Šturm, Mišić and Bojović (2022). Mihailo Živković and Miloš Vasić were not added: only Wikipedia articles and a cemetery page that failed a certificate check were found.

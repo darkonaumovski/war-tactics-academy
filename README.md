@@ -19,7 +19,7 @@ The guiding principle is to explain what commanders knew, what they decided and 
 - **73 engagements** across seven eras, classified as battles, sieges, operations or campaigns, with approximate locations. Operation Overlord (Normandy) is the first operation record.
 - **Seventy-three detailed studies**, one for every engagement in the catalog, each with 14 analysis sections and an interactive replay of four or more phases. 1,019 of the 1,022 sections show which listed sources they draw on, with book and chapter locators for classical texts and chronicles and section names for handbooks.
 - **145 command perspectives** across every engagement except Marathon. Each covers objective, available information, uncertainty, constraints, forces, terrain, logistics, decisions and retrospective interpretation, clearly presented as reconstructed reasoning rather than quotations.
-- **48 commander profiles**, each with a command role (ruler-commander, field, naval, staff planner, or coalition and theater commander), ranks and titles, principal commands, a dated chronology, a notable decision, defeats and reverses, linked engagements and further reading. The catalog filters by era and command role, and any two commanders can be compared side by side without numerical ratings.
+- **51 commander profiles**, each with a command role (ruler-commander, field, naval, staff planner, or coalition and theater commander), ranks and titles, principal commands, a dated chronology, a notable decision, defeats and reverses, linked engagements and further reading. The catalog filters by era and command role, and any two commanders can be compared side by side without numerical ratings.
 - **33 war pages** with principal participants, geographic scope, a chronology of key developments, key commanders and reading from linked studies and profiles; each links to its campaigns and engagements.
 
 ### Interactive learning
@@ -161,6 +161,7 @@ All releases are deployed to the live site.
 
 | Commit    | Change                                                                                                                                                                                                        |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `6f201ec` | Profiles of the four Serbian vojvode: Putnik, Stepanović, Mišić and Bojović, linked to the engagements their sources confirm.                                                                                 |
 | `b5cfb2a` | Detailed studies for the breakthrough at Dobro Pole and the liberation of Serbia, completing the core engagements of the Serbian Front.                                                                       |
 | `6ea85b6` | Detailed studies for Kajmakčalan, the Monastir offensive and the Toplica Uprising; new Macedonian front and Occupation of Serbia campaigns.                                                                   |
 | `6f1b2ea` | Detailed studies for the Kolubara, Belgrade 1915, the 1915 invasion, the retreat through Montenegro and Albania, and Mojkovac; new Serbian campaign of 1915.                                                  |
@@ -189,7 +190,7 @@ All releases are deployed to the live site.
 ## Known limitations
 
 - The four learning paths are introductory editorial courses (one question per lesson), not reviewed university curricula.
-- The seventy-three battle analyses and 48 commander profiles need deeper scholarly review, fuller biographies and sentence-level citations before being treated as an academic reference work. Study sections are still brief.
+- The seventy-three battle analyses and 51 commander profiles need deeper scholarly review, fuller biographies and sentence-level citations before being treated as an academic reference work. Study sections are still brief.
 - War pages give orientation, not comprehensive operational histories, and have no dedicated bibliography. Campaign pages remain indexes.
 - Replay diagrams explain abstract relationships; they do not simulate combat or reconstruct exact formations. Atlas locations and Natural Earth coastlines are approximate modern context.
 - The media library is a small starting collection (nine records); the two videos cover only D-Day. Embeds and archive images depend on third-party availability.

@@ -2466,12 +2466,192 @@
           "event": "Commands the First Army in the breakthrough; made vojvoda"
         },
         {
-          "date": "1945",
-          "event": "Dies in Belgrade on 20 January"
+          "date": "January 1945",
+          "event": "Dies in Belgrade"
         }
       ],
       "notableDecision": "Returning to the First Army for the 1918 offensive, he pressed the breakthrough deep into occupied territory.",
       "setback": "On the Drina in September 1914 his First Army suffered heavy losses and he was wounded."
+    }
+  },
+  {
+    "slug": "crown-prince-alexander",
+    "name": "Alexander Karađorđević",
+    "years": "1888–1934",
+    "state": "Kingdom of Serbia",
+    "eraId": "world-wars",
+    "role": "Prince regent and commander-in-chief; later king",
+    "summary": "Regent of Serbia from June 1914 and commander-in-chief of its armed forces through the war; he entered liberated Belgrade in 1918 and proclaimed the Kingdom of Serbs, Croats and Slovenes.",
+    "approach": "Held supreme command as head of state, while the chiefs of the Supreme Command, Putnik and later Bojović and Mišić, directed operations.",
+    "strength": "Kept the dynasty, the government and the army's command together through defeat, exile on Corfu and return.",
+    "limitation": "His command in the war was largely formal. As king he abolished the constitution in 1929 and ruled as a dictator over a police state.",
+    "legacy": "Founder-king of the South Slav state; his wartime role is remembered in Serbia, his later dictatorship more critically. He was assassinated in Marseille in 1934.",
+    "battleSlugs": ["liberation-of-serbia-1918"],
+    "source": {
+      "title": "Alexander I (king of Yugoslavia)",
+      "url": "https://www.britannica.com/biography/Alexander-I-king-of-Yugoslavia",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "Crown prince and regent of Serbia from 24 June 1914; commander-in-chief of the Serbian armed forces in the First World War; king of the Serbs, Croats and Slovenes from 1921 and of Yugoslavia from 1929",
+      "principalCommands": [
+        "Serbian armed forces, as commander-in-chief, 1914–1918"
+      ],
+      "timeline": [
+        {
+          "date": "1888",
+          "event": "Born in Cetinje, Montenegro"
+        },
+        {
+          "date": "1909",
+          "event": "Becomes heir to the Serbian throne"
+        },
+        {
+          "date": "1912–1913",
+          "event": "Commands in the Balkan Wars"
+        },
+        {
+          "date": "24 June 1914",
+          "event": "Appointed regent by the ailing King Peter"
+        },
+        {
+          "date": "31 October 1918",
+          "event": "Enters liberated Belgrade"
+        },
+        {
+          "date": "1 December 1918",
+          "event": "Proclaims the Kingdom of Serbs, Croats and Slovenes"
+        },
+        {
+          "date": "1929",
+          "event": "Abolishes the constitution and establishes a royal dictatorship"
+        },
+        {
+          "date": "1934",
+          "event": "Assassinated in Marseille"
+        }
+      ],
+      "notableDecision": "In July 1914, with Serbia's fate depending on Russia, he wrote personally to the Tsar on the advice of the Russian chargé d'affaires.",
+      "setback": "In 1915 the army he commanded was driven out of Serbia and had to be rebuilt in exile on Corfu."
+    }
+  },
+  {
+    "slug": "pavle-jurisic-sturm",
+    "name": "Pavle Jurišić Šturm",
+    "years": "1848–1922",
+    "state": "Kingdom of Serbia",
+    "eraId": "world-wars",
+    "role": "Commander of the Third Army",
+    "summary": "A Lusatian Serb and former Prussian officer who volunteered for Serbia and commanded its Third Army in the battles of 1914.",
+    "approach": "Led from close to his troops; chroniclers recorded that he fought alongside his soldiers.",
+    "strength": "Served in seven of Serbia's wars and held his army together through the hardest fighting of 1914.",
+    "limitation": "His Third Army was pushed back in the Jadar valley at Cer and driven off the Gučevo ridge on the Drina.",
+    "legacy": "Remembered in Serbia as a foreign-born volunteer who changed his name, became Orthodox and served the country for decades.",
+    "battleSlugs": ["cer", "drina-1914", "kolubara"],
+    "source": {
+      "title": "Anniversary of death of General Pavle Jurisic Sturm",
+      "url": "https://www.mod.gov.rs/eng/10463/godisnjica-smrti-generala-pavla-jurisica-sturma-10463",
+      "publisher": "Ministry of Defence of the Republic of Serbia"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "General of the Serbian army; formerly a Prussian officer",
+      "principalCommands": ["Third Army, 1914"],
+      "timeline": [
+        {
+          "date": "1848",
+          "event": "Born a Lusatian Serb in Germany"
+        },
+        {
+          "date": "August 1914",
+          "event": "Commands the Third Army in the Jadar valley during the battle of Cer"
+        },
+        {
+          "date": "September 1914",
+          "event": "His army is driven off Gučevo and Mount Soko on the Drina"
+        },
+        {
+          "date": "November–December 1914",
+          "event": "Commands the Third Army in the battle of the Kolubara"
+        },
+        {
+          "date": "8 November 1921",
+          "event": "Retires"
+        },
+        {
+          "date": "14 January 1922",
+          "event": "Dies in Belgrade; buried in the New Cemetery"
+        }
+      ],
+      "notableDecision": "In the battles of Cer and the Kolubara he led from among his troops rather than from the rear.",
+      "setback": "By 15 September 1914 the Austro-Hungarian Sixth Army had driven his Third Army off the Gučevo ridge and Mount Soko, until the First Army came to its aid."
+    }
+  },
+  {
+    "slug": "kosta-pecanac",
+    "name": "Kosta Pećanac",
+    "years": "1879–1944",
+    "state": "Kingdom of Serbia",
+    "eraId": "world-wars",
+    "role": "Chetnik leader; organiser of the Toplica Uprising",
+    "summary": "A chetnik leader sent into occupied Serbia in 1916 to prepare a rising; he took part in the Toplica Uprising of 1917 and waged guerrilla war until the liberation.",
+    "approach": "Irregular warfare: small detachments, raids on enemy posts and evasion of pursuit.",
+    "strength": "Survived the suppression of the uprising and kept up a guerrilla campaign that helped the Allied advance in 1918.",
+    "limitation": "The rising he had been sent to prepare broke out early, against his instructions, and was crushed with reprisals against civilians. In the Second World War he collaborated with the German occupation and the Nedić regime.",
+    "legacy": "His First World War role is commemorated in Serbia, but his Second World War collaboration makes his memory contested; he was killed by a rival chetnik faction in 1944.",
+    "battleSlugs": ["toplica-uprising", "liberation-of-serbia-1918"],
+    "source": {
+      "title": "Pecanac, Kosta (Dmitar Tasić)",
+      "url": "https://encyclopedia.1914-1918-online.net/article/pecanac-kosta/",
+      "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Chetnik vojvoda (leader) and reserve officer of the Serbian army",
+      "principalCommands": [
+        "Chetnik detachments in Ottoman Macedonia, before 1912",
+        "Insurgent forces in Toplica, 1916–1918"
+      ],
+      "timeline": [
+        {
+          "date": "1879",
+          "event": "Born in Dečani, near Peć, in Ottoman Kosovo"
+        },
+        {
+          "date": "1892",
+          "event": "Moves to Serbia; later serves in the army and becomes a reserve officer"
+        },
+        {
+          "date": "1904–1912",
+          "event": "Chetnik leader in Ottoman Macedonia"
+        },
+        {
+          "date": "September 1916",
+          "event": "Flown by a French aircraft into Toplica to prepare an uprising"
+        },
+        {
+          "date": "February–March 1917",
+          "event": "Takes part in the Toplica Uprising; escapes its suppression"
+        },
+        {
+          "date": "September–November 1918",
+          "event": "Wages full-scale guerrilla war after the breakthrough on the Salonika front"
+        },
+        {
+          "date": "1941–1944",
+          "event": "Collaborates with the German occupation and the Nedić regime"
+        },
+        {
+          "date": "1944",
+          "event": "Killed by Mihailović's rival chetnik faction"
+        }
+      ],
+      "notableDecision": "When the uprising broke out before the Allied breakthrough he was told to wait for, he joined it, and at Kosta Vojinović's request defeated a Bulgarian company at Pločnik.",
+      "setback": "Bulgarian and Austro-Hungarian forces crushed the uprising by March 1917, with reprisals against the civilian population."
     }
   },
   {

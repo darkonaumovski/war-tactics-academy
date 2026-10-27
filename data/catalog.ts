@@ -5,6 +5,7 @@ import { alexanderRows } from "./battles/alexander";
 import { romeRows } from "./battles/rome";
 import { napoleonRows } from "./battles/napoleon";
 import { ww1Rows } from "./battles/ww1";
+import { serbianFrontRows } from "./battles/serbian-front";
 import { ww2Rows } from "./battles/ww2";
 import { warDetails } from "./war-details";
 export const eras = [
@@ -324,6 +325,32 @@ export const wars: War[] = [
   consequences,
   details: warDetails[slug],
 }));
+const months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+// Seasons stand for the month in which they begin.
+const seasons: Record<string, number> = { Spring: 3, Summer: 6, Autumn: 9 };
+// Orders engagements within a year by the first month or season named in the
+// date and the day before it; dates with neither sort first.
+const dateKey = (date: string) => {
+  const names = [...months, ...Object.keys(seasons)].join("|");
+  const m = date.match(new RegExp(`\\b(${names})\\b`));
+  if (!m) return 0;
+  const month = seasons[m[1]] ?? months.indexOf(m[1]) + 1;
+  const day = date.slice(0, m.index).match(/\b\d{1,2}\b/);
+  return month * 100 + Number(day?.[0] ?? 0);
+};
 // Rows live in per-collection modules; the catalog keeps them in chronological order.
 const rows: Row[] = [
   ...otherRows,
@@ -331,8 +358,9 @@ const rows: Row[] = [
   ...romeRows,
   ...napoleonRows,
   ...ww1Rows,
+  ...serbianFrontRows,
   ...ww2Rows,
-].sort((x, y) => x[2] - y[2]);
+].sort((x, y) => x[2] - y[2] || dateKey(x[3]) - dateKey(y[3]));
 export const slugify = (v: string) =>
   v
     .normalize("NFD")

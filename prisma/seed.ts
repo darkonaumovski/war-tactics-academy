@@ -86,7 +86,7 @@ await db.$transaction(
         create: { commanderId: commander.slug, sourceId: ref.id },
       });
     }
-    for (const battle of battles) {
+    for (const [ordinal, battle] of battles.entries()) {
       const study = research.find((r) => r.slug === battle.slug);
       const record = { ...battle, research: study };
       await tx.battle.upsert({
@@ -95,6 +95,7 @@ await db.$transaction(
           name: battle.name,
           kind: battle.kind,
           year: battle.year,
+          ordinal,
           region: battle.region,
           latitude: battle.lat,
           longitude: battle.lon,
@@ -106,6 +107,7 @@ await db.$transaction(
           name: battle.name,
           kind: battle.kind,
           year: battle.year,
+          ordinal,
           region: battle.region,
           latitude: battle.lat,
           longitude: battle.lon,

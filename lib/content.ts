@@ -13,7 +13,7 @@ import type {
 export const getCatalog = cache(async (): Promise<Catalog> => {
   const [battles, commanders, wars, campaigns, courses, scenarios] =
     await Promise.all([
-      db.battle.findMany({ orderBy: { year: "asc" } }),
+      db.battle.findMany({ orderBy: { ordinal: "asc" } }),
       db.commander.findMany({ orderBy: { name: "asc" } }),
       db.war.findMany(),
       db.campaign.findMany(),

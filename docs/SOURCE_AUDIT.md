@@ -235,3 +235,19 @@ Rivoli, the Battle of the Pyramids, the siege of Acre, the land battle of Abouki
 War chronology checked against these sources: the remaining `french-revolutionary` entries are confirmed and left unchanged: France's declaration of war on Austria in April 1792 (Britannica, “French Revolutionary wars: Europe during the Revolutionary years”), the expedition to Egypt and Syria in 1798–1799 (Britannica, “Napoleon I: The Directory”), the coup of 18 Brumaire in November 1799 (the same), Marengo in June 1800 and the Peace of Amiens in March 1802 (Britannica, “Battle of Marengo”).
 
 Coordinates: all five rows use the general area of the nearest place (Rivoli Veronese, Imbaba, Acre, Abu Qir and Spinetta Marengo), from general knowledge. Britannica places Embabeh about 10 km from Cairo and the Marengo field about 5 km south-east of Alessandria, which the coordinates respect.
+
+## Serbian Front, Phase 0: structure (27 October 2026)
+
+The Serbian Front collection gets its own modules (`data/battles/serbian-front.ts` and `data/research/serbian-front.json`), still empty, under the existing `ww1` war. Two overview articles from _1914-1918-online. International Encyclopedia of the First World War_ were read in the built-in browser (the site's bot check blocks scripts): Dmitar Tasić, “Warfare 1914-1918 (South East Europe)”, and Mile Bjelajac, “Serbia”. They were used to check the engagement plan in `docs/SERBIAN_FRONT_PROMPT.md` and the `ww1` war details; neither is yet cited in a study.
+
+| Change                     | Evidence and limits                                                                                                                                                                         |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Participants and geography | Serbia and Montenegro added to the Allied participants; Serbia and the Macedonian front added to the geography (both articles).                                                             |
+| 28 July 1914               | Austria-Hungary's declaration of war and the bombardment of Belgrade that evening (Bjelajac). Replaces the unread entry “War begins” under August 1914.                                     |
+| August 1914                | Cer added beside Tannenberg. Tasić dates the battle 17–19 August, Bjelajac 16–20 August.                                                                                                    |
+| December 1914              | The Kolubara counter-offensive from 3 December, which drove the Austro-Hungarian army out of Serbia (both).                                                                                 |
+| October–November 1915      | The invasion from 6 October and the retreat through Montenegro and Albania ordered on 25 November (Bjelajac). Bulgaria entered the campaign on 12 October (Bjelajac) or 14 October (Tasić). |
+| September 1918             | The breakthrough at Dobro Pole and Bulgaria's armistice. Tasić says Bulgarian emissaries signed it on 30 September; Bjelajac says only “at the end of September”.                           |
+| By 1 November 1918         | All of pre-war Serbia liberated (Bjelajac).                                                                                                                                                 |
+
+The other `ww1` entries were not checked in this step. Changes to the engagement plan: `kosovo-1915` is folded into the 1915 invasion study, since neither article treats a battle of Kosovo separately; `romanija-1914` and `toplica-uprising` move to the core list (Tasić covers both); `mojkovac` is recommended. The articles call the 1915 epidemic typhus (Bjelajac) and typhoid fever (Tasić); the studies will report both.

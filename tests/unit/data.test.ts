@@ -25,6 +25,17 @@ it("provides 59 unique engagement slugs and a connected hierarchy", () => {
     expect(b.lat).toBeLessThanOrEqual(90);
   }
 });
+it("orders engagements in the same year by date", () => {
+  const order = battles.map((b) => b.slug);
+  for (const [earlier, later] of [
+    ["tyre", "gaza-332-bce"],
+    ["montenotte", "lodi"],
+    ["castiglione", "arcole"],
+    ["acre", "aboukir-1799"],
+    ["midway", "el-alamein"],
+  ])
+    expect(order.indexOf(earlier), later).toBeLessThan(order.indexOf(later));
+});
 it("links all commander assignments to real engagement records", () => {
   for (const c of commanders)
     for (const slug of c.battleSlugs)

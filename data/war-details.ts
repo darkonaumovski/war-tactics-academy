@@ -581,18 +581,35 @@ export const warDetails: Record<string, WarDetails> = {
   },
   ww1: {
     participants: [
-      "Allied Powers, including France, the British Empire, Russia, Italy and the United States",
+      "Allied Powers, including Serbia, Montenegro, France, the British Empire, Russia, Italy and the United States",
       "Central Powers: Germany, Austria-Hungary, the Ottoman Empire and Bulgaria",
     ],
     geography:
-      "Western and Eastern Fronts, Italy, the Balkans, the Middle East, Africa and the oceans.",
+      "Western and Eastern Fronts, Italy, the Balkans including Serbia and the Macedonian front, the Middle East, Africa and the oceans.",
     developments: t(
-      ["August 1914", "War begins; battle of Tannenberg"],
+      [
+        "28 July 1914",
+        "Austria-Hungary declares war on Serbia; Belgrade is bombarded that evening",
+      ],
+      ["August 1914", "Serbian victory at Cer; battle of Tannenberg"],
       ["September 1914", "First Battle of the Marne"],
+      [
+        "December 1914",
+        "Serbian counter-offensive on the Kolubara drives the Austro-Hungarian army out of Serbia",
+      ],
       ["1915", "Gallipoli campaign"],
+      [
+        "October–November 1915",
+        "German, Austro-Hungarian and Bulgarian invasion of Serbia; the Serbian army retreats through Montenegro and Albania",
+      ],
       ["1916", "Verdun and the Somme"],
       ["1917", "United States enters the war; revolutions in Russia"],
       ["1918", "German spring offensives; Allied Hundred Days"],
+      [
+        "September 1918",
+        "Allied breakthrough at Dobro Pole; Bulgaria signs an armistice",
+      ],
+      ["By 1 November 1918", "All of pre-war Serbia is liberated"],
       ["11 November 1918", "Armistice"],
     ),
   },

@@ -2655,6 +2655,260 @@
     }
   },
   {
+    "slug": "oskar-potiorek",
+    "name": "Oskar Potiorek",
+    "years": "1853–1933",
+    "state": "Austria-Hungary",
+    "eraId": "world-wars",
+    "role": "Commander of the Balkan forces; governor of Bosnia and Herzegovina",
+    "summary": "Governor of Bosnia and Herzegovina who commanded the three Austro-Hungarian invasions of Serbia in 1914 and was dismissed after the defeat on the Kolubara.",
+    "approach": "Pressed the offensive on his own judgment, invading from Bosnia across the Drina even after his strongest army was sent to Russia.",
+    "strength": "Persistent: after two defeats he mounted a third invasion that drove the Serbian army back and took Belgrade.",
+    "limitation": "Rauchensteiner describes him as a commander who decided alone and was not a team player, driven by ambition and a wish for revenge for Sarajevo; he attacked with too few troops and over-extended his armies.",
+    "legacy": "His name became attached to the failure of 1914. His troops' violence against Serbian civilians in the first invasion is part of the campaign's record.",
+    "battleSlugs": ["cer", "drina-1914", "romanija-1914", "kolubara"],
+    "source": {
+      "title": "The First World War and the End of the Habsburg Monarchy, 1914–1918 (Manfried Rauchensteiner), pp. 176 and 278–280",
+      "url": "https://austria-forum.org/web-books/firstworldwar01en2014isds/000178",
+      "publisher": "Böhlau Verlag, Austria-Forum web edition"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "Feldzeugmeister; inspector-general and governor of Bosnia and Herzegovina; commander of the Balkan forces in 1914",
+      "principalCommands": [
+        "Balkan forces (Fifth and Sixth Armies), 1914",
+        "Sixth Army, under his direct command, 1914"
+      ],
+      "timeline": [
+        {
+          "date": "1853",
+          "event": "Born"
+        },
+        {
+          "date": "6 August 1914",
+          "event": "Keeps to his offensive plan after the Second Army is diverted to Russia"
+        },
+        {
+          "date": "August 1914",
+          "event": "First invasion defeated at Cer"
+        },
+        {
+          "date": "September–October 1914",
+          "event": "Second invasion across the Drina ends in stalemate"
+        },
+        {
+          "date": "2 December 1914",
+          "event": "His troops enter Belgrade"
+        },
+        {
+          "date": "December 1914",
+          "event": "Defeated on the Kolubara; orders the Sixth Army back across the Sava"
+        },
+        {
+          "date": "22 December 1914",
+          "event": "Asks to be relieved; dismissed and replaced by Archduke Eugen"
+        },
+        {
+          "date": "1933",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "When the Army High Command diverted the Second Army to the Russian front on 6 August 1914, he went ahead with the invasion rather than standing on the defensive.",
+      "setback": "The Serbian counteroffensive of December 1914 drove his armies out of Serbia; he was dismissed within days."
+    }
+  },
+  {
+    "slug": "franz-conrad-von-hotzendorf",
+    "name": "Franz Conrad von Hötzendorf",
+    "years": "1852–1925",
+    "state": "Austria-Hungary",
+    "eraId": "world-wars",
+    "role": "Chief of the General Staff",
+    "summary": "Chief of the Austro-Hungarian General Staff who planned the monarchy's campaigns in the First World War, including the failed invasion of Serbia in 1914.",
+    "approach": "Advocated preventive wars against Serbia and Italy and prepared alternative war plans depending on whether Russia intervened.",
+    "strength": "Planned the Austro-German offensive of 1915, which succeeded.",
+    "limitation": "Britannica judges that he failed mainly because he advocated ruthless military solutions, ignoring human factors and the political realities of Austria-Hungary; his offensives against a stronger Russian army were repulsed.",
+    "legacy": "A controversial strategist under whom the Austro-Hungarian army became increasingly subordinated to the German General Staff; after the war he wrote multi-volume memoirs of his service.",
+    "battleSlugs": ["cer", "drina-1914", "kolubara"],
+    "source": {
+      "title": "Franz Graf Conrad von Hötzendorf",
+      "url": "https://www.britannica.com/biography/Franz-Graf-Conrad-von-Hotzendorf",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Staff planner",
+      "titles": "Chief of the General Staff from 1906, with a break in 1911–1912, until his dismissal by Emperor Charles; later army group commander on the Italian front",
+      "principalCommands": [
+        "Austro-Hungarian General Staff, 1906–1911 and from 1912",
+        "Army group on the Italian front, to the summer of 1918"
+      ],
+      "timeline": [
+        {
+          "date": "1852",
+          "event": "Born in Penzing, Austria"
+        },
+        {
+          "date": "1906",
+          "event": "Becomes chief of the General Staff on Franz Ferdinand's recommendation"
+        },
+        {
+          "date": "1911–1912",
+          "event": "Dismissed for his stance toward Italy, then restored"
+        },
+        {
+          "date": "August 1914",
+          "event": "Russia's entry draws most of the army east; the invasion of Serbia fails"
+        },
+        {
+          "date": "1915",
+          "event": "The Austro-German offensive he planned succeeds; Serbia is conquered with German help"
+        },
+        {
+          "date": "1916",
+          "event": "Dismissed by Emperor Charles; commands an army group in Italy until 1918"
+        },
+        {
+          "date": "1925",
+          "event": "Dies in Mergentheim, Germany"
+        }
+      ],
+      "notableDecision": "With Russia in the war, he followed his plan for that case and turned most of the army east, including the Second Army first earmarked for Serbia.",
+      "setback": "The 1914 invasion of Serbia failed; the country was subdued only at the end of 1915, with German help."
+    }
+  },
+  {
+    "slug": "hermann-kovess",
+    "name": "Hermann Kövess",
+    "years": "1854–1924",
+    "state": "Austria-Hungary",
+    "eraId": "world-wars",
+    "role": "Commander of the Third Army; later field marshal",
+    "summary": "Commanded the Austro-Hungarian Third Army that took Belgrade in October 1915 and helped conquer Serbia, Montenegro and Albania; in November 1918 he was the army's last commander-in-chief.",
+    "approach": "An engineer officer by training who rose to command a corps, an army and an army group, fighting on every front of the monarchy.",
+    "strength": "The Deutsche Biographie credits him with a decisive contribution to the Balkan campaign of 1915–1916; in 1917 he retook the Bukovina.",
+    "limitation": "His strategic abilities were long rated low, and his operations around Przemyśl in 1914–1915 failed; his last command came too late to have any effect.",
+    "legacy": "Made field marshal and baron in 1917; remembered as the last commander of the Austro-Hungarian army.",
+    "battleSlugs": ["belgrade-1915", "invasion-of-serbia-1915"],
+    "source": {
+      "title": "Kövess von Kövessháza, Hermann Baron (Rainer Egger, Neue Deutsche Biographie 12)",
+      "url": "https://www.deutsche-biographie.de/sfz44078.html",
+      "publisher": "Deutsche Biographie"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "General of infantry from 1911; colonel-general 1916; field marshal from 5 August 1917; Hungarian baron 1917; commander-in-chief of the Austro-Hungarian army, November–December 1918",
+      "principalCommands": [
+        "XII Corps, 1911–1915",
+        "Third Army, 1915–1916",
+        "Seventh Army, from October 1916",
+        "Army group in Transylvania, 1918"
+      ],
+      "timeline": [
+        {
+          "date": "1854",
+          "event": "Born in Temesvár, Banat"
+        },
+        {
+          "date": "1872",
+          "event": "Commissioned in an engineer regiment"
+        },
+        {
+          "date": "1911",
+          "event": "Takes command of XII Corps at Hermannstadt"
+        },
+        {
+          "date": "September 1915",
+          "event": "Given command of the new Third Army in Mackensen's army group"
+        },
+        {
+          "date": "October 1915",
+          "event": "His army crosses the Sava and the Danube and takes Belgrade"
+        },
+        {
+          "date": "1915–1916",
+          "event": "Takes part in the conquest of Serbia, Montenegro and Albania"
+        },
+        {
+          "date": "5 August 1917",
+          "event": "Promoted to field marshal"
+        },
+        {
+          "date": "3 November 1918",
+          "event": "Appointed commander-in-chief of a collapsing army; resigns in December"
+        },
+        {
+          "date": "1924",
+          "event": "Dies in Vienna"
+        }
+      ],
+      "notableDecision": "In October 1915 his Third Army crossed the Sava and the Danube at Belgrade under the cover of heavy artillery and held the city by 9 October.",
+      "setback": "In 1914–1915 his operations around Przemyśl against the Russians failed."
+    }
+  },
+  {
+    "slug": "stjepan-sarkotic",
+    "name": "Stjepan Sarkotić",
+    "years": "1858–1939",
+    "state": "Austria-Hungary",
+    "eraId": "world-wars",
+    "role": "Commanding general and governor of Bosnia and Herzegovina",
+    "summary": "A Croat general who became commander and governor of Bosnia and Herzegovina in the war; his troops from Bosnia joined the invasion of Serbia in 1915.",
+    "approach": "A political officer: he combined military command with plans for the monarchy's South Slav lands.",
+    "strength": "Held the military and civil government of Bosnia and Herzegovina through the war.",
+    "limitation": "None of his proposals for the South Slav question was realised, because Hungary's ruling elite clung to the status quo; he opposed any union of Croats and Serbs.",
+    "legacy": "The last commanding general and governor of Bosnia and Herzegovina under the monarchy; he wanted occupied Serbia and Montenegro brought under its control.",
+    "battleSlugs": ["invasion-of-serbia-1915"],
+    "source": {
+      "title": "Sarkotić von Lovćen, Stephan Freiherr (Marc Stefan Peters)",
+      "url": "https://encyclopedia.1914-1918-online.net/article/sarkotic-von-lovcen-stephan-freiherr/",
+      "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "Commanding general and governor of Bosnia and Herzegovina from early 1915; military governor of Bosnia, Herzegovina and Dalmatia from December 1914",
+      "principalCommands": [
+        "Forces in Bosnia, Herzegovina and Dalmatia, 1914–1918",
+        "Troops from Bosnia and Herzegovina in the invasion of Serbia, 1915"
+      ],
+      "timeline": [
+        {
+          "date": "1858",
+          "event": "Born in Sinac, in today's Croatia"
+        },
+        {
+          "date": "December 1914",
+          "event": "Appointed military governor of Bosnia, Herzegovina and Dalmatia after Potiorek's dismissal"
+        },
+        {
+          "date": "Early 1915",
+          "event": "Takes office as commanding general and governor of Bosnia and Herzegovina"
+        },
+        {
+          "date": "October 1915",
+          "event": "His troops from Bosnia join the invasion of Serbia"
+        },
+        {
+          "date": "10 June 1917",
+          "event": "Proposes to Emperor Charles that Bosnia and Herzegovina be joined to Croatia"
+        },
+        {
+          "date": "May 1918",
+          "event": "Discusses the South Slav question with the military governors of Serbia and Montenegro"
+        },
+        {
+          "date": "1939",
+          "event": "Dies in Vienna"
+        }
+      ],
+      "notableDecision": "In June 1917 he proposed to Emperor Charles that Bosnia and Herzegovina be incorporated into Croatia, itself joined with Hungary.",
+      "setback": "Hungary rejected his proposal as a de facto abolition of the dual monarchy's structure, and none of his plans was carried out."
+    }
+  },
+  {
     "slug": "georgy-zhukov",
     "name": "Georgy Zhukov",
     "years": "1896–1974",

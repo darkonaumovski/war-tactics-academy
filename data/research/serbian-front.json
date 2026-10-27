@@ -2549,5 +2549,871 @@
         "outcome": "Montenegro was overrun, though the Serbian army escaped."
       }
     ]
+  },
+  {
+    "slug": "kajmakcalan",
+    "sources": [
+      {
+        "title": "Warfare 1914-1918 (South East Europe) (Dmitar Tasić)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/warfare-1914-1918-south-east-europe/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Serbia (Mile Bjelajac)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/serbia/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "World War I: Serbia and the Salonika expedition, 1915–17",
+        "url": "https://www.britannica.com/event/World-War-I/Italy-and-the-Italian-front-1915-16",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Bulgaria (Richard C. Hall)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/bulgaria/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Serbian delegation paid respects to the killed on Kajmakcalan",
+        "url": "https://www.mod.gov.rs/eng/7206/srpska-delegacija-odala-pocast-stradalima-na-kajmakcalanu-7206",
+        "publisher": "Ministry of Defence of the Republic of Serbia"
+      },
+      {
+        "title": "Analysis of operations on the Salonika Front 1916–1918",
+        "url": "https://mod.gov.rs/eng/13016/analiza-operacija-na-solunskom-frontu-1916-1918-13016",
+        "publisher": "Ministry of Defence of the Republic of Serbia"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After recovering on Corfu, the Serbian army was shipped to Salonika in 1916 and given the central part of the Allied front in Macedonia, which by then ran from the Albanian coast to the Aegean.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "In the summer of 1916 Romania was about to join the Entente. The Entente prepared an offensive in Macedonia to divert the Central Powers, and Germany lifted its ban on a Bulgarian advance into Greece so that Bulgaria could strike first.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The Bulgarian offensive aimed to pre-empt the Allied attack; the Serbian aim, once it was stopped, was to drive the Bulgarians off the mountain heights and open the way back toward Serbian territory around Bitola.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Kajmakčalan lies in the Nidže range, on today's border between Greece and North Macedonia; its peak, Sveti Ilija, rises to about 2,520 metres and dominates the heights around it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 4
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The Serbian First Army attacked the summit; the memorial there is dedicated to its Drina Division. The Bulgarian army held the heights. Maurice Sarrail commanded the Allied armies at Salonika. Commanders' names below army level and strengths are not given in the sources read here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 4
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "On 17 August 1916 the Bulgarians attacked south of Monastir into the Florina region of Greek Macedonia, catching the Allied command and the Serbian forces by surprise while they were on the march.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The Serbian troops halted the Bulgarian offensive, winning the battle of Gorničevo near Kela, and went over to the attack. From 12 September the First Army fought for the summit of Kajmakčalan, which it took on 30 September after heavy losses; Bulgarian forces were pushed back to the next mountain chain.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "The Allied command turned the defence against the Bulgarian offensive into a counteroffensive, giving the Serbian army the task of taking the dominant peaks.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The capture of the summit gave the Serbian army the dominant heights and opened the way for the advance toward Bitola.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Bulgarian offensive in the centre was stopped and turned back, and Kajmakčalan was taken.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The volunteer detachment that included many former irregulars lost so heavily on Kajmakčalan that its survivors were dispersed among regular units. The Serbian Ministry of Defence presents Gorničevo, Kajmakčalan and Bitola together as the recovery of the Serbian army after the retreat through Albania. A memorial chapel and ossuary stand on the summit in memory of the Drina Division.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "An army rebuilt in exile could regain its fighting capacity within months; mountain summits that dominate a front repay their high cost.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 5
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Serbian commemorations describe the victory as militarily inexplicable without the soldiers' will to return home, a national framing. The sources read here do not name the First Army's commander or give the course of the counterattacks on the summit; Tasić groups Gorničevo, Kajmakčalan and the Crna valley as one series of battles from 17 August to 20 November.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 4
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Dmitar Tasić's, Mile Bjelajac's and Richard C. Hall's 1914-1918-online articles and Britannica's account of the Salonika expedition give the narrative and context. Two Serbian Ministry of Defence pages give the dates, the units and the memorial.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "The Bulgarian offensive",
+        "time": "17 August 1916",
+        "description": "Bulgarian troops attack south of Monastir into the Florina region."
+      },
+      {
+        "title": "Gorničevo",
+        "time": "August–September 1916",
+        "description": "Serbian troops halt the offensive at Gorničevo near Kela."
+      },
+      {
+        "title": "The summit",
+        "time": "12–29 September 1916",
+        "description": "The First Army attacks the summit of Kajmakčalan."
+      },
+      {
+        "title": "Sveti Ilija taken",
+        "time": "30 September 1916",
+        "description": "The First Army takes the peak and the Bulgarians fall back."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Serbian First Army command",
+        "objective": "Take the heights of Kajmakčalan and open the road toward Bitola.",
+        "known": "The Bulgarian offensive had been halted at Gorničevo.",
+        "uncertainty": "Whether the rebuilt army could take a defended mountain summit.",
+        "constraints": "Bare mountain slopes and an army only months out of exile.",
+        "forces": "The First Army, with the Drina Division and a volunteer detachment.",
+        "terrain": "The Nidže range and the peak of Sveti Ilija.",
+        "logistics": "Supply up mountain tracks from the Allied base at Salonika.",
+        "decision": "It attacked the summit from 12 September and kept attacking until it was taken.",
+        "outcome": "The peak was taken on 30 September at heavy cost."
+      },
+      {
+        "name": "Bulgarian command",
+        "objective": "Pre-empt the Allied offensive by striking first.",
+        "known": "Romania was about to enter the war and the Allies were preparing an attack.",
+        "uncertainty": "How strongly the Allies, including the Serbs, would resist.",
+        "constraints": "German consent was needed for an advance into Greece.",
+        "forces": "Bulgarian troops in the centre of the Macedonian front.",
+        "terrain": "The Florina region and the mountain heights above it.",
+        "logistics": "Lines running back into Macedonia.",
+        "decision": "It attacked south of Monastir on 17 August and then defended the heights.",
+        "outcome": "The offensive was halted and Kajmakčalan lost."
+      }
+    ]
+  },
+  {
+    "slug": "monastir-1916",
+    "sources": [
+      {
+        "title": "Warfare 1914-1918 (South East Europe) (Dmitar Tasić)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/warfare-1914-1918-south-east-europe/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Serbia (Mile Bjelajac)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/serbia/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "World War I: Serbia and the Salonika expedition, 1915–17",
+        "url": "https://www.britannica.com/event/World-War-I/Italy-and-the-Italian-front-1915-16",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Bulgaria (Richard C. Hall)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/bulgaria/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Monastir Offensive (First World War in Focus timeline)",
+        "url": "https://ww1.nam.ac.uk/timeline/monastir-offensive/",
+        "publisher": "National Army Museum, London"
+      },
+      {
+        "title": "Analysis of operations on the Salonika Front 1916–1918",
+        "url": "https://mod.gov.rs/eng/13016/analiza-operacija-na-solunskom-frontu-1916-1918-13016",
+        "publisher": "Ministry of Defence of the Republic of Serbia"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "In August 1916 the Bulgarians invaded the Florina region; the Allies stopped them and, with the Serbian capture of Kajmakčalan at the end of September, went over to a counteroffensive.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Romania had entered the war on 27 August. The Allied offensive in Macedonia was meant to divert the Central Powers from it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The objective was Monastir (Bitola), the main town of the region, from which the Bulgarians had launched their August offensive.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The advance led north from Florina and the mountains toward Bitola, through the valley of the Crna river (Crna reka).",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Maurice Sarrail commanded the Allied armies at Salonika, which included French, Serbian, British, Italian and Russian troops. The Central Powers' line here was held mainly by Bulgarian forces, with the German Eleventh Army under German command. Strengths are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "After Kajmakčalan the Serbian army held the dominant peaks, and the Bulgarians had been pushed back to a second mountain line.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Through the autumn the Allies drove the Bulgarians north. The sources read here describe the fighting in the Crna valley only in outline. In November the Allies took Monastir, and Tasić writes that the Central Powers were pushed some forty kilometres north by 20 November.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "The Allied command used the success on Kajmakčalan to continue the advance rather than stop on the heights, accepting a long autumn campaign in the mountains.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The fall of Monastir ended the advance with a symbolic gain: in Bjelajac's words, the first Serbian ground liberated.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Monastir was taken; the National Army Museum judges the gains limited.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 4
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "More ambitious Allied operations from March to May 1917 failed, and the front was quiet for nearly two years. Britannica notes that it tied down a large Allied army without seriously troubling the Central Powers. The Serbian Ministry of Defence counts Bitola, with Gorničevo and Kajmakčalan, as the recovery of the Serbian army.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A coalition offensive in mountains can win ground and symbols but stall short of decisive results when it cannot exploit its successes.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The sources read here disagree on the offensive's span (12 September to 11 November in the National Army Museum's timeline; 17 August to 20 November in Tasić, including the Bulgarian offensive) and do not give the exact day Monastir fell. They describe the Crna bend fighting only briefly. Serbian sources stress the liberation of Bitola; British and general accounts stress the limited gains.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 4
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Dmitar Tasić's, Mile Bjelajac's and Richard C. Hall's 1914-1918-online articles and Britannica's account of the Salonika expedition give the narrative. The National Army Museum's timeline and the Serbian Ministry of Defence's report give the dates and assessments.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "From Kajmakčalan",
+        "time": "Early October 1916",
+        "description": "The Allies advance from the heights won in September."
+      },
+      {
+        "title": "The Crna valley",
+        "time": "October – November 1916",
+        "description": "Fighting along the Crna drives the Bulgarians north."
+      },
+      {
+        "title": "Monastir",
+        "time": "November 1916",
+        "description": "The Allies take Monastir (Bitola)."
+      },
+      {
+        "title": "The front stalls",
+        "time": "Winter 1916–1917",
+        "description": "The line stabilises north of the town; 1917 attacks fail."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Maurice Sarrail",
+        "objective": "Divert the Central Powers from Romania and take Monastir.",
+        "known": "The Bulgarian August offensive had been stopped and Kajmakčalan taken.",
+        "uncertainty": "Whether the advance could be pushed through the mountains before winter.",
+        "constraints": "A coalition army of several nations and a long supply line from Salonika.",
+        "forces": "French, Serbian, Italian, Russian and British troops.",
+        "terrain": "Mountains and the Crna valley south of Bitola.",
+        "logistics": "Supply from the port of Salonika.",
+        "decision": "He continued the counteroffensive toward Monastir through the autumn.",
+        "outcome": "Monastir was taken in November, but the gains were limited."
+      },
+      {
+        "name": "Bulgarian command",
+        "objective": "Hold Macedonia and the town of Monastir.",
+        "known": "The Allies had taken the heights at Kajmakčalan.",
+        "uncertainty": "Whether the line could be held without German reinforcements.",
+        "constraints": "The demands of the new front against Romania.",
+        "forces": "Bulgarian forces with the German Eleventh Army.",
+        "terrain": "Mountain lines north of Florina and the Crna valley.",
+        "logistics": "Lines running back through Macedonia.",
+        "decision": "It fell back to positions north of Monastir.",
+        "outcome": "Monastir was lost, but the front held there until 1918."
+      }
+    ]
+  },
+  {
+    "slug": "toplica-uprising",
+    "sources": [
+      {
+        "title": "Warfare 1914-1918 (South East Europe) (Dmitar Tasić)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/warfare-1914-1918-south-east-europe/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Pecanac, Kosta (Dmitar Tasić)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/pecanac-kosta/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Occupation during and after the War (South East Europe) (Milan Ristović)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/occupation-during-and-after-the-war-south-east-europe/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "The Rebellion of Toplica in Kuršumlija: authentic testimonies about the crimes committed by the occupier (Stojanka Bojović, Peščanik 5)",
+        "url": "https://www.arhivnis.rs/Izdavacka%20delatnost/Pescanik/P-5/7%20Stojanka%20Bojovic%20E.pdf",
+        "publisher": "Historical Archives of Niš"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After the 1915 defeat, Serbia was divided between an Austro-Hungarian military government and a Bulgarian zone in the south and east, with a German zone along the railways. Occupation brought internment, forced labour and requisitions.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Bulgaria treated the territory it occupied as already annexed and its people as Bulgarian: it banned the Serbian Cyrillic alphabet, Serbian names and customs, introduced Bulgarian schools and priests, and interned teachers and priests. Bulgarian attempts in the winter of 1916–1917 to conscript Serbian young men set off the revolt.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The Serbian Supreme Command wanted a mass uprising to be prepared for the moment of an Allied breakthrough in Macedonia; in September 1916 it flew Kosta Pećanac into Toplica to organise it. Local leaders insisted on immediate action.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Toplica lies in southern Serbia around Prokuplje and Kuršumlija; its woods gave armed peasants places to gather. The revolt also spread into the southern part of the Austro-Hungarian zone.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The insurgents were led by Pećanac, Kosta Vojinović and other chetnik leaders, with former Montenegrin officers among them. Colonel Alexander Protogerov, head of the Bulgarian military authorities in southern Serbia and a leader of the Internal Macedonian Revolutionary Organization, directed the suppression; Austro-Hungarian battalions and Albanian irregular units also took part. Strengths given in the sources are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "In Kuršumlija, after the Bulgarians formed an auxiliary gendarmerie of Albanian mercenaries, local people fled into the woods and formed armed companies.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The uprising broke out at the end of February 1917, its most intense phase running from 21 February to 25 March. Near Kuršumlija, on the night of 25–26 February, armed peasants attacked a Bulgarian patrol plundering the village of Mačkovac and drove it back. Vojinović took Kuršumlija, and Pećanac, at his request, defeated a Bulgarian company at Pločnik. The insurgents liberated several small towns and wide rural areas. Bulgarian and Austro-Hungarian forces then counterattacked; Bojović dates their re-entry into Kuršumlija to 16 March, after which they killed, hanged, raped and burned villages without distinction of age or sex.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "The insurgent leaders rose before the Allied breakthrough they had been sent to wait for. The occupying powers answered with overwhelming force and reprisals against the population.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The arrival of Bulgarian and Austro-Hungarian reinforcements and the insurgents' lack of weapons and ammunition decided the outcome.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The uprising was crushed by late March 1917 with what Ristović calls huge civilian casualties.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The suppression was marked by brutality against civilians, and the deportation of civilians to internment camps increased after the uprising. Pećanac and other leaders escaped and continued a guerrilla campaign that helped the Allied offensive in September 1918.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A rising behind enemy lines can draw off troops, but if it comes too early and without arms it exposes the population to reprisal.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The death toll is reported differently by different sources and is not repeated here. Ristović says the uprising was crushed after two months, Tasić and Bojović by the second half of March. Bojović notes that Serbian historiography long gave the uprising little attention; her article draws on testimonies of survivors and their descendants. Pećanac's later collaboration with the occupiers in the Second World War complicates his memory. The Bulgarian perspective is not represented in the sources read here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Dmitar Tasić's 1914-1918-online article and his biography of Pećanac give the course of the uprising, and Milan Ristović's article on occupation gives its setting and toll. Stojanka Bojović's article for the Historical Archives of Niš records the events in Kuršumlija.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Preparation",
+        "time": "September 1916 – February 1917",
+        "description": "Pećanac is flown into Toplica; Bulgarian conscription drives men into the woods."
+      },
+      {
+        "title": "The rising",
+        "time": "21–26 February 1917",
+        "description": "Armed peasants attack Bulgarian patrols; Kuršumlija is taken."
+      },
+      {
+        "title": "Liberated Toplica",
+        "time": "Late February – early March 1917",
+        "description": "Insurgents hold small towns and wide rural areas."
+      },
+      {
+        "title": "Suppression",
+        "time": "March 1917",
+        "description": "Bulgarian and Austro-Hungarian forces retake the region with reprisals against civilians."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Kosta Pećanac",
+        "objective": "Prepare a mass uprising to support an Allied breakthrough.",
+        "known": "Occupation measures were driving men into the woods.",
+        "uncertainty": "When the Allied breakthrough would come.",
+        "constraints": "Other leaders insisted on immediate action; arms and ammunition were scarce.",
+        "forces": "Chetnik detachments and armed peasants.",
+        "terrain": "The hills and woods of Toplica.",
+        "logistics": "Almost none from outside; weapons taken from the enemy.",
+        "decision": "He joined the rising when it broke out and helped Vojinović at Pločnik.",
+        "outcome": "The uprising was crushed; he escaped and continued guerrilla warfare."
+      },
+      {
+        "name": "Alexander Protogerov",
+        "objective": "Restore Bulgarian control of southern Serbia.",
+        "known": "Insurgents held towns and countryside in Toplica.",
+        "uncertainty": "How far the rising would spread.",
+        "constraints": "Insurgents spread over towns and a wide rural area.",
+        "forces": "Bulgarian battalions, IMRO detachments and irregulars, with Austro-Hungarian help.",
+        "terrain": "A wooded, hilly region.",
+        "logistics": "Additional forces brought in from outside the region.",
+        "decision": "He crushed the uprising with overwhelming force.",
+        "outcome": "The rising ended in March 1917, with reprisals against the population."
+      }
+    ]
   }
 ]

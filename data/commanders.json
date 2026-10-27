@@ -2909,6 +2909,329 @@
     }
   },
   {
+    "slug": "august-von-mackensen",
+    "name": "August von Mackensen",
+    "years": "1849–1945",
+    "state": "German Empire",
+    "eraId": "world-wars",
+    "role": "Army group commander; field marshal",
+    "summary": "Commanded the German, Austro-Hungarian and Bulgarian army group that overran Serbia in October–November 1915, after his breakthrough at Gorlice–Tarnów.",
+    "approach": "Relied on a strong staff under Hans von Seeckt and on heavy artillery, aircraft and bridging equipment to force river lines and push through difficult terrain.",
+    "strength": "Won some of the Central Powers' greatest victories: Gorlice–Tarnów, Serbia and Romania.",
+    "limitation": "In Serbia the defending army escaped across the mountains to the Adriatic and was rebuilt to fight again on the Salonika front.",
+    "legacy": "Celebrated in Germany as a never-defeated commander; after 1933 he lent his prestige to Nazi propaganda and became a symbol of continuity between the imperial and Nazi regimes.",
+    "battleSlugs": ["tannenberg", "belgrade-1915", "invasion-of-serbia-1915"],
+    "source": {
+      "title": "August von Mackensen",
+      "url": "https://www.britannica.com/biography/August-von-Mackensen",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "Field marshal from 20 June 1915; ennobled in 1899",
+      "principalCommands": [
+        "XVII Army Corps, 1908–1914",
+        "Eleventh Army, 1915",
+        "Army Group Mackensen against Serbia, 1915",
+        "Occupation army in Romania, 1916–1918"
+      ],
+      "timeline": [
+        {
+          "date": "1849",
+          "event": "Born at Haus Leipnitz"
+        },
+        {
+          "date": "1869–1871",
+          "event": "Volunteers for a hussar regiment and serves in the Franco-Prussian War"
+        },
+        {
+          "date": "August 1914",
+          "event": "His XVII Corps fights at Gumbinnen and Tannenberg"
+        },
+        {
+          "date": "May 1915",
+          "event": "Breaks through at Gorlice–Tarnów with the Eleventh Army; field marshal in June"
+        },
+        {
+          "date": "October–November 1915",
+          "event": "His army group overruns Serbia"
+        },
+        {
+          "date": "December 1916",
+          "event": "Takes Bucharest; commands the occupation army in Romania until the armistice"
+        },
+        {
+          "date": "1933 onward",
+          "event": "Appears at Nazi functions as a symbol of the old army"
+        },
+        {
+          "date": "1945",
+          "event": "Dies near Celle"
+        }
+      ],
+      "notableDecision": "In October 1915 his armies forced the Danube and the Sava under the cover of heavy artillery and drove south through the Morava valley while the Bulgarians attacked from the east.",
+      "setback": "The Serbian army escaped encirclement and retreated through Albania, to return on the Salonika front."
+    }
+  },
+  {
+    "slug": "erich-von-falkenhayn",
+    "name": "Erich von Falkenhayn",
+    "years": "1861–1922",
+    "state": "German Empire",
+    "eraId": "world-wars",
+    "role": "Prussian minister of war and chief of the German General Staff",
+    "summary": "Chief of the German General Staff from 1914 to 1916, who directed German strategy through Gorlice–Tarnów, the conquest of Serbia in 1915 and the battle of Verdun.",
+    "approach": "A cautious strategist who adapted to the Central Powers' limited strength, preferring limited offensives and a negotiated end to the war.",
+    "strength": "His strategy succeeded in 1915, when the Central Powers defeated Russia's armies in Poland and overran Serbia.",
+    "limitation": "His strategy at Verdun in 1916 was unsustainable, he was slow to call the attack off, and he advocated unrestricted submarine warfare.",
+    "legacy": "One of the decision-makers of the July crisis; his memoirs tried to justify Verdun.",
+    "battleSlugs": ["invasion-of-serbia-1915", "verdun"],
+    "source": {
+      "title": "Falkenhayn, Erich von (Holger Afflerbach)",
+      "url": "https://encyclopedia.1914-1918-online.net/article/falkenhayn-erich-von/",
+      "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Staff planner",
+      "titles": "Prussian minister of war 1913–1915; chief of the General Staff 1914–1916",
+      "principalCommands": [
+        "German General Staff, 1914–1916",
+        "Ninth Army against Romania, 1916",
+        "Army Group F in the Ottoman Empire, 1917–1918"
+      ],
+      "timeline": [
+        {
+          "date": "1861",
+          "event": "Born at Burg Belchau, West Prussia"
+        },
+        {
+          "date": "5 July 1914",
+          "event": "Attends the meeting that gives Austria-Hungary German backing against Serbia"
+        },
+        {
+          "date": "1914",
+          "event": "Becomes chief of the General Staff in place of Moltke"
+        },
+        {
+          "date": "May 1915",
+          "event": "His planned offensive at Gorlice–Tarnów succeeds"
+        },
+        {
+          "date": "Autumn 1915",
+          "event": "Launches the attack that conquers Serbia"
+        },
+        {
+          "date": "1916",
+          "event": "Attacks at Verdun; relieved when Romania enters the war"
+        },
+        {
+          "date": "1917",
+          "event": "Commands in Palestine, where Jerusalem is lost"
+        },
+        {
+          "date": "1922",
+          "event": "Dies in Potsdam"
+        }
+      ],
+      "notableDecision": "In the autumn of 1915 he launched the combined campaign that conquered Serbia and opened communications with the Ottoman Empire.",
+      "setback": "Verdun in 1916, which did not achieve its aim and cost him his post when Romania entered the war."
+    }
+  },
+  {
+    "slug": "max-von-gallwitz",
+    "name": "Max von Gallwitz",
+    "years": "1852–1937",
+    "state": "German Empire",
+    "eraId": "world-wars",
+    "role": "Army commander",
+    "summary": "Commanded the German Eleventh Army that, with the Austro-Hungarian Third Army, occupied Serbia in October–November 1915.",
+    "approach": "Versatile: he was given especially difficult tasks on the Eastern Front, in the Balkans and on the Western Front.",
+    "strength": "Counted among the most versatile German army commanders; led successful advances in Poland in 1915 and in Serbia.",
+    "limitation": "From 1916 his commands at Verdun and on the Somme were defensive battles of attrition with no decisive result.",
+    "legacy": "Considered for the highest offices in wartime; after the war he sat in the Reichstag for the German National People's Party.",
+    "battleSlugs": ["invasion-of-serbia-1915", "verdun"],
+    "source": {
+      "title": "Gallwitz, Max von (Hanns Möller, Neue Deutsche Biographie 6)",
+      "url": "https://www.deutsche-biographie.de/sfz19858.html",
+      "publisher": "Deutsche Biographie"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Commander of an army group on the Meuse and Moselle in 1918; member of the Reichstag 1920–1924",
+      "principalCommands": [
+        "Guards Reserve Corps, 1914",
+        "Eleventh Army, 1915",
+        "Fifth Army at Verdun, 1916–1918",
+        "Army group on the Meuse and Moselle, 1918"
+      ],
+      "timeline": [
+        {
+          "date": "1852",
+          "event": "Born in Breslau"
+        },
+        {
+          "date": "August 1914",
+          "event": "His corps takes the fortress of Namur"
+        },
+        {
+          "date": "1915",
+          "event": "Leads an army group across the Narew in Poland"
+        },
+        {
+          "date": "October–November 1915",
+          "event": "His Eleventh Army helps occupy Serbia"
+        },
+        {
+          "date": "1916",
+          "event": "Commands before Verdun and on the Somme; takes over the Fifth Army at Verdun in December"
+        },
+        {
+          "date": "1918",
+          "event": "Leads an army group on the Meuse and Moselle; dismissed after the revolution"
+        },
+        {
+          "date": "1920–1924",
+          "event": "Member of the Reichstag"
+        },
+        {
+          "date": "1937",
+          "event": "Dies in Naples"
+        }
+      ],
+      "notableDecision": "In October 1915 he crossed the Danube east of Belgrade, aiming his army at the Morava valley.",
+      "setback": "His Fifth Army at Verdun had to defend ground taken at great cost after the French recaptured Fort Douaumont in late 1916."
+    }
+  },
+  {
+    "slug": "hans-von-seeckt",
+    "name": "Hans von Seeckt",
+    "years": "1866–1936",
+    "state": "German Empire",
+    "eraId": "world-wars",
+    "role": "Chief of staff to Mackensen; later head of the Reichswehr",
+    "summary": "One of Germany's best staff officers of the war, who planned Mackensen's campaigns at Gorlice–Tarnów and against Serbia in 1915.",
+    "approach": "A planner and organiser who coordinated manpower and firepower and stayed calm in crises.",
+    "strength": "Showalter calls the 1915 Serbian campaign an overlooked proto-blitzkrieg: aircraft, heavy artillery and bridging used through very unpromising terrain.",
+    "limitation": "From 1917 he served as chief of staff of the Ottoman army, a post Showalter describes as a path to futility.",
+    "legacy": "Led the Reichswehr from 1920 to 1926 and shaped the mobile doctrines of the later German army.",
+    "battleSlugs": ["invasion-of-serbia-1915"],
+    "source": {
+      "title": "Seeckt, Hans von (Dennis Showalter)",
+      "url": "https://encyclopedia.1914-1918-online.net/article/seeckt-hans-von/",
+      "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Staff planner",
+      "titles": "Chief of staff of the Eleventh Army and of Army Group Mackensen; chief of staff of the Ottoman army from 1917; head of the army command 1920–1926",
+      "principalCommands": [
+        "Staff of the Eleventh Army and Army Group Mackensen, 1915",
+        "Ottoman General Staff, 1917–1918"
+      ],
+      "timeline": [
+        {
+          "date": "1866",
+          "event": "Born in Schleswig"
+        },
+        {
+          "date": "1914",
+          "event": "Chief of staff of III Corps; plans successful counterattacks"
+        },
+        {
+          "date": "March 1915",
+          "event": "Becomes chief of staff of the new Eleventh Army"
+        },
+        {
+          "date": "May 1915",
+          "event": "Plans the breakthrough at Gorlice–Tarnów"
+        },
+        {
+          "date": "October–November 1915",
+          "event": "Plans the campaign against Serbia with Mackensen"
+        },
+        {
+          "date": "1917",
+          "event": "Appointed chief of staff of the Ottoman army"
+        },
+        {
+          "date": "1920–1926",
+          "event": "Heads the army command of the Weimar Republic"
+        },
+        {
+          "date": "1936",
+          "event": "Dies in Berlin"
+        }
+      ],
+      "notableDecision": "In the Serbian campaign of 1915 he organised the use of aircraft, heavy artillery and bridging equipment to carry the attack across the rivers and through the mountains.",
+      "setback": "His later posts in the east, above all with the Ottoman army, could not change the course of the war."
+    }
+  },
+  {
+    "slug": "otto-von-below",
+    "name": "Otto von Below",
+    "years": "1857–1944",
+    "state": "German Empire",
+    "eraId": "world-wars",
+    "role": "Army and army group commander",
+    "summary": "Commanded the German–Bulgarian army group in Macedonia in 1916–1917, during the Allied Monastir offensive, before leading the breakthrough at Tolmein against Italy.",
+    "approach": "A commander moved between fronts for difficult tasks: East Prussia, Courland, Macedonia, Italy and France.",
+    "strength": "Counted with Gallwitz among the most versatile German army commanders; his Fourteenth Army broke through at Tolmein in 1917.",
+    "limitation": "In Macedonia his army group lost Monastir to the Allied offensive in November 1916.",
+    "legacy": "Remembered chiefly for the 1917 breakthrough against Italy; his appointment to command the home defence in the west in 1918 was overtaken by the revolution.",
+    "battleSlugs": ["monastir-1916"],
+    "source": {
+      "title": "Below, Otto von (Friedrich Stuhlmann, Neue Deutsche Biographie 2)",
+      "url": "https://www.deutsche-biographie.de/sfz3657.html",
+      "publisher": "Deutsche Biographie"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "General of infantry from August 1914",
+      "principalCommands": [
+        "Eighth Army, 1914–1915",
+        "Army Group in Macedonia, 1916–1917",
+        "Fourteenth Army against Italy, 1917",
+        "Seventeenth and First Armies in France, 1918"
+      ],
+      "timeline": [
+        {
+          "date": "1857",
+          "event": "Born in Danzig"
+        },
+        {
+          "date": "November 1914",
+          "event": "Takes command of the Eighth Army; Winter Battle in Masuria"
+        },
+        {
+          "date": "1915–1916",
+          "event": "Commands in Courland"
+        },
+        {
+          "date": "1916–1917",
+          "event": "Commands the army group in Macedonia"
+        },
+        {
+          "date": "1917",
+          "event": "Leads the Fourteenth Army's breakthrough at Tolmein toward the Piave"
+        },
+        {
+          "date": "1918",
+          "event": "Commands the Seventeenth and First Armies in France"
+        },
+        {
+          "date": "1944",
+          "event": "Dies at Besenhausen, near Göttingen"
+        }
+      ],
+      "notableDecision": "After Monastir fell, his army group held the line north of the town, where the front stayed until 1918.",
+      "setback": "The Allied offensive of autumn 1916 drove his German and Bulgarian forces out of Monastir."
+    }
+  },
+  {
     "slug": "georgy-zhukov",
     "name": "Georgy Zhukov",
     "years": "1896–1974",

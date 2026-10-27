@@ -313,3 +313,7 @@ Profiles of Crown Prince Alexander, Pavle Jurišić Šturm and Kosta Pećanac we
 ## Serbian Front, commander profiles C3 (27 October 2026)
 
 Profiles of Oskar Potiorek, Franz Conrad von Hötzendorf, Hermann Kövess and Stjepan Sarkotić were added; sources and limits are in `docs/COMMANDER_SOURCES.md`. New sources read: Manfried Rauchensteiner, _The First World War and the End of the Habsburg Monarchy, 1914–1918_ (Böhlau 2014, CC BY-NC-ND, Austria-Forum web edition), printed pages 176, 278, 280 and 466 and the index entry for Frank; Britannica, “Franz Graf Conrad von Hötzendorf” (read in the browser; 403 to scripts); _Neue Deutsche Biographie_ entry on Kövess (in German); Marc Stefan Peters on Sarkotić (1914-1918-online, read in the browser). Liborius von Frank was not added: Rauchensteiner confirms his command but no source read gives his life dates. The Austria-Forum site occasionally dropped connections and was retried.
+
+## Serbian Front, commander profiles C4 (27 October 2026)
+
+Profiles of August von Mackensen, Erich von Falkenhayn, Max von Gallwitz, Hans von Seeckt and Otto von Below were added; sources and limits are in `docs/COMMANDER_SOURCES.md`. New sources read: Afflerbach on Falkenhayn, Showalter on Seeckt and Höhn on Mackensen (1914-1918-online, read in the browser; the site's PDF versions are bot-blocked); the _Neue Deutsche Biographie_ entries on Gallwitz and Below (in German). Friedrich von Scholtz, Arnold von Winckler and Kuno von Steuben were not added for lack of an institutional or scholarly source.

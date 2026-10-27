@@ -263,6 +263,276 @@
     ]
   },
   {
+    "slug": "vendemiaire",
+    "sources": [
+      {
+        "title": "Napoleon I (Jacques Godechot)",
+        "url": "https://www.britannica.com/biography/Napoleon-I",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "BARRAS, Paul-François-Jean-Nicolas, vicomte de (Jacques Godechot, Dictionnaire Napoléon)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/biographies/barras-paul-francois-jean-nicolas-vicomte-de-1755-1829-homme-politique/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Bullet Point #7: How did Napoleon participate in the early Revolution? (Thierry Lentz)",
+        "url": "https://www.napoleon.org/en/history-of-the-two-empires/articles/bullet-point-7-napoleon-participate-early-revolution/",
+        "publisher": "Fondation Napoléon"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After the fall of Robespierre in July 1794, Bonaparte, seen as his protégé, was arrested for a time and not restored to his command. In 1795 he was in Paris on half pay and without a satisfactory post, distrusted for his ambition and his links with the Montagnards.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "In October 1795 the National Convention, about to dissolve, submitted the Constitution of the Year III to a referendum, together with decrees requiring two-thirds of its members to be re-elected to the new assemblies. Royalists, hoping soon to restore the monarchy, raised a revolt in Paris to prevent these measures from taking effect.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The insurgents aimed to march on the Convention, which sat at the Tuileries, and overturn its measures. The Convention entrusted its defence to Barras.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The fighting took place in central Paris, on the avenues leading to the Tuileries; the church of Saint-Roch became the symbol of the day.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Barras commanded the army of Paris, the Army of the Interior, with Bonaparte as his second in command; Murat fetched the cannon from the camp of Les Sablons. The insurgents were armed citizens of the royalist sections of Paris. The sources read give no numbers.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Barras, unwilling to rely on the commander of the troops of the interior and re-employing generals on half pay, chose Bonaparte, whom he had known at Toulon. Bonaparte placed the guns on all the avenues leading to the Tuileries.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 13 Vendémiaire Year IV (5 October 1795) the rebel columns marched on the Convention and were shot down by Bonaparte's guns; Lentz writes that grapeshot was fired at the rioters on the steps of and around Saint-Roch. The insurgents fell back, and the Convention was saved.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Barras's choice of Bonaparte and Bonaparte's decision to bring up artillery and fire on the columns decided the day.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Having the guns from Les Sablons in place on the approaches before the insurgents moved gave the defenders the firepower that broke the columns.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The insurrection was crushed and, in the words of the sources, the Convention and the Republic were saved. Armed citizens were shot down in the streets of Paris; the sources read give no figures. Bonaparte was promoted général de division on 15 October.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Barras resigned as general on 26 October and Bonaparte succeeded him at the head of the Army of the Interior; on 31 October Barras was elected to the Directory. Bonaparte became the government's adviser on military matters. In March 1796 he was appointed to command the Army of Italy, and on 9 March he married Joséphine de Beauharnais.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Firepower turned against fellow citizens can settle a political crisis, at a lasting moral and political cost; political patronage can launch a military career.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Accounts of Saint-Roch differ: Lentz and contemporary images show grapeshot fired on the rioters on the church steps, while Godechot's biography of Barras rejects the shooting on the steps as legend and says the royalists fell back before Bonaparte's dispositions. The sources read give no casualty figures. This was not a field battle but the armed suppression of a political insurrection.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Jacques Godechot's Britannica biography of Napoleon gives the political setting, his biography of Barras in the Dictionnaire Napoléon the defence of the Convention, and Thierry Lentz's article for the Fondation Napoléon Bonaparte's place in the early Revolution.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "The decrees",
+        "time": "October 1795",
+        "description": "The Convention submits the constitution and the two-thirds decrees; royalists in Paris revolt."
+      },
+      {
+        "title": "Barras and Bonaparte",
+        "time": "early October 1795",
+        "description": "Barras is given the defence and appoints Bonaparte; Murat fetches the guns from Les Sablons."
+      },
+      {
+        "title": "13 Vendémiaire",
+        "time": "5 October 1795",
+        "description": "The rebel columns march on the Convention and are broken by artillery fire around Saint-Roch."
+      },
+      {
+        "title": "Aftermath",
+        "time": "15–31 October 1795",
+        "description": "Bonaparte is promoted and takes over the Army of the Interior; Barras enters the Directory."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Napoleon Bonaparte",
+        "objective": "Defend the Convention against the royalist insurrection.",
+        "known": "Royalist sections were preparing to march on the Tuileries.",
+        "uncertainty": "How hard the insurgents would press and how the troops would respond.",
+        "constraints": "Fighting in the streets of the capital against fellow citizens.",
+        "forces": "The troops of the Army of the Interior and the cannon brought from Les Sablons.",
+        "terrain": "The streets and avenues leading to the Tuileries.",
+        "logistics": "Guns fetched from the camp of Les Sablons by Murat.",
+        "decision": "He placed artillery on the approaches and fired on the advancing columns.",
+        "outcome": "The insurrection was crushed; he was promoted and soon commanded the Army of the Interior."
+      },
+      {
+        "name": "Paul Barras",
+        "objective": "Save the Convention and the new constitution.",
+        "known": "The royalists were in revolt against the two-thirds decrees.",
+        "uncertainty": "Whether the regular commander of the troops of the interior could be relied on.",
+        "constraints": "Few reliable generals at hand in Paris.",
+        "forces": "The army of Paris placed under his command.",
+        "terrain": "Central Paris.",
+        "logistics": "Re-employing generals on half pay.",
+        "decision": "He appointed Bonaparte, whom he knew from Toulon, as his second in command.",
+        "outcome": "The Convention survived, and Barras entered the Directory."
+      }
+    ]
+  },
+  {
     "slug": "montenotte",
     "sources": [
       {
@@ -5540,6 +5810,283 @@
     ]
   },
   {
+    "slug": "maloyaroslavets",
+    "sources": [
+      {
+        "title": "Napoleonic Wars: The retreat from Moscow and the campaign of 1813",
+        "url": "https://www.britannica.com/event/Napoleonic-Wars/The-retreat-from-Moscow",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "La retraite de Russie (Paul Ganière, Revue du Souvenir Napoléonien 354)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/articles/la-retraite-de-russie/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Davout, homme de devoir. 1. Le soldat (Jean Linden, Revue du Souvenir Napoléonien 303)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/articles/davout-homme-de-devoir-1-le-soldat/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "KUTUZOV, Mikhail Illarionovich Golenishchev (biography)",
+        "url": "https://www.napoleon.org/en/history-of-the-two-empires/biographies/kutuzov-mikhail-illarionovich-golenishchev/",
+        "publisher": "Fondation Napoléon"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Napoleon waited in Moscow for about a month, but the Russians refused to come to terms, and wintering there carried military and political dangers. On 18 October Russian troops attacked Murat's corps near Tarutino; Ganière says Bennigsen engineered the attack against Kutuzov's wishes.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Napoleon wanted to avoid any impression of retreat and announced a march on Kaluga. The army began to leave Moscow on 19 October, while Mortier stayed behind to mine the Kremlin.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Napoleon's first intention was to retire by way of Kaluga, making a long detour through fertile, unexhausted country before regaining Smolensk. Kutuzov's army, camped at Tarutino behind the Nara, stood across that road.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Maloyaroslavets lies on the road to Kaluga, about 50 km north of that town. The alternative was the direct road back through Mozhaisk and Smolensk, shorter but stripped bare on the advance and harassed by partisans.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The French advance included Eugène's French and Italian troops and Davout's corps; Kutuzov massed the main Russian army behind the town. Figures are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The army left Moscow in a long column slowed by poorly clad men, weak horses and wagons of loot. Kutuzov moved his army behind Maloyaroslavets.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 24 October the town changed hands seven times and ended in the hands of Eugène and Davout; Davout sent the divisions of Compans and Gérard against the Russian right, threatening to turn it. On 25 October Napoleon, riding out to inspect the Russian positions with a small escort, was nearly captured by Cossacks until the Guard's dragoons drove them off. That evening he met his marshals, most of whom advised against another battle. On 26 October the army turned back past Maloyaroslavets toward Borovsk and the road through Mozhaisk.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Davout argued for the southern route to Smolensk, shorter and through intact country; Murat favoured returning by Mozhaisk, and Napoleon chose that road. Ganière writes that Napoleon had already resolved not to stay within Kutuzov's reach.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The decision of 25–26 October to return by the devastated Mozhaisk road, not the fighting in the town, decided the campaign; Ganière presents it as the start of the disaster.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The French held the town, but the road to Kaluga remained blocked. Britannica calls the combat successful but notes that, finding Kutuzov in his path, Napoleon decided to return by the direct route. Losses on both sides were heavy; figures are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The army marched back over the devastated road by Borodino and Vyazma, harassed by Cossacks; at Vyazma on 3 November Miloradovich attacked the corps of Davout and Eugène. Britannica notes that most of the army's losses occurred before the first snowfall. Kutuzov was credited with success at Maloyaroslavets and later made prince of Smolensk.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A tactical success can hide a strategic defeat; the choice between a ravaged and an intact line of retreat can decide the fate of an army.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Whether the southern route would have saved the army cannot be known: Davout argued for it, while Ganière notes that the Mozhaisk road was shorter but had become a desert. The Fondation Napoléon's biography of Kutuzov counts Maloyaroslavets among his successes, while Britannica calls it a successful French combat. Figures differ and are not repeated here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica's narrative of the retreat from Moscow gives the outline, Paul Ganière's article the detailed course, Jean Linden's study of Davout the 1st Corps' part and the argument over the route, and the Fondation Napoléon's biography of Kutuzov the Russian commander.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Tarutino",
+        "time": "18 October 1812",
+        "description": "Russian troops attack Murat's corps; Napoleon decides to leave Moscow."
+      },
+      {
+        "title": "Leaving Moscow",
+        "time": "19–23 October 1812",
+        "description": "The army marches toward Kaluga in a long, slow column."
+      },
+      {
+        "title": "Maloyaroslavets",
+        "time": "24 October 1812",
+        "description": "The town changes hands seven times and ends in French hands."
+      },
+      {
+        "title": "The Cossacks and the council",
+        "time": "25 October 1812",
+        "description": "Napoleon is nearly captured; his marshals advise against another battle."
+      },
+      {
+        "title": "Back to Mozhaisk",
+        "time": "26 October 1812",
+        "description": "The army turns back toward the devastated road it took on the advance."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Napoleon Bonaparte",
+        "objective": "Retreat to Smolensk through unravaged country by way of Kaluga.",
+        "known": "Kutuzov's army stood across the southern road.",
+        "uncertainty": "Whether another battle could clear the road.",
+        "constraints": "An army slowed by loot and weak horses, and the coming winter.",
+        "forces": "Eugène's and Davout's corps in front, with the Guard.",
+        "terrain": "The town on the road to Kaluga, with the Russian army massed behind it.",
+        "logistics": "A choice between intact country to the south and a stripped road to the north.",
+        "decision": "After taking the town, he turned back to the Mozhaisk road.",
+        "outcome": "The army retreated over devastated country toward Smolensk."
+      },
+      {
+        "name": "Mikhail Kutuzov",
+        "objective": "Block the French march toward Kaluga.",
+        "known": "The French had left Moscow and were marching south.",
+        "uncertainty": "Whether Napoleon would force his way to Kaluga.",
+        "constraints": "Subordinates such as Bennigsen pressing for attacks he had not wanted.",
+        "forces": "The main Russian army, massed behind Maloyaroslavets.",
+        "terrain": "The road to Kaluga, south of the town.",
+        "logistics": "His camp at Tarutino lay close to the southern road.",
+        "decision": "He blocked the road behind the town.",
+        "outcome": "Napoleon turned back to the ravaged road."
+      }
+    ]
+  },
+  {
     "slug": "berezina",
     "sources": [
       {
@@ -6912,6 +7459,569 @@
         "logistics": "Several armies converging from different directions.",
         "decision": "He attacked at Wachau on the 16th and renewed the assault with all the armies on the 18th.",
         "outcome": "Napoleon was driven out of Leipzig and out of Germany."
+      }
+    ]
+  },
+  {
+    "slug": "hanau",
+    "sources": [
+      {
+        "title": "Napoleonic Wars: Dispositions for the autumn campaign (Dresden)",
+        "url": "https://www.britannica.com/event/Napoleonic-Wars/Dispositions-for-the-autumn-campaign",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Chronologie de la Correspondance générale de Napoléon Bonaparte, tome 14 : Leipzig, juillet-décembre 1813 (Irène Delage)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/chronologies/chronologie-de-la-correspondance-generale-de-napoleon-bonaparte-tome-14-leipzig-juillet-decembre-1813/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "WREDE, Carl-Philip, prince (Jacques Garnier, Dictionnaire Napoléon)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/biographies/wrede-carl-philip-prince-1767-1838-feld-marechal-bavarois-diplomate/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Le général Drouot, « le sage de la Grande Armée » (Jacques Juillet, Revue du Souvenir Napoléonien 360)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/articles/le-general-drouot-le-sage-de-la-grande-armee/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Karl Philipp, prince von Wrede",
+        "url": "https://www.britannica.com/biography/Karl-Philipp-Furst-von-Wrede",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "1813 and the lead up to the Battle of Leipzig (timeline, P.H.)",
+        "url": "https://www.napoleon.org/en/history-of-the-two-empires/timelines/38920/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "MACDONALD, Etienne-Jacques-Joseph-Alexandre (biography)",
+        "url": "https://www.napoleon.org/en/history-of-the-two-empires/biographies/macdonald-etienne-jacques-joseph-alexandre/",
+        "publisher": "Fondation Napoléon"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Leipzig Napoleon's main forces crossed the Saale at Weissenfels and halted at Erfurt from 23 to 26 October 1813. Bavaria had made an armistice with the Allies on 17 September and joined them by the Treaty of Ried on 8 October.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Bavaria had been Napoleon's ally for years; in 1813 it changed sides, and Wrede, who concluded the Treaty of Ried, reorganised its army to fight the French. Murat left the army at Erfurt for Naples to try to save his throne.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 4
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Wrede's Bavarian and Austrian force moved to block Napoleon's path back to the Rhine at Hanau. Napoleon had to break through to reach Mainz and the Rhine.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Hanau stood on the French line of retreat from Erfurt toward Frankfurt, Mainz and the Rhine.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Wrede commanded five infantry divisions, three Bavarian and two Austrian, and two cavalry divisions, one of each. Napoleon's retreating army included the Guard and Drouot's artillery, and Macdonald, who had escaped Leipzig by swimming the Elster. Wrede had the larger force on the field; figures are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Wrede barred the road at Hanau at the end of October. The sources read do not describe his positions in detail; Garnier's biography judges his dispositions poor.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 30 October Napoleon attacked the blocking force. Drouot's artillery fire cleared the way to France, and Wrede's troops, slow to react, could not stop the French army. The army passed on toward Frankfurt and Mainz, where Napoleon stayed from 2 to 7 November.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Napoleon chose to force his way through rather than look for another route; Wrede chose to stand across the line of retreat of an army that, though beaten at Leipzig, still had the Guard and its artillery.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Juillet credits Drouot's artillery with deciding the victory at Hanau.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Bavarians met with heavy defeat, and the French army escaped to the Rhine. Napoleon is reported to have said that he could make Wrede a baron but not a good general.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The French crossed the Rhine at Mainz in early November, with typhus among the stragglers, while many more troops remained besieged in German fortresses. Napoleon reached Saint-Cloud on 9 November. On 2 November Württemberg and Hesse-Darmstadt signed alliances with Austria, completing the collapse of Napoleon's German alliances. For the second year in succession he had lost an army.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A retreating army that keeps its best troops and artillery can still break a blocking force; a blocking position must be strong enough, and well enough placed, to hold the enemy's main body.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The sources read describe the outcome and Drouot's part but not the ground or the course of the fighting in detail. The battle is dated 30 October (Delage) or 30–31 October (Garnier). Figures differ and are not repeated here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica's narrative of the autumn campaign and its biography of Wrede give the setting; Irène Delage's chronology for the Fondation Napoléon gives the dates, and the Dictionnaire Napoléon biography of Wrede, Jacques Juillet's article on Drouot and the Fondation's biography of Macdonald add the commanders.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 6
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Erfurt",
+        "time": "23–26 October 1813",
+        "description": "The retreating army halts at Erfurt; Murat leaves for Naples."
+      },
+      {
+        "title": "The block",
+        "time": "late October 1813",
+        "description": "Wrede's Bavarian and Austrian force bars the road at Hanau."
+      },
+      {
+        "title": "Breakthrough",
+        "time": "30 October 1813",
+        "description": "Drouot's artillery clears the road and the French force their way past Wrede."
+      },
+      {
+        "title": "To the Rhine",
+        "time": "31 October – 7 November 1813",
+        "description": "The army marches on to Mainz and crosses the Rhine."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Napoleon Bonaparte",
+        "objective": "Bring the army back across the Rhine.",
+        "known": "A Bavarian and Austrian force barred the road at Hanau.",
+        "uncertainty": "How strongly Wrede would hold.",
+        "constraints": "A beaten army, with stragglers and sickness spreading.",
+        "forces": "The Guard, Drouot's artillery and the remaining corps.",
+        "terrain": "The road to Frankfurt and Mainz through Hanau.",
+        "logistics": "A long retreat from Leipzig through Erfurt.",
+        "decision": "He attacked and forced his way through with artillery fire.",
+        "outcome": "The army reached the Rhine."
+      },
+      {
+        "name": "Karl Philipp von Wrede",
+        "objective": "Block the French retreat to the Rhine.",
+        "known": "Napoleon's army was retreating from Leipzig.",
+        "uncertainty": "How much fighting strength the French still had.",
+        "constraints": "Newly turned allies, and troops slow to react.",
+        "forces": "Three Bavarian and two Austrian infantry divisions, with cavalry.",
+        "terrain": "The road at Hanau.",
+        "logistics": "Bavarian and Austrian divisions brought together after the change of sides.",
+        "decision": "He stood across the line of retreat.",
+        "outcome": "He was heavily defeated and the French escaped."
+      }
+    ]
+  },
+  {
+    "slug": "la-rothiere",
+    "sources": [
+      {
+        "title": "Napoleonic Wars: The campaign of France, 1814 (Brienne to Vauchamps)",
+        "url": "https://www.britannica.com/event/Napoleonic-Wars/The-campaign-of-France-1814",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "De la campagne de France au départ pour l'île d'Elbe, pas à pas (Marie de Bruchard)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/chronologies/la-campagne-de-france-de-1814/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Napoleon I (Jacques Godechot)",
+        "url": "https://www.britannica.com/biography/Napoleon-I",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "WREDE, Carl-Philip, prince (Jacques Garnier, Dictionnaire Napoléon)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/biographies/wrede-carl-philip-prince-1767-1838-feld-marechal-bavarois-diplomate/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Le général Drouot, « le sage de la Grande Armée » (Jacques Juillet, Revue du Souvenir Napoléonien 360)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/articles/le-general-drouot-le-sage-de-la-grande-armee/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Napoleonic Wars: Schwarzenberg's advance and retreat, the Aisne and the advance on Paris",
+        "url": "https://www.britannica.com/event/Napoleonic-Wars/Schwarzenbergs-advance-and-retreat",
+        "publisher": "Encyclopaedia Britannica"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Leipzig the Allies invaded France with three armies. Blücher crossed the Rhine on 31 December 1813 and the Marne at Saint-Dizier on 25 January 1814, while Schwarzenberg's army stood between Langres and Bar-sur-Aube.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The Allies' Frankfurt offer of peace on France's natural frontiers had been withdrawn before Napoleon's acceptance arrived. Castlereagh came to the Continent in January to hold the coalition together, and Murat concluded an alliance with Austria on 11 January.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Napoleon, with a few corps around Vitry-le-François, learned that Blücher was approaching the Aube with his forces dispersed and advanced to strike him before he could join Schwarzenberg.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Brienne, near the Aube, was where Napoleon had spent five years at the military college as a boy; La Rothière lies on the plain nearby. The French line of retreat crossed the Aube at Lesmont.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Napoleon had the corps of Marmont, Victor and Ney, with Mortier near Troyes; Drouot was among his generals. Blücher led the Allied attack at La Rothière, and Wrede's Bavarians fought on the Allied side. The French were heavily outnumbered; figures are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Napoleon advanced against the part of Blücher's army around Saint-Dizier and followed it to Brienne.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 29 January the French had slightly the better of a piecemeal engagement at Brienne and drove Blücher from the château, but could not prevent his junction with Schwarzenberg's right wing. That day a Cossack attacked Napoleon during a ride, and General Gourgaud shot him. On 1 February Blücher attacked at La Rothière with superior numbers, in snow that reduced visibility; the French held out until nightfall and retreated along the snow-covered banks of the Aube by the Lesmont bridge to Troyes, which Napoleon entered on 3 February.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Napoleon struck at Blücher's dispersed army before it could unite with Schwarzenberg, but failed to prevent the junction, and at La Rothière he fought the combined forces. After the battle the Allies decided at Brienne to separate their armies again, Blücher marching toward Meaux and Schwarzenberg toward Sens.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The failure at Brienne to stop the Allies uniting turned La Rothière into a battle against far superior numbers.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "La Rothière was a defeat: the French lost many men and guns, and Allied losses were of similar size. The army retreated to Troyes.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The Allies' decision to separate their armies gave Napoleon the opening for the Six Days campaign against Blücher's strung-out corps. After La Rothière, Napoleon gave Caulaincourt a free hand in the negotiations at Châtillon.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "An outnumbered defender must strike before the enemy's armies unite; once they have, a stand invites defeat, but the enemy's later dispersal can reopen the chance.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Britannica gives both sides similar losses at La Rothière; the Fondation Napoléon chronology says the battle was lost in about five hours in poor visibility. The chronology, citing Jacques Macé's biography of Gourgaud, notes that Napoleon later left the Cossack episode out of his accounts at Saint Helena. Figures are not repeated here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica's narrative of the campaign of France gives Brienne and La Rothière, and Godechot's biography of Napoleon his schooling at Brienne. Marie de Bruchard's chronology for the Fondation Napoléon adds the French side, and the Dictionnaire Napoléon biography of Wrede and Juillet's article on Drouot their part.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Saint-Dizier",
+        "time": "25–28 January 1814",
+        "description": "Napoleon advances against Blücher's dispersed army."
+      },
+      {
+        "title": "Brienne",
+        "time": "29 January 1814",
+        "description": "A piecemeal engagement drives Blücher from the château but does not stop the Allies uniting."
+      },
+      {
+        "title": "La Rothière",
+        "time": "1 February 1814",
+        "description": "Blücher attacks in the snow; the French hold until nightfall, then give way."
+      },
+      {
+        "title": "Retreat to Troyes",
+        "time": "1–3 February 1814",
+        "description": "The French retreat over the Aube at Lesmont to Troyes."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Napoleon Bonaparte",
+        "objective": "Defeat Blücher before he could join Schwarzenberg.",
+        "known": "Blücher was approaching the Aube with his forces dispersed.",
+        "uncertainty": "How quickly Schwarzenberg could come to Blücher's help.",
+        "constraints": "A small army against several Allied armies.",
+        "forces": "The corps of Marmont, Victor and Ney.",
+        "terrain": "The Aube valley around Brienne and La Rothière.",
+        "logistics": "A retreat route over the Aube at Lesmont.",
+        "decision": "He struck Blücher at Brienne, then fought at La Rothière.",
+        "outcome": "He was beaten and retreated to Troyes."
+      },
+      {
+        "name": "Gebhard Leberecht von Blücher",
+        "objective": "Join Schwarzenberg and advance on Paris.",
+        "known": "Napoleon was attacking his dispersed corps.",
+        "uncertainty": "Where Napoleon's main force was.",
+        "constraints": "Coordinating with Schwarzenberg's separate army.",
+        "forces": "His Army of Silesia, with Allied troops from Schwarzenberg's army.",
+        "terrain": "The plain around Brienne and La Rothière.",
+        "logistics": "Advancing from the Rhine across the Marne.",
+        "decision": "He joined Schwarzenberg's right wing and attacked at La Rothière.",
+        "outcome": "Napoleon was beaten, but the Allies then separated again."
       }
     ]
   },

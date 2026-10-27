@@ -9,12 +9,12 @@ import {
 import { battles, wars, campaigns, eras } from "../../data/catalog";
 import { courses } from "../../data/learning";
 it("validates source-backed analyses and the commander corpus", () => {
-  expect(researchSchema.parse(research)).toHaveLength(91);
+  expect(researchSchema.parse(research)).toHaveLength(95);
   expect(commanderSchema.parse(commanders)).toHaveLength(60);
 });
-it("provides 91 unique engagement slugs and a connected hierarchy", () => {
-  expect(battles).toHaveLength(91);
-  expect(new Set(battles.map((b) => b.slug)).size).toBe(91);
+it("provides 95 unique engagement slugs and a connected hierarchy", () => {
+  expect(battles).toHaveLength(95);
+  expect(new Set(battles.map((b) => b.slug)).size).toBe(95);
   for (const b of battles) {
     expect(wars.some((w) => w.slug === b.warId)).toBe(true);
     expect(
@@ -29,6 +29,8 @@ it("orders engagements in the same year by date", () => {
   const order = battles.map((b) => b.slug);
   for (const [earlier, later] of [
     ["tyre", "gaza-332-bce"],
+    ["toulon", "vendemiaire"],
+    ["vendemiaire", "montenotte"],
     ["montenotte", "lodi"],
     ["castiglione", "arcole"],
     ["acre", "aboukir-1799"],
@@ -36,10 +38,13 @@ it("orders engagements in the same year by date", () => {
     ["eckmuhl", "aspern-essling"],
     ["aspern-essling", "wagram"],
     ["smolensk-1812", "borodino"],
-    ["borodino", "berezina"],
+    ["borodino", "maloyaroslavets"],
+    ["maloyaroslavets", "berezina"],
     ["lutzen-1813", "bautzen"],
     ["bautzen", "dresden"],
     ["dresden", "leipzig"],
+    ["leipzig", "hanau"],
+    ["la-rothiere", "six-days-campaign"],
     ["six-days-campaign", "laon"],
     ["laon", "arcis-sur-aube"],
     ["ligny", "waterloo"],

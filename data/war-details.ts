@@ -493,6 +493,7 @@ export const warDetails: Record<string, WarDetails> = {
         "1793",
         "Royalists hand Toulon to an Anglo-Spanish fleet; siege of Toulon",
       ],
+      ["October 1795", "Royalist rising in Paris crushed (13 Vendémiaire)"],
       ["1796–1797", "Bonaparte's Italian campaign; Mantua surrenders"],
       ["1798–1799", "Expedition to Egypt and Syria"],
       ["November 1799", "Bonaparte seizes power in the coup of 18 Brumaire"],

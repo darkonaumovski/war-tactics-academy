@@ -2213,6 +2213,268 @@
     }
   },
   {
+    "slug": "radomir-putnik",
+    "name": "Radomir Putnik",
+    "years": "1847–1917",
+    "state": "Kingdom of Serbia",
+    "eraId": "world-wars",
+    "role": "Chief of the general staff and commander-in-chief",
+    "summary": "Directed the Serbian army in the Balkan Wars and in 1914, when it threw back two Austro-Hungarian invasions at Cer and on the Kolubara.",
+    "approach": "Waited until the direction of the main invasion was clear, then concentrated against it, trading ground for time when he had to.",
+    "strength": "Kept the army intact against larger, better-supplied forces and defeated two invasions in 1914.",
+    "limitation": "He expected the 1914 invasion from the north and had to shift his forces west. In 1915 an attack from two sides overran Serbia; ill, he was carried through the retreat in a sedan chair.",
+    "legacy": "Serbia remembers him as the strategist of the 1914 victories and as a moderniser of the army; his reputation also carries the national memory of those wars.",
+    "battleSlugs": [
+      "cer",
+      "syrmia-1914",
+      "drina-1914",
+      "romanija-1914",
+      "kolubara",
+      "invasion-of-serbia-1915",
+      "serbian-retreat-1915"
+    ],
+    "source": {
+      "title": "Radomir Putnik",
+      "url": "https://www.britannica.com/biography/Radomir-Putnik",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "Vojvoda (field marshal), Serbia's highest military rank, from the First Balkan War; chief of the general staff 1903–1916; minister of war 1904–1905, 1906–1908 and 1912",
+      "principalCommands": [
+        "Serbian army in the Balkan Wars, 1912–1913",
+        "Serbian Supreme Command, 1914–1915, with most of the Montenegrin army under its command in 1914"
+      ],
+      "timeline": [
+        {
+          "date": "1847",
+          "event": "Born in Kragujevac"
+        },
+        {
+          "date": "1866",
+          "event": "Commissioned after artillery school"
+        },
+        {
+          "date": "1903",
+          "event": "Becomes a general and chief of the general staff"
+        },
+        {
+          "date": "October–November 1912",
+          "event": "Commands the Serbian army at Kumanovo and, as field marshal, at Monastir"
+        },
+        {
+          "date": "August 1914",
+          "event": "Returns from Austria-Hungary, in poor health, to direct the defence; victory at Cer"
+        },
+        {
+          "date": "November–December 1914",
+          "event": "Victory on the Kolubara"
+        },
+        {
+          "date": "November 1915 – early 1916",
+          "event": "Carried in a sedan chair in the retreat across Albania; relieved of command"
+        },
+        {
+          "date": "1917",
+          "event": "Dies in Nice"
+        }
+      ],
+      "notableDecision": "When the 1914 invasion came from Bosnia rather than from the north, he shifted his armies west and struck the Austro-Hungarian Fifth Army on Cer.",
+      "setback": "In 1915 Serbia was invaded from the north and the east at once; the army escaped only by retreating across the mountains of Montenegro and Albania."
+    }
+  },
+  {
+    "slug": "stepa-stepanovic",
+    "name": "Stepa Stepanović",
+    "years": "1856–1929",
+    "state": "Kingdom of Serbia",
+    "eraId": "world-wars",
+    "role": "Commander of the Second Army",
+    "summary": "Commanded the Serbian Second Army, whose victory on Cer in August 1914 was the first defeat of the Central Powers in the war.",
+    "approach": "Led from close to the front, feeding divisions into the fight and keeping up the pressure until the enemy gave way.",
+    "strength": "Won the decisive battle of 1914 against a larger invading army and served through every Serbian campaign of the war.",
+    "limitation": "In 1915 his army held the Bulgarian First Army on the eastern border, but the collapse of the front elsewhere forced it into the retreat through Albania.",
+    "legacy": "Made vojvoda after Cer and honoured across Serbia and in Sarajevo; the commemorative sources present him largely through the national memory of 1914.",
+    "battleSlugs": [
+      "cer",
+      "drina-1914",
+      "kolubara",
+      "invasion-of-serbia-1915",
+      "serbian-retreat-1915",
+      "dobro-pole"
+    ],
+    "source": {
+      "title": "Duke Stepa Stepanovic's name carved deep in Serbian history",
+      "url": "https://www.mod.gov.rs/eng/8173/ime-vojvode-stepe-stepanovica-duboko-uklesano-u-istoriji-8173",
+      "publisher": "Ministry of Defence of the Republic of Serbia"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Vojvoda (field marshal) from 20 August 1914; twice minister of war",
+      "principalCommands": [
+        "Serbian forces at the siege of Adrianople, 1912–1913",
+        "Second Army in the First World War"
+      ],
+      "timeline": [
+        {
+          "date": "1856",
+          "event": "Born in Kumodraž, near Belgrade"
+        },
+        {
+          "date": "1876",
+          "event": "Serves in the war against the Ottoman Empire and is commissioned"
+        },
+        {
+          "date": "1912–1913",
+          "event": "Helps the Bulgarian army at the siege of Adrianople"
+        },
+        {
+          "date": "August 1914",
+          "event": "Wins the battle of Cer; made vojvoda"
+        },
+        {
+          "date": "1914–1915",
+          "event": "Fights on the Kolubara, holds the Bulgarian border in 1915 and shares the retreat across Albania"
+        },
+        {
+          "date": "September 1918",
+          "event": "Takes part in the breakthrough on the Salonika front"
+        },
+        {
+          "date": "1920",
+          "event": "Retires and settles in Čačak"
+        },
+        {
+          "date": "1929",
+          "event": "Dies in Čačak"
+        }
+      ],
+      "notableDecision": "At Cer, when an Austro-Hungarian division struck the flank of his Combined Division on 16 August, he came to the front line himself; with the arrival of the 1st Morava Division the crisis was overcome.",
+      "setback": "After Bulgaria entered the war in 1915, his Second Army held the Bulgarian First Army in the east, but the invasion from the north and the Bulgarian advance in Macedonia forced the whole army into retreat."
+    }
+  },
+  {
+    "slug": "zivojin-misic",
+    "name": "Živojin Mišić",
+    "years": "1855–1921",
+    "state": "Kingdom of Serbia",
+    "eraId": "world-wars",
+    "role": "First Army commander; later chief of the Supreme Command",
+    "summary": "Led the First Army's counteroffensive on the Kolubara in December 1914 and was chief of the Serbian Supreme Command during the 1918 breakthrough.",
+    "approach": "Combined teaching and writing on strategy with field command; struck when the enemy was over-extended and regrouping.",
+    "strength": "His army's surprise attack from Suvobor unhinged the Austro-Hungarian front in 1914.",
+    "limitation": "Before the counteroffensive the Sixth Army had driven his army back across the Ljig, and he could attack only after the Supreme Command shortened the front and gave up Belgrade.",
+    "legacy": "Made vojvoda after the Kolubara; his lectures, published as The Strategy, became required reading for Serbian officers.",
+    "battleSlugs": ["kolubara", "dobro-pole", "liberation-of-serbia-1918"],
+    "source": {
+      "title": "Anniversary of death of Field Marshal Zivojin Misic",
+      "url": "https://www.mod.gov.rs/eng/10465/godisnjica-smrti-vojvode-zivojina-misica-10465",
+      "publisher": "Ministry of Defence of the Republic of Serbia"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Vojvoda (field marshal) after the battle of the Kolubara; chief of the Supreme Command in 1918",
+      "principalCommands": [
+        "First Army, 1914",
+        "Serbian Supreme Command, 1918"
+      ],
+      "timeline": [
+        {
+          "date": "1855",
+          "event": "Born"
+        },
+        {
+          "date": "1876–1878",
+          "event": "Fights in the wars against the Ottoman Empire as an artillery cadet"
+        },
+        {
+          "date": "December 1914",
+          "event": "Leads the First Army's counteroffensive on the Kolubara; made vojvoda"
+        },
+        {
+          "date": "September 1918",
+          "event": "Chief of the Supreme Command during the breakthrough on the Salonika front"
+        },
+        {
+          "date": "November 1918",
+          "event": "Directs army commanders to support the South Slav movements"
+        },
+        {
+          "date": "1921",
+          "event": "Dies; buried in the New Cemetery in Belgrade"
+        }
+      ],
+      "notableDecision": "On 3 December 1914 his First Army, attacking from Suvobor as the Austro-Hungarian armies regrouped, took them by surprise and broke through to Valjevo.",
+      "setback": "On 20 November 1914 the Austro-Hungarian Sixth Army drove his army back across the Ljig to Suvobor."
+    }
+  },
+  {
+    "slug": "petar-bojovic",
+    "name": "Petar Bojović",
+    "years": "d. 1945",
+    "state": "Kingdom of Serbia",
+    "eraId": "world-wars",
+    "role": "First Army commander; chief of the Supreme Command from 1916",
+    "summary": "Commanded the First Army in 1914 and again in the 1918 breakthrough, and led the Supreme Command during the army's years on the Salonika front.",
+    "approach": "A career artillery and staff officer who moved between field command and the Supreme Command.",
+    "strength": "His First Army broke through on the Salonika front in 1918 and advanced deep into occupied Serbia.",
+    "limitation": "In 1914 his army suffered heavy losses on the Drina, where he was wounded.",
+    "legacy": "Made vojvoda in September 1918 after the breakthrough on the Salonika front; he is remembered with Putnik, Stepanović and Mišić as one of Serbia's four First World War field marshals.",
+    "battleSlugs": [
+      "cer",
+      "syrmia-1914",
+      "drina-1914",
+      "dobro-pole",
+      "liberation-of-serbia-1918"
+    ],
+    "source": {
+      "title": "Anniversary of death of Field Marshal Petar Bojovic",
+      "url": "https://www.mod.gov.rs/eng/10464/godisnjica-smrti-vojvode-petra-bojovica-10464",
+      "publisher": "Ministry of Defence of the Republic of Serbia"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Vojvoda (field marshal) from 26 September 1918; chief of the Supreme Command from January 1916",
+      "principalCommands": [
+        "First Army, 1914",
+        "Serbian Supreme Command, from January 1916",
+        "First Army, 1918"
+      ],
+      "timeline": [
+        {
+          "date": "1875",
+          "event": "Enters the Military Academy on 6 October"
+        },
+        {
+          "date": "1880",
+          "event": "Commissioned as an artillery second lieutenant"
+        },
+        {
+          "date": "August–September 1914",
+          "event": "Commands the First Army; wounded on the Drina"
+        },
+        {
+          "date": "January 1916",
+          "event": "Appointed chief of the Supreme Command"
+        },
+        {
+          "date": "September 1918",
+          "event": "Commands the First Army in the breakthrough; made vojvoda"
+        },
+        {
+          "date": "1945",
+          "event": "Dies in Belgrade on 20 January"
+        }
+      ],
+      "notableDecision": "Returning to the First Army for the 1918 offensive, he pressed the breakthrough deep into occupied territory.",
+      "setback": "On the Drina in September 1914 his First Army suffered heavy losses and he was wounded."
+    }
+  },
+  {
     "slug": "georgy-zhukov",
     "name": "Georgy Zhukov",
     "years": "1896–1974",

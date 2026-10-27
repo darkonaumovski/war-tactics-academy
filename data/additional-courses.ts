@@ -41,6 +41,54 @@ const planning: Source = {
   url: "https://www.royalparks.org.uk/read-watch-listen/operation-bushy-park-plotting-d-day-royal-park/planning-d-day",
 };
 
+const serbia1914: Source = {
+  title: "Serbia 1914: exhibition catalogue",
+  publisher: "Historical Museum of Serbia and Military Museum, Belgrade",
+  url: "https://imus.org.rs/wp-content/uploads/2020/03/Srbija-1914-Katalog.pdf",
+};
+const serbiaArticle: Source = {
+  title: "Serbia (Mile Bjelajac)",
+  publisher:
+    "1914-1918-online. International Encyclopedia of the First World War",
+  url: "https://encyclopedia.1914-1918-online.net/article/serbia/",
+};
+const southEastWarfare: Source = {
+  title: "Warfare 1914-1918 (South East Europe) (Dmitar Tasić)",
+  publisher:
+    "1914-1918-online. International Encyclopedia of the First World War",
+  url: "https://encyclopedia.1914-1918-online.net/article/warfare-1914-1918-south-east-europe/",
+};
+const balkanWar: Source = {
+  title: "War in the Balkans (Richard C. Hall)",
+  publisher:
+    "1914-1918-online. International Encyclopedia of the First World War",
+  url: "https://encyclopedia.1914-1918-online.net/article/war-in-the-balkans-1-1/",
+};
+const seeckt: Source = {
+  title: "Seeckt, Hans von (Dennis Showalter)",
+  publisher:
+    "1914-1918-online. International Encyclopedia of the First World War",
+  url: "https://encyclopedia.1914-1918-online.net/article/seeckt-hans-von/",
+};
+const occupation: Source = {
+  title:
+    "Occupation during and after the War (South East Europe) (Milan Ristović)",
+  publisher:
+    "1914-1918-online. International Encyclopedia of the First World War",
+  url: "https://encyclopedia.1914-1918-online.net/article/occupation-during-and-after-the-war-south-east-europe/",
+};
+const habsburgWar: Source = {
+  title:
+    "The First World War and the End of the Habsburg Monarchy, 1914–1918 (Manfried Rauchensteiner)",
+  publisher: "Böhlau Verlag, Austria-Forum web edition",
+  url: "https://austria-forum.org/web-books/firstworldwar01en2014isds/000178",
+};
+const balkanFront1918: Source = {
+  title: "World War I: The Balkan front, 1918",
+  publisher: "Encyclopaedia Britannica",
+  url: "https://www.britannica.com/event/World-War-I/The-Balkan-front-1918",
+};
+
 function unit(
   slug: string,
   title: string,
@@ -420,6 +468,191 @@ export const additionalCourses: Course[] = [
             "Write a multi-cause explanation of one case, including a competing interpretation.",
           guidance:
             "Use at least two named sources, distinguish immediate and structural causes, and identify evidence that could challenge your conclusion.",
+        },
+      ),
+    ],
+  },
+  {
+    slug: "serbian-front",
+    title: "The Serbian Front, 1914–1918",
+    level: "Intermediate",
+    description:
+      "Follow a small army through invasion, retreat, exile and return, using the source-backed studies of the Serbian Front.",
+    lessons: [
+      unit(
+        "waiting-for-the-blow",
+        "Waiting for the main blow: Cer, 1914",
+        [
+          "Explain why the Serbian plan waited for the direction of the invasion.",
+          "Analyse how the Second Army's move west turned a defensive plan into a counterattack.",
+        ],
+        [
+          "In August 1914 the Serbian Supreme Command under Radomir Putnik expected the main Austro-Hungarian attack from the north, across the Sava and the Danube. Its plan was to stay on the defensive until the direction of the invasion was clear. When the Fifth Army crossed the Drina from Bosnia instead, the Serbian armies had to shift west.",
+          "Stepa Stepanović's Second Army marched to support the Third Army and met the invaders on the Cer ridge on the night of 15–16 August. A flank attack nearly broke one of its divisions until reinforcements, and Stepanović himself, reached the front. By 20 August the Fifth Army was back across the Drina; Britannica and Tasić call Cer the first Allied victory of the war.",
+          "Cer also shows the limits of a victory. Pressed by its allies, Serbia followed it with an offensive into Syrmia that was repulsed at Šašinci and broken off when a second invasion began on the Drina. Ammunition, equipment and allied expectations shaped what a small army could attempt after winning.",
+        ],
+        ["cer", "syrmia-1914"],
+        [serbia1914, habsburgWar],
+        [
+          "Wait for the main blow",
+          "Shift to the threatened flank",
+          "Counterattack",
+          "Limits of exploitation",
+        ],
+        "Why did the Serbian armies have to redeploy in August 1914?",
+        [
+          "The invasion came from Bosnia rather than from the north",
+          "Montenegro withdrew its troops from the joint plan",
+          "Russia asked Serbia to attack Hungary at once",
+        ],
+        0,
+        "Putnik had expected the main attack from the north; the Fifth Army crossed the Drina from Bosnia instead.",
+        {
+          prompt:
+            "How much of the outcome at Cer came from the Serbian plan, and how much from Austro-Hungarian decisions?",
+          guidance:
+            "Compare the Serbian redeployment with Potiorek's choice to invade after the Second Army was sent to Russia. Treat Rauchensteiner's judgment of Potiorek's motives as an interpretation to test against the narrative.",
+        },
+      ),
+      unit(
+        "ground-for-time",
+        "Giving up ground: the Kolubara, 1914",
+        [
+          "Explain why the Serbian command shortened its front and abandoned Belgrade.",
+          "Identify the conditions that made the December counteroffensive possible.",
+        ],
+        [
+          "After weeks of entrenched fighting on the Drina, the Serbian army was short of artillery ammunition. When the third Austro-Hungarian offensive began on 6 November, it fell back toward Ub and Valjevo, and on 20 November the Sixth Army drove the First Army back to Mount Suvobor.",
+          "The Supreme Command chose to shorten its over-extended front and give up Belgrade. The Austro-Hungarian armies regrouped, sending the Fifth Army into the capital. On 3 December all three Serbian armies attacked; Živojin Mišić's First Army broke through from Suvobor and took Valjevo on 8 December, and the Serbs re-entered Belgrade on 15 December.",
+          "Trading ground for time can turn defeat into victory only if the army survives the withdrawal and the enemy over-extends. The cost came afterwards: in early 1915 an epidemic killed many soldiers, civilians and prisoners, and the army was exhausted.",
+        ],
+        ["drina-1914", "kolubara"],
+        [serbia1914, serbiaArticle],
+        [
+          "Exhaustion",
+          "Shortened front",
+          "Enemy over-extends",
+          "Counteroffensive",
+        ],
+        "What did the Serbian command give up to shorten its front in November 1914?",
+        ["Valjevo", "Belgrade", "Niš"],
+        1,
+        "The Supreme Command abandoned Belgrade and moved its defenders to Mount Kosmaj before counterattacking on 3 December.",
+        {
+          prompt:
+            "Was abandoning the capital a military decision, a political risk, or both?",
+          guidance:
+            "Consider how the withdrawal changed the Austro-Hungarian dispositions, and note that the museum catalogue's verdict on the counteroffensive reflects a national narrative.",
+        },
+      ),
+      unit(
+        "invaded-from-two-sides",
+        "Invaded from two sides: the choice of 1915",
+        [
+          "Explain how the Bulgarian attack changed the Serbian army's options.",
+          "Weigh the alternatives the Supreme Command faced in November 1915.",
+        ],
+        [
+          "In October 1915 Mackensen's German and Austro-Hungarian armies crossed the Danube and the Sava while Bulgaria attacked from the east. His chief of staff, Hans von Seeckt, organised heavy artillery, aircraft and bridging; Showalter calls the campaign an overlooked proto-blitzkrieg. Belgrade fell on 9 October.",
+          "The Serbian armies slowed the northern advance, but the Bulgarian capture of Skopje on 22 October cut the road to the Allies at Salonika. The army withdrew into Kosovo, followed by refugees. On 25 November the Supreme Command judged it unfit for a counteroffensive and capitulation worse, and ordered a retreat through Montenegro and Albania.",
+          "The winter retreat killed thousands of soldiers, civilians and prisoners, but the Montenegrin stand at Mojkovac and the Allied evacuation from the coast saved the army as a fighting force. The choice between losing the country and losing the army is a recurring dilemma of coalition war.",
+        ],
+        ["invasion-of-serbia-1915", "serbian-retreat-1915", "mojkovac"],
+        [serbiaArticle, southEastWarfare, seeckt],
+        [
+          "Attack from the north",
+          "Attack from the east",
+          "Escape route cut",
+          "Retreat to fight on",
+        ],
+        "Which event cut the Serbian army off from the Allies at Salonika?",
+        [
+          "The fall of Belgrade",
+          "The fall of Niš",
+          "The Bulgarian capture of Skopje",
+        ],
+        2,
+        "Skopje fell to the Bulgarian Second Army on 22 October, closing the Vardar route south.",
+        {
+          prompt:
+            "Could the Serbian army have done anything other than retreat in November 1915?",
+          guidance:
+            "Use Bjelajac's account of the Supreme Command's reasoning and Hall's brief mention of a stand on the old Kosovo battlefield. Distinguish documented reasoning from reconstruction.",
+        },
+      ),
+      unit(
+        "exile-and-occupation",
+        "Exile and occupation, 1916–1917",
+        [
+          "Describe how the Serbian army was rebuilt after the retreat.",
+          "Explain why the Toplica Uprising broke out and how it was suppressed.",
+        ],
+        [
+          "A French-led mission evacuated the survivors from the Albanian coast to Corfu, Bizerte and Italy. On Corfu the army recovered and the Serbian state kept functioning; in 1916 the rebuilt army was shipped to the Salonika front and given the centre of the Allied line.",
+          "In August 1916 a Bulgarian offensive struck south of Monastir. The Serbian army halted it and from 12 September fought for the summit of Kajmakčalan, which the First Army took on 30 September. In November the Allies entered Monastir (Bitola), the first Serbian town to be liberated.",
+          "Behind the lines Serbia was divided between Austro-Hungarian and Bulgarian occupation. Bulgarian conscription and denationalisation drove men into the woods, and in February 1917 an uprising broke out in Toplica, before the Allied breakthrough its organisers had been told to wait for. It was crushed within weeks, with reprisals against civilians.",
+        ],
+        [
+          "serbian-retreat-1915",
+          "kajmakcalan",
+          "monastir-1916",
+          "toplica-uprising",
+        ],
+        [serbiaArticle, southEastWarfare, occupation],
+        [
+          "Evacuation",
+          "Rebuilding in exile",
+          "Return to the front",
+          "Resistance under occupation",
+        ],
+        "Why did the Toplica Uprising come too early for the Serbian command's plan?",
+        [
+          "It broke out before the Allied breakthrough it was meant to support",
+          "It began only after the war had ended",
+          "It was ordered by the Allied command at Salonika",
+        ],
+        0,
+        "Kosta Pećanac had been sent to prepare a rising for the moment of an Allied breakthrough; local leaders insisted on acting at once.",
+        {
+          prompt:
+            "How should a history weigh a rising that failed militarily but cost many civilian lives?",
+          guidance:
+            "Compare Tasić's and Ristović's accounts with the testimonies gathered by the Historical Archives of Niš, and note that no Bulgarian-perspective source was read for these studies.",
+        },
+      ),
+      unit(
+        "breaking-the-front",
+        "Breaking a mountain front: Dobro Pole, 1918",
+        [
+          "Explain why a narrow mountain sector was chosen for the 1918 breakthrough.",
+          "Trace how the collapse of one front spread through the Central Powers' alliance.",
+        ],
+        [
+          "By 1918 the Bulgarian army was hungry, poorly clothed and losing morale; a Greek and French attack on Skra di Legen in June showed it. Hall notes that the idea of attacking at Dobro Pole came from a Serbian staff officer in 1916, because flatter ground behind the ridge led to the Vardar valley.",
+          "Under Franchet d'Espèrey, six Serbian and two French divisions attacked a front held by one Bulgarian division on 15 September, after a night bombardment. A British and Greek attack at Lake Doiran pinned Bulgarian reserves. Within a week the front west of the Vardar collapsed, and Bulgaria signed an armistice on 29 September.",
+          "The pursuit kept moving. The Serbian First Army and French cavalry reached Niš in October and Belgrade by 1 November, before German and Austro-Hungarian commanders could form a new front. Hall argues that hunger, poor equipment and strained alliances were as decisive as the attack itself.",
+        ],
+        ["dobro-pole", "liberation-of-serbia-1918"],
+        [balkanWar, balkanFront1918, serbiaArticle],
+        [
+          "Weak point",
+          "Concentrated assault",
+          "Pinning attack",
+          "Relentless pursuit",
+        ],
+        "What role did the attack at Lake Doiran play in September 1918?",
+        [
+          "It was the main breakthrough",
+          "It pinned Bulgarian reserves away from Dobro Pole",
+          "It brought Romania back into the war",
+        ],
+        1,
+        "The British and Greek attack failed locally but kept Bulgarian troops from moving west against the breach.",
+        {
+          prompt:
+            "Was Dobro Pole won by the attack or by the state of the Bulgarian army?",
+          guidance:
+            "Weigh Hall's emphasis on hunger, morale and alliance strains against Serbian commemorations that present the breakthrough above all as a Serbian victory.",
         },
       ),
     ],

@@ -61,13 +61,14 @@ it("has source-backed examples and valid answers in every lesson", () => {
       }
     }
 });
-it("validates all four learning paths in curriculum order", () => {
+it("validates all five learning paths in curriculum order", () => {
   const parsed = courseSchema.parse(courses);
   expect(parsed.map((c) => c.slug)).toEqual([
     "foundations",
     "classical-warfare",
     "napoleonic-warfare",
     "industrial-world-wars",
+    "serbian-front",
   ]);
   for (const course of parsed) {
     const slugs = course.lessons.map((l) => l.slug);
@@ -76,7 +77,11 @@ it("validates all four learning paths in curriculum order", () => {
   }
 });
 it("gives every extended-path lesson a diagram, seminar and traceable sources", () => {
-  for (const slug of ["classical-warfare", "industrial-world-wars"]) {
+  for (const slug of [
+    "classical-warfare",
+    "industrial-world-wars",
+    "serbian-front",
+  ]) {
     const course = courses.find((c) => c.slug === slug)!;
     for (const l of course.lessons) {
       expect(l.diagram?.length, l.slug).toBeGreaterThanOrEqual(2);

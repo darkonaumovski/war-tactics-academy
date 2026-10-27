@@ -2,7 +2,7 @@
 
 Paste everything below the line into a new Claude Code session opened in this repository.
 
-**Status:** Phase 0 was approved and done on 27 October 2026. The engagement list below is the approved plan; resume at batch S1.
+**Status (27 October 2026):** Phases 0, 1 and 2 are done and pushed: the 14 core engagements (S1–S4) and 16 commander profiles (C1–C4). The four optional engagements were declined. Resume at Phase 3.
 
 ---
 
@@ -65,7 +65,7 @@ Candidate sources to try (check each one exists and says what you cite): _1914-1
 | S4    | `dobro-pole`                | Breakthrough at Dobro Pole                             | 15–18 Sep 1918      | Serbian Second Army with two French divisions; Franchet d'Espèrey; Mišić as chief of staff; leads to Bulgaria's armistice (29 or 30 September).                                                         |
 | S4    | `liberation-of-serbia-1918` | Liberation of Serbia                                   | Sep–Nov 1918        | Veles and Štip 26 September, Niš 12 October, all of pre-war Serbia by 1 November.                                                                                                                       |
 
-### Optional engagements (ask me first)
+### Optional engagements (declined on 27 October 2026)
 
 | Batch | Slug            | Engagement                                                 | Date         |
 | ----- | --------------- | ---------------------------------------------------------- | ------------ |

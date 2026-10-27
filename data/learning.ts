@@ -263,6 +263,7 @@ export const courses: Course[] = [
   additionalCourses[0],
   initialCourses[1],
   additionalCourses[1],
+  additionalCourses[2],
 ];
 export const scenarios: Scenario[] = [
   {
@@ -465,6 +466,142 @@ export const scenarios: Scenario[] = [
         text: "March south quickly and confront William near the coast.",
         feedback:
           "This resembles the historical course. Speed could contain the invasion and protect the south, but it meant fighting before all available forces had gathered.",
+        historical: true,
+      },
+    ],
+  },
+  {
+    slug: "where-the-blow-falls",
+    title: "Where will the blow fall?",
+    battleSlug: "cer",
+    commander: "Radomir Putnik",
+    situation:
+      "Mid-August 1914. Austria-Hungary has declared war and shelled Belgrade. Your armies were concentrated for an invasion you expected from the north, across the Sava and the Danube.",
+    known:
+      "Austro-Hungarian corps have crossed the Drina from Bosnia and are pressing your Third Army in the Jadar valley. Šabac has been taken.",
+    unknown:
+      "Whether the Drina crossing is the main attack, and whether more troops will cross the Sava behind your armies.",
+    historical:
+      "The Supreme Command sent Stepanović's Second Army west to support the Third. It met the invaders on the Cer ridge on 15–16 August, and by 20 August the Austro-Hungarian Fifth Army was back across the Drina.",
+    options: [
+      {
+        text: "Keep the main force in the north and hold the Sava and the Danube.",
+        feedback:
+          "This guards against a second invasion from the north, but leaves the Third Army to face the Drina attack alone. An interpretive alternative; the outcome cannot be known.",
+        historical: false,
+      },
+      {
+        text: "Split the reserve evenly between the north and the Drina.",
+        feedback:
+          "This hedges against both threats but risks being too weak everywhere. It is not a documented plan.",
+        historical: false,
+      },
+      {
+        text: "Send the Second Army west to strike the invaders on the Drina front.",
+        feedback:
+          "This matches the historical decision. Concentrating against the main attack won at Cer, but it accepted the risk of an attack from the north.",
+        historical: true,
+      },
+    ],
+  },
+  {
+    slug: "give-up-the-capital",
+    title: "Give up the capital?",
+    battleSlug: "kolubara",
+    commander: "Serbian Supreme Command",
+    situation:
+      "Late November 1914. After weeks of fighting the army is short of artillery ammunition. The Austro-Hungarian Sixth Army has pushed your First Army back across the Ljig to Mount Suvobor, and your front is over-extended.",
+    known:
+      "The Austro-Hungarian armies are attacking along the whole line. Belgrade is held by troops that could strengthen the front elsewhere.",
+    unknown:
+      "Whether the enemy will over-extend in turn, and how losing the capital will affect morale and your allies.",
+    historical:
+      "The Supreme Command shortened the front and abandoned Belgrade. The Austro-Hungarian armies regrouped, and on 3 December all three Serbian armies counterattacked; Belgrade was retaken on 15 December.",
+    options: [
+      {
+        text: "Hold every line, including Belgrade, at any cost.",
+        feedback:
+          "Holding everything would keep the capital but stretch an exhausted army further. An interpretive alternative; the outcome cannot be known.",
+        historical: false,
+      },
+      {
+        text: "Shorten the front, give up Belgrade and prepare to counterattack.",
+        feedback:
+          "This matches the historical decision. Giving up the capital bought a shorter front and time, and the counteroffensive caught the enemy regrouping.",
+        historical: true,
+      },
+      {
+        text: "Fall back far to the south to rebuild the army before fighting again.",
+        feedback:
+          "A deeper retreat would gain more time but give up much more of the country. It is not a documented plan.",
+        historical: false,
+      },
+    ],
+  },
+  {
+    slug: "november-1915",
+    title: "November 1915",
+    battleSlug: "invasion-of-serbia-1915",
+    commander: "Serbian Supreme Command",
+    situation:
+      "November 1915. German and Austro-Hungarian armies advance from the north; Bulgarian armies have taken Skopje and cut the road to the Allies at Salonika. Your army has withdrawn into Kosovo, followed by refugees.",
+    known:
+      "The army is not fit for a counteroffensive, and the Allied force at Salonika is small and far away.",
+    unknown:
+      "Whether the mountains of Montenegro and Albania can be crossed in winter, and whether Allied ships will come to the coast.",
+    historical:
+      "On 25 November the Supreme Command ordered a retreat through Montenegro and Albania. Thousands died on the way, but Allied ships carried the survivors to Corfu, and the rebuilt army returned to fight in 1916.",
+    options: [
+      {
+        text: "Retreat across the mountains to the Adriatic and fight on beside the Allies.",
+        feedback:
+          "This matches the historical decision. It saved the army as a fighting force, at a terrible cost to soldiers, civilians and prisoners.",
+        historical: true,
+      },
+      {
+        text: "Make a final stand on the Kosovo plain.",
+        feedback:
+          "A stand would defend the last Serbian ground but risk encirclement and capitulation, which the Supreme Command judged worse than retreat.",
+        historical: false,
+      },
+      {
+        text: "Break south through the Bulgarian line toward Salonika.",
+        feedback:
+          "Reaching the Allies would keep the army in the war, but it would have to attack an enemy it was no longer fit to attack. An interpretive alternative.",
+        historical: false,
+      },
+    ],
+  },
+  {
+    slug: "where-to-break-the-front",
+    title: "Where to break the front?",
+    battleSlug: "dobro-pole",
+    commander: "Louis Franchet d'Espèrey",
+    situation:
+      "Summer 1918. You command the Allied armies in Macedonia. The front has stood almost still for nearly two years, from the Albanian coast to the Aegean.",
+    known:
+      "Bulgarian morale is falling; the attack on Skra di Legen in June showed it. Serbian staff officers have long argued for an attack at Dobro Pole, where flatter ground lies behind the ridge.",
+    unknown:
+      "Whether a breach in the mountains can be widened before reserves arrive, and how the Bulgarian army will react.",
+    historical:
+      "Franchet d'Espèrey attacked at Dobro Pole on 15 September with six Serbian and two French divisions, supported by an attack at Doiran. The front collapsed and Bulgaria signed an armistice on 29 September.",
+    options: [
+      {
+        text: "Attack along the whole front to stretch the Bulgarian reserves.",
+        feedback:
+          "A broad attack would test the whole line but spread your own strength thin. It is not a documented plan.",
+        historical: false,
+      },
+      {
+        text: "Make the main effort at Lake Doiran, on the easier ground near the Vardar.",
+        feedback:
+          "Doiran was attacked as a supporting operation, and the Bulgarians held there. An interpretive alternative; the outcome cannot be known.",
+        historical: false,
+      },
+      {
+        text: "Concentrate on the narrow mountain sector at Dobro Pole, with a supporting attack at Doiran.",
+        feedback:
+          "This matches the historical decision. The breach at Dobro Pole could not be sealed, and the Bulgarian front collapsed within days.",
         historical: true,
       },
     ],

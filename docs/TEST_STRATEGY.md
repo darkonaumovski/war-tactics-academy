@@ -16,7 +16,7 @@ Playwright defines Chromium, Firefox and WebKit projects. Unless `PLAYWRIGHT_BAS
 - Lesson answers, explanatory results and completion after reload, in both the Foundations path and the Classical Warfare path, including seminar guidance and lesson page titles.
 - Media library filtering, empty-state recovery, the video tab, on-request official embeds (with YouTube blocked) and links to related studies.
 - Commander portrait attribution and the fallback when the image request fails.
-- All six decision exercises, history/counterfactual separation and persistence.
+- All ten decision exercises, history/counterfactual separation and persistence.
 - The engagement category filter, including operations.
 - Page metadata (title, description, canonical URL, Open Graph type) and the sitemap.
 - Commander role filtering, the command record and chronology on a profile, and principal commands and notable decisions in the comparison.

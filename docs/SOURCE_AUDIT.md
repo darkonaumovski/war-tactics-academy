@@ -317,3 +317,7 @@ Profiles of Oskar Potiorek, Franz Conrad von Hötzendorf, Hermann Kövess and St
 ## Serbian Front, commander profiles C4 (27 October 2026)
 
 Profiles of August von Mackensen, Erich von Falkenhayn, Max von Gallwitz, Hans von Seeckt and Otto von Below were added; sources and limits are in `docs/COMMANDER_SOURCES.md`. New sources read: Afflerbach on Falkenhayn, Showalter on Seeckt and Höhn on Mackensen (1914-1918-online, read in the browser; the site's PDF versions are bot-blocked); the _Neue Deutsche Biographie_ entries on Gallwitz and Below (in German). Friedrich von Scholtz, Arnold von Winckler and Kuno von Steuben were not added for lack of an institutional or scholarly source.
+
+## Serbian Front, course and exercises (27 October 2026)
+
+A five-lesson course, _The Serbian Front, 1914–1918_, and four decision exercises (Cer, the Kolubara, November 1915 and Dobro Pole) were added. They draw only on sources already read and audited for the Serbian Front studies; each lesson lists its readings. The exercises' historical outcomes follow the studies, and the non-historical options are marked as interpretive alternatives. The Kolubara exercise puts the choice to the Supreme Command, since no source read records Mišić's request to withdraw. The four optional engagements (Krivolak, Lovćen, Doiran and Dobruja) were declined.

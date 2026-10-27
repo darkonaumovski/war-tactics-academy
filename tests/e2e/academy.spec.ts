@@ -3,6 +3,7 @@ import AxeBuilder from "@axe-core/playwright";
 import type { Page } from "@playwright/test";
 import { research } from "../../data/research";
 import { battles } from "../../data/catalog";
+import { scenarios } from "../../data/learning";
 // Scroll-revealed sections stay transparent until seen, and axe skips
 // transparent text. Scroll through the page so every section is audited.
 // The pass repeats because hydration can finish after an early pass, at which
@@ -259,15 +260,8 @@ test("decision feedback separates history and counterfactual and persists", asyn
     page.getByRole("button", { name: "Examine this decision" }),
   ).toBeDisabled();
 });
-test("all six historical exercises are usable", async ({ page }) => {
-  for (const slug of [
-    "after-cannae",
-    "midway-intelligence",
-    "hold-the-ridge",
-    "strike-the-plateau",
-    "two-fronts-at-alesia",
-    "march-south",
-  ]) {
+test("every historical exercise is usable", async ({ page }) => {
+  for (const { slug } of scenarios) {
     await page.goto(`/simulator/${slug}`);
     await page.getByRole("radio").first().check();
     await page.getByRole("button", { name: "Examine this decision" }).click();

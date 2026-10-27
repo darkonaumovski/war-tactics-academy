@@ -26,8 +26,8 @@ The guiding principle is to explain what commanders knew, what they decided and 
 
 - **Battle replay** with pan, zoom, phase selection, playback, event popups, a legend and a full text timeline. Replay diagrams are labeled as schematic, never as surveyed troop positions.
 - **Offline world atlas** using bundled Natural Earth geography; no map tile server is needed.
-- **Six decision exercises** (Waterloo, Cannae, Midway, Austerlitz, Alesia and Hastings): read the situation, choose under uncertainty, then compare with what happened and with an explicitly counterfactual interpretation.
-- **Four learning paths with 21 lessons**: Foundations of Military History, Classical Warfare, Napoleonic Warfare, and Industrial and World Wars. Each lesson has objectives, historical cases, a concept diagram and a quiz; the Classical and Industrial lessons add readings and seminar prompts.
+- **Ten decision exercises** (Waterloo, Cannae, Midway, Austerlitz, Alesia, Hastings, and four on the Serbian Front: Cer, the Kolubara, the retreat of 1915 and Dobro Pole): read the situation, choose under uncertainty, then compare with what happened and with an explicitly counterfactual interpretation.
+- **Five learning paths with 26 lessons**: Foundations of Military History, Classical Warfare, Napoleonic Warfare, Industrial and World Wars, and The Serbian Front, 1914–1918. Each lesson has objectives, historical cases, a concept diagram and a quiz; the Classical, Industrial and Serbian Front lessons add readings and seminar prompts.
 - **Curated media library** of nine verified records: two official National Archives (UK) D-Day videos, loaded only on request through privacy-enhanced YouTube embeds; public-domain portraits of Grant and Eisenhower, also shown on their profiles; two historic maps; and three primary documents. Each record stores publisher, license, attribution and verification date.
 - **Search and filters**: global search across battles, commanders, wars, campaigns and lessons, plus era, region, category and command-role filters.
 - **Saved progress** in the browser: bookmarks, recently visited records, lesson scores, decision choices and the light or dark theme. No account is needed.
@@ -161,6 +161,7 @@ All releases are deployed to the live site.
 
 | Commit    | Change                                                                                                                                                                                                        |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `c825061` | Profiles of the German commanders Mackensen, Falkenhayn, Gallwitz, Seeckt and Otto von Below, completing the Serbian Front commander profiles.                                                                |
 | `cc09f5e` | Profiles of the Austro-Hungarian commanders Potiorek, Conrad, Kövess and Sarkotić.                                                                                                                            |
 | `71d930a` | Profiles of Crown Prince Alexander, Pavle Jurišić Šturm and Kosta Pećanac; Bojović's date of death narrowed to January 1945.                                                                                  |
 | `6f201ec` | Profiles of the four Serbian vojvode: Putnik, Stepanović, Mišić and Bojović, linked to the engagements their sources confirm.                                                                                 |
@@ -191,7 +192,7 @@ All releases are deployed to the live site.
 
 ## Known limitations
 
-- The four learning paths are introductory editorial courses (one question per lesson), not reviewed university curricula.
+- The five learning paths are introductory editorial courses (one question per lesson), not reviewed university curricula.
 - The seventy-three battle analyses and 60 commander profiles need deeper scholarly review, fuller biographies and sentence-level citations before being treated as an academic reference work. Study sections are still brief.
 - War pages give orientation, not comprehensive operational histories, and have no dedicated bibliography. Campaign pages remain indexes.
 - Replay diagrams explain abstract relationships; they do not simulate combat or reconstruct exact formations. Atlas locations and Natural Earth coastlines are approximate modern context.

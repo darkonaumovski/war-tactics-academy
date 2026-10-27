@@ -9,12 +9,12 @@ import {
 import { battles, wars, campaigns, eras } from "../../data/catalog";
 import { courses } from "../../data/learning";
 it("validates source-backed analyses and the commander corpus", () => {
-  expect(researchSchema.parse(research)).toHaveLength(86);
+  expect(researchSchema.parse(research)).toHaveLength(91);
   expect(commanderSchema.parse(commanders)).toHaveLength(60);
 });
-it("provides 86 unique engagement slugs and a connected hierarchy", () => {
-  expect(battles).toHaveLength(86);
-  expect(new Set(battles.map((b) => b.slug)).size).toBe(86);
+it("provides 91 unique engagement slugs and a connected hierarchy", () => {
+  expect(battles).toHaveLength(91);
+  expect(new Set(battles.map((b) => b.slug)).size).toBe(91);
   for (const b of battles) {
     expect(wars.some((w) => w.slug === b.warId)).toBe(true);
     expect(
@@ -39,6 +39,10 @@ it("orders engagements in the same year by date", () => {
     ["borodino", "berezina"],
     ["lutzen-1813", "bautzen"],
     ["bautzen", "dresden"],
+    ["dresden", "leipzig"],
+    ["six-days-campaign", "laon"],
+    ["laon", "arcis-sur-aube"],
+    ["ligny", "waterloo"],
     ["cer", "tannenberg"],
     ["syrmia-1914", "drina-1914"],
     ["drina-1914", "kolubara"],

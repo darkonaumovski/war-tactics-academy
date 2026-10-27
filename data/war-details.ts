@@ -526,8 +526,8 @@ export const warDetails: Record<string, WarDetails> = {
         "Invasion of Russia; Smolensk and Borodino; retreat and the Berezina",
       ],
       ["1813", "Lützen, Bautzen and Dresden; Battle of Leipzig"],
-      ["1814", "Napoleon abdicates"],
-      ["1815", "Hundred Days; Waterloo"],
+      ["1814", "Campaign in France; Paris capitulates; Napoleon abdicates"],
+      ["1815", "Hundred Days; Ligny and Waterloo"],
     ),
   },
   "civil-war": {

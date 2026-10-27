@@ -1094,5 +1094,1460 @@
         "outcome": "After Glasinac the Serbian and Montenegrin forces left Bosnia."
       }
     ]
+  },
+  {
+    "slug": "kolubara",
+    "sources": [
+      {
+        "title": "Serbia 1914: exhibition catalogue (Miloš Ković, Nebojša Damnjanović, Vuk Obradović and Sanja Veljković)",
+        "url": "https://imus.org.rs/wp-content/uploads/2020/03/Srbija-1914-Katalog.pdf",
+        "publisher": "Historical Museum of Serbia and Military Museum, Belgrade"
+      },
+      {
+        "title": "Warfare 1914-1918 (South East Europe) (Dmitar Tasić)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/warfare-1914-1918-south-east-europe/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Serbia (Mile Bjelajac)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/serbia/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "World War I: The Serbian campaign, 1914 (Dennis E. Showalter)",
+        "url": "https://www.britannica.com/event/World-War-I/The-Serbian-campaign-1914",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "War in the Balkans (Richard C. Hall)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/war-in-the-balkans-1-1/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Radomir Putnik",
+        "url": "https://www.britannica.com/biography/Radomir-Putnik",
+        "publisher": "Encyclopaedia Britannica"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After the Drina fighting, Austria-Hungary launched its third offensive against Serbia on 6 November 1914. Short of artillery ammunition and outnumbered, the Serbian army fell back toward Ub and Valjevo.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "A Serbian defeat would have opened the whole country to occupation. Bjelajac stresses that the army had spent its artillery ammunition in weeks of entrenched fighting and was still waiting for supplies its allies had promised.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Potiorek's Fifth and Sixth Armies, reinforced and resupplied, aimed to break the Serbian line on the Kolubara. The Austro-Hungarian command believed the Serbs held only weak lines on the Kolubara and the Ljig, with their main force in the rear.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The Kolubara and its tributary the Ljig run north through western Serbia toward the Sava; to the south rises Mount Suvobor, and Valjevo lies to the west. Belgrade stands where the Sava meets the Danube.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Putnik concentrated all three Serbian armies, the Užice Army and the Obrenovac Detachment on the Kolubara, and organised the defence of Belgrade. Živojin Mišić commanded the First Army. On the other side Potiorek commanded the Fifth and Sixth Armies, with the 13th, 15th and 16th Corps. Strengths and prisoner figures given in the sources are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "On 16 November the Fifth Army, supported by the 13th Corps, reached the Kolubara and attacked, but for two days could not break through.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 20 November the Sixth Army struck the Serbian First Army and drove it back across the Ljig to Mount Suvobor. To shorten an over-extended front, the Serbian Supreme Command withdrew to new positions and gave up Belgrade, moving its defenders to Mount Kosmaj; Britannica dates the evacuation to 30 November, and Hall the Austro-Hungarian occupation to 2 December. While the Austro-Hungarian armies regrouped, the Fifth taking Belgrade and the Sixth replacing it in the line, all three Serbian armies attacked on the morning of 3 December. Mišić's First Army took the enemy by surprise; its 1st Danube Division broke through on Suvobor and took Valjevo on 8 December. The 16th Corps' retreat exposed the Austro-Hungarian right and the 15th and 13th Corps fell back in turn. Potiorek ordered the Sixth Army back across the Sava; on 11 December the Serbs attacked the Fifth Army before Belgrade, and on 15 December they entered the city.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "The Supreme Command chose to shorten the front and abandon Belgrade rather than hold everywhere, then struck while the Austro-Hungarian armies were regrouping.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The First Army's surprise attack from Suvobor on 3 December, and the breakthrough of the 1st Danube Division, unhinged the Austro-Hungarian right and forced the chain retreat of the other corps.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The invading armies were driven out of Serbia for the third time in 1914 and many Austro-Hungarian soldiers were taken prisoner. Britannica notes that mud and exhaustion kept the Serbs from turning the retreat into a rout.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The victory gave Serbia a long respite from invasion, but its army was exhausted. In the first months of 1915 an epidemic, typhus in Bjelajac's account and typhoid fever in Tasić's, killed many soldiers, wounded men, civilians and Austro-Hungarian prisoners. On 7 December 1914, at Niš, Prime Minister Nikola Pašić first set out a war aim beyond defence: a state uniting the South Slavs.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A defender who trades ground, even the capital, for a shorter front and time to resupply can catch an over-extended attacker in the act of regrouping.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The museum catalogue calls the battle a rare example of a heavy counteroffensive under extreme conditions without reinforcements, a judgment typical of the national narrative. The dates of Belgrade's loss differ (30 November in Britannica, 2 December in Hall), and accounts differ on whether the 1914 invasions numbered two or three. The sources read here do not describe how the Serbian army was resupplied before the counteroffensive.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The Historical Museum of Serbia and Military Museum catalogue gives the detailed narrative. Mile Bjelajac's, Dmitar Tasić's and Richard C. Hall's 1914-1918-online articles and Britannica's account of the 1914 campaign and its biography of Putnik give the context, dates and consequences.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "On the Kolubara",
+        "time": "16–19 November 1914",
+        "description": "The Fifth Army attacks the Kolubara line and is held for two days."
+      },
+      {
+        "title": "Back to Suvobor",
+        "time": "20 November – 2 December 1914",
+        "description": "The First Army is pushed back to Suvobor; Belgrade is given up."
+      },
+      {
+        "title": "Counteroffensive",
+        "time": "3–8 December 1914",
+        "description": "All three Serbian armies attack; the First Army breaks through and takes Valjevo."
+      },
+      {
+        "title": "Belgrade retaken",
+        "time": "11–15 December 1914",
+        "description": "The Fifth Army is driven over the Sava and the Serbs enter Belgrade."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Živojin Mišić",
+        "objective": "Stop the Sixth Army and then break its line.",
+        "known": "His army had been pushed back across the Ljig to Suvobor.",
+        "uncertainty": "Whether his exhausted troops could attack successfully.",
+        "constraints": "Losses, exhaustion and shortages after weeks of fighting.",
+        "forces": "The First Army, including the 1st Danube Division.",
+        "terrain": "The heights of Mount Suvobor above the Kolubara valley.",
+        "logistics": "Supplies that had to be rebuilt during the withdrawal.",
+        "decision": "He attacked on the morning of 3 December as ordered and pressed the breakthrough toward Valjevo.",
+        "outcome": "The Austro-Hungarian front collapsed from its right."
+      },
+      {
+        "name": "Oskar Potiorek",
+        "objective": "Destroy the Serbian army and occupy Serbia.",
+        "known": "The Serbs were withdrawing and had given up Belgrade.",
+        "uncertainty": "Whether the Serbian army could still attack.",
+        "constraints": "Over-stretched supply lines and exhausted troops.",
+        "forces": "The Fifth and Sixth Armies.",
+        "terrain": "River lines and mountains in western Serbia, with Belgrade on the Sava.",
+        "logistics": "Long lines of supply back across the Sava and the Drina.",
+        "decision": "He regrouped, sending the Fifth Army to Belgrade and the Sixth into its place; after the breakthrough he ordered the Sixth Army back across the Sava and the Fifth to hold before Belgrade.",
+        "outcome": "His armies were driven out of Serbia."
+      }
+    ]
+  },
+  {
+    "slug": "belgrade-1915",
+    "sources": [
+      {
+        "title": "Serbia (Mile Bjelajac)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/serbia/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Nelson's History of the War, vol. XI: The Struggle for the Dvina, and the Great Invasion of Serbia (p. 135)",
+        "url": "https://pretraziva.rs/show/nelson-s-history-of-war-11-struggle-for-dvina-and-great-invasion-of-serbia/159",
+        "publisher": "University Library “Svetozar Marković”, Belgrade (digital library)"
+      },
+      {
+        "title": "Mausoleum of Belgrade Defenders",
+        "url": "https://www.beogradskatvrdjava.co.rs/%d0%ba%d0%be%d1%81%d1%82%d1%83%d1%80%d0%bd%d0%b8%d1%86%d0%b0-%d0%b1%d1%80%d0%b0%d0%bd%d0%b8%d0%bb%d0%b0%d1%86%d0%b0-%d0%b1%d0%b5%d0%be%d0%b3%d1%80%d0%b0%d0%b4%d0%b0/?lang=en",
+        "publisher": "Belgrade Fortress"
+      },
+      {
+        "title": "Marking 95th anniversary of WWI defense of Belgrade",
+        "url": "https://www.mod.gov.rs/eng/2322/obelezena-95-godisnjica-odbrane-beograda-2322",
+        "publisher": "Ministry of Defence of the Republic of Serbia"
+      },
+      {
+        "title": "War in the Balkans (Richard C. Hall)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/war-in-the-balkans-1-1/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Remembering World War I: 1915",
+        "url": "https://www.britannica.com/topic/Remembering-World-War-I-1954306/1915",
+        "publisher": "Encyclopaedia Britannica"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After ten months of relative quiet, the Central Powers prepared a new invasion of Serbia in the autumn of 1915. Belgrade, the capital, stood on the frontier where the Sava meets the Danube.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The invasion's main targets were Belgrade and the Morava valley, through which the Central Powers meant to link up with Bulgaria and the Ottoman Empire and cut the supply route from Salonika.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Kövess's Austro-Hungarian Third Army aimed at the capital, crossing the Sava and the Danube at Belgrade; Gallwitz's German Eleventh Army crossed farther east toward the Morava valley.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Belgrade's fortress and lower town face the confluence of the Sava and the Danube, with the island of Ciganlija on the Sava upstream. The rivers were the defenders' moat, but the north banks gave the attackers room for heavy batteries.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The Serbian defenders included Major Dragutin Gavrilović's men near the railway embankment on the Danube. Russian marine engineers, gunners and mine and torpedo batteries, with British and French guns and men, had come to strengthen the river defences, and a French aviation mission had arrived. Mackensen commanded the Central Powers' offensive. Strengths given in the sources are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Kövess's batteries opened on Belgrade on 19 September, but at first Serbian artillery and the guns of British sailors prevented a crossing. Heavy guns brought from Poland began a full bombardment on 3 October.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The offensive across the rivers opened on 6 or 7 October. Under heavy fire the Sava and the Danube were crossed, the Danube at Belgrade itself. Artillery made the city untenable, and the Serbs began to evacuate it on 8 October; fighting went on along the quays and in the lower town, where Gavrilović's men held off attacks from both rivers until he ordered them to counterattack. By evening the citadel and the royal palace had fallen, and street fighting continued until Kövess held the whole city on the morning of 9 October.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "The Serbian command defended the river line at Belgrade but evacuated the city once the crossings succeeded, keeping its army in the field for the campaign to the south.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The arrival of heavy artillery, against which the Serbs had no guns of comparable calibre, made the crossings possible and the city untenable.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Belgrade fell on 9 October 1915. Gavrilović was severely wounded, and many of the defenders were killed and buried along the fortress walls.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 5
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "With Belgrade lost, the Serbian army fell back into the interior as Bulgaria joined the attack from the east. After the war the defenders' remains were gathered in an ossuary beside the Jakšić Tower in the fortress, marked by a cross of cannon barrels, and a memorial built in 1931 at the New Cemetery holds the remains of Belgrade's defenders and liberators.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A river line can delay a better-equipped attacker, but once heavy artillery can reach the far bank, a capital on the frontier cannot be held for long.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The opening date is given as 6 October (Bjelajac, Hall) or 7 October (Britannica's chronology and the contemporary Nelson's History). Britannica's chronology says the Germans captured Belgrade; Nelson's History credits Kövess's Austro-Hungarians. Nelson's History is a wartime British account. Gavrilović's famous address to his men does not appear in the sources read here and is not quoted.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Mile Bjelajac's and Richard C. Hall's 1914-1918-online articles give the context and Allied help. The contemporary Nelson's History of the War, read in the Belgrade University Library's digital library, gives the course of the crossings. The Belgrade Fortress and the Serbian Ministry of Defence describe the defenders and their memorials, and Britannica's chronology gives the date of the fall.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Bombardment",
+        "time": "19 September – 5 October 1915",
+        "description": "Batteries open on Belgrade; heavy guns begin a full bombardment on 3 October."
+      },
+      {
+        "title": "The crossings",
+        "time": "6–7 October 1915",
+        "description": "The Sava and the Danube are crossed, the Danube at Belgrade itself."
+      },
+      {
+        "title": "Quays and lower town",
+        "time": "7–8 October 1915",
+        "description": "Gavrilović's men fight along the river; the evacuation begins on the 8th."
+      },
+      {
+        "title": "The city falls",
+        "time": "8–9 October 1915",
+        "description": "The citadel and palace fall; Kövess holds the city on the 9th."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Dragutin Gavrilović",
+        "objective": "Hold the Danube bank at Belgrade.",
+        "known": "The enemy was attacking across both the Danube and the Sava.",
+        "uncertainty": "How long the line could be held under heavy artillery fire.",
+        "constraints": "No guns to match the enemy's heavy artillery.",
+        "forces": "His soldiers near the railway embankment on the Danube.",
+        "terrain": "Quays, the lower town and the fortress at the river confluence.",
+        "logistics": "A city under bombardment and being evacuated.",
+        "decision": "When the capital was being lost, he ordered his men to counterattack.",
+        "outcome": "He was severely wounded and the city fell on 9 October."
+      },
+      {
+        "name": "General Kövess",
+        "objective": "Take Belgrade.",
+        "known": "Serbian artillery and Allied naval guns had stopped earlier crossing attempts.",
+        "uncertainty": "Whether the crossings would succeed against the river defences.",
+        "constraints": "Wide rivers and an opposed landing.",
+        "forces": "The Austro-Hungarian Third Army.",
+        "terrain": "The Sava and the Danube, with Ciganlija island upstream.",
+        "logistics": "Heavy guns brought from Poland.",
+        "decision": "He waited for the heavy artillery, then crossed under its cover at several points.",
+        "outcome": "He held the city by the morning of 9 October."
+      }
+    ]
+  },
+  {
+    "slug": "invasion-of-serbia-1915",
+    "sources": [
+      {
+        "title": "Serbia (Mile Bjelajac)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/serbia/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Warfare 1914-1918 (South East Europe) (Dmitar Tasić)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/warfare-1914-1918-south-east-europe/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "War in the Balkans (Richard C. Hall)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/war-in-the-balkans-1-1/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "World War I: Serbia and the Salonika expedition, 1915–17",
+        "url": "https://www.britannica.com/event/World-War-I/Italy-and-the-Italian-front-1915-16",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Remembering World War I: 1915",
+        "url": "https://www.britannica.com/topic/Remembering-World-War-I-1954306/1915",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "August von Mackensen",
+        "url": "https://www.britannica.com/biography/August-von-Mackensen",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Montenegro (Radoslav Raspopović)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/montenegro/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After the defeats of 1914, the Central Powers wanted to finish with Serbia, for prestige and to secure rail communications with the Ottoman Empire. In September 1915 Bulgaria joined them in return for Serbian territory.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Serbia proposed to strike Bulgaria before it finished mobilising, but its western allies opposed this. Britain and France sent troops to Salonika, but the Greek prime minister who invited them fell from power the day they arrived.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Mackensen's plan was to attack from the north along the Morava valley while Bulgarian armies struck from the east, to link up with Bulgaria and the Ottoman Empire and cut Serbia off from Salonika.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The northern armies crossed the Danube and the Sava, then advanced up the Morava valley; the Bulgarians attacked eastern Serbia and the Vardar valley in Macedonia. The Serbian army was pushed back toward the plain of Kosovo.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Mackensen commanded the Austro-Hungarian Third Army, the German Eleventh Army and two Bulgarian armies, with Sarkotić's troops from Bosnia. Putnik's Supreme Command faced them with the First, Second and Third Armies, supported by the Montenegrin army. Tasić puts the Serbs at half the attackers' strength; detailed figures are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "In the fighting that followed, the First and Third Armies met the attack from the north and the Second Army the Bulgarian First Army in the east.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The Austro-German offensive crossed the rivers on 6 or 7 October and took Belgrade on 9 October. Bulgaria attacked eastern Serbia on 11 October and Macedonia on 14 October. In two weeks the northern armies advanced only about thirty kilometres against the First and Third Armies, and the Second Army held the Bulgarian First Army. Reinforced by the German Alpine Corps, the attack pushed forward again at the end of October. The Bulgarian Second Army took Skopje on 22 October, cutting the road to Salonika, and turned toward Kosovo. Niš fell on 6 November. The Serbian army, followed by refugees, withdrew into Kosovo, escaping several attempts to encircle it; Hall writes that it tried to make a stand there but could not hold. On 25 November the Supreme Command ordered a retreat through Montenegro and Albania.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "On 25 November the Supreme Command judged the army unfit for a counteroffensive but capitulation worse, and chose to take the army out of the country to fight on with the Allies.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The Bulgarian capture of Skopje on 22 October cut the Serbian army off from the Allies in Salonika and decided the campaign.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Serbia was overrun by the end of November. The Allied force that advanced up the Vardar could not reach the Serbs and fell back into Greece in December.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The Central Powers opened the Danube route and the railway to Constantinople. Serbia was divided into an Austro-Hungarian military government and a Bulgarian zone, where the Bulgarian authorities treated the population as Bulgarian and suppressed Serbian schools, names and the Cyrillic alphabet. The Montenegrin army covered the Serbian withdrawal, at heavy cost to itself.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 4
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "An army attacked from two sides with no reachable ally can still save itself by retreating, if it moves before it is encircled.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Bulgaria's entry is dated 11 October (Britannica), 12 October (Bjelajac) or 14 October (Tasić, and Britannica's chronology for the declaration of war). Bjelajac argues that the Allies arrived too slowly and did not engage on a larger scale. Hall's stand on the old Kosovo battlefield is described only briefly in the sources read here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Mile Bjelajac's 1914-1918-online article gives the most detailed account; Dmitar Tasić's, Richard C. Hall's and Radoslav Raspopović's articles in the same encyclopedia, Britannica's account of the Salonika expedition, its 1915 chronology and its biography of Mackensen give the setting and dates.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "The northern offensive",
+        "time": "6–9 October 1915",
+        "description": "Austro-German armies cross the Danube and the Sava and take Belgrade."
+      },
+      {
+        "title": "Bulgaria attacks",
+        "time": "11–22 October 1915",
+        "description": "Bulgarian armies attack from the east; Skopje falls on 22 October."
+      },
+      {
+        "title": "The Morava and Niš",
+        "time": "Late October – 6 November 1915",
+        "description": "Reinforced, the northern armies push on; Niš falls on 6 November."
+      },
+      {
+        "title": "Kosovo",
+        "time": "November 1915",
+        "description": "The army withdraws into Kosovo and on 25 November is ordered to retreat to the Adriatic."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Radomir Putnik",
+        "objective": "Keep the army in being and reach the Allies.",
+        "known": "Attacks were coming from the north and the east, and Allied help from Salonika was slow.",
+        "uncertainty": "Whether a route south to the Allies would stay open.",
+        "constraints": "Half the enemy's strength, little heavy artillery, and refugees on the roads.",
+        "forces": "The First, Second and Third Armies, with the Montenegrin army.",
+        "terrain": "River valleys converging on the Kosovo plain.",
+        "logistics": "Supplies running out as the country was overrun.",
+        "decision": "He fought a slow withdrawal and on 25 November ordered the retreat to the Adriatic.",
+        "outcome": "The army escaped encirclement but lost Serbia."
+      },
+      {
+        "name": "August von Mackensen",
+        "objective": "Destroy the Serbian army and open the route to Constantinople.",
+        "known": "Serbia was outnumbered and could be attacked from two sides.",
+        "uncertainty": "Whether the Serbs could be caught before they withdrew.",
+        "constraints": "River crossings and mountain country.",
+        "forces": "The German Eleventh, Austro-Hungarian Third and two Bulgarian armies.",
+        "terrain": "The Danube, the Sava and the Morava valley.",
+        "logistics": "Heavy artillery and rail communications to be secured.",
+        "decision": "He attacked from the north along the Morava while the Bulgarians struck from the east.",
+        "outcome": "Serbia was overrun, but its army escaped."
+      }
+    ]
+  },
+  {
+    "slug": "serbian-retreat-1915",
+    "sources": [
+      {
+        "title": "Serbia (Mile Bjelajac)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/serbia/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Warfare 1914-1918 (South East Europe) (Dmitar Tasić)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/warfare-1914-1918-south-east-europe/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "War in the Balkans (Richard C. Hall)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/war-in-the-balkans-1-1/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "World War I: Serbia and the Salonika expedition, 1915–17",
+        "url": "https://www.britannica.com/event/World-War-I/Italy-and-the-Italian-front-1915-16",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Radomir Putnik",
+        "url": "https://www.britannica.com/biography/Radomir-Putnik",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Minister Gašić attends commemorative ceremony on Vido Island",
+        "url": "https://www.mod.gov.rs/eng/22671/ministar-gasic-prisustvovao-komemorativnoj-svecanosti-na-ostrvu-vido",
+        "publisher": "Ministry of Defence of the Republic of Serbia"
+      },
+      {
+        "title": "Montenegro (Radoslav Raspopović)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/montenegro/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "By late November 1915 the Serbian army had been driven into Kosovo, cut off from the Allies at Salonika by the Bulgarian advance.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The choice was between capitulation and leaving the country to continue the war beside the Allies. The government, the king and the army all went.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The aim was to reach the Adriatic coast and be carried by Allied ships to safety, keeping the army and the state in being.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The routes led west across the high mountains of Montenegro and Albania to Scutari (Shkodër) and the coast, in winter snow.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The Supreme Command, the government of Nikola Pašić, the king and the army moved together with refugees and Austro-Hungarian prisoners. Putnik, ill, was carried in a sedan chair. Numbers given in the sources are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "On 25 November the Supreme Command issued the order to retreat through Montenegro and Albania; the Montenegrin army covered the withdrawal.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The columns crossed the Albanian mountains in snow, poorly clothed, without food or medical supplies, and sometimes through hostile villages. Hunger, cold, disease and attacks killed thousands of soldiers, and civilians and prisoners suffered the same. The Serbian Supreme Command took over Scutari, and Pašić reached Cetinje on 22 December to discuss the Montenegrin army's future. A French-led mission under General Piarron de Mondésir organised the rescue from 12 December, and French and Italian ships carried the survivors from the Albanian coast to Corfu, Bizerte and Italy.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "The Supreme Command chose retreat over surrender, accepting enormous losses to save the army as a fighting force.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The Allied evacuation from the Albanian coast, coordinated by an inter-Allied commission in Rome, turned the retreat from a collapse into a recovery.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The army survived. Many of its records were destroyed or only partly saved, so the fate of thousands who did not reach the coast could not be established.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The Greek island of Corfu was occupied to receive the army. There the troops recovered and were reorganised, and the Serbian state continued to function until the liberation. In 1916 the rebuilt army sailed from Corfu to the Salonika front. Annual commemorations are held at the mausoleum on the island of Vido and at sea at the place called the Blue Tomb.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "An army can be preserved by leaving its country when the alternative is surrender, but only at a terrible cost in lives and with allies able to receive it.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The retreat, called the Albanian Golgotha in Serbian memory, is commemorated by the Serbian state; the sources read here do not agree on the numbers lost or rescued, and Bjelajac notes that records were destroyed. Albanian attacks on the columns appear in the Serbian-perspective sources; the Albanian perspective is not represented in the sources read. One British field hospital led by Mabel St Clair Stobart reached the coast without losses.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 5
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Mile Bjelajac's 1914-1918-online article gives the most detailed account; Dmitar Tasić's, Richard C. Hall's and Radoslav Raspopović's articles in the same encyclopedia, Britannica's account of the Salonika expedition and its biography of Putnik, and the Serbian Ministry of Defence's report on the Vido commemoration add context and memory.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "The order",
+        "time": "25 November 1915",
+        "description": "The Supreme Command orders the retreat through Montenegro and Albania."
+      },
+      {
+        "title": "Across the mountains",
+        "time": "Late November – December 1915",
+        "description": "Army, government, king, refugees and prisoners cross the snowbound mountains."
+      },
+      {
+        "title": "On the coast",
+        "time": "December 1915 – January 1916",
+        "description": "The army gathers at Scutari and the coast; the Allied rescue mission begins on 12 December."
+      },
+      {
+        "title": "To Corfu",
+        "time": "Early 1916",
+        "description": "Allied ships carry the survivors to Corfu, Bizerte and Italy."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Radomir Putnik",
+        "objective": "Save the army from capitulation.",
+        "known": "The road to Salonika was cut and the enemy was closing on Kosovo.",
+        "uncertainty": "How many men would survive the winter crossing and whether Allied ships would come.",
+        "constraints": "Snow, mountains, no food or medical supplies, and his own poor health.",
+        "forces": "The remains of the Serbian armies, with refugees and prisoners.",
+        "terrain": "The mountains of Montenegro and Albania.",
+        "logistics": "Almost none; the army lived off what it could find.",
+        "decision": "On 25 November his command ordered the retreat to the Adriatic.",
+        "outcome": "The army reached the coast and was evacuated, at a terrible cost."
+      },
+      {
+        "name": "Nikola Pašić",
+        "objective": "Keep the Serbian state and its alliance alive.",
+        "known": "Serbia was occupied and the Montenegrin government was considering a separate peace.",
+        "uncertainty": "Whether Montenegro would retreat with Serbia.",
+        "constraints": "Dependence on Allied shipping and goodwill.",
+        "forces": "The government in exile and the retreating army.",
+        "terrain": "The road to Scutari and the Adriatic coast.",
+        "logistics": "Allied ships and an inter-Allied rescue commission.",
+        "decision": "He went to Cetinje on 22 December to keep Montenegro beside Serbia and took the government on to Corfu.",
+        "outcome": "The Serbian state continued on Corfu; Montenegro left the war."
+      }
+    ]
+  },
+  {
+    "slug": "mojkovac",
+    "sources": [
+      {
+        "title": "Warfare 1914-1918 (South East Europe) (Dmitar Tasić)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/warfare-1914-1918-south-east-europe/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Montenegro (Radoslav Raspopović)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/montenegro/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Nicholas I (king of Montenegro)",
+        "url": "https://www.britannica.com/biography/Nicholas-I-king-of-Montenegro",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Remembering World War I: 1915",
+        "url": "https://www.britannica.com/topic/Remembering-World-War-I-1954306/1915",
+        "publisher": "Encyclopaedia Britannica"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Montenegro entered the war beside Serbia in 1914, and two-thirds of its army was placed under the Serbian Supreme Command.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "By late 1915 King Nicholas's government was exploring a separate peace with Austria-Hungary, while the Montenegrin army covered the Serbian withdrawal. Raspopović describes it as the Serbian army's strategic protector during the retreat.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The task was to prevent Austro-Hungarian troops from cutting off the Serbian retreat to the Adriatic.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The battle was fought in Montenegro on the line of the Serbian retreat; the sources read here do not describe the ground at Mojkovac.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "General Janko Vukotić, chief of the Montenegrin Supreme Command headquarters, commanded the Montenegrin troops. The Austro-Hungarian commanders and the strengths of both sides are not given in the sources read here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The Montenegrin army had helped the Serbian army withdraw to Kosovo and Metohija and then covered part of it as it crossed Montenegro toward Scutari.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 6 and 7 January 1916 Vukotić's troops dealt the Austro-Hungarians a heavy blow at Mojkovac. Meanwhile Austro-Hungarian forces from the Bay of Kotor attacked Mount Lovćen; Montenegro lost its positions there on 8 and 9 January, and Cetinje was taken after Lovćen fell on 11 January.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "The Montenegrin command stood and fought on the line of the Serbian retreat rather than withdrawing with the Serbs.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The stand at Mojkovac kept the Austro-Hungarians from cutting off the Serbian retreat; but the breakthrough at Lovćen, where heavy artillery fire from warships was crucial, decided Montenegro's fate.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Serbian retreat was not cut off. Montenegro itself was overrun.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "King Nicholas left the country and made a separate peace, going into exile in Italy. On 18 January Vukotić ordered the last forces to Scutari, leaving each soldier free to go home; on 21 January the government decided to dismiss the army, and the terms of surrender of arms were signed on 25 January. Tasić dates the surrender to 16 January. Thousands of Montenegrin soldiers and civilians were interned in Austria-Hungary. Raspopović argues that the failure to withdraw the army with the Serbs sealed the Montenegrin state's fate.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A rearguard can save an ally's army while its own country is lost; a small army's success depends on decisions made elsewhere.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The sources read here give only the outline of the battle: not the course of the fighting, the Austro-Hungarian commanders or the strengths. Whether the surrender was a capitulation is disputed, since those who signed lacked authority, and Montenegrin and Serbian accounts differ over the advice a Serbian delegate gave King Nicholas on 1 January.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Dmitar Tasić's and Radoslav Raspopović's 1914-1918-online articles give the battle and its political setting; Britannica's biography of Nicholas I and its 1916 chronology give the outcome.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Covering the retreat",
+        "time": "December 1915",
+        "description": "The Montenegrin army covers Serbian columns crossing toward Scutari."
+      },
+      {
+        "title": "Mojkovac",
+        "time": "6–7 January 1916",
+        "description": "Vukotić's troops stop the Austro-Hungarian advance on the line of the retreat."
+      },
+      {
+        "title": "Lovćen",
+        "time": "8–11 January 1916",
+        "description": "Austro-Hungarian forces break through at Lovćen and take Cetinje."
+      },
+      {
+        "title": "Surrender",
+        "time": "16–25 January 1916",
+        "description": "The king leaves, the army is dismissed and arms are surrendered."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Janko Vukotić",
+        "objective": "Keep the Austro-Hungarians off the Serbian line of retreat.",
+        "known": "The Serbian army was crossing Montenegro toward Scutari.",
+        "uncertainty": "How long his army could hold while Montenegro itself was threatened.",
+        "constraints": "An army exhausted by earlier wars and short of arms and supplies.",
+        "forces": "Montenegrin troops.",
+        "terrain": "The mountains of northern Montenegro.",
+        "logistics": "Very limited arms, materials and technical supplies.",
+        "decision": "He stood at Mojkovac, and after Lovćen ordered the last forces to Scutari.",
+        "outcome": "The Serbian retreat was covered, but the army was dismissed on 21 January."
+      },
+      {
+        "name": "Austro-Hungarian command",
+        "objective": "Cut off the Serbian retreat and conquer Montenegro.",
+        "known": "Serbian columns were crossing Montenegro and Albania.",
+        "uncertainty": "How hard the Montenegrin army would resist.",
+        "constraints": "Mountain roads in winter.",
+        "forces": "Troops in northern Montenegro and forces at the Bay of Kotor supported by warships.",
+        "terrain": "Northern Montenegro and Mount Lovćen above Kotor.",
+        "logistics": "Naval support at the Bay of Kotor.",
+        "decision": "It attacked in the north and broke through at Lovćen with heavy artillery.",
+        "outcome": "Montenegro was overrun, though the Serbian army escaped."
+      }
+    ]
   }
 ]

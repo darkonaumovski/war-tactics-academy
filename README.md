@@ -16,9 +16,9 @@ The guiding principle is to explain what commanders knew, what they decided and 
 
 ### Historical catalog
 
-- **63 engagements** across seven eras, classified as battles, sieges, operations or campaigns, with approximate locations. Operation Overlord (Normandy) is the first operation record.
-- **Sixty-three detailed studies**, one for every engagement in the catalog, each with 14 analysis sections and an interactive replay of four or more phases. 879 of the 882 sections show which listed sources they draw on, with book and chapter locators for classical texts and chronicles and section names for handbooks.
-- **125 command perspectives** across every engagement except Marathon. Each covers objective, available information, uncertainty, constraints, forces, terrain, logistics, decisions and retrospective interpretation, clearly presented as reconstructed reasoning rather than quotations.
+- **68 engagements** across seven eras, classified as battles, sieges, operations or campaigns, with approximate locations. Operation Overlord (Normandy) is the first operation record.
+- **Sixty-eight detailed studies**, one for every engagement in the catalog, each with 14 analysis sections and an interactive replay of four or more phases. 949 of the 952 sections show which listed sources they draw on, with book and chapter locators for classical texts and chronicles and section names for handbooks.
+- **135 command perspectives** across every engagement except Marathon. Each covers objective, available information, uncertainty, constraints, forces, terrain, logistics, decisions and retrospective interpretation, clearly presented as reconstructed reasoning rather than quotations.
 - **44 commander profiles**, each with a command role (ruler-commander, field, naval, staff planner, or coalition and theater commander), ranks and titles, principal commands, a dated chronology, a notable decision, defeats and reverses, linked engagements and further reading. The catalog filters by era and command role, and any two commanders can be compared side by side without numerical ratings.
 - **33 war pages** with principal participants, geographic scope, a chronology of key developments, key commanders and reading from linked studies and profiles; each links to its campaigns and engagements.
 
@@ -139,7 +139,7 @@ Routes: `/`, `/battles`, `/battles/[slug]`, `/commanders`, `/commanders/[slug]`,
 
 ## Historical methodology
 
-Historical fact, scholarly interpretation, uncertainty and counterfactual analysis are explicitly distinguished. Detailed studies cite institutional histories and primary texts, with caveats about retrospective testimony and conflicting evidence. The sixty-three studies are concise editorial syntheses, not full scholarly monographs.
+Historical fact, scholarly interpretation, uncertainty and counterfactual analysis are explicitly distinguished. Detailed studies cite institutional histories and primary texts, with caveats about retrospective testimony and conflicting evidence. The sixty-eight studies are concise editorial syntheses, not full scholarly monographs.
 
 Study sections name the listed sources they draw on. These references were assigned only after each source page had been read; sources that could not be opened are listed but not attached to individual sections. They are section-level references, not footnotes for every sentence. Commander chronologies and war overviews summarize well-established events; their further reading is not a citation for each entry. All source links were checked, and dead links were replaced with verified pages.
 
@@ -161,6 +161,7 @@ All releases are deployed to the live site.
 
 | Commit    | Change                                                                                                                                                                                                        |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `02a9b6c` | Detailed studies for Cer, Syrmia, the Drina and the Romanija offensive, opening the Serbian Front collection with the Serbian campaign of 1914.                                                               |
 | `57aa9aa` | Groundwork for the Serbian Front collection; Serbia and Montenegro added to the First World War with a checked Serbian Front chronology; engagements in the same year now ordered by date.                    |
 | `a4c76c2` | Detailed studies for Rivoli, the Pyramids, Acre, Aboukir and Marengo, completing the French Revolutionary Wars; Napoleon linked to each.                                                                      |
 | `26f1f2a` | Detailed studies for Toulon, Montenotte, Lodi, Castiglione and Arcole, opening the Napoleon collection; Napoleon linked to each.                                                                              |
@@ -185,7 +186,7 @@ All releases are deployed to the live site.
 ## Known limitations
 
 - The four learning paths are introductory editorial courses (one question per lesson), not reviewed university curricula.
-- The sixty-three battle analyses and 44 commander profiles need deeper scholarly review, fuller biographies and sentence-level citations before being treated as an academic reference work. Study sections are still brief.
+- The sixty-eight battle analyses and 44 commander profiles need deeper scholarly review, fuller biographies and sentence-level citations before being treated as an academic reference work. Study sections are still brief.
 - War pages give orientation, not comprehensive operational histories, and have no dedicated bibliography. Campaign pages remain indexes.
 - Replay diagrams explain abstract relationships; they do not simulate combat or reconstruct exact formations. Atlas locations and Natural Earth coastlines are approximate modern context.
 - The media library is a small starting collection (nine records); the two videos cover only D-Day. Embeds and archive images depend on third-party availability.

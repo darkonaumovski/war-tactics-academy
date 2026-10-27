@@ -3415,5 +3415,614 @@
         "outcome": "The rising ended in March 1917, with reprisals against the population."
       }
     ]
+  },
+  {
+    "slug": "dobro-pole",
+    "sources": [
+      {
+        "title": "War in the Balkans (Richard C. Hall)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/war-in-the-balkans-1-1/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Serbia (Mile Bjelajac)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/serbia/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Warfare 1914-1918 (South East Europe) (Dmitar Tasić)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/warfare-1914-1918-south-east-europe/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "World War I: The Balkan front, 1918 (Dennis E. Showalter)",
+        "url": "https://www.britannica.com/event/World-War-I/The-Balkan-front-1918",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Louis-Félix-François Franchet d'Esperey",
+        "url": "https://www.britannica.com/biography/Louis-Felix-Francois-Franchet-dEsperey",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Bulgaria (Richard C. Hall)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/bulgaria/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Vardar Offensive (First World War in Focus timeline)",
+        "url": "https://ww1.nam.ac.uk/?p=372",
+        "publisher": "National Army Museum, London"
+      },
+      {
+        "title": "Analysis of operations on the Salonika Front 1916–1918",
+        "url": "https://mod.gov.rs/eng/13016/analiza-operacija-na-solunskom-frontu-1916-1918-13016",
+        "publisher": "Ministry of Defence of the Republic of Serbia"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Monastir the Macedonian front stood largely still for nearly two years. Sarrail was replaced at the end of 1917 by Guillaumat, and in the summer of 1918 by Louis Franchet d'Espèrey. In June a Greek and French attack on the fortified ridge of Skra di Legen showed how far Bulgarian morale had fallen.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "With the Germans retreating on the Western Front, a breakthrough in Macedonia offered the Entente a back door into Austria-Hungary and toward Constantinople, and a way to divert Central Powers resources. Bulgaria's soldiers lacked food and clothing, and its relations with its allies were strained.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The aim was to break the Bulgarian line at Dobro Pole, reach the flatter ground behind it and the Vardar valley, and go on to Skopje and into Serbia. Hall writes that the idea came from a Serbian staff officer as early as 1916.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Dobro Pole is a mountain ridge in the centre of the Macedonian front, on today's border between Greece and North Macedonia. The Bulgarians had fortified it since 1916 with two main trench lines, barbed wire and artillery behind; beyond it lay the more open ground that gave it its name.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Franchet d'Espèrey attacked with six Serbian and two French divisions against a seven-mile front held by a single Bulgarian division; Bjelajac describes the Serbian Second Army, reinforced by two French divisions in the first line, making the main breach. Živojin Mišić was chief of the Serbian High Command. By the summer the Entente had a clear superiority in men and equipment. Detailed figures are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The Entente had built up its forces in front of Dobro Pole through the summer. A French report of 15 September described the Bulgarian army and people as overcome by a desire for peace.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "After a night bombardment, the assault opened on the morning of 15 September (Hall dates the start to the 14th), and by nightfall on the 16th a penetration of five miles had been made. The next day the Serbs advanced twenty miles while French and Greek forces widened the breach. A British and Greek attack at Lake Doiran from 18 September held Bulgarian troops in place, although the Bulgarians repulsed it. By 19 September Serbian cavalry had reached Kavadarci, and two days later the Bulgarian front west of the Vardar had collapsed. Bulgarian units on either side withdrew to avoid being cut off, and disorderly groups of soldiers headed home.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Franchet d'Espèrey concentrated the attack on a narrow mountain sector where the Serbian army had long wanted to strike, and used the Doiran attack to keep Bulgarian reserves from the breach.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The breach at Dobro Pole could not be sealed: the Bulgarian army, its morale already broken, could not regroup, and the Serbian armies pursued it and crushed every attempt by its reserves.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "On 25 September the Bulgarian government decided to seek an armistice. On 29 September, as French cavalry took Skopje, Bulgaria signed an armistice at Salonika, the first of the Central Powers to leave the war. The National Army Museum calls the offensive the decisive attack on the Salonika front.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Mutinous soldiers proclaimed a republic at Radomir on 27 September; German troops, cadets and IMRO forces turned them back near Pernik on 30 September, and Tsar Ferdinand abdicated on 3 October. The way into Serbia and toward the Danube lay open; Britannica credits Franchet d'Espèrey with opening the road to Vienna for the Allies.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A front held by a demoralised and poorly supplied army can collapse at a single well-prepared breach, and the collapse can spread far beyond the battlefield.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Hall dates the assault to 14 September, Britannica to the 15th; the armistice was signed on 29 September (Hall, Britannica) and is sometimes dated 30 September (Tasić). Hall stresses that hunger, poor equipment and strained alliances were as effective as Serbian infantry and French artillery; Serbian commemorations present the breakthrough above all as a Serbian victory. The sources read here do not name the Serbian army commanders at Dobro Pole.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 7
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Richard C. Hall's 1914-1918-online articles on the war in the Balkans and on Bulgaria give the fullest account, with Mile Bjelajac's and Dmitar Tasić's articles in the same encyclopedia. Britannica's account of the Balkan front in 1918 and its biography of Franchet d'Espèrey give the sequence and assessment; the National Army Museum's timeline and the Serbian Ministry of Defence add dates and framing.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          },
+          {
+            "source": 7
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Preparation",
+        "time": "June – 14 September 1918",
+        "description": "Franchet d'Espèrey takes command; Skra di Legen exposes Bulgarian weakness; forces build up."
+      },
+      {
+        "title": "The assault",
+        "time": "14–16 September 1918",
+        "description": "After a night bombardment Serbian and French troops break into the Dobro Pole positions."
+      },
+      {
+        "title": "The breach widens",
+        "time": "17–21 September 1918",
+        "description": "Serbs advance twenty miles; the Doiran attack pins Bulgarian reserves; the front west of the Vardar collapses."
+      },
+      {
+        "title": "Armistice",
+        "time": "25–29 September 1918",
+        "description": "Bulgaria seeks terms; French cavalry takes Skopje and the armistice is signed at Salonika."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Louis Franchet d'Espèrey",
+        "objective": "Break the Macedonian front and knock Bulgaria out of the war.",
+        "known": "Bulgarian morale was collapsing, and the Germans were in retreat in the west.",
+        "uncertainty": "Whether a single breach could be widened before reserves arrived.",
+        "constraints": "Mountain terrain and a coalition army of several nations.",
+        "forces": "Six Serbian and two French divisions on the main sector, with British, Greek and Italian forces elsewhere.",
+        "terrain": "A fortified ridge with open ground beyond.",
+        "logistics": "Months of build-up in front of Dobro Pole.",
+        "decision": "He attacked on a narrow front at Dobro Pole and supported it with an attack at Doiran.",
+        "outcome": "The front collapsed and Bulgaria signed an armistice on 29 September."
+      },
+      {
+        "name": "Bulgarian command",
+        "objective": "Hold the fortified Macedonian front.",
+        "known": "Its soldiers were hungry, poorly clothed and increasingly unwilling to fight.",
+        "uncertainty": "Whether German or Austro-Hungarian help would come.",
+        "constraints": "Few German troops left in Macedonia and deteriorating discipline.",
+        "forces": "One division on the Dobro Pole sector, with others along the front.",
+        "terrain": "Fortified ridges with two trench lines and wire.",
+        "logistics": "Little food or clothing reaching the front.",
+        "decision": "It held at Doiran but could not seal the breach and ordered withdrawals.",
+        "outcome": "The government sought an armistice on 25 September."
+      }
+    ]
+  },
+  {
+    "slug": "liberation-of-serbia-1918",
+    "sources": [
+      {
+        "title": "Serbia (Mile Bjelajac)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/serbia/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Warfare 1914-1918 (South East Europe) (Dmitar Tasić)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/warfare-1914-1918-south-east-europe/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "War in the Balkans (Richard C. Hall)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/war-in-the-balkans-1-1/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "World War I: The Balkan front, 1918 (Dennis E. Showalter)",
+        "url": "https://www.britannica.com/event/World-War-I/The-Balkan-front-1918",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Louis-Félix-François Franchet d'Esperey",
+        "url": "https://www.britannica.com/biography/Louis-Felix-Francois-Franchet-dEsperey",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Pecanac, Kosta (Dmitar Tasić)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/pecanac-kosta/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Serbia 1914: exhibition catalogue (Miloš Ković, Nebojša Damnjanović, Vuk Obradović and Sanja Veljković)",
+        "url": "https://imus.org.rs/wp-content/uploads/2020/03/Srbija-1914-Katalog.pdf",
+        "publisher": "Historical Museum of Serbia and Military Museum, Belgrade"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Serbia had been occupied for three years, divided between Austria-Hungary and Bulgaria. The breakthrough at Dobro Pole opened the way north from Macedonia.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "With Bulgaria out of the war, the German High Command hoped to build a new Balkan front to save Austria-Hungary. The Serbian advance was also a political event: news of it gave momentum to the movement for South Slav unification.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The Serbian armies and their allies aimed to liberate Serbia before the Central Powers could form a new front, then cross the Drina, Sava and Danube into Austria-Hungary.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The advance followed the Vardar valley north through Macedonia to Skopje, then the Morava valley through Niš to Belgrade on the Danube.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The Serbian First Army led the pursuit with French cavalry beside it; Živojin Mišić was chief of the Serbian High Command, and Franchet d'Espèrey commanded the Allied armies. German and Austro-Hungarian units opposed the advance, and the sources read here do not give their strength.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "By late September Serbian troops were already north of the broken front, taking Veles and Štip on 26 September, while French cavalry took Skopje on 29 September.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The Serbian First Army and French cavalry pushed rapidly into the Morava valley. Niš was taken on 10 October (Hall) or 12 October (Tasić), cutting the land route to the Ottoman Empire. Insurgents in occupied Serbia joined in: Kosta Pećanac began full-scale guerrilla warfare and captured many prisoners. German and Austro-Hungarian troops withdrew from Serbia and Montenegro by the end of October, and Serbian troops reached Belgrade on 31 October; all of pre-war Serbia was free by 1 November. Franchet d'Espèrey then ordered small detachments across the Drina, Sava and Danube, and Serbian troops moved into southern Hungary.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "From 3 November Franchet d'Espèrey's instructions, in line with Mišić's orders to his army commanders, directed the Serbian army to support the South Slav movements in Bosnia, Croatia and Vojvodina; Franchet d'Espèrey also wanted troops to keep order along the railways and in the main cities.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The capture of Niš destroyed German hopes of forming a new Balkan front and cut communications with the Ottoman Empire.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Serbia was liberated by 1 November 1918. Hungary signed an armistice in Belgrade on 13 November, the last of the war.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "On 1 December 1918 the Kingdom of Serbs, Croats and Slovenes was proclaimed in Belgrade. The museum catalogue notes that Serbia suffered the greatest demographic loss of any belligerent in proportion to its population; Tasić writes that the exact civilian toll, from hunger, occupation and the influenza pandemic, remains unknown.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 6
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A pursuit that keeps moving can prevent a defeated enemy from forming a new front; local insurgents can multiply its effect.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The dates for Niš (10 or 12 October) and Belgrade (31 October or 1 November) differ between the sources. Bjelajac stresses that Franchet d'Espèrey's orders had political as well as military aims. The museum catalogue and Bjelajac present the advance as the culmination of Serbia's war; Britannica emphasises Franchet d'Espèrey's thrust to the Danube.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Mile Bjelajac's, Dmitar Tasić's and Richard C. Hall's 1914-1918-online articles, with Tasić's biography of Pećanac, give the course of the liberation. Britannica's account of the Balkan front and its biography of Franchet d'Espèrey give the Allied side, and the Historical Museum of Serbia and Military Museum catalogue the cost of the war.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Through Macedonia",
+        "time": "26–29 September 1918",
+        "description": "Serbian troops take Veles and Štip; French cavalry takes Skopje."
+      },
+      {
+        "title": "Up the Morava",
+        "time": "October 1918",
+        "description": "The First Army and French cavalry advance; Niš falls on 10 or 12 October."
+      },
+      {
+        "title": "Belgrade",
+        "time": "31 October – 1 November 1918",
+        "description": "Serbian troops reach Belgrade; all of pre-war Serbia is free."
+      },
+      {
+        "title": "Across the rivers",
+        "time": "November 1918",
+        "description": "Detachments cross into Austria-Hungary; Hungary signs an armistice in Belgrade on 13 November."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Živojin Mišić",
+        "objective": "Liberate Serbia before a new front could form, and support South Slav unification.",
+        "known": "Bulgaria had left the war and the Central Powers had few troops in the Balkans.",
+        "uncertainty": "Whether German reinforcements would stop the advance in the Morava valley.",
+        "constraints": "Long marches from Macedonia and stretched supply lines.",
+        "forces": "The Serbian armies with French cavalry, helped by insurgents.",
+        "terrain": "The Vardar and Morava valleys to the Danube.",
+        "logistics": "Supply over a rapidly lengthening route from Salonika.",
+        "decision": "He kept up the pursuit and directed army commanders to support the South Slav movements.",
+        "outcome": "Serbia was liberated by 1 November."
+      },
+      {
+        "name": "German and Austro-Hungarian command",
+        "objective": "Form a new Balkan front after Bulgaria's collapse.",
+        "known": "The Serbian and French advance was moving fast up the Morava.",
+        "uncertainty": "Whether reinforcements could arrive in time.",
+        "constraints": "Too few troops to plug all the gaps.",
+        "forces": "German and Austro-Hungarian units in Serbia, with divisions promised from elsewhere.",
+        "terrain": "The Morava valley and Niš.",
+        "logistics": "Lines through an occupied, rebellious country.",
+        "decision": "They tried to hold the Morava valley, then withdrew.",
+        "outcome": "They left Serbia and Montenegro by the end of October."
+      }
+    ]
   }
 ]

@@ -9,12 +9,12 @@ import {
 import { battles, wars, campaigns, eras } from "../../data/catalog";
 import { courses } from "../../data/learning";
 it("validates source-backed analyses and the commander corpus", () => {
-  expect(researchSchema.parse(research)).toHaveLength(71);
+  expect(researchSchema.parse(research)).toHaveLength(73);
   expect(commanderSchema.parse(commanders)).toHaveLength(44);
 });
-it("provides 71 unique engagement slugs and a connected hierarchy", () => {
-  expect(battles).toHaveLength(71);
-  expect(new Set(battles.map((b) => b.slug)).size).toBe(71);
+it("provides 73 unique engagement slugs and a connected hierarchy", () => {
+  expect(battles).toHaveLength(73);
+  expect(new Set(battles.map((b) => b.slug)).size).toBe(73);
   for (const b of battles) {
     expect(wars.some((w) => w.slug === b.warId)).toBe(true);
     expect(
@@ -38,6 +38,7 @@ it("orders engagements in the same year by date", () => {
     ["invasion-of-serbia-1915", "serbian-retreat-1915"],
     ["mojkovac", "verdun"],
     ["kajmakcalan", "monastir-1916"],
+    ["dobro-pole", "liberation-of-serbia-1918"],
     ["midway", "el-alamein"],
   ])
     expect(order.indexOf(earlier), later).toBeLessThan(order.indexOf(later));

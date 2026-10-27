@@ -161,6 +161,7 @@ All releases are deployed to the live site.
 
 | Commit    | Change                                                                                                                                                                                                        |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `a117808` | Detailed studies of Ulm, Jena–Auerstedt, Eylau and Friedland (Napoleon batch N3), with the 1806–07 chronology corrected and Napoleon linked to every Napoleonic study.                                        |
 | `a63ae25` | A five-lesson Serbian Front course and four decision exercises (Cer, the Kolubara, November 1915, Dobro Pole); the optional Serbian Front engagements declined.                                               |
 | `c825061` | Profiles of the German commanders Mackensen, Falkenhayn, Gallwitz, Seeckt and Otto von Below, completing the Serbian Front commander profiles.                                                                |
 | `cc09f5e` | Profiles of the Austro-Hungarian commanders Potiorek, Conrad, Kövess and Sarkotić.                                                                                                                            |

@@ -119,14 +119,16 @@ test("timeline selection, playback, zoom and accessible alternative", async ({
   await expect(page.locator(".text-timeline li")).toHaveCount(4);
 });
 test("every detailed study has a functional timeline", async ({ page }) => {
-  for (const { slug } of research) {
+  for (const { slug, phases } of research) {
     await page.goto(`/battles/${slug}`);
     const buttons = page
       .getByRole("group", { name: "Select battle phase" })
       .getByRole("button");
-    await expect(buttons).toHaveCount(4);
-    await buttons.nth(3).click();
-    await expect(page.locator(".phase-info .eyebrow")).toContainText("04");
+    await expect(buttons).toHaveCount(phases.length);
+    await buttons.last().click();
+    await expect(page.locator(".phase-info .eyebrow")).toContainText(
+      String(phases.length).padStart(2, "0"),
+    );
     await expect(page.locator(".analysis-section")).toHaveCount(14);
   }
 });

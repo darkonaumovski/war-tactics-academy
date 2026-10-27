@@ -2739,6 +2739,281 @@
     ]
   },
   {
+    "slug": "ulm",
+    "sources": [
+      {
+        "title": "Battle of Ulm",
+        "url": "https://www.britannica.com/event/Battle-of-Ulm",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Napoleonic Wars: The Third and Fourth Coalitions, 1803–07",
+        "url": "https://www.britannica.com/event/Napoleonic-Wars/The-Third-and-Fourth-Coalitions-1803-07",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Austerlitz, 2 December 1805: a timeline (Peter Hicks)",
+        "url": "https://www.napoleon.org/en/history-of-the-two-empires/timelines/austerlitz-2-december-1805-a-timeline",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Ney, Michel, duc d'Elchingen (François-Guy Hourtoulle, Dictionnaire Napoléon)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/biographies/ney-michel-duc-delchingen-prince-de-la-moskowa-1769-1815-marechal/",
+        "publisher": "Fondation Napoléon"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Austria joined the Anglo-Russian alliance of the Third Coalition on 9 August 1805, offended by Napoleon's moves in Italy. The Austrians planned to make Italy the main theatre and kept their largest army there under the Archduke Charles.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Bavaria, Baden and Württemberg sided with France, and Prussia's neutrality slowed the Russian armies marching to support Austria. Austria opened hostilities by invading Bavaria in early September, before the Russians under Kutuzov could join it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Napoleon chose to make Germany the decisive theatre and massed the Grande Armée to destroy Mack's army before the Russians arrived.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Mack concentrated between Ulm and Günzburg on the upper Danube, about 130 km east of the Black Forest, through which he expected the French to come. The French instead crossed the Rhine north of the Black Forest, wheeled south through Württemberg and Franconia, and crossed the Danube around Donauwörth, downstream from Ulm.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Napoleon had organised the army into seven corps, among them Murat's cavalry reserve and the corps of Lannes, Ney, Soult and Bernadotte. Mack commanded the Austrian army in Bavaria; Archduke Ferdinand was also with it at Ulm. Strengths and prisoner figures given in the sources are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "At the end of August Napoleon broke up the camp at Boulogne and sent the army east. From 25 September the corps crossed the Rhine, screened by cavalry, and converged in columns on Mack's rear.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The French crossed the Danube from 7 October and cut Mack's line of retreat to the east. Murat and Lannes won at Wertingen on 8 October and Ney's troops at Günzburg on the 9th. By the evening of 13 October Mack was surrounded at Ulm. On 14 October Ney's attack at Elchingen, supported by Lannes, drove the Austrians back into the town, although Archduke Ferdinand escaped that night with part of the cavalry. Ney and Lannes took the heights of the Michelsberg above Ulm on the 15th; on the 16th French artillery fired on the town and Napoleon offered terms. Mack capitulated on 19 October, and his troops filed out before Napoleon.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "When he learned that Mack was waiting near the Black Forest, Napoleon swung the whole army to its left to march around him; uncertain of the Austrians' positions after crossing the Danube, he extended his front along the Lech and detached a corps toward Munich to hold off the Russians.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Crossing the Danube behind Mack cut him off from Vienna; Elchingen closed the ring around Ulm.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Most of Mack's army was taken prisoner at or soon after the capitulation, and the pursuit was so vigorous that only one Austrian division reached Kutuzov's Russians. Britannica calls the French losses insignificant.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Napoleon entered Vienna on 13 November and defeated the Russians and Austrians at Austerlitz on 2 December. Ney was sent to drive the Archduke John out of the Tyrol, and was later made duke of Elchingen.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "An army that moves faster than its enemy expects can win a campaign by manoeuvre against his rear, before the main battle is fought; dividing one's forces between theatres invites defeat in detail.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The capitulation is dated 19 October in the Fondation Napoléon's timeline and 20 October in Britannica. Britannica notes that bad weather, short supplies and the clumsiness of some French subordinates marked the encirclement; Hourtoulle records that Ney first gave up the Elchingen bridge and hesitated, to Napoleon's fury, before redeeming himself in the attack. Mack expected Napoleon to bring far fewer troops than he did.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica's article on the battle and its account of the Third Coalition give the narrative. Peter Hicks's timeline for the Fondation Napoléon dates the actions, and François-Guy Hourtoulle's biography of Ney from the Dictionnaire Napoléon covers Elchingen.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Across the Rhine",
+        "time": "25 September – 6 October 1805",
+        "description": "The corps cross the Rhine and wheel south behind a cavalry screen."
+      },
+      {
+        "title": "Behind the Danube",
+        "time": "7–13 October 1805",
+        "description": "The French cross the Danube, win at Wertingen and Günzburg, and surround Mack."
+      },
+      {
+        "title": "Elchingen",
+        "time": "14–15 October 1805",
+        "description": "Ney's attack drives the Austrians into Ulm; the Michelsberg is taken."
+      },
+      {
+        "title": "Capitulation",
+        "time": "16–20 October 1805",
+        "description": "Ulm is bombarded and Mack capitulates."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Napoleon Bonaparte",
+        "objective": "Destroy Mack's army before the Russians could join it.",
+        "known": "Mack was waiting near Ulm, facing the Black Forest.",
+        "uncertainty": "Exactly where the Austrians were once the French had crossed the Danube.",
+        "constraints": "A long march from the Channel coast, bad weather and short supplies.",
+        "forces": "Seven corps with Murat's cavalry reserve.",
+        "terrain": "The upper Danube valley around Ulm.",
+        "logistics": "Rapid marches through allied German states.",
+        "decision": "He wheeled the army around Mack's flank and crossed the Danube behind him.",
+        "outcome": "Mack capitulated at Ulm and the road to Vienna lay open."
+      },
+      {
+        "name": "Karl Mack",
+        "objective": "Hold Bavaria until the Russians arrived.",
+        "known": "He expected the French to come through the Black Forest.",
+        "uncertainty": "How large Napoleon's army was and where it would strike.",
+        "constraints": "The Russians still far away and Austria's main army in Italy.",
+        "forces": "The Austrian army in Bavaria.",
+        "terrain": "Positions between Ulm and Günzburg on the Danube.",
+        "logistics": "Depending on a line of retreat east along the Danube.",
+        "decision": "He stayed concentrated around Ulm.",
+        "outcome": "He was surrounded and capitulated on 19 or 20 October."
+      }
+    ]
+  },
+  {
     "slug": "austerlitz",
     "sources": [
       {
@@ -2973,6 +3248,795 @@
         "logistics": "Supplies in Moravia were strained. Waiting for reinforcements and for Prussia was an alternative some favored.",
         "decision": "They committed most columns to the southern attack, weakening the center. Accounts differ on Kutuzov's reservations about the plan; they are not reconstructed here.",
         "outcome": "Defeat split the army and Austria left the war. Russian and Austrian accounts later blamed each other."
+      }
+    ]
+  },
+  {
+    "slug": "jena-auerstedt",
+    "sources": [
+      {
+        "title": "Battle of Jena",
+        "url": "https://www.britannica.com/event/Battle-of-Jena",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Napoleonic Wars: Trafalgar and Italy (the campaign of Jena and Auerstädt)",
+        "url": "https://www.britannica.com/event/Napoleonic-Wars/Trafalgar-and-Italy",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Iéna – Auerstedt 14 octobre 1806 (Sophie Roques and Irène Delage)",
+        "url": "https://www.napoleon.org/magazine/itineraires/iena-auerstedt-14-octobre-1806/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Davout, homme de devoir. 1. Le soldat (Jean Linden, Revue du Souvenir Napoléonien 303)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/articles/davout-homme-de-devoir-1-le-soldat/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Ney, Michel, duc d'Elchingen (François-Guy Hourtoulle, Dictionnaire Napoléon)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/biographies/ney-michel-duc-delchingen-prince-de-la-moskowa-1769-1815-marechal/",
+        "publisher": "Fondation Napoléon"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Austerlitz, Napoleon formed the Confederation of the Rhine in July 1806 and the Holy Roman Empire came to an end. Russia and Prussia signed a secret alliance against France the same month.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Prussia demanded that French troops withdraw beyond the Rhine and declared war on 9 October. It went to war in poor circumstances: Austria could not help, the Russians were far away, and its army had little light infantry, poor artillery and no divisional system. Britannica judges that its first mistake was to advance instead of waiting on the Elbe.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Napoleon advanced north through the Frankenwald to cut the Prussians off from the Elbe and fight them before the Russians could arrive.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Jena lies on the Saale; the Landgrafenberg plateau and the Dornberg, the highest point of the field, overlook the Prussian positions. Auerstedt and the village of Hassenhausen lie about 21 km to the north.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The Prussian-Saxon army under the Duke of Brunswick was divided: Brunswick's main army stood near Auerstedt and Prince Hohenlohe's force on a long front between Weimar and Jena, with Rüchel behind. At Jena Napoleon had Lannes, Soult, Augereau, Ney and Murat's cavalry; at Auerstedt Davout's single corps met the main Prussian army. Bernadotte's corps fought at neither. Strengths are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The French crossed the Frankenwald in three columns, winning at Schleiz on 9 October and Saalfeld on the 10th. The Prussians concentrated at Weimar, and on the afternoon of 13 October Napoleon reached Jena and occupied the Landgrafenberg with Lannes's corps.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The French attacked at Jena at 6 a.m. on 14 October. Ney threw his advance guard in too early in the fog. Hohenlohe held a thin line around Vierzehnheiligen without occupying the villages; Soult broke through at Krippendorf and Augereau attacked the Saxons, and by mid-afternoon Hohenlohe's force and Rüchel's reinforcements had been swept from the field. At Auerstedt, Davout met Brunswick's army at Hassenhausen. Brunswick attacked piecemeal and was mortally wounded; Frederick William III took command, the Prussian attacks slackened, Davout brought up his artillery, and by about 4 p.m. the Prussian army had disintegrated.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Napoleon committed only part of his army at Jena. Davout chose to stand and fight the main Prussian army with one corps, holding for six hours before counterattacking.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Brunswick's wounding left the Prussian army at Auerstedt without coordinated command, and news of the defeat at Jena broke what will remained.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Prussian army was destroyed. Davout's corps entered Berlin first, on 23 October, and he was later made duke of Auerstedt.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Napoleon completed the conquest of Prussia within six weeks, before Russia could help. At Tilsit in 1807 Prussia lost about half its population.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A corps able to fight alone until help arrives can decide a battle, and an army without modern organisation can be destroyed in a single day.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Napoleon at first seems to have doubted, perhaps with some jealousy, the scale of Davout's victory, although the bulletin of 15 October praised his corps. Bernadotte was summoned more than once but did not intervene, which cost Davout's corps dearly; his conduct remains disputed. Ney's premature attack is criticised in the Dictionnaire Napoléon. Casualty figures in the sources are not repeated here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica's battle article and its account of the campaign give the narrative. The Fondation Napoléon's itinerary of the battlefield, Jean Linden's study of Davout and Hourtoulle's biography of Ney add the French side.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Through the Frankenwald",
+        "time": "5–13 October 1806",
+        "description": "Three French columns cross the forest, win at Schleiz and Saalfeld, and reach Jena."
+      },
+      {
+        "title": "Jena",
+        "time": "14 October 1806, from 6 a.m.",
+        "description": "Napoleon's corps break Hohenlohe's line around Vierzehnheiligen."
+      },
+      {
+        "title": "Auerstedt",
+        "time": "14 October 1806",
+        "description": "Davout's corps holds the main Prussian army at Hassenhausen; Brunswick is mortally wounded."
+      },
+      {
+        "title": "Collapse",
+        "time": "14 October 1806, afternoon",
+        "description": "Both Prussian forces break; the pursuit begins."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Napoleon Bonaparte",
+        "objective": "Destroy the Prussian army before the Russians arrived.",
+        "known": "Prussian forces were concentrated around Weimar and Jena.",
+        "uncertainty": "Where the main Prussian army stood.",
+        "constraints": "The need to act before Russian help could arrive.",
+        "forces": "The corps of Lannes, Soult, Augereau and Ney with Murat's cavalry at Jena.",
+        "terrain": "The Landgrafenberg plateau above the Saale.",
+        "logistics": "Rapid movement through the Frankenwald.",
+        "decision": "He attacked at Jena with part of his army and sent Davout north.",
+        "outcome": "Hohenlohe was routed while Davout defeated the main army."
+      },
+      {
+        "name": "Louis-Nicolas Davout",
+        "objective": "Cut the Prussian line of retreat.",
+        "known": "He met a much larger Prussian force at Hassenhausen.",
+        "uncertainty": "Whether Bernadotte or Napoleon would come to his support.",
+        "constraints": "One corps against the main Prussian army.",
+        "forces": "The 3rd Corps.",
+        "terrain": "Villages and open ground around Hassenhausen.",
+        "logistics": "Fighting far from the main army.",
+        "decision": "He stood his ground for six hours, then counterattacked with his artillery.",
+        "outcome": "The main Prussian army disintegrated."
+      },
+      {
+        "name": "Charles William Ferdinand, Duke of Brunswick",
+        "objective": "Turn the main army to meet the French threat to its rear.",
+        "known": "A French force barred the road at Hassenhausen.",
+        "uncertainty": "How strong that force was.",
+        "constraints": "An army without a divisional system and with slow supply trains.",
+        "forces": "The main Prussian army.",
+        "terrain": "Open ground around Auerstedt.",
+        "logistics": "Cumbersome supply trains.",
+        "decision": "He attacked piecemeal and came close to the French skirmishers.",
+        "outcome": "He was mortally wounded and his army broke."
+      }
+    ]
+  },
+  {
+    "slug": "eylau",
+    "sources": [
+      {
+        "title": "La campagne de Pologne de 1807 (Paul Ganière, Revue du Souvenir Napoléonien 357)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/articles/campagne-de-pologne-de-1807/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Napoleonic Wars: The winter campaign of 1806–07 (Eylau and Friedland)",
+        "url": "https://www.britannica.com/event/Napoleonic-Wars/The-winter-campaign-of-1806-07-Eylau",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Davout, homme de devoir. 1. Le soldat (Jean Linden, Revue du Souvenir Napoléonien 303)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/articles/davout-homme-de-devoir-1-le-soldat/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Ney, Michel, duc d'Elchingen (François-Guy Hourtoulle, Dictionnaire Napoléon)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/biographies/ney-michel-duc-delchingen-prince-de-la-moskowa-1769-1815-marechal/",
+        "publisher": "Fondation Napoléon"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Jena the French advanced into Poland. Bennigsen abandoned Warsaw on 28 November 1806, and after indecisive fighting at the end of December Napoleon put his army into winter quarters.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Napoleon told a Polish deputation that he sympathised with their wish to restore Poland, but did not plan a full revival of the Polish state, which would have antagonised Russia and Austria. Prussia fought on beside Russia.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "When Bennigsen advanced against the French left at the end of January, Napoleon marched north to get into the Russian rear.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Eylau lies in the open, snow-covered country of East Prussia, with the town, its cemetery and villages such as Serpallen, Klein-Sausgarten, Kuschitten and Anklappen around it. It was freezing, and on the 8th a snowstorm cut visibility to a few dozen metres.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Bennigsen commanded the Russian army, with L'Estocq's Prussians to the north. Napoleon had Soult's and Augereau's corps, Murat's cavalry and the Guard at hand, with Davout's corps marching on the flank and Ney's watching L'Estocq. Strengths are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "On 7 February French forward troops attacked the Russian rear guard outside Eylau and took the town that night.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 8 February Davout's corps arrived from the south-east about 9 a.m. and took Serpallen and Klein-Sausgarten, threatening the Russian left. Napoleon sent Augereau's corps across the open plain; in the snowstorm it lost direction, drifted left and was cut down by Russian guns at close range, Augereau himself being wounded. Russian grenadiers pushed into the gap toward the cemetery. Murat then led a mass cavalry charge, with the Guard, that broke through the Russian lines and restored the centre. In the afternoon L'Estocq's Prussians arrived and pushed Davout back; Ney reached the field only at nightfall. Bennigsen withdrew overnight.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Napoleon fixed the Russians in front while Davout turned their flank, and when the centre gave way he committed his cavalry reserve.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Murat's charge saved the French centre; L'Estocq's arrival checked Davout's turning attack and allowed the Russians to withdraw.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Russians retreated in good order. The French held the field but could not pursue and fell back into winter quarters along the Passarge.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Operations paused until spring, while the French besieged Danzig. Ganière describes the battle as a butchery: Napoleon was moved by the dead and wounded on the field, and losses were heavy on both sides.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Weather and visibility can undo a plan; a cavalry reserve can restore a breaking line; a turning movement depends on the enemy not being reinforced.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Whether Eylau was a French victory is disputed: Napoleon claimed it and held the field, but Ganière calls it a half-success. The official bulletin understated French losses. Ganière has L'Estocq escaping Ney's watch, and Hourtoulle says Ney let him pass. The sources' casualty figures differ and are not repeated here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Paul Ganière's article in the Revue du Souvenir Napoléonien gives the detailed narrative. Britannica's account of the winter campaign gives the setting, and Linden's study of Davout and Hourtoulle's biography of Ney cover their roles.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "The pursuit",
+        "time": "3–7 February 1807",
+        "description": "The French follow the retreating Russians and take Eylau."
+      },
+      {
+        "title": "Davout on the flank",
+        "time": "8 February 1807, morning",
+        "description": "Davout takes Serpallen and Klein-Sausgarten."
+      },
+      {
+        "title": "Snowstorm and the charge",
+        "time": "8 February 1807, midday",
+        "description": "Augereau's corps is shattered; Murat's charge restores the centre."
+      },
+      {
+        "title": "L'Estocq and nightfall",
+        "time": "8 February 1807, afternoon and night",
+        "description": "The Prussians check Davout, Ney arrives, and Bennigsen withdraws."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Napoleon Bonaparte",
+        "objective": "Catch and destroy Bennigsen's army.",
+        "known": "The Russians had halted at Eylau.",
+        "uncertainty": "When Davout and Ney would arrive.",
+        "constraints": "Winter, poor visibility and a hungry army.",
+        "forces": "Soult's and Augereau's corps, Murat's cavalry and the Guard, with Davout coming up.",
+        "terrain": "Open, snow-covered ground around Eylau.",
+        "logistics": "Supply in an exhausted country in winter.",
+        "decision": "He attacked frontally while Davout turned the flank, and threw in Murat's cavalry when the centre broke.",
+        "outcome": "The Russians withdrew, but the French could not pursue."
+      },
+      {
+        "name": "Levin August von Bennigsen",
+        "objective": "Stop the French advance into East Prussia.",
+        "known": "The French were attacking his rear guard.",
+        "uncertainty": "Whether L'Estocq's Prussians would reach the field.",
+        "constraints": "A Russian army far from its bases.",
+        "forces": "The Russian army, with L'Estocq's Prussians.",
+        "terrain": "Positions east of Eylau.",
+        "logistics": "Supplies in a country already stripped.",
+        "decision": "He stood and fought, then withdrew overnight.",
+        "outcome": "His army retreated in good order."
+      }
+    ]
+  },
+  {
+    "slug": "friedland",
+    "sources": [
+      {
+        "title": "La campagne de Pologne de 1807 (Paul Ganière, Revue du Souvenir Napoléonien 357)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/articles/campagne-de-pologne-de-1807/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Napoleonic Wars: The winter campaign of 1806–07 (Eylau and Friedland)",
+        "url": "https://www.britannica.com/event/Napoleonic-Wars/The-winter-campaign-of-1806-07-Eylau",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Ney, Michel, duc d'Elchingen (François-Guy Hourtoulle, Dictionnaire Napoléon)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/biographies/ney-michel-duc-delchingen-prince-de-la-moskowa-1769-1815-marechal/",
+        "publisher": "Fondation Napoléon"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Eylau, the French besieged Danzig, which surrendered on 26 May 1807, and left winter quarters in May. After fighting at Guttstadt and Heilsberg in early June, the Russians withdrew across the Alle.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Russia and Prussia had agreed at Bartenstein in April to make no separate peace, but British help came too late to matter.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Napoleon marched toward Eylau to place himself between the Russians and the Prussians at Königsberg, and ordered Lannes to occupy Friedland. Bennigsen crossed the Alle there, believing Lannes was marching on Königsberg.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Friedland lies on the Alle. By crossing, the Russians fought in a loop of the river with the bridges behind them; a ford lay downstream at Kloschenen.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Lannes's corps faced the Russians first; Napoleon brought up Ney, Victor (replacing the wounded Bernadotte) and the Guard, with General Sénarmont's artillery. Bennigsen commanded the Russian army, with Bagration's troops on the front facing Ney. Strengths are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "From about 3 a.m. on 14 June, Lannes held off a much larger Russian force under fire from guns on the far bank of the Alle.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Napoleon arrived around 2 p.m. His plan was for Ney to advance from the Sortlach woods, break Bagration's front, take the town and destroy the bridges. Sénarmont pushed about forty guns forward to close range and silenced the Russian batteries. Ney took Friedland and the bridges were destroyed; many Russians drowned trying to swim the river. The battle was over by 10 p.m.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Napoleon arrived about 2 p.m. and ordered the attack that same day, aiming at the bridges behind the Russian army.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The destruction of the bridges trapped the Russians against the river.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Britannica calls it a crushing defeat of the Russians. Bennigsen himself escaped before the bridges went.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Königsberg fell, Napoleon reached the Neman on 19 June, and the Russians asked for an armistice. By the Treaties of Tilsit in July, Russia made peace and an alliance with France, while Prussia lost about half its population and the duchy of Warsaw was created.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Fighting with a river at one's back invites disaster; a holding action can buy the time a commander needs; artillery used offensively at close range can break a line.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Ganière explains Bennigsen's crossing of the Alle by his belief that Lannes was marching on Königsberg. The French entered Königsberg on 15 June according to Ganière, while Britannica has the Prussians abandon it on the 16th. Hourtoulle calls Ney's conduct at Friedland brilliant without describing it. Casualty estimates differ and are not repeated here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Paul Ganière's article in the Revue du Souvenir Napoléonien gives the detailed narrative. Britannica's account of the 1807 campaign gives the setting and the peace, and Hourtoulle's biography of Ney adds his role.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Lannes holds",
+        "time": "14 June 1807, 3 a.m. – noon",
+        "description": "Lannes holds off the Russians who have crossed the Alle."
+      },
+      {
+        "title": "Napoleon arrives",
+        "time": "14 June 1807, about 2 p.m.",
+        "description": "The army comes up and Napoleon orders Ney to attack toward the bridges."
+      },
+      {
+        "title": "Ney and the guns",
+        "time": "14 June 1807, evening",
+        "description": "Ney advances and Sénarmont's guns fire at close range."
+      },
+      {
+        "title": "The bridges",
+        "time": "14 June 1807, to 10 p.m.",
+        "description": "Friedland is taken, the bridges are destroyed and the Russians are driven into the river."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Napoleon Bonaparte",
+        "objective": "Destroy Bennigsen's army.",
+        "known": "The Russians had crossed the Alle at Friedland and were attacking Lannes.",
+        "uncertainty": "Whether there was enough daylight to finish the battle.",
+        "constraints": "His corps were spread out on the march.",
+        "forces": "Lannes, Ney, Victor, the Guard and Sénarmont's artillery.",
+        "terrain": "A loop of the Alle with bridges behind the Russians.",
+        "logistics": "Corps converging from the march toward Königsberg.",
+        "decision": "He attacked that afternoon toward the town and the bridges.",
+        "outcome": "The Russian army was crushed and the war ended at Tilsit."
+      },
+      {
+        "name": "Levin August von Bennigsen",
+        "objective": "Strike the French force near Friedland.",
+        "known": "Lannes's corps stood near Friedland.",
+        "uncertainty": "How quickly the rest of the French army would arrive.",
+        "constraints": "Bridges and a river behind his army.",
+        "forces": "The Russian army.",
+        "terrain": "A loop of the Alle around Friedland.",
+        "logistics": "Dependent on the bridges for retreat.",
+        "decision": "He crossed the Alle and attacked Lannes.",
+        "outcome": "His army was trapped against the river and defeated."
       }
     ]
   },

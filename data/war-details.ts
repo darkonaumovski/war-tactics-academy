@@ -515,7 +515,7 @@ export const warDetails: Record<string, WarDetails> = {
     developments: t(
       ["1805", "Trafalgar; Ulm; Austerlitz"],
       ["1806", "Jena–Auerstedt"],
-      ["1807", "Treaties of Tilsit"],
+      ["1807", "Eylau and Friedland; Treaties of Tilsit"],
       ["1808", "Peninsular War begins"],
       ["1812", "Invasion of Russia"],
       ["1813", "Battle of Leipzig"],

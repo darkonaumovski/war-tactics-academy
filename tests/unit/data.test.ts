@@ -9,12 +9,12 @@ import {
 import { battles, wars, campaigns, eras } from "../../data/catalog";
 import { courses } from "../../data/learning";
 it("validates source-backed analyses and the commander corpus", () => {
-  expect(researchSchema.parse(research)).toHaveLength(73);
+  expect(researchSchema.parse(research)).toHaveLength(77);
   expect(commanderSchema.parse(commanders)).toHaveLength(60);
 });
-it("provides 73 unique engagement slugs and a connected hierarchy", () => {
-  expect(battles).toHaveLength(73);
-  expect(new Set(battles.map((b) => b.slug)).size).toBe(73);
+it("provides 77 unique engagement slugs and a connected hierarchy", () => {
+  expect(battles).toHaveLength(77);
+  expect(new Set(battles.map((b) => b.slug)).size).toBe(77);
   for (const b of battles) {
     expect(wars.some((w) => w.slug === b.warId)).toBe(true);
     expect(
@@ -32,6 +32,7 @@ it("orders engagements in the same year by date", () => {
     ["montenotte", "lodi"],
     ["castiglione", "arcole"],
     ["acre", "aboukir-1799"],
+    ["eylau", "friedland"],
     ["cer", "tannenberg"],
     ["syrmia-1914", "drina-1914"],
     ["drina-1914", "kolubara"],

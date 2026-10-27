@@ -1328,6 +1328,11 @@
       "aspern-essling",
       "wagram",
       "smolensk-1812",
+      "borodino",
+      "berezina",
+      "lutzen-1813",
+      "bautzen",
+      "dresden",
       "waterloo"
     ],
     "source": {
@@ -1476,7 +1481,7 @@
     "strength": "After Borodino, accepted the abandonment of Moscow while maintaining an army capable of continuing the war.",
     "limitation": "Austerlitz was a major defeat; the division of responsibility among commanders and monarchs remains important.",
     "legacy": "The 1812 outcome depended on supply failures, resistance, weather and many commanders, not a single all-knowing plan.",
-    "battleSlugs": ["austerlitz"],
+    "battleSlugs": ["austerlitz", "borodino"],
     "source": {
       "title": "Mikhail Kutuzov and the War of 1812",
       "url": "https://museum-artillery.ru/en/main-exposition/mikhail-kutuzov-and-the-war-of-1812.html",

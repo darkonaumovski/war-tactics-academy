@@ -5230,6 +5230,1387 @@
     ]
   },
   {
+    "slug": "borodino",
+    "sources": [
+      {
+        "title": "Battle of Borodino",
+        "url": "https://www.britannica.com/event/Battle-of-Borodino",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Napoleonic Wars: The Russian campaign, 1812",
+        "url": "https://www.britannica.com/event/Napoleonic-Wars/France-and-northern-Europe-1809-12",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "1812 La Campagne de Russie : 2 : De Borodino à Moscou (Hamish Davey-Wright)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/chronologies/1812-la-campagne-de-russie-2-de-borodino-a-moscou/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Davout, homme de devoir. 1. Le soldat (Jean Linden, Revue du Souvenir Napoléonien 303)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/articles/davout-homme-de-devoir-1-le-soldat/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Ney, Michel, duc d'Elchingen (François-Guy Hourtoulle, Dictionnaire Napoléon)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/biographies/ney-michel-duc-delchingen-prince-de-la-moskowa-1769-1815-marechal/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "KUTUZOV, Mikhail Illarionovich Golenishchev (biography)",
+        "url": "https://www.napoleon.org/en/history-of-the-two-empires/biographies/kutuzov-mikhail-illarionovich-golenishchev/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Napoleonic Wars: The retreat from Moscow and the campaign of 1813",
+        "url": "https://www.britannica.com/event/Napoleonic-Wars/The-retreat-from-Moscow",
+        "publisher": "Encyclopaedia Britannica"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Since crossing the Neman in June 1812 Napoleon had failed to bring the Russian armies to a decisive battle, and after Smolensk they continued to retreat toward Moscow. Barclay de Tolly was replaced by Kutuzov, whose popularity with the army had brought him the command and who was determined to fight a major battle before abandoning Moscow.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Napoleon still needed the rapid, decisive victory that had eluded him, hoping it would bring Alexander to terms. For the Russians, Moscow carried a political weight that made giving it up without a battle hard to accept.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Kutuzov halted the retreat near Borodino, about 110 km west of Moscow, and hastily built fortifications to block the road to the city. Napoleon meant to destroy the Russian army; fearing that an attempt to outflank it might fail and let it escape, he chose a frontal attack.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The Russian line was concentrated between Borodino and Semenovskoe, near the Moskva, with the old Smolensk road behind it. Its key works were the V-shaped earthworks known as Bagration's flèches and the central Raevsky redoubt. The front was about five kilometres long.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Napoleon's army included the corps of Davout, Ney and Eugène, Murat's cavalry, Poniatowski's Poles and the Imperial Guard. Kutuzov commanded the united Russian armies, with Bagration's Second Army on the left. Strengths are given in the sources but not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "On 5 September Murat's advance guard and Davout's troops fought for the forward Russian position at Shevardino, on the Russian left, while Poniatowski took Doronino to the south. At a council that evening Davout proposed a wide flanking march with his corps round the Russian left; Napoleon judged it too risky and approved only a small diversion by Poniatowski. The 6th was spent concentrating the army, reconnoitring and preparing.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The French attacked at about 6 a.m. on 7 September. Eugène's troops took Borodino on the Russian right. Davout and Ney attacked the flèches, held by Vorontsov and Neverovsky; the works changed hands for about three hours until Ney took them around 10 a.m. Davout was wounded and handed his command to Murat, and Bagration was gravely wounded. The French then turned on the central redoubt, which was taken and lost repeatedly; Montbrun was mortally wounded and Auguste de Caulaincourt, who replaced him, was killed. By noon the French artillery began to tip the scales, but the attacks could not overwhelm the Russian resistance. In the afternoon both armies were exhausted, and the battle subsided into a cannonade that lasted until nightfall.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Napoleon rejected Davout's flanking plan for a frontal attack. During the battle, distant from the smoke-covered field and perhaps unsure of the situation, he refused to commit the Imperial Guard; his marshals were divided, with Murat, Davout and Ney in favour of committing it and Berthier, Duroc and Bessières against. Kutuzov committed every available man, withdrew during the night and, at a council at Fili on 13 September, decided to abandon Moscow to save the army.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Because Kutuzov had nothing left in reserve, Britannica judges that Napoleon's refusal to commit the Guard forfeited the chance of a decisive rather than a narrow victory.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Kutuzov withdrew during the night; his army was badly mauled but survived. Losses on both sides were very heavy, and the sources' figures differ. Bagration died of his wound on 24 September. The French held the field but did not win the decision Napoleon wanted.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Murat's troops reached Moscow on 14 September and Napoleon entered the nearly deserted city; fires broke out and destroyed much of it, and their origin is uncertain. The Russians refused to come to terms, and after waiting a month Napoleon began his retreat on 19 October. He later made Ney prince de la Moskowa.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 6
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A battle won on the field may not win the campaign; the decision to commit the last reserve weighs the present battle against the rest of the campaign; a frontal attack gives up the chance of a decisive manoeuvre in exchange for certain contact.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The Fondation Napoléon chronology notes that historians still debate what committing the Guard would have achieved. Napoleon's entry into Moscow is dated 14 September (Britannica) or the morning of 15 September (the chronology, which has Murat arrive on the 14th). The Russian forward position at Shevardino is described as a redoubt in many accounts but not in the sources read. Casualty figures differ widely and are not repeated here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica's article on the battle and its narrative of the 1812 campaign give the outline. Hamish Davey-Wright's chronology for the Fondation Napoléon gives the course of the fighting, Jean Linden's study of Davout the flanking proposal, François-Guy Hourtoulle's biography of Ney and the Fondation's biography of Kutuzov the commanders.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Shevardino",
+        "time": "5 September 1812",
+        "description": "Murat and Davout take the forward Russian position on the left."
+      },
+      {
+        "title": "The council",
+        "time": "5–6 September 1812",
+        "description": "Napoleon rejects Davout's flanking plan; the army concentrates and reconnoitres."
+      },
+      {
+        "title": "The flèches",
+        "time": "7 September 1812, 6–10 a.m.",
+        "description": "Borodino falls and the flèches change hands until Ney takes them; Davout and Bagration are wounded."
+      },
+      {
+        "title": "The great redoubt",
+        "time": "7 September 1812, late morning – afternoon",
+        "description": "The central redoubt is taken and lost repeatedly; the Guard is kept in reserve."
+      },
+      {
+        "title": "Cannonade and withdrawal",
+        "time": "7–8 September 1812",
+        "description": "The battle subsides into a cannonade; Kutuzov withdraws during the night."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Napoleon Bonaparte",
+        "objective": "Destroy the Russian army before Moscow.",
+        "known": "Kutuzov had stopped at Borodino behind field fortifications.",
+        "uncertainty": "Whether a flanking march would trap the Russians or let them escape.",
+        "constraints": "An army worn down by long marches and supply failures, far from its bases.",
+        "forces": "The corps of Davout, Ney and Eugène, Murat's cavalry, Poniatowski's Poles and the Imperial Guard.",
+        "terrain": "A narrow front between Borodino and Semenovskoe, fortified with flèches and a central redoubt.",
+        "logistics": "A long line of communication back through Smolensk.",
+        "decision": "He attacked frontally and kept the Guard in reserve.",
+        "outcome": "He won the field and entered Moscow, but the Russian army survived."
+      },
+      {
+        "name": "Mikhail Kutuzov",
+        "objective": "Fight a major battle before giving up Moscow, without losing the army.",
+        "known": "The French were advancing on Moscow along the Smolensk road.",
+        "uncertainty": "Whether his fortified line could hold against Napoleon's assaults.",
+        "constraints": "An army that had retreated for months, and the weight of Moscow.",
+        "forces": "The united Russian armies, with Bagration on the left.",
+        "terrain": "Hastily built fortifications: the flèches and the Raevsky redoubt.",
+        "logistics": "Moscow and the interior behind him.",
+        "decision": "He stood and fought, committing every available man, then withdrew and gave up Moscow to save the army.",
+        "outcome": "His army was badly mauled but survived, and in the end drove Napoleon out of Russia."
+      }
+    ]
+  },
+  {
+    "slug": "berezina",
+    "sources": [
+      {
+        "title": "Napoleonic Wars: The retreat from Moscow and the campaign of 1813",
+        "url": "https://www.britannica.com/event/Napoleonic-Wars/The-retreat-from-Moscow",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "La retraite de Russie (Paul Ganière, Revue du Souvenir Napoléonien 354)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/articles/la-retraite-de-russie/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Ney, Michel, duc d'Elchingen (François-Guy Hourtoulle, Dictionnaire Napoléon)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/biographies/ney-michel-duc-delchingen-prince-de-la-moskowa-1769-1815-marechal/",
+        "publisher": "Fondation Napoléon"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After a month in Moscow, with the Russians refusing to come to terms, Napoleon began his retreat on 19 October 1812. At Maloyaroslavets on 24 October he found Kutuzov in his path and chose to return by the direct road through Mozhaisk and Smolensk, over ground already devastated.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Napoleon had tried to avoid any appearance of retreat by first ordering a march on Kaluga. By late November three Russian armies were converging on his line: Wittgenstein from the north, Chichagov from the south and Kutuzov's main army behind.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Napoleon needed to get the army across the Berezina before the Russian armies closed on it; the Russians had the chance to trap it against the river.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The Berezina crossed the army's road at Borisov, where the bridge was the vital crossing. Upstream, a peasant guided the French to a ford near Brillowo and Studianka, where the river was some 40 to 50 m wide; beyond it the road west led through the marshes of Zembin.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "West of Orsha the remnant of the Grande Armée was joined by the corps of Victor and Oudinot from the northern flank; behind the combatants marched a mass of stragglers. General Eblé commanded the pontonniers. Against them were Chichagov's army on the far bank, Wittgenstein's approaching from the north and Kutuzov's main army following. Strengths given in the sources are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Britannica notes that most of the army's losses occurred before the first snowfall. At Krasnoi in mid-November Kutuzov declined a general engagement, and Ney's rearguard escaped only across the breaking ice of the Dnieper. The advance guard reached the Berezina on 23 November to learn that Chichagov held the Borisov bridge; Oudinot retook Borisov, but the Russians burned the bridge as they withdrew. On 24 November Corbineau's cavalry found the ford at Studianka.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Eblé's pontonniers reached Studianka on the afternoon of 25 November and, working in the icy water, built two trestle bridges from the timbers of the village houses, one for troops and one for wagons and guns, while feints at Borisov and downstream drew Chichagov's attention south. On 26 November Oudinot's corps crossed; the second bridge opened in the afternoon, and ice floes repeatedly damaged both, forcing repairs in the water. The Guard and the main body crossed on 27 November, but most of the stragglers waited for daylight. On 28 November Victor held off Wittgenstein on the east bank while Oudinot and Ney contained Chichagov on the west bank; Partouneaux's division, cut off near Borisov, surrendered. At 9 a.m. on 29 November the bridges were set on fire as Cossacks reached the bank.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Napoleon chose to cross upstream at Studianka and deceived Chichagov with feints at Borisov and farther south. Chichagov concentrated at Borisov, and the force he had left opposite Studianka stayed silent and then withdrew. The order to burn the bridges, carried out two hours later than Napoleon had ordered according to Ganière, protected the army but abandoned those still on the east bank.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The Russians' failure to contest Studianka on 25 and 26 November let the bridges be built and the first troops cross unopposed.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The core of the army escaped across the Berezina and through the marshes toward Zembin. Many thousands of stragglers, sick and wounded were left behind when the bridges burned; Ganière writes that those who could walk were taken prisoner and the others killed. The army had escaped destruction, but as a fighting force it was finished.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The march went on in extreme cold to Vilnius and Kovno, where only a few broken thousands recrossed the Neman. On 5 December, after news of the Malet conspiracy, Napoleon left the army to Murat and hurried to Paris. The cavalry destroyed in Russia could not be replaced, and the French army could no longer absorb new recruits into well-established formations. The exhausted Russians halted at the Vistula.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Deception and engineering can open an escape route even in catastrophe; a rearguard that holds both banks buys time for the main body; the cost of a retreat falls heaviest on the stragglers, the sick and the wounded.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Russian coordination failed: Chichagov was deceived, Ganière describes Kutuzov's army as largely inactive on 28 November, and Britannica notes that Schwarzenberg had failed to pursue Chichagov. The burning of the bridges, with so many still on the east bank, remains a painful question. Dates differ slightly: Ganière places the first snow on 3 November and Ney's escape on 18 November, Britannica the first snowstorm on 6 November. The losses of the campaign are estimated very differently and are not repeated here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica's narrative of the retreat from Moscow gives the outline, and Paul Ganière's article in the Revue du Souvenir Napoléonien the detailed course of the crossing. François-Guy Hourtoulle's biography of Ney adds the rearguard and the fighting of 28 November.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "The Borisov bridge",
+        "time": "23–24 November 1812",
+        "description": "The Russians hold and burn the Borisov bridge; Corbineau finds a ford at Studianka."
+      },
+      {
+        "title": "The bridges",
+        "time": "25–26 November 1812",
+        "description": "Eblé's pontonniers build two trestle bridges in icy water while feints draw Chichagov south."
+      },
+      {
+        "title": "The crossing",
+        "time": "26–27 November 1812",
+        "description": "Oudinot's corps, then the Guard and the main body cross; ice floes damage the bridges."
+      },
+      {
+        "title": "Both banks",
+        "time": "28 November 1812",
+        "description": "Victor holds off Wittgenstein on the east bank; Chichagov is contained on the west bank."
+      },
+      {
+        "title": "The bridges burn",
+        "time": "29 November 1812",
+        "description": "The bridges are fired at 9 a.m.; those left behind are captured or killed."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Napoleon Bonaparte",
+        "objective": "Get the remnant of the army across the Berezina before the Russian armies closed.",
+        "known": "Chichagov held the far bank and had burned the Borisov bridge; Wittgenstein and Kutuzov were approaching.",
+        "uncertainty": "Whether the Russians would discover the crossing at Studianka.",
+        "constraints": "Extreme cold, hunger, few horses and a mass of stragglers.",
+        "forces": "The Guard, the remnants of the corps, and the fresher corps of Victor and Oudinot.",
+        "terrain": "A river with a ford upstream at Studianka and marshes beyond.",
+        "logistics": "Bridges built from village timber by pontonniers working in the water.",
+        "decision": "He bridged the river at Studianka and deceived Chichagov with feints.",
+        "outcome": "The army escaped destruction, but thousands were left behind."
+      },
+      {
+        "name": "Pavel Chichagov",
+        "objective": "Block the French crossing of the Berezina.",
+        "known": "The French were approaching Borisov.",
+        "uncertainty": "Where the French would try to cross.",
+        "constraints": "Coordinating with Wittgenstein and Kutuzov, who were approaching from other directions.",
+        "forces": "His army on the west bank.",
+        "terrain": "The river line from Borisov to Studianka.",
+        "logistics": "He had come up from the south to reach the river.",
+        "decision": "He concentrated at Borisov and withdrew the force facing Studianka.",
+        "outcome": "The French crossed upstream, and his later attacks on the west bank were contained."
+      }
+    ]
+  },
+  {
+    "slug": "lutzen-1813",
+    "sources": [
+      {
+        "title": "Napoleonic Wars: The Austrian attempt at mediation (Lützen and Bautzen)",
+        "url": "https://www.britannica.com/event/Napoleonic-Wars/The-Austrian-attempt-at-mediation",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Napoleonic Wars: The retreat from Moscow and the campaign of 1813",
+        "url": "https://www.britannica.com/event/Napoleonic-Wars/The-retreat-from-Moscow",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "1813 and the lead up to the Battle of Leipzig (timeline, P.H.)",
+        "url": "https://www.napoleon.org/en/history-of-the-two-empires/timelines/38920/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Gerhard Johann David von Scharnhorst",
+        "url": "https://www.britannica.com/biography/Gerhard-Johann-David-von-Scharnhorst",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Ney, Michel, duc d'Elchingen (François-Guy Hourtoulle, Dictionnaire Napoléon)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/biographies/ney-michel-duc-delchingen-prince-de-la-moskowa-1769-1815-marechal/",
+        "publisher": "Fondation Napoléon"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "The destruction of the Grande Armée in Russia brought Prussia into the war. Yorck's Convention of Tauroggen on 30 December 1812 was followed by the Russo-Prussian alliance of Kalisz in February 1813 and Prussia's declaration of war in March. The French fell back from the Vistula to the Elbe, abandoning Dresden.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Austria, under Metternich, moved toward armed mediation, and on 26 April the king of Saxony undertook to join Austria if war came. Napoleon hoped to recover Germany before Austria could intervene.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Napoleon raised a new army of hastily trained conscripts. He planned to march on Leipzig, outflanking the Allies, then turn south to drive them against the Erzgebirge. Wittgenstein, commanding the Allies, aimed to cut off Ney's flank guard at Lützen, split the French and drive the Army of the Elbe back on the Elster.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The battle was fought on the plain south-west of Leipzig, around the villages of Gross-Görschen and Kaja near Lützen, between the Saale and the Elster.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Napoleon's forces were divided into the Army of the Main under his own command and the Army of the Elbe under Eugène; Ney's corps formed the flank guard at Lützen, with Bertrand and Macdonald among the other commanders. The Allies under Wittgenstein were grouped south of Leipzig; Scharnhorst was chief of staff to Blücher. The French were very short of cavalry, while the Allies had numerous cavalry; other figures are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "On 1 May Napoleon entered Lützen. Ney was to remain there to protect the movement on Leipzig and the approach of the rear corps, but he disposed his troops carelessly and did not reckon with an Allied attack. The Allies stood south of Leipzig, almost at right angles to the French line of operations.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 2 May the Allies opened their cannonade at Gross-Görschen, surprising Ney's corps while Napoleon was overseeing the attack on Leipzig. The Prussians bore much of the fighting, the Russians joining later. Napoleon ordered his troops to concentrate at Kaja and re-established the front while waiting for Bertrand to come in on the Allied left and Macdonald to cut their retreat to the Elster. Both came slowly; as French numbers began to tell, nightfall ended the fighting, and Wittgenstein withdrew in good order, covered by his cavalry.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Napoleon turned the army away from Leipzig to concentrate at Kaja and tried to envelop the Allies with Bertrand and Macdonald. Wittgenstein chose to attack the French flank on the march.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The concentration at Kaja turned the battle; the slow arrival of the flanking corps and the onset of night kept it from becoming decisive.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The French held the field, but the victory was inconclusive and costly. Without cavalry Napoleon could not pursue, and the Allies retreated in order toward Dresden and Bautzen. Scharnhorst was wounded and died of the wound at Prague on 28 June.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The Allied retreat led the king of Saxony to abandon them, and his army joined the French. Napoleon entered Dresden on 8 May and reorganised his forces there before marching on the Allies at Bautzen.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A rebuilt army can win battles, but without cavalry victories cannot be exploited; a carelessly posted flank guard invites attack; an envelopment depends on corps arriving in time.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Britannica calls the victory inconclusive and gives the French heavier losses than the Allies; the Fondation Napoléon timeline says nightfall saved the Allies from a debacle. Britannica criticises Ney's dispositions, while Hourtoulle's biography notes only that Ney held important commands at Lützen and Bautzen. Figures differ and are not repeated here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica's narrative of the 1813 campaign gives the plans and the course of the battle; the Fondation Napoléon's 1813 timeline adds the fighting around Gross-Görschen, Britannica's biography of Scharnhorst his wound, and Hourtoulle's biography Ney's role.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "The advance on Leipzig",
+        "time": "30 April – 1 May 1813",
+        "description": "The French reach the Saale and enter Lützen; Ney stays as flank guard."
+      },
+      {
+        "title": "Surprise at Gross-Görschen",
+        "time": "2 May 1813",
+        "description": "The Allies attack Ney's corps while Napoleon oversees the attack on Leipzig."
+      },
+      {
+        "title": "Concentration at Kaja",
+        "time": "2 May 1813",
+        "description": "Napoleon turns the army back and restores the front."
+      },
+      {
+        "title": "Nightfall",
+        "time": "2 May 1813, evening",
+        "description": "Bertrand and Macdonald arrive slowly; night ends the battle and the Allies withdraw in good order."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Napoleon Bonaparte",
+        "objective": "Defeat the Allies quickly and recover Saxony.",
+        "known": "The Allies were south of Leipzig, close to his flank.",
+        "uncertainty": "Whether the Allies would attack before he reached Leipzig.",
+        "constraints": "Young conscripts and very little cavalry.",
+        "forces": "The Army of the Main and the Army of the Elbe, with Ney's corps as flank guard.",
+        "terrain": "Open plain and villages between the Saale, Leipzig and the Elster.",
+        "logistics": "New levies with guns and wagons but few horses.",
+        "decision": "He turned the army back to Kaja and tried to envelop the Allies.",
+        "outcome": "He won the field but could not pursue."
+      },
+      {
+        "name": "Peter Wittgenstein",
+        "objective": "Cut off Ney's flank guard and split the French army.",
+        "known": "The French were marching on Leipzig across his front.",
+        "uncertainty": "How quickly the French could turn back.",
+        "constraints": "Coordinating Russian and Prussian forces.",
+        "forces": "The Russo-Prussian army, strong in cavalry.",
+        "terrain": "The plain south of Lützen.",
+        "logistics": "His line of retreat ran toward Dresden.",
+        "decision": "He attacked Ney's corps at Gross-Görschen.",
+        "outcome": "He was driven back but withdrew in good order under cover of his cavalry."
+      }
+    ]
+  },
+  {
+    "slug": "bautzen",
+    "sources": [
+      {
+        "title": "Napoleonic Wars: The Austrian attempt at mediation (Lützen and Bautzen)",
+        "url": "https://www.britannica.com/event/Napoleonic-Wars/The-Austrian-attempt-at-mediation",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "1813 and the lead up to the Battle of Leipzig (timeline, P.H.)",
+        "url": "https://www.napoleon.org/en/history-of-the-two-empires/timelines/38920/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Ney, Michel, duc d'Elchingen (François-Guy Hourtoulle, Dictionnaire Napoléon)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/biographies/ney-michel-duc-delchingen-prince-de-la-moskowa-1769-1815-marechal/",
+        "publisher": "Fondation Napoléon"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Lützen the Allies retreated through Dresden; the Russians fell back to the Spree, and the Prussians rejoined them at Bautzen. Napoleon entered Dresden on 8 May and spent over a week reorganising his forces, sending Eugène to Italy and dividing the armies between himself and Ney.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Saxony had returned to the French alliance, and Austria was preparing armed mediation. Bülow's Prussian corps covered Berlin, and Napoleon set up his base at Dresden for operations against both the main Allied army and Berlin.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "On 18 May Napoleon set out for Bautzen to seek a decisive battle. He would attack the Allied front on 20 May; on the 21st Ney, coming from the north, would strike their flank and rear, cut their communications and push them toward the Erzgebirge. The Fondation Napoléon timeline describes the plan as an attempt to repeat Friedland.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The Allies held a position on the Spree around Bautzen, east of Dresden. Ney's approach from the north led toward Preititz, behind the Allied right.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Napoleon commanded the main army in person; Ney led the northern wing. Wittgenstein commanded the Allies, who were far superior in cavalry although Napoleon had the larger army; Barclay replaced Wittgenstein on 29 May. Figures are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Napoleon first ordered Ney to send two of his corps toward Berlin, then countermanded the order and summoned all of Ney's forces to Bautzen; the new instructions arrived too late to bring them all together.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 20 May Napoleon's preliminary attack on the Spree succeeded. On 21 May Ney reached Preititz but let himself be drawn into an inconclusive fight with the Allied right wing; the timeline says he attacked the Allied centre instead of the crumbling right. The limited reach of Ney's outflanking movement and the Allies' superior cavalry let them break off and retreat eastward from 4 p.m.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Napoleon's plan depended on Ney driving deep behind the Allies; Ney turned toward the fighting instead. The Allies chose to retreat in time rather than risk envelopment.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Ney's halt around Preititz decided the outcome: the envelopment never closed, and the Allies escaped.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The French won the field again, at heavier cost than the Allies. The timeline quotes the Saxon officer Baron von Odeleben describing the Allied retreat as a masterpiece of tactics. Duroc was mortally wounded on 22 May. The Allies crossed the Katzbach on 26 May and turned south to protect Silesia.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "On 4 June both sides accepted the armistice of Pläswitz, later extended to 10 August. Napoleon counted on rebuilding his cavalry; the Allies used the pause to bring in the Prussian Landwehr and, at Reichenbach, to agree that Austria would enter the war if Napoleon rejected its terms. Austria declared war on 12 August.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "An envelopment depends on subordinates who understand the intent; orders changed late may not reach their recipients in time; a victory without pursuit leaves the enemy free to recover.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The Fondation Napoléon timeline calls the armistice Napoleon's great mistake, arguing that he could have pressed his advantage; Britannica stresses that his offensive had spent its force and his army lacked ammunition, supplies and cavalry. Ney's conduct is described differently: Britannica says he was drawn into an inconclusive encounter, the timeline that he attacked the wrong part of the line. Figures differ and are not repeated here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica's narrative of the 1813 campaign gives the plan and the course of the battle, and the Fondation Napoléon's 1813 timeline the debate over Ney and the armistice. Hourtoulle's biography of Ney notes his command at Bautzen.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Dresden",
+        "time": "8–18 May 1813",
+        "description": "Napoleon reorganises at Dresden and sets out for Bautzen."
+      },
+      {
+        "title": "The Spree",
+        "time": "20 May 1813",
+        "description": "Napoleon's preliminary attack on the Spree succeeds and pins the Allies."
+      },
+      {
+        "title": "Ney at Preititz",
+        "time": "21 May 1813",
+        "description": "Ney reaches the Allied right but is drawn into an inconclusive fight."
+      },
+      {
+        "title": "The Allied retreat",
+        "time": "21 May 1813, from 4 p.m.",
+        "description": "The Allies break off and retreat eastward, covered by their cavalry."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Napoleon Bonaparte",
+        "objective": "Destroy the Allied army in a single battle.",
+        "known": "The Allies held a position on the Spree around Bautzen.",
+        "uncertainty": "Whether Ney would arrive in time and strike deep enough.",
+        "constraints": "Short of cavalry, with his orders to Ney changed at the last moment.",
+        "forces": "His main army in front and Ney's wing to the north.",
+        "terrain": "The Spree position around Bautzen, with the Allied right open to an approach from the north.",
+        "logistics": "Too few horses for a strong cavalry pursuit.",
+        "decision": "He pinned the Allies frontally and sent Ney against their flank and rear.",
+        "outcome": "He won the field, but the Allies escaped."
+      },
+      {
+        "name": "Michel Ney",
+        "objective": "Strike the Allied flank and rear from the north.",
+        "known": "Napoleon was attacking the Allied front.",
+        "uncertainty": "How deep to drive and where the decisive point lay.",
+        "constraints": "Corps first sent toward Berlin and recalled late.",
+        "forces": "The northern wing of the French army.",
+        "terrain": "The approach by Preititz behind the Allied right.",
+        "logistics": "Corps converging from different directions.",
+        "decision": "He engaged the Allied right wing near Preititz instead of driving deep behind it.",
+        "outcome": "The Allies escaped before the envelopment closed."
+      }
+    ]
+  },
+  {
+    "slug": "dresden",
+    "sources": [
+      {
+        "title": "Battle of Dresden",
+        "url": "https://www.britannica.com/event/Battle-of-Dresden",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Napoleonic Wars: Dispositions for the autumn campaign (Dresden)",
+        "url": "https://www.britannica.com/event/Napoleonic-Wars/Dispositions-for-the-autumn-campaign",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "1813 and the lead up to the Battle of Leipzig (timeline, P.H.)",
+        "url": "https://www.napoleon.org/en/history-of-the-two-empires/timelines/38920/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "SCHWARZENBERG, Karl Philip von (biography)",
+        "url": "https://www.napoleon.org/en/history-of-the-two-empires/biographies/schwarzenberg-karl-philip-von/",
+        "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Napoleonic Wars: The Austrian attempt at mediation (Lützen and Bautzen)",
+        "url": "https://www.britannica.com/event/Napoleonic-Wars/The-Austrian-attempt-at-mediation",
+        "publisher": "Encyclopaedia Britannica"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "During the armistice the Allies agreed at Reichenbach that Austria would enter the war if Napoleon refused its terms. The armistice ended on 10 August 1813 and Austria declared war two days later.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 4
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The Allies divided their forces into three armies: Schwarzenberg's Army of Bohemia, accompanied by the Russian and Prussian monarchs, Blücher's Army of Silesia and Bernadotte's Army of the North. They agreed to avoid battle with Napoleon himself and to attack his subordinates. Schwarzenberg became commander-in-chief of the Allied armies.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The Allies hoped to capture Dresden, Napoleon's main base of operations and supply depot. Napoleon meant to stand on the defensive in the south while seeking a decision in the north against Berlin; he did not know that the Army of Bohemia had been greatly reinforced.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Dresden, the Saxon capital on the Elbe, was the base of Napoleon's defence of the Elbe line. Schwarzenberg attacked in a great semicircle around the city, his flanks resting on the river; Pirna, upstream, lay on the Allied line of retreat into Bohemia.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Gouvion-Saint-Cyr held Dresden with a small garrison and built many fortifications. Napoleon brought up the Guard and other corps, joined on the night of the 26th by Marmont and Victor. Schwarzenberg commanded the Austrian, Prussian and Russian Army of Bohemia. On the first day the French were heavily outnumbered; figures are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "In mid-August Napoleon moved east against Blücher, who retreated before him. On 23 August he learned that the advance of the Army of Bohemia had forced Gouvion-Saint-Cyr back on Dresden; leaving Macdonald to hold Blücher, he hurried west and ordered Vandamme toward Pirna. The danger at Dresden was such that he sent most of his forces straight to the city, and the Guard entered Dresden at 10 a.m. on 26 August after marching 145 km in 72 hours.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Schwarzenberg, who had meant to attack at 4 p.m., decided to retire, but too late to stop the battle from starting. On 26 August the Allies attacked around the city; Gouvion-Saint-Cyr's defenders gave ground slowly, and in the late afternoon Napoleon drove the Allies back to their starting positions. On 27 August, from 6 a.m., in rain and mud, the French drove back the Allied right and overwhelmed the left, which had become detached from the centre. The mobility of the French artillery told when infantry and cavalry could hardly move. At 4 p.m. the Allies withdrew in disorder.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Napoleon's decision to break off his move against Blücher and march back to Dresden at speed saved the city. On the second day he attacked both Allied wings. Schwarzenberg's decision to call off the attack came too late.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The Guard's arrival and Napoleon's counterattack on the afternoon of 26 August turned the battle; the collapse of the Allied left on the 27th decided it.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Allies withdrew with heavy losses, but their retreat was not pressed hard. Napoleon fell ill on 28 August and returned to Dresden, leaving the pursuit to his corps commanders. Britannica calls Dresden his last major victory in Germany.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Defeats of Napoleon's subordinates soon undid the victory: Oudinot at Grossbeeren on 23 August, Macdonald on the Katzbach on 26 August, Vandamme surrounded at Kulm on 29–30 August and Ney at Dennewitz on 6 September. The Fondation Napoléon timeline says Kulm greatly boosted Allied morale.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A coalition that refuses battle with the strongest commander and attacks his subordinates can win without winning his battles; interior lines let a commander strike in turn, but only if his subordinates can hold; a victory without pursuit can be undone within days.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Britannica judges the autumn campaign the worst conceived and most disastrous of Napoleon's career, tying him to the fortresses on the Elbe. Both Napoleon's illness and the shortcomings of his corps commanders are given as reasons the victory was not exploited. The Fondation Napoléon's biography of Schwarzenberg dates the battle 25–26 August, against 26–27 August in Britannica and the Fondation's timeline. Losses differ and are not repeated here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica's article on the battle and its narrative of the autumn campaign give the course of events; the Fondation Napoléon's 1813 timeline adds the Allied left and Kulm, and its biography of Schwarzenberg his command.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Back to Dresden",
+        "time": "23–26 August 1813",
+        "description": "Napoleon breaks off against Blücher and marches back; the Guard enters Dresden on the morning of the 26th."
+      },
+      {
+        "title": "The Allied assault",
+        "time": "26 August 1813",
+        "description": "The Allies attack around the city; the defenders give ground slowly."
+      },
+      {
+        "title": "The counterattack",
+        "time": "26 August 1813, late afternoon",
+        "description": "Napoleon drives the Allies back to their starting positions."
+      },
+      {
+        "title": "The wings",
+        "time": "27 August 1813",
+        "description": "In rain and mud the French drive back the Allied right and overwhelm the left; the Allies withdraw."
+      },
+      {
+        "title": "Kulm",
+        "time": "29–30 August 1813",
+        "description": "Vandamme's corps, pursuing into Bohemia, is surrounded and destroyed."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Napoleon Bonaparte",
+        "objective": "Hold Dresden, his main base, and defeat the Army of Bohemia.",
+        "known": "The Army of Bohemia had forced Gouvion-Saint-Cyr back on Dresden.",
+        "uncertainty": "How strong the Allied army had become.",
+        "constraints": "Forces spread along the Elbe and toward Berlin, with subordinates facing the other Allied armies.",
+        "forces": "Gouvion-Saint-Cyr's garrison, the Guard and the corps marched back from Silesia.",
+        "terrain": "Dresden on the Elbe, fortified by Gouvion-Saint-Cyr.",
+        "logistics": "Forced marches to reach the city in time.",
+        "decision": "He marched back at speed, counterattacked on the 26th and attacked both Allied wings on the 27th.",
+        "outcome": "A clear victory, soon undone by his subordinates' defeats."
+      },
+      {
+        "name": "Karl Philipp zu Schwarzenberg",
+        "objective": "Take Dresden while Napoleon was away in Silesia.",
+        "known": "Napoleon had moved east against Blücher.",
+        "uncertainty": "When Napoleon would return.",
+        "constraints": "A multinational army accompanied by the Russian and Prussian monarchs.",
+        "forces": "The Austrian, Russian and Prussian Army of Bohemia.",
+        "terrain": "A semicircle around the city, its flanks on the Elbe.",
+        "logistics": "A line of retreat into Bohemia.",
+        "decision": "He planned to attack, then decided too late to retire.",
+        "outcome": "He was driven off with heavy losses, but the Allied strategy of defeating Napoleon's subordinates continued."
+      }
+    ]
+  },
+  {
     "slug": "waterloo",
     "sources": [
       {

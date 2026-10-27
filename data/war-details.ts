@@ -521,8 +521,11 @@ export const warDetails: Record<string, WarDetails> = {
         "1809",
         "Eckmühl, Aspern-Essling and Wagram; Peace of Vienna (Schönbrunn)",
       ],
-      ["1812", "Invasion of Russia; Smolensk"],
-      ["1813", "Battle of Leipzig"],
+      [
+        "1812",
+        "Invasion of Russia; Smolensk and Borodino; retreat and the Berezina",
+      ],
+      ["1813", "Lützen, Bautzen and Dresden; Battle of Leipzig"],
       ["1814", "Napoleon abdicates"],
       ["1815", "Hundred Days; Waterloo"],
     ),

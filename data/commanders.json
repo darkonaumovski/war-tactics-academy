@@ -1986,7 +1986,7 @@
     "strength": "Helped maintain Allied cohesion during the German spring offensives and subsequent counteroffensives.",
     "limitation": "Earlier offensives produced severe losses, and coalition command still depended on national governments and army leaders.",
     "legacy": "His career shows the distinction between tactical command, military theory and the political work of allied direction.",
-    "battleSlugs": ["marne-1914", "first-ypres", "second-ypres"],
+    "battleSlugs": ["marne-1914", "first-ypres", "second-ypres", "somme"],
     "source": {
       "title": "Foch, Ferdinand — Elizabeth Greenhalgh",
       "url": "https://encyclopedia.1914-1918-online.net/wp-content/uploads/2023/01/ams/958119/pdf/1914-1918-Online-foch_ferdinand-2015-11-18.pdf",
@@ -2051,7 +2051,7 @@
     "strength": "The army under his command improved coordination among infantry, artillery, aircraft and tanks.",
     "limitation": "The Somme and Passchendaele involved enormous casualties and failed expectations; continuation of attacks remains heavily debated.",
     "legacy": "Assessment must include learning and final success without minimizing suffering or treating victory as proof every decision was sound.",
-    "battleSlugs": ["first-ypres"],
+    "battleSlugs": ["first-ypres", "somme"],
     "source": {
       "title": "Douglas Haig: The chief",
       "url": "https://www.nam.ac.uk/explore/douglas-haig",
@@ -2116,7 +2116,7 @@
     "strength": "Achieved substantial initial gains and disrupted Austro-Hungarian forces.",
     "limitation": "Casualties, logistical strain and uneven support limited exploitation; later command in 1917 did not reverse army disintegration.",
     "legacy": "His career spans imperial service, revolution and later cooperation with the Red Army, complicating simple national narratives.",
-    "battleSlugs": [],
+    "battleSlugs": ["brusilov-offensive"],
     "source": {
       "title": "Brusilov, Alekseĭ Alekseevich",
       "url": "https://encyclopedia.1914-1918-online.net/wp-content/uploads/2023/01/ams/957522/pdf/1914-1918-Online-brusilov_aleksei_alekseevich-2018-04-24.pdf",
@@ -2752,7 +2752,7 @@
     "strength": "Planned the Austro-German offensive of 1915, which succeeded.",
     "limitation": "Britannica judges that he failed mainly because he advocated ruthless military solutions, ignoring human factors and the political realities of Austria-Hungary; his offensives against a stronger Russian army were repulsed.",
     "legacy": "A controversial strategist under whom the Austro-Hungarian army became increasingly subordinated to the German General Staff; after the war he wrote multi-volume memoirs of his service.",
-    "battleSlugs": ["cer", "drina-1914", "kolubara"],
+    "battleSlugs": ["cer", "drina-1914", "kolubara", "brusilov-offensive"],
     "source": {
       "title": "Franz Graf Conrad von Hötzendorf",
       "url": "https://www.britannica.com/biography/Franz-Graf-Conrad-von-Hotzendorf",
@@ -3073,7 +3073,7 @@
     "strength": "Counted among the most versatile German army commanders; led successful advances in Poland in 1915 and in Serbia.",
     "limitation": "From 1916 his commands at Verdun and on the Somme were defensive battles of attrition with no decisive result.",
     "legacy": "Considered for the highest offices in wartime; after the war he sat in the Reichstag for the German National People's Party.",
-    "battleSlugs": ["invasion-of-serbia-1915", "verdun"],
+    "battleSlugs": ["invasion-of-serbia-1915", "verdun", "somme"],
     "source": {
       "title": "Gallwitz, Max von (Hanns Möller, Neue Deutsche Biographie 6)",
       "url": "https://www.deutsche-biographie.de/sfz19858.html",
@@ -3203,7 +3203,7 @@
     "strength": "Counted with Gallwitz among the most versatile German army commanders; his Fourteenth Army broke through at Tolmein in 1917.",
     "limitation": "In Macedonia his army group lost Monastir to the Allied offensive in November 1916.",
     "legacy": "Remembered chiefly for the 1917 breakthrough against Italy; his appointment to command the home defence in the west in 1918 was overtaken by the revolution.",
-    "battleSlugs": ["monastir-1916"],
+    "battleSlugs": ["monastir-1916", "caporetto"],
     "source": {
       "title": "Below, Otto von (Friedrich Stuhlmann, Neue Deutsche Biographie 2)",
       "url": "https://www.deutsche-biographie.de/sfz3657.html",
@@ -3590,7 +3590,7 @@
     "strength": "His early desert operations displayed adaptability and initiative.",
     "limitation": "Advances strained Axis supply capacity; defeat in North Africa exposed the gap between tactical success and strategic resources.",
     "legacy": "The apolitical 'clean' Rommel legend is misleading. His rise relied on Hitler's favor and Nazi propaganda; his relationship with the regime requires scrutiny.",
-    "battleSlugs": ["el-alamein", "normandy"],
+    "battleSlugs": ["el-alamein", "normandy", "caporetto"],
     "source": {
       "title": "Erwin Rommel",
       "url": "https://encyclopedia.ushmm.org/content/en/article/erwin-rommel",

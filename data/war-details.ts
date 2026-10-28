@@ -621,8 +621,21 @@ export const warDetails: Record<string, WarDetails> = {
         "October–November 1915",
         "German, Austro-Hungarian and Bulgarian invasion of Serbia; the Serbian army retreats through Montenegro and Albania",
       ],
-      ["1916", "Verdun and the Somme"],
+      ["February–December 1916", "Battle of Verdun"],
+      [
+        "31 May – 1 June 1916",
+        "Battle of Jutland, the only clash of the British and German battle fleets",
+      ],
+      [
+        "June 1916",
+        "Brusilov offensive breaks the Austro-Hungarian front in the east",
+      ],
+      ["1 July – 18 November 1916", "Battle of the Somme"],
       ["1917", "United States enters the war; revolutions in Russia"],
+      [
+        "24 October 1917",
+        "Austro-German breakthrough at Caporetto; the Italian army retreats to the Piave",
+      ],
       ["1918", "German spring offensives; Allied Hundred Days"],
       [
         "September 1918",

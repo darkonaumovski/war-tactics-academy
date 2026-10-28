@@ -43,7 +43,10 @@ export function BattleMap({ battle }: { battle: Battle }) {
   }, [playing, phases.length]);
   const current = phases[phase];
   if (!current) return null;
-  const naval = battle.slug === "midway";
+  // Sea battles draw ship markers instead of land units.
+  const naval = ["actium", "tsushima", "jutland", "midway"].includes(
+    battle.slug,
+  );
   const advance = phase * 30;
   return (
     <section className="replay" aria-label="Interactive battle timeline">

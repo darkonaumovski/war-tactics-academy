@@ -26,7 +26,7 @@ export const worldView: View = {
 // Fixed boxes ([west, south, east, north] in degrees) for the region select.
 // They overlap at their edges; every engagement must fall inside at least one.
 export const atlasRegions = [
-  { id: "western-europe", name: "Western Europe", box: [-6, 42, 9, 55] },
+  { id: "western-europe", name: "Western Europe", box: [-6, 42, 9, 58] },
   { id: "central-europe", name: "Central Europe", box: [6, 46, 21, 55] },
   {
     id: "italy",

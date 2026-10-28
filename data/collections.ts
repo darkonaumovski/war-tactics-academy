@@ -161,8 +161,17 @@ export const collections: Collection[] = [
         studies: ["invasion-of-serbia-1915", "serbian-retreat-1915"],
       },
       {
-        text: "In 1916 Verdun became a prolonged battle around fortified ground; its losses, added to those of the Somme, created a German manpower crisis, and in France it became the national symbol of the war. In Macedonia the rebuilt Serbian army took Kajmakčalan, and the Allies took Monastir, before the front fell quiet for nearly two years.",
-        studies: ["verdun", "kajmakcalan", "monastir-1916"],
+        text: "1916 was the year of attrition. Verdun became a prolonged battle around fortified ground and, in France, the national symbol of the war. On the Somme the British Army suffered its bloodiest day on 1 July and fought on into November without a breakthrough, while the German army suffered losses it could not afford; together the two battles created a German manpower crisis. At Jutland the only clash of the battle fleets cost the British more ships but left their command of the North Sea unchanged.",
+        studies: ["verdun", "somme", "jutland"],
+      },
+      {
+        text: "In the east, Brusilov's attack on a broad front in June broke the Austro-Hungarian line and virtually ended the Habsburg military effort, until German reserves stopped it; Russian losses were also enormous. In Macedonia the rebuilt Serbian army took Kajmakčalan, and the Allies took Monastir, before that front fell quiet for nearly two years. In October 1917 an Austro-German offensive at Caporetto, using infiltration, broke the Italian front and drove the Italians back to the Piave, where they held.",
+        studies: [
+          "brusilov-offensive",
+          "kajmakcalan",
+          "monastir-1916",
+          "caporetto",
+        ],
       },
       {
         text: "In September 1918 Serbian and French divisions broke the Bulgarian line at Dobro Pole, and within two weeks Bulgaria left the war. Serbian armies freed Serbia within five weeks, and on 1 December 1918 the Kingdom of Serbs, Croats and Slovenes was proclaimed in Belgrade.",
@@ -172,7 +181,7 @@ export const collections: Collection[] = [
     wars: ["ww1"],
     courseSlugs: ["industrial-world-wars", "serbian-front"],
     inProgress:
-      "Jutland, the Somme, the Brusilov offensive, Caporetto, Passchendaele, Cambrai, the German spring offensive, Amiens, Megiddo and the Meuse-Argonne are planned for the next batches. This arc will be rewritten when they are added.",
+      "Passchendaele, Cambrai, the German spring offensive, Amiens, Megiddo and the Meuse-Argonne are planned for the next batches. This arc will be rewritten when they are added.",
   },
   {
     slug: "serbian-front",

@@ -9,12 +9,12 @@ import {
 import { battles, wars, campaigns, eras } from "../../data/catalog";
 import { courses } from "../../data/learning";
 it("validates source-backed analyses and the commander corpus", () => {
-  expect(researchSchema.parse(research)).toHaveLength(99);
+  expect(researchSchema.parse(research)).toHaveLength(103);
   expect(commanderSchema.parse(commanders)).toHaveLength(60);
 });
-it("provides 99 unique engagement slugs and a connected hierarchy", () => {
-  expect(battles).toHaveLength(99);
-  expect(new Set(battles.map((b) => b.slug)).size).toBe(99);
+it("provides 103 unique engagement slugs and a connected hierarchy", () => {
+  expect(battles).toHaveLength(103);
+  expect(new Set(battles.map((b) => b.slug)).size).toBe(103);
   for (const b of battles) {
     expect(wars.some((w) => w.slug === b.warId)).toBe(true);
     expect(
@@ -58,6 +58,11 @@ it("orders engagements in the same year by date", () => {
     ["drina-1914", "kolubara"],
     ["invasion-of-serbia-1915", "serbian-retreat-1915"],
     ["mojkovac", "verdun"],
+    ["verdun", "jutland"],
+    ["jutland", "brusilov-offensive"],
+    ["brusilov-offensive", "somme"],
+    ["somme", "kajmakcalan"],
+    ["toplica-uprising", "caporetto"],
     ["kajmakcalan", "monastir-1916"],
     ["dobro-pole", "liberation-of-serbia-1918"],
     ["midway", "el-alamein"],

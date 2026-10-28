@@ -106,7 +106,12 @@ export function CollectionPage({
           </div>
         ))}
       </section>
-      <SectionTitle number="↳" title="Timeline" />
+      <SectionTitle
+        number="↳"
+        title="Timeline"
+        href={`/battles?collection=${x.slug}`}
+        label="Browse in the catalog"
+      />
       <div className="collection-timeline">
         {[...byYear].map(([year, items]) => (
           <section key={year}>

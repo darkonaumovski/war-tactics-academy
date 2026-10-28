@@ -121,7 +121,12 @@ export function WarPage({ war: w, c }: { war: War; c: Catalog }) {
             </Link>
           ))}
       </div>
-      <SectionTitle number="↳" title="Connected engagements" />
+      <SectionTitle
+        number="↳"
+        title="Connected engagements"
+        href={`/battles?war=${w.slug}`}
+        label="Browse in the catalog"
+      />
       <div className="battle-grid">
         {battles.map((b) => (
           <BattleCard key={b.slug} battle={b} />
@@ -179,6 +184,12 @@ export function CampaignPage({
           </p>
         </section>
       </div>
+      <SectionTitle
+        number="↳"
+        title="Engagements"
+        href={`/battles?campaign=${x.slug}`}
+        label="Browse in the catalog"
+      />
       <div className="battle-grid">
         {battles.map((b) => (
           <BattleCard key={b.slug} battle={b} />

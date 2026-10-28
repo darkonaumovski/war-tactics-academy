@@ -1,5 +1,5 @@
 import type { Battle, Collection } from "../lib/types";
-import { formatYear } from "../lib/logic";
+import { formatYear, inCollection } from "../lib/logic";
 // Collection prose is a synthesis of the linked studies, which hold the read
 // sources; it adds no claim that a member study does not support.
 export const collections: Collection[] = [
@@ -231,9 +231,7 @@ export const collections: Collection[] = [
   },
 ];
 export const collectionBattles = (c: Collection, battles: Battle[]) =>
-  battles.filter(
-    (b) => c.wars?.includes(b.warId) || c.campaigns?.includes(b.campaignId),
-  );
+  battles.filter((b) => inCollection(c, b));
 // "334–326 BCE", "216 BCE – 451 CE" or "1793–1815"; catalog order is by date.
 export function collectionPeriod(battles: Battle[]) {
   if (!battles.length) return "";

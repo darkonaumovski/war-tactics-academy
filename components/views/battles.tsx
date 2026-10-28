@@ -15,7 +15,7 @@ export function BattlesPage({ c }: { c: Catalog }) {
         title="The Battle Atlas"
         description="From the plains of Marathon to the Pacific. Explore the terrain, decisions and consequences behind history’s pivotal engagements."
       />
-      <BattleCatalog battles={c.battles} />
+      <BattleCatalog c={c} />
     </div>
   );
 }

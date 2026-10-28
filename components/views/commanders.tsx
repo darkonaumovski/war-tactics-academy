@@ -135,7 +135,12 @@ export function CommanderPage({
           </section>
         </div>
       )}
-      <SectionTitle number="↗" title="Associated engagements" />
+      <SectionTitle
+        number="↗"
+        title="Associated engagements"
+        href={x.battleSlugs.length ? `/battles?commander=${x.slug}` : undefined}
+        label="Browse in the catalog"
+      />
       {x.battleSlugs.length ? (
         <div className="battle-grid">
           {c.battles

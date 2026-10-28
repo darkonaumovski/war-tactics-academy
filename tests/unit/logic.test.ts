@@ -2,12 +2,18 @@ import { describe, it, expect } from "vitest";
 import {
   formatYear,
   filterBattles,
+  filterQuery,
+  parseFilters,
+  sortBattles,
+  emptyFilters,
   nextPhase,
   quizScore,
   decisionTransition,
   normalize,
 } from "../../lib/logic";
 import { battles } from "../../data/catalog";
+import { collections } from "../../data/collections";
+import commanders from "../../data/commanders.json" with { type: "json" };
 import { courses, scenarios } from "../../data/learning";
 describe("historical date conventions", () => {
   it("formats BCE without a negative sign", () =>
@@ -20,18 +26,95 @@ describe("historical date conventions", () => {
 });
 describe("catalog filtering", () => {
   it("finds Waterloo by name", () =>
-    expect(filterBattles(battles, " waterLOO ")).toHaveLength(1));
+    expect(filterBattles(battles, { q: " waterLOO " })).toHaveLength(1));
   it("finds a geographic region using text", () =>
-    expect(filterBattles(battles, "Moravia")[0].slug).toBe("austerlitz"));
+    expect(filterBattles(battles, { q: "Moravia" })[0].slug).toBe(
+      "austerlitz",
+    ));
   it("combines filters rather than replacing them", () =>
     expect(
-      filterBattles(battles, "", "world-wars", "Pacific", "Battle").map(
-        (b) => b.slug,
-      ),
+      filterBattles(battles, {
+        era: "world-wars",
+        region: "Pacific",
+        kind: "Battle",
+      }).map((b) => b.slug),
     ).toEqual(["midway"]));
   it("returns an empty result for incompatible filters", () =>
-    expect(filterBattles(battles, "", "ancient", "Pacific")).toEqual([]));
+    expect(
+      filterBattles(battles, { era: "ancient", region: "Pacific" }),
+    ).toEqual([]));
   it("matches accented names", () => expect(normalize("Tōgō")).toBe("togo"));
+  it("filters by war and campaign", () => {
+    expect(
+      filterBattles(battles, { war: "napoleonic" }).every(
+        (b) => b.warId === "napoleonic",
+      ),
+    ).toBe(true);
+    expect(
+      filterBattles(battles, { campaign: "macedonian-front" }).map(
+        (b) => b.slug,
+      ),
+    ).toEqual([
+      "kajmakcalan",
+      "monastir-1916",
+      "dobro-pole",
+      "liberation-of-serbia-1918",
+    ]);
+  });
+  it("filters by commander and collection through their links", () => {
+    const kutuzov = filterBattles(
+      battles,
+      { commander: "mikhail-kutuzov" },
+      { commanders },
+    ).map((b) => b.slug);
+    expect(kutuzov).toEqual(
+      commanders
+        .find((c) => c.slug === "mikhail-kutuzov")!
+        .battleSlugs.filter((s) => battles.some((b) => b.slug === s))
+        .sort(
+          (a, b) =>
+            battles.findIndex((x) => x.slug === a) -
+            battles.findIndex((x) => x.slug === b),
+        ),
+    );
+    expect(
+      filterBattles(battles, { collection: "alexander" }, { collections }),
+    ).toHaveLength(battles.filter((b) => b.warId === "alexander").length);
+    expect(
+      filterBattles(battles, { commander: "nobody" }, { commanders }),
+    ).toEqual([]);
+  });
+  it("sorts by date either way and by name", () => {
+    expect(sortBattles(battles, "date")[0].slug).toBe(battles[0].slug);
+    expect(sortBattles(battles, "date-desc")[0].slug).toBe(
+      battles[battles.length - 1].slug,
+    );
+    const names = sortBattles(battles, "name").map((b) => b.name);
+    expect(names).toEqual([...names].sort((a, b) => a.localeCompare(b, "en")));
+  });
+});
+describe("catalog filters in the URL", () => {
+  it("round-trip through the query string", () => {
+    const f = {
+      ...emptyFilters,
+      q: "river crossing",
+      war: "napoleonic",
+      sort: "date-desc",
+      view: "list",
+    };
+    expect(filterQuery(f)).toBe(
+      "q=river+crossing&war=napoleonic&sort=date-desc&view=list",
+    );
+    expect(parseFilters(new URLSearchParams(filterQuery(f)))).toEqual(f);
+  });
+  it("omit defaults and ignore unknown values", () => {
+    expect(filterQuery(emptyFilters)).toBe("");
+    expect(
+      parseFilters(new URLSearchParams("war=atlantis&sort=random&view=grid"), {
+        war: ["napoleonic"],
+      }),
+    ).toEqual(emptyFilters);
+  });
 });
 describe("interactive state", () => {
   it("advances and wraps a phase safely", () => {

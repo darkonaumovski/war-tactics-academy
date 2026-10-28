@@ -5,6 +5,7 @@ import { research } from "../../data/research";
 import { battles } from "../../data/catalog";
 import { scenarios } from "../../data/learning";
 import { collectionBattles, collections } from "../../data/collections";
+import commanders from "../../data/commanders.json" with { type: "json" };
 // Scroll-revealed sections stay transparent until seen, and axe skips
 // transparent text. Scroll through the page so every section is audited.
 // The pass repeats because hydration can finish after an early pass, at which
@@ -72,6 +73,79 @@ test("battle search and combined filters", async ({ page }) => {
   await page.getByRole("button", { name: "Clear filters" }).click();
   await expect(page.getByRole("status")).toHaveText(
     `${battles.length} engagements`,
+  );
+});
+test("catalog filters live in the URL and survive a reload", async ({
+  page,
+}) => {
+  const napoleon = commanders.find((x) => x.slug === "napoleon-bonaparte")!;
+  const expected = battles.filter(
+    (b) => b.warId === "napoleonic" && napoleon.battleSlugs.includes(b.slug),
+  );
+  await page.goto("/battles");
+  await page.getByLabel("War", { exact: true }).selectOption("napoleonic");
+  await page
+    .getByLabel("Commander", { exact: true })
+    .selectOption("napoleon-bonaparte");
+  await expect(page).toHaveURL(
+    /\?war=napoleonic&commander=napoleon-bonaparte$/,
+  );
+  await expect(page.getByRole("status")).toHaveText(
+    `${expected.length} engagements`,
+  );
+  await page.reload();
+  await expect(page.getByLabel("War", { exact: true })).toHaveValue(
+    "napoleonic",
+  );
+  await expect(page.getByRole("status")).toHaveText(
+    `${expected.length} engagements`,
+  );
+  await page.getByLabel("Sort engagements").selectOption("date-desc");
+  await expect(page.locator(".battle-grid h3").first()).toHaveText(
+    expected[expected.length - 1].name,
+  );
+  // Choosing a campaign of another war moves the war filter with it.
+  await page
+    .getByLabel("War", { exact: true })
+    .selectOption("french-revolutionary");
+  await page
+    .getByLabel("Campaign", { exact: true })
+    .selectOption("egyptian-and-syrian-campaign");
+  await expect(page).toHaveURL(
+    /war=french-revolutionary&campaign=egyptian-and-syrian-campaign/,
+  );
+  await page.getByRole("button", { name: "Clear filters" }).click();
+  await expect(page).toHaveURL(/\/battles\/$/);
+  await expect(page.getByRole("status")).toHaveText(
+    `${battles.length} engagements`,
+  );
+});
+test("a shared list link opens the filtered table", async ({ page }) => {
+  await page.goto("/battles?war=ww1&campaign=macedonian-front&view=list");
+  const rows = battles.filter((b) => b.campaignId === "macedonian-front");
+  await expect(page.locator(".battle-table tbody tr")).toHaveCount(rows.length);
+  await expect(page.getByRole("button", { name: "List view" })).toHaveAttribute(
+    "aria-pressed",
+    "true",
+  );
+  await page
+    .locator(".battle-table")
+    .getByRole("link", { name: rows[0].name })
+    .click();
+  await expect(page).toHaveURL(new RegExp(`/battles/${rows[0].slug}/$`));
+});
+test("war and commander pages open the filtered catalog", async ({ page }) => {
+  await page.goto("/wars/punic");
+  await page.getByRole("link", { name: /Browse in the catalog/ }).click();
+  await expect(page).toHaveURL(/\/battles\/\?war=punic$/);
+  await expect(page.getByRole("status")).toHaveText(
+    `${battles.filter((b) => b.warId === "punic").length} engagements`,
+  );
+  await page.goto("/commanders/mikhail-kutuzov");
+  await page.getByRole("link", { name: /Browse in the catalog/ }).click();
+  const kutuzov = commanders.find((x) => x.slug === "mikhail-kutuzov")!;
+  await expect(page.getByRole("status")).toHaveText(
+    `${battles.filter((b) => kutuzov.battleSlugs.includes(b.slug)).length} engagements`,
   );
 });
 test("battle detail related commander and proper not-found", async ({
@@ -605,6 +679,7 @@ for (const width of [375, 768, 1440])
       "/library",
       "/commanders/ulysses-s-grant",
       "/collections/napoleon",
+      "/battles?view=list",
     ]) {
       await page.goto(route);
       expect(
@@ -632,6 +707,7 @@ for (const route of [
   "/search?q=terrain",
   "/collections",
   "/collections/napoleon",
+  "/battles?view=list",
 ])
   test(`accessibility: ${route}`, async ({ page }) => {
     await page.goto(route);

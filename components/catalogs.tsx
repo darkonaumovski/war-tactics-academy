@@ -1,135 +1,336 @@
 "use client";
 import { Suspense, useState, type ReactNode } from "react";
+import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { Search, SlidersHorizontal, X } from "lucide-react";
+import { LayoutGrid, List, Search, SlidersHorizontal, X } from "lucide-react";
 import { eras } from "../data/catalog";
-import { filterBattles, normalize } from "../lib/logic";
-import type { Battle, Commander } from "../lib/types";
+import { collections } from "../data/collections";
+import {
+  emptyFilters,
+  filterBattles,
+  filterQuery,
+  normalize,
+  parseFilters,
+  sortBattles,
+  type BattleFilters,
+} from "../lib/logic";
+import type { Battle, Catalog, Commander } from "../lib/types";
 import { BattleCard, CommanderCard, Empty } from "./ui";
 import { useHydrated } from "../lib/use-hydrated";
 // Pages are prerendered for static hosting, so the unfiltered catalog is the
-// build-time fallback and URL filters (?era=, ?q=) apply once the page hydrates.
-export function BattleCatalog({ battles }: { battles: Battle[] }) {
+// build-time fallback and URL filters apply once the page hydrates.
+export function BattleCatalog({ c }: { c: Catalog }) {
   return (
-    <Suspense fallback={<BattleCatalogView battles={battles} />}>
-      <BattleCatalogFromUrl battles={battles} />
+    <Suspense fallback={<BattleCatalogView c={c} urlQuery="" />}>
+      <BattleCatalogFromUrl c={c} />
     </Suspense>
   );
 }
-function BattleCatalogFromUrl({ battles }: { battles: Battle[] }) {
-  const params = useSearchParams();
-  const q = params.get("q") ?? "";
-  const era = params.get("era") ?? "";
-  return (
-    <BattleCatalogView
-      key={`${q}|${era}`}
-      battles={battles}
-      initialQuery={q}
-      initialEra={era}
-    />
-  );
+function BattleCatalogFromUrl({ c }: { c: Catalog }) {
+  return <BattleCatalogView c={c} urlQuery={useSearchParams().toString()} />;
 }
-function BattleCatalogView({
-  battles,
-  initialQuery = "",
-  initialEra = "",
-}: {
-  battles: Battle[];
-  initialQuery?: string;
-  initialEra?: string;
-}) {
+function BattleCatalogView({ c, urlQuery }: { c: Catalog; urlQuery: string }) {
   const ready = useHydrated();
-  const [q, setQ] = useState(initialQuery);
-  const [era, setEra] = useState(initialEra);
-  const [region, setRegion] = useState("");
-  const [kind, setKind] = useState("");
-  const result = filterBattles(battles, q, era, region, kind);
+  const { battles } = c;
+  // Order wars and campaigns by their first engagement, so lists read in time.
+  const first = (key: "warId" | "campaignId", slug: string) =>
+    battles.findIndex((b) => b[key] === slug);
+  const wars = c.wars
+    .filter((w) => first("warId", w.slug) >= 0)
+    .sort((a, b) => first("warId", a.slug) - first("warId", b.slug));
+  const campaigns = c.campaigns
+    .filter((x) => first("campaignId", x.slug) >= 0)
+    .sort((a, b) => first("campaignId", a.slug) - first("campaignId", b.slug));
+  const commanders = c.commanders
+    .map((x) => ({
+      ...x,
+      count: battles.filter((b) => x.battleSlugs.includes(b.slug)).length,
+    }))
+    .filter((x) => x.count);
+  // Keep era, war and campaign consistent: a campaign implies its war, and a
+  // war or campaign outside the chosen era is dropped.
+  const consistent = (n: BattleFilters) => {
+    const campaign = campaigns.find((x) => x.slug === n.campaign);
+    if (campaign && !n.war) n.war = campaign.warId;
+    const war = wars.find((w) => w.slug === n.war);
+    if (war && n.era && war.eraId !== n.era) n.war = "";
+    if (campaign && campaign.warId !== n.war) n.campaign = "";
+    return n;
+  };
+  const parse = (query: string) =>
+    consistent(
+      parseFilters(new URLSearchParams(query), {
+        era: eras.map((e) => e.id),
+        war: wars.map((w) => w.slug),
+        campaign: campaigns.map((x) => x.slug),
+        commander: commanders.map((x) => x.slug),
+        collection: collections.map((x) => x.slug),
+      }),
+    );
+  const [f, setF] = useState(() => parse(urlQuery));
+  // The URL changes either because this view wrote it or because the reader
+  // followed a link to another filtered view; only the second resets state.
+  const [seen, setSeen] = useState(urlQuery);
+  if (urlQuery !== seen) {
+    setSeen(urlQuery);
+    if (urlQuery !== filterQuery(f)) setF(parse(urlQuery));
+  }
+  const update = (patch: Partial<BattleFilters>) => {
+    const next = { ...f, ...patch };
+    if (patch.campaign)
+      next.war =
+        campaigns.find((x) => x.slug === patch.campaign)?.warId ?? next.war;
+    consistent(next);
+    setF(next);
+    const query = filterQuery(next);
+    window.history.replaceState(
+      null,
+      "",
+      query ? `?${query}` : window.location.pathname,
+    );
+  };
+  const result = sortBattles(
+    filterBattles(battles, f, { commanders: c.commanders, collections }),
+    f.sort,
+  );
+  const name = (list: { slug: string; name: string }[], slug: string) =>
+    list.find((x) => x.slug === slug)?.name ?? "";
+  const select = (
+    label: string,
+    key: keyof BattleFilters,
+    all: string,
+    options: ReactNode,
+  ) => (
+    <select
+      disabled={!ready}
+      aria-label={label}
+      value={f[key]}
+      onChange={(e) => update({ [key]: e.target.value })}
+    >
+      <option value="">{all}</option>
+      {options}
+    </select>
+  );
+  const visibleWars = wars.filter((w) => !f.era || w.eraId === f.era);
   return (
     <>
-      <div className="filter-bar">
+      <div className="filter-bar battle-filters">
         <label className="search-field">
           <Search size={18} />
           <input
             disabled={!ready}
             aria-label="Search battles"
             placeholder="Find a battle, place or concept…"
-            value={q}
-            onChange={(e) => setQ(e.target.value)}
+            value={f.q}
+            onChange={(e) => update({ q: e.target.value })}
           />
         </label>
-        <label>
-          <span className="sr-only">Historical era</span>
-          <select
-            disabled={!ready}
-            aria-label="Historical era"
-            value={era}
-            onChange={(e) => setEra(e.target.value)}
-          >
-            <option value="">All eras</option>
-            {eras.map((e) => (
+        <div className="filter-grid">
+          {select(
+            "Historical era",
+            "era",
+            "All eras",
+            eras.map((e) => (
               <option key={e.id} value={e.id}>
                 {e.name}
               </option>
-            ))}
-          </select>
-        </label>
-        <label>
-          <span className="sr-only">Region</span>
-          <select
-            disabled={!ready}
-            aria-label="Region"
-            value={region}
-            onChange={(e) => setRegion(e.target.value)}
-          >
-            <option value="">All regions</option>
-            {[...new Set(battles.map((b) => b.region))].sort().map((r) => (
-              <option key={r}>{r}</option>
-            ))}
-          </select>
-        </label>
-        <select
-          disabled={!ready}
-          aria-label="Engagement category"
-          value={kind}
-          onChange={(e) => setKind(e.target.value)}
-        >
-          <option value="">All categories</option>
-          {["Battle", "Siege", "Operation", "Campaign"].map((k) => (
-            <option key={k}>{k}</option>
-          ))}
-        </select>
+            )),
+          )}
+          {select(
+            "War",
+            "war",
+            "All wars",
+            eras
+              .filter((e) => visibleWars.some((w) => w.eraId === e.id))
+              .map((e) => (
+                <optgroup key={e.id} label={e.name}>
+                  {visibleWars
+                    .filter((w) => w.eraId === e.id)
+                    .map((w) => (
+                      <option key={w.slug} value={w.slug}>
+                        {w.name}
+                      </option>
+                    ))}
+                </optgroup>
+              )),
+          )}
+          {select(
+            "Campaign",
+            "campaign",
+            "All campaigns",
+            f.war
+              ? campaigns
+                  .filter((x) => x.warId === f.war)
+                  .map((x) => (
+                    <option key={x.slug} value={x.slug}>
+                      {x.name}
+                    </option>
+                  ))
+              : visibleWars.map((w) => (
+                  <optgroup key={w.slug} label={w.name}>
+                    {campaigns
+                      .filter((x) => x.warId === w.slug)
+                      .map((x) => (
+                        <option key={x.slug} value={x.slug}>
+                          {x.name}
+                        </option>
+                      ))}
+                  </optgroup>
+                )),
+          )}
+          {select(
+            "Commander",
+            "commander",
+            "All commanders",
+            commanders.map((x) => (
+              <option key={x.slug} value={x.slug}>
+                {x.name} ({x.count})
+              </option>
+            )),
+          )}
+          {select(
+            "Collection",
+            "collection",
+            "All collections",
+            collections.map((x) => (
+              <option key={x.slug} value={x.slug}>
+                {x.title}
+              </option>
+            )),
+          )}
+          {select(
+            "Region",
+            "region",
+            "All regions",
+            [...new Set(battles.map((b) => b.region))]
+              .sort()
+              .map((r) => <option key={r}>{r}</option>),
+          )}
+          {select(
+            "Engagement category",
+            "kind",
+            "All categories",
+            ["Battle", "Siege", "Operation", "Campaign"].map((k) => (
+              <option key={k}>{k}</option>
+            )),
+          )}
+        </div>
       </div>
       <div className="results-line">
         <span role="status">{result.length} engagements</span>
-        <span>
-          <SlidersHorizontal size={14} />{" "}
-          {q || era || region || kind ? (
+        <span className="results-tools">
+          <label>
+            <SlidersHorizontal size={14} />
+            <select
+              disabled={!ready}
+              aria-label="Sort engagements"
+              value={f.sort}
+              onChange={(e) => update({ sort: e.target.value })}
+            >
+              <option value="date">Oldest first</option>
+              <option value="date-desc">Newest first</option>
+              <option value="name">Name A–Z</option>
+            </select>
+          </label>
+          <span className="view-toggle" role="group" aria-label="Layout">
+            <button
+              disabled={!ready}
+              aria-pressed={f.view === "cards"}
+              aria-label="Card view"
+              onClick={() => update({ view: "cards" })}
+            >
+              <LayoutGrid size={14} />
+            </button>
+            <button
+              disabled={!ready}
+              aria-pressed={f.view === "list"}
+              aria-label="List view"
+              onClick={() => update({ view: "list" })}
+            >
+              <List size={14} />
+            </button>
+          </span>
+          {filterQuery(f) !== "" && (
             <button
               className="text-button"
-              onClick={() => {
-                setQ("");
-                setEra("");
-                setRegion("");
-                setKind("");
-              }}
+              onClick={() => update(emptyFilters)}
             >
               Clear filters <X size={13} />
             </button>
-          ) : (
-            "Chronological order"
           )}
         </span>
       </div>
-      {result.length ? (
+      {!result.length ? (
+        <Empty />
+      ) : f.view === "list" ? (
+        <BattleTable
+          battles={result}
+          wars={wars}
+          campaigns={campaigns}
+          name={name}
+        />
+      ) : (
         <div className="battle-grid">
           {result.map((b) => (
             <BattleCard key={b.slug} battle={b} />
           ))}
         </div>
-      ) : (
-        <Empty />
       )}
     </>
+  );
+}
+function BattleTable({
+  battles,
+  wars,
+  campaigns,
+  name,
+}: {
+  battles: Battle[];
+  wars: { slug: string; name: string }[];
+  campaigns: { slug: string; name: string }[];
+  name: (list: { slug: string; name: string }[], slug: string) => string;
+}) {
+  return (
+    <div
+      className="battle-table"
+      role="region"
+      aria-label="Engagements as a list"
+      tabIndex={0}
+    >
+      <table>
+        <caption className="sr-only">Engagements matching the filters</caption>
+        <thead>
+          <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Engagement</th>
+            <th scope="col" className="wide-only">
+              Category
+            </th>
+            <th scope="col" className="wide-only">
+              War
+            </th>
+            <th scope="col">Campaign</th>
+            <th scope="col" className="wide-only">
+              Region
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {battles.map((b) => (
+            <tr key={b.slug}>
+              <td>{b.date}</td>
+              <th scope="row">
+                <Link href={`/battles/${b.slug}`}>{b.name}</Link>
+              </th>
+              <td className="wide-only">{b.kind}</td>
+              <td className="wide-only">{name(wars, b.warId)}</td>
+              <td>{name(campaigns, b.campaignId)}</td>
+              <td className="wide-only">{b.region}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   );
 }
 export function CommanderCatalog({ commanders }: { commanders: Commander[] }) {

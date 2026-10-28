@@ -30,7 +30,7 @@ The guiding principle is to explain what commanders knew, what they decided and 
 - **Ten decision exercises** (Waterloo, Cannae, Midway, Austerlitz, Alesia, Hastings, and four on the Serbian Front: Cer, the Kolubara, the retreat of 1915 and Dobro Pole): read the situation, choose under uncertainty, then compare with what happened and with an explicitly counterfactual interpretation.
 - **Five learning paths with 26 lessons**: Foundations of Military History, Classical Warfare, Napoleonic Warfare, Industrial and World Wars, and The Serbian Front, 1914–1918. Each lesson has objectives, historical cases, a concept diagram and a quiz; the Classical, Industrial and Serbian Front lessons add readings and seminar prompts.
 - **Curated media library** of nine verified records: two official National Archives (UK) D-Day videos, loaded only on request through privacy-enhanced YouTube embeds; public-domain portraits of Grant and Eisenhower, also shown on their profiles; two historic maps; and three primary documents. Each record stores publisher, license, attribution and verification date.
-- **Search and filters**: global search across battles, commanders, wars, campaigns and lessons, plus era, region, category and command-role filters.
+- **Search and filters**: global search across battles, commanders, wars, campaigns and lessons, plus command-role filters for commanders. The battle catalog filters by era, war, campaign, commander, collection, region and category, sorts by date or name, and switches between cards and a compact list; every filter is kept in the address, so a filtered view can be shared, and war, campaign, commander and collection pages link to their filtered catalog.
 - **Saved progress** in the browser: bookmarks, recently visited records, lesson scores, decision choices and the light or dark theme. No account is needed.
 
 ### Design and accessibility
@@ -100,7 +100,7 @@ BASE_PATH=/war-tactics-academy/ npm start
 
 Then open http://127.0.0.1:3000/war-tactics-academy/. In Git Bash on Windows, prefix both commands with `MSYS_NO_PATHCONV=1` so the path is not rewritten.
 
-Static hosting shapes a few details: URLs end with a trailing slash; search terms and battle filters in the query string (`?q=`, `?era=`) are applied in the browser; the video tab is its own page (`/library/videos/`); portraits load directly from the holding archive because there is no image optimizer; and catalog changes reach the site only through a new build.
+Static hosting shapes a few details: URLs end with a trailing slash; search terms and battle filters in the query string (for example `?war=napoleonic&view=list`) are applied in the browser; the video tab is its own page (`/library/videos/`); portraits load directly from the holding archive because there is no image optimizer; and catalog changes reach the site only through a new build.
 
 ## Testing
 
@@ -113,8 +113,8 @@ npm run test:e2e
 npm run test:report
 ```
 
-- **Unit and component tests** (Vitest, 60 tests): date formatting, search and filters, atlas regions and marker grouping, collection membership and arcs, phase selection, decision state, quiz scoring, persistence, data integrity, content depth, media records, metadata, and the quiz and media-library components.
-- **Browser tests** (Playwright, 51 scenarios in each of Chromium, Firefox and WebKit, 153 in total): main workflows, collection timelines, bookmarks and saved progress, timelines, the atlas without network access and its grouping at 375 and 1280 pixels, search, metadata and the sitemap, scroll reveals and reduced motion, responsive layouts at 375, 768 and 1440 pixels, runtime errors, and axe-core accessibility checks.
+- **Unit and component tests** (Vitest, 65 tests): date formatting, search and filters, filters in the URL, atlas regions and marker grouping, collection membership and arcs, phase selection, decision state, quiz scoring, persistence, data integrity, content depth, media records, metadata, and the quiz and media-library components.
+- **Browser tests** (Playwright, 55 scenarios in each of Chromium, Firefox and WebKit, 165 in total): main workflows, shareable catalog filters and the list view, collection timelines, bookmarks and saved progress, timelines, the atlas without network access and its grouping at 375 and 1280 pixels, search, metadata and the sitemap, scroll reveals and reduced motion, responsive layouts at 375, 768 and 1440 pixels, runtime errors, and axe-core accessibility checks.
 
 Playwright builds the static export and serves it automatically, so tests run against the files that are deployed. `PLAYWRIGHT_BASE_URL` targets an already running server instead. Install browsers when needed with `npx playwright install chromium firefox webkit`. Reports are written to `playwright-report/` and `test-results/`.
 
@@ -162,6 +162,7 @@ All releases are deployed to the live site.
 
 | Commit    | Change                                                                                                                                                                                                        |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `8f34dc6` | Six collection pages (Alexander, Rome, Napoleon, the First World War, the Serbian Front and the Second World War), each with an introduction, a strategic arc linked to its studies and a dated timeline.     |
 | `e4e5074` | Readable atlas: numbered marker groups that zoom in when selected, a region select, fan-out for markers that never separate, labels, drag to pan and `?battle=` deep links from every study page.             |
 | `c7676cb` | Remaining-work prompt updated: Stage A (Napoleon N4–N7) marked done; Stage B (app work at about 110 engagements) is next.                                                                                     |
 | `e254f6b` | Detailed studies of 13 Vendémiaire, Maloyaroslavets, Hanau, and Brienne and La Rothière (Napoleon batch N7), completing the Napoleon collection with 34 studies; Kutuzov linked to Maloyaroslavets.           |

@@ -6,12 +6,13 @@ import {
   parseFilters,
   sortBattles,
   emptyFilters,
+  careerLayout,
   nextPhase,
   quizScore,
   decisionTransition,
   normalize,
 } from "../../lib/logic";
-import { battles } from "../../data/catalog";
+import { battles, wars } from "../../data/catalog";
 import { collections } from "../../data/collections";
 import commanders from "../../data/commanders.json" with { type: "json" };
 import { courses, scenarios } from "../../data/learning";
@@ -141,4 +142,30 @@ describe("interactive state", () => {
       expect(battles.some((b) => b.slug === s.battleSlug)).toBe(true);
     }
   });
+});
+describe("career strip", () => {
+  const napoleon = commanders.find((c) => c.slug === "napoleon-bonaparte")!;
+  const linked = battles.filter((b) => napoleon.battleSlugs.includes(b.slug));
+  const career = careerLayout(linked, wars);
+  it("places every linked engagement once", () =>
+    expect(career.dots.map((d) => d.slug)).toEqual(linked.map((b) => b.slug)));
+  it("stacks engagements within a year", () => {
+    const of1796 = career.dots.filter((d) => d.year === 1796);
+    expect(of1796.map((d) => d.level)).toEqual([0, 1, 2, 3]);
+    expect(new Set(of1796.map((d) => d.x)).size).toBe(1);
+    expect(career.stack).toBe(5);
+  });
+  it("covers the career on the axis with at most eight labels", () => {
+    const years = career.ticks.map((t) => t.year);
+    expect(years.length).toBeLessThanOrEqual(8);
+    expect(Math.min(...years)).toBeLessThanOrEqual(1795);
+    expect(Math.max(...years)).toBeGreaterThanOrEqual(1815);
+  });
+  it("draws one band per war with its span", () =>
+    expect(
+      career.bands.map(({ name, from, to, row }) => ({ name, from, to, row })),
+    ).toEqual([
+      { name: "French Revolutionary Wars", from: 1793, to: 1800, row: 0 },
+      { name: "Napoleonic Wars", from: 1805, to: 1815, row: 0 },
+    ]));
 });

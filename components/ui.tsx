@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight, MapPin, BookOpen } from "lucide-react";
-import type { Battle, Source, Commander } from "../lib/types";
+import type { Battle, Campaign, Source, Commander } from "../lib/types";
+import { formatYear } from "../lib/logic";
 import { Cartography } from "./cartography";
 export function Heading({
   eyebrow,
@@ -167,6 +168,59 @@ export function Empty({
       <BookOpen size={30} />
       <h3>{title}</h3>
       <p>{text}</p>
+    </div>
+  );
+}
+// Engagements grouped by year. `numbers` maps a slug to its place on a route
+// map; `outcome` shows each result instead of the location.
+export function EngagementTimeline({
+  battles,
+  campaigns,
+  numbers,
+  outcome = false,
+}: {
+  battles: Battle[];
+  campaigns: Campaign[];
+  numbers?: Map<string, number>;
+  outcome?: boolean;
+}) {
+  const byYear = new Map<number, Battle[]>();
+  for (const b of battles)
+    byYear.set(b.year, [...(byYear.get(b.year) ?? []), b]);
+  return (
+    <div className="engagement-timeline">
+      {[...byYear].map(([year, items]) => (
+        <section key={year}>
+          <h3>{formatYear(year)}</h3>
+          <ol className="chronology">
+            {items.map((b) => {
+              const campaign = campaigns.find((k) => k.slug === b.campaignId);
+              return (
+                <li key={b.slug}>
+                  <strong>{b.date}</strong>
+                  <span>
+                    {numbers?.has(b.slug) && (
+                      <span className="route-n">{numbers.get(b.slug)}</span>
+                    )}
+                    <Link href={`/battles/${b.slug}`}>{b.name}</Link>
+                    <small>
+                      {b.kind} · {outcome ? b.outcome : b.location}
+                      {campaign && (
+                        <>
+                          {" · "}
+                          <Link href={`/campaigns/${campaign.slug}`}>
+                            {campaign.name}
+                          </Link>
+                        </>
+                      )}
+                    </small>
+                  </span>
+                </li>
+              );
+            })}
+          </ol>
+        </section>
+      ))}
     </div>
   );
 }

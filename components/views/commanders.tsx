@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { Catalog, Commander } from "../../lib/types";
+import type { Battle, Catalog, Commander } from "../../lib/types";
 import {
   Heading,
   SectionTitle,
@@ -7,7 +7,9 @@ import {
   Breadcrumbs,
   Sources,
   Empty,
+  EngagementTimeline,
 } from "../ui";
+import { CAREER_WIDTH, careerLayout, formatYear } from "../../lib/logic";
 import { CommanderCatalog, Comparison } from "../catalogs";
 import { SaveRecord } from "../persistence-ui";
 import { media } from "../../lib/media";
@@ -36,6 +38,7 @@ export function CommanderPage({
   commander: Commander;
   c: Catalog;
 }) {
+  const linked = c.battles.filter((b) => x.battleSlugs.includes(b.slug));
   const portrait = media.find(
     (item) => item.kind === "portrait" && item.commanderSlugs.includes(x.slug),
   );
@@ -141,13 +144,18 @@ export function CommanderPage({
         href={x.battleSlugs.length ? `/battles?commander=${x.slug}` : undefined}
         label="Browse in the catalog"
       />
-      {x.battleSlugs.length ? (
+      {linked.length > 1 ? (
+        <>
+          <CareerStrip name={x.name} battles={linked} c={c} />
+          <EngagementTimeline
+            battles={linked}
+            campaigns={c.campaigns}
+            outcome
+          />
+        </>
+      ) : linked.length ? (
         <div className="battle-grid">
-          {c.battles
-            .filter((b) => x.battleSlugs.includes(b.slug))
-            .map((b) => (
-              <BattleCard key={b.slug} battle={b} />
-            ))}
+          <BattleCard battle={linked[0]} />
         </div>
       ) : (
         <Empty
@@ -162,6 +170,81 @@ export function CommanderPage({
       </div>
       <Sources sources={[x.source]} />
     </div>
+  );
+}
+// Linked engagements on a year axis, stacked within a year, with a band for
+// each war. The timeline below it is the text equivalent.
+function CareerStrip({
+  name,
+  battles,
+  c,
+}: {
+  name: string;
+  battles: Battle[];
+  c: Catalog;
+}) {
+  const { dots, ticks, bands, stack, rows } = careerLayout(battles, c.wars);
+  const base = 14 + stack * 15;
+  const height = base + 34 + rows * 22;
+  const label = (year: number) => formatYear(year).replace(/ CE$/, "");
+  return (
+    <figure className="career-strip">
+      <svg
+        viewBox={`0 0 ${CAREER_WIDTH} ${height}`}
+        role="img"
+        aria-label={`${name}: ${battles.length} linked engagements from ${label(battles[0].year)} to ${label(battles[battles.length - 1].year)}, in ${bands.map((b) => b.name).join(" and ")}`}
+      >
+        <line
+          className="career-axis"
+          x1="0"
+          x2={CAREER_WIDTH}
+          y1={base}
+          y2={base}
+        />
+        {ticks.map((t) => (
+          <g key={t.year}>
+            <line
+              className="career-axis"
+              x1={t.x}
+              x2={t.x}
+              y1={base}
+              y2={base + 5}
+            />
+            <text x={t.x} y={base + 18} textAnchor="middle">
+              {label(t.year)}
+            </text>
+          </g>
+        ))}
+        {dots.map((d) => (
+          <circle
+            key={d.slug}
+            className="career-dot"
+            cx={d.x}
+            cy={base - 9 - d.level * 15}
+            r="5.5"
+          />
+        ))}
+        {bands.map((b) => (
+          <g key={b.name}>
+            <rect
+              className="career-band"
+              x={b.x1}
+              y={base + 28 + b.row * 22}
+              width={b.x2 - b.x1}
+              height="16"
+              rx="3"
+            />
+            <text x={b.x1 + 6} y={base + 40 + b.row * 22}>
+              {b.name}
+            </text>
+          </g>
+        ))}
+      </svg>
+      <figcaption>
+        Each dot is a linked engagement; engagements in the same year are
+        stacked. Bands show the wars they belong to.
+      </figcaption>
+    </figure>
   );
 }
 export function ComparePage({ c }: { c: Catalog }) {

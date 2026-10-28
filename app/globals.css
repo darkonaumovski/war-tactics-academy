@@ -2574,6 +2574,35 @@ progress::-moz-progress-bar {
 .route-map {
   margin: 0 0 40px;
 }
+.career-strip {
+  margin: 0 0 30px;
+  max-width: 900px;
+}
+.career-strip svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+.career-strip text {
+  font: 11px var(--font-sans);
+  fill: var(--muted);
+}
+.career-axis {
+  stroke: var(--line);
+}
+.career-dot {
+  fill: var(--gold);
+}
+.career-band {
+  fill: var(--panel);
+  stroke: var(--gold-dim);
+}
+.career-strip figcaption {
+  font-size: 10px;
+  color: var(--muted);
+  margin-top: 8px;
+}
 .route-body {
   display: grid;
   grid-template-columns: minmax(0, 2fr) minmax(220px, 1fr);
@@ -2639,7 +2668,7 @@ progress::-moz-progress-bar {
   color: var(--muted);
   margin-top: 8px;
 }
-.collection-timeline .route-n {
+.engagement-timeline .route-n {
   margin-right: 10px;
   vertical-align: 3px;
 }
@@ -2679,22 +2708,22 @@ progress::-moz-progress-bar {
   margin-top: 6px;
 }
 .arc-studies a,
-.collection-timeline small a {
+.engagement-timeline small a {
   color: var(--gold);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
-.collection-timeline {
+.engagement-timeline {
   margin-bottom: 40px;
 }
-.collection-timeline h3 {
+.engagement-timeline h3 {
   font-size: 22px;
   margin: 26px 0 4px;
 }
-.collection-timeline .chronology span > a {
+.engagement-timeline .chronology span > a {
   font: 19px var(--font-display);
 }
-.collection-timeline .chronology small {
+.engagement-timeline .chronology small {
   display: block;
   font-size: 10px;
   color: var(--muted);

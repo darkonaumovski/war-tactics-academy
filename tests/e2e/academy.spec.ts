@@ -160,7 +160,9 @@ test("battle detail related commander and proper not-found", async ({
     "Napoleon Bonaparte",
   );
   await expect(
-    page.getByRole("heading", { name: "Waterloo", exact: true }),
+    page
+      .locator(".engagement-timeline")
+      .getByRole("link", { name: "Waterloo", exact: true }),
   ).toBeVisible();
   const response = await page.goto("/battles/not-a-real-battle");
   await expect(
@@ -270,10 +272,10 @@ test("collections lead through an ordered timeline to the studies", async ({
   );
   const expected = collectionBattles(serbian, battles).map((b) => b.name);
   await expect(
-    page.locator(".collection-timeline .chronology span > a"),
+    page.locator(".engagement-timeline .chronology span > a"),
   ).toHaveText(expected);
   await page
-    .locator(".collection-timeline")
+    .locator(".engagement-timeline")
     .getByRole("link", { name: "Battle of the Kolubara", exact: true })
     .click();
   await expect(page).toHaveURL(/\/battles\/kolubara\/$/);
@@ -308,6 +310,32 @@ test("campaign and collection pages draw schematic route maps", async ({
   await expect(page.locator(".route-map line")).toHaveCount(0);
   await expect(page.locator(".route-map .route-marker")).not.toHaveCount(0);
 });
+test("commander pages chart and list a career in date order", async ({
+  page,
+}) => {
+  const linked = (slug: string) =>
+    battles.filter((b) =>
+      commanders.find((c) => c.slug === slug)!.battleSlugs.includes(b.slug),
+    );
+  const napoleon = linked("napoleon-bonaparte");
+  await page.goto("/commanders/napoleon-bonaparte");
+  await expect(
+    page.getByRole("img", {
+      name: new RegExp(
+        `${napoleon.length} linked engagements from 1793 to 1815`,
+      ),
+    }),
+  ).toBeVisible();
+  await expect(
+    page.locator(".engagement-timeline .chronology span > a"),
+  ).toHaveText(napoleon.map((b) => b.name));
+  await expect(page.locator(".battle-grid")).toHaveCount(0);
+  // A commander with one linked engagement keeps its card.
+  const single = commanders.find((c) => linked(c.slug).length === 1)!;
+  await page.goto(`/commanders/${single.slug}`);
+  await expect(page.locator(".battle-grid .battle-card")).toHaveCount(1);
+  await expect(page.locator(".career-strip")).toHaveCount(0);
+});
 test("engagement pages locate their marker in the atlas", async ({ page }) => {
   await page.goto("/battles/kolubara");
   await page
@@ -329,7 +357,9 @@ test("commander search, profile and comparison", async ({ page }) => {
     "Hannibal Barca",
   );
   await expect(
-    page.getByRole("heading", { name: "Cannae", exact: true }),
+    page
+      .locator(".engagement-timeline")
+      .getByRole("link", { name: "Cannae", exact: true }),
   ).toBeVisible();
   await page
     .getByRole("link", { name: "Compare historical approaches" })
@@ -707,6 +737,7 @@ for (const width of [375, 768, 1440])
       "/collections/napoleon",
       "/battles?view=list",
       "/campaigns/serbian-campaign-of-1914",
+      "/commanders/napoleon-bonaparte",
     ]) {
       await page.goto(route);
       expect(
@@ -736,6 +767,7 @@ for (const route of [
   "/collections/napoleon",
   "/battles?view=list",
   "/campaigns/italian-campaign-of-1796-1797",
+  "/commanders/napoleon-bonaparte",
 ])
   test(`accessibility: ${route}`, async ({ page }) => {
     await page.goto(route);

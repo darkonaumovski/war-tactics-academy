@@ -126,3 +126,54 @@ export function decisionTransition(
     throw new Error("Invalid decision transition");
   return "feedback" as const;
 }
+// Career strip: one dot per linked engagement on a year axis, stacked within
+// a year, with a band per war spanning the commander's engagements in it.
+export const CAREER_WIDTH = 600;
+const CAREER_PAD = 24;
+export function careerLayout(
+  battles: Battle[],
+  wars: { slug: string; name: string }[],
+) {
+  const years = battles.map((b) => b.year);
+  const lo = Math.min(...years) - 1;
+  const hi = Math.max(...years) + 1;
+  const x = (year: number) =>
+    CAREER_PAD + ((year - lo) / (hi - lo)) * (CAREER_WIDTH - 2 * CAREER_PAD);
+  const seen = new Map<number, number>();
+  const dots = battles.map((b) => {
+    const level = seen.get(b.year) ?? 0;
+    seen.set(b.year, level + 1);
+    return { slug: b.slug, name: b.name, year: b.year, x: x(b.year), level };
+  });
+  // The smallest step that keeps the axis to at most eight labels.
+  const step =
+    [1, 2, 5, 10, 20, 25, 50, 100, 200, 500].find((s) => (hi - lo) / s <= 8) ??
+    1000;
+  const ticks: number[] = [];
+  for (let y = Math.ceil(lo / step) * step; y <= hi; y += step)
+    if (y !== 0) ticks.push(y);
+  const bands: { name: string; from: number; to: number; row: number }[] = [];
+  for (const b of battles) {
+    const name = wars.find((w) => w.slug === b.warId)?.name ?? b.warId;
+    const band = bands.find((x) => x.name === name);
+    if (band) band.to = b.year;
+    else bands.push({ name, from: b.year, to: b.year, row: 0 });
+  }
+  // Bands that overlap in time go on separate rows.
+  for (const [i, band] of bands.entries())
+    while (
+      bands
+        .slice(0, i)
+        .some(
+          (o) => o.row === band.row && o.from <= band.to && band.from <= o.to,
+        )
+    )
+      band.row++;
+  return {
+    dots,
+    ticks: ticks.map((year) => ({ year, x: x(year) })),
+    bands: bands.map((b) => ({ ...b, x1: x(b.from) - 8, x2: x(b.to) + 8 })),
+    stack: Math.max(...seen.values()),
+    rows: Math.max(...bands.map((b) => b.row)) + 1,
+  };
+}

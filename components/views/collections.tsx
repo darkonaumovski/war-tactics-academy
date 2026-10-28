@@ -7,14 +7,13 @@ import {
   Shield,
   Target,
 } from "lucide-react";
-import type { Battle, Catalog, Collection } from "../../lib/types";
+import type { Catalog, Collection } from "../../lib/types";
 import {
   collectionBattles,
   collectionPeriod,
   collections,
 } from "../../data/collections";
-import { formatYear } from "../../lib/logic";
-import { Heading, SectionTitle, Breadcrumbs } from "../ui";
+import { Heading, SectionTitle, Breadcrumbs, EngagementTimeline } from "../ui";
 import { RouteMap } from "../route-map";
 export function CollectionsPage({ c }: { c: Catalog }) {
   return (
@@ -53,9 +52,6 @@ export function CollectionPage({
 }) {
   const battles = collectionBattles(x, c.battles);
   const slugs = new Set(battles.map((b) => b.slug));
-  const byYear = new Map<number, Battle[]>();
-  for (const b of battles)
-    byYear.set(b.year, [...(byYear.get(b.year) ?? []), b]);
   const campaignCount = new Set(battles.map((b) => b.campaignId)).size;
   const commanders = c.commanders.filter((m) =>
     m.battleSlugs.some((s) => slugs.has(s)),
@@ -118,40 +114,11 @@ export function CollectionPage({
         href={`/battles?collection=${x.slug}`}
         label="Browse in the catalog"
       />
-      <div className="collection-timeline">
-        {[...byYear].map(([year, items]) => (
-          <section key={year}>
-            <h3>{formatYear(year)}</h3>
-            <ol className="chronology">
-              {items.map((b) => {
-                const campaign = c.campaigns.find(
-                  (k) => k.slug === b.campaignId,
-                );
-                return (
-                  <li key={b.slug}>
-                    <strong>{b.date}</strong>
-                    <span>
-                      <span className="route-n">{battles.indexOf(b) + 1}</span>
-                      <Link href={`/battles/${b.slug}`}>{b.name}</Link>
-                      <small>
-                        {b.kind} · {b.location}
-                        {campaign && (
-                          <>
-                            {" · "}
-                            <Link href={`/campaigns/${campaign.slug}`}>
-                              {campaign.name}
-                            </Link>
-                          </>
-                        )}
-                      </small>
-                    </span>
-                  </li>
-                );
-              })}
-            </ol>
-          </section>
-        ))}
-      </div>
+      <EngagementTimeline
+        battles={battles}
+        campaigns={c.campaigns}
+        numbers={new Map(battles.map((b, i) => [b.slug, i + 1]))}
+      />
       {!!commanders.length && (
         <>
           <h2>Commanders in this collection</h2>

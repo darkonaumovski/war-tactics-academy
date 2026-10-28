@@ -202,7 +202,7 @@ test("timeline selection, playback, zoom and accessible alternative", async ({
   await expect(page.locator(".text-timeline li")).toHaveCount(4);
 });
 test("every detailed study has a functional timeline", async ({ page }) => {
-  // One page visit per study (95 and growing) outlasts the default timeout.
+  // One page visit per study (99 and growing) outlasts the default timeout.
   test.setTimeout(180_000);
   for (const { slug, phases } of research) {
     await page.goto(`/battles/${slug}`);

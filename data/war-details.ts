@@ -602,10 +602,21 @@ export const warDetails: Record<string, WarDetails> = {
       ["August 1914", "Serbian victory at Cer; battle of Tannenberg"],
       ["September 1914", "First Battle of the Marne"],
       [
+        "October–November 1914",
+        "First Battle of Ypres; trench warfare sets in on the Western Front",
+      ],
+      [
         "December 1914",
         "Serbian counter-offensive on the Kolubara drives the Austro-Hungarian army out of Serbia",
       ],
-      ["1915", "Gallipoli campaign"],
+      [
+        "February 1915 – January 1916",
+        "Gallipoli campaign, ending in the Allied evacuation of the peninsula",
+      ],
+      [
+        "April 1915",
+        "First large-scale German chlorine attack opens the Second Battle of Ypres",
+      ],
       [
         "October–November 1915",
         "German, Austro-Hungarian and Bulgarian invasion of Serbia; the Serbian army retreats through Montenegro and Albania",

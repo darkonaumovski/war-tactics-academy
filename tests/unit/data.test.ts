@@ -9,12 +9,12 @@ import {
 import { battles, wars, campaigns, eras } from "../../data/catalog";
 import { courses } from "../../data/learning";
 it("validates source-backed analyses and the commander corpus", () => {
-  expect(researchSchema.parse(research)).toHaveLength(95);
+  expect(researchSchema.parse(research)).toHaveLength(99);
   expect(commanderSchema.parse(commanders)).toHaveLength(60);
 });
-it("provides 95 unique engagement slugs and a connected hierarchy", () => {
-  expect(battles).toHaveLength(95);
-  expect(new Set(battles.map((b) => b.slug)).size).toBe(95);
+it("provides 99 unique engagement slugs and a connected hierarchy", () => {
+  expect(battles).toHaveLength(99);
+  expect(new Set(battles.map((b) => b.slug)).size).toBe(99);
   for (const b of battles) {
     expect(wars.some((w) => w.slug === b.warId)).toBe(true);
     expect(
@@ -49,6 +49,11 @@ it("orders engagements in the same year by date", () => {
     ["laon", "arcis-sur-aube"],
     ["ligny", "waterloo"],
     ["cer", "tannenberg"],
+    ["tannenberg", "marne-1914"],
+    ["marne-1914", "first-ypres"],
+    ["first-ypres", "kolubara"],
+    ["gallipoli", "second-ypres"],
+    ["second-ypres", "belgrade-1915"],
     ["syrmia-1914", "drina-1914"],
     ["drina-1914", "kolubara"],
     ["invasion-of-serbia-1915", "serbian-retreat-1915"],

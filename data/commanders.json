@@ -1986,7 +1986,7 @@
     "strength": "Helped maintain Allied cohesion during the German spring offensives and subsequent counteroffensives.",
     "limitation": "Earlier offensives produced severe losses, and coalition command still depended on national governments and army leaders.",
     "legacy": "His career shows the distinction between tactical command, military theory and the political work of allied direction.",
-    "battleSlugs": [],
+    "battleSlugs": ["marne-1914", "first-ypres", "second-ypres"],
     "source": {
       "title": "Foch, Ferdinand — Elizabeth Greenhalgh",
       "url": "https://encyclopedia.1914-1918-online.net/wp-content/uploads/2023/01/ams/958119/pdf/1914-1918-Online-foch_ferdinand-2015-11-18.pdf",
@@ -2051,7 +2051,7 @@
     "strength": "The army under his command improved coordination among infantry, artillery, aircraft and tanks.",
     "limitation": "The Somme and Passchendaele involved enormous casualties and failed expectations; continuation of attacks remains heavily debated.",
     "legacy": "Assessment must include learning and final success without minimizing suffering or treating victory as proof every decision was sound.",
-    "battleSlugs": [],
+    "battleSlugs": ["first-ypres"],
     "source": {
       "title": "Douglas Haig: The chief",
       "url": "https://www.nam.ac.uk/explore/douglas-haig",
@@ -2177,7 +2177,7 @@
     "strength": "At Gallipoli, rapidly committed forces to contest key terrain and later held wider sector command.",
     "limitation": "The Ottoman defeat in 1918 and the wider violence of state collapse frame his subsequent career.",
     "legacy": "Founder of the Turkish republic, he became a major national figure; battlefield accounts should be separated from later commemorative traditions.",
-    "battleSlugs": [],
+    "battleSlugs": ["gallipoli"],
     "source": {
       "title": "Atatürk (Mustafa Kemal)",
       "url": "https://www.awm.gov.au/articles/encyclopedia/ataturk",
@@ -3008,7 +3008,7 @@
     "strength": "His strategy succeeded in 1915, when the Central Powers defeated Russia's armies in Poland and overran Serbia.",
     "limitation": "His strategy at Verdun in 1916 was unsustainable, he was slow to call the attack off, and he advocated unrestricted submarine warfare.",
     "legacy": "One of the decision-makers of the July crisis; his memoirs tried to justify Verdun.",
-    "battleSlugs": ["invasion-of-serbia-1915", "verdun"],
+    "battleSlugs": ["invasion-of-serbia-1915", "verdun", "first-ypres"],
     "source": {
       "title": "Falkenhayn, Erich von (Holger Afflerbach)",
       "url": "https://encyclopedia.1914-1918-online.net/article/falkenhayn-erich-von/",

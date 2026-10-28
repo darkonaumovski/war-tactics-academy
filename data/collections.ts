@@ -142,11 +142,19 @@ export const collections: Collection[] = [
     summary:
       "Engagements of the First World War, from the opening campaigns of 1914 to the collapse of the Central Powers in 1918.",
     introduction:
-      "For now the collection is strongest in the Balkans: alongside Tannenberg and Verdun it holds the whole Serbian Front, which also has a collection of its own. Together they show the opening battles of 1914, the attrition of Verdun, and a secondary front that in 1918 forced Bulgaria out of the war.",
+      "The collection covers the opening of the war in the west, from the Marne to the first gas attack at Ypres, the landings at Gallipoli, Tannenberg and Verdun, and the whole Serbian Front, which also has a collection of its own. Together they show a war of movement turning into trench warfare, new weapons that did not bring a breakthrough, and a secondary front that in 1918 forced Bulgaria out of the war.",
     arc: [
       {
         text: "In August 1914 the war opened with battles of movement on its eastern fronts. German forces encircled the Russian Second Army at Tannenberg but could not turn the victory into a strategic one. Serbia defeated the first Austro-Hungarian invasion on Cer and, after giving up Belgrade, drove the third out of the country on the Kolubara.",
         studies: ["tannenberg", "cer", "kolubara"],
+      },
+      {
+        text: "In the west, a French counter-stroke from Paris struck the open flank of the German right wing on the Marne in September 1914 and forced it back to the Aisne, ending German hopes of a quick victory. Each side then tried to turn the other's northern flank; at Ypres in October and November the Allies held a salient against repeated German attacks, and both sides settled into the trench warfare that marked the rest of the war on the Western Front.",
+        studies: ["marne-1914", "first-ypres"],
+      },
+      {
+        text: "In 1915 neither new weapons nor new fronts broke the deadlock. At Ypres in April the Germans released chlorine from cylinders, the first large-scale gas attack on the Western Front; it opened a gap that they were not prepared to exploit. At Gallipoli, Allied landings meant to open the Dardanelles were held to shallow beachheads by Ottoman troops on the heights and ended in evacuation.",
+        studies: ["second-ypres", "gallipoli"],
       },
       {
         text: "In the autumn of 1915 the Central Powers, now joined by Bulgaria, attacked Serbia from the north and the east. The Serbian army escaped encirclement but was driven out of the country, and the Central Powers opened the Danube route and the railway to Constantinople. The army, the government and refugees crossed the winter mountains to the Adriatic and were evacuated to Corfu.",
@@ -164,7 +172,7 @@ export const collections: Collection[] = [
     wars: ["ww1"],
     courseSlugs: ["industrial-world-wars", "serbian-front"],
     inProgress:
-      "The Western Front from the Marne to Amiens, Gallipoli, Jutland, the Brusilov offensive, Caporetto and Megiddo are planned for the next stage of work. This arc will be rewritten when they are added.",
+      "Jutland, the Somme, the Brusilov offensive, Caporetto, Passchendaele, Cambrai, the German spring offensive, Amiens, Megiddo and the Meuse-Argonne are planned for the next batches. This arc will be rewritten when they are added.",
   },
   {
     slug: "serbian-front",

@@ -120,6 +120,8 @@ test("timeline selection, playback, zoom and accessible alternative", async ({
   await expect(page.locator(".text-timeline li")).toHaveCount(4);
 });
 test("every detailed study has a functional timeline", async ({ page }) => {
+  // One page visit per study (95 and growing) outlasts the default timeout.
+  test.setTimeout(180_000);
   for (const { slug, phases } of research) {
     await page.goto(`/battles/${slug}`);
     const buttons = page
@@ -142,14 +144,55 @@ test("atlas works without external network services", async ({ page }) => {
     }),
   ).toBeVisible();
   await page.getByLabel("Atlas era").selectOption("ancient");
-  // Nearby markers in Italy overlap at world zoom, so select by keyboard.
-  const cannae = page.getByRole("button", { name: "Show Cannae", exact: true });
-  await cannae.focus();
-  await cannae.press("Enter");
+  await page.getByLabel("Atlas region").selectOption("italy");
+  await page.getByRole("button", { name: "Show Cannae", exact: true }).click();
   await expect(page.locator(".atlas-selection h3")).toHaveText("Cannae");
   await page.getByRole("button", { name: "Zoom atlas in" }).click();
   await page.getByRole("link", { name: "Explore engagement" }).click();
   await expect(page).toHaveURL(/cannae\/$/);
+});
+for (const width of [1280, 375])
+  test(`atlas separates dense areas at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto("/atlas");
+    const selection = page.locator(".atlas-selection h3");
+    // Nearby Serbian Front markers share a numbered group until zoomed into.
+    await page.getByLabel("Atlas region").selectOption("balkans");
+    // On a phone the group may need a second tap: zoom, then spread.
+    const cer = page.getByRole("button", {
+      name: "Show Battle of Cer",
+      exact: true,
+    });
+    const group = page.getByRole("button", {
+      name: /^(Zoom to|Spread) \d+ engagements: .*Battle of Cer/,
+    });
+    for (let i = 0; i < 3 && !(await cer.count()); i++) await group.click();
+    await cer.click();
+    await expect(selection).toHaveText("Battle of Cer");
+    // Cynoscephalae and Pharsalus never separate, so the group spreads.
+    await page.goto("/atlas?battle=pharsalus");
+    await expect(selection).toHaveText("Pharsalus");
+    await page
+      .getByRole("button", { name: "Show Cynoscephalae", exact: true })
+      .click();
+    await expect(selection).toHaveText("Cynoscephalae");
+    await page.getByRole("button", { name: "Reset atlas view" }).click();
+    await expect(
+      page.getByRole("button", { name: "Show Cynoscephalae", exact: true }),
+    ).toHaveCount(0);
+  });
+test("engagement pages locate their marker in the atlas", async ({ page }) => {
+  await page.goto("/battles/kolubara");
+  await page
+    .getByRole("link", { name: "Locate this engagement in the atlas →" })
+    .click();
+  await expect(page).toHaveURL(/\/atlas\/\?battle=kolubara$/);
+  await expect(page.locator(".atlas-selection h3")).toHaveText(
+    "Battle of the Kolubara",
+  );
+  await expect(
+    page.getByRole("button", { name: "Show Battle of the Kolubara" }),
+  ).toBeVisible();
 });
 test("commander search, profile and comparison", async ({ page }) => {
   await page.goto("/commanders");

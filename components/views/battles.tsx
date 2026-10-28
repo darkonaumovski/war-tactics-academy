@@ -136,6 +136,9 @@ export function BattlePage({ battle: b, c }: { battle: Battle; c: Catalog }) {
               <Link className="text-link" href="#sources">
                 Read the sources ↓
               </Link>
+              <Link className="text-link" href={`/atlas?battle=${b.slug}`}>
+                Locate this engagement in the atlas →
+              </Link>
               {c.scenarios
                 .filter((s) => s.battleSlug === b.slug)
                 .map((s) => (
@@ -232,7 +235,7 @@ export function BattlePage({ battle: b, c }: { battle: Battle; c: Catalog }) {
                   Commander profiles for this engagement are awaiting expansion.
                 </p>
               )}
-              <Link className="text-link" href={`/atlas`}>
+              <Link className="text-link" href={`/atlas?battle=${b.slug}`}>
                 Locate this engagement in the atlas →
               </Link>
             </section>

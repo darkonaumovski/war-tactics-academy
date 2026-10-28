@@ -1686,6 +1686,23 @@ footer > div {
   stroke: #fff;
   stroke-width: 2;
 }
+.atlas-filters {
+  display: flex;
+  gap: 8px;
+}
+.atlas-map > svg.is-zoomed {
+  cursor: grab;
+  touch-action: none;
+}
+.atlas-map text {
+  pointer-events: none;
+  font-family: var(--font-sans);
+}
+.atlas-label {
+  fill: #e9dfcb;
+  stroke: #14232c;
+  paint-order: stroke;
+}
 .atlas-selection {
   position: absolute;
   left: 22px;
@@ -3175,6 +3192,7 @@ progress::-moz-progress-bar {
   .atlas-toolbar {
     padding: 12px;
     gap: 10px;
+    flex-wrap: wrap;
   }
   .atlas-toolbar .eyebrow {
     font-size: 7px;
@@ -3191,11 +3209,12 @@ progress::-moz-progress-bar {
     height: 280px;
     object-fit: cover;
   }
+  /* Below the map on phones, so the card never hides the located marker. */
   .atlas-selection {
+    position: static;
+    max-width: none;
     padding: 12px 15px;
-    bottom: 12px;
-    left: 12px;
-    min-width: 170px;
+    border-width: 1px 0 0;
   }
   .atlas-selection h3 {
     font-size: 24px;

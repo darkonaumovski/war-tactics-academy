@@ -25,7 +25,7 @@ The guiding principle is to explain what commanders knew, what they decided and 
 ### Interactive learning
 
 - **Battle replay** with pan, zoom, phase selection, playback, event popups, a legend and a full text timeline. Replay diagrams are labeled as schematic, never as surveyed troop positions.
-- **Offline world atlas** using bundled Natural Earth geography; no map tile server is needed.
+- **Offline world atlas** using bundled Natural Earth geography; no map tile server is needed. Nearby markers merge into numbered groups that zoom in when selected, a region select frames dense areas such as the Balkans or northern Italy, markers that never separate fan out, and `/atlas?battle=<slug>` opens the map on one engagement.
 - **Ten decision exercises** (Waterloo, Cannae, Midway, Austerlitz, Alesia, Hastings, and four on the Serbian Front: Cer, the Kolubara, the retreat of 1915 and Dobro Pole): read the situation, choose under uncertainty, then compare with what happened and with an explicitly counterfactual interpretation.
 - **Five learning paths with 26 lessons**: Foundations of Military History, Classical Warfare, Napoleonic Warfare, Industrial and World Wars, and The Serbian Front, 1914–1918. Each lesson has objectives, historical cases, a concept diagram and a quiz; the Classical, Industrial and Serbian Front lessons add readings and seminar prompts.
 - **Curated media library** of nine verified records: two official National Archives (UK) D-Day videos, loaded only on request through privacy-enhanced YouTube embeds; public-domain portraits of Grant and Eisenhower, also shown on their profiles; two historic maps; and three primary documents. Each record stores publisher, license, attribution and verification date.
@@ -112,8 +112,8 @@ npm run test:e2e
 npm run test:report
 ```
 
-- **Unit and component tests** (Vitest, 41 tests): date formatting, search and filters, phase selection, decision state, quiz scoring, persistence, data integrity, content depth, media records, metadata, and the quiz and media-library components.
-- **Browser tests** (Playwright, 45 scenarios in each of Chromium, Firefox and WebKit, 135 in total): main workflows, bookmarks and saved progress, timelines, the atlas without network access, search, metadata and the sitemap, scroll reveals and reduced motion, responsive layouts at 375, 768 and 1440 pixels, runtime errors, and axe-core accessibility checks.
+- **Unit and component tests** (Vitest, 53 tests): date formatting, search and filters, atlas regions and marker grouping, phase selection, decision state, quiz scoring, persistence, data integrity, content depth, media records, metadata, and the quiz and media-library components.
+- **Browser tests** (Playwright, 48 scenarios in each of Chromium, Firefox and WebKit, 144 in total): main workflows, bookmarks and saved progress, timelines, the atlas without network access and its grouping at 375 and 1280 pixels, search, metadata and the sitemap, scroll reveals and reduced motion, responsive layouts at 375, 768 and 1440 pixels, runtime errors, and axe-core accessibility checks.
 
 Playwright builds the static export and serves it automatically, so tests run against the files that are deployed. `PLAYWRIGHT_BASE_URL` targets an already running server instead. Install browsers when needed with `npx playwright install chromium firefox webkit`. Reports are written to `playwright-report/` and `test-results/`.
 
@@ -161,6 +161,7 @@ All releases are deployed to the live site.
 
 | Commit    | Change                                                                                                                                                                                                        |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `c7676cb` | Remaining-work prompt updated: Stage A (Napoleon N4–N7) marked done; Stage B (app work at about 110 engagements) is next.                                                                                     |
 | `e254f6b` | Detailed studies of 13 Vendémiaire, Maloyaroslavets, Hanau, and Brienne and La Rothière (Napoleon batch N7), completing the Napoleon collection with 34 studies; Kutuzov linked to Maloyaroslavets.           |
 | `e9f9d26` | Detailed studies of Leipzig, the Six Days, Craonne and Laon, Arcis-sur-Aube and Ligny (Napoleon batch N6), completing the core Napoleon list and opening the Campaign in France, 1814.                        |
 | `9a5e145` | Detailed studies of Borodino, the Berezina, Lützen, Bautzen and Dresden (Napoleon batch N5), opening the German campaign of 1813; Kutuzov linked to Borodino.                                                 |

@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getCatalog } from "../lib/content";
 import { siteUrl } from "../lib/metadata";
+import { collections } from "../data/collections";
 
 export const dynamic = "force-static";
 
@@ -12,6 +13,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "commanders/",
     "commanders/compare/",
     "wars/",
+    "collections/",
     "atlas/",
     "academy/",
     "simulator/",
@@ -22,6 +24,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...c.commanders.map((x) => `commanders/${x.slug}/`),
     ...c.wars.map((w) => `wars/${w.slug}/`),
     ...c.campaigns.map((x) => `campaigns/${x.slug}/`),
+    ...collections.map((x) => `collections/${x.slug}/`),
     ...c.courses.flatMap((x) => [
       `academy/${x.slug}/`,
       ...x.lessons.map((l) => `academy/${x.slug}/${l.slug}/`),

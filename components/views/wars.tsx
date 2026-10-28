@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowRight, ArrowUpRight, Shield, Flag } from "lucide-react";
 import type { Catalog, War, Campaign } from "../../lib/types";
 import { eras } from "../../data/catalog";
+import { collections } from "../../data/collections";
 import { Heading, SectionTitle, BattleCard, Breadcrumbs, Sources } from "../ui";
 export function WarsPage({ c }: { c: Catalog }) {
   return (
@@ -11,6 +12,14 @@ export function WarsPage({ c }: { c: Catalog }) {
         title="Wars & Campaigns"
         description="A battle belongs to a campaign. A campaign belongs to a political struggle. Follow the connections."
       />
+      <nav className="collection-strip" aria-label="Collections">
+        <span className="eyebrow">Curated collections</span>
+        {collections.map((x) => (
+          <Link key={x.slug} href={`/collections/${x.slug}`}>
+            {x.title}
+          </Link>
+        ))}
+      </nav>
       {eras.map((e) => (
         <section className="war-era" key={e.id}>
           <h2>

@@ -99,6 +99,21 @@ export type Campaign = {
   warId: string;
   summary: string;
 };
+// A curated reading path across wars. Members come from the rule (any listed
+// war or campaign), so new engagements join without editing the collection.
+export type Collection = {
+  slug: string;
+  title: string;
+  summary: string;
+  introduction: string;
+  // Each paragraph names the member studies it summarises.
+  arc: { text: string; studies: string[] }[];
+  wars?: string[];
+  campaigns?: string[];
+  courseSlugs: string[];
+  // Shown while a collection is still being built out.
+  inProgress?: string;
+};
 export type Question = {
   prompt: string;
   choices: string[];

@@ -4,6 +4,7 @@ import type { Page } from "@playwright/test";
 import { research } from "../../data/research";
 import { battles } from "../../data/catalog";
 import { scenarios } from "../../data/learning";
+import { collectionBattles, collections } from "../../data/collections";
 // Scroll-revealed sections stay transparent until seen, and axe skips
 // transparent text. Scroll through the page so every section is audited.
 // The pass repeats because hydration can finish after an early pass, at which
@@ -181,6 +182,32 @@ for (const width of [1280, 375])
       page.getByRole("button", { name: "Show Cynoscephalae", exact: true }),
     ).toHaveCount(0);
   });
+test("collections lead through an ordered timeline to the studies", async ({
+  page,
+}) => {
+  await page.goto("/collections");
+  await expect(page.locator(".collection-grid > a")).toHaveCount(
+    collections.length,
+  );
+  const serbian = collections.find((x) => x.slug === "serbian-front")!;
+  await page.getByRole("link", { name: new RegExp(serbian.title) }).click();
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText(
+    serbian.title,
+  );
+  const expected = collectionBattles(serbian, battles).map((b) => b.name);
+  await expect(
+    page.locator(".collection-timeline .chronology span > a"),
+  ).toHaveText(expected);
+  await page
+    .locator(".collection-timeline")
+    .getByRole("link", { name: "Battle of the Kolubara", exact: true })
+    .click();
+  await expect(page).toHaveURL(/\/battles\/kolubara\/$/);
+  await page
+    .getByRole("link", { name: `Part of the collection ${serbian.title} →` })
+    .click();
+  await expect(page).toHaveURL(/\/collections\/serbian-front\/$/);
+});
 test("engagement pages locate their marker in the atlas", async ({ page }) => {
   await page.goto("/battles/kolubara");
   await page
@@ -492,6 +519,7 @@ test("pages publish descriptive metadata and a sitemap", async ({ page }) => {
   const xml = await sitemap.text();
   expect(xml).toContain("/battles/waterloo/</loc>");
   expect(xml).toContain("/academy/classical-warfare/siege-warfare/</loc>");
+  expect(xml).toContain("/collections/serbian-front/</loc>");
 });
 test("global search includes campaigns and learning", async ({ page }) => {
   await page.goto("/");
@@ -576,6 +604,7 @@ for (const width of [375, 768, 1440])
       "/atlas",
       "/library",
       "/commanders/ulysses-s-grant",
+      "/collections/napoleon",
     ]) {
       await page.goto(route);
       expect(
@@ -601,6 +630,8 @@ for (const route of [
   "/battles/austerlitz",
   "/wars/punic",
   "/search?q=terrain",
+  "/collections",
+  "/collections/napoleon",
 ])
   test(`accessibility: ${route}`, async ({ page }) => {
     await page.goto(route);
@@ -648,6 +679,7 @@ test("main routes produce no browser runtime errors", async ({ page }) => {
     "/battles",
     "/commanders",
     "/wars",
+    "/collections",
     "/atlas",
     "/academy",
     "/simulator",
@@ -676,6 +708,7 @@ test("light theme maintains accessible contrast", async ({ page }) => {
     "/simulator/hold-the-ridge",
     "/battles/austerlitz",
     "/commanders/yi-sun-sin",
+    "/collections/serbian-front",
   ]) {
     await page.goto(route);
     await expect(page.locator("html")).toHaveAttribute("data-theme", "light");

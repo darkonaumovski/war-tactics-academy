@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowUpRight, Target, MapPin, Shield, Flag, Info } from "lucide-react";
 import type { Catalog, Battle } from "../../lib/types";
 import { eras } from "../../data/catalog";
+import { collectionBattles, collections } from "../../data/collections";
 import { Heading, SectionTitle, Breadcrumbs, Sources } from "../ui";
 import { BattleCatalog } from "../catalogs";
 import { BattleMap } from "../battle-map";
@@ -139,6 +140,17 @@ export function BattlePage({ battle: b, c }: { battle: Battle; c: Catalog }) {
               <Link className="text-link" href={`/atlas?battle=${b.slug}`}>
                 Locate this engagement in the atlas →
               </Link>
+              {collections
+                .filter((k) => collectionBattles(k, [b]).length)
+                .map((k) => (
+                  <Link
+                    className="text-link"
+                    key={k.slug}
+                    href={`/collections/${k.slug}`}
+                  >
+                    Part of the collection {k.title} →
+                  </Link>
+                ))}
               {c.scenarios
                 .filter((s) => s.battleSlug === b.slug)
                 .map((s) => (

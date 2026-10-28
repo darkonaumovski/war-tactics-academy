@@ -2498,6 +2498,63 @@ progress::-moz-progress-bar {
   font-weight: 400;
   padding-top: 2px;
 }
+.collection-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0 30px;
+}
+.collection-strip .eyebrow {
+  margin-right: 8px;
+}
+.collection-strip a {
+  border: 1px solid var(--line);
+  padding: 8px 14px;
+  font-size: 12px;
+}
+.collection-strip a:hover {
+  border-color: var(--gold);
+}
+.collection-facts {
+  font: 11px var(--font-mono);
+  color: var(--muted);
+  margin: -10px 0 30px;
+}
+.collection-arc {
+  max-width: 820px;
+  margin-bottom: 40px;
+}
+.collection-arc > div {
+  margin-bottom: 22px;
+}
+.arc-studies {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 6px;
+}
+.arc-studies a,
+.collection-timeline small a {
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.collection-timeline {
+  margin-bottom: 40px;
+}
+.collection-timeline h3 {
+  font-size: 22px;
+  margin: 26px 0 4px;
+}
+.collection-timeline .chronology span > a {
+  font: 19px var(--font-display);
+}
+.collection-timeline .chronology small {
+  display: block;
+  font-size: 10px;
+  color: var(--muted);
+  margin-top: 4px;
+}
 .comparison-table td ul {
   margin: 0;
   padding-left: 16px;

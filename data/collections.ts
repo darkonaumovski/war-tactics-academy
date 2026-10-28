@@ -34,6 +34,7 @@ export const collections: Collection[] = [
     ],
     wars: ["alexander"],
     courseSlugs: [],
+    route: true,
   },
   {
     slug: "rome",
@@ -206,6 +207,7 @@ export const collections: Collection[] = [
       "macedonian-front",
     ],
     courseSlugs: ["serbian-front"],
+    route: true,
   },
   {
     slug: "ww2",

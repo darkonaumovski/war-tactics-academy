@@ -282,6 +282,32 @@ test("collections lead through an ordered timeline to the studies", async ({
     .click();
   await expect(page).toHaveURL(/\/collections\/serbian-front\/$/);
 });
+test("campaign and collection pages draw schematic route maps", async ({
+  page,
+}) => {
+  const italy = battles.filter(
+    (b) => b.campaignId === "italian-campaign-of-1796-1797",
+  );
+  await page.goto("/campaigns/italian-campaign-of-1796-1797");
+  await expect(
+    page.getByRole("img", { name: new RegExp(`${italy.length} engagements`) }),
+  ).toBeVisible();
+  await expect(page.locator(".route-list a")).toHaveText(
+    italy.map((b) => b.name),
+  );
+  await page.locator(".route-list a").first().click();
+  await expect(page).toHaveURL(new RegExp(`/battles/${italy[0].slug}/$`));
+  // A one-engagement campaign shows a locator, without a line or list.
+  await page.goto("/campaigns/siege-of-toulon");
+  await expect(page.locator(".route-map-single")).toBeVisible();
+  await expect(page.locator(".route-list")).toHaveCount(0);
+  // Alexander’s collection joins its engagements; Rome’s does not.
+  await page.goto("/collections/alexander");
+  expect(await page.locator(".route-map line").count()).toBeGreaterThan(0);
+  await page.goto("/collections/rome");
+  await expect(page.locator(".route-map line")).toHaveCount(0);
+  await expect(page.locator(".route-map .route-marker")).not.toHaveCount(0);
+});
 test("engagement pages locate their marker in the atlas", async ({ page }) => {
   await page.goto("/battles/kolubara");
   await page
@@ -680,6 +706,7 @@ for (const width of [375, 768, 1440])
       "/commanders/ulysses-s-grant",
       "/collections/napoleon",
       "/battles?view=list",
+      "/campaigns/serbian-campaign-of-1914",
     ]) {
       await page.goto(route);
       expect(
@@ -708,6 +735,7 @@ for (const route of [
   "/collections",
   "/collections/napoleon",
   "/battles?view=list",
+  "/campaigns/italian-campaign-of-1796-1797",
 ])
   test(`accessibility: ${route}`, async ({ page }) => {
     await page.goto(route);

@@ -111,6 +111,8 @@ export type Collection = {
   wars?: string[];
   campaigns?: string[];
   courseSlugs: string[];
+  // Draw a line joining the engagements in date order on the collection map.
+  route?: boolean;
   // Shown while a collection is still being built out.
   inProgress?: string;
 };

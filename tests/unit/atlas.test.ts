@@ -11,11 +11,16 @@ import {
   groupTarget,
   inBox,
   regionView,
+  numberRanges,
+  routeLayout,
+  ROUTE_HEIGHT,
+  ROUTE_WIDTH,
   spreadOffsets,
   type AtlasMarker,
   type Point,
 } from "../../lib/atlas";
-import { battles } from "../../data/catalog";
+import { battles, campaigns } from "../../data/catalog";
+import { collectionBattles, collections } from "../../data/collections";
 const project = atlasProjection();
 const markers: AtlasMarker[] = battles.map((b) => ({
   slug: b.slug,
@@ -110,5 +115,59 @@ describe("atlas focus", () => {
     const { view, spreadKey } = focusView("pharsalus", markers, phone);
     expect(view.zoom).toBe(MAX_ZOOM);
     expect(spreadKey?.split("|")).toContain("pharsalus");
+  });
+});
+
+describe("route maps", () => {
+  const sphere = { type: "Sphere" } as const;
+  const land = { fine: sphere, coarse: sphere };
+  const routes = [
+    ...campaigns.map((c) => battles.filter((b) => b.campaignId === c.slug)),
+    ...collections.map((c) => collectionBattles(c, battles)),
+  ];
+  it("compress numbers into ranges", () =>
+    expect(numberRanges([11, 3, 4, 5, 6, 7])).toBe("3–7, 11"));
+  it("number every stop once, in date order", () => {
+    for (const stops of routes) {
+      const { markers } = routeLayout(stops, land, true);
+      const ns = markers.flatMap((m) => m.stops.map((s) => s.n));
+      expect(ns.sort((a, b) => a - b)).toEqual(stops.map((_, i) => i + 1));
+      for (const m of markers)
+        for (const s of m.stops) expect(stops[s.n - 1].slug).toBe(s.slug);
+    }
+  });
+  it("keep markers inside the frame and apart from each other", () => {
+    for (const stops of routes) {
+      const { markers } = routeLayout(stops, land, true);
+      for (const m of markers) {
+        expect(m.xy[0]).toBeGreaterThan(0);
+        expect(m.xy[0]).toBeLessThan(ROUTE_WIDTH);
+        expect(m.xy[1]).toBeGreaterThan(0);
+        expect(m.xy[1]).toBeLessThan(ROUTE_HEIGHT);
+      }
+      for (const a of markers)
+        for (const b of markers)
+          if (a !== b)
+            expect(
+              Math.abs(a.xy[0] - b.xy[0]) >= (a.width + b.width) / 2 ||
+                Math.abs(a.xy[1] - b.xy[1]) >= 26,
+              `${a.label} / ${b.label}`,
+            ).toBe(true);
+    }
+  });
+  it("merge engagements too close to tell apart", () => {
+    const stops = battles.filter(
+      (b) => b.campaignId === "war-of-the-fifth-coalition",
+    );
+    expect(routeLayout(stops, land, true).markers.map((m) => m.label)).toEqual([
+      "1",
+      "2–3",
+    ]);
+  });
+  it("draw a locator without a line for a single engagement", () => {
+    const one = battles.filter((b) => b.slug === "toulon");
+    const { markers, segments } = routeLayout(one, land, false);
+    expect(markers).toHaveLength(1);
+    expect(segments).toEqual([]);
   });
 });

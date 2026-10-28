@@ -15,6 +15,7 @@ import {
 } from "../../data/collections";
 import { formatYear } from "../../lib/logic";
 import { Heading, SectionTitle, Breadcrumbs } from "../ui";
+import { RouteMap } from "../route-map";
 export function CollectionsPage({ c }: { c: Catalog }) {
   return (
     <div className="page-container">
@@ -106,6 +107,11 @@ export function CollectionPage({
           </div>
         ))}
       </section>
+      <RouteMap
+        stops={battles}
+        title={`Map of ${x.title}: ${battles.length} engagements numbered in date order${x.route ? ", joined in that order" : ""}`}
+        line={!!x.route}
+      />
       <SectionTitle
         number="↳"
         title="Timeline"
@@ -125,6 +131,7 @@ export function CollectionPage({
                   <li key={b.slug}>
                     <strong>{b.date}</strong>
                     <span>
+                      <span className="route-n">{battles.indexOf(b) + 1}</span>
                       <Link href={`/battles/${b.slug}`}>{b.name}</Link>
                       <small>
                         {b.kind} · {b.location}

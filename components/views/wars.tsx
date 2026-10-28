@@ -3,6 +3,7 @@ import { ArrowRight, ArrowUpRight, Shield, Flag } from "lucide-react";
 import type { Catalog, War, Campaign } from "../../lib/types";
 import { eras } from "../../data/catalog";
 import { collections } from "../../data/collections";
+import { RouteMap } from "../route-map";
 import { Heading, SectionTitle, BattleCard, Breadcrumbs, Sources } from "../ui";
 export function WarsPage({ c }: { c: Catalog }) {
   return (
@@ -168,6 +169,16 @@ export function CampaignPage({
         eyebrow={`CAMPAIGN / ${war.period}`}
         title={x.name}
         description={x.summary}
+      />
+      <RouteMap
+        stops={battles}
+        title={
+          battles.length > 1
+            ? `Schematic map of the ${x.name}: ${battles.length} engagements numbered in date order`
+            : `Locator map: ${battles[0].name}, ${battles[0].location}`
+        }
+        line={battles.length > 1}
+        list={battles.length > 1}
       />
       <div className="two-columns">
         <section>

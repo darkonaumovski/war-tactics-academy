@@ -7,12 +7,14 @@ import {
   sortBattles,
   emptyFilters,
   careerLayout,
+  matchesQuery,
+  searchRank,
   nextPhase,
   quizScore,
   decisionTransition,
   normalize,
 } from "../../lib/logic";
-import { battles, wars } from "../../data/catalog";
+import { battles, campaigns, wars } from "../../data/catalog";
 import { collections } from "../../data/collections";
 import commanders from "../../data/commanders.json" with { type: "json" };
 import { courses, scenarios } from "../../data/learning";
@@ -168,4 +170,56 @@ describe("career strip", () => {
       { name: "French Revolutionary Wars", from: 1793, to: 1800, row: 0 },
       { name: "Napoleonic Wars", from: 1805, to: 1815, row: 0 },
     ]));
+});
+describe("search", () => {
+  const links = { wars, campaigns, commanders, collections };
+  const find = (q: string) =>
+    filterBattles(battles, { q }, links).map((b) => b.slug);
+  const linkedTo = (slug: string) =>
+    battles
+      .filter((b) =>
+        commanders.find((c) => c.slug === slug)!.battleSlugs.includes(b.slug),
+      )
+      .map((b) => b.slug);
+  it("finds every engagement of a commander", () => {
+    expect(find("Napoleon")).toEqual(
+      expect.arrayContaining(linkedTo("napoleon-bonaparte")),
+    );
+    expect(find("Kutuzov")).toEqual(linkedTo("mikhail-kutuzov"));
+    expect(find("Stepanovic")).toEqual(
+      expect.arrayContaining(linkedTo("stepa-stepanovic")),
+    );
+  });
+  it("finds every engagement of a war or campaign", () => {
+    const of = (key: "warId" | "campaignId", slug: string) =>
+      battles.filter((b) => b[key] === slug).map((b) => b.slug);
+    expect(find("Punic")).toEqual(expect.arrayContaining(of("warId", "punic")));
+    expect(find("Russian campaign")).toEqual(
+      expect.arrayContaining(of("campaignId", "russian-campaign-of-1812")),
+    );
+    expect(find("Macedonian front")).toEqual(
+      expect.arrayContaining(of("campaignId", "macedonian-front")),
+    );
+  });
+  it("needs every word, in any order", () => {
+    expect(find("Kutuzov Borodino")).toEqual(["borodino"]);
+    expect(find("Borodino Kutuzov")).toEqual(["borodino"]);
+    expect(matchesQuery("Battle of Cer", "cer battle")).toBe(true);
+    expect(matchesQuery("Battle of Cer", "cer kolubara")).toBe(false);
+  });
+  it("ignores accents and case", () =>
+    expect(matchesQuery("Battle of Kajmakčalan", "KAJMAKCALAN")).toBe(true));
+  it("ranks an exact title above partial and text matches", () => {
+    expect(searchRank("Waterloo", "waterloo")).toBe(0);
+    expect(searchRank("Waterloo campaign", "Waterloo")).toBe(1);
+    expect(searchRank("Craonne and Laon", "laon craonne")).toBe(2);
+    expect(searchRank("Ligny", "waterloo", "Waterloo campaign")).toBe(3);
+    expect(
+      searchRank(
+        "Persian Gate",
+        "Macedonian front",
+        "After a failed frontal attack · Macedonian invasion of Persia",
+      ),
+    ).toBe(4);
+  });
 });

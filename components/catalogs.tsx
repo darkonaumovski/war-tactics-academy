@@ -90,7 +90,12 @@ function BattleCatalogView({ c, urlQuery }: { c: Catalog; urlQuery: string }) {
     );
   };
   const result = sortBattles(
-    filterBattles(battles, f, { commanders: c.commanders, collections }),
+    filterBattles(battles, f, {
+      wars: c.wars,
+      campaigns: c.campaigns,
+      commanders: c.commanders,
+      collections,
+    }),
     f.sort,
   );
   const name = (list: { slug: string; name: string }[], slug: string) =>
@@ -120,7 +125,7 @@ function BattleCatalogView({ c, urlQuery }: { c: Catalog; urlQuery: string }) {
           <input
             disabled={!ready}
             aria-label="Search battles"
-            placeholder="Find a battle, place or concept…"
+            placeholder="A battle, place, war, campaign or commander…"
             value={f.q}
             onChange={(e) => update({ q: e.target.value })}
           />

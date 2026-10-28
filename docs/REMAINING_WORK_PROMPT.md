@@ -6,16 +6,16 @@ Paste everything below the line into a new Claude Code session opened in this re
 
 You are continuing **War Tactics Academy**, a Next.js App Router site with static export to GitHub Pages; pushes to `main` deploy automatically. Two earlier prompts drive this work: [`BATTLE_EXPANSION_PROMPT.md`](BATTLE_EXPANSION_PROMPT.md) (five collections, about 110 engagements) and [`SERBIAN_FRONT_PROMPT.md`](SERBIAN_FRONT_PROMPT.md) (complete). This prompt lists what is left, in the order to do it. Where this prompt is silent, the battle expansion prompt and its brief still apply.
 
-## Where things stand (27 October 2026, commit `e254f6b`)
+## Where things stand (28 October 2026, commit `0b54499`)
 
-| Area                    | Done                                                                                                                                                                                                          |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Engagements and studies | 95, each with a full study: Alexander (complete), Rome (complete), Napoleon (complete, 34 studies from Toulon to Waterloo, including the optional N7 batch), the Serbian Front (14), and the original catalog |
-| Campaigns and wars      | 57 campaigns, 33 wars; every `napoleonic` chronology entry checked against sources                                                                                                                            |
-| Commander profiles      | 60, including 16 Serbian Front commanders; Napoleon linked to all 34 Napoleonic studies, Kutuzov to Austerlitz, Borodino and Maloyaroslavets                                                                  |
-| Learning                | 5 courses with 26 lessons; 10 decision exercises                                                                                                                                                              |
-| App                     | Same-year engagements ordered by date (`Battle.ordinal`); catalog search with era, region and kind filters; commander pages list engagements in date order                                                    |
-| Stages                  | **Stage A is done** (N4–N7, pushed). Next: **Stage B**. The README release-history row for `e254f6b` is already in.                                                                                           |
+| Area                    | Done                                                                                                                                                                                                                                                                                                                                     |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Engagements and studies | 95, each with a full study: Alexander (complete), Rome (complete), Napoleon (complete, 34 studies from Toulon to Waterloo, including the optional N7 batch), the Serbian Front (14), and the original catalog                                                                                                                            |
+| Campaigns and wars      | 57 campaigns, 33 wars; every `napoleonic` chronology entry checked against sources                                                                                                                                                                                                                                                       |
+| Commander profiles      | 60, including 16 Serbian Front commanders; Napoleon linked to all 34 Napoleonic studies, Kutuzov to Austerlitz, Borodino and Maloyaroslavets                                                                                                                                                                                             |
+| Learning                | 5 courses with 26 lessons; 10 decision exercises                                                                                                                                                                                                                                                                                         |
+| App                     | Readable atlas (marker groups, regions, `?battle=` links); six collection pages; catalog filters by war, campaign, commander and collection, kept in the URL, with sorting and a list view; schematic route maps on campaign and collection pages; career strips and timelines on commander pages; search by war, campaign and commander |
+| Stages                  | **Stages A and B are done** (Stage B pushed through `0b54499`; the search item is in the commit that carries this line). Next: **Stage C**, batch W1-1.                                                                                                                                                                                  |
 
 ## Rules that override everything else
 
@@ -50,7 +50,7 @@ All four batches were written, committed and pushed on 27 October 2026 (`96a2f28
 
 Check the remaining `napoleonic` chronology entries (1808, 1812, 1813, 1814, 1815) in these batches. Useful sources: Britannica's “Napoleonic Wars” section pages and battle articles; the Fondation Napoléon's _Revue du Souvenir Napoléonien_ articles, chronologies and _Dictionnaire Napoléon_ biographies.
 
-## Stage B: make the app work at about 110 engagements (Phase 3)
+## Stage B: make the app work at about 110 engagements (Phase 3, done)
 
 Do this before the world wars, which add about 30 markers in Western Europe. Read `components/views/battles.tsx`, `wars.tsx`, `commanders.tsx`, `atlas.tsx`, `search.tsx` and `components/catalogs.tsx` first, then propose each item before building it.
 
@@ -106,15 +106,15 @@ One course per remaining collection (Alexander, Rome, Napoleon, the First and Se
 
 ## Suggested order and pacing
 
-| Step | Work                                                                      | Rough size   |
-| ---- | ------------------------------------------------------------------------- | ------------ |
-| 1    | Stage A: N4–N7 (done)                                                     | done         |
-| 2    | Stage B: atlas, collections, filters (then route maps, timelines, search) | 2–3 sessions |
-| 3    | Stage C: W1-1 to W1-4                                                     | 4 sessions   |
-| 4    | Stage D: W2-1 to W2-5                                                     | 5 sessions   |
-| 5    | Stage E: profiles, about four per collection batch                        | 4–6 sessions |
-| 6    | Stage F: courses and scenarios                                            | 2–3 sessions |
-| 7    | Stage G: final pass                                                       | 1 session    |
+| Step | Work                                                                       | Rough size   |
+| ---- | -------------------------------------------------------------------------- | ------------ |
+| 1    | Stage A: N4–N7 (done)                                                      | done         |
+| 2    | Stage B: atlas, collections, filters, route maps, timelines, search (done) | done         |
+| 3    | Stage C: W1-1 to W1-4                                                      | 4 sessions   |
+| 4    | Stage D: W2-1 to W2-5                                                      | 5 sessions   |
+| 5    | Stage E: profiles, about four per collection batch                         | 4–6 sessions |
+| 6    | Stage F: courses and scenarios                                             | 2–3 sessions |
+| 7    | Stage G: final pass                                                        | 1 session    |
 
 A session here means roughly one batch within a Pro usage window; reading sources is the largest cost.
 
@@ -126,4 +126,4 @@ A session here means roughly one batch within a Pro usage window; reading source
 - Each collection has a course and scenarios.
 - All checks pass, counts and docs are consistent, and each batch is committed separately with approval.
 
-Start with Stage B, item 1 (the atlas), unless I say otherwise; propose it before building.
+Start with Stage C, batch W1-1, unless I say otherwise; propose its source plan before writing.

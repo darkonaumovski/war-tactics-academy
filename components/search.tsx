@@ -4,16 +4,27 @@ import Link from "next/link";
 import Form from "next/form";
 import { useSearchParams } from "next/navigation";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
-import { normalize } from "../lib/logic";
+import { matchesQuery, searchRank } from "../lib/logic";
 import { Empty } from "./ui";
 
 export type SearchRecord = {
   title: string;
   text: string;
+  // Searched but not shown, e.g. an engagement's war and commanders.
+  keywords?: string;
+  // A short line shown under the title.
+  meta?: string;
   href: string;
   type: string;
 };
-const types = ["Battle", "Commander", "War", "Campaign", "Learning"];
+const types = [
+  "Battle",
+  "Commander",
+  "War",
+  "Campaign",
+  "Collection",
+  "Learning",
+];
 
 // The search page is prerendered without a query; the query string is read in
 // the browser, which is all a static host can provide.
@@ -46,11 +57,18 @@ function SearchView({
   query: string;
   type: string;
 }) {
-  const result = records.filter(
-    (r) =>
-      (!type || r.type === type) &&
-      normalize(`${r.title} ${r.text}`).includes(normalize(query.trim())),
-  );
+  const result = records
+    .filter(
+      (r) =>
+        (!type || r.type === type) &&
+        matchesQuery(`${r.title} ${r.text} ${r.keywords ?? ""}`, query),
+    )
+    .map((r) => ({
+      r,
+      rank: searchRank(r.title, query, `${r.text} ${r.keywords ?? ""}`),
+    }))
+    .sort((a, b) => a.rank - b.rank)
+    .map(({ r }) => r);
   return (
     <>
       <Form action="/search" className="filter-bar">
@@ -83,6 +101,7 @@ function SearchView({
                 {r.title}
                 <ArrowUpRight size={19} />
               </h2>
+              {r.meta && <small className="search-meta">{r.meta}</small>}
               <p>
                 {r.text.slice(0, 220)}
                 {r.text.length > 220 ? "…" : ""}

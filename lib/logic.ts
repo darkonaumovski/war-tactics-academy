@@ -70,23 +70,68 @@ export const inCollection = (
   c: { wars?: string[]; campaigns?: string[] },
   b: Battle,
 ) => !!(c.wars?.includes(b.warId) || c.campaigns?.includes(b.campaignId));
+// Every word of the query must appear somewhere in the text, in any order;
+// case and accents are ignored.
+export function matchesQuery(text: string, query: string) {
+  const words = normalize(query).split(/\s+/).filter(Boolean);
+  const t = normalize(text);
+  return words.every((w) => t.includes(w));
+}
+// Lower ranks come first: exact title, title containing the query, title
+// containing every word, other text containing the whole query, then any
+// other match (its words scattered, or inside longer words).
+export function searchRank(title: string, query: string, text = "") {
+  const q = normalize(query.trim()).replace(/\s+/g, " ");
+  const t = normalize(title);
+  if (!q) return 4;
+  if (t === q) return 0;
+  if (t.includes(q)) return 1;
+  if (matchesQuery(title, query)) return 2;
+  return normalize(text).replace(/\s+/g, " ").includes(q) ? 3 : 4;
+}
+type SearchLinks = {
+  wars?: { slug: string; name: string }[];
+  campaigns?: { slug: string; name: string }[];
+  commanders?: { slug: string; name: string; battleSlugs: string[] }[];
+  collections?: {
+    slug: string;
+    title: string;
+    wars?: string[];
+    campaigns?: string[];
+  }[];
+};
+// What an engagement can be found by: its own fields plus the names of its
+// war, campaign, commanders and collections.
+export const battleSearchText = (b: Battle, links: SearchLinks = {}) =>
+  [
+    b.name,
+    b.summary,
+    b.location,
+    b.topic,
+    b.date,
+    b.kind,
+    links.wars?.find((w) => w.slug === b.warId)?.name,
+    links.campaigns?.find((c) => c.slug === b.campaignId)?.name,
+    ...(links.commanders ?? [])
+      .filter((c) => c.battleSlugs.includes(b.slug))
+      .map((c) => c.name),
+    ...(links.collections ?? [])
+      .filter((c) => inCollection(c, b))
+      .map((c) => c.title),
+  ]
+    .filter(Boolean)
+    .join(" ");
 export function filterBattles(
   battles: Battle[],
   f: Partial<BattleFilters>,
-  links: {
-    commanders?: { slug: string; battleSlugs: string[] }[];
-    collections?: { slug: string; wars?: string[]; campaigns?: string[] }[];
-  } = {},
+  links: SearchLinks = {},
 ) {
-  const q = normalize((f.q ?? "").trim());
+  const q = (f.q ?? "").trim();
   const commander = links.commanders?.find((c) => c.slug === f.commander);
   const collection = links.collections?.find((c) => c.slug === f.collection);
   return battles.filter(
     (b) =>
-      (!q ||
-        normalize(`${b.name} ${b.summary} ${b.location} ${b.topic}`).includes(
-          q,
-        )) &&
+      (!q || matchesQuery(battleSearchText(b, links), q)) &&
       (!f.era || b.eraId === f.era) &&
       (!f.region || b.region === f.region) &&
       (!f.kind || b.kind === f.kind) &&

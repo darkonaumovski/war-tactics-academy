@@ -2,10 +2,12 @@ import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 import type { Page } from "@playwright/test";
 import { research } from "../../data/research";
-import { battles } from "../../data/catalog";
+import { battles, campaigns, wars } from "../../data/catalog";
 import { scenarios } from "../../data/learning";
 import { collectionBattles, collections } from "../../data/collections";
 import commanders from "../../data/commanders.json" with { type: "json" };
+import { filterBattles } from "../../lib/logic";
+const searchLinks = { wars, campaigns, commanders, collections };
 // Scroll-revealed sections stay transparent until seen, and axe skips
 // transparent text. Scroll through the page so every section is audited.
 // The pass repeats because hydration can finish after an early pass, at which
@@ -54,7 +56,10 @@ test("battle search and combined filters", async ({ page }) => {
     `${battles.length} engagements`,
   );
   await page.getByRole("textbox", { name: "Search battles" }).fill("Waterloo");
-  await expect(page.getByRole("status")).toHaveText("1 engagements");
+  // Waterloo itself, and Ligny through the Waterloo campaign.
+  await expect(page.getByRole("status")).toHaveText(
+    `${filterBattles(battles, { q: "Waterloo" }, searchLinks).length} engagements`,
+  );
   await page.getByRole("link", { name: /Time, terrain & coalition/ }).click();
   await expect(page).toHaveURL(/waterloo\/$/);
   await page.goto("/battles");
@@ -666,6 +671,36 @@ test("global search includes campaigns and learning", async ({ page }) => {
   await page.getByRole("button", { name: "Search", exact: true }).click();
   await expect(page.locator(".search-results")).toContainText(
     "Coalition warfare",
+  );
+});
+test("search finds engagements by war, campaign and commander", async ({
+  page,
+}) => {
+  // The exact title ranks first.
+  await page.goto("/search?q=Waterloo");
+  await expect(page.locator(".search-results h2").first()).toHaveText(
+    "Waterloo",
+  );
+  // A campaign name finds its engagements, with the match explained.
+  const front = battles.filter((b) => b.campaignId === "macedonian-front");
+  await page.goto("/search?q=Macedonian+front&type=Battle");
+  for (const b of front)
+    await expect(
+      page.locator(".search-results").getByRole("link", { name: b.name }),
+    ).toBeVisible();
+  await expect(page.locator(".search-meta").first()).toContainText(
+    "Macedonian front",
+  );
+  // A commander's name finds the engagements linked to them in the catalog.
+  await page.goto("/battles");
+  await page.getByRole("textbox", { name: "Search battles" }).fill("Kutuzov");
+  await expect(page.getByRole("status")).toHaveText(
+    `${filterBattles(battles, { q: "Kutuzov" }, searchLinks).length} engagements`,
+  );
+  // Collections are searchable too.
+  await page.goto("/search?q=Serbian+Front&type=Collection");
+  await expect(page.locator(".search-results h2").first()).toHaveText(
+    "The Serbian Front, 1914–1918",
   );
 });
 test("war to campaign to battle hierarchy", async ({ page }) => {

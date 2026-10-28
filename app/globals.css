@@ -2784,6 +2784,12 @@ progress::-moz-progress-bar {
 .search-results p {
   font-size: 13px;
 }
+.search-meta {
+  display: block;
+  font: 11px var(--font-mono);
+  color: var(--gold);
+  margin-bottom: 8px;
+}
 .loading-bar {
   height: 3px;
   background: var(--gold);

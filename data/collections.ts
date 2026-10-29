@@ -255,8 +255,16 @@ export const collections: Collection[] = [
     summary:
       "Engagements of the Second World War in Europe, North Africa and the Pacific.",
     introduction:
-      "The collection currently holds five studies, from Midway in June 1942 to the Normandy campaign of 1944. They show the turning of the war in three theatres at once, and the opening of the second front in the west.",
+      "The collection currently holds nine studies, from the invasion of Poland in September 1939 to the Normandy campaign of 1944. They show Germany's victories of 1939 and 1940, its failure over Britain and before Moscow, the turning of the war in three theatres at once in 1942, and the opening of the second front in the west. They also record the war against civilians that began with the invasion of Poland and became genocide in the east.",
     arc: [
+      {
+        text: "In September 1939 Germany invaded Poland from three sides and the Soviet Union from the east; Poland was defeated within weeks and partitioned, and German forces shot Polish civilians, clergy, intellectuals and Jews from the first weeks. In May 1940 an armoured thrust through the Ardennes broke the French front at Sedan and reached the Channel, cutting the Allied armies in two; the British escaped from Dunkirk, and France signed an armistice in June. Over southern England in the summer and autumn of 1940, RAF Fighter Command, directed by its air defence system, denied the Luftwaffe the air superiority needed for an invasion.",
+        studies: ["poland-1939", "france-1940", "battle-of-britain"],
+      },
+      {
+        text: "In June 1941 Germany invaded the Soviet Union in a war of annihilation. Its armies won vast encirclements, but the Red Army raised new armies, and by December the Germans had been stopped before Moscow. Behind the front the Einsatzgruppen and other units began the Holocaust by shooting, and Soviet prisoners of war died in vast numbers through deliberate starvation.",
+        studies: ["barbarossa"],
+      },
       {
         text: "In 1942 the war turned in three theatres. At Midway American carrier forces, guided by intelligence that identified the objective, defeated Japan’s carrier striking force; the result altered the carrier balance but did not end the Pacific War. In Egypt, Second El Alamein was the British Army’s first clear, decisive victory over the Axis. At Stalingrad, urban fighting ended in a Soviet encirclement and the destruction of the trapped German Sixth Army.",
         studies: ["midway", "el-alamein", "stalingrad"],
@@ -269,7 +277,7 @@ export const collections: Collection[] = [
     wars: ["ww2"],
     courseSlugs: ["industrial-world-wars"],
     inProgress:
-      "Poland and France, the Battle of Britain, Barbarossa and Moscow, the Pacific war from Pearl Harbor to Okinawa, Bagration, Market Garden, the Bulge and Berlin are planned for later stages of work. This arc will be rewritten when they are added.",
+      "Moscow, the Pacific war from Pearl Harbor to Okinawa, the Battle of the Atlantic, Bagration, Market Garden, the Bulge and Berlin are planned for the next batches. This arc will be rewritten when they are added.",
   },
 ];
 export const collectionBattles = (c: Collection, battles: Battle[]) =>

@@ -672,8 +672,18 @@ export const warDetails: Record<string, WarDetails> = {
     ],
     geography: "Europe, North Africa, the Atlantic, Asia and the Pacific.",
     developments: t(
-      ["September 1939", "Germany invades Poland"],
-      ["June 1941", "Germany invades the Soviet Union"],
+      ["1 September 1939", "Germany invades Poland"],
+      ["17 September 1939", "The Soviet Union invades Poland from the east"],
+      [
+        "10 May – 25 June 1940",
+        "Germany conquers the Netherlands, Belgium and France",
+      ],
+      [
+        "July – October 1940",
+        "Battle of Britain; the invasion of Britain is postponed",
+      ],
+      ["22 June 1941", "Germany invades the Soviet Union"],
+      ["5–6 December 1941", "Soviet counteroffensive before Moscow"],
       [
         "1941–1945",
         "Holocaust: Nazi Germany and its collaborators murder six million Jews",

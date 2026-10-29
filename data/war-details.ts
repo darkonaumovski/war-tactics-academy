@@ -688,7 +688,12 @@ export const warDetails: Record<string, WarDetails> = {
         "1941–1945",
         "Holocaust: Nazi Germany and its collaborators murder six million Jews",
       ],
-      ["December 1941", "Japan attacks Pearl Harbor"],
+      ["7–8 December 1941", "Japan attacks Pearl Harbor and invades Malaya"],
+      ["15 February 1942", "Singapore surrenders"],
+      [
+        "4–8 May 1942",
+        "Battle of the Coral Sea turns back the invasion of Port Moresby",
+      ],
       ["June 1942", "Battle of Midway"],
       ["November 1942–February 1943", "Stalingrad encirclement and surrender"],
       ["June 1944", "Normandy landings"],

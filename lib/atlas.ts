@@ -43,6 +43,11 @@ export const atlasRegions = [
   { id: "south-asia", name: "Central and South Asia", box: [50, 20, 80, 45] },
   { id: "east-asia", name: "East Asia", box: [95, 10, 145, 42] },
   {
+    id: "south-west-pacific",
+    name: "South-east Asia and the South-west Pacific",
+    box: [95, -25, 165, 12],
+  },
+  {
     id: "americas",
     name: "The Americas and the Pacific",
     box: [-180, 15, -65, 50],

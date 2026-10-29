@@ -3279,7 +3279,7 @@
     "strength": "Played major roles in the defense of Moscow and subsequent Soviet offensives.",
     "limitation": "Costly operations and disputes over credit require attention to other commanders, staffs and political direction.",
     "legacy": "His role in defeating Nazi Germany is central, alongside the human cost, coercive Soviet institutions and abuses committed by advancing forces.",
-    "battleSlugs": ["stalingrad", "kursk", "barbarossa"],
+    "battleSlugs": ["stalingrad", "kursk", "barbarossa", "moscow-1941"],
     "source": {
       "title": "Georgy Zhukov: Time of Power and Forgotten Reforms",
       "url": "https://museum-vf.ru/en/exhibition/vystavka-georgiy-zhukov-en/",
@@ -3733,7 +3733,7 @@
     "strength": "Recognized the importance of carrier aviation and organized ambitious fleet operations.",
     "limitation": "The complex Midway plan relied on faulty assumptions and dispersed forces; American intelligence undermined surprise.",
     "legacy": "His reservations about a prolonged war did not prevent him from directing operations in service of Japanese imperial aggression.",
-    "battleSlugs": ["midway"],
+    "battleSlugs": ["midway", "pearl-harbor"],
     "source": {
       "title": "Battle of Midway",
       "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1942/midway.html",

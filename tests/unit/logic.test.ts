@@ -41,7 +41,7 @@ describe("catalog filtering", () => {
         region: "Pacific",
         kind: "Battle",
       }).map((b) => b.slug),
-    ).toEqual(["midway"]));
+    ).toEqual(["coral-sea", "midway"]));
   it("returns an empty result for incompatible filters", () =>
     expect(
       filterBattles(battles, { era: "ancient", region: "Pacific" }),

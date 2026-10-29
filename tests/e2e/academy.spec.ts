@@ -67,7 +67,9 @@ test("battle search and combined filters", async ({ page }) => {
     .getByLabel("Historical era", { exact: true })
     .selectOption("world-wars");
   await page.getByLabel("Region", { exact: true }).selectOption("Pacific");
-  await expect(page.getByRole("status")).toHaveText("1 engagements");
+  await expect(page.getByRole("status")).toHaveText(
+    `${filterBattles(battles, { era: "world-wars", region: "Pacific" }).length} engagements`,
+  );
   await expect(
     page.getByRole("heading", { name: "Midway", exact: true }),
   ).toBeVisible();
@@ -202,7 +204,7 @@ test("timeline selection, playback, zoom and accessible alternative", async ({
   await expect(page.locator(".text-timeline li")).toHaveCount(4);
 });
 test("every detailed study has a functional timeline", async ({ page }) => {
-  // One page visit per study (113 and growing) outlasts the default timeout.
+  // One page visit per study (117 and growing) outlasts the default timeout.
   test.setTimeout(180_000);
   for (const { slug, phases } of research) {
     await page.goto(`/battles/${slug}`);

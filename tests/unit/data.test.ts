@@ -9,12 +9,12 @@ import {
 import { battles, wars, campaigns, eras } from "../../data/catalog";
 import { courses } from "../../data/learning";
 it("validates source-backed analyses and the commander corpus", () => {
-  expect(researchSchema.parse(research)).toHaveLength(117);
+  expect(researchSchema.parse(research)).toHaveLength(121);
   expect(commanderSchema.parse(commanders)).toHaveLength(60);
 });
-it("provides 117 unique engagement slugs and a connected hierarchy", () => {
-  expect(battles).toHaveLength(117);
-  expect(new Set(battles.map((b) => b.slug)).size).toBe(117);
+it("provides 121 unique engagement slugs and a connected hierarchy", () => {
+  expect(battles).toHaveLength(121);
+  expect(new Set(battles.map((b) => b.slug)).size).toBe(121);
   for (const b of battles) {
     expect(wars.some((w) => w.slug === b.warId)).toBe(true);
     expect(
@@ -76,7 +76,12 @@ it("orders engagements in the same year by date", () => {
     ["barbarossa", "moscow-1941"],
     ["moscow-1941", "pearl-harbor"],
     ["pearl-harbor", "singapore-1942"],
+    ["poland-1939", "battle-of-the-atlantic"],
     ["coral-sea", "midway"],
+    ["midway", "guadalcanal"],
+    ["guadalcanal", "el-alamein"],
+    ["imphal-kohima", "normandy"],
+    ["normandy", "bagration"],
     ["midway", "el-alamein"],
   ])
     expect(order.indexOf(earlier), later).toBeLessThan(order.indexOf(later));

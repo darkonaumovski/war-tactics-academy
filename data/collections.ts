@@ -255,7 +255,7 @@ export const collections: Collection[] = [
     summary:
       "Engagements of the Second World War in Europe, North Africa and the Pacific.",
     introduction:
-      "The collection currently holds thirteen studies, from the invasion of Poland in September 1939 to the Normandy campaign of 1944. They show Germany's victories of 1939 and 1940, its failure over Britain and before Moscow, Japan's offensive of 1941–1942 from Pearl Harbor to Singapore and its first check in the Coral Sea, the turning of the war in three theatres at once in 1942, and the opening of the second front in the west. They also record the war against civilians that began with the invasion of Poland, became genocide in the east and, in Singapore, brought the massacre of Chinese civilians.",
+      "The collection currently holds seventeen studies, from the invasion of Poland in September 1939 to Operation Bagration in 1944, with the Battle of the Atlantic running through the whole war. They show Germany's victories of 1939 and 1940, its failure over Britain and before Moscow, Japan's offensive of 1941–1942 from Pearl Harbor to Singapore and its first check in the Coral Sea, the turning of the war on Guadalcanal, in the Atlantic and in three other theatres in 1942 and 1943, and the Allied offensives of 1944 in Burma, in Normandy and in Belorussia. They also record the war against civilians that began with the invasion of Poland, became genocide in the east and, in Singapore, brought the massacre of Chinese civilians.",
     arc: [
       {
         text: "In September 1939 Germany invaded Poland from three sides and the Soviet Union from the east; Poland was defeated within weeks and partitioned, and German forces shot Polish civilians, clergy, intellectuals and Jews from the first weeks. In May 1940 an armoured thrust through the Ardennes broke the French front at Sedan and reached the Channel, cutting the Allied armies in two; the British escaped from Dunkirk, and France signed an armistice in June. Over southern England in the summer and autumn of 1940, RAF Fighter Command, directed by its air defence system, denied the Luftwaffe the air superiority needed for an invasion.",
@@ -274,14 +274,22 @@ export const collections: Collection[] = [
         studies: ["midway", "el-alamein", "stalingrad"],
       },
       {
+        text: "On Guadalcanal, from August 1942 to February 1943, American forces held the island's airfield through a series of land, sea and air battles until the Japanese evacuated it; with Midway it marked the turning point of the Pacific War. In the Atlantic, the longest campaign of the war, the U-boat crisis peaked in March 1943; in May very-long-range aircraft, escort carriers, support groups, radar and direction-finding defeated the wolf packs, and Dönitz withdrew them from the North Atlantic.",
+        studies: ["guadalcanal", "battle-of-the-atlantic"],
+      },
+      {
         text: "Kursk, in July 1943, was the last major German offensive on the Eastern Front, and its failure was followed by major Soviet counteroffensives, at an immense human cost to both sides. In June 1944 the Allied landings in Normandy opened the second front that they considered essential to defeating Germany; the campaign opened the way to the liberation of France and the advance into Germany.",
         studies: ["kursk", "normandy"],
+      },
+      {
+        text: "In 1944 the Allies took the offensive on every front. At Imphal and Kohima a Japanese offensive into India failed against garrisons supplied by air, and the starving Japanese army was destroyed, opening the reconquest of Burma. In Belorussia, Operation Bagration, launched as the Western Allies fought in Normandy, used deception and deep breakthroughs to destroy Army Group Centre and carry the Red Army to the Vistula, where it halted while the Germans crushed the Warsaw Uprising.",
+        studies: ["imphal-kohima", "bagration"],
       },
     ],
     wars: ["ww2"],
     courseSlugs: ["industrial-world-wars"],
     inProgress:
-      "Guadalcanal, the Battle of the Atlantic, Imphal and Kohima, Bagration, Market Garden, Leyte Gulf, the Bulge, Iwo Jima, Okinawa and Berlin are planned for the next batches. This arc will be rewritten when they are added.",
+      "Market Garden, Leyte Gulf, the Bulge, Iwo Jima, Okinawa and Berlin are planned for the next batches. This arc will be rewritten when they are added.",
   },
 ];
 export const collectionBattles = (c: Collection, battles: Battle[]) =>

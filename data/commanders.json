@@ -3345,7 +3345,7 @@
     "strength": "Led the Don Front in the reduction of the encircled German forces at Stalingrad.",
     "limitation": "Operations near Warsaw in 1944 involved military constraints and Stalin's political calculations; explanations remain contested.",
     "legacy": "A survivor of Stalin's purges, he later held senior office in Soviet-dominated Poland, linking military reputation to disputed political authority.",
-    "battleSlugs": ["stalingrad", "kursk"],
+    "battleSlugs": ["stalingrad", "kursk", "bagration"],
     "source": {
       "title": "The Allied Responses to the Warsaw Uprising of 1944",
       "url": "https://www.nationalww2museum.org/war/articles/allied-responses-warsaw-uprising-1944",

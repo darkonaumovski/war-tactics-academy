@@ -695,8 +695,21 @@ export const warDetails: Record<string, WarDetails> = {
         "Battle of the Coral Sea turns back the invasion of Port Moresby",
       ],
       ["June 1942", "Battle of Midway"],
+      [
+        "August 1942 – February 1943",
+        "Guadalcanal campaign ends in Japanese evacuation",
+      ],
       ["November 1942–February 1943", "Stalingrad encirclement and surrender"],
+      [
+        "May 1943",
+        "U-boats withdrawn from the North Atlantic after heavy losses",
+      ],
+      ["March – July 1944", "Japanese offensive defeated at Imphal and Kohima"],
       ["June 1944", "Normandy landings"],
+      [
+        "22 June – 19 August 1944",
+        "Operation Bagration destroys Army Group Centre",
+      ],
       ["May 1945", "Germany surrenders"],
       ["August–September 1945", "Atomic bombings; Japan surrenders"],
     ),

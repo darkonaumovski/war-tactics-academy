@@ -652,6 +652,15 @@ export const warDetails: Record<string, WarDetails> = {
         "September 1918",
         "Allied breakthrough at Dobro Pole; Bulgaria signs an armistice",
       ],
+      [
+        "19 September 1918",
+        "Battle of Megiddo destroys the Ottoman armies in Palestine",
+      ],
+      [
+        "26 September 1918",
+        "American First Army opens the Meuse-Argonne offensive",
+      ],
+      ["30 October 1918", "Armistice of Mudros ends the Ottoman Empire's war"],
       ["By 1 November 1918", "All of pre-war Serbia is liberated"],
       ["11 November 1918", "Armistice"],
     ),

@@ -9,12 +9,12 @@ import {
 import { battles, wars, campaigns, eras } from "../../data/catalog";
 import { courses } from "../../data/learning";
 it("validates source-backed analyses and the commander corpus", () => {
-  expect(researchSchema.parse(research)).toHaveLength(107);
+  expect(researchSchema.parse(research)).toHaveLength(109);
   expect(commanderSchema.parse(commanders)).toHaveLength(60);
 });
-it("provides 107 unique engagement slugs and a connected hierarchy", () => {
-  expect(battles).toHaveLength(107);
-  expect(new Set(battles.map((b) => b.slug)).size).toBe(107);
+it("provides 109 unique engagement slugs and a connected hierarchy", () => {
+  expect(battles).toHaveLength(109);
+  expect(new Set(battles.map((b) => b.slug)).size).toBe(109);
   for (const b of battles) {
     expect(wars.some((w) => w.slug === b.warId)).toBe(true);
     expect(
@@ -68,6 +68,9 @@ it("orders engagements in the same year by date", () => {
     ["kajmakcalan", "monastir-1916"],
     ["operation-michael", "amiens-1918"],
     ["amiens-1918", "dobro-pole"],
+    ["dobro-pole", "megiddo-1918"],
+    ["megiddo-1918", "meuse-argonne"],
+    ["megiddo-1918", "liberation-of-serbia-1918"],
     ["dobro-pole", "liberation-of-serbia-1918"],
     ["midway", "el-alamein"],
   ])

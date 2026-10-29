@@ -142,11 +142,18 @@ export const collections: Collection[] = [
     summary:
       "Engagements of the First World War, from the opening campaigns of 1914 to the collapse of the Central Powers in 1918.",
     introduction:
-      "The collection covers the opening of the war in the west, from the Marne to the first gas attack at Ypres, the landings at Gallipoli, Tannenberg and Verdun, and the whole Serbian Front, which also has a collection of its own. Together they show a war of movement turning into trench warfare, new weapons that did not bring a breakthrough, and a secondary front that in 1918 forced Bulgaria out of the war.",
+      "The collection follows the war from the battles of movement of 1914, at Tannenberg, on the Marne and at Ypres, through the deadlock of 1915 to 1917: gas at Ypres, Gallipoli, Verdun, the Somme, Jutland, the Brusilov offensive, Caporetto, Passchendaele and Cambrai. It ends with the offensives of 1918, from Operation Michael and Amiens to Megiddo and the Meuse-Argonne, and includes the whole Serbian Front, which also has a collection of its own. Together they show a war of movement turning into trench warfare, armies learning at great cost to combine artillery, infantry, tanks and aircraft, and the fronts of the Central Powers giving way one after another in the autumn of 1918.",
     arc: [
       {
-        text: "In August 1914 the war opened with battles of movement on its eastern fronts. German forces encircled the Russian Second Army at Tannenberg but could not turn the victory into a strategic one. Serbia defeated the first Austro-Hungarian invasion on Cer and, after giving up Belgrade, drove the third out of the country on the Kolubara.",
-        studies: ["tannenberg", "cer", "kolubara"],
+        text: "In August 1914 the war opened with battles of movement on its eastern fronts. German forces encircled the Russian Second Army at Tannenberg but could not turn the victory into a strategic one. Serbia defeated the first Austro-Hungarian invasion on Cer; a Serbian crossing into Syrmia was aborted, an offensive with Montenegro toward Sarajevo was turned back, and a second invasion was held on the Drina. After giving up Belgrade, the Serbian army drove the third invasion out of the country on the Kolubara.",
+        studies: [
+          "tannenberg",
+          "cer",
+          "syrmia-1914",
+          "romanija-1914",
+          "drina-1914",
+          "kolubara",
+        ],
       },
       {
         text: "In the west, a French counter-stroke from Paris struck the open flank of the German right wing on the Marne in September 1914 and forced it back to the Aisne, ending German hopes of a quick victory. Each side then tried to turn the other's northern flank; at Ypres in October and November the Allies held a salient against repeated German attacks, and both sides settled into the trench warfare that marked the rest of the war on the Western Front.",
@@ -157,19 +164,25 @@ export const collections: Collection[] = [
         studies: ["second-ypres", "gallipoli"],
       },
       {
-        text: "In the autumn of 1915 the Central Powers, now joined by Bulgaria, attacked Serbia from the north and the east. The Serbian army escaped encirclement but was driven out of the country, and the Central Powers opened the Danube route and the railway to Constantinople. The army, the government and refugees crossed the winter mountains to the Adriatic and were evacuated to Corfu.",
-        studies: ["invasion-of-serbia-1915", "serbian-retreat-1915"],
+        text: "In the autumn of 1915 the Central Powers, now joined by Bulgaria, attacked Serbia from the north and the east and took Belgrade. The Serbian army escaped encirclement but was driven out of the country, and the Central Powers opened the Danube route and the railway to Constantinople. The army, the government and refugees crossed the winter mountains to the Adriatic and were evacuated to Corfu, while the Montenegrin army, which held at Mojkovac, covered the withdrawal.",
+        studies: [
+          "belgrade-1915",
+          "invasion-of-serbia-1915",
+          "mojkovac",
+          "serbian-retreat-1915",
+        ],
       },
       {
         text: "1916 was the year of attrition. Verdun became a prolonged battle around fortified ground and, in France, the national symbol of the war. On the Somme the British Army suffered its bloodiest day on 1 July and fought on into November without a breakthrough, while the German army suffered losses it could not afford; together the two battles created a German manpower crisis. At Jutland the only clash of the battle fleets cost the British more ships but left their command of the North Sea unchanged.",
         studies: ["verdun", "somme", "jutland"],
       },
       {
-        text: "In the east, Brusilov's attack on a broad front in June broke the Austro-Hungarian line and virtually ended the Habsburg military effort, until German reserves stopped it; Russian losses were also enormous. In Macedonia the rebuilt Serbian army took Kajmakčalan, and the Allies took Monastir, before that front fell quiet for nearly two years. In October 1917 an Austro-German offensive at Caporetto, using infiltration, broke the Italian front and drove the Italians back to the Piave, where they held.",
+        text: "In the east, Brusilov's attack on a broad front in June broke the Austro-Hungarian line and virtually ended the Habsburg military effort, until German reserves stopped it; Russian losses were also enormous. In Macedonia the rebuilt Serbian army took Kajmakčalan, and the Allies took Monastir, before that front fell quiet for nearly two years; in occupied Serbia the Toplica Uprising of 1917 was crushed with very heavy civilian losses. In October 1917 an Austro-German offensive at Caporetto, using infiltration, broke the Italian front and drove the Italians back to the Piave, where they held.",
         studies: [
           "brusilov-offensive",
           "kajmakcalan",
           "monastir-1916",
+          "toplica-uprising",
           "caporetto",
         ],
       },
@@ -185,11 +198,13 @@ export const collections: Collection[] = [
         text: "In September 1918 Serbian and French divisions broke the Bulgarian line at Dobro Pole, and within two weeks Bulgaria left the war. Serbian armies freed Serbia within five weeks, and on 1 December 1918 the Kingdom of Serbs, Croats and Slovenes was proclaimed in Belgrade.",
         studies: ["dobro-pole", "liberation-of-serbia-1918"],
       },
+      {
+        text: "In Palestine, also in September, Allenby led the Ottomans to expect an attack across the Jordan, broke in on the coast and sent his cavalry deep into their rear at Megiddo; the Ottoman armies there were destroyed, Damascus fell on 1 October and the Ottoman Empire signed an armistice at Mudros at the end of the month. On the Western Front the American First Army attacked between the Meuse and the Argonne on 26 September as part of Foch's general offensive; it ground forward through October, broke the German lines in November and reached the heights above Sedan before the armistice of 11 November.",
+        studies: ["megiddo-1918", "meuse-argonne"],
+      },
     ],
     wars: ["ww1"],
     courseSlugs: ["industrial-world-wars", "serbian-front"],
-    inProgress:
-      "Megiddo and the Meuse-Argonne are planned for the next batch. This arc will be rewritten when they are added.",
   },
   {
     slug: "serbian-front",

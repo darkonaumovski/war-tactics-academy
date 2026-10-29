@@ -16,9 +16,9 @@ The guiding principle is to explain what commanders knew, what they decided and 
 
 ### Historical catalog
 
-- **107 engagements** across seven eras, classified as battles, sieges, operations or campaigns, with approximate locations. Operation Overlord (Normandy) is the first operation record.
-- **107 detailed studies**, one for every engagement in the catalog, each with 14 analysis sections and an interactive replay of four or more phases. 1,495 of the 1,498 sections show which listed sources they draw on, with book and chapter locators for classical texts and chronicles and section names for handbooks.
-- **222 command perspectives** across every engagement except Marathon. Each covers objective, available information, uncertainty, constraints, forces, terrain, logistics, decisions and retrospective interpretation, clearly presented as reconstructed reasoning rather than quotations.
+- **109 engagements** across seven eras, classified as battles, sieges, operations or campaigns, with approximate locations. Operation Overlord (Normandy) is the first operation record.
+- **109 detailed studies**, one for every engagement in the catalog, each with 14 analysis sections and an interactive replay of four or more phases. 1,523 of the 1,526 sections show which listed sources they draw on, with book and chapter locators for classical texts and chronicles and section names for handbooks.
+- **228 command perspectives** across every engagement except Marathon. Each covers objective, available information, uncertainty, constraints, forces, terrain, logistics, decisions and retrospective interpretation, clearly presented as reconstructed reasoning rather than quotations.
 - **60 commander profiles**, each with a command role (ruler-commander, field, naval, staff planner, or coalition and theater commander), ranks and titles, principal commands, a dated chronology, a notable decision, defeats and reverses, linked engagements and further reading. Commanders with two or more linked engagements get a career strip (one dot per engagement on a year axis, with a band for each war) and a dated list of those engagements with their outcomes. The catalog filters by era and command role, and any two commanders can be compared side by side without numerical ratings.
 - **33 war pages** with principal participants, geographic scope, a chronology of key developments, key commanders and reading from linked studies and profiles; each links to its campaigns and engagements. Campaign pages draw a schematic map with the engagements numbered in date order (a locator map when a campaign has one engagement); the line joins them in that order and does not trace any army's movements.
 - **Six collections** (Alexander, Rome, Napoleon, the First World War, the Serbian Front and the Second World War), each with an introduction, a strategic arc that links the studies it summarises, a map of its engagements numbered in date order (joined by a line for Alexander and the Serbian Front), and a dated timeline. Membership follows wars and campaigns, so new studies join their collection automatically.
@@ -162,6 +162,7 @@ All releases are deployed to the live site.
 
 | Commit    | Change                                                                                                                                                                                                                               |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `866c057` | Detailed studies of Passchendaele, Cambrai, Operation Michael and Amiens (First World War batch W1-3); Haig and Foch linked where sources confirm their roles.                                                                       |
 | `9ceafaf` | Preview launch configuration (`.claude/launch.json`) for the local development server.                                                                                                                                               |
 | `da5e621` | Detailed studies of Jutland, the Somme, the Brusilov offensive and Caporetto (First World War batch W1-2); Haig, Foch, Gallwitz, Brusilov, Conrad, Otto von Below and Rommel linked where sources confirm their roles.               |
 | `f1f8c75` | Detailed studies of the First Battle of the Marne, the First and Second Battles of Ypres and the Gallipoli campaign (First World War batch W1-1); Foch, Haig, Falkenhayn and Mustafa Kemal linked where sources confirm their roles. |
@@ -211,7 +212,7 @@ All releases are deployed to the live site.
 ## Known limitations
 
 - The five learning paths are introductory editorial courses (one question per lesson), not reviewed university curricula.
-- The 107 battle analyses and 60 commander profiles need deeper scholarly review, fuller biographies and sentence-level citations before being treated as an academic reference work. Study sections are still brief.
+- The 109 battle analyses and 60 commander profiles need deeper scholarly review, fuller biographies and sentence-level citations before being treated as an academic reference work. Study sections are still brief.
 - War pages give orientation, not comprehensive operational histories, and have no dedicated bibliography. Campaign pages remain indexes.
 - Replay diagrams explain abstract relationships; they do not simulate combat or reconstruct exact formations. Atlas locations and Natural Earth coastlines are approximate modern context.
 - The media library is a small starting collection (nine records); the two videos cover only D-Day. Embeds and archive images depend on third-party availability.

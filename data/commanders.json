@@ -1992,7 +1992,8 @@
       "second-ypres",
       "somme",
       "operation-michael",
-      "amiens-1918"
+      "amiens-1918",
+      "meuse-argonne"
     ],
     "source": {
       "title": "Foch, Ferdinand — Elizabeth Greenhalgh",
@@ -2190,7 +2191,7 @@
     "strength": "At Gallipoli, rapidly committed forces to contest key terrain and later held wider sector command.",
     "limitation": "The Ottoman defeat in 1918 and the wider violence of state collapse frame his subsequent career.",
     "legacy": "Founder of the Turkish republic, he became a major national figure; battlefield accounts should be separated from later commemorative traditions.",
-    "battleSlugs": ["gallipoli"],
+    "battleSlugs": ["gallipoli", "megiddo-1918"],
     "source": {
       "title": "Atatürk (Mustafa Kemal)",
       "url": "https://www.awm.gov.au/articles/encyclopedia/ataturk",

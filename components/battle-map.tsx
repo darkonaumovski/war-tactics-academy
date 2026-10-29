@@ -44,9 +44,15 @@ export function BattleMap({ battle }: { battle: Battle }) {
   const current = phases[phase];
   if (!current) return null;
   // Sea battles draw ship markers instead of land units.
-  const naval = ["actium", "tsushima", "jutland", "midway"].includes(
-    battle.slug,
-  );
+  const naval = [
+    "actium",
+    "tsushima",
+    "jutland",
+    "battle-of-the-atlantic",
+    "coral-sea",
+    "midway",
+    "leyte-gulf",
+  ].includes(battle.slug);
   const advance = phase * 30;
   return (
     <section className="replay" aria-label="Interactive battle timeline">

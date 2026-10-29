@@ -4531,5 +4531,1077 @@
         "outcome": "His army group was encircled and destroyed, and he was replaced by Model on 28 June."
       }
     ]
+  },
+  {
+    "slug": "market-garden",
+    "sources": [
+      {
+        "title": "Operation Market Garden",
+        "url": "https://www.nam.ac.uk/explore/market-garden",
+        "publisher": "National Army Museum, London"
+      },
+      {
+        "title": "Operation Market Garden (Raymond K. Bluhm)",
+        "url": "https://www.britannica.com/event/Operation-Market-Garden",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Battle of Arnhem",
+        "url": "https://www.iwm.org.uk/history/second-world-war/north-west-europe/arnhem",
+        "publisher": "Imperial War Museums"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After the Normandy landings and the pursuit of the German armies across France and Belgium in the summer of 1944, the Allies sought the fastest way to win the war in Europe. Field Marshal Bernard Montgomery believed that one bold stroke could shorten the war.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Montgomery persuaded the Supreme Allied Commander, General Dwight D. Eisenhower, to approve a combined airborne and armoured assault through the Netherlands and to divert supplies, especially scarce fuel, to support it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Three airborne divisions, the US 101st and 82nd and the British 1st, were to seize the bridges along a single road through Eindhoven, Nijmegen and Arnhem (Operation Market), while XXX Corps advanced along it to cross the Rhine (Operation Garden). Success would outflank the Siegfried Line, liberate the Netherlands and open the way to the Ruhr.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The bridge at Arnhem, the farthest objective, lay about 100 kilometres from XXX Corps' start line. XXX Corps had to advance along a single narrow causeway, vulnerable to traffic jams and counter-attack, with marshes preventing movement off the road in places. Around Arnhem the wooded ground cut the range of the airborne radios.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The First Allied Airborne Army's three divisions, joined at Arnhem by the 1st Independent Polish Parachute Brigade, were lightly armed, with few heavy weapons against tanks. Major-General Roy Urquhart commanded the British 1st Airborne Division. Opposing them was Field Marshal Walter Model's Army Group B; intelligence had indicated that the area was lightly defended, but elements of two SS armoured divisions were present.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "There were too few transport aircraft to fly all the airborne troops in at once, so they were landed in three lifts, one a day. The British landing zones were about 10 kilometres west of the Arnhem bridge.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 17 September the airborne divisions landed. The 101st took most of its bridges near Eindhoven within hours, and the 82nd landed near Nijmegen. At Arnhem only the 2nd Battalion of the 1st Parachute Brigade reached the bridge and held its north end; the other battalions fought into Arnhem with heavy losses but never reached it, and the rest of the division was pressed into a pocket at Oosterbeek. XXX Corps, delayed by German defenders and blown bridges, linked up with the 82nd, and the Nijmegen bridge was taken, but the tanks did not move on for 18 hours. The battalion at the Arnhem bridge was overrun. The Polish brigade landed late and could not help, fog and low cloud hampered resupply, and German counter-attacks cut the corridor. On the night of 24–25 September the survivors of the 1st Airborne Division were ferried back across the Rhine.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Eisenhower's decision to back Montgomery's plan concentrated scarce resources on a single narrow thrust. The planners accepted landing zones far from the Arnhem bridge, a lift spread over three days and an intelligence picture of a lightly defended area. Model reacted quickly, calling for reinforcements and air support and blowing bridges along the road.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The failure to take the Arnhem bridge in strength on the first day, and XXX Corps' delays on the single road, especially at Nijmegen, decided the operation: XXX Corps could not reach Arnhem before German forces overwhelmed the British defenders.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The operation failed. All the bridges except Arnhem were captured, but most of the 1st Airborne Division was killed or captured, and the IWM records that only about a fifth of the men who dropped at Arnhem made it back.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The Rhine crossing and the capture of the Ruhr were delayed by six months, and the Allies had to fight into Germany on a broad front. The operation did liberate a large part of the Netherlands, at a time when many Dutch people were close to starvation.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A plan that depends on everything going right along a single road has no margin for delay. Intelligence that contradicts a plan's optimistic assumptions must be weighed rather than discounted. Airborne troops can seize objectives but cannot hold them for long against armour without relief.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Britannica calls the operation a failure of military intelligence redeemed to some extent by the heroism of the soldiers; the National Army Museum calls it a costly failure but a remarkable feat of arms, and the IWM one of the most controversial episodes of the war. The sources give different dates for the end of the operation, 25 or 27 September, and different loss figures.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The National Army Museum gives the plan, the problems of landing zones, radios, weather and intelligence, and the outcome. Raymond K. Bluhm's Britannica article gives Montgomery's persuasion of Eisenhower, the course of the battle at each bridge and Model's response. The Imperial War Museums give Montgomery's aims and the fate of the airborne troops at Arnhem.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Landings",
+        "time": "17 September 1944",
+        "description": "The airborne divisions land; one battalion reaches the Arnhem bridge; XXX Corps advances from the start line."
+      },
+      {
+        "title": "The corridor",
+        "time": "18–20 September 1944",
+        "description": "XXX Corps links up with the 101st and 82nd; the Nijmegen bridge is taken but the advance stalls."
+      },
+      {
+        "title": "Arnhem and Oosterbeek",
+        "time": "21–24 September 1944",
+        "description": "The battalion at the bridge is overrun; the Oosterbeek pocket holds against heavy attacks; the Polish brigade lands too late."
+      },
+      {
+        "title": "Withdrawal",
+        "time": "24–25 September 1944",
+        "description": "The survivors of the 1st Airborne Division are ferried back across the Rhine."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Bernard Montgomery",
+        "objective": "Cross the Rhine at Arnhem and shorten the war with one bold stroke.",
+        "known": "The German armies had been driven out of France and Belgium.",
+        "uncertainty": "How strong German forces near Arnhem were.",
+        "constraints": "Scarce fuel and supplies, too few transport aircraft and a single road.",
+        "decision": "He persuaded Eisenhower to approve the airborne and armoured thrust and to divert supplies to it.",
+        "forces": "Three airborne divisions and XXX Corps.",
+        "terrain": "A narrow causeway across marshy country to the Rhine.",
+        "logistics": "Supplies diverted from other Allied armies.",
+        "outcome": "All bridges but Arnhem were taken; the airborne division at Arnhem was largely destroyed."
+      },
+      {
+        "name": "Roy Urquhart",
+        "objective": "Take and hold the Arnhem bridge until XXX Corps arrived.",
+        "known": "Relief was expected within two days.",
+        "uncertainty": "Where the German armour was.",
+        "constraints": "Landing zones far from the bridge, radios that failed in the woods and few anti-tank weapons.",
+        "decision": "He sent his parachute battalions toward the bridge and, when they were stopped, held a perimeter at Oosterbeek.",
+        "forces": "The British 1st Airborne Division and the Polish brigade.",
+        "terrain": "Woods and suburbs west of Arnhem.",
+        "logistics": "Resupply drops hampered by weather.",
+        "outcome": "His survivors were evacuated across the Rhine on 24–25 September."
+      },
+      {
+        "name": "Walter Model",
+        "objective": "Stop the Allied thrust before it crossed the Rhine.",
+        "known": "Allied airborne troops had landed along the road to Arnhem.",
+        "uncertainty": "How far XXX Corps could advance.",
+        "constraints": "Forces surprised by the landings.",
+        "decision": "He called for reinforcements and air support, blew bridges and attacked the airborne pockets and the corridor.",
+        "forces": "Army Group B with SS armoured units near Arnhem.",
+        "terrain": "The bridges and the single road.",
+        "logistics": "Reinforcements brought in by priority.",
+        "outcome": "The Allied advance was stopped short of Arnhem."
+      }
+    ]
+  },
+  {
+    "slug": "leyte-gulf",
+    "sources": [
+      {
+        "title": "Battle of Leyte Gulf",
+        "url": "https://www.britannica.com/event/Battle-of-Leyte-Gulf",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "The Battle of Leyte Gulf",
+        "url": "https://www.nationalww2museum.org/war/articles/battle-leyte-gulf",
+        "publisher": "The National WWII Museum"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "By the autumn of 1944 the Japanese had been driven from many outposts in the south-west and central Pacific, and American and British naval power had grown enormously. The Allied offensive of 1944 was to culminate in an invasion of the Philippines.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The invasion aimed to cut Japan's supply lines to the East Indies and win bases for further operations. King, Nimitz and Marshall had favoured other routes, but General Douglas MacArthur, determined to return to the Philippines, prevailed. The assault on Leyte joined the central Pacific advance under Admiral Chester Nimitz and the south-west Pacific advance under MacArthur.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The Japanese responded with Sho-Go, the Victory Operation: a decoy force of carriers would draw Admiral William Halsey's Third Fleet north, while three surface forces converged on Leyte Gulf to destroy the landing. The Americans aimed to protect the landing and, in Halsey's orders, to destroy the major part of the Japanese fleet if the chance arose.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Leyte, in the central Philippines, had an undefended approach from the east and good anchorages. The Japanese central force had to pass through the Sibuyan Sea and the San Bernardino Strait north of Samar; the southern forces through the Surigao Strait. The battle was fought in several widely separated engagements.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "MacArthur had overall command of the Leyte operation; Vice Admiral Thomas Kinkaid's Seventh Fleet, his principal naval force, supported the landings, while Halsey's Third Fleet, with the fast carriers and battleships, reported to Nimitz. No single commander controlled both fleets. On the Japanese side Vice Admiral Kurita Takeo led the central force with the battleships Yamato and Musashi, Vice Admirals Nishimura Shōji and Shima Kiyohide the southern forces, and Vice Admiral Ozawa Jisaburō the decoy carriers, which had few aircraft.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "On 20 October American troops landed on the east coast of Leyte almost unopposed, and MacArthur waded ashore. The Japanese had chosen to defend farther inland. Their fleet was already moving under Sho-Go.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 23 October American submarines found Kurita's force off Palawan and sank two heavy cruisers, including his flagship. On 24 October Third Fleet aircraft sank the battleship Musashi in the Sibuyan Sea, while a Japanese bomb set the light carrier Princeton ablaze; Kurita turned west, then resumed his course. That night Nishimura's force was annihilated in the Surigao Strait by the battleships and cruisers of the Seventh Fleet and an Australian task force, and Shima turned back. Halsey, sighting Ozawa's carriers, took the whole Third Fleet north. At dawn on 25 October Kurita's battleships came out of the San Bernardino Strait off Samar and met Taffy 3, a group of escort carriers, destroyers and destroyer escorts, which fought back so fiercely, with aircraft from other task groups, that Kurita broke off and withdrew. Off Cape Engaño Halsey's aircraft sank all four of Ozawa's carriers. On 25 October the first kamikaze attack sank an escort carrier.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Halsey's decision to take the whole Third Fleet north after Ozawa's decoy, without leaving a force to guard the San Bernardino Strait, left the landing area exposed; Nimitz's signal asking where Task Force 34 was, with its padding misread as a rebuke, finally turned him back. Kurita's decision to withdraw off Samar, when he was close to the transports, saved the Seventh Fleet. Ozawa accepted that his force was meant to be sacrificed.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The destruction of the southern force at Surigao Strait, the resistance of Taffy 3 off Samar and Kurita's withdrawal decided the battle: Sho-Go failed to reach the landing area.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Sho-Go failed to disrupt the Leyte landings and cost Japan most of what remained of its fleet, including four carriers and the battleship Musashi. The National WWII Museum calls the result a decisive American victory that ended the Japanese navy as a strategic force; Britannica writes that it crippled the Combined Fleet and reinforced Allied control of the Pacific.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "MacArthur's campaign went on to Luzon and Manila, and the way opened to Okinawa. Organised kamikaze attacks, first met off Samar, killed thousands of Allied personnel in the remaining months of the war.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Divided command over forces fighting the same battle invites failure; at Leyte the lack of a single commander over Halsey and Kinkaid nearly cost the landing. Ambiguous orders and signals shape decisions as much as the enemy does. A fleet without air cover is helpless, as Samuel Eliot Morison concluded from the battle.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Halsey's decision has been debated from the moment it was made; the National WWII Museum lists his ambiguous orders, his wish to sink carriers, his belief that Kurita was retreating and poor intelligence on Japanese air losses. Kurita's reasons for withdrawing are also disputed: he may have taken the escort carriers for fleet carriers, could not know that the decoy had worked, and later said he feared air attack in the gulf; some officers called him a coward.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica gives the strategic setting, the landings, Sho-Go and each engagement in detail, with Nimitz's signal and its aftermath. The National WWII Museum gives the command arrangements, the Japanese plan, the course of the battle and the debates over Halsey's and Kurita's decisions.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Landing and approach",
+        "time": "20–23 October 1944",
+        "description": "American troops land on Leyte; submarines find Kurita's force off Palawan and sink his flagship."
+      },
+      {
+        "title": "Sibuyan Sea",
+        "time": "24 October 1944",
+        "description": "Carrier aircraft sink Musashi; Princeton is set ablaze; Halsey turns north after Ozawa's carriers."
+      },
+      {
+        "title": "Surigao Strait",
+        "time": "Night of 24–25 October 1944",
+        "description": "Nishimura's force is annihilated by the Seventh Fleet's battle line; Shima turns back."
+      },
+      {
+        "title": "Samar and Cape Engaño",
+        "time": "25–26 October 1944",
+        "description": "Taffy 3 fights off Kurita, who withdraws; Halsey's aircraft sink Ozawa's carriers; the first kamikaze attack."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Douglas MacArthur",
+        "objective": "Return to the Philippines and secure Leyte.",
+        "known": "Air strikes had shown Japanese defences in the central Philippines to be weak.",
+        "uncertainty": "How the Japanese fleet would respond.",
+        "constraints": "His naval support divided between Kinkaid's Seventh Fleet and Halsey's Third Fleet, which he did not command.",
+        "decision": "He landed on Leyte on 20 October with the Sixth Army, supported by Kinkaid's fleet.",
+        "forces": "The Sixth Army and the Seventh Fleet.",
+        "terrain": "The east coast of Leyte and its anchorages.",
+        "logistics": "Transports and supply ships in Leyte Gulf.",
+        "outcome": "The landing held, and his campaign went on to Luzon and Manila."
+      },
+      {
+        "name": "Chester W. Nimitz",
+        "objective": "Support MacArthur's landing with the Pacific Fleet and destroy the Japanese fleet.",
+        "known": "The Japanese fleet was moving toward the Philippines.",
+        "uncertainty": "Whether Halsey had left a force to guard the San Bernardino Strait.",
+        "constraints": "Command of Halsey but not of Kinkaid; no single commander over both fleets.",
+        "decision": "He asked Halsey where Task Force 34 was, a message whose padding was read as a rebuke.",
+        "forces": "Halsey's Third Fleet.",
+        "terrain": "The waters around Leyte and Samar.",
+        "logistics": "The fleet's fast carriers and battleships.",
+        "outcome": "The Japanese fleet was crippled, but the landing area was briefly exposed."
+      },
+      {
+        "name": "Kurita Takeo",
+        "objective": "Break through to Leyte Gulf and destroy the landing force.",
+        "known": "He had lost his flagship and Musashi, and enemy carriers were off Samar.",
+        "uncertainty": "Whether the decoy had drawn Halsey away and what force he was fighting.",
+        "constraints": "No air reconnaissance of his own.",
+        "decision": "After fighting Taffy 3 off Samar, he broke off and withdrew before reaching the transports.",
+        "forces": "The central force, with the battleships Yamato and Musashi.",
+        "terrain": "The San Bernardino Strait and the waters off Samar.",
+        "logistics": "A long approach under air and submarine attack.",
+        "outcome": "The landing was saved, and his force retreated."
+      }
+    ]
+  },
+  {
+    "slug": "battle-of-the-bulge",
+    "sources": [
+      {
+        "title": "Battle of the Bulge",
+        "url": "https://www.britannica.com/event/Battle-of-the-Bulge",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "The Battle of the Bulge",
+        "url": "https://www.nationalww2museum.org/war/articles/battle-of-the-bulge",
+        "publisher": "The National WWII Museum"
+      },
+      {
+        "title": "What You Need To Know About The Battle Of The Bulge",
+        "url": "https://www.iwm.org.uk/history/second-world-war/north-west-europe/what-you-need-to-know-about-the-battle-of-the-bulge",
+        "publisher": "Imperial War Museums"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After the breakout from Normandy the Allies crossed France into Belgium, but their advance lost momentum in the autumn of 1944, apart from the failed thrust to Arnhem. Some Allied leaders predicted that the war would end by Christmas, while the German defence was strengthened with reserves and new forces.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Hitler saw a last chance in the west. He hoped a decisive blow would split the Western Allies and lead to a negotiated peace that would let him concentrate on the Eastern Front.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The German offensive was to break through the American front in the Ardennes, cross the Meuse and drive to Antwerp, cutting off the British army group from the Americans and from its supplies. The Fifth Panzer Army was to wheel north-west past Namur to Antwerp, and the Sixth Panzer Army to thrust past Liège.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The Ardennes in Belgium and Luxembourg is hilly and wooded country, regarded as difficult for a large offensive. The woods concealed the German concentration, but deep valleys turned the through roads into bottlenecks, which made road junctions such as St Vith and Bastogne vital. Winter weather at first grounded Allied aircraft.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Field Marshal Gerd von Rundstedt had overall command of the offensive; the Fifth Panzer Army was led by Hasso von Manteuffel and the Sixth Panzer Army by Sepp Dietrich. General Dwight D. Eisenhower, the Supreme Allied Commander, held a front of nearly 1,000 kilometres; in the Ardennes the Allied troops were mainly American, some new and inexperienced, others exhausted.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The Germans massed their forces in secret, moving at night and under radio silence, and timed the attack for weather that would keep Allied aircraft on the ground.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The offensive began before dawn on 16 December 1944 and achieved complete surprise, pushing a bulge into the American line. Small American units delayed the spearhead, and on 17 December soldiers of Kampfgruppe Peiper murdered American prisoners near Malmedy. The defenders of St Vith held the crossroads for nearly a week, and Bastogne, surrounded, was held by the 101st Airborne Division; on 22 December its commander, Anthony McAuliffe, answered a demand for surrender with “NUTS!”. By 24 December the Fifth Panzer Army was within about 6 kilometres of the Meuse, but fuel shortages and growing air attacks stopped it. Patton's Third Army relieved Bastogne on 26 December. The weather cleared and Allied air attacks resumed; on 1 January the Luftwaffe struck Allied airfields but suffered losses it could not recover from. The First Army counter-attacked on 3 January, and by the end of January the Allies had regained their former positions.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Montgomery, who took charge on the northern flank, swung his reserves south to forestall the Germans at the Meuse crossings, and Patton's Third Army broke through to relieve Bastogne. The quick arrival of Allied reinforcements and the decision to hold the road junctions at St Vith and Bastogne, even when surrounded, slowed the German advance. The Germans then carried out a skilful withdrawal from the potential trap.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The stands at St Vith, Bastogne and on the northern shoulder denied the Germans the roads they needed, and by the end of December, short of fuel and under renewed air attack, their advance had ground to a halt.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Allied line bulged but did not break. Germany lost men and material it could not replace, and Britannica judges that while the offensive upset Allied preparations, it forfeited any chance of prolonged German resistance. Churchill called it undoubtedly the greatest American battle of the war, and it was one of the bloodiest.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Germany had drained its last reserves of manpower and material in the west. The Allies resumed their advance and in early spring crossed into the heart of Germany. The murder of American prisoners near Malmedy was one of the most brutal war crimes against American troops in Europe.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Complacency and confidence that the enemy is beaten invite surprise. Holding road junctions in difficult country can stop an offensive that depends on speed and captured fuel. Rapid regrouping of reserves and decisive commanders turned a crisis into a defeat for the attacker.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The sources date the end of the battle to 16 January (Britannica) or 25 January 1945 (the National WWII Museum, the IWM). Britannica credits Montgomery's swing of reserves to the Meuse with frustrating the German advance; the brief's controversy over his press conference is not discussed in the sources read. Britannica judges the offensive profitable in its own terms but fatal in relation to the whole war.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica gives the German plan, the commanders, the course of the battle and its assessment. The National WWII Museum gives Hitler's aims, the German preparations, the delaying actions, the Malmedy massacre and the defence of St Vith and Bastogne. The IWM gives the surprise, the role of the road junctions, the weather and fuel, and the outcome.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Surprise attack",
+        "time": "16–19 December 1944",
+        "description": "The Germans break into the American line; the Malmedy massacre; delays on the northern shoulder."
+      },
+      {
+        "title": "St Vith and Bastogne",
+        "time": "20–25 December 1944",
+        "description": "St Vith holds for nearly a week; Bastogne is surrounded; the spearhead stops short of the Meuse."
+      },
+      {
+        "title": "Relief of Bastogne",
+        "time": "26 December 1944 – 2 January 1945",
+        "description": "Patton's Third Army breaks through to Bastogne; the weather clears and air attacks resume."
+      },
+      {
+        "title": "Counter-offensive",
+        "time": "3–25 January 1945",
+        "description": "The Allies counter-attack, the Germans withdraw, and the bulge is closed."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Dwight D. Eisenhower",
+        "objective": "Contain the German offensive and restore the Allied front.",
+        "known": "The Germans had broken through in the Ardennes.",
+        "uncertainty": "How far the German armour would get.",
+        "constraints": "A long front, a thinly held Ardennes sector and bad weather grounding aircraft.",
+        "decision": "He brought reinforcements quickly to the Ardennes, with Montgomery taking charge of the northern flank.",
+        "forces": "The Allied armies on the Western Front.",
+        "terrain": "The Ardennes and the Meuse crossings.",
+        "logistics": "Reinforcements moved rapidly from other sectors.",
+        "outcome": "The bulge was contained and closed by the end of January."
+      },
+      {
+        "name": "George S. Patton",
+        "objective": "Relieve the surrounded garrison of Bastogne.",
+        "known": "Bastogne was surrounded and its road junction vital.",
+        "uncertainty": "How strongly the Germans would hold the southern flank.",
+        "constraints": "Winter weather and the need to turn an army quickly.",
+        "decision": "He sent the Third Army to break through to Bastogne from the south.",
+        "forces": "The US Third Army.",
+        "terrain": "Snow-covered roads south of Bastogne.",
+        "logistics": "Winter roads and German resistance south of Bastogne.",
+        "outcome": "Bastogne was relieved on 26 December."
+      },
+      {
+        "name": "Bernard Montgomery",
+        "objective": "Stop the Germans reaching the Meuse on the northern flank.",
+        "known": "The German spearheads were heading for the river crossings.",
+        "uncertainty": "Where the Germans would try to cross.",
+        "constraints": "Command of a confused northern flank in a crisis.",
+        "decision": "He took charge of the northern flank and swung his reserves south to forestall the Germans at the Meuse crossings.",
+        "forces": "British and American troops on the northern flank.",
+        "terrain": "The Meuse and its crossings.",
+        "logistics": "Reserves moved south to the river.",
+        "outcome": "The Germans did not cross the Meuse."
+      }
+    ]
+  },
+  {
+    "slug": "iwo-jima",
+    "sources": [
+      {
+        "title": "Battle of Iwo Jima (Myles Hudson)",
+        "url": "https://www.britannica.com/event/Battle-of-Iwo-Jima",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Iwo Jima and Okinawa: Death at Japan’s Doorstep",
+        "url": "https://www.nationalww2museum.org/war/articles/iwo-jima-and-okinawa-death-japans-doorstep",
+        "publisher": "The National WWII Museum"
+      },
+      {
+        "title": "75th Anniversary of the Battle of Iwo Jima (Keith Huxen)",
+        "url": "https://www.nationalww2museum.org/war/articles/75th-anniversary-battle-iwo-jima",
+        "publisher": "The National WWII Museum"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "The American counteroffensive in the Pacific was divided between MacArthur, advancing through New Guinea to the Philippines, and Admiral Chester Nimitz, advancing across the central Pacific. By October 1944 MacArthur had landed in the Philippines and Nimitz had taken the Mariana Islands, from which B-29 bombers could strike Japan.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "General Henry Arnold of the Army Air Forces wanted Iwo Jima, halfway between the Marianas and Tokyo, as a base for fighters to escort the bombers. Nimitz, on his admirals' advice, proposed taking Iwo Jima and Okinawa rather than Formosa, and the Joint Chiefs approved. The island was part of the Tokyo prefecture, Japanese home soil.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Operation Detachment aimed to take the island and its airfields. The Japanese aimed to inflict such heavy losses that the Americans might be deterred from invading the home islands.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Iwo Jima is a small volcanic island, about 8 kilometres long, about 1,220 kilometres from Tokyo, dotted with caves and covered with volcanic sand and ash. Mount Suribachi, at its south-western tip, overlooks most of the island; two airfields lay in the middle and a third, unfinished, to the north. The landing beaches were backed by steep terraces of volcanic ash.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Lieutenant General Kuribayashi Tadamichi, sent in May 1944 to organise the defence, had his garrison build a network of tunnels and hundreds of pillboxes, blockhouses and gun positions. Rather than defend the beaches heavily, he kept his men underground until the Americans had advanced inland, and ordered them not to make banzai charges. Nimitz formed a joint expeditionary force; Major General Harry Schmidt led the Marine landing force of three Marine divisions. US intelligence underestimated the garrison.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The Marines' commander asked for ten days of naval bombardment but was given three because of the schedule for Okinawa; poor weather and the buried defences meant it did little damage. The Marines were to land on the south-eastern beaches, cut across the island to isolate Suribachi and drive north past the airfields.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "At about 9 a.m. on 19 February 1945 the Marines landed. The ash terraces slowed them and the beaches became congested under Japanese fire, but by evening Suribachi was cut off. On 21 February kamikaze aircraft damaged several American ships. Marines took Suribachi on 23 February and twice raised a flag on its summit; Joe Rosenthal's photograph of the second raising became one of the war's most famous images. The Marines then fought north yard by yard, taking the airfields and fighting for weeks at places they called the Meat Grinder and the Amphitheater, using flamethrowers against caves and bunkers. On 8 March a Japanese naval officer led a banzai attack against Kuribayashi's orders. The island was declared secure on 16 March, but the last major engagement was a night attack on 26 March.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Kuribayashi's decision to give up the beaches and fight from tunnels and caves, and to forbid banzai charges, made the Marines pay for every position. On the American side, the decision to shorten the bombardment to keep to the Okinawa schedule, and an underestimate of the garrison, made the landing costlier.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The capture of Suribachi on 23 February and the breakthrough of the central Japanese line at the end of February decided the battle, but the defenders fought on in the north for weeks.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The United States took Iwo Jima at a cost among the heaviest in the history of the Marine Corps. Almost the entire Japanese garrison was killed; only a few hundred were taken prisoner, and Kuribayashi himself did not surrender. Twenty-seven Medals of Honor were awarded, fourteen of them posthumously.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The island's airfields were used for the rest of the war, and B-29s landed there. The National WWII Museum notes that the bloodbath horrified Allied planners and the public, who feared an even greater slaughter in an invasion of Japan. The flag-raising photograph became a symbol, reproduced on posters and a stamp and in the Marine Corps War Memorial.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A defence in depth, dug in against overwhelming firepower, can make the cost of an objective very high even when defeat is certain. An objective's value must be weighed against that cost before the attack, not justified afterwards.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Whether the island was worth its cost is debated. Britannica cites the historian Robert Burrell's finding that the fighter escort missions that were the main reason for the invasion were few, that most B-29 landings were not strictly emergencies, and that the Joint Chiefs did not consider the Marines' doubts. The sources date the end of the battle to 16 or 26 March. The National WWII Museum describes the long confusion over whether the flag-raising photograph was staged.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Myles Hudson's Britannica article gives the strategic background, Kuribayashi's defence, the course of the battle and the debate over its cost. The National WWII Museum's article on Iwo Jima and Okinawa gives the defence and the fighting, and Keith Huxen's 75th-anniversary article gives the flag-raising and its legacy.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Bombardment",
+        "time": "16–18 February 1945",
+        "description": "Three days of naval bombardment in poor weather do little against the buried defences."
+      },
+      {
+        "title": "Landing and Suribachi",
+        "time": "19–23 February 1945",
+        "description": "The Marines land on the south-eastern beaches, cut off Suribachi and take it on 23 February."
+      },
+      {
+        "title": "The airfields and the Meat Grinder",
+        "time": "24 February – 10 March 1945",
+        "description": "The Marines advance north yard by yard, taking the airfields and clearing caves and bunkers."
+      },
+      {
+        "title": "Last pockets",
+        "time": "11–26 March 1945",
+        "description": "The island is declared secure on 16 March; the last Japanese attack comes on 26 March."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Kuribayashi Tadamichi",
+        "objective": "Make the Americans pay so heavily that they might be deterred from invading Japan.",
+        "known": "He could not defeat an American landing.",
+        "uncertainty": "How long his garrison could hold out.",
+        "constraints": "A small island, a garrison of draftees and no hope of relief.",
+        "decision": "He gave up beach defence, dug his men into tunnels and caves and forbade banzai charges.",
+        "forces": "The Japanese garrison of Iwo Jima.",
+        "terrain": "Volcanic rock, caves and Mount Suribachi.",
+        "logistics": "Supplies stored underground before the landing.",
+        "outcome": "His garrison was almost entirely killed after more than five weeks of fighting."
+      },
+      {
+        "name": "Chester W. Nimitz",
+        "objective": "Take Iwo Jima as an air base on the route to Japan.",
+        "known": "Intelligence reported a smaller garrison than there was.",
+        "uncertainty": "How strong the island's defences were.",
+        "constraints": "A tight schedule ahead of the Okinawa invasion.",
+        "decision": "He proposed the invasion and formed a joint expeditionary force, allowing three days of bombardment.",
+        "forces": "Naval forces and three Marine divisions.",
+        "terrain": "A small fortified volcanic island.",
+        "logistics": "A long sea line of supply from the Marianas.",
+        "outcome": "The island was taken at a cost among the heaviest in Marine Corps history."
+      }
+    ]
   }
 ]

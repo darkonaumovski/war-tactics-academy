@@ -3416,7 +3416,7 @@
     "strength": "Managed competing national priorities and accepted responsibility for the decision to launch D-Day.",
     "limitation": "Strategic choices were constrained by ports, transport and disagreements among senior commanders.",
     "legacy": "His contribution illustrates theater command and alliance management rather than personal control of every battlefield action.",
-    "battleSlugs": ["normandy"],
+    "battleSlugs": ["normandy", "market-garden", "battle-of-the-bulge"],
     "source": {
       "title": "General Eisenhower and D-Day",
       "url": "https://www.nps.gov/eise/learn/historyculture/d-day.htm",
@@ -3482,7 +3482,12 @@
     "strength": "Helped rebuild confidence and organize the offensive at Second El Alamein.",
     "limitation": "Operation Market Garden failed to achieve its objectives; interpersonal disputes strained coalition relations.",
     "legacy": "His record joins successful set-piece operations with contested judgments about speed, opportunity and the claims made for his own role.",
-    "battleSlugs": ["el-alamein", "normandy"],
+    "battleSlugs": [
+      "el-alamein",
+      "normandy",
+      "market-garden",
+      "battle-of-the-bulge"
+    ],
     "source": {
       "title": "Bernard Law Montgomery: Unbeatable and unbearable",
       "url": "https://www.nam.ac.uk/explore/bernard-montgomery",
@@ -3546,7 +3551,7 @@
     "strength": "Helped convert the Normandy breakout into a rapid advance across France.",
     "limitation": "Supply limits constrained pursuit; abusive conduct toward soldiers and inflammatory statements damaged his standing.",
     "legacy": "His operational achievements should be evaluated alongside disciplinary failures and the combined efforts of staffs, supporting arms and soldiers.",
-    "battleSlugs": ["normandy"],
+    "battleSlugs": ["normandy", "battle-of-the-bulge"],
     "source": {
       "title": "General George S. Patton",
       "url": "https://www.nationalww2museum.org/war/articles/general-george-s-patton-world-war-ii",
@@ -3669,7 +3674,7 @@
     "strength": "At Midway, concentrated limited carrier forces using advance intelligence about Japanese intentions.",
     "limitation": "Intelligence remained incomplete; amphibious advances carried severe costs and depended on industrial and logistical resources.",
     "legacy": "His career illustrates command through institutions, staffs and trusted subordinates rather than battlefield micromanagement.",
-    "battleSlugs": ["midway"],
+    "battleSlugs": ["midway", "leyte-gulf", "iwo-jima"],
     "source": {
       "title": "Fleet Admiral Chester W. Nimitz",
       "url": "https://www.history.navy.mil/browse-by-topic/people/chiefs-of-naval-operations/fleet-admiral-chester-w--nimitz.html",
@@ -3798,7 +3803,7 @@
     "strength": "The New Guinea campaign and Inchon landing demonstrate operational ambition and adaptation.",
     "limitation": "The Philippine defeat in 1942, Chinese intervention in Korea and conflict with civilian authority expose serious limits.",
     "legacy": "His long career connects military command, occupation governance and the constitutional principle of civilian control.",
-    "battleSlugs": [],
+    "battleSlugs": ["leyte-gulf"],
     "source": {
       "title": "Douglas MacArthur",
       "url": "https://www.thenmusa.org/biographies/douglas-macarthur/",

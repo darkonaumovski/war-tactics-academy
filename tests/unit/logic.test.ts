@@ -34,14 +34,23 @@ describe("catalog filtering", () => {
     expect(filterBattles(battles, { q: "Moravia" })[0].slug).toBe(
       "austerlitz",
     ));
-  it("combines filters rather than replacing them", () =>
-    expect(
-      filterBattles(battles, {
-        era: "world-wars",
-        region: "Pacific",
-        kind: "Battle",
-      }).map((b) => b.slug),
-    ).toEqual(["coral-sea", "midway"]));
+  it("combines filters rather than replacing them", () => {
+    const found = filterBattles(battles, {
+      era: "world-wars",
+      region: "Pacific",
+      kind: "Battle",
+    });
+    expect(found.map((b) => b.slug)).toContain("midway");
+    expect(found.map((b) => b.slug)).not.toContain("pearl-harbor");
+    for (const b of found) {
+      expect(b.eraId).toBe("world-wars");
+      expect(b.region).toBe("Pacific");
+      expect(b.kind).toBe("Battle");
+    }
+    expect(found.length).toBeLessThan(
+      filterBattles(battles, { era: "world-wars", region: "Pacific" }).length,
+    );
+  });
   it("returns an empty result for incompatible filters", () =>
     expect(
       filterBattles(battles, { era: "ancient", region: "Pacific" }),

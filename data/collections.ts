@@ -255,7 +255,7 @@ export const collections: Collection[] = [
     summary:
       "Engagements of the Second World War in Europe, North Africa and the Pacific.",
     introduction:
-      "The collection currently holds seventeen studies, from the invasion of Poland in September 1939 to Operation Bagration in 1944, with the Battle of the Atlantic running through the whole war. They show Germany's victories of 1939 and 1940, its failure over Britain and before Moscow, Japan's offensive of 1941–1942 from Pearl Harbor to Singapore and its first check in the Coral Sea, the turning of the war on Guadalcanal, in the Atlantic and in three other theatres in 1942 and 1943, and the Allied offensives of 1944 in Burma, in Normandy and in Belorussia. They also record the war against civilians that began with the invasion of Poland, became genocide in the east and, in Singapore, brought the massacre of Chinese civilians.",
+      "The collection currently holds twenty-one studies, from the invasion of Poland in September 1939 to Iwo Jima in March 1945, with the Battle of the Atlantic running through the whole war. They show Germany's victories of 1939 and 1940, its failure over Britain and before Moscow, Japan's offensive of 1941–1942 from Pearl Harbor to Singapore and its first check in the Coral Sea, the turning of the war on Guadalcanal, in the Atlantic and in three other theatres in 1942 and 1943, the Allied offensives of 1944 in Burma, in Normandy and in Belorussia, and the last German and Japanese efforts at Arnhem, in the Ardennes, at Leyte Gulf and on Iwo Jima. They also record the war against civilians that began with the invasion of Poland, became genocide in the east and, in Singapore, brought the massacre of Chinese civilians.",
     arc: [
       {
         text: "In September 1939 Germany invaded Poland from three sides and the Soviet Union from the east; Poland was defeated within weeks and partitioned, and German forces shot Polish civilians, clergy, intellectuals and Jews from the first weeks. In May 1940 an armoured thrust through the Ardennes broke the French front at Sedan and reached the Channel, cutting the Allied armies in two; the British escaped from Dunkirk, and France signed an armistice in June. Over southern England in the summer and autumn of 1940, RAF Fighter Command, directed by its air defence system, denied the Luftwaffe the air superiority needed for an invasion.",
@@ -285,11 +285,20 @@ export const collections: Collection[] = [
         text: "In 1944 the Allies took the offensive on every front. At Imphal and Kohima a Japanese offensive into India failed against garrisons supplied by air, and the starving Japanese army was destroyed, opening the reconquest of Burma. In Belorussia, Operation Bagration, launched as the Western Allies fought in Normandy, used deception and deep breakthroughs to destroy Army Group Centre and carry the Red Army to the Vistula, where it halted while the Germans crushed the Warsaw Uprising.",
         studies: ["imphal-kohima", "bagration"],
       },
+      {
+        text: "In September 1944 an airborne and armoured thrust through the Netherlands, Market Garden, took every bridge but the last, at Arnhem, where the British airborne division was destroyed. In October Japan's last great fleet operation, aimed at the landing on Leyte, failed despite drawing Halsey away with a decoy, and its navy ceased to be a strategic force. In December Germany's last offensive in the west surprised the Americans in the Ardennes but was stopped at St Vith and Bastogne and short of the Meuse. In February and March 1945 US Marines took Iwo Jima from a garrison dug into tunnels and caves, at a cost that foreshadowed an invasion of Japan.",
+        studies: [
+          "market-garden",
+          "leyte-gulf",
+          "battle-of-the-bulge",
+          "iwo-jima",
+        ],
+      },
     ],
     wars: ["ww2"],
     courseSlugs: ["industrial-world-wars"],
     inProgress:
-      "Market Garden, Leyte Gulf, the Bulge, Iwo Jima, Okinawa and Berlin are planned for the next batches. This arc will be rewritten when they are added.",
+      "Okinawa and Berlin are planned for the next batch. This arc will be rewritten when they are added.",
   },
 ];
 export const collectionBattles = (c: Collection, battles: Battle[]) =>

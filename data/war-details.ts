@@ -710,6 +710,16 @@ export const warDetails: Record<string, WarDetails> = {
         "22 June – 19 August 1944",
         "Operation Bagration destroys Army Group Centre",
       ],
+      ["17–25 September 1944", "Operation Market Garden fails at Arnhem"],
+      [
+        "23–26 October 1944",
+        "Battle of Leyte Gulf cripples the Japanese fleet",
+      ],
+      [
+        "16 December 1944",
+        "German offensive in the Ardennes opens the Battle of the Bulge",
+      ],
+      ["19 February – 26 March 1945", "Battle of Iwo Jima"],
       ["May 1945", "Germany surrenders"],
       ["August–September 1945", "Atomic bombings; Japan surrenders"],
     ),

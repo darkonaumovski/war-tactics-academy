@@ -632,11 +632,22 @@ export const warDetails: Record<string, WarDetails> = {
       ],
       ["1 July – 18 November 1916", "Battle of the Somme"],
       ["1917", "United States enters the war; revolutions in Russia"],
+      ["31 July – 10 November 1917", "Third Battle of Ypres (Passchendaele)"],
       [
         "24 October 1917",
         "Austro-German breakthrough at Caporetto; the Italian army retreats to the Piave",
       ],
-      ["1918", "German spring offensives; Allied Hundred Days"],
+      ["20 November 1917", "British attack with massed tanks at Cambrai"],
+      ["21 March 1918", "Operation Michael opens the German spring offensives"],
+      [
+        "26 March 1918",
+        "Foch appointed to coordinate the Allied armies on the Western Front",
+      ],
+      [
+        "18 July 1918",
+        "French-led counter-attack on the Marne takes the initiative",
+      ],
+      ["8 August 1918", "Battle of Amiens opens the Allied Hundred Days"],
       [
         "September 1918",
         "Allied breakthrough at Dobro Pole; Bulgaria signs an armistice",

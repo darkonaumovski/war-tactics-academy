@@ -9,12 +9,12 @@ import {
 import { battles, wars, campaigns, eras } from "../../data/catalog";
 import { courses } from "../../data/learning";
 it("validates source-backed analyses and the commander corpus", () => {
-  expect(researchSchema.parse(research)).toHaveLength(103);
+  expect(researchSchema.parse(research)).toHaveLength(107);
   expect(commanderSchema.parse(commanders)).toHaveLength(60);
 });
-it("provides 103 unique engagement slugs and a connected hierarchy", () => {
-  expect(battles).toHaveLength(103);
-  expect(new Set(battles.map((b) => b.slug)).size).toBe(103);
+it("provides 107 unique engagement slugs and a connected hierarchy", () => {
+  expect(battles).toHaveLength(107);
+  expect(new Set(battles.map((b) => b.slug)).size).toBe(107);
   for (const b of battles) {
     expect(wars.some((w) => w.slug === b.warId)).toBe(true);
     expect(
@@ -62,8 +62,12 @@ it("orders engagements in the same year by date", () => {
     ["jutland", "brusilov-offensive"],
     ["brusilov-offensive", "somme"],
     ["somme", "kajmakcalan"],
-    ["toplica-uprising", "caporetto"],
+    ["toplica-uprising", "passchendaele"],
+    ["passchendaele", "caporetto"],
+    ["caporetto", "cambrai-1917"],
     ["kajmakcalan", "monastir-1916"],
+    ["operation-michael", "amiens-1918"],
+    ["amiens-1918", "dobro-pole"],
     ["dobro-pole", "liberation-of-serbia-1918"],
     ["midway", "el-alamein"],
   ])

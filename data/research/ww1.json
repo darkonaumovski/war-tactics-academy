@@ -2717,5 +2717,1220 @@
         "outcome": "He saved his wings by retreating to the Piave and was replaced by Diaz."
       }
     ]
+  },
+  {
+    "slug": "passchendaele",
+    "sources": [
+      {
+        "title": "Battle of Passchendaele",
+        "url": "https://www.nam.ac.uk/explore/battle-passchendaele",
+        "publisher": "National Army Museum, London"
+      },
+      {
+        "title": "Ypres, Battles of (Spencer Jones)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/ypres-battles-of/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Battle of Passchendaele",
+        "url": "https://www.britannica.com/event/Battle-of-Passchendaele",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Passchendaele",
+        "url": "https://www.warmuseum.ca/firstworldwar/history/battles-and-fighting/land-battles/passchendaele/",
+        "publisher": "Canadian War Museum"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "The Belgian city of Ypres sat in a salient that had been fought over since 1914 and gave its name to three major battles; the third, in 1917, was the largest. The British had wanted to attack in Flanders in 1916 but joined the French on the Somme instead. In the spring of 1917 a large French offensive failed and parts of the French army mutinied, and after the British offensive at Arras Field Marshal Sir Douglas Haig decided that the British Army would make the next major effort, from the Ypres salient.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Germany had resumed unrestricted submarine warfare, and the U-boats operated in part from ports on the Belgian coast. Haig had to win the war cabinet's approval in London in June. Britannica records that Prime Minister David Lloyd George feared heavy casualties that would be hard to replace, that Haig did not pass on his own staff's warnings about the ground and the weather, and that Admiral Sir John Jellicoe's warning that the war could not go on without capturing the submarine bases helped bring the cabinet round.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Haig meant to take the high ground around Ypres, including the Passchendaele ridge, break through, and advance to the Belgian coast to eliminate the submarine bases. He expected an early breakthrough and told his army commanders that there might be opportunities to use cavalry in masses; the National Army Museum notes that he believed such a breakthrough would win the war.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The Ypres area was reclaimed marshland. British headquarters knew that it would revert to swamp if prolonged bombardment destroyed its drainage, and its intelligence staff found that the Flanders weather usually broke early in August. The attack went in across a bare plain, so the preparations were in full view of German observers. Abnormally heavy rain and the shelling turned the battlefield into a quagmire of water-filled craters, which hampered the attackers far more than the defenders and made it almost impossible to move men, guns and supplies.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Haig's offensive was launched by the Fifth Army under General Sir Hubert Gough and the Second Army under General Sir Herbert Plumer, with a French contingent, against the German Fourth Army in the army group of Crown Prince Rupprecht of Bavaria. It was the largest army Britain had fielded and included Australian, New Zealand, Canadian, South African and other Dominion and imperial troops; the Canadian Corps was commanded by Lieutenant-General Sir Arthur Currie. The German defence rested on concrete pillboxes and specialist counter-attack formations.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "On 7 June Plumer's Second Army took the Messines Ridge south of the salient in a strictly limited attack prepared for a year, helped by the surprise of huge mines fired at the same moment. The main offensive followed nearly two months later. The Germans regarded an attack at Ypres as certain and judged its pattern accurately, and by early July Rupprecht was satisfied that he had enough troops and ammunition to meet it; a two-week bombardment gave further warning.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The attack began at 3.50 a.m. on 31 July. On the left the objectives, including Pilckem Ridge, were taken, but on the vital right the attack failed, and afternoon rain blinded the artillery observers so that German counter-attacks retook ground. The next major attack, at Langemarck on 16–18 August, also failed. Plumer's army then took the leading role: in drier weather, limited attacks on 20 September (Menin Road), 26 September (Polygon Wood) and 4 October (Broodseinde) drove the Germans back toward the top of the ridge. Deeper attacks in rain on 12 and 22 October failed. The Canadian Corps attacked from 26 October, occupied the site of Passchendaele village on 6 November and took the remaining high ground on 10 November, when Haig halted the offensive.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "The sources disagree about the opening plan. Spencer Jones writes that Haig rejected the careful, methodical offensive Plumer proposed in favour of a more ambitious operation under Gough; Britannica says Gough favoured a step-by-step approach for the first day and Plumer urged going all out, and that Haig agreed with Plumer. Either way Haig counted on an early breakthrough. After Gough's repeated attacks gained little, he gave Plumer the leading role for the limited attacks of September. In October, with the weather breaking, he ordered deeper objectives and kept the offensive going; Currie protested at the order to attack Passchendaele but then prepared methodically, building roads, tramlines and gun positions before he attacked.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The rain that began on the first afternoon decided the course of the battle: on destroyed drainage the ground became a swamp, and a rapid breakthrough became virtually impossible. Plumer's limited attacks under overwhelming artillery support, known as bite and hold, won ground and broke up German counter-attacks in late September; Britannica notes that the farthest objective on 20 September was less than 1.6 kilometres deep. Haig took these successes as a sign that the enemy was close to collapse, and the deeper attacks of October failed in the mud.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The British took the high ground around Ypres and advanced about 8 kilometres, but they came no nearer to the coast, and the offensive did not remove the U-boat threat. Both sides suffered very heavy losses in a battle of attrition. Haig regarded it as a success that had brought the German armies closer to destruction, although it was not the breakthrough he had sought.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "In the spring of 1918 the British gave up the Passchendaele ridge without a fight before the German offensive. Jones notes that a German General Staff appreciation judged that the losses in Flanders had brought Germany to the brink of destruction, and that during the battle the German army had turned to an elastic defence based on shell craters and concrete bunkers. Lloyd George later condemned the campaign, and Passchendaele became the symbol of the suffering of the Western Front and the centre of British and Commonwealth commemoration at Ypres, where the Menin Gate records soldiers who have no known grave.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Limited objectives within the range of massed artillery won ground and defeated counter-attacks where deep objectives did not. A plan that relies on surprise and on rapid movement cannot succeed on ground known to flood, attacked in full view of the defender. Above all, the battle shows the cost of persisting after the conditions for success have gone, when optimistic assessments of enemy morale replace evidence.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Jones notes that the historiography of Third Ypres remains especially controversial and divided on whether the British Army conducted the offensive appropriately. The National Army Museum asks whether the gains were worth the cost and whether the battle should have been stopped earlier; Britannica stresses that Haig's assurances about German losses and morale were not borne out. The Canadian War Museum argues that the more populous Allies could better absorb such losses, and Jones cites the German General Staff's own view of its losses. The sources give different casualty figures for both sides, and they disagree on whether Gough or Plumer favoured the more cautious plan.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The National Army Museum gives the course of the offensive, Plumer's bite-and-hold method and the debate over its cost. Spencer Jones's 1914-1918-online article gives the strategic aims, the command changes, the German defence and the historiography. Britannica gives the planning, the cabinet's decision, the ground and weather, and the Canadian attack. The Canadian War Museum gives Currie's objection, preparations and assault.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Messines and preparation",
+        "time": "7 June – 30 July 1917",
+        "description": "Plumer takes the Messines Ridge; the main attack is prepared in full view of the Germans and opened by a two-week bombardment."
+      },
+      {
+        "title": "Opening attacks",
+        "time": "31 July – 18 August 1917",
+        "description": "Pilckem Ridge is taken on the left but the right fails; rain turns the ground to swamp, and the attack at Langemarck fails."
+      },
+      {
+        "title": "Bite and hold",
+        "time": "20 September – 4 October 1917",
+        "description": "Plumer's limited attacks at the Menin Road, Polygon Wood and Broodseinde drive the Germans back toward the ridge."
+      },
+      {
+        "title": "Into the mud",
+        "time": "12–22 October 1917",
+        "description": "Deeper attacks in rain fail in the mud; Haig turns to the Canadian Corps."
+      },
+      {
+        "title": "Passchendaele ridge",
+        "time": "26 October – 10 November 1917",
+        "description": "The Canadians attack after careful preparation, occupy Passchendaele on 6 November and the remaining high ground on 10 November."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Sir Douglas Haig",
+        "objective": "Break out of the Ypres salient and reach the Belgian coast and its submarine bases.",
+        "known": "Messines had succeeded, parts of the French army had mutinied, and his staff had warned about the drainage and the August weather.",
+        "uncertainty": "How close German reserves and morale were to breaking.",
+        "constraints": "A cabinet anxious about casualties, ground that flooded under shellfire and an attack prepared in the open.",
+        "decision": "He sought an early breakthrough, gave Plumer the leading role after August, and continued the offensive into November.",
+        "forces": "The Fifth and Second Armies with a French contingent, later Australian, New Zealand and Canadian corps.",
+        "terrain": "Low ridges above a reclaimed marshland east of Ypres.",
+        "logistics": "Roads and tramlines across a cratered swamp where guns and supplies could hardly move.",
+        "outcome": "The ridge was taken at very heavy cost, far short of the coast, and given up the following spring."
+      },
+      {
+        "name": "Sir Herbert Plumer",
+        "objective": "Take the ridges east of Ypres with attacks the artillery could support.",
+        "known": "Limited, siege-style attacks had succeeded at Messines in June.",
+        "uncertainty": "Whether the weather would allow the guns to be moved up.",
+        "constraints": "Deep German defences of pillboxes and counter-attack divisions.",
+        "decision": "He set shallow objectives under a dense creeping barrage, consolidated each gain and broke up the counter-attacks with massed fire.",
+        "forces": "The Second Army with Australian and New Zealand divisions.",
+        "terrain": "Drier ground in late September between the Menin Road and Broodseinde.",
+        "logistics": "Weeks of preparation to bring forward guns and ammunition between attacks.",
+        "outcome": "Three successful attacks in late September and early October, after which the rain returned."
+      },
+      {
+        "name": "Sir Arthur Currie",
+        "objective": "Take the Passchendaele ridge with the Canadian Corps, as Haig ordered.",
+        "known": "The ground was a bog and earlier attacks had failed; he expected heavy Canadian losses.",
+        "uncertainty": "Whether the gain was worth the losses he foresaw.",
+        "constraints": "An order he had protested against, ground where men and guns could hardly move, and German fire on the ridge.",
+        "decision": "He prepared deliberately, building roads, tramlines and gun pits, and attacked in a series of set-piece phases.",
+        "forces": "The four divisions of the Canadian Corps.",
+        "terrain": "The last ridge east of Ypres and the ruins of Passchendaele village.",
+        "logistics": "Shells brought forward on horses and mules along repaired roads and tramlines.",
+        "outcome": "The ridge was captured by 10 November with losses close to his own estimate."
+      }
+    ]
+  },
+  {
+    "slug": "cambrai-1917",
+    "sources": [
+      {
+        "title": "1917: Year of stalemate",
+        "url": "https://www.nam.ac.uk/explore/1917-year-stalemate",
+        "publisher": "National Army Museum, London"
+      },
+      {
+        "title": "Battle of Cambrai",
+        "url": "https://www.britannica.com/event/Battle-of-Cambrai-1917",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "The Fighting Tactics of the Battle of Cambrai",
+        "url": "https://www.iwm.org.uk/history/first-world-war/western-front/cambrai",
+        "publisher": "Imperial War Museums"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Seeing that tanks were useless in the Flanders swamps, officers of the British Tank Corps looked for ground where they could succeed. Their chief staff officer, Colonel J. F. C. Fuller, drew up a plan for a large raid into a pocket of rolling downland south-west of Cambrai, enclosed by canals, where a swarm of tanks would attack without any preparatory bombardment. With Passchendaele showing the need for new tactics, the British command adopted the scheme.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The command turned the raid into a full offensive with far-reaching aims, including the capture of Cambrai and a thrust toward Valenciennes, partly to relieve pressure on the French front. Britannica notes that the resources for those aims had been drained by Passchendaele. Cambrai was a German-held railhead behind the Hindenburg Line.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The attack was to break the Hindenburg Line on a front of about 16 kilometres some 13 kilometres west of Cambrai and encircle the town. It was planned as an all-arms battle of tanks, cavalry, aircraft, artillery and infantry, with the cavalry to exploit any breakthrough.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Unlike Flanders, the rolling downland of the sector suited tanks. The Hindenburg Line had three lines of defences with wide ditches, so many tanks carried fascines, bundles of brushwood, to fill them for tanks and infantry to cross.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "General Sir Julian Byng's Third Army made the attack, with the largest number of tanks yet assembled, five cavalry divisions and squadrons of the Royal Flying Corps; at the point of attack the British heavily outnumbered the defenders. The sector was held by the German Second Army under General Georg von der Marwitz.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The tanks were brought up by rail and moved into position at night to escape German air reconnaissance, and cloudy weather limited flying by day. The artillery did not register its targets beforehand, so that the barrage would come as a surprise, in keeping with Fuller's idea of attacking without warning.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "At dawn on 20 November a brief, intense bombardment fell on the whole front, and the tanks advanced with the infantry behind a creeping barrage while aircraft attacked trenches, convoys and gun positions. All three lines of the Hindenburg defences were penetrated and some units advanced about 8 kilometres, taking several villages and many prisoners. By evening more than half the tanks were out of action. Progress slowed in heavy fighting, and by 28 November the British held a salient on the crest of Bourlon Ridge; the offensive was halted the next day. On 30 November the German Second Army struck both flanks of the salient. In the north the attack was held; in the south it broke through, and a counter-attack by the Guards Division and then a tank brigade averted disaster. By 5 December the British had been driven back almost to their starting line.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "The British command's decisive choice was to turn a raid into an offensive with distant objectives without the reserves to pursue them; no adequate reserves were set aside to exploit a breakthrough, because so many troops were committed at Passchendaele. The German command answered on 30 November with intense artillery, mortars, gas and infiltrating storm troops against the flanks of the salient rather than its point.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The first morning decided what the attack could achieve: it broke deep into the defences at little cost, but tank breakdowns and losses, bad weather that kept the cavalry from exploiting, isolated units and poor communications left the gap unexploited. The German counter-stroke of 30 November then reversed most of the gains, although it too lost momentum when reinforcements and supplies could not be brought up and its command and communications broke down.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The British kept only the ground they had taken around Havrincourt, Ribécourt and Flesquières, and losses on the two sides were about equal. The Imperial War Museums judge that the battle had little strategic effect on the fighting on the Western Front.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Cambrai was the first large-scale massed use of tanks and aircraft in battle, and it showed that the British could break deep into German defences quickly and at relatively low cost. In their tactics both sides foreshadowed the fighting of 1918: the British combination of tanks, unregistered artillery fire, infantry and aircraft, and the German counter-attack by infiltrating storm troops. Both applied these lessons in the following year.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Surprise and the combination of arms could break into the strongest defences; breaking out needed reserves, reliable vehicles and communications that could keep pace with success. Objectives must match the forces available, and an attack launched while another offensive absorbs the reserves can win ground but not hold it.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The sources weigh the battle differently. Britannica concludes that it showed armour was the key to a decision on the Western Front; the Imperial War Museums stress its limited strategic effect and its place as a forerunner of combined-arms warfare; the National Army Museum stresses the need for better communications to exploit success. They also explain the failure to exploit differently: Britannica points to the weather and late infantry reinforcements, the National Army Museum to breakdowns, the commitment at Passchendaele, isolated units and poor communications. They give slightly different depths of advance.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The National Army Museum gives the plan, the first day, the German counter-attack and the battle's significance. Britannica gives Fuller's original idea, the British command's aims, the forces and the course of the battle to 5 December. The Imperial War Museums give the tanks' preparation, the unregistered barrage, the fighting for Bourlon Ridge and the ground that was kept.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Preparation",
+        "time": "Before 20 November 1917",
+        "description": "Tanks come up by rail and move into position at night; the guns do not register their targets."
+      },
+      {
+        "title": "Break-in",
+        "time": "20 November 1917",
+        "description": "Tanks, infantry and aircraft break through all three Hindenburg lines; more than half the tanks are out of action by evening."
+      },
+      {
+        "title": "Bourlon Ridge",
+        "time": "21–29 November 1917",
+        "description": "Progress slows in heavy fighting; the British hold a salient on Bourlon Ridge and the offensive halts."
+      },
+      {
+        "title": "German counter-stroke",
+        "time": "30 November – 5 December 1917",
+        "description": "Storm troops strike the flanks of the salient and break through in the south; the British fall back almost to their start line."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Sir Julian Byng",
+        "objective": "Break the Hindenburg Line before Cambrai and exploit toward the town and beyond.",
+        "known": "The ground was firm and suited tanks, and the sector was weakly held.",
+        "uncertainty": "How quickly German reserves would arrive.",
+        "constraints": "No adequate reserves, because so many troops were committed at Passchendaele.",
+        "decision": "He attacked by surprise with massed tanks, an unregistered barrage, infantry and aircraft, then pressed on toward Bourlon Ridge.",
+        "forces": "The Third Army with the Tank Corps, five cavalry divisions and Royal Flying Corps squadrons.",
+        "terrain": "Rolling downland enclosed by canals, overlooked by Bourlon Ridge.",
+        "logistics": "Tanks brought up by rail and moved at night; many broke down on the first day.",
+        "outcome": "A deep break-in on 20 November, lost almost entirely to the counter-stroke of 30 November."
+      },
+      {
+        "name": "Georg von der Marwitz",
+        "objective": "Contain the British break-in and recover the lost ground.",
+        "known": "The British had driven a salient toward Cambrai and their advance had slowed.",
+        "uncertainty": "Whether reinforcements and supplies could keep up.",
+        "constraints": "Defences that had been broken through on the first day.",
+        "decision": "He struck both flanks of the salient with intense artillery, gas and infiltrating storm troops.",
+        "forces": "The German Second Army with reinforcing divisions.",
+        "terrain": "The flanks of the British salient north and south.",
+        "logistics": "Reinforcements and supplies that could not keep pace with the advance.",
+        "outcome": "Most of the ground was recovered before the counter-attack lost momentum."
+      }
+    ]
+  },
+  {
+    "slug": "operation-michael",
+    "sources": [
+      {
+        "title": "German Spring Offensives 1918 (Alexander Watson)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/german-spring-offensives-1918/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "1918: Year of victory",
+        "url": "https://www.nam.ac.uk/explore/1918-victory",
+        "publisher": "National Army Museum, London"
+      },
+      {
+        "title": "Second Battle of the Somme",
+        "url": "https://www.britannica.com/event/Second-Battle-of-the-Somme",
+        "publisher": "Encyclopaedia Britannica"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "By the end of 1917 Russia's revolution and collapsing war effort had freed German divisions in the east, giving Germany a numerical advantage on the Western Front. The United States had been at war with Germany since April 1917 and was training a huge army, and the National Army Museum notes that Germany knew its submarine campaign had failed. Germany had one brief chance to win in the west before American troops arrived in strength.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "General Erich Ludendorff, First Quartermaster General and the German army's de facto commander, began to consider a renewed offensive in October 1917. On the British side, Haig's divisions were under strength; the government would not send more troops, so he reduced the number of infantry battalions in each division, and Gough's Fifth Army held a long front south of Cambrai with comparatively few divisions.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Ludendorff chose an 80-kilometre front from La Fère to Arras held by the British, whom he regarded as less skilled than the French. He hoped to break through at the boundary between the British and French armies, then turn north and roll up the British line, expecting troops schooled only in trench warfare to collapse under mobile war. He refused to set final territorial objectives.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The attack fell north of the Somme between Arras and La Fère and opened in dense fog. Behind the British front lay the rail hubs of Amiens and, farther north, Hazebrouck, on which the British army depended. As the Germans advanced they had to move men, supplies and guns across a shattered landscape.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The attack struck Byng's Third Army and Gough's Fifth Army. The German assault divisions had the best equipment, horses and fittest men and four weeks' special training in infiltration tactics. The French became engaged as the battle developed.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Great care was taken to achieve surprise. The bombardment was a short hurricane of fire aimed at artillery and machine-gun positions, headquarters, telephone exchanges, railways and communication centres, and storm troops were to infiltrate weak points, bypass resistance and leave following waves to mop up.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "At 4.20 a.m. on 21 March the bombardment began, and five hours later the infantry advanced in fog after the British trenches had been shelled and gassed. The British first and second lines quickly fell; Gough's line, lacking reserves, gave way, and by 22 March the Fifth Army was in retreat and had lost contact with the French to the south. By the evening of 23 March the Germans had advanced up to 19 kilometres in some sectors, and panic spread along parts of the Allied front. On 26 March Haig agreed to Foch's appointment to command on the Western Front. By 28 March new Allied troops had checked the advance east of Amiens, and when the offensive ended on 5 April the Germans had advanced as much as 64 kilometres.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Watson identifies Ludendorff's choices as the cause of the operational failure: he set no final objective, missed the British army's dependence on Amiens and Hazebrouck, and, believing the British beaten, reinforced the southernmost army to keep the French away and then dispersed his strength in several directions, reinforcing tactical successes rather than pursuing a goal. On the Allied side, Haig accepted Foch's appointment in exchange for reinforcements.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The breakthrough of 21–23 March did not become a strategic victory. The Germans did not reach Amiens, did not destroy the British army and did not split it from the French, while Allied reserves under a unified command arrived to close the gap. The attackers were exhausted and lacked the transport to turn local gains into a strategic victory.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "It was the largest territorial gain on the Western Front since 1914, and the Germans took many prisoners. Britannica concludes that the Allied lines were bent but not broken; Watson that the Germans captured nothing of value. They were held east of Amiens in an exposed salient.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Ludendorff repeated the pattern. Operation Georgette in Flanders in April failed to take Hazebrouck, although it took the Messines Ridge and much of the Passchendaele salient. Operation Blücher on the Chemin des Dames on 27 May, meant as a diversion, was expanded after its tactical success and brought German troops within 90 kilometres of Paris, but created another salient. The Gneisenau attack on the Matz in June was inconclusive and the Marne-Reims offensive of 15 July failed. On 18 July a French-led counter-attack took the initiative for the Allies. The German army had lost its best troops and had no reserves, while American soldiers arrived in large numbers and the Allies had placed Foch in coordinating command.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Tactical excellence, surprise and infiltration can break a front, but without an operational objective they only use up the attacker's strength; an offensive must aim at what the enemy cannot afford to lose, such as the rail hubs behind the British front. An attack that outruns its transport stalls, however deep it goes, and a crisis can force the defender into a better system of command.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "After the war the offensives provoked bitter controversy in Germany: critics accused Ludendorff of throwing away a chance of a negotiated peace on an operation doomed to fail. Watson weighs his command errors alongside the German army's limits in material, manpower and mobility; Britannica sees tactical virtuosity unconnected to any strategic concept; the National Army Museum stresses exhaustion and the lack of transport. The sources measure the advance differently (the area overrun in Watson, its depth in Britannica and the National Army Museum), give different loss figures, and date the opening of Georgette to 7 April (National Army Museum) or 9 April (Watson).",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Alexander Watson's 1914-1918-online article gives Ludendorff's planning, the course of the offensives and the reasons for their failure. The National Army Museum gives the British situation, the bombardment and infiltration tactics, Foch's appointment and the later offensives. Britannica gives the attack in fog, the British retreat and the Allied recovery east of Amiens.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Preparation",
+        "time": "October 1917 – 20 March 1918",
+        "description": "Ludendorff plans the attack; assault divisions train in infiltration; the British front is thinly held."
+      },
+      {
+        "title": "Breakthrough",
+        "time": "21–23 March 1918",
+        "description": "A hurricane bombardment and storm troops in fog break the Fifth Army's line; the British lose contact with the French."
+      },
+      {
+        "title": "Toward Amiens",
+        "time": "24–28 March 1918",
+        "description": "The advance continues; Foch is appointed on 26 March, and Allied troops check the Germans east of Amiens."
+      },
+      {
+        "title": "Exhaustion",
+        "time": "29 March – 5 April 1918",
+        "description": "Without transport or an objective, the offensive runs out of steam and is ended on 5 April."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Erich Ludendorff",
+        "objective": "Defeat the British army before American troops arrived in strength.",
+        "known": "Divisions freed from the east gave him a numerical advantage, and the British front south of Cambrai was weakly held.",
+        "uncertainty": "How quickly the French would send reserves to the British.",
+        "constraints": "Limited transport, horses and manpower, and a short window of time.",
+        "decision": "He attacked where the defence was weakest without a final objective, then dispersed his strength in several directions.",
+        "forces": "Assault divisions with special training in infiltration, behind a short hurricane bombardment.",
+        "terrain": "The front between Arras and La Fère, then the shattered ground beyond it.",
+        "logistics": "Too little transport to carry the advance beyond its first gains.",
+        "outcome": "A deep advance that took nothing of strategic value and used up his best troops."
+      },
+      {
+        "name": "Sir Douglas Haig",
+        "objective": "Hold the British front and keep contact with the French.",
+        "known": "A German offensive was coming, and his divisions were under strength.",
+        "uncertainty": "Where and when the main blow would fall.",
+        "constraints": "A government unwilling to send more troops and a Fifth Army holding a long front with few reserves.",
+        "decision": "As the Fifth Army fell back, he agreed on 26 March to Foch's appointment in exchange for reinforcements.",
+        "forces": "The British Third and Fifth Armies, with reserves from other sectors.",
+        "terrain": "Defences north of the Somme with the rail hub of Amiens behind them.",
+        "logistics": "The railways through Amiens and Hazebrouck.",
+        "outcome": "The front bent but held east of Amiens, under a unified Allied command."
+      },
+      {
+        "name": "Ferdinand Foch",
+        "objective": "Coordinate the Allied armies and close the gap between the British and French.",
+        "known": "The Fifth Army had broken and lost contact with the French.",
+        "uncertainty": "Whether the Germans would reach Amiens.",
+        "constraints": "Command that depended on the agreement of the British and French commanders.",
+        "decision": "He accepted the appointment of 26 March as the Allies assembled new troops to stop the advance.",
+        "forces": "French and British reserves assembled east of Amiens.",
+        "terrain": "The approaches to Amiens.",
+        "logistics": "Reserves moved by rail to the threatened sector.",
+        "outcome": "The advance was checked east of Amiens, and he remained the Allies' coordinating commander for the rest of the war."
+      }
+    ]
+  },
+  {
+    "slug": "amiens-1918",
+    "sources": [
+      {
+        "title": "Amiens, Battle of (Stephen Badsey)",
+        "url": "https://encyclopedia.1914-1918-online.net/article/amiens-battle-of/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "1918: Year of victory",
+        "url": "https://www.nam.ac.uk/explore/1918-victory",
+        "publisher": "National Army Museum, London"
+      },
+      {
+        "title": "Battle of Amiens",
+        "url": "https://www.britannica.com/event/Battle-of-Amiens",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Amiens",
+        "url": "https://www.warmuseum.ca/firstworldwar/history/battles-and-fighting/land-battles/amiens/",
+        "publisher": "Canadian War Museum"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "The German failure to take Amiens in Operation Michael left the German Second Army under General Georg von der Marwitz holding an overstretched salient east of the city. In May Haig began planning a counter-attack there by General Sir Henry Rawlinson's Fourth Army. In July the French and Americans halted and drove back the last German offensive on the Marne, and the exhausted German army lost the initiative.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Foch, now the Allied generalissimo, planned a general offensive of repeated, relatively shallow attacks on different parts of the German line, allowing the Germans no time to recover. Britannica describes the Amiens attack as part of a limited offensive to secure strategic transit hubs, planned to protect the Paris–Amiens railway. At this stage Foch and most other senior Allied commanders expected the war to last well into 1919.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The Fourth Army was to break the German front east of Amiens and seize critical points on the Amiens Outer Defence Line beyond it, protecting the city and its railway, while the French First Army attacked alongside to the south.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The attack was made south of the Somme on a front of about 30 kilometres east of Amiens, in fog and morning mist. The German defences were three lines of trenches with poor communications and few good dugouts. Beyond them lay the wasteland of the 1916 Somme battlefield, and the tanks struggled on boggy ground.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Rawlinson's Fourth Army, almost doubled in strength, comprised the British III Corps, the Canadian Corps under Lieutenant-General Sir Arthur Currie and the Australian Corps, with an American division in reserve, most of the Tank Corps, including the new, faster Whippet tanks, and the Cavalry Corps. The French First Army under General Marie-Eugène Debeney was placed under Haig's command, and British and French aircraft supported the attack. Marwitz's Second Army held the front with weak divisions; Badsey judges that the Allies were superior in numbers, equipment and morale.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The concentration was prepared in great secrecy. Troops moved to the front by night, false radio traffic supported the deception, and a counter-intelligence operation misled the Germans about where the Canadian and Australian assault troops were. There was no preliminary bombardment, so the attack would come as a surprise.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "At 4.20 a.m. on 8 August the British attacked in fog behind a creeping barrage; the French, with fewer tanks, followed at 5.05 a.m. after a short bombardment. The German first lines were taken by 7.30 a.m., and Whippet tanks, armoured cars and cavalry then pushed on to seize points on the Outer Defence Line. By mid-afternoon the Canadians and Australians in the centre had advanced almost 12 kilometres on a front of 22 kilometres, and many Germans surrendered. III Corps, disrupted by a German attack on 6 August, was stopped short of the Chipilly spur. The Canadians gained another 5 kilometres on 9 August and the French took Montdidier on 10 August, but German reinforcements arrived and the attackers moved beyond the range of their guns. By 12 August few tanks were still working and Haig closed the battle down.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "The Allied commanders chose surprise over a long bombardment, and secrecy over a visible build-up, to break the front on the first morning. When resistance stiffened, Haig stopped the battle rather than force it; Britannica notes that Currie urged consolidating the gains. Haig began preparing the next attack further north, in line with Foch's plan of repeated attacks in different sectors.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The morning of 8 August decided the battle: the German front broke, a wide gap opened south of the Somme, and the large-scale surrenders were unprecedented. Once the attack reached the old Somme battlefield and the German reserves, the advance slowed. Badsey notes that coordinating the mechanised break-through proved difficult: cooperation between tanks and cavalry failed, and the Royal Air Force attacked bridges in the German rear rather than supporting the attack directly.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Amiens was a decisive British-led victory. The Canadian War Museum calls 8 August the most successful day of fighting for the Allies on the Western Front, and the Allies took large numbers of prisoners and guns; the Germans held a new line in front of Noyon and Péronne.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Ludendorff called 8 August the black day of the German army. The National Army Museum notes that he and the Kaiser privately concluded that Germany could no longer win, and Badsey that the German High Command accepted soon after that it had lost the war on the Western Front, something most Allied commanders did not see until early October. Amiens opened the Hundred Days, a series of Allied offensives that broke through the Hindenburg Line at the end of September and ended with the armistice on 11 November.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "The battle shows the integration of infantry, artillery, tanks and aircraft into one surprise attack, and how far the British army had improved since 1916: Badsey contrasts Rawlinson's Fourth Army at Amiens with the same commander and army on the Somme. It also shows the value of stopping once returns diminish and striking again elsewhere, rather than pressing a stalled attack.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Badsey calls the casualty figures for both sides disputed, and the sources give different numbers of prisoners, guns, tanks and aircraft. They date the end of the battle to 11 August (Britannica, the Canadian War Museum) or 12 August (Badsey), and differ on who planned it: Badsey has Haig planning a Fourth Army counter-attack from May, while Britannica describes Foch planning an attack to protect the Paris–Amiens railway. Britannica attributes the end of the battle to Currie's urging that the gains be consolidated, Badsey to Haig's decision as German resistance stiffened.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Stephen Badsey's 1914-1918-online article gives the planning, the forces, the course of the battle and its aftermath. The National Army Museum gives the all-arms attack, the scale of the German surrender and the Hundred Days. Britannica gives the deception, the German defences and Currie's part in ending the battle. The Canadian War Museum gives the secrecy, the Canadian advance and the battle's effect on German and Allied expectations.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Secret concentration",
+        "time": "May – 7 August 1918",
+        "description": "Haig and Rawlinson plan the attack; the Fourth Army is reinforced by night and the Canadians' move is concealed."
+      },
+      {
+        "title": "Break-in",
+        "time": "8 August 1918",
+        "description": "A surprise attack in fog without preliminary bombardment breaks the German front; the Canadians and Australians advance almost 12 kilometres."
+      },
+      {
+        "title": "Exploitation",
+        "time": "9–10 August 1918",
+        "description": "The Canadians gain more ground and the French take Montdidier as German reinforcements arrive."
+      },
+      {
+        "title": "Closing down",
+        "time": "11–12 August 1918",
+        "description": "With the tanks worn out and resistance stiffening on the old Somme battlefield, Haig closes the battle and prepares the next attack."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Sir Henry Rawlinson",
+        "objective": "Break the German salient east of Amiens with a surprise attack.",
+        "known": "The German Second Army was overstretched and its defences poorly prepared.",
+        "uncertainty": "Whether secrecy would hold until the attack.",
+        "constraints": "Moving large forces into position without alerting the Germans.",
+        "decision": "He attacked without a preliminary bombardment behind a creeping barrage, with tanks, cavalry and aircraft.",
+        "forces": "The Fourth Army: III Corps, the Canadian and Australian Corps, the Tank Corps and the Cavalry Corps.",
+        "terrain": "Open ground south of the Somme east of Amiens, in fog.",
+        "logistics": "Night moves to the front; the advance later outran the range of the guns.",
+        "outcome": "The German front broke on 8 August; the advance slowed after the second day."
+      },
+      {
+        "name": "Sir Arthur Currie",
+        "objective": "Lead the Canadian Corps' assault on the right of the British attack.",
+        "known": "The corps' move had been concealed by a deception operation.",
+        "uncertainty": "How the Germans would reinforce the sector.",
+        "constraints": "Tanks that broke down or were knocked out, and growing German resistance.",
+        "decision": "He attacked on 8 August and pressed on the next day, then urged consolidating the gains.",
+        "forces": "The Canadian Corps.",
+        "terrain": "The ground south of the Somme, then the old 1916 battlefield.",
+        "logistics": "Attacking forces moving beyond the range of their own artillery.",
+        "outcome": "The Canadians advanced about 13 kilometres on 8 August; the fighting grew harder and costlier in the days that followed."
+      },
+      {
+        "name": "Georg von der Marwitz",
+        "objective": "Hold the salient east of Amiens left by the spring offensive.",
+        "known": "His divisions were weak and his defences poorly prepared.",
+        "uncertainty": "That a major attack was imminent.",
+        "constraints": "Inferior numbers, equipment and morale, and a front taken by surprise.",
+        "decision": "He brought reinforcements into the battle and formed a new line further back.",
+        "forces": "The German Second Army.",
+        "terrain": "Three trench lines east of Amiens.",
+        "logistics": "Reinforcing divisions sent in from other sectors.",
+        "outcome": "His front broke on 8 August; a new line was held before Noyon and Péronne."
+      }
+    ]
   }
 ]

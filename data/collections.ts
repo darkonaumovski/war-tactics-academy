@@ -174,6 +174,14 @@ export const collections: Collection[] = [
         ],
       },
       {
+        text: "In Flanders in 1917 Haig sought a breakthrough from Ypres to the Belgian coast and its submarine bases. Rain and shellfire turned the battlefield into a swamp; Plumer's limited bite-and-hold attacks won ground where deeper objectives failed, and the Canadians took the Passchendaele ridge in November, far short of the coast. At Cambrai massed tanks, an unregistered barrage and aircraft broke deep into the Hindenburg Line, but there were no reserves to exploit the gap, and a German counter-stroke by infiltrating storm troops retook most of the ground.",
+        studies: ["passchendaele", "cambrai-1917"],
+      },
+      {
+        text: "With Russia out of the war, Ludendorff attacked the British in March 1918 before American troops arrived in strength. Operation Michael made the deepest advance on the Western Front since 1914 but took nothing of strategic value, and the offensives that followed used up Germany's best troops. The Allies placed Foch in coordinating command, and on 8 August a surprise all-arms attack at Amiens broke the German front; Ludendorff called it the black day of the German army, and it opened the Hundred Days that ended in the armistice.",
+        studies: ["operation-michael", "amiens-1918"],
+      },
+      {
         text: "In September 1918 Serbian and French divisions broke the Bulgarian line at Dobro Pole, and within two weeks Bulgaria left the war. Serbian armies freed Serbia within five weeks, and on 1 December 1918 the Kingdom of Serbs, Croats and Slovenes was proclaimed in Belgrade.",
         studies: ["dobro-pole", "liberation-of-serbia-1918"],
       },
@@ -181,7 +189,7 @@ export const collections: Collection[] = [
     wars: ["ww1"],
     courseSlugs: ["industrial-world-wars", "serbian-front"],
     inProgress:
-      "Passchendaele, Cambrai, the German spring offensive, Amiens, Megiddo and the Meuse-Argonne are planned for the next batches. This arc will be rewritten when they are added.",
+      "Megiddo and the Meuse-Argonne are planned for the next batch. This arc will be rewritten when they are added.",
   },
   {
     slug: "serbian-front",

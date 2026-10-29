@@ -1986,7 +1986,14 @@
     "strength": "Helped maintain Allied cohesion during the German spring offensives and subsequent counteroffensives.",
     "limitation": "Earlier offensives produced severe losses, and coalition command still depended on national governments and army leaders.",
     "legacy": "His career shows the distinction between tactical command, military theory and the political work of allied direction.",
-    "battleSlugs": ["marne-1914", "first-ypres", "second-ypres", "somme"],
+    "battleSlugs": [
+      "marne-1914",
+      "first-ypres",
+      "second-ypres",
+      "somme",
+      "operation-michael",
+      "amiens-1918"
+    ],
     "source": {
       "title": "Foch, Ferdinand — Elizabeth Greenhalgh",
       "url": "https://encyclopedia.1914-1918-online.net/wp-content/uploads/2023/01/ams/958119/pdf/1914-1918-Online-foch_ferdinand-2015-11-18.pdf",
@@ -2051,7 +2058,13 @@
     "strength": "The army under his command improved coordination among infantry, artillery, aircraft and tanks.",
     "limitation": "The Somme and Passchendaele involved enormous casualties and failed expectations; continuation of attacks remains heavily debated.",
     "legacy": "Assessment must include learning and final success without minimizing suffering or treating victory as proof every decision was sound.",
-    "battleSlugs": ["first-ypres", "somme"],
+    "battleSlugs": [
+      "first-ypres",
+      "somme",
+      "passchendaele",
+      "operation-michael",
+      "amiens-1918"
+    ],
     "source": {
       "title": "Douglas Haig: The chief",
       "url": "https://www.nam.ac.uk/explore/douglas-haig",

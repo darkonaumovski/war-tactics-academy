@@ -4265,6 +4265,100 @@
     }
   },
   {
+    "slug": "ivan-konev",
+    "name": "Ivan Konev",
+    "years": "1897–1973",
+    "state": "Soviet Union",
+    "eraId": "world-wars",
+    "role": "Front commander; Marshal of the Soviet Union from 1944",
+    "summary": "Commanded the Western Front in its disaster of October 1941, later fronts at Kursk and in Ukraine, and from May 1944 the 1st Ukrainian Front, which crossed Poland, liberated Auschwitz and joined Zhukov in taking Berlin.",
+    "approach": "Commanded large fronts in successive offensives; in 1945 Stalin divided the main thrust on Berlin between Zhukov's front and his, setting the two marshals in a race for the city.",
+    "strength": "His 1st Ukrainian Front broke through south of Berlin while Zhukov's attack was held at the Seelow Heights, and was the first Soviet army to reach German soil.",
+    "limitation": "As commander of the Western Front in October 1941 he failed completely: his front was encircled and a vast number of his soldiers were captured. Zhukov saved him from execution. His career depended on patrons, first Voroshilov, who protected him in the purges.",
+    "legacy": "After the war he commanded Soviet ground forces and the Warsaw Pact forces; Fidler writes that he crushed the Hungarian uprising in 1956 and oversaw the building of the Berlin Wall in 1961.",
+    "battleSlugs": ["moscow-1941", "kursk", "berlin-1945"],
+    "source": {
+      "title": "Marshal of the Soviet Union Ivan Stepanovich Konev (Jiří Fidler)",
+      "url": "https://konev.pametnaroda.cz/biography/",
+      "publisher": "Paměť národa, exhibition “Nikogda ně zabuděm”"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Marshal of the Soviet Union from March 1944; commander-in-chief of the Warsaw Pact forces 1955–1960",
+      "principalCommands": [
+        "Western Front, 1941",
+        "1st Ukrainian Front, 1944–1945",
+        "Soviet ground forces, 1946–1950",
+        "Warsaw Pact forces, 1955–1960"
+      ],
+      "timeline": [
+        {
+          "date": "1897",
+          "event": "Born in Lodeyno, northern Russia"
+        },
+        {
+          "date": "1916",
+          "event": "Drafted into the army"
+        },
+        {
+          "date": "1918",
+          "event": "Joins the Communist Party and the Red Army; serves as a political commissar"
+        },
+        {
+          "date": "1921",
+          "event": "Takes part in suppressing the Kronstadt rebellion"
+        },
+        {
+          "date": "1926",
+          "event": "Graduates from the Frunze Military Academy"
+        },
+        {
+          "date": "October 1941",
+          "event": "His Western Front is encircled; Zhukov saves him from execution"
+        },
+        {
+          "date": "1943",
+          "event": "Commands a front in the Battle of Kursk"
+        },
+        {
+          "date": "March 1944",
+          "event": "Made marshal after the encirclement at Korsun"
+        },
+        {
+          "date": "May 1944",
+          "event": "Takes command of the 1st Ukrainian Front"
+        },
+        {
+          "date": "27 January 1945",
+          "event": "His troops liberate Auschwitz"
+        },
+        {
+          "date": "April 1945",
+          "event": "Breaks through south of Berlin and joins Zhukov in encircling the city"
+        },
+        {
+          "date": "9 May 1945",
+          "event": "His troops enter Prague during the uprising"
+        },
+        {
+          "date": "1956",
+          "event": "Crushes the Hungarian uprising"
+        },
+        {
+          "date": "1961",
+          "event": "Commands Soviet forces in East Germany during the Berlin crisis"
+        },
+        {
+          "date": "1973",
+          "event": "Dies in Moscow"
+        }
+      ],
+      "notableDecision": "In April 1945, in Stalin's race between the two fronts, he pressed his breakthrough south of Berlin on toward the city, and by 25 April he and Zhukov had encircled it.",
+      "setback": "In October 1941 his whole Western Front was encircled on the approaches to Moscow, and a vast number of its soldiers were captured."
+    }
+  },
+  {
     "slug": "dwight-d-eisenhower",
     "name": "Dwight D. Eisenhower",
     "years": "1890–1969",
@@ -4400,6 +4494,182 @@
     }
   },
   {
+    "slug": "hugh-dowding",
+    "name": "Hugh Dowding",
+    "years": "1882–1970",
+    "state": "United Kingdom",
+    "eraId": "world-wars",
+    "role": "Commander-in-Chief of RAF Fighter Command 1936–1940",
+    "summary": "Prepared Britain's fighter defences from 1930 and led Fighter Command from its creation in 1936 through the Battle of Britain, before being relieved in November 1940.",
+    "approach": "Believed that strength in fighters was the best deterrent; built on the London air defence system of 1917 a network linking radar, observers, control rooms and squadrons, known as the Dowding System.",
+    "strength": "Grasped the significance of new technology: he pressed for monoplane fighters, leading to the Hurricane and Spitfire prototypes of 1934, and funded the first radar chain. In May 1940 he warned that draining fighters into France would bring Britain's defeat.",
+    "limitation": "Cold, aloof and impatient with colleagues, he had a stormy relationship with the Air Ministry. In 1940 he was criticised for not using Big Wing tactics, for the weakness of the night defences, and for failing to resolve the quarrel between Keith Park and Trafford Leigh-Mallory.",
+    "legacy": "Removed without ceremony two months after the battle and denied the rank of Marshal of the Royal Air Force, he received a peerage and devoted himself to spiritualism and animal welfare; historians later reassessed his part in the victory.",
+    "battleSlugs": ["battle-of-britain"],
+    "source": {
+      "title": "Dowding: Architect of Victory (podcast transcript)",
+      "url": "https://www.rafmuseum.org.uk/documents/podcasts/transcripts/Dowding-Architect-Of-Victory.pdf",
+      "publisher": "Royal Air Force Museum"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Air chief marshal; Commander-in-Chief, Fighter Command 1936–1940; Baron Dowding from 1943",
+      "principalCommands": [
+        "9th Wing, Royal Flying Corps, on the Somme, 1916",
+        "Air Officer Commanding, Transjordan and Palestine, 1929",
+        "Fighter Command, 1936–1940"
+      ],
+      "timeline": [
+        {
+          "date": "1882",
+          "event": "Born in Moffat, Dumfriesshire"
+        },
+        {
+          "date": "1913",
+          "event": "Passes out of the Army Staff College and earns his pilot's wings"
+        },
+        {
+          "date": "1916",
+          "event": "Commands the 9th Wing on the Somme; clashes with Trenchard over costly patrols"
+        },
+        {
+          "date": "1930",
+          "event": "Air Member for Supply and Research, later for Research and Development"
+        },
+        {
+          "date": "1934",
+          "event": "Hurricane and Spitfire prototypes ordered"
+        },
+        {
+          "date": "July 1936",
+          "event": "Becomes Commander-in-Chief of the new Fighter Command"
+        },
+        {
+          "date": "May 1940",
+          "event": "Urges that no more fighters be sent to France"
+        },
+        {
+          "date": "12 August 1940",
+          "event": "Asked to remain in post indefinitely"
+        },
+        {
+          "date": "October 1940",
+          "event": "His handling of the battle is examined at an Air Ministry meeting"
+        },
+        {
+          "date": "November 1940",
+          "event": "Relieved of his command"
+        },
+        {
+          "date": "1942",
+          "event": "Retires"
+        },
+        {
+          "date": "1943",
+          "event": "Created a baron"
+        },
+        {
+          "date": "1970",
+          "event": "Dies at Tunbridge Wells"
+        }
+      ],
+      "notableDecision": "In his letter of May 1940 he insisted that the home fighter force must not be drained away in France.",
+      "setback": "Removed from Fighter Command in November 1940 amid criticism of his tactics, the night defences and the quarrel between his group commanders."
+    }
+  },
+  {
+    "slug": "william-slim",
+    "name": "William Slim",
+    "years": "1891–1970",
+    "state": "United Kingdom",
+    "eraId": "world-wars",
+    "role": "Commander of the Fourteenth Army in Burma 1943–1945",
+    "summary": "Led the Burma Corps' long retreat to India in 1942, then commanded the Fourteenth Army, which turned back the Japanese invasion of north-east India at Imphal and Kohima in 1944 and reconquered most of Burma in 1945.",
+    "approach": "Rebuilt his soldiers' morale, trained them for jungle warfare, and fought with defensive boxes and formations supplied by air in country without continuous front lines.",
+    "strength": "Leadership and the management of men: his troops regarded him as one of their own. He kept the 1942 retreat from becoming a rout, and in 1944 his encircled formations stood and fought, supplied from the air.",
+    "limitation": "His first battles as a senior commander were defeats: Burma Corps was driven out of Burma in 1942, and the XV Corps campaign in the Arakan in 1943 went badly, partly because the army commander, Noel Irwin, sidelined him.",
+    "legacy": "After the war he was chief of the Imperial General Staff and governor-general of Australia. His memoir, Defeat into Victory, appeared in 1956; Mountbatten called him the finest general the Second World War produced.",
+    "battleSlugs": ["imphal-kohima"],
+    "source": {
+      "title": "William Slim: The soldiers’ soldier",
+      "url": "https://www.nam.ac.uk/explore/william-slim",
+      "publisher": "National Army Museum"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Commander of the Fourteenth Army 1943–1945; field marshal and chief of the Imperial General Staff 1948–1952; Viscount Slim 1960",
+      "principalCommands": [
+        "10th Indian Brigade, East Africa, 1940",
+        "10th Indian Division, Iraq, Syria and Iran, 1941",
+        "Burma Corps, 1942",
+        "XV Corps, Arakan, 1943",
+        "Fourteenth Army, 1943–1945"
+      ],
+      "timeline": [
+        {
+          "date": "1891",
+          "event": "Born in Bristol"
+        },
+        {
+          "date": "1915",
+          "event": "Wounded at Gallipoli; later wins the Military Cross in Mesopotamia"
+        },
+        {
+          "date": "1934–1937",
+          "event": "Teaches at the Staff College, Camberley"
+        },
+        {
+          "date": "1940",
+          "event": "Commands the 10th Indian Brigade in East Africa; wounded"
+        },
+        {
+          "date": "1941",
+          "event": "Leads the 10th Indian Division in Iraq, Syria and Iran"
+        },
+        {
+          "date": "March 1942",
+          "event": "Takes command of Burma Corps and leads its retreat to India"
+        },
+        {
+          "date": "1943",
+          "event": "Commands XV Corps in the Arakan"
+        },
+        {
+          "date": "October 1943",
+          "event": "Given command of the new Fourteenth Army"
+        },
+        {
+          "date": "March–July 1944",
+          "event": "Turns back the Japanese offensive at Imphal and Kohima"
+        },
+        {
+          "date": "March 1945",
+          "event": "Meiktila and Mandalay fall"
+        },
+        {
+          "date": "3 May 1945",
+          "event": "Rangoon falls"
+        },
+        {
+          "date": "1948",
+          "event": "Becomes chief of the Imperial General Staff and field marshal"
+        },
+        {
+          "date": "1953–1960",
+          "event": "Governor-general of Australia"
+        },
+        {
+          "date": "1970",
+          "event": "Dies in London"
+        }
+      ],
+      "notableDecision": "At Imphal and Kohima in 1944 he had his encircled formations stand and fight, supplied by air, rather than retreat.",
+      "setback": "In 1942 his Burma Corps, heavily outnumbered, was driven out of Burma in a retreat of some 900 miles."
+    }
+  },
+  {
     "slug": "george-s-patton",
     "name": "George S. Patton Jr.",
     "years": "1885–1945",
@@ -4526,7 +4796,7 @@
     "slug": "gerd-von-rundstedt",
     "name": "Gerd von Rundstedt",
     "years": "1875–1953",
-    "state": "Germany",
+    "state": "Nazi Germany",
     "eraId": "world-wars",
     "role": "Army group commander; Commander-in-Chief West 1942–1945",
     "summary": "Commanded army groups in the invasions of Poland, France and the Soviet Union, and as Commander-in-Chief West faced the Allied landing in Normandy and directed the Ardennes offensive.",
@@ -4638,7 +4908,7 @@
     "slug": "erich-von-manstein",
     "name": "Erich von Manstein",
     "years": "1887–1973",
-    "state": "Germany",
+    "state": "Nazi Germany",
     "eraId": "world-wars",
     "role": "Planner of the 1940 offensive; army and army group commander",
     "summary": "Devised the plan for an armoured thrust through the Ardennes that defeated France in 1940, then commanded the 11th Army in the Crimea and an army group in the south of the Eastern Front until March 1944.",
@@ -4755,7 +5025,7 @@
     "slug": "heinz-guderian",
     "name": "Heinz Guderian",
     "years": "1888–1954",
-    "state": "Germany",
+    "state": "Nazi Germany",
     "eraId": "world-wars",
     "role": "Panzer commander; inspector general of armoured troops; chief of the general staff 1944–1945",
     "summary": "A principal architect of the German armoured force, he led a panzer corps in Poland and through the Ardennes to the Channel in 1940, and a panzer group, later the 2nd Panzer Army, against the Soviet Union in 1941.",
@@ -4860,7 +5130,7 @@
     "slug": "walter-model",
     "name": "Walter Model",
     "years": "1891–1945",
-    "state": "Germany",
+    "state": "Nazi Germany",
     "eraId": "world-wars",
     "role": "Army and army group commander; Commander-in-Chief West 1944",
     "summary": "Commanded a panzer division and corps in 1941, the 9th Army from 1942, and in 1944 a succession of army groups in the east and Army Group B in the west, which defeated the Arnhem landing and attacked in the Ardennes.",
@@ -4964,6 +5234,111 @@
       ],
       "notableDecision": "Encircled in the Ruhr in April 1945, he dissolved Army Group B to avoid a formal surrender.",
       "setback": "As Commander-in-Chief West in August 1944 he could not halt the Allied sweep through northern France."
+    }
+  },
+  {
+    "slug": "karl-donitz",
+    "name": "Karl Dönitz",
+    "years": "1891–1980",
+    "state": "Nazi Germany",
+    "eraId": "world-wars",
+    "role": "Commander of U-boats 1936–1943; commander-in-chief of the German navy 1943–1945; Hitler's successor",
+    "summary": "Rebuilt the German U-boat arm and led it in the Battle of the Atlantic, commanded the whole navy from January 1943, and was named by Hitler as his successor, briefly heading the German state in May 1945.",
+    "approach": "Trained his crews in night surface attacks and in coordinated attacks by groups of U-boats, the wolf packs, which he directed by radio from his headquarters.",
+    "strength": "Built the U-boat arm, in breach of the Treaty of Versailles, into a force that did the Allies as much damage as any German commander in the early part of the war.",
+    "limitation": "His central control by radio exposed the U-boats to Allied direction-finding, and in May 1943 losses forced him to withdraw them from the North Atlantic. A convinced follower of Hitler, he received the Nazi Party's Golden Badge in 1944. The Nuremberg tribunal found that he had kept the Commando Order in force, knew of the concentration camps and in December 1944 proposed using 12,000 camp prisoners as labour in the shipyards.",
+    "legacy": "As head of state he called for the war in the east to continue, then staged a surrender to keep escape routes open for troops and civilians in the east, and announced the unconditional surrender on 8 May 1945. Convicted at Nuremberg of crimes against peace and war crimes, he served ten years; his memoirs presented him as a military man distant from the regime.",
+    "battleSlugs": ["battle-of-the-atlantic"],
+    "source": {
+      "title": "Karl Dönitz 1891–1980 (Manfred Wichmann, LeMO, in German)",
+      "url": "https://www.dhm.de/lemo/biografie/karl-doenitz",
+      "publisher": "LeMO, Deutsches Historisches Museum"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Naval commander",
+      "titles": "Grand admiral; commander of U-boats 1936–1943; commander-in-chief of the navy 1943–1945; Reich president, May 1945",
+      "principalCommands": [
+        "U-boat arm, 1936–1943",
+        "German navy, 1943–1945",
+        "Northern military and civil command, April 1945"
+      ],
+      "timeline": [
+        {
+          "date": "1891",
+          "event": "Born in Grünau, near Berlin"
+        },
+        {
+          "date": "1910",
+          "event": "Joins the navy"
+        },
+        {
+          "date": "1914",
+          "event": "Serves on the cruiser Breslau in the Black Sea"
+        },
+        {
+          "date": "1916",
+          "event": "Transfers to the U-boat arm"
+        },
+        {
+          "date": "October 1918",
+          "event": "Captured by the British as a U-boat commander"
+        },
+        {
+          "date": "1934",
+          "event": "Commands the cruiser Emden"
+        },
+        {
+          "date": "1935–1936",
+          "event": "Begins rebuilding the U-boat arm and is appointed its commander"
+        },
+        {
+          "date": "1939",
+          "event": "Promoted rear admiral; takes charge of U-boat operations as well as organisation"
+        },
+        {
+          "date": "January 1943",
+          "event": "Replaces Raeder as commander-in-chief of the navy"
+        },
+        {
+          "date": "24 May 1943",
+          "event": "Withdraws the U-boats from the North Atlantic"
+        },
+        {
+          "date": "1944",
+          "event": "Receives the Nazi Party's Golden Badge"
+        },
+        {
+          "date": "11 December 1944",
+          "event": "Proposes using concentration camp prisoners in the shipyards"
+        },
+        {
+          "date": "May 1945",
+          "event": "Named Hitler's successor; heads a government at Flensburg"
+        },
+        {
+          "date": "8 May 1945",
+          "event": "Announces the unconditional surrender of the Wehrmacht"
+        },
+        {
+          "date": "23 May 1945",
+          "event": "Arrested by the British"
+        },
+        {
+          "date": "October 1946",
+          "event": "Sentenced at Nuremberg to ten years' imprisonment"
+        },
+        {
+          "date": "1956",
+          "event": "Released from Spandau prison"
+        },
+        {
+          "date": "1980",
+          "event": "Dies in Aumühle"
+        }
+      ],
+      "notableDecision": "On 24 May 1943, with U-boat losses unsustainable, he withdrew his boats from the North Atlantic.",
+      "setback": "In the spring of 1943 air cover, escort carriers, support groups, radar and direction-finding defeated his U-boats on the convoy routes."
     }
   },
   {

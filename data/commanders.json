@@ -4523,6 +4523,450 @@
     }
   },
   {
+    "slug": "gerd-von-rundstedt",
+    "name": "Gerd von Rundstedt",
+    "years": "1875–1953",
+    "state": "Germany",
+    "eraId": "world-wars",
+    "role": "Army group commander; Commander-in-Chief West 1942–1945",
+    "summary": "Commanded army groups in the invasions of Poland, France and the Soviet Union, and as Commander-in-Chief West faced the Allied landing in Normandy and directed the Ardennes offensive.",
+    "approach": "Left operational planning to his chiefs of staff and did not seek close contact with the troops; in May 1940 he carried out Manstein's plan only hesitantly.",
+    "strength": "Senior, experienced command of very large forces: his army groups overran the Polish defences in 1939, broke through the Ardennes to the Channel in 1940 and took most of Ukraine in 1941.",
+    "limitation": "His hesitancy helped halt the German armour before Dunkirk. In October 1941 he agreed with Reichenau's order calling for the destruction of “Jewish subhumanity”, and issued an order of his own tolerating harsh action against civilians; Neitzel describes him as entangled in the Wehrmacht's war crimes.",
+    "legacy": "After 1933 he avoided any critical reflection on the regime. In August and September 1944 he chaired the court of honour that expelled officers involved in the plot against Hitler, so that the People's Court could try them. Charged with war crimes by the British, he was released in 1949 on grounds of ill health and never tried.",
+    "battleSlugs": [
+      "poland-1939",
+      "france-1940",
+      "barbarossa",
+      "normandy",
+      "battle-of-the-bulge"
+    ],
+    "source": {
+      "title": "Rundstedt, Gerd von (Sönke Neitzel, Neue Deutsche Biographie 22, in German)",
+      "url": "https://www.deutsche-biographie.de/118939327.html",
+      "publisher": "Deutsche Biographie"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "Field marshal from July 1940; Commander-in-Chief West 1942–1944 and 1944–1945",
+      "principalCommands": [
+        "Army Group South, Poland, 1939",
+        "Army Group A, France, 1940",
+        "Army Group South, Soviet Union, 1941",
+        "Commander-in-Chief West, 1942–1944 and 1944–1945"
+      ],
+      "timeline": [
+        {
+          "date": "1875",
+          "event": "Born in Aschersleben"
+        },
+        {
+          "date": "1892",
+          "event": "Enters Infantry Regiment 83 in Kassel"
+        },
+        {
+          "date": "1914–1918",
+          "event": "General staff officer on the Western and Eastern Fronts"
+        },
+        {
+          "date": "November 1938",
+          "event": "Retires from the army"
+        },
+        {
+          "date": "September 1939",
+          "event": "Recalled to command Army Group South in the invasion of Poland"
+        },
+        {
+          "date": "May 1940",
+          "event": "Army Group A breaks through the Ardennes to the Channel coast"
+        },
+        {
+          "date": "19 July 1940",
+          "event": "Promoted field marshal"
+        },
+        {
+          "date": "22 June 1941",
+          "event": "Leads Army Group South into Ukraine"
+        },
+        {
+          "date": "October 1941",
+          "event": "Agrees with Reichenau's order against “Jewish subhumanity”"
+        },
+        {
+          "date": "December 1941",
+          "event": "Replaced by Reichenau after withdrawing from Rostov"
+        },
+        {
+          "date": "March 1942",
+          "event": "Appointed Commander-in-Chief West"
+        },
+        {
+          "date": "July 1944",
+          "event": "Removed after the Allied landing succeeds"
+        },
+        {
+          "date": "August–September 1944",
+          "event": "Chairs the army's court of honour after the 20 July plot"
+        },
+        {
+          "date": "5 September 1944",
+          "event": "Recalled as Commander-in-Chief West"
+        },
+        {
+          "date": "December 1944",
+          "event": "The Ardennes offensive opens under his overall command"
+        },
+        {
+          "date": "March 1945",
+          "event": "Relieved for the last time"
+        },
+        {
+          "date": "1949",
+          "event": "Released from British custody on grounds of ill health"
+        },
+        {
+          "date": "1953",
+          "event": "Dies in Lower Saxony"
+        }
+      ],
+      "notableDecision": "In December 1941 he withdrew Army Group South from Rostov against Hitler's orders, and was replaced.",
+      "setback": "As Commander-in-Chief West he could not defeat the Allied landing in Normandy in 1944, and the Ardennes offensive he directed that winter failed."
+    }
+  },
+  {
+    "slug": "erich-von-manstein",
+    "name": "Erich von Manstein",
+    "years": "1887–1973",
+    "state": "Germany",
+    "eraId": "world-wars",
+    "role": "Planner of the 1940 offensive; army and army group commander",
+    "summary": "Devised the plan for an armoured thrust through the Ardennes that defeated France in 1940, then commanded the 11th Army in the Crimea and an army group in the south of the Eastern Front until March 1944.",
+    "approach": "Sought surprise and concentrated armoured breakthroughs; on the defensive he wanted freedom to withdraw, and pressed Hitler, without success, for a single military commander in the east.",
+    "strength": "Operational planning: his Ardennes plan split the Allied armies in 1940, and in February and March 1943 his forces recaptured Kharkov.",
+    "limitation": "In 1941 he declared full agreement with Reichenau's order and issued his own orders demanding that the “Jewish-Bolshevik system” be exterminated. His indictment included the killing of Jews by SD Einsatzgruppen under his responsibility, the Commissar Order, hostage executions and deportations of civilians.",
+    "legacy": "Ludwig Beck and Henning von Tresckow tried to win him for the military resistance; he did not join it. A British military court in Hamburg convicted him of war crimes in December 1949; released early in 1953, he advised the West German government on building the Bundeswehr and published his memoir, Lost Victories, in 1955.",
+    "battleSlugs": [
+      "poland-1939",
+      "france-1940",
+      "barbarossa",
+      "stalingrad",
+      "kursk"
+    ],
+    "source": {
+      "title": "Erich von Manstein 1887–1973 (Alexander Mühle, Oliver Schweinoch and Arnulf Scriba, LeMO, in German)",
+      "url": "https://www.dhm.de/lemo/biografie/erich-von-manstein",
+      "publisher": "LeMO, Deutsches Historisches Museum"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Field marshal from July 1942; army group commander on the southern Eastern Front 1942–1944",
+      "principalCommands": [
+        "Chief of staff, Army Group A, 1939–1940",
+        "XXXVIII Army Corps, France, 1940",
+        "LVI Panzer Corps, 1941",
+        "11th Army, Crimea, 1941–1942",
+        "Army Group Don and the southern Eastern Front, 1942–1944"
+      ],
+      "timeline": [
+        {
+          "date": "1887",
+          "event": "Born Erich von Lewinski in Berlin; adopted by Georg von Manstein"
+        },
+        {
+          "date": "1906",
+          "event": "Joins the 3rd Foot Guards"
+        },
+        {
+          "date": "1914",
+          "event": "Seriously wounded"
+        },
+        {
+          "date": "1936",
+          "event": "Becomes deputy to Ludwig Beck, chief of the general staff"
+        },
+        {
+          "date": "September 1939",
+          "event": "Chief of staff to Rundstedt in the invasion of Poland"
+        },
+        {
+          "date": "Autumn 1939",
+          "event": "As chief of staff of Army Group A, proposes a breakthrough through the Ardennes"
+        },
+        {
+          "date": "June 1940",
+          "event": "Leads XXXVIII Army Corps across the Somme"
+        },
+        {
+          "date": "June 1941",
+          "event": "His LVI Panzer Corps advances through the Baltic states toward Leningrad"
+        },
+        {
+          "date": "September 1941",
+          "event": "Takes command of the 11th Army to conquer the Crimea"
+        },
+        {
+          "date": "October 1941",
+          "event": "Endorses Reichenau's order and issues similar orders"
+        },
+        {
+          "date": "1 July 1942",
+          "event": "Sevastopol falls; promoted field marshal"
+        },
+        {
+          "date": "December 1942",
+          "event": "Army Group Don fails to relieve the 6th Army at Stalingrad"
+        },
+        {
+          "date": "February–March 1943",
+          "event": "Recaptures Kharkov"
+        },
+        {
+          "date": "July 1943",
+          "event": "Commands the southern attack at Kursk"
+        },
+        {
+          "date": "March 1944",
+          "event": "Dismissed by Hitler"
+        },
+        {
+          "date": "December 1949",
+          "event": "Convicted of war crimes by a British military court in Hamburg"
+        },
+        {
+          "date": "7 May 1953",
+          "event": "Released early from prison"
+        },
+        {
+          "date": "1955",
+          "event": "Publishes his memoir, Lost Victories"
+        },
+        {
+          "date": "1973",
+          "event": "Dies in Irschenhausen, Upper Bavaria"
+        }
+      ],
+      "notableDecision": "Rejecting a plan on Schlieffen lines, he proposed an armoured breakthrough through the Ardennes to the Somme estuary; Hitler adopted it for the May 1940 offensive.",
+      "setback": "His relief attempt came too late to save the 6th Army at Stalingrad, and the failure of the Kursk offensive in July 1943 turned the Eastern Front definitively to the defensive."
+    }
+  },
+  {
+    "slug": "heinz-guderian",
+    "name": "Heinz Guderian",
+    "years": "1888–1954",
+    "state": "Germany",
+    "eraId": "world-wars",
+    "role": "Panzer commander; inspector general of armoured troops; chief of the general staff 1944–1945",
+    "summary": "A principal architect of the German armoured force, he led a panzer corps in Poland and through the Ardennes to the Channel in 1940, and a panzer group, later the 2nd Panzer Army, against the Soviet Union in 1941.",
+    "approach": "Independent armoured formations with motorised infantry and air support, concentrated to penetrate the enemy line at speed and encircle large forces.",
+    "strength": "Built and trained the panzer arm from the 1920s, and in the field kept his armour moving: in May 1940 his corps broke through at Sedan and reached the Channel at Abbeville.",
+    "limitation": "Hitler dismissed him in December 1941 for withdrawing against a hold order. Although he had not openly sympathised with National Socialism, he proved loyal to the regime, and in 1943 he accepted from Hitler a gift of an estate in the Warthegau.",
+    "legacy": "As a member of the army's court of honour after the 20 July plot he expelled officers of the military resistance, enabling the People's Court to try them, while shielding some, such as Hans Speidel. After American captivity he published his memoir in 1951 (in English, Panzer Leader).",
+    "battleSlugs": ["poland-1939", "france-1940", "barbarossa", "moscow-1941"],
+    "source": {
+      "title": "Heinz Guderian 1888–1954 (Arnulf Scriba, LeMO, in German)",
+      "url": "https://www.dhm.de/lemo/biografie/heinz-guderian",
+      "publisher": "LeMO, Deutsches Historisches Museum"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Colonel general from July 1940; inspector general of armoured troops 1943; acting chief of the army general staff 1944–1945",
+      "principalCommands": [
+        "2nd Panzer Division, 1935",
+        "XIX Army Corps, Poland and France, 1939–1940",
+        "Panzer Group 2, later the 2nd Panzer Army, 1941"
+      ],
+      "timeline": [
+        {
+          "date": "1888",
+          "event": "Born in Kulm, West Prussia"
+        },
+        {
+          "date": "1908",
+          "event": "Commissioned into the Jäger battalion at Goslar"
+        },
+        {
+          "date": "1924–1931",
+          "event": "Works on the motorisation of the Reichswehr"
+        },
+        {
+          "date": "October 1935",
+          "event": "Takes command of the 2nd Panzer Division"
+        },
+        {
+          "date": "1937",
+          "event": "Publishes Achtung – Panzer!"
+        },
+        {
+          "date": "November 1938",
+          "event": "Becomes chief of the mobile troops"
+        },
+        {
+          "date": "September 1939",
+          "event": "Commands XIX Army Corps in the invasion of Poland"
+        },
+        {
+          "date": "May 1940",
+          "event": "Breaks through at Sedan and reaches the Channel at Abbeville"
+        },
+        {
+          "date": "June 1941",
+          "event": "Leads Panzer Group 2 into the Soviet Union"
+        },
+        {
+          "date": "23 August 1941",
+          "event": "Fails to persuade Hitler to put Moscow before Ukraine"
+        },
+        {
+          "date": "October 1941",
+          "event": "His 2nd Panzer Army encircles Soviet forces at Bryansk"
+        },
+        {
+          "date": "25 December 1941",
+          "event": "Dismissed after ordering a withdrawal"
+        },
+        {
+          "date": "March 1943",
+          "event": "Appointed inspector general of armoured troops"
+        },
+        {
+          "date": "21 July 1944",
+          "event": "Becomes acting chief of the army general staff"
+        },
+        {
+          "date": "August 1944",
+          "event": "Sits on the army's court of honour"
+        },
+        {
+          "date": "March 1945",
+          "event": "Dismissed after clashes with Hitler"
+        },
+        {
+          "date": "1945–1948",
+          "event": "Prisoner of war of the Americans"
+        },
+        {
+          "date": "1954",
+          "event": "Dies in Schwangau, near Füssen"
+        }
+      ],
+      "notableDecision": "In December 1941, facing the Soviet winter counteroffensive, he ordered a withdrawal to spare his exhausted troops, five days after Hitler's order to hold.",
+      "setback": "His armour reached the approaches to Moscow but was driven back, and his dismissal followed."
+    }
+  },
+  {
+    "slug": "walter-model",
+    "name": "Walter Model",
+    "years": "1891–1945",
+    "state": "Germany",
+    "eraId": "world-wars",
+    "role": "Army and army group commander; Commander-in-Chief West 1944",
+    "summary": "Commanded a panzer division and corps in 1941, the 9th Army from 1942, and in 1944 a succession of army groups in the east and Army Group B in the west, which defeated the Arnhem landing and attacked in the Ardennes.",
+    "approach": "An energetic, forceful commander who went to the front to encourage his troops; known as a defensive specialist, sent from crisis to crisis on the Eastern Front.",
+    "strength": "Defence and withdrawal: in spring 1943 he led the 9th Army out of the Rzhev salient in a planned withdrawal, and in 1944 he restored a front after the collapse of Army Group Centre.",
+    "limitation": "As an optimist he tended to ignore difficulties, and would not admit that his forces were too weak for the push on Moscow. He saw himself as an apolitical officer but was a convinced anti-communist and a loyal follower of Hitler, to whom he owed his rapid rise; Bradley writes that he closed his eyes to the regime's atrocities.",
+    "legacy": "Encircled in the Ruhr in April 1945, he dissolved his army group rather than surrender it and took his own life.",
+    "battleSlugs": [
+      "barbarossa",
+      "moscow-1941",
+      "kursk",
+      "bagration",
+      "market-garden",
+      "battle-of-the-bulge"
+    ],
+    "source": {
+      "title": "Model, Walter (Dermot Bradley, Neue Deutsche Biographie 17, in German)",
+      "url": "https://www.deutsche-biographie.de/sfz63801.html",
+      "publisher": "Deutsche Biographie"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Field marshal from March 1944; Commander-in-Chief West, August–September 1944",
+      "principalCommands": [
+        "3rd Panzer Division, 1940–1941",
+        "XXXXI Panzer Corps, 1941",
+        "9th Army, 1942–1943",
+        "Army Groups North, North Ukraine and Centre, 1944",
+        "Army Group B, 1944–1945"
+      ],
+      "timeline": [
+        {
+          "date": "1891",
+          "event": "Born in Genthin"
+        },
+        {
+          "date": "1909",
+          "event": "Joins Infantry Regiment 52"
+        },
+        {
+          "date": "1914–1918",
+          "event": "Battalion adjutant, then staff officer; wounded several times"
+        },
+        {
+          "date": "1939",
+          "event": "Chief of staff of the 10th Army in the invasion of Poland"
+        },
+        {
+          "date": "1940",
+          "event": "Chief of staff of the 16th Army in France"
+        },
+        {
+          "date": "22 June 1941",
+          "event": "Leads the 3rd Panzer Division into the Soviet Union"
+        },
+        {
+          "date": "December 1941",
+          "event": "His XXXXI Panzer Corps reaches north of Moscow before being forced back"
+        },
+        {
+          "date": "January 1942",
+          "event": "Takes command of the 9th Army"
+        },
+        {
+          "date": "Spring 1943",
+          "event": "Withdraws the 9th Army from the Rzhev salient"
+        },
+        {
+          "date": "July 1943",
+          "event": "Attacks at Kursk, having advised against the offensive"
+        },
+        {
+          "date": "January 1944",
+          "event": "Takes command of Army Group North"
+        },
+        {
+          "date": "March 1944",
+          "event": "Promoted field marshal; commands Army Group North Ukraine"
+        },
+        {
+          "date": "28 June 1944",
+          "event": "Replaces Busch at the head of Army Group Centre"
+        },
+        {
+          "date": "17 August 1944",
+          "event": "Succeeds Kluge as Commander-in-Chief West"
+        },
+        {
+          "date": "September 1944",
+          "event": "Army Group B defeats the airborne landing at Arnhem"
+        },
+        {
+          "date": "December 1944",
+          "event": "Army Group B attacks in the Ardennes"
+        },
+        {
+          "date": "21 April 1945",
+          "event": "Takes his own life near Duisburg after dissolving his army group"
+        }
+      ],
+      "notableDecision": "Encircled in the Ruhr in April 1945, he dissolved Army Group B to avoid a formal surrender.",
+      "setback": "As Commander-in-Chief West in August 1944 he could not halt the Allied sweep through northern France."
+    }
+  },
+  {
     "slug": "chester-w-nimitz",
     "name": "Chester W. Nimitz",
     "years": "1885–1966",

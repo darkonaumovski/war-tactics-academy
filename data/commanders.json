@@ -74,6 +74,130 @@
     }
   },
   {
+    "slug": "darius-iii",
+    "name": "Darius III",
+    "years": "c. 380–330 BCE",
+    "state": "Achaemenid Persia",
+    "eraId": "ancient",
+    "role": "King of Persia 336–330 BCE; commander of the royal army at Issus and Gaugamela",
+    "summary": "The last Achaemenid king, placed on the throne by the general Bagoas, whom he soon eliminated, he led the royal army against Alexander at Issus in 333 and Gaugamela in 331 BCE, escaped from both fields, and was murdered by his own nobles under Bessus in 330 BCE.",
+    "approach": "Chose to meet the invader in person in a great land battle, raising armies with unprecedented speed; at Gaugamela he picked open ground for his cavalry and had it levelled for his scythed chariots.",
+    "strength": "Personal bravery, his best-attested quality, which had first brought him to notice; in 333 BCE he came down in Alexander's rear through a failure of Macedonian intelligence, and after Issus he raised and re-equipped a second great army.",
+    "limitation": "He lacked experience of major command. Fearing powerful nobles, he set up no unified command in the west, so that only a small, divided force met Alexander at the Granicus; at Issus he accepted battle on a narrow plain where his cavalry could not envelop the enemy, and at Gaugamela, by awaiting the attack, he gave up the initiative.",
+    "legacy": "Greek historians, writing centuries later and contrasting him with Alexander, charged him with cowardice for leaving both battlefields; Badian argues that he fled to save the kingdom, since no successor could have led the resistance. Alexander had his body buried among the royal tombs.",
+    "battleSlugs": ["issus", "gaugamela"],
+    "source": {
+      "title": "Darius v. Darius III (Ernst Badian)",
+      "url": "https://www.iranicaonline.org/articles/darius-v/",
+      "publisher": "Encyclopaedia Iranica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "King of Persia 336–330 BCE; earlier satrap of Armenia",
+      "principalCommands": [
+        "Royal army at Issus, 333 BCE",
+        "Royal army at Gaugamela, 331 BCE"
+      ],
+      "timeline": [
+        {
+          "date": "c. 380 BCE",
+          "event": "Born; his origins were obscure even in antiquity"
+        },
+        {
+          "date": "359–338 BCE",
+          "event": "Wins fame in single combat under Artaxerxes III; made satrap of Armenia"
+        },
+        {
+          "date": "c. 340 BCE",
+          "event": "Marries the royal princess Stateira"
+        },
+        {
+          "date": "336 BCE",
+          "event": "Made king by Bagoas, whom he soon eliminates"
+        },
+        {
+          "date": "334 BCE",
+          "event": "A small, divided Persian force is defeated at the Granicus"
+        },
+        {
+          "date": "Late 333 BCE",
+          "event": "Defeated at Issus; his mother, wife and children are captured"
+        },
+        {
+          "date": "332 BCE",
+          "event": "Offers terms, which Alexander rejects"
+        },
+        {
+          "date": "1 October 331 BCE",
+          "event": "Defeated at Gaugamela; flees to Ecbatana"
+        },
+        {
+          "date": "330 BCE",
+          "event": "Seized by Bessus and his fellow nobles and stabbed near Hecatompylus"
+        }
+      ],
+      "notableDecision": "In the autumn of 333 BCE he crossed into Syria behind Alexander and, persuaded by his advisers that victory was certain, gave battle on the narrow coastal plain of Issus.",
+      "setback": "At Gaugamela on 1 October 331 BCE Alexander broke through to his centre, where he commanded in person, and his army disintegrated as he fled."
+    }
+  },
+  {
+    "slug": "porus",
+    "name": "Porus",
+    "years": "d. c. 317 BCE",
+    "state": "Paurava (Punjab)",
+    "eraId": "ancient",
+    "role": "King of the Paurava between the Hydaspes and the Acesines; later a satrap of the Macedonian empire",
+    "summary": "King of the Paurava in the eastern Punjab, he refused to submit to Alexander, met him at the Hydaspes in 326 BCE with elephants and chariots, was wounded and defeated, and was restored as a satrap with an enlarged kingdom until a Macedonian commander had him murdered around 317 BCE.",
+    "approach": "Held the river line of the Hydaspes, expecting the monsoon to prevent a crossing, and fought with elephants in front of his infantry, since horses untrained for battle fear elephants, and chariots on the wings.",
+    "strength": "He fought on after his army was broken and surrendered only when it had been destroyed; asked how he wished to be treated, he answered “as a king”, which won Alexander's regard.",
+    "limitation": "He refused to send envoys to submit, which Livius calls a grave error given Alexander's intent to conquer India. Alexander crossed the river unseen in a thunderstorm; mud stopped the chariots, and the elephants, their drivers killed, turned on his own lines.",
+    "legacy": "Reappointed with lands to the north, he held the eastern border after Alexander's death until Eudamus had him murdered for his elephants, which opened the Indus valley to Chandragupta Maurya. Livius rejects the modern claim that Porus defeated Alexander, but grants that he was the long-term winner.",
+    "battleSlugs": ["hydaspes"],
+    "source": {
+      "title": "Porus (Jona Lendering)",
+      "url": "https://www.livius.org/articles/person/porus/",
+      "publisher": "Livius.org"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "King (Puru) of the Paurava; satrap under Alexander and his successors",
+      "principalCommands": [
+        "Army of the Paurava at the Hydaspes, 326 BCE",
+        "Satrapy on the eastern border, 326–c. 317 BCE"
+      ],
+      "timeline": [
+        {
+          "date": "Before 326 BCE",
+          "event": "Rules the Paurava between the Hydaspes and the Acesines; enemy of Omphis of Taxila"
+        },
+        {
+          "date": "Spring 326 BCE",
+          "event": "Refuses to send envoys to Alexander"
+        },
+        {
+          "date": "May 326 BCE",
+          "event": "Takes position on the east bank of the Hydaspes"
+        },
+        {
+          "date": "326 BCE",
+          "event": "Defeated and wounded at the Hydaspes; reappointed with an enlarged kingdom"
+        },
+        {
+          "date": "323 BCE",
+          "event": "Recognised at Babylon as defender of the eastern border"
+        },
+        {
+          "date": "c. 317 BCE",
+          "event": "Murdered on the orders of Eudamus, who wanted his elephants"
+        }
+      ],
+      "notableDecision": "He held the east bank of the Hydaspes against Alexander, posting a son upstream to guard against a crossing, and when the Macedonians crossed he deployed with his elephants in front of his infantry.",
+      "setback": "At the Hydaspes in 326 BCE his son was killed, his chariots stuck in the mud and his elephants stampeded through his own lines; he surrendered, wounded."
+    }
+  },
+  {
     "slug": "hannibal-barca",
     "name": "Hannibal Barca",
     "years": "247–c.183 BCE",
@@ -206,6 +330,102 @@
     }
   },
   {
+    "slug": "pompey",
+    "name": "Pompey the Great",
+    "years": "106–48 BCE",
+    "state": "Roman Republic",
+    "eraId": "ancient",
+    "role": "Roman general and statesman; consul 70, 55 and 52 BCE; commander of the Senate's forces 49–48 BCE",
+    "summary": "Raised his own legions for Sulla, won lightning campaigns in Sicily and Africa, ended the Sertorian war in Spain, cleared the sea of pirates and defeated Mithradates, then reorganised the Roman East; allied with Caesar and Crassus, he later led the Senate's side against Caesar and, beaten at Pharsalus, was killed in Egypt in 48 BCE.",
+    "approach": "A sound grasp of geography and politics, shown in his settlement of the East; in the civil war he planned to abandon Italy and use his command of the sea and the resources of the East to starve the Caesarians out.",
+    "strength": "Organisation on a grand scale: his eastern settlement formed the basis of Rome's defensive frontier for more than 500 years, and he dealt efficiently with the pirates and Rome's grain supply. At Dyrrhachium in 48 BCE he repulsed Caesar's assault and forced him to move into Thessaly.",
+    "limitation": "Ruthless and ambitious, he executed Marian leaders who surrendered to him and repeatedly refused to disband his armies in order to press the Senate. In 48 BCE, under pressure from his Optimate allies, he gave battle at Pharsalus against a commander of genius and fled his camp as it was stormed.",
+    "legacy": "Hurried on by Caesar's pursuit, he lost touch with his fleet and sought help from Ptolemy of Egypt, whose counsellors had him struck down as he stepped ashore at Pelusium on 28 September 48 BCE. His supporters fought on for three more years.",
+    "battleSlugs": ["pharsalus"],
+    "source": {
+      "title": "Pompey the Great (Eric William Gray)",
+      "url": "https://www.britannica.com/biography/Pompey-the-Great",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Magnus (“the Great”) from 81 BCE; consul 70, 55 and 52 BCE (in 52 sole consul)",
+      "principalCommands": [
+        "Legions raised in Picenum, 83 BCE",
+        "Sicily and Africa, 82–81 BCE",
+        "Spain against Sertorius",
+        "Command against the pirates, 67 BCE",
+        "Command against Mithradates and in the East, 66–62 BCE",
+        "The Senate's forces, 49–48 BCE"
+      ],
+      "timeline": [
+        {
+          "date": "106 BCE",
+          "event": "Born in Rome"
+        },
+        {
+          "date": "83 BCE",
+          "event": "Joins Sulla with three legions raised in Picenum"
+        },
+        {
+          "date": "82–81 BCE",
+          "event": "Recovers Sicily and Africa; hailed as Magnus"
+        },
+        {
+          "date": "70 BCE",
+          "event": "Consul with Crassus"
+        },
+        {
+          "date": "67 BCE",
+          "event": "Clears the sea of pirates"
+        },
+        {
+          "date": "66 BCE",
+          "event": "Given the command against Mithradates"
+        },
+        {
+          "date": "63 BCE",
+          "event": "Mithradates dies; Pompey reorganises the East"
+        },
+        {
+          "date": "62 BCE",
+          "event": "Lands at Brundisium and disbands his army"
+        },
+        {
+          "date": "59 BCE",
+          "event": "Allied with Caesar and Crassus; marries Caesar's daughter Julia"
+        },
+        {
+          "date": "54 BCE",
+          "event": "Julia dies"
+        },
+        {
+          "date": "52 BCE",
+          "event": "Sole consul"
+        },
+        {
+          "date": "49 BCE",
+          "event": "Civil war; withdraws from Italy across the Adriatic"
+        },
+        {
+          "date": "48 BCE",
+          "event": "Repulses Caesar at Dyrrhachium"
+        },
+        {
+          "date": "48 BCE",
+          "event": "Defeated at Pharsalus"
+        },
+        {
+          "date": "28 September 48 BCE",
+          "event": "Killed as he lands at Pelusium, Egypt"
+        }
+      ],
+      "notableDecision": "In 49 BCE he chose to abandon Rome and Italy to Caesar and fight from the East, relying on his command of the sea.",
+      "setback": "At Pharsalus in 48 BCE, giving battle under pressure from his allies, he was routed by Caesar and fled his camp as it was stormed."
+    }
+  },
+  {
     "slug": "julius-caesar",
     "name": "Gaius Julius Caesar",
     "years": "100–44 BCE",
@@ -267,6 +487,92 @@
       ],
       "notableDecision": "At Alesia he built lines of fortification facing both the besieged settlement and the expected relief army, instead of lifting the siege.",
       "setback": "He was repulsed at Gergovia in 52 BCE. His own account presents the reverse as troops exceeding his orders, which is self-interested testimony."
+    }
+  },
+  {
+    "slug": "augustus",
+    "name": "Augustus (Octavian)",
+    "years": "63 BCE–14 CE",
+    "state": "Roman Republic / Roman Empire",
+    "eraId": "ancient",
+    "role": "Triumvir 43–33 BCE; victor of the war against Antony and Cleopatra; first Roman emperor 27 BCE–14 CE",
+    "summary": "Adopted in Caesar's will at 18, he won over Caesar's veterans, joined Antony and Lepidus in the Second Triumvirate and its proscriptions, defeated Sextus Pompeius and then Antony and Cleopatra through Agrippa's fleets, and founded the principate as Rome's first emperor.",
+    "approach": "Left much of the fighting to his friend Agrippa, an admiral of genius, while he built his position through publicity, oaths of allegiance and land for his veterans.",
+    "strength": "Patience, skill and efficiency: after Actium he cut the legions to a standing army supported by provincial auxiliaries, created the Praetorian guard and a fleet to police the Mediterranean, and brought lasting peace to the Greco-Roman world.",
+    "limitation": "His rise was ruthless: with Antony and Lepidus he drew up the proscription lists that sent hundreds of senators and knights, Cicero among them, to their deaths. He was often ill, and Antony led at Philippi while he lay sick; his first operations against Sextus Pompeius in Sicily were disastrous.",
+    "legacy": "From 27 BCE he concealed his autocracy behind restored republican forms, ruling as princeps until his death at Nola in 14 CE; his biographer Michael Grant counts him among the major figures of classical antiquity.",
+    "battleSlugs": ["actium"],
+    "source": {
+      "title": "Augustus (Michael Grant)",
+      "url": "https://www.britannica.com/biography/Augustus-Roman-emperor",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "Gaius Julius Caesar (Octavian) from 44 BCE; triumvir 43–33 BCE; Augustus and princeps from 27 BCE",
+      "principalCommands": [
+        "Caesar's veterans in the Mutina campaign, 43 BCE",
+        "The western provinces as triumvir, 42–33 BCE",
+        "Illyricum and Dalmatia, 35–33 BCE",
+        "War against Antony and Cleopatra, 31–30 BCE"
+      ],
+      "timeline": [
+        {
+          "date": "63 BCE",
+          "event": "Born Gaius Octavius"
+        },
+        {
+          "date": "46 BCE",
+          "event": "Accompanies Caesar's triumph after the war in Africa"
+        },
+        {
+          "date": "44 BCE",
+          "event": "Adopted as Caesar's son and heir in his will"
+        },
+        {
+          "date": "43 BCE",
+          "event": "Mutina; consul; forms the Second Triumvirate and its proscriptions"
+        },
+        {
+          "date": "42 BCE",
+          "event": "Philippi, won under Antony's leadership while he was ill"
+        },
+        {
+          "date": "41–40 BCE",
+          "event": "The Perusine War"
+        },
+        {
+          "date": "36 BCE",
+          "event": "Agrippa defeats Sextus Pompeius off Naulochus; Lepidus deposed"
+        },
+        {
+          "date": "35–33 BCE",
+          "event": "Campaigns in Illyricum and Dalmatia"
+        },
+        {
+          "date": "32 BCE",
+          "event": "Declares war on Cleopatra"
+        },
+        {
+          "date": "2 September 31 BCE",
+          "event": "Actium"
+        },
+        {
+          "date": "30 BCE",
+          "event": "Annexes Egypt"
+        },
+        {
+          "date": "January 27 BCE",
+          "event": "“Restores the republic”; takes the name Augustus"
+        },
+        {
+          "date": "14 CE",
+          "event": "Dies at Nola"
+        }
+      ],
+      "notableDecision": "In 31 BCE he sent Agrippa early in the year to seize Methone, then joined him to shut Antony's fleet inside the Gulf of Ambracia, forcing the breakout that became the Battle of Actium.",
+      "setback": "His first operations against Sextus Pompeius's bases in Sicily were disastrous, and in 37 BCE he had to seek ships from Antony."
     }
   },
   {

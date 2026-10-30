@@ -720,6 +720,11 @@ export const warDetails: Record<string, WarDetails> = {
         "German offensive in the Ardennes opens the Battle of the Bulge",
       ],
       ["19 February – 26 March 1945", "Battle of Iwo Jima"],
+      ["1 April – 21 June 1945", "Battle of Okinawa"],
+      [
+        "16 April – 2 May 1945",
+        "Battle of Berlin; Hitler kills himself on 30 April",
+      ],
       ["May 1945", "Germany surrenders"],
       ["August–September 1945", "Atomic bombings; Japan surrenders"],
     ),

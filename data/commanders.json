@@ -3279,7 +3279,13 @@
     "strength": "Played major roles in the defense of Moscow and subsequent Soviet offensives.",
     "limitation": "Costly operations and disputes over credit require attention to other commanders, staffs and political direction.",
     "legacy": "His role in defeating Nazi Germany is central, alongside the human cost, coercive Soviet institutions and abuses committed by advancing forces.",
-    "battleSlugs": ["stalingrad", "kursk", "barbarossa", "moscow-1941"],
+    "battleSlugs": [
+      "stalingrad",
+      "kursk",
+      "barbarossa",
+      "moscow-1941",
+      "berlin-1945"
+    ],
     "source": {
       "title": "Georgy Zhukov: Time of Power and Forgotten Reforms",
       "url": "https://museum-vf.ru/en/exhibition/vystavka-georgiy-zhukov-en/",
@@ -3345,7 +3351,7 @@
     "strength": "Led the Don Front in the reduction of the encircled German forces at Stalingrad.",
     "limitation": "Operations near Warsaw in 1944 involved military constraints and Stalin's political calculations; explanations remain contested.",
     "legacy": "A survivor of Stalin's purges, he later held senior office in Soviet-dominated Poland, linking military reputation to disputed political authority.",
-    "battleSlugs": ["stalingrad", "kursk", "bagration"],
+    "battleSlugs": ["stalingrad", "kursk", "bagration", "berlin-1945"],
     "source": {
       "title": "The Allied Responses to the Warsaw Uprising of 1944",
       "url": "https://www.nationalww2museum.org/war/articles/allied-responses-warsaw-uprising-1944",
@@ -3674,7 +3680,7 @@
     "strength": "At Midway, concentrated limited carrier forces using advance intelligence about Japanese intentions.",
     "limitation": "Intelligence remained incomplete; amphibious advances carried severe costs and depended on industrial and logistical resources.",
     "legacy": "His career illustrates command through institutions, staffs and trusted subordinates rather than battlefield micromanagement.",
-    "battleSlugs": ["midway", "leyte-gulf", "iwo-jima"],
+    "battleSlugs": ["midway", "leyte-gulf", "iwo-jima", "okinawa"],
     "source": {
       "title": "Fleet Admiral Chester W. Nimitz",
       "url": "https://www.history.navy.mil/browse-by-topic/people/chiefs-of-naval-operations/fleet-admiral-chester-w--nimitz.html",

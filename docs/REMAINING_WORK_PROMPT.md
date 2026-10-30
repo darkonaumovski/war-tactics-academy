@@ -6,16 +6,16 @@ Paste everything below the line into a new Claude Code session opened in this re
 
 You are continuing **War Tactics Academy**, a Next.js App Router site with static export to GitHub Pages; pushes to `main` deploy automatically. Two earlier prompts drive this work: [`BATTLE_EXPANSION_PROMPT.md`](BATTLE_EXPANSION_PROMPT.md) (five collections, about 110 engagements) and [`SERBIAN_FRONT_PROMPT.md`](SERBIAN_FRONT_PROMPT.md) (complete). This prompt lists what is left, in the order to do it. Where this prompt is silent, the battle expansion prompt and its brief still apply.
 
-## Where things stand (29 October 2026, commit `866c057`)
+## Where things stand (30 October 2026, commit `cf4b2b7`)
 
-| Area                    | Done                                                                                                                                                                                                                                                                                                                                     |
-| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Engagements and studies | 109, each with a full study: Alexander (complete), Rome (complete), Napoleon (complete, 34 studies from Toulon to Waterloo, including the optional N7 batch), the First World War (complete, 30 studies including the 14 of the Serbian Front), and the original catalog                                                                 |
-| Campaigns and wars      | 66 campaigns, 33 wars; every `napoleonic` and `ww1` chronology entry checked against sources                                                                                                                                                                                                                                             |
-| Commander profiles      | 60, including 16 Serbian Front commanders; Napoleon linked to all 34 Napoleonic studies, Kutuzov to Austerlitz, Borodino and Maloyaroslavets; Foch, Haig, Mustafa Kemal and other First World War profiles linked where sources confirm                                                                                                  |
-| Learning                | 5 courses with 26 lessons; 10 decision exercises                                                                                                                                                                                                                                                                                         |
-| App                     | Readable atlas (marker groups, regions, `?battle=` links); six collection pages; catalog filters by war, campaign, commander and collection, kept in the URL, with sorting and a list view; schematic route maps on campaign and collection pages; career strips and timelines on commander pages; search by war, campaign and commander |
-| Stages                  | **Stages A, B and C are done** (Stage C pushed through `866c057`; batch W1-4 is in the commit that carries this line). Next: **Stage D**, batch W2-1.                                                                                                                                                                                    |
+| Area                    | Done                                                                                                                                                                                                                                                                                                                                                               |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Engagements and studies | 127, each with a full study: Alexander (complete), Rome (complete), Napoleon (complete, 34 studies from Toulon to Waterloo, including the optional N7 batch), the First World War (complete, 30 studies including the 14 of the Serbian Front), the Second World War (complete, 23 studies), and the original catalog                                              |
+| Campaigns and wars      | 79 campaigns, 33 wars; every `napoleonic` and `ww1` chronology entry, and every `ww2` entry for the engagements studied, checked against sources                                                                                                                                                                                                                   |
+| Commander profiles      | 60, including 16 Serbian Front commanders; Napoleon linked to all 34 Napoleonic studies, Kutuzov to Austerlitz, Borodino and Maloyaroslavets; Foch, Haig, Mustafa Kemal and other First World War profiles, and Zhukov, Rokossovsky, Eisenhower, Montgomery, Patton, Nimitz, Yamamoto, MacArthur and Rommel for the Second World War, linked where sources confirm |
+| Learning                | 5 courses with 26 lessons; 10 decision exercises                                                                                                                                                                                                                                                                                                                   |
+| App                     | Readable atlas (marker groups, regions, `?battle=` links); six collection pages; catalog filters by war, campaign, commander and collection, kept in the URL, with sorting and a list view; schematic route maps on campaign and collection pages; career strips and timelines on commander pages; search by war, campaign and commander                           |
+| Stages                  | **Stages A, B, C and D are done** (Stage D pushed through `cf4b2b7`; batch W2-5 is in the commit that carries this line). Next: **Stage E**, commander profiles.                                                                                                                                                                                                   |
 
 ## Rules that override everything else
 
@@ -76,7 +76,9 @@ All four batches were written and committed on 28 and 29 October 2026 (`f1f8c75`
 
 Existing profiles to link where a source confirms it: Foch, Haig, Brusilov, Atatürk (Gallipoli), Rommel (Caporetto), Otto von Below (his Fourteenth Army broke through at Tolmein in 1917, so Caporetto), Falkenhayn and Gallwitz (the Somme, if confirmed). Check the remaining `ww1` chronology entries, which were not verified in the Serbian Front work.
 
-## Stage D: the Second World War (5 batches)
+## Stage D: the Second World War (5 batches, done)
+
+All five batches were written and committed on 29 and 30 October 2026 (`024db95`, `26d64dd`, `15f740e`, `cf4b2b7` and the commit that carries this line); the table is kept for reference.
 
 | Batch | Engagements                                                   |
 | ----- | ------------------------------------------------------------- |
@@ -113,7 +115,7 @@ One course per remaining collection (Alexander, Rome, Napoleon, the First and Se
 | 1    | Stage A: N4–N7 (done)                                                      | done         |
 | 2    | Stage B: atlas, collections, filters, route maps, timelines, search (done) | done         |
 | 3    | Stage C: W1-1 to W1-4 (done)                                               | done         |
-| 4    | Stage D: W2-1 to W2-5                                                      | 5 sessions   |
+| 4    | Stage D: W2-1 to W2-5 (done)                                               | done         |
 | 5    | Stage E: profiles, about four per collection batch                         | 4–6 sessions |
 | 6    | Stage F: courses and scenarios                                             | 2–3 sessions |
 | 7    | Stage G: final pass                                                        | 1 session    |
@@ -128,4 +130,4 @@ A session here means roughly one batch within a Pro usage window; reading source
 - Each collection has a course and scenarios.
 - All checks pass, counts and docs are consistent, and each batch is committed separately with approval.
 
-Start with Stage D, batch W2-1, unless I say otherwise; propose its source plan before writing.
+Start with Stage E, the First World War or Second World War profiles, unless I say otherwise; propose the list of profiles and their sources before writing.

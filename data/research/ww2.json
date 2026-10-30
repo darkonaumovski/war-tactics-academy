@@ -5603,5 +5603,511 @@
         "outcome": "The island was taken at a cost among the heaviest in Marine Corps history."
       }
     ]
+  },
+  {
+    "slug": "okinawa",
+    "sources": [
+      {
+        "title": "Battle of Okinawa",
+        "url": "https://www.britannica.com/event/Battle-of-Okinawa",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Iwo Jima and Okinawa: Death at Japan’s Doorstep",
+        "url": "https://www.nationalww2museum.org/war/articles/iwo-jima-and-okinawa-death-japans-doorstep",
+        "publisher": "The National WWII Museum"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "As the battle for Iwo Jima ended in March 1945, American commanders prepared Operation Iceberg, the invasion of Okinawa. American planners expected the losses of Iwo Jima to be repeated on a much greater scale, and hoped to overwhelm the defenders with a massive bombardment and the largest amphibious landing of the Pacific War.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Okinawa, the largest of the Ryukyu Islands, lies about 563 kilometres south of Kyushu, and its capture was regarded as a vital precursor to a ground invasion of the Japanese home islands. It was the last island battle before that anticipated invasion.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The Americans aimed to take the island as a springboard for the invasion of Japan. The Japanese aimed to make the cost as high as possible, on land from prepared positions in the south and at sea with mass suicide attacks on the fleet.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Okinawa is about 100 kilometres long and at most 32 kilometres wide. Its southern part, around Naha and Shuri, was heavily fortified along high ridges, with Shuri Castle as the keystone, and its many caves gave the defenders shelter from bombardment. The island had a large civilian population. Heavy rain and rugged terrain slowed the fighting.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Under the overall command of Admiral Chester Nimitz, Admiral Raymond Spruance's Fifth Fleet oversaw the landings and Lieutenant General Simon Bolivar Buckner Jr. commanded the US Tenth Army of Army and Marine divisions. Lieutenant General Ushijima Mitsuru commanded the Japanese garrison, which had thoroughly fortified the island. Japan retained enough aircraft for mass suicide attacks.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Air and sea attacks began as early as October 1944, and in March 1945 the carriers of Task Force 58 destroyed hundreds of Japanese aircraft. On 26 March American troops landed on the Kerama Islands to the west, where they found boats assembled for suicide attacks, and artillery was placed on the islets of Keise to support the main landing.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 1 April the Tenth Army landed at Hagushi on the west coast, almost unopposed, and by 4 April had cut the island in two. On 6–7 April the Japanese struck the fleet with hundreds of kamikaze aircraft and sent the battleship Yamato on a sortie without air cover; carrier aircraft sank it on 7 April. The north of the island was cleared by 22 April. In the south the Americans met the fortified line through Naha, Shuri and Yonabaru, where the fighting was positional and savage: flame-throwing tanks led infantry against caves that had to be destroyed one by one, and the Japanese neither took prisoners nor generally surrendered. American troops entered Naha's suburbs on 12 May. Shuri fell at the turn of May and June, and the Naha airfield was taken in early June. Buckner was killed by artillery fire on 18 June while visiting a forward post, and major combat operations ended on 21 June. On 22 June Ushijima and his chief of staff killed themselves rather than surrender.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Ushijima's decision not to contest the beaches but to hold the fortified south, using caves and ridges, forced the Americans into costly frontal assaults: the Americans advanced only about 6 kilometres in the south between early April and late May. The Japanese command's reliance on mass suicide attacks at sea made the battle as costly for the navy as for the army. American commanders relied on the quantity and quality of their equipment, advancing in waves by day under heavy artillery support.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The battle for the Shuri line, from late April to the end of May, decided the campaign. Once Shuri fell, the defenders were exhausted and confined to the southern tip; Britannica notes that the Japanese lost Okinawa because they ran out of caves and boulders from which to fight and men to do the fighting.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The United States took Okinawa, at an enormous price on both sides. Both commanding generals died. Very few Japanese soldiers surrendered. The kamikaze attacks sank most of the American ships lost in the battle, and the navy suffered heavily.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The civilian population of Okinawa suffered catastrophically: Britannica writes that it was reduced by perhaps a quarter, with men, women and children killed in the fighting or ordered by the Japanese military to commit suicide, in some cases with a grenade given to a family to detonate when capture seemed near. The savagery of the battle shaped American expectations of an invasion of the home islands, which planners now expected to be terribly costly.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A defence in depth, from caves and ridges, can make every advance costly even against overwhelming firepower. Attrition at sea from suicide attacks can match the cost of the land battle. A battle fought among a civilian population makes civilians among its principal victims, and a military that orders civilians to die rather than surrender multiplies the catastrophe.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The sources give different figures for civilian deaths and military losses, and date the end of the battle to 21 or 22 June. Britannica records that American naval officers at first understated the effectiveness of the kamikaze attacks. The National WWII Museum and Britannica both link the battle's cost to American planning for the invasion of Japan.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica gives the planning, the commanders, the course of the battle, the kamikaze campaign, the civilian deaths and the battle's significance for the invasion of Japan. The National WWII Museum gives the purpose of the battle, the landing, the Shuri line, the kamikaze attacks, Buckner's death and the civilian toll.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Preliminaries",
+        "time": "October 1944 – 31 March 1945",
+        "description": "Air and carrier strikes; landings on the Kerama Islands and Keise; obstacles cleared from the beaches."
+      },
+      {
+        "title": "Landing and Yamato",
+        "time": "1–22 April 1945",
+        "description": "The Tenth Army lands unopposed and cuts the island in two; kamikaze attacks and the sinking of Yamato; the north is cleared."
+      },
+      {
+        "title": "The Shuri line",
+        "time": "Late April – early June 1945",
+        "description": "Savage positional fighting through Naha and Shuri; Shuri falls at the end of May."
+      },
+      {
+        "title": "The southern tip",
+        "time": "June 1945",
+        "description": "The last defenders are destroyed; Buckner is killed on 18 June; major combat ends on 21 June."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Simon Bolivar Buckner Jr.",
+        "objective": "Take Okinawa as a base for the invasion of Japan.",
+        "known": "Iwo Jima had shown how costly an entrenched Japanese garrison could be.",
+        "uncertainty": "Where and how the Japanese would make their stand.",
+        "constraints": "Fortified ridges and caves, heavy rain and a large civilian population.",
+        "decision": "He landed unopposed, cleared the north, then attacked the Shuri line frontally with heavy artillery support.",
+        "forces": "The US Tenth Army of Army and Marine divisions.",
+        "terrain": "The ridges and caves of southern Okinawa.",
+        "logistics": "Supplies landed over the Hagushi beaches.",
+        "outcome": "The island was taken, but he was killed on 18 June."
+      },
+      {
+        "name": "Ushijima Mitsuru",
+        "objective": "Make the American conquest of Okinawa as costly as possible.",
+        "known": "He could not prevent the landing.",
+        "uncertainty": "How long his garrison could hold the southern line.",
+        "constraints": "No hope of relief and overwhelming American firepower.",
+        "decision": "He let the Americans land and fought from the fortified line through Naha and Shuri.",
+        "forces": "The Japanese garrison of Okinawa.",
+        "terrain": "Caves, ridges and Shuri Castle in the south.",
+        "logistics": "Underground positions prepared before the landing.",
+        "outcome": "His army was destroyed, and he killed himself on 22 June."
+      },
+      {
+        "name": "Chester W. Nimitz",
+        "objective": "Take Okinawa as the last step before the invasion of Japan.",
+        "known": "Japan retained enough aircraft for mass suicide attacks on the fleet.",
+        "uncertainty": "How heavily the kamikazes would strike the fleet.",
+        "constraints": "A fleet that had to stay off the island for weeks to support the land battle.",
+        "decision": "He set the campaign in motion, with Spruance's fleet supporting the landings and the land battle under kamikaze attack.",
+        "forces": "The Pacific Fleet with Spruance's Fifth Fleet and the Tenth Army.",
+        "terrain": "The waters around Okinawa.",
+        "logistics": "A huge fleet supporting the land battle.",
+        "outcome": "The island was taken at heavy cost to the navy and the army."
+      }
+    ]
+  },
+  {
+    "slug": "berlin-1945",
+    "sources": [
+      {
+        "title": "The Battle of Berlin: Germany's downfall on the Eastern Front (Robert Rumble, video and transcript)",
+        "url": "https://www.iwm.org.uk/history/second-world-war/eastern-front/the-battle-of-berlin-germanys-downfall-on-the-eastern-front",
+        "publisher": "Imperial War Museums"
+      },
+      {
+        "title": "Battle of Berlin (John Swift)",
+        "url": "https://www.britannica.com/event/Battle-of-Berlin",
+        "publisher": "Encyclopaedia Britannica"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "In January 1945 the Red Army broke out of its bridgeheads on the Vistula, took Warsaw and advanced to the Oder, where by early February it stood about 65 kilometres from Berlin. German civilians fled west in their millions, joined by concentration camp prisoners forced on death marches, many of whom died. Stalin then halted the advance, and the Soviets cleared their flanks in Pomerania and Silesia.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Stalin mistrusted the Western Allies and wanted to take Berlin first. When the Western Allies crossed the Rhine and approached the city in early April, he accelerated the attack. Hitler and committed Nazis had no option but to fight on, and many German soldiers fought in fear of what the Soviets would do in Germany after what German forces had done in the Soviet Union.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The Soviet aim was to take Berlin and end the war. The main thrust was divided between Marshal Georgy Zhukov's 1st Belorussian Front and Marshal Ivan Konev's 1st Ukrainian Front, in what became a race for the city. The Germans aimed only to prolong the war.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The Seelow Heights west of the Oder were the only place where the Germans had any hope of stopping the Soviets, and were fortified; beyond them there was little between the Soviets and Berlin. The city, repeatedly bombed, had few fixed defences, but its ruined streets favoured the defenders and made the final advance slow.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The Soviets massed one of the largest concentrations of military power ever seen, with Zhukov's and Konev's fronts joined by Marshal Konstantin Rokossovsky's 2nd Belorussian Front in the north. The German defenders were shattered formations, stragglers and the Volkssturm militia of teenagers and old men, with Hitler Youth units, armed with the Panzerfaust.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "German intelligence had detected the Soviet build-up, but Hitler refused to believe the reports. The Germans withdrew their defenders from the first line of trenches at the Seelow Heights just before the Soviet barrage.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 16 April Zhukov's front attacked at the Seelow Heights. The barrage fell on empty trenches, and searchlights meant to blind the defenders silhouetted the attackers; Zhukov sent in his tanks before a breakthrough had been made, and they struggled on churned ground. Konev's attack further south succeeded, and on the fourth day the German line at Seelow broke. On 20 April Rokossovsky joined the attack and Soviet shells began to fall on the city. Hitler forbade retreat and ordered attacks by units that scarcely existed. By 25 April Berlin was encircled by Konev's and Zhukov's fronts. The Red Army fought through the city house by house, demolishing buildings that held defenders. Hitler killed himself on 30 April, and that evening a Soviet banner flew on the Reichstag. On 2 May the garrison surrendered; Germany capitulated at Reims on 7 May and in Berlin the next day.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Stalin's decision to split the attack between Zhukov and Konev manufactured a race for Berlin; he taunted Zhukov with giving the city to Konev, and later gave Zhukov the honour of taking the Reichstag. Britannica writes that both marshals were willing to accept enormous casualties and inflict colossal damage, and that Stalin's fixation on the symbolic Reichstag cost many Soviet lives. Zhukov's decision to send in his tanks before a breakthrough added to his losses. Hitler's refusal to allow retreat let the German Ninth Army be encircled.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The breaking of the Seelow Heights on the fourth day of the battle opened the road to Berlin, and the encirclement of the city on 25 April sealed its fate.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Berlin fell to the Red Army, and with it the Third Reich; the general surrender of German forces followed within a week. Losses on all sides were very heavy, and the city lay in ruins.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "German civilians and refugees trapped in the city suffered terribly: boys were sent to the front, civilians caught deserting were executed, and Soviet fire took no account of civilian lives. Soviet soldiers committed rape and sexual violence against German women on a vast scale; the IWM describes it as effectively state-sanctioned. The Soviet victory, the IWM notes, came from the greatest mass mobilisation in history and the immense sacrifice of the Soviet people.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Political goals, the race for Berlin and the symbolic Reichstag, can override military economy and multiply the cost of an operation. Urban assault against even scratch defenders is slow and destructive. A war waged as a war of annihilation ends in vengeance on the attacker's own civilians.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The sources date the battle from 16 April (the IWM, counting the Seelow Heights) or from 20 April (Britannica, counting the fighting for the city). They give different figures for the forces and for military and civilian losses, which the IWM notes are almost impossible to calculate for civilians. The IWM discusses why German soldiers fought to the end; Britannica stresses the cost of Stalin's fixation on the Reichstag.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Robert Rumble's account for the Imperial War Museums gives the Vistula–Oder offensive, Stalin's decisions, the Seelow Heights, the encirclement, the street fighting, the violence against civilians and the end of the war. John Swift's Britannica article gives the forces, the race between Zhukov and Konev, the urban fighting, the suffering of civilians and the surrender.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Seelow Heights",
+        "time": "16–19 April 1945",
+        "description": "Zhukov attacks at the Seelow Heights and is held for days while Konev breaks through to the south."
+      },
+      {
+        "title": "Toward the city",
+        "time": "20–25 April 1945",
+        "description": "Rokossovsky joins the attack; shells fall on Berlin; Konev and Zhukov encircle the city."
+      },
+      {
+        "title": "Street fighting",
+        "time": "26–30 April 1945",
+        "description": "The Red Army fights house by house toward the centre; Hitler kills himself on 30 April; a banner flies on the Reichstag."
+      },
+      {
+        "title": "Surrender",
+        "time": "1–2 May 1945",
+        "description": "The garrison surrenders on 2 May; Germany capitulates within a week."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Georgy Zhukov",
+        "objective": "Take Berlin with the 1st Belorussian Front.",
+        "known": "The Seelow Heights were the last fortified line before the city.",
+        "uncertainty": "How long the Germans could hold Seelow.",
+        "constraints": "Stalin's pressure and the rivalry with Konev's front.",
+        "decision": "He attacked frontally at Seelow and sent in his tanks before a breakthrough, then fought into the city and took the Reichstag.",
+        "forces": "The 1st Belorussian Front.",
+        "terrain": "The Seelow Heights, swampy ground and the ruined streets of Berlin.",
+        "logistics": "A massive concentration of artillery and armour on the Oder.",
+        "outcome": "His front broke through on the fourth day and took the centre of Berlin."
+      },
+      {
+        "name": "Konstantin Rokossovsky",
+        "objective": "Join the final offensive from the north.",
+        "known": "His front had been transferred after the fall of Königsberg.",
+        "uncertainty": "How quickly he could break through in the north.",
+        "constraints": "Late arrival in the battle.",
+        "decision": "He joined the attack on 20 April and broke through in the north.",
+        "forces": "The 2nd Belorussian Front.",
+        "terrain": "The lower Oder north of Berlin.",
+        "logistics": "A front moved from East Prussia.",
+        "outcome": "German forces in the north retreated westward."
+      },
+      {
+        "name": "Adolf Hitler",
+        "objective": "Hold Berlin and prolong the war.",
+        "known": "The Soviets were massing on the Oder; his generals called the front a house of cards.",
+        "uncertainty": "Whether the relief attacks he ordered could break the siege.",
+        "constraints": "Shattered formations, the Volkssturm and no fuel.",
+        "decision": "He refused to believe intelligence reports, forbade retreat, ordered attacks by forces that scarcely existed and stayed in Berlin.",
+        "forces": "The remnants of the German armies and the city's defenders.",
+        "terrain": "The Reich Chancellery and the ruined city.",
+        "logistics": "Units without men or fuel.",
+        "outcome": "He killed himself on 30 April; the garrison surrendered on 2 May."
+      }
+    ]
   }
 ]

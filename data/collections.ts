@@ -255,7 +255,7 @@ export const collections: Collection[] = [
     summary:
       "Engagements of the Second World War in Europe, North Africa and the Pacific.",
     introduction:
-      "The collection currently holds twenty-one studies, from the invasion of Poland in September 1939 to Iwo Jima in March 1945, with the Battle of the Atlantic running through the whole war. They show Germany's victories of 1939 and 1940, its failure over Britain and before Moscow, Japan's offensive of 1941–1942 from Pearl Harbor to Singapore and its first check in the Coral Sea, the turning of the war on Guadalcanal, in the Atlantic and in three other theatres in 1942 and 1943, the Allied offensives of 1944 in Burma, in Normandy and in Belorussia, and the last German and Japanese efforts at Arnhem, in the Ardennes, at Leyte Gulf and on Iwo Jima. They also record the war against civilians that began with the invasion of Poland, became genocide in the east and, in Singapore, brought the massacre of Chinese civilians.",
+      "The collection follows the war in twenty-three studies, from the invasion of Poland in September 1939 to the fall of Berlin and the end of the battle for Okinawa in 1945, with the Battle of the Atlantic running through the whole war. They show Germany's victories of 1939 and 1940, its failure over Britain and before Moscow, Japan's offensive of 1941–1942 from Pearl Harbor to Singapore and its first check in the Coral Sea, the turning of the war on Guadalcanal, in the Atlantic and in three other theatres in 1942 and 1943, the Allied offensives of 1944 in Burma, in Normandy and in Belorussia, the last German and Japanese efforts at Arnhem, in the Ardennes, at Leyte Gulf and on Iwo Jima, and the final battles of Okinawa and Berlin. They also record the war against civilians that began with the invasion of Poland, became genocide in the east and, in Singapore, brought the massacre of Chinese civilians.",
     arc: [
       {
         text: "In September 1939 Germany invaded Poland from three sides and the Soviet Union from the east; Poland was defeated within weeks and partitioned, and German forces shot Polish civilians, clergy, intellectuals and Jews from the first weeks. In May 1940 an armoured thrust through the Ardennes broke the French front at Sedan and reached the Channel, cutting the Allied armies in two; the British escaped from Dunkirk, and France signed an armistice in June. Over southern England in the summer and autumn of 1940, RAF Fighter Command, directed by its air defence system, denied the Luftwaffe the air superiority needed for an invasion.",
@@ -294,11 +294,13 @@ export const collections: Collection[] = [
           "iwo-jima",
         ],
       },
+      {
+        text: "In April 1945 the last great battles began in Europe and the Pacific. On Okinawa, the base needed for an invasion of Japan, the Japanese let the Americans land and fought from caves and ridges around Shuri while kamikazes struck the fleet; by June a large part of the island's civilian population had died, many ordered by the Japanese military to kill themselves. On the Oder, Zhukov's and Konev's fronts raced for Berlin, broke through at the Seelow Heights and took the city street by street; Hitler killed himself on 30 April, the garrison surrendered on 2 May and Germany capitulated within a week, amid mass violence against the city's civilians. The cost of Okinawa shaped American expectations of an invasion of Japan.",
+        studies: ["okinawa", "berlin-1945"],
+      },
     ],
     wars: ["ww2"],
     courseSlugs: ["industrial-world-wars"],
-    inProgress:
-      "Okinawa and Berlin are planned for the next batch. This arc will be rewritten when they are added.",
   },
 ];
 export const collectionBattles = (c: Collection, battles: Battle[]) =>

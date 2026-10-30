@@ -872,6 +872,229 @@
     }
   },
   {
+    "slug": "constantine-i",
+    "name": "Constantine I",
+    "years": "c. 280s–337 CE",
+    "state": "Roman Empire",
+    "eraId": "ancient",
+    "role": "Roman emperor 306–337 CE; victor at the Milvian Bridge",
+    "summary": "Acclaimed emperor by his father's army at York in 306, he fought a series of civil wars, defeated Maxentius at the Milvian Bridge in 312 and Licinius at Adrianople and Chrysopolis in 324 to become sole emperor, and was the first Roman emperor to profess Christianity; he refounded Byzantium as Constantinople.",
+    "approach": "Moved fast and sought divine support for his claims: in 312 he invaded Italy in a lightning campaign and fought in the name of the Christian God, his soldiers bearing the Christian monogram on their shields.",
+    "strength": "Decisiveness in civil war: he took the West from Maxentius in a single campaign and later the East from Licinius, and gave the empire a new capital better suited to its strategic needs than Rome.",
+    "limitation": "His rule had a ruthless side: in 326, for reasons that remain obscure, he had his eldest son Crispus and his wife Fausta killed. He suppressed paganism by law and by sporadic destruction of shrines, and his attempt to settle the Arian dispute at the Council of Nicaea failed.",
+    "legacy": "His commitment to Christianity began the empire's evolution into a Christian state and prepared the way for Byzantine and Western medieval culture. Baptised as he lay dying near Nicomedia in 337, he was buried in his Church of the Apostles in Constantinople.",
+    "battleSlugs": ["milvian-bridge"],
+    "source": {
+      "title": "Constantine I (Donald MacGillivray Nicol and others)",
+      "url": "https://www.britannica.com/biography/Constantine-I-Roman-emperor",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "Augustus, acclaimed 306; emperor of the West from 312; sole emperor 324–337",
+      "principalCommands": [
+        "His father's army in Britain and Gaul, from 306",
+        "Invasion of Italy, 312",
+        "Wars against Licinius, 316 and 324"
+      ],
+      "timeline": [
+        {
+          "date": "c. 280s CE",
+          "event": "Born at Naissus; raised at Diocletian's court in Nicomedia"
+        },
+        {
+          "date": "305",
+          "event": "Passed over when Diocletian and Maximian abdicate"
+        },
+        {
+          "date": "306",
+          "event": "Campaigns in northern Britain; acclaimed emperor at York"
+        },
+        {
+          "date": "307",
+          "event": "Marries Fausta, daughter of Maximian"
+        },
+        {
+          "date": "312",
+          "event": "Invades Italy; defeats Maxentius at the Milvian Bridge"
+        },
+        {
+          "date": "313",
+          "event": "Meets Licinius at Milan; toleration for the Christians"
+        },
+        {
+          "date": "316",
+          "event": "Takes Balkan territory from Licinius"
+        },
+        {
+          "date": "324",
+          "event": "Defeats Licinius at Adrianople and Chrysopolis; sole emperor"
+        },
+        {
+          "date": "325",
+          "event": "Opens the Council of Nicaea"
+        },
+        {
+          "date": "326",
+          "event": "Has Crispus and Fausta killed"
+        },
+        {
+          "date": "May 330",
+          "event": "Dedicates Constantinople"
+        },
+        {
+          "date": "337",
+          "event": "Baptised and dies near Nicomedia while preparing a campaign against Persia"
+        }
+      ],
+      "notableDecision": "In 312 he invaded Italy and marched on Rome, fighting Maxentius at the Milvian Bridge in the name of the Christian God.",
+      "setback": "His visit to Rome in 326 brought the greatest crisis of his reign: the killing of his son Crispus and his wife Fausta, and a breach with the city, to which he never returned."
+    }
+  },
+  {
+    "slug": "flavius-aetius",
+    "name": "Flavius Aetius",
+    "years": "d. 454 CE",
+    "state": "Western Roman Empire",
+    "eraId": "ancient",
+    "role": "Master of soldiers and patrician; the dominant figure of the Western Roman Empire 432–454 CE",
+    "summary": "A general's son who had lived as a hostage among the Visigoths and the Huns, he became master of both services in 430 and from 432 dominated the emperor Valentinian III; he fought for years in Gaul, joined the Visigoths to defeat Attila on the Catalaunian Plains in 451, and was murdered by Valentinian in 454.",
+    "approach": "Drew on his knowledge of the leading peoples of his day, gained as a hostage, to fight them or bargain with them; in 451 he built a coalition with the Visigothic king Theodoric and other peoples settled in Gaul.",
+    "strength": "Years of successful campaigning in Gaul against rebels and hostile peoples, and the coalition that drove Attila from Orléans and then, after the Catalaunian Plains, out of Gaul.",
+    "limitation": "He destroyed the Burgundian kingdom at Worms mercilessly in 435–437, and when Attila invaded Italy in 452 and sacked its northern cities, he could do little to stop him.",
+    "legacy": "Consul three times, a distinction unique for someone outside the imperial family, he was murdered by Valentinian at the height of his power, at the instigation of Petronius Maximus. The fall of the Burgundians is remembered in the Nibelungenlied.",
+    "battleSlugs": ["catalaunian-plains"],
+    "source": {
+      "title": "Flavius Aetius",
+      "url": "https://www.britannica.com/biography/Flavius-Aetius",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "Master of both services from 430; patrician from 435; consul 432, 437 and 446",
+      "principalCommands": [
+        "Supporter of the usurper John in Italy, 423–425",
+        "Roman forces in Gaul, 430s",
+        "Roman and allied army against Attila, 451"
+      ],
+      "timeline": [
+        {
+          "date": "423–425",
+          "event": "Supports the usurper John in Italy"
+        },
+        {
+          "date": "430",
+          "event": "Made master of both services after victories in Gaul"
+        },
+        {
+          "date": "432",
+          "event": "Consul; after Bonifacius's death gains control over Valentinian III"
+        },
+        {
+          "date": "435",
+          "event": "Made patrician"
+        },
+        {
+          "date": "435–437",
+          "event": "Destroys the Burgundian kingdom at Worms"
+        },
+        {
+          "date": "437–439",
+          "event": "Checks the Visigoths at Toulouse"
+        },
+        {
+          "date": "440",
+          "event": "Returns to Italy"
+        },
+        {
+          "date": "451",
+          "event": "Allies with the Visigoths; relieves Orléans and defeats Attila on the Catalaunian Plains"
+        },
+        {
+          "date": "452",
+          "event": "Unable to stop Attila's invasion of Italy"
+        },
+        {
+          "date": "21 September 454",
+          "event": "Murdered by Valentinian III"
+        }
+      ],
+      "notableDecision": "In 451, with Attila already in Gaul, he reached an agreement with the Visigothic king Theodoric I to combine their forces, and together they forced the Huns back from Orléans.",
+      "setback": "In 452 Attila invaded Italy and sacked Aquileia, Milan and other cities, and Aetius could do nothing to halt him."
+    }
+  },
+  {
+    "slug": "attila",
+    "name": "Attila",
+    "years": "d. 453 CE",
+    "state": "Huns",
+    "eraId": "ancient",
+    "role": "King of the Huns 434–453 CE, jointly with his brother Bleda until about 445",
+    "summary": "Ruler of a Hunnic empire stretching from the Alps and the Baltic toward the Caspian, he extorted ever larger tribute from the Eastern Roman Empire through his invasions of 441–443 and 447, invaded Gaul in 451, where Aetius and the Visigoths turned him back, sacked the cities of northern Italy in 452, and died in 453.",
+    "approach": "Combined war and diplomacy to extract tribute: he struck the Danube frontier when Roman forces were busy elsewhere, razed its cities, and then imposed treaties that multiplied the gold paid to him.",
+    "strength": "His successes before 451 show an outstanding commander: he destroyed the Eastern Roman forces in a series of battles in 443 and defeated them again in 447. Priscus, who met him, found him irritable and truculent but a very persistent negotiator and by no means pitiless.",
+    "limitation": "His archers could not attack the walls of Constantinople, and the Catalaunian Plains in 451 was his first and only defeat; in Italy in 452 famine and pestilence forced him to withdraw without crossing the Apennines. Around 445 he murdered his brother Bleda to rule alone.",
+    "legacy": "He died in his sleep on the night after his marriage in 453, and his sons divided his empire. He lives on in legend as Etzel in the Nibelungenlied and Atli in the Icelandic sagas.",
+    "battleSlugs": ["catalaunian-plains"],
+    "source": {
+      "title": "Attila (E. A. Thompson)",
+      "url": "https://www.britannica.com/biography/Attila-king-of-the-Huns",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "King of the Huns 434–453 CE",
+      "principalCommands": [
+        "Invasions of the Eastern Roman Empire, 441–443 and 447",
+        "Invasion of Gaul, 451",
+        "Invasion of Italy, 452"
+      ],
+      "timeline": [
+        {
+          "date": "434",
+          "event": "Becomes joint ruler with Bleda; the treaty of Margus doubles the Roman subsidies"
+        },
+        {
+          "date": "441",
+          "event": "Attacks the Danube frontier and razes Singidunum"
+        },
+        {
+          "date": "443",
+          "event": "Destroys Naissus and Serdica and the Roman forces at Gallipoli; trebles the tribute"
+        },
+        {
+          "date": "c. 445",
+          "event": "Murders Bleda and rules alone"
+        },
+        {
+          "date": "447",
+          "event": "Invades the Balkan provinces again; stopped at Thermopylae"
+        },
+        {
+          "date": "450",
+          "event": "Claims Honoria, the emperor's sister, and half the Western Empire"
+        },
+        {
+          "date": "451",
+          "event": "Invades Gaul; nearly takes Orléans; defeated on the Catalaunian Plains"
+        },
+        {
+          "date": "452",
+          "event": "Invades Italy and sacks its northern cities"
+        },
+        {
+          "date": "453",
+          "event": "Dies on the night after his marriage"
+        }
+      ],
+      "notableDecision": "In 451, claiming Honoria as his wife and half the Western Empire as her dowry, he invaded Gaul, announcing that his target was the Visigothic kingdom of Toulouse.",
+      "setback": "After fierce fighting on the Catalaunian Plains in 451, in which the Visigothic king was killed, he withdrew and soon left Gaul: his first and only defeat."
+    }
+  },
+  {
     "slug": "belisarius",
     "name": "Belisarius",
     "years": "c.500–565",

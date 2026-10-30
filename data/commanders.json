@@ -576,6 +576,302 @@
     }
   },
   {
+    "slug": "marcus-agrippa",
+    "name": "Marcus Vipsanius Agrippa",
+    "years": "c. 63–12 BCE",
+    "state": "Roman Republic / Roman Empire",
+    "eraId": "ancient",
+    "role": "Octavian's general and admiral; commander of the fleet at Actium; Augustus's deputy",
+    "summary": "Octavian's friend from youth, he won the Perusine War, governed Gaul and crossed the Rhine, built a new fleet and harbour to defeat Sextus Pompeius at Mylae and Naulochus in 36 BCE, and commanded the fleet at Actium; for twenty years he was Augustus's deputy, builder and designated successor.",
+    "approach": "Thorough preparation: before Naulochus he built a harbour near Puteoli, trained his crews on Lake Avernus and introduced a new kind of harpoon; before Actium he cut Antony's sea communications from the south, so that hunger forced Antony to fight.",
+    "strength": "Octavian regarded him as the better military leader and left the decisive battles to him. His biographer G. W. Bowersock judges that without Agrippa, Octavian might never have become emperor.",
+    "limitation": "Of modest birth but not a modest man, he was disliked by the Roman aristocracy, and his power depended wholly on Octavian's favour. At Actium he could not prevent Antony and Cleopatra from escaping to Egypt. Lendering thinks the image of a selfless servant of the state probably a bit too kind.",
+    "legacy": "He built the Pantheon, aqueducts and baths in Rome and roads in Gaul, married Augustus's daughter Julia, and held tribunician power as Augustus's colleague; his grandson Caligula and great-grandson Nero became emperors. He died in Campania in 12 BCE.",
+    "battleSlugs": ["actium"],
+    "source": {
+      "title": "M. Vipsanius Agrippa (Jona Lendering, in four parts)",
+      "url": "https://www.livius.org/articles/person/vipsanius-agrippa/",
+      "publisher": "Livius.org"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Naval commander",
+      "titles": "Consul 37, 28 and 27 BCE; aedile 33 BCE; tribunician power from 18 BCE",
+      "principalCommands": [
+        "Perusine War, 41–40 BCE",
+        "Gaul and the Rhine, 39–38 BCE",
+        "Fleet against Sextus Pompeius, 37–36 BCE",
+        "Fleet at Actium, 31 BCE",
+        "Spain against the Cantabrians, 19 BCE",
+        "The eastern provinces as Augustus's deputy"
+      ],
+      "timeline": [
+        {
+          "date": "c. 63 BCE",
+          "event": "Born to a provincial family"
+        },
+        {
+          "date": "44 BCE",
+          "event": "With Octavian at Apollonia when Caesar is murdered"
+        },
+        {
+          "date": "43 BCE",
+          "event": "Tribune of the plebs"
+        },
+        {
+          "date": "41–40 BCE",
+          "event": "Defeats the army sent to relieve Lucius Antonius at Perusia"
+        },
+        {
+          "date": "39–38 BCE",
+          "event": "Governs Gaul; crosses the Rhine and resettles the Ubii"
+        },
+        {
+          "date": "37 BCE",
+          "event": "Consul; builds a harbour and fleet near Puteoli"
+        },
+        {
+          "date": "36 BCE",
+          "event": "Defeats Sextus Pompeius at Mylae and Naulochus; awarded a naval crown"
+        },
+        {
+          "date": "33 BCE",
+          "event": "Aedile; rebuilds Rome's aqueducts and sewers"
+        },
+        {
+          "date": "2 September 31 BCE",
+          "event": "Commands Octavian's fleet at Actium"
+        },
+        {
+          "date": "28–27 BCE",
+          "event": "Consul with Octavian"
+        },
+        {
+          "date": "23 BCE",
+          "event": "Receives the ailing Augustus's signet ring"
+        },
+        {
+          "date": "21 BCE",
+          "event": "Marries Augustus's daughter Julia"
+        },
+        {
+          "date": "19 BCE",
+          "event": "Subdues the Cantabrians in Spain"
+        },
+        {
+          "date": "18 BCE",
+          "event": "Granted tribunician power"
+        },
+        {
+          "date": "March 12 BCE",
+          "event": "Dies in Campania"
+        }
+      ],
+      "notableDecision": "In 31 BCE he sailed to southern Greece and seized bases that cut Antony's sea communications, leaving Antony's army at Actium short of food and forced to fight.",
+      "setback": "At Actium Antony and Cleopatra broke out with part of their fleet and escaped to Egypt, prolonging the war into 30 BCE."
+    }
+  },
+  {
+    "slug": "arminius",
+    "name": "Arminius",
+    "years": "c. 17 BCE–21 CE",
+    "state": "Cherusci",
+    "eraId": "ancient",
+    "role": "Cheruscan war leader; destroyer of Varus's legions in 9 CE",
+    "summary": "A Cheruscan noble who served as an officer in the Roman army and held Roman citizenship and equestrian rank, he led Varus and three legions into an ambush in 9 CE, fought Germanicus to a standstill in 15–16 CE, defeated Maroboduus in 17, and was killed by his own relatives around 21 CE.",
+    "approach": "Used his knowledge of the Roman army and Varus's trust, as leader of the Cheruscan auxiliaries, to draw the legions away from their bases into ground where they could not fight in formation.",
+    "strength": "Bravery and cunning, with calm judgment: he restrained his companions from storming a Roman camp in the flush of victory, and in 16 CE skilfully survived a full-scale Roman attack. His resistance led Rome to give up the conquest of the land beyond the Rhine.",
+    "limitation": "In 15 CE Germanicus captured his wife Thusnelda, whom he had taken without her father's consent; his battles of 15 and 16 CE against the Romans were indecisive. His attempt to keep a war leader's authority in peacetime, which Tacitus calls a bid for kingship, led his kinsmen to kill him.",
+    "legacy": "Tacitus called him unquestionably the liberator of Germany, and the nineteenth century made him, as Hermann, a German national hero, though in his day a united Germany was not even an ideal.",
+    "battleSlugs": ["teutoburg"],
+    "source": {
+      "title": "Arminius (Johannes Bühler, Neue Deutsche Biographie 1, in German)",
+      "url": "https://www.deutsche-biographie.de/118504037.html",
+      "publisher": "Deutsche Biographie"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Roman citizen and knight; war leader of the Cherusci",
+      "principalCommands": [
+        "Cheruscan auxiliaries in Roman service",
+        "Germanic coalition against Varus, 9 CE",
+        "Germanic forces against Germanicus, 14–16 CE",
+        "War against Maroboduus, 17 CE"
+      ],
+      "timeline": [
+        {
+          "date": "c. 17 BCE",
+          "event": "Born into a leading Cheruscan family, son of Segimer"
+        },
+        {
+          "date": "1–3 CE",
+          "event": "Probably serves with the Roman army in the East"
+        },
+        {
+          "date": "9 CE",
+          "event": "Destroys Varus and three legions in the Teutoburg Forest"
+        },
+        {
+          "date": "14–16 CE",
+          "event": "Fights Germanicus's campaigns east of the Rhine"
+        },
+        {
+          "date": "15 CE",
+          "event": "His wife Thusnelda is captured by Germanicus"
+        },
+        {
+          "date": "16 CE",
+          "event": "Survives a full-scale Roman attack; Rome then limits itself to the Rhine"
+        },
+        {
+          "date": "17 CE",
+          "event": "Defeats Maroboduus, king of the Marcomanni"
+        },
+        {
+          "date": "c. 21 CE",
+          "event": "Killed by his own relatives"
+        }
+      ],
+      "notableDecision": "In 9 CE, trusted by Varus as leader of the Cheruscan auxiliaries, he drew the Roman army into an ambush in the Teutoburg Forest and almost destroyed it.",
+      "setback": "In 15 CE Germanicus captured his wife Thusnelda when he relieved her father Segestes, who had sided with Rome."
+    }
+  },
+  {
+    "slug": "boudica",
+    "name": "Boudica",
+    "years": "d. 60 or 61 CE",
+    "state": "Iceni",
+    "eraId": "ancient",
+    "role": "Queen of the Iceni; leader of the British revolt against Rome in 60–61 CE",
+    "summary": "Widow of the Icenian client king Prasutagus, she was flogged and her daughters raped when Rome seized his kingdom; she led the Iceni, the Trinovantes and other peoples in a revolt that destroyed Camulodunum, Londinium and Verulamium and a detachment of the Ninth Legion, until Suetonius Paulinus defeated her army near Watling Street.",
+    "approach": "Struck while the governor and his army were far away on Mona, bypassing forts and garrisons to fall on the towns where plunder was richest and protection weakest.",
+    "strength": "She raised a rebellion across East Anglia and drew in neighbouring peoples with their own grievances against Roman veterans and officials; Cassius Dio, writing more than a century later, makes her the leader who directed the whole war.",
+    "limitation": "Her army attacked Paulinus on ground of his choosing, in a defile with woods behind him and open ground in front; compressed, and then blocked by their own wagons, the Britons were routed and massacred. In the towns her rebels had slaughtered the inhabitants without taking prisoners.",
+    "legacy": "She died soon after the defeat, by poison according to Tacitus, or of shock or illness; famine and Roman reprisals followed. She later became a national heroine of England.",
+    "battleSlugs": ["watling-street"],
+    "source": {
+      "title": "Boudica (Boudicca)",
+      "url": "https://penelope.uchicago.edu/encyclopaedia_romana/britannia/boudica/boudicanrevolt.html",
+      "publisher": "Encyclopaedia Romana, University of Chicago"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "Queen of the Iceni, widow of King Prasutagus",
+      "principalCommands": [
+        "The Iceni, the Trinovantes and allied British peoples, 60–61 CE",
+        "The attacks on Camulodunum, Londinium and Verulamium"
+      ],
+      "timeline": [
+        {
+          "date": "43 CE",
+          "event": "Claudius invades Britain"
+        },
+        {
+          "date": "60 CE",
+          "event": "Prasutagus dies; his kingdom is plundered, Boudica flogged and her daughters raped"
+        },
+        {
+          "date": "60 CE",
+          "event": "The revolt destroys the colony of Camulodunum and its temple of Claudius"
+        },
+        {
+          "date": "60 CE",
+          "event": "A detachment of the Ninth Legion under Petillius Cerialis is ambushed"
+        },
+        {
+          "date": "60 or 61 CE",
+          "event": "Londinium and Verulamium are sacked"
+        },
+        {
+          "date": "60 or 61 CE",
+          "event": "Defeated by Suetonius Paulinus; dies soon afterwards"
+        }
+      ],
+      "notableDecision": "She rose while the governor Suetonius Paulinus and his army were campaigning on Mona, far to the west, and struck first at the hated veteran colony of Camulodunum.",
+      "setback": "In the final battle, possibly fought at Mancetter on Watling Street, her army attacked the Roman line in a defile and was routed and slaughtered."
+    }
+  },
+  {
+    "slug": "titus",
+    "name": "Titus",
+    "years": "39–81 CE",
+    "state": "Roman Empire",
+    "eraId": "ancient",
+    "role": "Commander in the Jewish war 69–70 CE; Roman emperor 79–81 CE",
+    "summary": "Son of Vespasian, he served in Britain and Germany, commanded a legion in Judaea in 67, took charge of the Jewish war when his father became emperor, and captured and destroyed Jerusalem in 70; he succeeded Vespasian as emperor in 79 and died in 81.",
+    "approach": "At Jerusalem, with the experienced Tiberius Julius Alexander as his chief adviser, he breached the walls one after another and, when his assaults stalled, turned to starvation, enclosing the city with a palisade and crucifying people caught leaving it.",
+    "strength": "Energy and political skill: he promoted his father's claim to the throne, took the city within five months, and as emperor was popular for his affability and for his relief of Campania after Vesuvius and of Rome after the fire of 80.",
+    "limitation": "He was an inexperienced general when he took over the war, and he ended it with mass crucifixions, the burning of the Temple and the enslavement of the survivors. Josephus says the soldiers fired the Temple, but Sulpicius Severus, probably following Tacitus, says Titus ordered it, and Lendering thinks Josephus shielded his patron.",
+    "legacy": "He shared a triumph with Vespasian in 71 and commanded the Praetorian Guard, and as emperor completed the Colosseum. The Arch of Titus, showing the spoils of the Temple, still stands in the Roman Forum.",
+    "battleSlugs": ["jerusalem-70"],
+    "source": {
+      "title": "Titus",
+      "url": "https://www.britannica.com/biography/Titus",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Praetorian prefect from 71; emperor 79–81 CE",
+      "principalCommands": [
+        "Military tribune in Germany and Britain",
+        "Legion in Judaea under Vespasian, 67",
+        "The Jewish war, 69–70",
+        "Praetorian Guard, 71–79"
+      ],
+      "timeline": [
+        {
+          "date": "39 CE",
+          "event": "Born in Rome, son of Vespasian"
+        },
+        {
+          "date": "c. 60 CE",
+          "event": "Military tribune in Germany and Britain"
+        },
+        {
+          "date": "67 CE",
+          "event": "Commands a legion under his father in Judaea"
+        },
+        {
+          "date": "69 CE",
+          "event": "Given charge of the Jewish war when Vespasian becomes emperor"
+        },
+        {
+          "date": "14 April 70 CE",
+          "event": "Begins the siege of Jerusalem"
+        },
+        {
+          "date": "10 August 70 CE",
+          "event": "The Temple burns"
+        },
+        {
+          "date": "September 70 CE",
+          "event": "Jerusalem is taken"
+        },
+        {
+          "date": "71 CE",
+          "event": "Triumph with Vespasian; commander of the Praetorian Guard"
+        },
+        {
+          "date": "June 79 CE",
+          "event": "Succeeds Vespasian as emperor"
+        },
+        {
+          "date": "80 CE",
+          "event": "Opens the Colosseum"
+        },
+        {
+          "date": "13 September 81 CE",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "When his siege dams against the Antonia fortress were destroyed in 70, he turned to starvation, enclosing Jerusalem with a palisade built in three days.",
+      "setback": "The defenders destroyed his first siege dams against the Antonia, and his troops were driven out of the New Town before they retook the second wall."
+    }
+  },
+  {
     "slug": "belisarius",
     "name": "Belisarius",
     "years": "c.500–565",

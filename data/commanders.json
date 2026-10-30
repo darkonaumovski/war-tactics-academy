@@ -3562,6 +3562,323 @@
     }
   },
   {
+    "slug": "john-jellicoe",
+    "name": "John Jellicoe",
+    "years": "1859–1935",
+    "state": "United Kingdom",
+    "eraId": "world-wars",
+    "role": "Commander-in-chief of the Grand Fleet; First Sea Lord 1916–1917",
+    "summary": "Commanded the British Grand Fleet from 1914 to 1916, including at Jutland, the strategic victory that maintained British command of the sea, and as First Sea Lord organised the Admiralty's response to the U-boat offensive.",
+    "approach": "An arch-centraliser by caution and long conditioning, whose Grand Fleet battle orders restricted his subordinates' initiative; his mission was the economic blockade of Germany.",
+    "strength": "A gunnery specialist and technologist who helped design the Dreadnought; at Jutland his deployment secured the best light, put his fleet between Scheer and his bases and crossed the German T. He kept up the fleet's morale through humane leadership.",
+    "limitation": "Made no effort to regain contact at night after Jutland; as First Sea Lord he lacked the political acumen and outgoing personality the post demanded, and his pessimism annoyed Lloyd George.",
+    "legacy": "Jutland confirmed British command of the sea, and his Admiralty work led to the defeat of the U-boats in 1918. He was buried in St Paul's Cathedral, close to Nelson.",
+    "battleSlugs": ["jutland"],
+    "source": {
+      "title": "Jellicoe, John Rushworth Jellicoe, Earl (Andrew Lambert)",
+      "url": "https://encyclopedia.1914-1918-online.net/article/jellicoe-john-rushworth-jellicoe-earl/",
+      "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Naval commander",
+      "titles": "Admiral; commander-in-chief of the Grand Fleet 1914–1916; First Sea Lord 1916–1917; 1st Earl Jellicoe",
+      "principalCommands": [
+        "Grand Fleet, 1914–1916",
+        "First Sea Lord, 1916–1917"
+      ],
+      "timeline": [
+        {
+          "date": "1859",
+          "event": "Born in Southampton"
+        },
+        {
+          "date": "1874",
+          "event": "Enters the Royal Navy; later specialises in gunnery"
+        },
+        {
+          "date": "1912",
+          "event": "Fisher persuades Churchill to arrange that Jellicoe will command the Grand Fleet in 1914"
+        },
+        {
+          "date": "4 August 1914",
+          "event": "Becomes commander-in-chief of the Grand Fleet at Scapa Flow"
+        },
+        {
+          "date": "31 May 1916",
+          "event": "Commands the Grand Fleet at Jutland"
+        },
+        {
+          "date": "4 December 1916",
+          "event": "Appointed First Sea Lord"
+        },
+        {
+          "date": "1917",
+          "event": "Creates an anti-submarine division of the naval staff as unrestricted submarine warfare begins"
+        },
+        {
+          "date": "24 December 1917",
+          "event": "Dismissed as First Sea Lord"
+        },
+        {
+          "date": "1935",
+          "event": "Dies in London; buried in St Paul's Cathedral"
+        }
+      ],
+      "notableDecision": "At Jutland he deployed his battleships from six columns into a single line ahead, crossing the German T and placing his fleet between Scheer and his bases.",
+      "setback": "He made no effort to regain contact at night, and Scheer escaped through the rear of the British fleet."
+    }
+  },
+  {
+    "slug": "reinhard-scheer",
+    "name": "Reinhard Scheer",
+    "years": "1863–1928",
+    "state": "German Empire",
+    "eraId": "world-wars",
+    "role": "Commander of the High Seas Fleet; chief of the naval war command 1918",
+    "summary": "Commanded the German High Seas Fleet from January 1916 and led it at Jutland, where he escaped the Grand Fleet; in 1918 he headed a unified naval war command.",
+    "approach": "Sought to lure out and defeat parts of the British fleet with repeated sorties, and after Jutland favoured unrestricted submarine warfare.",
+    "strength": "At Jutland he twice turned his battle fleet away under cover of torpedo attacks and broke through the rear of the British fleet at night to reach home.",
+    "limitation": "Jutland was not a strategic success, as he acknowledged within the navy; unrestricted submarine warfare did not bring the results he hoped for, and he acted ruthlessly against protesting sailors in 1917.",
+    "legacy": "In the 1920s he used his reputation as the victor of the Skagerrak, in memoirs and lectures, to justify his conduct and to argue for rebuilding a strong fleet.",
+    "battleSlugs": ["jutland"],
+    "source": {
+      "title": "Scheer, Reinhard (Michael Epkenhans, Neue Deutsche Biographie 22, in German)",
+      "url": "https://www.deutsche-biographie.de/sfz111196.html",
+      "publisher": "Deutsche Biographie"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Naval commander",
+      "titles": "Admiral; commander of the High Seas Fleet 1916–1918; chief of the naval war command 1918",
+      "principalCommands": [
+        "II and III Battle Squadrons, from 1913",
+        "High Seas Fleet, 1916–1918",
+        "Naval war command (Seekriegsleitung), 1918"
+      ],
+      "timeline": [
+        {
+          "date": "1863",
+          "event": "Born in Obernkirchen"
+        },
+        {
+          "date": "1879",
+          "event": "Enters the Imperial Navy as a cadet"
+        },
+        {
+          "date": "1903–1907",
+          "event": "Heads the central department of the Reich Navy Office under Tirpitz"
+        },
+        {
+          "date": "1913",
+          "event": "Takes command of a battle squadron"
+        },
+        {
+          "date": "January 1916",
+          "event": "Succeeds Hugo von Pohl as commander of the High Seas Fleet"
+        },
+        {
+          "date": "31 May 1916",
+          "event": "Leads the High Seas Fleet at Jutland"
+        },
+        {
+          "date": "9 January 1917",
+          "event": "Unrestricted submarine warfare is proclaimed"
+        },
+        {
+          "date": "August 1918",
+          "event": "Sets up and heads a unified naval war command"
+        },
+        {
+          "date": "October 1918",
+          "event": "Plans a final fleet sortie, prevented by mutinies at Kiel and Wilhelmshaven"
+        },
+        {
+          "date": "17 December 1918",
+          "event": "Leaves the navy"
+        },
+        {
+          "date": "1928",
+          "event": "Dies in Marktredwitz"
+        }
+      ],
+      "notableDecision": "In May 1916 he planned to draw the British fleet over a submarine ambush and engage part of it, leading to the Battle of Jutland.",
+      "setback": "Jutland left British command of the sea intact, and his final sortie of October 1918, which Epkenhans judges militarily pointless, was prevented by mutinies in the fleet."
+    }
+  },
+  {
+    "slug": "philippe-petain",
+    "name": "Philippe Pétain",
+    "years": "1856–1951",
+    "state": "France",
+    "eraId": "world-wars",
+    "role": "Defender of Verdun; general-in-chief of the French armies 1917–1918",
+    "summary": "Organised the defence of Verdun in 1916 and, as general-in-chief from May 1917, brought the French army through the mutinies; as head of the Vichy regime from 1940 he led France into collaboration with Nazi Germany.",
+    "approach": "Before the war a maverick who stressed firepower against the doctrine of the offensive; in the war he combined defensive actions with limited-goal attacks rather than gaining ground at any cost.",
+    "strength": "At Verdun he showed mastery of front-line design, logistics and resource management and was trusted by his soldiers; in 1917 he answered the mutinies by halting offensives and improving leave and the rear areas.",
+    "limitation": "The materiel-based defensive doctrine he shaped between the wars contributed, with German boldness, to the French rout of May 1940.",
+    "legacy": "The “victor of Verdun” used his reputation in 1940 to negotiate the armistice and headed the collaborationist Vichy regime, which endorsed antisemitic policies. In 1945 he was sentenced to death for high treason and stripped of his titles, and he died in exile on the Île d'Yeu.",
+    "battleSlugs": ["verdun"],
+    "source": {
+      "title": "Pétain, Philippe (Olivier Cosson)",
+      "url": "https://encyclopedia.1914-1918-online.net/article/petain-philippe/",
+      "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "General-in-chief of the French armies 1917–1918; Marshal of France 1918 (titles revoked in 1945); head of the Vichy regime from 1940",
+      "principalCommands": [
+        "33rd Army Corps, 1915",
+        "Second Army, 1915–1916",
+        "Groupe d'armées du Centre, 1916–1917",
+        "General-in-chief of the French armies, 1917–1918"
+      ],
+      "timeline": [
+        {
+          "date": "1856",
+          "event": "Born in Cauchy-à-la-Tour"
+        },
+        {
+          "date": "1876",
+          "event": "Enters Saint-Cyr"
+        },
+        {
+          "date": "1901–1911",
+          "event": "Teaches applied tactics at the École supérieure de guerre"
+        },
+        {
+          "date": "August–September 1914",
+          "event": "Commands a brigade and is promoted; fights at the Marne"
+        },
+        {
+          "date": "June 1915",
+          "event": "Takes command of the Second Army"
+        },
+        {
+          "date": "February 1916",
+          "event": "Ordered by Joffre to defend Verdun"
+        },
+        {
+          "date": "May 1916",
+          "event": "Takes command of the Groupe d'armées du Centre"
+        },
+        {
+          "date": "15 May 1917",
+          "event": "Appointed general-in-chief; ends the mutinies by mid-June"
+        },
+        {
+          "date": "19 November 1918",
+          "event": "Made Marshal of France"
+        },
+        {
+          "date": "1934",
+          "event": "Minister of War"
+        },
+        {
+          "date": "1940",
+          "event": "Negotiates the armistice and heads the collaborationist Vichy regime"
+        },
+        {
+          "date": "1945",
+          "event": "Sentenced to death for high treason; exiled to the Île d'Yeu"
+        },
+        {
+          "date": "1951",
+          "event": "Dies on the Île d'Yeu"
+        }
+      ],
+      "notableDecision": "Ordered to defend Verdun in February 1916, he obtained artillery and aircraft and reorganised the front, its supply and its resources, stabilising the battle.",
+      "setback": "In the German spring offensives of 1918 the French army was pushed back to the Marne before it held with its allies."
+    }
+  },
+  {
+    "slug": "edmund-allenby",
+    "name": "Edmund Allenby",
+    "years": "1861–1936",
+    "state": "United Kingdom",
+    "eraId": "world-wars",
+    "role": "Commander of the Egyptian Expeditionary Force 1917–1918",
+    "summary": "A cavalry officer who commanded on the Western Front from 1914 to 1917 and then led the Egyptian Expeditionary Force to Jerusalem and, at Megiddo in 1918, to the destruction of the Ottoman armies in Palestine.",
+    "approach": "Reorganised and professionalised his army, secured more men and artillery, then combined infantry break-ins with deep exploitation by mounted troops.",
+    "strength": "Managed a multi-ethnic, multinational army through a difficult reorganisation in 1918, and at Megiddo combined infantry, mounted troops and Arab allies in a decisive victory.",
+    "limitation": "Developed a reputation on the Western Front as a solid if unimpressive commander; his dogged persistence at Arras alienated his subordinates, and his two attacks on Amman in 1918 failed.",
+    "legacy": "Made a field marshal and Viscount Allenby of Megiddo. As Special High Commissioner in Egypt from 1919 he directed a repressive campaign against the revolution, combined with concessions, and forced the end of the British protectorate in 1922.",
+    "battleSlugs": ["first-ypres", "second-ypres", "megiddo-1918"],
+    "source": {
+      "title": "Allenby, Edmund Henry Hynman Allenby, Viscount (James E. Kitchen)",
+      "url": "https://encyclopedia.1914-1918-online.net/article/allenby-edmund-henry-hynman-allenby-viscount/",
+      "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Field marshal; commander of the Egyptian Expeditionary Force 1917–1918; Special High Commissioner in Egypt 1919–1925",
+      "principalCommands": [
+        "Cavalry Division and cavalry corps, 1914",
+        "V Corps, 1915",
+        "Third Army, 1915–1917",
+        "Egyptian Expeditionary Force, 1917–1918"
+      ],
+      "timeline": [
+        {
+          "date": "1861",
+          "event": "Born in Southwell"
+        },
+        {
+          "date": "1881",
+          "event": "Commissioned into the 6th (Inniskilling) Dragoons"
+        },
+        {
+          "date": "1910",
+          "event": "Appointed inspector-general of cavalry"
+        },
+        {
+          "date": "August 1914",
+          "event": "Goes to France in command of the Cavalry Division"
+        },
+        {
+          "date": "October–November 1914",
+          "event": "Leads the cavalry corps on the Messines–Wytschaete ridge at First Ypres"
+        },
+        {
+          "date": "May 1915",
+          "event": "Commands V Corps at Second Ypres"
+        },
+        {
+          "date": "October 1915",
+          "event": "Takes command of the Third Army"
+        },
+        {
+          "date": "April 1917",
+          "event": "Directs the Battle of Arras"
+        },
+        {
+          "date": "June 1917",
+          "event": "Takes command of the Egyptian Expeditionary Force"
+        },
+        {
+          "date": "31 October – 9 December 1917",
+          "event": "Breaks the Gaza–Beersheba line and takes Jerusalem"
+        },
+        {
+          "date": "19 September 1918",
+          "event": "Launches the Battle of Megiddo"
+        },
+        {
+          "date": "March 1919",
+          "event": "Appointed Special High Commissioner in Egypt"
+        },
+        {
+          "date": "1936",
+          "event": "Dies in London"
+        }
+      ],
+      "notableDecision": "At Megiddo he used his infantry to break the Ottoman line on the coastal plain and sent the Desert Mounted Corps through the gap into the Ottoman rear.",
+      "setback": "His two attempts to attack Amman and cut the Hejaz railway in April and May 1918 ended in defeat."
+    }
+  },
+  {
     "slug": "georgy-zhukov",
     "name": "Georgy Zhukov",
     "years": "1896–1974",

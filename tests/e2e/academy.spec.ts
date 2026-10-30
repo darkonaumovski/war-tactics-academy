@@ -556,7 +556,9 @@ test("commander profile shows its command record and role filter", async ({
 }) => {
   await page.goto("/commanders");
   await page.getByLabel("Commander type").selectOption("Naval commander");
-  await expect(page.getByRole("status")).toContainText("4 historical figures");
+  await expect(page.getByRole("status")).toContainText(
+    `${commanders.filter((c) => c.details.category === "Naval commander").length} historical figures`,
+  );
   await page.getByRole("link", { name: /Yi Sun-sin/ }).click();
   await expect(page).toHaveTitle(/Yi Sun-sin/);
   await expect(

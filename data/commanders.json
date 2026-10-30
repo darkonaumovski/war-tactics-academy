@@ -1859,6 +1859,129 @@
     }
   },
   {
+    "slug": "jean-lannes",
+    "name": "Jean Lannes",
+    "years": "1769–1809",
+    "state": "France",
+    "eraId": "napoleonic",
+    "role": "Marshal of the Empire; commander of advance guards and corps 1800–1809",
+    "summary": "A dyer's apprentice who volunteered in 1792, he rose under Bonaparte in Italy, Egypt and Syria, won at Montebello before Marengo, led corps at Austerlitz, Jena and Friedland and the siege of Saragossa, and was mortally wounded at Aspern-Essling in 1809.",
+    "approach": "A tough, impetuous fighter who led advance guards and assaults from the front; Napoleon said that his courage at first outran his judgment, which grew with experience.",
+    "strength": "Bravery and composure under fire: at Montebello in June 1800 he defeated the Austrians five days before Marengo, where he held off the Austrian attack for hours, and he won at Pultusk in 1806 and at Tudela in 1808.",
+    "limitation": "Wounded at Acre, Aboukir and Pultusk, he gave up commands through ill health in 1807 and after a fall from his horse in 1808. His familiarity with the First Consul, whom he went on addressing as “tu”, led to his virtual exile as envoy to Portugal; in Italy in 1796 he set fire to the village of Binasco.",
+    "legacy": "Created Duke of Montebello in 1808, he directed the bloody siege of Saragossa, which capitulated in February 1809. Struck in the legs by a cannonball at Aspern-Essling, he died after an amputation on 31 May 1809 and was buried in the Panthéon; Napoleon said that he had found him a pygmy and lost him a giant.",
+    "battleSlugs": [
+      "acre",
+      "aboukir-1799",
+      "marengo",
+      "ulm",
+      "austerlitz",
+      "jena-auerstedt",
+      "friedland",
+      "eckmuhl",
+      "aspern-essling"
+    ],
+    "source": {
+      "title": "Lannes, Jean",
+      "url": "https://www.napoleon.org/en/history-of-the-two-empires/biographies/lannes-jean/",
+      "publisher": "Fondation Napoléon"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Marshal of the Empire 1804; Duke of Montebello 1808",
+      "principalCommands": [
+        "Division in Syria, 1799",
+        "Advance guard of the Army of the Reserve, 1800",
+        "Consular Guard, 1800",
+        "Advance guard of the 5th Corps, 1805",
+        "Reserve Corps, 1807",
+        "3rd Corps in Spain, 1808",
+        "2nd Corps, 1809"
+      ],
+      "timeline": [
+        {
+          "date": "1769",
+          "event": "Born at Lectoure, Gascony"
+        },
+        {
+          "date": "1792",
+          "event": "Volunteers in a battalion of the Gers"
+        },
+        {
+          "date": "1793–1795",
+          "event": "Serves against Spain in the Army of the Eastern Pyrenees"
+        },
+        {
+          "date": "1796",
+          "event": "Fights in Italy; made general by Bonaparte"
+        },
+        {
+          "date": "May 1799",
+          "event": "Commands a division in Syria; wounded in the head at Acre"
+        },
+        {
+          "date": "July 1799",
+          "event": "Wounded in the leg at Aboukir"
+        },
+        {
+          "date": "November 1799",
+          "event": "Takes part in the coup of 18 Brumaire"
+        },
+        {
+          "date": "9 June 1800",
+          "event": "Defeats the Austrians at Montebello"
+        },
+        {
+          "date": "14 June 1800",
+          "event": "Marengo"
+        },
+        {
+          "date": "1802–1803",
+          "event": "Minister plenipotentiary in Portugal"
+        },
+        {
+          "date": "May 1804",
+          "event": "Made marshal of the Empire"
+        },
+        {
+          "date": "2 December 1805",
+          "event": "Commands the left wing at Austerlitz"
+        },
+        {
+          "date": "14 October 1806",
+          "event": "Commands the centre at Jena"
+        },
+        {
+          "date": "26 December 1806",
+          "event": "Wins at Pultusk"
+        },
+        {
+          "date": "14 June 1807",
+          "event": "Friedland"
+        },
+        {
+          "date": "23 November 1808",
+          "event": "Defeats Castaños at Tudela"
+        },
+        {
+          "date": "February 1809",
+          "event": "Saragossa capitulates"
+        },
+        {
+          "date": "April 1809",
+          "event": "Eckmühl and Ratisbon"
+        },
+        {
+          "date": "May 1809",
+          "event": "Mortally wounded at Aspern-Essling; dies on 31 May"
+        }
+      ],
+      "notableDecision": "Leading the advance guard of the Army of the Reserve, he engaged and defeated the Austrians at Montebello on 9 June 1800, five days before Marengo.",
+      "setback": "At Aspern-Essling in May 1809 a cannonball shattered his legs, and he died nine days later after an amputation."
+    }
+  },
+  {
     "slug": "arthur-wellesley",
     "name": "Arthur Wellesley, Duke of Wellington",
     "years": "1769–1852",
@@ -1925,6 +2048,320 @@
       ],
       "notableDecision": "In 1810 he built the Lines of Torres Vedras and stripped the countryside ahead of Masséna's advance. The strategy halted the French but imposed severe hardship on Portuguese civilians.",
       "setback": "His siege of Burgos failed in 1812 and was followed by a difficult retreat."
+    }
+  },
+  {
+    "slug": "gebhard-leberecht-von-blucher",
+    "name": "Gebhard Leberecht von Blücher",
+    "years": "1742–1819",
+    "state": "Prussia",
+    "eraId": "napoleonic",
+    "role": "Commander of the Army of Silesia 1813–1814 and the Army of the Lower Rhine 1815; field marshal",
+    "summary": "A Prussian cavalryman since 1760, he fought at Auerstedt and surrendered at Ratkau in 1806, then led the Army of Silesia from the Katzbach to Leipzig and Paris in 1813–1814, and in 1815 the army that, beaten at Ligny, marched to join Wellington at Waterloo.",
+    "approach": "Pressed for an energetic war against Napoleon and usually chose the boldest of the plans prepared by his staff, Scharnhorst and then Gneisenau, taking the responsibility for carrying them out; he was known as Marshal Forwards.",
+    "strength": "Determination, energy and personal courage that inspired soldiers and public alike. He won at the Katzbach in August 1813, crossed the Rhine on New Year's night 1814 against the Allied leadership's wishes, and at Waterloo brought his army onto the French right two days after his defeat at Ligny.",
+    "limitation": "Poorly educated and dependent on his chiefs of staff, he knew little of the higher art of war, and he gambled, drank and quarrelled. In 1808 he suffered a breakdown with melancholy and delusions; in February 1814 his corps, marching separately, suffered heavy defeats, and an eye illness and depression kept him from pursuing after Laon.",
+    "legacy": "Made Prince of Wahlstatt in 1814 and honoured in England, he sat in the Prussian Council of State and died at Krieblowitz in Silesia in 1819. His NDB biographer finds it hard to draw the line between his part and Gneisenau's in the bold campaigns of 1813–1815.",
+    "battleSlugs": [
+      "jena-auerstedt",
+      "lutzen-1813",
+      "bautzen",
+      "leipzig",
+      "la-rothiere",
+      "six-days-campaign",
+      "laon",
+      "ligny",
+      "waterloo"
+    ],
+    "source": {
+      "title": "Blücher von Wahlstatt, Gebhard Leberecht Fürst (Hans Haussherr, Neue Deutsche Biographie 2, in German)",
+      "url": "https://www.deutsche-biographie.de/sfz35354.html",
+      "publisher": "Deutsche Biographie"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Field marshal from October 1813; Prince of Wahlstatt 1814",
+      "principalCommands": [
+        "Rearguard of Hohenlohe's army, 1806",
+        "Military governor of Pomerania and the Neumark, 1807–1811",
+        "Prussian field army in Silesia, 1813",
+        "Army of Silesia, 1813–1814",
+        "Army of the Lower Rhine, 1815"
+      ],
+      "timeline": [
+        {
+          "date": "1742",
+          "event": "Born in Rostock"
+        },
+        {
+          "date": "1760",
+          "event": "Captured from the Swedish army; enters Prussian service"
+        },
+        {
+          "date": "1773",
+          "event": "Dismissed by Frederick II"
+        },
+        {
+          "date": "1787",
+          "event": "Reinstated as a major"
+        },
+        {
+          "date": "1793–1794",
+          "event": "Fights the French; promoted major general"
+        },
+        {
+          "date": "14 October 1806",
+          "event": "Auerstedt; surrenders at Ratkau on 7 November"
+        },
+        {
+          "date": "1808",
+          "event": "Falls seriously ill"
+        },
+        {
+          "date": "February 1813",
+          "event": "Takes command of the field army in Silesia"
+        },
+        {
+          "date": "May 1813",
+          "event": "Lützen and Bautzen"
+        },
+        {
+          "date": "26 August 1813",
+          "event": "Wins at the Katzbach"
+        },
+        {
+          "date": "October 1813",
+          "event": "Leipzig; promoted field marshal"
+        },
+        {
+          "date": "1 January 1814",
+          "event": "Crosses the Rhine at Caub"
+        },
+        {
+          "date": "1 February 1814",
+          "event": "Wins at La Rothière"
+        },
+        {
+          "date": "10–14 February 1814",
+          "event": "His separated corps are defeated"
+        },
+        {
+          "date": "9–10 March 1814",
+          "event": "Laon"
+        },
+        {
+          "date": "June 1814",
+          "event": "Made Prince of Wahlstatt"
+        },
+        {
+          "date": "16 June 1815",
+          "event": "Defeated and unhorsed at Ligny"
+        },
+        {
+          "date": "18 June 1815",
+          "event": "His army reaches the French right at Waterloo"
+        },
+        {
+          "date": "1819",
+          "event": "Dies at Krieblowitz, Silesia"
+        }
+      ],
+      "notableDecision": "After his defeat at Ligny on 16 June 1815 his army, on Gneisenau's order, retreated north toward Wavre rather than toward the Rhine, and on 18 June he sent his corps against the French right at Waterloo.",
+      "setback": "At Ligny on 16 June 1815 Napoleon defeated his army, and he was hurt when his horse was shot from under him."
+    }
+  },
+  {
+    "slug": "archduke-charles",
+    "name": "Archduke Charles",
+    "years": "1771–1847",
+    "state": "Austrian Empire",
+    "eraId": "napoleonic",
+    "role": "Austrian field marshal, army reformer and generalissimo 1806–1809",
+    "summary": "A son of the future Emperor Leopold II, he defeated Jourdan and Moreau in Germany in 1796 and Jourdan and Masséna in 1799, reformed the Austrian army as president of the Hofkriegsrat and generalissimo, and in 1809 defeated Napoleon at Aspern-Essling before losing at Wagram.",
+    "approach": "Fought mainly on the defensive and thought in eighteenth-century terms, shaped by Napoleon's example; his writings stressed caution and the importance of strategic points.",
+    "strength": "One of the few Allied commanders able to beat the French: he won at Amberg and Würzburg in 1796, at Ostrach, Stockach and Zurich in 1799, at Caldiero in 1805 and at Aspern in 1809, and his reforms made the Austrian army a formidable force.",
+    "limitation": "His health was unstable and his reforms stalled against bureaucratic and court opposition. He went reluctantly to war in 1809: the opening battles at Landshut and Regensburg went badly, his victory at Aspern was not exploited, and after his defeat at Wagram his opponents at court forced him to give up the command.",
+    "legacy": "He took no part in the wars of 1813–1815. His Principles of Strategy (1814) and history of the 1799 campaign were highly regarded, though somewhat antiquated even then, and in old age he opposed the Metternich system.",
+    "battleSlugs": ["eckmuhl", "aspern-essling", "wagram"],
+    "source": {
+      "title": "Karl, Erzherzog von Österreich (Johann Christoph Allmayer-Beck, Neue Deutsche Biographie 11, in German)",
+      "url": "https://www.deutsche-biographie.de/pnd118723049.html",
+      "publisher": "Deutsche Biographie"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Field marshal and president of the Hofkriegsrat from 1801; minister of war and the navy; generalissimo 1806–1809; Duke of Teschen from 1822",
+      "principalCommands": [
+        "Rhine army, 1796",
+        "Army in Italy, 1797",
+        "Army in Germany and Switzerland, 1799",
+        "Army in Italy, 1805",
+        "Austrian army as generalissimo, 1809"
+      ],
+      "timeline": [
+        {
+          "date": "1771",
+          "event": "Born in Florence"
+        },
+        {
+          "date": "1793",
+          "event": "Fights at Aldenhoven and Neerwinden; governor-general of the Netherlands"
+        },
+        {
+          "date": "1796",
+          "event": "Commands the Rhine army; wins at Amberg and Würzburg"
+        },
+        {
+          "date": "1797",
+          "event": "Withdraws the army from Italy into Styria; contacts with Napoleon before Leoben"
+        },
+        {
+          "date": "1799",
+          "event": "Wins at Ostrach, Stockach and the first battle of Zurich"
+        },
+        {
+          "date": "March 1800",
+          "event": "Gives up his command"
+        },
+        {
+          "date": "1801",
+          "event": "Field marshal, president of the Hofkriegsrat and minister of war"
+        },
+        {
+          "date": "October 1805",
+          "event": "Defensive victory at Caldiero"
+        },
+        {
+          "date": "February 1806",
+          "event": "Named generalissimo"
+        },
+        {
+          "date": "April 1809",
+          "event": "Defeated at Landshut, Eckmühl and Regensburg"
+        },
+        {
+          "date": "21–22 May 1809",
+          "event": "Defeats Napoleon at Aspern-Essling"
+        },
+        {
+          "date": "5–6 July 1809",
+          "event": "Defeated at Wagram"
+        },
+        {
+          "date": "23 July 1809",
+          "event": "Lays down the supreme command"
+        },
+        {
+          "date": "1814",
+          "event": "Publishes his Principles of Strategy"
+        },
+        {
+          "date": "1847",
+          "event": "Dies in Vienna"
+        }
+      ],
+      "notableDecision": "At Aspern-Essling in May 1809 he attacked Napoleon's army as it crossed the Danube and drove it back to the island of Lobau.",
+      "setback": "At Wagram on 5–6 July 1809 Napoleon defeated him, and within weeks he laid down the supreme command."
+    }
+  },
+  {
+    "slug": "karl-philipp-schwarzenberg",
+    "name": "Karl Philipp zu Schwarzenberg",
+    "years": "1771–1820",
+    "state": "Austrian Empire",
+    "eraId": "napoleonic",
+    "role": "Commander-in-chief of the Allied armies 1813–1814; Austrian field marshal and diplomat",
+    "summary": "An Austrian cavalry officer and diplomat, he covered the retreat after Hohenlinden, broke out of Ulm in 1805, fought at Wagram, negotiated Napoleon's marriage to Marie-Louise, led the Austrian corps in Russia in 1812, and as Allied commander-in-chief was beaten at Dresden, won at Leipzig and directed the 1814 campaign that ended in Paris.",
+    "approach": "Cautious against Napoleon: he avoided dividing his forces and sought to wear the French down before giving battle, while holding together a vast coalition army of many nations and often uncooperative generals.",
+    "strength": "Coalition command: on Radetzky's advice he united the Allied armies around Leipzig and defeated Napoleon there in October 1813, then pressed for an immediate invasion of France and directed the operations that led to the fall of Paris.",
+    "limitation": "Napoleon beat him at Dresden in August 1813. In 1812, following Austrian policy, he held his corps back, and he did not pursue Chichagov before the Berezina; earlier he had shared in the defeats of Hohenlinden and Ulm.",
+    "legacy": "President of the Hofkriegsrat from 1814, he opposed Prussia's claim to all of Saxony at the Congress of Vienna. A stroke in 1817 left him partly paralysed, and he died after a second in 1820; Francis I called him a great statesman as well as a great captain.",
+    "battleSlugs": ["ulm", "wagram", "dresden", "leipzig", "arcis-sur-aube"],
+    "source": {
+      "title": "Schwarzenberg, Karl Philip von",
+      "url": "https://www.napoleon.org/en/history-of-the-two-empires/biographies/schwarzenberg-karl-philip-von/",
+      "publisher": "Fondation Napoléon"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "Field marshal; ambassador to France 1809–1812; commander-in-chief of the Allied armies 1813–1814; president of the Hofkriegsrat 1814–1820",
+      "principalCommands": [
+        "Right wing at Hohenlinden, 1800",
+        "Cavalry corps at Wagram, 1809",
+        "Austrian auxiliary corps in Russia, 1812",
+        "Allied armies and the Army of Bohemia, 1813–1814"
+      ],
+      "timeline": [
+        {
+          "date": "1771",
+          "event": "Born in Vienna"
+        },
+        {
+          "date": "1788–1789",
+          "event": "Serves against the Turks"
+        },
+        {
+          "date": "April 1794",
+          "event": "Leads a decisive cavalry charge at Le Cateau"
+        },
+        {
+          "date": "December 1800",
+          "event": "Covers the Austrian retreat after Hohenlinden"
+        },
+        {
+          "date": "October 1805",
+          "event": "Breaks out of Ulm with his cavalry"
+        },
+        {
+          "date": "July 1809",
+          "event": "Leads a cavalry corps at Wagram"
+        },
+        {
+          "date": "November 1809",
+          "event": "Ambassador to Napoleon"
+        },
+        {
+          "date": "1810",
+          "event": "Negotiates Napoleon's marriage to Marie-Louise"
+        },
+        {
+          "date": "1812",
+          "event": "Commands the Austrian corps in the invasion of Russia"
+        },
+        {
+          "date": "August 1813",
+          "event": "Allied commander-in-chief; defeated at Dresden"
+        },
+        {
+          "date": "16–19 October 1813",
+          "event": "Leipzig"
+        },
+        {
+          "date": "21 March 1814",
+          "event": "Arcis-sur-Aube"
+        },
+        {
+          "date": "March 1814",
+          "event": "The Allies enter Paris"
+        },
+        {
+          "date": "May 1814",
+          "event": "President of the Hofkriegsrat"
+        },
+        {
+          "date": "1817",
+          "event": "Suffers a first stroke"
+        },
+        {
+          "date": "1820",
+          "event": "Dies after a second stroke"
+        }
+      ],
+      "notableDecision": "In October 1813, on Radetzky's advice, he brought the Allied armies together around Leipzig to fight Napoleon with their combined strength.",
+      "setback": "At Dresden in August 1813 Napoleon defeated the Allied army under his command."
     }
   },
   {

@@ -3879,6 +3879,249 @@
     }
   },
   {
+    "slug": "john-j-pershing",
+    "name": "John J. Pershing",
+    "years": "1860–1948",
+    "state": "United States",
+    "eraId": "world-wars",
+    "role": "Commander-in-chief of the American Expeditionary Forces",
+    "summary": "Led all American forces in the First World War, kept them under American command as an independent army, and commanded the First Army at St. Mihiel and in the Meuse-Argonne.",
+    "approach": "Emphasised staff work and offensive operations, and integrated artillery, aircraft and armour into the planning of the American Expeditionary Forces.",
+    "strength": "Built a small constabulary army into a modern force, set up staff schools in France on the Leavenworth model and surrounded himself with talented officers.",
+    "limitation": "The bloody and controversial Meuse-Argonne campaign muddied his operational legacy; many scholars see the army's high casualty rate as evidence of naivety or overconfidence.",
+    "legacy": "Formalised the modern American military staff system; a generation of the Second World War's American commanders served on his staff or under him. He argued against the armistice, a position he later retracted.",
+    "battleSlugs": ["meuse-argonne"],
+    "source": {
+      "title": "Pershing, John J. (Andrew J. Forney)",
+      "url": "https://encyclopedia.1914-1918-online.net/article/pershing-john-j/",
+      "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "General; commander-in-chief of the American Expeditionary Forces from 1917",
+      "principalCommands": [
+        "Punitive Expedition into Mexico, 1916",
+        "American Expeditionary Forces, from 1917",
+        "American First Army, August–October 1918"
+      ],
+      "timeline": [
+        {
+          "date": "1860",
+          "event": "Born in Missouri"
+        },
+        {
+          "date": "1886",
+          "event": "Graduates from West Point"
+        },
+        {
+          "date": "1898",
+          "event": "Serves with the 10th Cavalry in the Spanish-American War"
+        },
+        {
+          "date": "1899",
+          "event": "Serves in the Philippines"
+        },
+        {
+          "date": "1905",
+          "event": "Promoted brigadier general over many more senior officers"
+        },
+        {
+          "date": "March 1916",
+          "event": "Leads the Punitive Expedition into Mexico"
+        },
+        {
+          "date": "1917",
+          "event": "Chosen to lead the American Expeditionary Forces; arrives in France in June"
+        },
+        {
+          "date": "10 August 1918",
+          "event": "Takes command of the American First Army"
+        },
+        {
+          "date": "12 September 1918",
+          "event": "The First Army cuts out the St. Mihiel salient"
+        },
+        {
+          "date": "26 September 1918",
+          "event": "Opens the Meuse-Argonne offensive"
+        },
+        {
+          "date": "October 1918",
+          "event": "Hands the First Army to Hunter Liggett"
+        },
+        {
+          "date": "1948",
+          "event": "Dies in Washington, D.C."
+        }
+      ],
+      "notableDecision": "He resisted Allied pressure to amalgamate American soldiers into British and French units and insisted on an American sector under American command.",
+      "setback": "In the Meuse-Argonne, stout German defences, rigid divisional boundaries and open-warfare doctrine isolated units and drained the momentum of the first assault."
+    }
+  },
+  {
+    "slug": "john-monash",
+    "name": "John Monash",
+    "years": "1865–1931",
+    "state": "Australia",
+    "eraId": "world-wars",
+    "role": "Commander of the Australian Corps 1918",
+    "summary": "A civil engineer and citizen soldier who commanded a brigade at Gallipoli, the 3rd Australian Division in 1917 and the Australian Corps in 1918, leading it at Le Hamel and Amiens.",
+    "approach": "A meticulous planner who drew on the British army's latest attack doctrine and technology, combining infantry, armour, aircraft and artillery; he likened a battle plan to an orchestral score.",
+    "strength": "Planning and leadership: the limited attack at Le Hamel showed the effectiveness of combined arms, and its methods were used on a larger scale at Amiens.",
+    "limitation": "His biographer notes a craving for publicity and honours and a habit of exaggerating his own and his men's achievements; at times ruthless, he refused to slow the tempo of his worn-out corps in August and September 1918.",
+    "legacy": "Probably the most celebrated Australian figure of the war. After it he directed repatriation, headed the State Electricity Commission of Victoria and became vice-chancellor of the University of Melbourne; his own account laid the ground for a popular narrative of Monash the war-winner.",
+    "battleSlugs": ["passchendaele", "amiens-1918"],
+    "source": {
+      "title": "Monash, John (Aaron Pegram)",
+      "url": "https://encyclopedia.1914-1918-online.net/article/monash-john/",
+      "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Commander of the Australian Corps in 1918; general from 1929",
+      "principalCommands": [
+        "4th Infantry Brigade, at Gallipoli",
+        "3rd Australian Division, in France and Belgium from 1916",
+        "Australian Corps, from 1 June 1918"
+      ],
+      "timeline": [
+        {
+          "date": "1865",
+          "event": "Born in West Melbourne to Jewish parents"
+        },
+        {
+          "date": "1913",
+          "event": "Commands the 13th Infantry Brigade of the Citizen Military Forces"
+        },
+        {
+          "date": "1914",
+          "event": "Appointed to command the 4th Infantry Brigade of the Australian Imperial Force"
+        },
+        {
+          "date": "1915",
+          "event": "Commands his brigade at Gallipoli"
+        },
+        {
+          "date": "1917",
+          "event": "His 3rd Australian Division fights at Messines and Passchendaele"
+        },
+        {
+          "date": "1 June 1918",
+          "event": "Takes command of the Australian Corps"
+        },
+        {
+          "date": "4 July 1918",
+          "event": "Attacks at Le Hamel"
+        },
+        {
+          "date": "8 August 1918",
+          "event": "The Australian Corps advances alongside the Canadians at Amiens"
+        },
+        {
+          "date": "August–October 1918",
+          "event": "Victories at Mont Saint-Quentin, Péronne and Bellenglise; the last Australian attack at Montbrehain on 5 October"
+        },
+        {
+          "date": "1929",
+          "event": "Promoted to full general"
+        },
+        {
+          "date": "1931",
+          "event": "Dies at Toorak"
+        }
+      ],
+      "notableDecision": "When offered the chance to slow his operations in August and September 1918, he refused, judging that the Germans were close to breaking.",
+      "setback": "His decision to keep pressing worn-out divisions after Amiens brought heavy losses for less and less ground."
+    }
+  },
+  {
+    "slug": "arthur-currie",
+    "name": "Arthur Currie",
+    "years": "1875–1933",
+    "state": "Canada",
+    "eraId": "world-wars",
+    "role": "Commander of the Canadian Corps 1917–1918",
+    "summary": "A militia officer without professional military training who rose to command the Canadian Corps from June 1917, leading it at Hill 70, Passchendaele, Amiens and through the Hundred Days.",
+    "approach": "Methodical: careful planning, set-piece attacks with limited objectives under artillery cover, combined arms and protection for the infantry.",
+    "strength": "Concern to avoid unnecessary casualties, demanding preparation, and the independence to secure conditions for his corps, as at Passchendaele; his refusal in 1918 to break the corps into two smaller ones kept it strong.",
+    "limitation": "Stiff, abrupt and unpopular with the ranks; some attacks, such as the probes into Lens in August 1917 and the push at Arras in August 1918, were costly gambles. Before going overseas he had taken money from his regiment's funds to cover his debts.",
+    "legacy": "Regarded by historians as among the finest generals of the war. After it he was attacked in Parliament by Sam Hughes, won a libel suit in 1928, and was principal of McGill University from 1920 until his death.",
+    "battleSlugs": ["somme", "passchendaele", "amiens-1918"],
+    "source": {
+      "title": "Currie, Sir Arthur William (Tim Cook)",
+      "url": "https://www.biographi.ca/en/bio/currie_arthur_william_16E.html",
+      "publisher": "Dictionary of Canadian Biography, vol. 16"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Lieutenant-general commanding the Canadian Corps 1917–1918; general and inspector general of the militia from 1919; principal of McGill University 1920–1933",
+      "principalCommands": [
+        "2nd Infantry Brigade, 1914–1915",
+        "1st Canadian Division, 1915–1917",
+        "Canadian Corps, 1917–1918"
+      ],
+      "timeline": [
+        {
+          "date": "1875",
+          "event": "Born in Adelaide Township, Ontario"
+        },
+        {
+          "date": "1897",
+          "event": "Joins the militia as a gunner in British Columbia"
+        },
+        {
+          "date": "1914",
+          "event": "Commands the 2nd Infantry Brigade overseas"
+        },
+        {
+          "date": "April 1915",
+          "event": "His brigade helps hold the line after the gas attack at Ypres"
+        },
+        {
+          "date": "September 1915",
+          "event": "Promoted major-general to command the 1st Canadian Division"
+        },
+        {
+          "date": "September 1916",
+          "event": "His division fights at Courcelette on the Somme"
+        },
+        {
+          "date": "June 1917",
+          "event": "Knighted and given command of the Canadian Corps"
+        },
+        {
+          "date": "15 August 1917",
+          "event": "Takes Hill 70 near Lens"
+        },
+        {
+          "date": "October–November 1917",
+          "event": "Leads the Canadian Corps' attack on the Passchendaele ridge"
+        },
+        {
+          "date": "8 August 1918",
+          "event": "The Canadian Corps attacks at Amiens"
+        },
+        {
+          "date": "27 September 1918",
+          "event": "Breaks through at the Canal du Nord"
+        },
+        {
+          "date": "May 1920",
+          "event": "Becomes principal of McGill University"
+        },
+        {
+          "date": "1933",
+          "event": "Dies in Montreal"
+        }
+      ],
+      "notableDecision": "At Passchendaele he obtained extra artillery, his own timetable and freedom from Gough's Fifth Army, and planned the attack in four phases with limited objectives.",
+      "setback": "At Arras in August 1918 he ordered tired troops forward in a gamble that failed at heavy cost."
+    }
+  },
+  {
     "slug": "georgy-zhukov",
     "name": "Georgy Zhukov",
     "years": "1896–1974",

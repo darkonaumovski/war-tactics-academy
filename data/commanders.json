@@ -1410,6 +1410,455 @@
     }
   },
   {
+    "slug": "louis-nicolas-davout",
+    "name": "Louis-Nicolas Davout",
+    "years": "1770–1823",
+    "state": "France",
+    "eraId": "napoleonic",
+    "role": "Marshal of the Empire; commander of the Third Corps 1805–1809 and the First Corps 1812",
+    "summary": "Commanded the Third Corps from the camp of Bruges through Austerlitz, his victory at Auerstedt, Eylau, Eckmühl and Wagram, then the First Corps in Russia and the defence of Hamburg in 1813–1814; he was Napoleon's minister of war in the Hundred Days.",
+    "approach": "Demanding training, discipline and administration: he worked long days, reconnoitred carefully, marched his corps hard and used terrain and flexible formations of squares and echelons. He read military theory and spoke German.",
+    "strength": "At Auerstedt on 14 October 1806 his single corps defeated the main Prussian army, more than twice its size, while Napoleon fought a smaller force at Jena. At Wagram his corps on the right wing took the plateau of Neusiedl.",
+    "limitation": "Harsh and quarrelsome: in Russia he fell out with Berthier, Murat and Ney, and Napoleon held him responsible for many of the retreat's problems. At Hamburg he seized the bank, demolished houses, drove part of the population out to Altona and fired on troops approaching under white flags, measures criticised afterwards.",
+    "legacy": "After Waterloo he led the army behind the Loire and testified for Ney at his trial. Exiled to Louviers, he was restored to his baton in 1819 and sat in the Chamber of Peers with the liberals until his death in 1823.",
+    "battleSlugs": [
+      "austerlitz",
+      "jena-auerstedt",
+      "eylau",
+      "eckmuhl",
+      "wagram",
+      "smolensk-1812",
+      "borodino",
+      "maloyaroslavets"
+    ],
+    "source": {
+      "title": "Davout, homme de devoir. 1. Le soldat (Jean Linden, in French)",
+      "url": "https://www.napoleon.org/histoire-des-2-empires/articles/davout-homme-de-devoir-1-le-soldat/",
+      "publisher": "Fondation Napoléon, Revue du Souvenir Napoléonien"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Marshal of the Empire 1804; Duke of Auerstedt 1808; Prince of Eckmühl 1809; minister of war 1815; peer of France 1819",
+      "principalCommands": [
+        "Third Corps, 1805–1809",
+        "Duchy of Warsaw, 1807–1808",
+        "Army of Germany, 1810–1812",
+        "First Corps, 1812",
+        "Hamburg and the 13th Corps, 1813–1814"
+      ],
+      "timeline": [
+        {
+          "date": "1770",
+          "event": "Born at Annoux, Burgundy"
+        },
+        {
+          "date": "1790",
+          "event": "Sides with the mutinous Royal-Champagne cavalry; arrested and released"
+        },
+        {
+          "date": "1791",
+          "event": "Elected lieutenant-colonel of a volunteer battalion of the Yonne"
+        },
+        {
+          "date": "March 1793",
+          "event": "His battalion fights at Neerwinden"
+        },
+        {
+          "date": "1798–1800",
+          "event": "Commands cavalry in Egypt"
+        },
+        {
+          "date": "July 1800",
+          "event": "Made general of division"
+        },
+        {
+          "date": "May 1804",
+          "event": "Made marshal of the Empire"
+        },
+        {
+          "date": "2 December 1805",
+          "event": "Holds the right flank at Austerlitz"
+        },
+        {
+          "date": "14 October 1806",
+          "event": "Defeats the main Prussian army at Auerstedt"
+        },
+        {
+          "date": "February 1807",
+          "event": "Eylau"
+        },
+        {
+          "date": "April 1809",
+          "event": "Eckmühl"
+        },
+        {
+          "date": "July 1809",
+          "event": "Takes the Neusiedl plateau at Wagram"
+        },
+        {
+          "date": "7 September 1812",
+          "event": "Wounded at Borodino"
+        },
+        {
+          "date": "1813–1814",
+          "event": "Holds Hamburg until May 1814"
+        },
+        {
+          "date": "March–July 1815",
+          "event": "Minister of war"
+        },
+        {
+          "date": "1819",
+          "event": "Restored to his rank; becomes a peer of France"
+        },
+        {
+          "date": "1823",
+          "event": "Dies in Paris"
+        }
+      ],
+      "notableDecision": "Meeting the main Prussian army with his single corps at Auerstedt in 1806, he fought it with squares and artillery until it broke.",
+      "setback": "In the retreat from Moscow his corps lost much of its artillery at Krasnoi, and Napoleon rebuked him for leaving Ney's rearguard behind."
+    }
+  },
+  {
+    "slug": "michel-ney",
+    "name": "Michel Ney",
+    "years": "1769–1815",
+    "state": "France",
+    "eraId": "napoleonic",
+    "role": "Marshal of the Empire; corps commander 1805–1813; commander of the left wing in 1815",
+    "summary": "A hussar who rose through the Revolutionary armies, he led his corps at Elchingen, Jena, Eylau and Friedland, the rearguard in the retreat from Moscow, and the left wing at Quatre-Bras and Waterloo; the restored Bourbons tried him for rejoining Napoleon and had him shot.",
+    "approach": "A man of battles rather than a strategist, he led from the front, throwing himself into the fighting at critical moments to inspire his troops by his example.",
+    "strength": "Exceptional courage and leadership in combat: in the retreat of 1812 his rearguard fought off Russian attacks, crossed the Dnieper on melting ice and rejoined the army, and Napoleon called him the bravest of the brave.",
+    "limitation": "Proud and touchy, he quarrelled with other marshals and reinterpreted orders: he abandoned the Elchingen bridge before retaking it, attacked too early at Jena, let Lestocq's Prussians pass before Eylau, and was dismissed by Masséna in Portugal in 1811. In 1815 he failed to exploit Quatre-Bras, and at Waterloo he launched cavalry charges on the plateau without first spiking the British guns.",
+    "legacy": "In March 1815 he promised Louis XVIII to bring Napoleon back in an iron cage, then went over to him. Condemned by the Chamber of Peers, he was shot in Paris on 7 December 1815; his biographer in the Dictionnaire Napoléon calls the execution an act of Restoration revenge.",
+    "battleSlugs": [
+      "ulm",
+      "jena-auerstedt",
+      "eylau",
+      "friedland",
+      "smolensk-1812",
+      "borodino",
+      "berezina",
+      "lutzen-1813",
+      "bautzen",
+      "leipzig",
+      "la-rothiere",
+      "six-days-campaign",
+      "waterloo"
+    ],
+    "source": {
+      "title": "Ney, Michel, duc d’Elchingen, prince de la Moskowa (François-Guy Hourtoulle, Dictionnaire Napoléon, in French)",
+      "url": "https://www.napoleon.org/histoire-des-2-empires/biographies/ney-michel-duc-delchingen-prince-de-la-moskowa-1769-1815-marechal/",
+      "publisher": "Fondation Napoléon"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Marshal of the Empire 1804; Duke of Elchingen 1808; Prince of the Moskowa; peer of France",
+      "principalCommands": [
+        "6th Corps, 1804–1807",
+        "Corps in Spain and Portugal, 1808–1811",
+        "3rd Corps, Russia, 1812",
+        "Left wing in Belgium, 1815"
+      ],
+      "timeline": [
+        {
+          "date": "1769",
+          "event": "Born at Sarrelouis"
+        },
+        {
+          "date": "1788",
+          "event": "Enlists in a hussar regiment"
+        },
+        {
+          "date": "1796",
+          "event": "Promoted general"
+        },
+        {
+          "date": "1800",
+          "event": "Fights at Hohenlinden as a general of division"
+        },
+        {
+          "date": "May 1804",
+          "event": "Made marshal of the Empire"
+        },
+        {
+          "date": "October 1805",
+          "event": "Storms Elchingen in the Ulm campaign"
+        },
+        {
+          "date": "1806–1807",
+          "event": "Jena, Eylau and Friedland"
+        },
+        {
+          "date": "22 March 1811",
+          "event": "Dismissed by Masséna in Portugal"
+        },
+        {
+          "date": "7 September 1812",
+          "event": "Borodino"
+        },
+        {
+          "date": "November 1812",
+          "event": "Fights through at Krasnoi and crosses the Dnieper on the ice"
+        },
+        {
+          "date": "1813",
+          "event": "Commands at Lützen and Bautzen; defeated at Dennewitz; wounded at Leipzig"
+        },
+        {
+          "date": "April 1814",
+          "event": "Tells Napoleon the army will not march"
+        },
+        {
+          "date": "March 1815",
+          "event": "Rejoins Napoleon"
+        },
+        {
+          "date": "16 June 1815",
+          "event": "Quatre-Bras"
+        },
+        {
+          "date": "18 June 1815",
+          "event": "Waterloo"
+        },
+        {
+          "date": "7 December 1815",
+          "event": "Shot in Paris after his trial by the Chamber of Peers"
+        }
+      ],
+      "notableDecision": "Cut off at Krasnoi in November 1812, he fought through the Russian blockade and crossed the Dnieper on melting ice to rejoin the army.",
+      "setback": "In 1813 he was defeated at Dennewitz by the crown prince of Sweden, Bernadotte."
+    }
+  },
+  {
+    "slug": "joachim-murat",
+    "name": "Joachim Murat",
+    "years": "1767–1815",
+    "state": "France / Kingdom of Naples",
+    "eraId": "napoleonic",
+    "role": "Marshal of the Empire and cavalry commander; king of Naples 1808–1815",
+    "summary": "Napoleon's brother-in-law and his finest cavalry commander, he led the cavalry from Marengo to Borodino and was king of Naples from 1808; he abandoned the Grand Army in the retreat from Moscow, made terms with Austria in 1814, and was shot at Pizzo after a last attempt to recover his kingdom in 1815.",
+    "approach": "Led the cavalry in person, pinning the enemy, pursuing a beaten army to destruction and charging at decisive moments.",
+    "strength": "Superb under fire: he pinned the Austrian army in Ulm, defeated the Austrian and Russian cavalry at Austerlitz, completed the destruction of the Prussian army by his pursuit after Jena, and at Eylau led a charge that saved a desperate situation.",
+    "limitation": "Napoleon judged him a hero in battle but of little judgment elsewhere. His intrigues for the Spanish throne helped provoke the Madrid rising of 2 May 1808, which he suppressed; left in command of the Grand Army in the retreat from Moscow, he abandoned it to save his kingdom, and in January 1814 he signed a treaty with Austria that detached Naples from the Empire.",
+    "legacy": "As king of Naples he introduced the Code civil, broke up great estates, founded a university and fought brigandage, and his appeal to Italian nationalism lent stimulus to the movement for unification. Beaten by the Austrians at Tolentino in May 1815, he was captured at Pizzo and shot on 13 October.",
+    "battleSlugs": [
+      "aboukir-1799",
+      "marengo",
+      "ulm",
+      "austerlitz",
+      "jena-auerstedt",
+      "eylau",
+      "smolensk-1812",
+      "borodino",
+      "leipzig"
+    ],
+    "source": {
+      "title": "Murat, Joachim",
+      "url": "https://www.napoleon.org/en/history-of-the-two-empires/biographies/murat-joachim/",
+      "publisher": "Fondation Napoléon"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Marshal of the Empire 1804; Grand Duke of Berg and Cleves 1806; King of Naples 1808–1815",
+      "principalCommands": [
+        "Cavalry of the Army of the Reserve, 1800",
+        "Cavalry of the Grande Armée, 1805–1807 and 1812",
+        "French forces in Spain, 1808",
+        "Kingdom of Naples, 1808–1815"
+      ],
+      "timeline": [
+        {
+          "date": "1767",
+          "event": "Born at La Bastide-Fortunière, son of an innkeeper"
+        },
+        {
+          "date": "1787",
+          "event": "Enlists in a cavalry regiment"
+        },
+        {
+          "date": "October 1795",
+          "event": "Brings up the cannon for Bonaparte in the Vendémiaire rising"
+        },
+        {
+          "date": "May 1796",
+          "event": "Promoted brigadier general in Italy"
+        },
+        {
+          "date": "25 July 1799",
+          "event": "Promoted general of division on the field of Aboukir"
+        },
+        {
+          "date": "February 1800",
+          "event": "Marries Caroline Bonaparte"
+        },
+        {
+          "date": "14 June 1800",
+          "event": "Marengo"
+        },
+        {
+          "date": "1804",
+          "event": "Made marshal of the Empire"
+        },
+        {
+          "date": "1805",
+          "event": "Ulm and Austerlitz"
+        },
+        {
+          "date": "October 1806",
+          "event": "Pursues the Prussian army after Jena"
+        },
+        {
+          "date": "February 1807",
+          "event": "Leads the cavalry charge at Eylau"
+        },
+        {
+          "date": "2 May 1808",
+          "event": "Suppresses the Madrid rising"
+        },
+        {
+          "date": "July 1808",
+          "event": "Proclaimed king of Naples"
+        },
+        {
+          "date": "September 1812",
+          "event": "Borodino"
+        },
+        {
+          "date": "December 1812",
+          "event": "Leaves the Grand Army to return to Naples"
+        },
+        {
+          "date": "11 January 1814",
+          "event": "Signs a treaty with Austria"
+        },
+        {
+          "date": "May 1815",
+          "event": "Defeated at Tolentino"
+        },
+        {
+          "date": "13 October 1815",
+          "event": "Shot at Pizzo, Calabria"
+        }
+      ],
+      "notableDecision": "At Eylau on 8 February 1807 he led a massed cavalry charge that saved a desperate tactical situation.",
+      "setback": "In May 1815 his Neapolitan army was defeated by the Austrians at Tolentino, ending his hope of keeping his throne."
+    }
+  },
+  {
+    "slug": "andre-massena",
+    "name": "André Masséna",
+    "years": "1758–1817",
+    "state": "France",
+    "eraId": "napoleonic",
+    "role": "Marshal of the Empire; army commander in Switzerland 1799, at Genoa 1800 and in Portugal 1810–1811",
+    "summary": "A former cabin boy and sergeant, he was Bonaparte's most trusted lieutenant in Italy in 1796–1797, defeated the Russians at Zurich in 1799, held Genoa in 1800, commanded a corps in the 1809 campaign, and was defeated by Wellington in Portugal in 1810–1811.",
+    "approach": "Showed a genius for manoeuvring over difficult terrain; Napoleon said that he found his balance only in the midst of fire.",
+    "strength": "Tenacity under pressure: Rivoli earned him the name “dear child of victory”; at Genoa his resistance through siege, famine and plague held the Austrians while Bonaparte came down on their rear; at Aspern-Essling he defended Aspern and covered the retreat.",
+    "limitation": "His troops in Rome mutinied in 1798 and forced his recall. In Portugal, in poor health and with Ney and Junot quarrelling under him, he was beaten at Bussaco, could not break the lines of Torres Vedras, retreated in March 1811, and was relieved after Fuentes de Oñoro.",
+    "legacy": "In 1815 he made no real attempt to stop Napoleon's return; after Waterloo he commanded the Paris National Guard and was governor of Paris until the Bourbons returned. He died in Paris in 1817, and his name is on the Arc de Triomphe.",
+    "battleSlugs": [
+      "montenotte",
+      "lodi",
+      "castiglione",
+      "arcole",
+      "rivoli",
+      "eckmuhl",
+      "aspern-essling",
+      "wagram"
+    ],
+    "source": {
+      "title": "Masséna, André",
+      "url": "https://www.napoleon.org/en/history-of-the-two-empires/biographies/massena-andre/",
+      "publisher": "Fondation Napoléon"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Marshal of the Empire 1804; Duke of Rivoli 1808; Prince of Essling 1810; peer of France 1815",
+      "principalCommands": [
+        "Division of the Army of Italy, 1796–1797",
+        "Army of Helvetia and the Danube, 1799",
+        "Army of Italy at Genoa, 1800",
+        "Army of Naples, 1806",
+        "4th Corps, Army of Germany, 1809",
+        "Army of Portugal, 1810–1811"
+      ],
+      "timeline": [
+        {
+          "date": "1758",
+          "event": "Born in Nice"
+        },
+        {
+          "date": "1771–1775",
+          "event": "Serves as a cabin boy"
+        },
+        {
+          "date": "1775",
+          "event": "Enlists in the Royal Italian regiment"
+        },
+        {
+          "date": "December 1793",
+          "event": "Fights at the siege of Toulon"
+        },
+        {
+          "date": "1796–1797",
+          "event": "From Montenotte to Rivoli in Italy"
+        },
+        {
+          "date": "February 1798",
+          "event": "His troops in Rome mutiny; recalled"
+        },
+        {
+          "date": "25–26 September 1799",
+          "event": "Defeats the Austrians and Russians at Zurich"
+        },
+        {
+          "date": "April–June 1800",
+          "event": "Besieged in Genoa; capitulates with honours on 4 June"
+        },
+        {
+          "date": "May 1804",
+          "event": "Made marshal of the Empire"
+        },
+        {
+          "date": "1806",
+          "event": "Takes Gaeta in the Kingdom of Naples"
+        },
+        {
+          "date": "22 April 1809",
+          "event": "Eckmühl"
+        },
+        {
+          "date": "21–22 May 1809",
+          "event": "Defends Aspern at Aspern-Essling"
+        },
+        {
+          "date": "5–6 July 1809",
+          "event": "Commands the left wing at Wagram"
+        },
+        {
+          "date": "27 September 1810",
+          "event": "Defeated by Wellington at Bussaco"
+        },
+        {
+          "date": "May 1811",
+          "event": "Fuentes de Oñoro; recalled and replaced by Marmont"
+        },
+        {
+          "date": "1817",
+          "event": "Dies in Paris"
+        }
+      ],
+      "notableDecision": "At Aspern-Essling on 22 May 1809 he held Aspern and covered the army's withdrawal.",
+      "setback": "Defeated by Wellington at Bussaco on 27 September 1810, he advanced only to be halted by the lines of Torres Vedras, which he could not break."
+    }
+  },
+  {
     "slug": "arthur-wellesley",
     "name": "Arthur Wellesley, Duke of Wellington",
     "years": "1769–1852",

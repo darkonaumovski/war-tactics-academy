@@ -3268,6 +3268,300 @@
     }
   },
   {
+    "slug": "joseph-joffre",
+    "name": "Joseph Joffre",
+    "years": "1852–1931",
+    "state": "France",
+    "eraId": "world-wars",
+    "role": "Commander-in-chief of the French armies",
+    "summary": "Commander-in-chief of the French army in 1914–1916, who turned a retreating army into a counter-attacking one and stopped the German advance on the Marne.",
+    "approach": "Prepared for an offensive war under Plan XVII and, from 1915, sought coordinated Allied offensives on all fronts.",
+    "strength": "Converted his retreating armies into a counter-attack in September 1914 and grasped the need for a common Allied effort, organising the first Chantilly Conference.",
+    "limitation": "His 1914 offensives in Alsace and Lorraine failed completely; Verdun was left ill-prepared in 1916, and the Somme and the Balkan front brought disappointing results.",
+    "legacy": "Removed from command at the end of 1916 and made the first marshal of the Third Republic; remembered as the victor of the Marne by some and as responsible for mass slaughter by others.",
+    "battleSlugs": ["marne-1914", "verdun", "somme"],
+    "source": {
+      "title": "Joffre, Joseph Jacques Césaire (Mathieu Panoryia)",
+      "url": "https://encyclopedia.1914-1918-online.net/article/joffre-joseph-jacques-cesaire/",
+      "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "Chief of the general staff from 1911; commander-in-chief of the French armies 1914–1916; Marshal of France from December 1916",
+      "principalCommands": [
+        "Chief of the general staff of the French army, 1911–1914",
+        "Commander-in-chief of the French armies, 1914–1916"
+      ],
+      "timeline": [
+        {
+          "date": "1852",
+          "event": "Born in Rivesaltes"
+        },
+        {
+          "date": "1869",
+          "event": "Enters the École Polytechnique"
+        },
+        {
+          "date": "1870",
+          "event": "Commands an artillery battery in Paris during the Franco-Prussian War"
+        },
+        {
+          "date": "1911",
+          "event": "Named chief of the general staff during the Agadir Crisis; develops Plan XVII"
+        },
+        {
+          "date": "August 1914",
+          "event": "The Plan XVII offensives in Alsace and Lorraine fail"
+        },
+        {
+          "date": "September 1914",
+          "event": "Stops the German advance at the Marne"
+        },
+        {
+          "date": "6–8 December 1915",
+          "event": "Organises the first Chantilly Conference of Allied commanders"
+        },
+        {
+          "date": "February 1916",
+          "event": "The German offensive at Verdun finds the fortress ill-prepared"
+        },
+        {
+          "date": "December 1916",
+          "event": "Made the first marshal of the Third Republic; Nivelle takes command"
+        },
+        {
+          "date": "14 July 1919",
+          "event": "Leads the victory parade in Paris"
+        },
+        {
+          "date": "1931",
+          "event": "Dies in Paris"
+        }
+      ],
+      "notableDecision": "In September 1914 he turned his retreating army into a counter-attacking one and stopped the German advance at the Marne.",
+      "setback": "His Plan XVII offensives failed completely in August 1914, and in 1916 Verdun, stripped of guns and troops, was ill-prepared for the German attack."
+    }
+  },
+  {
+    "slug": "helmuth-von-moltke-the-younger",
+    "name": "Helmuth von Moltke the Younger",
+    "years": "1848–1916",
+    "state": "German Empire",
+    "eraId": "world-wars",
+    "role": "Chief of the German General Staff",
+    "summary": "Chief of the German General Staff from 1906 to 1914, whose plan to defeat France in a rapid campaign failed at the Marne in September 1914.",
+    "approach": "Took over Schlieffen's idea of a rapid campaign against France to avoid a long two-front war, adapting it to new fears of a British blockade and a French offensive in Lorraine.",
+    "strength": "Pressed hard before 1914 for a large increase in the strength of the army.",
+    "limitation": "Commanded from distant headquarters with poor communications and no army-group level, trusted headstrong army commanders, and did not act resolutely in the decisive phases.",
+    "legacy": "Replaced after the Marne; after his death the Schlieffen school made him the scapegoat for the supposedly squandered victory. Before the war he had repeatedly advocated a preventive war.",
+    "battleSlugs": ["marne-1914"],
+    "source": {
+      "title": "Moltke, Helmuth Johannes Ludwig von (Christian Stachelbeck)",
+      "url": "https://encyclopedia.1914-1918-online.net/article/moltke-helmuth-johannes-ludwig-von/",
+      "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Staff planner",
+      "titles": "Colonel general; chief of the General Staff 1906–1914 and of the Field Army in August–September 1914",
+      "principalCommands": [
+        "Chief of the General Staff of the army, 1906–1914",
+        "Chief of the General Staff of the Field Army, August–September 1914"
+      ],
+      "timeline": [
+        {
+          "date": "1848",
+          "event": "Born in Gersdorf"
+        },
+        {
+          "date": "1870–1871",
+          "event": "Serves in the Franco-Prussian War"
+        },
+        {
+          "date": "1891",
+          "event": "Becomes aide-de-camp to Wilhelm II"
+        },
+        {
+          "date": "January 1906",
+          "event": "Succeeds Schlieffen as chief of the General Staff"
+        },
+        {
+          "date": "August 1914",
+          "event": "Opens the campaign with a surprise attack on Liège, avoiding the Netherlands"
+        },
+        {
+          "date": "September 1914",
+          "event": "The German armies retreat at the Marne"
+        },
+        {
+          "date": "14 September 1914",
+          "event": "Replaced by Erich von Falkenhayn"
+        },
+        {
+          "date": "1916",
+          "event": "Dies in Berlin on 18 June"
+        }
+      ],
+      "notableDecision": "He changed Schlieffen's plan, reinforcing the southern wing and avoiding the Netherlands, which required a surprise attack on the fortress of Liège.",
+      "setback": "At the Marne in September 1914, far from his army commanders, he failed to control the decisive phase, and the German armies retreated."
+    }
+  },
+  {
+    "slug": "paul-von-hindenburg",
+    "name": "Paul von Hindenburg",
+    "years": "1847–1934",
+    "state": "German Empire",
+    "eraId": "world-wars",
+    "role": "Army commander; chief of the General Staff 1916–1919; later Reich president",
+    "summary": "Recalled from retirement to command the Eighth Army in 1914, became Germany's national hero after Tannenberg and headed the Supreme Command from 1916; as Reich president he appointed Hitler chancellor in 1933.",
+    "approach": "A calm and composed figurehead who backed Ludendorff's operational direction and used his public standing for political ends.",
+    "strength": "His composure and popular authority steadied the German command and made him a mediator between Ludendorff and the court, the allies and civilian leaders.",
+    "limitation": "Not chosen for strategic brilliance; increasingly a political actor, who pushed for Falkenhayn's dismissal and was the key figure behind Chancellor Bethmann Hollweg's resignation.",
+    "legacy": "His myth survived the defeat of 1918. He popularised the stab-in-the-back legend and, as Reich president, appointed Hitler chancellor and played a crucial role in establishing the Nazi dictatorship.",
+    "battleSlugs": ["tannenberg"],
+    "source": {
+      "title": "Hindenburg, Paul von (Anna von der Goltz)",
+      "url": "https://encyclopedia.1914-1918-online.net/article/hindenburg-paul-von/",
+      "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "Field marshal; chief of the General Staff 1916–1919; Reich president 1925–1934",
+      "principalCommands": [
+        "Eighth Army, 1914",
+        "Supreme commander on the Eastern Front, 1914–1916",
+        "Chief of the General Staff, 1916–1919"
+      ],
+      "timeline": [
+        {
+          "date": "1847",
+          "event": "Born in Posen"
+        },
+        {
+          "date": "1866",
+          "event": "Joins the Third Regiment of Foot Guards; fights at Königgrätz"
+        },
+        {
+          "date": "1870",
+          "event": "Fights at Sedan"
+        },
+        {
+          "date": "1911",
+          "event": "Retires"
+        },
+        {
+          "date": "August 1914",
+          "event": "Recalled to command the Eighth Army in East Prussia; victory at Tannenberg"
+        },
+        {
+          "date": "November 1914",
+          "event": "Becomes supreme commander on the Eastern Front"
+        },
+        {
+          "date": "29 August 1916",
+          "event": "Appointed chief of the General Staff, with Ludendorff as first quartermaster-general"
+        },
+        {
+          "date": "1919",
+          "event": "Retires again after the signing of the Treaty of Versailles"
+        },
+        {
+          "date": "1925",
+          "event": "Elected Reich president"
+        },
+        {
+          "date": "30 January 1933",
+          "event": "Appoints Hitler Reich chancellor"
+        },
+        {
+          "date": "1934",
+          "event": "Dies at Neudeck"
+        }
+      ],
+      "notableDecision": "His backing was crucial to the declaration of unrestricted submarine warfare in January 1917, which drew the United States into the war.",
+      "setback": "In late September 1918 the Supreme Command he headed announced Germany's military bankruptcy."
+    }
+  },
+  {
+    "slug": "erich-ludendorff",
+    "name": "Erich Ludendorff",
+    "years": "1865–1937",
+    "state": "German Empire",
+    "eraId": "world-wars",
+    "role": "Chief of staff to Hindenburg; first quartermaster-general 1916–1918",
+    "summary": "The effective commander of the German armed forces during the war, who shared the credit for Tannenberg with Hindenburg, directed the Supreme Command from 1916 and launched the Spring Offensive of 1918.",
+    "approach": "Believed that war was won by concentrating superior force in well-prepared battles, and that a well-executed tactical offensive would produce a strategic decision.",
+    "strength": "Intellectual energy, fierce determination and operational audacity; oversaw the great German advance in the east in 1915.",
+    "limitation": "Grating and overbearing, with contempt for civilian leaders; pushed for unrestricted submarine warfare knowing it would bring the United States into the war, and sought breakthroughs in 1918 that produced no strategic result.",
+    "legacy": "A quasi-dictatorial symbol of the army's political power. After the war he promoted the stab-in-the-back legend, joined Hitler's Beer Hall Putsch in 1923 and drifted into conspiracy fantasies about Jews, Catholics and Freemasons.",
+    "battleSlugs": ["tannenberg", "operation-michael"],
+    "source": {
+      "title": "Ludendorff, Erich (Roger Chickering)",
+      "url": "https://encyclopedia.1914-1918-online.net/article/ludendorff-erich/",
+      "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Staff planner",
+      "titles": "General; first quartermaster-general in the Supreme Command 1916–1918",
+      "principalCommands": [
+        "Chief of staff of the Eighth Army, 1914",
+        "Chief of staff of the eastern command, 1914–1916",
+        "First quartermaster-general in the Supreme Command, 1916–1918"
+      ],
+      "timeline": [
+        {
+          "date": "1865",
+          "event": "Born in Kruszewnia, province of Posen"
+        },
+        {
+          "date": "1908",
+          "event": "Joins the operations section of the Great General Staff"
+        },
+        {
+          "date": "7 August 1914",
+          "event": "Leads the force that captures the citadel of Liège"
+        },
+        {
+          "date": "August 1914",
+          "event": "Chief of staff of the Eighth Army; endorses its staff's plan for the offensive that wins at Tannenberg"
+        },
+        {
+          "date": "1915",
+          "event": "Oversees the eastern offensive that conquers Russian Poland, Lithuania and Latvia"
+        },
+        {
+          "date": "August 1916",
+          "event": "Becomes first quartermaster-general in the Supreme Command"
+        },
+        {
+          "date": "1917",
+          "event": "Shortens the western front in the retreat to the Siegfried Line; presses for unrestricted submarine warfare"
+        },
+        {
+          "date": "21 March 1918",
+          "event": "Launches the German Spring Offensive"
+        },
+        {
+          "date": "October 1918",
+          "event": "Removed from his position"
+        },
+        {
+          "date": "November 1923",
+          "event": "Joins Hitler in the Beer Hall Putsch"
+        },
+        {
+          "date": "1937",
+          "event": "Dies in Munich"
+        }
+      ],
+      "notableDecision": "He resolved to seek the decisive battle in the west in 1918, before American troops arrived in strength, and launched the Spring Offensive.",
+      "setback": "None of the breakthroughs he sought in 1918 produced a strategic collapse; after the Allied counter-offensive he admitted defeat at the end of September."
+    }
+  },
+  {
     "slug": "georgy-zhukov",
     "name": "Georgy Zhukov",
     "years": "1896–1974",

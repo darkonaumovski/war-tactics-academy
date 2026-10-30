@@ -569,3 +569,7 @@ Collections: the Second World War collection is complete. Its introduction now d
 Remaining-work prompt: the status table marks Stage D done and names Stage E, commander profiles, as next.
 
 Coordinates: the rows use Shuri in southern Okinawa and central Berlin, from general knowledge.
+
+## Commander profiles, batch E1 (30 October 2026)
+
+Stage E begins with four First World War profiles: Joseph Joffre, Helmuth von Moltke the Younger, Paul von Hindenburg and Erich Ludendorff, each from a 1914-1918-online biography read in the browser (Panoryia, Stachelbeck, von der Goltz, Chickering). Their engagement links, each confirmed by the profile's source: Joffre to the Marne, Verdun and the Somme; Moltke to the Marne; Hindenburg to Tannenberg; Ludendorff to Tannenberg and Operation Michael. The details of each profile, and the links not made, are in `docs/COMMANDER_SOURCES.md`. Life dates and places of birth and death are taken from the biographies' headers. Political consequences are stated where the sources give them: Moltke's advocacy of a preventive war, Hindenburg's appointment of Hitler, and Ludendorff's part in the Beer Hall Putsch and his antisemitic conspiracy theories. No ratings or invented quotations; Joffre's remark about the Marne, which Panoryia says is often attributed to him, is not used.

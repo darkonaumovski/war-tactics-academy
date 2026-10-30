@@ -4359,6 +4359,109 @@
     }
   },
   {
+    "slug": "vasily-chuikov",
+    "name": "Vasily Chuikov",
+    "years": "1900–1982",
+    "state": "Soviet Union",
+    "eraId": "world-wars",
+    "role": "Commander of the 62nd Army (8th Guards Army from 1943) 1942–1945; Marshal of the Soviet Union from 1955",
+    "summary": "Commanded the 62nd Army in the defence of Stalingrad from 1942, led it as the 8th Guards Army through Ukraine, Belarus and Poland to Berlin, where he received the surrender of the garrison in May 1945, and later commanded Soviet forces in Germany and the Soviet ground forces.",
+    "approach": "In Stalingrad he introduced small-unit tactics that let his troops close the distance with the Germans; much of the fighting in the city was at close quarters, with bayonets and grenades.",
+    "strength": "Held on in Stalingrad against the German assault until the Soviet counteroffensive of November 1942; a declaration attributed to him was that his army would hold the city or die there. His army was renamed the 8th Guards Army for its part in the battle.",
+    "limitation": "In April 1945 his 8th Guards Army took heavy casualties in a frontal attack on the German positions at the Seelow Heights before advancing on Berlin from the south-east. The sources read are admiring and say little else about his failures.",
+    "legacy": "He commanded the Soviet occupation forces in Germany from 1949 to 1953, became a marshal in 1955 and commanded the Soviet ground forces from 1960 to 1964, when he played a part in the secret transport of missiles to Cuba. He was buried on the Mamayev Kurgan in Volgograd among the soldiers he had commanded at Stalingrad.",
+    "battleSlugs": ["stalingrad", "berlin-1945"],
+    "source": {
+      "title": "Vasily Chuikov",
+      "url": "https://www.europeremembers.com/en/stories/212/vasily-chuikov",
+      "publisher": "Liberation Route Europe (Europe Remembers)"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Marshal of the Soviet Union from 1955; commander of the 62nd Army, from April 1943 the 8th Guards Army; commander-in-chief of Soviet forces in Germany 1949–1953 and of the Soviet ground forces 1960–1964",
+      "principalCommands": [
+        "62nd Army, Stalingrad, 1942–1943",
+        "8th Guards Army, 1943–1945",
+        "Group of Soviet Occupation Forces in Germany, 1949–1953",
+        "Kiev military district, 1953–1960",
+        "Soviet ground forces, 1960–1964"
+      ],
+      "timeline": [
+        {
+          "date": "1900",
+          "event": "Born in Serebryanye Prudy, near Moscow"
+        },
+        {
+          "date": "1918",
+          "event": "Joins the Red Army; first fights at Tsaritsyn in the Civil War"
+        },
+        {
+          "date": "1919",
+          "event": "Joins the Communist Party; commands a regiment"
+        },
+        {
+          "date": "1925",
+          "event": "Graduates from the Frunze Military Academy"
+        },
+        {
+          "date": "1939–1940",
+          "event": "Takes part in the invasion of Poland and the war with Finland"
+        },
+        {
+          "date": "1940–1942",
+          "event": "Military attaché and adviser to Chiang Kai-shek in China"
+        },
+        {
+          "date": "1942",
+          "event": "Takes command of the 62nd Army at Stalingrad"
+        },
+        {
+          "date": "November 1942",
+          "event": "The Soviet counteroffensive begins"
+        },
+        {
+          "date": "April 1943",
+          "event": "His army is renamed the 8th Guards Army"
+        },
+        {
+          "date": "January 1945",
+          "event": "Reaches the German border"
+        },
+        {
+          "date": "April 1945",
+          "event": "Attacks at the Seelow Heights"
+        },
+        {
+          "date": "1 May 1945",
+          "event": "General Krebs tells him of Hitler's death"
+        },
+        {
+          "date": "2 May 1945",
+          "event": "General Weidling signs the capitulation of the Berlin garrison at his headquarters"
+        },
+        {
+          "date": "1949–1953",
+          "event": "Commands the Soviet occupation forces in Germany"
+        },
+        {
+          "date": "1955",
+          "event": "Marshal of the Soviet Union"
+        },
+        {
+          "date": "1960–1964",
+          "event": "Commands the Soviet ground forces"
+        },
+        {
+          "date": "1982",
+          "event": "Dies in Moscow; buried on the Mamayev Kurgan"
+        }
+      ],
+      "notableDecision": "In Stalingrad in the autumn of 1942 he fought the Germans at close quarters with new small-unit tactics, holding on in the city while the counteroffensive was prepared.",
+      "setback": "In April 1945 his army's frontal attack on the Seelow Heights cost it heavy casualties."
+    }
+  },
+  {
     "slug": "dwight-d-eisenhower",
     "name": "Dwight D. Eisenhower",
     "years": "1890–1969",
@@ -5406,6 +5509,205 @@
     }
   },
   {
+    "slug": "william-halsey",
+    "name": "William F. Halsey Jr.",
+    "years": "1882–1959",
+    "state": "United States",
+    "eraId": "world-wars",
+    "role": "Commander of the South Pacific Area 1942–1944 and of the Third Fleet 1944–1945",
+    "summary": "Led carrier raids in the first months of the Pacific War, commanded the South Pacific force and area from October 1942 through the Guadalcanal and Solomons campaigns, and from mid-1944 the Third Fleet, which he took north after a Japanese decoy force at Leyte Gulf.",
+    "approach": "A leading exponent of carrier aviation and a taker of risks, he sought to strike the enemy fleet with concentrated force. E. B. Potter judged that he acted on what he thought the enemy would probably do; his chief of staff, Robert Carney, replied that he kept the enemy off balance with sudden, sometimes diversionary, thrusts.",
+    "strength": "After Pearl Harbor his task force was virtually the only operational battle group left in the Pacific, and in the South Pacific in late 1942 he concentrated his carriers and accepted heavy losses to hold Guadalcanal. Historians who fault his later command, such as Richard Frank and Thomas Hughes, rate his leadership there highly.",
+    "limitation": "At Leyte Gulf in October 1944 he took the whole Third Fleet north after Ozawa's carriers, a decoy, leaving the San Bernardino Strait unguarded on pilots' over-optimistic reports of the damage to Kurita's force. Courts of inquiry held him responsible for his fleet's losses in typhoons in December 1944 and again in 1945; Nimitz and King largely nullified the first verdict, and only King's support saved him from retirement after the second.",
+    "legacy": "Promoted fleet admiral in December 1945, he retired in 1947. His memoir that year blamed Kinkaid for the danger to the escort carriers off Samar, and the dispute over Leyte Gulf followed him until his death; Frank rates his command outstanding until 1944 and poor thereafter.",
+    "battleSlugs": ["guadalcanal", "leyte-gulf", "okinawa"],
+    "source": {
+      "title": "Seven Decades of Debate (Alan Rems)",
+      "url": "https://www.usni.org/magazines/naval-history-magazine/2017/october/seven-decades-debate",
+      "publisher": "U.S. Naval Institute, Naval History magazine"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Naval commander",
+      "titles": "Admiral; Commander, South Pacific Force and Area 1942–1944; Commander, Third Fleet 1944–1945; fleet admiral from December 1945",
+      "principalCommands": [
+        "Aircraft Battle Force, from 1940",
+        "South Pacific Force and Area, 1942–1944",
+        "Third Fleet, 1944–1945"
+      ],
+      "timeline": [
+        {
+          "date": "1882",
+          "event": "Born in Elizabeth, New Jersey"
+        },
+        {
+          "date": "1904",
+          "event": "Graduates from the Naval Academy"
+        },
+        {
+          "date": "1917–1918",
+          "event": "Commands destroyers in the First World War"
+        },
+        {
+          "date": "1935",
+          "event": "Qualifies as a naval aviator"
+        },
+        {
+          "date": "1940",
+          "event": "Vice admiral, commanding the Aircraft Battle Force"
+        },
+        {
+          "date": "Early 1942",
+          "event": "Raids Japanese-held islands in the Marshalls and Gilberts and Wake Island"
+        },
+        {
+          "date": "April 1942",
+          "event": "Carries Doolittle's bombers within range of Tokyo"
+        },
+        {
+          "date": "June 1942",
+          "event": "Illness keeps him out of the Battle of Midway"
+        },
+        {
+          "date": "18 October 1942",
+          "event": "Succeeds Ghormley in command of the South Pacific"
+        },
+        {
+          "date": "November 1942",
+          "event": "Naval Battle of Guadalcanal; promoted admiral"
+        },
+        {
+          "date": "June 1944",
+          "event": "Takes command of the Third Fleet"
+        },
+        {
+          "date": "24–25 October 1944",
+          "event": "Turns north after Ozawa's carriers at Leyte Gulf"
+        },
+        {
+          "date": "December 1944",
+          "event": "His fleet loses three destroyers in a typhoon"
+        },
+        {
+          "date": "28 May 1945",
+          "event": "Takes over the naval operations around Okinawa"
+        },
+        {
+          "date": "1945",
+          "event": "His fleet is caught in a second typhoon"
+        },
+        {
+          "date": "December 1945",
+          "event": "Promoted fleet admiral"
+        },
+        {
+          "date": "1947",
+          "event": "Retires; publishes his memoir"
+        },
+        {
+          "date": "1959",
+          "event": "Dies on Fishers Island, New York"
+        }
+      ],
+      "notableDecision": "On the night of 24–25 October 1944 he concentrated the whole Third Fleet and steamed north to attack Ozawa's carriers, judging Kurita's force too damaged to threaten the Leyte landings.",
+      "setback": "Ozawa's carriers were a decoy: Kurita passed the unguarded San Bernardino Strait and fell on the escort carriers off Samar, while Halsey's battleships, turned south too late, fired on neither Japanese force."
+    }
+  },
+  {
+    "slug": "raymond-spruance",
+    "name": "Raymond A. Spruance",
+    "years": "1886–1969",
+    "state": "United States",
+    "eraId": "world-wars",
+    "role": "Carrier task force commander at Midway; commander of the Central Pacific Force and Fifth Fleet 1943–1945",
+    "summary": "Commanded Task Force 16 at Midway in place of the sick Halsey, then the Central Pacific Force, called the Fifth Fleet from April 1944, through the Gilberts, Marshalls and Marianas, the Battle of the Philippine Sea, Iwo Jima and Okinawa.",
+    "approach": "Remote, methodical and intellectual, he avoided publicity to keep his judgment impersonal, and planned against what the enemy could do rather than what it would probably do, a habit he traced to the Naval War College's estimate of the situation.",
+    "strength": "Calm, systematic command of very large fleets: officers who served under both admirals preferred his up-to-date instructions to Halsey's improvisation. At the Philippine Sea his defensive posture let his fleet destroy hundreds of attacking aircraft at very little cost, leaving Japan's carriers almost without planes.",
+    "limitation": "Twice, at Midway and at the Philippine Sea, he turned away from the enemy and could not then overtake him, and he was sharply criticised for it. Potter concluded that the second turnaway was right for the wrong reason: no Japanese force was in fact placed to slip round him to the Saipan beachhead.",
+    "legacy": "He commanded the Pacific Fleet briefly after the war, was president of the Naval War College until he retired in 1948, and was ambassador to the Philippines from 1952 to 1955. Nimitz called Halsey a sailor's admiral and Spruance an admiral's admiral.",
+    "battleSlugs": ["midway", "iwo-jima", "okinawa"],
+    "source": {
+      "title": "Halsey and Spruance: A Study in Contrasts (E. B. Potter)",
+      "url": "https://www.usni.org/magazines/naval-history-magazine/2016/april/halsey-and-spruance-study-contrasts",
+      "publisher": "U.S. Naval Institute, Naval History magazine"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Naval commander",
+      "titles": "Admiral; Commander, Central Pacific Force (Fifth Fleet) 1943–1945; President of the Naval War College until 1948; ambassador to the Philippines 1952–1955",
+      "principalCommands": [
+        "Tenth Naval District and Caribbean Sea Frontier, 1940–1941",
+        "Task Force 16 at Midway, 1942",
+        "Central Pacific Force (Fifth Fleet from April 1944), 1943–1945",
+        "Pacific Fleet, 1945–1946"
+      ],
+      "timeline": [
+        {
+          "date": "1886",
+          "event": "Born in Baltimore, Maryland"
+        },
+        {
+          "date": "1906",
+          "event": "Graduates from the Naval Academy"
+        },
+        {
+          "date": "1940–1941",
+          "event": "Commands the Tenth Naval District and Caribbean Sea Frontier"
+        },
+        {
+          "date": "June 1942",
+          "event": "Commands Task Force 16 at Midway; turns east on the evening of 4 June"
+        },
+        {
+          "date": "1942",
+          "event": "Becomes Nimitz's chief of staff, later his deputy"
+        },
+        {
+          "date": "Mid-1943",
+          "event": "Takes command of the Central Pacific Force"
+        },
+        {
+          "date": "1943–1944",
+          "event": "Directs the Gilberts, Marshalls and Marianas operations"
+        },
+        {
+          "date": "April 1944",
+          "event": "His command becomes the Fifth Fleet"
+        },
+        {
+          "date": "June 1944",
+          "event": "Battle of the Philippine Sea"
+        },
+        {
+          "date": "February 1945",
+          "event": "Iwo Jima"
+        },
+        {
+          "date": "March 1945",
+          "event": "Okinawa operation begins"
+        },
+        {
+          "date": "Late 1945",
+          "event": "Commands the Pacific Fleet"
+        },
+        {
+          "date": "July 1948",
+          "event": "Retires as president of the Naval War College"
+        },
+        {
+          "date": "1952–1955",
+          "event": "Ambassador to the Philippines"
+        },
+        {
+          "date": "1969",
+          "event": "Dies at Pebble Beach, California"
+        }
+      ],
+      "notableDecision": "On the morning of 19 June 1944, in the Battle of the Philippine Sea, he kept his fleet in a defensive posture covering the Saipan beachhead instead of advancing to attack the Japanese carriers.",
+      "setback": "At Midway and the Philippine Sea he was never able to overtake the enemy after turning away, and was sharply criticised for not inflicting the greatest possible damage."
+    }
+  },
+  {
     "slug": "isoroku-yamamoto",
     "name": "Isoroku Yamamoto",
     "years": "1884–1943",
@@ -5468,6 +5770,174 @@
       ],
       "notableDecision": "In 1941 he pressed the Naval General Staff to accept his plan to attack the U.S. fleet at Pearl Harbor.",
       "setback": "At Midway (June 1942) his complex, dispersed plan failed and four Japanese fleet carriers were lost."
+    }
+  },
+  {
+    "slug": "tomoyuki-yamashita",
+    "name": "Tomoyuki Yamashita",
+    "years": "1885–1946",
+    "state": "Imperial Japan",
+    "eraId": "world-wars",
+    "role": "Commander of the 25th Army in Malaya and Singapore 1941–1942 and of the 14th Area Army in the Philippines 1944–1945",
+    "summary": "Led the 25th Army that overran Malaya and took the surrender of Singapore on 15 February 1942, was sent to Manchuria soon afterward, and from October 1944 defended the Philippines, where he surrendered in September 1945; he was tried for his troops' atrocities and hanged.",
+    "approach": "Trained his soldiers in jungle warfare and took risks for speed: in Malaya he moved troops on bicycles and invaded with one division fewer than planned, and at Singapore he attacked although his men were outnumbered.",
+    "strength": "Speed and nerve: in about ten weeks the 25th Army overran Malaya and forced the unconditional surrender of the British base at Singapore, considered the worst defeat British troops had suffered.",
+    "limitation": "The conquest was followed by mass murder: in Operation Sook Ching, Chinese men in Singapore were screened on his directive and those judged anti-Japanese were massacred. In the Philippines his forces were badly defeated on Leyte and Luzon, and troops under his command carried out massacres and rapes in Manila.",
+    "legacy": "Tried by an American military commission in Manila for failing to control his troops, he denied knowing of the atrocities but was convicted on 7 December 1945 and hanged on 23 February 1946. In the US Supreme Court, Justice Wiley Rutledge objected to the hearsay evidence used at the trial.",
+    "battleSlugs": ["singapore-1942"],
+    "source": {
+      "title": "Tomoyuki Yamashita (Wong Heng)",
+      "url": "https://www.nlb.gov.sg/main/article-detail?cmsuuid=d008076a-e51e-4df6-b4ea-804870d389a1",
+      "publisher": "National Library Board, Singapore Infopedia"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "General from February 1943; commander of the 25th Army 1941–1942; commander of the 14th Area Army 1944–1945",
+      "principalCommands": [
+        "Infantry brigade in Korea, 1936",
+        "4th Division, Manchuria, 1939",
+        "25th Army, Malaya and Singapore, 1941–1942",
+        "14th Area Army, Philippines, 1944–1945"
+      ],
+      "timeline": [
+        {
+          "date": "1885",
+          "event": "Born in Kōchi Prefecture, Shikoku"
+        },
+        {
+          "date": "1916",
+          "event": "Graduates from the Army Staff College"
+        },
+        {
+          "date": "February 1936",
+          "event": "Implicated in the attempted coup in Tokyo; posted to Korea"
+        },
+        {
+          "date": "November 1937",
+          "event": "Promoted lieutenant general"
+        },
+        {
+          "date": "July 1940",
+          "event": "Inspector General of Aviation"
+        },
+        {
+          "date": "January 1941",
+          "event": "Leads a military mission to Germany and Italy"
+        },
+        {
+          "date": "November 1941",
+          "event": "Given command of the 25th Army"
+        },
+        {
+          "date": "8 December 1941",
+          "event": "Lands at Singora, Patani and Kota Bharu"
+        },
+        {
+          "date": "15 February 1942",
+          "event": "Singapore surrenders"
+        },
+        {
+          "date": "February–March 1942",
+          "event": "Operation Sook Ching in Singapore"
+        },
+        {
+          "date": "July 1942",
+          "event": "Posted to Manchuria"
+        },
+        {
+          "date": "February 1943",
+          "event": "Promoted general"
+        },
+        {
+          "date": "October 1944",
+          "event": "Takes command of the 14th Area Army in the Philippines"
+        },
+        {
+          "date": "2 September 1945",
+          "event": "Surrenders at Kiangan, Luzon"
+        },
+        {
+          "date": "7 December 1945",
+          "event": "Convicted by an American military commission"
+        },
+        {
+          "date": "23 February 1946",
+          "event": "Hanged"
+        }
+      ],
+      "notableDecision": "He invaded Malaya with one division fewer than planned and attacked Singapore although his men were outnumbered, a bluff that forced the British to surrender.",
+      "setback": "In the Philippines in 1944–1945 his forces were badly defeated on Leyte and Luzon; after surrendering he was hanged for crimes committed by troops under his command."
+    }
+  },
+  {
+    "slug": "tadamichi-kuribayashi",
+    "name": "Tadamichi Kuribayashi",
+    "years": "c. 1891–1945",
+    "state": "Imperial Japan",
+    "eraId": "world-wars",
+    "role": "Commander of the Iwo Jima garrison (109th Division and Ogasawara Army Group) 1944–1945",
+    "summary": "A cavalry officer who had served at Japanese embassies in North America, he commanded the Imperial Guards Division before being sent in 1944 to defend Iwo Jima, where his garrison held out for about five weeks after the American landing of February 1945.",
+    "approach": "Rejected beach defence, anti-landing tactics and banzai charges, which had failed from Tarawa to Tinian, for a defence in depth and a prolonged battle of attrition fought from tunnels, caves and underground positions.",
+    "strength": "Economy of force, skilful use of terrain, artillery and mortars, and an iron will. He prevailed over the navy's demand for beach casemates and removed senior army officers who resisted his plan; Holland Smith called him the most redoubtable of Japan's adversaries in the Pacific.",
+    "limitation": "A realist who knew the island could not be held without air and naval support, he could only make its capture costly; his battle vows required each soldier to kill ten Americans before dying. Two days before the landing he let a sector commander fire on the ships covering underwater demolition teams, revealing batteries that the ships then destroyed.",
+    "legacy": "Almost the whole garrison died with him. Japanese accounts indicate that he took his own life in his last cave, and he was promoted general posthumously. The Marine Corps historian Joseph Alexander calls him one of the most competent field commanders the Marines ever faced.",
+    "battleSlugs": ["iwo-jima"],
+    "source": {
+      "title": "Closing In: Marines in the Seizure of Iwo Jima (Joseph H. Alexander)",
+      "url": "https://www.marines.mil/News/Publications/MCPEL/Electronic-Library-Display/Article/898213/closing-in-marines-in-the-seizure-of-iwo-jima/",
+      "publisher": "History and Museums Division, U.S. Marine Corps"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Lieutenant general; Commanding General, 109th Division, and Commander, Ogasawara Army Group, 1944–1945; general, posthumously",
+      "principalCommands": [
+        "Cavalry regiment, Manchuria",
+        "Brigade in northern China",
+        "Imperial Guards Division, Tokyo",
+        "109th Division and Ogasawara Army Group, Iwo Jima, 1944–1945"
+      ],
+      "timeline": [
+        {
+          "date": "c. 1891",
+          "event": "Born in Nagano Prefecture"
+        },
+        {
+          "date": "1914",
+          "event": "Graduates from the Military Academy"
+        },
+        {
+          "date": "December 1941",
+          "event": "Chief of staff of the Twenty-third Army at the capture of Hong Kong"
+        },
+        {
+          "date": "1944",
+          "event": "Assigned to command the defence of Iwo Jima"
+        },
+        {
+          "date": "December 1944",
+          "event": "Moves weapons, command posts and barracks underground after heavy bombing"
+        },
+        {
+          "date": "11 February 1945",
+          "event": "The garrison is ready by the date he set"
+        },
+        {
+          "date": "19 February 1945",
+          "event": "The Marines land"
+        },
+        {
+          "date": "4 March 1945",
+          "event": "Moves his command post to a cave in the north"
+        },
+        {
+          "date": "March 1945",
+          "event": "Dies in his last command post; promoted general posthumously"
+        }
+      ],
+      "notableDecision": "He gave up the beaches and fought from tunnels and caves, allowing only small spoiling attacks instead of mass banzai charges.",
+      "setback": "Without the air and naval support he asked Tokyo for, he could not hold the island, and his garrison was destroyed."
     }
   },
   {

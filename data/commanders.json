@@ -2426,6 +2426,298 @@
     }
   },
   {
+    "slug": "pyotr-bagration",
+    "name": "Pyotr Bagration",
+    "years": "1765–1812",
+    "state": "Russian Empire",
+    "eraId": "napoleonic",
+    "role": "Russian general; commander of the Second Western Army in 1812",
+    "summary": "A Georgian prince in Russian service from 1782, he served under Suvorov in Italy in 1799, covered Kutuzov's retreat at Hollabrunn in 1805, fought at Austerlitz, Eylau and Friedland, commanded the Second Western Army in 1812 and was mortally wounded leading the Russian left at Borodino.",
+    "approach": "An instinctive soldier who read little and relied on his advisers, but chose the soundest of their proposals; he led by courage and inspired great devotion in those who served under him.",
+    "strength": "Rearguard and flank fighting: at Hollabrunn in November 1805 he held off Murat long enough for Kutuzov's army to withdraw intact, and in 1812, beaten at Mogilev and cut off from the main army, he escaped encirclement and rejoined Barclay at Smolensk.",
+    "limitation": "Langeron, who admired him, wrote that he had little education, spoke only Russian and could not write a report without errors. Most of his battles against Napoleon were defeats: at Austerlitz his column on the Allied right was thrown back, and at Friedland his troops faced Ney's assault on the town.",
+    "legacy": "Mortally wounded at Borodino on 7 September 1812, he died later that month. Nicholas I raised a monument to him on the battlefield, and Langeron called him a very precious man for Russia.",
+    "battleSlugs": ["austerlitz", "friedland", "smolensk-1812", "borodino"],
+    "source": {
+      "title": "Bagration, Peter, Prince (Jacques Garnier, Dictionnaire Napoléon)",
+      "url": "https://www.napoleon.org/en/history-of-the-two-empires/biographies/bagration-peter-prince/",
+      "publisher": "Fondation Napoléon"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "General; prince of the Georgian royal house",
+      "principalCommands": [
+        "Corps under Kutuzov, 1805",
+        "Army against Sweden, 1808",
+        "Army of Moldavia, 1809",
+        "Second Western Army, 1812",
+        "Left wing at Borodino, 1812"
+      ],
+      "timeline": [
+        {
+          "date": "1765",
+          "event": "Born at Kizlyar, in the Caucasus"
+        },
+        {
+          "date": "1782",
+          "event": "Enters the Russian army"
+        },
+        {
+          "date": "1787–1792",
+          "event": "Takes part in the siege of Ochakov"
+        },
+        {
+          "date": "1794",
+          "event": "Fights in the Polish campaign"
+        },
+        {
+          "date": "1799",
+          "event": "Serves under Suvorov in Italy and Switzerland"
+        },
+        {
+          "date": "16 November 1805",
+          "event": "Holds off Murat at Hollabrunn"
+        },
+        {
+          "date": "2 December 1805",
+          "event": "Leads a column on the Allied right at Austerlitz"
+        },
+        {
+          "date": "1807",
+          "event": "Eylau, Heilsberg and Friedland"
+        },
+        {
+          "date": "1808",
+          "event": "Crosses the frozen sea and takes the Åland Islands"
+        },
+        {
+          "date": "1809",
+          "event": "Commands against the Turks in Bulgaria"
+        },
+        {
+          "date": "1812",
+          "event": "Commands the Second Western Army"
+        },
+        {
+          "date": "23 July 1812",
+          "event": "Defeated at Mogilev; escapes encirclement"
+        },
+        {
+          "date": "August 1812",
+          "event": "Joins Barclay at Smolensk"
+        },
+        {
+          "date": "7 September 1812",
+          "event": "Mortally wounded commanding the left at Borodino"
+        },
+        {
+          "date": "September 1812",
+          "event": "Dies of his wound"
+        }
+      ],
+      "notableDecision": "At Hollabrunn on 16 November 1805, covering Kutuzov's flank, he stood against Murat's attacks until the main Russian army had withdrawn.",
+      "setback": "At Mogilev on 23 July 1812 his army was beaten and cut off from the main Russian army."
+    }
+  },
+  {
+    "slug": "barclay-de-tolly",
+    "name": "Michael Barclay de Tolly",
+    "years": "1761–1818",
+    "state": "Russian Empire",
+    "eraId": "napoleonic",
+    "role": "Russian minister of war 1810–1812; commander of the First Western Army 1812 and of the Russian armies 1813–1815; field marshal",
+    "summary": "A Livonian of Scottish descent who rose from the ranks, he was wounded at Eylau, crossed the frozen Gulf of Bothnia in 1809, reformed the army as minister of war, led the Russian retreat of 1812 until replaced by Kutuzov, and commanded the Russian forces from 1813 to the taking of Paris.",
+    "approach": "In 1812 he conceived and carried out a strategy of avoiding decisive battle and retreating into Russia, holding to it against most of his officers, Bagration among them, and the public.",
+    "strength": "A reformer and organiser who prepared for a French invasion as minister of war, and a brave commander: he held the Russian right at Borodino, and at Leipzig commanded a central part of the Allied armies so effectively that the tsar made him a count.",
+    "limitation": "His retreat was bitterly unpopular, the more so because of his supposedly German origins, and in August 1812 Alexander replaced him with Kutuzov, who followed the same strategy. At Smolensk, the study's sources record, his junior officers threatened mutiny if he did not fight.",
+    "legacy": "Promoted field marshal in Paris in 1814 and made a prince after the campaign of 1815, he died at Insterburg in East Prussia in 1818 on his way back to Russia; his mausoleum stands at Jõgeveste in Estonia.",
+    "battleSlugs": ["smolensk-1812", "borodino", "dresden", "leipzig"],
+    "source": {
+      "title": "Barclay de Tolly, Michael Andreas, Prince",
+      "url": "https://www.napoleon.org/en/history-of-the-two-empires/biographies/barclay-de-tolly-michael-andreas-prince/",
+      "publisher": "Fondation Napoléon"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Minister of war 1810–1812; field marshal 1814; count 1813; prince 1815",
+      "principalCommands": [
+        "Russian forces in Finland, 1809",
+        "First Western Army, 1812",
+        "Right wing at Borodino, 1812",
+        "Russo-Prussian forces, 1813",
+        "Russian army, 1815"
+      ],
+      "timeline": [
+        {
+          "date": "1761",
+          "event": "Born at Pamuskis, Lithuania"
+        },
+        {
+          "date": "1776",
+          "event": "Enlists in the Russian army"
+        },
+        {
+          "date": "1787–1791",
+          "event": "Distinguishes himself at Ochakov in the Turkish war"
+        },
+        {
+          "date": "1794",
+          "event": "Fights in the Polish campaign"
+        },
+        {
+          "date": "December 1806",
+          "event": "Distinguishes himself at Pultusk"
+        },
+        {
+          "date": "February 1807",
+          "event": "Wounded at Eylau"
+        },
+        {
+          "date": "1809",
+          "event": "Crosses the frozen Gulf of Bothnia and takes Umeå"
+        },
+        {
+          "date": "1810",
+          "event": "Becomes minister of war"
+        },
+        {
+          "date": "March 1812",
+          "event": "Commands the First Western Army"
+        },
+        {
+          "date": "August 1812",
+          "event": "Smolensk; replaced by Kutuzov"
+        },
+        {
+          "date": "7 September 1812",
+          "event": "Commands the right at Borodino"
+        },
+        {
+          "date": "October 1812",
+          "event": "Leaves the army"
+        },
+        {
+          "date": "May 1813",
+          "event": "Commander-in-chief of the Russo-Prussian forces"
+        },
+        {
+          "date": "August 1813",
+          "event": "Dresden and Kulm"
+        },
+        {
+          "date": "October 1813",
+          "event": "Leipzig; made a count"
+        },
+        {
+          "date": "1814",
+          "event": "Takes part in the capture of Paris; made field marshal"
+        },
+        {
+          "date": "1815",
+          "event": "Made a prince"
+        },
+        {
+          "date": "1818",
+          "event": "Dies at Insterburg, East Prussia"
+        }
+      ],
+      "notableDecision": "In 1812 he chose to retreat into Russia rather than risk the First Western Army in a decisive battle against Napoleon's larger force.",
+      "setback": "In August 1812, under public pressure against his retreat, Alexander I replaced him with Kutuzov."
+    }
+  },
+  {
+    "slug": "levin-von-bennigsen",
+    "name": "Levin August von Bennigsen",
+    "years": "1745–1826",
+    "state": "Russian Empire",
+    "eraId": "napoleonic",
+    "role": "Russian army commander 1806–1807; chief of staff to Kutuzov 1812; commander of the Army of Poland 1813",
+    "summary": "A Hanoverian officer in Russian service from 1773, he took part in the murder of Paul I in 1801, commanded the Russian army against Napoleon at Eylau and Friedland, was Kutuzov's chief of staff in 1812, and led the reserve army from Poland to Leipzig in 1813.",
+    "approach": "Combative, with a good strategic sense: he pressed for battle and pursuit, proposing a second battle before Moscow and pursuit plans in 1812 that Kutuzov rejected.",
+    "strength": "At Pultusk in December 1806 he held off the French, and at Eylau in February 1807 he fought Napoleon to a standstill; the older Allgemeine Deutsche Biographie credits him with being the first to break Napoleon's aura of invincibility, though Eylau was indecisive. His reserve army arrived at Leipzig during the lull of 17 October 1813.",
+    "limitation": "He was decisively defeated at Friedland in June 1807, which led to the Peace of Tilsit. In 1812 his disputes with Kutuzov led him to leave the army. In 1801 he took part in the conspiracy that killed Tsar Paul I, whose success the NDB attributes largely to him.",
+    "legacy": "Made a count on the field of Leipzig, he commanded the southern army in Bessarabia until 1818 and retired to his estate at Banteln near Hildesheim, where he died blind in 1826. His memoirs were published only in 1906–1908.",
+    "battleSlugs": ["eylau", "friedland", "borodino", "leipzig"],
+    "source": {
+      "title": "Bennigsen, Levin August Gottlieb Graf von (Cornelia Popitz, Neue Deutsche Biographie 2, in German)",
+      "url": "https://www.deutsche-biographie.de/sfz11345.html",
+      "publisher": "Deutsche Biographie"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "General of cavalry 1802; count 1813",
+      "principalCommands": [
+        "Russian army in Poland and East Prussia, 1806–1807",
+        "Centre at Borodino, 1812",
+        "Army of Poland, 1813",
+        "Southern army in Bessarabia, until 1818"
+      ],
+      "timeline": [
+        {
+          "date": "1745",
+          "event": "Born in Brunswick"
+        },
+        {
+          "date": "1760–1762",
+          "event": "Serves in the Hanoverian Guards"
+        },
+        {
+          "date": "1773",
+          "event": "Enters Russian service"
+        },
+        {
+          "date": "1796",
+          "event": "Serves in the Persian campaign"
+        },
+        {
+          "date": "March 1801",
+          "event": "Takes part in the conspiracy that kills Paul I"
+        },
+        {
+          "date": "1802",
+          "event": "Made general of cavalry"
+        },
+        {
+          "date": "26 December 1806",
+          "event": "Holds off the French at Pultusk"
+        },
+        {
+          "date": "7–8 February 1807",
+          "event": "Eylau"
+        },
+        {
+          "date": "14 June 1807",
+          "event": "Defeated at Friedland"
+        },
+        {
+          "date": "1812",
+          "event": "Kutuzov's chief of staff; commands the centre at Borodino"
+        },
+        {
+          "date": "October 1812",
+          "event": "Attacks Murat at Tarutino; leaves the army after disputes with Kutuzov"
+        },
+        {
+          "date": "17 October 1813",
+          "event": "Reaches Leipzig with the Army of Poland; made a count"
+        },
+        {
+          "date": "1813–1818",
+          "event": "Commands on the Elbe, then the southern army in Bessarabia"
+        },
+        {
+          "date": "1826",
+          "event": "Dies at Banteln, Hanover"
+        }
+      ],
+      "notableDecision": "In June 1807, believing Lannes was marching on Königsberg, he crossed the Alle at Friedland and was caught there by Napoleon's army with the river at his back.",
+      "setback": "His defeat at Friedland on 14 June 1807 ended the campaign and led to the Peace of Tilsit."
+    }
+  },
+  {
     "slug": "ulysses-s-grant",
     "name": "Ulysses S. Grant",
     "years": "1822–1885",

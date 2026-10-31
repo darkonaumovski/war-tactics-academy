@@ -263,6 +263,7 @@ export const courses: Course[] = [
   initialCourses[0],
   additionalCourses[0],
   collectionCourses[0],
+  collectionCourses[1],
   initialCourses[1],
   additionalCourses[1],
   additionalCourses[2],
@@ -503,6 +504,40 @@ export const scenarios: Scenario[] = [
         feedback:
           "Engines had cleared a far bank on the Jaxartes, but here the cavalry would land facing elephants. It is not a documented plan, and the outcome cannot be known.",
         historical: false,
+      },
+    ],
+  },
+  {
+    slug: "pompeys-cavalry",
+    title: "Against the massed cavalry",
+    battleSlug: "pharsalus",
+    commander: "Gaius Julius Caesar",
+    situation:
+      "9 August 48 BCE, near Pharsalus in Thessaly. After your defeat at Dyrrhachium your army is short of supplies. Pompey has at last offered battle, his right covered by a river with steep banks.",
+    known:
+      "Pompey has massed his cavalry, archers and slingers on his left under Labienus, opposite your right, and his cavalry is stronger than yours. Your veteran legions stand in three lines.",
+    unknown:
+      "When and how the cavalry will strike, and whether your legions can hold a larger infantry army in the centre.",
+    historical:
+      "In Caesar's account, he took one cohort from each legion of his third line and formed a fourth line behind his right. When Pompey's cavalry drove back his horse, the fourth line routed it and wheeled onto the Pompeian left from behind. Dio describes a long, even fight without a reserve.",
+    options: [
+      {
+        text: "Extend your line to the right to match Pompey's front and his cavalry.",
+        feedback:
+          "A longer line would reduce the overlap but thin every part of it, leaving nothing in hand if the cavalry broke through. An interpretive alternative; the result cannot be known.",
+        historical: false,
+      },
+      {
+        text: "Decline battle and march away to find supplies elsewhere.",
+        feedback:
+          "Delay was Pompey's best course, not yours: your army was short of supplies after Dyrrhachium. It is not a documented plan.",
+        historical: false,
+      },
+      {
+        text: "Take cohorts from your third line and post them as a fourth line behind your right.",
+        feedback:
+          "This matches Caesar's account. It met Pompey's main effort with a reserve, at the cost of a weaker third line, and depended on reading correctly where the cavalry would strike.",
+        historical: true,
       },
     ],
   },

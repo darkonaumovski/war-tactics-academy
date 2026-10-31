@@ -623,3 +623,7 @@ The last Stage E batch adds Constantine I (Donald MacGillivray Nicol and others)
 ## Courses, batch F1 (31 October 2026)
 
 The first Stage F course, Alexander's Campaigns, 334–325 BCE, has five lessons linked to the nine Alexander studies, and the Hydaspes decision exercise. No new sources were read: each lesson's readings are sources its linked studies already cite, copied with the same title, publisher and address, and the lesson text, quizzes and the exercise restate only what those studies say. Figures the studies attribute to Arrian (for example the climbers who fell at the Sogdian Rock) are not repeated. Livius's readings of the Jaxartes detachment as bait and of the Hydaspes as a skirmish are presented as interpretations.
+
+## Courses, batch F2 (31 October 2026)
+
+Rome at War, 197 BCE–451 CE, has five lessons linked to 13 of the 14 Rome studies (Cannae is shared with Classical Warfare; Alesia, which that course covers, is left out), and the Pharsalus decision exercise. As in F1, no new sources were read: the readings are sources the linked studies already cite, with the same title, publisher and address, and the lessons restate only what the studies say. Polybius's verdict on the phalanx, Livius's comparison of Zama with Cannae and Ammianus's view of Adrianople as a turning point are presented as interpretations; the Pharsalus exercise notes that Caesar's fourth line rests on his own account.

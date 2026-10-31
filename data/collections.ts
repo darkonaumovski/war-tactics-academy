@@ -74,7 +74,7 @@ export const collections: Collection[] = [
       "gothic-war",
       "hunnic-invasions",
     ],
-    courseSlugs: ["classical-warfare"],
+    courseSlugs: ["classical-warfare", "rome-at-war"],
   },
   {
     slug: "napoleon",

@@ -11,12 +11,17 @@
         "title": "Battle of Verdun",
         "url": "https://www.iwm.org.uk/history/first-world-war/western-front/verdun",
         "publisher": "Imperial War Museums"
+      },
+      {
+        "title": "Erich von Falkenhayn's “Christmas Memorandum” (December 1915), trans. Jeffrey Verhey",
+        "url": "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi:document-812",
+        "publisher": "German History in Documents and Images (German Historical Institute Washington)"
       }
     ],
     "sections": [
       {
         "title": "Historical background",
-        "text": "By late 1915 the German chief of staff, Erich von Falkenhayn, believed Germany could not win by military strength alone. He planned to defeat France before British forces were fully deployed, hoping a major French defeat would push its politicians toward peace.",
+        "text": "By late 1915 the German chief of staff, Erich von Falkenhayn, believed Germany could not win by military strength alone. He planned to defeat France before British forces were fully deployed, hoping a major French defeat would push its politicians toward peace. In the memorandum he later published as his Christmas 1915 appreciation, he named Britain the central enemy, judged that an advance on Moscow would achieve nothing, and saw France weakened almost to the limit of what it could endure.",
         "evidence": "fact",
         "refs": [
           {
@@ -24,6 +29,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -42,11 +50,14 @@
       },
       {
         "title": "Campaign objectives",
-        "text": "Imperial War Museums describes Falkenhayn's concept as using more than 1,200 guns to destroy French units on ground they had to retake, while committing German infantry sparingly. The French aimed simply to hold Verdun.",
+        "text": "Imperial War Museums describes Falkenhayn's concept as using more than 1,200 guns to destroy French units on ground they had to retake, while committing German infantry sparingly. The memorandum states the idea in his own terms: attack an objective the French would defend with their last man, so that France would bleed to death whether or not Germany took it, in a limited operation whose tempo Germany could control; of Belfort and Verdun, Verdun was to be preferred. The French aimed simply to hold Verdun.",
         "evidence": "fact",
         "refs": [
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -160,7 +171,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Falkenhayn's postwar claim that he meant to bleed the French army white is debated; other readings stress the capture of the town or drawing in Allied reserves. The sources differ on the start of the bombardment (4 a.m. or 7.15 a.m.), the end date (15 or 18 December) and when Pétain left (late April or May).",
+        "text": "Falkenhayn's postwar claim that he meant to bleed the French army white is debated; other readings stress the capture of the town or drawing in Allied reserves. The Christmas memorandum that states the claim is printed in his own memoir of 1920, from which German History in Documents and Images takes its text, and its editors read it chiefly as a strategy against Britain. The sources differ on the start of the bombardment (4 a.m. or 7.15 a.m.), the end date (15 or 18 December) and when Pétain left (late April or May).",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -168,12 +179,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The Mémorial de Verdun gives a detailed French chronology, logistics and memory. Imperial War Museums gives the strategic concept and the changing German conduct of the battle.",
+        "text": "The Mémorial de Verdun gives a detailed French chronology, logistics and memory. Imperial War Museums gives the strategic concept and the changing German conduct of the battle. Falkenhayn's Christmas memorandum, in Jeffrey Verhey's translation, gives the German commander's stated reasoning as he published it after the war.",
         "evidence": "fact",
         "refs": [
           {
@@ -181,6 +195,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       }
@@ -211,7 +228,7 @@
       {
         "name": "Erich von Falkenhayn",
         "objective": "Defeat France before British forces reached full strength, and so open the way to a negotiated peace.",
-        "known": "French losses in 1914–1915 had been heavy, and Verdun's forts had lost their guns in August 1915.",
+        "known": "French losses in 1914–1915 had been heavy, and in his memorandum he judged France weakened almost to the limit of what it could endure; Verdun's forts had lost their guns in August 1915.",
         "uncertainty": "Whether the French would defend Verdun at any cost, and whether his subordinates would keep to a limited, artillery-led attack.",
         "constraints": "Germany's limited manpower, and an army command that pursued the capture of ground.",
         "forces": "The Fifth Army under Crown Prince Wilhelm with more than 1,200 guns.",
@@ -246,23 +263,36 @@
         "title": "Alexander Samsonov, 1859–1914, Russian General",
         "url": "https://www.historyofwar.org/articles/people_samsonov.html",
         "publisher": "History of War (J. Rickard)"
+      },
+      {
+        "title": "Tannenberg, Battle of",
+        "url": "https://encyclopedia.1914-1918-online.net/article/tannenberg-battle-of-1-1/",
+        "publisher": "1914-1918-online. International Encyclopedia of the First World War (Oxana Sergeevna Nagornaja)"
+      },
+      {
+        "title": "General Paul von Hindenburg, Message to the Soldiers of the 8th Army after the Battle of Tannenberg (August 31, 1914)",
+        "url": "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi:audio-5142",
+        "publisher": "German History in Documents and Images (German Historical Institute Washington)"
       }
     ],
     "sections": [
       {
         "title": "Historical background",
-        "text": "To ease German pressure on France, the Russian commander-in-chief, Grand Duke Nicholas, urged his First and Second Armies into East Prussia before they were fully ready. General Zhilinsky had earlier pledged to France that Russia would field 800,000 men by the 15th day of mobilisation.",
+        "text": "Germany's war plan sent the main blow against France first; Nagornaja explains that the German General Staff expected Russia's slow mobilisation to let a single army hold the east until victory in the west. To ease German pressure on France, the Russian commander-in-chief, Grand Duke Nicholas, urged his First and Second Armies into East Prussia before they were fully ready. General Zhilinsky had earlier pledged to France that Russia would field 800,000 men by the 15th day of mobilisation.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "Initial developments"
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Political and strategic context",
-        "text": "With more than two-to-one superiority, a combined Russian attack could have destroyed the German Eighth Army. But the two army commanders, Rennenkampf and Samsonov, had quarrelled bitterly since the Russo-Japanese War.",
+        "text": "With more than two-to-one superiority, a combined Russian attack could have destroyed the German Eighth Army. But the two army commanders, Rennenkampf and Samsonov, had quarrelled bitterly since the Russo-Japanese War. The invasion sent a stream of refugees west, and stories of Cossack atrocities spread through German public opinion.",
         "evidence": "fact",
         "refs": [
           {
@@ -271,6 +301,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -323,12 +356,15 @@
       },
       {
         "title": "Chronological phases",
-        "text": "On 20 August Prittwitz spoke of retreating behind the Vistula, but his staff prepared a move against Samsonov's left; he was replaced two days later. On 26 August François's I Corps attacked near Usdau, and on 27 August the Russian left broke. By 29 August the Germans held the road behind the Russian centre, which surrendered in the forests.",
+        "text": "On 20 August Prittwitz spoke of retreating behind the Vistula, but his staff prepared a move against Samsonov's left; he was replaced two days later. The main battle was fought from 26 to 30 August around Allenstein. On 26 August François's I Corps attacked near Usdau, and on 27 August the Russian left broke. By 29 August the Germans held the road behind the Russian centre, which surrendered in the forests.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "Initial developments; Planning and execution"
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -356,7 +392,7 @@
       },
       {
         "title": "Outcome",
-        "text": "The Russian centre dissolved into exhausted groups that surrendered in large numbers. Samsonov, caught in the retreat, shot himself; Britannica places this early on 30 August, Rickard probably on 29 August.",
+        "text": "The Russian centre dissolved into exhausted groups that surrendered in large numbers. Samsonov, caught in the retreat, shot himself; Britannica places this early on 30 August, Rickard probably on 29 August. On 31 August Hindenburg thanked the Eighth Army in an order of the day, printed in German newspapers, announcing that the remnants of the Narew Army were fleeing south and that Rennenkampf's army had begun to retreat from Königsberg.",
         "evidence": "fact",
         "refs": [
           {
@@ -365,17 +401,23 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Consequences",
-        "text": "Reinforced from the west, the Germans drove Rennenkampf out of East Prussia in September. Britannica notes that they could not turn the victory into a strategic one, and that the corps sent east helped make possible the French recovery on the Marne.",
+        "text": "Reinforced from the west, the Germans drove Rennenkampf out of East Prussia in September. Britannica notes that they could not turn the victory into a strategic one, and that the corps sent east helped make possible the French recovery on the Marne; Nagornaja adds that a second Russian incursion followed in the winter of 1914–1915. For Russia the defeat was a heavy blow to morale, and a commission of inquiry examined its causes.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "Outcome and aftermath"
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -392,7 +434,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Britannica gives Hoffmann chief credit for the design and François the essential role, and calls the double envelopment an afterthought rather than a planned second Cannae; Rickard notes that German commanders credited Hindenburg and Ludendorff. Britannica blames Zhilinsky above all, Rickard Samsonov's own push. Dates differ by a day or two.",
+        "text": "Britannica gives Hoffmann chief credit for the design and François the essential role, and calls the double envelopment an afterthought rather than a planned second Cannae; Rickard notes that German commanders credited Hindenburg and Ludendorff, and the German History in Documents and Images editors call Ludendorff the architect while Hindenburg became the hero. Hindenburg named the battle after nearby Tannenberg rather than Allenstein, recasting it as revenge for the Teutonic Knights' defeat there in 1410; Nagornaja traces how the name and the idea of a second Cannae became a German national myth, while in Russia the defeat was explained as a sacrifice to save Paris or as Rennenkampf's treachery. Britannica blames Zhilinsky above all, Rickard Samsonov's own push. Dates differ by a day or two.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -401,12 +443,18 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Britannica gives a detailed narrative and Rickard a short biography of Samsonov. No German or Russian primary sources were read, and the 1914–1918-online encyclopedia article could not be opened.",
+        "text": "Britannica gives a detailed narrative and Rickard a short biography of Samsonov. Nagornaja's article for 1914-1918-online is brief on the fighting but traces the battle's place in German and Russian memory. Hindenburg's order of the day of 31 August, with the German History in Documents and Images introduction, is the victor's announcement; its figures for prisoners and booty are not used.",
         "evidence": "fact",
         "refs": [
           {
@@ -414,6 +462,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }

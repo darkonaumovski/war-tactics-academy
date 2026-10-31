@@ -759,12 +759,17 @@
         "title": "El Alamein: outfoxing the “Desert Fox”, 1942",
         "url": "https://www.awmlondon.gov.au/battles/el-alamein",
         "publisher": "AWM London (Australian Department of Veterans' Affairs)"
+      },
+      {
+        "title": "Battles of El-Alamein",
+        "url": "https://www.britannica.com/event/Battles-of-El-Alamein",
+        "publisher": "Encyclopaedia Britannica (Adrian Gilbert)"
       }
     ],
     "sections": [
       {
         "title": "Historical background",
-        "text": "Italy invaded Egypt from Libya in 1940, and Germany intervened in 1941. In 1942 Rommel defeated the British at Gazala and took Tobruk on 21 June, and Commonwealth forces fell back to a line at El Alamein.",
+        "text": "Italy invaded Egypt from Libya in 1940, and Germany intervened in 1941. In 1942 Rommel defeated the British at Gazala and took Tobruk on 21 June, and Commonwealth forces fell back to a line at El Alamein, which Rommel reached on 30 June. Auchinleck's counterattacks in July stopped him there; Auchinleck was then recalled, and after his chosen successor, Gott, was killed, Montgomery took command of Eighth Army.",
         "evidence": "fact",
         "refs": [
           {
@@ -772,6 +777,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -813,7 +821,7 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Eighth Army drew troops from across the British Empire, including Australia, New Zealand and South Africa, with Greek, Polish and French contingents, and clearly outnumbered the German and Italian army in men, tanks and guns. Alexander was Commander-in-Chief Middle East.",
+        "text": "Eighth Army drew troops from across the British Empire, including Australia, New Zealand and South Africa, with Greek, Polish and French contingents, and clearly outnumbered the German and Italian army in men, tanks and guns; Gilbert adds that it held air superiority over the battlefield. Alexander was Commander-in-Chief Middle East. Rommel was in Germany recovering from illness when the offensive began, and command of the Axis army had passed to a subordinate.",
         "evidence": "fact",
         "refs": [
           {
@@ -821,6 +829,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -852,17 +863,20 @@
       },
       {
         "title": "Important command decisions",
-        "text": "Montgomery built up men, training and equipment before attacking. When armour stalled in the minefield corridors, he continued an attritional phase he called \"crumbling\", made a diversionary attack to draw in Axis reserves and paused to regroup before Supercharge.",
+        "text": "Montgomery built up men, training and equipment before attacking. His plan, Gilbert writes, combined a diversionary attack in the south, led by Free French troops, with the main blow in the north, meant to force the Axis to counterattack and wear itself down. When armour stalled in the minefield corridors, he continued an attritional phase he called \"crumbling\", made a diversionary attack to draw in Axis reserves and paused to regroup before Supercharge. On 2 November Rommel signalled Hitler that the battle was lost; refused permission to retreat at first, he began to withdraw his German units.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Decisive turning points",
-        "text": "The Australian drive toward the sea pulled Axis forces north and unbalanced them. Continued attrition used up Rommel's scarce reserves before Supercharge struck.",
+        "text": "The Australian drive toward the sea pulled Axis forces north and unbalanced them. Continued attrition used up Rommel's scarce reserves before Supercharge struck, and the progress of the Australian and New Zealand infantry opened the corridors that the British could exploit.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -870,12 +884,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Outcome",
-        "text": "By late afternoon on 4 November the Axis army was in full retreat. Most of its infantry was captured, but Montgomery's caution let the motorized elements escape, and the British pursued into Libya.",
+        "text": "By late afternoon on 4 November the Axis army was in full retreat. Most of its infantry was captured: the Italian divisions, which lacked motor transport, were left behind. Montgomery's caution let the motorized elements escape, and the British pursued into Libya.",
         "evidence": "fact",
         "refs": [
           {
@@ -883,6 +900,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -911,7 +931,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The National Army Museum suggests Churchill's \"end of the beginning\" framing may overstate the battle's strategic weight, and Montgomery's conduct remains debated. The two sources give different force totals, and disagree on whether Lightfoot opened corridors through the minefields in its first hours.",
+        "text": "The National Army Museum suggests Churchill's \"end of the beginning\" framing may overstate the battle's strategic weight, while Gilbert calls it truly a turning point, though one whose strategic effect was confirmed by the Torch landings. Montgomery's conduct remains debated. The sources give different force totals and end dates, and disagree on whether Lightfoot opened corridors through the minefields in its first hours.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -919,12 +939,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The National Army Museum gives the British strategic and command narrative and its debates. AWM London gives the Australian 9th Division's role and the RAAF's support.",
+        "text": "The National Army Museum gives the British strategic and command narrative and its debates. AWM London gives the Australian 9th Division's role and the RAAF's support. Gilbert's Britannica article adds the first battle, Montgomery's plan and the Axis withdrawal; its loss figures are not used.",
         "evidence": "fact",
         "refs": [
           {
@@ -932,6 +955,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       }
@@ -976,11 +1002,11 @@
         "objective": "Hold the Alamein position against a stronger enemy.",
         "known": "Eighth Army was building up superior forces opposite him.",
         "uncertainty": "Where the main British blow would fall.",
-        "constraints": "Shortages of fuel and mechanized forces.",
+        "constraints": "Shortages of fuel and mechanized forces, and Italian infantry without the motor transport to escape.",
         "forces": "German and Italian infantry and armour, outnumbered in men, tanks and guns.",
         "terrain": "Deep minefields he called the \"devil's gardens\", covering a line that could not be outflanked.",
         "logistics": "Fuel shortages limited how freely he could move his armour.",
-        "decision": "He defended in depth and counterattacked; his reserves were drawn north and worn down.",
+        "decision": "He was in Germany when the attack began; back in command, he counterattacked, told Hitler on 2 November that the battle was lost and, though refused leave to retreat at first, withdrew his German units.",
         "outcome": "His army retreated on 4 November; most of the infantry was captured, but motorized units escaped."
       }
     ]
@@ -997,6 +1023,16 @@
         "title": "Kursk, Battle of (Encyclopedia of Modern Europe: Europe Since 1914)",
         "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/kursk-battle-0",
         "publisher": "Encyclopedia.com (Bruce W. Menning)"
+      },
+      {
+        "title": "Die Schlacht bei Kursk 1943 (in German)",
+        "url": "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/schlacht-bei-kursk-1943",
+        "publisher": "LeMO, Deutsches Historisches Museum (Arnulf Scriba)"
+      },
+      {
+        "title": "Battle of Kursk",
+        "url": "https://www.britannica.com/event/Battle-of-Kursk",
+        "publisher": "Encyclopaedia Britannica"
       }
     ],
     "sections": [
@@ -1015,7 +1051,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Hitler delayed the operation, code-named Citadel, until July to build up armour and assault guns. It became the last major German offensive on the Eastern Front.",
+        "text": "Soviet offensives early in 1943 had pushed the German line back to where it had stood in the winter of 1941, and Operation Citadel was meant to regain the initiative. Hitler delayed the operation until July to build up armour and assault guns. It became the last major German offensive on the Eastern Front.",
         "evidence": "fact",
         "refs": [
           {
@@ -1023,6 +1059,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -1054,7 +1093,7 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Both sides concentrated vast forces, with the Soviets holding a clear numerical advantage and a reserve front behind the salient. Manstein commanded the German southern attack. Totals differ substantially between the sources.",
+        "text": "Both sides concentrated vast forces, with the Soviets holding a clear numerical advantage and a reserve front behind the salient. Model's Ninth Army attacked from the north and Hoth's Fourth Panzer Army from the south, under Manstein's command in the south. Totals differ substantially between the sources.",
         "evidence": "fact",
         "refs": [
           {
@@ -1062,6 +1101,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -1077,7 +1119,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "The German attack began on 5 July. It stalled in the north with slight gains and culminated in the south near Prokhorovka on 11–12 July. A Soviet counteroffensive toward Orel began on 12 July, a second in the south followed from 3 August, and the campaign ended with the capture of Kharkov on 23 August.",
+        "text": "The German attack began on 5 July. It stalled in the north with slight gains and culminated in the south near Prokhorovka on 11–12 July. A Soviet counteroffensive toward Orel began on 12 July and retook the city on 5 August, a second in the south followed from 3 August, and the campaign ended with the capture of Kharkov on 23 August.",
         "evidence": "fact",
         "refs": [
           {
@@ -1085,12 +1127,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Stavka chose to defend first and counterattack later. After the Allied landing in Sicily on 10 July, Hitler told his generals on 12 July that he wanted to move troops to Italy; Menning writes that he diverted the II SS Panzer Corps and ordered Manstein onto the defensive.",
+        "text": "Stavka chose to defend first and counterattack later. After the Allied landing in Sicily on 10 July, Hitler told his generals on 12 July that he wanted to move troops to Italy; Menning writes that he diverted the II SS Panzer Corps and ordered Manstein onto the defensive, and LeMO dates Hitler's order to halt the offensive to 13 July.",
         "evidence": "fact",
         "refs": [
           {
@@ -1098,16 +1143,22 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Decisive turning points",
-        "text": "Defences in depth absorbed the German attack before it broke into open country, leaving the attackers worn down when the Soviet counteroffensives began.",
+        "text": "Defences in depth absorbed the German attack before it broke into open country, leaving the attackers worn down when the Soviet counteroffensives began. LeMO describes a battle of attrition that used up Germany's last reserves.",
         "evidence": "interpretation",
         "refs": [
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -1134,6 +1185,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -1149,7 +1206,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Western accounts long relied on German sources, and Menning writes that the full intelligence story \"remains to be told\". The figures for forces and losses cited by the museum, from David Glantz and Karl-Heinz Frieser, differ widely from Menning's. The label \"largest tank battle in history\" depends on how the fighting is counted.",
+        "text": "Western accounts long relied on German sources, and Menning writes that the full intelligence story \"remains to be told\". The figures for forces and losses cited by the museum, from David Glantz and Karl-Heinz Frieser, differ widely from Menning's. The label \"largest tank battle in history\" depends on how the fighting is counted; Britannica applies it to the whole battle. Even the depth of the German advance is given as about 10 and 30 kilometres in the north and south by LeMO, and 10 and 30 miles by Britannica. LeMO argues that the Soviet losses weighed far less on the rest of the war than the German.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -1157,12 +1214,18 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Menning's encyclopedia entry gives the operational narrative and historiography. The National WWII Museum article sets out the battle's scale and the Soviet counteroffensive.",
+        "text": "Menning's encyclopedia entry gives the operational narrative and historiography. The National WWII Museum article sets out the battle's scale and the Soviet counteroffensive. LeMO, the German Historical Museum's online history, gives a short German account, and Britannica a summary; their force and loss figures are not used. No Soviet-side source was read.",
         "evidence": "fact",
         "refs": [
           {
@@ -1170,6 +1233,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }

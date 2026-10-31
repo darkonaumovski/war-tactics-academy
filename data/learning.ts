@@ -267,6 +267,7 @@ export const courses: Course[] = [
   initialCourses[1],
   collectionCourses[2],
   additionalCourses[1],
+  collectionCourses[3],
   additionalCourses[2],
 ];
 export const scenarios: Scenario[] = [
@@ -572,6 +573,40 @@ export const scenarios: Scenario[] = [
         text: "Screen the road with a rearguard and wait for Bernadotte before engaging.",
         feedback:
           "Waiting would add a corps if it came, but Bernadotte, though summoned more than once, did not intervene. It is not a documented plan.",
+        historical: false,
+      },
+    ],
+  },
+  {
+    slug: "deploy-the-grand-fleet",
+    title: "Which way to deploy?",
+    battleSlug: "jutland",
+    commander: "John Jellicoe",
+    situation:
+      "Evening, 31 May 1916, in the North Sea off Jutland. Beatty's battlecruisers, after losing two ships, are drawing the German fleet north toward you. Visibility is worsening in mist and smoke.",
+    known:
+      "Contrary to the report you received, the High Seas Fleet is at sea and Beatty is in contact with it. The Grand Fleet is considerably larger, and the German minefields off Horns Reef offer the enemy a way home.",
+    unknown:
+      "Exactly where the German battle line is and on what course, and whether torpedo boats and submarines lie in wait.",
+    historical:
+      "Seconds after he learned where the German fleet was, Jellicoe deployed his fleet across its line of advance at about 6.15 p.m. Scheer turned away twice; at the second turn Jellicoe turned away from a massed torpedo attack, and in the night the German fleet slipped past to Horns Reef.",
+    options: [
+      {
+        text: "Keep closing in cruising order and deploy only when the enemy is in sight.",
+        feedback:
+          "Closing first might bring the fleets into action sooner, but deploying later, nearer the enemy and in failing light, carries risks of its own. An interpretive alternative; the outcome cannot be known.",
+        historical: false,
+      },
+      {
+        text: "Deploy at once into line across the German line of advance.",
+        feedback:
+          "This matches the historical decision, which Britannica calls the most vital of the battle. It put the Grand Fleet across the German path, but Scheer escaped by turning away.",
+        historical: true,
+      },
+      {
+        text: "Hold back the battle fleet until clearer reports arrive.",
+        feedback:
+          "Caution would guard against torpedoes and mines, but with the light failing it risked losing contact altogether. It is not a documented plan.",
         historical: false,
       },
     ],

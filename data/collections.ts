@@ -204,7 +204,7 @@ export const collections: Collection[] = [
       },
     ],
     wars: ["ww1"],
-    courseSlugs: ["industrial-world-wars", "serbian-front"],
+    courseSlugs: ["industrial-world-wars", "first-world-war", "serbian-front"],
   },
   {
     slug: "serbian-front",

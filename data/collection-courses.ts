@@ -197,6 +197,84 @@ const fnBlucher: Source = {
   url: "https://www.napoleon.org/en/history-of-the-two-empires/close-up/a-close-up-on-blucher-and-the-waterloo-campaign",
 };
 
+const online =
+  "1914-1918-online. International Encyclopedia of the First World War";
+const britTannenberg: Source = {
+  title: "Battle of Tannenberg",
+  publisher: "Encyclopaedia Britannica",
+  url: "https://www.britannica.com/event/Battle-of-Tannenberg-World-War-I-1914",
+};
+const leGallMarne: Source = {
+  title: "Marne, Battles of the (Erwan Le Gall)",
+  publisher: online,
+  url: "https://encyclopedia.1914-1918-online.net/article/marne-battles-of-the-1-1/",
+};
+const jonesYpres: Source = {
+  title: "Ypres, Battles of (Spencer Jones)",
+  publisher: online,
+  url: "https://encyclopedia.1914-1918-online.net/article/ypres-battles-of/",
+};
+const memorialVerdun: Source = {
+  title: "The Battle of Verdun",
+  publisher: "Mémorial de Verdun",
+  url: "https://memorial-verdun.fr/en/ressources/la-bataille-de-verdun",
+};
+const philpottSomme: Source = {
+  title: "Somme, Battles of (William Philpott)",
+  publisher: online,
+  url: "https://encyclopedia.1914-1918-online.net/article/somme-battles-of/",
+};
+const skinnerGallipoli: Source = {
+  title: "Gallipoli, Campaign and Battle of (Harold Allen Skinner Jr.)",
+  publisher: online,
+  url: "https://encyclopedia.1914-1918-online.net/article/gallipoli-campaign-and-battle-of/",
+};
+const dowlingEast: Source = {
+  title: "Eastern Front (Timothy C. Dowling)",
+  publisher: online,
+  url: "https://encyclopedia.1914-1918-online.net/article/eastern-front/",
+};
+const grilliniCaporetto: Source = {
+  title: "Caporetto, Battle of (Anna Grillini)",
+  publisher: online,
+  url: "https://encyclopedia.1914-1918-online.net/article/caporetto-battle-of/",
+};
+const kitchenEEF: Source = {
+  title: "Egyptian Expeditionary Force (James E. Kitchen)",
+  publisher: online,
+  url: "https://encyclopedia.1914-1918-online.net/article/egyptian-expeditionary-force/",
+};
+const iwmJutland: Source = {
+  title: "Battle of Jutland",
+  publisher: "Imperial War Museums",
+  url: "https://www.iwm.org.uk/history/first-world-war/jutland",
+};
+const epkenhansJutland: Source = {
+  title: "Jutland, Battle of (Michael Epkenhans)",
+  publisher: online,
+  url: "https://encyclopedia.1914-1918-online.net/article/jutland-battle-of/",
+};
+const iwmCambrai: Source = {
+  title: "The Fighting Tactics of the Battle of Cambrai",
+  publisher: "Imperial War Museums",
+  url: "https://www.iwm.org.uk/history/first-world-war/western-front/cambrai",
+};
+const watsonSpring: Source = {
+  title: "German Spring Offensives 1918 (Alexander Watson)",
+  publisher: online,
+  url: "https://encyclopedia.1914-1918-online.net/article/german-spring-offensives-1918/",
+};
+const badseyAmiens: Source = {
+  title: "Amiens, Battle of (Stephen Badsey)",
+  publisher: online,
+  url: "https://encyclopedia.1914-1918-online.net/article/amiens-battle-of/",
+};
+const grotelueschenUSA: Source = {
+  title: "Warfare 1917-1918 (USA) (Mark E. Grotelueschen)",
+  publisher: online,
+  url: "https://encyclopedia.1914-1918-online.net/article/warfare-1917-1918-usa/",
+};
+
 export const collectionCourses: Course[] = [
   {
     slug: "alexanders-campaigns",
@@ -757,6 +835,177 @@ export const collectionCourses: Course[] = [
           prompt: "Was the armistice of Pläswitz Napoleon's great mistake?",
           guidance:
             "Compare the Fondation's timeline with Britannica's account of an offensive that had spent its force, without ammunition, supplies or cavalry. Then ask what each side gained during the pause.",
+        },
+      ),
+    ],
+  },
+  {
+    slug: "first-world-war",
+    title: "The First World War, 1914–1918",
+    level: "Advanced",
+    description:
+      "Follow the war from the failed plans of 1914 through the deadlock of the trenches, the other fronts and the North Sea to the new methods of 1918, using the source-backed studies.",
+    lessons: [
+      unit(
+        "plans-meet-reality-1914",
+        "1914: plans meet reality",
+        [
+          "Explain why the war plans of 1914 failed to deliver a quick decision.",
+          "Relate railways, radio and command to the outcome of the first campaigns.",
+        ],
+        [
+          "In East Prussia the two Russian army commanders, Rennenkampf and Samsonov, had quarrelled since the Russo-Japanese War. Hoffmann trusted Russian wireless orders sent uncoded, and Ludendorff withdrew almost everything from in front of Rennenkampf to strike both of Samsonov's flanks at Tannenberg. Britannica calls the double envelopment an afterthought rather than a planned second Cannae, and notes that the Germans could not turn the victory into a strategic one; the corps sent east helped make the French recovery on the Marne possible.",
+          "In the west Moltke weakened his right wing with detachments and the transfer east. Joffre abandoned Plan XVII, moved troops by rail to build a new army on his left and returned to the offensive. Kluck wheeled inward before reaching Paris and exposed his flank; Moltke, far from the front, left the decisive judgement to a staff officer, Hentsch. On 9 September the German right fell back to the Aisne, a strategic rather than a tactical defeat, and trench warfare set in.",
+          "The race to the sea ended at Ypres. King Albert's flooding of the Yser secured the Allied left, a counter-attack retook Gheluvelt on 31 October, and the Prussian Guard's failure on 11 November ended the battle. Even crude entrenchments, defended with rifles, machine guns and artillery, stopped attackers with more men and guns; mobile war ended less by design than because every flanking attempt met a defender who arrived in time.",
+        ],
+        ["tannenberg", "marne-1914", "first-ypres"],
+        [britTannenberg, leGallMarne, jonesYpres],
+        [
+          "War plan",
+          "Railways and radio",
+          "Command out of touch",
+          "Entrenchment",
+        ],
+        "What gave the Germans the knowledge to take great risks at Tannenberg?",
+        [
+          "Captured Russian maps",
+          "Russian wireless orders sent uncoded",
+          "Reports from agents in Warsaw",
+        ],
+        1,
+        "Hoffmann trusted uncoded Russian wireless orders, which his superiors suspected were a deception, and railways let the Germans shift forces quickly.",
+        {
+          prompt:
+            "Was the Marne won by Joffre, by Gallieni, or by German mistakes?",
+          guidance:
+            "Compare Britannica, which credits Gallieni with seeing the opportunity, with Cochet, who credits Joffre as the only commander with a view of the whole front, and weigh both against Moltke's distance from the battle. Le Gall reads the memory of a 'miracle' as a French national narrative.",
+        },
+      ),
+      unit(
+        "the-trench-deadlock",
+        "The trench deadlock: Second Ypres, Verdun, the Somme, Passchendaele",
+        [
+          "Explain why new weapons and great offensives failed to break the Western Front.",
+          "Assess how far the armies learned under fire, and at what cost.",
+        ],
+        [
+          "At Second Ypres in April 1915 the Germans used chlorine as a means to limited ends, with no reserves to exploit success. On the first night the gap stood open, but no German troops were ready to pass through it, and Canadians, gassed Algerian survivors and reserve battalions formed a flank. Gas spread to every army, and the surprise did not come twice.",
+          "At Verdun in 1916 Pétain defended in depth, rotated divisions through the battle and greatly increased the French artillery, while the German command came to make the seizure of ground its priority; once both armies fought for ground, losses fell on both alike. On the Somme Haig set distant objectives that stretched his guns. On 1 July German machine guns and artillery stopped most of the British infantry, while the French south of the river, with more heavy artillery, took their objectives; by the capture of Thiepval in September British methods had improved.",
+          "At Passchendaele in 1917 rain on the first afternoon turned the ground into a swamp. Plumer's limited attacks under overwhelming artillery, known as bite and hold, won ground in September; Haig took them as a sign that the enemy was near collapse, and the deeper attacks of October failed in the mud. The study's hardest lesson is the cost of persisting after the conditions for success have gone.",
+        ],
+        ["second-ypres", "verdun", "somme", "passchendaele"],
+        [jonesYpres, memorialVerdun, philpottSomme],
+        [
+          "New weapon",
+          "Defence in depth",
+          "Artillery and objectives",
+          "Persistence and its cost",
+        ],
+        "What did Plumer's bite-and-hold attacks at Passchendaele aim for?",
+        [
+          "Limited objectives within the range of massed artillery",
+          "A breakthrough to the Belgian coast in a single day",
+          "Night attacks without artillery support",
+        ],
+        0,
+        "Limited objectives within reach of the guns won ground and broke up German counter-attacks where the deeper attacks of October did not.",
+        {
+          prompt: "Was the Somme a futile slaughter or a hard school?",
+          guidance:
+            "Set Britain's 'lions led by donkeys' view against Philpott and the National Army Museum, who argue that the battle shifted the war of attrition and taught the British army. Philpott notes that France's part has been all but forgotten, and that in France and Germany Verdun, not the Somme, stands for attrition.",
+        },
+      ),
+      unit(
+        "beyond-the-western-front",
+        "Beyond the Western Front: Gallipoli, Brusilov, Caporetto, Megiddo",
+        [
+          "Compare how surprise, preparation and exploitation decided four campaigns on other fronts.",
+          "Judge whether a victory in a secondary theatre changed the course of the war.",
+        ],
+        [
+          "At Gallipoli in 1915 early naval bombardment only spurred the Ottoman defence. On the first day the slow ANZAC advance gave Mustafa Kemal time to deploy on the commanding ridges, and in August Skinner faults Hamilton for failing to define objectives and to supervise the landing at Suvla. The withdrawal was the best-run part of the Allied effort, and the Straits stayed closed for the rest of the war.",
+          "In 1916 Brusilov attacked on a broad front, with thorough preparation, short bombardments and many attack points, so that the Austrians had no single place to send their reserves; but the neighbouring Russian fronts did not attack as agreed, and German divisions arrived from mid-June. At Caporetto in 1917 an Austro-German attack with surprise, a short, intense bombardment with gas and infiltration broke an Italian front without depth, reserves or a plan for retreat; the Italians held on the Piave, where the attackers had outrun their transport.",
+          "At Megiddo in 1918 Allenby deceived the Ottomans about where he would attack, concentrated in secret on the coast and used the infantry to open the door for a deep mounted envelopment, with aircraft attacking the retreat. Kitchen calls it the war's most successful large-scale use of cavalry, but notes that the Ottoman army's acute shortages explain how defeat became a rout, and that Bulgaria's collapse, not Megiddo, ended the Ottoman war.",
+        ],
+        ["gallipoli", "brusilov-offensive", "caporetto", "megiddo-1918"],
+        [skinnerGallipoli, dowlingEast, grilliniCaporetto, kitchenEEF],
+        ["Surprise", "Break-in", "Reserves and transport", "Wider strategy"],
+        "Why could the Austrians not stop the first days of the Brusilov offensive with their reserves?",
+        [
+          "Their reserves had been sent to Gallipoli",
+          "The Russians had broken their codes",
+          "Attacks on a broad front gave them no single place to send them",
+        ],
+        2,
+        "Brusilov's many attack points denied the defender a single threatened sector; Conrad had also sent his best divisions to Italy.",
+        {
+          prompt:
+            "Which of these four campaigns changed the course of the war?",
+          guidance:
+            "Use Britannica's judgement that Caporetto lacked a strategic context, Kitchen's view that Bulgaria rather than Megiddo ended the Ottoman war, the closing of the Straits after Gallipoli, and Britannica's claim that the Brusilov offensive sounded the death knell of the Russian monarchy.",
+        },
+      ),
+      unit(
+        "sea-power-jutland",
+        "Sea power: Jutland",
+        [
+          "Explain why a battle with heavier British losses left British command of the sea intact.",
+          "Trace how intelligence was gathered, misread and not passed on.",
+        ],
+        [
+          "Both fleets began the war on the defensive. Britain's distant blockade cut Germany off from the Atlantic, and the High Seas Fleet could not challenge the larger Grand Fleet without risking severe losses. In 1916 Scheer planned to lure out and destroy part of it: Hipper's battlecruisers would draw Beatty north into the path of the High Seas Fleet. British listening stations intercepted the order and the Grand Fleet sailed first, but on 31 May Jellicoe believed the German fleet was still in port, because its flagship's call sign was still heard from Jade Bay.",
+          "In the battlecruiser action two British ships blew up, and Beatty turned north to draw the Germans toward Jellicoe. At about 6.15 p.m., seconds after learning where the German fleet was, Jellicoe deployed across its line of advance, a decision Britannica calls the most vital of the battle. Scheer turned away twice, the second time behind a massed attack by battlecruisers and torpedo boats; Jellicoe turned away from the torpedoes, and in the night, after the Admiralty failed to pass on a clue to its route home, the German fleet slipped past to Horns Reef.",
+          "The British lost more ships and men, and the Germans claimed victory. Yet the Grand Fleet was ready for action the next day, the German fleet never again seriously challenged British control of the North Sea, and the blockade continued. Early in 1917 Germany turned to unrestricted submarine warfare. Epkenhans concludes that even if Jutland is called a German tactical victory, it did not change the strategic situation.",
+        ],
+        ["jutland"],
+        [iwmJutland, epkenhansJutland],
+        ["Blockade", "Intelligence", "Deployment", "Command of the sea"],
+        "Why did Jutland leave the strategic situation in the North Sea unchanged?",
+        [
+          "The Germans destroyed most of the Grand Fleet's battleships",
+          "The British still dominated the North Sea and the blockade continued",
+          "Both fleets were too damaged to put to sea again",
+        ],
+        1,
+        "Despite heavier losses, the Grand Fleet was ready the next day and the High Seas Fleet never again seriously challenged British control.",
+        {
+          prompt: "Was Jellicoe right to turn away from the torpedo attack?",
+          guidance:
+            "Britannica says he overrated the danger and let the fleets separate when the High Seas Fleet was most vulnerable. Weigh this against the study's lesson that a fleet whose loss would mean losing command of the sea may accept a smaller result rather than risk everything.",
+        },
+      ),
+      unit(
+        "new-methods-1918",
+        "New methods: Cambrai, Michael, Amiens, the Meuse-Argonne",
+        [
+          "Explain how surprise and combined arms broke the deadlock in 1917–1918.",
+          "Distinguish a tactical breakthrough from an operational result.",
+        ],
+        [
+          "At Cambrai in November 1917 massed tanks and aircraft broke deep into the Hindenburg Line at little cost. But tank breakdowns, bad weather, poor communications and reserves absorbed by Passchendaele left the gap unexploited, and a German counter-stroke with infiltrating storm troops on 30 November reversed most of the gains. Both sides' methods foreshadowed the fighting of 1918.",
+          "In March 1918 Operation Michael won the largest territorial gain on the Western Front since 1914. Watson faults Ludendorff for setting no final objective, missing the British army's dependence on the rail hubs of Amiens and Hazebrouck, and dispersing his strength; Allied reserves under Foch's unified command closed the gap, and the exhausted attackers lacked the transport to go further. Ludendorff repeated the pattern until a French-led counter-attack took the initiative on 18 July.",
+          "At Amiens on 8 August surprise and secrecy replaced a long bombardment, and infantry, artillery, tanks and aircraft attacked together; Ludendorff called it the black day of the German army. When resistance stiffened, Haig stopped and struck elsewhere, as Foch planned. In the Meuse-Argonne the American army's hurried attacks bogged down against defences in depth, until a methodical attack on 1 November broke the German line. Expanding an army quickly gave it mass, but not yet skill.",
+        ],
+        ["cambrai-1917", "operation-michael", "amiens-1918", "meuse-argonne"],
+        [iwmCambrai, watsonSpring, badseyAmiens, grotelueschenUSA],
+        [
+          "Surprise",
+          "Combined arms",
+          "An objective that matters",
+          "Stop and strike elsewhere",
+        ],
+        "What, according to Watson, was missing from Ludendorff's spring offensive?",
+        [
+          "A final objective, such as the rail hubs the British army depended on",
+          "Enough artillery for a surprise bombardment",
+          "Infantry trained in infiltration",
+        ],
+        0,
+        "Tactical success without an operational objective used up the attacker's strength without capturing anything the Allies could not afford to lose.",
+        {
+          prompt: "Who learned faster in 1918, and what did they learn?",
+          guidance:
+            "Compare Britannica's view of German tactical virtuosity unconnected to strategy with the combined arms of Amiens and Foch's repeated attacks. For the Americans, weigh Forney's account of building an army against Grotelueschen's judgement of its competence and the debate over its losses.",
         },
       ),
     ],

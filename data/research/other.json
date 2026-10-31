@@ -1434,22 +1434,40 @@
         "title": "Battle of Yarmouk",
         "url": "https://www.worldhistory.org/article/1563/battle-of-yarmouk/",
         "publisher": "World History Encyclopedia (Syed Muhammad Khan)"
+      },
+      {
+        "title": "Battle of Yarmūk",
+        "url": "https://www.ebsco.com/research-starters/military-history-and-science/battle-yarmuk",
+        "publisher": "EBSCO Research Starters (Bart L. R. Talbert, 2022)"
+      },
+      {
+        "title": "Yarmuk (Encyclopaedia Judaica, 2nd ed.)",
+        "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/yarmuk",
+        "publisher": "Encyclopedia.com (Michael Avi-Yonah, Abraham J. Brawer and Shaked Gilboa)"
+      },
+      {
+        "title": "Battle of Yarmouk",
+        "url": "https://www.britannica.com/topic/Battle-of-Yarmouk-636",
+        "publisher": "Encyclopaedia Britannica (Tony Bunting)"
       }
     ],
     "sections": [
       {
         "title": "Historical background",
-        "text": "After the Ridda Wars reasserted the caliphate's control of Arabia, Muslim armies advanced into Iraq and Syria. They defeated a Byzantine army at Ajnadayn in 634 and took Damascus, Pella and Emesa (Homs). Both the Byzantine and Sasanian empires were exhausted by their long war with each other.",
+        "text": "After the Ridda Wars reasserted the caliphate's control of Arabia, Muslim armies advanced into Iraq and Syria; Talbert dates the first raids into Byzantine territory to 629 and Abu Bakr's dispatch of four armies to 633. They defeated a Byzantine army at Ajnadayn in July 634, won at Pella early in 635 and took Damascus and Emesa (Homs) later that year. Both the Byzantine and Sasanian empires were exhausted by their long war with each other.",
         "evidence": "fact",
         "refs": [
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Political and strategic context",
-        "text": "Emperor Heraclius gathered a large army to recover Syria, drawn from Greeks, Syrians, Mesopotamians and Armenians, with Arab tribal contingents under the Ghassanid Jabalah ibn al-Aiham. Al-Baladhuri portrays many Syrians as hostile to Byzantine rule.",
+        "text": "Emperor Heraclius gathered a large army at Antioch to recover Syria, drawn from Greeks, Syrians, Mesopotamians and Armenians, with Arab tribal contingents under the Ghassanid Jabalah ibn al-Aiham. Britannica's summary says he allied with the Sasanians and played for time while he waited for their forces; Talbert describes him as ill. Al-Baladhuri portrays many Syrians as hostile to Byzantine rule.",
         "evidence": "fact",
         "refs": [
           {
@@ -1457,22 +1475,34 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Campaign objectives",
-        "text": "Heraclius aimed to drive the Muslim armies out of Syria. The Muslim commanders gave up dispersed positions and concentrated their forces to meet his army in one place.",
+        "text": "Heraclius aimed to drive the Muslim armies out of Syria. The Muslim commanders gave up Emesa, Damascus and their other dispersed positions and concentrated their forces to meet his army in one place; Britannica's summary credits Khalid with arguing for this at a council of war.",
         "evidence": "fact",
         "refs": [
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Geography and terrain",
-        "text": "The battle was fought near the Yarmuk River (the ancient Hieromax), on a plateau suited to light cavalry and cut by deep wadis. Behind the Byzantine position, the gorge of the Wadi Ruqqad could be crossed by a single bridge.",
+        "text": "The battle was fought near the Yarmuk River (the ancient Hieromax), on a plateau suited to light cavalry and cut by deep wadis. Behind the Byzantine position, the gorge of the Wadi Ruqqad could be crossed by a single bridge; Talbert has the Byzantines cross by this old Roman bridge to deploy.",
         "evidence": "fact",
         "refs": [
           {
@@ -1480,12 +1510,18 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Vahan, an Armenian general, commanded the Byzantine field army. Abu Ubaidah held the Muslim command; World History Encyclopedia says he ceded battlefield direction to Khalid ibn al-Walid. Al-Baladhuri claims about 200,000 Byzantine troops against 24,000 Muslims; modern estimates are far lower, and no reliable count survives.",
+        "text": "Vahan, an Armenian general, commanded the Byzantine field army. Abu Ubaidah held the Muslim command in Syria; World History Encyclopedia and Talbert say he left battlefield direction to Khalid ibn al-Walid. Al-Baladhuri claims about 200,000 Byzantine troops against 24,000 Muslims; modern estimates are far lower, Talbert judges that the armies were probably close to equal by the time they met, and no reliable count survives.",
         "evidence": "fact",
         "refs": [
           {
@@ -1493,22 +1529,28 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Initial deployment",
-        "text": "Muslim forces withdrew from Palestine, Jordan and Emesa to the Yarmuk plateau and were reinforced from Medina. The armies then faced each other for months of negotiation and build-up before fighting began.",
+        "text": "Muslim forces withdrew from Palestine, Jordan and Emesa to the Yarmuk plateau and were reinforced from Medina. The armies then faced each other for months of negotiation and build-up before fighting began. Talbert describes the Byzantines in four divisions and Khalid's army in four infantry and four cavalry divisions, with a larger cavalry reserve behind them.",
         "evidence": "fact",
         "refs": [
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "World History Encyclopedia dates the battle to six days, 15–20 August 636; al-Baladhuri dates it to Rajab of the year 15 AH. After opening duels, Byzantine attacks pushed the Muslim flanks back to their camps, where the women helped rally the men. A cavalry reserve restored the line, and on the last day a Muslim envelopment broke the Byzantine army.",
+        "text": "World History Encyclopedia dates the battle to six days, 15–20 August 636, and Talbert also opens it on 15 August; Britannica's summary instead begins it on 20 August, the date the Encyclopaedia Judaica gives for the battle, and al-Baladhuri dates it to Rajab of the year 15 AH. After opening duels, Byzantine attacks pushed the Muslim flanks back to their camps, where, in Muslim tradition, the women rallied the men. A cavalry reserve restored the line, and on the last day a Muslim envelopment broke the Byzantine army.",
         "evidence": "fact",
         "refs": [
           {
@@ -1516,32 +1558,53 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "According to World History Encyclopedia, Khalid refused a truce Vahan requested on the fifth day, sent cavalry at night to seize the bridge over the Wadi Ruqqad and then led massed cavalry around the Byzantine left.",
+        "text": "According to World History Encyclopedia, Khalid refused a truce Vahan requested on the fifth day, sent cavalry at night to seize the bridge over the Wadi Ruqqad and then led massed cavalry around the Byzantine left. Talbert has the mounted reserve strike the Byzantine flanks and cut their infantry off from their cavalry, and names its commander, Zarrar, as the man who took the bridge.",
         "evidence": "fact",
         "refs": [
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Decisive turning points",
-        "text": "Holding the only bridge in the Byzantine rear turned a defeat into the destruction of the army, since the flank attack drove it toward ground with no escape.",
+        "text": "Holding the only bridge in the Byzantine rear turned a defeat into the destruction of the army, since the flank attack drove it toward ground with no escape. Britannica's summary and the Encyclopaedia Judaica add that a wind carrying sand from the desert blew at the Muslims' backs.",
         "evidence": "interpretation",
         "refs": [
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Outcome",
-        "text": "The Byzantine army was destroyed; survivors fled toward Palestine, Antioch, Aleppo, Mesopotamia and Armenia. Al-Baladhuri reports that Heraclius left Antioch for Constantinople and bade farewell to Syria.",
+        "text": "The Byzantine army was destroyed; many were driven into the gorges of the Yarmuk and the Ruqqad, and survivors fled toward Palestine, Antioch, Aleppo, Mesopotamia and Armenia. Al-Baladhuri reports that Heraclius left Antioch for Constantinople and bade farewell to Syria.",
         "evidence": "fact",
         "refs": [
           {
@@ -1549,12 +1612,21 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Consequences",
-        "text": "Syria passed permanently to the caliphate, and Jerusalem surrendered in 637. Al-Baladhuri describes the people of Hims opening their gates and paying tribute. Khalid was removed from command soon after his victory.",
+        "text": "Syria passed permanently to the caliphate, and Jerusalem surrendered in 637; by 645, Talbert notes, Syria, Palestine and Egypt were under Muslim rule, with Christians and Jews tolerated. Al-Baladhuri describes the people of Hims opening their gates and paying tribute. Heraclius turned to the defence of Anatolia and Egypt, and Khalid was removed from command soon after his victory.",
         "evidence": "fact",
         "refs": [
           {
@@ -1562,12 +1634,18 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Historical lessons",
-        "text": "A mobile reserve and control of the enemy's line of retreat can matter more than numbers. Local attitudes to imperial rule shaped what followed the battle.",
+        "text": "A mobile reserve and control of the enemy's line of retreat can matter more than numbers. Talbert's judgement is that the Byzantines gambled everything on one decisive battle instead of their usual caution. Local attitudes to imperial rule shaped what followed the battle.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -1575,12 +1653,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Historiographical debates",
-        "text": "Al-Baladhuri died around 892, so the detailed narratives come from two centuries after the battle, and Arab chroniclers tended to inflate enemy numbers. The sources differ on Jabalah: al-Baladhuri places him with the Byzantines and has him convert only later, while some accounts report a defection during the battle. Vahan's fate is uncertain.",
+        "text": "Al-Baladhuri died around 892, so the detailed narratives come from two centuries after the battle, and Arab chroniclers tended to inflate enemy numbers. Modern accounts disagree even on the dates and on how many days were spent fighting. The sources differ on Jabalah: al-Baladhuri places him with the Byzantines and has him convert only later, while some accounts report a defection during the battle, and Talbert speaks of desertions and infighting among the Byzantine contingents. Talbert treats the rally by the women as a Muslim tradition. Vahan's fate is uncertain.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -1588,12 +1669,18 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Al-Baladhuri's Futuh al-Buldan gives an early Islamic account built from episodes and anecdotes. World History Encyclopedia gives a modern reconstruction drawing on works such as David Nicolle's study of the battle.",
+        "text": "Al-Baladhuri's Futuh al-Buldan gives an early Islamic account built from episodes and anecdotes. World History Encyclopedia gives a modern reconstruction drawing on works such as David Nicolle's study of the battle. Talbert's research starter follows the standard modern studies, including Donner, Kaegi and Jandora's reconstruction, but is not free of inconsistencies; the Encyclopaedia Judaica entry and Britannica's summary are short.",
         "evidence": "fact",
         "refs": [
           {
@@ -1601,6 +1688,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -1633,7 +1729,7 @@
         "objective": "Destroy the Muslim army and restore Byzantine rule in Syria.",
         "known": "The Muslim forces had given up their scattered positions and concentrated on the Yarmuk plateau.",
         "uncertainty": "Whether a large army of many peoples and allied contingents would hold together in a long battle.",
-        "constraints": "World History Encyclopedia says the Byzantines delayed to coordinate with the Sasanians, giving their opponents time to reinforce.",
+        "constraints": "World History Encyclopedia and Britannica's summary say the Byzantines delayed to coordinate with the Sasanians, giving their opponents time to concentrate and reinforce.",
         "forces": "Troops from across the empire and its allies, including Armenians and Ghassanid Arabs.",
         "terrain": "A line anchored on a gorge and hills, with the Wadi Ruqqad and a single bridge behind it.",
         "logistics": "The army had been gathered at Antioch, far to the north.",
@@ -1920,6 +2016,16 @@
         "title": "Battle of Ain Jālūt",
         "url": "https://www.ebsco.com/research-starters/history/battle-ain-jalut",
         "publisher": "EBSCO Research Starters (Gilmar E. Visoni)"
+      },
+      {
+        "title": "Rashid al-Din, Jamiʿ al-Tawarikh: the battle of ʿAyn Jalut, trans. W. M. Thackston",
+        "url": "https://deremilitari.org/2013/03/jumiut-tawarikh-the-battle-of-ayn-jalut-september-8-1260/",
+        "publisher": "De Re Militari (Society for Medieval Military History)"
+      },
+      {
+        "title": "Baybars I",
+        "url": "https://www.britannica.com/biography/Baybars-I",
+        "publisher": "Encyclopaedia Britannica (Hassanein Muhammad Rabie)"
       }
     ],
     "sections": [
@@ -1938,7 +2044,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "The Mongols demanded the submission of the Mamluk sultan Qutuz; Britannica says he executed their envoy. News of the Great Khan Möngke's death led Hülegü to withdraw with much of his army, leaving his general Kitbuqa in Syria with a smaller force.",
+        "text": "The Mongols demanded the submission of the Mamluk sultan Qutuz; Britannica says he executed their envoy. In Rashid al-Din's Persian history of the Mongols, Qutuz consulted his amirs, one of whom, Bunduqdar, advised killing the envoys, and they were put to death that night. News of the Great Khan Möngke's death led Hülegü to withdraw with much of his army, leaving his general Kitbuqa in Syria with a smaller force.",
         "evidence": "fact",
         "refs": [
           {
@@ -1946,6 +2052,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -1971,7 +2080,7 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Kitbuqa's army included Syrian, Georgian and Armenian troops. Qutuz led the Mamluk army, with Baybars among his generals. Britannica describes the armies as roughly matched; EBSCO calls the Mamluk army vastly superior.",
+        "text": "Kitbuqa's army included Syrian, Georgian and Armenian troops. Qutuz led the Mamluk army; Baybars, whom Qutuz had welcomed back from exile in Syria that year, led its vanguard, according to Rabie. Britannica's battle article describes the armies as roughly matched; EBSCO calls the Mamluk army vastly superior.",
         "evidence": "fact",
         "refs": [
           {
@@ -1979,6 +2088,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -1997,7 +2109,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "The Mamluk army left Egypt in late July 1260, defeated a small Mongol force at Gaza and passed through Frankish territory near Acre. On 3 September a Mamluk advance force provoked the Mongols and drew them into an ambush. The Mongols broke the Mamluk left wing, but the Mamluks rallied, Kitbuqa fell and the Mongols retreated to Beisan, where they were defeated again.",
+        "text": "The Mamluk army left Egypt in late July 1260, defeated a small Mongol force at Gaza and passed through Frankish territory near Acre. Rashid al-Din has Kitbuqa order his advance guard under Baidar to wait for him, and Qutuz drive it back before Kitbuqa arrived. On 3 September a Mamluk advance force provoked the Mongols and drew them into an ambush. The Mongols broke the Mamluk left wing, but the Mamluks rallied, Kitbuqa fell and the Mongols retreated to Beisan, where they were defeated again. Rashid al-Din has the fighting last from dawn until midday.",
         "evidence": "fact",
         "refs": [
           {
@@ -2005,12 +2117,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "The Franks of Acre declared neutrality and let the Mamluks pass and resupply, after a clash at Sidon had turned them against the Mongols. Kitbuqa chose to pursue the Mamluk advance force into the valley. Contemporary accounts say Qutuz threw down his helmet and rallied his men when the left wing gave way.",
+        "text": "The Franks of Acre declared neutrality and let the Mamluks pass and resupply, after a clash at Sidon had turned them against the Mongols. Kitbuqa chose to pursue the Mamluk advance force into the valley; in Rashid al-Din's account Qutuz feigned a withdrawal and sprang the ambush from three sides. Contemporary accounts say Qutuz threw down his helmet and rallied his men when the left wing gave way.",
         "evidence": "fact",
         "refs": [
           {
@@ -2018,6 +2133,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -2033,7 +2151,7 @@
       },
       {
         "title": "Outcome",
-        "text": "Kitbuqa was killed in battle or, by another account, captured and beheaded. The Mamluks occupied Damascus and Aleppo and drove the Mongols out of Syria.",
+        "text": "Kitbuqa was killed in battle or, by another account, captured and beheaded. Rashid al-Din has him refuse to flee when his men gave way, fall into Mamluk hands when his horse faltered, and be beheaded after defying Qutuz; Mongols hiding in a reed bed were burned. The Mamluks occupied Damascus and Aleppo and drove the Mongols out of Syria.",
         "evidence": "fact",
         "refs": [
           {
@@ -2041,12 +2159,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Consequences",
-        "text": "Mamluk rule extended from Egypt to the Euphrates. Qutuz was murdered on the way back to Cairo by a conspiracy formed by Baybars, who seized power. Mongol campaigns into Syria continued in later decades, and Mamluk offensives later took the remaining Frankish strongholds, ending with Acre in 1291.",
+        "text": "Mamluk rule extended from Egypt to the Euphrates. Qutuz was murdered on the way back to Cairo by a conspiracy formed by Baybars, who seized power; Rabie writes that Baybars had expected Aleppo as his reward and struck when Qutuz refused it. Mongol campaigns into Syria continued in later decades, and Mamluk offensives later took the remaining Frankish strongholds, ending with Acre in 1291.",
         "evidence": "fact",
         "refs": [
           {
@@ -2054,6 +2175,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -2072,7 +2196,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The sources disagree on who directed the battle, Qutuz or Baybars, and on whether the Mamluk retreat was feigned or a regrouping. They also give different balances of strength and different accounts of Kitbuqa's death. Britannica's claim that the battle saved Islam is a strong retrospective judgement.",
+        "text": "The sources disagree on who directed the battle, Qutuz or Baybars, and on whether the Mamluk retreat was feigned or a regrouping; Rashid al-Din describes a feigned withdrawal, and Rabie credits Baybars with the vanguard. They also give different balances of strength and different accounts of Kitbuqa's death. Rashid al-Din, writing a history of the Mongols, gives Kitbuqa a hero's end and speeches that honour his loyalty, which should be read as the chronicler's portrait. Even the date varies: De Re Militari heads the excerpt 8 September but its introduction says 3 September, and Rabie places the battle loosely near Nablus. Britannica's claim that the battle saved Islam is a strong retrospective judgement.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -2080,12 +2204,18 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Britannica gives a narrative of the battle based on contemporary accounts. The EBSCO research starter gives political context, including the Frankish position, but contains some evident date errors, so it is used here only where it is consistent with Britannica.",
+        "text": "Britannica gives a narrative of the battle based on contemporary accounts. The EBSCO research starter gives political context, including the Frankish position, but contains some evident date errors, so it is used here only where it is consistent with Britannica. Rashid al-Din's Persian history, in Thackston's translation, gives the Mongol side. Rabie's Britannica biography of Baybars adds his part in the battle and the murder of Qutuz.",
         "evidence": "fact",
         "refs": [
           {
@@ -2093,6 +2223,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -2129,7 +2265,7 @@
         "forces": "The Mamluk army, with Baybars, who knew the terrain, among its generals.",
         "terrain": "A valley overlooked by wooded hills in which much of the army could hide.",
         "logistics": "The Franks of Acre allowed the army to resupply near the city.",
-        "decision": "He rejected Mongol demands, marched north and fought at Ain Jalut, rallying his men when the left wing broke.",
+        "decision": "He rejected Mongol demands and put the envoys to death, marched north and fought at Ain Jalut, rallying his men when the left wing broke.",
         "outcome": "A decisive victory; he was murdered on the way back to Cairo."
       },
       {
@@ -2141,7 +2277,7 @@
         "forces": "Mongols with Syrian, Georgian and Armenian troops.",
         "terrain": "He advanced into a valley facing the rising sun, with hills on which the enemy waited.",
         "logistics": "The sources read do not describe his supply, so it is not reconstructed here.",
-        "decision": "He ordered an advance in pursuit of the Mamluk force.",
+        "decision": "He ordered an advance in pursuit of the Mamluk force; in Rashid al-Din's account he fought on after his army broke rather than flee.",
         "outcome": "His army was defeated and he was killed or executed."
       }
     ]
@@ -2447,28 +2583,44 @@
         "title": "The Bābur-nāma in English (Memoirs of Bābur), trans. Annette Susannah Beveridge (1922)",
         "url": "https://www.gutenberg.org/ebooks/44608",
         "publisher": "Project Gutenberg"
+      },
+      {
+        "title": "Bābor, Ẓahīr-al-Dīn Moḥammad",
+        "url": "https://www.iranicaonline.org/articles/babor-zahir-al-din/",
+        "publisher": "Encyclopaedia Iranica (Fritz Lehmann)"
+      },
+      {
+        "title": "Lodī dynasty",
+        "url": "https://www.britannica.com/topic/Lodi-dynasty",
+        "publisher": "Encyclopaedia Britannica"
       }
     ],
     "sections": [
       {
         "title": "Historical background",
-        "text": "Babur, a descendant of Timur and of Genghis Khan, lost his father's principality of Fergana and failed to hold Samarkand against the Uzbeks. He seized Kabul in 1504 and between 1519 and 1524 raided the Punjab four times without gaining a firm hold.",
+        "text": "Babur, a descendant of Timur and of Genghis Khan, lost his father's principality of Fergana and failed to hold Samarkand against the Uzbeks. He seized Kabul in 1504 and between 1519 and 1524 raided the Punjab four times without gaining a firm hold; Lehmann writes that these raids showed him the dissension and mismanagement in the Lodi sultanate.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "Background; Babur"
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Political and strategic context",
-        "text": "Ibrahim Lodi, sultan of Delhi from 1517, sought a centralised rule that alienated powerful nobles. Daulat Khan Lodi, governor of the Punjab, and Ibrahim's uncle Alam Khan urged Babur to invade a fifth time.",
+        "text": "Ibrahim Lodi, sultan of Delhi from 1517, sought a centralised rule that alienated powerful nobles; the Lodi state had been built as a loose confederacy of Afghan and Turkish chiefs. Daulat Khan Lodi, governor of the Punjab, and Ibrahim's uncle Alam Khan urged Babur to invade a fifth time.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "Background; The battle"
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -2556,18 +2708,21 @@
       },
       {
         "title": "Decisive turning points",
-        "text": "In Babur's account, Ibrahim's army halted on seeing the prepared line, unable either to stand or to keep advancing. The turning parties reached its rear, and its wings were crowded into the centre so tightly that they could neither attack nor escape.",
+        "text": "In Babur's account, Ibrahim's army halted on seeing the prepared line, unable either to stand or to keep advancing. The turning parties reached its rear, and its wings were crowded into the centre so tightly that they could neither attack nor escape. Lehmann describes an army that fought as an inflexible, undisciplined mass and quickly fell apart.",
         "evidence": "fact",
         "refs": [
           {
             "source": 1,
             "locator": "fols. 266b–267"
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Outcome",
-        "text": "Ibrahim was killed and his body was found among the dead that afternoon. Babur sent columns at once to secure the treasuries of Delhi and Agra, and the Friday sermon was read in his name in Delhi on 27 April.",
+        "text": "Ibrahim was killed and his body was found among the dead that afternoon; Babur later ordered a tomb built for him. Babur sent columns at once to secure the treasuries of Delhi and Agra, and the Friday sermon was read in his name in Delhi on 27 April. With Ibrahim dead, the Lodi confederacy dissolved.",
         "evidence": "fact",
         "refs": [
           {
@@ -2577,23 +2732,32 @@
           {
             "source": 0,
             "locator": "The battle"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Consequences",
-        "text": "The battle ended the Lodi dynasty and the Delhi sultanate and set the base for Mughal rule. Unlike Timur, Babur stayed; he persuaded reluctant followers to remain and faced Rana Sanga at Khanua in March 1527.",
+        "text": "The battle ended the Lodi dynasty and the Delhi sultanate and set the base for Mughal rule. Unlike Timur, Babur stayed; his men had expected another raid for booty, and he had to persuade them to remain. He faced Rana Sanga at Khanua in March 1527 with, Lehmann writes, virtually the same tactics in a far more closely contested battle.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "The battle; Babur"
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Historical lessons",
-        "text": "A smaller army chose its ground, fortified it and let a larger one attack. Field defences, mobile flanking forces and missile fire worked together against an army whose commander could not rely on his nobles.",
+        "text": "A smaller army chose its ground, fortified it and let a larger one attack. Field defences, mobile flanking forces and missile fire worked together against an army whose commander could not rely on his nobles. Lehmann credits the discipline and mobility of Babur's troops, not superior weapons.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -2603,12 +2767,15 @@
           {
             "source": 1,
             "locator": "fols. 264–267"
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Historiographical debates",
-        "text": "Babur dates the battle to 20 April; Britannica notes that some scholars prefer 21 April. The role of guns is disputed. Britannica stresses artillery, but Beveridge argues that Babur had few guns, perhaps only two, and that he presents the victory as an archers' success. Babur's portrait of Ibrahim as miserly and untried is the victor's.",
+        "text": "Babur dates the battle to 20 April, as does Lehmann; Britannica notes that some scholars prefer 21 April, the date its article on the Lodi dynasty gives. The role of guns is disputed. Britannica's battle article stresses artillery, but Beveridge argues that Babur had few guns, perhaps only two, and that he presents the victory as an archers' success; Lehmann also says his Ottoman experts had only two cannons at Panipat and that Babur did not introduce artillery to India. Babur's portrait of Ibrahim as miserly and untried is the victor's.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -2618,12 +2785,18 @@
           {
             "source": 1,
             "locator": "n. 1660, n. 1677"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The main source is Babur's own memoir, written in Turki, in Beveridge's annotated translation, which compares manuscripts and earlier translations. Her notes also report an Afghan tradition that the fighting was unusually desperate. Britannica supplies the wider context.",
+        "text": "The main source is Babur's own memoir, written in Turki, in Beveridge's annotated translation, which compares manuscripts and earlier translations. Her notes also report an Afghan tradition that the fighting was unusually desperate. Britannica supplies the wider context, and Lehmann's Encyclopaedia Iranica article reads the campaign through the memoir.",
         "evidence": "fact",
         "refs": [
           {
@@ -2632,6 +2805,12 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -2676,7 +2855,7 @@
         "objective": "Destroy the invader and keep his throne.",
         "known": "Babur was entrenched near Panipat, and his advance detachments had been beaten.",
         "uncertainty": "The loyalty of nobles alienated by his rule.",
-        "constraints": "Disaffected nobles; Babur, a hostile witness, says he would not spend his treasure on extra troops.",
+        "constraints": "Disaffected nobles in a state that was a loose confederacy of Afghan and Turkish chiefs; Babur, a hostile witness, says he would not spend his treasure on extra troops.",
         "forces": "A large army of cavalry, elephants and hired troops, reported at 100,000.",
         "terrain": "An open approach to a fortified line.",
         "logistics": "The treasuries of Delhi and Agra.",
@@ -2697,6 +2876,16 @@
         "title": "The battle of Sekigahara – what went right?",
         "url": "https://www.ospreypublishing.com/uk/osprey-blog/2019/the-battle-of-sekigahara-what-went-right",
         "publisher": "Osprey Publishing (Stephen Turnbull)"
+      },
+      {
+        "title": "Sekigahara Campaign",
+        "url": "https://www.nps.gov/gett/learn/historyculture/sekigahara-campaign.htm",
+        "publisher": "National Park Service, Gettysburg National Military Park (Sekigahara series, chapter 2)"
+      },
+      {
+        "title": "Battle of Sekigahara",
+        "url": "https://www.nps.gov/gett/learn/historyculture/battle-of-sekigahara.htm",
+        "publisher": "National Park Service, Gettysburg National Military Park (Sekigahara series, chapter 3)"
       }
     ],
     "sections": [
@@ -2713,12 +2902,15 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Ieyasu's political marriages and his move to Ōsaka Castle led others to fear that he meant to supplant the heir. Ishida Mitsunari formed a coalition and on 22 August 1600 denounced him; Ieyasu answered with war. Alliances fell largely along east–west lines, but Uesugi in the east had plotted with Mitsunari.",
+        "text": "Ieyasu's political marriages and his move to Ōsaka Castle led others to fear that he meant to supplant the heir. Ishida Mitsunari formed a coalition and on 22 August 1600 denounced him; Ieyasu answered with war. Alliances fell largely along east–west lines, but Uesugi in the east had plotted with Mitsunari: when Ieyasu marched against Uesugi in July, the National Park Service writes, Mitsunari hoped to lure him east, but Ieyasu left generals to hold Uesugi and moved on toward Edo at a slower pace.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "Background"
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -2735,18 +2927,21 @@
       },
       {
         "title": "Geography and terrain",
-        "text": "Sekigahara was a village in a mountain valley where several major roads met. Kobayakawa Hideaki's troops held Mount Matsuo to the south, and Mōri and Chōsokabe forces held Mount Nangū behind the eastern army. A thick fog covered the valley until about 8 a.m.",
+        "text": "Sekigahara was a village in a mountain valley where several major roads met, among them the Nakasendō. Kobayakawa Hideaki's troops held Mount Matsuo to the south, and Mōri and Chōsokabe forces held Mount Nangū behind the eastern army. A thick fog covered the valley until about 8 a.m.; the National Park Service has visibility of about 100 feet when fighting began.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "Battle"
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Britannica gives Ieyasu nearly 89,000 men against just under 82,000 for the western coalition, including 15,000 under Kobayakawa. Both armies were coalitions of daimyō under their own lords. Turnbull warns that the standard troop layouts derive from an 1893 General Staff reconstruction based on cruder old maps.",
+        "text": "Britannica gives Ieyasu nearly 89,000 men against just under 82,000 for the western coalition, including 15,000 under Kobayakawa; the National Park Service treats the two armies as roughly equal. Both armies were coalitions of daimyō under their own lords. Turnbull warns that the standard troop layouts derive from an 1893 General Staff reconstruction based on cruder old maps.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -2755,45 +2950,63 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Initial deployment",
-        "text": "The western army arrived first after a night withdrawal from Ōgaki Castle. Ukita held the centre, Shimazu Yoshihiro the north and Ōtani Yoshitsugu the south, with Mitsunari behind field fortifications. Ieyasu entered from the Nakasendō road with Fukushima Masanori in the vanguard and Ii Naomasa's shock troops.",
+        "text": "The western army arrived first after a night withdrawal from Ōgaki Castle. Ukita held the centre, Shimazu Yoshihiro the north and Ōtani Yoshitsugu the south, with Mitsunari behind field fortifications on Sasaoyama. Ieyasu entered from the Nakasendō road and set his headquarters on Momokubari hill, with Fukushima Masanori in the vanguard and Ii Naomasa's shock troops.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "Background; Battle"
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "Ieyasu's columns converged on Mino; Gifu fell, but his son Hidetada was delayed besieging Ueda Castle. On 21 October fighting began when the fog lifted. At 11 a.m. Mitsunari signalled Kobayakawa, who stayed still until shortly after noon and then attacked Ōtani. Other units defected, the western centre broke, Shimazu withdrew, and by 2 p.m. Ieyasu declared victory.",
+        "text": "Ieyasu's columns converged on Mino; the defenders of Fushimi Castle held the western army from 27 August to 6 September, Gifu fell, and Ieyasu's son Hidetada was delayed besieging Ueda Castle. On 21 October fighting began in the fog, about 7:30 a.m. by the National Park Service's account, when Ii Naomasa charged ahead of Fukushima. At 11 a.m. Mitsunari signalled Kobayakawa, who stayed still until shortly after noon and then attacked Ōtani. Other units defected, the western centre broke, Shimazu withdrew, and by 2 p.m. Ieyasu declared victory.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "Background; Battle"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Ieyasu attacked into a valley overlooked by enemy forces because he had secret assurances from Kobayakawa and Kikkawa Hiroie. Ōtani turned half his men to face Kobayakawa in expectation of betrayal. Kikkawa's refusal to move held back the Mōri and Chōsokabe troops behind him.",
+        "text": "At Ōgaki on the eve of battle, the National Park Service writes, Shimazu proposed a night attack, which Shima Sakon called dishonourable; Mitsunari agreed with Shima and withdrew to Sekigahara instead. Ieyasu attacked into a valley overlooked by enemy forces because he had secret assurances from Kobayakawa and Kikkawa Hiroie. Ōtani turned half his men to face Kobayakawa in expectation of betrayal. Kikkawa's refusal to move held back the Mōri and Chōsokabe troops behind him.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "Battle"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Decisive turning points",
-        "text": "Kobayakawa's attack on Ōtani and the defections that followed broke the western line, and Kikkawa's inaction held back some 20,000 Mōri and Chōsokabe troops. Shiramine Jun, as reported by Turnbull, argues that the defection came at the start of the battle rather than at midday.",
+        "text": "Kobayakawa's attack on Ōtani and the defections that followed broke the western line, and Kikkawa's inaction held back some 20,000 Mōri and Chōsokabe troops. Shimazu, too, refused to join the fight when Mitsunari rode to him. Shiramine Jun, as reported by Turnbull, argues that the defection came at the start of the battle rather than at midday.",
         "evidence": "fact",
         "refs": [
           {
@@ -2802,28 +3015,40 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Outcome",
-        "text": "The western coalition was shattered. Mitsunari fled into the mountains and was beheaded in Kyōto within a month, and Ieyasu took Sawayama and Ōsaka castles within days.",
+        "text": "The western coalition was shattered. Shimazu's men cut their way out through the eastern army. Mitsunari fled into the mountains and was beheaded in Kyōto within a month, and Ieyasu took Sawayama and Ōsaka castles within days.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "Aftermath"
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Consequences",
-        "text": "Ieyasu confiscated lands from opponents and rewarded allies, including Kobayakawa and Kikkawa. In 1603 the emperor appointed him shōgun, founding a shogunate that lasted until 1868.",
+        "text": "Ieyasu confiscated lands from opponents and rewarded allies, including Kobayakawa and Kikkawa. In 1603 the emperor appointed him shōgun, founding a shogunate that lasted until 1868, and in 1615 the siege of Ōsaka destroyed the remaining Toyotomi, including Hideyori.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "Aftermath"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -2843,7 +3068,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Turnbull reports Shiramine Jun's 2014 revision: early reports called the battle Yamanaka, the labels Eastern and Western army appear only in 1698, the story of Ieyasu firing on Kobayakawa is a myth, the hill units were waiting on events, and the battle was shorter. Turnbull finds the defection timing persuasive; Britannica follows the conventional account.",
+        "text": "Turnbull reports Shiramine Jun's 2014 revision: early reports called the battle Yamanaka, the labels Eastern and Western army appear only in 1698, the story of Ieyasu firing on Kobayakawa is a myth, the hill units were waiting on events, and the battle was shorter. Turnbull finds the defection timing persuasive. Britannica and the National Park Service follow the conventional account; the Park Service presents the volley at Kobayakawa's troops, Ii Naomasa's ruse and Kikkawa's idleness as plain narrative.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -2852,12 +3077,15 @@
           {
             "source": 0,
             "locator": "Battle"
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Britannica gives the conventional narrative and Turnbull summarises recent Japanese research. Shiramine's book and the Japanese primary sources were not read directly.",
+        "text": "Britannica gives the conventional narrative and Turnbull summarises recent Japanese research. The National Park Service's chapters on the campaign and the battle give a fuller conventional account, timed through the day. Shiramine's book and the Japanese primary sources were not read directly.",
         "evidence": "fact",
         "refs": [
           {
@@ -2865,6 +3093,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -2901,7 +3135,7 @@
         "forces": "Just under 82,000 on paper, according to Britannica.",
         "terrain": "Positions in the valley and on Mount Matsuo and Mount Nangū around it.",
         "logistics": "A base at Ōgaki Castle, with Ōsaka and Fushimi in his coalition's hands.",
-        "decision": "He moved by night to Sekigahara, planning to pin the enemy and then signal the hill forces.",
+        "decision": "He rejected a night attack at Ōgaki and moved by night to Sekigahara, planning to pin the enemy and then signal the hill forces.",
         "outcome": "The hill forces defected or stayed still; he fled and was captured and executed."
       },
       {

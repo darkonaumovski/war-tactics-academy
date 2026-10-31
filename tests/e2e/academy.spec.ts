@@ -204,8 +204,9 @@ test("timeline selection, playback, zoom and accessible alternative", async ({
   await expect(page.locator(".text-timeline li")).toHaveCount(4);
 });
 test("every detailed study has a functional timeline", async ({ page }) => {
-  // One page visit per study (127 and growing) outlasts the default timeout.
-  test.setTimeout(180_000);
+  // One page visit per study (127 and growing) outlasts the default timeout;
+  // WebKit needs about two seconds per study when two workers run.
+  test.setTimeout(research.length * 4_000);
   for (const { slug, phases } of research) {
     await page.goto(`/battles/${slug}`);
     const buttons = page
@@ -688,6 +689,9 @@ test("search finds engagements by war, campaign and commander", async ({
   // A campaign name finds its engagements, with the match explained.
   const front = battles.filter((b) => b.campaignId === "macedonian-front");
   await page.goto("/search?q=Macedonian+front&type=Battle");
+  // The type filter is read from the URL after hydration; until then the
+  // prerendered page lists every type, including commanders on that front.
+  await expect(page.getByLabel("Content type")).toHaveValue("Battle");
   for (const b of front)
     await expect(
       page.locator(".search-results").getByRole("link", { name: b.name }),
@@ -809,6 +813,8 @@ for (const route of [
   "/commanders/napoleon-bonaparte",
 ])
   test(`accessibility: ${route}`, async ({ page }) => {
+    // axe takes 30 to 50 seconds on the 127-card catalog in every engine.
+    test.setTimeout(90_000);
     await page.goto(route);
     await expect(page.getByRole("main")).toBeVisible();
     if (route === "/") await revealAll(page);

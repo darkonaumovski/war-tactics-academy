@@ -1,8 +1,33 @@
 # Verification record
 
+## Final pass of the battle expansion (31 October 2026)
+
+Date: 31 October 2026 (Europe/Warsaw). Environment: Windows, Node 24.20.0. This record covers the final pass (Stage G) after the battle expansion: 127 engagements and studies, 106 commanders, 33 wars, 79 campaigns, six collections, ten courses and fifteen exercises.
+
+| Check                                     | Result                                                                                                                                                    |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `npm run lint`                            | Passed, no warnings or errors                                                                                                                             |
+| `npm run typecheck`                       | Passed, strict TypeScript                                                                                                                                 |
+| `npm test`                                | 79 passed, 0 failed, 10 test files                                                                                                                        |
+| `npm run db:seed`                         | Passed: 127 engagements, 106 commanders, 127 studies, 10 courses, 15 exercises, 9 media records                                                           |
+| `npm run build`                           | Passed; 441 pages, the not-found page and `sitemap.xml`; `out/` is about 105 MB                                                                           |
+| Internal links in the static export       | 444 HTML files, 13,746 root-relative links, every target present in `out/`                                                                                |
+| Collection, campaign and commander pages  | All 194 opened in Chromium (both indexes, 6 collections, 79 campaigns, 106 commanders and the comparison): HTTP 200, a heading, no page or console errors |
+| Full Playwright run against static export | **180 passed, 0 failed, 0 skipped** in 13.6 minutes; 60 each in Chromium, Firefox and WebKit                                                              |
+
+The crawl and the full run used `scripts/serve-static.mjs` on the exported files. Each page also requested route prefetch payloads that 404 locally: a Windows build writes them as `battles/__next.battles/__PAGE__.txt`, while the client asks for `battles/__next.battles.__PAGE__.txt`. The deploy workflow builds on Linux, and the live site serves the requested name with HTTP 200, so readers are not affected.
+
+Getting to a clean run took three test changes, none in the site. The first full run failed two of 180 tests. In Firefox, the search test checked results for `?type=Battle` before the page had applied the type from the URL, so the prerendered list (all types) still held Otto von Below's profile, whose text names the Monastir offensive; the test now waits for the type select to show "Battle". In WebKit, the test that opens every study's timeline ran out of its fixed 180-second budget: with 127 studies WebKit needs about two seconds each. The budget now scales with the number of studies (four seconds each). A second run, slowed by the computer going to sleep, and a third timed out in axe scans: axe takes 23 to 52 seconds on the 127-card catalog in every engine, close to the 45-second test limit, and longer on a study page while the other worker runs the timeline test. The accessibility scans now have 90 seconds. No scan reported a violation in any run.
+
+A fresh database built from the migrations and seed holds 127 `Battle`, 106 `Commander`, 33 `War`, 79 `Campaign`, 523 `BattlePhase`, 15 `HistoricalDecision`, 45 `DecisionOption`, 10 `LearningCourse`, 51 `Lesson`, 51 `QuizQuestion`, 106 `CommanderSource`, 494 `BattleSource`, 425 `LessonSource`, 462 `HistoricalSource` and 368 `MediaResource` rows (9 curated media records and 359 linked readings). The working database has three more `HistoricalSource` rows and one more `MediaResource` row, left by replaced links (see below).
+
+The sections below are the record of 24 October 2026, kept for its defects and history.
+
+## Typography and motion update (24 October 2026)
+
 Date: 24 October 2026 (Europe/Warsaw). Environment: Windows, Node 24.20.0, npm 11.19.0. Local servers were bound to loopback. The site is published to GitHub Pages by the deploy workflow; this record covers local verification of the typography and motion update before it is pushed.
 
-## Completed checks
+### Completed checks
 
 | Check                                                  | Result                                                                                                     |
 | ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
@@ -24,7 +49,7 @@ The first full run with Motion failed two WebKit accessibility tests: a home sec
 
 The original edition recorded 24 unit and 84 browser tests. Later updates recorded 33 unit and 102 browser tests, 38 unit and 114 browser tests, the static-export conversion, and 41 unit and 120 browser tests after the route restructure. This record reflects self-hosted typography and Motion animations.
 
-## Database verification
+### Database verification
 
 Read-only SQLite queries after repeated setup confirmed:
 
@@ -48,7 +73,7 @@ Read-only SQLite queries after repeated setup confirmed:
 
 `HistoricalSource` and `MediaResource` still contain rows for the three replaced source links. The seed upserts content and does not delete obsolete records, but it now replaces each battle's, commander's and lesson's source joins, so no join points at a replaced link. A fresh database contains only current sources.
 
-## Important commands executed
+### Important commands executed
 
 ```text
 npm view next version
@@ -118,7 +143,7 @@ npx playwright test -g "no browser runtime errors" --repeat-each=4
 
 Windows commands used the `npm.cmd` shim. Source files were formatted with Prettier. The Sites dependency helper initially failed to launch npm correctly on this Windows host; direct npm installation succeeded. Prisma's relative CLI database path was corrected to resolve against the workspace root. Restricted-shell user lookup prevented tsx from starting, so authorized local execution was used. An approval-review usage limit interrupted one diagnostic during the first session; it was successfully resumed after the user requested continuation.
 
-## Defects found and fixed
+### Defects found and fixed
 
 - Streamed invalid-slug pages returned HTTP 200: removed the early root loading boundary and retained inline navigation feedback. Tests assert the actual 404 status and the custom page.
 - The sidebar's theme switch could fall below a short viewport: made the sidebar scrollable and kept its children from shrinking.
@@ -168,7 +193,7 @@ Found while adding typography and motion:
 - Scroll reveals could leave a section hidden after a fast jump in WebKit; reveals now also trigger once a section has been scrolled past.
 - The preview screenshot script takes full-page captures without scrolling, which would show unrevealed sections as blank; it now emulates reduced motion.
 
-## Screenshots and reports
+### Screenshots and reports
 
 - `docs/screenshots/home-desktop-viewport.png` — desktop first screen.
 - `docs/screenshots/home-mobile-viewport.png` — mobile first screen.
@@ -180,6 +205,6 @@ Found while adding typography and motion:
 
 Screenshots were captured from the production build and visually inspected. Temporary preview servers were stopped after verification; use `npm run dev` or `npm start` to restart locally. The screenshots remain available without a running server.
 
-## Practical limits
+### Practical limits
 
 Automated checks do not establish full WCAG conformance, scholarly consensus or a Lighthouse score. No screen-reader certification, production load test or deployment claim is made. See the source audits and roadmap for editorial, media and curriculum limitations.

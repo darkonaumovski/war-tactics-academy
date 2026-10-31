@@ -30,15 +30,18 @@ export function AboutPage() {
           Atlas markers locate approximate areas using modern geography. Battle
           replay diagrams are conceptual schematics. Their blocks and arrows do
           not establish surveyed unit positions, force sizes or exact movement
-          routes. Decorative maps are original illustrations.
+          routes. Campaign and collection maps number engagements in date order;
+          a line joining them shows that order, not the path of any army.
+          Decorative maps are original illustrations.
         </p>
-        <h2>An honest first edition</h2>
+        <h2>Concise, referenced studies</h2>
         <p>
-          Every engagement has a referenced analysis. War indexes and commander
-          summaries provide orientation and identify their editorial limits.
-          Dates and transliterations follow common modern conventions; no year
-          zero is used. Figures are assessed qualitatively, without invented
-          ratings.
+          Every engagement has a referenced analysis, and its sections name the
+          listed sources they draw on. Collections, war pages and commander
+          profiles provide orientation and identify their editorial limits; a
+          profile links only the engagements its sources confirm. Dates and
+          transliterations follow common modern conventions; no year zero is
+          used. Figures are assessed qualitatively, without invented ratings.
         </p>
         <h2>Learning, not winning</h2>
         <p>

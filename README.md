@@ -39,7 +39,7 @@ The guiding principle is to explain what commanders knew, what they decided and 
 - Self-hosted typography: Cormorant Garamond for headings, Source Serif 4 for reading text, Inter for the interface and IBM Plex Mono for labels and coordinates.
 - Subtle motion: home-page sections fade up as they scroll into view, and new timeline phases and quiz or decision feedback ease in. Nothing is hidden or moved for readers who prefer reduced motion, and content is visible without JavaScript.
 - Every page has its own title, description, canonical URL and link-preview (Open Graph and Twitter) metadata, and a [sitemap](https://darkonaumovski.github.io/war-tactics-academy/sitemap.xml) lists all content pages.
-- Keyboard navigation, a skip link, semantic landmarks and automated accessibility checks on 14 pages in the dark theme and 5 in the light theme.
+- Keyboard navigation, a skip link, semantic landmarks and automated accessibility checks on 19 pages in the dark theme and 6 in the light theme.
 
 ## Technology
 
@@ -83,7 +83,7 @@ npm run build
 npm start
 ```
 
-`npm run build` reads the seeded catalog once and prerenders every page (171 pages plus `sitemap.xml`) into `out/`. `npm start` serves `out/` on http://127.0.0.1:3000 with `scripts/serve-static.mjs`, which behaves like GitHub Pages: folder paths resolve to `index.html`, paths without a trailing slash redirect, and unknown paths return the custom `404.html` with a 404 status. The deployed site needs no server or database.
+`npm run build` reads the seeded catalog once and prerenders every page (441 pages, the not-found page and `sitemap.xml`) into `out/`. `npm start` serves `out/` on http://127.0.0.1:3000 with `scripts/serve-static.mjs`, which behaves like GitHub Pages: folder paths resolve to `index.html`, paths without a trailing slash redirect, and unknown paths return the custom `404.html` with a 404 status. The deployed site needs no server or database.
 
 ### GitHub Pages
 
@@ -140,7 +140,7 @@ Routes: `/`, `/battles`, `/battles/[slug]`, `/commanders`, `/commanders/[slug]`,
 
 ## Historical methodology
 
-Historical fact, scholarly interpretation, uncertainty and counterfactual analysis are explicitly distinguished. Detailed studies cite institutional histories and primary texts, with caveats about retrospective testimony and conflicting evidence. The ninety-five studies are concise editorial syntheses, not full scholarly monographs.
+Historical fact, scholarly interpretation, uncertainty and counterfactual analysis are explicitly distinguished. Detailed studies cite institutional histories and primary texts, with caveats about retrospective testimony and conflicting evidence. The 127 studies are concise editorial syntheses, not full scholarly monographs.
 
 Study sections name the listed sources they draw on. These references were assigned only after each source page had been read; sources that could not be opened are listed but not attached to individual sections. They are section-level references, not footnotes for every sentence. Commander chronologies and war overviews summarize well-established events; their further reading is not a citation for each entry. All source links were checked, and dead links were replaced with verified pages.
 
@@ -162,6 +162,7 @@ All releases are deployed to the live site.
 
 | Commit    | Change                                                                                                                                                                                                                                                                                   |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `e3d3315` | The Second World War, 1939–1945, a five-lesson course from Poland in 1939 to the western Allies in 1944, and a Leyte Gulf decision exercise as Halsey (Stage F batch F5); Stage F complete.                                                                                              |
 | `12099e1` | The First World War, 1914–1918, a five-lesson course from the plans of 1914 to the new methods of 1918, and a Jutland decision exercise as Jellicoe (Stage F batch F4).                                                                                                                  |
 | `31047f9` | Napoleon's Campaigns, 1796–1815, a five-lesson course from Montenotte to Waterloo, and an Auerstedt decision exercise as Davout (Stage F batch F3).                                                                                                                                      |
 | `ef0673f` | Rome at War, 197 BCE–451 CE, a five-lesson course from Cynoscephalae to the Catalaunian Plains, and a Pharsalus decision exercise (Stage F batch F2).                                                                                                                                    |

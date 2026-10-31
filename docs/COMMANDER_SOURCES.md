@@ -198,7 +198,7 @@ The last Stage E batch: Constantine I (the Milvian Bridge), and Aetius and Attil
 
 - Approximate lifetimes are labeled with `c.`, and BCE dates are explicit. These display strings are not machine-sortable date intervals.
 - `eraId` is a browsing category, not a claim that a career fits a single period. Belisarius is grouped with late antiquity; early nineteenth-century southern African history is placed in the industrial-era catalog for chronological navigation.
-- Empty `battleSlugs` arrays mean that no direct command association is provided among the current 29 engagements. They do not mean that the figure fought no important battles.
+- Empty `battleSlugs` arrays mean that no direct command association is provided among the current 127 engagements (14 profiles, from Belisarius to Menelik II). They do not mean that the figure fought no important battles.
 - `battleSlugs` connect commanders only to existing engagement records. A linked figure may have strategic or coordinating responsibility rather than local tactical command; Zhukov, Eisenhower and Nimitz are examples.
 - Richard I is not linked to Hattin, which preceded his crusade. Scipio is not represented as the commander at Cannae.
 - Alexander, Caesar, the Mongol commanders, Nader Shah and other conquerors are presented with the violence and coercion of conquest.

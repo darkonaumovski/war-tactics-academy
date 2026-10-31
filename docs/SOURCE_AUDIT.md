@@ -29,7 +29,7 @@ Each record stores direct source URLs and publishers. Search-result text was ava
 
 ## Remaining editorial work
 
-A specialist review should expand claim-level citations, add contrasting scholarship, and audit primary-text translations. All twenty-nine analyses are deliberately concise. Many of the later studies rest on two or three general sources rather than the primary texts and specialist histories behind the first eight, and must not be presented as having the same depth of verification. Modern scholarship and archaeological reports should precede any future conversion of schematic positions into geographic overlays.
+A specialist review should expand claim-level citations, add contrasting scholarship, and audit primary-text translations. All 127 analyses are deliberately concise. Most (97) list two to four sources, mostly encyclopedic or institutional, rather than the primary texts and specialist histories behind the first eight, and must not be presented as having the same depth of verification. Modern scholarship and archaeological reports should precede any future conversion of schematic positions into geographic overlays.
 
 ## Section references and link check (24 October 2026)
 

@@ -45,12 +45,13 @@ export function AcademyPage({ c }: { c: Catalog }) {
       <div className="catalog-notice">
         <BookOpen />
         <div>
-          <h2>From foundations to source criticism</h2>
+          <h2>From foundations to the world wars</h2>
           <p>
-            Begin with Foundations, examine ancient and Napoleonic cases, then
-            compare evidence in Industrial and World Wars. Seminar prompts
-            invite deeper analysis; quizzes and completion are saved in this
-            browser.
+            Begin with Foundations, then follow the paths in historical order:
+            Classical Warfare, Alexander and Rome; Napoleonic warfare and
+            Napoleon’s campaigns; the industrial age, the two world wars and the
+            Serbian Front. Seminar prompts invite deeper analysis; quizzes and
+            completion are saved in this browser.
           </p>
         </div>
       </div>

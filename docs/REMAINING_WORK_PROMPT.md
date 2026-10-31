@@ -6,7 +6,7 @@ Paste everything below the line into a new Claude Code session opened in this re
 
 You are continuing **War Tactics Academy**, a Next.js App Router site with static export to GitHub Pages; pushes to `main` deploy automatically. Two earlier prompts drive this work: [`BATTLE_EXPANSION_PROMPT.md`](BATTLE_EXPANSION_PROMPT.md) (five collections, about 110 engagements) and [`SERBIAN_FRONT_PROMPT.md`](SERBIAN_FRONT_PROMPT.md) (complete). This prompt lists what is left, in the order to do it. Where this prompt is silent, the battle expansion prompt and its brief still apply.
 
-## Where things stand (30 October 2026, commit `b983ab2`)
+## Where things stand (31 October 2026, commit `e3d3315`)
 
 | Area                    | Done                                                                                                                                                                                                                                                                                                                                     |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -15,7 +15,7 @@ You are continuing **War Tactics Academy**, a Next.js App Router site with stati
 | Commander profiles      | 106, including 16 Serbian Front commanders; Stage E added 46 in twelve batches (E1–E12): every profile proposed for the First and Second World Wars, Napoleon, Alexander and Rome, each linked to the engagements its sources confirm                                                                                                    |
 | Learning                | 10 courses with 51 lessons; 15 decision exercises. Stage F added a five-lesson course and one exercise for each of Alexander (Hydaspes), Rome (Pharsalus), Napoleon (Auerstedt), the First World War (Jutland) and the Second World War (Leyte Gulf)                                                                                     |
 | App                     | Readable atlas (marker groups, regions, `?battle=` links); six collection pages; catalog filters by war, campaign, commander and collection, kept in the URL, with sorting and a list view; schematic route maps on campaign and collection pages; career strips and timelines on commander pages; search by war, campaign and commander |
-| Stages                  | **Stages A to F are done** (Stage F pushed through `360267b`; F2–F4 committed as `ef0673f`, `31047f9` and `12099e1`, and F5 is in the commit that carries this line). Next: **Stage G**, the final pass.                                                                                                                                 |
+| Stages                  | **All stages are done.** Stage F was pushed through `e3d3315`; Stage G, the final pass, is in the commit that carries this line. Further work follows [`PRODUCT_ROADMAP.md`](PRODUCT_ROADMAP.md).                                                                                                                                        |
 
 ## Rules that override everything else
 
@@ -105,7 +105,9 @@ Done in five batches on 31 October 2026 (F1 `360267b`, F2 `ef0673f`, F3 `31047f9
 
 One course per remaining collection (Alexander, Rome, Napoleon, the First and Second World Wars) with three to five lessons in the extended format of `data/additional-courses.ts` (objectives, three paragraphs, linked studies, readings, diagram, one quiz, seminar prompt), plus simulator scenarios with exactly one historical option in a varied position. Candidates: Hydaspes, Pharsalus, Teutoburg, Jena–Auerstedt as Davout, Borodino (commit the Guard?), Marne 1914, Jutland as Jellicoe, Market Garden drop zones, Leyte Gulf as Halsey. The Serbian Front course and four scenarios already exist. Update the course list in `data/learning.ts` and the counts in `tests/unit/data.test.ts` and `tests/unit/content-depth.test.ts`.
 
-## Stage G: final pass
+## Stage G: final pass (done)
+
+Done on 31 October 2026 in the commit that carries this line: the docs and the About and Academy pages describe the current edition, every collection, campaign and commander page was opened in the static export, and the full suite passed in all three browsers (see [`VERIFICATION.md`](VERIFICATION.md)). The original brief follows.
 
 - Bring `docs/VERIFICATION.md`, `docs/PRODUCT_ROADMAP.md`, `docs/TEST_STRATEGY.md`, `docs/ARCHITECTURE.md` and the About page up to date (several still describe the 29-engagement edition).
 - Check that every collection, campaign and commander page works under static export and passes the full test suite in all three browsers (`npm run test:e2e`).
@@ -120,7 +122,7 @@ One course per remaining collection (Alexander, Rome, Napoleon, the First and Se
 | 4    | Stage D: W2-1 to W2-5 (done)                                               | done       |
 | 5    | Stage E: profiles E1–E12 (done)                                            | done       |
 | 6    | Stage F: courses and scenarios (done)                                      | done       |
-| 7    | Stage G: final pass                                                        | 1 session  |
+| 7    | Stage G: final pass (done)                                                 | done       |
 
 A session here means roughly one batch within a Pro usage window; reading sources is the largest cost.
 
@@ -132,4 +134,4 @@ A session here means roughly one batch within a Pro usage window; reading source
 - Each collection has a course and scenarios.
 - All checks pass, counts and docs are consistent, and each batch is committed separately with approval.
 
-Start with Stage E, the First World War or Second World War profiles, unless I say otherwise; propose the list of profiles and their sources before writing.
+All stages are done. For new work, start from the priorities in [`PRODUCT_ROADMAP.md`](PRODUCT_ROADMAP.md) and keep the rules and per-batch workflow above.

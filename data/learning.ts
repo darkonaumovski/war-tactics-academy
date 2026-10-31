@@ -1,5 +1,6 @@
 import type { Course, Lesson, Scenario } from "../lib/types";
 import { additionalCourses } from "./additional-courses";
+import { collectionCourses } from "./collection-courses";
 const lesson = (
   slug: string,
   title: string,
@@ -261,6 +262,7 @@ const initialCourses: Course[] = [
 export const courses: Course[] = [
   initialCourses[0],
   additionalCourses[0],
+  collectionCourses[0],
   initialCourses[1],
   additionalCourses[1],
   additionalCourses[2],
@@ -467,6 +469,40 @@ export const scenarios: Scenario[] = [
         feedback:
           "This resembles the historical course. Speed could contain the invasion and protect the south, but it meant fighting before all available forces had gathered.",
         historical: true,
+      },
+    ],
+  },
+  {
+    slug: "cross-the-hydaspes",
+    title: "Crossing a guarded river",
+    battleSlug: "hydaspes",
+    commander: "Alexander III of Macedon",
+    situation:
+      "Spring 326 BCE, in the Punjab. Porus holds the far bank of the Hydaspes with infantry, cavalry, chariots and war elephants. The river is swollen by monsoon rain and meltwater, and Ambhi of Taxila is your ally.",
+    known:
+      "Horses will not land facing elephants. Upstream, a wooded headland at a bend of the river faces a wooded island.",
+    unknown:
+      "Whether Porus will see through a deception, whether the far bank can be reached where you land, and how the elephants will fight.",
+    historical:
+      "Alexander staged nightly feints until Porus stopped reacting, left Craterus at the camp with precise orders and crossed upstream in a stormy night with a picked force. He defeated Porus's son and then Porus, winning on the flanks with cavalry while the phalanx fought the elephants.",
+    options: [
+      {
+        text: "Wait for the river to fall in winter, then cross in strength opposite Porus.",
+        feedback:
+          "Alexander openly gathered grain to suggest exactly this. Waiting in earnest would give Porus months to strengthen the bank; it is an interpretive alternative whose result cannot be known.",
+        historical: false,
+      },
+      {
+        text: "Stage repeated feints, leave a holding force at the camp and cross upstream by night.",
+        feedback:
+          "This matches the historical decision. It divided the army in the face of the enemy and depended on precise orders for Craterus, a stormy night and a landing that proved to be on an island.",
+        historical: true,
+      },
+      {
+        text: "Force a crossing opposite Porus's camp under cover of bolt-shooting engines.",
+        feedback:
+          "Engines had cleared a far bank on the Jaxartes, but here the cavalry would land facing elephants. It is not a documented plan, and the outcome cannot be known.",
+        historical: false,
       },
     ],
   },

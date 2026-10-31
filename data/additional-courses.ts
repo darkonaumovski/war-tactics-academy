@@ -89,7 +89,7 @@ const balkanFront1918: Source = {
   url: "https://www.britannica.com/event/World-War-I/The-Balkan-front-1918",
 };
 
-function unit(
+export function unit(
   slug: string,
   title: string,
   objectives: string[],

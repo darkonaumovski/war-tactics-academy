@@ -20,7 +20,9 @@ export function SimulatorPage({ c }: { c: Catalog }) {
             href={`/simulator/${s.slug}`}
             key={s.slug}
           >
-            <span className="scenario-number">0{i + 1}</span>
+            <span className="scenario-number">
+              {String(i + 1).padStart(2, "0")}
+            </span>
             <span className="eyebrow">{s.commander}</span>
             <h2>{s.title}</h2>
             <p>{s.situation}</p>

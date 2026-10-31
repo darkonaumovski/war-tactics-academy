@@ -619,3 +619,7 @@ The second ancient batch adds Marcus Vipsanius Agrippa (Jona Lendering, Livius.o
 ## Commander profiles, batch E12 (30 October 2026)
 
 The last Stage E batch adds Constantine I (Donald MacGillivray Nicol and others), Flavius Aetius (unsigned) and Attila (E. A. Thompson), all Britannica biographies read in the browser; Livius.org has no articles on Aetius or Attila, and its stub on Constantine was read with WebFetch. Engagement links, each confirmed by a source read: Constantine to the Milvian Bridge; Aetius and Attila to the Catalaunian Plains. Constantine's killing of Crispus and Fausta, Aetius's destruction of the Burgundian kingdom and Attila's murder of Bleda are stated as fact. Stage E is complete. Source conflicts are in `docs/COMMANDER_SOURCES.md`.
+
+## Courses, batch F1 (31 October 2026)
+
+The first Stage F course, Alexander's Campaigns, 334–325 BCE, has five lessons linked to the nine Alexander studies, and the Hydaspes decision exercise. No new sources were read: each lesson's readings are sources its linked studies already cite, copied with the same title, publisher and address, and the lesson text, quizzes and the exercise restate only what those studies say. Figures the studies attribute to Arrian (for example the climbers who fell at the Sogdian Rock) are not repeated. Livius's readings of the Jaxartes detachment as bait and of the Hydaspes as a skirmish are presented as interpretations.

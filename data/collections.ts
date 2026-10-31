@@ -33,7 +33,7 @@ export const collections: Collection[] = [
       },
     ],
     wars: ["alexander"],
-    courseSlugs: [],
+    courseSlugs: ["alexanders-campaigns"],
     route: true,
   },
   {

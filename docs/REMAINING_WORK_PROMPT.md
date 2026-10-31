@@ -13,9 +13,9 @@ You are continuing **War Tactics Academy**, a Next.js App Router site with stati
 | Engagements and studies | 127, each with a full study: Alexander (complete), Rome (complete), Napoleon (complete, 34 studies from Toulon to Waterloo, including the optional N7 batch), the First World War (complete, 30 studies including the 14 of the Serbian Front), the Second World War (complete, 23 studies), and the original catalog                    |
 | Campaigns and wars      | 79 campaigns, 33 wars; every `napoleonic` and `ww1` chronology entry, and every `ww2` entry for the engagements studied, checked against sources                                                                                                                                                                                         |
 | Commander profiles      | 106, including 16 Serbian Front commanders; Stage E added 46 in twelve batches (E1–E12): every profile proposed for the First and Second World Wars, Napoleon, Alexander and Rome, each linked to the engagements its sources confirm                                                                                                    |
-| Learning                | 9 courses with 46 lessons; 14 decision exercises. Stage F added Alexander's Campaigns (F1, Hydaspes exercise), Rome at War (F2, Pharsalus), Napoleon's Campaigns (F3, Auerstedt) and The First World War (F4, Jutland)                                                                                                                   |
+| Learning                | 10 courses with 51 lessons; 15 decision exercises. Stage F added a five-lesson course and one exercise for each of Alexander (Hydaspes), Rome (Pharsalus), Napoleon (Auerstedt), the First World War (Jutland) and the Second World War (Leyte Gulf)                                                                                     |
 | App                     | Readable atlas (marker groups, regions, `?battle=` links); six collection pages; catalog filters by war, campaign, commander and collection, kept in the URL, with sorting and a list view; schematic route maps on campaign and collection pages; career strips and timelines on commander pages; search by war, campaign and commander |
-| Stages                  | **Stages A to E are done**. **Stage F** is under way: F1 (Alexander) pushed in `360267b`, F2 and F3 committed as `ef0673f` and `31047f9`; F4 (First World War) is in the commit that carries this line; next F5, The Second World War with a Leyte Gulf exercise.                                                                        |
+| Stages                  | **Stages A to F are done** (Stage F pushed through `360267b`; F2–F4 committed as `ef0673f`, `31047f9` and `12099e1`, and F5 is in the commit that carries this line). Next: **Stage G**, the final pass.                                                                                                                                 |
 
 ## Rules that override everything else
 
@@ -99,7 +99,9 @@ For each collection, propose a short list before writing, one batch at a time, e
 - **First World War:** Joffre, Moltke the Younger, Hindenburg, Ludendorff, Jellicoe, Scheer, Pétain, Allenby, Pershing, Monash, Currie. (Mackensen, Falkenhayn, Gallwitz, Seeckt and Otto von Below already exist.)
 - **Second World War:** Guderian, Manstein, Rundstedt, Model, Dowding, Slim, Yamashita, Halsey, Spruance, Kuribayashi, Konev, Chuikov, Dönitz.
 
-## Stage F: learning content (Phase 4)
+## Stage F: learning content (Phase 4, done)
+
+Done in five batches on 31 October 2026 (F1 `360267b`, F2 `ef0673f`, F3 `31047f9`, F4 `12099e1`, F5 in the commit that carries this line): Alexander, Rome, Napoleon, the First and Second World Wars each have a five-lesson course and one exercise (the Hydaspes, Pharsalus, Auerstedt, Jutland and Leyte Gulf). The original brief follows.
 
 One course per remaining collection (Alexander, Rome, Napoleon, the First and Second World Wars) with three to five lessons in the extended format of `data/additional-courses.ts` (objectives, three paragraphs, linked studies, readings, diagram, one quiz, seminar prompt), plus simulator scenarios with exactly one historical option in a varied position. Candidates: Hydaspes, Pharsalus, Teutoburg, Jena–Auerstedt as Davout, Borodino (commit the Guard?), Marne 1914, Jutland as Jellicoe, Market Garden drop zones, Leyte Gulf as Halsey. The Serbian Front course and four scenarios already exist. Update the course list in `data/learning.ts` and the counts in `tests/unit/data.test.ts` and `tests/unit/content-depth.test.ts`.
 
@@ -110,15 +112,15 @@ One course per remaining collection (Alexander, Rome, Napoleon, the First and Se
 
 ## Suggested order and pacing
 
-| Step | Work                                                                       | Rough size   |
-| ---- | -------------------------------------------------------------------------- | ------------ |
-| 1    | Stage A: N4–N7 (done)                                                      | done         |
-| 2    | Stage B: atlas, collections, filters, route maps, timelines, search (done) | done         |
-| 3    | Stage C: W1-1 to W1-4 (done)                                               | done         |
-| 4    | Stage D: W2-1 to W2-5 (done)                                               | done         |
-| 5    | Stage E: profiles E1–E12 (done)                                            | done         |
-| 6    | Stage F: courses and scenarios                                             | 2–3 sessions |
-| 7    | Stage G: final pass                                                        | 1 session    |
+| Step | Work                                                                       | Rough size |
+| ---- | -------------------------------------------------------------------------- | ---------- |
+| 1    | Stage A: N4–N7 (done)                                                      | done       |
+| 2    | Stage B: atlas, collections, filters, route maps, timelines, search (done) | done       |
+| 3    | Stage C: W1-1 to W1-4 (done)                                               | done       |
+| 4    | Stage D: W2-1 to W2-5 (done)                                               | done       |
+| 5    | Stage E: profiles E1–E12 (done)                                            | done       |
+| 6    | Stage F: courses and scenarios (done)                                      | done       |
+| 7    | Stage G: final pass                                                        | 1 session  |
 
 A session here means roughly one batch within a Pro usage window; reading sources is the largest cost.
 

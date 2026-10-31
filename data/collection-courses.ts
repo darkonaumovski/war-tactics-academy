@@ -275,6 +275,89 @@ const grotelueschenUSA: Source = {
   url: "https://encyclopedia.1914-1918-online.net/article/warfare-1917-1918-usa/",
 };
 
+const ushmmPoland: Source = {
+  title: "Invasion of Poland, Fall 1939",
+  publisher: "United States Holocaust Memorial Museum, Holocaust Encyclopedia",
+  url: "https://encyclopedia.ushmm.org/content/en/article/invasion-of-poland-fall-1939",
+};
+const britFrance1940: Source = {
+  title: "Battle of France (Basil Liddell Hart)",
+  publisher: "Encyclopaedia Britannica",
+  url: "https://www.britannica.com/event/Battle-of-France-World-War-II",
+};
+const iwmBritain: Source = {
+  title: "8 Facts You Need To Know About The Battle of Britain",
+  publisher: "Imperial War Museums",
+  url: "https://www.iwm.org.uk/history/second-world-war/battle-of-britain/things-you-need-to-know",
+};
+const iwmBarbarossa: Source = {
+  title: "Operation Barbarossa And Germany's Failure In The Soviet Union",
+  publisher: "Imperial War Museums",
+  url: "https://www.iwm.org.uk/history/second-world-war/eastern-front/operation-barbarossa-and-germanys-failure-in-the-soviet-union",
+};
+const iwmBagration: Source = {
+  title:
+    "Operation Bagration: The Greatest Military Defeat Of All Time? (Helen Upcraft, video and transcript)",
+  publisher: "Imperial War Museums",
+  url: "https://www.iwm.org.uk/history/second-world-war/eastern-front/operation-bagration",
+};
+const iwmBerlin: Source = {
+  title:
+    "The Battle of Berlin: Germany's downfall on the Eastern Front (Robert Rumble, video and transcript)",
+  publisher: "Imperial War Museums",
+  url: "https://www.iwm.org.uk/history/second-world-war/eastern-front/the-battle-of-berlin-germanys-downfall-on-the-eastern-front",
+};
+const britPearl: Source = {
+  title: "Pearl Harbor attack",
+  publisher: "Encyclopaedia Britannica",
+  url: "https://www.britannica.com/event/Pearl-Harbor-attack",
+};
+const iwmSingapore: Source = {
+  title: "Fall of Singapore (Stephen Walton, video and transcript)",
+  publisher: "Imperial War Museums",
+  url: "https://www.iwm.org.uk/history/second-world-war/war-against-japan/why-did-singapore-fall",
+};
+const nhhcGuadalcanal: Source = {
+  title: "Solomons Campaign: Guadalcanal",
+  publisher: "Naval History and Heritage Command",
+  url: "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1942/guadalcanal.html",
+};
+const namImphal: Source = {
+  title: "Battles of Imphal and Kohima",
+  publisher: "National Army Museum, London",
+  url: "https://www.nam.ac.uk/explore/battle-imphal",
+};
+const nww2IwoOkinawa: Source = {
+  title: "Iwo Jima and Okinawa: Death at Japan’s Doorstep",
+  publisher: "The National WWII Museum",
+  url: "https://www.nationalww2museum.org/war/articles/iwo-jima-and-okinawa-death-japans-doorstep",
+};
+const iwmAtlantic: Source = {
+  title: "What You Need To Know About The Battle Of The Atlantic",
+  publisher: "Imperial War Museums",
+  url: "https://www.iwm.org.uk/history/second-world-war/battle-of-the-atlantic/what-you-need-to-know",
+};
+const namAlamein: Source = {
+  title: "Second Battle of El Alamein",
+  publisher: "National Army Museum",
+  url: "https://www.nam.ac.uk/explore/battle-alamein",
+};
+const namDday: Source = {
+  title: "D-Day: The Allied Invasion of Normandy",
+  publisher: "National Army Museum",
+  url: "https://www.nam.ac.uk/explore/d-day",
+};
+const namMarketGarden: Source = {
+  title: "Operation Market Garden",
+  publisher: "National Army Museum, London",
+  url: "https://www.nam.ac.uk/explore/market-garden",
+};
+const iwmBulge: Source = {
+  title: "What You Need To Know About The Battle Of The Bulge",
+  publisher: "Imperial War Museums",
+  url: "https://www.iwm.org.uk/history/second-world-war/north-west-europe/what-you-need-to-know-about-the-battle-of-the-bulge",
+};
+
 export const collectionCourses: Course[] = [
   {
     slug: "alexanders-campaigns",
@@ -1006,6 +1089,190 @@ export const collectionCourses: Course[] = [
           prompt: "Who learned faster in 1918, and what did they learn?",
           guidance:
             "Compare Britannica's view of German tactical virtuosity unconnected to strategy with the combined arms of Amiens and Foch's repeated attacks. For the Americans, weigh Forney's account of building an army against Grotelueschen's judgement of its competence and the debate over its losses.",
+        },
+      ),
+    ],
+  },
+  {
+    slug: "second-world-war",
+    title: "The Second World War, 1939–1945",
+    level: "Advanced",
+    description:
+      "Follow the war from the German campaigns of 1939–1940 through the Eastern Front, Asia and the Pacific, the sea lanes and the western Allies' campaigns of 1944, with the war against civilians kept in view.",
+    lessons: [
+      unit(
+        "blitzkrieg-and-its-limits",
+        "Blitzkrieg and its limits: Poland, France, the Battle of Britain",
+        [
+          "Explain why concentrated armour and air power overwhelmed Poland and France.",
+          "Identify where the German method stopped working in 1940.",
+        ],
+        [
+          "In September 1939 Poland's forward deployment, imposed by political considerations, exposed its armies to encirclement, and its strategy rested on an Allied attack in the west that never came. Germany concentrated armour and aircraft at the decisive points, and the Soviet invasion of 17 September ended any prospect of a prolonged stand. From the first days it was a war against civilians: German SS, police and military units shot thousands of Polish civilians, including clergy, intelligentsia and Jews, and the Soviet occupation brought mass deportations and the murder of Polish officers at Katyn.",
+          "In May 1940 the Allies expected a repeat of 1914 through central Belgium and advanced to meet it. Manstein's plan put the German main effort through the Ardennes, which the French believed impassable to armour; the Meuse crossings on 13 May and the breakthrough at Sedan cut off the northern Allied armies. Britannica stresses that the Allies had comparable tank strength but spread it out. Hitler's halt order of 24 May, still debated, gave the Allies time to hold the Dunkirk perimeter.",
+          "Over Britain the method met its limit. Dowding had argued in May against sending more fighters to France, and an integrated system of detection, communication and control put his smaller force in the right place. The Luftwaffe had no consistent plan; the switch to London on 7 September relieved Fighter Command's airfields, and the attacks of 15 September were repulsed. How close Fighter Command came to defeat is debated.",
+        ],
+        ["poland-1939", "france-1940", "battle-of-britain"],
+        [ushmmPoland, britFrance1940, iwmBritain],
+        [
+          "Concentration",
+          "Surprise at the seam",
+          "Pace",
+          "An integrated air defence",
+        ],
+        "What, according to Britannica, mattered more than tank numbers in France in 1940?",
+        [
+          "Germany's much larger tank force",
+          "The weather over the Ardennes",
+          "How each side concentrated and employed its tanks",
+        ],
+        2,
+        "The Allies had comparable tank strength but spread it out, while the Germans concentrated theirs at the point of the main effort.",
+        {
+          prompt: "Is 'Blitzkrieg' a useful explanation of 1939–1940?",
+          guidance:
+            "The National WWII Museum notes that the term was applied to the German method later, and Britannica stresses Allied doctrine and command over equipment. Use the Battle of Britain to show where the method stopped, and Poland to show that the campaign was also a war against civilians.",
+        },
+      ),
+      unit(
+        "the-eastern-front",
+        "The Eastern Front: Barbarossa to Berlin",
+        [
+          "Explain why the German invasion of the Soviet Union failed despite its early victories.",
+          "Relate the war of annihilation to the conduct and the end of the war in the east.",
+        ],
+        [
+          "Germany planned Barbarossa as a war of annihilation, with mobile killing units behind the front and an occupation policy of starvation. The invasion began the Holocaust by shooting, and Soviet prisoners of war died in vast numbers through deliberate starvation and exposure. Militarily, Hitler's diversion of armour to Kiev and Leningrad in August won a vast victory but, the IWM judges, threw away Germany's best chance of taking Moscow early. The Red Army kept raising new armies; in November Bock pressed on toward Moscow believing the Soviets near collapse, and the counteroffensive of early December fell on an enemy that thought they had nothing left.",
+          "At Kursk in 1943 the Soviet command chose to defend first and counterattack later, and defences in depth absorbed the last major German offensive in the east. In June 1944 Operation Bagration combined deception with several breakthroughs, shifting exploitation to wherever they succeeded; Hitler's refusal to allow withdrawal left German forces to be surrounded, and American trucks kept the Soviet mobile forces supplied. Army Group Centre effectively ceased to exist. When the Warsaw Uprising began, the Red Army halted across the Vistula; Britannica judges the halt intentional, while the IWM also stresses Soviet exhaustion.",
+          "In April 1945 Stalin split the attack on Berlin between Zhukov and Konev and manufactured a race for the city; Britannica writes that both marshals accepted enormous casualties and that his fixation on the Reichstag cost many Soviet lives. Civilians trapped in the city suffered terribly: boys were sent to the front, civilians caught deserting were executed, and Soviet soldiers committed rape on a vast scale, which the IWM describes as effectively state-sanctioned.",
+        ],
+        ["barbarossa", "moscow-1941", "kursk", "bagration", "berlin-1945"],
+        [iwmBarbarossa, iwmBagration, iwmBerlin],
+        [
+          "War of annihilation",
+          "Regenerated reserves",
+          "Defence in depth",
+          "Deep operations",
+        ],
+        "What, in the IWM's judgement, did Hitler's August 1941 diversion to Kiev and Leningrad cost Germany?",
+        [
+          "Its best chance of taking Moscow early",
+          "The whole of Army Group South",
+          "The support of its Finnish ally",
+        ],
+        0,
+        "The diversion won a vast victory in Ukraine, but the IWM judges that it threw away Germany's only real chance of an outright victory by taking Moscow early.",
+        {
+          prompt:
+            "Why did Germany lose a war in the east that began with such victories?",
+          guidance:
+            "The IWM ranks Soviet resistance and German intelligence failures first; Britannica stresses the weeks lost in August, the delay caused by the Balkans and the winter. Consider also how Hitler's holding orders shaped Bagration, and Menning's warning that the intelligence story of Kursk remains to be told.",
+        },
+      ),
+      unit(
+        "asia-and-the-pacific",
+        "Asia and the Pacific: Pearl Harbor to Okinawa",
+        [
+          "Explain how surprise, intelligence and supply shaped the war against Japan.",
+          "Keep civilians and prisoners in view in an account of the Pacific war.",
+        ],
+        [
+          "Cut off from oil, Japan resolved to seize the resources of South-East Asia. At Pearl Harbor complete surprise wrecked the battleships, but the carriers were absent and the shore facilities and oil storage were left untouched: a brilliant tactical surprise brought into the war an enemy Japan could not match. At Singapore Percival's dispersed forces and his misreading of where the Japanese would land let Yamashita concentrate; the IWM notes that Yamashita had outrun his supplies by the end. In Operation Sook Ching thousands of Chinese men were killed, and the prisoners taken at Singapore were treated brutally.",
+          "The tide turned through intelligence and supply. At the Coral Sea, Allied signals intelligence revealed the plan to take Port Moresby; the Japanese won a tactical victory but called off the invasion. On Guadalcanal Vandegrift held a tight perimeter round the airfield, and whoever could reinforce faster would hold the island. At Imphal and Kohima in 1944 Slim's encircled formations stood and fought, supplied by air, while Mutaguchi had gambled on capturing Allied supplies and kept attacking long after his offensive had failed.",
+          "In 1944–1945 Leyte Gulf crippled the Japanese fleet and saw the first kamikaze attacks. On Iwo Jima Kuribayashi gave up the beaches to fight from tunnels and caves, and on Okinawa Ushijima held the fortified south, forcing costly frontal assaults. Okinawa's civilian population was reduced by perhaps a quarter, some ordered by the Japanese military to kill themselves; the savagery of both battles shaped American expectations of an invasion of Japan.",
+        ],
+        [
+          "pearl-harbor",
+          "singapore-1942",
+          "coral-sea",
+          "guadalcanal",
+          "imphal-kohima",
+          "leyte-gulf",
+          "iwo-jima",
+          "okinawa",
+        ],
+        [britPearl, iwmSingapore, nhhcGuadalcanal, namImphal, nww2IwoOkinawa],
+        [
+          "Resources and surprise",
+          "Intelligence and carriers",
+          "Supply by sea and air",
+          "Defence in depth",
+        ],
+        "What did the attack on Pearl Harbor leave untouched that later proved important?",
+        [
+          "The battleships at anchor",
+          "The absent carriers, the shore facilities and the oil storage",
+          "Every airfield on Oahu",
+        ],
+        1,
+        "The carriers were at sea, and the Naval History and Heritage Command notes that the surviving shore facilities played an important role in the Allied victory.",
+        {
+          prompt: "Were Iwo Jima and Okinawa worth their cost?",
+          guidance:
+            "Use Britannica's account of Robert Burrell's findings on Iwo Jima, the National WWII Museum on how the bloodbath shaped planning for the invasion of Japan, and the suffering of Okinawa's civilians. Separate the value of an objective weighed beforehand from a justification found afterwards.",
+        },
+      ),
+      unit(
+        "sea-lanes-and-supply",
+        "Sea lanes and supply: the Atlantic and El Alamein",
+        [
+          "Explain how the war at sea and the build-up of material decided campaigns on land.",
+          "Choose measures of success that fit a campaign against shipping.",
+        ],
+        [
+          "The Battle of the Atlantic was the longest campaign of the war, from September 1939 to May 1945, and any invasion of Europe depended on carrying troops and supplies across the ocean. Early in 1942 U-boats sank many unescorted ships off the American east coast until convoys were introduced. The Allies gave anti-submarine production top priority, and Dönitz's central control of the wolf packs by radio, which the Germans believed secure, exposed them to direction-finding. In May 1943 U-boat losses rose sharply while sinkings fell, and on 24 May Dönitz recalled his boats.",
+          "The study measures success in ships delivered and ships built, not only in submarines sunk: by then American shipyards were producing far more ships than the Germans could sink. Technology, intelligence, numbers and tactics improved by analysis combined; none alone was decisive. The weight of code-breaking is debated: the Naval History and Heritage Command argues that Allied intelligence was at its weakest during the turning point, while Britannica lists the repenetration of the U-boat codes among its causes.",
+          "At El Alamein in October 1942 Montgomery refused Churchill's pressure to attack until his men, training and equipment were ready. When his armour stalled in the minefield corridors he kept up an attritional phase he called crumbling, while an Australian drive toward the sea pulled Axis forces north, and then struck with Supercharge. It was the British Army's first clear, decisive victory over the Axis, and the Torch landings followed four days later. The National Army Museum suggests the battle's strategic weight may be overstated.",
+        ],
+        ["battle-of-the-atlantic", "el-alamein"],
+        [iwmAtlantic, namAlamein],
+        ["Ships built", "Ships delivered", "Attrition", "Material superiority"],
+        "How does the study measure success in a campaign against shipping?",
+        [
+          "By the number of submarines sunk alone",
+          "By the tonnage of enemy warships destroyed",
+          "By ships delivered and ships built, as well as submarines sunk",
+        ],
+        2,
+        "By May 1943 American shipyards were building far more ships than the U-boats could sink, while the Germans lost submarines faster than they could replace them.",
+        {
+          prompt: "Was code-breaking decisive in the Atlantic?",
+          guidance:
+            "Compare the Naval History and Heritage Command's argument that no single factor was decisive with Britannica's list of causes, and heed its warning that the battle's statistics are counted differently in different sources.",
+        },
+      ),
+      unit(
+        "western-allies-1944",
+        "The western Allies in 1944: Normandy, Market Garden, the Bulge",
+        [
+          "Explain how deception, supply and the holding of key ground shaped the campaign in the west.",
+          "Weigh a bold plan's risks against what it might have won.",
+        ],
+        [
+          "Eisenhower launched the Normandy invasion in a spell of bad weather, with a press statement drafted in case it failed. Deception held the German Fifteenth Army in the Pas de Calais. D-Day missed many first-day objectives, Caen among them, but secured a foothold; repeated British and Canadian attacks drew most German armour to Caen and left the western sector weaker for the American breakout. Hitler refused withdrawal and ordered the Mortain counterattack, which exposed his armies to encirclement at Falaise.",
+          "In September Montgomery persuaded Eisenhower to back a combined airborne and armoured thrust through the Netherlands and to divert scarce fuel to it. The planners accepted landing zones far from the Arnhem bridge, a lift spread over three days and an intelligence picture of a lightly defended area. Model reacted quickly; the bridge was not taken in strength on the first day, and XXX Corps was delayed on its single road. The Rhine crossing was delayed by six months.",
+          "In December Hitler struck in the Ardennes, hoping to split the western Allies. Allied confidence that the enemy was beaten invited surprise, but the stands at St Vith, Bastogne and on the northern shoulder denied the Germans the roads they needed; Montgomery swung reserves to the Meuse and Patton relieved Bastogne. Germany drained its last reserves in the west. The murder of American prisoners near Malmedy was among the most brutal crimes against American troops in Europe.",
+        ],
+        ["normandy", "market-garden", "battle-of-the-bulge"],
+        [namDday, namMarketGarden, iwmBulge],
+        [
+          "Deception",
+          "Concentration of supply",
+          "A single road with no margin",
+          "Hold the road junctions",
+        ],
+        "What held the German Fifteenth Army in the Pas de Calais during the Normandy campaign?",
+        [
+          "Allied deception",
+          "A shortage of fuel",
+          "Hitler's order to defend Paris",
+        ],
+        0,
+        "Deception kept the Fifteenth Army in the Pas de Calais while the battle was fought in Normandy.",
+        {
+          prompt: "Was Market Garden a reasonable gamble?",
+          guidance:
+            "Compare Britannica's verdict of an intelligence failure, the National Army Museum's costly failure but remarkable feat of arms, and the IWM's description of one of the war's most controversial episodes. Weigh what the plan could have won against the risks the planners accepted.",
         },
       ),
     ],

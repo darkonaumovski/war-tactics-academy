@@ -268,6 +268,7 @@ export const courses: Course[] = [
   collectionCourses[2],
   additionalCourses[1],
   collectionCourses[3],
+  collectionCourses[4],
   additionalCourses[2],
 ];
 export const scenarios: Scenario[] = [
@@ -608,6 +609,40 @@ export const scenarios: Scenario[] = [
         feedback:
           "Caution would guard against torpedoes and mines, but with the light failing it risked losing contact altogether. It is not a documented plan.",
         historical: false,
+      },
+    ],
+  },
+  {
+    slug: "halsey-goes-north",
+    title: "Carriers in the north",
+    battleSlug: "leyte-gulf",
+    commander: "William F. Halsey Jr.",
+    situation:
+      "Evening, 24 October 1944, east of the Philippines. Your Third Fleet's aircraft have sunk the battleship Musashi in the Sibuyan Sea, and Kurita's force has turned west. Now Japanese carriers have been sighted far to the north.",
+    known:
+      "Your orders are to protect the Leyte landing and to destroy the major part of the Japanese fleet if the chance arises. Kinkaid's Seventh Fleet, which supports the landing, does not report to you; no single commander controls both fleets.",
+    unknown:
+      "Whether Kurita has really retreated, how many aircraft the northern carriers carry, and whether the San Bernardino Strait will stay empty.",
+    historical:
+      "Halsey took the whole Third Fleet north after Ozawa's carriers, leaving no force to guard the San Bernardino Strait. Kurita came through at dawn and met the escort carriers of Taffy 3 off Samar, which fought back until he withdrew. Off Cape Engaño Halsey's aircraft sank all four of Ozawa's carriers, which had been a decoy with few aircraft.",
+    options: [
+      {
+        text: "Stay off the San Bernardino Strait and let the northern carriers go.",
+        feedback:
+          "Guarding the strait would protect the landing against Kurita, but leave a carrier force free to act. An interpretive alternative; the outcome cannot be known.",
+        historical: false,
+      },
+      {
+        text: "Leave battleships to guard the strait and send the carriers north.",
+        feedback:
+          "This would cover the landing while still pursuing the carriers, at the cost of weakening both halves of the fleet. It is not what happened, and its result cannot be known.",
+        historical: false,
+      },
+      {
+        text: "Take the whole Third Fleet north to destroy the Japanese carriers.",
+        feedback:
+          "This matches Halsey's decision. It sank all four carriers, but they were a decoy, and it left the landing area exposed to Kurita's battleships off Samar.",
+        historical: true,
       },
     ],
   },

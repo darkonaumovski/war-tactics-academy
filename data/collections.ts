@@ -300,7 +300,7 @@ export const collections: Collection[] = [
       },
     ],
     wars: ["ww2"],
-    courseSlugs: ["industrial-world-wars"],
+    courseSlugs: ["industrial-world-wars", "second-world-war"],
   },
 ];
 export const collectionBattles = (c: Collection, battles: Battle[]) =>

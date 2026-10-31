@@ -14,7 +14,7 @@ export function AcademyPage({ c }: { c: Catalog }) {
   return (
     <div className="page-container">
       <Heading
-        eyebrow="STRUCTURED LEARNING / 05"
+        eyebrow={`STRUCTURED LEARNING / ${String(c.courses.length).padStart(2, "0")}`}
         title="Enter the Academy"
         description="Build understanding, one question at a time. Read the evidence, test your reasoning and connect lessons to real historical cases."
       />
@@ -23,7 +23,7 @@ export function AcademyPage({ c }: { c: Catalog }) {
           <article className="course-card" key={course.slug}>
             <div className="course-emblem">
               <GraduationCap size={55} strokeWidth={1} />
-              <span>PATH 0{i + 1}</span>
+              <span>PATH {String(i + 1).padStart(2, "0")}</span>
             </div>
             <div>
               <span className="eyebrow">

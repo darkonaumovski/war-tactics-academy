@@ -265,6 +265,7 @@ export const courses: Course[] = [
   collectionCourses[0],
   collectionCourses[1],
   initialCourses[1],
+  collectionCourses[2],
   additionalCourses[1],
   additionalCourses[2],
 ];
@@ -538,6 +539,40 @@ export const scenarios: Scenario[] = [
         feedback:
           "This matches Caesar's account. It met Pompey's main effort with a reserve, at the cost of a weaker third line, and depended on reading correctly where the cavalry would strike.",
         historical: true,
+      },
+    ],
+  },
+  {
+    slug: "stand-at-auerstedt",
+    title: "One corps against an army",
+    battleSlug: "jena-auerstedt",
+    commander: "Louis-Nicolas Davout",
+    situation:
+      "Morning, 14 October 1806, at Hassenhausen near Auerstedt. You command the 3rd Corps, sent north to cut the Prussian line of retreat while Napoleon attacks at Jena. On the road you have met a much larger Prussian force.",
+    known:
+      "Your corps is alone, far from the main army. The Prussian army has no divisional system and slow supply trains. Bernadotte's corps has been summoned, but you cannot count on it.",
+    unknown:
+      "How strong the force in front of you is, and whether Bernadotte or Napoleon will come to your support.",
+    historical:
+      "Davout stood his ground at Hassenhausen for six hours. Brunswick attacked piecemeal and was mortally wounded; Davout then brought up his artillery and counterattacked, and by about 4 p.m. the main Prussian army had disintegrated. Bernadotte did not intervene.",
+    options: [
+      {
+        text: "Stand and fight at Hassenhausen, then counterattack when the Prussian attacks slacken.",
+        feedback:
+          "This matches the historical decision. One corps fought the main Prussian army alone; it depended on the Prussians attacking piecemeal, and it cost the corps dearly when Bernadotte did not come.",
+        historical: true,
+      },
+      {
+        text: "Fall back south toward Napoleon and the main army.",
+        feedback:
+          "Rejoining the main army would protect your corps but leave open the Prussian line of retreat you were sent to cut. An interpretive alternative; the outcome cannot be known.",
+        historical: false,
+      },
+      {
+        text: "Screen the road with a rearguard and wait for Bernadotte before engaging.",
+        feedback:
+          "Waiting would add a corps if it came, but Bernadotte, though summoned more than once, did not intervene. It is not a documented plan.",
+        historical: false,
       },
     ],
   },

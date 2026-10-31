@@ -131,6 +131,72 @@ const dahmCatalaunian: Source = {
   url: "https://www.ospreypublishing.com/uk/osprey-blog/2022/the-battle-of-catalaunians-plains",
 };
 
+const fnParisMilan: Source = {
+  title: "De Paris à Milan, mars–mai 1796 (Revue du Souvenir Napoléonien 406)",
+  publisher: "Fondation Napoléon",
+  url: "https://www.napoleon.org/wp-content/themes/napoleon/annexes/hors-serie/premiere-campagne-italie/fr/lesecrits/articles/articles01.html",
+};
+const fnMantoue: Source = {
+  title:
+    "De Mantoue à Tolentino, juin 1796 – février 1797 (Revue du Souvenir Napoléonien 410)",
+  publisher: "Fondation Napoléon",
+  url: "https://www.napoleon.org/wp-content/themes/napoleon/annexes/hors-serie/premiere-campagne-italie/fr/lesecrits/articles/articles02.html",
+};
+const fnEgypt: Source = {
+  title:
+    "La campagne d'Égypte (François-Guy Hourtoulle, Revue du Souvenir Napoléonien 383)",
+  publisher: "Fondation Napoléon",
+  url: "https://www.napoleon.org/histoire-des-2-empires/articles/la-campagne-degypte/",
+};
+const lentzEgypt: Source = {
+  title:
+    "Bullet Point #5: Was the Egyptian Campaign one of Napoleon's great successes? (Thierry Lentz)",
+  publisher: "Fondation Napoléon",
+  url: "https://www.napoleon.org/en/history-of-the-two-empires/articles/bullet-point-5-egyptian-campaign-one-napoleons-great-successes/",
+};
+const britCoalitions: Source = {
+  title: "Napoleonic Wars: The Third and Fourth Coalitions, 1803–07",
+  publisher: "Encyclopaedia Britannica",
+  url: "https://www.britannica.com/event/Napoleonic-Wars/The-Third-and-Fourth-Coalitions-1803-07",
+};
+const lindenDavout: Source = {
+  title:
+    "Davout, homme de devoir. 1. Le soldat (Jean Linden, Revue du Souvenir Napoléonien 303)",
+  publisher: "Fondation Napoléon",
+  url: "https://www.napoleon.org/histoire-des-2-empires/articles/davout-homme-de-devoir-1-le-soldat/",
+};
+const britWagram: Source = {
+  title: "Napoleonic Wars: Aspern-Essling, Wagram and the Peace of Vienna",
+  publisher: "Encyclopaedia Britannica",
+  url: "https://www.britannica.com/event/Napoleonic-Wars/Aspern-Essling",
+};
+const britRussia: Source = {
+  title: "Napoleonic Wars: The Russian campaign, 1812",
+  publisher: "Encyclopaedia Britannica",
+  url: "https://www.britannica.com/event/Napoleonic-Wars/France-and-northern-Europe-1809-12",
+};
+const ganiereRetreat: Source = {
+  title:
+    "La retraite de Russie (Paul Ganière, Revue du Souvenir Napoléonien 354)",
+  publisher: "Fondation Napoléon",
+  url: "https://www.napoleon.org/histoire-des-2-empires/articles/la-retraite-de-russie/",
+};
+const britAutumn1813: Source = {
+  title: "Napoleonic Wars: Dispositions for the autumn campaign (Dresden)",
+  publisher: "Encyclopaedia Britannica",
+  url: "https://www.britannica.com/event/Napoleonic-Wars/Dispositions-for-the-autumn-campaign",
+};
+const fn1813: Source = {
+  title: "1813 and the lead up to the Battle of Leipzig (timeline, P.H.)",
+  publisher: "Fondation Napoléon",
+  url: "https://www.napoleon.org/en/history-of-the-two-empires/timelines/38920/",
+};
+const fnBlucher: Source = {
+  title: "Blücher and the Waterloo campaign",
+  publisher: "Fondation Napoléon",
+  url: "https://www.napoleon.org/en/history-of-the-two-empires/close-up/a-close-up-on-blucher-and-the-waterloo-campaign",
+};
+
 export const collectionCourses: Course[] = [
   {
     slug: "alexanders-campaigns",
@@ -494,6 +560,203 @@ export const collectionCourses: Course[] = [
           prompt: "Was Adrianople, or the Catalaunian Plains, a turning point?",
           guidance:
             "Compare Ammianus's verdict with Livius's caution and Britannica's view of a victory of horsemen over infantry, and Dahm's doubt that the Catalaunian Plains was decisive while Attila remained a threat. Remember that Jordanes wrote a century later from a Gothic perspective.",
+        },
+      ),
+    ],
+  },
+  {
+    slug: "napoleons-campaigns",
+    title: "Napoleon's Campaigns, 1796–1815",
+    level: "Advanced",
+    description:
+      "Follow Napoleon's campaigns from Italy to Waterloo through the source-backed studies: interior lines, the corps system, war on a growing scale and the coalitions that finally learned to beat him.",
+    lessons: [
+      unit(
+        "italy-1796",
+        "Italy: speed and interior lines, 1796–1797",
+        [
+          "Explain how a weaker army used a central position to defeat separated enemies.",
+          "Distinguish the campaign's results from the image Bonaparte built of it.",
+        ],
+        [
+          "In April 1796 the Sardinian and Austrian armies facing Bonaparte each had their own line of retreat. Against the Directory's instruction he struck the Sardinians first; Montenotte, Millesimo and Dego separated the two allies, and the armistice of Cherasco took Sardinia out of the war by 28 April. At Lodi the French stormed the bridge, but Beaulieu's main army had already escaped; the Fondation Napoléon calls the success incomplete.",
+          "Interior lines had a price. At Castiglione Bonaparte gave up the siege of Mantua and sacrificed its equipment to concentrate against Wurmser, a decision Gouvion Saint-Cyr later criticised. At Arcole he fought in the marshes, where Austrian numbers could not deploy, for three days until a crossing of the Alpone threatened their rear. At Rivoli he left only a screen against Provera, beat Alvinczi on the plateau and turned at once against Provera; Mantua then surrendered.",
+          "The campaign also made a reputation. Bonaparte's letters to the Directory, reprinted in French newspapers, began to build his public image. The image of him with a flag on the bridge at Arcole owes much to later propaganda: the places page says his troops would not follow him on the first day. The sources credit Rivoli differently to Bonaparte, Masséna and Joubert.",
+        ],
+        ["montenotte", "lodi", "castiglione", "arcole", "rivoli"],
+        [fnParisMilan, fnMantoue],
+        [
+          "Separate the allies",
+          "Concentrate at one point",
+          "Give up secondary objectives",
+          "Build the legend",
+        ],
+        "What did Bonaparte give up to concentrate against Wurmser before Castiglione?",
+        [
+          "His hold on Milan",
+          "Most of his cavalry",
+          "The siege of Mantua and its equipment",
+        ],
+        2,
+        "Holding the siege tied much of the army to posts around Mantua; Bonaparte lifted it and sacrificed the siege train to concentrate his army.",
+        {
+          prompt:
+            "How much of the Italian campaign's reputation was made by the fighting, and how much by Bonaparte's pen?",
+          guidance:
+            "Use Branda on the letters to the Directory, the Fondation's account of the flag at Arcole, and its notes that credit for Monte Legino went to Rampon and that the proclamation at Nice was probably reconstructed later.",
+        },
+      ),
+      unit(
+        "egypt-and-syria",
+        "Egypt and Syria: the Pyramids, Acre and Aboukir",
+        [
+          "Explain why victories on land could not secure an army cut off by sea.",
+          "Read the naming and narration of victories as part of their history.",
+        ],
+        [
+          "At the battle Bonaparte named after the Pyramids, fought at Embabeh on 21 July 1798, each French division formed a square, in fact a rectangle six ranks deep with cavalry and baggage inside, that could fight in any direction. The Mamluk charges failed against them and the entrenched camp was stormed. Within days, on 1 August, Nelson destroyed the French fleet in Aboukir Bay and left the army cut off in Egypt; a revolt in Cairo in October was put down with artillery.",
+          "In 1799 Bonaparte invaded Syria. At Acre command of the sea decided the siege: British ships took the French siege guns, kept the town supplied and blockaded the coast. The siege was abandoned in May, and plague killed many soldiers. Plague-stricken men were left behind at Jaffa on the retreat, and British propaganda exploited the earlier killing of the Jaffa prisoners.",
+          "In July 1799 an Ottoman army landed at Aboukir. Bonaparte attacked both its lines in a single day, and Murat's cavalry and Lannes's infantry took the redoubt; the army disintegrated against the sea. Lentz notes that the name, the land battle of Aboukir, was chosen to make people forget the naval disaster. Bonaparte left Egypt secretly in August and seized power in November; the army he left behind surrendered in 1801.",
+        ],
+        ["pyramids", "acre", "aboukir-1799"],
+        [fnEgypt, lentzEgypt],
+        [
+          "Victory on land",
+          "Loss of the sea",
+          "Siege without ships",
+          "Victory as narrative",
+        ],
+        "What decided the siege of Acre?",
+        [
+          "Command of the sea, which kept Acre supplied and cost the French their siege guns",
+          "A relief army that defeated Bonaparte in the field",
+          "An Ottoman sortie that destroyed the French camp",
+        ],
+        0,
+        "British ships took the siege guns, supplied the town and blockaded the coast, so a land army could not take the fortress.",
+        {
+          prompt:
+            "Was the Egyptian campaign one of Napoleon's great successes?",
+          guidance:
+            "Weigh the victories at the Pyramids and Aboukir against Aboukir Bay, Acre, the plague and the surrender of 1801. Lentz argues that the expedition's glorious image was a myth that took root before Bonaparte had left Egypt.",
+        },
+      ),
+      unit(
+        "corps-system-1805-1807",
+        "The corps system at its height: Ulm to Friedland",
+        [
+          "Explain how independent corps let the Grande Armée march dispersed and fight concentrated.",
+          "Identify the limits of the system in weather, distance and reinforcement.",
+        ],
+        [
+          "In 1805, learning that Mack was waiting near the Black Forest, Napoleon swung his whole army to its left to march around him. Crossing the Danube behind the Austrians cut them off from Vienna, and Elchingen closed the ring around Ulm; most of Mack's army was taken prisoner before the main battle of the campaign was fought, at Austerlitz. Britannica notes that bad weather, short supplies and the clumsiness of some subordinates marked even this success.",
+          "In 1806 the Prussian army went to war with no divisional system. On 14 October Napoleon fought part of it at Jena with part of his own army, while Davout's single corps, sent north to cut the Prussian line of retreat, met the main Prussian army at Auerstedt. He stood his ground for six hours and then counterattacked; Bernadotte, summoned more than once, did not intervene. A corps able to fight alone until help arrived could decide a battle.",
+          "The system had limits. At Eylau in February 1807 a snowstorm wrecked the attack, Murat's cavalry charge saved the French centre, and L'Estocq's Prussians checked Davout's turning movement; the French held a field of heavy losses that Ganière calls a half-success. At Friedland in June Lannes held from early morning until Napoleon arrived in the afternoon and ordered an attack that same day toward the bridges behind the Russians, who were trapped against the river. The Treaties of Tilsit followed.",
+        ],
+        ["ulm", "jena-auerstedt", "eylau", "friedland"],
+        [britCoalitions, lindenDavout],
+        [
+          "Dispersed march",
+          "Concentrate on the enemy's rear",
+          "A corps fights alone",
+          "Weather and reinforcement",
+        ],
+        "What did Davout do at Auerstedt?",
+        [
+          "He waited for Bernadotte before engaging",
+          "He stood and fought the main Prussian army with one corps",
+          "He marched south to join Napoleon at Jena",
+        ],
+        1,
+        "Davout held for six hours against the main Prussian army and then counterattacked; Bernadotte did not come.",
+        {
+          prompt:
+            "How much of the victories of 1805–1806 came from the corps system, and how much from the enemy's weaknesses?",
+          guidance:
+            "Consider Mack's expectation that Napoleon would bring far fewer troops, the Prussian army's lack of a divisional system and Britannica's judgement that Prussia's first mistake was to advance. Use Eylau to test the system against weather and an enemy who could be reinforced.",
+        },
+      ),
+      unit(
+        "bigger-armies-1809-1812",
+        "Bigger armies, harder victories: 1809 and 1812",
+        [
+          "Explain why larger armies and more resilient enemies made decisive victories harder to win.",
+          "Relate attrition, distance and supply to the outcome of 1812.",
+        ],
+        [
+          "In 1809 Napoleon's new army held many young recruits and foreign troops. At Eckmühl Davout fixed the main Austrian army until Napoleon arrived in the rear of its left, yet Charles's army survived and reunited north of the Danube. At Aspern-Essling Napoleon fought with part of his army across a single fragile line of bridges; when they broke he withdrew to Lobau, his first setback of the campaign. At Wagram he crossed at an unexpected point with the bridges secured, Davout turned the Austrian left, and Charles withdrew in good order. Britannica sees in the battle the decline of the army of 1805.",
+          "In 1812 long marches and supply failures, more than combat, wore down the army, above all its horses. At Smolensk Barclay withdrew by night: the French took the city, but the Russians kept their army. At Borodino Napoleon rejected Davout's flanking plan for a frontal attack and refused to commit the Guard; Britannica judges that this forfeited a decisive victory, while the Fondation's chronology notes that historians still debate it. Kutuzov withdrew and gave up Moscow to save his army.",
+          "On the retreat, feints at Borisov let the army bridge the Berezina upstream at Studianka. The core of the army escaped, but when the bridges were burned many thousands of stragglers, sick and wounded were left on the far bank. The cavalry lost in Russia could not be replaced. A battle won on the field had not won the campaign.",
+        ],
+        [
+          "eckmuhl",
+          "aspern-essling",
+          "wagram",
+          "smolensk-1812",
+          "borodino",
+          "berezina",
+        ],
+        [britWagram, britRussia, ganiereRetreat],
+        [
+          "Scale and recruits",
+          "Engineering and bridges",
+          "Attrition and supply",
+          "An enemy who will not be fixed",
+        ],
+        "Why did the capture of Smolensk gain the French little?",
+        [
+          "The city was handed back by treaty",
+          "The French were beaten outside its walls",
+          "The Russians withdrew by night and kept their army",
+        ],
+        2,
+        "Barclay gave up the city but not his army, and the campaign went on deeper into Russia and closer to winter.",
+        {
+          prompt: "Should Napoleon have committed the Guard at Borodino?",
+          guidance:
+            "Set Britannica's judgement against the Fondation's note that the question is still debated. Remember that his marshals were divided and that the army was far from home, with the rest of the campaign still to fight.",
+        },
+      ),
+      unit(
+        "coalitions-close-in",
+        "Coalitions close in: Lützen to Waterloo",
+        [
+          "Explain how the coalitions of 1813–1815 learned to defeat Napoleon.",
+          "Weigh competing judgements of his decisions in the last campaigns.",
+        ],
+        [
+          "In 1813 a rebuilt French army won at Lützen and Bautzen but, without cavalry, could not pursue; at Bautzen Ney's halt at Preititz meant the envelopment never closed. Both sides accepted the armistice of Pläswitz. The Fondation's timeline calls it Napoleon's great mistake; Britannica stresses that his offensive had spent its force. The Allies used the pause, and Austria entered the war.",
+          "The Allies then agreed to avoid battle with Napoleon himself and to attack his subordinates. Dresden was his last major victory in Germany, undone within days by the defeats of his marshals at Grossbeeren, the Katzbach, Kulm and Dennewitz. At Leipzig the converging armies attacked together, and the early destruction of the Elster bridge turned defeat into disaster. In February 1814 the Six Days campaign beat Blücher's dispersed corps in turn, but Britannica judges that it only postponed defeat.",
+          "In 1815 Napoleon struck first in Belgium. At Ligny the Prussians were beaten, but Gneisenau chose Wavre, to the north, as the rallying point rather than a line of retreat east, which kept them within reach of Wellington. Two days later Wellington stood at Waterloo with promised Prussian support, and Prussian pressure forced Napoleon to divide his attention and reserves. Coalition cooperation had become an operational capability.",
+        ],
+        [
+          "lutzen-1813",
+          "bautzen",
+          "dresden",
+          "leipzig",
+          "six-days-campaign",
+          "ligny",
+          "waterloo",
+        ],
+        [britAutumn1813, fn1813, fnBlucher],
+        [
+          "Rebuilt army",
+          "Avoid the master, beat the marshals",
+          "Converging armies",
+          "Retreat toward an ally",
+        ],
+        "What did the Allies agree for the autumn campaign of 1813?",
+        [
+          "To avoid battle with Napoleon himself and attack his subordinates",
+          "To seek a single decisive battle against Napoleon at once",
+          "To hold the line of the Elbe and wait for peace terms",
+        ],
+        0,
+        "The strategy worked: Dresden was a French victory, but defeats of the marshals at Grossbeeren, the Katzbach, Kulm and Dennewitz soon undid it.",
+        {
+          prompt: "Was the armistice of Pläswitz Napoleon's great mistake?",
+          guidance:
+            "Compare the Fondation's timeline with Britannica's account of an offensive that had spent its force, without ammunition, supplies or cavalry. Then ask what each side gained during the pause.",
         },
       ),
     ],

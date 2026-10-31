@@ -627,3 +627,7 @@ The first Stage F course, Alexander's Campaigns, 334–325 BCE, has five lessons
 ## Courses, batch F2 (31 October 2026)
 
 Rome at War, 197 BCE–451 CE, has five lessons linked to 13 of the 14 Rome studies (Cannae is shared with Classical Warfare; Alesia, which that course covers, is left out), and the Pharsalus decision exercise. As in F1, no new sources were read: the readings are sources the linked studies already cite, with the same title, publisher and address, and the lessons restate only what the studies say. Polybius's verdict on the phalanx, Livius's comparison of Zama with Cannae and Ammianus's view of Adrianople as a turning point are presented as interpretations; the Pharsalus exercise notes that Caesar's fourth line rests on his own account.
+
+## Courses, batch F3 (31 October 2026)
+
+Napoleon's Campaigns, 1796–1815, sits beside the shorter Napoleonic Warfare path and has five lessons linked to 25 of the 34 Napoleon studies, from Montenotte to Waterloo; the Auerstedt decision exercise puts the learner in Davout's place. No new sources were read: the readings are sources the linked studies already cite, with the same title, publisher and address, and the lessons restate only what the studies say. Judgements on which the sources differ (Gouvion Saint-Cyr on the Mantua siege train, Britannica on the Guard at Borodino, the Fondation Napoléon on the Pläswitz armistice) are presented as interpretations, and the exercise keeps Bernadotte's conduct as the studies give it, without judging it.

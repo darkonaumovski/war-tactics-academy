@@ -134,7 +134,7 @@ export const collections: Collection[] = [
       },
     ],
     wars: ["french-revolutionary", "napoleonic"],
-    courseSlugs: ["napoleonic-warfare"],
+    courseSlugs: ["napoleonic-warfare", "napoleons-campaigns"],
   },
   {
     slug: "ww1",

@@ -2730,6 +2730,16 @@
         "title": "Pearl Harbor attack",
         "url": "https://www.britannica.com/event/Pearl-Harbor-attack",
         "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "September 6, 1941: The 6th Imperial Conference (The US-Japan War Talks as seen in official documents)",
+        "url": "https://www.jacar.go.jp/english/nichibei/popup/pop_19.html",
+        "publisher": "Japan Center for Asian Historical Records (JACAR)"
+      },
+      {
+        "title": "December 1, 1941: The 8th Imperial Conference (The US-Japan War Talks as seen in official documents)",
+        "url": "https://www.jacar.go.jp/english/nichibei/popup/pop_27.html",
+        "publisher": "Japan Center for Asian Historical Records (JACAR)"
       }
     ],
     "sections": [
@@ -2748,7 +2758,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Japan, poor in natural resources, saw the embargo on oil as a threat to its survival and resolved to seize the resource-rich territories of Southeast Asia, although this would mean war with the United States. Negotiations continued through the autumn of 1941, but Prime Minister Tōjō Hideki's government decided on war.",
+        "text": "Japan, poor in natural resources, saw the embargo on oil as a threat to its survival and resolved to seize the resource-rich territories of Southeast Asia, although this would mean war with the United States. The Japanese records trace the decision step by step: on 6 September 1941 an Imperial Conference resolved, in the name of “self-existence and self-preservation”, to complete preparations for war with the United States, Britain and the Netherlands by the end of October while negotiating, and to go to war if its demands were not met by early October. Negotiations continued through the autumn, but after the Hull Note of 27 November Prime Minister Tōjō Hideki's government gave up hope of a settlement, and on 1 December an Imperial Conference decided on war; Tōjō argued that war was the only way out.",
         "evidence": "fact",
         "refs": [
           {
@@ -2756,6 +2766,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -2800,7 +2816,7 @@
       },
       {
         "title": "Initial deployment",
-        "text": "Kimmel and Short had been warned of the possibility of war, with a war warning on 27 November. Short ordered an alert against sabotage and parked his aircraft close together; Kimmel did not extend reconnaissance to the north-west and kept most of the fleet in harbour. Neither expected the base itself to be attacked. Nagumo's fleet left the Kurile Islands in secrecy on 26 November.",
+        "text": "Kimmel and Short had been warned of the possibility of war, with a war warning on 27 November. Short ordered an alert against sabotage and parked his aircraft close together; Kimmel did not extend reconnaissance to the north-west and kept most of the fleet in harbour. Neither expected the base itself to be attacked. Nagumo's fleet left the Kurile Islands in secrecy on 26 November, five days before the Imperial Conference formally decided on war.",
         "evidence": "fact",
         "refs": [
           {
@@ -2808,6 +2824,9 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -2891,7 +2910,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Britannica records a wide divergence of opinion on responsibility: the Roberts Commission blamed Kimmel and Short, the army and navy boards blamed the War and Navy Departments, and the 1946 congressional majority stressed the lack of preparation in Hawaii. It reports that the “back door to war” theory, that Roosevelt invited the attack, found little support among mainstream historians and was further undermined by declassified code-breaking documents, and that there is substantial evidence that he sought to postpone a clash. The brief's question of a third strike is not discussed in the sources read; the Naval History and Heritage Command notes only that the shore facilities were not attacked.",
+        "text": "Britannica records a wide divergence of opinion on responsibility: the Roberts Commission blamed Kimmel and Short, the army and navy boards blamed the War and Navy Departments, and the 1946 congressional majority stressed the lack of preparation in Hawaii. It reports that the “back door to war” theory, that Roosevelt invited the attack, found little support among mainstream historians and was further undermined by declassified code-breaking documents, and that there is substantial evidence that he sought to postpone a clash. The Japanese conference records published by JACAR show the decision for war taking shape over three months, with a deadline set in September and the final decision taken after the Hull Note. The brief's question of a third strike is not discussed in the sources read; the Naval History and Heritage Command notes only that the shore facilities were not attacked.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -2899,12 +2918,18 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The Naval History and Heritage Command's overview gives the background, the plan, the approach, the attack, the losses and the salvage. Britannica gives the diplomatic background, the warnings and responses, the attack and the investigations.",
+        "text": "The Naval History and Heritage Command's overview gives the background, the plan, the approach, the attack, the losses and the salvage. Britannica gives the diplomatic background, the warnings and responses, the attack and the investigations. Two of JACAR's commentaries on Japanese government documents give the Imperial Conferences of 6 September and 1 December 1941.",
         "evidence": "fact",
         "refs": [
           {
@@ -2912,6 +2937,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -4892,6 +4923,16 @@
         "title": "The Battle of Leyte Gulf",
         "url": "https://www.nationalww2museum.org/war/articles/battle-leyte-gulf",
         "publisher": "The National WWII Museum"
+      },
+      {
+        "title": "Interrogation Nav No. 9 (USSBS No. 47): Vice Admiral Kurita Takeo, Tokyo, 16–17 October 1945",
+        "url": "https://www.ibiblio.org/hyperwar/AAF/USSBS/IJO/IJO-9.html",
+        "publisher": "U.S. Strategic Bombing Survey, Interrogations of Japanese Officials (HyperWar)"
+      },
+      {
+        "title": "Interrogation Nav No. 55 (USSBS No. 227): Vice Admiral Ozawa Jisaburō, Tokyo, 30 October 1945",
+        "url": "https://www.ibiblio.org/hyperwar/AAF/USSBS/IJO/IJO-55.html",
+        "publisher": "U.S. Strategic Bombing Survey, Interrogations of Japanese Officials (HyperWar)"
       }
     ],
     "sections": [
@@ -4923,7 +4964,7 @@
       },
       {
         "title": "Campaign objectives",
-        "text": "The Japanese responded with Sho-Go, the Victory Operation: a decoy force of carriers would draw Admiral William Halsey's Third Fleet north, while three surface forces converged on Leyte Gulf to destroy the landing. The Americans aimed to protect the landing and, in Halsey's orders, to destroy the major part of the Japanese fleet if the chance arose.",
+        "text": "The Japanese responded with Sho-Go, the Victory Operation: a decoy force of carriers would draw Admiral William Halsey's Third Fleet north, while three surface forces converged on Leyte Gulf to destroy the landing. Kurita told his interrogators in 1945 that his mission was to destroy the landing forces at daybreak on 25 October; Ozawa said the decoy was basically Admiral Toyoda's idea and that he expected his fleet to be destroyed. The Americans aimed to protect the landing and, in Halsey's orders, to destroy the major part of the Japanese fleet if the chance arose.",
         "evidence": "fact",
         "refs": [
           {
@@ -4931,6 +4972,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -4946,7 +4993,7 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "MacArthur had overall command of the Leyte operation; Vice Admiral Thomas Kinkaid's Seventh Fleet, his principal naval force, supported the landings, while Halsey's Third Fleet, with the fast carriers and battleships, reported to Nimitz. No single commander controlled both fleets. On the Japanese side Vice Admiral Kurita Takeo led the central force with the battleships Yamato and Musashi, Vice Admirals Nishimura Shōji and Shima Kiyohide the southern forces, and Vice Admiral Ozawa Jisaburō the decoy carriers, which had few aircraft.",
+        "text": "MacArthur had overall command of the Leyte operation; Vice Admiral Thomas Kinkaid's Seventh Fleet, his principal naval force, supported the landings, while Halsey's Third Fleet, with the fast carriers and battleships, reported to Nimitz. No single commander controlled both fleets. On the Japanese side Vice Admiral Kurita Takeo led the central force with the battleships Yamato and Musashi, Vice Admirals Nishimura Shōji and Shima Kiyohide the southern forces, and Vice Admiral Ozawa Jisaburō the decoy carriers, which had few aircraft: Ozawa said many of his carrier aircraft had been sent to Formosa on Toyoda's orders. The Japanese forces were coordinated only through Toyoda, by radio.",
         "evidence": "fact",
         "refs": [
           {
@@ -4954,6 +5001,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -4985,7 +5038,7 @@
       },
       {
         "title": "Important command decisions",
-        "text": "Halsey's decision to take the whole Third Fleet north after Ozawa's decoy, without leaving a force to guard the San Bernardino Strait, left the landing area exposed; Nimitz's signal asking where Task Force 34 was, with its padding misread as a rebuke, finally turned him back. Kurita's decision to withdraw off Samar, when he was close to the transports, saved the Seventh Fleet. Ozawa accepted that his force was meant to be sacrificed.",
+        "text": "Halsey's decision to take the whole Third Fleet north after Ozawa's decoy, without leaving a force to guard the San Bernardino Strait, left the landing area exposed; Nimitz's signal asking where Task Force 34 was, with its padding misread as a rebuke, finally turned him back. Kurita's decision to withdraw off Samar, when he was close to the transports, saved the Seventh Fleet. Kurita told his interrogators that he expected heavy air attack inside the Gulf and judged that he could do no good there, so he turned north to join Ozawa against the American carriers; fuel, he said, was no consideration in that choice, though it governed his later withdrawal. Ozawa accepted that his force was meant to be sacrificed; he had little confidence in the lure and put its chances at even.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -4993,12 +5046,18 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Decisive turning points",
-        "text": "The destruction of the southern force at Surigao Strait, the resistance of Taffy 3 off Samar and Kurita's withdrawal decided the battle: Sho-Go failed to reach the landing area.",
+        "text": "The destruction of the southern force at Surigao Strait, the resistance of Taffy 3 off Samar and Kurita's withdrawal decided the battle: Sho-Go failed to reach the landing area. Japanese communications failed at the decisive moment: according to an officer from Ozawa's flagship, questioned with Kurita, the reports Ozawa sent on 24 October never reached Kurita, who therefore did not know that the decoy had worked, while Ozawa believed it was failing.",
         "evidence": "fact",
         "refs": [
           {
@@ -5006,6 +5065,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -5050,7 +5115,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Halsey's decision has been debated from the moment it was made; the National WWII Museum lists his ambiguous orders, his wish to sink carriers, his belief that Kurita was retreating and poor intelligence on Japanese air losses. Kurita's reasons for withdrawing are also disputed: he may have taken the escort carriers for fleet carriers, could not know that the decoy had worked, and later said he feared air attack in the gulf; some officers called him a coward.",
+        "text": "Halsey's decision has been debated from the moment it was made; the National WWII Museum lists his ambiguous orders, his wish to sink carriers, his belief that Kurita was retreating and poor intelligence on Japanese air losses. Kurita's reasons for withdrawing are also disputed: he may have taken the escort carriers for fleet carriers, could not know that the decoy had worked, and later said he feared air attack in the gulf; some officers called him a coward. His own account, given to American interrogators in October 1945, stresses the air threat and his judgment that he could not be effective in the Gulf, and plays down fuel; it should be read as testimony given to the victors after the war.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -5058,12 +5123,15 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Britannica gives the strategic setting, the landings, Sho-Go and each engagement in detail, with Nimitz's signal and its aftermath. The National WWII Museum gives the command arrangements, the Japanese plan, the course of the battle and the debates over Halsey's and Kurita's decisions.",
+        "text": "Britannica gives the strategic setting, the landings, Sho-Go and each engagement in detail, with Nimitz's signal and its aftermath. The National WWII Museum gives the command arrangements, the Japanese plan, the course of the battle and the debates over Halsey's and Kurita's decisions. The U.S. Strategic Bombing Survey's interrogations of Kurita and Ozawa in Tokyo in October 1945 give the two Japanese commanders' own accounts of their missions and decisions.",
         "evidence": "fact",
         "refs": [
           {
@@ -5071,6 +5139,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -5125,7 +5199,7 @@
       {
         "name": "Kurita Takeo",
         "objective": "Break through to Leyte Gulf and destroy the landing force.",
-        "known": "He had lost his flagship and Musashi, and enemy carriers were off Samar.",
+        "known": "He had lost his flagship and Musashi, and enemy carriers were off Samar; no report from Ozawa had reached him.",
         "uncertainty": "Whether the decoy had drawn Halsey away and what force he was fighting.",
         "constraints": "No air reconnaissance of his own.",
         "decision": "After fighting Taffy 3 off Samar, he broke off and withdrew before reaching the transports.",
@@ -5133,6 +5207,18 @@
         "terrain": "The San Bernardino Strait and the waters off Samar.",
         "logistics": "A long approach under air and submarine attack.",
         "outcome": "The landing was saved, and his force retreated."
+      },
+      {
+        "name": "Ozawa Jisaburō",
+        "objective": "Draw Halsey's carriers north so that Kurita's force could reach the landing area.",
+        "known": "His carriers had few aircraft left after many were sent to Formosa, and he had little confidence that the Americans would take the bait.",
+        "uncertainty": "Whether the Americans would turn on his carriers or on Kurita; he put it at an even chance.",
+        "constraints": "Few aircraft and trained pilots, and poor communications: his reports did not reach Kurita.",
+        "forces": "Carriers with few aircraft, with the battleships Ise and Hyuga.",
+        "terrain": "The open sea east of Luzon, far north of the landing area.",
+        "logistics": "His carriers were still being repaired and their replacement pilots trained when the invasion came.",
+        "decision": "He launched what aircraft he had and turned north before he was attacked, to draw the American carriers further away.",
+        "outcome": "All four of his carriers were sunk off Cape Engaño; he did not learn in time that the lure had worked."
       }
     ]
   },
@@ -5685,6 +5771,16 @@
         "title": "Iwo Jima and Okinawa: Death at Japan’s Doorstep",
         "url": "https://www.nationalww2museum.org/war/articles/iwo-jima-and-okinawa-death-japans-doorstep",
         "publisher": "The National WWII Museum"
+      },
+      {
+        "title": "A Guide to the Museum",
+        "url": "https://peace-museum.okinawa.jp/english/index.html",
+        "publisher": "Okinawa Prefectural Peace Memorial Museum"
+      },
+      {
+        "title": "Permanent Exhibit, Room 3: Battleground of Hell",
+        "url": "https://peace-museum.okinawa.jp/english/museum/parmanent/3.html",
+        "publisher": "Okinawa Prefectural Peace Memorial Museum"
       }
     ],
     "sections": [
@@ -5729,7 +5825,7 @@
       },
       {
         "title": "Geography and terrain",
-        "text": "Okinawa is about 100 kilometres long and at most 32 kilometres wide. Its southern part, around Naha and Shuri, was heavily fortified along high ridges, with Shuri Castle as the keystone, and its many caves gave the defenders shelter from bombardment. The island had a large civilian population. Heavy rain and rugged terrain slowed the fighting.",
+        "text": "Okinawa is about 100 kilometres long and at most 32 kilometres wide. Its southern part, around Naha and Shuri, was heavily fortified along high ridges, with Shuri Castle as the keystone, and its many caves gave the defenders shelter from bombardment. The island had a large civilian population, which the Okinawa Prefectural Peace Memorial Museum describes as fully mobilized for the battle, the only ground battle fought on Japanese soil. Heavy rain and rugged terrain slowed the fighting.",
         "evidence": "fact",
         "refs": [
           {
@@ -5737,6 +5833,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -5778,7 +5877,7 @@
       },
       {
         "title": "Important command decisions",
-        "text": "Ushijima's decision not to contest the beaches but to hold the fortified south, using caves and ridges, forced the Americans into costly frontal assaults: the Americans advanced only about 6 kilometres in the south between early April and late May. The Japanese command's reliance on mass suicide attacks at sea made the battle as costly for the navy as for the army. American commanders relied on the quantity and quality of their equipment, advancing in waves by day under heavy artillery support.",
+        "text": "Ushijima's decision not to contest the beaches but to hold the fortified south, using caves and ridges, forced the Americans into costly frontal assaults: the Americans advanced only about 6 kilometres in the south between early April and late May. When Shuri could no longer be held, the army withdrew to the southern tip rather than fight a decisive battle there; the museum describes this as a choice to wage a bloody war of attrition, in the area where civilians had taken refuge. The Japanese command's reliance on mass suicide attacks at sea made the battle as costly for the navy as for the army. American commanders relied on the quantity and quality of their equipment, advancing in waves by day under heavy artillery support.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -5786,6 +5885,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -5817,7 +5919,7 @@
       },
       {
         "title": "Consequences",
-        "text": "The civilian population of Okinawa suffered catastrophically: Britannica writes that it was reduced by perhaps a quarter, with men, women and children killed in the fighting or ordered by the Japanese military to commit suicide, in some cases with a grenade given to a family to detonate when capture seemed near. The savagery of the battle shaped American expectations of an invasion of the home islands, which planners now expected to be terribly costly.",
+        "text": "The civilian population of Okinawa suffered catastrophically: Britannica writes that it was reduced by perhaps a quarter, with men, women and children killed in the fighting or ordered by the Japanese military to commit suicide, in some cases with a grenade given to a family to detonate when capture seemed near. The Peace Memorial Museum writes that civilian deaths far exceeded military ones: civilians were killed by shelling, starvation and malaria, by suicide, and by retreating Japanese troops, and in some caves Japanese soldiers killed civilians or forced them into mass suicide. The savagery of the battle shaped American expectations of an invasion of the home islands, which planners now expected to be terribly costly.",
         "evidence": "fact",
         "refs": [
           {
@@ -5825,6 +5927,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -5843,7 +5951,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The sources give different figures for civilian deaths and military losses, and date the end of the battle to 21 or 22 June. Britannica records that American naval officers at first understated the effectiveness of the kamikaze attacks. The National WWII Museum and Britannica both link the battle's cost to American planning for the invasion of Japan.",
+        "text": "The sources give different figures for civilian deaths and military losses, and date the end of the battle to 21 or 22 June. Britannica records that American naval officers at first understated the effectiveness of the kamikaze attacks. The National WWII Museum and Britannica both link the battle's cost to American planning for the invasion of Japan, while the Okinawa Prefectural Peace Memorial Museum presents the battle from the perspective of Okinawans, as a “Typhoon of Steel” in which the Japanese army's conduct was itself a cause of civilian deaths.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -5851,12 +5959,18 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Britannica gives the planning, the commanders, the course of the battle, the kamikaze campaign, the civilian deaths and the battle's significance for the invasion of Japan. The National WWII Museum gives the purpose of the battle, the landing, the Shuri line, the kamikaze attacks, Buckner's death and the civilian toll.",
+        "text": "Britannica gives the planning, the commanders, the course of the battle, the kamikaze campaign, the civilian deaths and the battle's significance for the invasion of Japan. The National WWII Museum gives the purpose of the battle, the landing, the Shuri line, the kamikaze attacks, Buckner's death and the civilian toll. The Okinawa Prefectural Peace Memorial Museum's English guide and exhibit text give the Okinawan civilians' experience; its figures are not used.",
         "evidence": "fact",
         "refs": [
           {
@@ -5864,6 +5978,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -5909,7 +6029,7 @@
         "known": "He could not prevent the landing.",
         "uncertainty": "How long his garrison could hold the southern line.",
         "constraints": "No hope of relief and overwhelming American firepower.",
-        "decision": "He let the Americans land and fought from the fortified line through Naha and Shuri.",
+        "decision": "He let the Americans land, fought from the fortified line through Naha and Shuri, and then withdrew to the southern tip rather than fight a decisive battle.",
         "forces": "The Japanese garrison of Okinawa.",
         "terrain": "Caves, ridges and Shuri Castle in the south.",
         "logistics": "Underground positions prepared before the landing.",
@@ -5941,6 +6061,16 @@
         "title": "Battle of Berlin (John Swift)",
         "url": "https://www.britannica.com/event/Battle-of-Berlin",
         "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Die Schlacht um Berlin 1945 (in German)",
+        "url": "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/schlacht-um-berlin-1945",
+        "publisher": "LeMO, Deutsches Historisches Museum (Arnulf Scriba)"
+      },
+      {
+        "title": "Klaus Sommer: Erlebtes beim Endkampf um Berlin April/Mai 1945 (eyewitness account, in German)",
+        "url": "https://www.dhm.de/lemo/zeitzeugen/klaus-sommer-erlebtes-beim-endkampf-um-berlin-aprilmai-1945",
+        "publisher": "LeMO Zeitzeugen, Deutsches Historisches Museum"
       }
     ],
     "sections": [
@@ -5956,7 +6086,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Stalin mistrusted the Western Allies and wanted to take Berlin first. When the Western Allies crossed the Rhine and approached the city in early April, he accelerated the attack. Hitler and committed Nazis had no option but to fight on, and many German soldiers fought in fear of what the Soviets would do in Germany after what German forces had done in the Soviet Union.",
+        "text": "Stalin mistrusted the Western Allies and wanted to take Berlin first; LeMO calls the capture of the German capital the declared aim of the Soviet leadership. When the Western Allies crossed the Rhine and approached the city in early April, he accelerated the attack. Hitler and committed Nazis had no option but to fight on, and many German soldiers fought in fear of what the Soviets would do in Germany after what German forces had done in the Soviet Union.",
         "evidence": "fact",
         "refs": [
           {
@@ -5964,6 +6094,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -5995,7 +6128,7 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "The Soviets massed one of the largest concentrations of military power ever seen, with Zhukov's and Konev's fronts joined by Marshal Konstantin Rokossovsky's 2nd Belorussian Front in the north. The German defenders were shattered formations, stragglers and the Volkssturm militia of teenagers and old men, with Hitler Youth units, armed with the Panzerfaust.",
+        "text": "The Soviets massed one of the largest concentrations of military power ever seen, with Zhukov's and Konev's fronts joined by Marshal Konstantin Rokossovsky's 2nd Belorussian Front in the north. The German defenders were shattered formations, stragglers and the Volkssturm militia of teenagers and old men, with Hitler Youth units, armed with the Panzerfaust; LeMO adds Waffen-SS units and improvised police formations, short of ammunition and fuel. A defender's account describes one sector held by a scratch force of interpreters, Volkssturm, alert units and police, short of automatic weapons.",
         "evidence": "fact",
         "refs": [
           {
@@ -6003,6 +6136,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -6018,7 +6157,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "On 16 April Zhukov's front attacked at the Seelow Heights. The barrage fell on empty trenches, and searchlights meant to blind the defenders silhouetted the attackers; Zhukov sent in his tanks before a breakthrough had been made, and they struggled on churned ground. Konev's attack further south succeeded, and on the fourth day the German line at Seelow broke. On 20 April Rokossovsky joined the attack and Soviet shells began to fall on the city. Hitler forbade retreat and ordered attacks by units that scarcely existed. By 25 April Berlin was encircled by Konev's and Zhukov's fronts. The Red Army fought through the city house by house, demolishing buildings that held defenders. Hitler killed himself on 30 April, and that evening a Soviet banner flew on the Reichstag. On 2 May the garrison surrendered; Germany capitulated at Reims on 7 May and in Berlin the next day.",
+        "text": "On 16 April Zhukov's front attacked at the Seelow Heights. The barrage fell on empty trenches, and searchlights meant to blind the defenders silhouetted the attackers; Zhukov sent in his tanks before a breakthrough had been made, and they struggled on churned ground. Konev's attack further south succeeded, and on the fourth day the German line at Seelow broke. On 20 April Rokossovsky joined the attack and Soviet shells began to fall on the city. Hitler forbade retreat and ordered attacks by units that scarcely existed. By 25 April Berlin was encircled by Konev's and Zhukov's fronts. The Red Army fought through the city house by house, demolishing buildings that held defenders. Hitler killed himself on 30 April, after learning that the last relief attempt, by Wenck's Twelfth Army, had been broken off near Potsdam; that day a Soviet banner flew on the Reichstag, which French volunteers of the Waffen-SS had helped defend. On 2 May the garrison surrendered; Germany capitulated at Reims on 7 May and in Berlin-Karlshorst the next day.",
         "evidence": "fact",
         "refs": [
           {
@@ -6026,6 +6165,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -6067,7 +6209,7 @@
       },
       {
         "title": "Consequences",
-        "text": "German civilians and refugees trapped in the city suffered terribly: boys were sent to the front, civilians caught deserting were executed, and Soviet fire took no account of civilian lives. Soviet soldiers committed rape and sexual violence against German women on a vast scale; the IWM describes it as effectively state-sanctioned. The Soviet victory, the IWM notes, came from the greatest mass mobilisation in history and the immense sacrifice of the Soviet people.",
+        "text": "German civilians and refugees trapped in the city suffered terribly: boys were sent to the front, civilians caught deserting were executed, and Soviet fire took no account of civilian lives. LeMO describes some two million inhabitants sheltering in cellars and bunkers, and SS squads shooting civilians and soldiers suspected of weakening resistance under a Führer order of 22 April. Soviet soldiers committed rape and sexual violence against German women on a vast scale; the IWM describes it as effectively state-sanctioned. The Soviet victory, the IWM notes, came from the greatest mass mobilisation in history and the immense sacrifice of the Soviet people.",
         "evidence": "fact",
         "refs": [
           {
@@ -6075,6 +6217,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -6093,7 +6238,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The sources date the battle from 16 April (the IWM, counting the Seelow Heights) or from 20 April (Britannica, counting the fighting for the city). They give different figures for the forces and for military and civilian losses, which the IWM notes are almost impossible to calculate for civilians. The IWM discusses why German soldiers fought to the end; Britannica stresses the cost of Stalin's fixation on the Reichstag.",
+        "text": "The sources date the battle from 16 April (the IWM and LeMO, counting the Seelow Heights) or from 20 April (Britannica, counting the fighting for the city). They give different figures for the forces and for military and civilian losses, which the IWM notes are almost impossible to calculate for civilians. The IWM discusses why German soldiers fought to the end; Klaus Sommer's account, set down after the war, shows defenders clinging to official promises of relief armies until the last day, and those who tried to avoid the fighting treated as traitors. Britannica stresses the cost of Stalin's fixation on the Reichstag. No Soviet-side source was read.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -6101,12 +6246,18 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Robert Rumble's account for the Imperial War Museums gives the Vistula–Oder offensive, Stalin's decisions, the Seelow Heights, the encirclement, the street fighting, the violence against civilians and the end of the war. John Swift's Britannica article gives the forces, the race between Zhukov and Konev, the urban fighting, the suffering of civilians and the surrender.",
+        "text": "Robert Rumble's account for the Imperial War Museums gives the Vistula–Oder offensive, Stalin's decisions, the Seelow Heights, the encirclement, the street fighting, the violence against civilians and the end of the war. John Swift's Britannica article gives the forces, the race between Zhukov and Konev, the urban fighting, the suffering of civilians and the surrender. LeMO, the German Historical Museum's online history, gives the German side of the battle, and its eyewitness series the account of Klaus Sommer, born in 1927, who fought in the city as a young soldier in his father's sector; the opinions in it are his own. Their force figures are not used.",
         "evidence": "fact",
         "refs": [
           {
@@ -6114,6 +6265,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -6171,7 +6328,7 @@
         "known": "The Soviets were massing on the Oder; his generals called the front a house of cards.",
         "uncertainty": "Whether the relief attacks he ordered could break the siege.",
         "constraints": "Shattered formations, the Volkssturm and no fuel.",
-        "decision": "He refused to believe intelligence reports, forbade retreat, ordered attacks by forces that scarcely existed and stayed in Berlin.",
+        "decision": "He refused to believe intelligence reports, forbade retreat, ordered attacks by forces that scarcely existed and stayed in Berlin with Goebbels and Bormann while other leaders left.",
         "forces": "The remnants of the German armies and the city's defenders.",
         "terrain": "The Reich Chancellery and the ruined city.",
         "logistics": "Units without men or fuel.",

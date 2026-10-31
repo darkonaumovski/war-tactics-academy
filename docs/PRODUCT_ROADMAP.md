@@ -4,7 +4,7 @@ The battle expansion is complete: 127 engagements with studies in six collection
 
 ## Priority 1 — Editorial depth and evidence
 
-1. Historian review of all 127 studies and 106 commander profiles. Extend section-level references to sentence-level citations with editions and page locators, add contrasting scholarship, and expand the brief study sections. Most studies (97 of 127) list two to four sources, mostly encyclopedic or institutional; specialist histories and primary texts should come next.
+1. Historian review of all 127 studies and 106 commander profiles. Extend section-level references to sentence-level citations with editions and page locators, add contrasting scholarship, and expand the brief study sections. Most studies (96 of 127) list three or four sources, mostly encyclopedic or institutional; the sixteen that listed only two were deepened in four batches (T1–T4), often with a source from the other side. Specialist histories and primary texts should come next.
 2. Add substantive campaign narratives and war bibliographies; campaign pages are still indexes with a schematic map.
 3. Develop battle-specific interpretive diagrams with documented geometry provenance; use georeferenced overlays only where source quality supports them. Preserve a text equivalent.
 4. Review global periodization, command responsibility and transliteration consistently. Expand African, Asian, Middle Eastern and American coverage beyond the European-centred collections.

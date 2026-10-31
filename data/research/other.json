@@ -957,6 +957,11 @@
         "title": "Dien Bien Phu & the Fall of French Indochina, 1954",
         "url": "https://history.state.gov/milestones/1953-1960/dien-bien-phu",
         "publisher": "Office of the Historian, U.S. Department of State"
+      },
+      {
+        "title": "The causes of the French Army defeat at Dien Bien Phu: the perspective from the artillery (in Vietnamese)",
+        "url": "https://ssh.vnuhcmjournal.com.vn/index.php/ssh/article/view/1104",
+        "publisher": "VNUHCM Journal of Social Sciences and Humanities 9:4 (Nguyễn Trọng Minh, 2025)"
       }
     ],
     "sections": [
@@ -1008,21 +1013,27 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Colonel de Castries commanded a garrison of twelve battalions. General Giap concentrated several Viet Minh divisions, with artillery and anti-aircraft regiments, around the valley.",
+        "text": "Colonel de Castries commanded a garrison of twelve battalions, whose artillery was commanded by Lieutenant-Colonel Piroth. General Giap concentrated several Viet Minh divisions, with artillery and anti-aircraft regiments, around the valley; Nguyễn Trọng Minh notes that the 105 mm howitzer regiment had been equipped and trained in China.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Initial deployment",
-        "text": "French and Vietnamese paratroopers dropped into the valley on 20–22 November 1953 in Operation Castor and built an air-ground base. By the end of December the garrison was encircled, while Viet Minh troops dug trenches and tunnels toward its positions.",
+        "text": "French and Vietnamese paratroopers dropped into the valley on 20–22 November 1953 in Operation Castor and built an air-ground base. By the end of December the garrison was encircled, while Viet Minh troops dug trenches and tunnels toward its positions. They also dug their guns into the slopes facing the valley, under thick cover and camouflage, while the French guns stood in open emplacements.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -1041,7 +1052,7 @@
       },
       {
         "title": "Important command decisions",
-        "text": "France reinforced the shrinking garrison by parachuting in volunteers, many of them not trained parachutists. Washington would intervene only as part of a coalition, and Britain and other NATO members declined to join.",
+        "text": "At a meeting on 26 January 1954, about ten hours before an attack already put back from 20 January was due to open, Giap postponed it, withdrew the guns and changed the plan from “fast attack, fast victory” to “steady attack, steady advance”; Nguyễn Trọng Minh attributes the first plan to the Chinese advisers, and Giap called the change the hardest decision of his career. France reinforced the shrinking garrison by parachuting in volunteers, many of them not trained parachutists. Washington would intervene only as part of a coalition, and Britain and other NATO members declined to join.",
         "evidence": "fact",
         "refs": [
           {
@@ -1049,16 +1060,22 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Decisive turning points",
-        "text": "The loss of the airfield left a garrison designed around air supply dependent on parachute drops, while the Viet Minh tightened the ring.",
+        "text": "The loss of the airfield left a garrison designed around air supply dependent on parachute drops, while the Viet Minh tightened the ring. In the Vietnamese study, French artillery observers and reconnaissance aircraft were lost within the first two days, and anti-aircraft fire forced supply aircraft to drop from high altitude, so that much of the supply fell to the besiegers.",
         "evidence": "interpretation",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -1090,17 +1107,20 @@
       },
       {
         "title": "Historical lessons",
-        "text": "A base that depends on a single airfield is only as secure as that airfield. An opponent who can bring supplies to a remote place should not be underestimated.",
+        "text": "A base that depends on a single airfield is only as secure as that airfield. An opponent who can bring supplies to a remote place should not be underestimated, and a commander who sees that his plan is not ready may do better to call off the attack than to keep to the timetable.",
         "evidence": "interpretation",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Historiographical debates",
-        "text": "The U.S. Office of the Historian counts a four-month siege, from the encirclement; the French ministry dates the battle from the 13 March attack. Navarre's unapproved plan leaves responsibility for the decision open, and Viet Minh losses are historians' estimates.",
+        "text": "The U.S. Office of the Historian counts a four-month siege, from the encirclement; the French ministry dates the battle from the 13 March attack. Navarre's unapproved plan leaves responsibility for the decision open, and Viet Minh losses are historians' estimates. Vietnamese scholarship, represented here by Nguyễn Trọng Minh, explains the defeat through French overconfidence, above all Piroth's belief that Viet Minh guns could not be brought to the valley or survive his counter-battery fire, and credits the Vietnamese artillery; the role of the Chinese advisers in the first plan remains a point of interpretation.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -1108,12 +1128,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The French Ministry of the Armed Forces gives the plan, the course of the siege and its human cost. The U.S. Office of the Historian gives American deliberations and the Geneva settlement.",
+        "text": "The French Ministry of the Armed Forces gives the plan, the course of the siege and its human cost. The U.S. Office of the Historian gives American deliberations and the Geneva settlement. Nguyễn Trọng Minh's article, in Vietnamese, gives the Vietnamese view of the artillery battle, drawing on Giap's memoirs and on French memoirs and histories; its equipment figures are not used.",
         "evidence": "fact",
         "refs": [
           {
@@ -1121,6 +1144,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       }
@@ -1169,7 +1195,7 @@
         "forces": "Several divisions with artillery and anti-aircraft regiments.",
         "terrain": "Ground around the valley where trenches and tunnels could be dug toward the French positions.",
         "logistics": "Chinese aid in weapons, ammunition, trucks and fuel grew sharply from February 1954.",
-        "decision": "He opened with artillery on 13 March, took the strongpoints in stages and launched a final offensive on 1 May.",
+        "decision": "He called off the attack planned for late January and withdrew his guns, then opened with artillery on 13 March, took the strongpoints in stages and launched a final offensive on 1 May.",
         "outcome": "The garrison surrendered on 7 May, and France left Indochina after the Geneva agreements."
       }
     ]
@@ -3688,6 +3714,16 @@
         "title": "French Alliance, French Assistance, and European Diplomacy during the American Revolution, 1778–1782",
         "url": "https://history.state.gov/milestones/1776-1783/french-alliance",
         "publisher": "Office of the Historian, U.S. Department of State"
+      },
+      {
+        "title": "A State of the Expedition from Canada, as Laid before the House of Commons (1780)",
+        "url": "https://archive.org/details/stateofexpeditio00burg",
+        "publisher": "Internet Archive (John Burgoyne; University of Pittsburgh copy)"
+      },
+      {
+        "title": "The Saratoga Campaign",
+        "url": "https://www.battlefields.org/learn/articles/saratoga-campaign",
+        "publisher": "American Battlefield Trust (Mark Maloy, 2021)"
       }
     ],
     "sections": [
@@ -3704,12 +3740,19 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Control of the Hudson–Champlain route would cut New England off from the other colonies. But Howe moved against Philadelphia instead, and the handbook says the order for him to cooperate was apparently never sent.",
+        "text": "Control of the Hudson–Champlain route would cut New England off from the other colonies. But Howe moved against Philadelphia instead. Maloy writes that Germain approved both Burgoyne's plan and Howe's and communicated them poorly, and the handbook says the order for Howe to cooperate was apparently never sent. Burgoyne himself, as he later told the House of Commons, understood his orders as precise: to force a junction with Howe.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "The British Plan of 1777; Retreat and Surrender"
+          },
+          {
+            "source": 2,
+            "locator": "Narrative"
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -3759,34 +3802,48 @@
       },
       {
         "title": "Chronological phases",
-        "text": "Burgoyne took Ticonderoga in early July but needed until 30 July to reach Fort Edward. A raid for supplies was defeated at Bennington on 16 August. On 19 September the British held the field at Freeman's Farm at heavy cost. On 7 October a British reconnaissance in force was defeated, and on 17 October Burgoyne surrendered.",
+        "text": "Burgoyne took Ticonderoga in early July, struck the American rear guard at Hubbardton and fought a sharp action at Fort Anne, but needed until 30 July to reach Fort Edward. In the west, St. Leger besieged Fort Stanwix and, after the fight at Oriskany, withdrew when his Native allies left him. A raid for supplies was defeated at Bennington on 16 August. On 19 September the British held the field at Freeman's Farm at heavy cost. On 7 October a British reconnaissance in force was defeated, and on 17 October Burgoyne surrendered.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "The Burgoyne Campaign to Retreat and Surrender"
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Schuyler slowed the British by felling trees across the roads and stripping the country. On 19 September Gates accepted Arnold's argument for fighting in the woods and sent out Morgan, but held about 5,000 men back. On 7 October Burgoyne sent about 1,500 men to probe the American left, and Gates ordered Morgan, Poor and Learned to attack.",
+        "text": "Schuyler slowed the British by felling trees across the roads and stripping the country. Burgoyne crossed the Hudson having, in his words, read his orders “for an hundredth time”; he argued that nothing could have justified him had he not advanced and tried a battle. On 19 September Gates accepted Arnold's argument for fighting in the woods and sent out Morgan, but held about 5,000 men back. Afterwards Burgoyne neither retreated nor attacked: Clinton had sent word of an attack on the Highlands below, and the woods hid the American position. On 7 October Burgoyne sent about 1,500 men to probe the American left, and Gates ordered Morgan, Poor and Learned to attack.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "Retreat of the Americans; The Battle of September 19; The Battle of October 7"
+          },
+          {
+            "source": 2,
+            "locator": "Narrative"
           }
         ]
       },
       {
         "title": "Decisive turning points",
-        "text": "The handbook judges that Riedesel's arrival late on 19 September saved the British line. On 7 October the capture of the Breymann Redoubt, which covered the right and rear of Burgoyne's camp, forced a general retreat.",
+        "text": "The handbook judges that Riedesel's arrival late on 19 September saved the British line. On 7 October the capture of the Breymann Redoubt, which covered the right and rear of Burgoyne's camp, forced a general retreat; Burgoyne conceded that once Breymann was killed and the Americans had broken in there, the camp could no longer be held. Arnold was wounded in the leg in the assault.",
         "evidence": "interpretation",
         "refs": [
           {
             "source": 0,
             "locator": "The Battle of September 19; The Battle of October 7"
+          },
+          {
+            "source": 2,
+            "locator": "Narrative"
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -3798,16 +3855,22 @@
           {
             "source": 0,
             "locator": "Retreat and Surrender"
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Consequences",
-        "text": "News of the surrender reached France's foreign minister, Vergennes, in December 1777. Hearing of possible British peace offers, he decided not to wait for Spain, and on 6 February 1778 France signed treaties of alliance and of commerce with the United States.",
+        "text": "News of the surrender reached France's foreign minister, Vergennes, in December 1777. Hearing of possible British peace offers, he decided not to wait for Spain, and on 6 February 1778 France signed treaties of alliance and of commerce with the United States. Maloy adds that French entry forced Britain to spread its forces across the world.",
         "evidence": "fact",
         "refs": [
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -3824,18 +3887,25 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The handbook, written in 1950, spreads the blame across Germain, Howe, Clinton, St. Leger and Burgoyne's lack of drive. It credits Arnold, Morgan and militia mobilisation, and says Fraser was perhaps shot by a marksman Morgan assigned. Its own figures for Burgoyne's army do not agree.",
+        "text": "The handbook, written in 1950, spreads the blame across Germain, Howe, Clinton, St. Leger and Burgoyne's lack of drive. It credits Arnold, Morgan and militia mobilisation, and says Fraser was perhaps shot by a marksman Morgan assigned. Its own figures for Burgoyne's army do not agree. Accounts of Arnold on 7 October differ: Burgoyne heard that he attacked without consulting Gates, while Maloy has him pressing a reluctant Gates for permission, after Gates had left him out of his report on the first battle. Burgoyne's narrative is a defence of his conduct before Parliament and argues that, had Clinton's attack come in time, he would have broken through.",
         "evidence": "uncertainty",
         "refs": [
           {
             "source": 0,
             "locator": "The Battle of October 7; Retreat and Surrender"
+          },
+          {
+            "source": 2,
+            "locator": "Narrative"
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The main source is an older National Park Service handbook, read section by section. The Office of the Historian essay, from a series no longer maintained, covers the French alliance. No British, German or American participant accounts were read.",
+        "text": "The main source is an older National Park Service handbook, read section by section. Burgoyne's State of the Expedition, his narrative and evidence laid before the House of Commons and published in 1780, gives the British commander's own reasoning; it was read in a scanned copy whose machine-read text is imperfect. Maloy's article for the American Battlefield Trust gives a modern account of the whole campaign. The Office of the Historian essay, from a series no longer maintained, covers the French alliance. No German or American participant accounts were read.",
         "evidence": "fact",
         "refs": [
           {
@@ -3843,6 +3913,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -3873,13 +3949,13 @@
       {
         "name": "John Burgoyne",
         "objective": "Reach Albany and meet Howe's army.",
-        "known": "The Americans were entrenched at Bemis Heights, blocking the river road.",
+        "known": "Prisoners and deserters reported the Americans in a strongly fortified post at Bemis Heights, blocking the river road, but the woods hid it from view.",
         "uncertainty": "Whether Howe or Clinton would come up the Hudson, and the exact American position.",
         "constraints": "Supplies brought from Canada, losses at Bennington and the loss of his Native allies.",
         "forces": "About 9,400 at the start, British and German regulars with auxiliaries, fewer by September.",
         "terrain": "Wooded ground cut by ravines, with the river corridor blocked by fortified bluffs.",
         "logistics": "A long line to Canada, which he cut when he crossed the Hudson.",
-        "decision": "He crossed the Hudson, attacked in three columns on 19 September and probed again on 7 October.",
+        "decision": "He crossed the Hudson, attacked in three columns on 19 September, waited for Clinton's diversion and probed again on 7 October.",
         "outcome": "He was surrounded and surrendered his army on 17 October."
       },
       {
@@ -3908,6 +3984,11 @@
         "title": "The Battle of Sedan",
         "url": "https://www.napoleon.org/en/history-of-the-two-empires/articles/the-battle-of-sedan/",
         "publisher": "Fondation Napoléon (Eymeric Job)"
+      },
+      {
+        "title": "The Franco-German War of 1870–71, translation revised by Archibald Forbes (1893)",
+        "url": "https://www.gutenberg.org/ebooks/36209",
+        "publisher": "Project Gutenberg (Helmuth von Moltke)"
       }
     ],
     "sections": [
@@ -3923,7 +4004,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Britannica says Napoleon III, ill and in severe pain, could not fall back on Paris because such an admission of failure would doom his dynasty. The emperor accompanied the army but MacMahon held command.",
+        "text": "Britannica says Napoleon III, ill and in severe pain, could not fall back on Paris because such an admission of failure would doom his dynasty. The emperor accompanied the army but MacMahon held command. Moltke records that MacMahon first resolved to fall back on Paris against the wishes of the Empress and the ministry, turned east only on news that Bazaine might break out, and was overruled when he ordered a retreat on 27 August: the minister of war warned that if he left Bazaine in the lurch, revolution would break out.",
         "evidence": "fact",
         "refs": [
           {
@@ -3931,22 +4012,30 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "The Army of Châlons"
           }
         ]
       },
       {
         "title": "Campaign objectives",
-        "text": "MacMahon advanced north towards the Belgian border, intending to turn south-east and relieve Metz. The Germans under Helmuth von Moltke knew of his intentions and moved to intercept him.",
+        "text": "MacMahon advanced north towards the Belgian border, intending to turn south-east and relieve Metz. The Germans under Helmuth von Moltke knew of his intentions and moved to intercept him: Moltke writes that speeches in Paris and a telegram quoting Le Temps gave the march away, and that he had that day worked out a march table to wheel his armies to the right if it came.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "The Army of Châlons"
           }
         ]
       },
       {
         "title": "Geography and terrain",
-        "text": "Sedan was a small fortress town on the Meuse that could neither feed nor hold the army. Heights surrounded it, from Frénois, where King Wilhelm and Bismarck watched, to the Plateau d'Illy in the north; Bazeilles lay to the south-east.",
+        "text": "Sedan was a small fortress town on the Meuse that could neither feed nor hold the army. Heights surrounded it, from Frénois, where King Wilhelm and Bismarck watched, to the Plateau d'Illy in the north; Bazeilles lay to the south-east. Moltke calls the height of Illy a very important point, since the road to neutral Belgium ran through it, and Bazeilles an exposed salient once the Meuse bridges were lost.",
         "evidence": "fact",
         "refs": [
           {
@@ -3954,6 +4043,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "The Army of Châlons"
           }
         ]
       },
@@ -3982,7 +4075,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "After clashes at Nouart, Beaumont and Bazeilles on 29–31 August, MacMahon fell back into Sedan. Early on 1 September Bavarian troops attacked Bazeilles and MacMahon was badly wounded. Command passed in confusion between Ducrot and Wimpffen while German armies closed the ring, and French cavalry charged in vain to break it.",
+        "text": "After clashes at Nouart, Beaumont and Bazeilles on 29–31 August, MacMahon fell back into Sedan. Early on 1 September, in thick mist, Bavarian troops attacked Bazeilles, where inhabitants joined the street fighting, and MacMahon was badly wounded. Command passed in confusion between Ducrot and Wimpffen while German armies closed the ring, nearly complete by ten o'clock in Moltke's account, and French cavalry charged in vain to break it.",
         "evidence": "fact",
         "refs": [
           {
@@ -3990,12 +4083,16 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "Battle of Sedan"
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Ducrot ordered a retreat westward towards Mézières. Wimpffen, claiming authority from the war minister, countermanded him and attacked towards Bazeilles to open a road east. Late in the day Napoleon refused to lead a final breakout, judging that it would only bring pointless slaughter.",
+        "text": "MacMahon named Ducrot his successor, passing over two senior corps commanders. Ducrot ordered a retreat westward towards Mézières. Wimpffen, claiming authority from the war minister, countermanded him and attacked towards Bazeilles to open a road east to Carignan; Moltke notes that Ducrot submitted without protest. Late in the day Napoleon refused to lead a final breakout, judging that it would only bring pointless slaughter, and ordered negotiations.",
         "evidence": "fact",
         "refs": [
           {
@@ -4003,12 +4100,16 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "Battle of Sedan"
           }
         ]
       },
       {
         "title": "Decisive turning points",
-        "text": "MacMahon's wound left the army under three commanders in a few hours, with conflicting orders and few maps, while German artillery ringed the town. The Fondation Napoléon attributes the disaster largely to this breakdown in communication.",
+        "text": "MacMahon's wound left the army under three commanders in a few hours, with conflicting orders and few maps, while German artillery ringed the town. The Fondation Napoléon attributes the disaster largely to this breakdown in communication. Moltke judges that the exhausted French army could no longer manage a disciplined march under fire and could only fight where it stood.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -4016,12 +4117,16 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "The Army of Châlons"
           }
         ]
       },
       {
         "title": "Outcome",
-        "text": "A white flag was raised and Napoleon offered his sword to King Wilhelm. Moltke and Bismarck demanded unconditional surrender, which Wimpffen signed on 2 September. The army went into captivity and the emperor was held at Wilhelmshöhe.",
+        "text": "A white flag was raised and Napoleon offered his sword to King Wilhelm, which the Germans treated as a personal surrender only. Moltke and Bismarck demanded unconditional surrender: in Moltke's account, the disarmament and captivity of the whole army, with officers free on parole, under threat of renewed bombardment. Wimpffen signed on 2 September. The army went into captivity and the emperor was held at Wilhelmshöhe.",
         "evidence": "fact",
         "refs": [
           {
@@ -4029,6 +4134,10 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "Battle of Sedan"
           }
         ]
       },
@@ -4042,6 +4151,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "Battle of Sedan"
           }
         ]
       },
@@ -4060,7 +4173,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The two accounts disagree on the timing of the white flag: Britannica says early on 2 September, the Fondation Napoléon on the afternoon of 1 September. They name different breakout routes and describe the emperor's surrender differently. Their figures for prisoners also differ.",
+        "text": "The two modern accounts disagree on the timing of the white flag: Britannica says early on 2 September, the Fondation Napoléon on the afternoon of 1 September, and Moltke puts the white flags on the towers at about half past four that afternoon. They name different breakout routes and describe the emperor's surrender differently. Their figures for prisoners also differ. Moltke, the victor's chief of staff, judges that Wimpffen was not to blame for the army's plight and that MacMahon was fortunate to be wounded before he had to sign.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -4068,12 +4181,16 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "Battle of Sedan"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Britannica's article and the Fondation Napoléon's account, which draws on French and German scholarship, are the sources read. No primary accounts were read.",
+        "text": "Britannica's article and the Fondation Napoléon's account, which draws on French and German scholarship, are the modern sources read. Moltke's own history of the war, in the revised English translation of 1893, gives the German chief of staff's account of the march and the battle.",
         "evidence": "fact",
         "refs": [
           {
@@ -4081,6 +4198,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       }
@@ -4123,7 +4243,7 @@
       {
         "name": "Helmuth von Moltke",
         "objective": "Destroy the Army of Châlons.",
-        "known": "The French intended to march round to relieve Metz.",
+        "known": "Paris newspapers and a telegram from London revealed that the French intended to march round to relieve Metz.",
         "uncertainty": "Whether the French would break out before the ring was closed.",
         "constraints": "Two armies converging from different directions had to link up around the town.",
         "forces": "More than 200,000 men with about 800 guns.",
@@ -4146,6 +4266,16 @@
         "title": "Voyage to Tsushima",
         "url": "https://www.usni.org/magazines/naval-history-magazine/2012/may/voyage-tsushima",
         "publisher": "U.S. Naval Institute, Naval History (Capt. Shannon R. Butler)"
+      },
+      {
+        "title": "The “Skirmishing” Ahead of the Battle of Tsushima: The Efforts by Diplomatic Officials to Gather Information about the Baltic Fleet",
+        "url": "https://www.jacar.go.jp/wp/newsletter_en/newsletter_047e/newsletter_etc1_047e/",
+        "publisher": "JACAR Newsletter 47, Japan Center for Asian Historical Records (Okabe Katsuya, 2025)"
+      },
+      {
+        "title": "The Battle of Tsushima and Okinoshima",
+        "url": "https://www.jacar.go.jp/wp/newsletter_en/newsletter_047e/newsletter_etc2_047e/",
+        "publisher": "JACAR Newsletter 47, Japan Center for Asian Historical Records (Kawano Yasuhiro, 2025)"
       }
     ],
     "sections": [
@@ -4161,7 +4291,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Japan had not secured complete command of the sea. In 1904 the tsar decided to send much of the Baltic Fleet, renamed the Second Pacific Squadron, to break the blockade. Port Arthur fell on 2 January 1905, before it arrived.",
+        "text": "Japan had not secured complete command of the sea. In 1904 the tsar decided to send much of the Baltic Fleet, renamed the Second Pacific Squadron, to break the blockade; Okabe shows Japan learning of the plan by late May 1904 from reports that often contradicted each other about whether it would sail. Port Arthur fell on 2 January 1905, before it arrived.",
         "evidence": "fact",
         "refs": [
           {
@@ -4169,6 +4299,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -4187,7 +4320,7 @@
       },
       {
         "title": "Geography and terrain",
-        "text": "The voyage covered about 18,000 miles with no Russian bases on the way, and French and Portuguese ports turned the squadron away. Admiral Zinovy Rozhestvensky chose the route to Vladivostok through the Tsushima Strait, where Tōgō waited near Pusan on the Korean coast.",
+        "text": "The voyage covered about 18,000 miles with no Russian bases on the way, and French and Portuguese ports turned the squadron away. From Indochina it could reach Vladivostok by the Soya or Tsugaru straits or through the Tsushima Strait; Admiral Zinovy Rozhestvensky chose Tsushima, where Tōgō waited near Pusan on the Korean coast. Japan had covered the approaches with observation towers linked to headquarters by cable and wireless, including one on the island of Okinoshima.",
         "evidence": "fact",
         "refs": [
           {
@@ -4195,6 +4328,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -4213,17 +4352,23 @@
       },
       {
         "title": "Initial deployment",
-        "text": "Japanese cruisers shadowed the Russians from early on 27 May. Rozhestvensky tried to form line abreast, but only three battleships managed it, so he reverted to two columns with his four newest battleships on the right.",
+        "text": "Before dawn on 27 May the auxiliary cruiser Shinano Maru sighted the Russian fleet and reported it by wireless, and the Combined Fleet sailed from Jinhae Bay, led by the Mikasa, to intercept it near Okinoshima. Japanese cruisers shadowed the Russians from early on 27 May. Rozhestvensky tried to form line abreast, but only three battleships managed it, so he reverted to two columns with his four newest battleships on the right.",
         "evidence": "fact",
         "refs": [
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "The squadron left the Baltic in October 1904 and fired on British trawlers off the Dogger Bank. At Nossi-Bé off Madagascar it learned that Port Arthur had fallen, and off Indochina it waited for reinforcements. On 27 May Tōgō's fleet crossed ahead of it and turned, and the leading Russian battleships were quickly disabled. Night torpedo attacks followed, and on 28 May Rear Admiral Nebogatov surrendered.",
+        "text": "The squadron left the Baltic in October 1904 and fired on British trawlers off the Dogger Bank; Japanese diplomats and their informants followed it through Vigo, Madagascar and the bays of Indochina, from which its departure on 14 May was confirmed. At Nossi-Bé off Madagascar it learned that Port Arthur had fallen, and off Indochina it waited for reinforcements. On 27 May, in fog that a shrine log on Okinoshima says limited visibility to about five nautical miles, Tōgō's fleet crossed ahead of it and turned, and the leading Russian battleships were quickly disabled. Night torpedo attacks followed, and on 28 May Rear Admiral Nebogatov surrendered.",
         "evidence": "fact",
         "refs": [
           {
@@ -4231,6 +4376,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -4259,7 +4410,7 @@
       },
       {
         "title": "Outcome",
-        "text": "Most of the Russian fleet was sunk, captured or interned. Britannica says four ships reached Vladivostok; Butler says three of 38 combatants eventually did. Nebogatov surrendered the ships still with him.",
+        "text": "Most of the Russian fleet was sunk, captured or interned, and Rozhestvensky, wounded, was taken prisoner. Britannica says four ships reached Vladivostok; Butler says three of 38 combatants eventually did, and Okabe names them as the cruiser Almaz and two destroyers. Nebogatov surrendered the ships still with him.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -4267,6 +4418,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 2
           }
         ]
       },
@@ -4295,7 +4449,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Butler argues that most analyses stress material weaknesses and underrate the human friction of the voyage and Rozhestvensky's leadership. The sources differ on details: the battle is dated 27–28 or 27–29 May, the Dogger Bank incident 21 October or the night of 22–23 October, and the ships reaching Vladivostok as three or four.",
+        "text": "Butler argues that most analyses stress material weaknesses and underrate the human friction of the voyage and Rozhestvensky's leadership. The sources differ on details: the battle is dated 27–28 or 27–29 May, the Dogger Bank incident 21 October or the night of 22–23 October, and the ships reaching Vladivostok as three or four. Even the weather is reported differently: Kawano sets the Mikasa's telegram that the weather was fine but the waves high against the fog recorded on Okinoshima.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -4303,12 +4457,15 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Butler draws on Russian participant memoirs and on Westwood, Hough and Pleshakov. Britannica gives a concise summary. No Japanese sources were read. Butler places Vladivostok on Kamchatka, an error not followed here.",
+        "text": "Butler draws on Russian participant memoirs and on Westwood, Hough and Pleshakov. Britannica gives a concise summary. The two Japan Center for Asian Historical Records articles draw on Japanese archives: Foreign Ministry telegrams on tracking the fleet, and the records of the observation network and a shrine log from Okinoshima. Butler places Vladivostok on Kamchatka, an error not followed here.",
         "evidence": "fact",
         "refs": [
           {
@@ -4316,6 +4473,12 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -4358,8 +4521,8 @@
       {
         "name": "Tōgō Heihachirō",
         "objective": "Destroy the Russian fleet before it reached Vladivostok.",
-        "known": "His scouts were tracking the Russian approach.",
-        "uncertainty": "The sources read do not record his assessment.",
+        "known": "Diplomats abroad had tracked the Russian fleet across the world, and on 27 May the Shinano Maru reported it by wireless.",
+        "uncertainty": "Which of three routes the Russians would take to Vladivostok; reports from abroad often arrived days late or contradicted each other.",
         "constraints": "His ships were briefly exposed while turning in succession onto a new course.",
         "forces": "Battleships and armoured cruisers superior in speed and armament.",
         "terrain": "Waiting positions on the Korean coast near Pusan.",

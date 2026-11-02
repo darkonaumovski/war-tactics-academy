@@ -14,7 +14,7 @@ The battle expansion is complete: 127 engagements with studies in six collection
 1. Specialist review of all ten learning paths, especially the five collection courses added in the expansion.
 2. Add deeper quizzes (currently one question per lesson), advanced learning levels and source-criticism exercises; retain feedback rather than performance rankings.
 3. Grow the nine-record media library: verified official video embeds beyond D-Day, more public-domain portraits, maps and primary documents, each with full attribution.
-4. Give each commander profile and war page its own multi-source bibliography; add perspectives for Marathon.
+4. Give each commander profile and war page its own multi-source bibliography.
 
 ## Priority 3 — Product and architecture
 

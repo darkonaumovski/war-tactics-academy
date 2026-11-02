@@ -103,7 +103,7 @@
       },
       {
         "title": "Important command decisions",
-        "text": "Committing to battle involved accepting risk without certainty about Persian intentions. The surviving narrative cannot recover a commander's private reasoning.",
+        "text": "Herodotus describes the ten Athenian generals divided over whether to fight, with Miltiades winning the deciding vote of the polemarch Callimachus; Miltiades then attacked only when his own day of command came round. Committing to battle meant accepting risk without certainty about Persian intentions, and Herodotus reports Miltiades' argument as a speech. The surviving narrative cannot recover a commander's private reasoning.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -160,7 +160,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Persian cavalry activity and exact troop positions are unresolved here. Accounts of Datis's fate conflict; a schematic must not imply certainty.",
+        "text": "Persian cavalry activity and exact troop positions are unresolved here, and Iranica notes that it is unclear whether Datis made the first decisive move. Accounts of Datis's fate conflict; a schematic must not imply certainty.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -207,7 +207,32 @@
         "description": "The defenders return while the Persian fleet sails around the coast."
       }
     ],
-    "perspectives": []
+    "perspectives": [
+      {
+        "name": "Miltiades",
+        "objective": "Defeat the expedition at Marathon before Athens lost heart and before Hippias could be restored.",
+        "known": "Eretria had been betrayed, sacked and its people enslaved; the expedition had landed at Marathon, guided by the exiled tyrant Hippias. Sparta had promised help but would not march before the full moon.",
+        "uncertainty": "Whether the generals and the city would hold together: in the speech Herodotus gives him, he feared that delay would breed strife and lead some Athenians to side with the Persians.",
+        "constraints": "Command shared among ten divided generals, with the polemarch's vote deciding, and an army without cavalry or archers.",
+        "forces": "Athenian infantry arrayed by tribes, with the Plataeans, who had come in full force, on the left wing.",
+        "terrain": "A coastal plain that Herodotus calls the place in Attica best suited to horses, with the Persian ships drawn up by the shore.",
+        "logistics": "The army had marched out from the city and camped in the precinct of Heracles, within a march of Athens.",
+        "decision": "As Herodotus tells it, he won over Callimachus to fight, and when his day of command came he arrayed the army with strong wings and a thin centre, its line as long as the Persian line, and attacked at a run.",
+        "outcome": "The wings prevailed and turned on the Persians who had broken the centre; seven ships were taken, and the army marched back in time to defend the city. Callimachus was killed."
+      },
+      {
+        "name": "Datis",
+        "objective": "Carry out Darius's order to subdue Athens and Eretria and bring their people to the king as slaves.",
+        "known": "Eretria had fallen, and Hippias, the exiled Athenian tyrant, was with the expedition and guided it to Marathon.",
+        "uncertainty": "Whether the Athenians would come out and fight; Iranica notes that it is unclear whether Datis made the first decisive move.",
+        "constraints": "An amphibious force tied to its ships, far from the empire, with command shared with Artaphernes, though Iranica judges Datis the actual commander.",
+        "forces": "A large army carried by sea from Cilicia, with horses in transports, and Persians and Sacae in the centre of the line.",
+        "terrain": "The plain of Marathon, chosen as the place in Attica best suited to horses and closest to Eretria.",
+        "logistics": "A fleet and horse transports assembled in Cilicia; the Eretrian captives were left on the island of Aegilia.",
+        "decision": "He landed at Marathon on Hippias's guidance; after the defeat he re-embarked, collected the Eretrian captives and sailed round Sunium to reach Athens before its army.",
+        "outcome": "The Athenians reached the city first, and after lying at anchor off Phalerum the fleet sailed back to Asia, having achieved nothing on the Greek mainland."
+      }
+    ]
   },
   {
     "slug": "hastings",

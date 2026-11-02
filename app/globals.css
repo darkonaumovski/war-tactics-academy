@@ -3987,7 +3987,9 @@ progress::-moz-progress-bar {
   animation: loading 1s alternate infinite;
 }
 input:disabled,
-select:disabled {
+select:disabled,
+.mobile-header button:disabled,
+.theme-button:disabled {
   cursor: wait;
   opacity: 0.65;
 }

@@ -22,6 +22,7 @@ import {
   Bookmark,
 } from "lucide-react";
 import { readProgress, writeProgress } from "../lib/persistence";
+import { useHydrated } from "../lib/use-hydrated";
 const nav = [
   ["/", "Overview", Home],
   ["/battles", "Battle Atlas", Swords],
@@ -45,6 +46,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
   const path = usePathname();
   const [open, setOpen] = useState(false);
   const [light, setLight] = useState(false);
+  const ready = useHydrated();
   useEffect(() => {
     const light = readProgress().theme === "light";
     setLight(light);
@@ -70,6 +72,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
           aria-label={open ? "Close navigation" : "Open navigation"}
           aria-expanded={open}
           aria-controls="main-navigation"
+          disabled={!ready}
           onClick={() => setOpen(!open)}
         >
           {open ? <X /> : <Menu />}
@@ -130,7 +133,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
               Our methodology <ArrowUpRight size={14} />
             </Link>
           </div>
-          <button className="theme-button" onClick={theme}>
+          <button className="theme-button" disabled={!ready} onClick={theme}>
             {light ? <Moon size={16} /> : <Sun size={16} />}{" "}
             {light ? "Dark reading mode" : "Light reading mode"}
           </button>

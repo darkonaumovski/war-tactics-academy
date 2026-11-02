@@ -1033,6 +1033,11 @@
         "title": "Battle of Kursk",
         "url": "https://www.britannica.com/event/Battle-of-Kursk",
         "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "The Battle of Kursk, ed. Ivan Parotkin, trans. G. P. Ivanov-Mumjiev (Moscow, 1974)",
+        "url": "https://archive.org/details/the-battle-of-kursk-progres-1974",
+        "publisher": "Progress Publishers (Internet Archive)"
       }
     ],
     "sections": [
@@ -1067,7 +1072,7 @@
       },
       {
         "title": "Campaign objectives",
-        "text": "The Germans aimed to attack the salient from north and south. The Soviet high command (Stavka) expected the attack and planned to absorb it in deep defences before launching powerful counteroffensives.",
+        "text": "The Germans aimed to attack the salient from north and south. The Soviet high command (Stavka) expected the attack and planned to absorb it in deep defences before launching powerful counteroffensives. In the accounts of the two Soviet planners, Zhukov proposed this course in a report to Stalin on 8 April 1943: to wear down the enemy in defence, knock out his tanks, then bring in fresh reserves and finish him off. Vasilevsky writes that Stalin at first gave no view and consulted the front commanders; a conference on 12 April adopted a preliminary decision for deliberate defence, made final at the end of May and the beginning of June.",
         "evidence": "fact",
         "refs": [
           {
@@ -1075,6 +1080,14 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4,
+            "locator": "Zhukov, “In the Kursk Bulge”"
+          },
+          {
+            "source": 4,
+            "locator": "Vasilevsky, “Strategic Planning of the Battle of Kursk”"
           }
         ]
       },
@@ -1093,7 +1106,7 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Both sides concentrated vast forces, with the Soviets holding a clear numerical advantage and a reserve front behind the salient. Model's Ninth Army attacked from the north and Hoth's Fourth Panzer Army from the south, under Manstein's command in the south. Totals differ substantially between the sources.",
+        "text": "Both sides concentrated vast forces, with the Soviets holding a clear numerical advantage and a reserve front behind the salient: the Steppe Front under Konev, which Zhukov describes as the high command's strategic reserve, meant to stop any deep breakthrough and then add weight to the counteroffensive. Zhukov coordinated the fronts in the north and Vasilevsky those in the south. Model's Ninth Army attacked from the north and Hoth's Fourth Panzer Army from the south, under Manstein's command in the south. Totals differ substantially between the sources.",
         "evidence": "fact",
         "refs": [
           {
@@ -1104,22 +1117,30 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4,
+            "locator": "Zhukov, “In the Kursk Bulge”"
           }
         ]
       },
       {
         "title": "Initial deployment",
-        "text": "Soviet forces built up to six belts of fortifications. Good intelligence, possibly including Enigma intercepts passed on by the British, helped them anticipate the attack.",
+        "text": "Soviet forces built up to six belts of fortifications, which Zhukov says reached more than 150 kilometres in depth. Good intelligence, possibly including Enigma intercepts passed on by the British, helped them anticipate the attack: on 2 July the high command warned the fronts that it would come between 3 and 6 July.",
         "evidence": "fact",
         "refs": [
           {
             "source": 1
+          },
+          {
+            "source": 4,
+            "locator": "Zhukov, “In the Kursk Bulge”"
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "The German attack began on 5 July. It stalled in the north with slight gains and culminated in the south near Prokhorovka on 11–12 July. A Soviet counteroffensive toward Orel began on 12 July and retook the city on 5 August, a second in the south followed from 3 August, and the campaign ended with the capture of Kharkov on 23 August.",
+        "text": "In the small hours of 5 July, after a captured German sapper said the attack would begin at about three o'clock, the Central Front opened a pre-emptive counter-barrage on Zhukov's advice. The German attack began that morning. It stalled in the north with slight gains and culminated in the south near Prokhorovka on 11–12 July. A Soviet counteroffensive toward Orel, code-named Kutuzov, began on 12 July and retook the city on 5 August, a second in the south followed from 3 August, and the campaign ended with the capture of Kharkov on 23 August.",
         "evidence": "fact",
         "refs": [
           {
@@ -1130,6 +1151,14 @@
           },
           {
             "source": 3
+          },
+          {
+            "source": 4,
+            "locator": "Zhukov, “In the Kursk Bulge”"
+          },
+          {
+            "source": 4,
+            "locator": "Vasilevsky, “Strategic Planning of the Battle of Kursk”"
           }
         ]
       },
@@ -1151,7 +1180,7 @@
       },
       {
         "title": "Decisive turning points",
-        "text": "Defences in depth absorbed the German attack before it broke into open country, leaving the attackers worn down when the Soviet counteroffensives began. LeMO describes a battle of attrition that used up Germany's last reserves.",
+        "text": "Defences in depth absorbed the German attack before it broke into open country, leaving the attackers worn down when the Soviet counteroffensives began. LeMO describes a battle of attrition that used up Germany's last reserves. Zhukov adds that the stronger German grouping struck the Voronezh Front in the south, not the Central Front where the main blow had been expected, which he says explains why the Central Front held more easily.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -1159,6 +1188,10 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4,
+            "locator": "Zhukov, “In the Kursk Bulge”"
           }
         ]
       },
@@ -1206,7 +1239,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Western accounts long relied on German sources, and Menning writes that the full intelligence story \"remains to be told\". The figures for forces and losses cited by the museum, from David Glantz and Karl-Heinz Frieser, differ widely from Menning's. The label \"largest tank battle in history\" depends on how the fighting is counted; Britannica applies it to the whole battle. Even the depth of the German advance is given as about 10 and 30 kilometres in the north and south by LeMO, and 10 and 30 miles by Britannica. LeMO argues that the Soviet losses weighed far less on the rest of the war than the German.",
+        "text": "Western accounts long relied on German sources, and Menning writes that the full intelligence story \"remains to be told\". The Soviet commanders' accounts, published in Moscow in 1974, credit Soviet reconnaissance, partisans and prisoners and do not mention British intercepts; Vasilevsky presents the battle as the point at which the Wehrmacht's backbone was broken, in the language of the time. The figures for forces and losses cited by the museum, from David Glantz and Karl-Heinz Frieser, differ widely from Menning's. The label \"largest tank battle in history\" depends on how the fighting is counted; Britannica applies it to the whole battle. Even the depth of the German advance is given as about 10 and 30 kilometres in the north and south by LeMO, 10–12 and up to 35 kilometres by Vasilevsky, and 10 and 30 miles by Britannica. LeMO argues that the Soviet losses weighed far less on the rest of the war than the German.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -1220,12 +1253,20 @@
           },
           {
             "source": 3
+          },
+          {
+            "source": 4,
+            "locator": "Zhukov, “In the Kursk Bulge”"
+          },
+          {
+            "source": 4,
+            "locator": "Vasilevsky, “Strategic Planning of the Battle of Kursk”"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Menning's encyclopedia entry gives the operational narrative and historiography. The National WWII Museum article sets out the battle's scale and the Soviet counteroffensive. LeMO, the German Historical Museum's online history, gives a short German account, and Britannica a summary; their force and loss figures are not used. No Soviet-side source was read.",
+        "text": "Menning's encyclopedia entry gives the operational narrative and historiography. The National WWII Museum article sets out the battle's scale and the Soviet counteroffensive. LeMO, the German Historical Museum's online history, gives a short German account, and Britannica a summary; their force and loss figures are not used. The Soviet side comes from the chapters by Zhukov and Vasilevsky in The Battle of Kursk, a collection of Soviet participants' accounts published in English by Progress Publishers in 1974; their figures are not used.",
         "evidence": "fact",
         "refs": [
           {
@@ -1239,6 +1280,9 @@
           },
           {
             "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -1281,13 +1325,13 @@
       {
         "name": "Stavka (Soviet high command)",
         "objective": "Absorb the expected German attack, then launch decisive counteroffensives.",
-        "known": "Intelligence indicated a German attack on the salient, possibly aided by Enigma intercepts passed by the British.",
-        "uncertainty": "When the attack would begin, since Hitler delayed it until July.",
+        "known": "Intelligence, prisoners and partisans indicated a German attack on the salient, possibly aided by Enigma intercepts passed by the British; on 2 July it warned the fronts to expect it within days.",
+        "uncertainty": "When the attack would begin: Vasilevsky writes that Hitler postponed it three times.",
         "constraints": "The need to hold the salient long enough to wear down German armour before committing reserves.",
         "forces": "Several fronts with a numerical advantage and a reserve front behind the salient.",
         "terrain": "Up to six belts of field fortifications across the salient.",
         "logistics": "Reserves and fresh forces were assembled for counteroffensives in the north and south.",
-        "decision": "It defended first, then attacked toward Orel from 12 July and toward Kharkov from 3 August.",
+        "decision": "On Zhukov's and Vasilevsky's advice it chose to defend first, provisionally on 12 April and finally by early June, then attacked toward Orel from 12 July and toward Kharkov from 3 August.",
         "outcome": "The German offensive failed, and the strategic initiative passed permanently to the Soviet side."
       }
     ]
@@ -6071,6 +6115,16 @@
         "title": "Klaus Sommer: Erlebtes beim Endkampf um Berlin April/Mai 1945 (eyewitness account, in German)",
         "url": "https://www.dhm.de/lemo/zeitzeugen/klaus-sommer-erlebtes-beim-endkampf-um-berlin-aprilmai-1945",
         "publisher": "LeMO Zeitzeugen, Deutsches Historisches Museum"
+      },
+      {
+        "title": "Reminiscences and Reflections, vol. 2 (Moscow, 1985)",
+        "url": "https://archive.org/details/marshal-of-the-soviet-union-g.-zhukov-reminiscences-and-reflections-vol.-2-progress-1985",
+        "publisher": "Progress Publishers (Georgy Zhukov; Internet Archive)"
+      },
+      {
+        "title": "The Year of Victory (Moscow, 1984)",
+        "url": "https://archive.org/details/i.-konev-the-year-of-victory-progress-1984",
+        "publisher": "Progress Publishers (Ivan Konev; Internet Archive)"
       }
     ],
     "sections": [
@@ -6102,7 +6156,7 @@
       },
       {
         "title": "Campaign objectives",
-        "text": "The Soviet aim was to take Berlin and end the war. The main thrust was divided between Marshal Georgy Zhukov's 1st Belorussian Front and Marshal Ivan Konev's 1st Ukrainian Front, in what became a race for the city. The Germans aimed only to prolong the war.",
+        "text": "The Soviet aim was to take Berlin and end the war. The main thrust was divided between Marshal Georgy Zhukov's 1st Belorussian Front and Marshal Ivan Konev's 1st Ukrainian Front, in what became a race for the city. The high command's directive gave Berlin to Zhukov's front, but both marshals recall Stalin cutting short the boundary between the fronts at Lübben, south-east of the city; Zhukov writes that Stalin told Konev to be ready to strike at Berlin from the south if Zhukov was held up. The Germans aimed only to prolong the war.",
         "evidence": "fact",
         "refs": [
           {
@@ -6110,6 +6164,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
           }
         ]
       },
@@ -6147,17 +6207,23 @@
       },
       {
         "title": "Initial deployment",
-        "text": "German intelligence had detected the Soviet build-up, but Hitler refused to believe the reports. The Germans withdrew their defenders from the first line of trenches at the Seelow Heights just before the Soviet barrage.",
+        "text": "German intelligence had detected the Soviet build-up, but Hitler refused to believe the reports. The Germans withdrew their defenders from the first line of trenches at the Seelow Heights just before the Soviet barrage; Zhukov writes that reconnaissance in force on 14 and 15 April had led them to bring reserves up to their second positions. To the south, Konev chose a long barrage in darkness, without searchlights, to hide his crossing of the Neisse.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "On 16 April Zhukov's front attacked at the Seelow Heights. The barrage fell on empty trenches, and searchlights meant to blind the defenders silhouetted the attackers; Zhukov sent in his tanks before a breakthrough had been made, and they struggled on churned ground. Konev's attack further south succeeded, and on the fourth day the German line at Seelow broke. On 20 April Rokossovsky joined the attack and Soviet shells began to fall on the city. Hitler forbade retreat and ordered attacks by units that scarcely existed. By 25 April Berlin was encircled by Konev's and Zhukov's fronts. The Red Army fought through the city house by house, demolishing buildings that held defenders. Hitler killed himself on 30 April, after learning that the last relief attempt, by Wenck's Twelfth Army, had been broken off near Potsdam; that day a Soviet banner flew on the Reichstag, which French volunteers of the Waffen-SS had helped defend. On 2 May the garrison surrendered; Germany capitulated at Reims on 7 May and in Berlin-Karlshorst the next day.",
+        "text": "On 16 April Zhukov's front attacked at the Seelow Heights. The barrage fell on empty trenches, and searchlights meant to blind the defenders silhouetted the attackers; Zhukov sent in his tanks before a breakthrough had been made, and they struggled on churned ground. Konev's attack further south succeeded, and on the night of 17 April his tank armies were turned north toward Berlin. Zhukov's troops took the heights on the morning of 18 April, and on the fourth day the German line at Seelow broke. On 20 April Rokossovsky joined the attack and Soviet shells began to fall on the city. Hitler forbade retreat and ordered attacks by units that scarcely existed. By 25 April Berlin was encircled by Konev's and Zhukov's fronts. The Red Army fought through the city house by house, demolishing buildings that held defenders. Hitler killed himself on 30 April, after learning that the last relief attempt, by Wenck's Twelfth Army, had been broken off near Potsdam; that day a Soviet banner flew on the Reichstag, which French volunteers of the Waffen-SS had helped defend. On 2 May the garrison surrendered; Germany capitulated at Reims on 7 May and in Berlin-Karlshorst the next day.",
         "evidence": "fact",
         "refs": [
           {
@@ -6168,12 +6234,18 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Stalin's decision to split the attack between Zhukov and Konev manufactured a race for Berlin; he taunted Zhukov with giving the city to Konev, and later gave Zhukov the honour of taking the Reichstag. Britannica writes that both marshals were willing to accept enormous casualties and inflict colossal damage, and that Stalin's fixation on the symbolic Reichstag cost many Soviet lives. Zhukov's decision to send in his tanks before a breakthrough added to his losses. Hitler's refusal to allow retreat let the German Ninth Army be encircled.",
+        "text": "Stalin's decision to split the attack between Zhukov and Konev manufactured a race for Berlin; he taunted Zhukov with giving the city to Konev, and later gave Zhukov the honour of taking the Reichstag. Britannica writes that both marshals were willing to accept enormous casualties and inflict colossal damage, and that Stalin's fixation on the symbolic Reichstag cost many Soviet lives. Zhukov's decision to send in his tanks before a breakthrough added to his losses. In his own account, he had planned the night attack with searchlights and meant to hold his tank armies back until the heights fell, but at about 13:00 on 16 April, seeing the defence largely intact, he committed both; that evening Stalin told him he should not have committed the 1st Guards Tank Army there and ordered Konev's tank armies toward Berlin. Hitler's refusal to allow retreat let the German Ninth Army be encircled.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -6181,6 +6253,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
           }
         ]
       },
@@ -6238,7 +6316,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The sources date the battle from 16 April (the IWM and LeMO, counting the Seelow Heights) or from 20 April (Britannica, counting the fighting for the city). They give different figures for the forces and for military and civilian losses, which the IWM notes are almost impossible to calculate for civilians. The IWM discusses why German soldiers fought to the end; Klaus Sommer's account, set down after the war, shows defenders clinging to official promises of relief armies until the last day, and those who tried to avoid the fighting treated as traitors. Britannica stresses the cost of Stalin's fixation on the Reichstag. No Soviet-side source was read.",
+        "text": "The sources date the battle from 16 April (the IWM and LeMO, counting the Seelow Heights) or from 20 April (Britannica, counting the fighting for the city). They give different figures for the forces and for military and civilian losses, which the IWM notes are almost impossible to calculate for civilians. The IWM discusses why German soldiers fought to the end; Klaus Sommer's account, set down after the war, shows defenders clinging to official promises of relief armies until the last day, and those who tried to avoid the fighting treated as traitors. Britannica stresses the cost of Stalin's fixation on the Reichstag. The two marshals' memoirs, written as rivals long after the event, defend their own conduct: Zhukov admits only a \"slip\", an underestimate of the Seelow terrain, and insists that Konev's tank armies were turned on Berlin by the high command, not on Konev's initiative; Konev concedes that Stalin's unfinished boundary may have been meant to set the fronts competing, and admits his own wish to take the city. They place Lübben 60 and 80 kilometres from Berlin. Zhukov also writes that Rokossovsky's main forces could attack only from 24 April.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -6252,12 +6330,18 @@
           },
           {
             "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Robert Rumble's account for the Imperial War Museums gives the Vistula–Oder offensive, Stalin's decisions, the Seelow Heights, the encirclement, the street fighting, the violence against civilians and the end of the war. John Swift's Britannica article gives the forces, the race between Zhukov and Konev, the urban fighting, the suffering of civilians and the surrender. LeMO, the German Historical Museum's online history, gives the German side of the battle, and its eyewitness series the account of Klaus Sommer, born in 1927, who fought in the city as a young soldier in his father's sector; the opinions in it are his own. Their force figures are not used.",
+        "text": "Robert Rumble's account for the Imperial War Museums gives the Vistula–Oder offensive, Stalin's decisions, the Seelow Heights, the encirclement, the street fighting, the violence against civilians and the end of the war. John Swift's Britannica article gives the forces, the race between Zhukov and Konev, the urban fighting, the suffering of civilians and the surrender. LeMO, the German Historical Museum's online history, gives the German side of the battle, and its eyewitness series the account of Klaus Sommer, born in 1927, who fought in the city as a young soldier in his father's sector; the opinions in it are his own. The Soviet side comes from the memoirs of the two front commanders, Zhukov and Konev, in the English editions published in Moscow. Their force figures are not used.",
         "evidence": "fact",
         "refs": [
           {
@@ -6271,6 +6355,12 @@
           },
           {
             "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
           }
         ]
       }
@@ -6302,9 +6392,9 @@
         "name": "Georgy Zhukov",
         "objective": "Take Berlin with the 1st Belorussian Front.",
         "known": "The Seelow Heights were the last fortified line before the city.",
-        "uncertainty": "How long the Germans could hold Seelow.",
-        "constraints": "Stalin's pressure and the rivalry with Konev's front.",
-        "decision": "He attacked frontally at Seelow and sent in his tanks before a breakthrough, then fought into the city and took the Reichstag.",
+        "uncertainty": "How long the Germans could hold Seelow; he writes that he and his staff doubted beforehand that the heights could be broken quickly.",
+        "constraints": "Stalin's pressure and the rivalry with Konev's front; Stalin reproached him for committing a tank army where the directive had not provided for it.",
+        "decision": "He attacked at night under searchlights, committed both tank armies at midday on 16 April before a breakthrough, took the heights on 18 April, then fought into the city and took the Reichstag.",
         "forces": "The 1st Belorussian Front.",
         "terrain": "The Seelow Heights, swampy ground and the ruined streets of Berlin.",
         "logistics": "A massive concentration of artillery and armour on the Oder.",
@@ -6333,6 +6423,18 @@
         "terrain": "The Reich Chancellery and the ruined city.",
         "logistics": "Units without men or fuel.",
         "outcome": "He killed himself on 30 April; the garrison surrendered on 2 May."
+      },
+      {
+        "name": "Ivan Konev",
+        "objective": "Break through on the Neisse and, if the chance came, strike at Berlin from the south.",
+        "known": "Stalin had cut short the boundary with Zhukov's front at Lübben, leaving room for an attack on the city from the south.",
+        "uncertainty": "Whether his front would be allowed to turn on Berlin, since the directive assigned the city to Zhukov.",
+        "constraints": "A river to force under fire, and a boundary with Zhukov's front that Stalin could redraw at any time.",
+        "forces": "The 1st Ukrainian Front, with Rybalko's and Lelyushenko's tank armies.",
+        "terrain": "The Neisse, then open country and the southern approaches to Berlin.",
+        "logistics": "A long night barrage and the darkness itself to cover the crossing of the Neisse.",
+        "decision": "He crossed the Neisse without searchlights and, on the night of 17 April, turned his tank armies north toward Berlin.",
+        "outcome": "His tank armies fought into Berlin from the south; when the boundary between the fronts was fixed, the centre of the city fell to Zhukov's zone and Konev turned Rybalko's corps west."
       }
     ]
   }

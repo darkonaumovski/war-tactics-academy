@@ -21,6 +21,20 @@ Findings and fixes:
 - Battle cards, the atlas selection card and the replay's phase title were `<h3>` headings directly after the page's `<h1>`. The catalog grid now has a visually hidden “Engagements” heading, and the other two are `<h2>`, styled as before.
 - Still open: the battle catalog spends about 6.5 s of main-thread time on a simulated phone rendering 127 cards and carries its full catalog data. GitHub Pages' 10-minute cache lifetime cannot be changed from the site.
 
+After the fixes were deployed (commit `4da3776`), the same audits were run again. A first repeat ran while the computer was busy (Lighthouse's CPU benchmark averaged 921, against 1895 for the baseline) and is not used; the second averaged 1825 and is comparable.
+
+| Page                | Mobile performance | Desktop performance | Accessibility | Best practices | Page weight (mobile) |
+| ------------------- | -----------------: | ------------------: | ------------: | -------------: | -------------------: |
+| Home                |            56 → 52 |             98 → 97 |     100 → 100 |       96 → 100 |       2,244 → 844 KB |
+| Battle catalog      |            38 → 39 |             89 → 88 |      98 → 100 |       96 → 100 |     2,486 → 1,041 KB |
+| Waterloo study      |            67 → 87 |            100 → 99 |      98 → 100 |       96 → 100 |       1,903 → 458 KB |
+| Atlas               |            60 → 56 |             99 → 98 |      98 → 100 |       96 → 100 |       2,323 → 913 KB |
+| Napoleon profile    |            88 → 91 |           100 → 100 |     100 → 100 |       96 → 100 |       1,853 → 412 KB |
+| Napoleon collection |            88 → 93 |           100 → 100 |     100 → 100 |       96 → 100 |       1,919 → 475 KB |
+| Academy             |            89 → 93 |           100 → 100 |     100 → 100 |       96 → 100 |       1,831 → 343 KB |
+
+Page weight fell by 58–81% on every page, and accessibility and best practices reached 100 everywhere. The Waterloo study's largest element now renders at 3.5 s on a simulated phone, against 10.8 s. The home page, the atlas and the battle catalog are unchanged within the variation between runs: their mobile cost comes from their own data and rendering (the atlas and its preview on the home page, and the catalog's 127 cards), not from prefetching, and is the next performance work.
+
 ## Final pass of the battle expansion (31 October 2026)
 
 Date: 31 October 2026 (Europe/Warsaw). Environment: Windows, Node 24.20.0. This record covers the final pass (Stage G) after the battle expansion: 127 engagements and studies, 106 commanders, 33 wars, 79 campaigns, six collections, ten courses and fifteen exercises.

@@ -1,6 +1,6 @@
 # Product roadmap
 
-The battle expansion is complete: 127 engagements with studies in six collections (Alexander, Rome, Napoleon, the First World War, the Serbian Front and the Second World War), 106 commander profiles, ten courses and fifteen decision exercises, with a readable atlas, collection pages, shareable catalog filters, campaign route maps, commander career strips and search by war, campaign and commander. The priorities below follow from it.
+The battle expansion is complete: 127 engagements with studies in six collections (Alexander, Rome, Napoleon, the First World War, the Serbian Front and the Second World War), 106 commander profiles, ten courses and nineteen decision exercises, with a readable atlas, collection pages, shareable catalog filters, campaign route maps, commander career strips and search by war, campaign and commander. The priorities below follow from it.
 
 ## Priority 1 — Editorial depth and evidence
 
@@ -12,7 +12,7 @@ The battle expansion is complete: 127 engagements with studies in six collection
 ## Priority 2 — Curriculum and media
 
 1. Specialist review of all ten learning paths, especially the five collection courses added in the expansion.
-2. Add deeper quizzes (currently one question per lesson), advanced learning levels and source-criticism exercises; retain feedback rather than performance rankings. Candidate exercises not yet built include Teutoburg, Borodino, the Marne in 1914 and Market Garden.
+2. Add deeper quizzes (currently one question per lesson), advanced learning levels and source-criticism exercises; retain feedback rather than performance rankings.
 3. Grow the nine-record media library: verified official video embeds beyond D-Day, more public-domain portraits, maps and primary documents, each with full attribution.
 4. Give each commander profile and war page its own multi-source bibliography; add perspectives for Marathon.
 

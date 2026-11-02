@@ -782,4 +782,140 @@ export const scenarios: Scenario[] = [
       },
     ],
   },
+  {
+    slug: "believe-the-report",
+    title: "Believe the report?",
+    battleSlug: "teutoburg",
+    commander: "Publius Quinctilius Varus",
+    situation:
+      "9 CE, in Germania between the Lower Rhine and the Lower Elbe, which you govern for Augustus with the aim of making it a regular province. Arminius, a Cheruscan noble with Roman equestrian rank and one of your trusted companions, reports a rising among distant peoples.",
+    known:
+      "Segestes warns you that Arminius is plotting against you. Your troops have been dispersed among the communities, and your army marches with a heavy train of wagons, animals and families. Your demands for tribute have been resented.",
+    unknown:
+      "Whether the report or the warning is true, and what the country on the way to the reported rising holds.",
+    historical:
+      "Varus refused to believe the warning and marched the army, with its baggage, toward the reported rising. The conspirators killed the Roman detachments in their communities and attacked the column on the march; at Kalkriese, between hill and bog, it could not form ranks and was cut in two. In Dio's account, on the fourth day Varus killed himself, and the three legions were destroyed.",
+    options: [
+      {
+        text: "Hold Arminius and the other leaders while the report is tested, and keep the army near its bases.",
+        feedback:
+          "This would have taken the warning seriously, which, according to Velleius and Dio, Varus did not. Whether holding the leaders would have stopped a rising or provoked one cannot be known. An interpretive alternative.",
+        historical: false,
+      },
+      {
+        text: "March at once toward the reported rising with the whole army, as the column stands.",
+        feedback:
+          "This matches the historical decision as the sources tell it: Varus ignored the warning and marched a baggage-laden column into hostile country on Arminius's report. Unable to fight in formation in the narrows, the army was destroyed.",
+        historical: true,
+      },
+      {
+        text: "Send a light force to investigate while the main army returns to the Rhine.",
+        feedback:
+          "A smaller force would risk less of the army, but could itself be ambushed, and the main column would still have to cross the same country. It is not a documented plan.",
+        historical: false,
+      },
+    ],
+  },
+  {
+    slug: "commit-the-guard",
+    title: "Commit the Guard?",
+    battleSlug: "borodino",
+    commander: "Napoleon Bonaparte",
+    situation:
+      "7 September 1812, at Borodino on the road to Moscow. Since dawn your troops have attacked the Russian fortifications head-on. Ney holds the flèches, but the central redoubt has been taken and lost again, and the Russian line has not broken. Your marshals urge you to send in the Imperial Guard.",
+    known:
+      "You rejected Davout's plan for a wide flanking march. Murat, Davout and Ney want the Guard committed; Berthier, Duroc and Bessières are against it. Your army is worn down by long marches and supply failures, far from its bases, and you still need the decisive victory that might bring Alexander to terms.",
+    unknown:
+      "Whether Kutuzov has reserves left. Far from the smoke-covered field, you cannot be sure how the battle stands.",
+    historical:
+      "Napoleon refused to commit the Guard. By afternoon both armies were exhausted and the battle subsided into a cannonade. Kutuzov, who had committed every available man, withdrew in the night with his army badly mauled but intact, and at a council on 13 September decided to give up Moscow to save it.",
+    options: [
+      {
+        text: "Keep the Guard in reserve.",
+        feedback:
+          "This matches the historical decision. The Guard stayed intact, far from home, but the Russian army survived. Britannica judges that the refusal forfeited the chance of a decisive rather than a narrow victory; the Fondation Napoléon notes that historians still debate what committing the Guard would have achieved.",
+        historical: true,
+      },
+      {
+        text: "Send the Guard against the Russian centre.",
+        feedback:
+          "Murat, Davout and Ney urged this, and Britannica's judgment, that Kutuzov had nothing left in reserve, suggests it might have turned a narrow victory into a decisive one. What it would have cost and achieved remains debated. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Send fresh troops on a flanking march round the Russian left.",
+        feedback:
+          "Davout had proposed a wide flanking march before the battle, and Napoleon judged it too risky. In mid-battle, with the army exhausted, it would have been harder still. It is not a documented plan.",
+        historical: false,
+      },
+    ],
+  },
+  {
+    slug: "turn-and-attack",
+    title: "Turn and attack?",
+    battleSlug: "marne-1914",
+    commander: "Joseph Joffre",
+    situation:
+      "4 September 1914. Your armies and the British have fallen back for weeks from the frontiers toward the Marne, and the government has left Paris. Gallieni, the capital's military governor, reports that Kluck's First Army has wheeled inward east of Paris, carrying its flank across the face of the Paris defences, and proposes to strike it with Maunoury's new Sixth Army.",
+    known:
+      "Kluck's flank is exposed, and the Sixth Army is forming near Paris. Plan XVII has failed, but you have moved troops by rail to your left. The British Expeditionary Force is a partner you can persuade but not command.",
+    unknown:
+      "Whether the British will join an attack, and whether armies that have retreated for weeks can turn and fight.",
+    historical:
+      "Joffre approved Gallieni's proposal and ordered the whole left wing to turn and attack on 6 September, telling units that could not advance to hold their ground; on the 5th he persuaded Sir John French to take part. Kluck drew his army west against Maunoury, opening a gap between the German First and Second Armies, and on 9 September the German right wing began to retreat.",
+    options: [
+      {
+        text: "Continue the retreat to gain time and rebuild the armies.",
+        feedback:
+          "Further retreat would have spared the armies another battle for now, but given up more ground and left Paris to its defenders. It is not what Joffre decided. An interpretive alternative.",
+        historical: false,
+      },
+      {
+        text: "Let the Sixth Army strike from Paris alone while the other armies hold.",
+        feedback:
+          "A local blow would risk less, but Kluck could turn his whole army on it, as he did against Maunoury, without a general offensive to exploit the gap that opened. It is not a documented plan.",
+        historical: false,
+      },
+      {
+        text: "Order the whole left wing to turn and attack, with the Sixth Army striking Kluck's flank.",
+        feedback:
+          "This matches the historical decision. It ended German hopes of a quick victory in the west, though the Allies could not exploit the gap fast enough to destroy the German armies. Who first saw the opportunity, Gallieni or Joffre, is disputed.",
+        historical: true,
+      },
+    ],
+  },
+  {
+    slug: "how-far-from-the-bridge",
+    title: "How far from the bridge?",
+    battleSlug: "market-garden",
+    commander: "The Allied airborne planners",
+    situation:
+      "September 1944. Montgomery has persuaded Eisenhower to back one bold stroke through the Netherlands: airborne divisions will seize the bridges on the road to Arnhem while XXX Corps drives up a single road to relieve them. The British 1st Airborne Division must take the bridge over the Rhine at Arnhem.",
+    known:
+      "There are too few transport aircraft to fly all the airborne troops in at once, so they must land in lifts, one a day. Intelligence describes the area as lightly defended. Relief is expected within two days.",
+    unknown:
+      "How strong the German forces near Arnhem are and where their armour is.",
+    historical:
+      "The planners accepted landing zones about 10 kilometres west of the bridge, a lift spread over three days and an intelligence picture of a lightly defended area. Only one battalion reached the bridge, and it was overrun before XXX Corps could arrive; the rest of the division was pressed into a pocket at Oosterbeek, and its survivors were ferried back across the Rhine.",
+    options: [
+      {
+        text: "Land as close to the bridge as possible to seize it in strength on the first day.",
+        feedback:
+          "Taking the bridge in strength on the first day was what the operation needed, and its failure decided the outcome; but the sources read do not say what landing nearer the bridge would have risked. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Land about 10 kilometres west of the bridge, with the division arriving over three days.",
+        feedback:
+          "This matches the plan the planners accepted. The landings succeeded, but most battalions never reached the bridge. Britannica calls the operation a failure of military intelligence redeemed to some extent by the soldiers' heroism.",
+        historical: true,
+      },
+      {
+        text: "Postpone the operation until the whole division can land in a single lift.",
+        feedback:
+          "Waiting would avoid spreading the division over three days, but would give up the speed on which Montgomery's case for one bold stroke rested. The sources read do not discuss it. An interpretive alternative.",
+        historical: false,
+      },
+    ],
+  },
 ];

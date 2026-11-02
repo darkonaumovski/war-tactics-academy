@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { IntentLink } from "../intent-link";
 import { Reveal } from "../motion";
 import {
   ArrowRight,
@@ -54,9 +55,9 @@ export function HomePage({ c }: { c: Catalog }) {
             Discover what changed the world.
           </p>
           <div className="hero-actions">
-            <Link href="/battles" className="button">
+            <IntentLink href="/battles" className="button">
               Explore Battles <ArrowRight size={16} />
-            </Link>
+            </IntentLink>
             <Link href="/academy" className="button secondary">
               Enter the Academy
             </Link>
@@ -170,12 +171,12 @@ export function HomePage({ c }: { c: Catalog }) {
         <SectionTitle number="04" title="Across the ages" />
         <Reveal className="era-strip">
           {eras.map((e, i) => (
-            <Link href={`/battles?era=${e.id}`} key={e.id}>
+            <IntentLink href={`/battles?era=${e.id}`} key={e.id}>
               <span className="era-number">0{i + 1}</span>
               <h3>{e.name}</h3>
               <span>{e.period}</span>
               <ArrowUpRight size={16} />
-            </Link>
+            </IntentLink>
           ))}
         </Reveal>
         <Reveal className="learning-feature">

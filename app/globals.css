@@ -1646,7 +1646,8 @@ footer > div {
   color: var(--muted);
   margin: 18px 0 8px;
 }
-.phase-info h3 {
+.phase-info h2 {
+  letter-spacing: normal;
   font-size: 27px;
   margin-bottom: 16px;
 }
@@ -1787,7 +1788,8 @@ footer > div {
   max-width: 80%;
   color: #f1ebdf;
 }
-.atlas-selection h3 {
+.atlas-selection h2 {
+  letter-spacing: normal;
   font-size: 28px;
   margin: 8px 0;
 }
@@ -2970,7 +2972,7 @@ progress::-moz-progress-bar {
   .phase-info {
     padding: 20px 17px;
   }
-  .phase-info h3 {
+  .phase-info h2 {
     font-size: 24px;
   }
   .schematic {
@@ -3144,7 +3146,7 @@ progress::-moz-progress-bar {
     border-left: 0;
     border-top: 1px solid var(--line);
   }
-  .phase-info h3 {
+  .phase-info h2 {
     font-size: 28px;
   }
   .phase-time {
@@ -3159,7 +3161,7 @@ progress::-moz-progress-bar {
   .atlas-selection {
     min-width: 180px;
   }
-  .atlas-preview .atlas-selection h3 {
+  .atlas-preview .atlas-selection h2 {
     font-size: 23px;
   }
   .atlas-list > div {
@@ -3453,7 +3455,7 @@ progress::-moz-progress-bar {
     padding: 12px 15px;
     border-width: 1px 0 0;
   }
-  .atlas-selection h3 {
+  .atlas-selection h2 {
     font-size: 24px;
   }
   .atlas-selection .eyebrow {

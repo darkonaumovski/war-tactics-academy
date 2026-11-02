@@ -1,5 +1,26 @@
 # Verification record
 
+## Lighthouse on the live site (2 November 2026)
+
+Lighthouse 13.5.0 was run against the deployed site (commit `c11ccf5`) with Playwright's Chromium, once per page in its mobile mode (a mid-range phone on simulated slow 4G) and once in its desktop mode. These are single lab runs, so scores move by a few points between runs.
+
+| Page                | Mobile performance | Desktop performance | Accessibility | Best practices | SEO |
+| ------------------- | -----------------: | ------------------: | ------------: | -------------: | --: |
+| Home                |                 56 |                  98 |           100 |             96 | 100 |
+| Battle catalog      |                 38 |                  89 |            98 |             96 | 100 |
+| Waterloo study      |                 67 |                 100 |            98 |             96 | 100 |
+| Atlas               |                 60 |                  99 |            98 |             96 | 100 |
+| Napoleon profile    |                 88 |                 100 |           100 |             96 | 100 |
+| Napoleon collection |                 88 |                 100 |           100 |             96 | 100 |
+| Academy             |                 89 |                 100 |           100 |             96 | 100 |
+
+Findings and fixes:
+
+- Every page downloaded about 1.3 MB of other routes' data, prefetched by the sidebar and breadcrumb links as soon as they appeared (the battle catalog, home and atlas pages alone came to more than 1.1 MB). On a slow phone this competed with the page being opened: the Waterloo study's summary paragraph, its largest element, rendered at 10.8 s in the simulation. Shell and breadcrumb links, and links elsewhere to the catalog, the atlas and the home page, now prefetch only when the reader hovers, focuses or touches them, following the hover-triggered pattern in the Next.js documentation; the global search form no longer prefetches `/search`. A local check after the change found none of those three routes prefetched on any of the seven pages.
+- With no icon declared, browsers requested `/favicon.ico` from the domain root, outside the project path, and got a 404; this was the only best-practices deduction. The site now declares `app/icon.svg`, the logo's swords mark, linked under the base path.
+- Battle cards, the atlas selection card and the replay's phase title were `<h3>` headings directly after the page's `<h1>`. The catalog grid now has a visually hidden “Engagements” heading, and the other two are `<h2>`, styled as before.
+- Still open: the battle catalog spends about 6.5 s of main-thread time on a simulated phone rendering 127 cards and carries its full catalog data. GitHub Pages' 10-minute cache lifetime cannot be changed from the site.
+
 ## Final pass of the battle expansion (31 October 2026)
 
 Date: 31 October 2026 (Europe/Warsaw). Environment: Windows, Node 24.20.0. This record covers the final pass (Stage G) after the battle expansion: 127 engagements and studies, 106 commanders, 33 wars, 79 campaigns, six collections, ten courses and fifteen exercises.

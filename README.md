@@ -162,6 +162,7 @@ All releases are deployed to the live site.
 
 | Commit    | Change                                                                                                                                                                                                                                                                                   |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `c11ccf5` | Command perspectives for Marathon, Miltiades and Datis, from Herodotus and Encyclopaedia Iranica; every study now has perspectives.                                                                                                                                                      |
 | `bb00c3d` | The mobile menu button and theme toggle stay disabled until hydration, fixing taps lost on slow devices and the flaky mobile navigation test.                                                                                                                                            |
 | `66ec46b` | Four new decision exercises: the Teutoburg Forest as Varus, Borodino as Napoleon, the Marne as Joffre and Market Garden as the airborne planners; nineteen in all.                                                                                                                       |
 | `308f988` | Soviet-side sources for Kursk and Berlin: Zhukov's and Vasilevsky's accounts of Kursk, Zhukov's and Konev's memoirs of Berlin, and a Konev perspective.                                                                                                                                  |
@@ -249,6 +250,6 @@ All releases are deployed to the live site.
 - The media library is a small starting collection (nine records); the two videos cover only D-Day. Embeds and archive images depend on third-party availability.
 - Progress belongs to one browser and is lost if its storage is cleared; storage failures are reported without crashing.
 - The site is static: the database is a build-time content store and updates require a rebuild. Accounts, synchronization, a historian-facing editor and sentence-level citation workflows are future work.
-- Automated accessibility checks supplement, but do not replace, manual screen-reader testing. No Lighthouse score is claimed.
+- Automated accessibility checks supplement, but do not replace, manual screen-reader testing. Lighthouse has been run on the live site (see the verification record); the battle catalog is still slow on phones.
 
 See the [prioritized roadmap](docs/PRODUCT_ROADMAP.md).

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { IntentLink } from "../intent-link";
 import { ArrowUpRight, Target, MapPin, Shield, Flag, Info } from "lucide-react";
 import type { Catalog, Battle } from "../../lib/types";
 import { eras } from "../../data/catalog";
@@ -58,9 +59,9 @@ export function BattlePage({ battle: b, c }: { battle: Battle; c: Catalog }) {
           {campaign.name} <ArrowUpRight size={14} />
         </Link>
         <span>ERA</span>
-        <Link href={`/battles?era=${b.eraId}`}>
+        <IntentLink href={`/battles?era=${b.eraId}`}>
           {eras.find((e) => e.id === b.eraId)?.name}
-        </Link>
+        </IntentLink>
       </div>
       {b.research ? (
         <>
@@ -137,9 +138,12 @@ export function BattlePage({ battle: b, c }: { battle: Battle; c: Catalog }) {
               <Link className="text-link" href="#sources">
                 Read the sources ↓
               </Link>
-              <Link className="text-link" href={`/atlas?battle=${b.slug}`}>
+              <IntentLink
+                className="text-link"
+                href={`/atlas?battle=${b.slug}`}
+              >
                 Locate this engagement in the atlas →
-              </Link>
+              </IntentLink>
               {collections
                 .filter((k) => collectionBattles(k, [b]).length)
                 .map((k) => (
@@ -247,9 +251,12 @@ export function BattlePage({ battle: b, c }: { battle: Battle; c: Catalog }) {
                   Commander profiles for this engagement are awaiting expansion.
                 </p>
               )}
-              <Link className="text-link" href={`/atlas?battle=${b.slug}`}>
+              <IntentLink
+                className="text-link"
+                href={`/atlas?battle=${b.slug}`}
+              >
                 Locate this engagement in the atlas →
-              </Link>
+              </IntentLink>
             </section>
           </div>
           <p className="editorial-note">

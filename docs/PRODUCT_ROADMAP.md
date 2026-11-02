@@ -19,7 +19,7 @@ The battle expansion is complete: 127 engagements with studies in six collection
 ## Priority 3 — Product and architecture
 
 1. Reduce per-page payloads and add route-specific projections as the catalog grows; add Open Graph images for shared links.
-2. Run Lighthouse on the published site and profile Core Web Vitals, including font, Motion and atlas costs; test with screen readers and high zoom.
+2. Lighthouse has been run on the published site (see the verification record). Next: cut the battle catalog's rendering cost and payload on phones, then profile Core Web Vitals in the field; test with screen readers and high zoom.
 3. Add progress export/import, optional accounts and cloud synchronization with explicit data ownership and privacy controls.
 4. Add an editorial CMS with provenance, corrections, review status and audit history.
 5. The static GitHub Pages site needs no runtime database. Migrate to PostgreSQL and a server deployment only if accounts or writes are added, with a backup strategy.

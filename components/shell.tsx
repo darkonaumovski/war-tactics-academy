@@ -1,5 +1,5 @@
 "use client";
-import Link, { useLinkStatus } from "next/link";
+import { useLinkStatus } from "next/link";
 import Form from "next/form";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
@@ -23,6 +23,7 @@ import {
 } from "lucide-react";
 import { readProgress, writeProgress } from "../lib/persistence";
 import { useHydrated } from "../lib/use-hydrated";
+import { IntentLink } from "./intent-link";
 const nav = [
   ["/", "Overview", Home],
   ["/battles", "Battle Atlas", Swords],
@@ -65,9 +66,9 @@ export function Shell({ children }: { children: React.ReactNode }) {
         Skip to content
       </a>
       <header className="mobile-header">
-        <Link href="/" className="mobile-brand">
+        <IntentLink href="/" className="mobile-brand">
           <Swords size={22} /> WAR TACTICS ACADEMY
-        </Link>
+        </IntentLink>
         <button
           aria-label={open ? "Close navigation" : "Open navigation"}
           aria-expanded={open}
@@ -86,7 +87,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
         />
       )}
       <aside className={`sidebar ${open ? "is-open" : ""}`}>
-        <Link className="brand" href="/">
+        <IntentLink className="brand" href="/">
           <span className="brand-seal">
             <Swords size={30} strokeWidth={1.3} />
           </span>
@@ -96,11 +97,11 @@ export function Shell({ children }: { children: React.ReactNode }) {
             <strong>ACADEMY</strong>
             <small>THE ART OF COMMAND</small>
           </span>
-        </Link>
+        </IntentLink>
         <div className="nav-label">YOUR FIELD GUIDE</div>
         <nav id="main-navigation" aria-label="Main navigation">
           {nav.map(([href, label, Icon]) => (
-            <Link
+            <IntentLink
               key={href}
               href={href}
               className={
@@ -115,13 +116,13 @@ export function Shell({ children }: { children: React.ReactNode }) {
               {(href === "/" ? path === "/" : path.startsWith(href)) && (
                 <span className="nav-dot" />
               )}
-            </Link>
+            </IntentLink>
           ))}
         </nav>
         <div className="sidebar-bottom">
-          <Link className="saved-link" href="/saved">
+          <IntentLink className="saved-link" href="/saved">
             <Bookmark size={17} /> My collection
-          </Link>
+          </IntentLink>
           <div className="academy-note">
             <span className="eyebrow">HISTORY, EXAMINED</span>
             <p>
@@ -129,9 +130,9 @@ export function Shell({ children }: { children: React.ReactNode }) {
               <br />
               Every account has a source.
             </p>
-            <Link href="/about">
+            <IntentLink href="/about">
               Our methodology <ArrowUpRight size={14} />
-            </Link>
+            </IntentLink>
           </div>
           <button className="theme-button" disabled={!ready} onClick={theme}>
             {light ? <Moon size={16} /> : <Sun size={16} />}{" "}
@@ -145,7 +146,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
           <span className="topbar-title">
             HISTORY THROUGH THE LENS OF COMMAND
           </span>
-          <Form action="/search" className="global-search">
+          <Form action="/search" className="global-search" prefetch={false}>
             <Search size={16} />
             <input
               type="search"
@@ -157,13 +158,13 @@ export function Shell({ children }: { children: React.ReactNode }) {
               ↵
             </button>
           </Form>
-          <Link
+          <IntentLink
             className="collection-icon"
             href="/saved"
             aria-label="Open saved collection"
           >
             <Bookmark size={18} />
-          </Link>
+          </IntentLink>
         </header>
         <main id="main" tabIndex={-1}>
           {children}
@@ -174,8 +175,8 @@ export function Shell({ children }: { children: React.ReactNode }) {
             <span className="muted">/ The Art of Command</span>
           </span>
           <div>
-            <Link href="/about">Methodology</Link>
-            <Link href="/library">Sources & attribution</Link>
+            <IntentLink href="/about">Methodology</IntentLink>
+            <IntentLink href="/library">Sources & attribution</IntentLink>
             <span>Learn from history.</span>
           </div>
         </footer>

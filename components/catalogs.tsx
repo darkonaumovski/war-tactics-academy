@@ -275,11 +275,14 @@ function BattleCatalogView({ c, urlQuery }: { c: Catalog; urlQuery: string }) {
           name={name}
         />
       ) : (
-        <div className="battle-grid">
-          {result.map((b) => (
-            <BattleCard key={b.slug} battle={b} />
-          ))}
-        </div>
+        <>
+          <h2 className="sr-only">Engagements</h2>
+          <div className="battle-grid">
+            {result.map((b) => (
+              <BattleCard key={b.slug} battle={b} />
+            ))}
+          </div>
+        </>
       )}
     </>
   );

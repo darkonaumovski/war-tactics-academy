@@ -467,7 +467,7 @@ function AtlasView({
             <span className="eyebrow">
               {battle.date} · {battle.kind}
             </span>
-            <h3>{battle.name}</h3>
+            <h2>{battle.name}</h2>
             <p>
               <MapPin size={13} />
               {battle.location}

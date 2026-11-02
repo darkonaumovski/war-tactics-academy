@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { IntentLink } from "./intent-link";
 import { Bookmark, Check, Clock, ArrowUpRight } from "lucide-react";
 import {
   emptyProgress,
@@ -82,9 +83,9 @@ export function SavedCollection({ recent = false }: { recent?: boolean }) {
           ? "Your recently explored records will appear here."
           : "Your collection starts with a question. Save a battle or commander to return to it."}
       </p>
-      <Link className="text-link" href="/battles">
+      <IntentLink className="text-link" href="/battles">
         Explore the battle atlas →
-      </Link>
+      </IntentLink>
     </div>
   );
 }

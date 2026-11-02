@@ -247,7 +247,7 @@ export function BattleMap({ battle }: { battle: Battle }) {
           </span>
           <FadeIn key={phase}>
             <span className="phase-time">{current.time}</span>
-            <h3>{current.title}</h3>
+            <h2>{current.title}</h2>
             <p>{current.description}</p>
           </FadeIn>
           <div className="note">

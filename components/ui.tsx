@@ -3,6 +3,7 @@ import { ArrowRight, ArrowUpRight, MapPin, BookOpen } from "lucide-react";
 import type { Battle, Campaign, Source, Commander } from "../lib/types";
 import { formatYear } from "../lib/logic";
 import { Cartography } from "./cartography";
+import { IntentLink } from "./intent-link";
 export function Heading({
   eyebrow,
   title,
@@ -38,10 +39,10 @@ export function SectionTitle({
         {title}
       </h2>
       {href && (
-        <Link href={href}>
+        <IntentLink href={href}>
           {label}
           <ArrowRight size={15} />
-        </Link>
+        </IntentLink>
       )}
     </div>
   );
@@ -53,12 +54,12 @@ export function Breadcrumbs({
 }) {
   return (
     <nav className="breadcrumbs" aria-label="Breadcrumb">
-      <Link href="/">Academy</Link>
+      <IntentLink href="/">Academy</IntentLink>
       {items.map((i, n) => (
         <span key={n}>
           <span aria-hidden="true">/</span>
           {i.href ? (
-            <Link href={i.href}>{i.name}</Link>
+            <IntentLink href={i.href}>{i.name}</IntentLink>
           ) : (
             <span aria-current="page">{i.name}</span>
           )}

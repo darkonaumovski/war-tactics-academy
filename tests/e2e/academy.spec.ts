@@ -231,7 +231,7 @@ test("atlas works without external network services", async ({ page }) => {
   await page.getByLabel("Atlas era").selectOption("ancient");
   await page.getByLabel("Atlas region").selectOption("italy");
   await page.getByRole("button", { name: "Show Cannae", exact: true }).click();
-  await expect(page.locator(".atlas-selection h3")).toHaveText("Cannae");
+  await expect(page.locator(".atlas-selection h2")).toHaveText("Cannae");
   await page.getByRole("button", { name: "Zoom atlas in" }).click();
   await page.getByRole("link", { name: "Explore engagement" }).click();
   await expect(page).toHaveURL(/cannae\/$/);
@@ -240,7 +240,7 @@ for (const width of [1280, 375])
   test(`atlas separates dense areas at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
     await page.goto("/atlas");
-    const selection = page.locator(".atlas-selection h3");
+    const selection = page.locator(".atlas-selection h2");
     // Nearby Serbian Front markers share a numbered group until zoomed into.
     await page.getByLabel("Atlas region").selectOption("balkans");
     // On a phone the group may need a second tap: zoom, then spread.
@@ -350,7 +350,7 @@ test("engagement pages locate their marker in the atlas", async ({ page }) => {
     .getByRole("link", { name: "Locate this engagement in the atlas →" })
     .click();
   await expect(page).toHaveURL(/\/atlas\/\?battle=kolubara$/);
-  await expect(page.locator(".atlas-selection h3")).toHaveText(
+  await expect(page.locator(".atlas-selection h2")).toHaveText(
     "Battle of the Kolubara",
   );
   await expect(

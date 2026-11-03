@@ -549,6 +549,16 @@
         "title": "Il y a 230 ans, les premières victoires de la campagne d'Italie (Pierre Branda)",
         "url": "https://www.napoleon.org/histoire-des-2-empires/articles/la-chronique-de-pierre-branda-il-y-a-230-ans-les-premieres-victoires-de-la-campagne-ditalie/",
         "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "The Corsican: A Diary of Napoleon's Life in His Own Words, ed. R. M. Johnston",
+        "url": "https://archive.org/details/corsicandiary00napouoft",
+        "publisher": "Houghton Mifflin, 1910 (Internet Archive)"
+      },
+      {
+        "title": "Beaulieu, Johann Peter Freiherr von (Wilhelm Edler von Janko, ADB 2, 1875)",
+        "url": "https://www.deutsche-biographie.de/sfz2432.html",
+        "publisher": "Allgemeine Deutsche Biographie (Deutsche Biographie), in German"
       }
     ],
     "sections": [
@@ -600,11 +610,14 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "The article says Bonaparte's mobile forces had fewer infantry than the allies, little cavalry and far fewer guns. His divisions were led by Masséna, Laharpe, Augereau and Sérurier. The allies were dispersed in winter quarters, with detachments under d'Argenteau and Provera linking Beaulieu's Austrians to Colli's Sardinians. The strengths the article gives are not repeated here.",
+        "text": "The article says Bonaparte's mobile forces had fewer infantry than the allies, little cavalry and far fewer guns. His divisions were led by Masséna, Laharpe, Augereau and Sérurier. The allies were dispersed in winter quarters, with detachments under d'Argenteau and Provera linking Beaulieu's Austrians to Colli's Sardinians. Beaulieu, promoted to Feldzeugmeister on 4 March 1796 and sent to Italy, was then 71. The strengths the article gives are not repeated here.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -620,7 +633,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "On 12 April Laharpe attacked d'Argenteau frontally at Montenotte while Masséna came on his flank, and the Austrians retreated. Augereau took Millesimo on 13 April, and the Piedmontese in the castle of Cosseria surrendered. Masséna took Dego, lost it to an Austrian counterattack on 15 April and recovered it. Bonaparte then turned on the Piedmontese: after checks at Ceva and on the flooded Tanaro, Colli was driven from Mondovì.",
+        "text": "On 12 April Laharpe attacked d'Argenteau frontally at Montenotte while Masséna came on his flank; in his report to the Directory, Bonaparte describes Masséna appearing on the enemy's flank and rear, spreading destruction and panic, and the Austrians retreated. Augereau took Millesimo on 13 April, and the Piedmontese in the castle of Cosseria surrendered. Masséna took Dego, lost it to an Austrian counterattack on 15 April and recovered it. Bonaparte then turned on the Piedmontese: after checks at Ceva and on the flooded Tanaro, Colli was driven from Mondovì.",
         "evidence": "fact",
         "refs": [
           {
@@ -631,6 +644,10 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "pp. 19–20"
           }
         ]
       },
@@ -654,6 +671,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -667,6 +687,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -701,7 +724,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "How far the plan was Bonaparte's own is debated; the article traces it to his earlier proposals while acknowledging Carnot's principles. The article also shows how the official version was shaped: credit for holding Monte Legino went to Rampon, and the famous proclamation to the army at Nice was probably reconstructed later. The date of Mondovì is given as 21 or 22 April. Bonaparte's claims of prisoners and captured guns are not repeated.",
+        "text": "How far the plan was Bonaparte's own is debated; the Fondation Napoléon article traces it to his earlier proposals while acknowledging Carnot's principles. The article also shows how the official version was shaped: credit for holding Monte Legino went to Rampon, and the famous proclamation to the army at Nice was probably reconstructed later. Bonaparte's reports to the Directory, written for publication, name Beaulieu as commanding the Austrians at Montenotte, where the article places d'Argenteau's detachment, and claim large enemy losses that are not repeated here; on the voyage to St Helena he said that even Montenotte had not convinced him he was a great man. The Austrian biography of Beaulieu by Janko blames an unlucky advance of the Austrian left on Voltri, which let Bonaparte break the over-extended centre at Montenotte, Millesimo and Dego, and judges the 71-year-old general no longer a match for Bonaparte's new genius. The date of Mondovì is given as 21 or 22 April.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -709,12 +732,19 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "pp. 19–20, 466–467"
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The main narrative is the Fondation Napoléon's article from the Revue du Souvenir Napoléonien, which draws on Corda, Colin and others and criticizes Napoleon's later Saint Helena accounts as unreliable. Its chronology and Pierre Branda's 2026 chronicle add dates and the role of publicity.",
+        "text": "The main narrative is the Fondation Napoléon's article from the Revue du Souvenir Napoléonien, which draws on Corda, Colin and others and criticizes Napoleon's later Saint Helena accounts as unreliable. Its chronology and Pierre Branda's 2026 chronicle add dates and the role of publicity. Bonaparte's own reports to the Directory are read in R. M. Johnston's compilation The Corsican (1910), and the Austrian view in Wilhelm Edler von Janko's 1875 biography of Beaulieu in the Allgemeine Deutsche Biographie, in German. No Piedmontese account was read.",
         "evidence": "fact",
         "refs": [
           {
@@ -725,6 +755,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -769,7 +805,7 @@
         "objective": "Defend Piedmont and Lombardy and, the article says, take the offensive into Provence.",
         "known": "The French army was spread along the coast.",
         "uncertainty": "Where Bonaparte would strike.",
-        "constraints": "Two armies of different states, in winter quarters, with diverging lines of retreat.",
+        "constraints": "Two armies with different interests and lines of retreat, spread in winter quarters; Janko calls the Austrian position over-extended, and Beaulieu was 71.",
         "forces": "Beaulieu's Austrians, Colli's Sardinians and linking detachments under d'Argenteau and Provera.",
         "terrain": "Mountain positions and castles such as Cosseria.",
         "logistics": "Separate bases toward Lombardy and Turin.",
@@ -795,6 +831,16 @@
         "title": "La 1ère campagne d'Italie : chronologie",
         "url": "https://www.napoleon.org/wp-content/themes/napoleon/annexes/hors-serie/premiere-campagne-italie/fr/chronologie/chrono.html",
         "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "The Corsican: A Diary of Napoleon's Life in His Own Words, ed. R. M. Johnston",
+        "url": "https://archive.org/details/corsicandiary00napouoft",
+        "publisher": "Houghton Mifflin, 1910 (Internet Archive)"
+      },
+      {
+        "title": "Beaulieu, Johann Peter Freiherr von (Wilhelm Edler von Janko, ADB 2, 1875)",
+        "url": "https://www.deutsche-biographie.de/sfz2432.html",
+        "publisher": "Allgemeine Deutsche Biographie (Deutsche Biographie), in German"
       }
     ],
     "sections": [
@@ -872,7 +918,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "On 10 May a grenadier column, led by its generals, crossed the bridge under heavy fire, while cavalry under Beaumont and Ordener crossed above the city and struck the Austrian flank. The rearguard withdrew, leaving prisoners and guns.",
+        "text": "On 10 May a grenadier column, led by its generals, crossed the bridge under heavy fire, while cavalry under Beaumont and Ordener crossed above the city and struck the Austrian flank. In Bonaparte's own account the head of the column wavered under the fire until Berthier, Masséna and Lannes rushed to the front. The rearguard withdrew, leaving prisoners and guns.",
         "evidence": "fact",
         "refs": [
           {
@@ -880,6 +926,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "p. 27"
           }
         ]
       },
@@ -918,7 +968,7 @@
       },
       {
         "title": "Consequences",
-        "text": "The victory opened the road to Milan, which Bonaparte entered in mid-May. He wrote to Carnot on 11 May that the battle had given the Republic all of Italy, and Lodi earned him the nickname of the Little Corporal.",
+        "text": "The victory opened the road to Milan, which Bonaparte entered in mid-May. He wrote to Carnot on 11 May that the battle had given the Republic all of Italy, and Lodi earned him the nickname of the Little Corporal. Beaulieu fell back behind the Mincio and, his health shaken, gave up the command on 21 June, Janko writes.",
         "evidence": "fact",
         "refs": [
           {
@@ -929,6 +979,13 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "p. 27"
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -947,7 +1004,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Accounts of who led the storming column differ; the article says only that the generals led it, and the places page credits Masséna with getting across. Napoleon's later claim that Lodi revealed his destiny is not documented in the sources read here. The entry into Milan is dated 15 or 16 May.",
+        "text": "Accounts of who led the storming column differ: the Fondation Napoléon article says only that the generals led it, the places page credits Masséna with getting across, and Bonaparte's own account names Berthier, Masséna and Lannes. On the voyage to St Helena, in September 1815, Napoleon said that only after Lodi did the idea take hold that he might become a decisive actor in politics, the first spark of high ambition; it is a retrospective remark. The entry into Milan is dated 15 or 16 May.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -958,12 +1015,16 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "pp. 27, 466–467"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The Fondation Napoléon's article from the Revue du Souvenir Napoléonien gives the narrative, its places page describes the site and quotes Bonaparte's letter to Carnot, and its chronology supplies dates.",
+        "text": "The Fondation Napoléon's article from the Revue du Souvenir Napoléonien gives the narrative, its places page describes the site and quotes Bonaparte's letter to Carnot, and its chronology supplies dates. Bonaparte's own account and his later remark come from R. M. Johnston's compilation The Corsican (1910); Janko's 1875 biography of Beaulieu in the Allgemeine Deutsche Biographie, in German, gives the Austrian commander's retreat and resignation. No Austrian account of the fight at the bridge was read.",
         "evidence": "fact",
         "refs": [
           {
@@ -974,6 +1035,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -1044,6 +1111,16 @@
         "title": "Wurmser, Dagobert Sigismond, comte de (Daniel Reichel, Dictionnaire Napoléon)",
         "url": "https://www.napoleon.org/histoire-des-2-empires/biographies/wurmser-dagobert-sigismond-comte-de-1724-1797-marechal-allemand/",
         "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "The Corsican: A Diary of Napoleon's Life in His Own Words, ed. R. M. Johnston",
+        "url": "https://archive.org/details/corsicandiary00napouoft",
+        "publisher": "Houghton Mifflin, 1910 (Internet Archive)"
+      },
+      {
+        "title": "Wurmser, Dagobert Sigmund Graf von (Oscar Criste, ADB 44, 1898)",
+        "url": "https://www.deutsche-biographie.de/sfz86285.html",
+        "publisher": "Allgemeine Deutsche Biographie (Deutsche Biographie), in German"
       }
     ],
     "sections": [
@@ -1078,7 +1155,7 @@
       },
       {
         "title": "Campaign objectives",
-        "text": "Wurmser divided his army: Quasdanovich came down the Chiese valley west of Lake Garda while Wurmser came down the Adige to the east, both converging on Mantua. Bonaparte's aim was to concentrate against each column before they could unite.",
+        "text": "Wurmser, who took command in place of Beaulieu on 29 May 1796, divided his army: Quasdanovich came down the Chiese valley west of Lake Garda to threaten the French rear while Wurmser came down the Adige to the east, both converging on Mantua. Criste writes that Wurmser meant to attack and defeat Bonaparte before Mantua and so relieve the fortress. Bonaparte's aim was to concentrate against each column before they could unite.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -1086,6 +1163,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -1121,7 +1201,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "On 29–30 July the Austrian columns drove in the French covering posts, took Brescia and threatened Bonaparte's communications. He lifted the siege of Mantua on 30 July, abandoning siege equipment, and turned on Quasdanovich, whose columns were beaten around Lonato, Salò and Brescia; the fighting of 3 August kept the Austrian columns apart. On 5 August Bonaparte attacked Wurmser at Castiglione.",
+        "text": "On 29–30 July the Austrian columns drove in the French covering posts at La Corona and Monte Baldo, took Brescia and threatened Bonaparte's communications; Bonaparte wrote that the situation was decidedly critical. He lifted the siege of Mantua on 30 July, abandoning siege equipment, and turned on Quasdanovich, whose columns were beaten around Lonato, Salò, Gavardo and Brescia; the fighting of 3 August kept the Austrian columns apart. In his own account, at Lonato he bluffed a cut-off Austrian column into surrendering by threatening to give no quarter. Meanwhile, Criste writes, Wurmser cleared his way to Mantua. On 5 August Bonaparte attacked Wurmser at Castiglione.",
         "evidence": "fact",
         "refs": [
           {
@@ -1129,6 +1209,13 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "pp. 36–39"
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -1144,7 +1231,7 @@
       },
       {
         "title": "Decisive turning points",
-        "text": "Sérurier's flank attack shook the Austrians, and Kilmaine's reserve then made the decisive attack.",
+        "text": "Sérurier's flank attack shook the Austrians, and Kilmaine's reserve then made the decisive attack. Bonaparte describes ordering his troops to fall back to draw the enemy on while Sérurier turned Wurmser's left, then attacking all along the line.",
         "evidence": "fact",
         "refs": [
           {
@@ -1152,6 +1239,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "pp. 38–39"
           }
         ]
       },
@@ -1196,7 +1287,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Gouvion Saint-Cyr, quoted in the Fondation Napoléon article, argued that the siege train could have been withdrawn in time and that its loss tied the army to Mantua for months; the article itself judges the decision consistent with Bonaparte's principles. Napoleon blamed Wurmser for dividing his army. How well the flank attack was timed is not settled by the sources read here. Mantua's surrender is dated 17 January in the chronology and 2 February 1797 elsewhere.",
+        "text": "Gouvion Saint-Cyr, quoted in the Fondation Napoléon article, argued that the siege train could have been withdrawn in time and that its loss tied the army to Mantua for months; the article itself judges the decision consistent with Bonaparte's principles. Napoleon blamed Wurmser for dividing his army; Criste's Austrian biography instead blames Quasdanovich, who let himself be drawn away, and calls Wurmser's later defence of Mantua one of the most glorious pages of Austrian military history. Bonaparte's account, as compiled in The Corsican, places the decisive attack on the 3rd, where the Fondation Napoléon and Criste date Castiglione to 5 August, and its figures for Austrian losses are not used. How well the flank attack was timed is not settled by the sources read here. Mantua's surrender is dated 17 January in the chronology and 2 February 1797 elsewhere.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -1207,12 +1298,19 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "pp. 38–39"
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The Fondation Napoléon's article from the Revue du Souvenir Napoléonien gives the narrative and the debate over the siege train; its chronology and Daniel Reichel's biography of Wurmser from the Dictionnaire Napoléon add dates and the Austrian side.",
+        "text": "The Fondation Napoléon's article from the Revue du Souvenir Napoléonien gives the narrative and the debate over the siege train; its chronology and Daniel Reichel's biography of Wurmser from the Dictionnaire Napoléon add dates. Bonaparte's own letters and account come from R. M. Johnston's compilation The Corsican (1910), and the Austrian view from Oscar Criste's 1898 biography of Wurmser in the Allgemeine Deutsche Biographie, in German.",
         "evidence": "fact",
         "refs": [
           {
@@ -1223,6 +1321,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -1271,7 +1375,7 @@
         "forces": "His own column and Quasdanovich's.",
         "terrain": "The Adige valley and the Solferino heights.",
         "logistics": "Supply through the Tyrol.",
-        "decision": "He divided his army around Lake Garda and gave battle at Castiglione.",
+        "decision": "He divided his army around Lake Garda, fought his way through to Mantua, and gave battle at Castiglione.",
         "outcome": "He was defeated and retreated, later to be shut up in Mantua."
       }
     ]
@@ -3300,6 +3404,21 @@
         "title": "2 décembre 1805 : La bataille d'Austerlitz",
         "url": "https://www.defense.gouv.fr/terre/mieux-nous-connaitre/histoire-larmee-terre/larmee-terre-travers-ses-batailles/2-decembre-1805-bataille",
         "publisher": "French Ministry of the Armed Forces"
+      },
+      {
+        "title": "The Corsican: A Diary of Napoleon's Life in His Own Words, ed. R. M. Johnston",
+        "url": "https://archive.org/details/corsicandiary00napouoft",
+        "publisher": "Houghton Mifflin, 1910 (Internet Archive)"
+      },
+      {
+        "title": "S. P. Rybakov, The Russian Memoirs About Battle at Austerlitz",
+        "url": "https://www.vestnik.mgimo.ru/jour/article/download/1787/1372",
+        "publisher": "Vestnik MGIMO University, 2012, in Russian"
+      },
+      {
+        "title": "Weyrother, Franz von (Oscar Criste, ADB 42, 1897)",
+        "url": "https://www.deutsche-biographie.de/sfz85314.html",
+        "publisher": "Allgemeine Deutsche Biographie (Deutsche Biographie), in German"
       }
     ],
     "sections": [
@@ -3315,7 +3434,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Austria and Russia confronted Napoleon within the Third Coalition. The battle took place on 2 December 1805 in present-day Czechia.",
+        "text": "Austria and Russia confronted Napoleon within the Third Coalition, and Alexander I and Francis I were both with the allied army. The battle took place on 2 December 1805 in present-day Czechia. Langeron, a Russian general whose memoirs Rybakov examines, writes that Kutuzov, Suchtelen and he himself favoured positions near Olschan that Napoleon would not dare attack, but that Alexander wanted to see a battle and win it.",
         "evidence": "fact",
         "refs": [
           {
@@ -3323,6 +3442,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -3354,17 +3476,23 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "French corps under commanders including Soult, Davout and Lannes faced a combined Austro-Russian army.",
+        "text": "French corps under commanders including Soult, Davout and Lannes faced a combined Austro-Russian army. Kutuzov commanded it in the presence of the two emperors; the Austrian Franz von Weyrother, attached to Russian headquarters at Kutuzov's request, drew up the plan. The column commanders included the Russians Buxhoeveden, Langeron, Przhebyshevsky, Dokhturov and Miloradovich and the Austrian Kolowrat.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
           }
         ]
       },
       {
         "title": "Initial deployment",
-        "text": "Allied formations occupied the heights before moving substantial forces south against Napoleon's right.",
+        "text": "Allied formations occupied the heights before moving substantial forces south against Napoleon's right. Weyrother's plan was read to the column commanders between 1 and 3 a.m.; Langeron recalls Kutuzov sitting half asleep and finally falling asleep. On 1 December Napoleon told his soldiers that the Russians, marching to turn his right, would expose their own flank.",
         "evidence": "fact",
         "refs": [
           {
@@ -3372,12 +3500,19 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "p. 217"
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "The southern fighting developed first. Soult then attacked the weakened center, followed by fighting for the plateau and an Allied retreat.",
+        "text": "The southern fighting developed first. Soult then attacked the weakened centre; in the exchange recorded in The Corsican, Napoleon asked how long it would take to occupy the Pratzen plateau and, told less than twenty minutes, said they would wait fifteen more. Langeron writes that the allied fourth column, under Kolowrat and Miloradovich, advanced late, was struck around 9 a.m. and gave up the Pratzen heights after two hours of fighting, and that by 9.30 Kamensky reported the French on the heights. The centre broken, Kutuzov ordered Buxhoeveden to retreat; the troops crossed a poor bridge near Augezd as Vandamme's column tried to seize it, toward 4 p.m., in falling snow.",
         "evidence": "fact",
         "refs": [
           {
@@ -3385,12 +3520,19 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "p. 218"
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Napoleon committed Soult against the Pratzen Heights as Allied troops moved away.",
+        "text": "Napoleon committed Soult against the Pratzen Heights as Allied troops moved away. On the allied side, Langeron writes, Alexander I put his whole trust in Weyrother's plan, which sent most of the columns south.",
         "evidence": "fact",
         "refs": [
           {
@@ -3398,16 +3540,26 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "p. 218"
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Decisive turning points",
-        "text": "Control of the center divided the coalition's fight and allowed the French to redirect forces against its southern wing.",
+        "text": "Control of the centre divided the coalition's fight and allowed the French to redirect forces against its southern wing. Langeron writes that Napoleon said, before and after the battle, that he would never have attacked had the Russians held the Pratzen heights.",
         "evidence": "interpretation",
         "refs": [
           {
             "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -3442,22 +3594,36 @@
       },
       {
         "title": "Historical lessons",
-        "text": "A useful study question is how timing, terrain and concentration interacted. A deliberate risk can only be assessed against the forces available to support it.",
-        "evidence": "interpretation"
+        "text": "A plan that needs several columns to act in concert fails when one is late: the delay of the allied fourth column left the Pratzen heights open. The ground that dominates a battlefield is worth keeping even when a plan points elsewhere; Napoleon said he would not have attacked had the Russians held it.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 4
+          }
+        ]
       },
       {
         "title": "Historiographical debates",
-        "text": "The popular image of a perfectly controlled trap compresses a contested battle. This overview omits disputed losses and exact minute-by-minute timing.",
+        "text": "The popular image of a perfectly controlled trap compresses a contested battle. Responsibility on the allied side was disputed from the start. Langeron called Weyrother's disposition impracticable and even absurd, wrote that Weyrother was either incapable of drawing up a battle plan or meant to betray the army, blamed Buxhoeveden's inaction as one of the main causes of the defeat, and admitted an error of his own; Rybakov stresses that his memoirs need critical reading. Criste's Austrian biography of Weyrother instead says that Kutuzov altered Weyrother's excellent dispositions and that Weyrother, constantly ill, lacked the energy to insist on them. Napoleon called Austerlitz the most splendid of his battles; the figures in his proclamation of 3 December are not used. This overview omits disputed losses and exact minute-by-minute timing.",
         "evidence": "uncertainty",
         "refs": [
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The Fondation Napoléon timeline and site guide supply sequence and geography. The French Army page represents an institutional commemorative interpretation.",
+        "text": "The Fondation Napoléon timeline and site guide supply sequence and geography. The French Army page represents an institutional commemorative interpretation. Napoleon's proclamations and words come from R. M. Johnston's compilation The Corsican (1910); S. P. Rybakov's article in Vestnik MGIMO, in Russian, examines Russian memoirs of the battle, chiefly Langeron's; Oscar Criste's 1897 biography of Weyrother in the Allgemeine Deutsche Biographie, in German, gives the Austrian view of the plan.",
         "evidence": "fact",
         "refs": [
           {
@@ -3468,6 +3634,15 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
           }
         ]
       }
@@ -3510,13 +3685,13 @@
       {
         "name": "Allied command: Kutuzov, Weyrother and the allied emperors",
         "objective": "Turn the French right and cut Napoleon's communications with Vienna.",
-        "known": "French forces appeared weaker on their right, and the Allies held the Pratzen plateau.",
+        "known": "French forces appeared weaker on their right, and the Allies held the Pratzen plateau. Langeron writes that Napoleon knew the smallest details of the allied army, while the allies were misled into thinking he feared an attack.",
         "uncertainty": "The true strength and position of the French army, including forces arriving from the south.",
         "constraints": "A divided command with Alexander I and Francis I present, and a complex plan requiring several columns to march across the plateau.",
         "forces": "A combined Russian and Austrian army organized in several attack columns.",
         "terrain": "Moving off the Pratzen plateau to support the southern attack left the center exposed.",
         "logistics": "Supplies in Moravia were strained. Waiting for reinforcements and for Prussia was an alternative some favored.",
-        "decision": "They committed most columns to the southern attack, weakening the center. Accounts differ on Kutuzov's reservations about the plan; they are not reconstructed here.",
+        "decision": "They committed most columns to the southern attack, weakening the centre. Langeron writes that Kutuzov and others had favoured not attacking, but Alexander I trusted Weyrother's plan.",
         "outcome": "Defeat split the army and Austria left the war. Russian and Austrian accounts later blamed each other."
       }
     ]

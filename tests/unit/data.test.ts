@@ -9,12 +9,12 @@ import {
 import { battles, wars, campaigns, eras } from "../../data/catalog";
 import { courses } from "../../data/learning";
 it("validates source-backed analyses and the commander corpus", () => {
-  expect(researchSchema.parse(research)).toHaveLength(139);
+  expect(researchSchema.parse(research)).toHaveLength(140);
   expect(commanderSchema.parse(commanders)).toHaveLength(106);
 });
-it("provides 139 unique engagement slugs and a connected hierarchy", () => {
-  expect(battles).toHaveLength(139);
-  expect(new Set(battles.map((b) => b.slug)).size).toBe(139);
+it("provides 140 unique engagement slugs and a connected hierarchy", () => {
+  expect(battles).toHaveLength(140);
+  expect(new Set(battles.map((b) => b.slug)).size).toBe(140);
   for (const b of battles) {
     expect(wars.some((w) => w.slug === b.warId)).toBe(true);
     expect(

@@ -181,6 +181,15 @@ export const wars: War[] = [
     "Latin states rose and fell; warfare and exchange affected Muslim, Christian and Jewish communities.",
   ],
   [
+    "mongol-jin",
+    "Mongol invasion of the Jin",
+    "medieval",
+    "1211–1215",
+    "Chinggis Khan invaded the Jin empire of northern China, destroyed its field armies and took its capital, Zhongdu.",
+    "Having secured his western flank against Xixia, Chinggis Khan turned on the Jin, whose defectors described a ruler at odds with his own family.",
+    "Zhongdu (Beijing) fell in 1215, and the subjugation of northern China passed to Chinggis’s general Muqali.",
+  ],
+  [
     "mongol-europe",
     "Mongol invasion of Europe",
     "medieval",

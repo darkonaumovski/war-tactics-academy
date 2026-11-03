@@ -350,6 +350,28 @@ export const warDetails: Record<string, WarDetails> = {
       ["1291", "Mamluks take Acre, the last major crusader stronghold"],
     ),
   },
+  "mongol-jin": {
+    participants: [
+      "Mongol Empire under Chinggis Khan",
+      "Jin dynasty (Jurchen) of northern China",
+      "Qara Kitat (Khitan) and Jurchen troops in Jin service",
+    ],
+    geography:
+      "The Jin frontier, the passes north of Zhongdu and the north China plain.",
+    developments: t(
+      [
+        "Before 1211",
+        "Mongol campaign against the Tangut kingdom of Xixia secures the western flank",
+      ],
+      ["1211", "Mongol vanguard surprises the Jin at Wushabu"],
+      [
+        "8th month, 1211",
+        "Jin defeat at Yehuling and Huihechuan; Mongol raiders enter the Juyong Pass",
+      ],
+      ["1214", "The Jin ruler buys peace with a princess and gifts"],
+      ["1215", "Zhongdu (Beijing) taken"],
+    ),
+  },
   "mongol-europe": {
     participants: [
       "Mongol Empire under Batu",

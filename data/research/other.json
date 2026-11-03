@@ -7754,5 +7754,302 @@
         "outcome": "He was killed at the meeting and his army routed."
       }
     ]
+  },
+  {
+    "slug": "yehuling",
+    "sources": [
+      {
+        "title": "The Secret History of the Mongols, trans. Igor de Rachewiltz",
+        "url": "https://archive.org/details/the-secret-history-of-the-mongols-a-mongolian-epic-chronicle-of",
+        "publisher": "Western Washington University, 2015 (Internet Archive)"
+      },
+      {
+        "title": "金史 卷九十三 (Jin Shi, chapter 93): biographies of Dujie Sizhong and Wanyan Chengyu",
+        "url": "https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B793",
+        "publisher": "Wikisource, in Chinese"
+      },
+      {
+        "title": "元史 卷一百十九 (Yuan Shi, chapter 119): biography of Muqali",
+        "url": "https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7119",
+        "publisher": "Wikisource, in Chinese"
+      },
+      {
+        "title": "Genghis Khan: Rise to power",
+        "url": "https://www.britannica.com/biography/Genghis-Khan/Rise-to-power",
+        "publisher": "Encyclopaedia Britannica (Charles R. Bawden)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "In 1206 an assembly by the Onon proclaimed Temüjin Chinggis Khan, and his new state was organised above all for war. China was his main goal; Britannica writes that he first secured his western flank with a hard campaign against the Tangut kingdom of Xixia, then fell on the Jin empire of northern China in 1211. The Yuan Shi records that Jin defectors told him their ruler had killed members of his own family and lived in growing debauchery, and has Chinggis reply that his campaign now had a just cause.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 2,
+            "locator": "Muqali"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The Jin had long played the steppe peoples against each other, and Britannica notes that they once rewarded Temüjin with a minor title for attacking the Tatars. The Jin Shi records that in the Dading reign a line of northwestern frontier posts nearly 600 li long had been built, and that Dujie Sizhong later strengthened its walls and moats. In the third year of Da'an Dujie Sizhong and the councillor Wanyan Chengyu were sent to hold the frontier.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 1,
+            "locator": "Dujie Sizhong and Chengyu"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Chinggis aimed at the Jin heartland: the Secret History has him take Fuzhou, the Jin's northernmost outpost, and send vanguards on toward the passes before the capital, Zhongdu. The Jin aimed to hold the frontier and the passes. Britannica notes that Chinggis at first meant to turn the fields of northern China into pasture, until an adviser who had served the Jin explained the value of peasants and craftsmen as producers of taxable goods.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "§247"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The fighting moved from the frontier near Fuzhou through the uplands of Yehuling (Wild Fox Ridge), where the Yuan Shi says the Jin drew up, south to Xuanping, the Huihe stream and Xuande, and on toward the Juyong Pass before Zhongdu. The Jin Shi has the local strongmen of Xuanping say that they knew the winding streams and gullies. The Secret History describes valleys and mountains filling with pursuing Jin troops.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "Chengyu"
+          },
+          {
+            "source": 2,
+            "locator": "Muqali"
+          },
+          {
+            "source": 0,
+            "locator": "§247"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Chinggis led the Mongol army, with Muqali, Jebe and Güyigünek among his commanders. Wanyan Chengyu commanded the Jin field army after Dujie Sizhong's dismissal; the Secret History names among the Jin forces the élite Jüyin troops of the Qara Kitat and the Jurchen. The Yuan Shi says the Jin army was called four hundred thousand strong; the figure is not used here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "Muqali"
+          },
+          {
+            "source": 0,
+            "locator": "§247"
+          },
+          {
+            "source": 1,
+            "locator": "Dujie Sizhong and Chengyu"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Dujie Sizhong and Chengyu were repairing the fort at Wushabu without taking precautions when the Mongol vanguard arrived suddenly and took the Wuyue camp; Dujie Sizhong could not hold it and fell back. The court blamed him alone, dismissed him and gave Chengyu the command.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "Dujie Sizhong and Chengyu"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "In the eighth month the Mongol army reached Yehuling. The Jin Shi says that Chengyu lost heart and fell back to Xuanping without fighting, refused the local levies offered to him as a vanguard and asked only for a side road to Xuande, and that the local strongmen scoffed that he knew only how to run. That night he marched south; the Mongols followed, and the next day his army broke at Huihechuan and he escaped alone into Xuande. The Yuan Shi tells the battle from the Mongol side: the Jin drew up north of Yehuling, Muqali led picked men in a charge, Chinggis sent the whole army forward, and the pursuit reached the Hui river. In the Secret History, after the army has crossed the pass it calls Hünegen Daba'an, Jebe feigns a retreat at the Chabchiyal pass to draw the Jin out, turns on them, and the main army crushes the Jin élite troops.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "Chengyu"
+          },
+          {
+            "source": 2,
+            "locator": "Muqali"
+          },
+          {
+            "source": 0,
+            "locator": "§247"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "The Jin Shi explains the defeat by Chengyu's decisions to avoid battle, to retreat by night and to refuse the local levies. On the Mongol side the Yuan Shi credits Muqali's judgment that, being fewer, they must fight to the death, and Chinggis's order for a general advance behind his charge.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "Chengyu"
+          },
+          {
+            "source": 2,
+            "locator": "Muqali"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The night retreat turned an army that had not been beaten in the field into a column pursued from behind, and the collapse at Huihechuan followed. The Jin Shi's verdict is that the commanders' spirit was broken, quoting the saying that the first drum rouses courage, the second weakens it and the third exhausts it.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "Chengyu"
+          },
+          {
+            "source": 2,
+            "locator": "Muqali"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Jin field army was destroyed, and Chengyu barely escaped. Mongol raiders entered the Juyong Pass, and martial law was proclaimed in Zhongdu. Prince Weishao, the Jin ruler, punished Chengyu only by removing him from office.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "Chengyu"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The Jin Shi records that observers held that the fall of the Jin was decided in this battle. In the Secret History the Jin official Ongging Cingsang later advises the Golden Khan, during the siege of Zhongdu, that the élite troops have been destroyed and the Chabchiyal pass lost, and that it is better to submit and send a princess and gifts. Britannica dates that settlement to 1214; operations resumed in 1215, Beijing was taken, and the subjugation of northern China passed to Muqali.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "Chengyu"
+          },
+          {
+            "source": 0,
+            "locator": "§§248–249"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "An army's will can be broken before it is beaten: the Jin historians blamed a commander who retreated without fighting and ignored the local knowledge offered to him. A retreat in contact with a mobile enemy can be more dangerous than battle.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "Chengyu"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The three accounts come from different sides and differ in detail. The Jin Shi dates the battle to the eighth month of the third year of Da'an, the Secret History places the campaign in the Year of the Sheep (1211), but the Yuan Shi's biography of Muqali puts the battle at Yehuling in the year renshen (1212) and the attack on the Juyong Pass in 1213. The Secret History does not name Yehuling; it describes the crossing of a pass it calls Hünegen Daba'an and fighting at the Chabchiyal pass, and the sources read do not say how these places correspond to those named in the Chinese histories. The Yuan Shi's figure for the Jin army and its hundred li of corpses are not used, and Muqali's words are reported speech. The Jin Shi's portrait of Chengyu as a coward is a historian's explanation of a dynasty's fall.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "§247"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "Muqali"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The Secret History of the Mongols, in Igor de Rachewiltz's open-access translation, gives the Mongol narrative of the campaign. The Jin Shi's biographies of Dujie Sizhong and Wanyan Chengyu, and the Yuan Shi's biography of Muqali, both read in Chinese on Wikisource, give the Jin and the Mongol-Yuan accounts of the battle. Charles R. Bawden's Britannica biography of Genghis Khan gives the wider context. No modern study of the battle itself was read.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Wushabu",
+        "time": "1211",
+        "description": "The Mongol vanguard surprises the Jin repairing the frontier fort at Wushabu."
+      },
+      {
+        "title": "Yehuling",
+        "time": "8th month, 1211",
+        "description": "The Mongol army reaches Yehuling; in the Yuan Shi, Muqali's charge breaks the Jin line."
+      },
+      {
+        "title": "Night retreat",
+        "time": "8th month, 1211",
+        "description": "Chengyu falls back by night toward Xuande, pursued by the Mongols."
+      },
+      {
+        "title": "Huihechuan",
+        "time": "The next day",
+        "description": "The Jin army collapses; Chengyu escapes alone."
+      },
+      {
+        "title": "Toward Zhongdu",
+        "time": "1211",
+        "description": "Mongol raiders enter the Juyong Pass and Zhongdu is put under martial law."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Chinggis Khan",
+        "objective": "Break the Jin field army and open the road to the Jin capital, Zhongdu.",
+        "known": "The Jin had strengthened a long line of frontier posts; Jin defectors described a ruler at odds with his own family.",
+        "uncertainty": "Whether the larger Jin army would stand and fight in the hills.",
+        "constraints": "An army of horsemen far from the steppe; a Jin official later argued that Mongol men and horses suffered from the land and its diseases.",
+        "forces": "Mongol cavalry under commanders such as Muqali and Jebe.",
+        "terrain": "Uplands and passes between the Jin frontier and the plain before Zhongdu.",
+        "logistics": "The sources read do not describe the army's supply, so it is not reconstructed here.",
+        "decision": "He sent the whole army forward behind Muqali's charge and pursued the retreating Jin to the Hui river.",
+        "outcome": "The Jin field army was destroyed and the way toward Zhongdu opened."
+      },
+      {
+        "name": "Wanyan Chengyu",
+        "objective": "Hold the frontier against the Mongol invasion.",
+        "known": "The Mongol vanguard had already surprised the Jin at Wushabu, costing his colleague his command.",
+        "uncertainty": "Whether his army could withstand the Mongols in the field.",
+        "constraints": "A command taken over after a defeat, in an army whose spirit, the Jin Shi says, was broken.",
+        "forces": "The Jin field army, including élite Jüyin troops, and the local levies offered by the strongmen of Xuanping.",
+        "terrain": "Winding streams and gullies that local men knew and offered to use.",
+        "logistics": "The sources read do not describe his supply, so it is not reconstructed here.",
+        "decision": "He fell back without fighting, refused the local levies and retreated by night toward Xuande.",
+        "outcome": "His army collapsed at Huihechuan; he escaped and was removed from office."
+      }
+    ]
   }
 ]

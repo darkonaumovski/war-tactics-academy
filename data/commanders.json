@@ -2007,7 +2007,7 @@
     "strength": "Adapted political and military organization to the terrain and fragmented authority of the Deccan.",
     "limitation": "Negotiated submissions and reversals, including the Treaty of Purandar, show constrained choices rather than constant victory.",
     "legacy": "His state provided foundations for later Maratha expansion; later national narratives should not replace examination of contemporary conditions.",
-    "battleSlugs": [],
+    "battleSlugs": ["pratapgad"],
     "source": {
       "title": "Indian History from 1526–1947: Shivaji and administration",
       "url": "https://nsktu.ac.in/storage/2022/11/CDOE-Study-PRAK-Sastri-Paper.9-Indian-History-1526-1947-A.D.pdf",
@@ -3554,7 +3554,7 @@
     "strength": "The Vicksburg campaign and cooperation with other commanders demonstrate operational flexibility.",
     "limitation": "The Overland Campaign incurred severe casualties; Grant later regretted the assault at Cold Harbor.",
     "legacy": "His military leadership helped defeat a rebellion founded on slavery; his presidency also involved Reconstruction and protection of civil rights.",
-    "battleSlugs": [],
+    "battleSlugs": ["vicksburg"],
     "source": {
       "title": "Ulysses S. Grant: Civil War biography",
       "url": "https://www.loc.gov/exhibits/civil-war-in-america/biographies/ulysses-s-grant.html",
@@ -3684,7 +3684,7 @@
     "strength": "Linked campaigning to the opponent's wider economic and logistical system.",
     "limitation": "Operations inflicted extensive civilian hardship; later campaigns against Indigenous peoples remain central to evaluating his career.",
     "legacy": "His campaigns helped end the Confederacy, while debate continues about the scope and consequences of destructive warfare.",
-    "battleSlugs": [],
+    "battleSlugs": ["vicksburg", "atlanta-campaign"],
     "source": {
       "title": "William Tecumseh Sherman",
       "url": "https://www.nps.gov/vick/learn/historyculture/william-tecumseh-sherman.htm",
@@ -3870,7 +3870,7 @@
     "strength": "United substantial forces against an invading colonial army, with vital contributions from regional leaders and Empress Taytu.",
     "limitation": "The campaign required difficult coalition management and supply arrangements; victories should not erase these collective contributions.",
     "legacy": "Adwa protected Ethiopian sovereignty and became a global anti-colonial symbol. Menelik's own territorial expansion also involved coercion and subjugation.",
-    "battleSlugs": [],
+    "battleSlugs": ["adwa"],
     "source": {
       "title": "Emperor Menelik II and the Battle of Adwa: A Pictorial History",
       "url": "https://blogs.loc.gov/international-collections/2020/03/emperor-menelik-ii-of-ethiopia-and-the-battle-of-adwa-a-pictorial-history/",

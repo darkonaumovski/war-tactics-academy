@@ -512,6 +512,24 @@ export const warDetails: Record<string, WarDetails> = {
       ["1648", "Peace of Westphalia"],
     ),
   },
+  "maratha-bijapur": {
+    participants: [
+      "Shivaji's Maratha forces",
+      "Adil Shahi Sultanate of Bijapur",
+      "Maval deshmukhs on both sides",
+    ],
+    geography: "The Western Ghats, the Konkan and the Kolhapur country.",
+    developments: t(
+      ["c. 1655", "Shivaji begins seizing Bijapur outposts"],
+      ["1659", "Afzal Khan marches from Bijapur to Wai"],
+      ["10 November 1659", "Afzal Khan killed at Pratapgad; his army routed"],
+      [
+        "December 1659 – February 1660",
+        "Marathas take Panhala and overrun South Konkan and the Kolhapur country",
+      ],
+      ["2 March 1660", "Siddi Jauhar besieges Shivaji in Panhala"],
+    ),
+  },
   "spanish-succession": {
     participants: [
       "Grand Alliance: England (from 1707 Britain), the Dutch Republic, Habsburg Austria and others",
@@ -711,6 +729,30 @@ export const warDetails: Record<string, WarDetails> = {
         "May 1871",
         "Treaty of Frankfurt; France cedes Alsace and part of Lorraine",
       ],
+    ),
+  },
+  "italo-ethiopian-1895": {
+    participants: [
+      "Ethiopian Empire under Menelik II",
+      "Kingdom of Italy",
+      "African askari in Italian service",
+    ],
+    geography: "Eritrea and Tigray in northern Ethiopia.",
+    developments: t(
+      ["2 May 1889", "Treaty of Wichale (Ucciali)"],
+      ["September 1893", "Menelik repudiates the treaty"],
+      [
+        "13–15 January 1895",
+        "Italian victories over Ras Mangasha at Coatit and Senafe",
+      ],
+      ["March 1895", "Italians occupy Adigrat, Mekele, Adwa and Axum"],
+      ["December 1895", "Italian force destroyed at Amba Alagi"],
+      [
+        "20 January 1896",
+        "The besieged Italian fort at Mekele ends its resistance",
+      ],
+      ["1 March 1896", "Battle of Adwa"],
+      ["October 1896", "Treaty of Addis Ababa"],
     ),
   },
   "russo-japanese": {

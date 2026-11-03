@@ -6643,5 +6643,1116 @@
         "outcome": "Victory, promotion to field marshal and a triumphal entry into Bucharest."
       }
     ]
+  },
+  {
+    "slug": "vicksburg",
+    "sources": [
+      {
+        "title": "Personal Memoirs of U. S. Grant",
+        "url": "https://www.gutenberg.org/ebooks/4367",
+        "publisher": "Project Gutenberg"
+      },
+      {
+        "title": "Vicksburg Siege",
+        "url": "https://www.nps.gov/vick/learn/historyculture/vicksburgsiege.htm",
+        "publisher": "National Park Service, Vicksburg National Military Park"
+      },
+      {
+        "title": "Cave life",
+        "url": "https://www.nps.gov/vick/learn/historyculture/cave-life.htm",
+        "publisher": "National Park Service, Vicksburg National Military Park"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Vicksburg, on bluffs above the Mississippi, was fortified by the Confederate army under John C. Pemberton, which, the Park Service writes, had more than a year to build earthworks and mount more than 170 cannon. Grant writes that its fall would give the Union the whole river and divide the Confederacy. From December 1862 his attempts to reach the city, from the north and through the bayous west of the river, failed to bring him onto dry ground on the enemy's side.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "chs. XXXII, XXXIII, XXXIX"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Grant writes that the elections of 1862 had gone against the prosecution of the war, voluntary enlistment had nearly ceased and the draft was resisted, so that a defeat or a backward movement would have made the draft impossible to enforce. A forward movement to a decisive victory, he concluded, was necessary.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXXIX"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Grant first planned to get below Vicksburg, join Nathaniel Banks against Port Hudson and use New Orleans as a base. When Banks wrote that he could not be at Port Hudson for ten days, Grant judged the time worth more than the reinforcements and pushed into the interior. Pemberton's aim was to hold Vicksburg; Joseph E. Johnston, gathering forces to the east, aimed to raise the siege.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "chs. XXXVII, XXXIX"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Grant calls the country between the river and the Big Black admirable for defence but difficult for an offensive campaign. The landing at Bruinsburg lay two miles from high ground. Vicksburg stands on ridges of deep yellow clay of great tenacity, and its civilians dug shelters into the hillsides; the Park Service describes caves of different sizes and shapes, some T- or Y-shaped, damp and poorly ventilated, which a direct mortar hit could collapse.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "chs. XXXIII, XXXVII, XXXVIII"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Grant commanded the Army of the Tennessee, with corps under McClernand, McPherson and Sherman, supported by Admiral Porter's gunboats; without the navy, Grant writes, the campaign could not have been made in the way it was with any number of men. Pemberton commanded at Vicksburg; Johnston commanded the forces gathering in Grant's rear. Grant gives strengths for both sides at several points; the figures are his and are not used.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "chs. XXXVII, XXXIX"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "After an attack on Grand Gulf, Grant's army crossed the river below Vicksburg, and on the morning of 30 April McClernand's corps and one division of McPherson's landed at Bruinsburg. Grant writes that he felt a relief scarcely ever equalled: he was in the enemy's country with the river and Vicksburg between him and his base of supplies, but on dry ground on the same side as the enemy.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "chs. XXXIII, XXXIX"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Marching inland on five days' rations and no forage, Grant's army fought and won at Port Gibson, Raymond, Jackson, Champion's Hill and the Big Black, took the state capital and destroyed its military works, and drove Pemberton's army into Vicksburg. On 19 May, twenty days after the crossing, the city was invested and an assault failed; a larger assault on 22 May also failed, and from 23 May Grant laid regular siege, bringing up supplies by roads from the Yazoo River. On 7 June Confederate troops attacked the Union depot at Milliken's Bend, where they met untested United States Colored Troops. On 3 July Pemberton opened correspondence; after a meeting with Grant he accepted terms, and on 4 July the garrison marched out, stacked arms and was paroled.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "chs. XXXIV–XXXVIII"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Grant pushed inland without waiting for Banks and, after the failed assault of 22 May, chose to out-camp the enemy rather than lose more men. At the surrender he first demanded unconditional surrender, then, against the almost unanimous judgment of his council, offered terms that let the garrison sign paroles and march out. Under the exchange cartel, he explains, prisoners had to be exchanged or paroled, and shipping more than thirty thousand men north would have cost great expense only for them to be paroled at the end. Pemberton wrote in his report that he chose 4 July expecting better terms from the Union's national vanity; Grant thought he chose it to avoid an assault he knew would succeed.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "chs. XXXVII–XXXIX"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The crossing at Bruinsburg and the rapid march inland let Grant meet the Confederate forces separately, before they could combine, and the capture of Jackson cut Vicksburg off from the east. Once the navy held the river and the army closed the land side, the garrison was limited to what it had.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "chs. XXXVII, XXXIX"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "After 47 days of siege the Confederate army surrendered on 4 July with its arms and cannon. Grant writes that the two armies began to fraternise as soon as his men entered the lines, his soldiers giving bread from their haversacks to men they had been starving out. The fall of Vicksburg brought the surrender of Port Hudson, and with it the whole Mississippi.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "chs. XXXVIII–XXXIX"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Grant writes that the capture, together with Gettysburg, gave new spirit to the North, that the Union now held the whole river, and that the Confederacy was cut in two. Sherman then drove Johnston from Jackson. Grant ordered food and medicine for destitute families along the army's route, whose resources had been taken for its supply. After the siege, the Park Service notes, residents left the caves to erode.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXXIX"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Speed can substitute for a secure supply line when the enemy's forces are divided. Army and navy together made the campaign possible; Grant judged it impossible without the navy.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXXIX"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Grant's memoirs, written twenty years later, are the victor's account; his remark that Providence seemed to direct the campaign and his figures for both sides are his. He prints Pemberton's own explanation of the 4 July surrender beside his contrary reading. Halleck feared that paroling the garrison would put the men back in the Confederate ranks; Grant notes they had already been delivered to the Confederate exchange commissioner. The civilian experience of the siege is barely present in Grant's account.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Grant's Personal Memoirs, on Project Gutenberg, give the commander's narrative and quote Pemberton's report. The National Park Service's pages on the siege and on cave life, from Vicksburg National Military Park, give the course of the siege and the civilians' shelters. No Confederate memoir was read.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Crossing at Bruinsburg",
+        "time": "30 April 1863",
+        "description": "Grant's army lands on the east bank below Vicksburg."
+      },
+      {
+        "title": "Inland campaign",
+        "time": "May 1863",
+        "description": "Victories at Port Gibson, Raymond, Jackson, Champion's Hill and the Big Black drive Pemberton into the city."
+      },
+      {
+        "title": "Assaults",
+        "time": "19 and 22 May 1863",
+        "description": "Two assaults on the Vicksburg defences fail."
+      },
+      {
+        "title": "Siege",
+        "time": "23 May – 3 July 1863",
+        "description": "Grant besieges the city while the navy holds the river and Johnston gathers forces in the rear."
+      },
+      {
+        "title": "Surrender",
+        "time": "4 July 1863",
+        "description": "Pemberton's army marches out, stacks arms and is paroled."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Ulysses S. Grant",
+        "objective": "Take Vicksburg and open the Mississippi.",
+        "known": "Confederate forces were spread between Vicksburg, Grand Gulf and Jackson, and Banks could not join him for ten days.",
+        "uncertainty": "Whether he could beat the separated Confederate forces before they combined.",
+        "constraints": "A large river behind him, held above and below by the enemy, and a public mood in the North that needed a decisive victory.",
+        "forces": "The Army of the Tennessee, supported by Porter's gunboats.",
+        "terrain": "Broken country well suited to defence, and a city on ridges of tenacious clay.",
+        "logistics": "Only five days' rations were issued for the march inland; during the siege, roads from the Yazoo brought up supplies.",
+        "decision": "He pushed inland without waiting for Banks, laid siege after two failed assaults and paroled the garrison.",
+        "outcome": "The surrender of Vicksburg and its garrison on 4 July."
+      },
+      {
+        "name": "John C. Pemberton",
+        "objective": "Hold Vicksburg.",
+        "known": "Grant's army had crossed below the city and beaten the Confederate forces inland; Johnston was gathering forces in the Union rear.",
+        "uncertainty": "Whether Johnston could raise the siege.",
+        "constraints": "A garrison cut off by the river and the siege lines, with food running short toward the end.",
+        "forces": "The Confederate army at Vicksburg, behind earthworks with many guns.",
+        "terrain": "Earthworks on the ridges around the city, built over more than a year.",
+        "logistics": "Once invested, the garrison had only what was in the city; at the meeting he told Grant he had rations for some time, which Grant recalled as about two weeks.",
+        "decision": "He held out through the siege, then opened correspondence on 3 July and surrendered on the 4th, a date he said he chose for better terms.",
+        "outcome": "The surrender and parole of his army."
+      }
+    ]
+  },
+  {
+    "slug": "atlanta-campaign",
+    "sources": [
+      {
+        "title": "The Atlanta Campaign",
+        "url": "https://www.battlefields.org/learn/articles/atlanta-campaign",
+        "publisher": "American Battlefield Trust"
+      },
+      {
+        "title": "Memoirs of General William T. Sherman",
+        "url": "https://www.gutenberg.org/ebooks/4361",
+        "publisher": "Project Gutenberg"
+      },
+      {
+        "title": "John B. Hood, Advance and Retreat",
+        "url": "https://archive.org/details/01090379.3186.emory.edu",
+        "publisher": "Hood Orphan Memorial Fund, New Orleans, 1880 (Internet Archive)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "In spring 1864 Grant planned movements in several theatres at once. His orders to Sherman, which Sherman prints, were to move against Johnston's army, break it up, get into the interior of the enemy's country as far as he could and inflict all the damage he could against its war resources, leaving the plan to Sherman. Atlanta, a manufacturing centre and rail hub, was at stake; Johnston's Army of Tennessee stood at Dalton.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "ch. XVI"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "A presidential election was due in November 1864, with Lincoln against General McClellan, nominated by the Democrats. Sherman records Lincoln telling him later that he had been in doubt that summer, with Grant seemingly checkmated before Richmond and Petersburg and Sherman's army apparently stopped before an impassable barrier.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "ch. XIX"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Sherman aimed at Johnston's army and the resources behind it, and in practice manoeuvred to threaten the railroad behind each Confederate position. Johnston, the Battlefield Trust writes, planned to hold strong defensive ground and wait for an attack. Hood, who replaced him, preferred what he called the school of Lee and Jackson and condemned Johnston's policy as a timid defensive.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "ch. XVI"
+          },
+          {
+            "source": 2,
+            "locator": "ch. X"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The campaign ran south from Dalton along the Western & Atlantic Railroad, across ridges and rivers: Rocky Face Ridge, the Oostanaula and Etowah, the hills about Kennesaw and the Chattahoochee. Atlanta depended on railroads. Hood writes that the road to Augusta was lost before he took command, that the West Point road lay within the enemy's reach, and that the Macon railroad was his remaining line of supply.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "ch. XVII"
+          },
+          {
+            "source": 2,
+            "locator": "ch. XII"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Sherman commanded three armies, under George H. Thomas, James B. McPherson and John M. Schofield. Johnston commanded the Confederate Army of Tennessee until July, when Jefferson Davis replaced him with John B. Hood; Hood writes that the order reached him about 11 p.m. on 17 July. Hood calls himself comparatively a stranger to the army, and writes that the senior corps commander felt supplanted. The strengths the Battlefield Trust gives are not used.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "ch. X"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "From early May, Thomas and Schofield demonstrated against the Confederate lines while McPherson moved round Johnston's left to threaten the railroad behind him, a pattern repeated through the campaign. Johnston left Rocky Face Ridge on 12 May.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "After sharp fighting at Resaca on 14–15 May, McPherson crossed the Oostanaula and Johnston fell back; a Confederate attack at Cassville on 19 May came to nothing, and inconclusive fighting followed around Dallas, New Hope Church and Pickett's Mill. On 27 June Sherman assaulted the fortified lines at Kennesaw Mountain; by 11.30 the assault had failed. Flanked again, Johnston fell back across the Chattahoochee in early July. Hood attacked at Peachtree Creek on 20 July and on 22 July sent Hardee's corps on a flank attack in which McPherson was killed, but the Confederates were repulsed. Sherman moved by his right to cut the Macon railroad, with fighting at Ezra Church and Utoy Creek. On 31 August Union troops reached the railroad near Jonesboro, and on 1 September Davis's corps carried the Confederate works there. Hood evacuated Atlanta that night, and the city surrendered on 2 September.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "chs. XVII–XIX"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Sherman avoided frontal attack except at Kennesaw, where, after consulting Thomas, McPherson and Schofield, he judged that they could not stretch further and that there was no alternative but to attack fortified lines, a thing carefully avoided until then. Davis's decision to replace Johnston with Hood brought a change to the offensive, and Hood's attacks at Peachtree Creek and on 22 July followed the doctrine he preferred.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "ch. XVII"
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "ch. X"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Hood's failure to break Sherman's armies in the July battles left him defending a city whose supply depended on railroads Sherman could reach. Once Union troops held the Macon railroad near Jonesboro, Atlanta could not be held.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2,
+            "locator": "ch. XII"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Hood abandoned Atlanta on the night of 1 September, and the city surrendered to Federal forces the next morning. The news that Atlanta was “ours, and fairly won” spread across the North. Losses over the four months were heavy on both sides; the figures are not used.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "ch. XIX"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The Battlefield Trust judges that the capture all but assured Lincoln's re-election two months later and set up the March to the Sea. In September Sherman ordered Atlanta's civilians to leave, south or north. Hood protested, calling the measure unprecedented and an act of studied and ingenious cruelty; Sherman replied that Confederate commanders had themselves removed families and had fought so close to towns that shots fell among houses. In his memoirs Sherman gives his real reasons: he wanted the houses for military use and shorter lines, and wanted to be free of feeding and policing a civilian population.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "ch. XIX"
+          },
+          {
+            "source": 2,
+            "locator": "ch. XIV"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Manoeuvre against an enemy's communications can win ground without costly assaults; Sherman's one large frontal attack, at Kennesaw, failed. Changing a commander to change a strategy carries risk when the army has been trained to the old one.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "ch. XVII"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Whether Johnston's retreats or Hood's attacks better served the Confederacy is a long-running dispute, and both memoirs read here take sides. Hood's, written after Sherman's, is largely a reply to Johnston: he blames Johnston's policy for an army unfit for pitched battle and accuses him of leaving without giving the promised counsel. Sherman disputes Johnston's estimate of Union losses at Kennesaw. Sherman's justification for expelling Atlanta's civilians and Hood's protest are both advocacy. The Battlefield Trust's article is unsigned and cites no sources.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "chs. IV–X"
+          },
+          {
+            "source": 1,
+            "locator": "ch. XVII"
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The American Battlefield Trust's article gives the course of the campaign. Sherman's Memoirs, on Project Gutenberg, give his orders, the Kennesaw assault, the fall of the city and his reasons for removing its people. Hood's Advance and Retreat (1880), on the Internet Archive, gives the Confederate commander's view, including the September correspondence with Sherman.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Dalton to Resaca",
+        "time": "May 1864",
+        "description": "Flanking moves force Johnston from Rocky Face Ridge and Resaca."
+      },
+      {
+        "title": "Cassville to Dallas",
+        "time": "19–28 May 1864",
+        "description": "A Confederate attack at Cassville comes to nothing; inconclusive fighting around Dallas and New Hope Church."
+      },
+      {
+        "title": "Kennesaw Mountain",
+        "time": "27 June 1864",
+        "description": "Sherman's assault on fortified lines fails; he turns the position again."
+      },
+      {
+        "title": "Hood's counter-attacks",
+        "time": "20–28 July 1864",
+        "description": "Peachtree Creek, the battle of 22 July and Ezra Church fail to break Sherman's armies."
+      },
+      {
+        "title": "Jonesboro and the fall",
+        "time": "31 August – 2 September 1864",
+        "description": "Union troops cut the Macon railroad; Hood evacuates Atlanta."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "William T. Sherman",
+        "objective": "Break up Johnston's army and reach Atlanta and the South's war resources.",
+        "known": "Johnston held strong positions along the railroad from Dalton.",
+        "uncertainty": "Whether each position could be turned without a frontal attack.",
+        "constraints": "Dependence on the railroad back to Chattanooga and Nashville, and a political calendar that needed a victory before November.",
+        "forces": "Three armies under Thomas, McPherson and Schofield.",
+        "terrain": "Ridges, rivers and fortified hills such as Kennesaw.",
+        "logistics": "His supply came down the railroad from Nashville, which Confederate cavalry tried and failed to cut.",
+        "decision": "He turned the Confederate flank again and again, assaulted at Kennesaw when he judged he could stretch no further, and finally cut the Macon railroad.",
+        "outcome": "Atlanta fell on 2 September."
+      },
+      {
+        "name": "John B. Hood",
+        "objective": "Hold Atlanta by taking the offensive.",
+        "known": "Sherman's armies were within a few miles of the city when he took command, with Thomas preparing to cross Peachtree Creek.",
+        "uncertainty": "Where his own corps were posted; he writes that he had to find them after Johnston left.",
+        "constraints": "Command received late on 17 July, an army he calls used to breastworks, and a senior corps commander who felt passed over.",
+        "forces": "The Army of Tennessee, with Hardee's and Stewart's corps and Wheeler's cavalry.",
+        "terrain": "A city ringed by works and dependent on railroads to Augusta, West Point and Macon.",
+        "logistics": "After the Augusta road was lost, the Macon railroad was his remaining line of supply.",
+        "decision": "He attacked at Peachtree Creek and on 22 July, then evacuated the city when the Macon railroad was cut.",
+        "outcome": "Atlanta was lost; he protested Sherman's expulsion of its civilians."
+      }
+    ]
+  },
+  {
+    "slug": "adwa",
+    "sources": [
+      {
+        "title": "Battle of Adwa",
+        "url": "https://www.britannica.com/event/Battle-of-Adwa",
+        "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Battle of Adowa",
+        "url": "https://www.ebsco.com/research-starters/military-history-and-science/battle-adowa",
+        "publisher": "EBSCO Research Starters (Shumet Sishagne)"
+      },
+      {
+        "title": "Emperor Menelik II of Ethiopia and the Battle of Adwa: A Pictorial History",
+        "url": "https://blogs.loc.gov/international-collections/2020/03/emperor-menelik-ii-of-ethiopia-and-the-battle-of-adwa-a-pictorial-history/",
+        "publisher": "Library of Congress (Fentahun Tiruneh)"
+      },
+      {
+        "title": "Baratieri, Oreste",
+        "url": "https://www.treccani.it/enciclopedia/oreste-baratieri_(Dizionario-Biografico)/",
+        "publisher": "Dizionario Biografico degli Italiani (Mariano Gabriele), in Italian"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Emperor Yohannes IV died in 1889, Sahle Mariam of Shewa, whom Italy had supplied with weapons, ammunition and money, secured the imperial title as Menelik II. The Treaty of Wichale (Ucciali) of 2 May 1889 promised an Italian loan and recognised Italy's claim to Eritrea. Menelik read its Article XVII as allowing Ethiopia to use the Italian government in dealing with other powers; the Italian premier Francesco Crispi read it as requiring that, which implied a protectorate. Menelik repudiated the article in 1890 and the whole treaty in 1893.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Oreste Baratieri, governor of Eritrea from 1892, hoped to enlarge the colony. Gabriele records his victories over Ras Mangasha at Coatit and Senafe in January 1895, the occupation of Adigrat, Mekele, Adwa and Axum, and the Italian government's refusal of reinforcements, divided between Crispi's African ambitions and Sonnino's economies. Menelik's general mobilisation followed. In December 1895 a force under Major Toselli was destroyed at Amba Alagi by troops led by Ras Makonnen, and on 20 January 1896 the besieged fort at Mekele ended its resistance.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Menelik prepared to resist any Italian attempt to impose dominion by force. Crispi wanted a quick success of prestige, while Baratieri, by Gabriele's account, by then wanted a purely defensive war. Both armies, Britannica says, were short of supplies, and each waited for the other to strike first.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The armies faced each other near Adwa in Tigray, in north-central Ethiopia. The Italians lacked reliable maps, and Britannica describes their columns as unable to find their way across the terrain. Gabriele describes the retreat as especially costly in the valley of Iehà, where Ethiopian cavalry charged the withdrawing troops.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Menelik's army, well armed with modern weapons, was far larger than Baratieri's; Menelik played down its size with false reports and rumours of discord among his forces. The Library of Congress notes that Taytu, his consort, warned him against Italian emissaries and controlled the enemy's water sources. Baratieri's force comprised Italian brigades and African askari, with columns under Albertone, Arimondi, Dabormida and Ellena. The figures the sources give are not used.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Under pressure from Rome, Baratieri met his generals. Britannica says he at first seemed to favour retreat but was persuaded to fight; Gabriele places the council at Saurià on 28 February, where Arimondi's rash offensive view prevailed over Baratieri's opposition, and notes that Baratieri's order of 29 February gave no clear directions for what to do once the first objectives were reached or if a retreat became necessary. On the night of 29 February the Italians advanced on Adwa in separate columns, aiming to surprise the Ethiopians.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 1 March the columns lost touch with each other and fought almost in isolation. Albertone's brigade was destroyed first, although its artillery at one point caused some disorder among the Ethiopians. Ethiopian forces surrounded the isolated columns and fought them at close quarters, cancelling the Italian advantage in long-range weapons. Small Italian counter-attacks held for a time, but as Ellena's and Arimondi's brigades gave way the retreat became confused. Dabormida's column on the right, which had kept attacking on its own, was surrounded; Dabormida was killed, and his troops broke out and retreated.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Menelik concealed his strength and waited while his army could still be fed. Baratieri, pressed by Rome and with his successor already designated, accepted an offensive he opposed. His plan to surprise the Ethiopians with converging columns failed when the columns lost coordination.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The separation of the Italian columns, beginning with Albertone's, let the Ethiopians defeat them one after another before they could support each other.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Italian army was routed, losing very heavily in killed and prisoners among both Italian and askari troops. Ethiopian losses were also heavy, though a small share of the whole army. The sources' figures differ and are not used.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "In Italy the defeat brought Crispi's resignation. Baratieri was tried by a military tribunal at Asmara for omissions, negligence and abandoning his command, was acquitted, and left the army. The Treaty of Addis Ababa of October 1896 abrogated Wichale, and Italy abandoned its claim to a protectorate. Britannica writes that the victory gave Menelik credibility with the European powers and a period of peace, and calls it the first crushing defeat of a European power by African forces in the colonial era. Through Coptic mediation, the Library of Congress notes, Italian prisoners were released from November 1896.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Concentration defeats dispersion: separated columns advancing over unfamiliar ground can be destroyed one by one. Political pressure from a distant capital can push a commander into a battle he doubts.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The sources disagree on the run-up: Britannica dates Crispi's goading telegram to 28 February and the council to the next day, while Gabriele dates the telegram, which spoke of military consumption, to 25 February and the council to 28 February. Italian writers long argued over Baratieri's responsibility; Gabriele's bibliography includes works written in his defence and for his rehabilitation, and the 1896 tribunal acquitted him. Casualty estimates vary between sources and are not used. The Ethiopian paintings held by the Library of Congress, such as Shibru Nuru's of 1975 with St George above the battle, present it as a national and religious triumph, while European images of the time range from caricature to respectful trade cards.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Britannica gives the narrative and the outcome; Shumet Sishagne's EBSCO research starter gives the conduct of the battle on the Ethiopian side; Fentahun Tiruneh's Library of Congress article presents the Ethiopian visual tradition and the aftermath; Mariano Gabriele's article in the Dizionario Biografico degli Italiani, in Italian, gives the Italian command and the battle by brigades. No Ethiopian chronicle and neither Baratieri's memoirs nor the Italian official history were read.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Wichale dispute",
+        "time": "1889–1893",
+        "description": "Menelik repudiates the treaty that Italy reads as a protectorate."
+      },
+      {
+        "title": "Tigray campaign",
+        "time": "1895",
+        "description": "Italian victories and occupations in Tigray; Menelik mobilises."
+      },
+      {
+        "title": "Amba Alagi and Mekele",
+        "time": "December 1895 – January 1896",
+        "description": "An Italian force is destroyed at Amba Alagi and the fort at Mekele falls."
+      },
+      {
+        "title": "Night advance",
+        "time": "29 February 1896",
+        "description": "Baratieri's columns march on Adwa by night."
+      },
+      {
+        "title": "Columns destroyed",
+        "time": "1 March 1896",
+        "description": "The Ethiopians surround and defeat the separated columns one by one."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Menelik II",
+        "objective": "Defeat Italy's attempt to impose a protectorate by force.",
+        "known": "Italian forces had advanced into Tigray and had been defeated at Amba Alagi and Mekele.",
+        "uncertainty": "How long his army could be fed while waiting for the Italians to move.",
+        "constraints": "A very large army in danger of running out of food.",
+        "forces": "A large army, well armed with modern weapons.",
+        "terrain": "The hills around Adwa, for which the Italians had no reliable maps.",
+        "logistics": "Food for so large an army was running short.",
+        "decision": "He concealed his strength with false reports, waited, and when the Italians advanced, surrounded their separated columns.",
+        "outcome": "A decisive victory and the abandonment of Italy's protectorate claim."
+      },
+      {
+        "name": "Oreste Baratieri",
+        "objective": "Hold the colony's gains; under pressure from Rome, win a success of prestige.",
+        "known": "Menelik's army was much larger than his own, and his supplies were short.",
+        "uncertainty": "The real size of Menelik's army, which Menelik concealed.",
+        "constraints": "Too little food, water, clothing and working weapons, no reliable maps, a government that refused reinforcements and pressed for action, and a successor already designated.",
+        "forces": "Italian brigades and African askari.",
+        "terrain": "Unfamiliar mountain country around Adwa.",
+        "logistics": "His supplies allowed him to stay in position only for a limited time.",
+        "decision": "Against his own judgment he accepted Arimondi's offensive plan and ordered a night advance on Adwa in separate columns.",
+        "outcome": "His army was routed; he was tried, acquitted and left the army."
+      }
+    ]
+  },
+  {
+    "slug": "pratapgad",
+    "sources": [
+      {
+        "title": "Krishnaji Anant Sabhasad, Sabhasad Bakhar, in Siva Chhatrapati, trans. Surendranath Sen",
+        "url": "https://archive.org/details/sivachhatrapatib00sensuoft",
+        "publisher": "University of Calcutta, 1920 (Internet Archive)"
+      },
+      {
+        "title": "Jadunath Sarkar, Shivaji and His Times",
+        "url": "https://archive.org/details/in.ernet.dli.2015.52382",
+        "publisher": "1929 edition (Internet Archive)"
+      },
+      {
+        "title": "Shivaji",
+        "url": "https://www.britannica.com/biography/Shivaji",
+        "publisher": "Encyclopaedia Britannica (Ranjit Ramchandra Desai)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Shivaji's father, Shahji, served the sultan of Bijapur. From about 1655, Britannica writes, Shivaji began to seize the weaker Bijapur outposts in the Western Ghats. Sarkar describes his conquest of Javli and his enlistment of Pathan mercenaries from the disbanded soldiery of Bijapur.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "p. 9"
+          },
+          {
+            "source": 1,
+            "locator": "ch. III"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Bijapur's resources had been crippled by war with the Mughals and, Sarkar writes, by a regency under the Dowager Queen. The command against Shivaji went begging at court until Afzal Khan, a general of the first rank, accepted it; the Sabhasad Bakhar has him boast that he would bring Shivaji back a prisoner without once dismounting from his horse.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "p. 9"
+          },
+          {
+            "source": 1,
+            "locator": "pp. 59–60"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Afzal Khan, Sarkar writes, did not want an open contest of force in the hills; he planned to win over the Maval chiefs and, on the Dowager Queen's instructions, to capture or kill Shivaji by pretending friendship. Through his envoy he offered to secure Shivaji's pardon and the confirmation of his forts. Shivaji's aim was to keep his independence: capitulation, Sarkar writes, would have ended his hopes for ever.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "pp. 60–64"
+          },
+          {
+            "source": 0,
+            "locator": "pp. 10–11"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Pratapgad stands in the forested Western Ghats near the Mahabaleshwar plateau. Afzal Khan descended by the Radtondi pass and camped at Par, a mile below the fort, his men scattered in the valley near the pools at the source of the Koyna. The meeting place was an eminence below the fort, reached by a forest path.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "pp. 64–65"
+          },
+          {
+            "source": 0,
+            "locator": "p. 17"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Afzal Khan led regular Bijapur forces with artillery, elephants and transport; Khandoji Khopde, a Maval deshmukh who had promised to arrest Shivaji in return for a coveted office, led his vanguard. Shivaji's forces were mainly Mavle infantry, with armies under Netaji Palkar above the Ghats and Moro Pant from the Konkan. Figures for Afzal's army differ between contemporary and later Maratha accounts, and none is used.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "pp. 59–64"
+          },
+          {
+            "source": 0,
+            "locator": "pp. 11–17"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "At a first council Shivaji's officers urged peace; after a night of reflection, and a vision of the goddess Bhavani that the Bakhar records, he resolved to fight and left instructions for the government should he die. Envoys passed between the camps, and Shivaji's agent Gopinath (Pantaji) learnt by bribes that Afzal's officers expected Shivaji to be seized at the meeting; he urged Shivaji to strike first. Shivaji feigned fear and asked the Khan to come to Javli, where a path was cut and food laid ready for his army. He posted men in ambush along the forest path to the pavilion and brought Netaji Palkar and Moro Pant within reach, to attack on the signal of a gun from the fort.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "pp. 11–20"
+          },
+          {
+            "source": 1,
+            "locator": "pp. 62–65"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Afzal Khan left his escort of musketeers behind and came up in a palanquin with two soldiers, the swordsman Sayyid Banda and the envoys; at Shivaji's request Sayyid Banda was sent away. Shivaji came with two armed companions, wearing armour under his clothes, with steel claws in his left hand and a dagger. As they embraced, both the Bakhar and Sarkar say, the Khan held Shivaji's head under his arm and struck at his side with a dagger, which the armour turned; Shivaji tore him open with the claws and stabbed him. Sambhaji Kavji cut down the bearers and beheaded the Khan, and Jiv Mahala struck down Sayyid Banda. A gun was fired from the fort, and the waiting Maratha forces fell on the camp from four sides; Sarkar describes about three hours of desperate fighting by groups without a common plan.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "pp. 19–24"
+          },
+          {
+            "source": 1,
+            "locator": "pp. 65–68"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Shivaji chose to fight rather than submit, against his council's advice, and to meet the Khan only on his own ground, near his fort and his concealed forces. Afzal Khan agreed to come to Javli and, at Gopinath's urging, left his escort behind.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "pp. 11–17"
+          },
+          {
+            "source": 1,
+            "locator": "pp. 62–65"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The death of the commander at the meeting left an army in unknown, forested country without leadership. Sarkar argues that Afzal, expecting Shivaji's death to end his power at once, had not kept his troops ready and did not know that two Maratha armies were close by.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "pp. 67–68, 72–73"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Bijapur army was destroyed or dispersed, and its artillery, treasure, elephants, horses and baggage were taken. Those who begged for quarter were spared, and women, children, Brahmans and camp-followers released; Afzal Khan's eldest son, Fazl Khan, escaped through the forest. Shivaji enlisted the sons of his fallen men, pensioned their widows at half pay and rewarded the wounded.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "pp. 23–26"
+          },
+          {
+            "source": 1,
+            "locator": "pp. 68–69"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Overnight, Britannica writes, Shivaji became a formidable warlord with the horses, guns and ammunition of the Bijapur army. Sarkar dates the victory to 10 November 1659 and describes the Marathas pouring into South Konkan and the Kolhapur country, taking Panhala and defeating another Bijapur army by February 1660, before Siddi Jauhar besieged Shivaji in Panhala in March. Among the Marathas the event became the most celebrated of Shivaji's life, sung in ballads.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "pp. 69–74"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A parley between enemies is dangerous ground: here each side prepared for treachery by the other. Forces hidden in country they know let a smaller army exploit the moment when an enemy's command is removed.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "pp. 72–73"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Who intended treachery is the central dispute. Britannica writes that Shivaji lured the Khan to the meeting with submissive appeals and killed him. Sarkar, citing a contemporary English factory letter from Rajapur that Bijapur told the Khan to take Shivaji by pretending friendship, concludes that Afzal struck first and calls Shivaji's act, after Burke, a preventive murder. Sarkar notes that Khafi Khan, a later Mughal historian, says both men came unarmed, and Sen's notes say that Grant Duff's account follows Khafi Khan. The Sabhasad Bakhar, which Sarkar dates to 1694, is a devotional narrative with prophecies and a vision of the goddess, and Sarkar cites reasons to doubt its stories of Afzal's desecration of temples as later popular inventions. Sen's note dates Afzal's death to September 1659; Sarkar gives 10 November, which this study follows.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1,
+            "locator": "pp. 61, 66, 72–73"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The Sabhasad Bakhar, in Surendranath Sen's translation of 1920, is the Maratha court account. Jadunath Sarkar's Shivaji and His Times weighs it against Persian histories and the English factory records, with an appendix on the evidence for the affair. Ranjit Ramchandra Desai's Britannica biography gives the modern summary. No Bijapur chronicle was read except as Sarkar reports it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Afzal Khan's march",
+        "time": "1659",
+        "description": "From Bijapur by Tuljapur to Wai, where the Khan halts for months."
+      },
+      {
+        "title": "Council and envoys",
+        "time": "1659",
+        "description": "Shivaji resolves to fight; envoys arrange a meeting at Javli."
+      },
+      {
+        "title": "The meeting",
+        "time": "10 November 1659",
+        "description": "Afzal Khan is killed in the pavilion below Pratapgad."
+      },
+      {
+        "title": "The camp attacked",
+        "time": "10 November 1659",
+        "description": "On the signal gun, Maratha forces fall on the leaderless Bijapur army."
+      },
+      {
+        "title": "Into Konkan and Kolhapur",
+        "time": "December 1659 – February 1660",
+        "description": "The Marathas take Panhala and defeat another Bijapur army."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Shivaji",
+        "objective": "Keep his independence against Bijapur's leading general.",
+        "known": "A regular Bijapur army with artillery had marched to Wai and laid waste his territory; his agent reported that the Khan meant to seize him at the meeting.",
+        "uncertainty": "Whether the Khan meant treachery, and whether his own officers, who had urged peace, would hold together.",
+        "constraints": "A mostly infantry force that had never faced Bijapur's regular army.",
+        "forces": "Mavle infantry in the forests and armies under Netaji Palkar and Moro Pant.",
+        "terrain": "Forested hills and passes around Pratapgad that his men knew.",
+        "logistics": "He had a path cut and food laid along it for the Khan's army, drawing it into country he controlled.",
+        "decision": "He met the Khan in armour with concealed weapons near his fort and, after the Khan's attack, killed him and signalled the attack on the camp.",
+        "outcome": "The Bijapur army was destroyed and its equipment taken; he became a formidable power."
+      },
+      {
+        "name": "Afzal Khan",
+        "objective": "Capture or kill Shivaji, by negotiation if possible, and restore Bijapur's authority in the Maval.",
+        "known": "Shivaji avoided open battle in the hills; the Maval deshmukhs had been summoned to join the Bijapur army.",
+        "uncertainty": "Shivaji's real intentions and the position of the Maratha armies, which, Sarkar argues, he did not know.",
+        "constraints": "The force Bijapur could spare after the Mughal war, in hill and forest country unsuited to a regular army.",
+        "forces": "Regular Bijapur cavalry and infantry with artillery, elephants and transport, and Khandoji Khopde's Mavle contingent.",
+        "terrain": "A camp scattered in the valley at Par below the fort, near the pools at the source of the Koyna.",
+        "logistics": "His army moved with artillery, wagons, elephants and camels, along a path that Shivaji's men had cut and supplied.",
+        "decision": "He agreed to meet Shivaji at Javli and left his musketeers behind at the envoy's urging.",
+        "outcome": "He was killed at the meeting and his army routed."
+      }
+    ]
   }
 ]

@@ -253,6 +253,15 @@ export const wars: War[] = [
     "The Peace of Westphalia altered political arrangements after immense civilian suffering.",
   ],
   [
+    "maratha-bijapur",
+    "Shivaji’s war with Bijapur",
+    "early-modern",
+    "1659–1660",
+    "Bijapur sent its leading general against Shivaji, whose victory at Pratapgad opened South Konkan and Kolhapur to the Marathas.",
+    "From about 1655 Shivaji seized Bijapur outposts and lands in the Western Ghats.",
+    "Shivaji survived Bijapur’s counter-offensive; in 1660 Bijapur, acting with the Mughals, besieged him in Panhala.",
+  ],
+  [
     "spanish-succession",
     "War of the Spanish Succession",
     "early-modern",
@@ -332,6 +341,15 @@ export const wars: War[] = [
     "Prussia and allied German states fought the Second French Empire and its republican successor.",
     "Diplomatic conflict over a Spanish royal candidature escalated amid national rivalry.",
     "German unification and French territorial losses changed the European balance.",
+  ],
+  [
+    "italo-ethiopian-1895",
+    "First Italo-Ethiopian War",
+    "industrial",
+    "1895–1896",
+    "Italy tried to extend its colony of Eritrea into Ethiopia and was defeated by Menelik II’s army.",
+    "Italy read the Treaty of Wichale of 1889 as giving it a protectorate over Ethiopia; Menelik repudiated the treaty.",
+    "The Treaty of Addis Ababa of 1896 abrogated Wichale, and Italy abandoned its claim to a protectorate.",
   ],
   [
     "russo-japanese",

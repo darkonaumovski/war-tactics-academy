@@ -1,13 +1,13 @@
 # Product roadmap
 
-The battle expansion is complete: 135 engagements with studies in six collections (Alexander, Rome, Napoleon, the First World War, the Serbian Front and the Second World War), 106 commander profiles, ten courses and nineteen decision exercises, with a readable atlas, collection pages, shareable catalog filters, campaign route maps, commander career strips and search by war, campaign and commander. The priorities below follow from it.
+The battle expansion is complete: 139 engagements with studies in six collections (Alexander, Rome, Napoleon, the First World War, the Serbian Front and the Second World War), 106 commander profiles, ten courses and nineteen decision exercises, with a readable atlas, collection pages, shareable catalog filters, campaign route maps, commander career strips and search by war, campaign and commander. The priorities below follow from it.
 
 ## Priority 1 — Editorial depth and evidence
 
-1. Historian review of all 135 studies and 106 commander profiles. Extend section-level references to sentence-level citations with editions and page locators, add contrasting scholarship, and expand the brief study sections. Most studies (102 of 135) list three or four sources, mostly encyclopedic or institutional; the sixteen that listed only two were deepened in four batches (T1–T4), often with a source from the other side. Specialist histories and primary texts should come next.
+1. Historian review of all 139 studies and 106 commander profiles. Extend section-level references to sentence-level citations with editions and page locators, add contrasting scholarship, and expand the brief study sections. Most studies (106 of 139) list three or four sources, mostly encyclopedic or institutional; the sixteen that listed only two were deepened in four batches (T1–T4), often with a source from the other side. Specialist histories and primary texts should come next.
 2. Add substantive campaign narratives and war bibliographies; campaign pages are still indexes with a schematic map.
 3. Develop battle-specific interpretive diagrams with documented geometry provenance; use georeferenced overlays only where source quality supports them. Preserve a text equivalent.
-4. Review global periodization, command responsibility and transliteration consistently. Expand African, Asian, Middle Eastern and American coverage beyond the European-centred collections. Batches G1–G4 give a battle to each commander profile that had none; G1 added Mohi, Hansan Island, Nagashino and Karnal, and G2 Dara, Arsuf, Leuthen and Rymnik; six profiles remain unlinked.
+4. Review global periodization, command responsibility and transliteration consistently. Expand African, Asian, Middle Eastern and American coverage beyond the European-centred collections. Batches G1–G4 give a battle to each commander profile that had none; G1 added Mohi, Hansan Island, Nagashino and Karnal, G2 Dara, Arsuf, Leuthen and Rymnik, and G3 Vicksburg, the Atlanta campaign, Adwa and Pratapgad; two profiles, Genghis Khan and Shaka, remain unlinked.
 
 ## Priority 2 — Curriculum and media
 

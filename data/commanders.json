@@ -1301,7 +1301,7 @@
     "strength": "Experience across different theaters helped connect reconnaissance, movement and operational planning.",
     "limitation": "Popular biographies often repeat unsupported claims; translations of the Yuan Shi complicate familiar stories.",
     "legacy": "His career illustrates collective imperial military organization as well as the destructive consequences of conquest.",
-    "battleSlugs": [],
+    "battleSlugs": ["mohi"],
     "source": {
       "title": "Subutai: Sorting Fact from Fiction — Stephen Pow and Jingjing Liao",
       "url": "https://doi.org/10.1163/22127453-12341323",
@@ -1558,7 +1558,7 @@
     "strength": "His war diary provides unusually rich evidence about command, supplies and personal responsibilities.",
     "limitation": "Court politics interrupted his command; popular retellings can overstate the role of turtle ships in every victory.",
     "legacy": "Killed at Noryang, he became a central figure in Korean historical memory. His surviving writings should be distinguished from later legend.",
-    "battleSlugs": [],
+    "battleSlugs": ["hansan-island"],
     "source": {
       "title": "The Great Admiral Yi Sun-sin: exhibition and primary documents",
       "url": "https://vcm.museum.go.kr/ENG/contents/E0202010000.do?exhiSpThemId=3225173&listType=gallery&menuId=current&schM=view",
@@ -1618,7 +1618,7 @@
     "strength": "Mobilized resources and firearms within an expanding territorial organization.",
     "limitation": "Dependent relationships with retainers remained vulnerable; Akechi Mitsuhide's attack ended his rule in 1582.",
     "legacy": "Unification included severe violence against religious and political opponents; simplified accounts of firearm innovation require caution.",
-    "battleSlugs": [],
+    "battleSlugs": ["nagashino"],
     "source": {
       "title": "Nobunaga and the Sengoku period: permanent exhibition",
       "url": "https://www.rekihaku.gifu.gifu.jp/en/exhibition/",
@@ -1682,7 +1682,7 @@
     "strength": "Converted military success into institutions that sustained Tokugawa rule.",
     "limitation": "His earlier defeat at Mikatagahara and dependence on other leaders complicate the image of inevitable victory.",
     "legacy": "The regime brought prolonged domestic stability through hierarchical control; the Toyotomi were eliminated in the Osaka campaigns.",
-    "battleSlugs": ["sekigahara"],
+    "battleSlugs": ["nagashino", "sekigahara"],
     "source": {
       "title": "Tokugawa Ieyasu and the Toyotomi Regime",
       "url": "https://www.visit-shizuoka.com/en/event/detail_687.html",
@@ -1946,7 +1946,7 @@
     "strength": "Recovered territory and defeated major regional armies.",
     "limitation": "Unsuccessful campaigns, heavy taxation and brutal repression undermined his rule; his officers assassinated him.",
     "legacy": "Military expansion brought plunder and mass violence, including the sack of Delhi. His empire fragmented soon after his death.",
-    "battleSlugs": [],
+    "battleSlugs": ["karnal"],
     "source": {
       "title": "Nāder Shah — Ernest Tucker",
       "url": "https://www.iranicaonline.org/articles/nader-shah/",

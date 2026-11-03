@@ -325,6 +325,33 @@ export const warDetails: Record<string, WarDetails> = {
       ["1291", "Mamluks take Acre, the last major crusader stronghold"],
     ),
   },
+  "mongol-europe": {
+    participants: [
+      "Mongol Empire under Batu",
+      "Volga Bulghars and Cumans",
+      "Rus' principalities",
+      "Duchy of Silesia",
+      "Kingdom of Hungary",
+    ],
+    geography:
+      "The middle Volga, the Rus' principalities, Poland and the Hungarian plain.",
+    developments: t(
+      ["Autumn 1237", "Mongols take Bulghar on the Volga"],
+      [
+        "21 December 1237",
+        "Ryazan falls, followed by Vladimir, Suzdal and Moscow",
+      ],
+      ["Easter 1239", "Béla IV receives the Cuman leader Koten into Hungary"],
+      ["6 December 1240", "Kiev falls after a nine-day siege"],
+      [
+        "9 April 1241",
+        "Mongol victory over Henry II of Silesia at Liegnitz (Legnica)",
+      ],
+      ["10–11 April 1241", "Battle of Mohi on the Sajó"],
+      ["11 December 1241", "Death of the Great Khan Ögedei"],
+      ["May 1242", "Mongol withdrawal from Hungary completed"],
+    ),
+  },
   mongol: {
     participants: [
       "Mamluk Sultanate",
@@ -418,6 +445,26 @@ export const warDetails: Record<string, WarDetails> = {
       ["1615", "Fall of Osaka castle"],
     ),
   },
+  imjin: {
+    participants: ["Joseon Korea", "Toyotomi Japan", "Ming China"],
+    geography: "The Korean peninsula and the waters off its southern coast.",
+    developments: t(
+      ["24 May 1592", "Japanese forces take Busan; the invasion begins"],
+      ["1592", "Joseon naval victories at Okpo, Dangpo, Danghangpo and Yulpo"],
+      ["7th lunar month 1592", "Battle of Hansan Island, followed by Angolpo"],
+      ["10th lunar month 1592", "Defence of Jinju"],
+      ["2nd lunar month 1593", "Victory at Haengju"],
+      ["1593", "Yi Sun-sin given command of the entire Korean fleet"],
+      [
+        "1597",
+        "Second invasion; the Korean navy is almost destroyed and Yi reinstated",
+      ],
+      [
+        "16 December 1598",
+        "Yi Sun-sin killed off Noryang in the final campaign",
+      ],
+    ),
+  },
   "thirty-years": {
     participants: [
       "Holy Roman Emperor and the Catholic League",
@@ -456,6 +503,31 @@ export const warDetails: Record<string, WarDetails> = {
       ["1707", "Battle of Almansa"],
       ["1709", "Battle of Malplaquet"],
       ["1713–1714", "Treaties of Utrecht and Rastatt"],
+    ),
+  },
+  "nader-india": {
+    participants: [
+      "Afsharid Iran under Nader Shah",
+      "Mughal Empire under Muhammad Shah",
+      "Afghan contingents in Nader's army",
+    ],
+    geography:
+      "Qandahar, the Mughal north-west frontier and the plain north of Delhi.",
+    developments: t(
+      [
+        "1738",
+        "Nader destroys Qandahar and pursues Afghan fugitives across the Mughal frontier",
+      ],
+      ["24 February 1739", "Battle of Karnal"],
+      [
+        "1739",
+        "Delhi occupied; after attacks on Persian troops, Nader permits plunder and massacre",
+      ],
+      [
+        "1739",
+        "Treaty restores Muhammad Shah as Nader's vassal; the Peacock Throne and the Koh-i-Noor go to Iran",
+      ],
+      ["On the return", "Nader campaigns against Khwarazm and Bukhara"],
     ),
   },
   "american-revolution": {

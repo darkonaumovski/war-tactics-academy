@@ -172,6 +172,15 @@ export const wars: War[] = [
     "Latin states rose and fell; warfare and exchange affected Muslim, Christian and Jewish communities.",
   ],
   [
+    "mongol-europe",
+    "Mongol invasion of Europe",
+    "medieval",
+    "1237–1242",
+    "Mongol armies conquered the Volga Bulghars and the Rus’ principalities, then invaded Poland and Hungary.",
+    "The Mongol Empire launched a planned western campaign under Batu, with Subutai as senior general.",
+    "Kievan Rus’ was subjugated; Hungary was devastated before the Mongols withdrew in 1242.",
+  ],
+  [
     "mongol",
     "Mongol–Mamluk conflict",
     "medieval",
@@ -217,6 +226,15 @@ export const wars: War[] = [
     "Tokugawa ascendancy produced a shogunate that endured until the nineteenth century.",
   ],
   [
+    "imjin",
+    "Imjin War",
+    "early-modern",
+    "1592–1598",
+    "Japan invaded Korea twice; Joseon resisted on land and at sea.",
+    "Toyotomi Hideyoshi, having reunited Japan, ordered an invasion of Ming China through Korea.",
+    "Japanese forces withdrew after the final campaign of 1598.",
+  ],
+  [
     "thirty-years",
     "Thirty Years’ War",
     "early-modern",
@@ -233,6 +251,15 @@ export const wars: War[] = [
     "European coalitions fought over the Spanish monarchy and the balance of power.",
     "The death of Charles II raised fears of concentrated Bourbon power.",
     "The settlements recognized a Bourbon king in Spain while redistributing territories and concessions.",
+  ],
+  [
+    "nader-india",
+    "Nader Shah’s invasion of India",
+    "early-modern",
+    "1738–1739",
+    "Nader Shah invaded the Mughal Empire, defeated its army at Karnal and sacked Delhi.",
+    "Nader accused the Mughals of sheltering Afghans who had fled across the frontier after the fall of Qandahar.",
+    "Muhammad Shah kept his throne as Nader’s vassal; Nader took the Mughal treasure, including the Peacock Throne.",
   ],
   [
     "american-revolution",

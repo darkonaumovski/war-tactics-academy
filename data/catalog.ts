@@ -145,6 +145,15 @@ export const wars: War[] = [
     "Hunnic power collapsed soon after Attila’s death; western Roman authority continued to weaken.",
   ],
   [
+    "byzantine-sasanian-527",
+    "Byzantine–Sasanian war of 527–532",
+    "medieval",
+    "527–532",
+    "Justinian’s empire and Sasanian Iran fought in Lazica, Armenia, northern Mesopotamia and Syria.",
+    "Frontier disputes, including a Roman fort begun at Mindouos that the Persians forbade and razed, turned into open war.",
+    "The unlimited peace of 532 left Dara in Roman hands, no longer as military headquarters, and Byzantium paid toward the Persian defence of the Caucasus.",
+  ],
+  [
     "byzantine-arab",
     "Early Arab–Byzantine wars",
     "medieval",
@@ -262,6 +271,15 @@ export const wars: War[] = [
     "Muhammad Shah kept his throne as Nader’s vassal; Nader took the Mughal treasure, including the Peacock Throne.",
   ],
   [
+    "seven-years",
+    "Seven Years’ War",
+    "early-modern",
+    "1756–1763",
+    "The great powers of Europe fought in central Europe while Britain and France fought overseas.",
+    "Austria sought to win back Silesia, which Frederick II had taken in the War of the Austrian Succession.",
+    "The treaties of 1763 restored the status quo of 1748 in Germany, leaving Silesia to Prussia; France ceded mainland North America east of the Mississippi to Britain.",
+  ],
+  [
     "american-revolution",
     "American War of Independence",
     "early-modern",
@@ -269,6 +287,15 @@ export const wars: War[] = [
     "The thirteen colonies and their allies fought Britain for independence.",
     "Disputes over taxation, representation and imperial sovereignty escalated into rebellion.",
     "Britain recognized US independence; slavery and Indigenous dispossession persisted.",
+  ],
+  [
+    "russo-turkish-1787",
+    "Russo-Turkish War of 1787–1791",
+    "early-modern",
+    "1787–1791",
+    "The Ottoman Empire fought Russia, joined by Austria, around the Black Sea and on the lower Danube.",
+    "The Ottoman Empire declared war on Russia in August 1787 after Russia refused to return the Crimea; Austria joined Russia in 1788.",
+    "After a series of defeats the Ottomans negotiated peace, first with Austria after the Reichenbach Convention of 1790, then with Russia.",
   ],
   [
     "french-revolutionary",

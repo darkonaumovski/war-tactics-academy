@@ -268,6 +268,30 @@ export const warDetails: Record<string, WarDetails> = {
       ["454", "Aetius assassinated"],
     ),
   },
+  "byzantine-sasanian-527": {
+    participants: [
+      "Eastern Roman (Byzantine) Empire under Justinian I",
+      "Sasanian Iran under Kavad I and Khosrow I",
+      "Herul and Massagetae contingents in Roman service",
+    ],
+    geography: "Lazica, Armenia, northern Mesopotamia and Syria.",
+    developments: t(
+      [
+        "527",
+        "Justinian becomes sole emperor; Belisarius commands the troops at Dara",
+      ],
+      [
+        "After 527",
+        "Persians stop the Roman fort at Mindouos, defeat its defenders and raze it",
+      ],
+      ["530", "Battle of Dara"],
+      [
+        "531",
+        "Belisarius defeated at Sura (Callinicum); Khosrow I succeeds Kavad",
+      ],
+      ["532", "Unlimited peace between Khosrow I and Justinian"],
+    ),
+  },
   "byzantine-arab": {
     participants: [
       "Eastern Roman (Byzantine) Empire",
@@ -321,6 +345,7 @@ export const warDetails: Record<string, WarDetails> = {
       ["1144", "Zengi takes Edessa"],
       ["1187", "Battle of Hattin; Saladin takes Jerusalem"],
       ["1191", "Third Crusade takes Acre"],
+      ["7 September 1191", "Battle of Arsuf"],
       ["1204", "Fourth Crusade sacks Constantinople"],
       ["1291", "Mamluks take Acre, the last major crusader stronghold"],
     ),
@@ -530,6 +555,32 @@ export const warDetails: Record<string, WarDetails> = {
       ["On the return", "Nader campaigns against Khwarazm and Bukhara"],
     ),
   },
+  "seven-years": {
+    participants: [
+      "Prussia",
+      "Great Britain and Hanover",
+      "Austria",
+      "France",
+      "Russia",
+      "Sweden",
+      "Saxony and the Army of the Reich",
+    ],
+    geography:
+      "Central Europe, with colonial theatres in North America and India.",
+    developments: t(
+      ["29 August 1756", "Frederick II invades Saxony"],
+      ["6 May 1757", "Prussian victory at Prague"],
+      ["18 June 1757", "Austrian victory at Kolín"],
+      ["30 August 1757", "Russian victory at Gross-Jägerndorf"],
+      ["5 November 1757", "Prussian victory at Rossbach"],
+      ["5 December 1757", "Battle of Leuthen"],
+      ["10 February 1763", "Treaty of Paris between Britain, France and Spain"],
+      [
+        "15 February 1763",
+        "Treaty of Hubertusburg between Austria, Prussia and Saxony",
+      ],
+    ),
+  },
   "american-revolution": {
     participants: [
       "Thirteen Colonies / United States",
@@ -547,6 +598,25 @@ export const warDetails: Record<string, WarDetails> = {
       ["1778", "Franco-American alliance"],
       ["1781", "British surrender at Yorktown"],
       ["1783", "Treaty of Paris"],
+    ),
+  },
+  "russo-turkish-1787": {
+    participants: [
+      "Russian Empire",
+      "Habsburg Monarchy (from 1788)",
+      "Ottoman Empire",
+    ],
+    geography:
+      "The northern Black Sea coast, Moldavia, Wallachia and the lower Danube.",
+    developments: t(
+      ["16 August 1787", "Ottoman Empire declares war on Russia"],
+      ["9 February 1788", "Austria announces that it will join Russia"],
+      ["September 1788", "Iași and Khotyn fall; Moldavia is occupied"],
+      ["17 December 1788", "Russians take Ochakov (Özü)"],
+      ["7 April 1789", "Selim III becomes sultan"],
+      ["1 August 1789", "Allied victory at Focșani"],
+      ["22 September 1789", "Battle of Rymnik"],
+      ["27 July 1790", "Reichenbach Convention pushes Austria toward peace"],
     ),
   },
   "french-revolutionary": {

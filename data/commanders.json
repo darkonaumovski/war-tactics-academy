@@ -1106,7 +1106,7 @@
     "strength": "Recovered North Africa and initially gained extensive territory in Italy with relatively constrained expeditionary resources.",
     "limitation": "Reversals and competing demands limited durable control; Procopius offers valuable but strongly positioned accounts.",
     "legacy": "Later depictions of a blinded beggar are legendary reception, not a reliable account of his final years.",
-    "battleSlugs": [],
+    "battleSlugs": ["dara"],
     "source": {
       "title": "The Generalship of Belisarius",
       "url": "https://cgsc.contentdm.oclc.org/digital/api/collection/p4013coll2/id/963/download",
@@ -1362,7 +1362,7 @@
     "strength": "Connected diplomacy, resource mobilization and battlefield pressure.",
     "limitation": "Defeats at Montgisard and Arsuf, and the loss of Acre, show the limits of his military position.",
     "legacy": "Later ideals of chivalry can obscure warfare's coercion, prisoner executions and the complexity of religious politics.",
-    "battleSlugs": ["hattin"],
+    "battleSlugs": ["hattin", "arsuf"],
     "source": {
       "title": "Saladin: historical chronology",
       "url": "https://www.worldhistory.org/timeline/Saladin/",
@@ -1430,7 +1430,7 @@
     "strength": "Maintained an expeditionary army and won at Arsuf and Jaffa.",
     "limitation": "Could not recover Jerusalem; captivity and ransom exposed the financial and political costs of distant campaigning.",
     "legacy": "His military fame coexists with the killing of prisoners at Acre and the burden imposed on his subjects.",
-    "battleSlugs": [],
+    "battleSlugs": ["arsuf"],
     "source": {
       "title": "Richard I Coeur de Lion (r.1189–1199)",
       "url": "https://www.royal.uk/richard-i",
@@ -1882,7 +1882,7 @@
     "strength": "Sustained Prussia's position against powerful opponents.",
     "limitation": "Defeats such as Kunersdorf and the importance of diplomatic changes challenge explanations based solely on military genius.",
     "legacy": "Prussia's rise combined institutional development with aggressive territorial expansion and severe wartime losses.",
-    "battleSlugs": [],
+    "battleSlugs": ["leuthen"],
     "source": {
       "title": "Frederick the Great",
       "url": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/frederick-the-great",
@@ -2072,7 +2072,7 @@
     "strength": "Gained extensive experience in different terrains and coalition campaigns.",
     "limitation": "The Swiss campaign exposed coordination and supply problems within the anti-French coalition.",
     "legacy": "His reputation must include the violent suppression of the Polish uprising and the massacre at Praga, alongside battlefield achievements.",
-    "battleSlugs": [],
+    "battleSlugs": ["rymnik"],
     "source": {
       "title": "Alexander Suvorov: museum and research collections",
       "url": "https://suvorovmuseum.ru/en/",

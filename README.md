@@ -16,9 +16,9 @@ The guiding principle is to explain what commanders knew, what they decided and 
 
 ### Historical catalog
 
-- **131 engagements** across seven eras, classified as battles, sieges, operations or campaigns, with approximate locations. Operation Overlord (Normandy) is the first operation record.
-- **131 detailed studies**, one for every engagement in the catalog, each with 14 analysis sections and an interactive replay of four or more phases. 1,831 of the 1,834 sections show which listed sources they draw on, with book and chapter locators for classical texts and chronicles and section names for handbooks.
-- **285 command perspectives** across all 131 engagements. Each covers objective, available information, uncertainty, constraints, forces, terrain, logistics, decisions and retrospective interpretation, clearly presented as reconstructed reasoning rather than quotations.
+- **135 engagements** across seven eras, classified as battles, sieges, operations or campaigns, with approximate locations. Operation Overlord (Normandy) is the first operation record.
+- **135 detailed studies**, one for every engagement in the catalog, each with 14 analysis sections and an interactive replay of four or more phases. 1,887 of the 1,890 sections show which listed sources they draw on, with book and chapter locators for classical texts and chronicles and section names for handbooks.
+- **293 command perspectives** across all 135 engagements. Each covers objective, available information, uncertainty, constraints, forces, terrain, logistics, decisions and retrospective interpretation, clearly presented as reconstructed reasoning rather than quotations.
 - **106 commander profiles**, each with a command role (ruler-commander, field, naval, staff planner, or coalition and theater commander), ranks and titles, principal commands, a dated chronology, a notable decision, defeats and reverses, linked engagements and further reading. Commanders with two or more linked engagements get a career strip (one dot per engagement on a year axis, with a band for each war) and a dated list of those engagements with their outcomes. The catalog filters by era and command role, and any two commanders can be compared side by side without numerical ratings.
 - **33 war pages** with principal participants, geographic scope, a chronology of key developments, key commanders and reading from linked studies and profiles; each links to its campaigns and engagements. Campaign pages draw a schematic map with the engagements numbered in date order (a locator map when a campaign has one engagement); the line joins them in that order and does not trace any army's movements.
 - **Six collections** (Alexander, Rome, Napoleon, the First World War, the Serbian Front and the Second World War), each with an introduction, a strategic arc that links the studies it summarises, a map of its engagements numbered in date order (joined by a line for Alexander and the Serbian Front), and a dated timeline. Membership follows wars and campaigns, so new studies join their collection automatically.
@@ -83,7 +83,7 @@ npm run build
 npm start
 ```
 
-`npm run build` reads the seeded catalog once and prerenders every page (456 pages, the not-found page and `sitemap.xml`) into `out/`. `npm start` serves `out/` on http://127.0.0.1:3000 with `scripts/serve-static.mjs`, which behaves like GitHub Pages: folder paths resolve to `index.html`, paths without a trailing slash redirect, and unknown paths return the custom `404.html` with a 404 status. The deployed site needs no server or database.
+`npm run build` reads the seeded catalog once and prerenders every page (467 pages, the not-found page and `sitemap.xml`) into `out/`. `npm start` serves `out/` on http://127.0.0.1:3000 with `scripts/serve-static.mjs`, which behaves like GitHub Pages: folder paths resolve to `index.html`, paths without a trailing slash redirect, and unknown paths return the custom `404.html` with a 404 status. The deployed site needs no server or database.
 
 ### GitHub Pages
 
@@ -140,7 +140,7 @@ Routes: `/`, `/battles`, `/battles/[slug]`, `/commanders`, `/commanders/[slug]`,
 
 ## Historical methodology
 
-Historical fact, scholarly interpretation, uncertainty and counterfactual analysis are explicitly distinguished. Detailed studies cite institutional histories and primary texts, with caveats about retrospective testimony and conflicting evidence. The 131 studies are concise editorial syntheses, not full scholarly monographs.
+Historical fact, scholarly interpretation, uncertainty and counterfactual analysis are explicitly distinguished. Detailed studies cite institutional histories and primary texts, with caveats about retrospective testimony and conflicting evidence. The 135 studies are concise editorial syntheses, not full scholarly monographs.
 
 Study sections name the listed sources they draw on. These references were assigned only after each source page had been read; sources that could not be opened are listed but not attached to individual sections. They are section-level references, not footnotes for every sentence. Commander chronologies and war overviews summarize well-established events; their further reading is not a citation for each entry. All source links were checked, and dead links were replaced with verified pages.
 
@@ -162,6 +162,7 @@ All releases are deployed to the live site.
 
 | Commit    | Change                                                                                                                                                                                                                                                                                   |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `7efc240` | Battles for four commanders without one (batch G1): Mohi for Subutai, Hansan Island for Yi Sun-sin, Nagashino for Oda Nobunaga and Tokugawa Ieyasu, and Karnal for Nader Shah, with the Mongol invasion of Europe, the Imjin War and Nader Shah's invasion of India.                     |
 | `cff24a5` | Lighthouse results after the prefetch fixes recorded in the verification record: page weight down 58–81%, the Waterloo study at 87 on mobile, and accessibility and best practices at 100 on every page measured.                                                                        |
 | `4da3776` | Lighthouse fixes: heavy routes prefetched only on hover, focus or touch (page weight down 58–81%), a site icon, and heading order; accessibility and best practices at 100 on every page measured.                                                                                       |
 | `c11ccf5` | Command perspectives for Marathon, Miltiades and Datis, from Herodotus and Encyclopaedia Iranica; every study now has perspectives.                                                                                                                                                      |
@@ -246,7 +247,7 @@ All releases are deployed to the live site.
 ## Known limitations
 
 - The ten learning paths are introductory editorial courses (one question per lesson), not reviewed university curricula.
-- The 131 battle analyses and 106 commander profiles need deeper scholarly review, fuller biographies and sentence-level citations before being treated as an academic reference work. Study sections are still brief.
+- The 135 battle analyses and 106 commander profiles need deeper scholarly review, fuller biographies and sentence-level citations before being treated as an academic reference work. Study sections are still brief.
 - War pages give orientation, not comprehensive operational histories, and have no dedicated bibliography. Campaign pages remain indexes.
 - Replay diagrams explain abstract relationships; they do not simulate combat or reconstruct exact formations. Atlas locations and Natural Earth coastlines are approximate modern context.
 - The media library is a small starting collection (nine records); the two videos cover only D-Day. Embeds and archive images depend on third-party availability.

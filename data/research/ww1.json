@@ -538,6 +538,16 @@
         "title": "Marne, Battles of the (Erwan Le Gall)",
         "url": "https://encyclopedia.1914-1918-online.net/article/marne-battles-of-the-1-1/",
         "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Marne 1914 (in German)",
+        "url": "https://www.dhm.de/lemo/kapitel/erster-weltkrieg/kriegsverlauf/marne",
+        "publisher": "LeMO, Deutsches Historisches Museum (Thomas Weißbrich)"
+      },
+      {
+        "title": "Moltke, Helmuth Graf von (Heinrich Walle, NDB 18, 1997)",
+        "url": "https://www.deutsche-biographie.de/sfz64977.html",
+        "publisher": "Neue Deutsche Biographie (Deutsche Biographie), in German"
       }
     ],
     "sections": [
@@ -556,7 +566,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Germany's plan depended on defeating France quickly. Moltke weakened his right wing by detaching divisions to besiege Maubeuge and Givet and to watch Antwerp, and on 25 August by sending troops to East Prussia. The French government left Paris for Bordeaux, and Paris prepared for a siege under its military governor, Gallieni. Coalition command rested on persuasion: on 5 September Joffre had to convince Field Marshal Sir John French to take part in the counter-attack.",
+        "text": "Germany's plan depended on defeating France quickly. Moltke weakened his right wing by detaching divisions to besiege Maubeuge and Givet and to watch Antwerp, and on 25 August by sending troops to East Prussia. The Neue Deutsche Biographie adds that Wilhelm II had chosen him as chief of the General Staff chiefly out of friendship, that he had little experience of General Staff work and lacked a commander's charisma, and that his health had been seriously impaired since 1911. The French government left Paris for Bordeaux, and Paris prepared for a siege under its military governor, Gallieni. Coalition command rested on persuasion: on 5 September Joffre had to convince Field Marshal Sir John French to take part in the counter-attack.",
         "evidence": "fact",
         "refs": [
           {
@@ -564,12 +574,15 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Campaign objectives",
-        "text": "Joffre decided to swing back his centre and left with Verdun as the pivot, form a fresh Sixth Army on his left and return to the offensive. His order of the day, written on 5 September and read to the troops on the 6th, told them to attack and, where they could not advance, to hold the ground they had taken. On 4 September Moltke abandoned the wide sweep beyond Paris for a narrower envelopment of the French centre and right, with his First and Second Armies turning to face any move from Paris.",
+        "text": "Joffre decided to swing back his centre and left with Verdun as the pivot, form a fresh Sixth Army on his left and return to the offensive. His order of the day, written on 5 September and read to the troops on the 6th, told them to attack and, where they could not advance, to hold the ground they had taken. On the German side, the German Historical Museum's LeMO notes that, unlike Schlieffen's plan, the German armies had not pushed on to the Channel coast but had wheeled south east of Paris, so that by September five German armies stood between Paris and Verdun. On 4 September Moltke abandoned the wide sweep beyond Paris for a narrower envelopment of the French centre and right, with his First and Second Armies turning to face any move from Paris.",
         "evidence": "fact",
         "refs": [
           {
@@ -577,6 +590,9 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -624,7 +640,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "Maunoury's army moved on 5 September and the general offensive began on the 6th. As pressure grew on his flank, Kluck drew first part and then the rest of his army west against Maunoury, opening a gap of about 48 kilometres between the First and Second Armies, covered only by cavalry. On the 8th Franchet d'Espèrey's Fifth Army widened it with a night attack. In the centre the main German effort fell on Foch's Ninth Army near the marshes of Saint-Gond; Mondement was retaken on the evening of the 9th. The German retreat began on 9 and 10 September, while fighting near Verdun went on until the 12th.",
+        "text": "Maunoury's army moved on 5 September and the general offensive began on the 6th. As pressure grew on his flank, Kluck drew first part and then the rest of his army west against Maunoury, opening a gap of about 48 kilometres between the First and Second Armies, covered only by cavalry. On the 8th Franchet d'Espèrey's Fifth Army widened it with a night attack. In the centre the main German effort fell on Foch's Ninth Army near the marshes of Saint-Gond; Mondement was retaken on the evening of the 9th. The German retreat began on 9 and 10 September, while fighting near Verdun went on until the 12th. In the German sources, Moltke ordered the right wing back behind the Aisne on 9 September as Allied troops pushed into the gap, the British and French followed hesitantly, and on 11 September the other armies of the right wing were also ordered to retreat.",
         "evidence": "fact",
         "refs": [
           {
@@ -632,12 +648,18 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Three decisions shaped the battle. Joffre abandoned Plan XVII, moved troops by rail to build a new army on his left and returned to the offensive. Kluck, by wheeling inward before Paris was reached, exposed the German right to a counter-envelopment. Moltke, far from the front and out of touch with his armies, left the decisive judgement to his staff officer, Lieutenant Colonel Hentsch, whose decisions Cochet describes as going far beyond his rank.",
+        "text": "Three decisions shaped the battle. Joffre abandoned Plan XVII, moved troops by rail to build a new army on his left and returned to the offensive. Kluck, by wheeling inward before Paris was reached, exposed the German right to a counter-envelopment. Moltke, far from the front and out of touch with his armies, left the decisive judgement to his staff officer, Lieutenant Colonel Hentsch, whose decisions Cochet describes as going far beyond his rank. The Neue Deutsche Biographie names the German causes as the inadequate communications between headquarters and the front, the wide independence Moltke allowed his army commanders and his hesitation to intervene when their operations departed from the overall plan.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -648,6 +670,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -679,7 +704,7 @@
       },
       {
         "title": "Consequences",
-        "text": "The Allied pursuit was checked on the Aisne, and on 17 September Joffre formed a new army to get around the German flank, the beginning of the 'race to the sea'. Cochet sees the battle as the opening of total, industrial war: the human toll was enormous, junior officers fell in such numbers that lieutenants led companies, and the mourning that followed made a negotiated peace almost unthinkable. Charles Péguy was killed on 5 September and Alain-Fournier later in the month. French periodicals celebrated Joffre as the victor.",
+        "text": "The Allied pursuit was checked on the Aisne, and on 17 September Joffre formed a new army to get around the German flank, the beginning of the 'race to the sea'. Cochet sees the battle as the opening of total, industrial war: the human toll was enormous, junior officers fell in such numbers that lieutenants led companies, and the mourning that followed made a negotiated peace almost unthinkable. Charles Péguy was killed on 5 September and Alain-Fournier later in the month. French periodicals celebrated Joffre as the victor. In Germany, the Neue Deutsche Biographie calls the battle a milestone on the way to military defeat; Moltke, a broken man, handed control of operations to Erich von Falkenhayn on 14 September. From the autumn, LeMO notes, both sides dug in, and the losses of the first weeks drove the search for protection that led to steel helmets.",
         "evidence": "fact",
         "refs": [
           {
@@ -690,6 +715,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -711,7 +742,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Credit for the counter-stroke is disputed: Britannica says the opportunity was perceived by Gallieni rather than Joffre, while Cochet calls the question pointless and credits Joffre, the only commander with a view of the whole front. The sources date the battle 6–12 or 6–11 September and give different numbers for the troops carried to the front in Paris taxis, though both treat the episode as real. Le Gall argues that the name 'Battle of the Marne', and its memory in France as a 'miracle', express a French national reading that leaves out much of the coalition's part.",
+        "text": "Credit for the counter-stroke is disputed: Britannica says the opportunity was perceived by Gallieni rather than Joffre, while Cochet calls the question pointless and credits Joffre, the only commander with a view of the whole front. The sources date the battle 6–12 or 6–11 September and give different numbers for the troops carried to the front in Paris taxis, though both treat the episode as real. Le Gall argues that the name 'Battle of the Marne', and its memory in France as a 'miracle', express a French national reading that leaves out much of the coalition's part. In Germany the debate turned on Moltke: the Neue Deutsche Biographie records that contemporaries and post-war military historians accused him of watering down the Schlieffen Plan by weakening the right wing, while whether that plan could have worked at all with an army lacking motor transport remains disputed. LeMO puts the gap between the German First and Second Armies at about 40 kilometres, Britannica at about 48.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -722,12 +753,18 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "François Cochet's article for the French Ministry of the Armed Forces (in French) gives the French command view, the extent of the front and the human cost. Britannica gives the operational sequence from Mons to the Aisne and the German decisions. Erwan Le Gall's 1914-1918-online article covers coalition command, the learning curve of the French army and memory.",
+        "text": "François Cochet's article for the French Ministry of the Armed Forces (in French) gives the French command view, the extent of the front and the human cost. Britannica gives the operational sequence from Mons to the Aisne and the German decisions. Erwan Le Gall's 1914-1918-online article covers coalition command, the learning curve of the French army and memory. Thomas Weißbrich's article for the German Historical Museum's LeMO and Heinrich Walle's article on Moltke in the Neue Deutsche Biographie, both in German, give the German plan, the retreat to the Aisne and the German judgement of Moltke.",
         "evidence": "fact",
         "refs": [
           {
@@ -738,6 +775,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -782,12 +825,12 @@
         "objective": "Complete the defeat of France by enveloping its armies.",
         "known": "His army commanders reported decisive victories, but few prisoners had been taken.",
         "uncertainty": "Where the French and British armies had gone and what forces stood near Paris.",
-        "constraints": "Headquarters far away in Luxembourg, divisions already detached to sieges and to East Prussia, and supplies lagging behind the advance.",
-        "decision": "He approved Kluck's inward wheel, switched on 4 September to a narrower envelopment, and sent Lieutenant Colonel Hentsch to the right wing with authority to act for him.",
+        "constraints": "Headquarters far away in Luxembourg, poor communications with the front, divisions already detached to sieges and to East Prussia, supplies lagging behind the advance, and his own impaired health.",
+        "decision": "He approved Kluck's inward wheel, switched on 4 September to a narrower envelopment, sent Lieutenant Colonel Hentsch to the right wing with authority to act for him, and on 9 September ordered the right wing back behind the Aisne.",
         "forces": "The German armies of the right and centre, with the Sixth and Seventh Armies attacking in Lorraine.",
         "terrain": "The Marne valley east of Paris and the French fortified line from Verdun to Épinal.",
         "logistics": "The armies had outrun their timetable and their supplies.",
-        "outcome": "The right wing fell back to the Aisne and the attempt to envelop the French centre and right failed."
+        "outcome": "The right wing fell back to the Aisne and the attempt to envelop the French centre and right failed; on 14 September he handed control of operations to Falkenhayn."
       },
       {
         "name": "Alexander von Kluck",
@@ -1396,6 +1439,11 @@
         "title": "Gallipoli Campaign 1915 (ANZAC Portal)",
         "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli",
         "publisher": "Australian Government Department of Veterans' Affairs"
+      },
+      {
+        "title": "Otto Liman von Sanders, Five Years in Turkey (trans. Carl Reichmann, United States Naval Institute, 1927)",
+        "url": "https://archive.org/details/in.ernet.dli.2015.24341",
+        "publisher": "Internet Archive (Digital Library of India copy)"
       }
     ],
     "sections": [
@@ -1475,7 +1523,7 @@
       },
       {
         "title": "Initial deployment",
-        "text": "An Allied fleet bombarded the forts from 19 February 1915, and on 18 March an attempt to force the narrows failed when ships struck mines. Troops gathered at Mudros on the island of Lemnos. Hamilton planned landings at Cape Helles by the British 29th Division and near Gaba Tepe by the ANZAC, with feints by the Royal Naval Division at Bulair and by the French at Kum Kale on the Asian shore.",
+        "text": "An Allied fleet bombarded the forts from 19 February 1915, and on 18 March an attempt to force the narrows failed when ships struck mines. Troops gathered at Mudros on the island of Lemnos. Hamilton planned landings at Cape Helles by the British 29th Division and near Gaba Tepe by the ANZAC, with feints by the Royal Naval Division at Bulair and by the French at Kum Kale on the Asian shore. Liman von Sanders, who accepted command of the new Fifth Army on 24 March, writes that the British gave him four full weeks. He judged the Asian shore around Besika Bay the most dangerous, then the southern tip of the peninsula, the coast on either side of Gaba Tepe and the narrow neck at Bulair, and regrouped his divisions, which had been strung out along the whole coast, into three groups: the 5th and 7th at the head of the Gulf of Saros, the 9th and the newly formed 19th in the south of the peninsula, and the 11th, soon joined by the 3rd, on the Asian side.",
         "evidence": "fact",
         "refs": [
           {
@@ -1486,12 +1534,16 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "pp. 57–61"
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "On 25 April the ANZAC landed at Ariburnu, the beach later called Anzac Cove, and the British at Helles; both were held to shallow beachheads. British attacks toward Krithia in April, May and June failed, as did a large Ottoman night attack on the Anzac lines on 19–20 May, after which a ceasefire allowed the dead to be buried. In August a new landing at Suvla Bay and attacks at Lone Pine, the Nek and Chunuk Bair broke down. Hamilton was replaced by Monro in October, and the Allies evacuated Anzac and Suvla in December 1915 and Helles in January 1916.",
+        "text": "On 25 April the ANZAC landed at Ariburnu, the beach later called Anzac Cove, and the British at Helles; both were held to shallow beachheads. Liman writes that the landings came at the very places his staff had judged most likely, so that his dispositions needed no change, and that he rode to the heights of Bulair, where ships were massing in the Gulf of Saros. British attacks toward Krithia in April, May and June failed, as did a large Ottoman night attack on the Anzac lines on 19–20 May, after which a ceasefire allowed the dead to be buried. In August a new landing at Suvla Bay and attacks at Lone Pine, the Nek and Chunuk Bair broke down; in Liman's account the Ottoman 9th Division, climbing Koja Chemen Tepe as the first British riflemen reached the top, drove them back to the northern slopes, and the corps he brought from the Gulf of Saros arrived too tired to attack on 8 August as ordered. Hamilton was replaced by Monro in October, and the Allies evacuated Anzac and Suvla in December 1915 and Helles in January 1916.",
         "evidence": "fact",
         "refs": [
           {
@@ -1502,12 +1554,16 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "pp. 62–64, 83–86, 96–98"
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Skinner judges that Hamilton's failure to define clear objectives and to supervise Stopford's corps at Suvla wasted his last chance of an operational victory, and that German and Ottoman leaders were generally quicker to see and exploit opportunities. Britannica lists poor leadership in some cases, faulty tactics including a complete lack of surprise, inexperienced troops, inadequate equipment and a shortage of shells. On the Ottoman side, Esat's decision to give Kemal sole control of the Anzac sector cemented the early defence.",
+        "text": "Skinner judges that Hamilton's failure to define clear objectives and to supervise Stopford's corps at Suvla wasted his last chance of an operational victory, and that German and Ottoman leaders were generally quicker to see and exploit opportunities. Britannica lists poor leadership in some cases, faulty tactics including a complete lack of surprise, inexperienced troops, inadequate equipment and a shortage of shells. On the Ottoman side, Esat's decision to give Kemal sole control of the Anzac sector cemented the early defence. On the evening of 8 August Liman gave Mustafa Kemal command of all troops in the Anafarta sector; he writes that Kemal, who had attacked on his own initiative on 25 April, delighted in responsibility, and that on 9 and 10 August Kemal pushed the British back toward the coast and secured the commanding heights.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -1515,6 +1571,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "pp. 85–86"
           }
         ]
       },
@@ -1533,7 +1593,7 @@
       },
       {
         "title": "Outcome",
-        "text": "The campaign ended in an Ottoman victory and an Allied defeat; the Anzacs gained little beyond the positions taken on the first day. The withdrawal was the best-run part of the Allied effort: carried out in stages, it removed the troops with very few casualties, and Skinner calls it well planned and successfully executed.",
+        "text": "The campaign ended in an Ottoman victory and an Allied defeat; the Anzacs gained little beyond the positions taken on the first day. The withdrawal was the best-run part of the Allied effort: carried out in stages, it removed the troops with very few casualties, and Skinner calls it well planned and successfully executed. Liman confirms that the Ottoman side did not detect it: the Fifth Army was preparing an attack in force when, in fog on the night of 19–20 December, the British left the Anzac and Suvla fronts, and the Ottoman troops advancing into the empty trenches were slowed by mines and naval fire.",
         "evidence": "fact",
         "refs": [
           {
@@ -1544,6 +1604,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "pp. 96–98"
           }
         ]
       },
@@ -1581,7 +1645,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Historians remain divided over the strategic merits of the campaign. Casualty figures vary widely because sources define a casualty differently and Ottoman figures are largely estimates, as the ANZAC Portal explains. Britannica dates the completion of the evacuation to 9 January 1916, the ANZAC Portal to 20 January. Memory diverges: in Turkey, official narratives came to centre on Atatürk and his soldiers while the roles of Esat, other officers and the empire's non-Turkish troops faded; Australia and New Zealand made 25 April their day of national remembrance, Anzac Day; and French participation was overshadowed by the Western Front.",
+        "text": "Historians remain divided over the strategic merits of the campaign. Casualty figures vary widely because sources define a casualty differently and Ottoman figures are largely estimates, as the ANZAC Portal explains. Britannica dates the completion of the evacuation to 9 January 1916, the ANZAC Portal to 20 January. Memory diverges: in Turkey, official narratives came to centre on Atatürk and his soldiers while the roles of Esat, other officers and the empire's non-Turkish troops faded; Australia and New Zealand made 25 April their day of national remembrance, Anzac Day; and French participation was overshadowed by the Western Front. Liman von Sanders's account was prepared from notes made in Malta, where he was held after the armistice; it tells the campaign from the Fifth Army's headquarters, stresses his own dispositions and blames the delay of 8 August on a corps commander, while crediting Mustafa Kemal by name. He attributes the British decision to withdraw to Kitchener's inspection of the fronts in November.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -1592,12 +1656,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Harold Allen Skinner Jr.'s 1914-1918-online article gives the Ottoman and German side, the course of operations, an analysis and the legacy in each country. Britannica gives the Allied decisions, the evacuation and the political repercussions. The ANZAC Portal of the Australian Department of Veterans' Affairs gives the plans, the landings, conditions on the peninsula, the August offensive and the evacuation from the Australian side.",
+        "text": "Harold Allen Skinner Jr.'s 1914-1918-online article gives the Ottoman and German side, the course of operations, an analysis and the legacy in each country. Britannica gives the Allied decisions, the evacuation and the political repercussions. The ANZAC Portal of the Australian Department of Veterans' Affairs gives the plans, the landings, conditions on the peninsula, the August offensive and the evacuation from the Australian side. The memoir of Liman von Sanders, commander of the Ottoman Fifth Army, in the 1927 English translation, gives the defence from his headquarters: his dispositions, the landings of 25 April, the August battles and the evacuation.",
         "evidence": "fact",
         "refs": [
           {
@@ -1608,6 +1675,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -1653,7 +1723,7 @@
         "known": "Enemy troops were ashore and advancing slowly inland.",
         "uncertainty": "How large the landing was and where the main blow would fall.",
         "constraints": "A single division at first, with reinforcements to come from Esat's corps.",
-        "decision": "He deployed the 19th Division onto the Sari Bair and Chunuk Bair ridges to contain the landing.",
+        "decision": "He deployed the 19th Division onto the Sari Bair and Chunuk Bair ridges to contain the landing, and in August, given command at Anafarta, attacked to secure the heights.",
         "forces": "The Ottoman 19th Division, later in sole command of the Anzac sector.",
         "terrain": "The high ridges above Anzac Cove.",
         "logistics": "Reinforcements sent by Esat Pasha's III Corps.",
@@ -1662,10 +1732,10 @@
       {
         "name": "Otto Liman von Sanders",
         "objective": "Defend the Dardanelles against an assault from the sea.",
-        "known": "The naval attack of 18 March showed that a landing was likely to follow.",
+        "known": "The naval attack of 18 March showed that a landing was likely to follow, and he had about four weeks to prepare.",
         "uncertainty": "Where the Allies would land.",
         "constraints": "Long coastlines to watch with limited forces.",
-        "decision": "He activated the Ottoman Fifth Army headquarters to improve command and control of the defences around Çanakkale.",
+        "decision": "He regrouped the Fifth Army's divisions into three groups covering the Asian shore, the south of the peninsula and Bulair, and in August gave Mustafa Kemal command of the Anafarta front.",
         "forces": "The Ottoman Fifth Army, including Esat Pasha's III Corps.",
         "terrain": "The Gallipoli peninsula and the Asian shore of the straits.",
         "logistics": "Fresh reserves were released by Enver after a visit to the front.",
@@ -3117,6 +3187,16 @@
         "title": "The Fighting Tactics of the Battle of Cambrai",
         "url": "https://www.iwm.org.uk/history/first-world-war/western-front/cambrai",
         "publisher": "Imperial War Museums"
+      },
+      {
+        "title": "Die Schlacht bei Cambrai 1917 (in German)",
+        "url": "https://www.dhm.de/lemo/kapitel/erster-weltkrieg/kriegsverlauf/die-schlacht-bei-cambrai-1917",
+        "publisher": "LeMO, Deutsches Historisches Museum (Manfred Wichmann)"
+      },
+      {
+        "title": "Erich Ludendorff, My War Memories, 1914–1918, vol. 2 (London: Hutchinson, 1919)",
+        "url": "https://archive.org/details/mywarmemories19102lude",
+        "publisher": "Internet Archive (University of Toronto copy)"
       }
     ],
     "sections": [
@@ -3193,7 +3273,7 @@
       },
       {
         "title": "Initial deployment",
-        "text": "The tanks were brought up by rail and moved into position at night to escape German air reconnaissance, and cloudy weather limited flying by day. The artillery did not register its targets beforehand, so that the barrage would come as a surprise, in keeping with Fuller's idea of attacking without warning.",
+        "text": "The tanks were brought up by rail and moved into position at night to escape German air reconnaissance, and cloudy weather limited flying by day. The artillery did not register its targets beforehand, so that the barrage would come as a surprise, in keeping with Fuller's idea of attacking without warning. On the German side, Ludendorff writes that the Siegfried (Hindenburg) position here was only weakly held: to meet the fighting in Flanders, Crown Prince Rupprecht's army group had, with the high command's consent, thinned it to tired or Landwehr divisions, and a fresh division from the east had only just begun to arrive. He admits that the British, concentrating tanks and cavalry by night under cover of Havrincourt Wood, took the Germans by surprise.",
         "evidence": "fact",
         "refs": [
           {
@@ -3201,12 +3281,16 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4,
+            "locator": "pp. 493–494"
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "At dawn on 20 November a brief, intense bombardment fell on the whole front, and the tanks advanced with the infantry behind a creeping barrage while aircraft attacked trenches, convoys and gun positions. All three lines of the Hindenburg defences were penetrated and some units advanced about 8 kilometres, taking several villages and many prisoners. By evening more than half the tanks were out of action. Progress slowed in heavy fighting, and by 28 November the British held a salient on the crest of Bourlon Ridge; the offensive was halted the next day. On 30 November the German Second Army struck both flanks of the salient. In the north the attack was held; in the south it broke through, and a counter-attack by the Guards Division and then a tank brigade averted disaster. By 5 December the British had been driven back almost to their starting line.",
+        "text": "At dawn on 20 November a brief, intense bombardment fell on the whole front, and the tanks advanced with the infantry behind a creeping barrage while aircraft attacked trenches, convoys and gun positions. All three lines of the Hindenburg defences were penetrated and some units advanced about 8 kilometres, taking several villages and many prisoners; LeMO notes that British cavalry reached the outskirts of Cambrai, whose people had been ordered out by the German authorities. By evening more than half the tanks were out of action. Ludendorff says the first German reinforcements could not arrive by train before the 21st and enough troops to stop the attack not before the 23rd, and that the advance was parried on 22 and 23 November along the line Moeuvres–Bourlon–Fontaine–Noyelles–Masnières. Progress slowed in heavy fighting, and by 28 November the British held a salient on the crest of Bourlon Ridge; the offensive was halted the next day. On 30 November the German Second Army struck both flanks of the salient, with its main effort in the south toward Banteux and Gouzeaucourt. In the north the attack was held; in the south it broke through, and a counter-attack by the Guards Division and then a tank brigade averted disaster. By 5 December the British had been driven back almost to their starting line.",
         "evidence": "fact",
         "refs": [
           {
@@ -3217,12 +3301,19 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4,
+            "locator": "pp. 494–497"
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "The British command's decisive choice was to turn a raid into an offensive with distant objectives without the reserves to pursue them; no adequate reserves were set aside to exploit a breakthrough, because so many troops were committed at Passchendaele. The German command answered on 30 November with intense artillery, mortars, gas and infiltrating storm troops against the flanks of the salient rather than its point.",
+        "text": "The British command's decisive choice was to turn a raid into an offensive with distant objectives without the reserves to pursue them; no adequate reserves were set aside to exploit a breakthrough, because so many troops were committed at Passchendaele. On the first morning Ludendorff ordered rested divisions railed to Cambrai and asked Rupprecht's group to move troops north of the town, and once the attack was checked he decided to strike the British in the flank; he credits the Second Army's chief of staff, Lieutenant Colonel Stapff, and Marwitz's energy for the counter-stroke. The German command answered on 30 November with intense artillery, mortars, gas and infiltrating storm troops against the flanks of the salient rather than its point.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -3230,12 +3321,16 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 4,
+            "locator": "pp. 494–496"
           }
         ]
       },
       {
         "title": "Decisive turning points",
-        "text": "The first morning decided what the attack could achieve: it broke deep into the defences at little cost, but tank breakdowns and losses, bad weather that kept the cavalry from exploiting, isolated units and poor communications left the gap unexploited. The German counter-stroke of 30 November then reversed most of the gains, although it too lost momentum when reinforcements and supplies could not be brought up and its command and communications broke down.",
+        "text": "The first morning decided what the attack could achieve: it broke deep into the defences at little cost, but tank breakdowns and losses, bad weather that kept the cavalry from exploiting, isolated units and poor communications left the gap unexploited. Ludendorff writes that the British commander did not exploit his great initial success, or the Germans could not have limited the gap, and credits the newly arrived 107th Division with the early check. The German counter-stroke of 30 November then reversed most of the gains, although it too lost momentum when reinforcements and supplies could not be brought up and its command and communications broke down; Ludendorff adds that a good division stopped to go through a British supply depot instead of pressing on.",
         "evidence": "fact",
         "refs": [
           {
@@ -3246,6 +3341,10 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4,
+            "locator": "pp. 495–497"
           }
         ]
       },
@@ -3283,7 +3382,7 @@
       },
       {
         "title": "Historical lessons",
-        "text": "Surprise and the combination of arms could break into the strongest defences; breaking out needed reserves, reliable vehicles and communications that could keep pace with success. Objectives must match the forces available, and an attack launched while another offensive absorbs the reserves can win ground but not hold it.",
+        "text": "Surprise and the combination of arms could break into the strongest defences; breaking out needed reserves, reliable vehicles and communications that could keep pace with success. Objectives must match the forces available, and an attack launched while another offensive absorbs the reserves can win ground but not hold it. The defender's problem was time: Ludendorff notes that a division ordered to Cambrai generally took two or three days and some thirty trains to arrive, and that the lack of motor transport was much felt.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -3294,12 +3393,16 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4,
+            "locator": "p. 495"
           }
         ]
       },
       {
         "title": "Historiographical debates",
-        "text": "The sources weigh the battle differently. Britannica concludes that it showed armour was the key to a decision on the Western Front; the Imperial War Museums stress its limited strategic effect and its place as a forerunner of combined-arms warfare; the National Army Museum stresses the need for better communications to exploit success. They also explain the failure to exploit differently: Britannica points to the weather and late infantry reinforcements, the National Army Museum to breakdowns, the commitment at Passchendaele, isolated units and poor communications. They give slightly different depths of advance.",
+        "text": "The sources weigh the battle differently. Britannica concludes that it showed armour was the key to a decision on the Western Front; the Imperial War Museums stress its limited strategic effect and its place as a forerunner of combined-arms warfare; the National Army Museum stresses the need for better communications to exploit success. They also explain the failure to exploit differently: Britannica points to the weather and late infantry reinforcements, the National Army Museum to breakdowns, the commitment at Passchendaele, isolated units and poor communications. They give slightly different depths of advance. The German sources differ among themselves: LeMO dates the German counter-attack from 23 November and concludes that the Germans had no effective defence against tanks, while Ludendorff dates it to 30 November, calls it a complete victory over a considerable part of the British Army and a source of lessons for 1918, and argues that the tanks succeeded at Cambrai only because they met a lightly held position manned by older men with little artillery. LeMO's figures for prisoners and losses are not used.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -3310,12 +3413,19 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4,
+            "locator": "pp. 497, 576"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The National Army Museum gives the plan, the first day, the German counter-attack and the battle's significance. Britannica gives Fuller's original idea, the British command's aims, the forces and the course of the battle to 5 December. The Imperial War Museums give the tanks' preparation, the unregistered barrage, the fighting for Bourlon Ridge and the ground that was kept.",
+        "text": "The National Army Museum gives the plan, the first day, the German counter-attack and the battle's significance. Britannica gives Fuller's original idea, the British command's aims, the forces and the course of the battle to 5 December. The Imperial War Museums give the tanks' preparation, the unregistered barrage, the fighting for Bourlon Ridge and the ground that was kept. Manfred Wichmann's article for the German Historical Museum's LeMO, in German, and Ludendorff's war memoirs give the German side: the weakly held line, the surprise, the arrival of reserves and the counter-stroke.",
         "evidence": "fact",
         "refs": [
           {
@@ -3326,6 +3436,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -3368,10 +3484,10 @@
       {
         "name": "Georg von der Marwitz",
         "objective": "Contain the British break-in and recover the lost ground.",
-        "known": "The British had driven a salient toward Cambrai and their advance had slowed.",
+        "known": "The British had driven a salient toward Cambrai and their advance had slowed; reinforcements railed in from other fronts took days to arrive.",
         "uncertainty": "Whether reinforcements and supplies could keep up.",
         "constraints": "Defences that had been broken through on the first day.",
-        "decision": "He struck both flanks of the salient with intense artillery, gas and infiltrating storm troops.",
+        "decision": "Having gathered enough troops by 29 November, he struck both flanks of the salient with intense artillery, gas and infiltrating storm troops, making his main effort in the south toward Banteux and Gouzeaucourt.",
         "forces": "The German Second Army with reinforcing divisions.",
         "terrain": "The flanks of the British salient north and south.",
         "logistics": "Reinforcements and supplies that could not keep pace with the advance.",
@@ -3396,6 +3512,16 @@
         "title": "Second Battle of the Somme",
         "url": "https://www.britannica.com/event/Second-Battle-of-the-Somme",
         "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Frühjahrsoffensive 1918 (in German)",
+        "url": "https://www.dhm.de/lemo/kapitel/erster-weltkrieg/kriegsverlauf/fruehjahrsoffensive-1918",
+        "publisher": "LeMO, Deutsches Historisches Museum (Manfred Wichmann)"
+      },
+      {
+        "title": "Erich Ludendorff, My War Memories, 1914–1918, vol. 2 (London: Hutchinson, 1919)",
+        "url": "https://archive.org/details/mywarmemories19102lude",
+        "publisher": "Internet Archive (University of Toronto copy)"
       }
     ],
     "sections": [
@@ -3430,7 +3556,7 @@
       },
       {
         "title": "Campaign objectives",
-        "text": "Ludendorff chose an 80-kilometre front from La Fère to Arras held by the British, whom he regarded as less skilled than the French. He hoped to break through at the boundary between the British and French armies, then turn north and roll up the British line, expecting troops schooled only in trench warfare to collapse under mobile war. He refused to set final territorial objectives.",
+        "text": "Ludendorff chose an 80-kilometre front from La Fère to Arras held by the British, whom he regarded as less skilled than the French. He hoped to break through at the boundary between the British and French armies, then turn north and roll up the British line, expecting troops schooled only in trench warfare to collapse under mobile war. He refused to set final territorial objectives. In his memoirs he explains the choice: he weighed an attack in Flanders toward the Channel ports, which offered a great but limited objective, and one at Verdun, but favoured the centre because the enemy was weakest there, the ground posed no difficulty and it could be attacked in any season; with the main effort between Arras and Péronne toward the coast, success might separate the bulk of the British army from the French and crowd it against the sea. Tactics, he writes, had to come before purely strategic aims. LeMO gives the strategic aim as the capture of Amiens and the separation of the British and French armies.",
         "evidence": "fact",
         "refs": [
           {
@@ -3438,6 +3564,13 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4,
+            "locator": "pp. 589–591"
           }
         ]
       },
@@ -3459,7 +3592,7 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "The attack struck Byng's Third Army and Gough's Fifth Army. The German assault divisions had the best equipment, horses and fittest men and four weeks' special training in infiltration tactics. The French became engaged as the battle developed.",
+        "text": "The attack struck Byng's Third Army and Gough's Fifth Army. The German assault divisions had the best equipment, horses and fittest men and four weeks' special training in infiltration tactics. Ludendorff inserted two new army headquarters, the Seventeenth Army under Otto von Below opposite Arras and the Eighteenth under Hutier opposite St Quentin and La Fère, beside the Second Army, and divided them between two army groups, Crown Prince Rupprecht's and the German Crown Prince's, partly so that he could influence the battle himself. The French became engaged as the battle developed.",
         "evidence": "fact",
         "refs": [
           {
@@ -3470,6 +3603,10 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4,
+            "locator": "pp. 591–592"
           }
         ]
       },
@@ -3488,7 +3625,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "At 4.20 a.m. on 21 March the bombardment began, and five hours later the infantry advanced in fog after the British trenches had been shelled and gassed. The British first and second lines quickly fell; Gough's line, lacking reserves, gave way, and by 22 March the Fifth Army was in retreat and had lost contact with the French to the south. By the evening of 23 March the Germans had advanced up to 19 kilometres in some sectors, and panic spread along parts of the Allied front. On 26 March Haig agreed to Foch's appointment to command on the Western Front. By 28 March new Allied troops had checked the advance east of Amiens, and when the offensive ended on 5 April the Germans had advanced as much as 64 kilometres.",
+        "text": "At 4.20 a.m. on 21 March the bombardment began, and five hours later the infantry advanced in fog after the British trenches had been shelled and gassed. The British first and second lines quickly fell; Gough's line, lacking reserves, gave way, and by 22 March the Fifth Army was in retreat and had lost contact with the French to the south. In Ludendorff's account the Seventeenth Army, facing the strongest defence, lost its barrage and stalled at the British second line, so that the British in the Cambrai salient were not cut off, while the Eighteenth Army in the south advanced as planned. By the evening of 23 March the Germans had advanced up to 19 kilometres in some sectors, and panic spread along parts of the Allied front; LeMO notes that Paris was shelled by long-range guns. On 26 March Haig agreed to Foch's appointment to command on the Western Front. As resistance north of the Somme hardened, Ludendorff turned the main weight of the attack toward Amiens. By 28 March new Allied troops had checked the advance east of Amiens, renewed German attacks on 30 March and 4 April were indecisive, and when the offensive ended on 5 April the Germans had advanced as much as 64 kilometres.",
         "evidence": "fact",
         "refs": [
           {
@@ -3499,12 +3636,19 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4,
+            "locator": "pp. 597–600"
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Watson identifies Ludendorff's choices as the cause of the operational failure: he set no final objective, missed the British army's dependence on Amiens and Hazebrouck, and, believing the British beaten, reinforced the southernmost army to keep the French away and then dispersed his strength in several directions, reinforcing tactical successes rather than pursuing a goal. On the Allied side, Haig accepted Foch's appointment in exchange for reinforcements.",
+        "text": "Watson identifies Ludendorff's choices as the cause of the operational failure: he set no final objective, missed the British army's dependence on Amiens and Hazebrouck, and, believing the British beaten, reinforced the southernmost army to keep the French away and then dispersed his strength in several directions, reinforcing tactical successes rather than pursuing a goal. Ludendorff's own account describes the same turn as a necessary modification of the plan, and the decision to give up the attack on Amiens for good, taken with the commanders concerned, as the refusal to be drawn into a battle of exhaustion. On the Allied side, Haig accepted Foch's appointment in exchange for reinforcements.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -3512,6 +3656,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4,
+            "locator": "pp. 599–601"
           }
         ]
       },
@@ -3533,7 +3681,7 @@
       },
       {
         "title": "Outcome",
-        "text": "It was the largest territorial gain on the Western Front since 1914, and the Germans took many prisoners. Britannica concludes that the Allied lines were bent but not broken; Watson that the Germans captured nothing of value. They were held east of Amiens in an exposed salient.",
+        "text": "It was the largest territorial gain on the Western Front since 1914, and the Germans took many prisoners. Britannica concludes that the Allied lines were bent but not broken; Watson that the Germans captured nothing of value. They were held east of Amiens in an exposed salient. Ludendorff called it a brilliant feat but admitted that strategically it had not achieved what the first days had promised, that the failure to take Amiens was especially disappointing, and that troops had lost time when they stopped at captured food depots and were not always under their officers' firm control.",
         "evidence": "fact",
         "refs": [
           {
@@ -3544,6 +3692,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4,
+            "locator": "pp. 600–601"
           }
         ]
       },
@@ -3578,7 +3730,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "After the war the offensives provoked bitter controversy in Germany: critics accused Ludendorff of throwing away a chance of a negotiated peace on an operation doomed to fail. Watson weighs his command errors alongside the German army's limits in material, manpower and mobility; Britannica sees tactical virtuosity unconnected to any strategic concept; the National Army Museum stresses exhaustion and the lack of transport. The sources measure the advance differently (the area overrun in Watson, its depth in Britannica and the National Army Museum), give different loss figures, and date the opening of Georgette to 7 April (National Army Museum) or 9 April (Watson).",
+        "text": "After the war the offensives provoked bitter controversy in Germany: critics accused Ludendorff of throwing away a chance of a negotiated peace on an operation doomed to fail. Watson weighs his command errors alongside the German army's limits in material, manpower and mobility; Britannica sees tactical virtuosity unconnected to any strategic concept; the National Army Museum stresses exhaustion and the lack of transport. Ludendorff's memoirs, published in 1919, defend as a principle the very choice the critics condemn, that a strategic plan which ignores tactics is doomed to fail. The sources measure the advance differently (the area overrun in Watson, its depth in Britannica and the National Army Museum), give different loss figures, and date the opening of Georgette to 7 April (National Army Museum) or 9 April (Watson, LeMO). They also differ on the frontage, 80 kilometres in Watson and 70 in Ludendorff and LeMO; on the aim, which LeMO gives as Amiens from the start and Ludendorff as the coast, with Amiens only later; and on the end, which Ludendorff puts on 4 April. LeMO's figures for prisoners and guns are not used.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -3589,12 +3741,18 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Alexander Watson's 1914-1918-online article gives Ludendorff's planning, the course of the offensives and the reasons for their failure. The National Army Museum gives the British situation, the bombardment and infiltration tactics, Foch's appointment and the later offensives. Britannica gives the attack in fog, the British retreat and the Allied recovery east of Amiens.",
+        "text": "Alexander Watson's 1914-1918-online article gives Ludendorff's planning, the course of the offensives and the reasons for their failure. The National Army Museum gives the British situation, the bombardment and infiltration tactics, Foch's appointment and the later offensives. Britannica gives the attack in fog, the British retreat and the Allied recovery east of Amiens. Manfred Wichmann's article for the German Historical Museum's LeMO, in German, and the second volume of Ludendorff's war memoirs give the German side: the choice of front, the organisation of the attack, its course army by army and Ludendorff's own judgement of the result.",
         "evidence": "fact",
         "refs": [
           {
@@ -3605,6 +3763,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -3636,9 +3800,9 @@
         "name": "Erich Ludendorff",
         "objective": "Defeat the British army before American troops arrived in strength.",
         "known": "Divisions freed from the east gave him a numerical advantage, and the British front south of Cambrai was weakly held.",
-        "uncertainty": "How quickly the French would send reserves to the British.",
+        "uncertainty": "How quickly the French would send reserves to the British, and whether the British weakness opposite St Quentin would last.",
         "constraints": "Limited transport, horses and manpower, and a short window of time.",
-        "decision": "He attacked where the defence was weakest without a final objective, then dispersed his strength in several directions.",
+        "decision": "He attacked in the centre, where the defence was weakest, aiming between Arras and Péronne toward the coast without a final objective, then turned the main weight toward Amiens and finally abandoned that attack to avoid a battle of exhaustion.",
         "forces": "Assault divisions with special training in infiltration, behind a short hurricane bombardment.",
         "terrain": "The front between Arras and La Fère, then the shattered ground beyond it.",
         "logistics": "Too little transport to carry the advance beyond its first gains.",

@@ -251,12 +251,22 @@
         "title": "Hastings battlefield report",
         "url": "https://historicengland.org.uk/content/docs/listing/battlefields/hastings/",
         "publisher": "Historic England"
+      },
+      {
+        "title": "William of Malmesbury: The Battle of Hastings, 1066 (from J. H. Robinson, Readings in European History, 1904)",
+        "url": "https://sourcebooks.fordham.edu/source/1066malmesbury.asp",
+        "publisher": "Internet Medieval Sourcebook, Fordham University"
+      },
+      {
+        "title": "What is the Bayeux Tapestry about? The story of the Tapestry",
+        "url": "https://www.bayeuxmuseum.com/en/the-bayeux-tapestry/discover-the-bayeux-tapestry/what-is-the-bayeux-tapestry-about/",
+        "publisher": "Bayeux Museum (City of Bayeux)"
       }
     ],
     "sections": [
       {
         "title": "Historical background",
-        "text": "Edward the Confessor's death opened a disputed succession. Harold became king; William of Normandy claimed the crown.",
+        "text": "Edward the Confessor's death opened a disputed succession. Harold became king; William of Normandy claimed the crown. The Norman version is told by the Bayeux Tapestry, probably commissioned by William's half-brother Bishop Odo for his new cathedral at Bayeux: as the Bayeux Museum summarises it, Edward sent Harold to Normandy in 1064 to offer William the succession, and on the old king's death Harold had himself crowned instead, so that William crossed the Channel to reclaim his throne.",
         "evidence": "fact",
         "refs": [
           {
@@ -264,6 +274,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -302,17 +315,20 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Harold's army fought on foot, including household warriors. William's army used infantry, archers and mounted troops.",
+        "text": "Harold's army fought on foot, including household warriors. William's army used infantry, archers and mounted troops. William of Malmesbury, writing in the twelfth century, describes the English armed with battle-axes and covering themselves with joined shields, with Harold on foot beside his brothers near the standard, and the Normans with archers in the vanguard and the cavalry in wings behind them.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Initial deployment",
-        "text": "The English occupied the ridge in a defensive formation; William's forces approached from rising ground to the south.",
+        "text": "The English occupied the ridge in a defensive formation; William's forces approached from rising ground to the south. The Normans had crossed the Channel by night in September, landed at Pevensey in Sussex and moved toward Hastings, where they took up their positions.",
         "evidence": "fact",
         "refs": [
           {
@@ -320,12 +336,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "Repeated assaults lasted throughout 14 October 1066. A Norman retreat and rally preceded renewed attacks.",
+        "text": "Repeated assaults lasted throughout 14 October 1066. In the Tapestry's telling the archers went first, then the cavalry charged the English shield wall; Malmesbury says neither side gave ground for most of the day. A Norman retreat and rally preceded renewed attacks. Malmesbury describes the English breaking ranks to pursue, English counter-attacks from a height and across a ditch, and fighting that swung back and forth while Harold lived; when he fell, struck by an arrow, the English fled until night.",
         "evidence": "fact",
         "refs": [
           {
@@ -333,16 +352,25 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "William rallied his troops after a report that he had died. English pursuit during retreats exposed parts of their formation.",
+        "text": "William rallied his troops after a report that he had died. English pursuit during retreats exposed parts of their formation. Malmesbury presents the retreat as a deliberate stratagem: seeing the battle at a standstill, William signalled his troops to feign flight, and the English opened their ranks to cut them down. He also has William fighting at the front, with three horses killed under him, and expelling from the army a knight who had struck Harold as he lay on the ground.",
         "evidence": "fact",
         "refs": [
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -358,7 +386,7 @@
       },
       {
         "title": "Outcome",
-        "text": "Harold was killed and his army broken. William was crowned on Christmas Day.",
+        "text": "Harold was killed and his army broken; Malmesbury says the English fled until night. William was crowned on Christmas Day.",
         "evidence": "fact",
         "refs": [
           {
@@ -366,6 +394,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -381,22 +412,36 @@
       },
       {
         "title": "Historical lessons",
-        "text": "Distinguish an army's tactical position from the wider demands of defending a kingdom against successive invasions.",
-        "evidence": "interpretation"
+        "text": "Distinguish an army's tactical position from the wider demands of defending a kingdom against successive invasions. A formation that is strong while it holds together can be undone if it is drawn out of it, as the narratives of the Norman retreats suggest.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 1
+          }
+        ]
       },
       {
         "title": "Historiographical debates",
-        "text": "The Bayeux Tapestry and written narratives leave details unresolved. This account does not specify Harold's exact fatal wound or precise unit positions.",
+        "text": "The Bayeux Tapestry and written narratives leave details unresolved. This account does not specify Harold's exact fatal wound or precise unit positions: the Bayeux Museum describes him hit in the eye by an arrow, while Malmesbury writes that the arrow pierced his brain. Malmesbury presents the Norman retreat as a feint ordered by William, a view the study treats as one interpretation among others. Both Norman-side sources frame the outcome morally: the museum calls the Tapestry also a spiritual work about how perjury is punished, and Malmesbury, writing in the twelfth century, blames English drunkenness and neglect of religion and calls their attack rash, while praising Harold's personal courage.",
         "evidence": "uncertainty",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "English Heritage summarizes the narrative and material setting. Historic England documents the registered battlefield and surviving source problems.",
+        "text": "English Heritage summarizes the narrative and material setting. Historic England documents the registered battlefield and surviving source problems. William of Malmesbury's twelfth-century account, in the Internet Medieval Sourcebook, gives the two armies' formations, the feigned flight and the deaths of the day. The Bayeux Museum's account of the Tapestry gives the Norman version of the succession and the battle.",
         "evidence": "fact",
         "refs": [
           {
@@ -407,6 +452,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -443,7 +494,7 @@
         "forces": "Norman, Breton and other French troops, combining infantry, archers and mounted warriors.",
         "terrain": "His army attacked uphill from rising ground to the south of the English position.",
         "logistics": "The army was sustained from its base near Hastings and by foraging in Sussex.",
-        "decision": "He launched repeated assaults and, in the narratives, rallied his troops after a rumor of his death. Whether later Norman retreats were deliberate feints is debated.",
+        "decision": "He launched repeated assaults and, in the narratives, rallied his troops after a rumor of his death. William of Malmesbury says he ordered a feigned flight that drew the English out of their ranks; whether the Norman retreats were deliberate feints is debated.",
         "outcome": "Harold was killed and his army broken. William was crowned on Christmas Day 1066."
       },
       {
@@ -452,7 +503,7 @@
         "known": "William had landed at Pevensey. Harold's own army had just fought at Stamford Bridge in Yorkshire.",
         "uncertainty": "Whether more troops would join him if he waited, and what William would do in the meantime.",
         "constraints": "Losses and fatigue after Stamford Bridge and a hurried march south.",
-        "forces": "Household warriors and other troops fighting on foot in a shield wall.",
+        "forces": "Household warriors and other troops fighting on foot in a shield wall, with Harold and his brothers near the standard.",
         "terrain": "The ridge gave a strong defensive position but little room to maneuver.",
         "logistics": "The rapid march from Yorkshire left little time to gather fresh forces.",
         "decision": "He gave battle quickly near Hastings instead of waiting for a larger army. Historians debate whether he meant to fight at once or to pin William near the coast.",
@@ -477,6 +528,11 @@
         "title": "The soldier in later medieval England and the battle of Agincourt",
         "url": "https://www.southampton.ac.uk/humanities/research/impact/the_soldier_in_later_medieval_england_and_the_battle_of_agincourt.page",
         "publisher": "University of Southampton"
+      },
+      {
+        "title": "Craig Taylor, “La maleureuse bataille: Fifteenth-Century French Reactions to Agincourt”, French History (2019), accepted version",
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/150856/",
+        "publisher": "White Rose Research Online, University of York"
       }
     ],
     "sections": [
@@ -493,7 +549,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Henry pressed a claim to the French throne, which the victory later strengthened. The French king summoned men-at-arms from across the kingdom, and a royal council resolved to give battle, while France's princes remained divided by their own conflicts.",
+        "text": "Henry pressed a claim to the French throne, which the victory later strengthened. The French king summoned men-at-arms from across the kingdom, and a royal council resolved to give battle, while France's princes remained divided by their own conflicts. Craig Taylor describes the feud between the Armagnac and Burgundian parties: in 1414 the royal army had sacked the Burgundian town of Soissons, John the Fearless, duke of Burgundy, had discussed an alliance with Henry V, and neither the duke nor his son Philip took the field at Agincourt.",
         "evidence": "fact",
         "refs": [
           {
@@ -502,6 +558,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -532,7 +591,7 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Anne Curry's study of English and French financial records suggests roughly 8,500–9,000 English and about 12,000 French, a much smaller gap than the chronicles imply. Most of Henry's army were archers, and Welsh soldiers were a small share. The French command was shared among the constable, the marshal and several great princes.",
+        "text": "Anne Curry's study of English and French financial records suggests roughly 8,500–9,000 English and about 12,000 French, a much smaller gap than the chronicles imply. Most of Henry's army were archers, and Welsh soldiers were a small share. The French command was shared among the constable, the marshal and several great princes. Taylor notes that the constable and the marshal had drawn up a battle plan giving the crossbowmen a prominent place on the wings, but that they were withdrawn when the battle came, and that several chroniclers say the men-at-arms pushed the common soldiers to the rear or sent them away.",
         "evidence": "fact",
         "refs": [
           {
@@ -544,6 +603,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -604,7 +666,7 @@
       },
       {
         "title": "Consequences",
-        "text": "The victory supported Henry's claim to the French throne. The battle later became central to English and British national memory, shaped above all by Shakespeare's Henry V.",
+        "text": "The victory supported Henry's claim to the French throne. In England it was presented as proof of God's favour for Henry V, from the chancellor's address to parliament to the king's return through London. It was not decisive, however: Henry had to fight on, invading Normandy in 1417, and only with the Burgundian alliance did he win the treaty of Troyes in 1420. In France there was no official response, Taylor writes, because of Charles VI's incapacity, the loss of so many leading noblemen and the death of the Dauphin in December 1415. The battle later became central to English and British national memory, shaped above all by Shakespeare's Henry V.",
         "evidence": "fact",
         "refs": [
           {
@@ -612,17 +674,28 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Historical lessons",
-        "text": "Archery from a protected position mattered most against an enemy that was crowded and disordered. The size of an army counted for less than whether it could use its numbers.",
-        "evidence": "interpretation"
+        "text": "Archery from a protected position mattered most against an enemy that was crowded and disordered. The size of an army counted for less than whether it could use its numbers. The French writers who drew lessons from the defeat mostly repeated the traditional ones, blaming rash youth and cowardice; Alain Chartier urged careful planning and deployment, diligence, patience and moderation.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
       },
       {
         "title": "Historiographical debates",
-        "text": "Army sizes remain debated: chronicles give far larger French totals than the administrative records. Ransom contracts suggest the killing of prisoners did not spare men by rank. The archers' V sign has no contemporary record, and the Welsh did not form most of the army.",
+        "text": "Army sizes remain debated: chronicles give far larger French totals than the administrative records, and Taylor notes that the heralds counted only noble casualties and prisoners, so there was no full tally. Ransom contracts suggest the killing of prisoners did not spare men by rank. The archers' V sign has no contemporary record, and the Welsh did not form most of the army. French writers saw the defeat as divine punishment for French sins rather than as a sign of God's favour for Henry, and argued over whose sins: civilians blamed soldiers, soldiers their noble leaders, and partisans of each faction the other. Michel Pintoin, the monk of Saint-Denis, blamed young knights who demanded places at the front and attacked against the advice of experienced soldiers, a view that sits uneasily with Monstrelet's French army waiting in position. Even the name was unsettled: early French texts avoided naming the battle or called it Blangy or Ruisseauville.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -634,12 +707,15 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Monstrelet gives a detailed French narrative, but figures such as his 13,000 English archers conflict with record evidence. University of Southampton research uses muster rolls, pay records and ransom contracts to test the chronicles.",
+        "text": "Monstrelet gives a detailed French narrative, but figures such as his 13,000 English archers conflict with record evidence. University of Southampton research uses muster rolls, pay records and ransom contracts to test the chronicles. Craig Taylor's article in French History, in its accepted version, surveys how the defeat was understood in France until the end of the Hundred Years War, from Pintoin, Christine de Pizan and Alain Chartier to the Armagnac and Burgundian partisans.",
         "evidence": "fact",
         "refs": [
           {
@@ -651,6 +727,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -695,11 +774,11 @@
         "objective": "Stop the English army before it reached Calais, as the royal council had resolved.",
         "known": "The English army was smaller and had been marching through hostile country.",
         "uncertainty": "Whether waiting or attacking would serve better; Monstrelet says some leaders privately feared an open battle.",
-        "constraints": "Command of the vanguard was shared with royal dukes and other great lords. This analysis infers rather than documents how far that limited his authority.",
+        "constraints": "Command of the vanguard was shared with royal dukes and other great lords, and the duke of Burgundy and his son stayed away. This analysis infers rather than documents how far that limited his authority.",
         "forces": "Men-at-arms, archers and crossbowmen in three divisions with mounted wings; record evidence suggests about 12,000 men.",
         "terrain": "Recently sown fields where the vanguard became crowded once the fighting began.",
         "logistics": "Men-at-arms summoned from across the kingdom to intercept the English march.",
-        "decision": "The French waited in position, then sent mounted wings against the English flanks before the vanguard closed.",
+        "decision": "The French waited in position, then sent mounted wings against the English flanks before the vanguard closed. The crossbowmen whom his and the marshal's plan had placed on the wings were withdrawn.",
         "outcome": "The vanguard was defeated; Monstrelet lists many French princes and lords killed or captured."
       }
     ]
@@ -721,6 +800,16 @@
         "title": "Gettysburg National Military Park, Historical Handbook No. 9 (Frederick Tilberg)",
         "url": "https://npshistory.com/handbooks/historical/9/index.htm",
         "publisher": "National Park Service (hosted by NPS History)"
+      },
+      {
+        "title": "Robert E. Lee's Report of the Gettysburg Campaign, January 20, 1864 (from the Official Records)",
+        "url": "https://explorepahistory.com/odocument.php?docId=1-4-F4",
+        "publisher": "ExplorePAhistory.com (WITF)"
+      },
+      {
+        "title": "Letter from Gen. Robert E. Lee to Confederate President, Jefferson Davis, 8 July 1863",
+        "url": "https://www.battlefields.org/learn/primary-sources/letter-gen-robert-e-lee-confederate-president-jefferson-davis",
+        "publisher": "American Battlefield Trust"
       }
     ],
     "sections": [
@@ -739,7 +828,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "The National Park Service describes Lee's aims as raising Confederate morale, easing pressure on Vicksburg, drawing the Union army onto better ground, gathering supplies from Pennsylvania farms and winning victories that might push the Union toward peace.",
+        "text": "The National Park Service describes Lee's aims as raising Confederate morale, easing pressure on Vicksburg, drawing the Union army onto better ground, gathering supplies from Pennsylvania farms and winning victories that might push the Union toward peace. Lee's own report of January 1864 is narrower: to draw the Union army from its position opposite Fredericksburg, where it could not be attacked except at a disadvantage, to transfer the war north of the Potomac, to clear Union troops from the lower Shenandoah Valley and, failing a decisive success, at least to disrupt the Union's plans for the summer.",
         "evidence": "fact",
         "refs": [
           {
@@ -747,6 +836,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -779,7 +871,7 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Lee commanded the Army of Northern Virginia, with corps under Longstreet, Ewell and Hill. Meade commanded the Army of the Potomac, which he had led for only a few days. Stuart's cavalry was out of contact with Lee as the armies converged.",
+        "text": "Lee commanded the Army of Northern Virginia, with corps under Longstreet, Ewell and Hill. Meade commanded the Army of the Potomac, which he had led for only a few days. Stuart's cavalry was out of contact with Lee as the armies converged: Lee's report says Stuart, given discretion to pass around the rear of the Union army, was forced into a wide detour, found the Union army between him and the Confederates, and reached Gettysburg only on the afternoon of 2 July.",
         "evidence": "fact",
         "refs": [
           {
@@ -788,12 +880,15 @@
           {
             "source": 2,
             "locator": "The Plan of Campaign"
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Initial deployment",
-        "text": "Learning that Union forces had crossed the Potomac, Lee concentrated near Cashtown, west of Gettysburg. Heth's division approached along the Chambersburg Pike while Buford's Union cavalry approached from the south. Neither commander expected to fight at Gettysburg.",
+        "text": "Learning that Union forces had crossed the Potomac, Lee concentrated near Cashtown, west of Gettysburg. Hearing nothing from Stuart, he had inferred that the Union army was still in Virginia and ordered an advance on Harrisburg, which a scout's report on the night of 28 June stopped. Heth's division approached along the Chambersburg Pike while Buford's Union cavalry approached from the south; on 30 June a Confederate brigade sent for supplies found the town occupied. Neither commander expected to fight at Gettysburg.",
         "evidence": "fact",
         "refs": [
           {
@@ -805,6 +900,9 @@
           {
             "source": 2,
             "locator": "The Plan of Campaign"
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -824,7 +922,7 @@
       },
       {
         "title": "Important command decisions",
-        "text": "At midnight on 2 July Meade's corps commanders advised holding their positions, and he did. Having found the Union flanks strong, Lee attacked the centre on 3 July with about 12,000 men in what became known as Pickett's Charge.",
+        "text": "At midnight on 2 July Meade's corps commanders advised holding their positions, and he did. Lee's report explains his own choices: he had not intended a general battle so far from his base unless attacked, but withdrawing through the mountains with his long trains would have been dangerous, and he could not wait to be attacked in country where foraging was difficult, so that a battle had become in a measure unavoidable. On 1 July he told Ewell to take the hill held by the Union troops if practicable but to avoid a general engagement. After 2 July he judged that with better coordination the attack would succeed. Having found the Union flanks strong, Lee attacked the centre on 3 July with about 12,000 men in what became known as Pickett's Charge.",
         "evidence": "fact",
         "refs": [
           {
@@ -836,12 +934,15 @@
           {
             "source": 2,
             "locator": "The Third Day"
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Decisive turning points",
-        "text": "On the high ground, the Union's shorter interior line let Meade shift troops to threatened points, while Confederate attacks from the outer arc were harder to coordinate. The failure of the 3 July assault ended Lee's hope of victory on this field.",
+        "text": "On the high ground, the Union's shorter interior line let Meade shift troops to threatened points, while Confederate attacks from the outer arc were harder to coordinate. The failure of the 3 July assault ended Lee's hope of victory on this field. Lee's report attributes the failure to his artillery, which had nearly exhausted its ammunition in the long bombardment and could not support the infantry, a fact unknown to him when the assault began: the left of the attack gave way under fire, and the right, after breaking into the Union lines, was struck in front and on both flanks.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -849,17 +950,26 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Outcome",
-        "text": "Lee began an orderly retreat late on 4 July, with a long train of wounded. Heavy rain slowed both armies, and the swollen Potomac trapped Lee until the river fell and he crossed into Virginia. Critics charged that Meade had let the Confederate army slip away.",
+        "text": "Lee began an orderly retreat late on 4 July, with a long train of wounded. Heavy rain slowed both armies, and the swollen Potomac trapped Lee until the river fell and he crossed into Virginia. Writing to Jefferson Davis from near Hagerstown on 8 July, Lee called his army reduced in numbers but in good condition, its confidence unimpaired, and said that with the river unfordable he would have to accept battle if offered. His report dates the crossing to the night of 13 July and the following morning. Critics charged that Meade had let the Confederate army slip away.",
         "evidence": "fact",
         "refs": [
           {
             "source": 2,
             "locator": "End of Invasion"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -875,7 +985,7 @@
       },
       {
         "title": "Historical lessons",
-        "text": "An unplanned meeting engagement can commit whole armies to ground neither commander chose. Lee's loss of cavalry reconnaissance shows how gaps in information shape decisions before the fighting starts.",
+        "text": "An unplanned meeting engagement can commit whole armies to ground neither commander chose. Lee's loss of cavalry reconnaissance shows how gaps in information shape decisions before the fighting starts; his own report says the army's movements before the battle had been much embarrassed by the absence of the cavalry.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -884,12 +994,15 @@
           {
             "source": 2,
             "locator": "The Plan of Campaign"
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Historiographical debates",
-        "text": "Park Service pages describe Lee's aims with different emphases, and their figures are approximations. Meade's pursuit remains debated. This study does not adopt labels such as \"high-water mark\" or repeat casualty totals.",
+        "text": "Park Service pages describe Lee's aims with different emphases, and their figures are approximations. Meade's pursuit remains debated; Lee's report says the Union army offered no serious interruption to the retreat and did not attack at the Potomac. Lee's report is the defeated commander's account, written six months later: it explains the battle through the absence of the cavalry and the exhausted artillery ammunition, and its figures for prisoners and losses are not used. His letter of 8 July insists that he was not in the least discouraged, while admitting that the Union army could be reinforced and his could not. This study does not adopt labels such as \"high-water mark\" or repeat casualty totals.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -901,12 +1014,18 @@
           {
             "source": 2,
             "locator": "End of Invasion"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The National Park Service overview and teaching background give the campaign and the three days. The park's historical handbook adds the plan of campaign, Meade's council of war and the retreat.",
+        "text": "The National Park Service overview and teaching background give the campaign and the three days. The park's historical handbook adds the plan of campaign, Meade's council of war and the retreat. Lee's report of January 1864, from the Official Records as transcribed by ExplorePAhistory.com, gives the Confederate commander's account of his aims, his reasons for fighting, Stuart's ride and the failure of 3 July, and his letter to Jefferson Davis of 8 July 1863, published by the American Battlefield Trust, his view during the retreat.",
         "evidence": "fact",
         "refs": [
           {
@@ -917,6 +1036,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -948,13 +1073,13 @@
         "name": "Robert E. Lee",
         "objective": "Win a decisive victory on Northern soil that would raise Confederate morale and press the Union toward peace.",
         "known": "On the night of 28 June an agent reported that the Union army had crossed the Potomac and was close.",
-        "uncertainty": "With Stuart's cavalry out of contact, he had little reconnaissance of Union strength and positions.",
-        "constraints": "A supply line stretched far from Virginia, and corps that had to concentrate quickly from scattered positions.",
+        "uncertainty": "With Stuart's cavalry out of contact, he had little reconnaissance of Union strength and positions, and inferred from Stuart's silence that the Union army had not yet left Virginia.",
+        "constraints": "A supply line stretched far from Virginia, country that could not feed the army in the enemy's presence, long trains that made a withdrawal through the mountains dangerous, and corps that had to concentrate quickly from scattered positions.",
         "forces": "The Army of Northern Virginia, with corps under Longstreet, Ewell and Hill.",
         "terrain": "Seminary Ridge, an exterior line facing open fields toward the Union centre.",
         "logistics": "The army foraged in Pennsylvania farmland; its retreat began with a wagon train of wounded many miles long.",
         "decision": "He attacked both Union flanks on 2 July and, finding them strong, attacked the centre on 3 July.",
-        "outcome": "The assault failed, and he retreated to Virginia."
+        "outcome": "The assault failed, and he retreated, recrossing the swollen Potomac into Virginia on 13–14 July."
       },
       {
         "name": "George G. Meade",
@@ -1818,6 +1943,11 @@
         "title": "Some Medieval Accounts of Salah al-Din's Recovery of Jerusalem (Al-Quds)",
         "url": "https://sourcebooks.web.fordham.edu/med/salahdin.asp",
         "publisher": "Internet Medieval Sourcebook, Fordham University (Hadia Dajani-Shakeel)"
+      },
+      {
+        "title": "Bahā' al-Dīn Ibn Shaddād (Beha ed-Din), The Life of Saladin (trans. C. W. Wilson and C. R. Conder, 1897)",
+        "url": "https://archive.org/details/libraryofpalesti13paleuoft",
+        "publisher": "Palestine Pilgrims' Text Society (Internet Archive)"
       }
     ],
     "sections": [
@@ -1836,7 +1966,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Saladin gathered a large army east of the Jordan. Guy, now reconciled with Count Raymond III of Tripoli, assembled the kingdom's forces at the springs of Saffuriya with the Templars, Hospitallers and leading barons, using money from Henry II of England to hire mercenaries.",
+        "text": "Saladin gathered a large army east of the Jordan; his biographer Bahā' al-Dīn says he mustered his troops at 'Ashtera, held the war against the Franks to be his first religious duty, and set out on a Friday at the hour of prayer, believing that day's prayers would bring good fortune. Guy, now reconciled with Count Raymond III of Tripoli, assembled the kingdom's forces at the springs of Saffuriya with the Templars, Hospitallers and leading barons, using money from Henry II of England to hire mercenaries.",
         "evidence": "fact",
         "refs": [
           {
@@ -1845,16 +1975,24 @@
           {
             "source": 1,
             "locator": "letter to Archumbald"
+          },
+          {
+            "source": 3,
+            "locator": "pp. 110–111"
           }
         ]
       },
       {
         "title": "Campaign objectives",
-        "text": "Saladin besieged Tiberias on 2 July, while the Countess Eschiva held out in the citadel and appealed for help. Guy's council resolved to march to relieve the town. Saladin's aim of drawing the army away from water is an interpretation of his actions, not a documented intention.",
+        "text": "Saladin besieged Tiberias on 2 July, while the Countess Eschiva held out in the citadel and appealed for help. Guy's council resolved to march to relieve the town. Bahā' al-Dīn presents the attack on Tiberias as Saladin's answer to the Franks' refusal to leave their position: he had camped on the hill west of the town expecting them to attack, took the town by assault when they did not move, and the Franks then marched, he writes, to answer this call on their honour. Saladin's aim of drawing the army away from water is an interpretation of his actions, not a documented intention.",
         "evidence": "interpretation",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "pp. 111–112"
           }
         ]
       },
@@ -1898,7 +2036,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "On Friday 3 July the army left Saffuriya and its supplies and marched under constant harassment. Short of the lake it halted and camped on dry ground, where the Muslims set fire to the brush around it. At dawn on Saturday 4 July Saladin attacked. The infantry fled to a hilltop, the knights were broken up around the True Cross, and the king was captured.",
+        "text": "On Friday 3 July the army left Saffuriya and its supplies and marched under constant harassment. Short of the lake it halted and camped on dry ground, where the Muslims set fire to the brush around it. At dawn on Saturday 4 July Saladin attacked. The infantry fled to a hilltop, the knights were broken up around the True Cross, and the king was captured. Bahā' al-Dīn's account adds the Muslim view: the armies spent the night under arms, the Muslims with the Jordan behind them; Raymond of Tripoli fled at the start of the action toward Tyre; and the band that climbed the hill of Hattin was ringed with fires and, tortured by thirst, surrendered.",
         "evidence": "fact",
         "refs": [
           {
@@ -1907,6 +2045,10 @@
           {
             "source": 1,
             "locator": "Lyon Eracles"
+          },
+          {
+            "source": 3,
+            "locator": "pp. 112–113"
           }
         ]
       },
@@ -1939,7 +2081,7 @@
       },
       {
         "title": "Outcome",
-        "text": "Guy, the Templar master and many knights were captured, and the True Cross was lost. Reynald of Châtillon was killed; the Lyon Eracles says Saladin killed him himself. De Expugnatione reports that captured Templars and Hospitallers were killed. Raymond, Balian of Ibelin and Reynald of Sidon escaped.",
+        "text": "Guy, the Templar master and many knights were captured, and the True Cross was lost. Reynald of Châtillon was killed; the Lyon Eracles says Saladin killed him himself, and Bahā' al-Dīn agrees, explaining that Saladin had sworn to do so after Reynald attacked a caravan during a truce, and that he gave the thirsty king a cooled drink and told him that it was not the custom of kings to kill kings. De Expugnatione reports that captured Templars and Hospitallers were killed; Bahā' al-Dīn says Saladin resolved to execute them and spared none. Raymond, Balian of Ibelin and Reynald of Sidon escaped. The castle of Tiberias surrendered the next day.",
         "evidence": "fact",
         "refs": [
           {
@@ -1950,6 +2092,10 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "pp. 113–116"
           }
         ]
       },
@@ -1975,7 +2121,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The Latin accounts disagree on whose advice led the army astray: one Eracles version blames Raymond's proposed turn toward Hattin, another the Templar master and Reynald. De Expugnatione frames the defeat as divine punishment and favours Raymond, and some Latins suspected Raymond and Reynald of Sidon of collusion with Saladin.",
+        "text": "The Latin accounts disagree on whose advice led the army astray: one Eracles version blames Raymond's proposed turn toward Hattin, another the Templar master and Reynald. De Expugnatione frames the defeat as divine punishment and favours Raymond, and some Latins suspected Raymond and Reynald of Sidon of collusion with Saladin; Bahā' al-Dīn calls Raymond the most intelligent of the Franks and says he fled before the fighting became serious. Bahā' al-Dīn frames the victory as God's gift to the faithful. He entered Saladin's service only in June 1188 and says his account of earlier events rests on trustworthy witnesses who were present; he calls King Guy “Geoffrey”. He has the armies meet on a Thursday evening and fight on the Friday, with the decision the next day, and the 1897 translators' conversions of his dates fall a day earlier than the Latin accounts' Friday 3 and Saturday 4 July.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -1986,12 +2132,16 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "pp. 112–116"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "De Expugnatione is a partisan contemporary Latin chronicle. Edbury translates two versions of the Old French continuation of William of Tyre and a letter written less than two months after the battle. Dajani-Shakeel sets Hattin in the context of Saladin's recovery of Jerusalem, drawing on medieval Arabic accounts.",
+        "text": "De Expugnatione is a partisan contemporary Latin chronicle. Edbury translates two versions of the Old French continuation of William of Tyre and a letter written less than two months after the battle. Dajani-Shakeel sets Hattin in the context of Saladin's recovery of Jerusalem, drawing on medieval Arabic accounts. Bahā' al-Dīn Ibn Shaddād, Saladin's biographer, who entered his service in 1188, gives the Muslim account of the campaign, the battle and the fate of the prisoners, in the 1897 English translation.",
         "evidence": "fact",
         "refs": [
           {
@@ -2002,6 +2152,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -2044,13 +2197,13 @@
       {
         "name": "Saladin",
         "objective": "Defeat the Frankish field army and recover the kingdom, including Jerusalem.",
-        "known": "The Frankish army had gathered at Saffuriya, beside reliable water.",
+        "known": "The Frankish army had gathered at Saffuriya, beside reliable water, and did not move when he camped west of Tiberias.",
         "uncertainty": "Whether the Franks would leave the springs to fight.",
-        "constraints": "The sources read describe his actions rather than his constraints, so this study does not reconstruct them.",
+        "constraints": "Bahā' al-Dīn writes that his army fought with the Jordan behind it and enemy territory in front; the sources read say little else about his constraints.",
         "forces": "A large army; the letter to Archumbald names his nephew Taqi al-Din as leading the decisive attack.",
         "terrain": "Control of the ground and water between Saffuriya and the lake.",
         "logistics": "The Lyon Eracles says water was poured out in sight of the thirsty Franks.",
-        "decision": "He besieged Tiberias, harassed the march, fired the brush around the camp and attacked at dawn.",
+        "decision": "He took the town of Tiberias by assault, harassed the march, fired the brush around the camp and attacked at dawn.",
         "outcome": "A decisive victory, followed within three months by the surrender of Jerusalem."
       }
     ]

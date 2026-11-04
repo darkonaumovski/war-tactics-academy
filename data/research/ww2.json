@@ -1614,6 +1614,16 @@
         "title": "What You Need To Know About The Dunkirk Evacuations",
         "url": "https://www.iwm.org.uk/history/second-world-war/dunkirk/what-you-need-to-know-about-the-dunkirk-evacuations",
         "publisher": "Imperial War Museums"
+      },
+      {
+        "title": "Die deutsche Westoffensive 1940 (in German)",
+        "url": "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/westoffensive-1940",
+        "publisher": "LeMO, Deutsches Historisches Museum (Arnulf Scriba)"
+      },
+      {
+        "title": "Vorstoß durch die Ardennen (10. bis 13. Mai 1940) (in German)",
+        "url": "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/vorstoss-durch-ardennen-1940",
+        "publisher": "LeMO, Deutsches Historisches Museum (Arnulf Scriba)"
       }
     ],
     "sections": [
@@ -1632,7 +1642,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "The Allies believed that Germany would repeat the Schlieffen Plan of 1914 and attack through central Belgium, and they planned to advance into Belgium to meet it. Belgium and the Netherlands were neutral and almost fully mobilised, but there was a gap between their defence lines. The French, whose commander in chief was General Maurice Gamelin, believed the Ardennes impassable to armour and relied on it to secure the right flank of their advance.",
+        "text": "The Allies believed that Germany would repeat the Schlieffen Plan of 1914 and attack through central Belgium, and they planned to advance into Belgium to meet it. Belgium and the Netherlands were neutral and almost fully mobilised, but there was a gap between their defence lines. The French, whose commander in chief was General Maurice Gamelin, believed the Ardennes impassable to armour and relied on it to secure the right flank of their advance. The German army command shared much of that view: the German Historical Museum's LeMO notes that the Army High Command (OKH) under Walther von Brauchitsch at first rejected an armoured thrust through the roadless, densely wooded Ardennes as impracticable, and that Hitler held to the plan despite its doubts.",
         "evidence": "fact",
         "refs": [
           {
@@ -1640,16 +1650,28 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Campaign objectives",
-        "text": "After an earlier plan along Schlieffen lines was rejected, Hitler accepted Erich von Manstein's alternative. Army Group B under Fedor von Bock would invade the Netherlands and Belgium and draw the Allied armies forward; Army Group C under Wilhelm von Leeb would demonstrate against the Maginot Line; and Army Group A under Gerd von Rundstedt would make an armoured thrust through the Ardennes, bypassing the Maginot Line and the best Allied divisions, toward the Meuse and the sea.",
+        "text": "After an earlier plan along Schlieffen lines was rejected, Hitler accepted Erich von Manstein's alternative, worked out since the autumn of 1939 and known as “Sichelschnitt” (sickle cut). Army Group B under Fedor von Bock would invade the Netherlands and Belgium and draw the Allied armies forward; Army Group C under Wilhelm von Leeb would demonstrate against the Maginot Line; and Army Group A under Gerd von Rundstedt would make an armoured thrust through the Ardennes, bypassing the Maginot Line and the best Allied divisions, toward the Meuse and the sea. LeMO describes two stages: first to encircle the Allied troops in Belgium and northern France, then to turn south to meet a French counterstroke and envelop the main French forces.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -1684,7 +1706,7 @@
       },
       {
         "title": "Initial deployment",
-        "text": "When the attack began, British and French troops left their prepared positions and hurried north into Belgium, and the French Ninth Army moved north from near Sedan. The troops holding the Ardennes sector, where the French command expected no attack, were almost without anti-tank and anti-aircraft guns.",
+        "text": "When the attack began, British and French troops left their prepared positions and hurried north into Belgium, and the French Ninth Army moved north from near Sedan. The troops holding the Ardennes sector, where the French command expected no attack, were almost without anti-tank and anti-aircraft guns. On the German side the developed routes through the Ardennes were reserved for the armour, with the infantry following on side roads; Luxembourg's lightly armed police, who had set up roadblocks, were under orders not to oppose the invaders, and the main Belgian forces were fighting in the north-east of the country.",
         "evidence": "fact",
         "refs": [
           {
@@ -1692,12 +1714,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "On 10 May German airborne troops seized bridges, airfields and the fortress of Eben Emael, and the Netherlands surrendered on 14 May after Rotterdam was bombed. On 13 May German armour crossed the Meuse near Sedan and Rommel's division at Dinant; after a two-day battle at Sedan, Guderian broke through on 15 May and reached the Channel at Abbeville on 20 May, cutting the Allied armies in two. Gamelin was replaced by Maxime Weygand. A British counterstroke at Arras on 21 May shook the Germans but could not be exploited. On 24 May Hitler halted the armour short of Dunkirk; the evacuation, Operation Dynamo, ran from 26 May to 4 June, and Belgium surrendered on 28 May. On 5 June the Germans attacked the new French line on the Somme and the Aisne and broke through; they entered Paris, declared an open city, on 14 June. France asked for an armistice on 17 June and signed it at Compiègne on 22 June, and fighting ended on 25 June.",
+        "text": "On 10 May German airborne troops seized bridges, airfields and the fortress of Eben Emael, and the Netherlands surrendered on 14 May after Rotterdam was bombed. On 13 May German armour crossed the Meuse at Sedan, further north near Charleville and Monthermé, and with Rommel's division at Dinant; after a two-day battle at Sedan, Guderian broke through on 15 May and reached the Channel at Abbeville on 20 May, cutting the Allied armies in two. Gamelin was replaced by Maxime Weygand. A British counterstroke at Arras on 21 May shook the Germans but could not be exploited. On 24 May Hitler halted the armour short of Dunkirk; the evacuation, Operation Dynamo, ran from 26 May to 4 June, and Belgium surrendered on 28 May. On 5 June the Germans attacked the new French line on the Somme and the Aisne, broke through and, as LeMO describes the plan, wheeled south-east to encircle the mass of the French army in the east and take the Maginot Line from the rear; they entered Paris, declared an open city, on 14 June. France asked for an armistice on 17 June and signed it at Compiègne on 22 June, and fighting ended on 25 June.",
         "evidence": "fact",
         "refs": [
           {
@@ -1708,6 +1733,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -1752,7 +1783,7 @@
       },
       {
         "title": "Consequences",
-        "text": "France surrendered and was occupied; Philippe Pétain's government had been formed to bring the war to an end. Britain fought on alone, and the evacuation became a source of national morale. In the occupied Netherlands the German administration murdered hostages and deported most of the Jewish population to extermination camps.",
+        "text": "France surrendered and was occupied; Philippe Pétain's government had been formed to bring the war to an end. LeMO notes that the Germans chose to sign the armistice at the place in the forest of Compiègne where the defeat of 1918 had been sealed, and that Hitler, who visited Paris the next day, stood at the height of his prestige at home, while Charles de Gaulle called from London for resistance. Britain fought on alone, and the evacuation became a source of national morale. In the occupied Netherlands the German administration murdered hostages and deported most of the Jewish population to extermination camps.",
         "evidence": "fact",
         "refs": [
           {
@@ -1763,6 +1794,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -1781,7 +1815,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The halt order of 24 May remains debated; Britannica gives Göring's assurance and Hitler's hope of peace with Britain as reasons and notes that Hitler stopped the armour again after lifting the order. The Imperial War Museums use the term Blitzkrieg for the German method; Britannica stresses Allied doctrine and command, with comparable tank numbers poorly employed, rather than equipment. The sources date the start of the evacuation to 26 May or, in earnest, 27 May.",
+        "text": "The halt order of 24 May remains debated; Britannica gives Göring's assurance and Hitler's hope of peace with Britain as reasons and notes that Hitler stopped the armour again after lifting the order. The Imperial War Museums use the term Blitzkrieg for the German method; Britannica stresses Allied doctrine and command, with comparable tank numbers poorly employed, rather than equipment. LeMO puts the word “Blitzsieg” (lightning victory) in quotation marks and calls the plan very risky: its success rested on surprise against an opponent of equal military strength, and on the Allies recognising too late that the main effort came through Luxembourg and the Ardennes. The sources differ on dates: LeMO gives the Dutch capitulation on 15 May rather than 14 May and the arrival at Abbeville on 19 May, with the coast reached a day later; the start of the evacuation is dated to 26 May or, in earnest, 27 May. LeMO's loss figures are not used.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -1792,12 +1826,18 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Basil Liddell Hart's Britannica article gives the plans, the course of the campaign from the Netherlands to the armistice, and the halt order. The Imperial War Museums give the Ardennes attack, Paris and the armistice, and, in a separate article, the Dunkirk evacuation.",
+        "text": "Basil Liddell Hart's Britannica article gives the plans, the course of the campaign from the Netherlands to the armistice, and the halt order. The Imperial War Museums give the Ardennes attack, Paris and the armistice, and, in a separate article, the Dunkirk evacuation. Two articles by Arnulf Scriba for the German Historical Museum's LeMO, in German, give the German side: Manstein's plan and the army command's doubts, the advance through the Ardennes to the Meuse crossings, the second phase on the Somme and the Aisne, and the armistice.",
         "evidence": "fact",
         "refs": [
           {
@@ -1808,6 +1848,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -1838,9 +1884,9 @@
       {
         "name": "Heinz Guderian",
         "objective": "Cross the Meuse at Sedan and drive to the Channel.",
-        "known": "The French defenders in the sector were weak and the Allied armies had moved into Belgium.",
+        "known": "The French defenders in the sector were weak, relying on the Ardennes as a natural obstacle, and the Allied armies had moved into Belgium.",
         "uncertainty": "Whether the French would strike his long, thinly held flanks.",
-        "constraints": "Superiors who wanted to slow the advance to secure the flanks.",
+        "constraints": "Superiors who wanted to slow the advance to secure the flanks, and an army command that had doubted the plan.",
         "decision": "He kept advancing, calling it reconnaissance in force, and reached the sea at Abbeville on 20 May.",
         "forces": "XIX Panzer Corps with strong air support.",
         "terrain": "The Ardennes, the Meuse and the open Somme valley.",
@@ -1890,12 +1936,22 @@
         "title": "Dowding: Architect of Victory (podcast transcript)",
         "url": "https://www.rafmuseum.org.uk/documents/podcasts/transcripts/Dowding-Architect-Of-Victory.pdf",
         "publisher": "Royal Air Force Museum"
+      },
+      {
+        "title": "Luftschlacht um England 1940/41 (in German)",
+        "url": "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/luftschlacht-um-england-194041",
+        "publisher": "LeMO, Deutsches Historisches Museum (Arnulf Scriba)"
+      },
+      {
+        "title": "Die Luftschlacht um England – The Battle of Britain (research guide, in German)",
+        "url": "https://www.bundesarchiv.de/im-archiv-recherchieren/archivgut-recherchieren/nach-themen/die-luftschlacht-um-england/",
+        "publisher": "Bundesarchiv (German Federal Archives)"
       }
     ],
     "sections": [
       {
         "title": "Historical background",
-        "text": "After the evacuation from Dunkirk and the fall of France, Britain stood alone. Hitler expected the British government to accept a compromise peace, and Germany had made no plans to invade Britain. When Churchill's government fought on, Hitler ordered on 16 July that preparations begin for an invasion, Operation Sea Lion.",
+        "text": "After the evacuation from Dunkirk and the fall of France, Britain stood alone. Hitler expected the British government to accept a compromise peace, and Germany had made no plans to invade Britain. When Churchill's government fought on, Hitler ordered on 16 July that preparations begin for an invasion, Operation Sea Lion. The German sources add the motive: LeMO and the Bundesarchiv both say the German leadership wanted Britain defeated quickly to have its back free for the war it intended against the Soviet Union.",
         "evidence": "fact",
         "refs": [
           {
@@ -1903,12 +1959,18 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Political and strategic context",
-        "text": "The German army was unprepared for a crossing, and the German navy feared the Royal Navy and insisted that the Luftwaffe take responsibility; Hermann Göring was confident that his air force could drive the RAF from the sky. On the British side, Air Chief Marshal Sir Hugh Dowding had argued in May 1940 that sending more fighters to France would lead to Britain's defeat, and his warning had been heeded, though only after heavy losses.",
+        "text": "The German army was unprepared for a crossing, and the German navy feared the Royal Navy and insisted that the Luftwaffe take responsibility; according to the Bundesarchiv, the naval leadership was very sceptical of the planned landing and demanded total air superiority over southern England as an essential condition. Hermann Göring was confident that his air force could drive the RAF from the sky. On the British side, Air Chief Marshal Sir Hugh Dowding had argued in May 1940 that sending more fighters to France would lead to Britain's defeat, and his warning had been heeded, though only after heavy losses.",
         "evidence": "fact",
         "refs": [
           {
@@ -1919,12 +1981,15 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Campaign objectives",
-        "text": "The Luftwaffe's aim was to gain air superiority over southern England and destroy RAF Fighter Command, so that an invasion could follow. Fighter Command's aim was to remain an effective force, denying the Germans control of the air.",
+        "text": "The Luftwaffe's aim was to gain air superiority over southern England and destroy RAF Fighter Command, so that an invasion could follow; LeMO adds that the defence network of southern England was to be smashed within a few weeks or, at best, Britain forced to capitulate. Its targets were British naval forces, the armament industry, anti-aircraft positions and RAF bases; the Bundesarchiv notes that attacks on cities and civilian targets were not at first intended. Fighter Command's aim was to remain an effective force, denying the Germans control of the air.",
         "evidence": "fact",
         "refs": [
           {
@@ -1932,6 +1997,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -1950,7 +2021,7 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Fighter Command, under Dowding, was divided into four groups, each divided into sectors: No. 11 Group in the south-east under Air Vice-Marshal Keith Park, No. 12 in the Midlands, No. 10 in the south-west and No. 13 in the north. Its pilots flew Hurricanes and Spitfires and came from Britain, the Commonwealth and occupied Europe, including Polish and Czech squadrons. Göring's Luftwaffe attacked with three air fleets. Thousands of volunteers of the Observer Corps and members of the Women's Auxiliary Air Force worked as observers, radar operators and plotters.",
+        "text": "Fighter Command, under Dowding, was divided into four groups, each divided into sectors: No. 11 Group in the south-east under Air Vice-Marshal Keith Park, No. 12 in the Midlands, No. 10 in the south-west and No. 13 in the north. Its pilots flew Hurricanes and Spitfires and came from Britain, the Commonwealth and occupied Europe, including Polish and Czech squadrons. Göring's Luftwaffe attacked with three air fleets: Luftflotte 2 under Albert Kesselring, from the Low Countries and France as far as the mouth of the Somme, against south-east England and London; Luftflotte 3 under Hugo Sperrle, from France west of the Somme, against the west of England; and Luftflotte 5 under Hans-Jürgen Stumpff, from Norway, against the north. Thousands of volunteers of the Observer Corps and members of the Women's Auxiliary Air Force worked as observers, radar operators and plotters.",
         "evidence": "fact",
         "refs": [
           {
@@ -1961,6 +2032,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -1982,7 +2056,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "From 10 July the Luftwaffe attacked convoys and ports. On 13 August it opened its main offensive, Eagle Attack, against airfields, radar stations and aircraft factories. In the critical phase, from the last week of August to the first week of September, the airfields of the south-east were badly damaged, and 31 August was Fighter Command's worst day. After British bombers raided Berlin, Hitler ordered the Luftwaffe to switch its attacks to London, which was bombed from 7 September. On 15 September Fighter Command repelled another massive attack. Hitler ordered the invasion shipping dispersed on 19 September and on 12 October postponed the operation for the winter, while the Luftwaffe turned to night raids on British cities.",
+        "text": "From 10 July the Luftwaffe attacked convoys and ports. On 13 August, the date the German sources give for the start of the battle, it opened its main offensive, Eagle Attack, against airfields, radar stations and aircraft factories. In the critical phase, from the last week of August to the first week of September, the airfields of the south-east were badly damaged, and 31 August was Fighter Command's worst day. After British bombers raided Berlin, Hitler ordered the Luftwaffe to switch its attacks to London, which was bombed from 7 September. On 15 September Fighter Command repelled another massive attack, and LeMO writes that the large-scale German attacks were stopped in mid-September after heavy losses. Hitler ordered the invasion shipping dispersed on 19 September and on 12 October postponed the operation for the winter, while the Luftwaffe turned to night raids on London and, from mid-October, the industrial Midlands, aimed, LeMO writes, at Britain's economic and defensive strength and the morale of its people.",
         "evidence": "fact",
         "refs": [
           {
@@ -1990,12 +2064,18 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Dowding's defence of his fighter strength in May and his management of limited resources through the control system allowed Fighter Command to fight on; Britannica notes that Hurricanes were used against the bombers and Spitfires against the escorts. Hitler's decision to switch the attack to London, in anger at the raid on Berlin, relieved the pressure on No. 11 Group's airfields. The Luftwaffe had no consistent plan and changed targets repeatedly.",
+        "text": "Dowding's defence of his fighter strength in May and his management of limited resources through the control system allowed Fighter Command to fight on; Britannica notes that Hurricanes were used against the bombers and Spitfires against the escorts. Hitler's decision to switch the attack to London, in anger at the raid on Berlin, relieved the pressure on No. 11 Group's airfields. The Luftwaffe had no consistent plan and changed targets repeatedly. Both German sources blame its leadership: LeMO writes that Göring, in a wholly mistaken assessment of British air defence and aircraft production, pictured a Luftwaffe superior in almost every field, and the Bundesarchiv that the Luftwaffe command under Göring had completely misjudged the situation.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -2006,12 +2086,18 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Decisive turning points",
-        "text": "The switch to London on 7 September gave the British defences time to recover, and the repulse of the attacks of 15 September showed that the Luftwaffe could not gain air superiority. By mid-September British fighters were destroying German bombers faster than German industry could replace them.",
+        "text": "The switch to London on 7 September gave the British defences time to recover, and the repulse of the attacks of 15 September showed that the Luftwaffe could not gain air superiority. By mid-September British fighters were destroying German bombers faster than German industry could replace them. The German sources point to the same imbalance: British fighter production ran at about twice the German rate, the RAF made good its losses far better than the Luftwaffe, German pilots were often poorly trained in escorting bombers in formation, and German fighters lacked range.",
         "evidence": "fact",
         "refs": [
           {
@@ -2019,6 +2105,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -2037,7 +2129,7 @@
       },
       {
         "title": "Consequences",
-        "text": "The night raids of the Blitz on London, Coventry, Liverpool and other cities went on for months, causing many civilian deaths and great hardship, but did little to further an invasion. Germany turned to a blockade by submarine and to the invasion of the Soviet Union. Britain remained the base from which the Allies would launch the invasion of Europe in 1944. Dowding was relieved of his command in November 1940, criticised for not using the larger fighter formations known as the Big Wing, for the weakness of night defence and for failing to resolve the quarrel between Park and Leigh-Mallory.",
+        "text": "The night raids of the Blitz on London, Coventry, Liverpool and other cities went on for months, causing many civilian deaths and great hardship, but did little to further an invasion. After the raid that almost destroyed Coventry on the night of 14–15 November, LeMO notes, the cynical word “coventrieren” entered the language of German officers. Germany turned to a blockade by submarine and, in the spring of 1941, largely stopped the air war against Britain to move the bulk of the Luftwaffe east for the invasion of the Soviet Union. Britain remained the base from which the Allies would launch the invasion of Europe in 1944. Dowding was relieved of his command in November 1940, criticised for not using the larger fighter formations known as the Big Wing, for the weakness of night defence and for failing to resolve the quarrel between Park and Leigh-Mallory.",
         "evidence": "fact",
         "refs": [
           {
@@ -2048,6 +2140,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -2069,7 +2167,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "How close Fighter Command came to defeat is debated. Britannica writes that by late August it was losing fighters and experienced pilots at an unsustainable rate and that No. 11 Group was fighting for its life; the Imperial War Museums stress that the Luftwaffe overestimated the damage it caused and that Fighter Command was bruised but not broken. The RAF Museum describes the Big Wing dispute that contributed to Dowding's removal. The sources end the battle in September (Britannica) or October (Imperial War Museums).",
+        "text": "How close Fighter Command came to defeat is debated. Britannica writes that by late August it was losing fighters and experienced pilots at an unsustainable rate and that No. 11 Group was fighting for its life; the Imperial War Museums stress that the Luftwaffe overestimated the damage it caused and that Fighter Command was bruised but not broken. The RAF Museum describes the Big Wing dispute that contributed to Dowding's removal. The British sources explain the result largely through the Dowding System, the German ones through the Luftwaffe's own failings: Göring's misjudgment, inadequate training, short-ranged fighters and weaker production. The sources end the battle in September (Britannica) or October (Imperial War Museums), while LeMO and the Bundesarchiv begin it on 13 August and treat the bombing of British cities until the spring of 1941 as part of it; LeMO dates the first release of London as a target to the night of 5–6 September. The Bundesarchiv warns that the Luftwaffe's records survive only in fragments, and the German sources' loss figures are not used.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -2080,12 +2178,18 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The Imperial War Museums give the German plan, the Dowding System, the phases of the battle and its significance. Britannica gives the German decisions, the forces, the course of the battle and the Blitz. The RAF Museum's account of Dowding gives his preparation of the air defences, his letter of May 1940 and his removal.",
+        "text": "The Imperial War Museums give the German plan, the Dowding System, the phases of the battle and its significance. Britannica gives the German decisions, the forces, the course of the battle and the Blitz. The RAF Museum's account of Dowding gives his preparation of the air defences, his letter of May 1940 and his removal. Arnulf Scriba's article for the German Historical Museum's LeMO and the Bundesarchiv's research guide, both in German, give the German aims and targets, the air fleets and their commanders, the German explanations of the defeat and the end of the air war against Britain in 1941.",
         "evidence": "fact",
         "refs": [
           {
@@ -2096,6 +2200,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -2138,14 +2248,14 @@
       {
         "name": "Hermann Göring",
         "objective": "Destroy the RAF and win air superiority so that Sea Lion could follow.",
-        "known": "His air force was the largest in the world.",
+        "known": "His air force was the largest in the world, and he believed it superior in almost every field.",
         "uncertainty": "How much damage his raids were really doing to Fighter Command.",
-        "constraints": "Bombers with small bomb loads and escort fighters at the limit of their range.",
+        "constraints": "Bombers with small bomb loads, escort fighters at the limit of their range, and pilots often poorly trained in escorting bombers in formation.",
         "decision": "He attacked shipping, then airfields and radar, then, on Hitler's order, London.",
         "forces": "Three air fleets of bombers and fighters.",
         "terrain": "Bases from Norway to Cherbourg facing southern England.",
-        "logistics": "Aircraft production that could not replace losses.",
-        "outcome": "The Luftwaffe failed to gain air superiority and turned to night bombing."
+        "logistics": "Aircraft production that could not replace losses; the British built fighters at about twice the German rate.",
+        "outcome": "The Luftwaffe failed to gain air superiority and turned to night bombing, which was largely stopped in the spring of 1941."
       }
     ]
   },
@@ -4803,12 +4913,22 @@
         "title": "Battle of Arnhem",
         "url": "https://www.iwm.org.uk/history/second-world-war/north-west-europe/arnhem",
         "publisher": "Imperial War Museums"
+      },
+      {
+        "title": "Model, Walter (Dermot Bradley, NDB 17, 1994)",
+        "url": "https://www.deutsche-biographie.de/sfz63801.html",
+        "publisher": "Neue Deutsche Biographie (Deutsche Biographie), in German"
+      },
+      {
+        "title": "The Railway Strike (Versteeg's Children: the Dutch railways in the Second World War)",
+        "url": "https://www.spoorwegmuseum.nl/en/versteegs-children/the-railway-strike/",
+        "publisher": "Spoorwegmuseum (Dutch Railway Museum), Utrecht"
       }
     ],
     "sections": [
       {
         "title": "Historical background",
-        "text": "After the Normandy landings and the pursuit of the German armies across France and Belgium in the summer of 1944, the Allies sought the fastest way to win the war in Europe. Field Marshal Bernard Montgomery believed that one bold stroke could shorten the war.",
+        "text": "After the Normandy landings and the pursuit of the German armies across France and Belgium in the summer of 1944, the Allies sought the fastest way to win the war in Europe. Field Marshal Bernard Montgomery believed that one bold stroke could shorten the war. The German front, however, was recovering: Walter Model, appointed commander in chief in the west and of Army Group B on 16 August, gave up the western command at his own request on 4 September but kept Army Group B, and, according to the Neue Deutsche Biographie, soon formed a continuous front again from the mouth of the Scheldt to Belfort.",
         "evidence": "fact",
         "refs": [
           {
@@ -4816,12 +4936,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Political and strategic context",
-        "text": "Montgomery persuaded the Supreme Allied Commander, General Dwight D. Eisenhower, to approve a combined airborne and armoured assault through the Netherlands and to divert supplies, especially scarce fuel, to support it.",
+        "text": "Montgomery persuaded the Supreme Allied Commander, General Dwight D. Eisenhower, to approve a combined airborne and armoured assault through the Netherlands and to divert supplies, especially scarce fuel, to support it. In the occupied Netherlands liberation seemed weeks or even days away; the Dutch Railway Museum describes how, urged by the Allied Supreme Command, the Dutch government in London called on 17 September for a general railway strike so that the Germans could not bring troops and equipment to the battle in time.",
         "evidence": "fact",
         "refs": [
           {
@@ -4829,6 +4952,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -4905,7 +5031,7 @@
       },
       {
         "title": "Important command decisions",
-        "text": "Eisenhower's decision to back Montgomery's plan concentrated scarce resources on a single narrow thrust. The planners accepted landing zones far from the Arnhem bridge, a lift spread over three days and an intelligence picture of a lightly defended area. Model reacted quickly, calling for reinforcements and air support and blowing bridges along the road.",
+        "text": "Eisenhower's decision to back Montgomery's plan concentrated scarce resources on a single narrow thrust. The planners accepted landing zones far from the Arnhem bridge, a lift spread over three days and an intelligence picture of a lightly defended area. Model reacted quickly, calling for reinforcements and air support and blowing bridges along the road. In London, because the operation was secret, only Prime Minister Gerbrandy and his war minister knew of the Allied request for a railway strike; Gerbrandy agreed at once, the war minister consented despite doubts, and the call went out on Radio Orange at 17.45 on 17 September, before the rest of the cabinet and the Queen were told.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -4913,6 +5039,9 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -4947,7 +5076,7 @@
       },
       {
         "title": "Consequences",
-        "text": "The Rhine crossing and the capture of the Ruhr were delayed by six months, and the Allies had to fight into Germany on a broad front. The operation did liberate a large part of the Netherlands, at a time when many Dutch people were close to starvation.",
+        "text": "The Rhine crossing and the capture of the Ruhr were delayed by six months, and the Allies had to fight into Germany on a broad front. The operation did liberate a large part of the Netherlands south of the great rivers, but the north and west stayed under German occupation for almost eight more months. The railway strike went on all that time, yet the Germans had their own staff running military trains again after just over a week, so its military effect was small. To break the strike, Reich Commissioner Seyss-Inquart banned the transport of goods by ship; the ban was lifted in mid-October, but the rivers then froze, food stocks dwindled, especially in the west, and the result was the famine of the winter of 1944–45, when many Dutch people were close to starvation.",
         "evidence": "fact",
         "refs": [
           {
@@ -4955,6 +5084,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -4973,7 +5105,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Britannica calls the operation a failure of military intelligence redeemed to some extent by the heroism of the soldiers; the National Army Museum calls it a costly failure but a remarkable feat of arms, and the IWM one of the most controversial episodes of the war. The sources give different dates for the end of the operation, 25 or 27 September, and different loss figures.",
+        "text": "Britannica calls the operation a failure of military intelligence redeemed to some extent by the heroism of the soldiers; the National Army Museum calls it a costly failure but a remarkable feat of arms, and the IWM one of the most controversial episodes of the war. The sources give different dates for the end of the operation, 25 or 27 September, and different loss figures. The railway strike is debated in the Netherlands: German propaganda blamed it for the shortages, while the Dutch Railway Museum attributes the famine to the shipping ban and the freezing of the rivers; whether a strike called “by superior order”, with wages paid throughout, was an act of resistance has always been disputed. The Neue Deutsche Biographie's article on Model does not mention Arnhem, so the German side of the battle itself still rests on Britannica's account of Model's response.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -4984,12 +5116,18 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The National Army Museum gives the plan, the problems of landing zones, radios, weather and intelligence, and the outcome. Raymond K. Bluhm's Britannica article gives Montgomery's persuasion of Eisenhower, the course of the battle at each bridge and Model's response. The Imperial War Museums give Montgomery's aims and the fate of the airborne troops at Arnhem.",
+        "text": "The National Army Museum gives the plan, the problems of landing zones, radios, weather and intelligence, and the outcome. Raymond K. Bluhm's Britannica article gives Montgomery's persuasion of Eisenhower, the course of the battle at each bridge and Model's response. The Imperial War Museums give Montgomery's aims and the fate of the airborne troops at Arnhem. Dermot Bradley's article on Model in the Neue Deutsche Biographie, in German, gives the German recovery in the west in September 1944. The Dutch Railway Museum gives the railway strike called in support of the operation, the German response and the road to the famine.",
         "evidence": "fact",
         "refs": [
           {
@@ -5000,6 +5138,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -5054,13 +5198,13 @@
       {
         "name": "Walter Model",
         "objective": "Stop the Allied thrust before it crossed the Rhine.",
-        "known": "Allied airborne troops had landed along the road to Arnhem.",
+        "known": "Allied airborne troops had landed along the road to Arnhem; he had rebuilt a continuous German front in the west in the weeks before.",
         "uncertainty": "How far XXX Corps could advance.",
         "constraints": "Forces surprised by the landings.",
         "decision": "He called for reinforcements and air support, blew bridges and attacked the airborne pockets and the corridor.",
         "forces": "Army Group B with SS armoured units near Arnhem.",
         "terrain": "The bridges and the single road.",
-        "logistics": "Reinforcements brought in by priority.",
+        "logistics": "Reinforcements brought in by priority; despite the Dutch railway strike, German military trains ran again after just over a week.",
         "outcome": "The Allied advance was stopped short of Arnhem."
       }
     ]
@@ -5393,6 +5537,21 @@
         "title": "What You Need To Know About The Battle Of The Bulge",
         "url": "https://www.iwm.org.uk/history/second-world-war/north-west-europe/what-you-need-to-know-about-the-battle-of-the-bulge",
         "publisher": "Imperial War Museums"
+      },
+      {
+        "title": "Die deutsche Ardennenoffensive im Winter 1944/45 (in German)",
+        "url": "https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/die-ardennenoffensive-1944-45/",
+        "publisher": "Bundesarchiv (German Federal Archives)"
+      },
+      {
+        "title": "Model, Walter (Dermot Bradley, NDB 17, 1994)",
+        "url": "https://www.deutsche-biographie.de/sfz63801.html",
+        "publisher": "Neue Deutsche Biographie (Deutsche Biographie), in German"
+      },
+      {
+        "title": "Die Ardennenoffensive 1944 (in German)",
+        "url": "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/ardennenoffensive-1944",
+        "publisher": "LeMO, Deutsches Historisches Museum"
       }
     ],
     "sections": [
@@ -5411,7 +5570,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Hitler saw a last chance in the west. He hoped a decisive blow would split the Western Allies and lead to a negotiated peace that would let him concentrate on the Eastern Front.",
+        "text": "Hitler saw a last chance in the west. He hoped a decisive blow would split the Western Allies and lead to a negotiated peace that would let him concentrate on the Eastern Front. LeMO dates German planning for a relieving counter-offensive to the late summer of 1944, in answer to the unstoppable Allied advance in France; by separating the British and American armies the Western Powers were to be made ready for peace, so that the forces could then be turned against the Red Army. The Bundesarchiv puts the aim as splitting the Allied armies, cutting their supply lines and forcing peace negotiations.",
         "evidence": "fact",
         "refs": [
           {
@@ -5419,12 +5578,18 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 5
           }
         ]
       },
       {
         "title": "Campaign objectives",
-        "text": "The German offensive was to break through the American front in the Ardennes, cross the Meuse and drive to Antwerp, cutting off the British army group from the Americans and from its supplies. The Fifth Panzer Army was to wheel north-west past Namur to Antwerp, and the Sixth Panzer Army to thrust past Liège.",
+        "text": "The German offensive, code-named “Wacht am Rhein” (Watch on the Rhine), was to break through the American front in the Ardennes, cross the Meuse and drive to Antwerp, cutting off the British army group from the Americans and from its supplies. Both German sources note that it was modelled on the “Sichelschnitt” advance through the same wooded hills in May 1940; LeMO names Brussels and Antwerp, where Allied supplies were handled, as its goals. The Fifth Panzer Army was to wheel north-west past Namur to Antwerp, and the Sixth Panzer Army to thrust past Liège.",
         "evidence": "fact",
         "refs": [
           {
@@ -5432,6 +5597,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 5
           }
         ]
       },
@@ -5450,7 +5621,7 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Field Marshal Gerd von Rundstedt had overall command of the offensive; the Fifth Panzer Army was led by Hasso von Manteuffel and the Sixth Panzer Army by Sepp Dietrich. General Dwight D. Eisenhower, the Supreme Allied Commander, held a front of nearly 1,000 kilometres; in the Ardennes the Allied troops were mainly American, some new and inexperienced, others exhausted.",
+        "text": "Field Marshal Gerd von Rundstedt had overall command of the offensive; the Fifth Panzer Army was led by Hasso von Manteuffel and the Sixth Panzer Army by Sepp Dietrich. The attack was carried out by Army Group B under Field Marshal Walter Model, and a Bundesarchiv photograph shows Model, Rundstedt and Hans Krebs at a preliminary meeting in November 1944; according to the Neue Deutsche Biographie, Model played a leading part in planning and conducting the offensive. The Bundesarchiv adds that the Germans were far superior in numbers in the sector and that the American Shermans had little to set against German Tiger and Panther tanks. General Dwight D. Eisenhower, the Supreme Allied Commander, held a front of nearly 1,000 kilometres; in the Ardennes the Allied troops were mainly American, some new and inexperienced, others exhausted.",
         "evidence": "fact",
         "refs": [
           {
@@ -5458,12 +5629,18 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Initial deployment",
-        "text": "The Germans massed their forces in secret, moving at night and under radio silence, and timed the attack for weather that would keep Allied aircraft on the ground.",
+        "text": "The Germans massed their forces in secret, moving at night and under radio silence, and timed the attack for weather that would keep Allied aircraft on the ground. By mid-December, LeMO writes, the Wehrmacht had brought fresh infantry divisions into position between Monschau and Echternach, some withdrawn from the Eastern Front, facing relatively weak American forces. The Bundesarchiv says Hitler deliberately chose the date to deprive the Allies of their air superiority. Records of the preparations, including a map of the operation, survive in the Bundesarchiv (holding RH 19-IV).",
         "evidence": "fact",
         "refs": [
           {
@@ -5471,12 +5648,18 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "The offensive began before dawn on 16 December 1944 and achieved complete surprise, pushing a bulge into the American line. Small American units delayed the spearhead, and on 17 December soldiers of Kampfgruppe Peiper murdered American prisoners near Malmedy. The defenders of St Vith held the crossroads for nearly a week, and Bastogne, surrounded, was held by the 101st Airborne Division; on 22 December its commander, Anthony McAuliffe, answered a demand for surrender with “NUTS!”. By 24 December the Fifth Panzer Army was within about 6 kilometres of the Meuse, but fuel shortages and growing air attacks stopped it. Patton's Third Army relieved Bastogne on 26 December. The weather cleared and Allied air attacks resumed; on 1 January the Luftwaffe struck Allied airfields but suffered losses it could not recover from. The First Army counter-attacked on 3 January, and by the end of January the Allies had regained their former positions.",
+        "text": "The offensive began before dawn on 16 December 1944 and achieved complete surprise, pushing a bulge into the American line. Small American units delayed the spearhead; in the north, LeMO notes, the Sixth SS Panzer Army advanced comparatively slowly, while the Fifth Panzer Army in the south drove quickly toward the Meuse. On 17 December soldiers of Kampfgruppe Peiper, of the 1st SS Panzer Division Leibstandarte SS Adolf Hitler, murdered American prisoners near Malmedy, and in the following days soldiers of the same division murdered civilians at Stavelot. The defenders of St Vith held the crossroads for nearly a week, until it fell on 21 December, and Bastogne, surrounded, was held by the 101st Airborne Division; on 22 December its commander, Anthony McAuliffe, answered a demand for surrender with “NUTS!”. By 24 December the Fifth Panzer Army was within about 6 kilometres of the Meuse, but fuel shortages and growing air attacks stopped it. Patton's Third Army relieved Bastogne on 26 December, and on 27 December, LeMO writes, the Wehrmacht had to go over to the defensive on every sector. The weather cleared and Allied air attacks resumed; on 1 January the Luftwaffe struck Allied airfields but suffered losses it could not recover from. The First Army counter-attacked on 3 January, and by the end of January the Allies had regained their former positions.",
         "evidence": "fact",
         "refs": [
           {
@@ -5487,12 +5670,18 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 5
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Montgomery, who took charge on the northern flank, swung his reserves south to forestall the Germans at the Meuse crossings, and Patton's Third Army broke through to relieve Bastogne. The quick arrival of Allied reinforcements and the decision to hold the road junctions at St Vith and Bastogne, even when surrounded, slowed the German advance. The Germans then carried out a skilful withdrawal from the potential trap.",
+        "text": "Montgomery, who took charge on the northern flank, swung his reserves south to forestall the Germans at the Meuse crossings, and Patton's Third Army broke through to relieve Bastogne. The quick arrival of Allied reinforcements and the decision to hold the road junctions at St Vith and Bastogne, even when surrounded, slowed the German advance. The Germans then carried out a skilful withdrawal from the potential trap. On the German side, Hitler chose the timing for bad weather, and Model, according to the Neue Deutsche Biographie, finally agreed to Hitler's “Große Lösung” (grand solution); the same article judges him an optimist inclined to ignore difficulties.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -5500,12 +5689,18 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Decisive turning points",
-        "text": "The stands at St Vith, Bastogne and on the northern shoulder denied the Germans the roads they needed, and by the end of December, short of fuel and under renewed air attack, their advance had ground to a halt.",
+        "text": "The stands at St Vith, Bastogne and on the northern shoulder denied the Germans the roads they needed, and by the end of December, short of fuel and under renewed air attack, their advance had ground to a halt. The German sources give the same reasons: the arrival of American reinforcements, better flying weather for Allied aircraft and the failure of supplies, while lack of fuel, heavy snow and difficult ground kept the heavy tanks from being used, so that the Germans lost a decisive advantage.",
         "evidence": "fact",
         "refs": [
           {
@@ -5516,6 +5711,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 5
           }
         ]
       },
@@ -5537,7 +5738,7 @@
       },
       {
         "title": "Consequences",
-        "text": "Germany had drained its last reserves of manpower and material in the west. The Allies resumed their advance and in early spring crossed into the heart of Germany. The murder of American prisoners near Malmedy was one of the most brutal war crimes against American troops in Europe.",
+        "text": "Germany had drained its last reserves of manpower and material in the west. The Bundesarchiv calls it the last great German offensive on the Western Front and notes that its failure ended Hitler's plan to end the war in the west and relieve the Eastern Front: the Americans and British advanced eastward, and the Red Army reached the Oder at the end of January. The Allies resumed their advance and in early spring crossed into the heart of Germany. The murder of American prisoners near Malmedy was one of the most brutal war crimes against American troops in Europe; Joachim Peiper was sentenced to death by a US military court in 1946, but the sentence was commuted to life imprisonment in 1951 and he was released in 1956.",
         "evidence": "fact",
         "refs": [
           {
@@ -5548,6 +5749,9 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -5566,7 +5770,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The sources date the end of the battle to 16 January (Britannica) or 25 January 1945 (the National WWII Museum, the IWM). Britannica credits Montgomery's swing of reserves to the Meuse with frustrating the German advance; the brief's controversy over his press conference is not discussed in the sources read. Britannica judges the offensive profitable in its own terms but fatal in relation to the whole war.",
+        "text": "The sources date the end of the battle to 16 January (Britannica) or 25 January 1945 (the National WWII Museum, the IWM); LeMO says the Germans had lost all their gains by 16 January, and the Bundesarchiv that the offensive had wholly failed by the end of January. Britannica credits Montgomery's swing of reserves to the Meuse with frustrating the German advance; the brief's controversy over his press conference is not discussed in the sources read. Britannica judges the offensive profitable in its own terms but fatal in relation to the whole war. Britannica gives Rundstedt overall command, while the Bundesarchiv and the Neue Deutsche Biographie put Model at the centre of the planning and conduct. The Neue Deutsche Biographie writes that the Allies stopped the attack only after a week, LeMO that it failed after only a few days. The German sources' figures for the forces engaged are not used.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -5577,12 +5781,21 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Britannica gives the German plan, the commanders, the course of the battle and its assessment. The National WWII Museum gives Hitler's aims, the German preparations, the delaying actions, the Malmedy massacre and the defence of St Vith and Bastogne. The IWM gives the surprise, the role of the road junctions, the weather and fuel, and the outcome.",
+        "text": "Britannica gives the German plan, the commanders, the course of the battle and its assessment. The National WWII Museum gives Hitler's aims, the German preparations, the delaying actions, the Malmedy massacre and the defence of St Vith and Bastogne. The IWM gives the surprise, the role of the road junctions, the weather and fuel, and the outcome. The Bundesarchiv's article, LeMO's article and Dermot Bradley's article on Model in the Neue Deutsche Biographie, all in German, give the German aims and plan, Model's part, the war crimes at Malmedy and Stavelot and Peiper's trial, and the German view of why the offensive failed.",
         "evidence": "fact",
         "refs": [
           {
@@ -5593,6 +5806,15 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
           }
         ]
       }
@@ -5655,6 +5877,18 @@
         "terrain": "The Meuse and its crossings.",
         "logistics": "Reserves moved south to the river.",
         "outcome": "The Germans did not cross the Meuse."
+      },
+      {
+        "name": "Walter Model",
+        "objective": "Break through the Ardennes with Army Group B, cross the Meuse and take Antwerp.",
+        "known": "The American line in the Ardennes was thinly held, and bad weather would keep Allied aircraft on the ground.",
+        "uncertainty": "Whether fuel and supplies would last, and how long the weather would hold.",
+        "constraints": "Hitler's “grand solution”, to which he finally agreed, and scarce fuel.",
+        "decision": "He took a leading part in planning the offensive and launched it on 16 December, then went over to the defensive on 27 December.",
+        "forces": "Army Group B, with the Sixth SS Panzer Army in the north and the Fifth Panzer Army in the south.",
+        "terrain": "The wooded Ardennes between Monschau and Echternach, and the Meuse crossings beyond.",
+        "logistics": "Lack of fuel and supplies, which with snow and difficult ground kept the heavy tanks from being used.",
+        "outcome": "The offensive failed, and by January the Germans were back on their start line."
       }
     ]
   },

@@ -6278,6 +6278,16 @@
         "title": "Ney, Michel, duc d'Elchingen (François-Guy Hourtoulle, Dictionnaire Napoléon)",
         "url": "https://www.napoleon.org/histoire-des-2-empires/biographies/ney-michel-duc-delchingen-prince-de-la-moskowa-1769-1815-marechal/",
         "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "The Corsican: A Diary of Napoleon's Life in His Own Words, ed. R. M. Johnston",
+        "url": "https://archive.org/details/corsicandiary00napouoft",
+        "publisher": "Houghton Mifflin, 1910 (Internet Archive)"
+      },
+      {
+        "title": "Состоялось сражение на Березине — последнее крупное сражение во время Отечественной войны 1812 г. (The battle on the Berezina, the last major battle of the Patriotic War of 1812), in Russian",
+        "url": "https://www.prlib.ru/history/619764",
+        "publisher": "Boris Yeltsin Presidential Library, St Petersburg"
       }
     ],
     "sections": [
@@ -6296,7 +6306,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Napoleon had tried to avoid any appearance of retreat by first ordering a march on Kaluga. By late November three Russian armies were converging on his line: Wittgenstein from the north, Chichagov from the south and Kutuzov's main army behind.",
+        "text": "Napoleon had tried to avoid any appearance of retreat by first ordering a march on Kaluga. By late November three Russian armies were converging on his line: Wittgenstein from the north, Chichagov from the south and Kutuzov's main army behind. The Presidential Library's account gives the Russian plan: while Kutuzov pursued from the east, Wittgenstein's corps and Chichagov's Third Western Army were to take up a defensive line on the Ulla and the Berezina facing east and cut Napoleon off from the west.",
         "evidence": "fact",
         "refs": [
           {
@@ -6304,6 +6314,9 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -6348,7 +6361,7 @@
       },
       {
         "title": "Initial deployment",
-        "text": "Britannica notes that most of the army's losses occurred before the first snowfall. At Krasnoi in mid-November Kutuzov declined a general engagement, and Ney's rearguard escaped only across the breaking ice of the Dnieper. The advance guard reached the Berezina on 23 November to learn that Chichagov held the Borisov bridge; Oudinot retook Borisov, but the Russians burned the bridge as they withdrew. On 24 November Corbineau's cavalry found the ford at Studianka.",
+        "text": "Britannica notes that most of the army's losses occurred before the first snowfall. At Krasnoi in mid-November Kutuzov declined a general engagement, and Ney's rearguard escaped only across the breaking ice of the Dnieper. The advance guard reached the Berezina on 23 November to learn that Chichagov held the Borisov bridge; Oudinot retook Borisov, but the Russians burned the bridge as they withdrew. In the Russian account, Chichagov, overestimating the French strength, pulled his troops out of Borisov on 24 November and fell back to the west bank. On 24 November Corbineau's cavalry found the ford at Studianka.",
         "evidence": "fact",
         "refs": [
           {
@@ -6359,12 +6372,15 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "Eblé's pontonniers reached Studianka on the afternoon of 25 November and, working in the icy water, built two trestle bridges from the timbers of the village houses, one for troops and one for wagons and guns, while feints at Borisov and downstream drew Chichagov's attention south. On 26 November Oudinot's corps crossed; the second bridge opened in the afternoon, and ice floes repeatedly damaged both, forcing repairs in the water. The Guard and the main body crossed on 27 November, but most of the stragglers waited for daylight. On 28 November Victor held off Wittgenstein on the east bank while Oudinot and Ney contained Chichagov on the west bank; Partouneaux's division, cut off near Borisov, surrendered. At 9 a.m. on 29 November the bridges were set on fire as Cossacks reached the bank.",
+        "text": "Eblé's pontonniers reached Studianka on the afternoon of 25 November and, working in the icy water, built two trestle bridges from the timbers of the village houses, one for troops and one for wagons and guns, while feints at Borisov and downstream drew Chichagov's attention south; the Russian account says he moved his forces about 25 kilometres south of Borisov, leaving only a small screen at the ford. On 26 November Oudinot's corps crossed; the second bridge opened in the afternoon, and ice floes repeatedly damaged both, forcing repairs in the water. The Guard and the main body crossed on 27 November, but most of the stragglers waited for daylight; Napoleon wrote that day that the river was full of floating ice and the bridges very insecure. On 28 November Victor held off Wittgenstein on the east bank while Oudinot, wounded early in the day, and then Ney contained Chichagov on the west bank, where marshy ground hampered the Russian attack led by Sabaneev; Partouneaux's division, cut off near Borisov, surrendered. At 9 a.m. on 29 November the bridges were set on fire as Cossacks reached the bank.",
         "evidence": "fact",
         "refs": [
           {
@@ -6375,6 +6391,13 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 3,
+            "locator": "pp. 362–363"
           }
         ]
       },
@@ -6403,7 +6426,7 @@
       },
       {
         "title": "Outcome",
-        "text": "The core of the army escaped across the Berezina and through the marshes toward Zembin. Many thousands of stragglers, sick and wounded were left behind when the bridges burned; Ganière writes that those who could walk were taken prisoner and the others killed. The army had escaped destruction, but as a fighting force it was finished.",
+        "text": "The core of the army escaped across the Berezina and through the marshes toward Zembin. Many thousands of stragglers, sick and wounded were left behind when the bridges burned; Ganière writes that those who could walk were taken prisoner and the others killed. The army had escaped destruction, but as a fighting force it was finished. Napoleon wrote to Maret on 29 November that the army was numerous but in a frightful state of disbandment, that cold and privation had broken it up and that it might not be rallied short of the Niemen. The Russian account concludes that the French army could not be surrounded and destroyed, but suffered heavy losses.",
         "evidence": "fact",
         "refs": [
           {
@@ -6411,6 +6434,13 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 3,
+            "locator": "pp. 363–364"
           }
         ]
       },
@@ -6442,7 +6472,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Russian coordination failed: Chichagov was deceived, Ganière describes Kutuzov's army as largely inactive on 28 November, and Britannica notes that Schwarzenberg had failed to pursue Chichagov. The burning of the bridges, with so many still on the east bank, remains a painful question. Dates differ slightly: Ganière places the first snow on 3 November and Ney's escape on 18 November, Britannica the first snowstorm on 6 November. The losses of the campaign are estimated very differently and are not repeated here.",
+        "text": "Russian coordination failed: Chichagov was deceived, Ganière describes Kutuzov's army as largely inactive on 28 November, and Britannica notes that Schwarzenberg had failed to pursue Chichagov. The Russian account itself blames Chichagov for overestimating the French and for being misled by their feints. The burning of the bridges, with so many still on the east bank, remains a painful question. Napoleon's 29th Bulletin, issued on 3 December, presented the crossing as a victory and laid the army's ruin on the cold, which killed the horses and left the army without cavalry, artillery teams or transport; its figures are not used. Dates differ slightly: Ganière places the first snow on 3 November and Ney's escape on 18 November, Britannica the first snowstorm on 6 November, and the Russian account dates Partouneaux's surrender to 27 November. The losses of the campaign are estimated very differently and are not repeated here.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -6450,12 +6480,19 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 3,
+            "locator": "pp. 364–366"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Britannica's narrative of the retreat from Moscow gives the outline, and Paul Ganière's article in the Revue du Souvenir Napoléonien the detailed course of the crossing. François-Guy Hourtoulle's biography of Ney adds the rearguard and the fighting of 28 November.",
+        "text": "Britannica's narrative of the retreat from Moscow gives the outline, and Paul Ganière's article in the Revue du Souvenir Napoléonien the detailed course of the crossing. François-Guy Hourtoulle's biography of Ney adds the rearguard and the fighting of 28 November. The Corsican, R. M. Johnston's compilation of Napoleon's letters and bulletins, gives his own account from the river and of the state of the army. The Boris Yeltsin Presidential Library's account, in Russian, gives the Russian plan and Chichagov's movements.",
         "evidence": "fact",
         "refs": [
           {
@@ -6466,6 +6503,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -6513,13 +6556,13 @@
       {
         "name": "Pavel Chichagov",
         "objective": "Block the French crossing of the Berezina.",
-        "known": "The French were approaching Borisov.",
+        "known": "The French were approaching Borisov; he believed them stronger than they were.",
         "uncertainty": "Where the French would try to cross.",
         "constraints": "Coordinating with Wittgenstein and Kutuzov, who were approaching from other directions.",
         "forces": "His army on the west bank.",
         "terrain": "The river line from Borisov to Studianka.",
         "logistics": "He had come up from the south to reach the river.",
-        "decision": "He concentrated at Borisov and withdrew the force facing Studianka.",
+        "decision": "He withdrew from Borisov to the west bank, then, misled by French feints, moved most of his army south, leaving only a small screen opposite Studianka; on 28 November he attacked Oudinot on the west bank.",
         "outcome": "The French crossed upstream, and his later attacks on the west bank were contained."
       }
     ]
@@ -6806,6 +6849,16 @@
         "title": "Ney, Michel, duc d'Elchingen (François-Guy Hourtoulle, Dictionnaire Napoléon)",
         "url": "https://www.napoleon.org/histoire-des-2-empires/biographies/ney-michel-duc-delchingen-prince-de-la-moskowa-1769-1815-marechal/",
         "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "The Corsican: A Diary of Napoleon's Life in His Own Words, ed. R. M. Johnston",
+        "url": "https://archive.org/details/corsicandiary00napouoft",
+        "publisher": "Houghton Mifflin, 1910 (Internet Archive)"
+      },
+      {
+        "title": "Blücher von Wahlstatt, Gebhard Leberecht Fürst (Hans Haussherr, NDB 2, 1955; von Meerheimb, ADB 2, 1875)",
+        "url": "https://www.deutsche-biographie.de/sfz35354.html",
+        "publisher": "Neue Deutsche Biographie and Allgemeine Deutsche Biographie (Deutsche Biographie), in German"
       }
     ],
     "sections": [
@@ -6824,7 +6877,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Saxony had returned to the French alliance, and Austria was preparing armed mediation. Bülow's Prussian corps covered Berlin, and Napoleon set up his base at Dresden for operations against both the main Allied army and Berlin.",
+        "text": "Saxony had returned to the French alliance, and Austria was preparing armed mediation. Bülow's Prussian corps covered Berlin, and Napoleon set up his base at Dresden for operations against both the main Allied army and Berlin. On the eve of the battle Napoleon wrote to the Emperor Francis warning him not to sacrifice three years' friendship, and instructed Caulaincourt to seek direct talks with Alexander I, to whom he would rather make concessions than to Austria, which, he wrote, had played false under the guise of mediation.",
         "evidence": "fact",
         "refs": [
           {
@@ -6832,6 +6885,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "pp. 382–383"
           }
         ]
       },
@@ -6860,7 +6917,7 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Napoleon commanded the main army in person; Ney led the northern wing. Wittgenstein commanded the Allies, who were far superior in cavalry although Napoleon had the larger army; Barclay replaced Wittgenstein on 29 May. Figures are not repeated here.",
+        "text": "Napoleon commanded the main army in person; Ney led the northern wing. Wittgenstein commanded the Allies, who were far superior in cavalry although Napoleon had the larger army; Barclay replaced Wittgenstein on 29 May. The Prussian army under Blücher, with Scharnhorst and Gneisenau on his staff, fought under Russian supreme command; the Allgemeine Deutsche Biographie notes that at Bautzen Blücher commanded the Allied right wing. Figures are not repeated here.",
         "evidence": "fact",
         "refs": [
           {
@@ -6871,6 +6928,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -6886,7 +6946,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "On 20 May Napoleon's preliminary attack on the Spree succeeded. On 21 May Ney reached Preititz but let himself be drawn into an inconclusive fight with the Allied right wing; the timeline says he attacked the Allied centre instead of the crumbling right. The limited reach of Ney's outflanking movement and the Allies' superior cavalry let them break off and retreat eastward from 4 p.m.",
+        "text": "On 20 May Napoleon's preliminary attack on the Spree succeeded; his bulletin calls that day's fighting only the prelude to the battle of Wurschen. On 21 May Ney reached Preititz but let himself be drawn into an inconclusive fight with the Allied right wing; the timeline says he attacked the Allied centre instead of the crumbling right. In the bulletin's account Ney took Preititz at ten in the morning and was driven back when the Allied reserves came in, while Napoleon, wheeling the Guard, Latour-Maubourg's cavalry and a mass of guns to the left, struck the flank of the Russian centre and at three in the afternoon announced the battle won. The limited reach of Ney's outflanking movement and the Allies' superior cavalry let them break off and retreat eastward from 4 p.m.",
         "evidence": "fact",
         "refs": [
           {
@@ -6894,6 +6954,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "pp. 383–385"
           }
         ]
       },
@@ -6938,7 +7002,7 @@
       },
       {
         "title": "Consequences",
-        "text": "On 4 June both sides accepted the armistice of Pläswitz, later extended to 10 August. Napoleon counted on rebuilding his cavalry; the Allies used the pause to bring in the Prussian Landwehr and, at Reichenbach, to agree that Austria would enter the war if Napoleon rejected its terms. Austria declared war on 12 August.",
+        "text": "On 4 June both sides accepted the armistice of Pläswitz, later extended to 10 August. Napoleon counted on rebuilding his cavalry; the Allies used the pause to bring in the Prussian Landwehr and, at Reichenbach, to agree that Austria would enter the war if Napoleon rejected its terms. Austria declared war on 12 August. Blücher then received command of the new Army of Silesia.",
         "evidence": "fact",
         "refs": [
           {
@@ -6946,6 +7010,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -6964,7 +7031,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The Fondation Napoléon timeline calls the armistice Napoleon's great mistake, arguing that he could have pressed his advantage; Britannica stresses that his offensive had spent its force and his army lacked ammunition, supplies and cavalry. Ney's conduct is described differently: Britannica says he was drawn into an inconclusive encounter, the timeline that he attacked the wrong part of the line. Figures differ and are not repeated here.",
+        "text": "The Fondation Napoléon timeline calls the armistice Napoleon's great mistake, arguing that he could have pressed his advantage; Britannica stresses that his offensive had spent its force and his army lacked ammunition, supplies and cavalry. The Prussian biographies agree that the armistice served the Allies better: the Allgemeine Deutsche Biographie writes that Blücher and Gneisenau condemned it at the time, fearing a dishonourable peace, but that events proved it far more useful to Prussia than to Napoleon. The Neue Deutsche Biographie calls Lützen and Bautzen honourable defeats. Ney's conduct is described differently: Britannica says he was drawn into an inconclusive encounter, the timeline that he attacked the wrong part of the line, while Napoleon's bulletin praises him and gives the decisive role to the Emperor's own flank attack. Napoleon's account names the battle after Wurschen rather than Bautzen. Figures differ and are not repeated here.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -6972,12 +7039,19 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 3,
+            "locator": "pp. 383–385"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Britannica's narrative of the 1813 campaign gives the plan and the course of the battle, and the Fondation Napoléon's 1813 timeline the debate over Ney and the armistice. Hourtoulle's biography of Ney notes his command at Bautzen.",
+        "text": "Britannica's narrative of the 1813 campaign gives the plan and the course of the battle, and the Fondation Napoléon's 1813 timeline the debate over Ney and the armistice. Hourtoulle's biography of Ney notes his command at Bautzen. The Corsican, R. M. Johnston's compilation of Napoleon's letters and bulletins, gives his diplomacy on the eve of battle and his bulletin's account of it. The Neue Deutsche Biographie and Allgemeine Deutsche Biographie articles on Blücher, in German, give the Prussian view of the battle and the armistice.",
         "evidence": "fact",
         "refs": [
           {
@@ -6988,6 +7062,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -8468,12 +8548,22 @@
         "title": "Napoleonic Wars: The campaign of France, 1814 (Brienne to Vauchamps)",
         "url": "https://www.britannica.com/event/Napoleonic-Wars/The-campaign-of-France-1814",
         "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "The Corsican: A Diary of Napoleon's Life in His Own Words, ed. R. M. Johnston",
+        "url": "https://archive.org/details/corsicandiary00napouoft",
+        "publisher": "Houghton Mifflin, 1910 (Internet Archive)"
+      },
+      {
+        "title": "Blücher von Wahlstatt, Gebhard Leberecht Fürst (Hans Haussherr, NDB 2, 1955; von Meerheimb, ADB 2, 1875)",
+        "url": "https://www.deutsche-biographie.de/sfz35354.html",
+        "publisher": "Neue Deutsche Biographie and Allgemeine Deutsche Biographie (Deutsche Biographie), in German"
       }
     ],
     "sections": [
       {
         "title": "Historical background",
-        "text": "After the Six Days, Napoleon turned south against Schwarzenberg and reoccupied Troyes on 24 February 1814. Blücher, declining to retreat with Schwarzenberg, moved north toward the Marne and the Aisne, and Bülow's and Wintzingerode's corps were transferred to his command.",
+        "text": "After the Six Days, Napoleon turned south against Schwarzenberg and reoccupied Troyes on 24 February 1814. Blücher, declining to retreat with Schwarzenberg, moved north toward the Marne and the Aisne, and Bülow's and Wintzingerode's corps were transferred to his command. The Prussian biographies credit Blücher and his chief of staff Gneisenau with preventing the general retreat the Allied headquarters had already considered, and with separating from the main army to march on the Aisne.",
         "evidence": "fact",
         "refs": [
           {
@@ -8481,6 +8571,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -8539,7 +8632,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "On 7 March a confused and bloody encounter at Craonne lasted into the night; Napoleon held the field and Blücher fell back to Laon. On 9 March Napoleon, attacking from the south in two columns, failed against the strong position. That night Marmont's corps was surprised near Athies and broken up by Allied cavalry; it was rallied only at Berry-au-Bac the next day. Napoleon withdrew to Soissons.",
+        "text": "On 7 March a confused and bloody encounter at Craonne lasted into the night; Napoleon held the field and Blücher fell back to Laon. On 9 March Napoleon, attacking from the south in two columns, failed against the strong position. That night Marmont's corps was surprised near Athies and broken up by Allied cavalry; it was rallied only at Berry-au-Bac the next day. Napoleon withdrew to Soissons. His letters tell the story from his side: on 10 March he wrote that Blücher's position at Laon was very strong, that he had confined himself to reconnoitring it, and that Marmont's soldiers had lost their heads and fallen back in disorder, which decided him not to attack; on the 11th he resolved to fall back on Soissons, noting that the Young Guard was melting away like snow.",
         "evidence": "fact",
         "refs": [
           {
@@ -8547,16 +8640,23 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "pp. 432–434"
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Napoleon chose to attack a much larger army concentrated in a strong position. After the night attack, Blücher fell ill and the Prussians halted their pursuit, which Britannica says kept the reverse from being worse.",
+        "text": "Napoleon chose to attack a much larger army concentrated in a strong position. After the night attack, Blücher fell ill and the Prussians halted their pursuit, which Britannica says kept the reverse from being worse. The Neue Deutsche Biographie gives the reason as a severe eye complaint and depression; it adds that Blücher usually chose the boldest of the plans Gneisenau drew up for him, and that the two men's shares in the operations can never be clearly separated.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -8614,7 +8714,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Britannica calls Craonne a confused and bloody encounter with roughly equal losses; the Fondation Napoléon chronology says Napoleon held the field. Britannica attributes the limited pursuit after Athies to Blücher's illness and the Prussian halt. Figures are not repeated here.",
+        "text": "Britannica calls Craonne a confused and bloody encounter with roughly equal losses; the Fondation Napoléon chronology says Napoleon held the field. Britannica attributes the limited pursuit after Athies to Blücher's illness and the Prussian halt, and the Neue Deutsche Biographie agrees. Napoleon's own letter of 10 March presents the first day at Laon as a reconnaissance, where Britannica describes an attack in two columns that failed; the Prussian biographies count Laon, on 9 and 10 March, as a Prussian victory. Figures are not repeated here.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -8622,12 +8722,19 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 3,
+            "locator": "p. 433"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Britannica's account of the operations on the Aisne gives the course of Craonne and Laon, and its narrative of the campaign of France the background. Marie de Bruchard's chronology for the Fondation Napoléon adds Athies and the desertions.",
+        "text": "Britannica's account of the operations on the Aisne gives the course of Craonne and Laon, and its narrative of the campaign of France the background. Marie de Bruchard's chronology for the Fondation Napoléon adds Athies and the desertions. The Corsican, R. M. Johnston's compilation of Napoleon's letters, gives his own account of Craonne, Laon and the retreat. The Neue Deutsche Biographie and Allgemeine Deutsche Biographie articles on Blücher, in German, give the Prussian view and Blücher's illness.",
         "evidence": "fact",
         "refs": [
           {
@@ -8638,6 +8745,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -8682,7 +8795,7 @@
         "objective": "Concentrate his reinforced army and defeat Napoleon.",
         "known": "Napoleon was following him across the Aisne.",
         "uncertainty": "Where Napoleon would attack.",
-        "constraints": "His own illness during the battle.",
+        "constraints": "A severe eye complaint and depression during the battle, and operations planned largely with Gneisenau.",
         "forces": "The Army of Silesia, reinforced by Bülow and Wintzingerode.",
         "terrain": "A strong position at Laon, behind the Aisne.",
         "logistics": "Reinforcements joining from the north.",
@@ -8708,6 +8821,16 @@
         "title": "Napoleonic Wars: The campaign of France, 1814 (Brienne to Vauchamps)",
         "url": "https://www.britannica.com/event/Napoleonic-Wars/The-campaign-of-France-1814",
         "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "The Corsican: A Diary of Napoleon's Life in His Own Words, ed. R. M. Johnston",
+        "url": "https://archive.org/details/corsicandiary00napouoft",
+        "publisher": "Houghton Mifflin, 1910 (Internet Archive)"
+      },
+      {
+        "title": "Schwarzenberg, Karl Philipp Fürst zu (Sch., ADB 33, 1891)",
+        "url": "https://www.deutsche-biographie.de/sfz6806.html",
+        "publisher": "Allgemeine Deutsche Biographie (Deutsche Biographie), in German"
       }
     ],
     "sections": [
@@ -8785,7 +8908,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "On 20 March Napoleon pushed Schwarzenberg's forces off the battlefield by nightfall. On 21 March Schwarzenberg resumed the attack with his whole army, and Napoleon had to retreat across the Aube; Schwarzenberg failed to destroy the only bridge, which let him withdraw.",
+        "text": "On 20 March Napoleon pushed Schwarzenberg's forces off the battlefield by nightfall. On 21 March Schwarzenberg resumed the attack with his whole army, and Napoleon had to retreat across the Aube; Schwarzenberg failed to destroy the only bridge, which let him withdraw. In the compilation of his words, Napoleon recalls exposing himself continuously during the fight in the hope of a glorious end: bullets rained around him and his clothes were full of them, but none touched him.",
         "evidence": "fact",
         "refs": [
           {
@@ -8793,12 +8916,16 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "p. 436"
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Too weak to stop either Allied army, Napoleon resolved to move east to rally his garrisons in Lorraine, provoke a general rising and throw himself on Schwarzenberg's rear. On 23 March Tsar Alexander learned of unrest in Paris from an intercepted letter, and at a council at Sompuis on 24 March the Allies decided to advance directly on Paris instead of following him.",
+        "text": "Too weak to stop either Allied army, Napoleon resolved to move east to rally his garrisons in Lorraine, provoke a general rising and throw himself on Schwarzenberg's rear. On 23 March Tsar Alexander learned of unrest in Paris from an intercepted letter, and at a council at Sompuis on 24 March the Allies decided to advance directly on Paris instead of following him. The Austrian biography gives the credit to Schwarzenberg: when Napoleon moved against the Allied communications, it says, the prince insisted on a rapid advance on Paris, opposed any backward movement and persuaded the monarchs by declaring himself personally responsible for the outcome.",
         "evidence": "fact",
         "refs": [
           {
@@ -8806,6 +8933,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -8863,7 +8993,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Whether Napoleon expected to meet only part of Schwarzenberg's army at Arcis is not stated in the sources read. The Fondation Napoléon chronology describes the intercepted letter as supposedly from Savary. The Treaty of Fontainebleau is dated 11 April (the chronology) or 13 April, when Napoleon accepted it (Britannica). Figures are not repeated here.",
+        "text": "Whether Napoleon expected to meet only part of Schwarzenberg's army at Arcis is not stated in the sources read. The Fondation Napoléon chronology describes the intercepted letter as supposedly from Savary. Who decided on the march on Paris is disputed: the chronology and Britannica describe the decision of the Allied council after the Tsar learned of the unrest in Paris, while the Allgemeine Deutsche Biographie, in an admiring article written in 1891, attributes it to Schwarzenberg alone. Napoleon's remark about seeking death at Arcis appears in R. M. Johnston's compilation among letters of 20 and 23 March; the compilation does not say when it was made. The Treaty of Fontainebleau is dated 11 April (the chronology) or 13 April, when Napoleon accepted it (Britannica). Figures are not repeated here.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -8871,12 +9001,19 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 3,
+            "locator": "p. 436"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Britannica's account of the Allied advance on Paris gives the battle and its sequel, and its narrative of the campaign of France the background. Marie de Bruchard's chronology for the Fondation Napoléon adds the bridge, the intercepted letter and the council at Sompuis.",
+        "text": "Britannica's account of the Allied advance on Paris gives the battle and its sequel, and its narrative of the campaign of France the background. Marie de Bruchard's chronology for the Fondation Napoléon adds the bridge, the intercepted letter and the council at Sompuis. The Corsican, R. M. Johnston's compilation of Napoleon's words, gives his own recollection of the fight. The Allgemeine Deutsche Biographie's article on Schwarzenberg, in German, gives the Austrian view of the campaign and of the decision to march on Paris.",
         "evidence": "fact",
         "refs": [
           {
@@ -8887,6 +9024,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -8935,7 +9078,7 @@
         "forces": "The Army of Bohemia.",
         "terrain": "The country between the Seine and the Aube.",
         "logistics": "Communications threatened by Napoleon's move.",
-        "decision": "He attacked with his whole army on the 21st, then marched on Paris with Blücher.",
+        "decision": "He attacked with his whole army on the 21st and, in the Austrian account, insisted on marching on Paris rather than following Napoleon, making himself personally responsible to the monarchs.",
         "outcome": "Paris capitulated on 31 March and Napoleon abdicated."
       }
     ]

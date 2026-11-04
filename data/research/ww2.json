@@ -1460,6 +1460,16 @@
         "title": "The Invasion of Poland",
         "url": "https://www.nationalww2museum.org/war/articles/invasion-poland-september-1939",
         "publisher": "The National WWII Museum"
+      },
+      {
+        "title": "Überfall auf Polen 1939 (in German)",
+        "url": "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/ueberfall-auf-polen-1939",
+        "publisher": "LeMO, Deutsches Historisches Museum (Arnulf Scriba)"
+      },
+      {
+        "title": "Mirosław Szumiło, “Z bolszewikami nie walczyć…” (Do not fight the Bolsheviks…), 16 September 2022 (in Polish)",
+        "url": "https://przystanekhistoria.pl/pa2/teksty/29173,Z-bolszewikami-nie-walczyc.pdf",
+        "publisher": "Przystanek Historia, Institute of National Remembrance (IPN), Poland"
       }
     ],
     "sections": [
@@ -1478,7 +1488,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Britain and France had followed a policy of appeasement but were now bound to Poland by a military alliance, and Poland expected them to attack Germany from the west if it was invaded; they did not. On the night of 31 August the SS staged an attack on a German radio station near the border, at Gleiwitz, to make Poland appear the aggressor, and Hitler used it to justify the invasion the next morning.",
+        "text": "Britain and France had followed a policy of appeasement but were now bound to Poland by a military alliance, and Poland expected them to attack Germany from the west if it was invaded; they did not. The German Historical Museum's LeMO describes the German side: Poland refused the demand to hand the Free City of Danzig to the Reich and to allow extraterritorial routes across the Corridor to East Prussia; in April 1939 Hitler told the Wehrmacht to prepare a campaign; and in August the press and radio reported almost daily on alleged Polish border violations and violence against the German minority, so that the attack would appear a just punishment. On the night of 31 August the SS staged an attack on a German radio station near the border, at Gleiwitz, to make Poland appear the aggressor, and Hitler used it to justify the invasion the next morning.",
         "evidence": "fact",
         "refs": [
           {
@@ -1486,12 +1496,15 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Campaign objectives",
-        "text": "Germany's plan, Case White, was to destroy Poland and gain living space in the east, with armies advancing from north and south to encircle the Polish forces and converge on Warsaw. The war against Poland was planned as one of destruction from the start: in a speech to his commanders on 22 August Hitler called for merciless warfare, Einsatzgruppen and police battalions were formed to kill Poles who might resist, and lists of prominent Poles were drawn up for execution. The Holocaust Encyclopedia describes the aim of German policy as the destruction of the Polish nation and culture, reducing Poles to a leaderless population of labourers.",
+        "text": "Germany's plan, Case White, was to destroy Poland and gain living space in the east, with armies advancing from north and south to encircle the Polish forces and converge on Warsaw. LeMO calls a war against Poland the precondition for Hitler's basic aims, the destruction of “Jewish Bolshevism” and the conquest of living space in the east, and notes that the Wehrmacht's leaders, told of his decision at the Berghof on 22 August, carried it out without objection. The war against Poland was planned as one of destruction from the start: in a speech to his commanders on 22 August Hitler called for merciless warfare, Einsatzgruppen and police battalions were formed to kill Poles who might resist, and lists of prominent Poles were drawn up for execution. The Holocaust Encyclopedia describes the aim of German policy as the destruction of the Polish nation and culture, reducing Poles to a leaderless population of labourers.",
         "evidence": "fact",
         "refs": [
           {
@@ -1502,6 +1515,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -1520,7 +1536,7 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Army Group North under Fedor von Bock attacked from East Prussia and the Corridor, and Army Group South under Gerd von Rundstedt from Silesia toward Łódź, Kraków and Warsaw, with Slovak units in a smaller attack from the south and strong air support. The Polish army was only partly mobilised, had few armoured or motorised units and older weapons, and its small air force was largely destroyed in the first days. The National WWII Museum credits Heinz Guderian with the combination of tanks and air support later called Blitzkrieg.",
+        "text": "Army Group North under Fedor von Bock attacked from East Prussia and the Corridor, and Army Group South under Gerd von Rundstedt from Silesia toward Łódź, Kraków and Warsaw, with Slovak units in a smaller attack from the south and strong air support. LeMO judges the attackers roughly equal to the Polish army in numbers but far superior in equipment and mobility, with armoured formations operating for the first time as concentrated forces in close cooperation with the Luftwaffe. The Polish army, under Marshal Edward Rydz-Śmigły, was only partly mobilised, had few armoured or motorised units and older weapons, and its small air force was largely destroyed in the first days. The National WWII Museum credits Heinz Guderian with the combination of tanks and air support later called Blitzkrieg.",
         "evidence": "fact",
         "refs": [
           {
@@ -1528,12 +1544,15 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Initial deployment",
-        "text": "Poland mobilised late, and political considerations forced its army into a disadvantageous deployment: it concentrated its forces in the west to meet the attack at the frontier, counting on its allies to open a second front.",
+        "text": "Poland mobilised late, and political considerations forced its army into a disadvantageous deployment: it concentrated its forces in the west to meet the attack at the frontier, counting on its allies to open a second front. LeMO describes the deployment along a border of about 1,900 kilometres without natural obstacles as strategically unfavourable, and notes that although the Polish leadership knew of the German preparations and the massing of troops, the attack in the early hours of 1 September came as a surprise; at 4.45 a.m. the battleship Schleswig-Holstein opened fire on the Polish depot on the Westerplatte at Danzig.",
         "evidence": "fact",
         "refs": [
           {
@@ -1541,12 +1560,15 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "Germany attacked at dawn on 1 September, and in the first days its aircraft bombed towns and villages across Poland; Wieluń was flattened on the first day. German forces broke through the frontier defences and advanced on Warsaw, reaching its outskirts on 8 and 9 September, where the defenders threw back the first tank attacks. Polish units fought hard, as at Mokra, where a cavalry brigade armed with anti-tank rifles fought German tanks. In the largest battle of the campaign the Poles counterattacked from the Bzura into a German flank, but by 19 September they were encircled. On 17 September the Soviet Union invaded from the east, and the Polish government left the country. Warsaw, bombed and shelled, surrendered at the end of the month; Germany and the Soviet Union partitioned Poland along the Bug on 29 September, and the last Polish resistance ended on 6 October after the battle of Kock.",
+        "text": "Germany attacked at dawn on 1 September, and in the first days its aircraft bombed towns and villages across Poland; Wieluń was flattened on the first day. Army Group North joined Pomerania to East Prussia on 3 September, and within a week, LeMO writes, all the Polish frontier lines had been broken and strong Polish forces destroyed in a pocket at Radom. German forces advanced on Warsaw, reaching its outskirts on 8 and 9 September, where the defenders threw back the first tank attacks. Polish units fought hard, as at Mokra, where a cavalry brigade armed with anti-tank rifles fought German tanks. In the largest battle of the campaign the Poles counterattacked from the Bzura into a German flank, but by 19 September they were encircled. By mid-September, according to the Institute of National Remembrance's article, Rydz-Śmigły meant to make a last stand on the “Romanian bridgehead” along the Dniester and Stryj. On 17 September the Soviet Union invaded from the east, a complete surprise to the Polish high command, and the Polish government left the country. Warsaw, bombed and shelled, surrendered at the end of the month; Germany and the Soviet Union partitioned Poland along the Bug on 29 September, and the last Polish resistance ended on 6 October after the battle of Kock.",
         "evidence": "fact",
         "refs": [
           {
@@ -1554,12 +1576,18 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Poland's forward deployment, imposed by political considerations, exposed its armies to encirclement, and its strategy rested on an Allied attack in the west that never came. Germany concentrated armour and aircraft at the decisive points. The Soviet invasion, agreed in the secret protocol, removed any possibility of a prolonged stand in the east.",
+        "text": "Poland's forward deployment, imposed by political considerations, exposed its armies to encirclement, and its strategy rested on an Allied attack in the west that never came. Germany concentrated armour and aircraft at the decisive points. The Soviet invasion, agreed in the secret protocol, removed any possibility of a prolonged stand in the east. On the evening of 17 September Rydz-Śmigły, after hesitating all day, crossed into Romania with the government and president, having issued a general directive: withdraw to Romania and Hungary by the shortest routes, do not fight the Bolsheviks unless they attack or try to disarm units, and let towns they reach negotiate the departure of their garrisons. The Institute of National Remembrance's article calls the directive confusing and its consequences tragic: some commanders fought, as the Border Protection Corps did under General Wilhelm Orlik-Rückemann, while others surrendered, as Lwów did on 22 September after negotiating with the Soviets.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -1567,6 +1595,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -1598,7 +1629,7 @@
       },
       {
         "title": "Consequences",
-        "text": "Germany annexed western Poland and placed the rest of its zone, including Warsaw and Kraków, under a General Government headed by Hans Frank. In the weeks after the invasion German SS, police and military units shot thousands of Polish civilians, including nobility, clergy and intelligentsia, and Jews; in the spring of 1940 the AB-Aktion killed teachers, priests and other intellectuals and sent many more to concentration camps, among them Auschwitz. Hundreds of thousands of Poles were deported from the annexed regions to make way for German settlers. Violence against Jews escalated, and Germans murdered millions of Polish Jews during the war. In the Soviet zone mass deportations followed, and Polish officers were murdered at Katyn.",
+        "text": "Germany annexed western Poland as the Reich districts of Danzig-West Prussia and the Wartheland and placed the rest of its zone, including Warsaw and Kraków, under a General Government headed by Hans Frank. In the weeks after the invasion German SS, police and military units shot thousands of Polish civilians, including nobility, clergy and intelligentsia, and Jews; in the spring of 1940 the AB-Aktion killed teachers, priests and other intellectuals and sent many more to concentration camps, among them Auschwitz. Hundreds of thousands of Poles were deported from the annexed regions to make way for German settlers. Violence against Jews escalated, and Germans murdered millions of Polish Jews during the war. The Polish leaders were interned in Romania under German pressure, and General Władysław Sikorski formed a government in exile in Paris. In the Soviet zone mass deportations followed, and Polish officers were murdered at Katyn and elsewhere; the Institute of National Remembrance notes that almost all the officers from Lwów who had laid down their arms on a Soviet promise of free departure ended in NKVD camps and execution pits.",
         "evidence": "fact",
         "refs": [
           {
@@ -1609,6 +1640,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -1627,7 +1664,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The National WWII Museum describes the Polish cavalry's charge against tanks with sabres as a myth: its brigades fought with rifles, machine guns and anti-tank rifles. The term Blitzkrieg is used by both sources, but the National WWII Museum notes that it was applied to the German method later. The sources date the surrender of Warsaw differently, to 27 September (National WWII Museum) or 28 September (Holocaust Encyclopedia).",
+        "text": "The National WWII Museum describes the Polish cavalry's charge against tanks with sabres as a myth: its brigades fought with rifles, machine guns and anti-tank rifles. The term Blitzkrieg is used by both sources, but the National WWII Museum notes that it was applied to the German method later; LeMO puts it in quotation marks. The sources date the surrender of Warsaw differently, to 27 September (National WWII Museum, LeMO) or 28 September (Holocaust Encyclopedia); LeMO dates Modlin's surrender to the 28th. The sources explain the Polish deployment differently: LeMO calls it strategically unfavourable, the National WWII Museum a choice forced by political considerations. In Poland, the Institute of National Remembrance's article notes, historians still dispute whether Rydz-Śmigły was right to leave for Romania; its author argues, following the historian Apoloniusz Zawilski, that a longer stand on the Romanian bridgehead was possible and that the government's failure to declare a state of war with the Soviet Union weakened Poland's position with its allies. The article is openly critical, and its judgements are given here as the author's. LeMO's figures for forces and losses are not used.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -1635,12 +1672,18 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The Holocaust Encyclopedia of the United States Holocaust Memorial Museum gives the invasion, the Soviet invasion, the partition and the occupation, and, in a separate article, German policy toward the Poles and the killings of 1939 and 1940. The National WWII Museum gives the background, the German plan, the course of the fighting, the Bzura, the siege of Warsaw and the occupation.",
+        "text": "The Holocaust Encyclopedia of the United States Holocaust Memorial Museum gives the invasion, the Soviet invasion, the partition and the occupation, and, in a separate article, German policy toward the Poles and the killings of 1939 and 1940. The National WWII Museum gives the background, the German plan, the course of the fighting, the Bzura, the siege of Warsaw and the occupation. Arnulf Scriba's article for the German Historical Museum's LeMO, in German, gives the German preparation and conduct of the campaign. Mirosław Szumiło's article for the Polish Institute of National Remembrance, in Polish, gives the Soviet invasion and the Polish high command's response.",
         "evidence": "fact",
         "refs": [
           {
@@ -1651,6 +1694,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -1682,13 +1731,13 @@
         "name": "Polish high command",
         "objective": "Hold the frontier until France and Britain attacked Germany from the west.",
         "known": "Germany could attack from three sides, and Poland had an alliance with France and Britain.",
-        "uncertainty": "Whether the Allies would act, and what the Soviet Union would do.",
+        "uncertainty": "Whether the Allies would act, and what the Soviet Union would do; the Soviet attack of 17 September came as a complete surprise.",
         "constraints": "Late mobilisation, few modern weapons and a political need to defend the western regions.",
-        "decision": "It concentrated the army in the west and counterattacked on the Bzura.",
+        "decision": "It concentrated the army in the west, counterattacked on the Bzura and planned a last stand on the Romanian bridgehead; after the Soviet invasion Rydz-Śmigły ordered a general withdrawal to Romania and Hungary without fighting the Red Army unless attacked.",
         "forces": "A partly mobilised army with few armoured units and a small air force.",
         "terrain": "Long, open frontiers and the plains of central Poland.",
         "logistics": "Railways and roads under constant air attack.",
-        "outcome": "The army was defeated within weeks, and the Soviet invasion ended any stand in the east."
+        "outcome": "The army was defeated within weeks, the Soviet invasion ended any stand in the east, and the commander-in-chief and government were interned in Romania."
       },
       {
         "name": "Gerd von Rundstedt",
@@ -4211,12 +4260,22 @@
         "title": "Battle of the Atlantic (Thomas A. Hughes and Marc Milner)",
         "url": "https://www.britannica.com/event/Battle-of-the-Atlantic",
         "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "U-Boot-Krieg (in German)",
+        "url": "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/u-boot-krieg",
+        "publisher": "LeMO, Deutsches Historisches Museum (Arnulf Scriba)"
+      },
+      {
+        "title": "U-Boote der Kriegsmarine im Zweiten Weltkrieg (research guide, in German)",
+        "url": "https://www.bundesarchiv.de/im-archiv-recherchieren/archivgut-recherchieren/nach-themen/u-boote-der-kriegsmarine-im-zweiten-weltkrieg/",
+        "publisher": "Bundesarchiv (German Federal Archives)"
       }
     ],
     "sections": [
       {
         "title": "Historical background",
-        "text": "Britain depended on supplies from North America and the Empire carried across the Atlantic in merchant ships, which German submarines (U-boats) and surface warships could attack. The first Atlantic convoy sailed on 2 September 1939. After the fall of France in June 1940 the U-boats gained bases on the French Atlantic coast, and Churchill coined the name the Battle of the Atlantic in March 1941.",
+        "text": "Britain depended on supplies from North America and the Empire carried across the Atlantic in merchant ships, which German submarines (U-boats) and surface warships could attack. The German navy had begun building a modern U-boat arm in 1936, and the German Historical Museum's LeMO notes that its task under Karl Dönitz was to sink the convoys carrying supplies and war material to Britain, but a total blockade was never achieved. The first Atlantic convoy sailed on 2 September 1939. After the fall of France in June 1940 the U-boats gained bases on the French Atlantic coast, and from August 1940, when unrestricted submarine warfare was declared in the waters around the British Isles as part of the plans to invade England, British shipping losses became heavy. Churchill coined the name the Battle of the Atlantic in March 1941.",
         "evidence": "fact",
         "refs": [
           {
@@ -4224,6 +4283,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -4268,7 +4330,7 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "The Allies grouped merchant ships into convoys escorted by warships and, where possible, aircraft; British, Canadian and, from 1941, American navies and air forces shared the escort of the North Atlantic. Dönitz directed his U-boats by radio from his headquarters, assembling them into groups, the wolf packs, on patrol lines across the convoy routes. Both sides fought a war of intelligence: German code-breakers read British convoy codes from 1941 into 1943, while the British read naval Enigma traffic until a fourth rotor was added in February 1942.",
+        "text": "The Allies grouped merchant ships into convoys escorted by warships and, where possible, aircraft; British, Canadian and, from 1941, American navies and air forces shared the escort of the North Atlantic. Dönitz, head of the U-boat arm since 1936, directed his U-boats by radio from his headquarters, assembling them into groups, the wolf packs, on patrol lines across the convoy routes. The Bundesarchiv's guide shows how his operations staff directed the boats in the North Sea, the Atlantic and the Indian Ocean from successive headquarters, at Kernevel near Lorient from 1940 to 1942, then Paris, Berlin and, from 1943, Bernau near Berlin. LeMO adds that the navy had no reconnaissance aircraft of its own, so the boats had to find their targets by forming a patrol line, and that once a group attacked, each commander had full freedom of action. Both sides fought a war of intelligence: German code-breakers read British convoy codes from 1941 into 1943, while the British read naval Enigma traffic until a fourth rotor was added in February 1942.",
         "evidence": "fact",
         "refs": [
           {
@@ -4279,6 +4341,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -4300,7 +4368,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "The crisis peaked in March 1943, when the Allies again lost the ability to read U-boat signals for a time and U-boats sank great numbers of ships in a few weeks. By then decisions of the Casablanca Conference had begun to push naval and air reinforcements into the North Atlantic. In April and May improving weather, very-long-range Liberator aircraft that closed the air gap, escort carriers, roving support groups, centimetric radar, high-frequency direction-finding and new weapons such as the Hedgehog and an air-dropped homing torpedo came together. In early May the escorts of convoy ONS-5 beat off repeated attacks. U-boat losses became unsustainable, and on 24 May Dönitz withdrew his U-boats from the North Atlantic. Renewed attacks with acoustic torpedoes in the autumn failed, and for the rest of the war the Allies controlled the Atlantic sea-lanes.",
+        "text": "From January to July 1942, LeMO writes, the U-boats operating off the American east coast, where coastal defences were weak, had the most successful period of the war, sinking ships even off New York and the mouth of the Mississippi. The crisis peaked in March 1943, when the Allies again lost the ability to read U-boat signals for a time and U-boats sank great numbers of ships in a few weeks. By then decisions of the Casablanca Conference had begun to push naval and air reinforcements into the North Atlantic. In April and May improving weather, very-long-range Liberator aircraft that closed the air gap, escort carriers, roving support groups, centimetric radar, high-frequency direction-finding and new weapons such as the Hedgehog and an air-dropped homing torpedo came together. In early May the escorts of convoy ONS-5 beat off repeated attacks. U-boat losses became unsustainable, and on 24 May Dönitz withdrew his U-boats from the North Atlantic, while ordering the war to continue in the South Atlantic and the Indian Ocean. Renewed attacks with acoustic torpedoes in the autumn failed, and for the rest of the war the Allies controlled the Atlantic sea-lanes.",
         "evidence": "fact",
         "refs": [
           {
@@ -4311,6 +4379,9 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -4345,7 +4416,7 @@
       },
       {
         "title": "Outcome",
-        "text": "The U-boats never regained the initiative and were almost constantly on the defensive from the autumn of 1943. Shipping losses fell sharply, and supplies and troops crossed to Britain for the invasion of 1944.",
+        "text": "The U-boats never regained the initiative and were almost constantly on the defensive from the autumn of 1943; LeMO calls the continued campaign increasingly hopeless and notes that most of the U-boats lost in the war were sunk after May 1943. Shipping losses fell sharply, and supplies and troops crossed to Britain for the invasion of 1944.",
         "evidence": "fact",
         "refs": [
           {
@@ -4356,6 +4427,9 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -4387,7 +4461,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The relative weight of code-breaking against technology, air power and industry is debated. The Naval History and Heritage Command argues that no single factor was decisive and that Allied intelligence against the U-boats was at its weakest during the turning point of May 1943; Britannica lists the repenetration of the U-boat codes among the causes of the May defeat. The Naval History and Heritage Command also warns that statistics for the battle should be treated with caution because sources count them differently.",
+        "text": "The relative weight of code-breaking against technology, air power and industry is debated. The Naval History and Heritage Command argues that no single factor was decisive and that Allied intelligence against the U-boats was at its weakest during the turning point of May 1943; Britannica lists the repenetration of the U-boat codes among the causes of the May defeat. The German Historical Museum's account explains the turn by the closing of the air gap with long-range bombers and escort carriers and by radar and sonar, and does not mention code-breaking at all. The Naval History and Heritage Command also warns that statistics for the battle should be treated with caution because sources count them differently; LeMO's figures for boats, ships and men are not used. The Bundesarchiv notes that the records of the U-boat command survive at its military archive in Freiburg and that only a few have been digitised.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -4398,12 +4472,18 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The Imperial War Museums give the convoy system and the course of the battle to May 1943. Samuel J. Cox's account for the Naval History and Heritage Command gives the intelligence war, the technologies, the production race and Dönitz's withdrawal. Thomas A. Hughes and Marc Milner's Britannica article gives the phases of the whole battle and its strategic importance.",
+        "text": "The Imperial War Museums give the convoy system and the course of the battle to May 1943. Samuel J. Cox's account for the Naval History and Heritage Command gives the intelligence war, the technologies, the production race and Dönitz's withdrawal. Thomas A. Hughes and Marc Milner's Britannica article gives the phases of the whole battle and its strategic importance. Arnulf Scriba's article for the German Historical Museum's LeMO and the Bundesarchiv's research guide, both in German, give the German side: the U-boat arm's aims, its tactics and the organisation and headquarters of Dönitz's command.",
         "evidence": "fact",
         "refs": [
           {
@@ -4414,6 +4494,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -4449,10 +4535,10 @@
       {
         "name": "Karl Dönitz",
         "objective": "Sink Allied merchant ships faster than they could be built.",
-        "known": "His code-breakers could often read Allied convoy routing.",
+        "known": "His code-breakers could often read Allied convoy routing, but he had no reconnaissance aircraft of his own, so his boats had to find convoys by forming patrol lines.",
         "uncertainty": "How the Allies found his U-boats in unexpected places.",
         "constraints": "U-boats vulnerable to aircraft, and production that could not replace losses.",
-        "decision": "He massed U-boats into wolf packs directed by radio, and on 24 May 1943 withdrew them from the North Atlantic.",
+        "decision": "He massed U-boats into wolf packs directed by radio, and on 24 May 1943 withdrew them from the North Atlantic while continuing the war in the South Atlantic and the Indian Ocean.",
         "forces": "The German U-boat arm.",
         "terrain": "The mid-Atlantic air gap and the Bay of Biscay.",
         "logistics": "Bases on the French Atlantic coast.",
@@ -4489,6 +4575,16 @@
         "title": "William Slim: The soldiers’ soldier",
         "url": "https://www.nam.ac.uk/explore/william-slim",
         "publisher": "National Army Museum, London"
+      },
+      {
+        "title": "“Japanese forces began their advance on Imphal on March 8, 1944”, Timeline: A Window into the Early Showa Period",
+        "url": "https://www.jacar.go.jp/english/exhibition/shuhou-english/timeline/nenpyo19440308.html",
+        "publisher": "Japan Center for Asian Historical Records (JACAR), National Archives of Japan"
+      },
+      {
+        "title": "Arakawa Kenichi, “Japanese War Leadership in Burma Theater: Imphal”, in Summary of Sessions, International Forum on War History 2002",
+        "url": "https://www.nids.mod.go.jp/english/event/forum/pdf/2002.pdf",
+        "publisher": "National Institute for Defense Studies, Ministry of Defense of Japan"
       }
     ],
     "sections": [
@@ -4507,7 +4603,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Earlier in the war British troops had fallen back when their supply lines were cut and had largely stopped operations in the monsoon. South East Asia Command now ordered troops to stand firm, rely on air supply and keep fighting. The Japanese sought to pre-empt a planned British invasion of Burma.",
+        "text": "Earlier in the war British troops had fallen back when their supply lines were cut and had largely stopped operations in the monsoon. South East Asia Command now ordered troops to stand firm, rely on air supply and keep fighting. The Japanese sought to pre-empt a planned British invasion of Burma. The Japan Center for Asian Historical Records, part of the National Archives of Japan, gives the operation's purpose as cutting the Allied supply route to Chiang Kai-shek and inciting anti-British movements in India, in collaboration with Subhas Chandra Bose's Indian National Army. Arakawa Kenichi, of the Japanese Ministry of Defense's National Institute for Defense Studies, adds that the worsening course of the war and the Tojo government's cooperation with Bose in 1943 pushed the operation forward.",
         "evidence": "fact",
         "refs": [
           {
@@ -4515,12 +4611,18 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Campaign objectives",
-        "text": "In March 1944 the Japanese Fifteenth Army launched Operation U-Go to capture the British supply bases on the Imphal Plain and cut the Dimapur–Imphal road at Kohima. Holding Imphal would disrupt Allied air supplies to China, delay a British return to Burma and give Japan a base for attacks on India.",
+        "text": "In March 1944 the Japanese Fifteenth Army launched Operation U-Go to capture the British supply bases on the Imphal Plain and cut the Dimapur–Imphal road at Kohima. Holding Imphal would disrupt Allied air supplies to China, delay a British return to Burma and give Japan a base for attacks on India. Arakawa argues that the operation's primary objective was to protect the whole of Burma, but that Mutaguchi, prompted by the first Chindit expedition of Orde Wingate and by his own promotion to command the Fifteenth Army, added an ambitious aim of his own that put it beyond the army's capacity.",
         "evidence": "fact",
         "refs": [
           {
@@ -4528,6 +4630,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -4569,7 +4674,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "The Japanese attack on Imphal began in early March, and on 29 March they cut the Imphal–Kohima road. By early April both Kohima and Imphal were surrounded. At Kohima the garrison, supplied by air, held a shrinking perimeter on Garrison Hill from 5 to 18 April in some of the bitterest fighting of the war, at one point separated from the Japanese only by the tennis court of the Deputy Commissioner's bungalow; the British 2nd Division broke through on 18 April. Fighting around Kohima went on until mid-May, when Sato's division began to withdraw. Japanese attacks on Imphal failed against the Indian divisions there. Despite the monsoon, the Allies counter-attacked up the road, and on 22 June XXXIII Corps linked up with IV Corps at Imphal. The battles ended on 18 July.",
+        "text": "The Japanese advance on Imphal began on 8 March, and on 29 March they cut the Imphal–Kohima road. By early April both Kohima and Imphal were surrounded. At Kohima the garrison, supplied by air, held a shrinking perimeter on Garrison Hill from 5 to 18 April in some of the bitterest fighting of the war, at one point separated from the Japanese only by the tennis court of the Deputy Commissioner's bungalow; the British 2nd Division broke through on 18 April. Fighting around Kohima went on until mid-May, when Sato's division began to withdraw. Japanese attacks on Imphal failed against the Indian divisions there. Despite the monsoon, the Allies counter-attacked up the road, and on 22 June XXXIII Corps linked up with IV Corps at Imphal. The battles ended on 18 July.",
         "evidence": "fact",
         "refs": [
           {
@@ -4577,12 +4682,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Slim's army stood and fought on the Imphal plain, its encircled formations supplied by air rather than retreating, as South East Asia Command now required. Mountbatten sent the 2nd Division to Dimapur, and the 5th Indian Division was flown from the Arakan to Imphal in two days. Mutaguchi gambled on capturing Allied supplies, quarrelled with his divisional commanders and kept attacking long after the offensive had clearly failed, when he could have withdrawn.",
+        "text": "Slim's army stood and fought on the Imphal plain, its encircled formations supplied by air rather than retreating, as South East Asia Command now required. Mountbatten sent the 2nd Division to Dimapur, and the 5th Indian Division was flown from the Arakan to Imphal in two days. Mutaguchi gambled on capturing Allied supplies, quarrelled with his divisional commanders and kept attacking long after the offensive had clearly failed, when he could have withdrawn. Arakawa explains why the plan went ahead unchanged: conceived in the spring of 1943, it was carried out a year later without revision, because Mutaguchi's superior, Lieutenant-General Kawabe, kept a loose rein on him and Major-General Inada, the Southern Army's vice chief of staff who had urged changes, was moved; and once the operation was failing, neither Mutaguchi nor Kawabe could bring himself to halt it.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -4590,12 +4698,15 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Decisive turning points",
-        "text": "The garrison's stand at Kohima and the failure of the attacks on Imphal by early May denied the Japanese the supplies they depended on. Allied logistics and air supply, which the National Army Museum calls decisive, allowed rapid reinforcement and kept the garrisons fighting.",
+        "text": "The garrison's stand at Kohima and the failure of the attacks on Imphal by early May denied the Japanese the supplies they depended on. Allied logistics and air supply, which the National Army Museum calls decisive, allowed rapid reinforcement and kept the garrisons fighting. Arakawa stresses that the British and Indian army had changed during 1943, postponing its offensive, adopting the defensive box and retraining, and that Mutaguchi did not notice or took no interest in the change.",
         "evidence": "fact",
         "refs": [
           {
@@ -4603,6 +4714,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -4624,7 +4738,7 @@
       },
       {
         "title": "Consequences",
-        "text": "The victory opened the way for the reconquest of Burma. The Fourteenth Army crossed the Chindwin during the monsoon, supplied by air, won bridgeheads over the Irrawaddy and took Meiktila and Mandalay in March 1945, and Rangoon fell in May. The cemeteries at Imphal and Kohima, with the Kohima Epitaph, commemorate the dead.",
+        "text": "The victory opened the way for the reconquest of Burma. The Fourteenth Army crossed the Chindwin during the monsoon, supplied by air, won bridgeheads over the Irrawaddy and took Meiktila and Mandalay in March 1945, and Rangoon fell in May. The cemeteries at Imphal and Kohima, with the Kohima Epitaph, commemorate the dead. In Japan, the weekly Shashin Shuho reported the capture of Kohima and the rapid advance with the Indian National Army; its last article on the battle, on 31 May 1944, still praised the army's achievements but described the enemy more guardedly.",
         "evidence": "fact",
         "refs": [
           {
@@ -4632,6 +4746,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -4650,7 +4767,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The sources give different loss figures. Both the National Army Museum and the Imperial War Museums call the battle a turning point, but the Imperial War Museums note that it is among the lesser-known battles of the war. The role of the Indian National Army is mentioned in the sources read only as one division under Mutaguchi.",
+        "text": "The sources give different loss figures; JACAR's are not used. Both the National Army Museum and the Imperial War Museums call the battle a turning point, but the Imperial War Museums note that it is among the lesser-known battles of the war. The British sources mention the Indian National Army only as one division under Mutaguchi; the Japanese archive's account makes cooperation with it, and the hope of stirring anti-British movements in India, part of the operation's purpose. Arakawa's paper, given at the Japanese Ministry of Defense's forum on war history in 2002 and read here in its English summary, traces the disaster to Mutaguchi's excessive sense of mission and to a command system that let his plan go unrevised, a judgement close to the British sources' view of Mutaguchi.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -4661,12 +4778,18 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The National Army Museum gives the background, the commanders, the plans, the sieges, the air supply and the aftermath, and in a separate article Slim's methods. The Imperial War Museums give Operation U-Go, the siege of Kohima, the link-up and the outcome.",
+        "text": "The National Army Museum gives the background, the commanders, the plans, the sieges, the air supply and the aftermath, and in a separate article Slim's methods. The Imperial War Museums give Operation U-Go, the siege of Kohima, the link-up and the outcome. The Japan Center for Asian Historical Records gives the Japanese purpose and the wartime reporting of the battle, and the English summary of Arakawa Kenichi's paper for the National Institute for Defense Studies gives a Japanese analysis of Mutaguchi's plan and the command decisions behind it.",
         "evidence": "fact",
         "refs": [
           {
@@ -4677,6 +4800,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -4718,11 +4847,11 @@
       },
       {
         "name": "Renya Mutaguchi",
-        "objective": "Take Imphal and its supplies and pre-empt a British invasion of Burma.",
-        "known": "The British depended on the road from Dimapur through Kohima.",
+        "objective": "Take Imphal and its supplies and pre-empt a British invasion of Burma; the Japanese aims also included cutting the Allied route to China and stirring anti-British movements in India.",
+        "known": "The British depended on the road from Dimapur through Kohima; according to Arakawa he paid no attention to the changes in British tactics and training during 1943.",
         "uncertainty": "How quickly the British could reinforce.",
-        "constraints": "A plan that depended on capturing British stocks.",
-        "decision": "He attacked Imphal and Kohima together and kept attacking long after the offensive had failed.",
+        "constraints": "A plan that depended on capturing British stocks, and a superior who kept a loose rein on him rather than revising it.",
+        "decision": "He carried out his plan of 1943 a year later without revision, attacked Imphal and Kohima together and could not bring himself to halt the offensive after it had failed.",
         "forces": "The Fifteenth Army's three divisions and an Indian National Army division.",
         "terrain": "Mountains and jungle between the Chindwin and Imphal.",
         "logistics": "No supply line able to sustain the army once the British stores were not taken.",
@@ -4747,6 +4876,16 @@
         "title": "Eastern Front: Russian advance to the Vistula (summer 1944) (Basil Liddell Hart)",
         "url": "https://www.britannica.com/event/Eastern-Front-World-War-II/Russian-advance-to-the-Vistula-summer-1944",
         "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Sommeroffensive 1944 (in German)",
+        "url": "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/sommeroffensive-1944",
+        "publisher": "LeMO, Deutsches Historisches Museum (Arnulf Scriba)"
+      },
+      {
+        "title": "“Happy Independence Day of Belarus!”, 2 July 2025",
+        "url": "https://archives.gov.by/en/news/1020562",
+        "publisher": "Belarusian State Archive-Museum of Literature and Art (Archives of Belarus)"
       }
     ],
     "sections": [
@@ -4765,7 +4904,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "The Western Allies were about to land in France, and Bagration was launched in support of the Normandy invasion. Hitler wanted to hold as much territory in the east as possible until the landings in the west had been defeated, and Army Group Centre, holding a great salient in Belorussia, was forbidden to retreat.",
+        "text": "The Western Allies were about to land in France, and Bagration was launched in support of the Normandy invasion. Hitler wanted to hold as much territory in the east as possible until the landings in the west had been defeated, and Army Group Centre, holding a great salient in Belorussia, was forbidden to retreat. The German Historical Museum's LeMO notes that Hitler repeatedly rejected the urgent proposals of the Wehrmacht's leaders to withdraw from the salient, about 1,000 kilometres long, around Vitebsk, Orsha, Mogilev and Bobruisk.",
         "evidence": "fact",
         "refs": [
           {
@@ -4776,12 +4915,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Campaign objectives",
-        "text": "The Soviet plan, named by Stalin after Prince Pyotr Bagration, who fell at Borodino in 1812, was a succession of attacks by four fronts to encircle and destroy the German forces in the Belorussian salient and open the way to the pre-war Soviet border. Stalin gave his commanders more autonomy than in earlier offensives.",
+        "text": "The Soviet plan, named by Stalin after Prince Pyotr Bagration, who fell at Borodino in 1812, was a succession of attacks by four fronts to encircle and destroy the German forces in the Belorussian salient and open the way to the pre-war Soviet border. Stalin gave his commanders more autonomy than in earlier offensives. A Belarusian state archive's account gives the Soviet view of the plan: drawn up by the General Staff of the Red Army and approved by the Supreme Command at the end of May, it set the 1st Baltic and three Belorussian fronts the tasks of eliminating the salient on the Vitebsk–Bobruisk–Minsk axis, destroying Army Group Centre and liberating the whole of Soviet Belorussia, with cooperation between the fronts and the partisan brigades of great importance.",
         "evidence": "fact",
         "refs": [
           {
@@ -4789,6 +4931,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -4836,7 +4981,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "Bagration began on 22 June, three years to the day after the German invasion. Attacks near Vitebsk on 22 June were followed on 23 June by attacks toward Orsha and Mogilev and on 24 June toward Bobruisk, behind massive barrages. Vitebsk was encircled by 24 June and Bobruisk on 27 June, where Rokossovsky's armies broke through north of the marshes. Hitler designated towns as fortified places to be held to the last man; many were bypassed and cut off. He replaced Busch with Model on 28 June, but Minsk fell on 3 July and a large German force was trapped east of it. The Soviets advanced into Lithuania and Poland, other offensives joined in, and on 31 July one of Rokossovsky's columns reached the suburbs of Warsaw. By the first week of August the advance was halted by exhausted supply lines.",
+        "text": "Bagration began on 22 June, three years to the day after the German invasion. Attacks near Vitebsk on 22 June were followed on 23 June by attacks toward Orsha and Mogilev and on 24 June toward Bobruisk, behind massive barrages. Vitebsk was encircled by 24 June and Bobruisk on 27 June, where Rokossovsky's armies broke through north of the marshes. Hitler designated towns as fortified places to be held to the last man; many were bypassed and cut off. He replaced Busch with Model on 28 June, but Minsk fell on 3 July, when Soviet guards tank corps entered the city in the morning and cleared it by evening, and a large German force was trapped east of it, where fighting went on until 11 July. Vilnius fell ten days after Minsk, and the Belarusian account dates the end of the liberation of Belorussia to the capture of Brest on 28 July. The Soviets advanced into Lithuania and Poland, other offensives joined in, and on 31 July one of Rokossovsky's columns reached the suburbs of Warsaw; at the end of July Model briefly held the advance on a line from Kaunas to Brest-Litovsk. In the north the 1st Baltic Front reached the Gulf of Riga, cutting Army Group North off from East Prussia. By the first week of August the advance was halted by exhausted supply lines.",
         "evidence": "fact",
         "refs": [
           {
@@ -4847,6 +4992,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -4894,7 +5045,7 @@
       },
       {
         "title": "Consequences",
-        "text": "As the Red Army advanced it found mass graves of murdered civilians and razed towns and villages left by the German occupation. German prisoners were paraded through Moscow on 17 July, and many died in Soviet labour camps. When the Polish Home Army rose in Warsaw on 1 August, the Red Army halted across the Vistula and gave no support; the Germans crushed the uprising, killed very large numbers of civilians and razed the city, a result that, Britannica notes, served Soviet purposes in Poland. With Overlord in the west, Bagration put the Allies in a position to crush Germany from east and west.",
+        "text": "As the Red Army advanced it found mass graves of murdered civilians and razed towns and villages left by the German occupation; on 23 July, LeMO notes, it liberated the Majdanek extermination camp before the Germans could remove the crematoria, gas chambers and other evidence. German prisoners were paraded through Moscow on 17 July, and many died in Soviet labour camps. When the Polish Home Army rose in Warsaw on 1 August, the Red Army halted across the Vistula and gave no support; the Germans crushed the uprising, killed very large numbers of civilians and razed the city, a result that, Britannica notes, served Soviet purposes in Poland. LeMO likewise writes that Stalin had no interest in supporting the uprising and wanted to install the communist Lublin Committee as Poland's government. Army Group North withdrew into Courland, where it held out until the capitulation. With Overlord in the west, Bagration put the Allies in a position to crush Germany from east and west. In Belarus, 3 July, the day of Minsk's liberation, is celebrated as Independence Day.",
         "evidence": "fact",
         "refs": [
           {
@@ -4905,6 +5056,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -4923,7 +5080,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The sources date the start to 22 June (Imperial War Museums) or 23 June (Britannica) and give different figures for German and Soviet losses. The Imperial War Museums argue that the operation is less well known in the West than D-Day because of the Western focus on British and American operations and the Cold War. Britannica judges the halt before Warsaw intentional, while the Imperial War Museums also stress Soviet exhaustion after a 700-kilometre advance.",
+        "text": "The sources date the start to 22 June (Imperial War Museums, LeMO) or 23 June (Britannica, the Belarusian archive) and give different figures for German and Soviet losses; LeMO's figures for forces and losses are not used. The Imperial War Museums argue that the operation is less well known in the West than D-Day because of the Western focus on British and American operations and the Cold War. Britannica judges the halt before Warsaw intentional, and LeMO attributes it to Stalin's political aims, while the Imperial War Museums also stress Soviet exhaustion after a 700-kilometre advance. The Belarusian archive's account is a commemorative text that presents the operation as the liberation of Belarus and stresses the partisans; it is used here for the Soviet plan and the dates of liberation.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -4934,12 +5091,18 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Helen Upcraft's account for the Imperial War Museums gives the doctrine, the deception, the course of the operation, the Warsaw Uprising and the debate over its place in memory. Nick Hewitt's Britannica article gives the dates, the scale and the discoveries of Nazi crimes. Basil Liddell Hart's Britannica account of the advance to the Vistula gives Rokossovsky's breakthrough and the halt before Warsaw.",
+        "text": "Helen Upcraft's account for the Imperial War Museums gives the doctrine, the deception, the course of the operation, the Warsaw Uprising and the debate over its place in memory. Nick Hewitt's Britannica article gives the dates, the scale and the discoveries of Nazi crimes. Basil Liddell Hart's Britannica account of the advance to the Vistula gives Rokossovsky's breakthrough and the halt before Warsaw. Arnulf Scriba's article for the German Historical Museum's LeMO, in German, gives Hitler's refusal to withdraw, the destruction of Army Group Centre and the advance to the Vistula and the Baltic. The Belarusian State Archive-Museum of Literature and Art gives the Soviet plan and the liberation of Minsk and Belorussia as remembered in Belarus.",
         "evidence": "fact",
         "refs": [
           {
@@ -4950,6 +5113,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -4992,7 +5161,7 @@
       {
         "name": "Ernst Busch",
         "objective": "Hold the Belorussian salient as Hitler ordered.",
-        "known": "A Soviet build-up was becoming obvious by early June.",
+        "known": "A Soviet build-up was becoming obvious by early June, and Hitler had repeatedly refused the Wehrmacht leadership's proposals to withdraw from the salient.",
         "uncertainty": "Where the main Soviet blow would fall.",
         "constraints": "Orders forbidding retreat, few reserves and most armour sent south.",
         "decision": "He refused his commanders' requests to move to a more flexible defence.",

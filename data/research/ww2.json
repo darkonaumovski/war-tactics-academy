@@ -3057,6 +3057,16 @@
         "title": "Operation Sook Ching (Stephanie Ho)",
         "url": "https://www.nlb.gov.sg/main/article-detail?cmsuuid=cc4da337-3bcd-4f96-bdc6-5210646bdd90",
         "publisher": "National Library Board, Singapore Infopedia"
+      },
+      {
+        "title": "山下奉文 (Yamashita Tomoyuki), 史料紹介コーナー, Military Archives News, April 2016",
+        "url": "https://www.nids.mod.go.jp/military_archives/news/2016/201604.pdf",
+        "publisher": "National Institute for Defense Studies, Ministry of Defense of Japan, in Japanese"
+      },
+      {
+        "title": "Interrogation Nav No. 77 (USSBS No. 387): Captain Sonokawa Kameo, Operations of 22nd Air Flotilla in Malaya, Tokyo, 14 November 1945",
+        "url": "https://www.ibiblio.org/hyperwar/AAF/USSBS/IJO/IJO-77.html",
+        "publisher": "U.S. Strategic Bombing Survey, Interrogations of Japanese Officials (HyperWar)"
       }
     ],
     "sections": [
@@ -3088,7 +3098,7 @@
       },
       {
         "title": "Campaign objectives",
-        "text": "The Japanese aimed to advance down the Malay Peninsula and take Singapore from the landward side. The British planned a pre-emptive move into Thailand, Operation Matador, which political considerations prevented from being launched in time, and otherwise relied on the jungle and on defence of the peninsula.",
+        "text": "The Japanese aimed to advance down the Malay Peninsula and take Singapore from the landward side. The Twenty-Fifth Army's units, drawn from Japan, Manchuria and China, were first assembled on Hainan, carried some 2,000 kilometres by sea to land at the northern end of the peninsula, and were then to fight their way some 1,100 kilometres to Singapore; the plan allowed a hundred days. The British planned a pre-emptive move into Thailand, Operation Matador, which political considerations prevented from being launched in time, and otherwise relied on the jungle and on defence of the peninsula.",
         "evidence": "fact",
         "refs": [
           {
@@ -3096,6 +3106,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "Yamashita"
           }
         ]
       },
@@ -3140,7 +3154,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "On 8 December 1941 Japanese troops landed at Singora and Patani in Thailand and at Kota Bharu in Malaya, and bombs fell on Singapore. Japanese aircraft attacked the RAF airfields, and on 10 December sank Prince of Wales and Repulse, which had no air cover. Using bicycles, motor vehicles and light tanks, the Japanese outmanoeuvred the defenders down the length of the peninsula, and the last British troops crossed the Causeway on 31 January 1942. On the night of 8 February, after a heavy bombardment, Japanese divisions crossed the Johor Strait in the north-west against the Australian sector, and the Imperial Guards followed at Kranji. They took Bukit Timah on 11 February. On 14–15 February Japanese troops massacred patients and staff at the Alexandra Military Hospital. With the reservoirs lost and water and food running out, Percival and his commanders decided to surrender, and he signed at the Ford Factory on 15 February.",
+        "text": "On 8 December 1941 Japanese troops landed at Singora and Patani in Thailand and at Kota Bharu in Malaya, and bombs fell on Singapore. Japanese aircraft attacked the RAF airfields, and on 10 December sank Prince of Wales and Repulse, which had no air cover; Captain Sonokawa, who led one of the naval air groups based near Saigon, later said that a submarine had reported the ships the day before, that his aircraft had been loading bombs for an attack on Singapore and were re-armed with torpedoes, and that a night attack was tried because it was feared the ships would attack the invasion transports. Using bicycles, motor vehicles and light tanks, the Japanese outmanoeuvred the defenders down the length of the peninsula, and the last British troops crossed the Causeway on 31 January 1942. On the night of 8 February, after a heavy bombardment, Japanese divisions crossed the Johor Strait in the north-west against the Australian sector, and the Imperial Guards followed at Kranji. They took Bukit Timah on 11 February. On 14–15 February Japanese troops massacred patients and staff at the Alexandra Military Hospital. With the reservoirs lost and water and food running out, Percival and his commanders decided to surrender, and he signed at the Ford Factory on 15 February.",
         "evidence": "fact",
         "refs": [
           {
@@ -3148,6 +3162,9 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -3174,12 +3191,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Outcome",
-        "text": "Singapore fell on 15 February 1942 in the largest surrender in British history. Malaya had been lost in under two months.",
+        "text": "Singapore fell on 15 February 1942 in the largest surrender in British history. Malaya had been lost in under two months; the Japanese National Institute for Defense Studies notes that Singapore was taken in 70 days, earlier than the hundred the plan had allowed.",
         "evidence": "fact",
         "refs": [
           {
@@ -3187,6 +3207,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "Yamashita"
           }
         ]
       },
@@ -3221,7 +3245,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The IWM argues that Percival made mistakes but was badly let down by superiors who had underfunded the defences for years. The sources qualify the popular idea that Singapore's guns pointed the wrong way: the IWM notes that the coastal artillery was designed against attack from the sea and had few high-explosive shells, while the National Library Board notes that the British army had anticipated a landward attack and planned Operation Matador to meet it. The sources give different strengths for the two armies. The National Library Board notes that the death toll of the Sook Ching is unknown, with estimates differing widely.",
+        "text": "The IWM argues that Percival made mistakes but was badly let down by superiors who had underfunded the defences for years. The sources qualify the popular idea that Singapore's guns pointed the wrong way: the IWM notes that the coastal artillery was designed against attack from the sea and had few high-explosive shells, while the National Library Board notes that the British army had anticipated a landward attack and planned Operation Matador to meet it. The sources give different strengths for the two armies, and Sonokawa's figures for the attack on Force Z are not used. The National Library Board notes that the death toll of the Sook Ching is unknown, with estimates differing widely.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -3232,12 +3256,15 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The Imperial War Museums' account by Stephen Walton gives the strategic background, the forces, the campaign, the surrender and its consequences. The National Library Board of Singapore's Infopedia gives the battle for the island, the Alexandra Hospital massacre and the surrender, and, in a separate article, Operation Sook Ching and its aftermath.",
+        "text": "The Imperial War Museums' account by Stephen Walton gives the strategic background, the forces, the campaign, the surrender and its consequences. The National Library Board of Singapore's Infopedia gives the battle for the island, the Alexandra Hospital massacre and the surrender, and, in a separate article, Operation Sook Ching and its aftermath. The Japanese side comes from the National Institute for Defense Studies of Japan's Ministry of Defense, in Japanese, which outlines the Twenty-Fifth Army's plan from its own record of the operation, and from the U.S. Strategic Bombing Survey's interrogation of Captain Sonokawa on the sinking of Force Z.",
         "evidence": "fact",
         "refs": [
           {
@@ -3248,6 +3275,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -3278,7 +3311,7 @@
       {
         "name": "Tomoyuki Yamashita",
         "objective": "Take Singapore quickly as the base for the advance into the East Indies.",
-        "known": "The defenders were inexperienced, dispersed and short of aircraft.",
+        "known": "The defenders were inexperienced, dispersed and short of aircraft, and the plan allowed a hundred days to reach Singapore.",
         "uncertainty": "Whether his supplies would last until Singapore surrendered.",
         "constraints": "A smaller army at the end of a long advance, with ammunition running low.",
         "decision": "He drove his divisions down the peninsula at speed, landed in the north-west of the island and demanded unconditional surrender.",
@@ -3318,6 +3351,16 @@
         "title": "Battle of the Coral Sea, 4-8 May 1942: Summary",
         "url": "https://www.awm.gov.au/articles/encyclopedia/coral_sea",
         "publisher": "Australian War Memorial"
+      },
+      {
+        "title": "Interrogation Nav No. 8 (USSBS No. 46): Commanders Sekino H. and Okumiya Masatake, Tokyo, 17 October 1945",
+        "url": "https://www.ibiblio.org/hyperwar/AAF/USSBS/IJO/IJO-8.html",
+        "publisher": "U.S. Strategic Bombing Survey, Interrogations of Japanese Officials (HyperWar)"
+      },
+      {
+        "title": "Interrogation Nav No. 10 (USSBS No. 53): Captain Yamaoka M., Tokyo, 19 October 1945",
+        "url": "https://www.ibiblio.org/hyperwar/AAF/USSBS/IJO/IJO-10.html",
+        "publisher": "U.S. Strategic Bombing Survey, Interrogations of Japanese Officials (HyperWar)"
       }
     ],
     "sections": [
@@ -3352,7 +3395,7 @@
       },
       {
         "title": "Campaign objectives",
-        "text": "The Japanese aimed to take Tulagi and then land at Port Moresby, with a carrier strike force to find and destroy the Allied naval forces that came to oppose them. The Allies aimed to stop the invasion of Port Moresby.",
+        "text": "The Japanese aimed to take Tulagi and then land at Port Moresby, with a carrier strike force to find and destroy the Allied naval forces that came to oppose them. Captain Yamaoka, a staff officer aboard Zuikaku, later gave the fleet carriers three tasks: to cover the Port Moresby invasion group, to attack the American fleet expected to appear, and to raid Townsville in Australia; the light carrier Shōhō was to guard the transports against submarines and air attack. The Allies aimed to stop the invasion of Port Moresby.",
         "evidence": "fact",
         "refs": [
           {
@@ -3360,6 +3403,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -3407,7 +3456,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "On 5 and 6 May the carrier groups searched for each other. On the morning of 7 May Japanese aircraft sank the destroyer Sims and the oiler Neosho, while Fletcher's aircraft sank the light carrier Shōhō and a cruiser. On 8 May both sides struck at each other's carriers: Japanese aircraft sank Lexington, which was abandoned after explosions and fires, and damaged Yorktown, while US aircraft damaged Shōkaku so badly that she had to retire. With its air cover weakened and under attack by Allied land-based bombers, the Port Moresby invasion force turned back to Rabaul.",
+        "text": "On 5 and 6 May the carrier groups searched for each other; Yamaoka says the Japanese knew from the attack on Tulagi that an American force was in the area but not where. On the morning of 7 May Japanese scout planes reported the oiler Neosho and the destroyer Sims as the American carriers, and Japanese carrier aircraft sank them, while Fletcher's aircraft sank the light carrier Shōhō and a cruiser. A Japanese dusk strike found nothing and, returning in the dark, passed over the American carriers; some of its planes tried to land on them before realising their mistake. On 8 May both sides struck at each other's carriers: Japanese aircraft sank Lexington, which was abandoned after explosions and fires, and damaged Yorktown, while US aircraft damaged Shōkaku so badly that she had to retire. With its air cover weakened and under attack by Allied land-based bombers, the Port Moresby invasion force turned back to Rabaul.",
         "evidence": "fact",
         "refs": [
           {
@@ -3418,12 +3467,15 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Acting on intelligence, the Allies committed their carriers to meet the Japanese advance. Both sides made many mistakes in the new kind of fighting; the Naval History and Heritage Command quotes Samuel Eliot Morison calling it a battle of errors in which the enemy made more and failed to profit by them. The Japanese decision to turn back the invasion force, once their air groups were too battered to cover it, decided the outcome.",
+        "text": "Acting on intelligence, the Allies committed their carriers to meet the Japanese advance. Both sides made many mistakes in the new kind of fighting; the Naval History and Heritage Command quotes Samuel Eliot Morison calling it a battle of errors in which the enemy made more and failed to profit by them. On the night of 7 May the Japanese, without radar and unsure how many American ships there were, declined a night action and retired north to attack in the morning; Yamaoka says he had wanted to attack that night. Sekino and Okumiya say the invasion force turned back because the American task force had not been destroyed and the remaining Japanese force, with the main fleet just back from the Indian Ocean, was not strong enough to attempt the landing. That decision, once the air groups were too battered to cover the landing, decided the outcome.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -3431,6 +3483,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -3465,7 +3523,7 @@
       },
       {
         "title": "Consequences",
-        "text": "Shōkaku was too badly damaged to join the force for Midway, and Zuikaku, having lost pilots and aircraft, did not take part either; Coral Sea reduced the carriers available to Japan for Midway by a third. It was the first naval battle in which the ships never sighted or fired at each other, and it foreshadowed the carrier warfare of the rest of the Pacific War.",
+        "text": "Shōkaku was too badly damaged to join the force for Midway, and Zuikaku, having lost pilots and aircraft, did not take part either; Coral Sea reduced the carriers available to Japan for Midway by a third. The Japanese officers interrogated in 1945 confirmed that the damage weakened the air striking force at Midway and that the sea-borne attack on Port Moresby was given up, so that the army tried to take it overland from the north coast of New Guinea. It was the first naval battle in which the ships never sighted or fired at each other, and it foreshadowed the carrier warfare of the rest of the Pacific War.",
         "evidence": "fact",
         "refs": [
           {
@@ -3473,6 +3531,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -3491,7 +3555,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The sources judge the outcome differently: the Naval History and Heritage Command calls it a Japanese tactical victory that nonetheless stopped the advance, Britannica a strategic Allied victory. The Naval History and Heritage Command dates the operations from 29 April, Britannica and the Australian War Memorial the battle from 4 May.",
+        "text": "The sources judge the outcome differently: the Naval History and Heritage Command calls it a Japanese tactical victory that nonetheless stopped the advance, Britannica a strategic Allied victory. The Naval History and Heritage Command dates the operations from 29 April, Britannica and the Australian War Memorial the battle from 4 May. The Japanese officers' answers were given to American interrogators in October 1945 and are recollections: they differ in details, Yamaoka misdates the 7 May attack to June, and their figures for losses are not used. Sekino was not sure why no night attack was made, while Yamaoka says it was rejected for lack of information about American strength.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -3502,12 +3566,18 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The Naval History and Heritage Command gives the Japanese plan, the air strikes, the losses and the battle's effect on Midway. Britannica gives the intelligence, the course of the battle and its strategic result. The Australian War Memorial gives the Allied forces, including the Australian cruisers, and the turning back of the invasion force.",
+        "text": "The Naval History and Heritage Command gives the Japanese plan, the air strikes, the losses and the battle's effect on Midway. Britannica gives the intelligence, the course of the battle and its strategic result. The Australian War Memorial gives the Allied forces, including the Australian cruisers, and the turning back of the invasion force. The interrogations of Commanders Sekino and Okumiya and of Captain Yamaoka by the U.S. Strategic Bombing Survey in October 1945, transcribed by HyperWar, give the Japanese side.",
         "evidence": "fact",
         "refs": [
           {
@@ -3518,6 +3588,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -3560,10 +3636,10 @@
       {
         "name": "Japanese Carrier Strike Force",
         "objective": "Cover the invasion of Port Moresby and destroy the Allied carriers.",
-        "known": "US carriers had attacked Tulagi.",
+        "known": "The attack on Tulagi showed that an American force was in the area, but not where.",
         "uncertainty": "Where the US carriers were.",
-        "constraints": "Scouting errors and mounting losses of aircraft and pilots.",
-        "decision": "It struck the ships it found on 7 May and the US carriers on 8 May, then withdrew.",
+        "constraints": "No radar, scouting errors and mounting losses of aircraft and pilots.",
+        "decision": "It struck the ships its scouts reported on 7 May, which proved to be an oiler and a destroyer, declined a night action, and struck the US carriers on 8 May, then withdrew.",
         "forces": "The fleet carriers Shōkaku and Zuikaku with supporting ships.",
         "terrain": "The open Coral Sea.",
         "logistics": "Air groups too battered to support a further advance.",
@@ -3588,6 +3664,16 @@
         "title": "Solomons Campaign: Guadalcanal",
         "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1942/guadalcanal.html",
         "publisher": "Naval History and Heritage Command"
+      },
+      {
+        "title": "Interrogation Nav No. 61 (USSBS No. 255): Rear Admiral Matsuyama M., Battle of Savo Island",
+        "url": "https://www.ibiblio.org/hyperwar/AAF/USSBS/IJO/IJO-61.html",
+        "publisher": "U.S. Strategic Bombing Survey, Interrogations of Japanese Officials (HyperWar)"
+      },
+      {
+        "title": "Interrogation Nav No. 60 (USSBS No. 252): Captain Toyama Yasumi, Tokyo, 1 November 1945",
+        "url": "https://www.ibiblio.org/hyperwar/AAF/USSBS/IJO/IJO-60.html",
+        "publisher": "U.S. Strategic Bombing Survey, Interrogations of Japanese Officials (HyperWar)"
       }
     ],
     "sections": [
@@ -3674,7 +3760,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "On the night of 8–9 August Japanese cruisers surprised the Allied screening force off Savo Island, sank three American cruisers and crippled an Australian one, the worst defeat in a single fleet action suffered by the US Navy. The Japanese then counterattacked on land, at the Tenaru in August and at Edson's Ridge on 13–14 September, and at sea, in the carrier battle of the Eastern Solomons on 24 August. Cape Esperance on 11–12 October and the carrier battle of Santa Cruz on 26 October, a Japanese tactical victory that cost them heavily in aircrew, accompanied a major Japanese ground offensive against the Henderson perimeter on 23–26 October, which failed. In the Naval Battle of Guadalcanal on 12–15 November the US Navy blocked Japan's last major attempt to retake the island from the sea. From then on American reinforcements outpaced Japanese ones, and at the end of December the Japanese high command accepted the case for evacuation, which began in late January; the last troops were taken off by destroyers on the night of 7 February 1943.",
+        "text": "On the night of 8–9 August Japanese cruisers surprised the Allied screening force off Savo Island, sank three American cruisers and crippled an Australian one, the worst defeat in a single fleet action suffered by the US Navy. The Japanese then counterattacked on land, at the Tenaru in August and at Edson's Ridge on 13–14 September, and at sea, in the carrier battle of the Eastern Solomons on 24 August, after which a Japanese reinforcement convoy that had lost its air support was ordered back. Cape Esperance on 11–12 October and the carrier battle of Santa Cruz on 26 October, a Japanese tactical victory that cost them heavily in aircrew, accompanied a major Japanese ground offensive against the Henderson perimeter on 23–26 October, which failed. In the Naval Battle of Guadalcanal on 12–15 November the US Navy blocked Japan's last major attempt to retake the island from the sea. At Tassafaronga on 30 November Tanaka's destroyers, surprised by American cruisers while preparing to land supplies, turned away and fired a mass torpedo attack, damaging American cruisers and losing one destroyer. From then on American reinforcements outpaced Japanese ones, and at the end of December the Japanese high command accepted the case for evacuation, which began in late January; the last troops were taken off by destroyers on the night of 7 February 1943.",
         "evidence": "fact",
         "refs": [
           {
@@ -3685,12 +3771,18 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Vandegrift's decision to concentrate his Marines in a tight perimeter around the airfield kept the key to the campaign in American hands, and warning from code-breakers helped him meet the first attacks. Japanese commanders, believing after Savo Island that most Americans had withdrawn, underestimated the garrison. Halsey concentrated his carriers for Santa Cruz, and in November the US Navy accepted heavy losses in night actions to stop the reinforcement convoys.",
+        "text": "Vandegrift's decision to concentrate his Marines in a tight perimeter around the airfield kept the key to the campaign in American hands, and warning from code-breakers helped him meet the first attacks. Japanese commanders, believing after Savo Island that most Americans had withdrawn, underestimated the garrison. At Savo Island itself, Rear Admiral Matsuyama, a passenger aboard the cruiser Tenryū, later said the mission had been to attack the transports, but the orders were simply to pass around Savo Island, fire on the ships and go home. Captain Toyama, Tanaka's chief of staff, says the August convoy was ordered back because the loss of Ryūjō left it without air support, and that at Tassafaronga he ordered his destroyers not to open fire with guns unless necessary and to make a mass torpedo attack. Halsey concentrated his carriers for Santa Cruz, and in November the US Navy accepted heavy losses in night actions to stop the reinforcement convoys.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -3701,6 +3793,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -3770,7 +3868,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The sources date the end differently: the Naval History and Heritage Command gives the last evacuation on the night of 7 February, Britannica the elimination of the last pocket on 8 February. They also give different totals for losses on both sides. The National WWII Museum stresses early American mistakes in moving supplies inland, while Britannica stresses the success of the initial landing.",
+        "text": "The sources date the end differently: the Naval History and Heritage Command gives the last evacuation on the night of 7 February, Britannica the elimination of the last pocket on 8 February. They also give different totals for losses on both sides. The National WWII Museum stresses early American mistakes in moving supplies inland, while Britannica stresses the success of the initial landing. The Japanese officers' accounts were recorded by American interrogators in late 1945. Matsuyama had no access to the battle plans, and the interrogators noted that part of his account came from conversation after the battle; why the cruisers left without attacking the transports is not explained by it.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -3781,12 +3879,18 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Britannica gives the naval and land campaigns in detail, from the landings to the evacuation. The National WWII Museum gives the strategic setting, the October offensive and the campaign's significance. The Naval History and Heritage Command gives the naval battles, the Japanese decision to evacuate and its judgment of the campaign.",
+        "text": "Britannica gives the naval and land campaigns in detail, from the landings to the evacuation. The National WWII Museum gives the strategic setting, the October offensive and the campaign's significance. The Naval History and Heritage Command gives the naval battles, the Japanese decision to evacuate and its judgment of the campaign. The U.S. Strategic Bombing Survey's interrogations of Rear Admiral Matsuyama on Savo Island and of Captain Toyama, chief of staff of Tanaka's destroyer squadron, transcribed by HyperWar, give the Japanese side at sea.",
         "evidence": "fact",
         "refs": [
           {
@@ -3797,6 +3901,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -3858,12 +3968,12 @@
         "objective": "Reinforce and supply the Japanese troops on Guadalcanal.",
         "known": "American aircraft at Henderson Field made daylight convoys too dangerous.",
         "uncertainty": "Whether American ships would intercept his runs.",
-        "constraints": "Destroyers that could carry only limited troops and supplies.",
-        "decision": "He ran fast destroyer convoys to the island by night, the Tokyo Express.",
+        "constraints": "Destroyers that could carry only limited troops and supplies, without radar, relying on visual fire control.",
+        "decision": "He ran fast destroyer convoys to the island by night, the Tokyo Express. At Tassafaronga his destroyers, surprised while preparing to unload, reversed course together, a turn practised at night for a year and a half, and fired a mass torpedo attack.",
         "forces": "A Japanese destroyer squadron.",
         "terrain": "The Slot and the waters off Guadalcanal.",
         "logistics": "Night runs from the north with troops and supplies.",
-        "outcome": "He kept the Japanese garrison going for months, but could not match the American build-up."
+        "outcome": "He kept the Japanese garrison going for months and won the night action at Tassafaronga, but could not match the American build-up."
       }
     ]
   },
@@ -5565,6 +5675,16 @@
         "title": "75th Anniversary of the Battle of Iwo Jima (Keith Huxen)",
         "url": "https://www.nationalww2museum.org/war/articles/75th-anniversary-battle-iwo-jima",
         "publisher": "The National WWII Museum"
+      },
+      {
+        "title": "栗林忠道 (Kuribayashi Tadamichi), 史料紹介コーナー, Military Archives News, August 2016",
+        "url": "https://www.nids.mod.go.jp/military_archives/news/2016/201608.pdf",
+        "publisher": "National Institute for Defense Studies, Ministry of Defense of Japan, in Japanese"
+      },
+      {
+        "title": "国策に翻弄された硫黄島の130年 (130 years of Iwo Jima at the mercy of national policy): lecture notice for Ishihara Shun",
+        "url": "https://www.meijigakuin.ac.jp/corporations/release/PDF/MG_190408.pdf",
+        "publisher": "Meiji Gakuin University, 2019, in Japanese"
       }
     ],
     "sections": [
@@ -5580,7 +5700,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "General Henry Arnold of the Army Air Forces wanted Iwo Jima, halfway between the Marianas and Tokyo, as a base for fighters to escort the bombers. Nimitz, on his admirals' advice, proposed taking Iwo Jima and Okinawa rather than Formosa, and the Joint Chiefs approved. The island was part of the Tokyo prefecture, Japanese home soil.",
+        "text": "General Henry Arnold of the Army Air Forces wanted Iwo Jima, halfway between the Marianas and Tokyo, as a base for fighters to escort the bombers. Nimitz, on his admirals' advice, proposed taking Iwo Jima and Okinawa rather than Formosa, and the Joint Chiefs approved. The island was part of the Tokyo prefecture, Japanese home soil, and had a civilian population; most of the islanders were forcibly evacuated to the mainland in 1944, but some were ordered to stay, and not a few of them died in the fighting.",
         "evidence": "fact",
         "refs": [
           {
@@ -5588,6 +5708,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -5616,7 +5739,7 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Lieutenant General Kuribayashi Tadamichi, sent in May 1944 to organise the defence, had his garrison build a network of tunnels and hundreds of pillboxes, blockhouses and gun positions. Rather than defend the beaches heavily, he kept his men underground until the Americans had advanced inland, and ordered them not to make banzai charges. Nimitz formed a joint expeditionary force; Major General Harry Schmidt led the Marine landing force of three Marine divisions. US intelligence underestimated the garrison.",
+        "text": "Lieutenant General Kuribayashi Tadamichi, appointed to command the 109th Division, responsible for the defence of the Bonin area, on 27 May 1944, arrived on Iwo Jima on 8 June. He had his garrison build a network of tunnels and hundreds of pillboxes, blockhouses and gun positions. Rather than defend the beaches heavily, he kept his men underground until the Americans had advanced inland, and ordered them not to make banzai charges. Nimitz formed a joint expeditionary force; Major General Harry Schmidt led the Marine landing force of three Marine divisions. US intelligence underestimated the garrison.",
         "evidence": "fact",
         "refs": [
           {
@@ -5624,6 +5747,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "Kuribayashi"
           }
         ]
       },
@@ -5668,7 +5795,7 @@
       },
       {
         "title": "Decisive turning points",
-        "text": "The capture of Suribachi on 23 February and the breakthrough of the central Japanese line at the end of February decided the battle, but the defenders fought on in the north for weeks.",
+        "text": "The capture of Suribachi on 23 February and the breakthrough of the central Japanese line at the end of February decided the battle, but the defenders fought on in the north for weeks. On the night of 7 March Kuribayashi telegraphed the deputy chief of the Army General Staff that the greatest difficulty of the defence had been an island almost entirely flat, without natural strongpoints, whose airfields eased the enemy's advance, and that still more fatal was a gap in material so great that no tactics or countermeasures could make up for it.",
         "evidence": "fact",
         "refs": [
           {
@@ -5676,6 +5803,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "Kuribayashi"
           }
         ]
       },
@@ -5697,7 +5828,7 @@
       },
       {
         "title": "Consequences",
-        "text": "The island's airfields were used for the rest of the war, and B-29s landed there. The National WWII Museum notes that the bloodbath horrified Allied planners and the public, who feared an even greater slaughter in an invasion of Japan. The flag-raising photograph became a symbol, reproduced on posters and a stamp and in the Marine Corps War Memorial.",
+        "text": "The island's airfields were used for the rest of the war, and B-29s landed there. The National WWII Museum notes that the bloodbath horrified Allied planners and the public, who feared an even greater slaughter in an invasion of Japan. The flag-raising photograph became a symbol, reproduced on posters and a stamp and in the Marine Corps War Memorial. After the war the island was used by the American forces and then Japan's Self-Defense Forces, and half a century after its return to Japan its former inhabitants have still not been allowed to go home.",
         "evidence": "fact",
         "refs": [
           {
@@ -5708,6 +5839,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -5726,7 +5860,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Whether the island was worth its cost is debated. Britannica cites the historian Robert Burrell's finding that the fighter escort missions that were the main reason for the invasion were few, that most B-29 landings were not strictly emergencies, and that the Joint Chiefs did not consider the Marines' doubts. The sources date the end of the battle to 16 or 26 March. The National WWII Museum describes the long confusion over whether the flag-raising photograph was staged.",
+        "text": "Whether the island was worth its cost is debated. Britannica cites the historian Robert Burrell's finding that the fighter escort missions that were the main reason for the invasion were few, that most B-29 landings were not strictly emergencies, and that the Joint Chiefs did not consider the Marines' doubts. The sources date the end of the battle to 16 or 26 March; the Japanese National Institute for Defense Studies counts 36 days, from the landing on 19 February to the final collapse of the Japanese defence on 26 March. The National WWII Museum describes the long confusion over whether the flag-raising photograph was staged.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -5734,12 +5868,16 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "Kuribayashi"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Myles Hudson's Britannica article gives the strategic background, Kuribayashi's defence, the course of the battle and the debate over its cost. The National WWII Museum's article on Iwo Jima and Okinawa gives the defence and the fighting, and Keith Huxen's 75th-anniversary article gives the flag-raising and its legacy.",
+        "text": "Myles Hudson's Britannica article gives the strategic background, Kuribayashi's defence, the course of the battle and the debate over its cost. The National WWII Museum's article on Iwo Jima and Okinawa gives the defence and the fighting, and Keith Huxen's 75th-anniversary article gives the flag-raising and its legacy. The National Institute for Defense Studies of Japan's Ministry of Defense, in Japanese, introduces Kuribayashi's papers, including his telegram of 7 March 1945; Meiji Gakuin University's notice of a lecture by Ishihara Shun, in Japanese, gives the fate of the island's civilians.",
         "evidence": "fact",
         "refs": [
           {
@@ -5750,6 +5888,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -5782,10 +5926,10 @@
         "objective": "Make the Americans pay so heavily that they might be deterred from invading Japan.",
         "known": "He could not defeat an American landing.",
         "uncertainty": "How long his garrison could hold out.",
-        "constraints": "A small island, a garrison of draftees and no hope of relief.",
+        "constraints": "A small island, a garrison of draftees, no hope of relief and, in his own words, a gap in material that left no room for tactics.",
         "decision": "He gave up beach defence, dug his men into tunnels and caves and forbade banzai charges.",
         "forces": "The Japanese garrison of Iwo Jima.",
-        "terrain": "Volcanic rock, caves and Mount Suribachi.",
+        "terrain": "Volcanic rock, caves and Mount Suribachi, but, as he reported, an island almost entirely flat, without natural strongpoints, whose airfields eased the enemy's advance.",
         "logistics": "Supplies stored underground before the landing.",
         "outcome": "His garrison was almost entirely killed after more than five weeks of fighting."
       },

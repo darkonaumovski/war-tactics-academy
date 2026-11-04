@@ -2343,6 +2343,16 @@
         "title": "Brusilov, Alekseĭ Alekseevich (Evgenii Vladimirovich Volkov)",
         "url": "https://encyclopedia.1914-1918-online.net/article/brusilov-aleksei-alekseevich/",
         "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+      },
+      {
+        "title": "Brussilow-Offensive 1916 (in German)",
+        "url": "https://www.dhm.de/lemo/kapitel/erster-weltkrieg/kriegsverlauf/brussilow-offensive-1916",
+        "publisher": "LeMO, Deutsches Historisches Museum (Manfred Wichmann)"
+      },
+      {
+        "title": "Conrad von Hötzendorf, Franz Xaver Josef Graf (Oskar Regele, NDB 3, 1957)",
+        "url": "https://www.deutsche-biographie.de/sfz31584.html",
+        "publisher": "Neue Deutsche Biographie (Deutsche Biographie), in German"
       }
     ],
     "sections": [
@@ -2358,7 +2368,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "A Russian attack at Lake Naroch in March to draw German strength from Verdun failed at great cost. When the Austro-Hungarian offensive in the Trentino threatened Italy in May, the Italians appealed to Russia, and the Russians brought their timetable forward. The main blow was to be struck by Evert's armies in the centre, with Brusilov's Southwestern Front making a supposedly diversionary attack.",
+        "text": "A Russian attack at Lake Naroch in March to draw German strength from Verdun failed at great cost. When the Austro-Hungarian offensive in the Trentino threatened Italy in May, the Italians appealed to Russia, and the Russians brought their timetable forward. The main blow was to be struck by Evert's armies in the centre, with Brusilov's Southwestern Front making a supposedly diversionary attack. The German Historical Museum's LeMO places the offensive in the Entente's plan to wear down the Central Powers in 1916 by coordinated offensives on both fronts. On the other side, the Neue Deutsche Biographie notes that the Central Powers had no common plan: disagreement between Conrad and Falkenhayn led to the separate German attack at Verdun and Austro-Hungarian offensive from the Tyrol, neither of which could mature once the Brusilov offensive began.",
         "evidence": "fact",
         "refs": [
           {
@@ -2366,6 +2376,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -2423,7 +2439,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "Brusilov struck on 4 June after short bombardments; on the 5th Kaledin's army attacked toward Lutsk, the defences crumbled and the Russians pushed between two Austrian armies. Austrian commanders fed their reserves piecemeal into each gap and lost them. By 10 June Lutsk had fallen, and in the south the Russians took Czernowitz and reached the Carpathians. German reinforcements arrived from mid-June and a counterstroke by Linsingen checked the advance at Lutsk; renewed Russian attacks in July and August, including the Guards Army's attempt on Kovel, stalled, and by early September the chance had gone.",
+        "text": "Brusilov struck on 4 June after short bombardments; on the 5th Kaledin's army attacked toward Lutsk, the defences crumbled and the Russians pushed between two Austrian armies. Austrian commanders fed their reserves piecemeal into each gap and lost them. By 10 June Lutsk had fallen, and in the south the Russians took Czernowitz and reached the Carpathians. German reinforcements arrived from mid-June and a counterstroke by Linsingen checked the advance at Lutsk; renewed Russian attacks in July and August, including the Guards Army's attempt on Kovel, stalled, and by early September the chance had gone. LeMO describes the later phases from the German side: a second offensive from 8 August in Galicia and Bukovina aimed at Lemberg and Hungary, which the Germans held at Kovel while the Austro-Hungarian armies had to give ground, and a third from October in support of Romania, broken off in December.",
         "evidence": "fact",
         "refs": [
           {
@@ -2431,6 +2447,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -2452,7 +2471,7 @@
       },
       {
         "title": "Decisive turning points",
-        "text": "The collapse of the Austrian Fourth Army near Lutsk in the first days opened the front. The arrival of German divisions from 14 June, and German officers taking over Austro-Hungarian units, turned the battle: without surprise, heavy artillery or time to dig forward, the Russian commanders fell back on the costly methods of 1914.",
+        "text": "The collapse of the Austrian Fourth Army near Lutsk in the first days opened the front. LeMO calls the weak morale of the national units within the Habsburg army decisive, many of the losses being prisoners, and notes that Brusilov's broad front made it impossible for the Austrian command to bring reserves to the points of breakthrough. The arrival of German divisions from 14 June, and German officers taking over Austro-Hungarian units, turned the battle: without surprise, heavy artillery or time to dig forward, the Russian commanders fell back on the costly methods of 1914.",
         "evidence": "fact",
         "refs": [
           {
@@ -2460,6 +2479,9 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -2478,7 +2500,7 @@
       },
       {
         "title": "Consequences",
-        "text": "The Germans had to move divisions from the Western Front, where they were needed at Verdun and on the Somme, and Conrad withdrew divisions from Italy. Hindenburg and Ludendorff took command of the whole Eastern Front, and German officers came to control Austro-Hungarian units. The offensive hastened Romania's entry into the war on 27 August, followed by a rapid Romanian defeat. The losses, the Romanian campaign and mutinies in December 1916 broke the Imperial Russian Army, and Britannica writes that the offensive's ultimate achievement was to sound the death knell of the Russian monarchy.",
+        "text": "The Germans had to move divisions from the Western Front, where they were needed at Verdun and on the Somme, and Conrad withdrew divisions from Italy. Hindenburg and Ludendorff took command of the whole Eastern Front, and German officers came to control Austro-Hungarian units; the Neue Deutsche Biographie adds that the joint supreme war command formed after the battle gave Austria-Hungary, at Conrad's insistence, a special right of veto. The offensive hastened Romania's entry into the war on 27 August, followed by a rapid Romanian defeat that, in LeMO's words, stabilised the Central Powers' position in the east. The losses, the Romanian campaign and mutinies in December 1916 broke the Imperial Russian Army, and Britannica writes that the offensive's ultimate achievement was to sound the death knell of the Russian monarchy; LeMO similarly concludes that the losses decisively undermined the Russian population's will to fight.",
         "evidence": "fact",
         "refs": [
           {
@@ -2486,6 +2508,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -2504,7 +2532,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Historians disagree about Brusilov himself: some see him as an outstanding commander responsible for Russia's greatest victory of the war, while critics argue that several commanders prepared the operation and that his name is undeservedly attached to it. The sources date the end differently: Britannica says the chance was lost by early September, Dowling has the offensive peter out in mid-August, and Volkov dates it from May to August.",
+        "text": "Historians disagree about Brusilov himself: some see him as an outstanding commander responsible for Russia's greatest victory of the war, while critics argue that several commanders prepared the operation and that his name is undeservedly attached to it. LeMO calls it the greatest Russian victory of the whole war. The sources date the end differently: Britannica says the chance was lost by early September, Dowling has the offensive peter out in mid-August, Volkov dates it from May to August, and LeMO counts three offensives running into December. They also date the fall of Lutsk differently, to 7 June (LeMO) or by 10 June (Britannica). The sources explain the Austro-Hungarian collapse differently: Dowling through Conrad's transfer of his best divisions to Italy, LeMO through the morale of the empire's national units. The Neue Deutsche Biographie's article on Conrad, written in 1957 by Oskar Regele, who had published a book on him two years earlier, presents him as a great commander and does not discuss the weakening of the eastern front. LeMO's figures for forces and losses are not used.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -2515,12 +2543,18 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Dennis Showalter's Britannica account of the Eastern Front in 1916 gives the Allied context, the course of the offensive and its results. Timothy Dowling's 1914-1918-online article on the Eastern Front gives Brusilov's preparations, the Austrian collapse and the consequences for both empires. Evgenii Volkov's 1914-1918-online biography of Brusilov gives his career, his methods and the debate over his reputation.",
+        "text": "Dennis Showalter's Britannica account of the Eastern Front in 1916 gives the Allied context, the course of the offensive and its results. Timothy Dowling's 1914-1918-online article on the Eastern Front gives Brusilov's preparations, the Austrian collapse and the consequences for both empires. Evgenii Volkov's 1914-1918-online biography of Brusilov gives his career, his methods and the debate over his reputation. Manfred Wichmann's article for the German Historical Museum's LeMO and Oskar Regele's article on Conrad in the Neue Deutsche Biographie, both in German, give the view from the Central Powers.",
         "evidence": "fact",
         "refs": [
           {
@@ -2531,6 +2565,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -2575,12 +2615,12 @@
         "objective": "Defeat Italy, 'the true enemy', with an offensive from the Trentino while holding in the east.",
         "known": "After 1915 the Russian army seemed incapable of a major offensive.",
         "uncertainty": "Whether the fortified positions in Galicia could hold with inexperienced troops.",
-        "constraints": "An army worn down by two years of heavy losses.",
+        "constraints": "An army worn down by two years of heavy losses, and no common plan with Falkenhayn, who attacked at Verdun while he attacked from the Tyrol.",
         "decision": "He sent his best divisions to Italy and, after the breakthrough, had to bring four divisions back to Galicia.",
         "forces": "Austro-Hungarian armies in Volhynia and Galicia, with the Austro-German Südarmee.",
         "terrain": "Fortified lines in Volhynia, Galicia and Bukovina.",
         "logistics": "Reinforcement depended on German help.",
-        "outcome": "German commanders took over the Eastern Front; Dowling calls his promotion to field marshal in November 1916 a face-saving measure."
+        "outcome": "German commanders took over the Eastern Front, though he secured an Austro-Hungarian veto in the new joint war command; Dowling calls his promotion to field marshal in November 1916 a face-saving measure."
       }
     ]
   },
@@ -2601,6 +2641,21 @@
         "title": "Erwin Rommel",
         "url": "https://encyclopedia.ushmm.org/content/en/article/erwin-rommel",
         "publisher": "United States Holocaust Memorial Museum, Holocaust Encyclopedia"
+      },
+      {
+        "title": "Piave-Durchbruch 1917 (in German)",
+        "url": "https://www.dhm.de/lemo/kapitel/erster-weltkrieg/kriegsverlauf/piave-durchbruch-1917",
+        "publisher": "LeMO, Deutsches Historisches Museum (Andreas Mix)"
+      },
+      {
+        "title": "Erich Ludendorff, My War Memories, 1914–1918, vol. 2 (London: Hutchinson, 1919)",
+        "url": "https://archive.org/details/mywarmemories19102lude",
+        "publisher": "Internet Archive (University of Toronto copy)"
+      },
+      {
+        "title": "Conrad von Hötzendorf, Franz Xaver Josef Graf (Oskar Regele, NDB 3, 1957)",
+        "url": "https://www.deutsche-biographie.de/sfz31584.html",
+        "publisher": "Neue Deutsche Biographie (Deutsche Biographie), in German"
       }
     ],
     "sections": [
@@ -2619,7 +2674,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Austria-Hungary asked Germany for help. The Germans at first regarded the Italian front as secondary, but feared an Austro-Hungarian collapse; in Ludendorff's words, it became necessary to attack Italy to prevent it. With Russia not yet out of the war and the British attacking in Flanders, he could spare only his small general reserve. It was the first time the Germans sent help to their ally on the Italian front.",
+        "text": "Austria-Hungary asked Germany for help; LeMO notes that the request came from the Emperor Karl. The Germans at first regarded the Italian front as secondary, but feared an Austro-Hungarian collapse; in Ludendorff's words, it became necessary to attack Italy to prevent it. His memoirs add that after the Eleventh Battle of the Isonzo the Austro-Hungarian authorities were convinced their armies could not stand a twelfth, that he would have preferred an offensive in Moldavia against Russia, and that the general opinion was that an attack on Italy would not produce a crisis there. With Russia not yet out of the war and the British attacking in Flanders, he could spare only his small general reserve. It was the first time the Germans sent help to their ally on the Italian front; the Neue Deutsche Biographie notes that Conrad had long proposed a joint decisive blow against Italy, which neither Falkenhayn nor Hindenburg accepted until the autumn of 1917.",
         "evidence": "fact",
         "refs": [
           {
@@ -2627,12 +2682,22 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4,
+            "locator": "pp. 481–482"
+          },
+          {
+            "source": 5
           }
         ]
       },
       {
         "title": "Campaign objectives",
-        "text": "The aim was to force the Italians back and relieve the weakened Austro-Hungarian army. An Austrian plan for a breakthrough at Tolmino was expanded under Ludendorff: the new Fourteenth Army would penetrate the Julian Alps on a line from the Rombon and Bovec area past Tolmino, with Caporetto roughly opposite the middle, while Boroević's armies advanced on the Bainsizza and near the Adriatic. The planners expected the left of Capello's Second Army to be weak.",
+        "text": "The aim was to force the Italians back and relieve the weakened Austro-Hungarian army. An Austrian plan for a breakthrough at Tolmino was expanded under Ludendorff: the new Fourteenth Army would penetrate the Julian Alps on a line from the Rombon and Bovec area past Tolmino, with Caporetto roughly opposite the middle, while Boroević's armies advanced on the Bainsizza and near the Adriatic. The planners expected the left of Capello's Second Army to be weak. Ludendorff explains the choice: with the forces available an attack from the Tyrol would have been absurd, so the blow had to fall where the enemy was weak and not expecting it, and on ground that allowed a breakthrough to be exploited; if the attackers surprised the Italians between Flitsch and Canale and burst over the mountains north of Cividale toward Udine, the whole Isonzo line would totter.",
         "evidence": "fact",
         "refs": [
           {
@@ -2640,6 +2705,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4,
+            "locator": "pp. 484–485"
           }
         ]
       },
@@ -2674,7 +2743,7 @@
       },
       {
         "title": "Initial deployment",
-        "text": "The concentration went undiscovered, thanks to careful precautions and limited Italian air reconnaissance; the Germans hid the Fourteenth Army's arrival and did not fire ranging shots in advance. On 18 September Cadorna ordered the army onto the defensive and repeated the order a month later, but his directives were vague and their execution was not checked; Capello ignored them and underestimated the warnings of an imminent attack.",
+        "text": "The concentration went undiscovered, thanks to careful precautions and limited Italian air reconnaissance; the Germans hid the Fourteenth Army's arrival and did not fire ranging shots in advance. On 18 September Cadorna ordered the army onto the defensive and repeated the order a month later, but his directives were vague and their execution was not checked; Capello ignored them and underestimated the warnings of an imminent attack. Ludendorff describes how hard the deployment was, on two mountain roads so narrow in places that traffic could move only one way, with artillery, mortars and ammunition brought up first and the infantry last.",
         "evidence": "fact",
         "refs": [
           {
@@ -2682,12 +2751,16 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 4,
+            "locator": "p. 499"
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "At 2 a.m. on 24 October an intense bombardment with high explosive and gas cut Italian communications. In fog, small, independent platoons infiltrated deep behind the Italian lines and seized the heights; some troops advanced 25 kilometres on the first day. Cividale fell on the 27th and Udine on the 28th, and the attackers reached the Tagliamento by the end of the month. Cadorna ordered a retreat, and by 9 November all Italian forces were behind the Piave. Austro-German attacks on the Piave and Monte Grappa went on until the snows ended them on 19 December.",
+        "text": "At 2 a.m. on 24 October an intense bombardment with high explosive and gas cut Italian communications. In fog, small, independent platoons infiltrated deep behind the Italian lines and seized the heights; some troops advanced 25 kilometres on the first day. In Ludendorff's account the German 12th Division pushed along the valley through Caporetto while the other divisions climbed the range, which was in German hands on the 25th, when Mount Matajur was taken. Cividale fell on the 27th and Udine on the 28th, and the attackers reached the Tagliamento by the end of the month; LeMO adds the recapture of Gorizia on 28 October. Cadorna ordered a retreat, and by 9 November all Italian forces were behind the Piave. Austro-German attacks on the Piave and Monte Grappa went on until the snows ended them on 19 December.",
         "evidence": "fact",
         "refs": [
           {
@@ -2695,6 +2768,13 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4,
+            "locator": "pp. 499–500"
           }
         ]
       },
@@ -2713,7 +2793,7 @@
       },
       {
         "title": "Decisive turning points",
-        "text": "The cutting of Italian communications in the first hours, and infiltration behind the lines, broke the front between Plezzo and Tolmino on 24 October; with the attackers on the mountains overlooking Friuli, the Italian position east of the Isonzo could not be held. The Italian stand on the Piave, where the invaders had outrun their transport, ended the advance.",
+        "text": "The cutting of Italian communications in the first hours, and infiltration behind the lines, broke the front between Plezzo and Tolmino on 24 October; with the attackers on the mountains overlooking Friuli, the Italian position east of the Isonzo could not be held. Ludendorff complains that Boroević's armies further south did not follow up with enough energy, so that more Italians escaped than should have. The Italian stand on the Piave, where the invaders had outrun their transport, ended the advance.",
         "evidence": "fact",
         "refs": [
           {
@@ -2721,6 +2801,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4,
+            "locator": "p. 500"
           }
         ]
       },
@@ -2739,7 +2823,7 @@
       },
       {
         "title": "Consequences",
-        "text": "Cadorna was replaced by Armando Diaz on 9 November; Grillini notes that the new government of Vittorio Emanuele Orlando had already decided on the change. French and British divisions came to Italy's aid, and the Allied conference at Rapallo led to the Supreme War Council at Versailles and, eventually, a unified command. Britannica judges that Caporetto damaged Italy but also brought a change of command and a reorganised home front, and that the Central Powers' victory was ephemeral because the attack lacked a strategic context.",
+        "text": "Cadorna was replaced by Armando Diaz on 9 November; Grillini notes that the new government of Vittorio Emanuele Orlando had already decided on the change. French and British divisions came to Italy's aid, and the Allied conference at Rapallo led to the Supreme War Council at Versailles and, eventually, a unified command. Britannica judges that Caporetto damaged Italy but also brought a change of command and a reorganised home front, and that the Central Powers' victory was ephemeral because the attack lacked a strategic context. LeMO notes that Italy mobilised all its strength once more, that with Allied support its rebuilt army drove back the disintegrating Austro-Hungarian forces in October 1918, and that because the Allies did not keep all their territorial promises many Italians came to see the victory as “mutilated”.",
         "evidence": "fact",
         "refs": [
           {
@@ -2747,6 +2831,9 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -2765,7 +2852,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "On 27 October Cadorna issued a report accusing the Second Army of surrendering to the enemy without fighting, while Grillini's account places much of the responsibility on the Italian command itself. The sources describe the bombardment differently: Grillini stresses that it was short and intense, with gas, while Britannica describes four hours of shelling with gas followed by an hour of general bombardment. They also date the end of the battle differently and give different numbers of prisoners.",
+        "text": "On 27 October Cadorna issued a report accusing the Second Army of surrendering to the enemy without fighting, while Grillini's account places much of the responsibility on the Italian command itself. The sources describe the bombardment differently: Grillini stresses that it was short and intense, with gas, while Britannica describes four hours of shelling with gas followed by an hour of general bombardment. They also date the end of the battle differently and give different numbers of prisoners, and LeMO dates the fall of Udine to 30 October rather than the 28th. They disagree on surprise: Britannica and Grillini say the concentration went undiscovered, but Ludendorff writes that the deployment, which took days, was betrayed to the Italians and that Cadorna seems to have taken no steps, perhaps thinking an attack hopeless. LeMO's and Ludendorff's figures are not used.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -2773,12 +2860,19 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4,
+            "locator": "p. 499"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Anna Grillini's 1914-1918-online article gives the preparation, the infiltration tactics, the Italian command failures and the aftermath. Britannica gives the German planning, the course of the offensive and its consequences. The Holocaust Encyclopedia of the United States Holocaust Memorial Museum gives Rommel's part.",
+        "text": "Anna Grillini's 1914-1918-online article gives the preparation, the infiltration tactics, the Italian command failures and the aftermath. Britannica gives the German planning, the course of the offensive and its consequences. The Holocaust Encyclopedia of the United States Holocaust Memorial Museum gives Rommel's part. Andreas Mix's article for the German Historical Museum's LeMO, in German, gives the Austro-German advance to the Piave and its aftermath in Italy; Ludendorff's war memoirs give the German high command's reasons, plan and view of the operation; the Neue Deutsche Biographie's article on Conrad gives his long-standing proposal for a joint blow against Italy.",
         "evidence": "fact",
         "refs": [
           {
@@ -2789,6 +2883,15 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
           }
         ]
       }
@@ -2821,7 +2924,7 @@
         "objective": "Break through the Isonzo front and force the Italians back.",
         "known": "The left of the Italian Second Army was expected to be weak, and the concentration had not been discovered.",
         "uncertainty": "How far a small force could go in mountain country.",
-        "constraints": "Few divisions, mountain roads, and guns that had to be moved by hand.",
+        "constraints": "Few divisions, two narrow mountain roads for the deployment, and guns that had to be moved by hand.",
         "decision": "He attacked after a short bombardment with gas and sent infiltrating units through the valleys and onto the heights.",
         "forces": "The Fourteenth Army of German and Austro-Hungarian divisions.",
         "terrain": "The Julian Alps above the upper Isonzo.",
@@ -2831,7 +2934,7 @@
       {
         "name": "Luigi Cadorna",
         "objective": "Hold the Isonzo front after the Bainsizza offensive.",
-        "known": "An enemy attack was expected.",
+        "known": "An enemy attack was expected; Ludendorff later wrote that the German deployment had been betrayed to the Italians.",
         "uncertainty": "Where and when it would come.",
         "constraints": "Worn troops, no trained reserves, and subordinates who did not carry out his orders.",
         "decision": "He ordered a defensive posture in vague terms, then ordered a retreat to the Tagliamento and the Piave.",

@@ -261,26 +261,45 @@
         "title": "A Soviet mortar team advance at Stalingrad, 1942",
         "url": "https://collection.nam.ac.uk/detail.php?acc=2007-03-1-8",
         "publisher": "National Army Museum"
+      },
+      {
+        "title": "Schlacht um Stalingrad 1942/43 (in German)",
+        "url": "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/schlacht-um-stalingrad-194243",
+        "publisher": "LeMO, Deutsches Historisches Museum (Arnulf Scriba)"
+      },
+      {
+        "title": "Paulus, Friedrich Wilhelm Ernst (Manfred Kehrig, NDB 20, 2001)",
+        "url": "https://www.deutsche-biographie.de/sfz94261.html",
+        "publisher": "Neue Deutsche Biographie (Deutsche Biographie), in German"
       }
     ],
     "sections": [
       {
         "title": "Historical background",
-        "text": "Germany's 1942 southern offensive aimed toward the Caucasus oilfields and the Volga region after the failure to defeat the Soviet Union in 1941.",
+        "text": "Germany's 1942 southern offensive aimed toward the Caucasus oilfields and the Volga region after the failure to defeat the Soviet Union in 1941. The Neue Deutsche Biographie's article on Paulus describes the plan of the summer offensive, which began on 28 June: the main thrust was to win the Caucasus oilfields, while the Sixth Army and part of the Fourth Panzer Army covered it by taking Stalingrad, a centre of armament production, and blocking the Volga.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Political and strategic context",
-        "text": "Army Group South was divided, creating competing demands between the Caucasus and Stalingrad.",
+        "text": "Army Group South was divided, creating competing demands between the Caucasus and Stalingrad. By his Directive No. 45 of 23 July 1942, the Neue Deutsche Biographie writes, Hitler, underestimating Soviet resistance, merged the later phases of the offensive so as to reach both objectives at once; much of the strength and almost all the heavy transport went to the new Army Group A in the Caucasus, so that the Sixth Army could attack across the Don toward Stalingrad only on 21 August, and weakened. LeMO adds that Hitler made the city a symbol of the will to victory and a test of personal prestige against Stalin, whose name it bore.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -306,11 +325,14 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Paulus commanded the German Sixth Army. Soviet defense included the 62nd Army under Chuikov; Romanian formations held exposed sectors outside the city.",
+        "text": "Paulus commanded the German Sixth Army, which he had taken over in January 1942, with Arthur Schmidt as his chief of staff. Soviet defense included the 62nd Army under Chuikov; Romanian formations held exposed sectors outside the city, and Italian and Hungarian armies held other parts of the flank. Paulus raised his concerns about these allied armies with Hitler on 12 September and with the army high command until the Soviet attack began, without result.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -329,7 +351,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "The campaign moved from the summer advance through urban fighting to Operation Uranus and the destruction of the encircled force.",
+        "text": "The campaign moved from the summer advance through urban fighting to Operation Uranus and the destruction of the encircled force. The Sixth Army reached the city at the end of August and by mid-November held most of it, while its assault groups wore themselves down in house-to-house fighting. On 19 November Soviet forces attacked north-west and south of the city, and by 22 November the Sixth Army, part of the Fourth Panzer Army and Romanian troops were encircled. Hitler ordered the army to hold between the Don and the Volga until relieved. A relief attack under Erich von Manstein began on 12 December but stalled short of the pocket and was broken off. The last Soviet offensive against the pocket began on 10 January; by 18 January the defenders had been driven back into the city and split into two pockets. Paulus, promoted to field marshal on the night of 30–31 January, went into captivity on 31 January with the southern pocket; the northern pocket stopped fighting two days later.",
         "evidence": "fact",
         "refs": [
           {
@@ -337,22 +359,34 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Soviet learning and organizational reform helped make the counteroffensive possible; no single commander's personality adequately explains it.",
+        "text": "Soviet learning and organizational reform helped make the counteroffensive possible; no single commander's personality adequately explains it. On the German side, the decisions after the encirclement are central. LeMO writes that Hitler flatly refused Paulus's request to break out and trusted Göring's empty promise to supply the pocket from the air until it was relieved, though the Wehrmacht lacked the means for either. The Neue Deutsche Biographie adds that Paulus, unlike his corps commander Walther von Seydlitz, accepted Hitler's plan, taking the promised air supply as a temporary expedient and believing that by holding he tied down Soviet forces that would otherwise turn on the German armies in the Caucasus; when the relief stalled, he judged a breakout impossible for lack of fuel and the troops' starving condition. When Hitler refused his request in late January to surrender, he let events take their course.",
         "evidence": "interpretation",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Decisive turning points",
-        "text": "The November Soviet offensive broke through the flanks and encircled the Sixth Army.",
+        "text": "The November Soviet offensive broke through the flanks and encircled the Sixth Army. The failure of Manstein's relief attack in December, which got within a few dozen kilometres of the pocket, and of the air supply sealed the army's fate.",
         "evidence": "fact",
         "refs": [
           {
@@ -363,12 +397,18 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Outcome",
-        "text": "The remaining German forces surrendered by 2 February 1943.",
+        "text": "The remaining German forces surrendered by 2 February 1943. LeMO calls it the Wehrmacht's first annihilating defeat in the war against the Soviet Union; the initiative now passed to the Red Army.",
         "evidence": "fact",
         "refs": [
           {
@@ -376,32 +416,44 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Consequences",
-        "text": "The defeat damaged German strategic prospects and became a major psychological turning point.",
+        "text": "The defeat damaged German strategic prospects and became a major psychological turning point. LeMO stresses the effect in Germany: neither the regime's attempt to present the Sixth Army's end as a heroic epic nor Goebbels's proclamation of total war on 18 February 1943 removed the doubts, and the year “1918” was painted on walls in German cities as a reminder of the last defeat. Paulus himself, after refusing all approaches from his captors until the summer of 1944, joined the League of German Officers in August 1944, called for resistance to Hitler, testified for the Soviet prosecution at Nuremberg and was released to Dresden in 1953.",
         "evidence": "fact",
         "refs": [
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Historical lessons",
-        "text": "Examine an urban battlefield inside its operational setting. Tactical advances through a city can coexist with growing vulnerability outside it.",
+        "text": "Examine an urban battlefield inside its operational setting. Tactical advances through a city can coexist with growing vulnerability outside it. An encircled force that depends on promises of supply by air, which the means available cannot fulfil, is left with no good choice.",
         "evidence": "interpretation",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Historiographical debates",
-        "text": "German and Soviet postwar narratives both simplified responsibility. Casualty totals depend on whether they cover the city, encirclement or wider campaign.",
+        "text": "German and Soviet postwar narratives both simplified responsibility. Casualty totals depend on whether they cover the city, encirclement or wider campaign. The German sources place the blame for the decision to hold differently: LeMO puts it on Hitler's refusal of a breakout and Göring's promises, while the Neue Deutsche Biographie stresses that Paulus accepted the plan and later judged a breakout impossible. It describes his conduct during the encirclement as sober and responsible, while noting that he had helped plan the war against the Soviet Union and that the motives of his change of sides in captivity are disputed; the battle itself became a German myth. The sources also put the relief force's closest approach at 48 kilometres (LeMO) or 35 (the Neue Deutsche Biographie). LeMO's figures for losses and prisoners are not used.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -409,12 +461,18 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The National WWII Museum emphasizes Soviet adaptation; USHMM places the defeat in the war's broader course. NAM supplies additional operational context.",
+        "text": "The National WWII Museum emphasizes Soviet adaptation; USHMM places the defeat in the war's broader course. NAM supplies additional operational context. Arnulf Scriba's article for the German Historical Museum's LeMO and Manfred Kehrig's article on Paulus in the Neue Deutsche Biographie, both in German, give the German plan, the encirclement, the decisions to hold and the effect of the defeat in Germany.",
         "evidence": "fact",
         "refs": [
           {
@@ -425,6 +483,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -455,13 +519,13 @@
       {
         "name": "Friedrich Paulus and the German Sixth Army command",
         "objective": "Take Stalingrad and secure the Volga flank of the German southern offensive.",
-        "known": "By autumn most of the city had been taken. The flanks were held by Romanian, Hungarian and Italian armies.",
+        "known": "By autumn most of the city had been taken. The flanks were held by Romanian, Hungarian and Italian armies, whose weakness Paulus had reported to Hitler in September.",
         "uncertainty": "The strength of Soviet forces gathering beyond the flanks.",
-        "constraints": "Overstretched supply lines, and orders from Hitler that limited withdrawal and, later, a breakout.",
+        "constraints": "Overstretched supply lines, orders from Hitler that limited withdrawal and, later, a breakout, and an air supply that never matched what was promised.",
         "forces": "The Sixth Army, worn down by months of fighting in the city.",
         "terrain": "Ruined city blocks favored defenders, while the open steppe beyond the flanks was thinly held.",
         "logistics": "After the encirclement, air supply could not sustain the army, and its strength declined through December and January.",
-        "decision": "He kept fighting in the city and, once encircled, did not break out against orders. Whether a breakout was feasible remains debated.",
+        "decision": "He kept fighting in the city and, once encircled, accepted Hitler's order to hold and await relief, against Seydlitz's advice; when the relief stalled he judged a breakout impossible for lack of fuel. Whether a breakout was feasible remains debated.",
         "outcome": "Surrender by 2 February 1943. About 91,000 survivors went into captivity."
       },
       {
@@ -764,12 +828,22 @@
         "title": "Battles of El-Alamein",
         "url": "https://www.britannica.com/event/Battles-of-El-Alamein",
         "publisher": "Encyclopaedia Britannica (Adrian Gilbert)"
+      },
+      {
+        "title": "Schlacht bei El Alamein 1942 (in German)",
+        "url": "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/schlacht-bei-el-alamein-1942",
+        "publisher": "LeMO, Deutsches Historisches Museum (Arnulf Scriba)"
+      },
+      {
+        "title": "Rommel, Eugen Johannes Erwin (Sönke Neitzel, NDB 22, 2005)",
+        "url": "https://www.deutsche-biographie.de/sfz107896.html",
+        "publisher": "Neue Deutsche Biographie (Deutsche Biographie), in German"
       }
     ],
     "sections": [
       {
         "title": "Historical background",
-        "text": "Italy invaded Egypt from Libya in 1940, and Germany intervened in 1941. In 1942 Rommel defeated the British at Gazala and took Tobruk on 21 June, and Commonwealth forces fell back to a line at El Alamein, which Rommel reached on 30 June. Auchinleck's counterattacks in July stopped him there; Auchinleck was then recalled, and after his chosen successor, Gott, was killed, Montgomery took command of Eighth Army.",
+        "text": "Italy invaded Egypt from Libya in 1940, and Germany intervened in 1941. In 1942 Rommel defeated the British at Gazala and took Tobruk on 21 June, and Commonwealth forces fell back to a line at El Alamein, which Rommel reached on 30 June. The German sources describe the decision behind the advance: Hitler and Mussolini had planned first to take Malta, the British base astride the Axis supply route, but after Tobruk Rommel, newly promoted to field marshal, obtained Hitler's order to pursue at once, against the strong opposition, the Neue Deutsche Biographie writes, of his superior Albert Kesselring and of Mussolini. Auchinleck's counterattacks in July stopped him there; Auchinleck was then recalled, and after his chosen successor, Gott, was killed, Montgomery took command of Eighth Army.",
         "evidence": "fact",
         "refs": [
           {
@@ -780,12 +854,18 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Political and strategic context",
-        "text": "The First Battle of El Alamein in July and Rommel's failed attack at Alam Halfa on 30 August stopped the Axis advance. Churchill wanted a victory before the Allied landings in North-West Africa and pressed for an early attack; Montgomery, commanding Eighth Army since August, refused until he was ready.",
+        "text": "The First Battle of El Alamein in July and Rommel's failed attack at Alam Halfa on 30 August stopped the Axis advance; LeMO notes that the August offensive was broken off after three days for lack of fuel, and that while the British drew supplies from Alexandria about 100 kilometres away, the Axis supplies had to be carried more than 1,000 kilometres through the desert. Churchill wanted a victory before the Allied landings in North-West Africa and pressed for an early attack; Montgomery, commanding Eighth Army since August, refused until he was ready.",
         "evidence": "fact",
         "refs": [
           {
@@ -793,6 +873,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -863,7 +946,7 @@
       },
       {
         "title": "Important command decisions",
-        "text": "Montgomery built up men, training and equipment before attacking. His plan, Gilbert writes, combined a diversionary attack in the south, led by Free French troops, with the main blow in the north, meant to force the Axis to counterattack and wear itself down. When armour stalled in the minefield corridors, he continued an attritional phase he called \"crumbling\", made a diversionary attack to draw in Axis reserves and paused to regroup before Supercharge. On 2 November Rommel signalled Hitler that the battle was lost; refused permission to retreat at first, he began to withdraw his German units.",
+        "text": "Montgomery built up men, training and equipment before attacking. His plan, Gilbert writes, combined a diversionary attack in the south, led by Free French troops, with the main blow in the north, meant to force the Axis to counterattack and wear itself down. When armour stalled in the minefield corridors, he continued an attritional phase he called \"crumbling\", made a diversionary attack to draw in Axis reserves and paused to regroup before Supercharge. On 2 November Rommel signalled Hitler that the battle was lost; refused permission to retreat at first, he began to withdraw his German units. The German sources present this as defiance: LeMO writes that when the British broke through on 2 November Rommel ordered the retreat of his exhausted troops to Libya against Hitler's order, and the Neue Deutsche Biographie that he disregarded Hitler's orders to hold in order to save his troops from destruction, which clouded his close relationship with Hitler.",
         "evidence": "fact",
         "refs": [
           {
@@ -871,6 +954,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -908,7 +997,7 @@
       },
       {
         "title": "Consequences",
-        "text": "El Alamein was the British Army's first clear, decisive victory over the Axis. Four days later the Torch landings began, and Axis forces in North Africa surrendered in Tunisia in May 1943.",
+        "text": "El Alamein was the British Army's first clear, decisive victory over the Axis. Four days later the Torch landings began, opening, as LeMO puts it, a second front in the rear of Rommel's army and making the Axis position in North Africa hopeless; Rommel was recalled from Africa in March 1943, and Axis forces in North Africa surrendered in Tunisia in May 1943.",
         "evidence": "fact",
         "refs": [
           {
@@ -916,6 +1005,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -931,7 +1026,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The National Army Museum suggests Churchill's \"end of the beginning\" framing may overstate the battle's strategic weight, while Gilbert calls it truly a turning point, though one whose strategic effect was confirmed by the Torch landings. Montgomery's conduct remains debated. The sources give different force totals and end dates, and disagree on whether Lightfoot opened corridors through the minefields in its first hours.",
+        "text": "The National Army Museum suggests Churchill's \"end of the beginning\" framing may overstate the battle's strategic weight, while Gilbert calls it truly a turning point, though one whose strategic effect was confirmed by the Torch landings. Montgomery's conduct remains debated. The sources give different force totals and end dates, and disagree on whether Lightfoot opened corridors through the minefields in its first hours; LeMO dates the Alam Halfa offensive to 31 August rather than the 30th. Rommel's reputation is itself debated: the Neue Deutsche Biographie notes that Goebbels's propaganda built up the image of the \"Desert Fox\" for the regime's purposes, and judges that the dream of reaching the Nile failed not least through Rommel's own serious operational error. The two German sources also differ on Mussolini: LeMO has him join Hitler in preferring the advance into Egypt to the capture of Malta, the Neue Deutsche Biographie has him oppose it with Kesselring. LeMO's figures for forces and tanks are not used.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -942,12 +1037,18 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The National Army Museum gives the British strategic and command narrative and its debates. AWM London gives the Australian 9th Division's role and the RAAF's support. Gilbert's Britannica article adds the first battle, Montgomery's plan and the Axis withdrawal; its loss figures are not used.",
+        "text": "The National Army Museum gives the British strategic and command narrative and its debates. AWM London gives the Australian 9th Division's role and the RAAF's support. Gilbert's Britannica article adds the first battle, Montgomery's plan and the Axis withdrawal; its loss figures are not used. Arnulf Scriba's article for the German Historical Museum's LeMO and Sönke Neitzel's article on Rommel in the Neue Deutsche Biographie, both in German, give the Axis decision to advance into Egypt, the supply problem, Rommel's retreat against orders and the German judgement of his command.",
         "evidence": "fact",
         "refs": [
           {
@@ -958,6 +1059,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -1002,11 +1109,11 @@
         "objective": "Hold the Alamein position against a stronger enemy.",
         "known": "Eighth Army was building up superior forces opposite him.",
         "uncertainty": "Where the main British blow would fall.",
-        "constraints": "Shortages of fuel and mechanized forces, and Italian infantry without the motor transport to escape.",
+        "constraints": "Shortages of fuel and mechanized forces, supplies carried over a thousand kilometres of desert, and Italian infantry without the motor transport to escape.",
         "forces": "German and Italian infantry and armour, outnumbered in men, tanks and guns.",
         "terrain": "Deep minefields he called the \"devil's gardens\", covering a line that could not be outflanked.",
         "logistics": "Fuel shortages limited how freely he could move his armour.",
-        "decision": "He was in Germany when the attack began; back in command, he counterattacked, told Hitler on 2 November that the battle was lost and, though refused leave to retreat at first, withdrew his German units.",
+        "decision": "He was in Germany when the attack began; back in command, he counterattacked, told Hitler on 2 November that the battle was lost and, against Hitler's order to hold, withdrew his German units.",
         "outcome": "His army retreated on 4 November; most of the infantry was captured, but motorized units escaped."
       }
     ]

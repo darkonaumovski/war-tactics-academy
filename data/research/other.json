@@ -3648,6 +3648,16 @@
         "title": "The Battle of Blenheim, 13 August 1704",
         "url": "https://www.nam.ac.uk/explore/battle-blenheim-13-august-1704",
         "publisher": "National Army Museum"
+      },
+      {
+        "title": "The Electorate of Bavaria (1623–1806)",
+        "url": "https://hdbg.de/geschichte-bayerns/en-02-die-geschichte-04.php",
+        "publisher": "Haus der Bayerischen Geschichte (House of Bavarian History)"
+      },
+      {
+        "title": "Maximilian II. Emanuel (Ludwig Hüttl, NDB 16, 1990; Karl Theodor von Heigel, ADB 21, 1885)",
+        "url": "https://www.deutsche-biographie.de/sfz59368.html",
+        "publisher": "Neue Deutsche Biographie and Allgemeine Deutsche Biographie (Deutsche Biographie), in German"
       }
     ],
     "sections": [
@@ -3666,7 +3676,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "England, Austria and the Dutch Republic were allied against Louis XIV, while the elector of Bavaria fought on the French side. Losing Vienna would have threatened the alliance itself.",
+        "text": "England, Austria and the Dutch Republic were allied against Louis XIV, while the elector of Bavaria fought on the French side. Losing Vienna would have threatened the alliance itself. The Bavarian side is given by the Neue Deutsche Biographie's article on the elector, Max Emanuel: hoping still for a share of the Spanish inheritance, he allied with France in 1701 and 1702, sought a royal title and sovereign territory, and was told by Louis XIV to win them by conquest within the Empire. He seized the imperial city of Ulm in 1702 to open a link with France, invaded Tyrol in 1703 and was driven out by its militia, and even negotiated for a royal title from the Emperor as the price of changing sides, which Leopold I refused. For France, the alliance was meant to keep the fighting away from its own frontiers.",
         "evidence": "fact",
         "refs": [
           {
@@ -3674,6 +3684,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -3702,7 +3715,7 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Britannica gives about 52,000 British, Dutch and Austrian troops under Marlborough and Eugene against about 60,000 French and Bavarians. The French army was in two nearly independent parts: Tallard commanded the right, and Marshal Marsin and the elector the left.",
+        "text": "Britannica gives about 52,000 British, Dutch and Austrian troops under Marlborough and Eugene against about 60,000 French and Bavarians. The French army was in two nearly independent parts: Tallard commanded the right, and Marshal Marsin and the elector the left, where, the Allgemeine Deutsche Biographie notes, the Bavarians formed the left wing. The elector had won on the same field before, beating an Austrian army at Höchstädt on 20 September 1703.",
         "evidence": "fact",
         "refs": [
           {
@@ -3710,6 +3723,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -3728,7 +3744,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "Marlborough and Eugene joined on 12 August and advanced next morning over broken ground cut by streams. The battle opened about 12:30 p.m. Lord Cutts made two failed assaults on Blenheim while Eugene kept Marsin engaged. Marlborough then crossed the Nebel, his cavalry broke the French centre and wheeled against Tallard's wing, and the troops in Blenheim were surrounded.",
+        "text": "Marlborough and Eugene joined on 12 August and advanced next morning over broken ground cut by streams. The battle opened about 12:30 p.m. Lord Cutts made two failed assaults on Blenheim while Eugene kept Marsin engaged; the Allgemeine Deutsche Biographie writes that the elector beat off three attacks by Eugene's imperial troops and threw back the Brandenburgers. Marlborough then crossed the Nebel, his cavalry broke the French centre and wheeled against Tallard's wing, and the troops in Blenheim were surrounded.",
         "evidence": "fact",
         "refs": [
           {
@@ -3736,6 +3752,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -3764,7 +3783,7 @@
       },
       {
         "title": "Outcome",
-        "text": "Tallard was captured and his army almost destroyed, many of its men driven into the Danube. The infantry and dragoons trapped in Blenheim surrendered, while Marsin and the elector withdrew in the dusk.",
+        "text": "Tallard was captured and his army almost destroyed, many of its men driven into the Danube. The infantry and dragoons trapped in Blenheim surrendered, while Marsin and the elector withdrew in the dusk. The Bavarian biography credits the elector's composure with keeping the retreat in tolerable order, gathering the scattered troops into a fighting force again and bringing them through the defiles of the Black Forest.",
         "evidence": "fact",
         "refs": [
           {
@@ -3772,12 +3791,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Consequences",
-        "text": "The battle saved Vienna, preserved the alliance and knocked Bavaria out of the war. Britannica calls it the first major defeat of a French army in over 50 years. It began a lasting partnership between Marlborough and Eugene, and Queen Anne rewarded Marlborough with the manor of Woodstock and funds for Blenheim Palace.",
+        "text": "The battle saved Vienna, preserved the alliance and knocked Bavaria out of the war. Britannica calls it the first major defeat of a French army in over 50 years. It began a lasting partnership between Marlborough and Eugene, and Queen Anne rewarded Marlborough with the manor of Woodstock and funds for Blenheim Palace. For Bavaria, the House of Bavarian History records, the elector fled into exile in the Netherlands, the country was occupied by Austrian troops, many Bavarians died in an abortive uprising, and Max Emanuel recovered his electorate only in 1714; the Neue Deutsche Biographie adds that he was placed under the ban of the Empire in 1706.",
         "evidence": "fact",
         "refs": [
           {
@@ -3785,6 +3807,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -3800,7 +3828,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Figures differ: the 1911 Britannica calls the French only somewhat superior in numbers, and the battalions trapped in Blenheim are given as about 23 or 24. The National Army Museum lists Prussians in the alliance, while Britannica names British, Dutch and Austrian troops. Verdicts such as ending the illusion of French invincibility are judgments.",
+        "text": "Figures differ: the 1911 Britannica calls the French only somewhat superior in numbers, and the battalions trapped in Blenheim are given as about 23 or 24. The National Army Museum lists Prussians in the alliance, while Britannica names British, Dutch and Austrian troops; the House of Bavarian History names troops from Britain, Holland, Denmark, Prussia, Hanover and Hesse. In German the battle is the (second) battle of Höchstädt. The Allgemeine Deutsche Biographie, written in 1885, says Marlborough's storming of Blindheim decided the defeat of the French centre, whereas Britannica describes the village holding out until it was surrounded and the decision falling in the centre beside it; the same article quotes a historian's praise of the elector's leadership in the retreat, an admiring judgement. Verdicts such as ending the illusion of French invincibility are judgments.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -3811,12 +3839,18 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Britannica gives the main narrative and the 1911 edition the timings and deployments. The National Army Museum's page interprets John Wootton's painting, made about 40 years after the battle. No contemporary account was read.",
+        "text": "Britannica gives the main narrative and the 1911 edition the timings and deployments. The National Army Museum's page interprets John Wootton's painting, made about 40 years after the battle. The House of Bavarian History and the Neue Deutsche Biographie and Allgemeine Deutsche Biographie articles on Max Emanuel, in German, give the Bavarian side: the elector's aims, his part in the battle and the occupation of Bavaria. No contemporary account was read.",
         "evidence": "fact",
         "refs": [
           {
@@ -3827,6 +3861,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -4727,6 +4767,11 @@
         "title": "Béla IV",
         "url": "https://www.britannica.com/biography/Bela-IV",
         "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Stephen Pow and József Laszlovszky, “Finding Batu's Hill at Muhi”, Hungarian Historical Review 8:2 (2019)",
+        "url": "https://hunghist.org/83-articles/564-2019-2-laszlovszky",
+        "publisher": "Institute of History, Research Centre for the Humanities, Hungarian Academy of Sciences"
       }
     ],
     "sections": [
@@ -4758,7 +4803,7 @@
       },
       {
         "title": "Campaign objectives",
-        "text": "Britannica credits Subutai with planning a three-pronged assault on Hungary supported by a campaign in Poland. Sinor treats the operation as one planned campaign carried out by separate corps, with Batu's main body entering Hungary from the north. The sources read do not say what the Mongol leaders intended beyond the defeat of Hungary.",
+        "text": "Britannica credits Subutai with planning a three-pronged assault on Hungary supported by a campaign in Poland. Sinor treats the operation as one planned campaign carried out by separate corps, with Batu's main body entering Hungary from the north. Stephen Pow and József Laszlovszky, using both the European chronicles and the Asian sources, argue that a vanguard under Batu's brother Shiban went far ahead to provoke the Hungarian army near Pest and lure it to a site chosen in advance, while Batu and the main body stayed in north-eastern Hungary. The sources read do not say what the Mongol leaders intended beyond the defeat of Hungary.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -4766,12 +4811,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Geography and terrain",
-        "text": "Sinor places the contact a little less than halfway between Pest and the Verecke pass, near the river Sajó. The Mongols halted on one bank and Béla encamped on the other, so the battle turned on crossing the river; Britannica has Subutai ride north in search of a ford.",
+        "text": "Sinor places the contact a little less than halfway between Pest and the Verecke pass, near the river Sajó. The Mongols halted on one bank and Béla encamped on the other, so the battle turned on crossing the river; Britannica has Subutai ride north in search of a ford. Recent research on the battlefield, Pow and Laszlovszky report, has located the medieval village of Hídvég, “end of the bridge”, away from the present-day village of the name, and shown that the confluence of the Sajó and the Hernád then lay elsewhere; the Chinese–Mongolian biography of Sübe'etei names the river of the battle as one that was probably the Hernád. Gallery forest along the river could hide the Mongols' movements, and no hills stand near the battlefield today.",
         "evidence": "fact",
         "refs": [
           {
@@ -4779,6 +4827,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -4810,7 +4861,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "Britannica places the attack on 10 April. Batu and his brother Shiban attacked frontally across the river while Subutai rode north to find a ford. They made little headway until catapult-fired projectiles drove the Hungarians back; once across, they turned the Hungarian position and drew up in single file. Subutai's troops then appeared behind the Hungarians, who charged out to regain their camp. Subutai bombarded the camp and sent in his heavy cavalry, and a column fleeing toward Pest was pursued and shot down by mounted archers. Sinor dates the decisive action to 11 April and describes it as a night attack by Batu's forces on the Hungarian camp.",
+        "text": "Britannica places the attack on 10 April. Batu and his brother Shiban attacked frontally across the river while Subutai rode north to find a ford. They made little headway until catapult-fired projectiles drove the Hungarians back; once across, they turned the Hungarian position and drew up in single file. Subutai's troops then appeared behind the Hungarians, who charged out to regain their camp. Subutai bombarded the camp and sent in his heavy cavalry, and a column fleeing toward Pest was pursued and shot down by mounted archers. Sinor dates the decisive action to 11 April and describes it as a night attack by Batu's forces on the Hungarian camp. Pow and Laszlovszky note that several sources agree that some of the heaviest fighting took place as the Mongols struggled to force the bridge over the Sajó, and that the Mongols sought to conceal their crossing in order to encircle the camp before dawn.",
         "evidence": "fact",
         "refs": [
           {
@@ -4818,12 +4869,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "In Britannica's account the Mongol plan divided the attack: a frontal crossing to hold the Hungarians in place and a flank crossing to strike them from behind. Béla's choices before the battle shaped his position: he had admitted the Cumans, whom he lost just as the Mongols arrived, and he relied on help from Frederick of Austria that never came.",
+        "text": "In Britannica's account the Mongol plan divided the attack: a frontal crossing to hold the Hungarians in place and a flank crossing to strike them from behind. Two unrelated thirteenth-century sources, Thomas of Split and the Persian historian Juvayni, describe Batu climbing a hill before the battle: for Thomas to view the Hungarian camp, for Juvayni to pray, after Shiban's reconnaissance had reported the Hungarian army much larger than his own. Béla's choices before the battle shaped his position: he had admitted the Cumans, whom he lost just as the Mongols arrived, and he relied on help from Frederick of Austria that never came.",
         "evidence": "fact",
         "refs": [
           {
@@ -4834,6 +4888,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -4894,7 +4951,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The sources disagree on the date (10 April in Britannica, 11 April in Sinor) and on the form of the attack: Britannica describes a frontal crossing with “catapult-fired explosives” and a flank attack, Sinor a night attack on the camp; the weapons Britannica names are not described in the other sources read. The main debate concerns the withdrawal of 1242. Britannica's battle article attributes it to the death of the Great Khan Ögedei and the need to choose a successor, and its biography of Béla to dynastic troubles. Sinor, noting that Ögedei died on 11 December 1241, calls this explanation, which goes back to Carpini, a mistake and argues that the withdrawal was caused by logistical imperatives, above all the limited pasture of the Hungarian plain for the Mongols' horses. Figures for both armies vary widely and are not used.",
+        "text": "The sources disagree on the date (10 April in Britannica, 11 April in Sinor) and on the form of the attack: Britannica describes a frontal crossing with “catapult-fired explosives” and a flank attack, Sinor a night attack on the camp; the weapons Britannica names are not described in the other sources read. The main debate concerns the withdrawal of 1242. Britannica's battle article attributes it to the death of the Great Khan Ögedei and the need to choose a successor, and its biography of Béla to dynastic troubles. Sinor, noting that Ögedei died on 11 December 1241, calls this explanation, which goes back to Carpini, a mistake and argues that the withdrawal was caused by logistical imperatives, above all the limited pasture of the Hungarian plain for the Mongols' horses. Hungarian research has turned to the ground itself: Pow and Laszlovszky combine the chronicles of Thomas of Split and Master Roger with Asian sources, which they judge more reliable for the Mongol side, and with battlefield archaeology, and offer a reconstruction they themselves call hypothetical, in which Batu may have watched the Hungarian camp from a burial mound some distance from the bridge and prayed on the hills near Szerencs. Figures for both armies vary widely and are not used.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -4905,12 +4962,15 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Denis Sinor's article, published in the Journal of Asian History and reproduced by De Re Militari, gives the Mongol command structure, the chronology of the western campaign and the argument about pasture and withdrawal. Charles Phillips's Britannica article gives the most detailed tactical narrative but does not cite its sources. Britannica's biography of Béla IV covers the aftermath in Hungary. None of the three is a primary text; the contemporary chronicles behind them were not read for this study.",
+        "text": "Denis Sinor's article, published in the Journal of Asian History and reproduced by De Re Militari, gives the Mongol command structure, the chronology of the western campaign and the argument about pasture and withdrawal. Charles Phillips's Britannica article gives the most detailed tactical narrative but does not cite its sources. Britannica's biography of Béla IV covers the aftermath in Hungary. Stephen Pow and József Laszlovszky's article in the Hungarian Historical Review, part of a Hungarian research project on the battle, brings together the European and Asian sources and recent archaeological work on the battlefield. The contemporary chronicles themselves were not read for this study.",
         "evidence": "fact",
         "refs": [
           {
@@ -4921,6 +4981,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -4960,7 +5023,7 @@
         "uncertainty": "Where the river could be crossed beyond the enemy's reach; Britannica has him ride north in search of a ford. His role is itself uncertain: Britannica credits him with the plan, while Sinor has him seconding Batu.",
         "constraints": "Command shared among princes of the ruling house, with Batu leading the main body.",
         "forces": "Mongol mounted archers and heavy cavalry, with projectile weapons used to force the crossing.",
-        "terrain": "A river separating the armies, with a ford to the north that allowed a flank crossing.",
+        "terrain": "A river crossed by a bridge near the medieval village of Hídvég, with gallery forest along the banks to hide movements, and a ford to the north that allowed a flank crossing.",
         "logistics": "Sinor stresses that Mongol armies depended on pasture for their many horses, which the Hungarian plain could not support for long.",
         "decision": "In Britannica's account he led a detachment north to cross by a ford and take the Hungarians from behind while Batu and Shiban attacked frontally.",
         "outcome": "His arrival behind the camp completed the encirclement, and the Hungarian army was destroyed."
@@ -5499,6 +5562,11 @@
         "title": "Muhammad Shah",
         "url": "https://www.britannica.com/biography/Muhammad-Shah",
         "publisher": "Encyclopaedia Britannica"
+      },
+      {
+        "title": "Jadunath Sarkar, Nadir Shah in India (1925; 1973 reprint)",
+        "url": "https://archive.org/details/in.ernet.dli.2015.107791",
+        "publisher": "Internet Archive (Digital Library of India copy)"
       }
     ],
     "sections": [
@@ -5546,11 +5614,15 @@
       },
       {
         "title": "Geography and terrain",
-        "text": "Karnal lies in northern India, north of Delhi. The Mughal army was encamped near the town when the Persians advanced on it. Britannica describes a Mughal front more than 3 km long and as deep.",
+        "text": "Karnal lies in northern India, north of Delhi, on the old highway from the Punjab. Jadunath Sarkar, drawing on the Mughal and Persian chronicles, explains why the Mughal army stopped there: Ali Mardan's canal gave abundant water and the plain around offered room for large bodies of cavalry. The Jamuna ran a few miles to the east. Britannica describes a Mughal front more than 3 km long and as deep.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "pp. 38–41"
           }
         ]
       },
@@ -5569,27 +5641,35 @@
       },
       {
         "title": "Initial deployment",
-        "text": "On 24 February the Persians advanced toward Karnal, and the Mughals sent a huge force, including war elephants, to meet them.",
+        "text": "Sarkar writes that the emperor's advisers, above all the Nizam, decided to entrench at Karnal rather than risk a battle, enclosing the camp with a mud wall many miles round and lining it with guns, while they waited for Saadat Khan's contingent from Oudh. Nader avoided a frontal attack: he marched round to the east, keeping to the Jamuna's water and threatening Panipat in the Mughal rear, so as to force the emperor out of his lines or march on Delhi past him. On 24 February, in Britannica's dating, the Persians advanced toward Karnal, and the Mughals sent a huge force, including war elephants, to meet them.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "pp. 38–42"
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "The Persians waited until the Mughal force came within close range and then fired devastating volleys, the elephants making especially easy targets. Khan Dauran was seriously wounded and forced to retire, dying the next day, and Sa'adat Khan was pulled from his elephant and captured. After two hours the Mughal lines began to fall apart and the soldiers fled back to their camp. The battle swiftly became a rout.",
+        "text": "In Sarkar's account Saadat Khan reached the camp at midnight, and the next morning, while a council of war sat with the emperor, news came that Persian skirmishers had fallen on his baggage. Against the advice of the Nizam and Khan Dauran, who urged waiting a day, he rode out with only part of his men; Khan Dauran followed to support him, and the emperor drew up beside the canal more as a spectator than a combatant, so that the three Mughal divisions stood more than a mile apart. The Persians waited until the Mughal force came within close range and then fired devastating volleys, the elephants making especially easy targets: Persian skirmishers feigned flight and drew Saadat Khan onto massed swivel-guns. Khan Dauran was seriously wounded and forced to retire, dying the next day, and Sa'adat Khan was pulled from his elephant and captured. After two hours the Mughal lines began to fall apart and the soldiers fled back to their camp. The battle swiftly became a rout; Nader did not assault the fortified camp itself.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "pp. 42–50"
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Britannica describes Nader's troops as holding their fire until the Mughal force was at close range. The Mughals sent a large force with elephants out to meet the Persian advance. After the battle Nader chose to keep Muhammad Shah on the throne as his vassal rather than depose him.",
+        "text": "Britannica describes Nader's troops as holding their fire until the Mughal force was at close range. Sarkar adds the manoeuvre that made the battle possible, Nader's march round the camp, and the Mughal decisions that lost it: Saadat Khan's rush to save his baggage, the piecemeal commitment of Khan Dauran's division, and the inaction of the Nizam, the ablest Mughal general, who gave no help, perhaps, as one chronicler suggested, hoping to take his rivals' places at court. After the battle Nader chose to keep Muhammad Shah on the throne as his vassal rather than depose him.",
         "evidence": "fact",
         "refs": [
           {
@@ -5597,6 +5677,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "pp. 43–50"
           }
         ]
       },
@@ -5654,7 +5738,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Britannica says the Persians captured Muhammad Shah; Tucker writes only that Nader made him his vassal, and the sources read do not describe how the emperor came to submit. Britannica's statement that Karnal marked the effective end of the Mughal Empire is a strong retrospective judgement: in its own account the emperor kept his throne, and its biography of him records a victory at Sirhind in 1748. Tucker notes that Nader's chroniclers presented the victory as another sign of his likeness to Timur, which is the court's view of it. Tucker gives both the pursuit of Afghan fugitives and wider imperial ambition as motives for the invasion. Army sizes and losses vary between accounts and are not used.",
+        "text": "Britannica says the Persians captured Muhammad Shah; Tucker writes only that Nader made him his vassal, and the sources read do not describe how the emperor came to submit. Britannica's statement that Karnal marked the effective end of the Mughal Empire is a strong retrospective judgement: in its own account the emperor kept his throne, and its biography of him records a victory at Sirhind in 1748. Tucker notes that Nader's chroniclers presented the victory as another sign of his likeness to Timur, which is the court's view of it. Tucker gives both the pursuit of Afghan fugitives and wider imperial ambition as motives for the invasion. Sarkar dates the battle to 13 February 1739 and Britannica to 24 February, eleven days apart, which matches the difference between the Old Style and New Style calendars. Britannica has the Mughals send a huge force out to meet the Persians; Sarkar describes a battle the Mughal commanders did not plan, brought on by Saadat Khan's sortie, and notes that his own sources disagree on whether the emperor ordered it. Sarkar, writing in the 1920s, explains the defeat by weapons and tactics, Persian firearms and mobility against Indian swordsmen and elephants, as well as by generalship; his sweeping generalisations about peoples are of his time and are not adopted here. Army sizes and losses vary between accounts and are not used.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -5665,12 +5749,16 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "pp. 42–55"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Jacob F. Field's Britannica article gives the narrative of the battle. Ernest Tucker's Encyclopaedia Iranica article on Nader Shah gives the Iranian side: the road to the invasion, the settlement with Muhammad Shah and its effects in Iran. Britannica's biography of Muhammad Shah gives the state of the Mughal Empire. Persian and Mughal chronicles were not read for this study.",
+        "text": "Jacob F. Field's Britannica article gives the narrative of the battle. Ernest Tucker's Encyclopaedia Iranica article on Nader Shah gives the Iranian side: the road to the invasion, the settlement with Muhammad Shah and its effects in Iran. Britannica's biography of Muhammad Shah gives the state of the Mughal Empire. Jadunath Sarkar's Nadir Shah in India, based on the Persian and Mughal chronicles, which he cites, gives the Mughal side of the campaign and the battle. The chronicles themselves were not read for this study.",
         "evidence": "fact",
         "refs": [
           {
@@ -5681,6 +5769,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -5722,7 +5813,7 @@
         "forces": "A disciplined army, including many Afghans who had joined him after Qandahar, whose gunfire was its main weapon.",
         "terrain": "The approaches to the Mughal camp at Karnal, where the Mughal front stretched more than 3 km.",
         "logistics": "The sources read do not describe his supply on the march; the campaign ended with the Mughal treasury in his hands.",
-        "decision": "He let the Mughal force come within close range before opening fire, then pursued the broken army.",
+        "decision": "He marched round the entrenched Mughal camp to threaten its rear, drew Saadat Khan into an ambush of massed swivel-guns, held his fire until the enemy was at close range and did not assault the fortified camp itself.",
         "outcome": "A decisive victory, followed by the occupation and sack of Delhi and Muhammad Shah's submission as his vassal."
       },
       {
@@ -5730,11 +5821,11 @@
         "objective": "Stop the invasion before it reached Delhi.",
         "known": "The invaders had crossed the north-west frontier and were advancing toward the capital.",
         "uncertainty": "The strength and discipline of the invading army.",
-        "constraints": "Provinces that had slipped from imperial control, a recent Maratha raid on Delhi and a neglected north-west frontier.",
+        "constraints": "Provinces that had slipped from imperial control, a recent Maratha raid on Delhi, a neglected north-west frontier and rival commanders at court.",
         "forces": "A large army with war elephants, under commanders including Khan Dauran and Sa'adat Khan.",
         "terrain": "A camp near Karnal, north of Delhi, from which a broad and deep front was sent out.",
         "logistics": "The sources read do not describe the army's supply, so it is not reconstructed here.",
-        "decision": "His army sent a huge force with elephants out to meet the Persian advance; after the defeat he submitted to Nader.",
+        "decision": "On the Nizam's advice his army entrenched at Karnal; when Saadat Khan rode out against the Persians, Khan Dauran followed him while the emperor stood by the canal without engaging. After the defeat he submitted to Nader.",
         "outcome": "His army was routed and Delhi sacked; he kept his throne as Nader's vassal."
       }
     ]
@@ -6814,6 +6905,21 @@
         "title": "Cave life",
         "url": "https://www.nps.gov/vick/learn/historyculture/cave-life.htm",
         "publisher": "National Park Service, Vicksburg National Military Park"
+      },
+      {
+        "title": "Jefferson Davis, The Rise and Fall of the Confederate Government, vol. 2 (1881)",
+        "url": "https://www.gutenberg.org/ebooks/42315",
+        "publisher": "Project Gutenberg"
+      },
+      {
+        "title": "Civil War (Michael B. Ballard)",
+        "url": "https://mississippiencyclopedia.org/overviews/civil-war/",
+        "publisher": "Mississippi Encyclopedia, Center for Study of Southern Culture"
+      },
+      {
+        "title": "Champion Hill, Battle of (Ben Wynne)",
+        "url": "https://mississippiencyclopedia.org/entries/battle-of-champions-hill/",
+        "publisher": "Mississippi Encyclopedia, Center for Study of Southern Culture"
       }
     ],
     "sections": [
@@ -6833,23 +6939,30 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Grant writes that the elections of 1862 had gone against the prosecution of the war, voluntary enlistment had nearly ceased and the draft was resisted, so that a defeat or a backward movement would have made the draft impossible to enforce. A forward movement to a decisive victory, he concluded, was necessary.",
+        "text": "Grant writes that the elections of 1862 had gone against the prosecution of the war, voluntary enlistment had nearly ceased and the draft was resisted, so that a defeat or a backward movement would have made the draft impossible to enforce. A forward movement to a decisive victory, he concluded, was necessary. The Mississippi Encyclopedia gives the Confederate side: Jefferson Davis, himself a Mississippian, thought the town symbolically important and knew that the railroad running east from it to Jackson was a vital lifeline; after the defeat at Corinth he sent John C. Pemberton, a Pennsylvania-born general, to command there.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "ch. XXXIX"
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Campaign objectives",
-        "text": "Grant first planned to get below Vicksburg, join Nathaniel Banks against Port Hudson and use New Orleans as a base. When Banks wrote that he could not be at Port Hudson for ten days, Grant judged the time worth more than the reinforcements and pushed into the interior. Pemberton's aim was to hold Vicksburg; Joseph E. Johnston, gathering forces to the east, aimed to raise the siege.",
+        "text": "Grant first planned to get below Vicksburg, join Nathaniel Banks against Port Hudson and use New Orleans as a base. When Banks wrote that he could not be at Port Hudson for ten days, Grant judged the time worth more than the reinforcements and pushed into the interior. Pemberton's aim was to hold Vicksburg; Joseph E. Johnston, gathering forces to the east, aimed to raise the siege. Davis writes that Pemberton had laid in supplies for an ordinary siege and, knowing how much the government valued the city, counted on a relieving army to break any investment; on 9 May Johnston was ordered to Mississippi to take chief command, with reinforcements from Bragg and Beauregard.",
         "evidence": "interpretation",
         "refs": [
           {
             "source": 0,
             "locator": "chs. XXXVII, XXXIX"
+          },
+          {
+            "source": 3,
+            "locator": "ch. XXXIX"
           }
         ]
       },
@@ -6894,7 +7007,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "Marching inland on five days' rations and no forage, Grant's army fought and won at Port Gibson, Raymond, Jackson, Champion's Hill and the Big Black, took the state capital and destroyed its military works, and drove Pemberton's army into Vicksburg. On 19 May, twenty days after the crossing, the city was invested and an assault failed; a larger assault on 22 May also failed, and from 23 May Grant laid regular siege, bringing up supplies by roads from the Yazoo River. On 7 June Confederate troops attacked the Union depot at Milliken's Bend, where they met untested United States Colored Troops. On 3 July Pemberton opened correspondence; after a meeting with Grant he accepted terms, and on 4 July the garrison marched out, stacked arms and was paroled.",
+        "text": "Marching inland on five days' rations and no forage, Grant's army fought and won at Port Gibson, Raymond, Jackson, Champion's Hill and the Big Black, took the state capital and destroyed its military works, and drove Pemberton's army into Vicksburg. At Champion Hill on 16 May, the Mississippi Encyclopedia notes, the hill changed hands three times before Pemberton's three divisions were driven off; Loring's division was cut off and marched away east, and the rest fell back into the city. On 19 May, twenty days after the crossing, the city was invested and an assault failed; a larger assault on 22 May also failed, and from 23 May Grant laid regular siege, bringing up supplies by roads from the Yazoo River. On 7 June Confederate troops attacked the Union depot at Milliken's Bend, where they met untested United States Colored Troops. On 3 July Pemberton opened correspondence; after a meeting with Grant he accepted terms, and on 4 July the garrison marched out, stacked arms and was paroled.",
         "evidence": "fact",
         "refs": [
           {
@@ -6903,17 +7016,24 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 5
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Grant pushed inland without waiting for Banks and, after the failed assault of 22 May, chose to out-camp the enemy rather than lose more men. At the surrender he first demanded unconditional surrender, then, against the almost unanimous judgment of his council, offered terms that let the garrison sign paroles and march out. Under the exchange cartel, he explains, prisoners had to be exchanged or paroled, and shipping more than thirty thousand men north would have cost great expense only for them to be paroled at the end. Pemberton wrote in his report that he chose 4 July expecting better terms from the Union's national vanity; Grant thought he chose it to avoid an assault he knew would succeed.",
+        "text": "Grant pushed inland without waiting for Banks and, after the failed assault of 22 May, chose to out-camp the enemy rather than lose more men. On the Confederate side, Davis's account turns on Johnston: arriving at Jackson on 13 May, he telegraphed that he was too late, halted there instead of joining Pemberton, and ordered him to come up in the rear of Sherman's force. Pemberton, who doubted the move, put it to a council of war, which split between Johnston's plan and a march against Grant's supply line; he set out against the supply line, turned back on a fresh order from Johnston, and was caught and beaten at Champion Hill. After the Big Black, Johnston wrote that if Vicksburg was invested it must ultimately surrender and that the army should evacuate it; Pemberton's council judged unanimously that the army could not be withdrawn in a state to be of further service, and he resolved to hold what he called the most important point in the Confederacy. At the surrender Grant first demanded unconditional surrender, then, against the almost unanimous judgment of his council, offered terms that let the garrison sign paroles and march out. Under the exchange cartel, he explains, prisoners had to be exchanged or paroled, and shipping more than thirty thousand men north would have cost great expense only for them to be paroled at the end. Pemberton wrote in his report that he chose 4 July expecting better terms from the Union's national vanity; Grant thought he chose it to avoid an assault he knew would succeed.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "chs. XXXVII–XXXIX"
+          },
+          {
+            "source": 3,
+            "locator": "ch. XXXIX"
           }
         ]
       },
@@ -6930,7 +7050,7 @@
       },
       {
         "title": "Outcome",
-        "text": "After 47 days of siege the Confederate army surrendered on 4 July with its arms and cannon. Grant writes that the two armies began to fraternise as soon as his men entered the lines, his soldiers giving bread from their haversacks to men they had been starving out. The fall of Vicksburg brought the surrender of Port Hudson, and with it the whole Mississippi.",
+        "text": "After 47 days of siege the Confederate army surrendered on 4 July with its arms and cannon. Pemberton's report, quoted by Davis, says he made terms not because his men were starved out but because they were overpowered by numbers and worn down by forty-seven days and nights in the trenches without relief, and that his division commanders judged them unable to cut their way out. Grant writes that the two armies began to fraternise as soon as his men entered the lines, his soldiers giving bread from their haversacks to men they had been starving out. The fall of Vicksburg brought the surrender of Port Hudson, and with it the whole Mississippi.",
         "evidence": "fact",
         "refs": [
           {
@@ -6939,6 +7059,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "ch. XXXIX"
           }
         ]
       },
@@ -6969,7 +7093,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Grant's memoirs, written twenty years later, are the victor's account; his remark that Providence seemed to direct the campaign and his figures for both sides are his. He prints Pemberton's own explanation of the 4 July surrender beside his contrary reading. Halleck feared that paroling the garrison would put the men back in the Confederate ranks; Grant notes they had already been delivered to the Confederate exchange commissioner. The civilian experience of the siege is barely present in Grant's account.",
+        "text": "Grant's memoirs, written twenty years later, are the victor's account; his remark that Providence seemed to direct the campaign and his figures for both sides are his. He prints Pemberton's own explanation of the 4 July surrender beside his contrary reading. Halleck feared that paroling the garrison would put the men back in the Confederate ranks; Grant notes they had already been delivered to the Confederate exchange commissioner. The Confederate accounts are partisan in their own way: Davis's memoir, published in 1881, defends Pemberton and his own administration and lays the confusion before Champion Hill on Johnston's decision to stay at Jackson, and the Mississippi Encyclopedia agrees that Johnston's relieving army did not move until it was too late. Whether hunger forced the surrender is disputed: Pemberton denied it, while Grant speaks of a garrison being starved out. The civilian experience of the siege is barely present in Grant's account.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -6977,12 +7101,19 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "ch. XXXIX"
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Grant's Personal Memoirs, on Project Gutenberg, give the commander's narrative and quote Pemberton's report. The National Park Service's pages on the siege and on cave life, from Vicksburg National Military Park, give the course of the siege and the civilians' shelters. No Confederate memoir was read.",
+        "text": "Grant's Personal Memoirs, on Project Gutenberg, give the commander's narrative and quote Pemberton's report. The National Park Service's pages on the siege and on cave life, from Vicksburg National Military Park, give the course of the siege and the civilians' shelters. Jefferson Davis's Rise and Fall of the Confederate Government gives the Confederate president's account of the campaign, with Johnston's and Pemberton's dispatches and Pemberton's report. Michael B. Ballard's overview of the Civil War and Ben Wynne's entry on Champion Hill in the Mississippi Encyclopedia give the Confederate command, Davis's view of Vicksburg and the decisive battle inland.",
         "evidence": "fact",
         "refs": [
           {
@@ -6993,6 +7124,15 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
           }
         ]
       }
@@ -7040,13 +7180,13 @@
       {
         "name": "John C. Pemberton",
         "objective": "Hold Vicksburg.",
-        "known": "Grant's army had crossed below the city and beaten the Confederate forces inland; Johnston was gathering forces in the Union rear.",
+        "known": "Grant's army had crossed below the city and beaten the Confederate forces inland; Johnston, at Jackson, had ordered him out to attack and then urged him to evacuate the city.",
         "uncertainty": "Whether Johnston could raise the siege.",
-        "constraints": "A garrison cut off by the river and the siege lines, with food running short toward the end.",
+        "constraints": "A garrison cut off by the river and the siege lines, conflicting counsel from Johnston and a government that set great store by holding the city.",
         "forces": "The Confederate army at Vicksburg, behind earthworks with many guns.",
         "terrain": "Earthworks on the ridges around the city, built over more than a year.",
         "logistics": "Once invested, the garrison had only what was in the city; at the meeting he told Grant he had rations for some time, which Grant recalled as about two weeks.",
-        "decision": "He held out through the siege, then opened correspondence on 3 July and surrendered on the 4th, a date he said he chose for better terms.",
+        "decision": "He moved out under Johnston's orders, changed direction when they changed, was beaten at Champion Hill, then, after his council judged withdrawal impossible, held Vicksburg through the siege and surrendered on 4 July, a date he said he chose for better terms.",
         "outcome": "The surrender and parole of his army."
       }
     ]

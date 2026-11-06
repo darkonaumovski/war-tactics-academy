@@ -16,6 +16,11 @@
         "title": "Archaeological Museum of Marathon",
         "url": "https://archaeologicalmuseums.culture.gov.gr/en/museum/5df34af3deca5e2d79e8c18a/archaeological-museum-of-marathon",
         "publisher": "Hellenic Ministry of Culture"
+      },
+      {
+        "title": "Pausanias, Description of Greece 1.32.3–7, trans. W. H. S. Jones",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0160:book=1:chapter=32",
+        "publisher": "Perseus Digital Library, Tufts University"
       }
     ],
     "sections": [
@@ -59,23 +64,31 @@
       },
       {
         "title": "Geography and terrain",
-        "text": "Marathon was a coastal plain in northeastern Attica. Herodotus describes it as suitable for cavalry.",
+        "text": "Marathon was a coastal plain in northeastern Attica. Herodotus describes it as suitable for cavalry. Pausanias, who visited in the second century CE, describes a lake, mostly marsh, into which the fleeing Persians fell through ignorance of the roads, and says this was held to be the cause of their great losses; above it he was shown stone stables said to be Artaphernes' and marks of his tent on the rocks.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "6.102"
+          },
+          {
+            "source": 3,
+            "locator": "1.32.7"
           }
         ]
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Athenian and Plataean infantry opposed the Persian expedition. Athenian command included Miltiades and the polemarch Callimachus.",
+        "text": "Athenian and Plataean infantry opposed the Persian expedition. Athenian command included Miltiades and the polemarch Callimachus. Pausanias adds that slaves fought at Marathon beside their masters, for the first time, and were buried with the Plataeans.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "6.103–111"
+          },
+          {
+            "source": 3,
+            "locator": "1.32.3"
           }
         ]
       },
@@ -139,11 +152,15 @@
       },
       {
         "title": "Consequences",
-        "text": "The battle became a durable civic memory: the Marathon museum preserves finds associated with the Athenian and Plataean burial mounds.",
+        "text": "The battle became a durable civic memory: the Marathon museum preserves finds associated with the Athenian and Plataean burial mounds. Pausanias saw the grave of the Athenians with slabs naming the dead by tribe, a second grave for the Plataeans and the slaves, a monument to Miltiades and a trophy of white marble. The Marathonians worshipped the dead as heroes, told of a countryman who fought with a plough and was honoured as Echetlaeus, and said that the sounds of battle could be heard there at night.",
         "evidence": "fact",
         "refs": [
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "1.32.3–5"
           }
         ]
       },
@@ -160,17 +177,21 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Persian cavalry activity and exact troop positions are unresolved here, and Iranica notes that it is unclear whether Datis made the first decisive move. Accounts of Datis's fate conflict; a schematic must not imply certainty.",
+        "text": "Persian cavalry activity and exact troop positions are unresolved here, and Iranica notes that it is unclear whether Datis made the first decisive move. Accounts of Datis's fate conflict; a schematic must not imply certainty. Pausanias, writing more than six centuries later, preserves local tradition rather than evidence: the Athenians claimed to have buried the Persian dead, but he could find no grave and was told they had been thrown into a trench. The marsh and the stables he describes cannot be tied securely to the battle.",
         "evidence": "uncertainty",
         "refs": [
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "1.32.5"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Read Herodotus as a later Greek narrative, Iranica for Datis and source criticism, and the archaeological museum for material context.",
+        "text": "Read Herodotus as a later Greek narrative, Iranica for Datis and source criticism, and the archaeological museum for material context. Pausanias's description of Marathon, in W. H. S. Jones's translation on the Perseus Digital Library, records the monuments and local traditions as they stood in the second century CE.",
         "evidence": "fact",
         "refs": [
           {
@@ -181,6 +202,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -227,7 +251,7 @@
         "uncertainty": "Whether the Athenians would come out and fight; Iranica notes that it is unclear whether Datis made the first decisive move.",
         "constraints": "An amphibious force tied to its ships, far from the empire, with command shared with Artaphernes, though Iranica judges Datis the actual commander.",
         "forces": "A large army carried by sea from Cilicia, with horses in transports, and Persians and Sacae in the centre of the line.",
-        "terrain": "The plain of Marathon, chosen as the place in Attica best suited to horses and closest to Eretria.",
+        "terrain": "The plain of Marathon, chosen as the place in Attica best suited to horses and closest to Eretria, with a marsh behind the shore that Pausanias says trapped the Persians in their flight.",
         "logistics": "A fleet and horse transports assembled in Cilicia; the Eretrian captives were left on the island of Aegilia.",
         "decision": "He landed at Marathon on Hippias's guidance; after the defeat he re-embarked, collected the Eretrian captives and sailed round Sunium to reach Athens before its army.",
         "outcome": "The Athenians reached the city first, and after lying at anchor off Phalerum the fleet sailed back to Asia, having achieved nothing on the Greek mainland."
@@ -4207,6 +4231,16 @@
         "title": "The Franco-German War of 1870–71, translation revised by Archibald Forbes (1893)",
         "url": "https://www.gutenberg.org/ebooks/36209",
         "publisher": "Project Gutenberg (Helmuth von Moltke)"
+      },
+      {
+        "title": "Emmanuel-Félix de Wimpffen, Sedan (Paris: Librairie internationale, 1871), in French",
+        "url": "https://archive.org/details/sedan00wimp",
+        "publisher": "Internet Archive"
+      },
+      {
+        "title": "Auguste Ducrot, La journée de Sedan (Paris: Dentu, 1871), in French",
+        "url": "https://archive.org/details/lajournedesedan00ducrgoog",
+        "publisher": "Internet Archive"
       }
     ],
     "sections": [
@@ -4310,7 +4344,7 @@
       },
       {
         "title": "Important command decisions",
-        "text": "MacMahon named Ducrot his successor, passing over two senior corps commanders. Ducrot ordered a retreat westward towards Mézières. Wimpffen, claiming authority from the war minister, countermanded him and attacked towards Bazeilles to open a road east to Carignan; Moltke notes that Ducrot submitted without protest. Late in the day Napoleon refused to lead a final breakout, judging that it would only bring pointless slaughter, and ordered negotiations.",
+        "text": "MacMahon named Ducrot his successor, passing over two senior corps commanders. Ducrot ordered a retreat westward towards Mézières. Wimpffen, claiming authority from the war minister, countermanded him and attacked towards Bazeilles to open a road east to Carignan; Moltke notes that Ducrot submitted without protest. In his own account Wimpffen writes that at half past eight he sent Ducrot a note saying the enemy was weakening on the right, that there was no question of retreat and that he held a letter from the minister naming him commander; his plan was to throw the Bavarians back into the Meuse and then turn the whole army on the Germans' other wing. Late in the day Napoleon refused to lead a final breakout, judging that it would only bring pointless slaughter, and ordered negotiations.",
         "evidence": "fact",
         "refs": [
           {
@@ -4322,12 +4356,19 @@
           {
             "source": 2,
             "locator": "Battle of Sedan"
+          },
+          {
+            "source": 3,
+            "locator": "pp. 159–165"
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Decisive turning points",
-        "text": "MacMahon's wound left the army under three commanders in a few hours, with conflicting orders and few maps, while German artillery ringed the town. The Fondation Napoléon attributes the disaster largely to this breakdown in communication. Moltke judges that the exhausted French army could no longer manage a disciplined march under fire and could only fight where it stood.",
+        "text": "MacMahon's wound left the army under three commanders in a few hours, with conflicting orders and few maps, while German artillery ringed the town. The Fondation Napoléon attributes the disaster largely to this breakdown in communication. Moltke judges that the exhausted French army could no longer manage a disciplined march under fire and could only fight where it stood. Wimpffen writes that the retreat Ducrot had begun made the 12th Corps give up the heights of Bazeilles and the 1st Corps the heights above Givonne, which could not be retaken, and that by mid-morning General Douay told him they were fighting only for the honour of their arms.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -4339,6 +4380,10 @@
           {
             "source": 2,
             "locator": "The Army of Châlons"
+          },
+          {
+            "source": 3,
+            "locator": "pp. 160–166"
           }
         ]
       },
@@ -4391,7 +4436,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The two modern accounts disagree on the timing of the white flag: Britannica says early on 2 September, the Fondation Napoléon on the afternoon of 1 September, and Moltke puts the white flags on the towers at about half past four that afternoon. They name different breakout routes and describe the emperor's surrender differently. Their figures for prisoners also differ. Moltke, the victor's chief of staff, judges that Wimpffen was not to blame for the army's plight and that MacMahon was fortunate to be wounded before he had to sign.",
+        "text": "The two modern accounts disagree on the timing of the white flag: Britannica says early on 2 September, the Fondation Napoléon on the afternoon of 1 September, and Moltke puts the white flags on the towers at about half past four that afternoon. They name different breakout routes and describe the emperor's surrender differently. Their figures for prisoners also differ. Moltke, the victor's chief of staff, judges that Wimpffen was not to blame for the army's plight and that MacMahon was fortunate to be wounded before he had to sign. The two French generals published opposing books in 1871. Wimpffen argues that the road to Mézières was already blocked by German corps on the right bank, that a retreat by Illy would have been caught in the open and that escape into Belgium would have meant laying down arms without a fight; he accuses Ducrot of compromising the day. Ducrot, answering what he lists as Wimpffen's accusations, including desertion of the field and disobedience, argues that a retreat north by Illy towards Mézières would have reached supplies and reinforcements and kept contact with Paris, while a breakout east by Carignan would have run into the German army before Metz. Each book is a defence of its author, and their figures are not used.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -4403,12 +4448,20 @@
           {
             "source": 2,
             "locator": "Battle of Sedan"
+          },
+          {
+            "source": 3,
+            "locator": "pp. 147–166"
+          },
+          {
+            "source": 4,
+            "locator": "preface"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Britannica's article and the Fondation Napoléon's account, which draws on French and German scholarship, are the modern sources read. Moltke's own history of the war, in the revised English translation of 1893, gives the German chief of staff's account of the march and the battle.",
+        "text": "Britannica's article and the Fondation Napoléon's account, which draws on French and German scholarship, are the modern sources read. Moltke's own history of the war, in the revised English translation of 1893, gives the German chief of staff's account of the march and the battle. The rival books of the French generals Wimpffen and Ducrot, both of 1871 and in French, on the Internet Archive, give the French command's own accounts of the dispute over retreat or breakout.",
         "evidence": "fact",
         "refs": [
           {
@@ -4419,6 +4472,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -4469,6 +4528,18 @@
         "logistics": "The sources read do not describe his supply.",
         "decision": "He intercepted the French march, sealed the breakout routes and ringed the town with artillery.",
         "outcome": "The French army capitulated with the emperor."
+      },
+      {
+        "name": "Emmanuel-Félix de Wimpffen",
+        "objective": "Break the Bavarian attack, hold the position until night and, failing that, cut a way out eastward towards Carignan.",
+        "known": "He had arrived only days before with a letter from the war minister naming him to command if MacMahon fell; he believed the road to Mézières was already blocked.",
+        "uncertainty": "Whether the French corps could retake the heights abandoned during Ducrot's retreat, and how strong the Germans were on the other wing.",
+        "constraints": "He had not been told MacMahon's plans, took over in the middle of a battle that had already begun, and found the army encircled by artillery.",
+        "forces": "The Army of Châlons, with the 12th Corps under Lebrun most heavily engaged at Bazeilles and Balan.",
+        "terrain": "A town overlooked by heights, with the plateau of Illy and the woods of La Garenne to the north.",
+        "logistics": "Sedan's streets were blocked with wagons, and rations, he writes, were distributed slowly and badly.",
+        "decision": "He countermanded Ducrot's retreat, ordered an offensive against the Bavarians and in the afternoon attempted a breakout towards Balan.",
+        "outcome": "The breakout failed, and he signed the capitulation on 2 September; he and Ducrot then blamed each other in print."
       }
     ]
   },
@@ -5847,12 +5918,17 @@
         "title": "Byzantine-Iranian relations",
         "url": "https://www.iranicaonline.org/articles/byzantine-iranian-relations/",
         "publisher": "Encyclopaedia Iranica (A. Shapur Shahbazi)"
+      },
+      {
+        "title": "The Syriac Chronicle known as that of Zachariah of Mitylene, trans. F. J. Hamilton and E. W. Brooks (London: Methuen, 1899)",
+        "url": "https://archive.org/details/syriacchroniclek00zachuoft",
+        "publisher": "Internet Archive"
       }
     ],
     "sections": [
       {
         "title": "Historical background",
-        "text": "Rome and Sasanian Iran had contested the Middle East for centuries. Procopius describes renewed fighting in the 520s: Roman raids into Persarmenia under Sittas and Belisarius, then young bodyguards of Justinian, and a failed advance near Nisibis, after which Belisarius was given command of the troops at Dara. When Belisarius began a fort at Mindouos on the frontier, the Persians forbade the work, defeated the Romans sent to protect it and razed what had been built.",
+        "text": "Rome and Sasanian Iran had contested the Middle East for centuries. Procopius describes renewed fighting in the 520s: Roman raids into Persarmenia under Sittas and Belisarius, then young bodyguards of Justinian, and a failed advance near Nisibis, after which Belisarius was given command of the troops at Dara. When Belisarius began a fort at Mindouos on the frontier, the Persians forbade the work, defeated the Romans sent to protect it and razed what had been built. The Syriac chronicle attributed to Zachariah of Mitylene gives a local version of that defeat: in the desert of Thannuris the Persians dug concealed pits around their entrenchment, Roman generals rode into them and were captured, and Belisarius fled to Dara with the cavalry while the infantry was killed or taken.",
         "evidence": "fact",
         "refs": [
           {
@@ -5861,6 +5937,10 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "9.2"
           }
         ]
       },
@@ -5927,12 +6007,16 @@
       },
       {
         "title": "Chronological phases",
-        "text": "On the day of battle the mirranes put only half his army in line, so that the rest could relieve the fighters in turn, and held the Immortals back; he stood in the centre, with Pityaxes on the right and Baresmanas on the left. Pharas proposed hiding the Heruli behind the hill to fall on the Persian rear, and Belisarius agreed. The Persians attacked after midday. Arrows flew thickly, a steady wind blunting the Persian volleys, until the armies closed with spears. On the Roman left the Cadiseni under Pityaxes broke through, but the Heruli struck them from the hill behind and Sunicas and Aigan charged their flank, and the Persian right fled. The mirranes then sent many men and the Immortals to his left. Belisarius and Hermogenes moved Sunicas and Aigan to the right angle with many of Belisarius's own men behind them, and when Baresmanas and the Immortals drove back the Roman right, the men at the angle charged into their flank and cut them in two. Sunicas killed Baresmanas, the Persian left broke, and the Persian infantry threw down their shields and were cut down.",
+        "text": "On the day of battle the mirranes put only half his army in line, so that the rest could relieve the fighters in turn, and held the Immortals back; he stood in the centre, with Pityaxes on the right and Baresmanas on the left. Pharas proposed hiding the Heruli behind the hill to fall on the Persian rear, and Belisarius agreed. The Persians attacked after midday. Arrows flew thickly, a steady wind blunting the Persian volleys, until the armies closed with spears. On the Roman left the Cadiseni under Pityaxes broke through, but the Heruli struck them from the hill behind and Sunicas and Aigan charged their flank, and the Persian right fled. The mirranes then sent many men and the Immortals to his left. Belisarius and Hermogenes moved Sunicas and Aigan to the right angle with many of Belisarius's own men behind them, and when Baresmanas and the Immortals drove back the Roman right, the men at the angle charged into their flank and cut them in two. Sunicas killed Baresmanas, the Persian left broke, and the Persian infantry threw down their shields and were cut down. Zachariah's chronicle tells the battle more briefly: the Persians came up on the south side of the city to blockade it, and Sunicas, a baptized Hun, and a tribune it names Simuth, probably Procopius's Simmas as the translators suggest, each with a few followers, drove them from the walls several times, while the Heruli under Bouzes threw back the Persian infantry east of the city.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "1.14"
+          },
+          {
+            "source": 3,
+            "locator": "9.3"
           }
         ]
       },
@@ -5960,7 +6044,7 @@
       },
       {
         "title": "Outcome",
-        "text": "The Persian army was routed with heavy losses. Procopius writes that the Persians had been defeated in battle by the Romans, a thing which had not happened for a long time, and that afterwards they were no longer willing to fight a pitched battle there, though sudden attacks continued on both sides. Britannica calls it a brilliant victory, Belisarius's first as a commander.",
+        "text": "The Persian army was routed with heavy losses. Procopius writes that the Persians had been defeated in battle by the Romans, a thing which had not happened for a long time, and that afterwards they were no longer willing to fight a pitched battle there, though sudden attacks continued on both sides. Zachariah adds that the Persians sent to Nisibis for pack animals to carry away their dead, and that the rest of their army went on to burn Roman territory in Arabia. Britannica calls it a brilliant victory, Belisarius's first as a commander.",
         "evidence": "fact",
         "refs": [
           {
@@ -5969,6 +6053,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "9.3"
           }
         ]
       },
@@ -5998,7 +6086,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Procopius was chosen as Belisarius's adviser at Dara, and Britannica notes that he served on the general's staff for the first fifteen years of his campaigns and observed them himself; that gives his account authority but also a reason to favour his general. The speeches and letters he gives the commanders are his compositions, and his explanation of the Persians' timing, attacking after noon because the Romans ate earlier, is his own. His numbers for both armies and for the Persian dead are not used. Britannica calls Dara a brilliant victory, while Iranica treats the whole war as indecisive, since the peace of 532 left the frontier much as it had been. The month is given in the margin of Dewing's translation, not in Procopius's text.",
+        "text": "Procopius was chosen as Belisarius's adviser at Dara, and Britannica notes that he served on the general's staff for the first fifteen years of his campaigns and observed them himself; that gives his account authority but also a reason to favour his general. The speeches and letters he gives the commanders are his compositions, and his explanation of the Persians' timing, attacking after noon because the Romans ate earlier, is his own. Zachariah's Syriac chronicle, an independent account, gives the credit to Sunicas and Simuth rather than to the general's plan and does not mention the trench, the ambush from the hill or the reserve moved between the angles; it ascribes the deliverance to God and calls the Persians boastful. Procopius's numbers for both armies and for the Persian dead are not used. Britannica calls Dara a brilliant victory, while Iranica treats the whole war as indecisive, since the peace of 532 left the frontier much as it had been. The month is given in the margin of Dewing's translation, not in Procopius's text.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -6010,12 +6098,16 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "9.2–4"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Procopius's History of the Wars, in H. B. Dewing's Loeb translation on Project Gutenberg, gives the narrative this study follows. John Walton Barker's Britannica biography gives Belisarius's career, and A. Shapur Shahbazi's article on Byzantine–Iranian relations in Encyclopaedia Iranica places the war in the long rivalry of the two empires. No Persian account was read.",
+        "text": "Procopius's History of the Wars, in H. B. Dewing's Loeb translation on Project Gutenberg, gives the narrative this study follows. The Syriac chronicle attributed to Zachariah of Mitylene, in Hamilton and Brooks's translation of 1899 on the Internet Archive, gives a briefer, independent account. John Walton Barker's Britannica biography gives Belisarius's career, and A. Shapur Shahbazi's article on Byzantine–Iranian relations in Encyclopaedia Iranica places the war in the long rivalry of the two empires. No Persian account was read.",
         "evidence": "fact",
         "refs": [
           {
@@ -6026,6 +6118,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -6072,7 +6167,7 @@
       },
       {
         "name": "Perozes, the mirranes",
-        "objective": "Take Dara.",
+        "objective": "Take Dara; Zachariah says the Persians came up to the south side of the city meaning to blockade it.",
         "known": "The Romans had dug in before the city and on the first day had kept their order.",
         "uncertainty": "Whether the Roman order would hold at close quarters; in the speech Procopius gives him he argued that it would not.",
         "constraints": "An attack against a prepared line in front of a strong city.",
@@ -6080,7 +6175,7 @@
         "terrain": "A trench with crossings and flanking angles, and a hill at the Roman left that hid the Heruli.",
         "logistics": "His army came from Nisibis and camped at Ammodios; the sources read do not describe its supply.",
         "decision": "He fought in relays with half his army, attacked after midday and moved the Immortals to his left for a second blow.",
-        "outcome": "Both his wings were broken and his infantry cut down; Procopius writes that the Persians would no longer meet the Romans in pitched battle there."
+        "outcome": "Both his wings were broken and his infantry cut down; Procopius writes that the Persians would no longer meet the Romans in pitched battle there, and Zachariah that they carried their dead back to Nisibis."
       }
     ]
   },
@@ -6101,6 +6196,11 @@
         "title": "Behâ ed-Dîn, The Life of Saladin",
         "url": "https://archive.org/details/lifesaladin00condgoog",
         "publisher": "Palestine Pilgrims' Text Society, 1897 (Internet Archive)"
+      },
+      {
+        "title": "Itinerary of Richard I, attributed to Geoffrey de Vinsauf, in Chronicles of the Crusades (London: Bohn, 1848)",
+        "url": "https://archive.org/details/chroniclesofcrus00join",
+        "publisher": "Internet Archive"
       }
     ],
     "sections": [
@@ -6162,7 +6262,7 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Baha al-Din, who watched the march, describes the crusader infantry drawn up in front of the cavalry, “firm as a wall”, in thick felt and mail that arrows could not pierce, with crossbows that wounded Muslim horses and riders. One division of infantry fought while the other rested along the shore, and the cavalry, in three divisions, kept to the centre and left it only to charge. Libertini likewise describes the cavalry kept between columns of infantry to shield the horses. Saladin's army relied on mounted archers and attacks from every side, with the sultan riding among his squadrons. Modern figures for the two armies vary and are not used.",
+        "text": "Baha al-Din, who watched the march, describes the crusader infantry drawn up in front of the cavalry, “firm as a wall”, in thick felt and mail that arrows could not pierce, with crossbows that wounded Muslim horses and riders. One division of infantry fought while the other rested along the shore, and the cavalry, in three divisions, kept to the centre and left it only to charge. Libertini likewise describes the cavalry kept between columns of infantry to shield the horses. The crusader Itinerary gives the order of march on the day: Templars in front, then the Bretons and Angevins, King Guy with the Poitevins, the Normans and English guarding the royal standard, and the Hospitallers in the rear, with bowmen and crossbowmen on the outside and the baggage between the army and the sea. Saladin's army relied on mounted archers and attacks from every side, with the sultan riding among his squadrons. Figures for the two armies, modern and medieval, vary and are not used.",
         "evidence": "fact",
         "refs": [
           {
@@ -6171,6 +6271,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "4.17"
           }
         ]
       },
@@ -6190,7 +6294,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "Under the arrows the crusaders hurried on toward their halting place, and the Muslims began to think the victory would be easy. When the crusader infantry reached the gardens of Arsuf, the knights gathered within the infantry, which opened to let them through, and charged; Baha al-Din saw the charge strike the Muslim right, left and centre, which all fled. Britannica has the Hospitallers, who had lost many horses, break ranks and counter-attack, and Richard reinforce them with a general charge. Saladin rallied his men around his own squadron and drums; the crusaders charged three times, halted on the high ground and fell back toward their camp, fearing an ambush in the woods.",
+        "text": "Under the arrows the crusaders hurried on toward their halting place, and the Muslims began to think the victory would be easy. The Itinerary describes the crossbowmen giving way under the pressure, knights who had lost their horses fighting on foot, and the Hospitallers in the rear so hard pressed that their master twice asked Richard for leave to charge; Richard told him to hold. When the crusader infantry reached the gardens of Arsuf, the knights gathered within the infantry, which opened to let them through, and charged; Baha al-Din saw the charge strike the Muslim right, left and centre, which all fled. Britannica has the Hospitallers, who had lost many horses, break ranks and counter-attack, and Richard reinforce them with a general charge. Saladin rallied his men around his own squadron and drums; the crusaders charged three times, halted on the high ground and fell back toward their camp, fearing an ambush in the woods.",
         "evidence": "fact",
         "refs": [
           {
@@ -6199,12 +6303,16 @@
           {
             "source": 2,
             "locator": "ch. CXXI"
+          },
+          {
+            "source": 3,
+            "locator": "4.18–19"
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Richard held his cavalry back under prolonged attack, Britannica says in the hope of drawing out the main Muslim army; when the Hospitallers broke ranks, he committed the whole army behind them, and he did not pursue far for fear of ambush. Saladin chose to attack the column as it neared Arsuf and, when his army broke, stood with his own squadron and kept the drums beating to rally the fugitives.",
+        "text": "Richard held his cavalry back under prolonged attack, Britannica says in the hope of drawing out the main Muslim army; the Itinerary says a charge had been agreed for a signal of six trumpets in the van, centre and rear. When the Hospitallers broke ranks, he committed the whole army behind them, and he did not pursue far for fear of ambush. Saladin chose to attack the column as it neared Arsuf and, when his army broke, stood with his own squadron and kept the drums beating to rally the fugitives.",
         "evidence": "fact",
         "refs": [
           {
@@ -6216,6 +6324,10 @@
           {
             "source": 2,
             "locator": "ch. CXXI"
+          },
+          {
+            "source": 3,
+            "locator": "4.19"
           }
         ]
       },
@@ -6235,7 +6347,7 @@
       },
       {
         "title": "Outcome",
-        "text": "The crusaders held the field and went on to Jaffa. Baha al-Din calls the battle a blow to all Muslim hearts and describes Saladin overwhelmed by the day; both sides had many killed and wounded, several of Saladin's emirs were among the dead, and Arabs who went over the field counted more than a hundred dead crusader horses. Casualty figures in the modern accounts are not used.",
+        "text": "The crusaders held the field and went on to Jaffa. Baha al-Din calls the battle a blow to all Muslim hearts and describes Saladin overwhelmed by the day; both sides had many killed and wounded, several of Saladin's emirs were among the dead, and Arabs who went over the field counted more than a hundred dead crusader horses. The Itinerary mourns the death of James d'Avesnes, killed when his companions failed to support him, and says the Turks' line of flight could be traced by abandoned baggage and dead horses and camels. Casualty figures in the modern and medieval accounts are not used.",
         "evidence": "fact",
         "refs": [
           {
@@ -6244,6 +6356,10 @@
           {
             "source": 2,
             "locator": "ch. CXXI"
+          },
+          {
+            "source": 3,
+            "locator": "4.20–21"
           }
         ]
       },
@@ -6280,7 +6396,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The sources disagree on how the charge began. Britannica has the Hospitallers break ranks and Richard follow with a general charge, Libertini presents a charge that Richard held back until conditions favoured it, and Baha al-Din, who saw it from the Muslim centre, describes the knights forming within the infantry and charging together; his 1897 editor notes that the charge began with the Hospitallers in the rear. Baha al-Din writes that the knights resolved to charge knowing that only a supreme effort could save them, which is his reading of their situation, and his editor notes that he minimises Muslim losses. Britannica's and Libertini's figures for armies and losses differ widely and are not used.",
+        "text": "The sources disagree on how the charge began. Britannica has the Hospitallers break ranks and Richard follow with a general charge, Libertini presents a charge that Richard held back until conditions favoured it, and Baha al-Din, who saw it from the Muslim centre, describes the knights forming within the infantry and charging together; his 1897 editor notes that the charge began with the Hospitallers in the rear. The crusader Itinerary settles part of the question from the other side: it says the leaders had agreed on a charge at a trumpet signal, but that two knights, the marshal of the Hospitallers and Baldwin de Carreo, rode out before it, so that the charge came early and in disorder; it judges that the Turks would otherwise have been utterly defeated. It also gives Saladin a speech reproaching his emirs, which the chronicler cannot have heard. Baha al-Din writes that the knights resolved to charge knowing that only a supreme effort could save them, which is his reading of their situation, and his editor notes that he minimises Muslim losses; the Itinerary, for its part, magnifies the enemy and the Christian heroism. Britannica's and Libertini's figures for armies and losses differ widely and are not used.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -6292,12 +6408,16 @@
           {
             "source": 2,
             "locator": "ch. CXXI"
+          },
+          {
+            "source": 3,
+            "locator": "4.19, 4.22"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Baha al-Din ibn Shaddad's Life of Saladin, in the Palestine Pilgrims' Text Society translation of 1897, is an eyewitness account from Saladin's side; its editor's notes add place identifications and the Frankish order of march from the Itinerarium. Britannica's article and Christopher G. Libertini's EBSCO research starter give modern summaries. The Itinerarium itself was not read.",
+        "text": "Baha al-Din ibn Shaddad's Life of Saladin, in the Palestine Pilgrims' Text Society translation of 1897, is an eyewitness account from Saladin's side; its editor's notes add place identifications and the Frankish order of march from the Itinerarium. The Itinerary of Richard I, the crusaders' own chronicle of the march, is read in the English translation published in Bohn's Chronicles of the Crusades (1848), which attributes it to Geoffrey de Vinsauf. Britannica's article and Christopher G. Libertini's EBSCO research starter give modern summaries.",
         "evidence": "fact",
         "refs": [
           {
@@ -6308,6 +6428,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -6344,12 +6467,12 @@
         "name": "Richard I",
         "objective": "Reach Jaffa with the army intact, as a base for an advance on Jerusalem.",
         "known": "Saladin's army shadowed the march and attacked daily, trying to provoke the knights to charge.",
-        "uncertainty": "When the main Muslim army would come close enough for a charge to strike it.",
+        "uncertainty": "When the main Muslim army would come close enough for a charge to strike it, and whether his rearguard could hold until then.",
         "constraints": "Few pack animals, so infantry carried the baggage and marches were short; dependence on the fleet for men and supplies.",
         "forces": "Mailed infantry with crossbows shielding the cavalry, which rode in divisions in the centre.",
         "terrain": "A coastal road between the sea and woodland, with the wood and gardens of Arsuf ahead.",
         "logistics": "His ships followed the march along the coast with men and supplies.",
-        "decision": "He held his cavalry back under attack and, when the Hospitallers broke ranks, committed the whole army to the charge, then halted the pursuit for fear of ambush.",
+        "decision": "He held his cavalry back under attack, refusing the Hospitallers' requests to charge, with a charge planned for a trumpet signal; when two knights and the Hospitallers broke ranks, he committed the whole army, then halted the pursuit for fear of ambush.",
         "outcome": "Victory and the road to Jaffa, but not the destruction of Saladin's army."
       },
       {
@@ -6651,6 +6774,11 @@
         "title": "Friedrich Josias, Prinz von Sachsen-Coburg-Saalfeld",
         "url": "https://www.deutsche-biographie.de/sfz17465.html",
         "publisher": "Neue Deutsche Biographie (Nikolaus von Preradovich), in German"
+      },
+      {
+        "title": "Alexander Suvorov, Автобиография (Autobiography, 1790), in Russian",
+        "url": "https://ru.wikisource.org/wiki/%D0%90%D0%B2%D1%82%D0%BE%D0%B1%D0%B8%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F_(%D0%A1%D1%83%D0%B2%D0%BE%D1%80%D0%BE%D0%B2)",
+        "publisher": "Wikisource (Russian)"
       }
     ],
     "sections": [
@@ -6718,21 +6846,27 @@
       },
       {
         "title": "Initial deployment",
-        "text": "Hearing of the Ottoman advance, Suvorov's troops covered about 100 km in two and a half days and joined Coburg on 21 September (10 September in the Russian calendar). During the night before the battle the allied army moved off in two columns.",
+        "text": "Hearing of the Ottoman advance, Suvorov's troops covered about 100 km in two and a half days and joined Coburg on 21 September (10 September in the Russian calendar). Suvorov's own account says Coburg wrote asking him to hurry, that he crossed the flooded Siret with grenadier, musketeer and light battalions formed in squares in two lines, with carabiniers, Cossacks and Arnauts, and that he then planned the march in two columns, leading the right himself while Coburg led the left. During the night before the battle the allied army moved off, fording the Rymna in silence.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "The Russians crossed the Rymna and attacked at 6 a.m. They silenced the Ottoman artillery, threw back the cavalry and after hard fighting took the camp at Tyrgo-Kukuli, driving its defenders toward the Rymnik. Meanwhile the Austrians repulsed a large cavalry attack that tried to split the allies. Suvorov's troops took the fortifications near Bogsa and joined the Austrians. At 3 p.m. the allies attacked the main camp by the Kryng-Malor forest: the Austrians attacked it head-on in a long fight while Suvorov's troops outflanked the position and attacked with cavalry. The Ottoman army panicked and fled, and many drowned in the river.",
+        "text": "The Russians crossed the Rymna and attacked at 6 a.m. They silenced the Ottoman artillery, threw back the cavalry and after hard fighting took the camp at Tyrgo-Kukuli, driving its defenders toward the Rymnik. Meanwhile the Austrians repulsed a large cavalry attack that tried to split the allies. Suvorov writes that when Ottoman horsemen fell on one of his squares he moved another obliquely to catch them in crossfire, and that the Janissaries and Arab troops attacked with particular determination. Suvorov's troops took the fortifications near Bogsa and joined the Austrians. At 3 p.m. the allies attacked the main camp by the Kryng-Malor forest: the Austrians attacked it head-on in a long fight while Suvorov's troops outflanked the position and attacked with cavalry; in Suvorov's account he placed his carabiniers and hussars in the intervals between his squares and they leapt the unfinished entrenchment. The Ottoman army panicked and fled, and many drowned in the river.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -6761,7 +6895,7 @@
       },
       {
         "title": "Outcome",
-        "text": "The Ottoman army was routed with heavy losses of men, transport and artillery, while allied losses were light. Beydilli counts the defeat at the Remnik and the rout on the Boza among the disasters of 1789.",
+        "text": "The Ottoman army was routed with heavy losses of men, transport and artillery, while allied losses were light. Suvorov writes that the grand vizier, who had stood by the forest during the battle, could not halt his fleeing troops, retreated to Brăila and had the bridge over the Buzău raised behind him. Beydilli counts the defeat at the Remnik and the rout on the Boza among the disasters of 1789.",
         "evidence": "fact",
         "refs": [
           {
@@ -6769,6 +6903,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -6803,7 +6940,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The national traditions tell the battle differently. The Russian Presidential Library gives Suvorov command of the whole allied force and the decisive flanking attack; Preradovich's NDB article calls the victory at Martinești on the Rimnik Coburg's, for which he was made field marshal; Beydilli's Ottoman account counts it among a series of disasters. The Ottoman commander is unclear in the sources read: the Presidential Library names the grand vizier Yusuf Pasha, while Beydilli has Yusuf replaced as grand vizier in June 1789 by Kethüdâ Hasan Pasha. The Presidential Library's casualty estimates range widely and are not used. Russian dates of the time run eleven days behind the Western calendar.",
+        "text": "The national traditions tell the battle differently. The Russian Presidential Library gives Suvorov command of the whole allied force and the decisive flanking attack; Preradovich's NDB article calls the victory at Martinești on the Rimnik Coburg's, for which he was made field marshal; Beydilli's Ottoman account counts it among a series of disasters. Suvorov's own account, written in 1790 to support the grant of his title, is more measured about command than the Presidential Library: it has each general lead a column and Suvorov ask Coburg to press his squares forward. It is also the source of the Russian figures, which are not used. The Ottoman commander is unclear in the sources read: the Presidential Library names the grand vizier Yusuf Pasha and Suvorov speaks only of the grand vizier, while Beydilli has Yusuf replaced as grand vizier in June 1789 by Kethüdâ Hasan Pasha. The Presidential Library's casualty estimates range widely and are not used. Russian dates of the time run eleven days behind the Western calendar.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -6814,12 +6951,15 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The Russian Presidential Library's page, which draws on nineteenth-century Russian publications including Suvorov's own report, gives the course of the battle. Kemal Beydilli's article on Koca Yusuf Pasha in the TDV İslâm Ansiklopedisi, in Turkish, gives the Ottoman chronology of the war. Nikolaus von Preradovich's NDB article on Coburg, in German, gives the Austrian view; the same page holds August Beck's older ADB article. No Ottoman account of the battle itself was read.",
+        "text": "The Russian Presidential Library's page, which draws on nineteenth-century Russian publications including Suvorov's own report, gives the course of the battle. Suvorov's autobiography of 1790, in Russian on Wikisource, gives his own account of the march and the battle. Kemal Beydilli's article on Koca Yusuf Pasha in the TDV İslâm Ansiklopedisi, in Turkish, gives the Ottoman chronology of the war. Nikolaus von Preradovich's NDB article on Coburg, in German, gives the Austrian view; the same page holds August Beck's older ADB article. No Ottoman account of the battle itself was read.",
         "evidence": "fact",
         "refs": [
           {
@@ -6830,6 +6970,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -6865,13 +7008,13 @@
       {
         "name": "Alexander Suvorov",
         "objective": "Save Coburg's Austrians from the Ottoman offensive and defeat the Ottoman army.",
-        "known": "A much larger Ottoman army was advancing on Coburg's detachment.",
+        "known": "A much larger Ottoman army was advancing on Coburg's detachment, and Coburg had written asking him to hurry.",
         "uncertainty": "Whether the Ottomans would strike before he arrived, and how two allied armies would fight as one.",
         "constraints": "A small Russian detachment, and command of an allied force that was not his own.",
         "forces": "Russian infantry and cavalry joined to Coburg's Austrians, with artillery.",
         "terrain": "Two rivers, the Rymna and the Rymnik, a series of fortified camps and a forest beside the main camp.",
         "logistics": "His troops marched about 100 km in two and a half days; the sources read do not describe their supply.",
-        "decision": "He took command of the allied force, attacked across the Rymna in two columns and outflanked the main camp with cavalry.",
+        "decision": "He marched at once, planned the attack in two columns with Coburg, crossed the Rymna by night, fought in squares in two lines and outflanked the main camp with cavalry placed between the squares.",
         "outcome": "A decisive victory and the title Count Rymniksky."
       },
       {
@@ -7208,6 +7351,11 @@
         "title": "John B. Hood, Advance and Retreat",
         "url": "https://archive.org/details/01090379.3186.emory.edu",
         "publisher": "Hood Orphan Memorial Fund, New Orleans, 1880 (Internet Archive)"
+      },
+      {
+        "title": "Joseph E. Johnston, Narrative of Military Operations, Directed, during the Late War between the States (New York: Appleton, 1874)",
+        "url": "https://archive.org/details/narrativeofmilit00john",
+        "publisher": "Internet Archive"
       }
     ],
     "sections": [
@@ -7241,7 +7389,7 @@
       },
       {
         "title": "Campaign objectives",
-        "text": "Sherman aimed at Johnston's army and the resources behind it, and in practice manoeuvred to threaten the railroad behind each Confederate position. Johnston, the Battlefield Trust writes, planned to hold strong defensive ground and wait for an attack. Hood, who replaced him, preferred what he called the school of Lee and Jackson and condemned Johnston's policy as a timid defensive.",
+        "text": "Sherman aimed at Johnston's army and the resources behind it, and in practice manoeuvred to threaten the railroad behind each Confederate position. Johnston, the Battlefield Trust writes, planned to hold strong defensive ground and wait for an attack. In his own Narrative Johnston explains why: at Dalton a defeat would have been disastrous with Atlanta far behind, while a victory could not have been decisive with Chattanooga close behind Sherman; fighting from entrenchments, he hoped to wear down the larger Union army and then fight on equal ground beyond the Chattahoochee, with Atlanta as a refuge. Hood, who replaced him, preferred what he called the school of Lee and Jackson and condemned Johnston's policy as a timid defensive.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -7254,6 +7402,10 @@
           {
             "source": 2,
             "locator": "ch. X"
+          },
+          {
+            "source": 3,
+            "locator": "pp. 355–358"
           }
         ]
       },
@@ -7315,7 +7467,7 @@
       },
       {
         "title": "Important command decisions",
-        "text": "Sherman avoided frontal attack except at Kennesaw, where, after consulting Thomas, McPherson and Schofield, he judged that they could not stretch further and that there was no alternative but to attack fortified lines, a thing carefully avoided until then. Davis's decision to replace Johnston with Hood brought a change to the offensive, and Hood's attacks at Peachtree Creek and on 22 July followed the doctrine he preferred.",
+        "text": "Sherman avoided frontal attack except at Kennesaw, where, after consulting Thomas, McPherson and Schofield, he judged that they could not stretch further and that there was no alternative but to attack fortified lines, a thing carefully avoided until then. Johnston writes that he repeatedly urged the government, directly and through General Bragg, to send Forrest's cavalry from Mississippi against the railroad that supplied Sherman, since his own cavalry was too weak and needed at the front, and that the troops meant for it were each time diverted. Davis's decision to replace Johnston with Hood brought a change to the offensive, and Hood's attacks at Peachtree Creek and on 22 July followed the doctrine he preferred.",
         "evidence": "fact",
         "refs": [
           {
@@ -7328,6 +7480,10 @@
           {
             "source": 2,
             "locator": "ch. X"
+          },
+          {
+            "source": 3,
+            "locator": "pp. 355, 358–359"
           }
         ]
       },
@@ -7393,7 +7549,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Whether Johnston's retreats or Hood's attacks better served the Confederacy is a long-running dispute, and both memoirs read here take sides. Hood's, written after Sherman's, is largely a reply to Johnston: he blames Johnston's policy for an army unfit for pitched battle and accuses him of leaving without giving the promised counsel. Sherman disputes Johnston's estimate of Union losses at Kennesaw. Sherman's justification for expelling Atlanta's civilians and Hood's protest are both advocacy. The Battlefield Trust's article is unsigned and cites no sources.",
+        "text": "Whether Johnston's retreats or Hood's attacks better served the Confederacy is a long-running dispute, and all three memoirs read here take sides. Johnston's Narrative answers the charges made after his removal: that he disregarded the president's instructions, would not fight and refused to defend Atlanta. He says Davis gave him no instruction beyond a warning not to fight with the Chattahoochee close behind, contrasts the government's patience with other retreating generals, and disputes Hood's figures for his losses. Hood's, written after Sherman's, is largely a reply to Johnston: he blames Johnston's policy for an army unfit for pitched battle and accuses him of leaving without giving the promised counsel. Sherman disputes Johnston's estimate of Union losses at Kennesaw, and Johnston's own estimates of Union losses are not used. Sherman's justification for expelling Atlanta's civilians and Hood's protest are both advocacy. The Battlefield Trust's article is unsigned and cites no sources.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -7406,12 +7562,16 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "pp. 354–358"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The American Battlefield Trust's article gives the course of the campaign. Sherman's Memoirs, on Project Gutenberg, give his orders, the Kennesaw assault, the fall of the city and his reasons for removing its people. Hood's Advance and Retreat (1880), on the Internet Archive, gives the Confederate commander's view, including the September correspondence with Sherman.",
+        "text": "The American Battlefield Trust's article gives the course of the campaign. Sherman's Memoirs, on Project Gutenberg, give his orders, the Kennesaw assault, the fall of the city and his reasons for removing its people. Hood's Advance and Retreat (1880) and Johnston's Narrative of Military Operations (1874), both on the Internet Archive, give the two Confederate commanders' opposing views, including Hood's September correspondence with Sherman and Johnston's defence of his strategy.",
         "evidence": "fact",
         "refs": [
           {
@@ -7422,6 +7582,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -7477,6 +7640,18 @@
         "logistics": "After the Augusta road was lost, the Macon railroad was his remaining line of supply.",
         "decision": "He attacked at Peachtree Creek and on 22 July, then evacuated the city when the Macon railroad was cut.",
         "outcome": "Atlanta was lost; he protested Sherman's expulsion of its civilians."
+      },
+      {
+        "name": "Joseph E. Johnston",
+        "objective": "Preserve the Army of Tennessee while wearing down Sherman's larger army, and fight on equal ground once the odds had narrowed.",
+        "known": "Sherman's armies far outnumbered his own, and a defeat near Dalton would have left him a hundred miles from his only refuge at Atlanta.",
+        "uncertainty": "Whether the government would send cavalry to cut Sherman's railroad, and whether it would keep its confidence in a defensive campaign.",
+        "constraints": "Cavalry too weak to raid Sherman's communications and still needed at the front, and a president who disapproved of his course.",
+        "forces": "The Army of Tennessee, with the corps of Hardee, Hood and Polk.",
+        "terrain": "Successive ridges and river lines between Dalton and the Chattahoochee, which he held with entrenchments.",
+        "logistics": "He hoped that breaking the railroad behind Sherman would force him to attack on Confederate terms or retreat.",
+        "decision": "He fought from entrenched lines, fell back each time he was outflanked and pressed repeatedly for a cavalry raid on Sherman's railroad.",
+        "outcome": "He was relieved of command in mid-July, as Sherman's armies neared Atlanta, and later defended his strategy in his Narrative."
       }
     ]
   },

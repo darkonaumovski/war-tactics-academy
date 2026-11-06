@@ -261,6 +261,11 @@
         "title": "Massinissa",
         "url": "https://www.livius.org/articles/person/massinissa/",
         "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Livy, History of Rome 30.29–35 (trans. Cyrus Edmonds), in The History of Rome, Books 27 to 36",
+        "url": "https://www.gutenberg.org/ebooks/12582",
+        "publisher": "Project Gutenberg"
       }
     ],
     "sections": [
@@ -289,23 +294,31 @@
       },
       {
         "title": "Campaign objectives",
-        "text": "Polybius has Hannibal ask for a meeting, at which he offered to give up Sicily, Sardinia, Spain and the islands between Italy and Africa; Scipio refused anything but surrender or battle. Hannibal sought terms that would save Carthage, and failing that a victory; Scipio needed a decisive battle to end the war on Roman terms.",
+        "text": "Polybius has Hannibal ask for a meeting, at which he offered to give up Sicily, Sardinia, Spain and the islands between Italy and Africa; Scipio refused anything but surrender or battle. Livy gives the same meeting and the same offer, but says he cannot tell whether Hannibal sought it on his own initiative or on his government's instructions. Hannibal sought terms that would save Carthage, and failing that a victory; Scipio needed a decisive battle to end the war on Roman terms.",
         "evidence": "interpretation",
         "refs": [
           {
             "source": 0,
             "locator": "15.6–8"
+          },
+          {
+            "source": 3,
+            "locator": "30.29–31"
           }
         ]
       },
       {
         "title": "Geography and terrain",
-        "text": "Hannibal camped near Zama and then on a hill some way from Scipio's camp, short of water; Scipio camped near a town Polybius calls Naragara. The exact battlefield is not known.",
+        "text": "Hannibal camped near Zama and then on a hill some way from Scipio's camp, short of water; Scipio camped near a town Polybius calls Naragara. Livy adds that Zama lay five days' journey from Carthage, that Scipio's camp had water within a javelin's throw, and that Hannibal's hill, about four miles off, was safe and convenient except for the distance to water. The exact battlefield is not known.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "15.5–6"
+          },
+          {
+            "source": 3,
+            "locator": "30.29"
           }
         ]
       },
@@ -322,34 +335,46 @@
       },
       {
         "title": "Initial deployment",
-        "text": "Scipio placed the maniples of each line directly behind one another rather than in the usual staggered pattern, leaving lanes for the elephants that the velites filled until the charge. Laelius held the left with the Italian cavalry and Massinissa the right. Hannibal put the elephants in front, the mercenaries next, then the Libyans and Carthaginians, and his veterans from Italy more than a stade behind, with Numidian horse on his left and Carthaginian horse on his right.",
+        "text": "Scipio placed the maniples of each line directly behind one another rather than in the usual staggered pattern, leaving lanes for the elephants that the velites filled until the charge. Laelius held the left with the Italian cavalry and Massinissa the right. Hannibal put the elephants in front, the mercenaries next, then the Libyans and Carthaginians, and his veterans from Italy more than a stade behind, with Numidian horse on his left and Carthaginian horse on his right. Livy describes the same order but adds a Macedonian legion to the second line and says that many of the Italian troops in the rear, mostly Bruttians, had followed Hannibal from Italy under compulsion.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "15.9, 15.11"
+          },
+          {
+            "source": 3,
+            "locator": "30.33"
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "Skirmishing between the Numidians opened the battle. The elephant charge failed: some animals panicked and turned on Hannibal's own left, some passed through the lanes and others ran off the field. Laelius and Massinissa drove the Carthaginian cavalry away. When the infantry met, the mercenaries were not supported by the line behind them and the two fell to fighting each other. Scipio then halted, re-formed his lines across ground covered with the dead and advanced against Hannibal's veterans.",
+        "text": "Skirmishing between the Numidians opened the battle. The elephant charge failed: some animals panicked and turned on Hannibal's own left, some passed through the lanes and others ran off the field; Livy puts the panic down to the blare of the Roman trumpets and horns. Laelius and Massinissa drove the Carthaginian cavalry away. When the infantry met, the mercenaries were not supported by the line behind them and the two fell to fighting each other. Scipio then halted, re-formed his lines across ground covered with the dead and advanced against Hannibal's veterans.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "15.12–14"
+          },
+          {
+            "source": 3,
+            "locator": "30.33–35"
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Scipio's lanes neutralized the elephants, and his decision to re-form his lines before engaging the veterans kept his army in order. Hannibal kept his best troops out of the first clash; Polybius judges that his dispositions were as good as a general could make them.",
+        "text": "Scipio's lanes neutralized the elephants, and his decision to re-form his lines before engaging the veterans kept his army in order. Hannibal kept his best troops out of the first clash; Polybius judges that his dispositions were as good as a general could make them, and Livy, who says Scipio himself acknowledged it, explains them: the elephants to break the Roman ranks, the mercenaries in front so that they could not flee and would blunt the Roman weapons, the Carthaginians and Africans fresh behind them, and the Italians kept apart at the rear because he could not be sure of their loyalty.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "15.14–16"
+          },
+          {
+            "source": 3,
+            "locator": "30.35"
           }
         ]
       },
@@ -369,7 +394,7 @@
       },
       {
         "title": "Outcome",
-        "text": "Hannibal's army was destroyed and its camp plundered. Hannibal escaped with a few horsemen to Hadrumetum and then advised negotiation. Livius dates the battle to 19 October 202 BCE.",
+        "text": "Hannibal's army was destroyed and its camp plundered. Hannibal escaped with a few horsemen to Hadrumetum and then advised negotiation; Livy has him tell the Carthaginian senate that he had lost not only the battle but the war, and that the only hope lay in peace. Livius dates the battle to 19 October 202 BCE.",
         "evidence": "fact",
         "refs": [
           {
@@ -378,6 +403,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "30.35"
           }
         ]
       },
@@ -410,7 +439,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The exact site is unknown. Livius describes Hannibal as trying to repeat the encirclement of Cannae and failing, a reading that Polybius's narrative does not make explicit; Polybius also gives no sign that Hannibal's cavalry withdrew deliberately to draw the Roman horse off the field. Polybius's casualty figures are not repeated here.",
+        "text": "The exact site is unknown. Livius describes Hannibal as trying to repeat the encirclement of Cannae and failing, a reading that Polybius's narrative does not make explicit; Polybius also gives no sign that Hannibal's cavalry withdrew deliberately to draw the Roman horse off the field. Livy follows Polybius closely but records a different version from the annalist Valerius Antias, in which Hannibal came to Scipio's camp to sue for peace only after losing a first battle, and his Macedonian legion in Hannibal's army appears in none of the other sources read. Neither author gives a Carthaginian account, none of which survives. Polybius's and Livy's casualty figures are not repeated here.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -419,12 +448,16 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "30.29, 30.33"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Polybius gives the only detailed narrative read for this study. Livius's biographies of Hannibal and Massinissa supply the date, context and consequences; Livy's account was not read.",
+        "text": "Polybius gives the earliest detailed narrative. Livy's account, in Cyrus Edmonds's nineteenth-century translation on Project Gutenberg, follows him closely while adding details and a variant tradition. Livius's biographies of Hannibal and Massinissa supply the date, context and consequences.",
         "evidence": "fact",
         "refs": [
           {
@@ -436,6 +469,10 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "30.29–35"
           }
         ]
       }
@@ -480,7 +517,7 @@
         "objective": "Save Carthage, by negotiation if possible and otherwise by battle.",
         "known": "Scipio had the stronger cavalry, including Massinissa's Numidians.",
         "uncertainty": "Whether elephants and his first lines could disorder the legions before his veterans engaged.",
-        "constraints": "His army mixed mercenaries, Libyan and Carthaginian troops and his veterans from Italy, and Scipio refused his terms.",
+        "constraints": "His army mixed mercenaries, Libyan and Carthaginian troops and Italians who, in Livy's account, had followed him from Italy under compulsion, and Scipio refused his terms.",
         "forces": "Elephants, mercenaries, Libyan and Carthaginian infantry, his veterans and Carthaginian and Numidian cavalry.",
         "terrain": "Polybius says his camp was on a hill short of water.",
         "logistics": "Close to Carthage, but with an army only recently assembled in Africa.",
@@ -1341,6 +1378,16 @@
         "title": "Alésia MuséoParc",
         "url": "https://alesia.com/en/",
         "publisher": "Alésia MuséoParc"
+      },
+      {
+        "title": "Plutarch, Life of Caesar (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar*.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Cassius Dio, Roman History 40 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/40*.html",
+        "publisher": "LacusCurtius, University of Chicago"
       }
     ],
     "sections": [
@@ -1357,11 +1404,15 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Caesar's account presents Roman command from the conqueror's perspective. Political self-presentation shapes the narrative.",
+        "text": "Caesar's account presents Roman command from the conqueror's perspective. Political self-presentation shapes the narrative. Plutarch sets the revolt in its wider frame: led by the Arverni and Carnutes, it chose Vercingetorix as supreme commander, and Plutarch judges that had it come a little later, when Caesar was caught up in the civil war, Italy would have faced a terror like the Cimbri; the defection of the Aedui, long called brothers of the Romans, dismayed Caesar's army.",
         "evidence": "interpretation",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "25–26"
           }
         ]
       },
@@ -1418,12 +1469,16 @@
       },
       {
         "title": "Chronological phases",
-        "text": "Investment was followed by relief attempts, attacks from inside and outside, and the defeat of the relieving army.",
+        "text": "Investment was followed by relief attempts, attacks from inside and outside, and the defeat of the relieving army. Cassius Dio adds a grim episode: as food ran short, Vercingetorix drove out the children, the women and those least useful, hoping the Romans would take them as booty; Caesar, short of food himself and expecting them to be taken back, forced them back, and they perished between the town and the Roman camp because neither side would receive them. Dio also describes the hidden pits and stakes that broke the relief army's night attack on the outer lines.",
         "evidence": "fact",
         "refs": [
           {
             "source": 1,
             "locator": "7.79–88"
+          },
+          {
+            "source": 4,
+            "locator": "40.40"
           }
         ]
       },
@@ -1451,12 +1506,20 @@
       },
       {
         "title": "Outcome",
-        "text": "Vercingetorix surrendered. Caesar distributed many prisoners as enslaved captives.",
+        "text": "Vercingetorix surrendered. Caesar distributed many prisoners as enslaved captives. The later writers dramatise the surrender differently: Plutarch has Vercingetorix ride out in his finest armour on a decorated horse, circle Caesar, then dismount, strip off his armour and sit silent at his feet; Dio has him come unannounced, hoping for pardon on the strength of a former friendship, and kneel in supplication, while Caesar reproached him with that very friendship, put him in chains and later had him executed after the triumph.",
         "evidence": "fact",
         "refs": [
           {
             "source": 1,
             "locator": "7.89–90"
+          },
+          {
+            "source": 3,
+            "locator": "27"
+          },
+          {
+            "source": 4,
+            "locator": "40.41"
           }
         ]
       },
@@ -1484,18 +1547,26 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Enemy numbers and dramatic speeches come from Caesar's interested account. The displayed phases simplify an extended siege, not a measured hour-by-hour reconstruction.",
+        "text": "Enemy numbers and dramatic speeches come from Caesar's interested account. The displayed phases simplify an extended siege, not a measured hour-by-hour reconstruction. Plutarch preserves a trace of the Gallic memory of the war: the Arverni showed a short sword hanging in a temple which they said had been taken from Caesar, who, seeing it later, smiled and would not let it be taken down. The surrender scene differs between Plutarch and Dio, and Dio's account of the noncombatants expelled from the town has no counterpart in Plutarch. Both later authors show how the story was retold, and neither is an eyewitness; Plutarch's figures are not used. No Gallic narrative survives.",
         "evidence": "uncertainty",
         "refs": [
           {
             "source": 1,
             "locator": "7.76–77"
+          },
+          {
+            "source": 3,
+            "locator": "26–27"
+          },
+          {
+            "source": 4,
+            "locator": "40.40–41"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Caesar supplies the principal narrative; museum archaeology and landscape interpretation provide a different kind of evidence.",
+        "text": "Caesar supplies the principal narrative; museum archaeology and landscape interpretation provide a different kind of evidence. Plutarch's Life of Caesar and Cassius Dio's Roman History 40, both in the Loeb translations on LacusCurtius, give later Greek retellings that differ from Caesar on the surrender and the fate of the noncombatants.",
         "evidence": "fact",
         "refs": [
           {
@@ -1506,6 +1577,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -1553,9 +1630,9 @@
         "constraints": "Coordinating attacks from inside and outside the Roman lines without reliable communication.",
         "forces": "The besieged army in the settlement and a relief army under several commanders, including Vercassivellaunus.",
         "terrain": "Roman works blocked access across the plain and the surrounding hills.",
-        "logistics": "Caesar reports that the Mandubii, inhabitants of Alesia, were expelled to save food and were refused passage through the Roman lines.",
+        "logistics": "Caesar reports that the Mandubii, inhabitants of Alesia, were expelled to save food and were refused passage through the Roman lines; Dio says Vercingetorix drove out the women, children and others least useful, who died between the lines.",
         "decision": "Breakouts were timed with the relief army's assaults. After those failed, Vercingetorix surrendered. Gallic decisions are known almost entirely through Caesar.",
-        "outcome": "Surrender, captivity and enslavement for many of the defeated."
+        "outcome": "Surrender, captivity and enslavement for many of the defeated; Dio says Vercingetorix, who had hoped for pardon, was executed after Caesar's triumph."
       }
     ]
   },
@@ -1576,6 +1653,16 @@
         "title": "Cassius Dio on the Battle of Pharsalus (41.52–63, trans. E. Cary)",
         "url": "https://www.livius.org/sources/content/cassius-dio/cassius-dio-the-battle-of-pharsalus/",
         "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Appian, Civil Wars 2 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/2*.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Plutarch, Life of Caesar (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar*.html",
+        "publisher": "LacusCurtius, University of Chicago"
       }
     ],
     "sections": [
@@ -1591,18 +1678,22 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Pompey's camp held many senators. Plutarch says Pompey wanted to wear Caesar down by delay, but his followers mocked his caution and pressed for a decisive battle, and he gave way.",
+        "text": "Pompey's camp held many senators. Plutarch says Pompey wanted to wear Caesar down by delay, but his followers mocked his caution and pressed for a decisive battle, and he gave way. Appian sets out Pompey's reasoning in full: his own supplies came by land and sea while Caesar's men had only what they could seize, so it was safer to reduce them by want than to risk everything on a battle with desperate veterans. He was overruled by the senators, knights and kings around him, some inexperienced, some elated by Dyrrhachium, some tired of the war, who accused him of delaying to prolong his command and called him “king of kings” and “Agamemnon”; against his will, Appian writes, he prepared for battle.",
         "evidence": "fact",
         "refs": [
           {
             "source": 1,
             "locator": "66–67"
+          },
+          {
+            "source": 3,
+            "locator": "2.66–67"
           }
         ]
       },
       {
         "title": "Campaign objectives",
-        "text": "Caesar, short of supplies after Dyrrhachium, needed a battle; Pompey's best course was delay, which his own camp would not accept. The two commanders therefore had unequal reasons to fight.",
+        "text": "Caesar, short of supplies after Dyrrhachium, needed a battle; Pompey's best course was delay, which his own camp would not accept. The two commanders therefore had unequal reasons to fight. Appian says Caesar, approving Pompey's delays and not expecting a change, had sent three legions out to forage the night before, and recalled them with delight when he saw the enemy preparing to fight.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -1611,6 +1702,10 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "2.66–68"
           }
         ]
       },
@@ -1689,7 +1784,7 @@
       },
       {
         "title": "Outcome",
-        "text": "Pompey rode back to his camp, which Caesar's men stormed, and escaped to Larisa and the coast. Pompeian troops who took refuge on a waterless hill surrendered and, in Caesar's account, were pardoned. Pompey sailed to Egypt, where King Ptolemy's advisers had him killed as he came ashore.",
+        "text": "Pompey rode back to his camp, which Caesar's men stormed, and escaped to Larisa and the coast. Plutarch, citing Asinius Pollio, who fought for Caesar that day, says Caesar looked on the Pompeian dead and said, “They would have it so”, and that most of those killed at the camp were servants. Pompeian troops who took refuge on a waterless hill surrendered and, in Caesar's account, were pardoned; Plutarch adds that Caesar took most of the captives into his legions and pardoned many prominent men, among them Brutus. Pompey sailed to Egypt, where King Ptolemy's advisers had him killed as he came ashore.",
         "evidence": "fact",
         "refs": [
           {
@@ -1699,6 +1794,10 @@
           {
             "source": 1,
             "locator": "72–80"
+          },
+          {
+            "source": 4,
+            "locator": "46"
           }
         ]
       },
@@ -1733,7 +1832,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Caesar's account is that of a participant defending his cause, and its figures favour him; Plutarch, citing Asinius Pollio, gives far lower Pompeian losses. Plutarch places Pompey on the right and Domitius with the cavalry on the left, where Caesar puts Pompey on the left, and he speaks of six reserve cohorts. Dio describes a long, even fight without a reserve and says Caesar executed captured senators, where Caesar stresses his clemency. The site is disputed.",
+        "text": "Caesar's account is that of a participant defending his cause, and its figures favour him; Plutarch, citing Asinius Pollio, gives far lower Pompeian losses, and Appian too cites Pollio as one of Caesar's officers in the battle against what he calls exaggerating writers. Plutarch places Pompey on the right and Domitius with the cavalry on the left, where Caesar puts Pompey on the left, and he speaks of six reserve cohorts. Dio describes a long, even fight without a reserve and says Caesar executed captured senators, where Caesar stresses his clemency. Appian gives the fullest statement of Pompey's case for delay and blames the pressure of his followers and a divine infatuation for his decision to fight, a judgement as much literary as historical. The site is disputed. The figures in all these accounts are not repeated here.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -1746,12 +1845,20 @@
           {
             "source": 2,
             "locator": "41.52–63"
+          },
+          {
+            "source": 3,
+            "locator": "2.67, 2.82"
+          },
+          {
+            "source": 4,
+            "locator": "46"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Caesar's Civil War 3.88–99, in the translation on Livius, is the main narrative. Plutarch's Life of Pompey draws on it, on Asinius Pollio and on others. Dio's account, also on Livius, is independent but rhetorical, with speeches and omens.",
+        "text": "Caesar's Civil War 3.88–99, in the translation on Livius, is the main narrative. Plutarch's Life of Pompey draws on it, on Asinius Pollio and on others. Dio's account, also on Livius, is independent but rhetorical, with speeches and omens. Appian's Civil Wars 2 and Plutarch's Life of Caesar, both in the Loeb translations on LacusCurtius, add Pompey's reasoning and the pressure on him, and Pollio's testimony on the end of the battle.",
         "evidence": "fact",
         "refs": [
           {
@@ -1763,6 +1870,14 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "2.66–82"
+          },
+          {
+            "source": 4,
+            "locator": "46"
           }
         ]
       }
@@ -1804,10 +1919,10 @@
       },
       {
         "name": "Gnaeus Pompeius Magnus (Pompey)",
-        "objective": "Plutarch says he preferred to wear Caesar down by delay rather than risk battle.",
+        "objective": "Plutarch and Appian say he preferred to wear Caesar down by delay, since his own supplies were secure and Caesar's were not, rather than risk battle with desperate veterans.",
         "known": "His army and cavalry were much larger than Caesar's.",
         "uncertainty": "Whether his less experienced troops could beat Caesar's veterans in open battle.",
-        "constraints": "Senators in his camp pressed for an immediate battle.",
+        "constraints": "Senators, knights and kings in his camp pressed for an immediate battle and accused him of prolonging the war to keep his command.",
         "forces": "Legions including two that Caesar had returned, Syrian and Cilician legions, Spanish cohorts, and a large force of cavalry, archers and slingers.",
         "terrain": "A river protecting his right flank.",
         "logistics": "Better supplied than Caesar, which made delay a realistic option.",
@@ -1833,6 +1948,11 @@
         "title": "M. Vipsanius Agrippa (2)",
         "url": "https://www.livius.org/articles/person/vipsanius-agrippa/vipsanius-agrippa-2/",
         "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Cassius Dio, Roman History 50 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/50*.html",
+        "publisher": "LacusCurtius, University of Chicago"
       }
     ],
     "sections": [
@@ -1920,7 +2040,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "Agrippa's seizure of bases in the western Peloponnese and at Patras cut Antony's supply lines, and hunger wore down his army; allies such as Domitius, Amyntas and Deiotarus deserted. On 2 September 31 BCE the fleets engaged off the gulf. Antony's centre broke through Agrippa's centre, Cleopatra's sixty ships passed through the gap and sailed south, and Antony followed with his own squadron.",
+        "text": "Agrippa's seizure of bases in the western Peloponnese and at Patras cut Antony's supply lines, and hunger wore down his army; allies such as Domitius, Amyntas and Deiotarus deserted. On 2 September 31 BCE the fleets engaged off the gulf. In Dio's account Antony's fleet drew up in dense array just outside the strait and waited; when Octavian bent his line into a crescent to envelop it, Antony advanced to meet him, and the lighter Caesarian ships fought the heavy Antonian galleys like cavalry against heavy infantry, ramming and backing off under showers of stones and arrows. Antony's centre broke through Agrippa's centre, Cleopatra's sixty ships passed through the gap and sailed south, and Antony followed with his own squadron.",
         "evidence": "fact",
         "refs": [
           {
@@ -1932,12 +2052,16 @@
           {
             "source": 1,
             "locator": "63–66"
+          },
+          {
+            "source": 3,
+            "locator": "50.31–34"
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Antony chose to break out by sea rather than retreat overland, as Canidius advised. Octavian refused battle while the blockade did its work.",
+        "text": "Antony chose to break out by sea rather than retreat overland, as Canidius advised. Octavian refused battle while the blockade did its work. Cassius Dio describes the decision on the Antonian side: after a naval reverse and a defeat of his cavalry, and with provisions failing, Antony held a council, and Cleopatra's advice prevailed, to garrison the strongest positions and take the rest back to Egypt. Not wishing to seem to flee and so frighten their allies, they prepared the breakout as if for a naval battle, burning the ships they could not man and loading their treasure by night. Dio says Octavian at first meant to let them slip past and attack their rear, until Agrippa persuaded him that their sails would outrun him.",
         "evidence": "fact",
         "refs": [
           {
@@ -1946,12 +2070,16 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "50.14–15, 50.31"
           }
         ]
       },
       {
         "title": "Decisive turning points",
-        "text": "The departure of Cleopatra and Antony left the remaining fleet without its commander. Plutarch says it fought on until late afternoon before giving up; Livius, following Dio, describes lighter Italian ships setting the large galleys on fire.",
+        "text": "The departure of Cleopatra and Antony left the remaining fleet without its commander. Plutarch says it fought on until late afternoon before giving up; Dio, whom Livius follows, says that as the fight stayed even Octavian sent to his camp for fire, which he had avoided in the hope of taking the treasure, and that the lighter ships then set the large galleys ablaze with flaming missiles and pots of burning pitch.",
         "evidence": "fact",
         "refs": [
           {
@@ -1960,6 +2088,10 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "50.33–35"
           }
         ]
       },
@@ -2005,7 +2137,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Whether the escape was a planned breakout or a flight is debated: Livius treats it as a breakout that succeeded, while Plutarch presents Cleopatra's flight and Antony's pursuit of her as desertion of his men. Augustan propaganda, visible in Virgil and in monuments such as the Palestrina relief, cast the civil war as a foreign war and shaped later accounts. Plutarch's fleet and army figures are not repeated.",
+        "text": "Whether the escape was a planned breakout or a flight is debated: Livius treats it as a breakout that succeeded, while Plutarch presents Cleopatra's flight and Antony's pursuit of her as desertion of his men. Dio's narrative supports both readings: he describes the breakout as planned in council and disguised as preparation for battle, yet says Cleopatra, unable to bear the suspense, fled and that Antony followed believing her ships were beaten, and he explains her flight by her nature “as a woman and an Egyptian”, the hostile tradition at its plainest. Augustan propaganda, visible in Virgil and in monuments such as the Palestrina relief, cast the civil war as a foreign war and shaped later accounts. Plutarch's fleet and army figures are not repeated.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -2017,12 +2149,16 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "50.15, 50.33"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Plutarch's Life of Antony and Cassius Dio, through Livius's summary of 50.32–35, are the main narratives; Dio was not read directly. Livius treats Virgil's Aeneid 8 and the commemorative monuments as evidence of propaganda.",
+        "text": "Plutarch's Life of Antony and Cassius Dio's Roman History 50, in the Loeb translation on LacusCurtius, are the main narratives; Dio gives the Antonian council, Octavian's plans and the use of fire. Livius summarises Dio 50.32–35 and treats Virgil's Aeneid 8 and the commemorative monuments as evidence of propaganda.",
         "evidence": "fact",
         "refs": [
           {
@@ -2031,6 +2167,13 @@
           {
             "source": 1,
             "locator": "56–69"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "50.14–35"
           }
         ]
       }
@@ -2067,7 +2210,7 @@
         "forces": "Lighter, well-manned warships under Agrippa, and the legions in the camp on the northern promontory.",
         "terrain": "The narrow mouth of the Ambracian Gulf, which Antony had to pass.",
         "logistics": "Bases in the Peloponnese and at Patras that cut Antony's sea routes.",
-        "decision": "They refused battle while the blockade worked, then strengthened their wings against the breakout.",
+        "decision": "They refused battle while the blockade worked; Octavian thought of letting the enemy slip past to attack their rear until Agrippa dissuaded him, then they strengthened their wings, bent their line to envelop the enemy and finally used fire.",
         "outcome": "Antony and Cleopatra escaped, but their fleet was destroyed and their army surrendered."
       },
       {
@@ -2079,7 +2222,7 @@
         "forces": "Large warships carrying soldiers and archers, Cleopatra's squadron with the treasury, and a large army under Canidius.",
         "terrain": "A gulf whose mouth his fleet had to force.",
         "logistics": "Supply lines cut by Agrippa; Cleopatra's ships carried the treasury.",
-        "decision": "He burned surplus ships, attacked through the centre and followed Cleopatra when she broke away.",
+        "decision": "On Cleopatra's advice in council he chose to break out to Egypt, disguised the breakout as preparation for battle, burned surplus ships, attacked through the centre and followed Cleopatra when she broke away.",
         "outcome": "He escaped to Egypt but lost his fleet, his army and, in 30 BCE, his life."
       }
     ]
@@ -3301,12 +3444,17 @@
         "title": "Battle of Adrianople",
         "url": "https://www.britannica.com/event/Battle-of-Adrianople-378",
         "publisher": "Encyclopaedia Britannica (Michael Kerrigan)"
+      },
+      {
+        "title": "Jordanes, The Origin and Deeds of the Goths (trans. Charles C. Mierow)",
+        "url": "https://www.gutenberg.org/ebooks/14809",
+        "publisher": "Project Gutenberg"
       }
     ],
     "sections": [
       {
         "title": "Historical background",
-        "text": "Displaced by the Huns, Gothic groups moved toward the Roman frontier. The Tervingi were admitted into the empire in 376, and the Greuthungi crossed without permission. Relations with Roman officials broke down and the Goths revolted.",
+        "text": "Displaced by the Huns, Gothic groups moved toward the Roman frontier. The Tervingi were admitted into the empire in 376, and the Greuthungi crossed without permission. Relations with Roman officials broke down and the Goths revolted. Jordanes, a Christian Goth who wrote in 551, probably in Constantinople, tells the Goths' side: they asked Valens for land in Thrace or Moesia, promising to obey his laws and to become Christians, and he gladly settled them as a wall against other peoples, sending Arian preachers. When famine came, the Roman commanders Lupicinus and Maximus sold them food at extortionate prices, even the flesh of dogs, until parents sold their children; Lupicinus then invited Fritigern to a feast and had his companions killed, and Fritigern cut his way out and led the Goths to war.",
         "evidence": "fact",
         "refs": [
           {
@@ -3314,6 +3462,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "25–26 (131–137)"
           }
         ]
       },
@@ -3428,7 +3580,7 @@
       },
       {
         "title": "Outcome",
-        "text": "Valens was killed and his body was never found; Ammianus gives two versions of his death. Many senior officers fell, and Ammianus compares the disaster with Cannae.",
+        "text": "Valens was killed and his body was never found; Ammianus gives two versions of his death. Jordanes follows one of them: wounded, Valens fled to a farm near Adrianople, and the Goths, not knowing an emperor lay hidden there, set fire to it. Many senior officers fell, and Ammianus compares the disaster with Cannae.",
         "evidence": "fact",
         "refs": [
           {
@@ -3440,6 +3592,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "26 (138)"
           }
         ]
       },
@@ -3469,7 +3625,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Ammianus treated the battle as a turning point; Livius says many later writers followed him although the view is not necessarily correct, while Britannica presents it as a victory of horsemen over elite infantry and the start of serious Germanic inroads. Livius's pages give two dates for Valens's death, 9 and 2 August. The circumstances of his death are uncertain, and Ammianus's figures for Roman losses are not repeated.",
+        "text": "Ammianus treated the battle as a turning point; Livius says many later writers followed him although the view is not necessarily correct, while Britannica presents it as a victory of horsemen over elite infantry and the start of serious Germanic inroads. Livius's pages give two dates for Valens's death, 9 and 2 August. The circumstances of his death are uncertain, and Ammianus's figures for Roman losses are not repeated. Jordanes, whom his translator's edition calls a eulogist of the Gothic race, gives a Gothic and Catholic reading: he blames Roman greed and treachery for the revolt, says the Goths preferred to die fighting rather than of hunger, and calls Valens's burning the judgement of God on the emperor who had made the Goths Arians. His account of the battle itself is a single sentence.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -3481,12 +3637,16 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "25–26 (131–138)"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Ammianus Marcellinus 31.12–13 is the main narrative. Livius and Britannica, read in a browser, give modern summaries. Orosius was not read.",
+        "text": "Ammianus Marcellinus 31.12–13 is the main narrative. Livius and Britannica, read in a browser, give modern summaries. Jordanes's Getica, in Charles Mierow's translation on Project Gutenberg, gives the only surviving account written from the Gothic side. Orosius was not read.",
         "evidence": "fact",
         "refs": [
           {
@@ -3498,6 +3658,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -3540,7 +3703,7 @@
       {
         "name": "Fritigern",
         "objective": "Win land in Thrace for his people.",
-        "known": "Valens's army was approaching while his own cavalry was away.",
+        "known": "Valens's army was approaching while his own cavalry was away; in Jordanes's account, the Roman commanders had already starved his people and tried to murder him at a feast.",
         "uncertainty": "Whether the cavalry would return before the battle began.",
         "constraints": "He had to hold the Romans off until his allies arrived.",
         "forces": "Tervingi around the wagon ring, with Greuthungi and Alan cavalry under Alatheus and Saphrax.",

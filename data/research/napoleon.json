@@ -279,6 +279,16 @@
         "title": "Bullet Point #7: How did Napoleon participate in the early Revolution? (Thierry Lentz)",
         "url": "https://www.napoleon.org/en/history-of-the-two-empires/articles/bullet-point-7-napoleon-participate-early-revolution/",
         "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Memoirs of Count Lavalette (Philadelphia: J. B. Lippincott, 1894)",
+        "url": "https://archive.org/details/cu31924024337176",
+        "publisher": "Internet Archive"
+      },
+      {
+        "title": "Memoirs and Correspondence of Mallet du Pan, ed. A. Sayous, vol. 2 (London: Bentley, 1852)",
+        "url": "https://archive.org/details/memoirscorrespon02sayouoft",
+        "publisher": "Internet Archive"
       }
     ],
     "sections": [
@@ -297,7 +307,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "In October 1795 the National Convention, about to dissolve, submitted the Constitution of the Year III to a referendum, together with decrees requiring two-thirds of its members to be re-elected to the new assemblies. Royalists, hoping soon to restore the monarchy, raised a revolt in Paris to prevent these measures from taking effect.",
+        "text": "In October 1795 the National Convention, about to dissolve, submitted the Constitution of the Year III to a referendum, together with decrees requiring two-thirds of its members to be re-elected to the new assemblies. Godechot describes a revolt raised in Paris by royalists hoping soon to restore the monarchy, to prevent these measures from taking effect. Lavalette, then in Paris, describes the sections' primary assemblies roused against the Convention's members by embittered orators and, secretly, by royalists. The royalist Mallet du Pan, writing from Switzerland, reported that the Paris sections had almost unanimously rejected the re-election decree and that their movement joined the men of 1789 and the constitutional monarchists with the royalists.",
         "evidence": "fact",
         "refs": [
           {
@@ -305,6 +315,14 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "pp. 93–94"
+          },
+          {
+            "source": 4,
+            "locator": "pp. 188–190"
           }
         ]
       },
@@ -336,7 +354,7 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Barras commanded the army of Paris, the Army of the Interior, with Bonaparte as his second in command; Murat fetched the cannon from the camp of Les Sablons. The insurgents were armed citizens of the royalist sections of Paris. The sources read give no numbers.",
+        "text": "Barras commanded the army of Paris, the Army of the Interior, with Bonaparte as his second in command; Murat fetched the cannon from the camp of Les Sablons. The insurgents were armed citizens of the royalist sections of Paris, whose national guard battalions, Lavalette says, far outnumbered the regular troops; he says the government marched its few troops in and out of the city gates to disguise their weakness, and that the sections' commander, General Danican, was almost unknown. Mallet du Pan says the sections went into battle without cannon, munitions, plan or general. Lavalette's figures are not repeated here.",
         "evidence": "fact",
         "refs": [
           {
@@ -347,12 +365,20 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "pp. 94–95, 98"
+          },
+          {
+            "source": 4,
+            "locator": "p. 195"
           }
         ]
       },
       {
         "title": "Initial deployment",
-        "text": "Barras, unwilling to rely on the commander of the troops of the interior and re-employing generals on half pay, chose Bonaparte, whom he had known at Toulon. Bonaparte placed the guns on all the avenues leading to the Tuileries.",
+        "text": "Barras, unwilling to rely on the commander of the troops of the interior and re-employing generals on half pay, chose Bonaparte, whom he had known at Toulon. Lavalette explains the distrust: on the evening of 12 Vendémiaire General Menou, sent to disperse a section battalion in the Rue Vivienne, let himself be harangued, withdrew and was relieved that night. Bonaparte placed the guns on all the avenues leading to the Tuileries; Lavalette lists guns at the Rue Saint-Nicaise, facing the church of Saint-Roch, in the Rue Saint-Honoré and facing the Pont Royal, with infantry behind them and cavalry in the Place Louis XV, and says the battalions were warned that they would be fired on if they advanced or fired a shot.",
         "evidence": "fact",
         "refs": [
           {
@@ -363,12 +389,16 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "pp. 95–97"
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "On 13 Vendémiaire Year IV (5 October 1795) the rebel columns marched on the Convention and were shot down by Bonaparte's guns; Lentz writes that grapeshot was fired at the rioters on the steps of and around Saint-Roch. The insurgents fell back, and the Convention was saved.",
+        "text": "On 13 Vendémiaire Year IV (5 October 1795) the rebel columns marched on the Convention and were shot down by Bonaparte's guns; Lentz writes that grapeshot was fired at the rioters on the steps of and around Saint-Roch. Lavalette, who carried orders for the defence that day, says a volley of musketry from the sections began the fight, that columns advancing along the quays toward the Pont Royal were dispersed by two guns, and that the most determined held the Palais-Royal until they went home the next morning. The insurgents fell back, and the Convention was saved.",
         "evidence": "fact",
         "refs": [
           {
@@ -379,6 +409,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "pp. 97–98"
           }
         ]
       },
@@ -410,7 +444,7 @@
       },
       {
         "title": "Outcome",
-        "text": "The insurrection was crushed and, in the words of the sources, the Convention and the Republic were saved. Armed citizens were shot down in the streets of Paris; the sources read give no figures. Bonaparte was promoted général de division on 15 October.",
+        "text": "The insurrection was crushed and, in the words of the sources, the Convention and the Republic were saved. Armed citizens were shot down in the streets of Paris; the sources read give no reliable figures. Lavalette says a court-martial acquitted the leaders except one émigré, Lafont, who was executed, and that the citizens of Paris were then disarmed. Mallet du Pan notes that the Paris electors still returned deputies who had sided with the sections. Bonaparte was promoted général de division on 15 October.",
         "evidence": "fact",
         "refs": [
           {
@@ -421,6 +455,14 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "pp. 98–100"
+          },
+          {
+            "source": 4,
+            "locator": "pp. 192–193"
           }
         ]
       },
@@ -452,7 +494,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Accounts of Saint-Roch differ: Lentz and contemporary images show grapeshot fired on the rioters on the church steps, while Godechot's biography of Barras rejects the shooting on the steps as legend and says the royalists fell back before Bonaparte's dispositions. The sources read give no casualty figures. This was not a field battle but the armed suppression of a political insurrection.",
+        "text": "Accounts of Saint-Roch differ: Lentz and contemporary images show grapeshot fired on the rioters on the church steps, while Godechot's biography of Barras rejects the shooting on the steps as legend and says the royalists fell back before Bonaparte's dispositions. Lavalette supports the first version: he says the steps were crowded and a gun fired on them at close range. The rising's aims are disputed by the two new witnesses. Lavalette, who knew men on the sections' side, denies that they meant to restore the Bourbons and says they wanted a republic governed by honest men. Mallet du Pan, a royalist agent writing privately to an émigré, insists that victory for the sections would have brought back the monarchy, and blames their defeat on a premature rising stirred up from abroad and on the king's declaration from Verona, which he says divided and chilled their supporters. Lavalette served the Convention that day and later became Napoleon's aide-de-camp; Mallet du Pan wrote from abroad and was not an eyewitness. Lavalette's casualty figures are not used. This was not a field battle but the armed suppression of a political insurrection.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -463,12 +505,20 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "pp. 97–99"
+          },
+          {
+            "source": 4,
+            "locator": "pp. 192–196"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Jacques Godechot's Britannica biography of Napoleon gives the political setting, his biography of Barras in the Dictionnaire Napoléon the defence of the Convention, and Thierry Lentz's article for the Fondation Napoléon Bonaparte's place in the early Revolution.",
+        "text": "Jacques Godechot's Britannica biography of Napoleon gives the political setting, his biography of Barras in the Dictionnaire Napoléon the defence of the Convention, and Thierry Lentz's article for the Fondation Napoléon Bonaparte's place in the early Revolution. Lavalette's memoirs give an eyewitness account from the Convention's side, and Mallet du Pan's letters of 1795 the royalist view from abroad; both are read in nineteenth-century English editions on the Internet Archive.",
         "evidence": "fact",
         "refs": [
           {
@@ -479,6 +529,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -521,7 +577,7 @@
       {
         "name": "Paul Barras",
         "objective": "Save the Convention and the new constitution.",
-        "known": "The royalists were in revolt against the two-thirds decrees.",
+        "known": "The sections were in revolt against the two-thirds decrees, and General Menou had failed to disperse a section battalion the evening before.",
         "uncertainty": "Whether the regular commander of the troops of the interior could be relied on.",
         "constraints": "Few reliable generals at hand in Paris.",
         "forces": "The army of Paris placed under his command.",
@@ -529,6 +585,18 @@
         "logistics": "Re-employing generals on half pay.",
         "decision": "He appointed Bonaparte, whom he knew from Toulon, as his second in command.",
         "outcome": "The Convention survived, and Barras entered the Directory."
+      },
+      {
+        "name": "The Paris sections",
+        "objective": "Overturn the two-thirds decrees and remove the Convention's members from power: a republic of honest men in Lavalette's account, a restored monarchy in Mallet du Pan's.",
+        "known": "The Convention had few regular troops in Paris, and its first commander had backed away from a confrontation.",
+        "uncertainty": "Whether the government's troops would fire on armed citizens; Lavalette says Bonaparte's warning was taken as a sign that he would not dare.",
+        "constraints": "Mallet du Pan says they had no cannon, too little ammunition, no plan and no general of standing.",
+        "forces": "National guard battalions of the sections under General Danican.",
+        "terrain": "The streets around Saint-Roch and the Rue Saint-Honoré, the quays toward the Pont Royal and the Palais-Royal.",
+        "logistics": "Muskets but no artillery against guns placed on every approach.",
+        "decision": "They marched in columns on the Tuileries from the Rue Saint-Honoré and along the quays.",
+        "outcome": "They were dispersed by artillery; Lavalette says the leaders were acquitted but the city was disarmed."
       }
     ]
   },
@@ -4265,6 +4333,11 @@
         "title": "Ney, Michel, duc d'Elchingen (François-Guy Hourtoulle, Dictionnaire Napoléon)",
         "url": "https://www.napoleon.org/histoire-des-2-empires/biographies/ney-michel-duc-delchingen-prince-de-la-moskowa-1769-1815-marechal/",
         "publisher": "Fondation Napoléon"
+      },
+      {
+        "title": "Sir Robert Wilson, Brief Remarks on the Character and Composition of the Russian Army, and a Sketch of the Campaigns in Poland in the Years 1806 and 1807 (London, 1810)",
+        "url": "https://archive.org/details/10526383bsb",
+        "publisher": "Internet Archive"
       }
     ],
     "sections": [
@@ -4290,7 +4363,7 @@
       },
       {
         "title": "Campaign objectives",
-        "text": "Napoleon marched toward Eylau to place himself between the Russians and the Prussians at Königsberg, and ordered Lannes to occupy Friedland. Bennigsen crossed the Alle there, believing Lannes was marching on Königsberg.",
+        "text": "Napoleon marched toward Eylau to place himself between the Russians and the Prussians at Königsberg, and ordered Lannes to occupy Friedland. Bennigsen crossed the Alle there, believing Lannes was marching on Königsberg. Wilson, who was at Russian headquarters, says prisoners had told Bennigsen that only Oudinot's troops, badly mauled at Heilsberg, stood in front of the town, and that he crossed to destroy it at dawn; resistance grew until he found himself engaged with Lannes and Mortier and their cavalry.",
         "evidence": "fact",
         "refs": [
           {
@@ -4298,16 +4371,24 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "pp. 152–153"
           }
         ]
       },
       {
         "title": "Geography and terrain",
-        "text": "Friedland lies on the Alle. By crossing, the Russians fought in a loop of the river with the bridges behind them; a ford lay downstream at Kloschenen.",
+        "text": "Friedland lies on the Alle. By crossing, the Russians fought in a loop of the river with the bridges behind them; a ford lay downstream at Kloschenen. Wilson describes a semicircular plain in front of the town, cut by a deep, water-filled ravine running into a lake beside it, ringed by woods that hid the French while the Russians stood in the open, with steep river banks and fords that were unknown until late in the day.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "pp. 153–154"
           }
         ]
       },
@@ -4323,21 +4404,29 @@
       },
       {
         "title": "Initial deployment",
-        "text": "From about 3 a.m. on 14 June, Lannes held off a much larger Russian force under fire from guns on the far bank of the Alle.",
+        "text": "From about 3 a.m. on 14 June, Lannes held off a much larger Russian force under fire from guns on the far bank of the Alle. Wilson says the early French attacks on the Russian right were beaten back, but that Bennigsen sent a strong detachment, including part of the Guard, back across the river to cover his line of retreat at Allenburg, and built no works to cover the town and its bridges.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "pp. 154–156"
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "Napoleon arrived around 2 p.m. His plan was for Ney to advance from the Sortlach woods, break Bagration's front, take the town and destroy the bridges. Sénarmont pushed about forty guns forward to close range and silenced the Russian batteries. Ney took Friedland and the bridges were destroyed; many Russians drowned trying to swim the river. The battle was over by 10 p.m.",
+        "text": "Napoleon arrived around 2 p.m. His plan was for Ney to advance from the Sortlach woods, break Bagration's front, take the town and destroy the bridges. Sénarmont pushed about forty guns forward to close range and silenced the Russian batteries. Wilson, describing the day from the Russian lines, says the Russian artillery was almost out of ammunition and no reserve was left when the French attack came late in the afternoon; a bayonet charge by the Russian Guard briefly threw back Ney's leading troops before a French reserve division drove it in. Ney took Friedland and the bridges were destroyed; many Russians drowned trying to swim the river. In Wilson's account the Russian centre and right fell back in order and crossed that night by a ford, wading chest-deep. The battle was over by 10 p.m.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "pp. 156–161"
           }
         ]
       },
@@ -4353,7 +4442,7 @@
       },
       {
         "title": "Decisive turning points",
-        "text": "The destruction of the bridges trapped the Russians against the river.",
+        "text": "The destruction of the bridges trapped the Russians against the river. Wilson says the bridges were set on fire during the fighting for the town and burned despite French efforts to save them.",
         "evidence": "fact",
         "refs": [
           {
@@ -4361,12 +4450,16 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "p. 160"
           }
         ]
       },
       {
         "title": "Outcome",
-        "text": "Britannica calls it a crushing defeat of the Russians. Bennigsen himself escaped before the bridges went.",
+        "text": "Britannica calls it a crushing defeat of the Russians. Bennigsen himself escaped before the bridges went. Wilson insists that the army retired in order, saved almost all its guns and lost no colours, and that its baggage was brought away across the Pregel and the Neman.",
         "evidence": "fact",
         "refs": [
           {
@@ -4374,6 +4467,10 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "pp. 161–164"
           }
         ]
       },
@@ -4405,7 +4502,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Ganière explains Bennigsen's crossing of the Alle by his belief that Lannes was marching on Königsberg. The French entered Königsberg on 15 June according to Ganière, while Britannica has the Prussians abandon it on the 16th. Hourtoulle calls Ney's conduct at Friedland brilliant without describing it. Casualty estimates differ and are not repeated here.",
+        "text": "Ganière explains Bennigsen's crossing of the Alle by his belief that Lannes was marching on Königsberg, Wilson by false information from prisoners; Wilson calls it a battle begun through an error of information and continued for fear of retreating, and regrets, without censuring it, the detachment sent to Allenburg. He asks why Napoleon did not send a corps across the river to cut off the Russians, and quotes an unnamed French general calling Friedland a battle gained and a victory lost. Wilson was a British officer attached to the Russian army who wrote in 1810 to defend it, and he disputes the French bulletin's claims; his and the bulletin's figures are not used. The French entered Königsberg on 15 June according to Ganière, while Britannica has the Prussians abandon it on the 16th. Hourtoulle calls Ney's conduct at Friedland brilliant without describing it. Casualty estimates differ and are not repeated here.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -4416,12 +4513,16 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "pp. 158, 161–163"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Paul Ganière's article in the Revue du Souvenir Napoléonien gives the detailed narrative. Britannica's account of the 1807 campaign gives the setting and the peace, and Hourtoulle's biography of Ney adds his role.",
+        "text": "Paul Ganière's article in the Revue du Souvenir Napoléonien gives the detailed narrative. Britannica's account of the 1807 campaign gives the setting and the peace, and Hourtoulle's biography of Ney adds his role. Sir Robert Wilson's sketch of the campaign, on the Internet Archive, gives the battle as seen from the Russian headquarters.",
         "evidence": "fact",
         "refs": [
           {
@@ -4432,6 +4533,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -4473,15 +4577,15 @@
       },
       {
         "name": "Levin August von Bennigsen",
-        "objective": "Strike the French force near Friedland.",
-        "known": "Lannes's corps stood near Friedland.",
+        "objective": "Destroy what he believed was an isolated French force near Friedland, then hold his ground until nightfall.",
+        "known": "Lannes's corps stood near Friedland; Wilson says prisoners told him that only Oudinot's battered troops were there.",
         "uncertainty": "How quickly the rest of the French army would arrive.",
-        "constraints": "Bridges and a river behind his army.",
+        "constraints": "Bridges and a river behind his army, and troops who, Wilson says, had marched through the night without food.",
         "forces": "The Russian army.",
         "terrain": "A loop of the Alle around Friedland.",
-        "logistics": "Dependent on the bridges for retreat.",
-        "decision": "He crossed the Alle and attacked Lannes.",
-        "outcome": "His army was trapped against the river and defeated."
+        "logistics": "Dependent on the bridges for retreat; Wilson says his artillery was almost out of ammunition by the evening.",
+        "decision": "He crossed the Alle and attacked Lannes, then sent a detachment back to cover his line of retreat at Allenburg.",
+        "outcome": "His army was trapped against the river and defeated; Wilson says its centre and right escaped by a ford with almost all their guns."
       }
     ]
   },

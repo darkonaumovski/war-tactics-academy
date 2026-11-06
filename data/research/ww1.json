@@ -16,6 +16,16 @@
         "title": "Erich von Falkenhayn's “Christmas Memorandum” (December 1915), trans. Jeffrey Verhey",
         "url": "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi:document-812",
         "publisher": "German History in Documents and Images (German Historical Institute Washington)"
+      },
+      {
+        "title": "Erich von Falkenhayn, General Headquarters, 1914–1916, and its Critical Decisions (London: Hutchinson, 1919)",
+        "url": "https://archive.org/details/generalheadquart00falk",
+        "publisher": "Internet Archive"
+      },
+      {
+        "title": "Crown Prince Wilhelm of Germany, My War Experiences (London: Hurst and Blackett, n.d.)",
+        "url": "https://archive.org/details/mywarexperiences00wilh",
+        "publisher": "Internet Archive"
       }
     ],
     "sections": [
@@ -50,7 +60,7 @@
       },
       {
         "title": "Campaign objectives",
-        "text": "Imperial War Museums describes Falkenhayn's concept as using more than 1,200 guns to destroy French units on ground they had to retake, while committing German infantry sparingly. The memorandum states the idea in his own terms: attack an objective the French would defend with their last man, so that France would bleed to death whether or not Germany took it, in a limited operation whose tempo Germany could control; of Belfort and Verdun, Verdun was to be preferred. The French aimed simply to hold Verdun.",
+        "text": "Imperial War Museums describes Falkenhayn's concept as using more than 1,200 guns to destroy French units on ground they had to retake, while committing German infantry sparingly. The memorandum states the idea in his own terms: attack an objective the French would defend with their last man, so that France would bleed to death whether or not Germany took it, in a limited operation whose tempo Germany could control; of Belfort and Verdun, Verdun was to be preferred. His memoir adds that he rejected an attack farther west because it would have become a conventional breakthrough, where the French had room to evade the blow and Germany lacked the troops to follow it up; the aim was to do the enemy the greatest harm at the least cost in German lives. Crown Prince Wilhelm, whose army made the attack, wrote that he wanted to take the fortress itself and remove a permanent threat to German communications. The French aimed simply to hold Verdun.",
         "evidence": "fact",
         "refs": [
           {
@@ -58,6 +68,14 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "pp. 223–225"
+          },
+          {
+            "source": 4,
+            "locator": "pp. 165–166"
           }
         ]
       },
@@ -76,7 +94,7 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "The German Fifth Army attacked under Crown Prince Wilhelm, with General Schmidt von Knobelsdorf an influential adviser. The French Second Army was commanded from 26 February by Philippe Pétain and later by Robert Nivelle, under Joffre as commander-in-chief.",
+        "text": "The German Fifth Army attacked under Crown Prince Wilhelm, with General Schmidt von Knobelsdorf an influential adviser. Falkenhayn assigned the army nine rested and specially trained divisions for the first attack, with more held for relief, and kept part of the army reserve elsewhere against a British relief offensive. The Crown Prince says he and Knobelsdorf argued for an attack on both banks of the Meuse at once and that their protests were overruled. The French Second Army was commanded from 26 February by Philippe Pétain and later by Robert Nivelle, under Joffre as commander-in-chief.",
         "evidence": "fact",
         "refs": [
           {
@@ -84,16 +102,28 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "pp. 228–230"
+          },
+          {
+            "source": 4,
+            "locator": "pp. 165–167"
           }
         ]
       },
       {
         "title": "Initial deployment",
-        "text": "French positions north of the city were thin. Lieutenant-Colonel Driant, who had warned of the weak defences, held woods in the path of the attack with about 1,200 light infantry; only around a hundred survived unhurt.",
+        "text": "French positions north of the city were thin. Lieutenant-Colonel Driant, who had warned of the weak defences, held woods in the path of the attack with about 1,200 light infantry; only around a hundred survived unhurt. Falkenhayn writes that feint attacks along the rest of the front kept the French uncertain of the sector, that he believed the secret had leaked through careless talk in Berlin society, and that rain and poor visibility delayed the bombardment until 21 February.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "pp. 222–223, 231–233"
           }
         ]
       },
@@ -112,7 +142,7 @@
       },
       {
         "title": "Important command decisions",
-        "text": "Pétain defended in depth with mutually supporting strongpoints, rotated divisions through the battle in a system called the noria and greatly increased French artillery. Crown Prince Wilhelm's staff, by contrast, made seizing ground the priority rather than Falkenhayn's limited concept.",
+        "text": "Pétain defended in depth with mutually supporting strongpoints, rotated divisions through the battle in a system called the noria and greatly increased French artillery. Falkenhayn attacked the east bank first, accepting flanking fire from French guns across the river, and in March extended the attack to the west bank to reach those batteries, deciding against moving the offensive elsewhere. Crown Prince Wilhelm's staff, by contrast, made seizing ground the priority rather than Falkenhayn's limited concept; the Crown Prince himself writes that he came to favour breaking off the offensive, while his chief of staff Knobelsdorf insisted on continuing it. In May, he says, Knobelsdorf returned from General Headquarters committed to a new attack, the Crown Prince refused to order it on his own responsibility, and General Headquarters ordered it.",
         "evidence": "fact",
         "refs": [
           {
@@ -120,16 +150,28 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "pp. 228–229, 233–236"
+          },
+          {
+            "source": 4,
+            "locator": "pp. 193–194, 206"
           }
         ]
       },
       {
         "title": "Decisive turning points",
-        "text": "Once both armies fought for ground rather than to destroy the other's units, losses fell equally on both. The Somme offensive from late June then forced Germany to reduce its effort at Verdun and let Nivelle attack.",
+        "text": "Once both armies fought for ground rather than to destroy the other's units, losses fell equally on both. The Somme offensive from late June then forced Germany to reduce its effort at Verdun and let Nivelle attack. Falkenhayn adds that from July the operation had to be restricted because reserves were needed after the collapse of the Austro-Hungarian front in Galicia.",
         "evidence": "interpretation",
         "refs": [
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "pp. 285–286"
           }
         ]
       },
@@ -171,7 +213,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Falkenhayn's postwar claim that he meant to bleed the French army white is debated; other readings stress the capture of the town or drawing in Allied reserves. The Christmas memorandum that states the claim is printed in his own memoir of 1920, from which German History in Documents and Images takes its text, and its editors read it chiefly as a strategy against Britain. The sources differ on the start of the bombardment (4 a.m. or 7.15 a.m.), the end date (15 or 18 December) and when Pétain left (late April or May).",
+        "text": "Falkenhayn's postwar claim that he meant to bleed the French army white is debated; other readings stress the capture of the town or drawing in Allied reserves. The Christmas memorandum that states the claim is printed in his own memoir of 1920, from which German History in Documents and Images takes its text, and its editors read it chiefly as a strategy against Britain; the English edition of 1919 introduces it as a document written at Christmas 1915. The memoir defends the battle after his dismissal in August 1916, claiming it wore down the French army and limited its part on the Somme; his comparisons of losses are not repeated here. The Crown Prince's memoir gives a different picture of the German command: he says he was uneasy from the start at Falkenhayn's repeated talk of bleeding the French army white, wanted the fortress rather than a battle of attrition, and blames the continuation of the battle on Knobelsdorf and Falkenhayn. Both memoirs were written after the war by commanders defending their own conduct. The sources differ on the start of the bombardment (4 a.m. or 7.15 a.m.), the end date (15 or 18 December) and when Pétain left (late April or May).",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -182,12 +224,20 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "pp. 209, 237, 284–286"
+          },
+          {
+            "source": 4,
+            "locator": "pp. 165–167, 193–194"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The Mémorial de Verdun gives a detailed French chronology, logistics and memory. Imperial War Museums gives the strategic concept and the changing German conduct of the battle. Falkenhayn's Christmas memorandum, in Jeffrey Verhey's translation, gives the German commander's stated reasoning as he published it after the war.",
+        "text": "The Mémorial de Verdun gives a detailed French chronology, logistics and memory. Imperial War Museums gives the strategic concept and the changing German conduct of the battle. Falkenhayn's Christmas memorandum, in Jeffrey Verhey's translation, gives the German commander's stated reasoning as he published it after the war. His memoir and Crown Prince Wilhelm's, both in contemporary English translations on the Internet Archive, give the two German commanders' accounts of the planning and their disagreement over whether to continue.",
         "evidence": "fact",
         "refs": [
           {
@@ -198,6 +248,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -229,13 +285,13 @@
         "name": "Erich von Falkenhayn",
         "objective": "Defeat France before British forces reached full strength, and so open the way to a negotiated peace.",
         "known": "French losses in 1914–1915 had been heavy, and in his memorandum he judged France weakened almost to the limit of what it could endure; Verdun's forts had lost their guns in August 1915.",
-        "uncertainty": "Whether the French would defend Verdun at any cost, and whether his subordinates would keep to a limited, artillery-led attack.",
+        "uncertainty": "Whether the French would defend Verdun at any cost, whether his subordinates would keep to a limited, artillery-led attack, and whether the British would mount a relief offensive elsewhere, against which he held back reserves.",
         "constraints": "Germany's limited manpower, and an army command that pursued the capture of ground.",
         "forces": "The Fifth Army under Crown Prince Wilhelm with more than 1,200 guns.",
         "terrain": "Heights on the east bank of the Meuse that dominated the city and its forts.",
         "logistics": "Verdun's limited supply routes appeared to favour the attacker.",
-        "decision": "He launched an artillery-heavy offensive on the east bank on 21 February and extended it to the west bank in March.",
-        "outcome": "The plan failed. German losses at Verdun and the Somme together produced a manpower crisis."
+        "decision": "He launched an artillery-heavy offensive on the east bank on 21 February and extended it to the west bank in March, after masking the sector with feint attacks elsewhere.",
+        "outcome": "The plan failed. German losses at Verdun and the Somme together produced a manpower crisis; in his memoir he maintained that the battle had worn down the French army."
       },
       {
         "name": "Philippe Pétain",
@@ -248,6 +304,18 @@
         "logistics": "The Voie Sacrée from Bar-le-Duc carried about 90,000 men and 50,000 tonnes of equipment a week.",
         "decision": "He defended in depth, rotated divisions through the battle and kept the supply road open.",
         "outcome": "Verdun held. He was succeeded by Nivelle, whose later counterattacks recovered much of the lost ground."
+      },
+      {
+        "name": "Crown Prince Wilhelm",
+        "objective": "In his own account, capture the fortress of Verdun and remove its threat to German communications, rather than fight a battle of attrition.",
+        "known": "Falkenhayn had approved an attack north of Verdun but limited it to the east bank of the Meuse.",
+        "uncertainty": "Whether the fortress could be taken by the means allotted, and whether the attack should continue once the first advance had stalled.",
+        "constraints": "General Headquarters controlled the reserves, and his chief of staff, Knobelsdorf, held views closer to Falkenhayn's than to his own.",
+        "forces": "The Fifth Army, reinforced with specially trained divisions and heavy artillery.",
+        "terrain": "The heights on the east bank, under flanking fire from French guns on the west bank.",
+        "logistics": "Reinforcements, guns and ammunition depended on allocations from General Headquarters.",
+        "decision": "He argued for an attack on both banks and, by his account, later for breaking the offensive off; in May he refused to order a new attack on his own responsibility.",
+        "outcome": "The attacks went on under orders from General Headquarters; his memoir presents the continuation as a waste of his best troops."
       }
     ]
   },

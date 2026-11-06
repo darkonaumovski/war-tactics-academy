@@ -622,6 +622,21 @@
         "title": "Arrian, Anabasis of Alexander 2.15–24 (trans. E. J. Chinnock)",
         "url": "https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_II/Chapter_XV",
         "publisher": "Wikisource"
+      },
+      {
+        "title": "Diodorus Siculus, Library of History 17.40–46 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/17C%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Plutarch, Life of Alexander 24–25 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Alexander%2A/4.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Alexander the Great — Pierre Briant",
+        "url": "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/",
+        "publisher": "Encyclopaedia Iranica"
       }
     ],
     "sections": [
@@ -655,7 +670,7 @@
       },
       {
         "title": "Campaign objectives",
-        "text": "Arrian gives Alexander a speech arguing that Egypt and Babylon could not safely be attempted while Persia held the sea, and that taking Tyre would bring the Phoenician fleet and Cyprus over to him. Livius regards the siege as strategically unnecessary and its cause as religious: Tyre refused Alexander the right to sacrifice to its god Melqart, whom the Greeks identified with Heracles, and Arrian has the Tyrians refuse to admit any Persian or Macedonian into the city.",
+        "text": "Arrian gives Alexander a speech arguing that Egypt and Babylon could not safely be attempted while Persia held the sea, and that taking Tyre would bring the Phoenician fleet and Cyprus over to him. Livius regards the siege as strategically unnecessary and its cause as religious: Tyre refused Alexander the right to sacrifice to its god Melqart, whom the Greeks identified with Heracles, and Arrian has the Tyrians refuse to admit any Persian or Macedonian into the city. Diodorus gives the Tyrians' own reasons: to keep faith with Darius and earn his gratitude, to tie Alexander down in a long siege while the king prepared, and confidence in their island, their forces and help from their colonists at Carthage. He has Alexander resolve to take any risk rather than let the army be held in contempt by a single city.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -664,6 +679,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "17.40"
           }
         ]
       },
@@ -705,7 +724,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "Livius dates the siege from January to July 332 BCE. A Tyrian fireship burned the first towers, and Alexander widened the mole and went to Sidon for ships. With the Phoenician and Cypriot squadrons he blockaded both harbours, cleared stones dropped in the approaches and brought ship-mounted engines against the walls. Arrian dates the fall to the Athenian month Hecatombaeon.",
+        "text": "Livius dates the siege from January to July 332 BCE. A Tyrian fireship burned the first towers, and Alexander widened the mole and went to Sidon for ships. Diodorus adds that as the mole advanced the Tyrians sent part of their women and children to Carthage, that a gale wrecked part of the mole and Alexander rebuilt it with whole trees to break the waves, and that the defenders' engineers met each attack with new devices: spinning wheels to deflect missiles, padded hides to absorb stones, barbed tridents and nets to drag men from the siege bridges, and heated sand poured on the attackers. Plutarch records that during the siege Alexander led a raid against the Arabs of the Antilibanus. With the Phoenician and Cypriot squadrons Alexander blockaded both harbours, cleared stones dropped in the approaches and brought ship-mounted engines against the walls. Arrian dates the fall to the Athenian month Hecatombaeon.",
         "evidence": "fact",
         "refs": [
           {
@@ -717,17 +736,29 @@
           {
             "source": 2,
             "locator": "2.19–24"
+          },
+          {
+            "source": 3,
+            "locator": "17.41–45"
+          },
+          {
+            "source": 4,
+            "locator": "24"
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Alexander's decisive choice was to accept that the city could not be taken from the land alone and to assemble a fleet. The Tyrians chose to defend the city rather than admit a Macedonian presence, a choice Arrian presents as caution while the outcome of the war was still uncertain.",
+        "text": "Alexander's decisive choice was to accept that the city could not be taken from the land alone and to assemble a fleet. Diodorus says that after one assault was beaten back his first impulse was to abandon the siege and march to Egypt, and that he changed his mind because it would be a disgrace to leave the Tyrians the glory, with only Amyntas son of Andromenes supporting him. The Tyrians chose to defend the city rather than admit a Macedonian presence, a choice Arrian presents as caution while the outcome of the war was still uncertain.",
         "evidence": "fact",
         "refs": [
           {
             "source": 2,
             "locator": "2.16, 2.19"
+          },
+          {
+            "source": 3,
+            "locator": "17.45"
           }
         ]
       },
@@ -747,7 +778,7 @@
       },
       {
         "title": "Outcome",
-        "text": "Hypaspists under Admetus and Coenus's battalion crossed from ships into the breach while the fleets forced both harbours; resistance ended at the shrine of Agenor. Arrian says the Macedonians were enraged by the length of the siege and by the Tyrians' killing of captured Macedonians on the walls. Those who had taken refuge in the temple of Heracles, including King Azemilcus and Carthaginian envoys, were spared. The rest were killed or sold into slavery, and Curtius reports survivors crucified along the shore.",
+        "text": "Hypaspists under Admetus and Coenus's battalion crossed from ships into the breach while the fleets forced both harbours; resistance ended at the shrine of Agenor. Plutarch says Alexander ordered the last day of the month to be counted as an earlier date so that his seer's prediction of capture within the month could still come true, and that the assault grew so fierce that troops left in camp ran to join it. Diodorus has Alexander cross to the wall by a bridge from a siege tower while a ram breached it elsewhere, and the Tyrians fight on behind barricades in the streets. Arrian says the Macedonians were enraged by the length of the siege and by the Tyrians' killing of captured Macedonians on the walls. Those who had taken refuge in the temple of Heracles, including King Azemilcus and Carthaginian envoys, were spared. The rest were killed or sold into slavery, and both Curtius and Diodorus report crucifixions.",
         "evidence": "fact",
         "refs": [
           {
@@ -757,12 +788,20 @@
           {
             "source": 0,
             "locator": "4.4.10–21"
+          },
+          {
+            "source": 3,
+            "locator": "17.46"
+          },
+          {
+            "source": 4,
+            "locator": "25"
           }
         ]
       },
       {
         "title": "Consequences",
-        "text": "The Tyrians had recalled their ships from the Aegean, as had the other Phoenician cities, ending the Persian naval offensive there; with Tyre fallen, the fleet had lost its Phoenician bases. Alexander sacrificed to Heracles in the city, and the road south to Gaza and Egypt was open.",
+        "text": "The Tyrians had recalled their ships from the Aegean, as had the other Phoenician cities, ending the Persian naval offensive there; with Tyre fallen, the fleet had lost its Phoenician bases. Alexander sacrificed to Heracles in the city, and Diodorus says he installed a new king. The road south to Gaza and Egypt was open. Briant cites the seven-month siege as evidence that the Persian empire did not collapse after Issus: the coastal advance to Egypt was far from easy.",
         "evidence": "fact",
         "refs": [
           {
@@ -771,6 +810,13 @@
           {
             "source": 2,
             "locator": "2.24"
+          },
+          {
+            "source": 3,
+            "locator": "17.46"
+          },
+          {
+            "source": 5
           }
         ]
       },
@@ -790,7 +836,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The motive for the siege is debated: Arrian presents a strategic argument, while Livius stresses the refusal of the sacrifice. Arrian and Curtius give different figures for those killed and enslaved, and they are not repeated here. Curtius reports that Sidonians serving with Alexander secretly carried many Tyrians to safety, which Arrian does not mention.",
+        "text": "The motive for the siege is debated: Arrian presents a strategic argument, Livius stresses the refusal of the sacrifice, and Diodorus stresses Tyrian loyalty to Darius and hope of Carthaginian help. Diodorus and Plutarch fill the siege with omens: a sea monster stranded against the mole, Apollo's statue bound to its base so that the god could not desert to Alexander, and in Plutarch a dream of a satyr read as “Tyre is thine”. Diodorus kills Admetus in an earlier, failed assault; Arrian has him die leading the final one. Arrian, Curtius and Diodorus give different figures for those killed, crucified and enslaved, and they are not repeated here. Curtius reports that Sidonians serving with Alexander secretly carried many Tyrians to safety, which Arrian does not mention. Diodorus judges that Tyre endured the siege bravely rather than wisely.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -803,12 +849,23 @@
           {
             "source": 2,
             "locator": "2.16–17, 2.24"
+          },
+          {
+            "source": 3,
+            "locator": "17.41, 17.45–46"
+          },
+          {
+            "source": 4,
+            "locator": "24–25"
+          },
+          {
+            "source": 5
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Arrian gives the fullest narrative of the engineering and naval operations. Livius presents Curtius Rufus's account of the final assault and the reprisals, noting that Curtius drew on earlier Greek writers, and sets the siege in the wider Levantine campaign.",
+        "text": "Arrian gives the fullest narrative of the engineering and naval operations. Livius presents Curtius Rufus's account of the final assault and the reprisals, noting that Curtius drew on earlier Greek writers, and sets the siege in the wider Levantine campaign. Diodorus, in the Loeb translation on LacusCurtius, belongs to the same dramatising tradition as Curtius but alone gives the Tyrians' reasons for resisting and their counter-measures. Plutarch adds the omens and the last day of the siege; Pierre Briant's article in the Encyclopaedia Iranica places Tyre in the history of Persian resistance.",
         "evidence": "fact",
         "refs": [
           {
@@ -820,6 +877,15 @@
           {
             "source": 2,
             "locator": "2.18–24"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
           }
         ]
       }
@@ -861,14 +927,14 @@
       },
       {
         "name": "The leaders of Tyre",
-        "objective": "Keep the city free of foreign troops while the war's outcome was uncertain.",
+        "objective": "Keep the city free of foreign troops while the war's outcome was uncertain; Diodorus adds loyalty to Darius and the aim of holding Alexander down while the king prepared.",
         "known": "Alexander had won at Issus and most of the Phoenician cities had submitted.",
-        "uncertainty": "Whether the island's walls and fleet could outlast a siege.",
+        "uncertainty": "Whether the island's walls and fleet could outlast a siege, and whether Carthage would send help.",
         "constraints": "King Azemilcus was away with the Persian fleet, and the other Phoenician squadrons later went over to Alexander.",
         "forces": "The walls, triremes, a fireship, divers and engines mounted on towers along the walls.",
         "terrain": "The strait, which protected the city until the mole and the hostile fleets reached it.",
-        "logistics": "Once Alexander's squadrons were stationed outside both harbours, the city lost free use of the sea.",
-        "decision": "They refused Alexander entry, burned his towers with a fireship, cut his ships' cables and sortied against the Cypriot squadron.",
+        "logistics": "Diodorus says they sent part of their women and children to Carthage. Once Alexander's squadrons were stationed outside both harbours, the city lost free use of the sea.",
+        "decision": "They refused Alexander entry, burned his towers with a fireship, cut his ships' cables, met each assault with new engines and sortied against the Cypriot squadron.",
         "outcome": "The city was stormed; those not sheltering in the temple were killed or enslaved."
       }
     ]
@@ -890,6 +956,21 @@
         "title": "Curtius Rufus on Alexander killing Batis (4.6.26–29, trans. J. Yardley)",
         "url": "https://www.livius.org/sources/content/curtius-rufus/alexander-kills-batis/",
         "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Plutarch, Life of Alexander 25 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Alexander%2A/4.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Diodorus Siculus, Library of History 17.48 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/17C%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Alexander the Great — Pierre Briant",
+        "url": "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/",
+        "publisher": "Encyclopaedia Iranica"
       }
     ],
     "sections": [
@@ -906,7 +987,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Gaza stood at the edge of the desert on the road from Phoenicia to Egypt. Darius meanwhile offered terms that Alexander rejected, and prepared for further war; Livius says Batis's resistance bought the king time to raise a new army.",
+        "text": "Gaza stood at the edge of the desert on the road from Phoenicia to Egypt. Darius meanwhile offered terms that Alexander rejected, and prepared for further war; Livius says Batis's resistance bought the king time to raise a new army. Diodorus describes Persian resistance elsewhere at the same time: Agis of Sparta, with Persian ships and money, won over most of Crete, and Persian officers who had escaped from Issus held cities for Darius or raised troops. Briant argues that this resistance has been underestimated: the advance from Issus to Egypt was far from easy.",
         "evidence": "fact",
         "refs": [
           {
@@ -915,6 +996,13 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4,
+            "locator": "17.48"
+          },
+          {
+            "source": 5
           }
         ]
       },
@@ -970,7 +1058,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "During a sacrifice a bird dropped a stone on Alexander's head, which the seer Aristander read as a sign that the city would fall but that the king must take care that day. Fighting to relieve hard-pressed troops during a sortie, Alexander was struck in the shoulder by a catapult bolt that passed through his shield and breastplate. The mound was then extended round the city, miners undermined the walls, and the fourth assault succeeded.",
+        "text": "During a sacrifice a bird dropped a stone on Alexander's head, which the seer Aristander read as a sign that the city would fall but that the king must take care that day. Plutarch tells the omen differently: a clod dropped by a bird struck Alexander's shoulder and the bird was caught in the cords of a siege engine. Fighting to relieve hard-pressed troops during a sortie, Alexander was struck in the shoulder by a catapult bolt that passed through his shield and breastplate. The mound was then extended round the city, miners undermined the walls, and the fourth assault succeeded.",
         "evidence": "fact",
         "refs": [
           {
@@ -979,6 +1067,10 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "25"
           }
         ]
       },
@@ -1024,7 +1116,7 @@
       },
       {
         "title": "Consequences",
-        "text": "Alexander resettled Gaza with people from the surrounding area and used it as a fortress. The coastal road to Egypt, his next objective, was open.",
+        "text": "Alexander resettled Gaza with people from the surrounding area and used it as a fortress. The coastal road to Egypt, his next objective, was open. Plutarch says he sent quantities of the spoils home to his mother, his sister and his friends, including frankincense and myrrh for his old tutor Leonidas.",
         "evidence": "fact",
         "refs": [
           {
@@ -1033,6 +1125,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "25"
           }
         ]
       },
@@ -1052,7 +1148,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The length and date of the siege differ: one Livius page gives about four months and a fall in October 332 BCE, while the page on Curtius dates the capture to November; the notes to Arrian's translation cite Diodorus for two months. The treatment of Batis comes from Curtius; Arrian's narrative does not mention his fate. Arrian's dimensions for the mound are not repeated here.",
+        "text": "The length and date of the siege differ: one Livius page gives about four months and a fall in October 332 BCE, while the page on Curtius dates the capture to November; Diodorus gives two months and Briant several weeks. The treatment of Batis comes from Curtius; Arrian's narrative does not mention his fate, nor do Diodorus and Plutarch. Arrian and Plutarch tell the omen of the bird differently. Arrian's dimensions for the mound are not repeated here.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -1064,12 +1160,23 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4,
+            "locator": "17.48"
+          },
+          {
+            "source": 3,
+            "locator": "25"
+          },
+          {
+            "source": 5
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Arrian supplies the narrative of the siege, Curtius, in Livius's translation, the death of Batis, and Livius's survey the place of the siege in the Levantine campaign.",
+        "text": "Arrian supplies the narrative of the siege, Curtius, in Livius's translation, the death of Batis, and Livius's survey the place of the siege in the Levantine campaign. Diodorus, who mentions the siege in a single sentence, and Plutarch, who gives the omen and the wound, are read in the Loeb translations on LacusCurtius; Pierre Briant's article in the Encyclopaedia Iranica sets Gaza among the Persian commanders who kept resisting after Issus.",
         "evidence": "fact",
         "refs": [
           {
@@ -1082,6 +1189,15 @@
           {
             "source": 2,
             "locator": "4.6.26–29"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
           }
         ]
       }
@@ -1126,7 +1242,7 @@
         "objective": "Hold Gaza for the Persian king.",
         "known": "Tyre had fallen and most of the region had submitted.",
         "uncertainty": "How long the city could hold, and whether any relief would come.",
-        "constraints": "No Persian army was near; Livius says Darius was still raising a new one.",
+        "constraints": "No Persian army was near; Livius says Darius was still raising a new one, and in Diodorus those who fought on for Persia after Issus, such as Agis in Crete and the deserter Amyntas in Egypt, did so far away.",
         "forces": "A garrison that included Arab mercenaries.",
         "terrain": "A city on a high mound with strong walls, which he trusted could not be stormed.",
         "logistics": "Arrian says he had laid in food for a long siege.",
@@ -1152,6 +1268,21 @@
         "title": "Astronomical Diaries",
         "url": "https://www.livius.org/articles/concept/astronomical-diaries/",
         "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Diodorus Siculus, Library of History 17.53–61 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/17C%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Plutarch, Life of Alexander 31–33 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Alexander%2A/4.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Gaugamela — Ernst Badian",
+        "url": "https://www.iranicaonline.org/articles/gaugamela/",
+        "publisher": "Encyclopaedia Iranica"
       }
     ],
     "sections": [
@@ -1171,17 +1302,21 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Alexander lingered in Tyre and other cities while Greek affairs, including the rising of Agis III of Sparta, demanded attention. Darius made a further peace offer, which Alexander rejected. Reinforcements Alexander expected from Europe never arrived, possibly because Antipater needed them against Agis.",
+        "text": "Alexander lingered in Tyre and other cities while Greek affairs, including the rising of Agis III of Sparta, demanded attention. Darius made a further peace offer, which Alexander rejected. Diodorus says it offered all the land west of the Euphrates, a large sum of silver and the hand of one of Darius's daughters; Parmenion advised acceptance, and Alexander answered that the world could no more have two kings than two suns. Reinforcements Alexander expected from Europe never arrived, possibly because Antipater needed them against Agis.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "17.54"
           }
         ]
       },
       {
         "title": "Campaign objectives",
-        "text": "Darius sought a battle on open ground where his numbers, cavalry and scythed chariots could be used, having been persuaded that the narrow field at Issus had cost him. Alexander needed to defeat the king's army in the field to make good his claim to rule Asia.",
+        "text": "Darius sought a battle on open ground where his numbers, cavalry and scythed chariots could be used, having been persuaded that the narrow field at Issus had cost him. Diodorus adds that he had longer swords and lances made, believing Alexander's men had held the advantage in weapons at Issus, and drilled his troops daily for fear that so many peoples of different speech would fall into confusion. Badian has Mazaeus shadow Alexander's march and perhaps steer him toward the ground Darius had chosen. Alexander needed to defeat the king's army in the field to make good his claim to rule Asia.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -1190,12 +1325,19 @@
           {
             "source": 1,
             "locator": "3.8"
+          },
+          {
+            "source": 3,
+            "locator": "17.53"
+          },
+          {
+            "source": 5
           }
         ]
       },
       {
         "title": "Geography and terrain",
-        "text": "The armies met on a broad plain near Gaugamela, north-west of Arbela (modern Erbil). Arrian reports that the Persians had long before levelled the uneven ground so that chariots and cavalry could move freely. The exact site cannot be fixed with certainty.",
+        "text": "The armies met on a broad plain near Gaugamela, north-west of Arbela (modern Erbil); Plutarch insists the battle was fought at Gaugamela, not Arbela as most writers said, and explains the name as “camel's house”. Arrian reports that the Persians had long before levelled the uneven ground so that chariots and cavalry could move freely. The exact site cannot be fixed with certainty; Badian thinks the sources point to the area east of Mosul, south of the Jabal Maqlub.",
         "evidence": "fact",
         "refs": [
           {
@@ -1204,6 +1346,13 @@
           {
             "source": 1,
             "locator": "3.8"
+          },
+          {
+            "source": 4,
+            "locator": "31"
+          },
+          {
+            "source": 5
           }
         ]
       },
@@ -1237,7 +1386,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "The Macedonians crossed the Tigris largely unopposed in mid-September, and a lunar eclipse followed on about 20 September. The Persian army spent the night before the battle under arms. On 1 October Alexander edged to the right, a cavalry fight developed on that flank, the chariots were neutralized, and Alexander then charged the Persian centre.",
+        "text": "The Macedonians crossed the Tigris largely unopposed in mid-September, and a lunar eclipse followed on about 20 September. Diodorus says Mazaeus had been sent to hold the ford but thought the river too deep and fast to cross and went to burn the countryside instead, and that the Macedonians crossed chest-deep with locked arms; Badian holds that Mazaeus's orders were not to oppose the crossings at all. On 30 September, Badian writes, Alexander reconnoitred within sight of the Persians, keeping them alert by day and awake by night; Plutarch has Darius review his army by torchlight while Alexander sacrificed with his seer. The Persian army spent the night before the battle under arms. On 1 October Alexander edged to the right, a cavalry fight developed on that flank, the chariots were neutralized, and Alexander then charged the Persian centre.",
         "evidence": "fact",
         "refs": [
           {
@@ -1249,34 +1398,56 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "17.55"
+          },
+          {
+            "source": 4,
+            "locator": "31"
+          },
+          {
+            "source": 5
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Arrian reports that Alexander rejected Parmenion's advice to attack at night, citing the risks of night fighting in unfamiliar country. Darius, fearing a surprise attack, kept his army standing in formation overnight. During the battle Darius sent cavalry around the Macedonian right to halt Alexander's movement.",
+        "text": "Arrian reports that Alexander rejected Parmenion's advice to attack at night, citing the risks of night fighting in unfamiliar country. Plutarch gives the refusal a political reason: a defeat in daylight would leave Darius no excuse, as he had blamed mountains, defiles and the sea before. Diodorus and Plutarch both say Alexander slept so late that his officers issued the first orders on their own authority; in Diodorus it was Parmenion. Diodorus says the phalanx was told to clash spears on shields to panic the chariot horses and to open lanes for any that came on. Darius, fearing a surprise attack, kept his army standing in formation overnight. During the battle Darius sent cavalry around the Macedonian right to halt Alexander's movement.",
         "evidence": "fact",
         "refs": [
           {
             "source": 1,
             "locator": "3.10–11, 3.13"
+          },
+          {
+            "source": 3,
+            "locator": "17.56–57"
+          },
+          {
+            "source": 4,
+            "locator": "31–32"
           }
         ]
       },
       {
         "title": "Decisive turning points",
-        "text": "As Persian cavalry was drawn into the fight on Alexander's right, a gap opened in the Persian front. Alexander formed a wedge of Companions and nearby infantry and drove toward Darius. The opportunity arose from the Persians' own outflanking effort rather than from a fixed plan.",
+        "text": "As Persian cavalry was drawn into the fight on Alexander's right, a gap opened in the Persian front. Alexander formed a wedge of Companions and nearby infantry and drove toward Darius. The opportunity arose from the Persians' own outflanking effort rather than from a fixed plan. Badian's reconstruction agrees: Darius sent his best cavalry to his left, the wedge went through the resulting gap and the phalanx attacked frontally, both making for the king.",
         "evidence": "interpretation",
         "refs": [
           {
             "source": 1,
             "locator": "3.14"
+          },
+          {
+            "source": 5
           }
         ]
       },
       {
         "title": "Outcome",
-        "text": "Darius fled and his army dispersed. Alexander turned back to help Parmenion's hard-pressed wing, then pursued to Arbela, where he took the royal treasure and Darius's chariot but not the king himself. The Babylonian diary records that the king's troops deserted him.",
+        "text": "Darius fled and his army dispersed. Diodorus calls him a clever strategist who used the dust to escape in an unexpected direction; Badian says he was persuaded to flee to save his kingdom. Meanwhile Persian troops reached the Macedonian camp. Diodorus says Mazaeus sent horsemen round the flank and that captives joined them, though Darius's mother refused to go; Badian has Persian and Indian troops break through gaps in the line and plunder the camp instead of turning on the Macedonian rear. Alexander turned back to help Parmenion's hard-pressed wing, then pursued to Arbela, where he took the royal treasure and Darius's chariot but not the king himself. The Babylonian diary records that the king's troops deserted him.",
         "evidence": "fact",
         "refs": [
           {
@@ -1285,12 +1456,23 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "17.59–61"
+          },
+          {
+            "source": 4,
+            "locator": "32–33"
+          },
+          {
+            "source": 5
           }
         ]
       },
       {
         "title": "Consequences",
-        "text": "The battle decided the fate of the Achaemenid empire. A contemporary Babylonian diary calls the victor \"king of the world\", and Darius escaped to Media intending to raise another army.",
+        "text": "The battle decided the fate of the Achaemenid empire. A contemporary Babylonian diary calls the victor “king of the world”, and Darius escaped to Media intending to raise another army. Badian adds that Mazaeus, who had led the Persian right, surrendered Babylon soon afterwards and was made its satrap, and that Alexander held Persepolis by January 330 BCE.",
         "evidence": "fact",
         "refs": [
           {
@@ -1298,6 +1480,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 5
           }
         ]
       },
@@ -1314,7 +1499,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Dust hid much of the fighting, so its exact course is unknown. Arrian says Darius fled first, while the contemporary diary says his troops abandoned him; Livius prefers the diary. Greek accounts may also carry Macedonian propaganda, and their troop and casualty figures are unreliable.",
+        "text": "Dust hid much of the fighting, so its exact course is unknown. Arrian says Darius fled first, while the contemporary diary says his troops abandoned him; Livius prefers the diary. Badian finds Arrian's account unsatisfactory and warns that Curtius and Diodorus, who follow the dramatising “vulgate”, are confused and cannot safely be used to fill its gaps; he calls the meeting of the two kings, in which Diodorus has Alexander's javelin kill Darius's driver, fictitious. Plutarch repeats a complaint, partly in the words of Alexander's court historian Callisthenes, that Parmenion fought sluggishly; Badian thinks it uncertain whether Parmenion's appeal ever reached Alexander. Greek accounts may also carry Macedonian propaganda, and Badian calls their troop figures worthless; none are used here.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -1326,12 +1511,23 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "17.60"
+          },
+          {
+            "source": 4,
+            "locator": "33"
+          },
+          {
+            "source": 5
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Arrian's narrative draws on earlier accounts, citing Aristobulus for the captured Persian order of battle. Livius sets the Greek tradition beside the Babylonian Astronomical Diaries, which date the eclipse and the battle independently.",
+        "text": "Arrian's narrative draws on earlier accounts, citing Aristobulus for the captured Persian order of battle. Livius sets the Greek tradition beside the Babylonian Astronomical Diaries, which date the eclipse and the battle independently. Diodorus and Plutarch, in the Loeb translations on LacusCurtius, give the vulgate and biographical traditions, with the peace offer, the crossing of the Tigris and the raid on the camp; Ernst Badian's article in the Encyclopaedia Iranica weighs them and reconstructs the battle from the Persian side.",
         "evidence": "fact",
         "refs": [
           {
@@ -1343,6 +1539,15 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
           }
         ]
       }
@@ -1385,14 +1590,14 @@
       {
         "name": "Darius III of Persia",
         "objective": "Fight on open ground where numbers, cavalry and scythed chariots could be used, unlike the narrow field at Issus.",
-        "known": "Alexander had crossed the Euphrates and Tigris and was approaching the prepared battlefield.",
+        "known": "Alexander had rejected his last offer of terms and crossed the Euphrates and Tigris, and was approaching the prepared battlefield.",
         "uncertainty": "When and how Alexander would attack; Arrian says he feared a night assault.",
-        "constraints": "An army of many peoples under their own commanders, whose morale Livius describes as shaken by the eclipse and other omens.",
+        "constraints": "An army of many peoples under their own commanders, who in Diodorus's account spoke different languages; Livius describes their morale as shaken by the eclipse and other omens.",
         "forces": "Regional cavalry from Bactria, Media, Parthia and elsewhere, Greek mercenaries, a few elephants and scythed chariots.",
         "terrain": "A broad plain he had chosen and levelled for his chariots.",
         "logistics": "His base at Arbela held treasure and royal property, which fell to Alexander after the battle.",
-        "decision": "He kept his army under arms overnight, sent cavalry around Alexander's right and launched the chariots against the phalanx.",
-        "outcome": "When Alexander's charge reached his centre he fled, or in the Babylonian account was abandoned by his troops, and escaped east."
+        "decision": "He had new long weapons made and the plain levelled, kept his army under arms overnight, sent cavalry around Alexander's right, while Mazaeus sent horsemen against the Macedonian camp, and launched the chariots against the phalanx.",
+        "outcome": "When Alexander's charge reached his centre he fled, or in the Babylonian account was abandoned by his troops, and escaped east to Ecbatana."
       }
     ]
   },
@@ -1413,6 +1618,16 @@
         "title": "Arrian, Anabasis of Alexander 3.18 (trans. E. J. Chinnock)",
         "url": "https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_III/Chapter_XVIII",
         "publisher": "Wikisource"
+      },
+      {
+        "title": "Diodorus Siculus, Library of History 17.68 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/17D%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Ariobarzanes — A. Shapur Shahbazi",
+        "url": "https://www.iranicaonline.org/articles/ariobarzanes-greek-form-of-old-iranian-proper-name-arya-brzana/",
+        "publisher": "Encyclopaedia Iranica"
       }
     ],
     "sections": [
@@ -1432,7 +1647,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Persepolis held a royal treasury. Ariobarzanes, satrap of Persis, an office Livius thinks Darius created during the war, set out to block the mountain route. On the way the Uxians had been massacred, and Livius says no one else then dared to stand in Alexander's way.",
+        "text": "Persepolis held a royal treasury. Ariobarzanes, satrap of Persis, an office Livius thinks Darius created during the war, set out to block the mountain route. Shahbazi identifies him as a son of the Persian noble Artabazus, raised in Persian and Greek culture and for some years at the Macedonian court, who had led Persian units at Gaugamela; after that defeat each province was left to defend itself. On the way the Uxians had been massacred, and Livius says no one else then dared to stand in Alexander's way.",
         "evidence": "fact",
         "refs": [
           {
@@ -1440,12 +1655,15 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Campaign objectives",
-        "text": "Ariobarzanes needed to hold the pass, or at least delay Alexander, to protect Persepolis. Alexander needed speed: Arrian says he reached Persepolis before its guards could plunder the treasury.",
+        "text": "Ariobarzanes needed to hold the pass, or at least delay Alexander, to protect Persepolis. Shahbazi says he chose a gorge because the Macedonian army was unbeatable on the plain, and the narrow ground would deny it formation, combined arms and numbers. Alexander needed speed: Arrian says he reached Persepolis before its guards could plunder the treasury.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -1454,12 +1672,15 @@
           {
             "source": 2,
             "locator": "3.18"
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Geography and terrain",
-        "text": "Livius places the Persian Gate in the Tang-e Meyran, a valley of the Zagros north-east of Yasuj that is wide at first and then narrows into a gorge, with Ariobarzanes's position near the village of Cheshmeh chenar. The passes were snowbound in winter. Rockfall and road building make the line of any wall hard to identify today.",
+        "text": "Livius places the Persian Gate in the Tang-e Meyran, a valley of the Zagros north-east of Yasuj that is wide at first and then narrows into a gorge, with Ariobarzanes's position near the village of Cheshmeh chenar. Shahbazi describes the road from Susa forking on the way into Persis: the main branch ran round by the south, while the shorter and harder track ran through narrow defiles, and it was on this track that Ariobarzanes made his stand. Diodorus and Curtius call the place the Susian Rocks or Gate. The passes were snowbound in winter. Rockfall and road building make the line of any wall hard to identify today.",
         "evidence": "fact",
         "refs": [
           {
@@ -1467,12 +1688,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Alexander had the Macedonian infantry, the Companion cavalry, light cavalry, Agrianians and archers. Ariobarzanes held the slopes and the pass; Livius cites Curtius for catapults among his weapons. Arrian's figures for the Persian force are not repeated here.",
+        "text": "Alexander had the Macedonian infantry, the Companion cavalry, light cavalry, Agrianians and archers. Ariobarzanes held the slopes and the pass; Livius cites Curtius for catapults among his weapons. Shahbazi calls the Greek figures for Persian infantry valueless and argues that Ariobarzanes could hardly have mustered more troops than he had led at Gaugamela, so that his force was much smaller than Alexander's column. Arrian's and Diodorus's figures are not repeated here.",
         "evidence": "fact",
         "refs": [
           {
@@ -1481,12 +1705,15 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Initial deployment",
-        "text": "According to Arrian, Ariobarzanes built a wall across the pass and camped beside it. Livius describes troops on the northern slope ready to roll boulders, and archers and catapults on the southern slope.",
+        "text": "According to Arrian, Ariobarzanes built a wall across the pass and camped beside it. Shahbazi, following the explorer Aurel Stein, thinks it was probably a line of heaped stones with outworks in front and the camp behind. Livius describes troops on the northern slope ready to roll boulders, and archers and catapults on the southern slope.",
         "evidence": "fact",
         "refs": [
           {
@@ -1495,12 +1722,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "Livius dates the battle to about 20 January 330 BCE. The Macedonians entered the valley, apparently without effective reconnaissance, and were caught where it narrowed; the front had to withdraw, leaving its dead. Alexander then marched by night along another route to the Persian rear, destroyed the outposts before daylight and attacked the camp at dawn, while Craterus attacked the wall on a trumpet signal.",
+        "text": "Livius dates the battle to about 20 January 330 BCE. The Macedonians entered the valley, apparently without effective reconnaissance, and were caught where it narrowed; Diodorus and Shahbazi both say the Persians let them advance some way before attacking, with boulders rolled and javelins thrown from the heights, and the front had to withdraw, leaving its dead. Diodorus says Alexander thought it shameful either to abandon the dead or to ask for them, since that would admit defeat. Alexander then marched by night along another route to the Persian rear, destroyed the outposts before daylight and attacked the camp at dawn, while Craterus attacked the wall on a trumpet signal.",
         "evidence": "fact",
         "refs": [
           {
@@ -1509,6 +1739,13 @@
           {
             "source": 2,
             "locator": "3.18"
+          },
+          {
+            "source": 3,
+            "locator": "17.68"
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -1525,7 +1762,7 @@
       },
       {
         "title": "Decisive turning points",
-        "text": "Caught between Alexander's force and Craterus's attack, the Persians broke. Many were cut down inside the fortifications, which Arrian says Ptolemy had been posted to hold, and others fell over the precipices. Ariobarzanes escaped into the mountains with a few horsemen.",
+        "text": "Caught between Alexander's force and Craterus's attack, the Persians broke. Many were cut down inside the fortifications, which Arrian says Ptolemy had been posted to hold, and others fell over the precipices. Shahbazi quotes Curtius on the defenders fighting on even when disarmed, dragging their attackers down. Ariobarzanes escaped into the mountains with a few horsemen.",
         "evidence": "fact",
         "refs": [
           {
@@ -1534,12 +1771,15 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Outcome",
-        "text": "Alexander crossed the bridged river and reached Persepolis before its treasury could be plundered, also taking the treasury at Pasargadae and appointing Phrasaortes satrap. Livius says the commander at Persepolis refused Ariobarzanes entry and that he was probably killed.",
+        "text": "Alexander crossed the bridged river and reached Persepolis before its treasury could be plundered, also taking the treasury at Pasargadae and appointing Phrasaortes satrap. Livius says the commander at Persepolis refused Ariobarzanes entry and that he was probably killed. Shahbazi sets out two traditions: Arrian's, in which he escaped to the hills, and Curtius's, in which he broke through toward Persepolis, was barred by its garrison and returned to fight to the end.",
         "evidence": "fact",
         "refs": [
           {
@@ -1548,6 +1788,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -1581,7 +1824,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The site is disputed: Livius places it in the Tang-e Meyran, while Abuzar Hemati proposes a site between Kopan and Yasuj and a battle fought by local nomads, which Livius rejects. Livius doubts the story of a guide because it resembles Herodotus's account of Ephialtes at Thermopylae, and doubts that a wall was needed. Arrian sends Philotas to bridge the river, while Livius has Philotas attack a Persian-held rock. Arrian says only that Ariobarzanes escaped; his death is not securely documented.",
+        "text": "The site is disputed: Livius places it in the Tang-e Meyran, while Abuzar Hemati proposes a site between Kopan and Yasuj and a battle fought by local nomads, which Livius rejects; Shahbazi reports that the site is generally sought, following Stein, at the Tang-e Khas. Livius doubts the story of a guide because it resembles Herodotus's account of Ephialtes at Thermopylae, and doubts that a wall was needed. Arrian and Shahbazi have prisoners guide the march, while Diodorus names a single bilingual captive, a Lycian who had herded goats in the mountains; Shahbazi notes that ancient and modern writers alike saw the battle as a Persian Thermopylae. Arrian sends Philotas to bridge the river, while Livius has Philotas attack a Persian-held rock. Ariobarzanes's death is not securely documented, and Shahbazi rejects the Greek strength figures that modern historians have repeated.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -1593,12 +1836,19 @@
           {
             "source": 2,
             "locator": "3.18"
+          },
+          {
+            "source": 3,
+            "locator": "17.68"
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Arrian gives the clearest account of the divided forces and the signals. Livius's article, which updates an earlier study by Henry Speck, sets the narrative against the terrain and the Persepolis Fortification Tablets and draws on Curtius for the catapults.",
+        "text": "Arrian gives the clearest account of the divided forces and the signals. Livius's article, which updates an earlier study by Henry Speck, sets the narrative against the terrain and the Persepolis Fortification Tablets and draws on Curtius for the catapults. Diodorus, in the Loeb translation on LacusCurtius, gives the repulse, the guide and the night march through deep snow. A. Shapur Shahbazi's article in the Encyclopaedia Iranica tells the battle from the Persian commander's side and summarises Curtius's version of his end.",
         "evidence": "fact",
         "refs": [
           {
@@ -1610,6 +1860,12 @@
           {
             "source": 2,
             "locator": "3.18"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -1652,14 +1908,14 @@
       {
         "name": "Ariobarzanes, satrap of Persis",
         "objective": "Hold the Persian Gate to protect Persepolis.",
-        "known": "In Livius's reconstruction he knew the terrain and anticipated the Macedonian movements.",
+        "known": "In Livius's reconstruction he knew the terrain and anticipated the Macedonian movements; Shahbazi says he judged the Macedonian army unbeatable on open ground.",
         "uncertainty": "Whether his position could be turned by another route.",
         "constraints": "He faced Alexander's striking force while Parmenion's column advanced along the Royal Road.",
-        "forces": "Troops on the slopes with stones, archers and, according to Curtius as cited by Livius, catapults.",
+        "forces": "Troops on the slopes with stones, archers and, according to Curtius as cited by Livius, catapults; Shahbazi argues the force was far smaller than the Greek figures.",
         "terrain": "A narrow gorge where defenders above could strike attackers below.",
         "logistics": "A camp beside the wall in a snowbound pass.",
         "decision": "He blocked the pass and let the Macedonians advance into the narrow ground before attacking from the heights.",
-        "outcome": "His position was turned; he escaped, but Livius says he was refused entry to Persepolis and was probably killed."
+        "outcome": "His position was turned. In Arrian he escaped to the hills; in Curtius, as Shahbazi reports, he was refused entry to Persepolis and died fighting, an end Livius also thinks probable."
       }
     ]
   },
@@ -1680,12 +1936,22 @@
         "title": "Arrian, Anabasis of Alexander 4.3–5 (trans. E. J. Chinnock)",
         "url": "https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_IV/Chapter_III",
         "publisher": "Wikisource"
+      },
+      {
+        "title": "Plutarch, Life of Alexander 45–46 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Alexander%2A/6-7.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Alexander the Great — Pierre Briant",
+        "url": "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/",
+        "publisher": "Encyclopaedia Iranica"
       }
     ],
     "sections": [
       {
         "title": "Historical background",
-        "text": "Alexander treated the Jaxartes (Syr Darya) as the north-eastern frontier of his empire and in July 329 BCE founded Alexandria Eschate, the furthest Alexandria, at modern Khujand, as a garrison against the nomads north of the river. The foundation helped provoke a Sogdian revolt, and in the fighting Alexander was struck on the head and neck by a stone.",
+        "text": "Alexander treated the Jaxartes (Syr Darya) as the north-eastern frontier of his empire and in July 329 BCE founded Alexandria Eschate, the furthest Alexandria, at modern Khujand, as a garrison against the nomads north of the river. The foundation helped provoke a Sogdian revolt, and in the fighting Alexander was struck on the head and neck by a stone. Plutarch adds an arrow wound below the knee that splintered the bone, and says the blow to the neck clouded his sight for some time.",
         "evidence": "fact",
         "refs": [
           {
@@ -1697,12 +1963,16 @@
           {
             "source": 2,
             "locator": "4.3"
+          },
+          {
+            "source": 3,
+            "locator": "45"
           }
         ]
       },
       {
         "title": "Political and strategic context",
-        "text": "As nomad horsemen, whom Arrian calls Scythians and Livius Sacae, gathered on the far bank, the Sogdian leader Spitamenes besieged the garrison at Maracanda to the south. Alexander sent a relief force under Pharnuches and turned on the nomads himself.",
+        "text": "As nomad horsemen, whom Arrian calls Scythians and Livius Sacae, gathered on the far bank, the Sogdian leader Spitamenes besieged the garrison at Maracanda to the south. Alexander sent a relief force under Pharnuches and turned on the nomads himself. Briant explains why the north mattered: the Bactrian and Sogdian nobles were fighting to keep their privileged position, and both Bessus and Spitamenes could count on long-standing alliances with the Saka chiefs beyond the Syr Darya.",
         "evidence": "fact",
         "refs": [
           {
@@ -1711,6 +1981,9 @@
           {
             "source": 2,
             "locator": "4.3"
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -1814,7 +2087,7 @@
       },
       {
         "title": "Outcome",
-        "text": "The pursuit was cut short: Alexander drank bad water, fell seriously ill and was carried back to camp. Envoys of the Scythian king then came to say that the attack had been the work of raiders, not of their state, and Alexander sent a courteous reply. Livius adds that he released the prisoners without ransom.",
+        "text": "The pursuit was cut short: Alexander drank bad water, fell seriously ill and was carried back to camp. Plutarch says that he pursued the routed Scythians a long way despite suffering from diarrhoea. Envoys of the Scythian king then came to say that the attack had been the work of raiders, not of their state, and Alexander sent a courteous reply. Livius adds that he released the prisoners without ransom. Plutarch cites a letter of Alexander to Antipater in which the Scythian king offered him his daughter in marriage.",
         "evidence": "fact",
         "refs": [
           {
@@ -1823,12 +2096,16 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "45–46"
           }
         ]
       },
       {
         "title": "Consequences",
-        "text": "The victory did not end the revolt. Spitamenes destroyed the relief force sent toward Maracanda at the river Polytimetus. The war in Sogdiana continued into 327 BCE, with forts stormed, their men killed and women sold, and parts of the country ravaged. Livius says the northern frontier itself was not seriously threatened again.",
+        "text": "The victory did not end the revolt. Spitamenes destroyed the relief force sent toward Maracanda at the river Polytimetus. The war in Sogdiana continued into 327 BCE, with forts stormed, their men killed and women sold, and parts of the country ravaged. Livius says the northern frontier itself was not seriously threatened again. Briant counts three years of heavy fighting, in which Alexander changed his tactics and supply arrangements, used indiscriminate terror to force the nobles to submit, and settled Greek and Macedonian colonists in garrisons and new towns that ended the nobility's dominance.",
         "evidence": "fact",
         "refs": [
           {
@@ -1840,6 +2117,9 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -1858,7 +2138,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The exact crossing site near Khujand is not fixed, and Arrian calls the river the Tanais. Livius's account of the nomads' misjudgement is a modern reconstruction, as is his view that this was tactically Alexander's most brilliant victory. Arrian's casualty figures, and his belief that the whole enemy force would have been destroyed but for Alexander's illness, are not repeated as fact.",
+        "text": "The exact crossing site near Khujand is not fixed, Arrian calls the river the Tanais, and Plutarch says Alexander took it for the Tanais. Livius's account of the nomads' misjudgement is a modern reconstruction, as is his view that this was tactically Alexander's most brilliant victory. Arrian's casualty figures, and his belief that the whole enemy force would have been destroyed but for Alexander's illness, are not repeated as fact; Plutarch has the illness but not the interrupted pursuit. Plutarch records the story that the queen of the Amazons visited Alexander here, and the many writers, including Ptolemy and Aristobulus, who called it fiction. The envoys' claim that the attack was unofficial sits uneasily with Briant's long-standing alliances between the Sogdian leaders and the Saka chiefs; no account from the Saka side survives.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -1870,12 +2150,19 @@
           {
             "source": 2,
             "locator": "4.4"
+          },
+          {
+            "source": 3,
+            "locator": "45–46"
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Arrian supplies the narrative of the crossing and the fighting. Livius's article reconstructs the tactics, and his survey of the Sogdian campaigns places the battle in the wider revolt, warning that Arrian's account of these years is fragmented and hard to follow.",
+        "text": "Arrian supplies the narrative of the crossing and the fighting. Livius's article reconstructs the tactics, and his survey of the Sogdian campaigns places the battle in the wider revolt, warning that Arrian's account of these years is fragmented and hard to follow. Plutarch's Life of Alexander, in the Loeb translation on LacusCurtius, adds the wounds, the illness and Alexander's letter on the Scythian king's offer; Pierre Briant's article in the Encyclopaedia Iranica explains the alliances and the Iranian resistance behind the battle.",
         "evidence": "fact",
         "refs": [
           {
@@ -1887,6 +2174,12 @@
           {
             "source": 2,
             "locator": "4.3–5"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -1928,7 +2221,7 @@
       },
       {
         "name": "The Saka (Scythian) horsemen",
-        "objective": "In Arrian's and Livius's accounts, exploit the revolt and defeat the Macedonians as they crossed.",
+        "objective": "In Arrian's and Livius's accounts, exploit the revolt and defeat the Macedonians as they crossed; Briant describes long-standing alliances between Saka chiefs and the leaders of the revolt.",
         "known": "The Macedonians were preparing to cross the river.",
         "uncertainty": "Whether Alexander would risk a crossing against them.",
         "constraints": "Livius argues that their way of war made them unwilling to sacrifice men to hold ground.",
@@ -1936,7 +2229,7 @@
         "terrain": "Open ground on the far bank, suited to wheeling and shooting.",
         "logistics": "Horses and mobility rather than fixed bases.",
         "decision": "They harried the river from the bank, pulled back under engine fire and closed on the forward detachment.",
-        "outcome": "Caught between infantry and cavalry, they broke; their king later disowned the attack."
+        "outcome": "Caught between infantry and cavalry, they broke; their king later disowned the attack and, in a letter Plutarch cites, offered Alexander his daughter in marriage."
       }
     ]
   },
@@ -1957,6 +2250,26 @@
         "title": "Roxane",
         "url": "https://www.livius.org/articles/person/roxane/",
         "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Oxyartes — Rüdiger Schmitt",
+        "url": "https://www.iranicaonline.org/articles/oxyartes/",
+        "publisher": "Encyclopaedia Iranica"
+      },
+      {
+        "title": "Chorienes — Marie Louise Chaumont",
+        "url": "https://www.iranicaonline.org/articles/chorienes-sogdian-nobleman-and-opponent-of-alexander/",
+        "publisher": "Encyclopaedia Iranica"
+      },
+      {
+        "title": "Plutarch, Life of Alexander 58 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Alexander%2A/8.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Alexander the Great — Pierre Briant",
+        "url": "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/",
+        "publisher": "Encyclopaedia Iranica"
       }
     ],
     "sections": [
@@ -1976,7 +2289,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Among the refugees on the Sogdian Rock were the wife and daughters of Oxyartes, who had also revolted. Livius describes the campaign as one of forts stormed, populations resettled and countryside ravaged.",
+        "text": "Among the refugees on the Sogdian Rock were the wife and daughters of Oxyartes, who had also revolted. Schmitt describes him as a confidant of Bessus who had fled with him across the Oxus and fought on after Bessus's death. Briant explains the revolt's strength: the Bactrian and Sogdian nobles were defending their privileged position and had men, money and arms. Livius describes the campaign as one of forts stormed, populations resettled and countryside ravaged.",
         "evidence": "fact",
         "refs": [
           {
@@ -1985,6 +2298,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 6
           }
         ]
       },
@@ -2018,12 +2337,15 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Many Sogdians had taken refuge on the rock with their families. Alexander had his army and, crucially, soldiers experienced in climbing during sieges.",
+        "text": "Many Sogdians had taken refuge on the rock with their families. Chaumont names its commander as Ariamazes and says that Alexander, reaching Nautaca early in 327 BCE, found the whole region prepared for defence and the road ahead guarded by strong fortresses. Alexander had his army and, crucially, soldiers experienced in climbing during sieges.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "4.18–19"
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -2076,7 +2398,7 @@
       },
       {
         "title": "Outcome",
-        "text": "The captives included the wives and children of many leading men, among them Oxyartes's family. Arrian says Alexander married Oxyartes's daughter Roxane rather than treat her as a captive. Livius places the wedding at Bactra in the summer of 327 BCE.",
+        "text": "The captives included the wives and children of many leading men, among them Oxyartes's family. Chaumont says Ariamazes surrendered. Arrian says Alexander married Oxyartes's daughter Roxane rather than treat her as a captive. Livius places the wedding at Bactra in the summer of 327 BCE.",
         "evidence": "fact",
         "refs": [
           {
@@ -2088,12 +2410,15 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Consequences",
-        "text": "Livius presents the marriage as a political necessity for pacifying Bactria and Sogdia. It passed over Barsine, mother of Alexander's son Heracles, and slighted her father Artabazus. By the end of the campaign, Livius says, the Bactrian and Sogdian aristocracy had been defeated and the population reduced to serfdom under strong garrisons.",
+        "text": "Livius presents the marriage as a political necessity for pacifying Bactria and Sogdia. It passed over Barsine, mother of Alexander's son Heracles, and slighted her father Artabazus. Schmitt describes the reconciliation that followed: Oxyartes's sons joined the Macedonian army, Oxyartes himself persuaded the lord of another fortress, called Chorienes by Arrian and Sisimithres by Plutarch and Curtius, to surrender, and Alexander later made him satrap of the Paropamisadae, a post he kept after Alexander's death. Chaumont adds that the surrendered lord was reinstated and supplied the army. By the end of the campaign, Livius says, the Bactrian and Sogdian aristocracy had been defeated and the population reduced to serfdom under strong garrisons; Briant stresses the colonists Alexander settled to end the nobility's dominance.",
         "evidence": "fact",
         "refs": [
           {
@@ -2101,12 +2426,25 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5,
+            "locator": "58"
+          },
+          {
+            "source": 6
           }
         ]
       },
       {
         "title": "Historical lessons",
-        "text": "A small force in an unexpected place can break a defender's will before it breaks his walls. Here coercion was followed by a political settlement through marriage with the local elite whose resistance the campaign had faced.",
+        "text": "A small force in an unexpected place can break a defender's will before it breaks his walls. Here coercion was followed by a political settlement through marriage with the local elite whose resistance the campaign had faced, and a former rebel became the instrument for securing the surrender of others.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -2115,12 +2453,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Historiographical debates",
-        "text": "The rock's name, location and date are uncertain, and Livius warns that Arrian's narrative of these years is fragmented and contains doublets. Arrian calls Oxyartes a Bactrian; Livius calls him a Sogdian nobleman. The notes to the translation say Curtius gives different reward figures from Arrian's. Arrian's romantic framing of the marriage sits beside Livius's reading of it as policy.",
+        "text": "The rock's name, location and date are uncertain, and Livius warns that Arrian's narrative of these years is fragmented and contains doublets. Chaumont shows how the sources tangle two sieges: the Rock of the Sogdians, held by Ariamazes, where Roxane was captured, and the rock of Chorienes or Sisimithres, taken through Oxyartes's mediation; Strabo merges them and places the rock in Bactria. Plutarch's story of Alexander asking Oxyartes whether Sisimithres was a coward belongs to the second siege. Arrian calls Oxyartes a Bactrian and Livius a Sogdian nobleman; Schmitt follows Arrian. The notes to the translation say Curtius gives different reward figures from Arrian's. Arrian's romantic framing of the marriage sits beside Livius's reading of it as policy.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -2132,12 +2473,22 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5,
+            "locator": "58"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Arrian is the principal narrative. Livius's survey of the Sogdian campaign and his article on Roxane supply the political context and the date and place of the marriage, citing Lucian for its ceremony.",
+        "text": "Arrian is the principal narrative. Livius's survey of the Sogdian campaign and his article on Roxane supply the political context and the date and place of the marriage, citing Lucian for its ceremony. The Encyclopaedia Iranica articles by Rüdiger Schmitt on Oxyartes, Marie Louise Chaumont on Chorienes and Pierre Briant on Alexander follow the Iranian leaders and the resistance; Plutarch's Life of Alexander, in the Loeb translation on LacusCurtius, adds the anecdote of Sisimithres.",
         "evidence": "fact",
         "refs": [
           {
@@ -2149,6 +2500,18 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
           }
         ]
       }
@@ -2194,11 +2557,11 @@
         "known": "Alexander's army was below the rock, offering terms.",
         "uncertainty": "Whether any part of the rock could be climbed.",
         "constraints": "They were sheltering families, including Oxyartes's, as well as fighters.",
-        "forces": "Sogdian fighters and refugees.",
+        "forces": "Sogdian fighters and refugees under a commander whom Chaumont names as Ariamazes.",
         "terrain": "A steep rock where the snow gave them water.",
         "logistics": "Provisions stored for a long siege.",
         "decision": "They refused terms, taunting Alexander to find soldiers with wings.",
-        "outcome": "Seeing soldiers above them, they surrendered."
+        "outcome": "Seeing soldiers above them, they surrendered. Oxyartes, whose family was taken, was later reconciled with Alexander and made a satrap."
       }
     ]
   },
@@ -2219,6 +2582,16 @@
         "title": "Arrian, Anabasis of Alexander 5.9–19 (trans. E. J. Chinnock)",
         "url": "https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_V/Chapter_IX",
         "publisher": "Wikisource"
+      },
+      {
+        "title": "Diodorus Siculus, Library of History 17.87–89 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/17E%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Plutarch, Life of Alexander 60 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Alexander%2A/8.html",
+        "publisher": "LacusCurtius, University of Chicago"
       }
     ],
     "sections": [
@@ -2241,7 +2614,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Livius calls Porus's refusal a grave error, since Alexander meant to conquer all of India. Porus held the far bank of the Hydaspes, the modern Jhelum, hoping to gain time with the river between him and the invaders.",
+        "text": "Livius calls Porus's refusal a grave error, since Alexander meant to conquer all of India. Porus held the far bank of the Hydaspes, the modern Jhelum, hoping to gain time with the river between him and the invaders. Diodorus says he had won the support of a neighbouring king, whom he calls Embisarus, and that Alexander decided to attack before this ally arrived.",
         "evidence": "fact",
         "refs": [
           {
@@ -2249,6 +2622,10 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "17.87"
           }
         ]
       },
@@ -2296,7 +2673,7 @@
       },
       {
         "title": "Initial deployment",
-        "text": "Porus placed his elephants at intervals in front of his infantry, with further infantry on the wings and cavalry and chariots on each flank, on level, firm ground. Alexander massed his cavalry on his right, with horse archers in front and the infantry in order beside it.",
+        "text": "Porus placed his elephants at intervals in front of his infantry, with further infantry on the wings and cavalry and chariots on each flank, on level, firm ground. Diodorus describes infantry posted between the elephants to protect them from javelins, so that the whole line looked like a city, with the elephants as towers and the men as the walls between them. Alexander massed his cavalry on his right, with horse archers in front and the infantry in order beside it.",
         "evidence": "fact",
         "refs": [
           {
@@ -2305,12 +2682,16 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "17.87"
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "Night after night Alexander's cavalry made noise along the bank as if to cross, until Porus stopped moving his elephants to meet them. In a stormy night Alexander marched to the crossing; at dawn his men crossed in boats and on stuffed hides, landed on what proved to be a large island and forded a deep channel to the far bank. They defeated the force sent under Porus's son, then met Porus's main army. Arrian dates the battle to the Athenian month Munychion, Livius to May 326 BCE.",
+        "text": "Night after night Alexander's cavalry made noise along the bank as if to cross, until Porus stopped moving his elephants to meet them. In a stormy night Alexander marched to the crossing; at dawn his men crossed in boats and on stuffed hides, landed on what proved to be a large island and forded a deep channel to the far bank. Plutarch, citing Alexander's own letters, describes the storm, the lightning and a breach in the bank that the men waded chest-deep, and says Alexander rode ahead of his infantry, reckoning that his cavalry could beat any horsemen sent against it. They defeated the force sent under Porus's son, then met Porus's main army. Arrian dates the battle to the Athenian month Munychion, Livius to May 326 BCE.",
         "evidence": "fact",
         "refs": [
           {
@@ -2319,6 +2700,10 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 4,
+            "locator": "60"
           }
         ]
       },
@@ -2335,7 +2720,7 @@
       },
       {
         "title": "Decisive turning points",
-        "text": "Horse archers and the Companions struck the Indian left. When the Indian cavalry turned to meet Coenus behind them, Alexander charged while they were turning, and they fled to the elephants. The phalanx then fought the elephants with javelins aimed at drivers and animals; hemmed in, wounded elephants trampled both sides.",
+        "text": "Horse archers and the Companions struck the Indian left. When the Indian cavalry turned to meet Coenus behind them, Alexander charged while they were turning, and they fled to the elephants. In Alexander's letter as Plutarch gives it, Coenus attacked the Indian right directly and both beaten wings fell back on the elephants, where the fighting went on at close quarters until the eighth hour. The phalanx then fought the elephants with javelins aimed at drivers and animals; hemmed in, wounded elephants trampled both sides. Diodorus says Porus gathered the elephants still under control and counter-attacked, until Alexander concentrated his archers and light troops on him; when he collapsed from his wounds, the word spread that he was dead and his army fled.",
         "evidence": "fact",
         "refs": [
           {
@@ -2344,12 +2729,20 @@
           },
           {
             "source": 0
+          },
+          {
+            "source": 3,
+            "locator": "17.88"
+          },
+          {
+            "source": 4,
+            "locator": "60"
           }
         ]
       },
       {
         "title": "Outcome",
-        "text": "Alexander's cavalry encircled the field and the phalanx advanced with locked shields. Craterus crossed and took up the pursuit. Porus's sons and many of his officers were killed. Wounded, Porus withdrew only when his army had broken; brought to Alexander, he asked to be treated as a king, and Alexander restored his kingdom and added territory.",
+        "text": "Alexander's cavalry encircled the field and the phalanx advanced with locked shields. Craterus crossed and took up the pursuit. Porus's sons and many of his officers were killed. Wounded, Porus withdrew only when his army had broken; brought to Alexander, he asked to be treated as a king, and Alexander restored his kingdom and added territory. Plutarch and Diodorus tell the same story of his restoration, Diodorus explaining it as recognition of his courage, and Plutarch says Alexander gave him the title of satrap.",
         "evidence": "fact",
         "refs": [
           {
@@ -2358,12 +2751,20 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "17.89"
+          },
+          {
+            "source": 4,
+            "locator": "60"
           }
         ]
       },
       {
         "title": "Consequences",
-        "text": "Alexander founded Nicaea on the battlefield and Bucephala at the crossing, where his horse Bucephalas died. Soon afterwards the army refused to advance beyond the Hyphasis and Alexander turned back. Porus became a client ruler on the eastern border, keeping that role after Alexander's death until he was murdered in 317 BCE.",
+        "text": "Alexander founded Nicaea on the battlefield and Bucephala at the crossing, where his horse Bucephalas died. Diodorus says he also had ships built from the nearby forests, meaning to conquer India and sail down to the Ocean. Soon afterwards the army refused to advance beyond the Hyphasis and Alexander turned back. Porus became a client ruler on the eastern border, keeping that role after Alexander's death until he was murdered in 317 BCE.",
         "evidence": "fact",
         "refs": [
           {
@@ -2372,6 +2773,10 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3,
+            "locator": "17.89"
           }
         ]
       },
@@ -2391,7 +2796,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The crossing and battle sites are disputed; Livius rejects sites farther downstream on palaeohydrological grounds. Arrian reports three versions of the force under Porus's son and prefers Ptolemy's; how far his reliance on Ptolemy, one of Alexander's companions, shapes the account is uncertain. Livius reads the commemorative coinage, which shows Alexander with Zeus's thunderbolt, as a claim that he had brought the rain. His article on Porus calls the king the long-term winner despite his defeat.",
+        "text": "The crossing and battle sites are disputed; Livius rejects sites farther downstream on palaeohydrological grounds. Arrian reports three versions of the force under Porus's son and prefers Ptolemy's; how far his reliance on Ptolemy, one of Alexander's companions, shapes the account is uncertain. Plutarch's main source is Alexander's own letters, the victor's account, and he sets aside a more dramatic version by Onesicritus. Diodorus omits the river crossing altogether and makes the battle a contest with the elephants and with Porus himself, whom he and Plutarch describe as gigantic; their figures for his height and for the armies are not repeated here. Livius reads the commemorative coinage, which shows Alexander with Zeus's thunderbolt, as a claim that he had brought the rain. His article on Porus calls the king the long-term winner despite his defeat.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -2403,12 +2808,20 @@
           {
             "source": 2,
             "locator": "5.14"
+          },
+          {
+            "source": 3,
+            "locator": "17.87–88"
+          },
+          {
+            "source": 4,
+            "locator": "60"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Arrian's chapters are the main narrative and name his own authorities, Ptolemy and Aristobulus. Livius sets them against the terrain and the coinage, and his article on Porus follows the king's later career.",
+        "text": "Arrian's chapters are the main narrative and name his own authorities, Ptolemy and Aristobulus. Livius sets them against the terrain and the coinage, and his article on Porus follows the king's later career. Diodorus and Plutarch, in the Loeb translations on LacusCurtius, give the vulgate version of the fighting and the version Plutarch took from Alexander's letters.",
         "evidence": "fact",
         "refs": [
           {
@@ -2420,6 +2833,12 @@
           {
             "source": 2,
             "locator": "5.14"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -2451,7 +2870,7 @@
         "name": "Alexander III of Macedon",
         "objective": "Cross the Hydaspes and defeat Porus without facing his elephants at the bank.",
         "known": "Porus guarded the crossing opposite the camp and posted detachments at other fords.",
-        "uncertainty": "Whether Porus would detect the crossing, and how he would divide his elephants.",
+        "uncertainty": "Whether Porus would detect the crossing, how he would divide his elephants, and, in Diodorus's account, whether Porus's ally would arrive first.",
         "constraints": "Horses would not land in the face of elephants, and the river was in flood.",
         "forces": "Companion cavalry, horse archers, hypaspists, phalanx battalions and light troops, with Craterus holding the main camp.",
         "terrain": "A swollen river with a wooded headland and islands upstream, and firm ground beyond.",
@@ -2462,14 +2881,14 @@
       {
         "name": "Porus, king of the Paurava",
         "objective": "Hold the river line and prevent a crossing.",
-        "known": "Alexander's army was camped opposite, making noise at night and gathering grain.",
+        "known": "Alexander's army was camped opposite, making noise at night and gathering grain; Diodorus says an allied king was on his way to join him.",
         "uncertainty": "Which threat was real, and whether Craterus's force would also cross.",
         "constraints": "He had to watch many fords and keep part of his army facing Craterus.",
         "forces": "Infantry, cavalry, chariots and war elephants.",
         "terrain": "Level, firm ground that he chose for his battle line once Alexander had crossed.",
         "logistics": "Arrian notes that the clayey ground made his son's chariots slow.",
-        "decision": "He stopped reacting to the feints, sent his son to investigate, then marched against Alexander, leaving some elephants facing Craterus.",
-        "outcome": "His army was broken; wounded, he surrendered and was confirmed as king under Alexander."
+        "decision": "He stopped reacting to the feints, sent his son to investigate, then marched against Alexander, leaving some elephants facing Craterus, and drew up his elephants with infantry between them.",
+        "outcome": "His army was broken; wounded, he surrendered and was confirmed as king under Alexander, in recognition of his courage according to Diodorus."
       }
     ]
   }

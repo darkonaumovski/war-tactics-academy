@@ -1136,6 +1136,11 @@
         "title": "The causes of the French Army defeat at Dien Bien Phu: the perspective from the artillery (in Vietnamese)",
         "url": "https://ssh.vnuhcmjournal.com.vn/index.php/ssh/article/view/1104",
         "publisher": "VNUHCM Journal of Social Sciences and Humanities 9:4 (Nguyễn Trọng Minh, 2025)"
+      },
+      {
+        "title": "Võ Nguyên Giáp, Dien Bien Phu, 3rd edition (Hanoi: Foreign Languages Publishing House, 1964)",
+        "url": "https://archive.org/details/dien-bien-phu-vo-nguyen-giap",
+        "publisher": "Internet Archive"
       }
     ],
     "sections": [
@@ -1200,7 +1205,7 @@
       },
       {
         "title": "Initial deployment",
-        "text": "French and Vietnamese paratroopers dropped into the valley on 20–22 November 1953 in Operation Castor and built an air-ground base. By the end of December the garrison was encircled, while Viet Minh troops dug trenches and tunnels toward its positions. They also dug their guns into the slopes facing the valley, under thick cover and camouflage, while the French guns stood in open emplacements.",
+        "text": "French and Vietnamese paratroopers dropped into the valley on 20–22 November 1953 in Operation Castor and built an air-ground base. By the end of December the garrison was encircled, while Viet Minh troops dug trenches and tunnels toward its positions. They also dug their guns into the slopes facing the valley, under thick cover and camouflage, while the French guns stood in open emplacements. Giáp writes that for the first plan the guns were dragged into position by the troops over seven days and nights, then hauled out again when the plan changed, and brought back in by trucks along five new roads cut across the slopes within range of the French guns.",
         "evidence": "fact",
         "refs": [
           {
@@ -1208,6 +1213,10 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "pp. 100–101"
           }
         ]
       },
@@ -1226,7 +1235,7 @@
       },
       {
         "title": "Important command decisions",
-        "text": "At a meeting on 26 January 1954, about ten hours before an attack already put back from 20 January was due to open, Giap postponed it, withdrew the guns and changed the plan from “fast attack, fast victory” to “steady attack, steady advance”; Nguyễn Trọng Minh attributes the first plan to the Chinese advisers, and Giap called the change the hardest decision of his career. France reinforced the shrinking garrison by parachuting in volunteers, many of them not trained parachutists. Washington would intervene only as part of a coalition, and Britain and other NATO members declined to join.",
+        "text": "At a meeting on 26 January 1954, about ten hours before an attack already put back from 20 January was due to open, Giap postponed it, withdrew the guns and changed the plan from “fast attack, fast victory” to “steady attack, steady advance”; Nguyễn Trọng Minh attributes the first plan to the Chinese advisers, and Giap called the change the hardest decision of his career. In his 1964 account Giáp gives his reasons: his troops had never attacked a fortified entrenched camp, the French had strengthened theirs, and a rapid attack could not guarantee success, so the campaign became a series of siege battles fought sector by sector with overwhelming local superiority. He accepted the risks of a longer campaign, French reinforcement, fatigue, supply and the coming rains, in exchange for the initiative. France reinforced the shrinking garrison by parachuting in volunteers, many of them not trained parachutists. Washington would intervene only as part of a coalition, and Britain and other NATO members declined to join.",
         "evidence": "fact",
         "refs": [
           {
@@ -1237,6 +1246,10 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "pp. 91–95"
           }
         ]
       },
@@ -1294,7 +1307,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The U.S. Office of the Historian counts a four-month siege, from the encirclement; the French ministry dates the battle from the 13 March attack. Navarre's unapproved plan leaves responsibility for the decision open, and Viet Minh losses are historians' estimates. Vietnamese scholarship, represented here by Nguyễn Trọng Minh, explains the defeat through French overconfidence, above all Piroth's belief that Viet Minh guns could not be brought to the valley or survive his counter-battery fire, and credits the Vietnamese artillery; the role of the Chinese advisers in the first plan remains a point of interpretation.",
+        "text": "The U.S. Office of the Historian counts a four-month siege, from the encirclement; the French ministry dates the battle from the 13 March attack. Navarre's unapproved plan leaves responsibility for the decision open, and Viet Minh losses are historians' estimates. Vietnamese scholarship, represented here by Nguyễn Trọng Minh, explains the defeat through French overconfidence, above all Piroth's belief that Viet Minh guns could not be brought to the valley or survive his counter-battery fire, and credits the Vietnamese artillery; the role of the Chinese advisers in the first plan remains a point of interpretation. Giáp's own account, published in Hanoi for the tenth anniversary by the state Foreign Languages Publishing House, presents the change of plan as his command's judgement and does not mention Chinese advisers; it is the victor's narrative, written in the language of the party and the army, and its figures are not used.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -1305,12 +1318,16 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "pp. 91–95"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The French Ministry of the Armed Forces gives the plan, the course of the siege and its human cost. The U.S. Office of the Historian gives American deliberations and the Geneva settlement. Nguyễn Trọng Minh's article, in Vietnamese, gives the Vietnamese view of the artillery battle, drawing on Giap's memoirs and on French memoirs and histories; its equipment figures are not used.",
+        "text": "The French Ministry of the Armed Forces gives the plan, the course of the siege and its human cost. The U.S. Office of the Historian gives American deliberations and the Geneva settlement. Nguyễn Trọng Minh's article, in Vietnamese, gives the Vietnamese view of the artillery battle, drawing on Giap's memoirs and on French memoirs and histories; its equipment figures are not used. Giáp's own Dien Bien Phu, in the Hanoi English edition of 1964 on the Internet Archive, gives his reasoning for the change of plan and his account of supply.",
         "evidence": "fact",
         "refs": [
           {
@@ -1321,6 +1338,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -1364,11 +1384,11 @@
         "name": "Võ Nguyên Giáp",
         "objective": "Destroy the French garrison in the valley.",
         "known": "The garrison depended on its airfield and was encircled by late December 1953.",
-        "uncertainty": "How long the garrison could be supplied and reinforced by air.",
+        "uncertainty": "How long the garrison could be supplied and reinforced by air, and whether his troops, who had never stormed a fortified camp, could take it in one rapid attack.",
         "constraints": "A remote battlefield where heavy weapons, ammunition and fuel had to be brought in overland.",
         "forces": "Several divisions with artillery and anti-aircraft regiments.",
         "terrain": "Ground around the valley where trenches and tunnels could be dug toward the French positions.",
-        "logistics": "Chinese aid in weapons, ammunition, trucks and fuel grew sharply from February 1954.",
+        "logistics": "A front more than 400 km from his rear, supplied by trucks running at night without lights, tens of thousands of pack-bicycles and wheelbarrows, boats, pack animals and civilian porters; Chinese aid in weapons, ammunition, trucks and fuel grew sharply from February 1954.",
         "decision": "He called off the attack planned for late January and withdrew his guns, then opened with artillery on 13 March, took the strongpoints in stages and launched a final offensive on 1 May.",
         "outcome": "The garrison surrendered on 7 May, and France left Indochina after the Geneva agreements."
       }
@@ -1391,6 +1411,16 @@
         "title": "Excerpts from The Red Cliff, Part I, by Su Shi",
         "url": "https://afe.easia.columbia.edu/ps/china/sushi_redcliff.pdf",
         "publisher": "Asia for Educators, Columbia University"
+      },
+      {
+        "title": "Chen Shou, Records of the Three Kingdoms (Sanguozhi) 1, Annals of Emperor Wu (Cao Cao), with Pei Songzhi's commentary, in Classical Chinese",
+        "url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B701",
+        "publisher": "Wikisource (Chinese)"
+      },
+      {
+        "title": "Chen Shou, Records of the Three Kingdoms (Sanguozhi) 54, Biography of Zhou Yu, with Pei Songzhi's commentary, in Classical Chinese",
+        "url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B754",
+        "publisher": "Wikisource (Chinese)"
       }
     ],
     "sections": [
@@ -1471,23 +1501,33 @@
       },
       {
         "title": "Chronological phases",
-        "text": "Cao Cao took over Jing province in autumn 208 and pursued Liu Bei eastward with his army and new fleet. At the Red Cliffs his first attack was driven back. When the wind changed, Zhou Yu sent in fireships, and Cao Cao abandoned his position and retreated, leaving garrisons. The following year Zhou Yu captured Jiangling.",
+        "text": "Cao Cao took over Jing province in autumn 208 and pursued Liu Bei eastward with his army and new fleet. At the Red Cliffs his first attack was driven back. Zhou Yu's biography in the Records of the Three Kingdoms says Cao Cao's army was already sick, fell back to the north bank after the first clash and lay with its ships bow to stern, while Zhou Yu held the south bank. His officer Huang Gai proposed burning them: warships were packed with brushwood soaked in oil, covered with curtains and flagged, and Huang Gai wrote to Cao Cao offering to surrender. With light boats tied behind, the fireships sailed across as Cao Cao's men watched for the defectors, were set alight together, and in a strong wind the fire spread to the camps on the shore; many men and horses were burned or drowned. Cao Cao abandoned his position and retreated, leaving garrisons. The following year Zhou Yu captured Jiangling.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "pp. 8–9"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "After debate at his headquarters, Sun Quan chose to fight rather than surrender. Zhou Yu used the change of wind for a fire attack, a common weapon of the time, and Cao Cao chose to withdraw rather than fight on.",
+        "text": "After debate at his headquarters, Sun Quan chose to fight rather than surrender; a speech quoted in Pei Songzhi's commentary to Zhou Yu's biography has him tell Zhou Yu that if things went badly he should fall back and Sun Quan would fight Cao Cao himself. Zhou Yu used the wind for a fire attack, a common weapon of the time, and accepted Huang Gai's plan of a feigned surrender to bring the fireships close. Cao Cao chose to withdraw rather than fight on.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0,
             "locator": "p. 9"
+          },
+          {
+            "source": 4,
+            "locator": "commentary"
           }
         ]
       },
@@ -1504,7 +1544,7 @@
       },
       {
         "title": "Outcome",
-        "text": "Cao Cao retreated north. The allies, in de Crespigny's words, enhanced their victory with tales of slaughter, and Zhou Yu took Jiangling the next year.",
+        "text": "Cao Cao retreated north. The allies, in de Crespigny's words, enhanced their victory with tales of slaughter, and Zhou Yu took Jiangling the next year. Cao Cao's own annals record only that he fought Liu Bei at the Red Cliffs without success, that a great plague killed many of his officers and men, and that he withdrew; Pei Songzhi's commentary quotes a later account of the retreat by the Huarong road, where weakened soldiers laying brushwood across the mud were trampled by the horsemen.",
         "evidence": "fact",
         "refs": [
           {
@@ -1513,6 +1553,9 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -1543,7 +1586,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "De Crespigny considers Cao Cao's defeat probably exaggerated and the story embellished by later literature, above all the Romance of the Three Kingdoms (chapters 43–50). Popular retellings add episodes such as a chained fleet and Huang Gai's feigned defection, which this study does not treat as established.",
+        "text": "De Crespigny considers Cao Cao's defeat probably exaggerated and the story embellished by later literature, above all the Romance of the Three Kingdoms (chapters 43–50). The two sides' records already differ. The Wei annals credit Liu Bei, blame plague and do not mention fire; Zhou Yu's biography in the Wu records gives the victory to Zhou Yu and Huang Gai's fireships. Pei Songzhi's fifth-century commentary adds a letter in which Cao Cao told Sun Quan that, with plague in his army, he had burned his own ships and withdrawn, leaving Zhou Yu an undeserved reputation, and notes that the plan to resist began with Lu Su rather than Zhou Yu. Huang Gai's feigned surrender is therefore in the earliest history, not only in later fiction, while the chained fleet of the Romance goes beyond the biography's ships lying bow to stern. The commentary's anecdotes come from later works and are treated as tradition.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -1552,12 +1595,18 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The main historical account is the biography of Zhou Yu in the Records of the Three Kingdoms (Sanguozhi), with Pei Songzhi's commentary. De Crespigny's history is the principal source here; World History Encyclopedia reflects the popular tradition, and Su Shi's essay shows how the battle was remembered.",
+        "text": "The main historical accounts are the annals of Cao Cao and the biography of Zhou Yu in Chen Shou's Records of the Three Kingdoms (Sanguozhi), with Pei Songzhi's commentary, read in the Classical Chinese text on Wikisource. De Crespigny's history is the principal modern source; World History Encyclopedia reflects the popular tradition, and Su Shi's essay shows how the battle was remembered.",
         "evidence": "fact",
         "refs": [
           {
@@ -1569,6 +1618,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -1606,7 +1661,7 @@
         "terrain": "The middle Yangzi and its marshlands.",
         "logistics": "The captured naval base at Jiangling.",
         "decision": "He pursued eastward with army and fleet and demanded Sun Quan's surrender, probably treating the advance as an armed reconnaissance.",
-        "outcome": "Driven from his position by a fire attack, he retreated and lost Jiangling the following year."
+        "outcome": "Driven from his position by a fire attack, he retreated and lost Jiangling the following year; his annals blame plague, and a letter quoted in Pei Songzhi's commentary has him claim he burned his own ships."
       },
       {
         "name": "Sun Quan",
@@ -1617,7 +1672,7 @@
         "forces": "An experienced Yangzi navy commanded by Zhou Yu.",
         "terrain": "The river itself, where his fleet held local superiority.",
         "logistics": "Control of the Yangzi below Wuhan, the Poyang region and Hangzhou Bay.",
-        "decision": "He sent Zhou Yu forward to join Liu Bei and test Cao Cao's strength, keeping a reserve with which to negotiate if necessary.",
+        "decision": "He sent Zhou Yu forward to join Liu Bei and test Cao Cao's strength, keeping a reserve with which to negotiate if necessary and promising to fight Cao Cao himself if Zhou Yu was forced back.",
         "outcome": "Victory secured southern control of the middle Yangzi for many years."
       }
     ]
@@ -5130,6 +5185,11 @@
         "title": "Siege of Busanjin",
         "url": "https://www.britannica.com/event/Siege-of-Busanjin",
         "publisher": "Encyclopaedia Britannica (Stephen Turnbull)"
+      },
+      {
+        "title": "Kawaguchi Chōju, Seikan iryaku (征韓偉略), vol. 2, in Classical Chinese",
+        "url": "https://zh.wikisource.org/wiki/%E5%BE%81%E9%9F%93%E5%81%89%E7%95%A5/%E5%8D%B7%E4%B9%8B%E4%BA%8C",
+        "publisher": "Wikisource (Chinese)"
       }
     ],
     "sections": [
@@ -5207,11 +5267,14 @@
       },
       {
         "title": "Chronological phases",
-        "text": "Five or six panokseon attacked the Japanese fleet and, when it counter-attacked, fell back toward Hansan Island, drawing it out of the strait. The encyclopedia describes the Japanese as coming on in high spirits, as if to avenge their earlier defeats. In the open water Yi had the whole fleet form the crane-wing formation (hagikjin) and attack, firing cannon as they closed. Most of the Japanese ships were burned or captured, and survivors abandoned their ships and fled ashore. The next day the combined fleet won again at Angolpo.",
+        "text": "Five or six panokseon attacked the Japanese fleet and, when it counter-attacked, fell back toward Hansan Island, drawing it out of the strait. The encyclopedia describes the Japanese as coming on in high spirits, as if to avenge their earlier defeats. In the open water Yi had the whole fleet form the crane-wing formation (hagikjin) and attack, firing cannon as they closed. Most of the Japanese ships were burned or captured, and survivors abandoned their ships and fled ashore. The Japanese compilation Seikan iryaku, quoting the Korean minister Ryu Seong-ryong's Jingbirok, describes the same feigned withdrawal, the Korean ships turning together at a drumbeat once the Japanese were clear of the narrows, turtle ships firing on every side, and the tall turreted Japanese flagships broken by cannon; Wakisaka barely escaped to Gimhae. The next day the combined fleet won again at Angolpo; the Seikan iryaku has Kuki's and Katō's squadron attacked by a large Korean fleet and fighting from morning to evening.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 3
           }
         ]
       },
@@ -5273,7 +5336,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The encyclopedia's narrative rests on Korean records, among them the Annals of King Seonjo and Yi Sun-sin's collected works and reports, with a 1924 Japanese General Staff history among its references. No Japanese account was read for this study, so Japanese aims and decisions are seen from the Korean side. The date is given in the lunar calendar of the Korean sources; it is not the same day in the Western calendar, and no source read gives the converted date. Hulbert's comparison with Salamis, quoted in the encyclopedia, and his view that the battle sealed the fate of Hideyoshi's invasion are retrospective judgements. Britannica writes that the turtle ship is thought to have been the first ironclad, but the encyclopedia's account of Hansan names the panokseon and does not mention turtle ships; their part in this battle is not established by the sources read.",
+        "text": "The encyclopedia's narrative rests on Korean records, among them the Annals of King Seonjo and Yi Sun-sin's collected works and reports, with a 1924 Japanese General Staff history among its references. The Japanese side is read here in Kawaguchi Chōju's Seikan iryaku, a nineteenth-century Japanese history of the invasions written in Classical Chinese, which calls the Japanese “our troops” and draws both on Japanese family records and on Ryu's Jingbirok. From the Japanese records it adds that Wakisaka, angered by the defeat, attacked Yi again and took his ships, a claim it takes from Wakisaka's epitaph and a genealogy and which the Korean sources read here do not mention; it also has some Korean ships at the next day's fighting clad in iron that Japanese shot could not harm. The date is given in the lunar calendar of the Korean sources; it is not the same day in the Western calendar, and no source read gives the converted date. Hulbert's comparison with Salamis, quoted in the encyclopedia, and his view that the battle sealed the fate of Hideyoshi's invasion are retrospective judgements. Britannica writes that the turtle ship is thought to have been the first ironclad. The encyclopedia's account of Hansan names the panokseon and does not mention turtle ships, but Ryu's account, as the Seikan iryaku quotes it, places them in this battle.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -5281,12 +5344,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Jo Seong-do's entry in the Encyclopedia of Korean Culture, published by the Academy of Korean Studies, gives the day-by-day narrative from Korean records. Britannica's biography of Yi Sun-shin gives his preparations and the strategic effect of his victories, and Stephen Turnbull's Britannica article on the siege of Busanjin gives the opening of the invasion.",
+        "text": "Jo Seong-do's entry in the Encyclopedia of Korean Culture, published by the Academy of Korean Studies, gives the day-by-day narrative from Korean records. Britannica's biography of Yi Sun-shin gives his preparations and the strategic effect of his victories, and Stephen Turnbull's Britannica article on the siege of Busanjin gives the opening of the invasion. Kawaguchi Chōju's Seikan iryaku, in Classical Chinese on Wikisource, gives the Japanese account, combining Japanese family records with the Korean Jingbirok.",
         "evidence": "fact",
         "refs": [
           {
@@ -5297,6 +5363,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -5349,9 +5418,9 @@
         "constraints": "He moved ahead of Kuki Yoshitaka's squadron, which was following him.",
         "forces": "A fleet reinforced with picked troops, which he led against Geoje.",
         "terrain": "He anchored in the narrow strait of Gyeonnaeryang, then pursued the decoy into the open water off Hansan Island.",
-        "logistics": "No Japanese account was read, so his supply is not reconstructed here.",
+        "logistics": "The Japanese account read does not describe his supply, so it is not reconstructed here.",
         "decision": "He pursued the small Joseon force out of the strait; the encyclopedia describes the Japanese as attacking in high spirits, as if to avenge earlier defeats.",
-        "outcome": "His fleet was largely burned or captured; survivors abandoned their ships and escaped ashore."
+        "outcome": "His fleet was largely burned or captured; survivors abandoned their ships and escaped ashore, and the Seikan iryaku says he barely escaped to Gimhae."
       }
     ]
   },
@@ -5372,6 +5441,16 @@
         "title": "設楽原の馬防柵と河岸段丘 (The Shitaragahara stockade and river terraces)",
         "url": "https://www.pref.aichi.jp/shinshiroshitara/nature/geo/data/1-10_landform.html",
         "publisher": "Aichi Prefecture, Shinshiro-Shitara regional office"
+      },
+      {
+        "title": "Kōyō gunkan (甲陽軍鑑), chapter 52, attributed to Kōsaka Danjō, in Japanese",
+        "url": "https://ja.wikisource.org/wiki/%E7%94%B2%E9%99%BD%E8%BB%8D%E9%91%91/%E5%93%81%E7%AC%AC%E4%BA%94%E5%8D%81%E4%BA%8C",
+        "publisher": "Wikisource (Japanese)"
+      },
+      {
+        "title": "Nagashino kassen monogatari (長篠合戦物語), memorandum of Obata Kagenori, in Japanese",
+        "url": "https://ja.wikisource.org/wiki/%E9%95%B7%E7%AF%A0%E5%90%88%E6%88%A6%E7%89%A9%E8%AA%9E",
+        "publisher": "Wikisource (Japanese)"
       }
     ],
     "sections": [
@@ -5390,7 +5469,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Oda Nobunaga, Ieyasu's ally, marched to relieve the castle. Kobayashi notes that Nobunaga controlled Sakai, a centre of the matchlock trade. Citing the historian Hirayama Yū, he adds that Sakai, a hub of foreign trade, gave Nobunaga ready access to the lead and saltpetre needed for shot and powder, which the inland Takeda of Kai lacked, and that Nobunaga may have imposed an economic blockade.",
+        "text": "Oda Nobunaga, Ieyasu's ally, marched to relieve the castle. The Takeda-side chronicles say he came only reluctantly: twice he refused Ieyasu's appeals, and moved only when Ieyasu's third envoy, Oguri Dairoku, warned that Ieyasu would otherwise make peace with Katsuyori and join him against Nobunaga's province of Owari. Kobayashi notes that Nobunaga controlled Sakai, a centre of the matchlock trade. Citing the historian Hirayama Yū, he adds that Sakai, a hub of foreign trade, gave Nobunaga ready access to the lead and saltpetre needed for shot and powder, which the inland Takeda of Kai lacked, and that Nobunaga may have imposed an economic blockade.",
         "evidence": "fact",
         "refs": [
           {
@@ -5398,6 +5477,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -5458,7 +5543,7 @@
       },
       {
         "title": "Chronological phases",
-        "text": "During the siege the besiegers tried attacks by river, mining and assault. Britannica tells how Torii Suneemon, a junior samurai, slipped out to reach Ieyasu's army at Okazaki; captured on his way back, he shouted to the garrison that help was coming before he was killed. The allied army took position at Shitaragahara, and the Takeda moved out to face it. In the battle Nobunaga's musketeers fired volleys as the Takeda approached and broke the charge, but the Takeda fought on until mid-afternoon, when they began to retreat and were pursued. Kobayashi names senior Takeda commanders killed while covering Katsuyori's retreat: Yamagata Masakage, Hara Masatane, Tsuchiya Masatsugu and Baba Nobuharu, who commanded the rearguard.",
+        "text": "During the siege the besiegers tried attacks by river, mining and assault. Britannica tells how Torii Suneemon, a junior samurai, slipped out to reach Ieyasu's army at Okazaki; captured on his way back, he shouted to the garrison that help was coming before he was killed. The allied army took position at Shitaragahara, and the Takeda moved out to face it. In the battle Nobunaga's musketeers fired volleys as the Takeda approached and broke the charge, but the Takeda fought on until mid-afternoon, when they began to retreat and were pursued. The Kōyō gunkan describes each Takeda corps driving its opponents back behind the stockade, Yamagata Masakage trying to work round the Tokugawa flank before he was shot, and the Sanada brothers killed trying to break through one line of the fence. Kobayashi names senior Takeda commanders killed while covering Katsuyori's retreat: Yamagata Masakage, Hara Masatane, Tsuchiya Masatsugu and Baba Nobuharu, who commanded the rearguard.",
         "evidence": "fact",
         "refs": [
           {
@@ -5466,12 +5551,15 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Nobunaga chose to meet the Takeda from a fortified line, with a palisade and massed matchlocks. Katsuyori chose to accept battle at Shitaragahara and to attack that line, and later to withdraw when his army was overwhelmed. Kobayashi reports a theory that the flimsy fence was a deliberate trap, made to look weak to invite a Takeda charge; it remains a theory.",
+        "text": "Nobunaga chose to meet the Takeda from a fortified line, with a palisade and massed matchlocks; Obata's memorandum credits the idea of ditches, a stockade and massed guns to a retainer named Saitō, and says the triple stockade was put up overnight. It also has Sakai Tadatsugu propose a night attack on the Takeda fort at Tobinosu; Nobunaga rebuked him in council, then privately sent him to carry it out. On the Takeda side, both chronicles say the senior retainers, Baba, Naitō and Yamagata among them, urged Katsuyori not to fight, proposing a withdrawal to fight on home ground or a quick storm of the castle instead. Katsuyori, backed by Nagasaka Chōkan and Atobe Katsusuke, decided to attack and swore on the house's sacred banner and armour, after which no one could object. He later withdrew when his army was overwhelmed. Kobayashi reports a theory that the flimsy fence was a deliberate trap, made to look weak to invite a Takeda charge; it remains a theory.",
         "evidence": "fact",
         "refs": [
           {
@@ -5479,6 +5567,12 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
@@ -5539,7 +5633,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "The traditional picture of massed musketeers firing in three alternating ranks against a Takeda cavalry charge is contested. Kobayashi notes that the number of guns differs between manuscripts of the Shinchō kōki, the primary-source chronicle of Nobunaga's life, and that a later account, the Tōdaiki, has mercenaries from Negoro and Saiga bring guns of their own, so the real number is unclear. The Naruse screen shows no three-rank formation, and the ground is said not to allow one; a newer view holds that gunners worked in groups of three so that one was always ready to fire. Britannica, written by Stephen Turnbull, keeps the volley account. Hirayama's argument that the Takeda lacked shot and powder rather than guns moves the explanation from tactics to supply. The battle screens were made decades later and are depictions, not eyewitness evidence. The Western date, 28 June, is Britannica's; Kobayashi gives the 21st day of the 5th month in the Japanese calendar.",
+        "text": "The traditional picture of massed musketeers firing in three alternating ranks against a Takeda cavalry charge is contested. Kobayashi notes that the number of guns differs between manuscripts of the Shinchō kōki, the primary-source chronicle of Nobunaga's life, and that a later account, the Tōdaiki, has mercenaries from Negoro and Saiga bring guns of their own, so the real number is unclear. The Naruse screen shows no three-rank formation, and the ground is said not to allow one; a newer view holds that gunners worked in groups of three so that one was always ready to fire. Britannica, written by Stephen Turnbull, keeps the volley account. Hirayama's argument that the Takeda lacked shot and powder rather than guns moves the explanation from tactics to supply. The battle screens were made decades later and are depictions, not eyewitness evidence. The two Takeda-side texts read here are house tradition: the Kōyō gunkan claims that the Takeda won every individual clash at the fence and lays the decision to fight on Katsuyori's favourites Nagasaka and Atobe, and both give figures that are not used. Their triple stockade matches Britannica's three layers. The Western date, 28 June, is Britannica's; Kobayashi and the Kōyō gunkan give the 21st day of the 5th month in the Japanese calendar.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -5547,12 +5641,18 @@
           },
           {
             "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "Stephen Turnbull's Britannica article gives the siege and the standard account of the battle. Kobayashi Akira's article for nippon.com, built around the Naruse battle screen and Hirayama Yū's work, gives the Japanese debate on the guns, the fence and supply. The Aichi Prefecture page on the battlefield describes the terrain and the rebuilt stockade. The Shinchō kōki itself was not read.",
+        "text": "Stephen Turnbull's Britannica article gives the siege and the standard account of the battle. Kobayashi Akira's article for nippon.com, built around the Naruse battle screen and Hirayama Yū's work, gives the Japanese debate on the guns, the fence and supply. The Aichi Prefecture page on the battlefield describes the terrain and the rebuilt stockade. The Takeda side is read in chapter 52 of the Kōyō gunkan and in Obata Kagenori's memorandum on the battle, both in Japanese on Wikisource. The Shinchō kōki itself was not read.",
         "evidence": "fact",
         "refs": [
           {
@@ -5563,6 +5663,12 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
           }
         ]
       }
@@ -5606,12 +5712,12 @@
         "name": "Takeda Katsuyori",
         "objective": "Take Nagashino from the Tokugawa and defeat the army sent to relieve it.",
         "known": "An Oda and Tokugawa army had arrived to relieve the castle, as Torii Suneemon had shouted to the garrison.",
-        "uncertainty": "How strong the hastily built fence really was.",
+        "uncertainty": "How strong the hastily built fence really was, and whether to follow his senior retainers, who urged him not to fight.",
         "constraints": "The siege had not taken the castle, and Hirayama argues that his army lacked shot and powder.",
         "forces": "An experienced army with veteran senior commanders and, by Hirayama's account, many guns.",
         "terrain": "From a higher terrace his troops had to descend an escarpment and cross a muddy stream before reaching the fence.",
         "logistics": "His inland domain of Kai lacked ready access to lead and saltpetre, and Nobunaga may have blockaded it.",
-        "decision": "He moved out to Shitaragahara and attacked the fortified line; as his army was overwhelmed he decided to withdraw.",
+        "decision": "Against his senior retainers' advice, and swearing on the house banner, he moved out to Shitaragahara and attacked the fortified line; as his army was overwhelmed he decided to withdraw.",
         "outcome": "His army was destroyed and many of his senior commanders were killed; the Takeda house fell seven years later."
       }
     ]
@@ -7958,6 +8064,11 @@
         "title": "Shivaji",
         "url": "https://www.britannica.com/biography/Shivaji",
         "publisher": "Encyclopaedia Britannica (Ranjit Ramchandra Desai)"
+      },
+      {
+        "title": "James Grant Duff, A History of the Mahrattas, vol. 1 (London, 1826)",
+        "url": "https://archive.org/details/in.ernet.dli.2015.62851",
+        "publisher": "Internet Archive"
       }
     ],
     "sections": [
@@ -7996,7 +8107,7 @@
       },
       {
         "title": "Campaign objectives",
-        "text": "Afzal Khan, Sarkar writes, did not want an open contest of force in the hills; he planned to win over the Maval chiefs and, on the Dowager Queen's instructions, to capture or kill Shivaji by pretending friendship. Through his envoy he offered to secure Shivaji's pardon and the confirmation of his forts. Shivaji's aim was to keep his independence: capitulation, Sarkar writes, would have ended his hopes for ever.",
+        "text": "Afzal Khan, Sarkar writes, did not want an open contest of force in the hills; he planned to win over the Maval chiefs and, on the Dowager Queen's instructions, to capture or kill Shivaji by pretending friendship. Through his envoy he offered to secure Shivaji's pardon and the confirmation of his forts. Grant Duff adds that Afzal had once governed the Wai district and so knew how hard the country would be to penetrate. Shivaji's aim was to keep his independence: capitulation, Sarkar writes, would have ended his hopes for ever.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -8006,6 +8117,10 @@
           {
             "source": 0,
             "locator": "pp. 10–11"
+          },
+          {
+            "source": 3,
+            "locator": "pp. 168–169"
           }
         ]
       },
@@ -8137,7 +8252,7 @@
       },
       {
         "title": "Historiographical debates",
-        "text": "Who intended treachery is the central dispute. Britannica writes that Shivaji lured the Khan to the meeting with submissive appeals and killed him. Sarkar, citing a contemporary English factory letter from Rajapur that Bijapur told the Khan to take Shivaji by pretending friendship, concludes that Afzal struck first and calls Shivaji's act, after Burke, a preventive murder. Sarkar notes that Khafi Khan, a later Mughal historian, says both men came unarmed, and Sen's notes say that Grant Duff's account follows Khafi Khan. The Sabhasad Bakhar, which Sarkar dates to 1694, is a devotional narrative with prophecies and a vision of the goddess, and Sarkar cites reasons to doubt its stories of Afzal's desecration of temples as later popular inventions. Sen's note dates Afzal's death to September 1659; Sarkar gives 10 November, which this study follows.",
+        "text": "Who intended treachery is the central dispute. Britannica writes that Shivaji lured the Khan to the meeting with submissive appeals and killed him. Sarkar, citing a contemporary English factory letter from Rajapur that Bijapur told the Khan to take Shivaji by pretending friendship, concludes that Afzal struck first and calls Shivaji's act, after Burke, a preventive murder. Sarkar notes that Khafi Khan, a later Mughal historian, says both men came unarmed, and Sen's notes say that Grant Duff's account follows Khafi Khan. Grant Duff, read directly, cites Maratha and Persian manuscripts and English records: he has Shivaji win over the Khan's Brahmin envoy, Pantoji Gopinath, with an appeal to religion and the promise of a village, plan the meeting as an ambush, and strike first during the embrace with the steel claws, while the Khan cried treachery. Writing as a former East India Company officer in 1826, he speaks of the vanity of a Mahomedan noble and of the treacherous Mahratta, and his version is the one that Sarkar's conclusion contradicts. The Sabhasad Bakhar, which Sarkar dates to 1694, is a devotional narrative with prophecies and a vision of the goddess, and Sarkar cites reasons to doubt its stories of Afzal's desecration of temples as later popular inventions. Sen's note dates Afzal's death to September 1659; Sarkar gives 10 November, which this study follows.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -8149,12 +8264,16 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "pp. 169–175"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The Sabhasad Bakhar, in Surendranath Sen's translation of 1920, is the Maratha court account. Jadunath Sarkar's Shivaji and His Times weighs it against Persian histories and the English factory records, with an appendix on the evidence for the affair. Ranjit Ramchandra Desai's Britannica biography gives the modern summary. No Bijapur chronicle was read except as Sarkar reports it.",
+        "text": "The Sabhasad Bakhar, in Surendranath Sen's translation of 1920, is the Maratha court account. Jadunath Sarkar's Shivaji and His Times weighs it against Persian histories and the English factory records, with an appendix on the evidence for the affair. James Grant Duff's History of the Mahrattas (1826), on the Internet Archive, gives an early British narrative, in which Shivaji is the aggressor. Ranjit Ramchandra Desai's Britannica biography gives the modern summary. No Bijapur chronicle was read except as Sarkar reports it.",
         "evidence": "fact",
         "refs": [
           {
@@ -8165,6 +8284,9 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 3
           }
         ]
       }
@@ -8212,7 +8334,7 @@
       {
         "name": "Afzal Khan",
         "objective": "Capture or kill Shivaji, by negotiation if possible, and restore Bijapur's authority in the Maval.",
-        "known": "Shivaji avoided open battle in the hills; the Maval deshmukhs had been summoned to join the Bijapur army.",
+        "known": "Shivaji avoided open battle in the hills; the Maval deshmukhs had been summoned to join the Bijapur army. Grant Duff says he had once governed the Wai district and knew how difficult the country was.",
         "uncertainty": "Shivaji's real intentions and the position of the Maratha armies, which, Sarkar argues, he did not know.",
         "constraints": "The force Bijapur could spare after the Mughal war, in hill and forest country unsuited to a regular army.",
         "forces": "Regular Bijapur cavalry and infantry with artillery, elephants and transport, and Khandoji Khopde's Mavle contingent.",

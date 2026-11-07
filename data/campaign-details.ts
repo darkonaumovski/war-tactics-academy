@@ -39,11 +39,32 @@ const ebNapoleonic: Source = {
   url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Napoleonic_Campaigns",
   publisher: "Wikisource",
 };
+// Napoleon, 1812–1815 (batch K3).
+const ebWaterloo: Source = {
+  title:
+    "“Waterloo Campaign, 1815” — Archibald Frank Becke, Encyclopædia Britannica, 11th ed., vol. 28 (1911)",
+  url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Waterloo_Campaign,_1815",
+  publisher: "Wikisource",
+};
+const wilson: Source = {
+  title:
+    "Sir Robert Wilson, Narrative of Events during the Invasion of Russia by Napoleon Bonaparte, ed. H. Randolph, 2nd ed. (London: John Murray, 1860)",
+  url: "https://archive.org/details/narrativeofevent00wils",
+  publisher: "Internet Archive",
+};
 const ndb = (sfz: string, title: string): Source => ({
   title,
   url: `https://www.deutsche-biographie.de/sfz${sfz}.html`,
   publisher: "Deutsche Biographie",
 });
+const blucher = ndb(
+  "35354",
+  "Blücher von Wahlstatt, Gebhard Leberecht Fürst — Hans Haussherr (Neue Deutsche Biographie 2, 1955)",
+);
+const gneisenau = ndb(
+  "69918",
+  "Gneisenau, August Wilhelm Anton Graf Neidhardt von — Hermann Teske (Neue Deutsche Biographie 6, 1964)",
+);
 
 export const campaignDetails: Record<string, CampaignDetails> = {
   "macedonian-invasion-of-persia": {
@@ -934,5 +955,408 @@ export const campaignDetails: Record<string, CampaignDetails> = {
         "Karl, Erzherzog von Österreich — Johann Christoph Allmayer-Beck (Neue Deutsche Biographie 11, 1977), with Adam Wolf’s ADB article (1882)",
       ),
     ],
+  },
+  "russian-campaign-of-1812": {
+    summary:
+      "Napoleon’s invasion of Russia in 1812: the long Russian retreat, Smolensk and Borodino, the occupation and burning of Moscow, and the retreat that destroyed the Grande Armée.",
+    narrative: [
+      {
+        title: "The road to war",
+        text: "Rose traces the break between Napoleon and Alexander through the years after Tilsit: Russia’s imperfect observance of the Continental System, the enlargement of the Duchy of Warsaw in 1809 and Napoleon’s ambiguity about Poland, and the Tsar’s refusal of his sister’s hand. In 1812 Napoleon gathered an enormous army drawn from France, the Confederation of the Rhine, Italy, Poland and smaller states, with Austrian and Prussian contingents on its flanks. The Russians planned to give ground. Barclay de Tolly, the war minister commanding the First Army, argued for avoiding a decisive battle and drawing the enemy into the country, a policy that, his NDB biographer notes, exposed him as a foreigner to court intrigue; Rose adds that Scharnhorst had advised the Tsar on the same lines.",
+        evidence: "fact",
+        studies: [],
+        refs: [
+          { source: 1, locator: "ch. 32" },
+          { source: 3 },
+          { source: 0, locator: "§ 34" },
+        ],
+      },
+      {
+        title: "Into Lithuania",
+        text: "The Grande Armée crossed the Niemen near Kovno at the end of June and took Vilna. The 1911 Britannica describes the damage done in the first days: green fodder gave the horses colic and cost the mounted arms a third of their strength in ten days, men died of sunstroke and straggling began. Supplies from Danzig were lost to British cruisers or used up by the transport horses, and the troops lived by marauding. Jerome, slow at Grodno, let Bagration’s Second Army escape and gave up his command. Barclay fell back to the camp at Drissa and then to Vitebsk, refusing battle each time the French closed. The Britannica reckons that in five weeks the army had lost at least a third of its strength.",
+        evidence: "fact",
+        studies: [],
+        refs: [
+          { source: 0, locator: "§ 35" },
+          { source: 1, locator: "ch. 32" },
+        ],
+      },
+      {
+        title: "Smolensk and Borodino",
+        text: "The two Russian armies united near Smolensk. The French attacked the city on 16 August; the Russians held its old walls and withdrew on the night of the 17th, having cost the French, by Rose’s count, 12,000 killed or wounded. Napoleon had told Metternich he would not go beyond Smolensk that year, but the hope of a decisive battle drew him on. Wilson, the British commissioner with the Russian army, describes the discontent at the abandonment of city after city, until on 29 August Kutuzov superseded Barclay. Kutuzov stood at Borodino, and on 7 September Napoleon attacked the Russian centre and left head-on. The Russians were driven back but not broken, and Napoleon did not commit his Guard. Bagration was mortally wounded.",
+        evidence: "fact",
+        studies: ["smolensk-1812", "borodino"],
+        refs: [
+          { source: 0, locator: "§§ 36–37" },
+          { source: 1, locator: "ch. 32" },
+          { source: 2 },
+        ],
+      },
+      {
+        title: "Moscow",
+        text: "Kutuzov reported to the Tsar that the enemy had not gained an inch of ground and was made a field marshal; Wilson calls the despatch uncandid, since the army was already retreating. At a council at Fili on 13 September, Wilson writes, Barclay spoke for retreat and Bennigsen for a battle, and Kutuzov decided to give up Moscow without fighting. Napoleon entered on 14 September. Rose notes that the people and stores were gone and that the governor, Rostopchin, had released the prisoners and removed the fire engines; fires broke out and burned for days. Napoleon sent overtures to the Tsar, and General Lauriston to Kutuzov’s camp on 4 October, but Alexander kept his vow not to treat while a French soldier stood on Russian soil.",
+        evidence: "fact",
+        studies: [],
+        refs: [
+          { source: 2 },
+          { source: 1, locator: "ch. 32" },
+          { source: 0, locator: "§ 38" },
+        ],
+      },
+      {
+        title: "Maloyaroslavets",
+        text: "On 18 October the Russians surprised Murat’s advanced guard at Tarutino. Napoleon had already decided to leave; he marched out on the 19th, south-west toward Kaluga and the unravaged country. At Maloyaroslavets on 24 October Eugène’s corps fought its way into the town against Dokhturov. Wilson says Kutuzov, with over 80,000 men in position, announced that he would finish the war there, but in the night ordered a withdrawal and on the 26th fell back fifteen miles toward Kaluga, leaving the way open. Napoleon, for his part, turned north to the Smolensk road, through the country the armies had already stripped on the way to Moscow.",
+        evidence: "fact",
+        studies: ["maloyaroslavets"],
+        refs: [
+          { source: 2 },
+          { source: 0, locator: "§ 38" },
+          { source: 1, locator: "ch. 32" },
+        ],
+      },
+      {
+        title: "Retreat to the Berezina",
+        text: "Kutuzov followed on a parallel road, leaving the Cossacks and his advanced guards to harass the columns, and winter weather set in during the first week of November. The army reached Smolensk with, the Britannica says, not more than 50,000 men, rested from 9 to 14 November, and fought its way past the Russians at Krasnoi, where Ney’s rearguard was cut off and rejoined with 800 of its 6,000 men. Chichagov’s army from the south then seized the bridge at Borisov on the Berezina and burned it. A ford was found upstream at Studianka; Eblé’s pontonniers built bridges, finished on the afternoon of 26 November, and Oudinot, Victor and Ney held off attacks on both banks until the last organized troops crossed on the 28th. Thousands of stragglers were left behind.",
+        evidence: "fact",
+        studies: ["berezina"],
+        refs: [
+          { source: 0, locator: "§§ 39–40" },
+          { source: 1, locator: "ch. 32" },
+        ],
+      },
+      {
+        title: "The end of the Grande Armée",
+        text: "On 5 December, at Smorgoni, Napoleon handed the command to Murat and left for Paris to raise a new army. The cold now set in hard; Vilna was abandoned in panic. Rose says that of the army that had crossed the Niemen only some 20,000 men recrossed it in the middle of December, while the Austrian and Prussian contingents fell back almost intact. On 30 December the Prussian corps under Yorck signed the Convention of Tauroggen with the Russians. Wilson records that Kutuzov’s main army followed at an average of about ten miles a day and reached the Berezina only on 1 December.",
+        evidence: "fact",
+        studies: [],
+        refs: [
+          { source: 1, locator: "ch. 32" },
+          { source: 0, locator: "§ 41" },
+          { source: 2 },
+        ],
+      },
+      {
+        title: "Weather, discipline and Kutuzov",
+        text: "The 1911 Britannica argues that the disaster came from the army’s lack of march discipline more than from the weather: the frost came late, and the Berezina was not frozen when the army crossed it. Rose sees the root in Napoleon’s belief that Moscow was the heart of Russia, and in his refusal to halt at Smolensk. Wilson blames Kutuzov for letting the French escape after Maloyaroslavets and on the Dnieper, and Rose agrees that at Vyazma and Krasnoi a more pugnacious pursuit might have destroyed the army. The Britannica credits the Russian retreats of the summer, so unpopular at the time, with wearing the invaders down.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [
+          { source: 0, locator: "§ 39" },
+          { source: 1, locator: "ch. 32" },
+          { source: 2 },
+          { source: 3 },
+        ],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Rose counts some 600,000 men in the invading host, including reserves and flank contingents; the Britannica gives 450,000 along the Niemen in June. The crossing is dated to 23 June by Rose and 24 June by the Britannica. At Borodino the Britannica has 128,000 French against 110,000 Russians, and losses of 25,000 French and 38,000 Russians; Rose has about 125,000 French and puts the Russian loss near 40,000, with the French nearly as heavy. Rose dates the first winter storm to 6 November, the Britannica the first frost to 27 October and sharp cold to 8 November. Wilson, a British officer who pressed for a more aggressive war, is openly hostile to Kutuzov, and his judgements are given as his.",
+        evidence: "uncertainty",
+        studies: ["borodino"],
+        refs: [
+          { source: 1, locator: "ch. 32" },
+          { source: 0, locator: "§§ 34–39" },
+          { source: 2 },
+        ],
+      },
+    ],
+    sources: [
+      ebNapoleonic,
+      rose,
+      wilson,
+      ndb(
+        "7305",
+        "Barclay de Tolly, Michael Andreas Fürst von — Georg von Rauch (Neue Deutsche Biographie 1, 1953)",
+      ),
+    ],
+  },
+  "german-campaign-of-1813": {
+    summary:
+      "The War of Liberation in Germany, 1813: Napoleon’s new army won at Lützen, Bautzen and Dresden, but Austria joined the coalition and the allies closed on him at Leipzig.",
+    narrative: [
+      {
+        title: "Prussia changes sides",
+        text: "The Convention of Tauroggen became, in the 1911 Britannica’s words, the starting point of Prussia’s regeneration. Rose describes the chancellor Hardenberg deceiving the French and taking the king to Breslau, where Frederick William found himself carried along by national feeling; Prussia allied with Russia and declared war. On 28 February Blücher was given command of the field troops in Silesia, with Scharnhorst as chief of staff and Gneisenau as quartermaster-general, and the Landwehr was raised. Austria, Napoleon’s ally by marriage, declared itself neutral and offered to mediate.",
+        evidence: "fact",
+        studies: [],
+        refs: [
+          { source: 0, locator: "§ 42" },
+          { source: 1, locator: "ch. 33" },
+          { source: 2 },
+          { source: 3 },
+        ],
+      },
+      {
+        title: "A new army",
+        text: "In less than half a year, Rose writes, Napoleon raised an army nearly as large as the one lost in Russia, though most of it was young and untrained and its cavalry was weak. The Britannica notes that he had so far drawn relatively lightly on France, used the National Guard cohorts as a reservoir, and levied heavily in the Rhine Confederation and Italy; by the end of March more than 200,000 men were moving toward the Elbe. Eugène, with the remnant of the Grande Armée, had fallen back from Posen to the Elbe, leaving French garrisons isolated in Danzig and the fortresses of the Oder.",
+        evidence: "fact",
+        studies: [],
+        refs: [
+          { source: 1, locator: "ch. 33" },
+          { source: 0, locator: "§§ 42–43" },
+        ],
+      },
+      {
+        title: "Lützen and Bautzen",
+        text: "On 2 May the Russian and Prussian armies under Wittgenstein attacked what they took to be Napoleon’s advanced guard near Lützen and found his main army. He let his leading troops absorb the attack while he formed a reserve, then broke the allied line with massed artillery; for lack of cavalry there was no pursuit. Scharnhorst was mortally wounded. The allies gave up Dresden and took a fortified position at Bautzen, where on 20–21 May they were driven out but retreated in good order, leaving no trophies. On 26 May Blücher’s cavalry ambushed a French division at Haynau.",
+        evidence: "fact",
+        studies: ["lutzen-1813", "bautzen"],
+        refs: [
+          { source: 0, locator: "§§ 44–46" },
+          { source: 1, locator: "ch. 33" },
+          { source: 3 },
+        ],
+      },
+      {
+        title: "The armistice and Austria",
+        text: "Napoleon then agreed to a suspension of arms, which the Britannica calls perhaps the gravest military error of his career and Rose his own death warrant. The allies used the summer well. News of Wellington’s victory at Vitoria arrived; at Dresden on 26 June Napoleon lost his temper with Metternich; and at Trachenberg on 12 July the allies agreed a common plan with an army of 200,000 in Bohemia. Gneisenau, governor-general of Silesia during the truce, organized the Landwehr and Landsturm. When the peace congress at Prague expired without agreement on 10 August, Austria joined the coalition. Rose gives the allies close to half a million men.",
+        evidence: "fact",
+        studies: [],
+        refs: [
+          { source: 0, locator: "§ 46" },
+          { source: 1, locator: "ch. 33, ch. 34" },
+          { source: 3 },
+        ],
+      },
+      {
+        title: "Dresden and the defeats around it",
+        text: "Napoleon held the line of the Elbe and sent Oudinot against Berlin. He advanced on Blücher, who drew back, then hurried back when Schwarzenberg’s army came down on Dresden; the Britannica says his main body marched ninety miles in seventy-two hours. On 26–27 August he won his last great victory there, crushing the Austrian left in pouring rain. His lieutenants were beaten everywhere else. Bülow defeated Oudinot’s army at Grossbeeren on 23 August, Blücher routed Macdonald on the Katzbach on the 26th, Vandamme’s corps was destroyed at Kulm at the end of the month, and Ney was beaten at Dennewitz on 6 September. Rose counts five battles lost by the marshals in a fortnight.",
+        evidence: "fact",
+        studies: ["dresden"],
+        refs: [
+          { source: 0, locator: "§§ 47–49" },
+          { source: 1, locator: "ch. 35" },
+          { source: 2 },
+        ],
+      },
+      {
+        title: "Closing on Leipzig",
+        text: "Napoleon spent September moving between Dresden and the passes without bringing on a battle. Early in October Blücher marched north and crossed the Elbe at Wartenburg on the 3rd, joining Bernadotte’s Army of the North, while Schwarzenberg came round from Bohemia. Bavaria made terms with Austria; Rose notes that Napoleon had already decided on his move to Leipzig before he heard of it. After days of irresolution at Düben, the Britannica says, he concentrated around Leipzig.",
+        evidence: "fact",
+        studies: [],
+        refs: [
+          { source: 2 },
+          { source: 1, locator: "ch. 35" },
+          { source: 0, locator: "§§ 50–51" },
+        ],
+      },
+      {
+        title: "Leipzig and Hanau",
+        text: "On 16 October Napoleon attacked Schwarzenberg south of Leipzig but could not break through, while Blücher took Möckern to the north. On the 18th the allies, now around 300,000 strong by Rose’s count, attacked from all sides; Bernadotte closed the gap to the north-east, and in the afternoon Saxon troops went over to the allies. The French retreated through the city on the 19th, and the bridge over the Elster was blown too early, trapping the rearguard: Rose counts thirty generals, 33,000 men and 260 guns taken. On the road to the Rhine, the Bavarian general Wrede tried to bar the way at Hanau on 30–31 October and was swept aside. The army crossed the Rhine at Mainz early in November, leaving some 190,000 men in German fortresses.",
+        evidence: "fact",
+        studies: ["leipzig", "hanau"],
+        refs: [
+          { source: 0, locator: "§§ 52–53" },
+          { source: 1, locator: "ch. 35" },
+        ],
+      },
+      {
+        title: "Out-generalled",
+        text: "Rose writes that Napoleon was out-generalled: he staked everything on the Elbe, a river line that could be turned as Mack’s Iller had been in 1805, while the allies aimed from the start at his communications through Leipzig. He gives the credit for the execution to Blücher and Gneisenau. Gneisenau’s NDB biographer describes Blücher’s headquarters as a political force in its own right, pressing against diplomatic caution for the complete defeat of Napoleon. The Britannica stresses Napoleon’s lack of cavalry and his strange irresolution after Dresden.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [
+          { source: 1, locator: "ch. 35" },
+          { source: 3 },
+          { source: 0, locator: "§§ 46–51" },
+        ],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "The Britannica says the French, still more than 100,000 strong, soon outdistanced the pursuit after Leipzig; Rose says 40,000 armed men, with a larger crowd of unarmed stragglers, crossed at Mainz. The Britannica gives Wrede 50,000 men at Hanau and calls the French artillery’s work there practically the destruction of his force. Rose rejects the claim by some admirers that only Bavaria’s defection stopped Napoleon marching north. Blücher’s NDB biographer counts Lützen and Bautzen as honourable defeats for the Prussians.",
+        evidence: "uncertainty",
+        studies: ["hanau"],
+        refs: [
+          { source: 0, locator: "§ 53" },
+          { source: 1, locator: "ch. 35" },
+          { source: 2 },
+        ],
+      },
+    ],
+    sources: [ebNapoleonic, rose, blucher, gneisenau],
+  },
+  "campaign-in-france-1814": {
+    summary:
+      "The defence of France in early 1814: Napoleon’s victories over divided allied armies between the Marne and the Seine, the defeats at Laon and Arcis-sur-Aube, the fall of Paris and the first abdication.",
+    narrative: [
+      {
+        title: "Across the Rhine",
+        text: "On 1 December 1813 the allies declared that they made war on Napoleon’s domination, not on France; at Frankfurt they had suggested peace on the Rhine and the Alps. After a long halt, the party of Blücher and the fighting generals prevailed, and in the night of 1 January the Army of Silesia crossed the Rhine at Kaub, while Schwarzenberg’s much larger army came through Switzerland and Bernadotte’s army followed through the Netherlands. The Britannica says Napoleon could collect fewer than 80,000 men for the eastern frontier, with over 100,000 held by Wellington in the south. Rose describes him raising National Guards and conscripts and spending 55 million francs from his private treasure; Murat joined Austria on 11 January.",
+        evidence: "fact",
+        studies: [],
+        refs: [
+          { source: 1, locator: "ch. 36" },
+          { source: 0, locator: "§ 54" },
+          { source: 2 },
+        ],
+      },
+      {
+        title: "Brienne and La Rothière",
+        text: "Napoleon attacked Blücher at Brienne on 29 January to keep him from joining Schwarzenberg, and drove him from the town. Blücher fell back toward Bar-sur-Aube, was joined by the Austrian advanced guard and turned on Napoleon at La Rothière. In snow and mud the French artillery was of little use, and at nightfall Napoleon withdrew to Troyes. Rose describes him entering Troyes to almost no cheers, with his army cast down by defeat and hunger.",
+        evidence: "fact",
+        studies: ["la-rothiere"],
+        refs: [
+          { source: 1, locator: "ch. 36" },
+          { source: 0, locator: "§ 54" },
+          { source: 2 },
+        ],
+      },
+      {
+        title: "The Six Days",
+        text: "Blücher then moved down the Marne toward Paris with his corps widely separated for food and shelter, while Schwarzenberg advanced slowly along the Seine. From behind the Seine Napoleon struck north with fewer than 30,000 men into the gaps between Blücher’s corps and beat them in turn between 10 and 14 February, at Champaubert, Montmirail, Château-Thierry and Vauchamps. Rose says the Army of Silesia lost some 15,000 men in four days, and compares the strokes with Lonato and Castiglione. Blücher’s NDB biographer notes that he and Gneisenau then prevented the general retreat already being considered at allied headquarters.",
+        evidence: "fact",
+        studies: ["six-days-campaign"],
+        refs: [
+          { source: 0, locator: "§ 55" },
+          { source: 1, locator: "ch. 36" },
+          { source: 2 },
+        ],
+      },
+      {
+        title: "Montereau and Châtillon",
+        text: "Schwarzenberg’s columns had meanwhile crossed the Seine at Bray and pushed toward Fontainebleau. Napoleon turned south, beat them at Mormant on 17 February and at Montereau on the 18th, where Pajol’s cavalry took the bridge, and the allied main army fell back to Bar-sur-Aube. At the Congress of Châtillon, opened on 5 February, the allies demanded the frontiers of 1791; Napoleon, encouraged by his victories, would not give up Belgium and the Rhine. By the Treaty of Chaumont, dated 1 March, Britain, Russia, Austria and Prussia bound themselves not to make a separate peace, to keep 150,000 men each in the field and, in Britain’s case, to pay £5 million in subsidies. The congress ended on 19 March.",
+        evidence: "fact",
+        studies: [],
+        refs: [
+          { source: 1, locator: "ch. 36, ch. 37" },
+          { source: 0, locator: "§ 55" },
+        ],
+      },
+      {
+        title: "Laon",
+        text: "Blücher took the offensive again toward Paris and, when Napoleon came after him, withdrew north across the Marne. Soissons surrendered to the allies on 3 March, letting him cross the Aisne and join the northern army. On 7 March Napoleon drove back the Russians on the plateau of Craonne at a cost of about 7,000 men to each side, and on 9–10 March he attacked the united army, now over 100,000 strong, at Laon and was defeated. Blücher fell ill with an eye infection and depression, and there was no pursuit; Napoleon retired to Reims.",
+        evidence: "fact",
+        studies: ["laon"],
+        refs: [
+          { source: 0, locator: "§ 56" },
+          { source: 1, locator: "ch. 37" },
+          { source: 2 },
+        ],
+      },
+      {
+        title: "Arcis-sur-Aube",
+        text: "Schwarzenberg had begun to advance again, and fell back when Napoleon moved against his flank. Learning that Napoleon had crossed the Aube at Plancy with fewer than 20,000 men, Rose writes, he turned on him with about 100,000. On 20–21 March Napoleon fought at Arcis-sur-Aube, exposing himself freely, and on the 21st drew off.",
+        evidence: "fact",
+        studies: ["arcis-sur-aube"],
+        refs: [
+          { source: 1, locator: "ch. 37" },
+          { source: 0, locator: "§ 56" },
+        ],
+      },
+      {
+        title: "Paris and the abdication",
+        text: "Napoleon now marched east toward St Dizier to rally the garrisons of Lorraine, raise the country and fall on the allied communications. His plans fell into allied hands, together with letters describing the discontent in Paris, and the allies decided to ignore him and march on the capital. Marmont and Mortier were beaten at La Fère-Champenoise on the 25th, and after a day’s fighting on the heights north-east of Paris on 30 March, Marmont asked for terms and the city surrendered. Blücher, ill, gave up his command on 2 April. The Senate set up a provisional government under Talleyrand; on the night of 4–5 April Marmont’s corps was led into the allied lines, and Napoleon abdicated and accepted Elba.",
+        evidence: "fact",
+        studies: [],
+        refs: [
+          { source: 0, locator: "§ 57" },
+          { source: 1, locator: "ch. 37" },
+          { source: 2 },
+        ],
+      },
+      {
+        title: "A brilliant defence",
+        text: "Rose calls the 1814 campaign the most glorious of Napoleon’s career, an example of a small undivided force striking at the separated parts of a larger one. The Britannica, writing of his generalship as a whole, says that in 1814 and 1815 he rose to each occasion in the presence of the enemy and lapsed between them. On the allied side, Blücher’s and Gneisenau’s biographers credit their headquarters with holding the coalition to the march on Paris against Austrian caution, and Rose gives Castlereagh the credit for the Treaty of Chaumont that kept the alliance together.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [
+          { source: 1, locator: "ch. 36, ch. 37" },
+          { source: 0, locator: "Military Character of Napoleon" },
+          { source: 3 },
+          { source: 2 },
+        ],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "The Britannica dates the battle of La Rothière to 2 February; Rose places it three days after Brienne and Blücher’s NDB biographer on 1 February, calling it a brilliant victory, while the Britannica describes fighting that simply ceased at nightfall. The Britannica attributes the Six Days’ victories to Montmirail against Sacken, Champaubert against Yorck and Étoges against Blücher; Rose describes Montmirail, Château-Thierry and Vauchamps. The Britannica has Paris give way on 31 March, Rose on the evening of the 30th.",
+        evidence: "uncertainty",
+        studies: ["la-rothiere"],
+        refs: [
+          { source: 0, locator: "§§ 54–57" },
+          { source: 1, locator: "ch. 36, ch. 37" },
+          { source: 2 },
+        ],
+      },
+    ],
+    sources: [ebNapoleonic, rose, blucher, gneisenau],
+  },
+  "waterloo-campaign": {
+    summary:
+      "The campaign of the Hundred Days in Belgium, June 1815: Napoleon struck between Wellington and Blücher, beat the Prussians at Ligny and was defeated at Waterloo by the two allied armies together.",
+    narrative: [
+      {
+        title: "The Hundred Days",
+        text: "Napoleon sailed from Elba with about a thousand men and landed near Cannes on 1 March 1815. At Laffrey, Rose writes, the first royal battalion sent against him refused to fire, and the army went over; Ney, who had promised to bring him back in an iron cage, declared for him on 14 March, and the Bourbons fled Paris. The allies resolved on 13 March to destroy him and bound themselves to put 150,000 men each in the field. The 1911 Britannica says he had by June raised 360,000 men for the defence of France, half of them fit for field service, but faced Austrian and Russian armies gathering on the Rhine and a revolt in the Vendée.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1, locator: "ch. 38" }],
+      },
+      {
+        title: "A blow at the hinge",
+        text: "The allies meant Wellington’s and Blücher’s armies to wait in Belgium until the Austrians and Russians reached the Rhine about 1 July. Wellington’s army of about 93,000, of many nationalities, was spread west of the Brussels–Charleroi road with its base at Ostend; Blücher’s Prussians, about 90,000 by Rose’s figure, lay east of it around Namur. Napoleon decided to strike at Charleroi, the hinge between them, before the other armies came up, and by 14 June he had concentrated 124,000 men close to the frontier without the allies noticing. The Britannica faults him for leaving 56,500 men in secondary theatres, and for choosing Soult as chief of staff and Ney and Grouchy as wing commanders.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1, locator: "ch. 39" }],
+      },
+      {
+        title: "Across the Sambre",
+        text: "On 15 June the French crossed the Sambre at Charleroi and Marchienne. Zieten’s Prussian corps fell back fighting toward Fleurus, buying a day for Blücher to concentrate; Bülow’s corps did not arrive in time because Gneisenau’s orders to it were too vague to convey the urgency. Wellington learned of the French advance only in the afternoon and, fearing a move round his right, concentrated slowly. At Quatre Bras a Dutch-Belgian brigade under Prince Bernhard stayed at the crossroads on its own initiative and held off Ney’s advance guard. The Britannica also tells how a report from Wellington’s intelligence officer in France was held back at the outposts and reached him only on the 18th.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1, locator: "ch. 39" }],
+      },
+      {
+        title: "Ligny and Quatre Bras",
+        text: "On 16 June Blücher stood at Ligny with about 83,000 men against Napoleon’s 71,000, counting on Wellington’s conditional promise of help. Napoleon meant Ney to hold Wellington at Quatre Bras and send part of his wing against the Prussian flank. D’Erlon’s corps, called away by an aide, marched toward Ligny, was recalled by Ney and fought in neither battle. After hours of fighting for the villages Napoleon broke the Prussian centre in the evening; Blücher was pinned under his fallen horse. The Britannica gives the Prussian loss as about 12,000 men and 21 guns and the French as 8,500. At Quatre Bras Wellington, reinforced through the afternoon, held the crossroads and by nightfall had pushed Ney back to his start line.",
+        evidence: "fact",
+        studies: ["ligny"],
+        refs: [{ source: 0 }, { source: 1, locator: "ch. 39" }, { source: 3 }],
+      },
+      {
+        title: "To Wavre and Mont-Saint-Jean",
+        text: "That night Gneisenau, standing in for Blücher, ordered the Prussian retreat north toward Tilly and Wavre instead of east toward their base, keeping the two allied armies within reach of each other. On the 17th Napoleon, believing the Prussians beaten and retreating toward Namur, sent Grouchy with 33,000 men and 110 guns to follow them, and Grouchy marched slowly to Gembloux. Ney did nothing to hold Wellington, who withdrew in a thunderstorm to a ridge at Mont-Saint-Jean, south of Waterloo, and in the early hours of the 18th received Blücher’s promise to march to his aid.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }, { source: 1, locator: "ch. 39" }],
+      },
+      {
+        title: "Waterloo",
+        text: "On 18 June Wellington held the ridge with about 67,600 men and 156 guns, with garrisons in Hougoumont and La Haye Sainte, having left 17,000 more at Hal and Tubize to guard his right. Napoleon, with 74,000 men and 246 guns, waited until late morning for the ground to dry. The attack on Hougoumont, D’Erlon’s assault on the centre broken by the British heavy cavalry, and the massed cavalry charges against the squares all failed. Bülow’s Prussian corps, sighted early in the afternoon, attacked the French right at Plancenoit from about half past four, drawing in Lobau and the Young Guard. La Haye Sainte fell after six, but Zieten’s corps arrived on Wellington’s left, and about eight the Guard’s attack was repulsed. The French army broke, and Gneisenau led the Prussian pursuit through the night.",
+        evidence: "fact",
+        studies: ["waterloo"],
+        refs: [
+          { source: 0 },
+          { source: 1, locator: "ch. 40" },
+          { source: 2 },
+          { source: 3 },
+        ],
+      },
+      {
+        title: "Wavre and the end",
+        text: "Grouchy, urged by Gérard to march to the sound of the guns, kept on to Wavre, where Thielmann’s corps held him all day; Napoleon’s order to come west arrived too late. Hearing of Waterloo, Grouchy retreated skilfully to Namur and Paris. The Britannica puts the French loss on the 18th at over 40,000 men and almost all their artillery, Wellington’s at over 15,000 and the Prussians’ at 7,000. Napoleon abdicated again and in July surrendered to the British, who sent him to St Helena. The Prussians entered Paris in early July.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }, { source: 3 }],
+      },
+      {
+        title: "Why Napoleon lost",
+        text: "The Britannica lists the causes: an army too small for its task, a Napoleon physically less than he had been, Ney’s failure to hold Wellington on the 17th, Grouchy’s failure to keep the Prussians away, Blücher’s loyalty to his ally and Wellington’s firmness. Rose stresses the lack of pursuit on the 17th, Napoleon’s contempt for Wellington, his underestimate of the Prussians and his vague orders to Grouchy. Gneisenau’s NDB biographer calls him the real conqueror of Napoleon for his insistence on destroying the enemy army.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1, locator: "ch. 40" }, { source: 2 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "The retreat to Wavre is the chief dispute. The Britannica thinks Gneisenau chose Wavre to restore his communications rather than to help Wellington, and credits Blücher and Grolmann with bringing the army to Waterloo. Rose thinks Gneisenau first aimed to reunite the Prussian wings but soon saw the chance of joining Wellington. Gneisenau’s NDB biographer says recent research shows he acted entirely in Blücher’s sense. The Britannica says Napoleon’s physical strength was impaired; Rose finds no trustworthy evidence of decline during the campaign. Rose, citing Houssaye, calls Napoleon’s claim that his cavalry drew Wellington’s 17,000 men to Hal a fabrication. Blücher’s biographer has him occupy Paris on 3 July, Gneisenau’s the Prussians enter it on 7 July.",
+        evidence: "uncertainty",
+        studies: ["waterloo"],
+        refs: [
+          { source: 0 },
+          { source: 1, locator: "ch. 39, ch. 40" },
+          { source: 2 },
+          { source: 3 },
+        ],
+      },
+    ],
+    sources: [ebWaterloo, rose, gneisenau, blucher],
   },
 };

@@ -808,6 +808,78 @@ export const warDetails: Record<string, WarDetails> = {
       ["1814", "Campaign in France; Paris capitulates; Napoleon abdicates"],
       ["1815", "Hundred Days; Ligny and Waterloo"],
     ),
+    bibliography: [
+      {
+        title:
+          "“Napoleonic Campaigns” — Frederic Natusch Maude and David Hannay, Encyclopædia Britannica, 11th ed., vol. 19 (1911)",
+        url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Napoleonic_Campaigns",
+        publisher: "Wikisource",
+        note: "A military history of Napoleon’s campaigns from 1805 to 1814 in numbered sections, whose bibliography rests on the French and German general staff histories. It is strongest on movements and the working of armies, defends Mack, blames the retreat from Moscow on march discipline more than weather, and ends with an essay on Napoleon’s generalship. The Peninsular War and Waterloo have their own articles.",
+      },
+      {
+        title:
+          "“Waterloo Campaign, 1815” — Archibald Frank Becke, Encyclopædia Britannica, 11th ed., vol. 28 (1911)",
+        url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Waterloo_Campaign,_1815",
+        publisher: "Wikisource",
+        note: "A detailed account of the Hundred Days in Belgium, from the concentration of the Army of the North to Grouchy’s retreat, with strengths and losses for each battle. Becke is sharply critical of Ney, Grouchy and Gneisenau, and gives full weight to Blücher’s march to Waterloo.",
+      },
+      {
+        title:
+          "J. Holland Rose, The Life of Napoleon I, 2 vols (London: G. Bell, 1910 reprint of the 1907 fourth edition)",
+        url: "https://archive.org/details/thelifeofnapoleo14300gut",
+        publisher: "Internet Archive (Project Gutenberg text)",
+        note: "A political and military biography using the British official records, with a chapter for each campaign from Ulm to Waterloo and close attention to the diplomacy that made and broke the coalitions. It argues with Napoleon’s St Helena accounts and with Thiers, and writes from a British point of view.",
+      },
+      {
+        title:
+          "Sir Robert Wilson, Narrative of Events during the Invasion of Russia by Napoleon Bonaparte, ed. H. Randolph, 2nd ed. (London: John Murray, 1860)",
+        url: "https://archive.org/details/narrativeofevent00wils",
+        publisher: "Internet Archive",
+        note: "The account of the British commissioner at Russian headquarters in 1812, edited by his nephew and published in 1860. It gives the Russian side of the campaign day by day, including the councils of war, and is bitterly critical of Kutuzov.",
+      },
+      {
+        title:
+          "Mack Freiherr von Leiberich, Karl — Peter Broucek (Neue Deutsche Biographie 15, 1987)",
+        url: "https://www.deutsche-biographie.de/sfz55447.html",
+        publisher: "Deutsche Biographie",
+        note: "A short Austrian biography of the commander who surrendered at Ulm, explaining the court politics that put him in charge in 1805 and his court martial.",
+      },
+      {
+        title:
+          "Hohenlohe-Ingelfingen, Friedrich Ludwig Fürst zu — Günter Richter (Neue Deutsche Biographie 9, 1972)",
+        url: "https://www.deutsche-biographie.de/sfz33338.html",
+        publisher: "Deutsche Biographie",
+        note: "The Prussian commander beaten at Jena and the surrender at Prenzlau, from the Prussian side.",
+      },
+      {
+        title:
+          "Karl, Erzherzog von Österreich — Johann Christoph Allmayer-Beck (Neue Deutsche Biographie 11, 1977)",
+        url: "https://www.deutsche-biographie.de/sfz57317.html",
+        publisher: "Deutsche Biographie",
+        note: "Austria’s commander in 1809, his reluctance to go to war, his army reforms and his conflicts with the court. The page also carries Adam Wolf’s ADB article of 1882.",
+      },
+      {
+        title:
+          "Barclay de Tolly, Michael Andreas Fürst von — Georg von Rauch (Neue Deutsche Biographie 1, 1953)",
+        url: "https://www.deutsche-biographie.de/sfz7305.html",
+        publisher: "Deutsche Biographie",
+        note: "A brief article on the Russian commander of 1812, whose strategy of retreat made him unpopular as a foreigner and who commanded the Russo-Prussian forces in 1813–1814.",
+      },
+      {
+        title:
+          "Blücher von Wahlstatt, Gebhard Leberecht Fürst — Hans Haussherr (Neue Deutsche Biographie 2, 1955)",
+        url: "https://www.deutsche-biographie.de/sfz35354.html",
+        publisher: "Deutsche Biographie",
+        note: "The Prussian field commander of 1813–1815, from Auerstedt and Lübeck to Leipzig, the campaign of 1814, Ligny and Waterloo, with the dates of his battles from the Prussian side.",
+      },
+      {
+        title:
+          "Gneisenau, August Wilhelm Anton Graf Neidhardt von — Hermann Teske (Neue Deutsche Biographie 6, 1964)",
+        url: "https://www.deutsche-biographie.de/sfz69918.html",
+        publisher: "Deutsche Biographie",
+        note: "Blücher’s chief of staff and the Prussian army reformer, including his order to retreat on Wavre after Ligny, which the article defends against older criticism, and his part in the pursuit after Waterloo.",
+      },
+    ],
   },
   "civil-war": {
     participants: [

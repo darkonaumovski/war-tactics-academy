@@ -6,23 +6,38 @@ import { research } from "../../data/research";
 
 describe("campaign narratives", () => {
   const entries = Object.entries(campaignDetails);
-  it("cover the Alexander and Napoleon campaigns", () =>
+  it("cover the Alexander, Napoleon and First World War campaigns", () =>
     expect(Object.keys(campaignDetails).sort()).toEqual([
       "campaign-in-france-1814",
       "campaigns-in-bactria-and-sogdiana",
+      "dardanelles-campaign",
+      "east-prussian-campaign",
+      "eastern-front-in-1916",
       "egyptian-and-syrian-campaign",
       "german-campaign-of-1813",
       "indian-campaign",
       "italian-campaign-of-1796-1797",
+      "italian-front",
+      "macedonian-front",
       "macedonian-invasion-of-persia",
       "marengo-campaign",
+      "occupation-of-serbia",
       "paris-insurrection-of-1795",
       "russian-campaign-of-1812",
+      "serbian-campaign-of-1914",
+      "serbian-campaign-of-1915",
       "siege-of-toulon",
+      "sinai-and-palestine-campaign",
+      "war-in-the-north-sea",
       "war-of-the-fifth-coalition",
       "war-of-the-fourth-coalition",
       "war-of-the-third-coalition",
       "waterloo-campaign",
+      "western-front-in-1914",
+      "western-front-in-1915",
+      "western-front-in-1916",
+      "western-front-in-1917",
+      "western-front-in-1918",
     ]));
   it("belong to existing campaigns, which carry them", () => {
     for (const [slug, d] of entries) {
@@ -81,6 +96,7 @@ describe("war bibliographies", () => {
       "alexander",
       "french-revolutionary",
       "napoleonic",
+      "ww1",
     ]);
     for (const [, d] of withBibliography) {
       const list = d.bibliography!;

@@ -1038,6 +1038,113 @@ export const warDetails: Record<string, WarDetails> = {
       ["By 1 November 1918", "All of pre-war Serbia is liberated"],
       ["11 November 1918", "Armistice"],
     ),
+    bibliography: [
+      {
+        title:
+          "Western Front — Jonathan Krause (1914-1918-online. International Encyclopedia of the First World War, 2015)",
+        url: "https://encyclopedia.1914-1918-online.net/article/western-front/",
+        publisher: "1914-1918-online",
+        note: "A year-by-year account of the war in France and Belgium from the Schlieffen Plan to the Hundred Days, with casualty figures and a clear argument: the stalemate came from rapid innovation, not conservatism, and the front was finally won by Foch’s series of short attacks. It gives particular attention to the French army and to British command decisions.",
+      },
+      {
+        title:
+          "Eastern Front — Timothy C. Dowling (1914-1918-online. International Encyclopedia of the First World War, 2014)",
+        url: "https://encyclopedia.1914-1918-online.net/article/eastern-front/",
+        publisher: "1914-1918-online",
+        note: "The war between Russia and the Central Powers from Tannenberg and Galicia to the Brusilov offensive and the Russian collapse, with detail on plans, tactics and losses. A few dates in the 1916 section are misprinted.",
+      },
+      {
+        title:
+          "Warfare 1914-1918 (South East Europe) — Dmitar Tasić (1914-1918-online. International Encyclopedia of the First World War, 2014)",
+        url: "https://encyclopedia.1914-1918-online.net/article/warfare-1914-1918-south-east-europe/",
+        publisher: "1914-1918-online",
+        note: "A survey of the Balkan fronts, from the Austro-Hungarian invasions of 1914 to Dobro Pole, including Gallipoli, Romania and the irregular warfare and uprisings under occupation. It cites Austro-Hungarian General Staff figures for the losses of 1914.",
+      },
+      {
+        title:
+          "Serbia — Mile Bjelajac (1914-1918-online. International Encyclopedia of the First World War, 2015)",
+        url: "https://encyclopedia.1914-1918-online.net/article/serbia/",
+        publisher: "1914-1918-online",
+        note: "Serbia’s war from the July crisis to liberation, with the state of the army in 1914, the retreat of 1915, the army in exile and the occupation and the Toplica uprising. Written from the Serbian side, it argues that Serbia neither wanted nor was ready for war.",
+      },
+      {
+        title:
+          "War in the Balkans — Richard C. Hall (1914-1918-online. International Encyclopedia of the First World War, 2018)",
+        url: "https://encyclopedia.1914-1918-online.net/article/war-in-the-balkans-1-1/",
+        publisher: "1914-1918-online",
+        note: "An account of the whole Balkan war, from the Balkan Wars to Yugoslavia, giving due weight to Bulgaria, Greece, Romania and Albania; his companion article on Bulgaria explains the Bulgarian side of the Macedonian front.",
+      },
+      {
+        title:
+          "Italian Front — Vanda Wilcox (1914-1918-online. International Encyclopedia of the First World War, 2014)",
+        url: "https://encyclopedia.1914-1918-online.net/article/italian-front/",
+        publisher: "1914-1918-online",
+        note: "A detailed narrative of Italy’s war by land and in the Adriatic, from the Isonzo battles to Vittorio Veneto, with casualty figures for each phase and a critical treatment of Cadorna and of the blame laid on the soldiers after Caporetto.",
+      },
+      {
+        title:
+          "Naval Warfare — Eric W. Osborne (1914-1918-online. International Encyclopedia of the First World War, 2014)",
+        url: "https://encyclopedia.1914-1918-online.net/article/naval-warfare/",
+        publisher: "1914-1918-online",
+        note: "The surface and submarine war at sea, explaining why the pre-war strategies of both navies made a decisive battle unlikely, with the actions in the North Sea, Jutland and the end of the High Seas Fleet.",
+      },
+      {
+        title:
+          "Warfare 1914-1918 (Ottoman Empire/Middle East) — Mehmet Fatih Baş (1914-1918-online. International Encyclopedia of the First World War, 2019)",
+        url: "https://encyclopedia.1914-1918-online.net/article/warfare-1914-1918-ottoman-empiremiddle-east/",
+        publisher: "1914-1918-online",
+        note: "A survey of the Ottoman army’s campaigns in the Caucasus, Mesopotamia, Palestine and at Gallipoli, giving Ottoman casualty figures and the Ottoman view of the main battles.",
+      },
+      {
+        title:
+          "Erich von Falkenhayn, General Headquarters, 1914–1916, and Its Critical Decisions (London: Hutchinson, 1919)",
+        url: "https://archive.org/details/generalheadquart00falk",
+        publisher: "Internet Archive",
+        note: "The memoirs of the German chief of the General Staff from September 1914 to August 1916, reproducing his memorandum on the attack at Verdun and explaining his decisions on the Serbian campaign, Salonika and the Brusilov offensive. A self-justifying account; his claims about the losses at Verdun are not borne out by later figures.",
+      },
+      {
+        title:
+          "Erich Ludendorff, My War Memories, 1914–1918, vol. 1 (London: Hutchinson, 1919)",
+        url: "https://archive.org/details/mywarmemories19101lude",
+        publisher: "Internet Archive",
+        note: "The first volume of the German quartermaster-general’s memoirs, covering Tannenberg and the Eastern Front to 1916, written soon after the defeat.",
+      },
+      {
+        title:
+          "Erich Ludendorff, My War Memories, 1914–1918, vol. 2 (London: Hutchinson, 1919)",
+        url: "https://archive.org/details/mywarmemories19102lude",
+        publisher: "Internet Archive",
+        note: "Ludendorff’s account of 1917–1918, including the planning of Caporetto and the spring offensives and his description of 8 August as the black day of the German army. He blames defeat partly on the home front.",
+      },
+      {
+        title:
+          "Sir Douglas Haig’s Despatches (December 1915–April 1919), ed. J. H. Boraston (London: Dent, 1919)",
+        url: "https://archive.org/details/sirdouglashaigsd00haiguoft",
+        publisher: "Internet Archive",
+        note: "The British commander-in-chief’s official despatches on the Somme, Arras, Messines, Ypres, Cambrai and 1918, giving his stated objectives and the forces engaged. They present his operations in the best light and claim enemy losses well above those given in the encyclopedia articles used here.",
+      },
+      {
+        title:
+          "Reinhard Scheer, Germany’s High Sea Fleet in the World War (London, 1920)",
+        url: "https://archive.org/details/germanyshighseaf00sche",
+        publisher: "Internet Archive",
+        note: "The German fleet commander’s account of the North Sea war and Jutland, including his conclusion after the battle that only submarine warfare could defeat Britain.",
+      },
+      {
+        title:
+          "Otto Liman von Sanders, Five Years in Turkey, trans. Carl Reichmann (Annapolis: United States Naval Institute, 1927)",
+        url: "https://archive.org/details/in.ernet.dli.2015.24341",
+        publisher: "Internet Archive",
+        note: "The memoirs of the head of the German military mission, who commanded at Gallipoli and in Palestine in 1918. Valuable on the Ottoman side of both campaigns, including the August landings and the collapse at Megiddo, but written to defend his command.",
+      },
+      {
+        title:
+          "Ian Hamilton, Gallipoli Diary, vol. 1 (New York: George H. Doran, 1920)",
+        url: "https://archive.org/details/gallipolidiaryvo19317gut",
+        publisher: "Internet Archive (Project Gutenberg text)",
+        note: "The British commander’s diary of the Dardanelles campaign, published after the war, including his order on the night of the landing that the Anzacs dig in and hold on.",
+      },
+    ],
   },
   ww2: {
     participants: [

@@ -57,6 +57,149 @@ const ndb = (sfz: string, title: string): Source => ({
   url: `https://www.deutsche-biographie.de/sfz${sfz}.html`,
   publisher: "Deutsche Biographie",
 });
+// First World War and the Serbian Front (batch K4).
+const ie = (
+  slug: string,
+  title: string,
+  author: string,
+  year: number,
+): Source => ({
+  title: `${title} — ${author} (1914-1918-online. International Encyclopedia of the First World War, ${year})`,
+  url: `https://encyclopedia.1914-1918-online.net/article/${slug}/`,
+  publisher: "1914-1918-online",
+});
+const bjelajac = ie("serbia", "Serbia", "Mile Bjelajac", 2015);
+const tasic = ie(
+  "warfare-1914-1918-south-east-europe",
+  "Warfare 1914-1918 (South East Europe)",
+  "Dmitar Tasić",
+  2014,
+);
+const hallBalkans = ie(
+  "war-in-the-balkans-1-1",
+  "War in the Balkans",
+  "Richard C. Hall",
+  2018,
+);
+const hallBulgaria = ie("bulgaria", "Bulgaria", "Richard C. Hall", 2016);
+const raspopovic = ie("montenegro", "Montenegro", "Radoslav Raspopović", 2014);
+const ristovic = ie(
+  "occupation-during-and-after-the-war-south-east-europe",
+  "Occupation during and after the War (South East Europe)",
+  "Milan Ristović",
+  2014,
+);
+const krause = ie("western-front", "Western Front", "Jonathan Krause", 2015);
+const dowling = ie(
+  "eastern-front",
+  "Eastern Front",
+  "Timothy C. Dowling",
+  2014,
+);
+const steinberg = ie(
+  "warfare-1914-1918-russian-empire",
+  "Warfare 1914-1918 (Russian Empire)",
+  "John W. Steinberg",
+  2015,
+);
+const leGall = ie(
+  "marne-battles-of-the-1-1",
+  "Marne, Battles of the",
+  "Erwan Le Gall",
+  2023,
+);
+const philpott = ie(
+  "somme-battles-of",
+  "Somme, Battles of",
+  "William Philpott",
+  2014,
+);
+const wilcox = ie("italian-front", "Italian Front", "Vanda Wilcox", 2014);
+const salvador = ie(
+  "isonzo-battles-of",
+  "Isonzo, Battles of",
+  "Alessandro Salvador",
+  2016,
+);
+const osborne = ie("naval-warfare", "Naval Warfare", "Eric W. Osborne", 2014);
+const epkenhans = ie(
+  "jutland-battle-of",
+  "Jutland, Battle of",
+  "Michael Epkenhans",
+  2016,
+);
+const skinner = ie(
+  "gallipoli-campaign-and-battle-of",
+  "Gallipoli, Campaign and Battle of",
+  "Harold Allen Skinner Jr.",
+  2023,
+);
+const bas = ie(
+  "warfare-1914-1918-ottoman-empiremiddle-east",
+  "Warfare 1914-1918 (Ottoman Empire/Middle East)",
+  "Mehmet Fatih Baş",
+  2019,
+);
+const kitchen = ie(
+  "egyptian-expeditionary-force",
+  "Egyptian Expeditionary Force",
+  "James E. Kitchen",
+  2017,
+);
+const lloyd = ie(
+  "hundred-days-offensive",
+  "Hundred Days Offensive",
+  "Nicholas Lloyd",
+  2014,
+);
+const watson = ie(
+  "german-spring-offensives-1918",
+  "German Spring Offensives 1918",
+  "Alexander Watson",
+  2016,
+);
+const falkenhayn: Source = {
+  title:
+    "Erich von Falkenhayn, General Headquarters, 1914–1916, and Its Critical Decisions (London: Hutchinson, 1919)",
+  url: "https://archive.org/details/generalheadquart00falk",
+  publisher: "Internet Archive",
+};
+const ludendorff1: Source = {
+  title:
+    "Erich Ludendorff, My War Memories, 1914–1918, vol. 1 (London: Hutchinson, 1919)",
+  url: "https://archive.org/details/mywarmemories19101lude",
+  publisher: "Internet Archive",
+};
+const ludendorff2: Source = {
+  title:
+    "Erich Ludendorff, My War Memories, 1914–1918, vol. 2 (London: Hutchinson, 1919)",
+  url: "https://archive.org/details/mywarmemories19102lude",
+  publisher: "Internet Archive",
+};
+const haigDespatches: Source = {
+  title:
+    "Sir Douglas Haig’s Despatches (December 1915–April 1919), ed. J. H. Boraston (London: Dent, 1919)",
+  url: "https://archive.org/details/sirdouglashaigsd00haiguoft",
+  publisher: "Internet Archive",
+};
+const scheer: Source = {
+  title:
+    "Reinhard Scheer, Germany’s High Sea Fleet in the World War (London, 1920)",
+  url: "https://archive.org/details/germanyshighseaf00sche",
+  publisher: "Internet Archive",
+};
+const liman: Source = {
+  title:
+    "Otto Liman von Sanders, Five Years in Turkey, trans. Carl Reichmann (Annapolis: United States Naval Institute, 1927)",
+  url: "https://archive.org/details/in.ernet.dli.2015.24341",
+  publisher: "Internet Archive",
+};
+const hamilton: Source = {
+  title:
+    "Ian Hamilton, Gallipoli Diary, vol. 1 (New York: George H. Doran, 1920)",
+  url: "https://archive.org/details/gallipolidiaryvo19317gut",
+  publisher: "Internet Archive (Project Gutenberg text)",
+};
 const blucher = ndb(
   "35354",
   "Blücher von Wahlstatt, Gebhard Leberecht Fürst — Hans Haussherr (Neue Deutsche Biographie 2, 1955)",
@@ -1358,5 +1501,879 @@ export const campaignDetails: Record<string, CampaignDetails> = {
       },
     ],
     sources: [ebWaterloo, rose, gneisenau, blucher],
+  },
+  "serbian-campaign-of-1914": {
+    summary:
+      "Austria-Hungary’s three invasions of Serbia in 1914, beaten back on Cer, the Drina and the Kolubara, with the Serbian and Montenegrin advances into Syrmia and Bosnia between them.",
+    narrative: [
+      {
+        title: "War on an exhausted Serbia",
+        text: "Austria-Hungary declared war on Serbia on 28 July 1914, a month after the assassination in Sarajevo, and Montenegro joined the Serbs. Bjelajac describes a Serbian army caught unprepared after the two Balkan Wars, short of rifles, artillery, ammunition, uniforms and horses, which Prime Minister Pašić reckoned needed three years to rearm. Mobilization was declared on the evening of 25 July and completed in three days; Tasić puts the force raised at about 400,000 men, with some 40,000 in Montenegro’s militia-like army. The Habsburg command expected a quick punitive campaign that would free its troops for Russia, but one of its three armies had to be sent north against the Russians. The Serbian plan was to stay on the defensive and hold down as many Austro-Hungarian troops as possible.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 1 }, { source: 0 }, { source: 2 }],
+      },
+      {
+        title: "Cer",
+        text: "Field Marshal Putnik expected the attack from the north, across the Sava and Danube, but General Potiorek’s armies came from Bosnia, as Conrad von Hötzendorf had long wanted, forcing the Serbs to shift west. Bjelajac dates the invasion toward Loznica and Šabac to 12 August. On the slopes of Cer Mountain the Serbian Second Army threw the invaders back across the border, with heavy losses among the Austro-Hungarian officers and NCOs; Tasić calls it the first Allied victory of the war. During the advance Austro-Hungarian troops killed civilians in Šabac and the Mačva region, against a background of anti-Serbian propaganda and fear of irregulars who looked like civilians.",
+        evidence: "fact",
+        studies: ["cer"],
+        refs: [{ source: 0 }, { source: 1 }, { source: 3 }],
+      },
+      {
+        title: "Into Syrmia and Bosnia",
+        text: "The Allies, Bjelajac writes, overestimated the Serbian army and insisted on an offensive across the border, and the Serbs reluctantly sent their First Army and part of the Second over the Sava into Syrmia. Further south the Užice Army, with the Montenegrins, crossed the upper Drina toward Sarajevo. Tasić records the capture of Pljevlja and Višegrad and then of Pale near Sarajevo, until a Habsburg counter-offensive in mid-October, after the battle of Glasinac, forced the Serbs and Montenegrins back over the Drina.",
+        evidence: "fact",
+        studies: ["syrmia-1914", "romanija-1914"],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+      {
+        title: "The Drina",
+        text: "Potiorek’s second offensive came across the Drina in September. Tasić describes a series of clashes with heavy losses on both sides that ended in stalemate and a short period of trench warfare in October; Bjelajac speaks of fifty-five days of entrenched fighting during which the Serbian artillery ran out of ammunition.",
+        evidence: "fact",
+        studies: ["drina-1914"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "The Kolubara",
+        text: "The third offensive began on 6 November. Outnumbered and short of shells, the Serbs fell back fifty to sixty kilometres and gave up Belgrade, which the Austro-Hungarians entered on 2 December; Ristović notes that General Sarkotić had already been named governor-general for the coming occupation. The retreat let the Serbian army regroup and receive ammunition, and on 3 December it struck the overstretched invaders, General Mišić’s First Army breaking through first. Within about two weeks the Austro-Hungarians had been driven from Serbia, leaving many prisoners, and Belgrade was retaken in mid-December.",
+        evidence: "fact",
+        studies: ["kolubara"],
+        refs: [{ source: 0 }, { source: 2 }, { source: 3 }, { source: 1 }],
+      },
+      {
+        title: "The price of victory",
+        text: "Tasić cites the Austro-Hungarian General Staff’s figures: of 450,000 men and 12,000 officers engaged against Serbia in 1914, some 275,000 were lost, killed, wounded, missing, captured or sick, among them 7,600 officers. Serbian losses were about 163,000 officers and men. Neither side could attack again, and from January to October 1915 the front was quiet while typhus and cholera ravaged soldiers, civilians and prisoners alike. Hall notes that the victories raised Serbian hopes of gaining Bosnia, Dalmatia and Vojvodina after the war.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "Why the invasions failed",
+        text: "Tasić blames Austro-Hungarian planning that underestimated the Serbs and chose the Bosnian approach for political reasons, and he notes that Habsburg reports credited Serbian irregulars with disrupting supply lines, a fear that fed reprisals against civilians. Bjelajac stresses Serbian endurance in spite of material shortages, and the pressure from allies who expected more than the army could give. Ristović treats the atrocities in Mačva as the first stage of the occupation policy that followed in 1915.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }, { source: 3 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Tasić dates the battle of Cer to 17–19 August, Bjelajac to 16–20 August and Hall to 16–25 August. Hall has the Austro-Hungarians expelled by 15 December; Ristović has Belgrade liberated on the 16th. Bjelajac counts the Habsburg losses of 1914 at 273,813 against Tasić’s 275,000, and distinguishes the 400,000 men mobilized from the roughly 250,000 combatants of the operational army.",
+        evidence: "uncertainty",
+        studies: ["cer"],
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }, { source: 3 }],
+      },
+    ],
+    sources: [tasic, bjelajac, hallBalkans, ristovic],
+  },
+  "east-prussian-campaign": {
+    summary:
+      "The Russian invasion of East Prussia in August–September 1914, destroyed at Tannenberg and driven out after the Masurian Lakes.",
+    narrative: [
+      {
+        title: "Russia keeps its promise",
+        text: "Bound by treaty to help France, Russia attacked Germany long before the six weeks German planners had allowed for its mobilization; Steinberg notes that it invaded East Prussia fifteen days after mobilizing. Dowling describes the plan: two armies, twenty-nine infantry divisions, against East Prussia, and four armies against Austria-Hungary, while Germany left a single army, the Eighth, to defend the province.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+      {
+        title: "Gumbinnen",
+        text: "General Zhilinsky sent Rennenkampf’s First Army toward Königsberg and Samsonov’s Second Army around the Masurian Lakes to the south, to trap the Germans between them. The two armies marched some ninety kilometres apart and communicated by courier. Rennenkampf beat the Germans at Stallupönen on 17 August and Gumbinnen on 20 August, and the German commander Prittwitz ordered a retreat behind the Vistula; Moltke replaced him with Hindenburg, with Ludendorff as chief of staff. Ludendorff writes that when they reached Marienburg on 23 August the staff, led by Grünert and Lieutenant-Colonel Hoffmann, had already given up the retreat.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+      },
+      {
+        title: "Tannenberg",
+        text: "Rennenkampf halted after Gumbinnen, while Zhilinsky urged Samsonov forward. The Germans moved almost their whole army south against the Second Army, leaving a cavalry screen facing Rennenkampf. Ludendorff writes that the plan took shape between 24 and 26 August and depended entirely on Rennenkampf’s slowness. From 26 August German corps turned both of Samsonov’s flanks; the centre was destroyed and Samsonov killed himself on 30 August. Dowling puts the Russian loss at nearly 125,000 men and over 500 guns against German casualties of 10,000 to 15,000. Ludendorff counts over 90,000 prisoners, calls the story of Russians drowned in the marshes a myth, and says the battle was named Tannenberg at his suggestion.",
+        evidence: "fact",
+        studies: ["tannenberg"],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "The Masurian Lakes",
+        text: "Reinforced by two corps from the west, the Eighth Army turned on Rennenkampf, pinning his front on 7 September and striking his flanks on the 9th. Rennenkampf saw the danger, counter-attacked on 11 September and escaped; his army was back on Russian soil by the 13th. Dowling estimates that it inflicted nearly 70,000 casualties and lost about 100,000; Ludendorff, who took 45,000 prisoners this time, thought Rennenkampf had never meant to make a serious stand.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "Victory in the north, defeat in the south",
+        text: "In Galicia the Russians did far better against Austria-Hungary, taking Lemberg on 3 September and inflicting losses of over 300,000 men on the Habsburg army. Dowling concludes that the German successes in East Prussia offset the Habsburg collapse and stabilized the Eastern Front for the Central Powers; Steinberg adds that they bought Germany time in France and made Hindenburg and Ludendorff national heroes.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Command failures",
+        text: "Steinberg rejects the old charge that Rennenkampf left Samsonov to his fate out of personal animosity: he had outrun his supplies, and it was Zhilinsky who lost control and failed to tell Samsonov where the First Army was. He sees in this failure of commanders to support one another a pattern that marked the Russian army for the rest of the war. Dowling adds the Germans’ aerial reconnaissance and the Russians’ unencrypted radio messages. Ludendorff insists that the battle was not fought to a prepared plan but decided as the situation unfolded.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 1 }, { source: 0 }, { source: 2 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Dowling credits the plan of concentrating against Samsonov to Hoffmann, drafted before Hindenburg and Ludendorff arrived; Ludendorff describes it taking shape under his direction from 24 to 26 August. Dowling’s Russian loss of nearly 125,000 at Tannenberg includes killed and wounded as well as the 90,000-odd prisoners Ludendorff counts.",
+        evidence: "uncertainty",
+        studies: ["tannenberg"],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+    ],
+    sources: [dowling, steinberg, ludendorff1],
+  },
+  "western-front-in-1914": {
+    summary:
+      "The war of movement in France and Belgium in 1914: the German sweep through Belgium, the Allied counter-stroke on the Marne, the race to the sea and the first battle of Ypres.",
+    narrative: [
+      {
+        title: "Through Belgium",
+        text: "Krause explains Germany’s plan as the answer to a two-front war: overwhelm France quickly through Belgium, then turn on slower-mobilizing Russia. On 3 August 1914 German armies entered Belgium and Luxembourg, and Britain declared war the next day. The forts of Liège and Namur fell within days to heavy German and Austrian howitzers.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "The frontiers and the retreat",
+        text: "France attacked into Alsace and Lorraine and met disaster: Krause describes poorly led formations advancing without reconnaissance, and France lost over 300,000 dead in 1914. The French armies and the British Expeditionary Force then retreated for weeks before the German right wing. Le Gall notes that the French infantry learned fast, digging and using trenches by September.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "The Marne",
+        text: "Covering so wide an arc, the German First and Second Armies drifted apart, and British aircraft spotted the gap. On 5 September Joffre persuaded Sir John French to join a counter-attack, and French and British troops drove into the gap along a front of some 300 kilometres; some French reinforcements were carried in Paris taxis. With the French government moved to Bordeaux and German troops some seventy kilometres from Paris, the Germans, exhausted and short of supplies, fell back to a line behind Soissons and Reims.",
+        evidence: "fact",
+        studies: ["marne-1914"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Race to the sea and Ypres",
+        text: "Each side then tried to turn the other’s northern flank until the front reached the North Sea. At Ypres in October and November the Germans made the last attempts to break through before winter; Krause calls them costly failures against even the fragmentary trenches of that autumn, and a French attack in Artois in December fared no better. Falkenhayn, who had replaced Moltke as chief of the General Staff, writes that the Allied offensive in Flanders was broken and a continuous German front established from the Swiss frontier to the sea, but that Belgian inundations stopped his right wing and his hastily trained young reserve corps, led largely by older officers, could not force a decision.",
+        evidence: "fact",
+        studies: ["first-ypres"],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "How the stalemate came",
+        text: "Krause argues that the deadlock was the product of rapid innovation rather than stodgy conservatism: trench systems could not be broken by hasty attacks but had to be methodically destroyed by heavy artillery, and the armies spent four years devising ever more complex attacks against ever deeper defences. Falkenhayn believed that perseverance at Ypres might have brought complete success; Le Gall stresses the logistical exhaustion of armies advancing far from their railheads.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }, { source: 1 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Krause dates the Allied attack into the German gap from 5 September; Le Gall gives the battle of the Marne as 6 to 11 September. Falkenhayn’s view that a breakthrough at Ypres was within reach is not shared by Krause, who writes that the attacking infantry had no chance of success with the artillery support available.",
+        evidence: "uncertainty",
+        studies: ["marne-1914"],
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+      },
+    ],
+    sources: [krause, leGall, falkenhayn],
+  },
+  "dardanelles-campaign": {
+    summary:
+      "The Allied attempt of 1915 to force the Dardanelles and take Constantinople, first by sea and then by landings on the Gallipoli peninsula, ending in evacuation in January 1916.",
+    narrative: [
+      {
+        title: "The straits",
+        text: "The Ottoman Empire, its army being rebuilt by a German mission under General Liman von Sanders, entered the war after its fleet raided Russian Black Sea ports on 29 October 1914. Skinner writes that a British bombardment of the Dardanelles forts on 3 November only spurred the defenders, and that Churchill then won Kitchener’s support for a combined operation to force the straits and seize Constantinople. Baş adds that the Ottoman mobilization had been badly planned and that the high command relied almost entirely on German planners.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "The naval attack",
+        text: "By March 1915 the Ottoman fortified area had some 230 mobile guns and howitzers alongside 82 fixed guns, with dense minefields in the straits. An Allied squadron began shelling the forts on 19 February, and on 18 March Admiral de Robeck tried to force the narrows. Mines and gunfire sank three Allied warships, and the attempt was given up; Baş puts the Turkish casualties of the day at 79 dead and wounded. Hamilton, who watched the repulse, then prepared an amphibious assault.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "The landings",
+        text: "On 25 April 1915 the British 29th Division landed at Cape Helles and the Australian and New Zealand Army Corps north of Gaba Tepe, at what became Anzac Cove, with French and naval feints elsewhere. At Helles the defenders held the attackers to shallow beachheads. Above Anzac, Lieutenant-Colonel Mustafa Kemal led his 19th Division into a counter-attack on his own initiative, as Liman confirms, and held the ridges. That night Birdwood reported his troops demoralized and raised re-embarkation; Hamilton’s diary records his reply that they must dig themselves in and stick it out.",
+        evidence: "fact",
+        studies: ["gallipoli"],
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }, { source: 3 }],
+      },
+      {
+        title: "Stalemate",
+        text: "Attacks on Krithia on 28 April, 6–8 May and 4 June failed to expand the Helles beachhead, and Ottoman night attacks failed to destroy it. An Ottoman assault on Anzac on 19–20 May cost about 10,000 casualties among 50,000 men and led to a truce on 24 May to bury the dead. Ottoman mines and torpedoes sank more Allied battleships, and the surviving capital ships withdrew to safer waters.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Suvla",
+        text: "On 6–7 August Hamilton tried to break out at Helles and Anzac while a fresh corps landed at Suvla Bay. Skinner credits the German Major Willmer’s small force with delaying the inexperienced British until reinforcements arrived, and faults Hamilton for leaving the slow corps commander, Stopford, unsupervised. Liman writes that he gave Kemal command of all the troops in the Anafarta sector and that Kemal attacked on 9 August; Baş dates his main counter-attack to dawn on the 10th. Liman calls the landing the political-military summit of the campaign: success would have opened the straits, linked the Allies with Russia and probably kept Bulgaria neutral.",
+        evidence: "fact",
+        studies: ["gallipoli"],
+        refs: [{ source: 0 }, { source: 2 }, { source: 1 }],
+      },
+      {
+        title: "Evacuation",
+        text: "Bulgaria’s mobilization in September drew Allied troops from Gallipoli to Salonika. Hamilton was relieved in October after rejecting proposals to withdraw, and his successor Monro urged evacuation; Serbia’s collapse and the arrival of German heavy guns decided the British government. The withdrawals of December 1915 and January 1916, carried out under Birdwood, were well planned and successfully carried out, and the last troops left by 9 January.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "A divided verdict",
+        text: "Skinner writes that historians still disagree about the strategic merits of the campaign, but that the Allied conduct of it suffered from poor leadership and cooperation while German and Ottoman commanders were generally quicker to seize their chances. The straits stayed closed, which he counts as a key factor in the breakdown of the Russian war effort. Baş calls it the only one of the Ottoman army’s four major campaigns that it won.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Skinner estimates the casualties at 205,000 British and Commonwealth, 47,000 French and between 251,000 and 289,000 Ottoman, with 56,643 Ottoman dead and 11,176 missing; Baş gives up to 250,000 Ottoman casualties, at least 55,000 of them killed. Hamilton’s diary and Liman’s memoir were written by the opposing commanders after the event and defend their decisions.",
+        evidence: "uncertainty",
+        studies: ["gallipoli"],
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }, { source: 3 }],
+      },
+    ],
+    sources: [skinner, bas, liman, hamilton],
+  },
+  "western-front-in-1915": {
+    summary:
+      "The first year of trench warfare in France and Flanders: costly Allied offensives in Champagne, Artois and at Loos, and the German gas attack at Ypres.",
+    narrative: [
+      {
+        title: "The Allied offensives",
+        text: "Krause describes 1915 as a year of many battles. The French opened the first battle of Champagne on 16 February and spent a month hammering at the German line: some 200,000 French soldiers were killed or wounded for an advance of no more than three kilometres, against 80,000 German casualties. France lost 349,000 dead in 1915, its deadliest year of the war. The British, still few, made their one independent attack at Neuve Chapelle on 10–13 March, which broke in but could not exploit its first success.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Germany looks east",
+        text: "The German army’s main effort in 1915 was in the east, where it broke through at Gorlice-Tarnów and drove the Russians far back. In the west it stood on the defensive. Falkenhayn wrote at the end of the year that he had been forced to give up hope of an offensive in the west and to be satisfied with holding the line, a defence he called brilliantly successful.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Gas at Ypres",
+        text: "The one German offensive in the west was the second battle of Ypres, 22 April to 25 May, largely a test of chlorine gas released from cylinders in the front line. Where the gas was thickest the Allied line dissolved and French colonial troops fell back in panic, while Canadian troops on their flank held for days. The Germans, unconvinced the gas would work, had no plan to exploit the breach, and the battle ended in a small gain for tens of thousands of casualties.",
+        evidence: "fact",
+        studies: ["second-ypres"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Artois, Champagne and Loos",
+        text: "In the second battle of Artois, from 9 May to 18 June, French divisions advanced several kilometres on the first day and took Notre-Dame-de-Lorette, but Vimy Ridge stayed in German hands until April 1917. On 25 September the French attacked in Champagne and Artois together while the British attacked at Loos, using chlorine gas themselves. There were initial gains, especially by Pétain’s Second Army in Champagne, but the offensives fell far short of their aims.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Breaking in, not through",
+        text: "Krause sees 1915 as the year that showed the central problem of trench warfare: a well-supplied attacker could break into the enemy line, but exploiting the break was another matter. The repeated failures and the scale of French losses, he argues, shaped German strategy for 1916; Falkenhayn’s own account of the year ends with his decision to attack France.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+    ],
+    sources: [krause, falkenhayn],
+  },
+  "serbian-campaign-of-1915": {
+    summary:
+      "The Central Powers’ conquest of Serbia in October–November 1915, the Serbian army’s retreat through Montenegro and Albania to the Adriatic, and the fall of Montenegro.",
+    narrative: [
+      {
+        title: "Bulgaria chooses a side",
+        text: "Both coalitions courted Bulgaria in 1915, and Hall explains why the Central Powers won: the Entente could not promise Macedonia, Serbia’s prize from the Balkan Wars, while Germany and Austria-Hungary could offer it at once. With the Allies failing at Gallipoli and the Russians retreating after Gorlice-Tarnów, Bulgaria signed with the Central Powers on 6 September 1915, gaining the lower Maritsa valley from the Ottomans as well, and mobilized on the 15th. Tasić writes that Serbia proposed to strike before Bulgarian mobilization was complete, but the western Allies refused.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }, { source: 3 }, { source: 0 }],
+      },
+      {
+        title: "Mackensen’s offensive",
+        text: "Under Field Marshal von Mackensen, an Austro-Hungarian and a German army crossed the Danube and Sava on 6 October and took Belgrade; two Bulgarian armies attacked from the east about a week later. Tasić notes that the Germans avoided the mistakes of 1914, attacking along the Morava valley with heavy artillery the Serbs could not answer. Bjelajac writes that stubborn Serbian resistance held the advance to thirty kilometres in two weeks, forcing the Germans to bring in their Alpine Corps from France. Falkenhayn records that the Austro-Hungarian army made slower progress than the German one and that Vienna refused to reinforce it from the Isonzo. The Bulgarian First Army took Niš on 5 November.",
+        evidence: "fact",
+        studies: ["belgrade-1915", "invasion-of-serbia-1915"],
+        refs: [{ source: 1 }, { source: 0 }, { source: 5 }, { source: 3 }],
+      },
+      {
+        title: "The Salonika expedition",
+        text: "Greek Prime Minister Venizelos invited Allied troops to Salonika and resigned on 5 October, and British and French forces landed in a neutral Greece. They advanced up the Vardar, but the Bulgarian Second Army had already taken Skopje on 22 October, cutting the Serbs off from the south, and in December the Bulgarians drove the Allied columns back across the Greek frontier. Falkenhayn writes that at German request the Bulgarians did not pursue into Greece, for fear of turning Greek opinion against the Central Powers and of the demands his allies would make; Hall describes the Bulgarian commander Zhekov pleading in vain for an all-out attack on Salonika.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }, { source: 1 }, { source: 5 }, { source: 3 }],
+      },
+      {
+        title: "The retreat",
+        text: "The Serbian army fell back into Kosovo with a mass of refugees, escaping several attempts to encircle it, and a last stand on the old Kosovo battlefield failed. On 25 November the high command, judging capitulation worse than any alternative, ordered a retreat through Montenegro and Albania to reach the Allies on the coast. In winter, across snowbound mountains, without food or medical supplies and sometimes through hostile Albanian villages, thousands of soldiers, civilians and the Austro-Hungarian prisoners who marched with them died. Allied ships, led by a French mission, took the survivors to Corfu and Bizerte.",
+        evidence: "fact",
+        studies: ["serbian-retreat-1915"],
+        refs: [{ source: 1 }, { source: 2 }, { source: 0 }],
+      },
+      {
+        title: "Mojkovac and the fall of Montenegro",
+        text: "The Montenegrin army under General Vukotić covered the retreat, beating off the Austro-Hungarians at Mojkovac on 6–7 January 1916. Austro-Hungarian forces from the Bay of Kotor, supported by naval gunfire, then broke through on Mount Lovćen; Cetinje fell, King Nikola went into exile and the army surrendered. Raspopović describes how the question of whether Montenegro should retreat with the Serbs or negotiate with Austria-Hungary divided the two allies, with a Serbian delegate’s report urging peace talks and Montenegrin contacts with Vienna already under way.",
+        evidence: "fact",
+        studies: ["mojkovac"],
+        refs: [{ source: 0 }, { source: 2 }, { source: 4 }],
+      },
+      {
+        title: "A secondary theatre",
+        text: "Bjelajac names the offensive’s aims as a direct link with Bulgaria and the Ottoman Empire and the closing of the Allied supply route through Salonika. Falkenhayn refused to let it draw his allies on toward Salonika, which in his view could serve only Austro-Hungarian or Bulgarian aims, not the general aims of the war. Hall sees that refusal as the decisive moment of Bulgaria’s war, since it left an Allied army on its southern frontier for three years. Tasić credits the Serbian army with an orderly retreat that preserved it to fight again.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 1 }, { source: 5 }, { source: 3 }, { source: 0 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Tasić dates the Bulgarian offensive to 14 October, Hall to about a week after 6 October, and Bjelajac has Bulgaria join the fighting on the 12th. Hall’s two articles date the first Allied landing at Salonika to 5 and to 7 October. Tasić has Montenegro’s army surrender on 16 January 1916 and Hall on the 17th, after Cetinje fell on the 11th. Whether Montenegro’s surrender was a betrayal of Serbia remains disputed, and Raspopović leaves the motives of its leaders open.",
+        evidence: "uncertainty",
+        studies: ["mojkovac"],
+        refs: [
+          { source: 0 },
+          { source: 2 },
+          { source: 3 },
+          { source: 1 },
+          { source: 4 },
+        ],
+      },
+    ],
+    sources: [
+      tasic,
+      bjelajac,
+      hallBalkans,
+      hallBulgaria,
+      raspopovic,
+      falkenhayn,
+    ],
+  },
+  "western-front-in-1916": {
+    summary:
+      "The year of attrition on the Western Front: the German offensive at Verdun and the Anglo-French offensive on the Somme.",
+    narrative: [
+      {
+        title: "Falkenhayn’s choice",
+        text: "Falkenhayn, Krause writes, believed Germany could not win a long war on two fronts and had to force one enemy to make peace. Having ruled out Russia, he chose France. In the memorandum reproduced in his memoirs he argued that France was near breaking point, and that an attack on objectives the French would defend with every man they had would make the forces of France bleed to death whether or not the Germans reached their goal. Between Belfort and Verdun he preferred Verdun, whose lines lay barely twelve miles from the German railways.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "Verdun",
+        text: "The attack began on 21 February 1916, and the battle lasted ten months, the longest of the war. Pétain took charge on 26 February and rotated French divisions quickly through the salient, while German units were often left in the line for weeks, which Krause says sapped their morale. Some 300,000 men of each army were killed or wounded. Falkenhayn writes that the Verdun operations had to be scaled down from July as his reserves shrank; in October the French under Nivelle retook Fort Douaumont.",
+        evidence: "fact",
+        studies: ["verdun"],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "Planning the Somme",
+        text: "The Somme offensive had been agreed at Chantilly in December 1915, before Verdun, as a French-led attack with British support; by the time it began, the French share had shrunk from forty divisions to twelve and the British, under Haig, had become the senior partner. Haig gives its objects as threefold: to relieve the pressure on Verdun, to stop the transfer of German troops to other fronts, and to wear down the forces opposed. Krause describes the tension between Haig, who wanted distant objectives, and Rawlinson, commanding the Fourth Army, who wanted to limit each attack.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 3 }, { source: 1 }],
+      },
+      {
+        title: "The Somme",
+        text: "After a week-long bombardment by 1,537 guns, spread too thinly and firing many defective shells, the infantry attacked on 1 July. South of the river, and on the southern British sector, the attackers took their objectives; to the north British units were cut down by machine guns and pre-registered artillery. The British lost about 57,000 men that day, the French around 1,600. Philpott traces four phases after it: a July advance and a night attack on 14 July, a grinding summer struggle for the woods and villages of the ridge, a renewed offensive under Foch’s coordination in September in which tanks were first used at Flers-Courcelette and Thiepval fell, and a final phase of mud-bound attacks that ended with the capture of Beaumont-Hamel in November.",
+        evidence: "fact",
+        studies: ["somme"],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+      {
+        title: "Who was worn down?",
+        text: "Falkenhayn claimed that some ninety French divisions, two-thirds of the French army, had passed through Verdun at the cost of German losses only about a third of the French, and that the aim of bleeding France white had been sound. Krause finds the losses roughly equal and French morale unbroken, the French going on to send more men to the Somme than Britain over the course of that battle. Haig judged that the Somme relieved Verdun, held German forces that would have gone east and cost the enemy more than the Allies; Krause counts some 600,000 casualties on each side there. Both Falkenhayn and Joffre lost their posts by the end of the year.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 2 }, { source: 0 }, { source: 3 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "The ratio of losses at Verdun is the main dispute: Falkenhayn’s claim that German losses were about a third of the French is not borne out by the roughly equal figures Krause gives. Krause gives the British loss on 1 July 1916 as 56,882, including 19,240 dead, and the French as 1,590; Philpott rounds these to some 57,000 and 1,600. Krause notes that the idea of Verdun as a national symbol the French had to defend at any price has become contentious among historians.",
+        evidence: "uncertainty",
+        studies: ["verdun"],
+        refs: [{ source: 2 }, { source: 0 }, { source: 1 }],
+      },
+    ],
+    sources: [krause, philpott, falkenhayn, haigDespatches],
+  },
+  "war-in-the-north-sea": {
+    summary:
+      "The naval war between the British Grand Fleet and the German High Seas Fleet, 1914–1918: blockade, raids and the one clash of the battle fleets at Jutland.",
+    narrative: [
+      {
+        title: "Blockade and waiting",
+        text: "Both navies expected a decisive battle. Osborne explains why it did not come: Britain chose a distant blockade, closing the exits from the North Sea between Scotland and Norway, while German strategy rested on wearing down a British fleet that was expected to come close to the German coast. With the Grand Fleet at Scapa Flow and the High Seas Fleet in its bases, the war in the North Sea became one of light forces, mines and submarines.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Heligoland, the raids and Dogger Bank",
+        text: "A British raid into the Heligoland Bight on 28 August 1914 sank three German light cruisers and a destroyer, and the Kaiser then required his consent before the fleet risked battle. By the end of 1914 German ships were raiding the English coast at Scarborough, Hartlepool and Whitby. The British, reading captured German codes, intercepted Hipper’s battlecruisers at the Dogger Bank in January 1915 and sank the armoured cruiser Blücher; the German commander, Ingenohl, was replaced by the more cautious Pohl.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Scheer’s plan",
+        text: "Vice-Admiral Scheer, who took command in January 1916, wanted to lure out and destroy part of the Grand Fleet and so even the odds. After raids on Lowestoft and Yarmouth in April, the High Seas Fleet sailed on 31 May with Hipper’s battlecruisers ahead as bait. The British, reading the German signals, were already at sea with 151 ships, including twenty-eight battleships and nine battlecruisers, against Scheer’s 101, including sixteen battleships and six pre-dreadnoughts.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+      {
+        title: "Jutland",
+        text: "In the opening battlecruiser action Indefatigable and Queen Mary blew up, and Beatty turned north, drawing the Germans toward Jellicoe’s battleships; Invincible was lost in the second clash. Jellicoe deployed across the head of the German line, and Scheer escaped by turning his whole fleet about, ran into the British again, and turned away a second time behind a torpedo-boat attack. Jellicoe avoided a night action, and in confused fighting during the night Scheer slipped away and reached Wilhelmshaven.",
+        evidence: "fact",
+        studies: ["jutland"],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+      {
+        title: "After Jutland",
+        text: "The High Seas Fleet put to sea again in August and October 1916 but never again sought battle. Scheer writes that the British clearly meant to rely on economic pressure and keep their fleet in the north, that only U-boats could get past it to strike at British trade, and that Germany had to resort to submarine war. The surface fleet stayed largely in harbour; its morale decayed, and when it was ordered out for a last battle at the end of October 1918 the crews mutinied. It surrendered in November and was interned at Scapa Flow, where its crews scuttled it in June 1919.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "Who won?",
+        text: "The Germans claimed Jutland as a victory, and in ships and men lost they had the better of it; Epkenhans allows that it may be called a German tactical victory but finds that it did not change the strategic situation, while Osborne calls it a strategic defeat for Germany, since the British kept command of the sea and the blockade. In Germany the battle became a national myth, in Britain a missed opportunity, and Jellicoe was replaced by Beatty in December 1916.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Both encyclopedia articles give the British loss at Jutland as 6,094 men, three battlecruisers, three armoured cruisers and eight destroyers. For the Germans Epkenhans gives 2,551 men lost and Osborne 3,058 casualties, for one battlecruiser, one pre-dreadnought, four light cruisers and five torpedo boats. Scheer’s account is the German commander’s own.",
+        evidence: "uncertainty",
+        studies: ["jutland"],
+        refs: [{ source: 1 }, { source: 0 }, { source: 2 }],
+      },
+    ],
+    sources: [osborne, epkenhans, scheer],
+  },
+  "eastern-front-in-1916": {
+    summary:
+      "The Russian army’s recovery and its offensive of 1916 in Galicia under Brusilov, which shattered the Austro-Hungarian army but exhausted Russia.",
+    narrative: [
+      {
+        title: "Russia rebuilt",
+        text: "After the defeats of 1915 the Eastern Front was quiet through the winter. Conrad moved his best divisions to the Italian front and left raw recruits in hardened positions in Galicia, believing Russia incapable of attack. Dowling describes the work of the new war minister, Polivanov, who brought industrialists into supply, improved communications and training, and opened officer and NCO ranks to merit. Steinberg notes that the Germans and Austrians underestimated the revived army.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Lake Naroch",
+        text: "Responding to French appeals for help at Verdun, the Russians attacked at Lake Naroch in March 1916 with some 350,000 men against 75,000 Germans. Dowling describes an unregistered bombardment that did little harm, a thaw that turned the ground to mud, and German artillery that silenced the Russian guns; about 70,000 Russian casualties were suffered against 30,000 German.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Brusilov’s method",
+        text: "When Italy asked for relief from the Austro-Hungarian offensive in the Trentino, only General Brusilov, newly in command of the Southwestern Front, offered to attack. Steinberg writes that Alekseev, the chief of staff, opposed offensives without heavy artillery, and that Brusilov chose surprise. Dowling describes the preparation along his whole front from Kovel to the Romanian border: assault trenches sapped to within sixty metres of the enemy, troops rehearsing on replicas of the Austrian positions built from aerial photographs, dummy trenches and batteries to mislead observers, and several attack sectors instead of one.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+      {
+        title: "The breakthrough",
+        text: "On 4 June short bombardments were followed by infantry attacks on four army fronts. Falkenhayn writes that the Russians simply rose from their trenches after a short preparation in what he took for a large-scale reconnaissance, and that east of Lutsk a gap thirty miles wide opened in less than two days as the Austro-Hungarian Fourth Army melted away. Dowling describes Austrian commanders feeding their reserves in piecemeal, and by 10 June Kaledin’s Eighth Army had taken Lutsk, an advance of some seventy-five kilometres, while Lechitski’s Ninth Army overran Czernowitz.",
+        evidence: "fact",
+        studies: ["brusilov-offensive"],
+        refs: [{ source: 2 }, { source: 0 }],
+      },
+      {
+        title: "Kovel and the end",
+        text: "The fronts to the north did not attack in support, and German divisions arrived from mid-June to stiffen the line. When Brusilov tried to renew the offensive in July, his commanders fell back on older tactics; the Guards Army lost more than 30,000 men trying to reach the rail junction of Kovel between 27 July and 4 August, and the offensive petered out in mid-August.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Consequences",
+        text: "Dowling counts Austro-Hungarian losses of more than 700,000 men and 9,000 officers. Conrad had to call divisions back from Italy, and Hindenburg and Ludendorff took command of the whole Eastern Front, with German officers controlling Habsburg units. Romania entered the war on 27 August and was quickly defeated, stretching the Russian front further south. Russia itself lost nearly two million men that summer, and by December 1916 regiments were mutinying. Falkenhayn, writing afterwards, held that Russia was no longer dangerous once he saw it shifting troops south.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "Russia’s best offensive",
+        text: "Dowling treats the offensive as the high point of the Russian army’s war, which regained nearly all the ground lost in Galicia in 1915 and virtually ended the Habsburg army as an independent force, but at a cost that broke the army that won it. Steinberg emphasises Brusilov’s willingness to attack without the munitions his superiors thought necessary. Falkenhayn’s description of a reconnaissance that succeeded only because of Austro-Hungarian weakness reflects the German view of the time.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Steinberg and Falkenhayn date the start of the offensive to 4 June; Dowling’s article gives 4 May for the opening bombardment and May 1915 for the Trentino offensive, apparent misprints for 4 June and May 1916. Losses on both sides are estimates; Dowling’s figure of nearly two million Russian casualties for the summer includes the later fighting at Kovel and in Romania.",
+        evidence: "uncertainty",
+        studies: ["brusilov-offensive"],
+        refs: [{ source: 1 }, { source: 2 }, { source: 0 }],
+      },
+    ],
+    sources: [dowling, steinberg, falkenhayn],
+  },
+  "macedonian-front": {
+    summary:
+      "The front in northern Greece and Macedonia, 1915–1918, where the reconstituted Serbian army fought with the Allied Army of the Orient until the breakthrough at Dobro Pole forced Bulgaria out of the war.",
+    narrative: [
+      {
+        title: "A front in neutral Greece",
+        text: "After the Bulgarians stopped at the Greek frontier in December 1915, the Allies fortified a camp around Salonika and built up an army there: British, French and French colonial troops, Italians, Russians and, from the summer of 1916, the Serbian army reconstituted on Corfu. Against them stood Bulgarian, German and Austro-Hungarian troops and for a time an Ottoman corps; Tasić calls it perhaps the most diverse front of the war. Greece was divided between King Constantine and the followers of Venizelos, who set up a rival government in Salonika in August 1916; the king abdicated in June 1917 and Greece entered the war on the Allied side.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }, { source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Florina, Kajmakčalan and Monastir",
+        text: "In August 1916, with Romania about to enter the war, the Germans let the Bulgarians attack into Greece. They occupied Drama, Serres and Kavala in the east and Florina in the west, catching the Serbian army on the march. Bjelajac writes that the Serbs halted the offensive and took the dominant peaks; Tasić describes the fighting at Gorničevo, Kajmakčalan and in the Crna valley from 17 August to 20 November, which pushed the Central Powers some forty kilometres north. Monastir (Bitola) was taken that autumn, the first Serbian town to be freed.",
+        evidence: "fact",
+        studies: ["kajmakcalan", "monastir-1916"],
+        refs: [{ source: 1 }, { source: 3 }, { source: 0 }],
+      },
+      {
+        title: "Stalemate",
+        text: "For nearly two years the front stood still in trench warfare. Tasić describes discontent and mutinies on both sides, the withdrawal of the Russian contingent after the revolution and fraternization between Bulgarian and Serbian soldiers. Greek divisions arrived after June 1917. On Corfu in July 1917 the Serbian government and the Yugoslav Committee agreed to found a common South Slav state, while Colonel Dimitrijević was tried and executed.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 3 }, { source: 1 }],
+      },
+      {
+        title: "Bulgaria’s exhaustion",
+        text: "Hall describes Bulgaria’s strength draining away. The Germans withdrew most of their troops for the 1918 offensives in France, supplies stopped, the soldiers went hungry and ragged, and quarrels with Austria-Hungary and the Ottoman Empire over the spoils embittered them. In late spring 1918 Greek and French troops took the fortified ridge of Skra di Legen, and Bulgarian commanders reported desertion and men who would not attack. In June General Franchet d’Espèrey took command of the Allied armies.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+      {
+        title: "Dobro Pole",
+        text: "The idea of attacking the mountain ridge of Dobro Pole came, Hall writes, from a Serbian staff officer in 1916. On 14 September 1918 French and Serbian troops attacked; Bjelajac describes the Serbian Second Army, with two French divisions in its first line, breaking through. After the second day the Bulgarians fell back in disorder, though at Lake Doiran they beat off a British and Greek attack. Mutinous soldiers marched on Sofia and proclaimed a republic at Radomir, and Bulgaria signed an armistice at Salonika at the end of September. Ludendorff wrote that the events on the Bulgarian front from 15 September sealed the fate of the Central Powers’ alliance.",
+        evidence: "fact",
+        studies: ["dobro-pole"],
+        refs: [{ source: 1 }, { source: 3 }, { source: 0 }, { source: 4 }],
+      },
+      {
+        title: "The road home",
+        text: "Serbian troops entered Veles and Štip on 26 September and French cavalry took Skopje on the 29th. With the fall of Niš in October the Central Powers’ land link to the Ottoman Empire was cut, and the Germans and Austro-Hungarians could not find enough troops to rebuild a front. Belgrade was freed at the end of October, and by 1 November the whole of pre-war Serbia had been liberated. Tsar Ferdinand of Bulgaria abdicated on 3 October, and on 1 December the Kingdom of Serbs, Croats and Slovenes was proclaimed in Belgrade.",
+        evidence: "fact",
+        studies: ["liberation-of-serbia-1918"],
+        refs: [{ source: 0 }, { source: 3 }, { source: 1 }],
+      },
+      {
+        title: "A forgotten front vindicated",
+        text: "Bjelajac writes that the breakthrough proved the advocates of a Balkan front right, recalling that the Serbs had urged the same idea in vain in 1915. Tasić sees the offensive as carefully prepared and decisive, contributing to the dissolution of Austria-Hungary. Hall concludes that years of bad food, shoddy materiel and strained relations with its allies defeated the Bulgarian army as surely as Serbian infantry and French artillery.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 3 }, { source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Hall dates the Bulgarian armistice to 29 September and Tasić to 30 September; Hall has Niš taken on 10 October and Tasić on 12 October. Tasić puts the forces on the eve of the breakthrough at 600,000 on the Central Powers’ side against 619,000 Allied troops. His article dates the capture of Skopje to 29 September 1916, an evident slip for 1918.",
+        evidence: "uncertainty",
+        studies: ["dobro-pole"],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+    ],
+    sources: [tasic, hallBalkans, hallBulgaria, bjelajac, ludendorff2],
+  },
+  "occupation-of-serbia": {
+    summary:
+      "The Austro-Hungarian and Bulgarian occupation of Serbia, 1915–1918, and the Toplica uprising of 1917 against it.",
+    narrative: [
+      {
+        title: "Partition",
+        text: "Ristović describes the occupiers’ plans: Conrad wanted Serbia annexed as punishment for causing the war, the Hungarian premier Tisza a reduced dependent rump, and Bulgaria had been promised 59 percent of Serbia’s territory. Austria-Hungary set up a Military General Government in Belgrade over less than half the country, divided into twelve districts and held by some 70,000 troops; the first governor, Salis-Seewis, was replaced in July 1916 after Hungarian complaints. Bulgaria took the east and south, Germany controlled the railways and mines in its zone, and Bulgarian advances into Kosovo and Albania led to a German-brokered compromise in April 1916.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Austro-Hungarian rule",
+        text: "In the Austro-Hungarian zone courts, police, schools and taxes passed to the occupiers. Ristović describes hangings, collective punishments, forced labour, requisitions of food, livestock, metals and forests, and a population brought to the edge of starvation. Serbian institutions were abolished, Belgrade University was closed, the Cyrillic script was banned and school curricula purged. Between 150,000 and 200,000 Serbian civilians were deported to internment camps in Austria-Hungary and Bulgaria. Bjelajac adds that teachers and clergy were sent to camps or shot.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Bulgarian rule",
+        text: "Bulgaria declared its zone Bulgarian national territory and set out to make it so. Ristović quotes an Austro-Hungarian report of 1916 describing the destruction of the educated classes and the forcible introduction of the Bulgarian language; Serbian laws were suspended without Bulgarian law replacing them, priests and notables were deported or killed, and men were sent to labour companies or the Bulgarian army. Tasić lists the bans on Serbian names, costume and script and the internment of teachers and priests.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "The Toplica uprising",
+        text: "Soldiers who had stayed at home and men hiding from the occupiers formed armed bands in both zones. In September 1916 the Serbian high command flew in Kosta Pećanac to prepare a rising for the expected Allied offensive. Bjelajac writes that the guerrilla leader Kosta Vojinović called for a rising in October 1916; Tasić that Bulgarian attempts to conscript Serbian youths sparked open revolt at the end of February 1917 in the Toplica region and the south of the Austro-Hungarian zone. The insurgents freed several towns before Bulgarian troops under Colonel Protogerov, with IMRO bands, and Austro-Hungarian battalions crushed the rising by the end of March with great brutality against civilians.",
+        evidence: "fact",
+        studies: ["toplica-uprising"],
+        refs: [{ source: 2 }, { source: 1 }, { source: 0 }],
+      },
+      {
+        title: "Resistance until liberation",
+        text: "Many insurgents kept up a guerrilla war, which Tasić judges of real value when the Allied offensive broke through in September 1918. Deportations, which had grown when Romania entered the war, increased again after the rising, and disease, hunger and deportation left the occupied territories severely depopulated.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }, { source: 0 }],
+      },
+      {
+        title: "A civilizing mission?",
+        text: "Ristović notes that Austro-Hungarian officials described their rule as a civilizing mission, while the army was obsessed with the danger of guerrillas, which it attributed to a Balkan mentality to be suppressed by force. Tasić traces both the resistance and the reprisals to the harshness of the two occupation regimes and to a tradition of irregular warfare going back to Ottoman rule.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Tasić puts the number of civilians killed in suppressing the Toplica uprising at some 20,000; Ristović cites an international commission’s figure of around 25,000. Bjelajac counts some 13,000 insurgents and 26,000 troops used against them. The sources also differ on when the rising began, from Vojinović’s call in October 1916 to the open revolt of late February 1917.",
+        evidence: "uncertainty",
+        studies: ["toplica-uprising"],
+        refs: [{ source: 2 }, { source: 0 }, { source: 1 }],
+      },
+    ],
+    sources: [ristovic, bjelajac, tasic],
+  },
+  "western-front-in-1917": {
+    summary:
+      "The Western Front in 1917: the German retreat to the Hindenburg Line, the failed Nivelle offensive and the French mutinies, and the British offensives at Messines, Ypres and Cambrai.",
+    narrative: [
+      {
+        title: "The Hindenburg Line",
+        text: "Hindenburg and Ludendorff, who had replaced Falkenhayn, needed men for the war in the east. In early 1917 they withdrew to a new, shorter line of concrete defences behind the Somme battlefield, the Siegfriedstellung, which the British called the Hindenburg Line and which Krause describes as economical of manpower and hard to break.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Nivelle and the mutinies",
+        text: "General Nivelle, Joffre’s successor, promised a breakthrough within forty-eight hours on the Chemin des Dames and spoke openly of his plans. When the attack came on 16 April, a week after the British opened their spring offensive on 9 April, the Germans had pulled back to stronger positions and reinforced the sector. The offensive lasted nine days and cost 134,000 French casualties. Within days soldiers began refusing orders; the unrest touched 121 infantry regiments. Krause compares it to a strike: the men would defend their lines but not attack in badly planned offensives. Pétain replaced Nivelle by mid-May and restored order with better food and leave and the punishment of ringleaders.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Messines",
+        text: "With the French army recovering, the British took the lead. At Messines on 7 June they fired nineteen mines dug under the German positions and took the ridge quickly with moderate losses, a tactical success without strategic result.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Third Ypres",
+        text: "Haig had long wanted an offensive in Flanders to clear the Channel coast. The third battle of Ypres, better known as Passchendaele, ran from 31 July to 10 November. Krause criticizes the plan of Haig and Gough for distant objectives, which thinned the artillery support, where Plumer had advised a shorter advance; the battle bogged down in rain and mud. Haig’s despatch explains his decision to go on into October by the weather and the need to support a French attack, and a note in the published despatches adds the reasons later given in Parliament: Russia’s collapse, the French army’s troubles, the Italian defeat, the absence of American troops and the danger of giving the Germans the initiative.",
+        evidence: "fact",
+        studies: ["passchendaele"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Cambrai",
+        text: "Haig describes the Cambrai attack as a search for local success by surprise against a sector weakened by the fighting elsewhere, on ground suited to tanks; the capture of Cambrai itself was secondary to taking Bourlon and a flank position. On 20 November 437 tanks broke through the German line and advanced up to eight kilometres, but 180 were lost on the first day, Bourlon Ridge was not taken, and German counter-attacks from 30 November regained much of the ground.",
+        evidence: "fact",
+        studies: ["cambrai-1917"],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+      {
+        title: "A better army without a victory",
+        text: "Krause sees in 1917 a much more effective British army, with better casualty ratios than on the Somme, but no strategic victory, in contrast to German successes at Riga, Caporetto and in Russia; Third Ypres at least kept the Germans from attacking the French while they recovered. Ludendorff wrote that after Flanders the Allied strategy for 1917 had failed and that a quiet period, which German exhaustion made imperative, at last came in the west.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Haig claims that 131 German divisions were engaged and defeated by fewer than half as many British, and counts 57,696 prisoners taken between April and the end of the Flanders offensive; Krause finds British and German losses at Third Ypres more or less even. The fullest statement of why Haig persisted at Ypres comes not from his despatch but from a staff officer’s speech of 1919 quoted in its notes.",
+        evidence: "uncertainty",
+        studies: ["passchendaele"],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+    ],
+    sources: [krause, haigDespatches, ludendorff2],
+  },
+  "italian-front": {
+    summary:
+      "Italy’s war against Austria-Hungary, 1915–1918: eleven battles on the Isonzo, the disaster of Caporetto, the defence of the Piave and the final offensive at Vittorio Veneto.",
+    narrative: [
+      {
+        title: "Italy goes to war",
+        text: "Italy entered the war in May 1915 to win Trento, the South Tyrol, Trieste and parts of Dalmatia. Wilcox explains that geography left one promising line of attack, along the Isonzo toward Gorizia and the Carso plateau, while the Alpine frontier favoured the defender. Cadorna, the chief of staff, planned an offensive toward Ljubljana and Trieste and believed the deadlock of the Western Front would not apply to his. Conrad expected the attack on the lower Isonzo and dug in.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "The Isonzo, 1915",
+        text: "The first battle of the Isonzo began on 23 June, a month after the declaration of war, giving the Austrians time to dig in; the second followed on 18 July, the third and fourth in the autumn. Salvador describes an Italian artillery of about 2,200 mostly light guns, short of ammunition, and deserters who gave away Italian plans. In the autumn battles the Italians lost 116,000 men against 67,000 Austrians, and by the end of the year their army on the Isonzo was near collapse. In the high Alps the “White War” settled into a stalemate of its own.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "1916: the Strafexpedition and Gorizia",
+        text: "On 15 May 1916 Conrad launched his “punishment expedition” from the Trentino onto the Asiago plateau, advancing some twelve miles before it stalled and was called off when the Brusilov offensive drew troops east. Italian casualties, 76,000, were more than double the Austrian, and the government of Salandra fell. In August the sixth battle of the Isonzo took Gorizia, the first real Italian success, followed by costly attritional battles through the autumn. Italy declared war on Germany on 27 August 1916.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "1917: the Bainsizza",
+        text: "The tenth battle of the Isonzo in May 1917 failed with Italian losses Wilcox puts at over 128,000. In August the eleventh battle, led by Capello’s Second Army, took the Bainsizza plateau but cost 160,000 Italian casualties against 85,000 Austrian. Salvador writes that the Austrian lines were then near breaking, forcing Vienna to ask Germany for help. At home food riots broke out in Turin, and Wilcox finds both army and country close to breaking point.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Caporetto",
+        text: "Ludendorff writes that Austria-Hungary was exhausted and that Germany could spare only six to eight divisions, so the attack had to fall where the Italians were weak and not expecting it, between Flitsch and Canale. The Austro-German Fourteenth Army under Otto von Below attacked on 24 October after a short bombardment with high explosive and gas; German infiltration tactics carried the mountains, and the 12th Division drove through Caporetto. Wilcox writes that the Italian command had warning of the attack but that Capello thought defensive preparations unnecessary. The Second Army disintegrated; the army fell back to the Tagliamento and then the Piave, where it held from early November with British and French reinforcements. Diaz replaced Cadorna.",
+        evidence: "fact",
+        studies: ["caporetto"],
+        refs: [{ source: 2 }, { source: 0 }],
+      },
+      {
+        title: "The Piave and Vittorio Veneto",
+        text: "In June 1918 Austria-Hungary attacked once more, splitting its forces between the Piave and the Asiago plateau; forewarned by deserters and intelligence, the Italians with their British and French allies defeated the offensive. Diaz attacked only on 24 October, at Vittorio Veneto, when the Habsburg army was already falling apart: after a few days of hard fighting the Austrians were in full retreat by the 29th. An armistice was signed on 3 November and came into force the next day.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Cadorna’s war",
+        text: "Salvador judges that Cadorna’s mass frontal assaults gained five to twenty-five kilometres in eleven battles, with Gorizia a political rather than strategic prize, but that his command was no worse than that of Joffre or Haig. Wilcox rejects Cadorna’s bulletin blaming Caporetto on cowardly units of the Second Army: the defeat came chiefly from the attackers’ planning and tactics and from poor Italian leadership and staff work. She also calls Vittorio Veneto in part a fiction, a few days of real combat followed by an advance against an army that had collapsed.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Wilcox dates the tenth battle of the Isonzo to 12 May 1917 with over 128,000 Italian losses; Salvador dates the attack to 19 May and gives 164,000. For Caporetto Wilcox counts over 280,000 Italian prisoners, 350,000 men who absconded and some 3,000 guns lost; Ludendorff adds 60,000 prisoners taken east of the Tagliamento alone. Diaz’s victory bulletin claimed 300,000 prisoners at Vittorio Veneto.",
+        evidence: "uncertainty",
+        studies: ["caporetto"],
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+      },
+    ],
+    sources: [wilcox, salvador, ludendorff2],
+  },
+  "western-front-in-1918": {
+    summary:
+      "The last year on the Western Front: the German spring offensives, the Allied counter-stroke on the Marne, and the Hundred Days that ended in the Armistice.",
+    narrative: [
+      {
+        title: "Ludendorff’s gamble",
+        text: "With Russia out of the war, Watson writes, Germany could move forty-eight divisions west and briefly outnumber the Allies, 191 divisions to 178, before the Americans arrived in strength. Ludendorff chose to attack the British between Arras and La Fère. He explains that he weighed Flanders, the Somme front and Verdun and chose the centre because the enemy was weakest there and the ground passable in any season, adding that tactics had to come before purely strategic objects; Watson counts his refusal to set firm objectives, such as the rail hubs of Amiens and Hazebrouck, a gross error.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 1 }, { source: 3 }],
+      },
+      {
+        title: "Operation Michael",
+        text: "On 21 March 1918, after a five-hour bombardment by 6,473 guns and 3,532 mortars, German assault divisions trained in infiltration tactics broke into the British line. Haig counts at least sixty-four German divisions in the first day’s attack, more than the whole British army in France. By 5 April the Germans had taken 3,100 square kilometres and 90,000 prisoners, but Ludendorff had dispersed his effort in several directions and taken nothing of strategic value. Krause describes Pétain’s pessimism; at Doullens on 26 March the Allies gave Foch the task of coordinating their armies.",
+        evidence: "fact",
+        studies: ["operation-michael"],
+        refs: [{ source: 1 }, { source: 4 }, { source: 0 }, { source: 5 }],
+      },
+      {
+        title: "Georgette, Blücher and the Marne",
+        text: "Further German offensives repeated the pattern: in Flanders from 9 April toward Hazebrouck, on the Chemin des Dames from 27 May, where the Germans came within ninety kilometres of Paris, and on the Matz in June. Each created a salient without a decisive result. Foch foresaw the next attack near Reims, and when it came on 15 July the Allies met it with Mangin’s Tenth Army ready to strike its flank; Krause writes that Foch countermanded Pétain’s attempt to cancel the counter-attack, which on 18 July took the initiative from the Germans for good.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+      {
+        title: "Amiens",
+        text: "On 8 August British, Australian, Canadian and French troops attacked east of Amiens in fog with large numbers of tanks and drove up to eight miles into the German lines. Ludendorff called it the black day of the German army: divisions allowed themselves to be overwhelmed, staffs were surprised by tanks, and he concluded that the war must be ended. Lloyd describes Foch’s plans growing more ambitious after the success.",
+        evidence: "fact",
+        studies: ["amiens-1918"],
+        refs: [{ source: 3 }, { source: 2 }, { source: 0 }],
+      },
+      {
+        title: "The Hundred Days",
+        text: "The Allies now attacked in quick succession along the front, so that German reserves could not arrive before each battle was over. The Americans pinched out the St-Mihiel salient on 12 September, and Foch launched a series of offensives from 26 September: the Americans in the Meuse-Argonne, the British toward Cambrai, an attack in Flanders, and the assault on the Hindenburg Line at the St-Quentin canal. On 28 September Ludendorff told Hindenburg that Germany must seek peace; a note to President Wilson followed on 3 October, and the Armistice was signed on 11 November. Krause writes that German fresh reserves fell from nearly thirty divisions in August to fewer than four in October.",
+        evidence: "fact",
+        studies: ["meuse-argonne"],
+        refs: [{ source: 2 }, { source: 0 }, { source: 3 }],
+      },
+      {
+        title: "The cost",
+        text: "Lloyd estimates Allied casualties in the Hundred Days at around 700,000, nearly 300,000 British, 279,000 French and approaching 130,000 American, and German casualties at about 760,000, with desertion and mutiny eroding the army further; the Kaiser abdicated on 9 November. Watson counts nearly a million German casualties in the spring offensives, losses that fell hardest on the best-trained troops.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }, { source: 1 }],
+      },
+      {
+        title: "Why Germany lost",
+        text: "Watson blames Ludendorff’s command errors and the German army’s limits in men, materiel and mobility. Krause credits Foch’s series of short, sharp attacks along the whole front and insists that the war was won militarily in the field, against the later Nazi claim of a stab in the back. Ludendorff himself pointed to a spirit of insubordination brought back from home, though he admitted that the fighting power of the army had declined beyond doubt.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 1 }, { source: 0 }, { source: 3 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Krause dates the second battle of the Marne from the German attack of 15 July to 6 August; Le Gall dates it from the Allied counter-attack of 18 July to the middle of August. Krause notes that Ludendorff used the phrase “black day” for several different days, and indeed his memoirs call 20 August another. Lloyd warns that German casualties in the Hundred Days may have been higher than the records show.",
+        evidence: "uncertainty",
+        studies: ["amiens-1918"],
+        refs: [{ source: 0 }, { source: 5 }, { source: 3 }, { source: 2 }],
+      },
+    ],
+    sources: [krause, watson, lloyd, ludendorff2, haigDespatches, leGall],
+  },
+  "sinai-and-palestine-campaign": {
+    summary:
+      "The war between the British Empire and the Ottoman Empire from the Suez Canal to Syria, 1915–1918, ending with the destruction of the Ottoman armies at Megiddo.",
+    narrative: [
+      {
+        title: "The canal",
+        text: "In February 1915 an Ottoman expeditionary force crossed Sinai and tried to cross the Suez Canal on pontoons on 3 February; it failed and withdrew, with casualties Baş puts at 52 officers and 1,358 men. He argues that it nonetheless achieved its aim of tying British troops to Egypt. In March 1916 the Egyptian Expeditionary Force was formed under General Murray from the troops evacuated from Gallipoli and the garrison of Egypt; Kitchen describes a multinational imperial force that sent ten of its fourteen divisions to other fronts.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+      {
+        title: "Across Sinai",
+        text: "Murray pushed his defence out across northern Sinai, building a railway, a wire-netting road and a water pipeline behind the advance. The EEF beat off an Ottoman attack at Romani on 4 August 1916, destroyed the garrison of El Arish at Magdhaba on 23 December and took Rafah on the Palestine border on 9 January 1917.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Gaza",
+        text: "Murray’s attempt to take Gaza on 26 March 1917 failed in fog and confusion, costing 3,967 casualties against 1,372 Ottoman, though his report claimed over 8,000 Ottoman losses and led London to order an advance on Jerusalem. The second battle of Gaza on 19 April, with tanks and gas, failed outright at a cost of 6,444. Allenby replaced Murray in June. On the Ottoman side, Baş writes, the armies in Palestine were placed under a new army group, Yildirim, staffed almost entirely by German officers under Falkenhayn, which caused a crisis with the Ottoman commanders.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Beersheba to Jerusalem",
+        text: "Allenby reorganized the EEF into two infantry corps and the Desert Mounted Corps and, with more troops and guns, broke the Gaza–Beersheba line in the third battle of Gaza from 31 October to 7 November 1917. The EEF pursued north beyond Jaffa and then turned east into the Judean hills; Jerusalem fell in December, at a cost of 21,559 casualties by the end of the year. Falkenhayn was dismissed and Liman von Sanders took command of the Ottoman army group.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Megiddo",
+        text: "In 1918 the EEF raided across the Jordan toward Amman in support of the Arab Revolt and was transformed as Indian troops replaced most of its British infantry. On 19 September Allenby’s infantry broke the Ottoman line on the coastal plain north of Jaffa and his cavalry rode through the gap. Liman describes the drumfire that began at 3.30 a.m., British aircraft bombing his headquarters and the telephone exchange at Afula, Arab irregulars cutting the wires, and a rear two hundred kilometres deep with no fighting troops in it; at dawn on 20 September British troops burst into Nazareth and attacked his headquarters. Within days the cavalry had encircled the bulk of the Ottoman army and taken over 75,000 prisoners; Damascus fell on 1 October, and by the armistice the EEF was beyond Aleppo.",
+        evidence: "fact",
+        studies: ["megiddo-1918"],
+        refs: [{ source: 0 }, { source: 2 }, { source: 1 }],
+      },
+      {
+        title: "The retreat to Aleppo",
+        text: "Baş writes that the Ottoman Eighth Army was annihilated within two days, while the Seventh Army under Mustafa Kemal, taking command of what remained of the Fourth, made a fighting retreat of over 400 kilometres to positions north of Aleppo, reached just before the armistice, and so kept the British out of Anatolia. Kitchen counts the EEF’s losses in Megiddo and the pursuit at only 5,666.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+      {
+        title: "Cavalry’s last triumph",
+        text: "Kitchen calls Megiddo the war’s most successful large-scale use of cavalry, though he notes that Bulgaria’s collapse, which cut the Ottomans off from Germany, did more than the campaign to end the Ottoman war. Baş counts Palestine among the campaigns that ended with the Ottoman army retreating all the way to Anatolia. Liman believed that with a fairly strong reserve his front could have been restored.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Kitchen dates the occupation of Jerusalem to 9 December 1917 and Baş its capture to 8 December. Murray’s claim of over 8,000 Ottoman losses at First Gaza compares with the 1,372 Kitchen gives. Liman’s account of the collapse of September 1918 was written by the commander who lost the battle.",
+        evidence: "uncertainty",
+        studies: ["megiddo-1918"],
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+      },
+    ],
+    sources: [kitchen, bas, liman],
   },
 };

@@ -2503,6 +2503,23 @@ progress::-moz-progress-bar {
 .section-refs a:hover {
   color: var(--gold);
 }
+.campaign-narrative {
+  max-width: 760px;
+  margin: 10px 0 45px;
+}
+.campaign-narrative > h2 {
+  font-size: 36px;
+  margin: 10px 0 10px;
+}
+.campaign-narrative .analysis-section p:not(.section-refs) {
+  font-size: 14px;
+}
+.bibliography li > p {
+  margin: 6px 0 0;
+  font-size: 12px;
+  color: var(--text);
+  max-width: 760px;
+}
 .profile-titles {
   margin-top: 10px;
   font-size: 13px;

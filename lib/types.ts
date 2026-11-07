@@ -78,10 +78,14 @@ export type CommanderDetails = {
   notableDecision: string;
   setback: string;
 };
+// A curated war bibliography entry: a source that was read, with a note on
+// what it covers and where its limits lie.
+export type BibliographyEntry = Source & { note: string };
 export type WarDetails = {
   participants: string[];
   geography: string;
   developments: Chronology;
+  bibliography?: BibliographyEntry[];
 };
 export type War = {
   slug: string;
@@ -93,11 +97,25 @@ export type War = {
   consequences: string;
   details?: WarDetails;
 };
+// A campaign narrative. Each paragraph names the member studies it covers and
+// cites the campaign's own sources, which were read for the narrative.
+export type CampaignDetails = {
+  summary: string;
+  narrative: {
+    title: string;
+    text: string;
+    evidence: Evidence;
+    studies: string[];
+    refs: SectionRef[];
+  }[];
+  sources: Source[];
+};
 export type Campaign = {
   slug: string;
   name: string;
   warId: string;
   summary: string;
+  details?: CampaignDetails;
 };
 // A curated reading path across wars. Members come from the rule (any listed
 // war or campaign), so new engagements join without editing the collection.

@@ -43,6 +43,58 @@ export const warDetails: Record<string, WarDetails> = {
       ["326 BCE", "Battle at the Hydaspes; the army refuses to go farther"],
       ["323 BCE", "Alexander dies at Babylon"],
     ),
+    bibliography: [
+      {
+        title:
+          "Arrian, The Anabasis of Alexander, trans. E. J. Chinnock (1884)",
+        url: "https://en.wikisource.org/wiki/The_Anabasis_of_Alexander",
+        publisher: "Wikisource",
+        note: "The fullest surviving campaign narrative, in seven books from Alexander’s accession to his death. Arrian wrote in the second century CE and chose the eyewitness accounts of Ptolemy and Aristobulus as his main sources; Ptolemy enlarged his own role, and Aristobulus usually gave the version kinder to Alexander. The Wikisource transcription is incomplete.",
+      },
+      {
+        title:
+          "Diodorus Siculus, Library of History, Book 17 (Loeb Classical Library, vol. VIII, 1963)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/17A%2A.html",
+        publisher: "LacusCurtius, University of Chicago",
+        note: "A narrative of the whole reign written in the first century BCE, in six web parts from the accession to Alexander’s death. It belongs to the “vulgate” tradition descended from Cleitarchus, whose history mixed eyewitness detail with romance and errors. Read alongside Arrian, it represents the other main tradition.",
+      },
+      {
+        title: "Plutarch, Life of Alexander, trans. B. Perrin (Loeb, 1919)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Alexander%2A/home.html",
+        publisher: "LacusCurtius, University of Chicago",
+        note: "A biography rather than a campaign history. The LacusCurtius edition divides it into pages matched to the books of Curtius Rufus.",
+      },
+      {
+        title: "Alexander the Great — Pierre Briant",
+        url: "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/",
+        publisher: "Encyclopaedia Iranica",
+        note: "The conquest seen from the Achaemenid side: the resistance that continued after each victory, the continuity of Achaemenid administration and Alexander’s use of royal ideology. Published in 1985 and updated in 2018; it cites ancient passages and modern studies for its points.",
+      },
+      {
+        title: "Alexander the Great (multi-part biography)",
+        url: "https://www.livius.org/articles/person/alexander-the-great/",
+        publisher: "Livius.org (Jona Lendering)",
+        note: "A dated narrative of the campaigns in short parts, with discussion of where the ancient accounts differ. The campaign narratives on this site draw on its parts 2.3 to 2.14.",
+      },
+      {
+        title: "Alexander 3.2: The Vulgate",
+        url: "https://www.livius.org/articles/person/alexander-the-great/alexander-3.2-the-vulgate/",
+        publisher: "Livius.org (Jona Lendering)",
+        note: "How the lost history of Cleitarchus shaped Diodorus and Curtius Rufus, and why modern criticism of Diodorus has been overdone.",
+      },
+      {
+        title: "Alexander 3.3: Arrian’s sources",
+        url: "https://www.livius.org/articles/person/alexander-the-great/alexander-3.3-arrians-sources/",
+        publisher: "Livius.org (Jona Lendering)",
+        note: "Arrian’s life and his reliance on Ptolemy and Aristobulus, with the biases of each.",
+      },
+      {
+        title: "Astronomical Diaries",
+        url: "https://www.livius.org/articles/concept/astronomical-diaries/",
+        publisher: "Livius.org (Jona Lendering)",
+        note: "Babylonian records of observations and events. Lendering calls the entry for Gaugamela the only contemporary account of the battle; it says Darius’s army was deserting on its eve, against the Greek picture of a king who abandoned his men.",
+      },
+    ],
   },
   punic: {
     participants: [

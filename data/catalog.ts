@@ -8,6 +8,7 @@ import { ww1Rows } from "./battles/ww1";
 import { serbianFrontRows } from "./battles/serbian-front";
 import { ww2Rows } from "./battles/ww2";
 import { warDetails } from "./war-details";
+import { campaignDetails } from "./campaign-details";
 export const eras = [
   { id: "ancient", name: "Classical antiquity", period: "490 BCE – 500 CE" },
   { id: "medieval", name: "Medieval worlds", period: "500 – 1500" },
@@ -494,7 +495,10 @@ export const campaigns: Campaign[] = [
         slug: slugify(r[11]),
         name: r[11],
         warId: r[10],
-        summary: `Explore the engagements and command problems of ${r[11]}. Read each study for the documented sequence, sources and limits of reconstruction.`,
+        summary:
+          campaignDetails[slugify(r[11])]?.summary ??
+          `Explore the engagements and command problems of ${r[11]}. Read each study for the documented sequence, sources and limits of reconstruction.`,
+        details: campaignDetails[slugify(r[11])],
       },
     ]),
   ).values(),

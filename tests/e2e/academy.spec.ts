@@ -307,6 +307,21 @@ test("campaign and collection pages draw schematic route maps", async ({
   );
   await page.locator(".route-list a").first().click();
   await expect(page).toHaveURL(new RegExp(`/battles/${italy[0].slug}/$`));
+  // A campaign with a narrative shows it, linked to its studies and sources.
+  await page.goto("/campaigns/macedonian-invasion-of-persia");
+  await expect(
+    page.getByRole("heading", { name: "How the campaign unfolded" }),
+  ).toBeVisible();
+  await expect(
+    page.locator(".campaign-narrative a[href='/battles/gaugamela/']"),
+  ).toBeVisible();
+  await page.locator(".campaign-narrative a[href='#source-1']").first().click();
+  await expect(page.locator("#source-1")).toBeInViewport();
+  // Its war page lists an annotated bibliography.
+  await page.goto("/wars/alexander");
+  await expect(
+    page.getByRole("heading", { name: "War bibliography" }),
+  ).toBeVisible();
   // A one-engagement campaign shows a locator, without a line or list.
   await page.goto("/campaigns/siege-of-toulon");
   await expect(page.locator(".route-map-single")).toBeVisible();

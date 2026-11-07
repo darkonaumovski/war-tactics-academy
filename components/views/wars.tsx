@@ -1,6 +1,13 @@
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight, Shield, Flag } from "lucide-react";
-import type { Catalog, War, Campaign } from "../../lib/types";
+import type {
+  Battle,
+  BibliographyEntry,
+  Campaign,
+  CampaignDetails,
+  Catalog,
+  War,
+} from "../../lib/types";
 import { eras } from "../../data/catalog";
 import { collections } from "../../data/collections";
 import { RouteMap } from "../route-map";
@@ -135,16 +142,39 @@ export function WarPage({ war: w, c }: { war: War; c: Catalog }) {
       </div>
       <p className="editorial-note">
         Participants, scope and chronology are editorial orientation drawn from
-        well-established events. The reading below comes from the linked battle
-        studies and commander profiles; a dedicated war bibliography is future
-        editorial work.
+        well-established events.{" "}
+        {w.details?.bibliography
+          ? "The war bibliography below lists the principal sources for the war as a whole, with a note on each; the reading after it comes from the linked battle studies and commander profiles."
+          : "The reading below comes from the linked battle studies and commander profiles; a dedicated war bibliography is future editorial work."}
       </p>
+      {w.details?.bibliography && (
+        <Bibliography entries={w.details.bibliography} />
+      )}
       {!!sources.length && (
         <Sources
           sources={[...new Map(sources.map((s) => [s.url, s])).values()]}
         />
       )}
     </div>
+  );
+}
+function Bibliography({ entries }: { entries: BibliographyEntry[] }) {
+  return (
+    <section className="sources bibliography" aria-labelledby="bibliography">
+      <h2 id="bibliography">War bibliography</h2>
+      <ol>
+        {entries.map((s) => (
+          <li key={s.url}>
+            <a href={s.url} target="_blank" rel="noreferrer">
+              {s.title}
+              <ArrowUpRight size={14} />
+            </a>
+            <span>{s.publisher}</span>
+            <p>{s.note}</p>
+          </li>
+        ))}
+      </ol>
+    </section>
   );
 }
 export function CampaignPage({
@@ -195,6 +225,7 @@ export function CampaignPage({
           </p>
         </section>
       </div>
+      {x.details && <CampaignNarrative details={x.details} battles={battles} />}
       <SectionTitle
         number="↳"
         title="Engagements"
@@ -207,9 +238,70 @@ export function CampaignPage({
         ))}
       </div>
       <p className="editorial-note">
-        This is a campaign index. Detailed chronology, decisions and references
-        are in the linked engagement studies where available.
+        {x.details
+          ? "The narrative follows the campaign between its engagements and cites the sources listed below. Detailed sequence, decisions and evidence for each engagement are in its study."
+          : "This is a campaign index. Detailed chronology, decisions and references are in the linked engagement studies where available."}
       </p>
+      {x.details && <Sources sources={x.details.sources} />}
     </div>
+  );
+}
+function CampaignNarrative({
+  details,
+  battles,
+}: {
+  details: CampaignDetails;
+  battles: Battle[];
+}) {
+  return (
+    <article className="campaign-narrative">
+      <span className="eyebrow">THE CAMPAIGN</span>
+      <h2>How the campaign unfolded</h2>
+      {details.narrative.map((s, i) => (
+        <section className="analysis-section" key={s.title}>
+          <div className="analysis-heading">
+            <span>{String(i + 1).padStart(2, "0")}</span>
+            <h3>{s.title}</h3>
+            <span className={`evidence ${s.evidence}`}>
+              {s.evidence === "fact"
+                ? "Historical account"
+                : s.evidence === "interpretation"
+                  ? "Interpretation"
+                  : "Uncertainty"}
+            </span>
+          </div>
+          <p>{s.text}</p>
+          {!!s.studies.length && (
+            <p className="section-refs">
+              <span>Studies</span>
+              {s.studies.map((slug) => {
+                const b = battles.find((y) => y.slug === slug);
+                return (
+                  <Link key={slug} href={`/battles/${slug}`}>
+                    {b?.name ?? slug}
+                  </Link>
+                );
+              })}
+            </p>
+          )}
+          <p className="section-refs">
+            <span>Draws on</span>
+            {s.refs.map((r) => {
+              const source = details.sources[r.source];
+              return (
+                <a
+                  key={`${r.source}-${r.locator ?? ""}`}
+                  href={`#source-${r.source + 1}`}
+                  title={source.title}
+                >
+                  [{r.source + 1}] {source.publisher}
+                  {r.locator && `, ${r.locator}`}
+                </a>
+              );
+            })}
+          </p>
+        </section>
+      ))}
+    </article>
   );
 }

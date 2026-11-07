@@ -6,11 +6,19 @@ import { research } from "../../data/research";
 
 describe("campaign narratives", () => {
   const entries = Object.entries(campaignDetails);
-  it("cover the three Alexander campaigns", () =>
+  it("cover the Alexander campaigns and Napoleon's to 1809", () =>
     expect(Object.keys(campaignDetails).sort()).toEqual([
       "campaigns-in-bactria-and-sogdiana",
+      "egyptian-and-syrian-campaign",
       "indian-campaign",
+      "italian-campaign-of-1796-1797",
       "macedonian-invasion-of-persia",
+      "marengo-campaign",
+      "paris-insurrection-of-1795",
+      "siege-of-toulon",
+      "war-of-the-fifth-coalition",
+      "war-of-the-fourth-coalition",
+      "war-of-the-third-coalition",
     ]));
   it("belong to existing campaigns, which carry them", () => {
     for (const [slug, d] of entries) {
@@ -65,7 +73,10 @@ describe("war bibliographies", () => {
     const withBibliography = Object.entries(warDetails).filter(
       ([, d]) => d.bibliography,
     );
-    expect(withBibliography.map(([slug]) => slug)).toEqual(["alexander"]);
+    expect(withBibliography.map(([slug]) => slug)).toEqual([
+      "alexander",
+      "french-revolutionary",
+    ]);
     for (const [, d] of withBibliography) {
       const list = d.bibliography!;
       expect(new Set(list.map((s) => s.url)).size).toBe(list.length);

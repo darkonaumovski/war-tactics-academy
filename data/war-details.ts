@@ -734,6 +734,50 @@ export const warDetails: Record<string, WarDetails> = {
       ["June 1800", "Battle of Marengo"],
       ["March 1802", "Peace of Amiens"],
     ),
+    bibliography: [
+      {
+        title:
+          "“French Revolutionary Wars” — Charles Francis Atkinson and David Hannay, Encyclopædia Britannica, 11th ed., vol. 11 (1911)",
+        url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/French_Revolutionary_Wars",
+        publisher: "Wikisource",
+        note: "A long military history of the war from 1792 to 1801, strongest on the Italian campaign of 1796–1797 and the Marengo campaign, which it follows day by day with figures for each side. It argues with the conventional verdicts, defending Wurmser’s aims and criticizing Bonaparte’s march on Milan in 1800, but treats Toulon, Vendémiaire and Egypt only in passing.",
+      },
+      {
+        title:
+          "J. Holland Rose, The Life of Napoleon I, 2 vols (London: G. Bell, 1910 reprint of the 1907 fourth edition)",
+        url: "https://archive.org/details/thelifeofnapoleo14300gut",
+        publisher: "Internet Archive (Project Gutenberg text)",
+        note: "A political and military biography by a Cambridge historian who used the British Foreign Office and Admiralty records. Its chapters on Toulon, Vendémiaire, the Italian campaign, Egypt, Syria and Marengo weigh Napoleon’s later claims against the documents, and it is especially useful on British policy; it writes from a British point of view.",
+      },
+      {
+        title:
+          "The Memoirs of Baron Thiébault, trans. A. J. Butler, vol. 1 (London: Smith, Elder, 1896)",
+        url: "https://archive.org/details/memoirsofbaronth01thiuoft",
+        publisher: "Internet Archive",
+        note: "An abridged English translation of a French general’s memoirs. Thiébault served on the Convention’s side on 13 Vendémiaire and gives a street-by-street account of the day, including the forces engaged; his memory sometimes differs from the documents Rose cites.",
+      },
+      {
+        title:
+          "Journal d’Abdurrahman Gabarti pendant l’occupation française en Égypte, trans. Alexandre Cardin (Paris, 1838)",
+        url: "https://archive.org/details/journaldabdurra00cardgoog",
+        publisher: "Internet Archive",
+        note: "A French translation of the Cairo scholar al-Jabarti’s account of the occupation, with a summary of the Lebanese Christian Niqula al-Turki’s narrative. It shows the invasion as Cairo experienced it, from the flight after Embabeh to the revolt of October 1798. The translator warns that it often distorts the facts; it is hostile to the French and should be read alongside the French accounts.",
+      },
+      {
+        title:
+          "Melas, Michael Freiherr von — Peter Broucek (Neue Deutsche Biographie 17, 1994)",
+        url: "https://www.deutsche-biographie.de/sfz61357.html",
+        publisher: "Deutsche Biographie",
+        note: "A short Austrian biography of the commander in Italy in 1799–1800, giving the Austrian view of the Marengo campaign: the plan against Genoa and the Var, the fall of Genoa on 4 June and the Austrian strength at Marengo.",
+      },
+      {
+        title:
+          "Karl, Erzherzog von Österreich — Johann Christoph Allmayer-Beck (Neue Deutsche Biographie 11, 1977)",
+        url: "https://www.deutsche-biographie.de/sfz57317.html",
+        publisher: "Deutsche Biographie",
+        note: "A biography of the Austrian commander, covering his campaigns on the Rhine, his retreat before Bonaparte into Styria and the contacts that led to Leoben in 1797, and his long conflict with the Vienna court. The page also carries Adam Wolf’s older ADB article of 1882.",
+      },
+    ],
   },
   napoleonic: {
     participants: [

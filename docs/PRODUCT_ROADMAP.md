@@ -12,7 +12,7 @@ The battle expansion is complete: 140 engagements with studies in six collection
 ## Priority 2 — Curriculum and media
 
 1. Specialist review of all ten learning paths, especially the five collection courses added in the expansion.
-2. Add deeper quizzes (currently one question per lesson), advanced learning levels and source-criticism exercises; retain feedback rather than performance rankings.
+2. Add deeper quizzes, advanced learning levels and source-criticism exercises; retain feedback rather than performance rankings. Batches Q1 and Q2 added per-question feedback, three questions to each of the 51 lessons and an unscored source check to 45 of them, drawn from sourced disagreements on the campaign and study pages. Advanced learning levels remain to be done.
 3. Grow the nine-record media library: verified official video embeds beyond D-Day, more public-domain portraits, maps and primary documents, each with full attribution.
 4. Give each commander profile and war page its own multi-source bibliography.
 

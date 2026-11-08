@@ -22,7 +22,7 @@ Playwright defines Chromium, Firefox and WebKit projects. Unless `PLAYWRIGHT_BAS
 - The atlas with all external HTTPS requests blocked, dense areas separated at 1280 and 375 pixels, and `?battle=` links from engagement pages.
 - Collection pages with ordered timelines, schematic route maps on campaign and collection pages, and commander career strips in date order.
 - Commander search, role filtering, profile associations, the command record and chronology, portrait attribution and its fallback, and the qualitative comparison with principal commands and notable decisions.
-- Lesson answers, explanatory results and completion after reload, in both the Foundations path and an extended path, including seminar guidance and lesson page titles.
+- Lesson answers across several questions, explanatory results and completion after reload, in both the Foundations path and an extended path, including seminar guidance and lesson page titles.
 - Every decision exercise (19), history/counterfactual separation and persistence.
 - Media library filtering, empty-state recovery, the video tab, on-request official embeds (with YouTube blocked) and links to related studies.
 - War pages with participants, chronology and key commanders; the war, campaign and engagement hierarchy.

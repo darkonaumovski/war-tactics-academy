@@ -2,29 +2,29 @@
 
 The authoritative schema is `prisma/schema.prisma`; three checked-in SQL migrations create it (`initial`, then `course_ordinal`, which adds course ordering, and `battle_ordinal`, which stores each engagement's chronological position). `prisma/seed.ts` validates historical research, commander, course and media data before a single transaction populates it.
 
-| Entity              | Responsibility and explicit relationships                                                                                                                 |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| HistoricalEra       | Era grouping; has wars and commander profiles                                                                                                             |
-| War                 | Political conflict context; belongs to an era; has campaigns                                                                                              |
-| Campaign            | Operational index; belongs to a war; has engagements                                                                                                      |
-| Battle              | Engagement name, category, signed year, ordinal, region, approximate latitude/longitude, editorial projection; belongs to a campaign                      |
-| Commander           | Profile, lifetime, role, context and assessment; belongs to an era                                                                                        |
-| Faction             | Named participant group                                                                                                                                   |
-| BattleParticipant   | Composite-key battle–faction join                                                                                                                         |
-| CommanderAssignment | Composite-key battle–commander join with responsibility note                                                                                              |
-| BattlePhase         | Ordered phase within one battle; unique battle/ordinal pair                                                                                               |
-| MapEvent            | Phase-associated event; coordinate system explicitly `schematic`                                                                                          |
-| HistoricalDecision  | Curated exercise linked to a battle                                                                                                                       |
-| DecisionOption      | Ordered choice, feedback and historical-choice flag                                                                                                       |
-| HistoricalSource    | Unique source URL, title and publisher                                                                                                                    |
-| BattleSource        | Composite-key engagement–source join                                                                                                                      |
-| CommanderSource     | Composite-key commander–source join                                                                                                                       |
-| MediaResource       | Curated media (video, portrait, map, document) or linked reading, with kind, author/publisher, license/reuse description and attribution; links to source |
-| LearningCourse      | Course title, level, description and curriculum ordinal                                                                                                   |
-| Lesson              | Ordered lesson in a course with objectives/content projection                                                                                             |
-| LessonSource        | Composite-key lesson–source join, covering lesson-specific readings and the studies of referenced battles                                                 |
-| Quiz                | One quiz per lesson                                                                                                                                       |
-| QuizQuestion        | Prompt, choice array, answer index and explanatory feedback                                                                                               |
+| Entity              | Responsibility and explicit relationships                                                                                                                                     |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HistoricalEra       | Era grouping; has wars and commander profiles                                                                                                                                 |
+| War                 | Political conflict context; belongs to an era; has campaigns                                                                                                                  |
+| Campaign            | Operational index; belongs to a war; has engagements                                                                                                                          |
+| Battle              | Engagement name, category, signed year, ordinal, region, approximate latitude/longitude, editorial projection; belongs to a campaign                                          |
+| Commander           | Profile, lifetime, role, context and assessment; belongs to an era                                                                                                            |
+| Faction             | Named participant group                                                                                                                                                       |
+| BattleParticipant   | Composite-key battle–faction join                                                                                                                                             |
+| CommanderAssignment | Composite-key battle–commander join with responsibility note                                                                                                                  |
+| BattlePhase         | Ordered phase within one battle; unique battle/ordinal pair                                                                                                                   |
+| MapEvent            | Phase-associated event; coordinate system explicitly `schematic`                                                                                                              |
+| HistoricalDecision  | Curated exercise linked to a battle                                                                                                                                           |
+| DecisionOption      | Ordered choice, feedback and historical-choice flag                                                                                                                           |
+| HistoricalSource    | Unique source URL, title and publisher                                                                                                                                        |
+| BattleSource        | Composite-key engagement–source join                                                                                                                                          |
+| CommanderSource     | Composite-key commander–source join                                                                                                                                           |
+| MediaResource       | Curated media (video, portrait, map, document) or linked reading, with kind, author/publisher, license/reuse description and attribution; links to source                     |
+| LearningCourse      | Course title, level, description and curriculum ordinal                                                                                                                       |
+| Lesson              | Ordered lesson in a course with objectives/content projection                                                                                                                 |
+| LessonSource        | Composite-key lesson–source join, covering lesson-specific readings and the studies of referenced battles                                                                     |
+| Quiz                | One quiz per lesson                                                                                                                                                           |
+| QuizQuestion        | Prompt, choice array, answer index and explanatory feedback; extra questions and unscored source checks are authored in `data/lesson-exercises.ts` and merged into the lesson |
 
 ## Editorial and normalized data
 

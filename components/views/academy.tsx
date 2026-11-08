@@ -9,7 +9,7 @@ import {
 import type { Catalog, Course, Lesson } from "../../lib/types";
 import { Heading, Breadcrumbs, Sources } from "../ui";
 import { CourseProgress, LessonStatus } from "../persistence-ui";
-import { Quiz } from "../learning";
+import { Quiz, SourceCheck } from "../learning";
 export function AcademyPage({ c }: { c: Catalog }) {
   return (
     <div className="page-container">
@@ -177,6 +177,7 @@ export function LessonPage({
         ))}
       </div>
       <Quiz lesson={l} courseSlug={course.slug} />
+      {l.sourceCheck && <SourceCheck check={l.sourceCheck} />}
       <div className="lesson-navigation">
         <Link className="text-link" href={`/academy/${course.slug}`}>
           ← Back to course

@@ -414,12 +414,20 @@ test("lesson quiz accepts an answer, explains it and persists progress", async (
       name: "Tactical victory and political settlement are different problems.",
     })
     .check();
+  await page
+    .getByRole("radio", {
+      name: "A political settlement favourable to Carthage.",
+    })
+    .check();
+  await page
+    .getByRole("radio", {
+      name: "Whether the claim relies on a result the general could not yet know.",
+    })
+    .check();
   await page.getByRole("button", { name: "Check my understanding" }).click();
-  await expect(page.getByRole("status")).toContainText("1/1");
+  await expect(page.getByRole("status")).toContainText("3/3");
   await page.reload();
-  await expect(
-    page.getByText("Previously completed · score 1/1"),
-  ).toBeVisible();
+  await expect(page.getByText("Previously completed")).toBeVisible();
   await page.getByRole("link", { name: "Back to course" }).click();
   await expect(page.getByText("1 of 5 lessons completed")).toBeVisible();
 });
@@ -447,12 +455,18 @@ test("extended learning paths are listed and their lessons persist progress", as
       name: "Roman forces faced pressure from inside and outside",
     })
     .check();
+  await page
+    .getByRole("radio", { name: "The experience of civilians." })
+    .check();
+  await page
+    .getByRole("radio", {
+      name: "He was both a participant and an advocate for his own reputation.",
+    })
+    .check();
   await page.getByRole("button", { name: "Check my understanding" }).click();
-  await expect(page.getByRole("status")).toContainText("1/1");
+  await expect(page.locator(".quiz-feedback").first()).toContainText("3/3");
   await page.reload();
-  await expect(
-    page.getByText("Previously completed · score 1/1"),
-  ).toBeVisible();
+  await expect(page.getByText("Previously completed")).toBeVisible();
   await page.getByRole("link", { name: "Back to course" }).click();
   await expect(page.getByText("1 of 5 lessons completed")).toBeVisible();
 });

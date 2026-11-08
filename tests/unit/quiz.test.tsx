@@ -1,7 +1,7 @@
 import React from "react";
 import { it, expect, vi } from "vitest";
 import { render, screen, fireEvent } from "@testing-library/react";
-import { Quiz } from "../../components/learning";
+import { Quiz, SourceCheck } from "../../components/learning";
 import { courses } from "../../data/learning";
 vi.mock("next/link", () => ({
   default: ({
@@ -17,11 +17,16 @@ it("prevents empty submission, explains a wrong answer and allows a retry", () =
   expect(
     screen.getByRole("button", { name: /Check my understanding/ }),
   ).toBeDisabled();
-  fireEvent.click(screen.getByLabelText(lesson.questions[0].choices[1]));
+  for (const q of lesson.questions)
+    fireEvent.click(
+      screen.getByLabelText(q.choices[(q.answer + 1) % q.choices.length]),
+    );
   fireEvent.click(
     screen.getByRole("button", { name: /Check my understanding/ }),
   );
-  expect(screen.getByRole("status")).toHaveTextContent("0/1");
+  expect(screen.getByRole("status")).toHaveTextContent(
+    `0/${lesson.questions.length}`,
+  );
   expect(screen.getByRole("status")).toHaveTextContent(
     lesson.questions[0].explanation,
   );
@@ -29,4 +34,17 @@ it("prevents empty submission, explains a wrong answer and allows a retry", () =
   expect(
     screen.getByRole("button", { name: /Check my understanding/ }),
   ).toBeDisabled();
+});
+
+it("gives feedback on a source check without scoring it", () => {
+  const check = courses[0].lessons[0].sourceCheck!;
+  render(<SourceCheck check={check} />);
+  expect(screen.queryByRole("status")).toBeNull();
+  const best = check.options.find((o) => o.best)!;
+  fireEvent.click(screen.getByLabelText(best.text));
+  expect(screen.getByRole("status")).toHaveTextContent(best.feedback);
+  expect(screen.getByRole("status")).toHaveTextContent("not scored");
+  const other = check.options.find((o) => !o.best)!;
+  fireEvent.click(screen.getByLabelText(other.text));
+  expect(screen.getByRole("status")).toHaveTextContent(other.feedback);
 });

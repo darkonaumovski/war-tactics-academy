@@ -106,6 +106,24 @@ const questionSchema = z
     explanation: z.string().min(1),
   })
   .refine((q) => q.answer < q.choices.length, "Answer index out of range");
+const sourceCheckSchema = z.object({
+  question: z.string().min(1),
+  witnesses: z
+    .array(z.object({ label: z.string().min(1), claim: z.string().min(1) }))
+    .min(2),
+  prompt: z.string().min(1),
+  options: z
+    .array(
+      z.object({
+        text: z.string().min(1),
+        feedback: z.string().min(1),
+        best: z.boolean().optional(),
+      }),
+    )
+    .min(2),
+  campaignSlug: z.string().min(1).optional(),
+  battleSlug: z.string().min(1).optional(),
+});
 export const courseSchema = z.array(
   z.object({
     slug: z.string(),
@@ -126,6 +144,7 @@ export const courseSchema = z.array(
           seminar: z
             .object({ prompt: z.string().min(1), guidance: z.string().min(1) })
             .optional(),
+          sourceCheck: sourceCheckSchema.optional(),
         }),
       )
       .min(1),

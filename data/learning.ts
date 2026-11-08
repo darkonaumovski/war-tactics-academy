@@ -1,6 +1,7 @@
 import type { Course, Lesson, Scenario } from "../lib/types";
 import { additionalCourses } from "./additional-courses";
 import { collectionCourses } from "./collection-courses";
+import { lessonExercises } from "./lesson-exercises";
 const lesson = (
   slug: string,
   title: string,
@@ -259,7 +260,7 @@ const initialCourses: Course[] = [
     ],
   },
 ];
-export const courses: Course[] = [
+const orderedCourses: Course[] = [
   initialCourses[0],
   additionalCourses[0],
   collectionCourses[0],
@@ -271,6 +272,20 @@ export const courses: Course[] = [
   collectionCourses[4],
   additionalCourses[2],
 ];
+const withExercises = (course: Course): Course => ({
+  ...course,
+  lessons: course.lessons.map((lesson) => {
+    const extra = lessonExercises[`${course.slug}/${lesson.slug}`];
+    return extra
+      ? {
+          ...lesson,
+          questions: [...lesson.questions, ...extra.questions],
+          sourceCheck: extra.sourceCheck,
+        }
+      : lesson;
+  }),
+});
+export const courses: Course[] = orderedCourses.map(withExercises);
 export const scenarios: Scenario[] = [
   {
     slug: "hold-the-ridge",

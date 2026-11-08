@@ -1,8 +1,13 @@
 "use client";
 import { FadeIn } from "./motion";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 import { CheckCircle, ArrowRight, RotateCcw, Info } from "lucide-react";
-import type { Lesson, Scenario } from "../lib/types";
+import type {
+  Lesson,
+  Scenario,
+  SourceCheck as SourceCheckData,
+} from "../lib/types";
 import { quizScore, decisionTransition } from "../lib/logic";
 import { writeProgress } from "../lib/persistence";
 import { useProgress } from "./persistence-ui";
@@ -25,8 +30,7 @@ export function Quiz({
       <h2>Put the lesson into perspective.</h2>
       {p.lessons[id] !== undefined && !submitted && (
         <p className="completion">
-          <CheckCircle size={16} /> Previously completed · score {p.lessons[id]}
-          /{lesson.questions.length}
+          <CheckCircle size={16} /> Previously completed
         </p>
       )}
       <form
@@ -90,9 +94,19 @@ export function Quiz({
                   : "A useful moment to reflect."}{" "}
                 {score}/{lesson.questions.length}
               </h3>
-              {lesson.questions.map((q) => (
-                <p key={q.prompt}>{q.explanation}</p>
-              ))}
+              <ol className="quiz-results">
+                {lesson.questions.map((q, i) => (
+                  <li key={q.prompt}>
+                    <strong>{q.prompt}</strong>
+                    <p>
+                      {answers[i] === q.answer
+                        ? "Correct."
+                        : `A stronger answer: ${q.choices[q.answer]}`}
+                    </p>
+                    <p>{q.explanation}</p>
+                  </li>
+                ))}
+              </ol>
               <p className="small">
                 {failed
                   ? "Storage unavailable. Completion could not be saved."
@@ -112,6 +126,65 @@ export function Quiz({
           </div>
         )}
       </form>
+    </section>
+  );
+}
+export function SourceCheck({ check }: { check: SourceCheckData }) {
+  const [selected, setSelected] = useState<number | null>(null);
+  const chosen = selected === null ? null : check.options[selected];
+  return (
+    <section className="quiz source-check">
+      <span className="eyebrow">SOURCE CHECK</span>
+      <h2>{check.question}</h2>
+      <div className="source-witnesses">
+        {check.witnesses.map((w) => (
+          <article key={w.label}>
+            <strong>{w.label}</strong>
+            <p>{w.claim}</p>
+          </article>
+        ))}
+      </div>
+      <fieldset>
+        <legend>{check.prompt}</legend>
+        {check.options.map((option, i) => (
+          <label
+            className={`answer-option ${selected === i ? "selected" : ""}`}
+            key={option.text}
+          >
+            <input
+              type="radio"
+              name="source-check"
+              checked={selected === i}
+              onChange={() => setSelected(i)}
+            />
+            <span>{option.text}</span>
+          </label>
+        ))}
+      </fieldset>
+      {chosen && (
+        <div className="quiz-feedback" role="status">
+          <FadeIn>
+            <h3>
+              {chosen.best ? "The strongest approach." : "Worth a second look."}
+            </h3>
+            <p>{chosen.feedback}</p>
+            <p className="small">
+              Source checks are for practice and are not scored. Try the other
+              answers to compare the reasoning.
+            </p>
+            <Link
+              className="text-link"
+              href={
+                check.battleSlug
+                  ? `/battles/${check.battleSlug}`
+                  : `/campaigns/${check.campaignSlug}`
+              }
+            >
+              See this disagreement and its sources
+            </Link>
+          </FadeIn>
+        </div>
+      )}
     </section>
   );
 }

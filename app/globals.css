@@ -2237,6 +2237,48 @@ progress::-moz-progress-bar {
   margin-bottom: 20px;
   font-size: 13px;
 }
+.quiz-results {
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+}
+.quiz-results li {
+  padding: 15px 0;
+  border-top: 1px solid var(--line);
+}
+.quiz-results strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+.quiz-results p {
+  margin-bottom: 8px;
+}
+.source-check {
+  margin-top: 30px;
+}
+.source-witnesses {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 15px;
+  margin: 20px 0 25px;
+}
+.source-witnesses article {
+  padding: 18px 20px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-left: 2px solid var(--gold);
+}
+.source-witnesses strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+.source-witnesses p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.65;
+}
 .lesson-navigation {
   display: flex;
   justify-content: space-between;

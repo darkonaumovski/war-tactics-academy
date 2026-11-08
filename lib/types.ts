@@ -140,6 +140,14 @@ export type Question = {
   answer: number;
   explanation: string;
 };
+export type SourceCheck = {
+  question: string;
+  witnesses: { label: string; claim: string }[];
+  prompt: string;
+  options: { text: string; feedback: string; best?: boolean }[];
+  campaignSlug?: string;
+  battleSlug?: string;
+};
 export type Lesson = {
   slug: string;
   title: string;
@@ -150,6 +158,7 @@ export type Lesson = {
   sources?: Source[];
   diagram?: string[];
   seminar?: { prompt: string; guidance: string };
+  sourceCheck?: SourceCheck;
 };
 export type Course = {
   slug: string;

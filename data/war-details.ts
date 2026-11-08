@@ -115,6 +115,32 @@ export const warDetails: Record<string, WarDetails> = {
       ["206 BCE", "Scipio's victory at Ilipa"],
       ["202 BCE", "Battle of Zama; peace follows in 201 BCE"],
     ),
+    bibliography: [
+      {
+        title: "Polybius, Histories, Book 3 (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/3%2A.html",
+        publisher: "LacusCurtius",
+        note: "The fullest narrative of the Hannibalic War to Cannae, by a historian who criticizes his predecessors, argues about the causes of the war and takes Hannibal’s troop figures from his inscription at the Lacinian promontory.",
+      },
+      {
+        title: "Polybius, Histories, Book 15 (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/15%2A.html",
+        publisher: "LacusCurtius",
+        note: "The account of Zama and the peace with Carthage, with a judgement of Hannibal’s conduct of the battle; it survives among the fragmentary later books.",
+      },
+      {
+        title: "Livy, The History of Rome, Books 9–26 (trans. Cyrus Edmonds)",
+        url: "https://www.gutenberg.org/ebooks/10907",
+        publisher: "Project Gutenberg",
+        note: "The continuous Roman narrative of the war’s first years, valuable for the politics at Rome and for the variant figures it reports, though it draws in part on unreliable annalists.",
+      },
+      {
+        title: "“Punic Wars”, Encyclopædia Britannica, 11th ed. (1911)",
+        url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Punic_Wars",
+        publisher: "Wikisource",
+        note: "A compact military history of all three wars, with a section explaining Hannibal’s failure by Roman tenacity and the cohesion of the Italian confederacy, and a useful guide to the older scholarship.",
+      },
+    ],
   },
   "macedonian-wars": {
     participants: [
@@ -136,6 +162,39 @@ export const warDetails: Record<string, WarDetails> = {
       ],
       ["148 BCE", "Macedonia annexed as a Roman province"],
     ),
+    bibliography: [
+      {
+        title: "Polybius, Histories, Book 18 (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/18%2A.html",
+        publisher: "LacusCurtius",
+        note: "The account of Cynoscephalae, the famous comparison of legion and phalanx, and the terms of peace and proclamation of Greek freedom in 196 BCE.",
+      },
+      {
+        title: "Livy, The History of Rome, Books 27–36 (trans. Cyrus Edmonds)",
+        url: "https://www.gutenberg.org/ebooks/12582",
+        publisher: "Project Gutenberg",
+        note: "Livy’s narrative of the Second Macedonian War, notable for naming and criticizing the inflated casualty figures of Valerius Antias and Claudius.",
+      },
+      {
+        title:
+          "Livy, The History of Rome, Books 37 to the End (trans. W. A. McDevitte)",
+        url: "https://www.gutenberg.org/ebooks/44318",
+        publisher: "Project Gutenberg",
+        note: "The main surviving narrative of the war against Perseus and of the settlement that divided Macedonia into four districts.",
+      },
+      {
+        title: "Plutarch, Life of Aemilius Paulus (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Aemilius%2A.html",
+        publisher: "LacusCurtius",
+        note: "A biography of the victor of Pydna that preserves conflicting testimony from Polybius, Poseidonius and Nasica’s own letter, and dwells on the sack of Epirus and the triumph.",
+      },
+      {
+        title: "Macedonia (8)",
+        url: "https://www.livius.org/articles/place/macedonia/macedonia-8/",
+        publisher: "Livius.org (Jona Lendering)",
+        note: "A brief modern overview of Macedonia’s wars with Rome from the treaty with Hannibal to annexation in 148 BCE.",
+      },
+    ],
   },
   gallic: {
     participants: [
@@ -153,6 +212,27 @@ export const warDetails: Record<string, WarDetails> = {
       ["52 BCE", "Revolt under Vercingetorix; Gergovia; siege of Alesia"],
       ["51 BCE", "Last major resistance ends at Uxellodunum"],
     ),
+    bibliography: [
+      {
+        title: "Caesar, The Gallic War, Book 7 (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Gallic_War/7A%2A.html",
+        publisher: "LacusCurtius",
+        note: "The commander’s own narrative of the revolt of 52 BCE, the only contemporary account of Avaricum, Gergovia and Alesia, and necessarily the victor’s version.",
+      },
+      {
+        title:
+          "“Caesar, Gaius Julius”, Encyclopædia Britannica, 11th ed. (1911)",
+        url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Caesar,_Gaius_Julius",
+        publisher: "Wikisource",
+        note: "A modern outline of Caesar’s career that sets the Gallic revolt in the context of his conquest of Gaul and the coming civil war.",
+      },
+      {
+        title: "Cassius Dio, Roman History, Book 40 (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/40%2A.html",
+        publisher: "LacusCurtius",
+        note: "A later Greek narrative of the revolt that adds its own account of Vercingetorix’s surrender and reasons for it.",
+      },
+    ],
   },
   "roman-parthian": {
     participants: [
@@ -179,6 +259,26 @@ export const warDetails: Record<string, WarDetails> = {
         "Ardashir overthrows the Arsacids and founds the Sasanian dynasty",
       ],
     ),
+    bibliography: [
+      {
+        title: "Plutarch, Life of Crassus (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Crassus%2A.html",
+        publisher: "LacusCurtius",
+        note: "The most detailed surviving story of the Carrhae campaign, strongly moralizing about Crassus’s greed and rashness.",
+      },
+      {
+        title: "Cassius Dio, Roman History, Book 40 (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/40%2A.html",
+        publisher: "LacusCurtius",
+        note: "A second narrative of the expedition and its aftermath, which names Abgarus of Osroëne as the traitor and follows the Parthian raids into Syria.",
+      },
+      {
+        title: "Carrhae (53 BCE)",
+        url: "https://www.livius.org/articles/battle/carrhae-53-bce/",
+        publisher: "Livius.org (Jona Lendering)",
+        note: "A short modern article on the battle that rejects the ancient explanations of treachery and hostile terrain in favour of Parthian numbers, quality and supply.",
+      },
+    ],
   },
   "roman-civil-wars": {
     participants: [
@@ -201,6 +301,38 @@ export const warDetails: Record<string, WarDetails> = {
         "Octavian takes Alexandria; Antony and Cleopatra kill themselves",
       ],
     ),
+    bibliography: [
+      {
+        title: "Caesar, The Civil Wars, Book 3 (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Civil_Wars/3A%2A.html",
+        publisher: "LacusCurtius",
+        note: "Caesar’s account of Dyrrhachium and Pharsalus, with detailed dispositions and casualty figures that other sources contradict.",
+      },
+      {
+        title: "Appian, The Civil Wars, Book 2 (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/2%2A.html",
+        publisher: "LacusCurtius",
+        note: "A Greek narrative of the war between Caesar and Pompey that preserves the lower Pharsalus casualty figure of Asinius Pollio.",
+      },
+      {
+        title: "Plutarch, Life of Antony (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Antony%2A.html",
+        publisher: "LacusCurtius",
+        note: "The principal biography of Antony, with figures for his forces at Actium and a vivid picture of Cleopatra’s influence on his decisions.",
+      },
+      {
+        title: "Cassius Dio, Roman History, Book 50 (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/50%2A.html",
+        publisher: "LacusCurtius",
+        note: "The fullest continuous account of the Actium campaign, including Agrippa’s operations against Antony’s communications.",
+      },
+      {
+        title: "Actium (31 BCE)",
+        url: "https://www.livius.org/articles/battle/actium-31-bce/",
+        publisher: "Livius.org (Jona Lendering)",
+        note: "A modern reconstruction that reads Cleopatra’s and Antony’s escape as a planned break-out and notes the battle’s place in Augustan propaganda.",
+      },
+    ],
   },
   "roman-germanic": {
     participants: [
@@ -217,6 +349,39 @@ export const warDetails: Record<string, WarDetails> = {
       ["14–16 CE", "Germanicus campaigns east of the Rhine"],
       ["16 CE", "Battle of Idistaviso; Germanicus recalled soon after"],
     ),
+    bibliography: [
+      {
+        title: "Cassius Dio, Roman History, Book 56 (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/56%2A.html",
+        publisher: "LacusCurtius",
+        note: "The only ancient overview of the fighting in the Teutoburg Forest, though its forests and ravines owe much to literary convention.",
+      },
+      {
+        title:
+          "Velleius Paterculus on the Battle in the Teutoburg Forest (2.117–120, trans. F. W. Shipley)",
+        url: "https://www.livius.org/sources/content/paterculus-on-the-battle-in-the-teutoburg-forest/",
+        publisher: "Livius.org (Jona Lendering)",
+        note: "A short and sharply critical account of Varus, useful on the conspiracy, Segestes’s warning and the conduct of the officers.",
+      },
+      {
+        title: "Tacitus, Annals 1.55–71 (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/1D%2A.html",
+        publisher: "LacusCurtius",
+        note: "Describes Germanicus’s visit to the battlefield with its bones and camps, without narrating the battle itself.",
+      },
+      {
+        title: "Teutoburg Forest (5)",
+        url: "https://www.livius.org/articles/battle/teutoburg-forest-9-ce/teutoburg-forest-5/",
+        publisher: "Livius.org (Jona Lendering)",
+        note: "A modern step-by-step reconstruction that weighs Dio, Velleius, Florus and Tacitus against the archaeology.",
+      },
+      {
+        title: "Kalkriese",
+        url: "https://www.livius.org/articles/battle/teutoburg-forest-9-ce/kalkriese/",
+        publisher: "Livius.org (Jona Lendering)",
+        note: "A short description of the excavated battle site north of Osnabrück and of the narrows that gave the battle its name.",
+      },
+    ],
   },
   "roman-britain": {
     participants: [
@@ -237,6 +402,26 @@ export const warDetails: Record<string, WarDetails> = {
       ["78", "Agricola brings northern England under Roman control"],
       ["78–84", "Agricola campaigns in the Scottish Highlands"],
     ),
+    bibliography: [
+      {
+        title: "Tacitus, Annals 14.29–39 (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/14B%2A.html",
+        publisher: "LacusCurtius",
+        note: "The main narrative of the Boudican revolt, with the causes, the sack of the towns, the final battle and useful editorial notes on the likely route.",
+      },
+      {
+        title: "Cassius Dio, Roman History, Book 62 (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/62%2A.html",
+        publisher: "LacusCurtius",
+        note: "A later and more rhetorical account that adds Seneca’s loans and a speech for Boudica, and differs from Tacitus on her death.",
+      },
+      {
+        title: "“Boadicea”, Encyclopædia Britannica, 11th ed. (1911)",
+        url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Boadicea",
+        publisher: "Wikisource",
+        note: "A short modern synthesis by F. J. Haverfield that combines Tacitus and Dio and places the rising in the context of Roman taxation and annexation.",
+      },
+    ],
   },
   "jewish-roman": {
     participants: [
@@ -253,6 +438,27 @@ export const warDetails: Record<string, WarDetails> = {
       ["70", "Titus besieges and takes Jerusalem; the Temple is destroyed"],
       ["73 or 74", "Masada falls"],
     ),
+    bibliography: [
+      {
+        title:
+          "Flavius Josephus, The Wars of the Jews (trans. William Whiston)",
+        url: "https://www.gutenberg.org/ebooks/2850",
+        publisher: "Project Gutenberg",
+        note: "The indispensable narrative by a Jewish commander who went over to the Romans; detailed but partisan, favourable to Titus and hostile to the rebel leaders.",
+      },
+      {
+        title: "Tacitus, Histories 5.1–13 (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Histories/5A%2A.html",
+        publisher: "LacusCurtius",
+        note: "A short and hostile Roman account of the Jews and of the opening of the siege of Jerusalem, with the Roman figure for the besieged.",
+      },
+      {
+        title: "Jewish War (66–70)",
+        url: "https://www.livius.org/articles/concept/roman-jewish-wars/roman-jewish-wars-3/",
+        publisher: "Livius.org (Jona Lendering)",
+        note: "A modern narrative of the outbreak and the campaign in Galilee, which stresses the economic causes of the revolt and its divisions.",
+      },
+    ],
   },
   han: {
     participants: [
@@ -285,6 +491,35 @@ export const warDetails: Record<string, WarDetails> = {
       ["314 and 316", "Constantine invades Licinius's territory"],
       ["324", "Constantine defeats Licinius and rules the whole empire"],
     ),
+    bibliography: [
+      {
+        title:
+          "Lactantius, Of the Manner in Which the Persecutors Died (trans. William Fletcher)",
+        url: "https://www.newadvent.org/fathers/0705.htm",
+        publisher: "New Advent",
+        note: "A near-contemporary Christian polemic and the earliest account read here of Constantine’s dream before the Milvian Bridge.",
+      },
+      {
+        title:
+          "Eusebius, Life of Constantine, Book 1 (trans. Ernest C. Richardson)",
+        url: "https://www.newadvent.org/fathers/25021.htm",
+        publisher: "New Advent",
+        note: "The source of the story of the vision of the cross, written after the emperor’s death and openly panegyric.",
+      },
+      {
+        title:
+          "Zosimus, New History, Book 2 (anonymous translation, London, 1814)",
+        url: "https://www.tertullian.org/fathers/zosimus02_book2.htm",
+        publisher: "The Tertullian Project",
+        note: "A later history that gives troop numbers for both sides and the story of Maxentius’s trap bridge, with no Christian miracle.",
+      },
+      {
+        title: "“Constantine”, Encyclopædia Britannica, 11th ed. (1911)",
+        url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Constantine_(emperors)",
+        publisher: "Wikisource",
+        note: "A modern account of the campaign of 312 that compares the sources for the vision and discusses the size of Constantine’s army.",
+      },
+    ],
   },
   "gothic-war": {
     participants: [
@@ -299,6 +534,35 @@ export const warDetails: Record<string, WarDetails> = {
       ["9 August 378", "Battle of Adrianople; Valens killed"],
       ["382", "Peace with the Goths under Valens's successor Theodosius"],
     ),
+    bibliography: [
+      {
+        title:
+          "Ammianus Marcellinus, Roman History, Book 31 (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Ammian/31%2A.html",
+        publisher: "LacusCurtius",
+        note: "The essential narrative of the Gothic crossing and the battle of Adrianople, ending with the battle and its immediate aftermath.",
+      },
+      {
+        title:
+          "Jordanes, The Origin and Deeds of the Goths (trans. Charles C. Mierow)",
+        url: "https://www.gutenberg.org/ebooks/14809",
+        publisher: "Project Gutenberg",
+        note: "A history of the Goths that gives the Gothic version of the abuses of 376 and the later agreements with Rome.",
+      },
+      {
+        title: "“Goths”, Encyclopædia Britannica, 11th ed. (1911)",
+        url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Goths",
+        publisher: "Wikisource",
+        note: "A general modern history of the Goths that sets the war of 376–382 in the longer story of their movements and settlement.",
+      },
+      {
+        title:
+          "Zosimus, New History, Book 4 (anonymous translation, London, 1814)",
+        url: "https://www.tertullian.org/fathers/zosimus04_book4.htm",
+        publisher: "The Tertullian Project",
+        note: "A later account, useful for Sebastianus’s advice to Valens before Adrianople.",
+      },
+    ],
   },
   "hunnic-invasions": {
     participants: [
@@ -319,6 +583,28 @@ export const warDetails: Record<string, WarDetails> = {
       ["453", "Attila dies"],
       ["454", "Aetius assassinated"],
     ),
+    bibliography: [
+      {
+        title:
+          "J. B. Bury, History of the Later Roman Empire (1923), ch. IX: The Empire of Attila",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/secondary/BURLAT/9%2A.html",
+        publisher: "LacusCurtius",
+        note: "A classic modern account of Attila’s invasions that argues the campaign was decided at Orléans and that the battle near Troyes has been much overrated.",
+      },
+      {
+        title:
+          "Jordanes, The Origin and Deeds of the Goths (trans. Charles C. Mierow)",
+        url: "https://www.gutenberg.org/ebooks/14809",
+        publisher: "Project Gutenberg",
+        note: "The fullest narrative of the battle of the Catalaunian Plains, written long afterward by a historian of the Goths.",
+      },
+      {
+        title: "“Attila”, Encyclopædia Britannica, 11th ed. (1911)",
+        url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Attila",
+        publisher: "Wikisource",
+        note: "A short modern biography that treats the Gallic campaign as a rescue of Europe, a view Bury’s later account directly challenges.",
+      },
+    ],
   },
   "byzantine-sasanian-527": {
     participants: [
@@ -1209,6 +1495,92 @@ export const warDetails: Record<string, WarDetails> = {
       ["May 1945", "Germany surrenders"],
       ["August–September 1945", "Atomic bombings; Japan surrenders"],
     ),
+    bibliography: [
+      {
+        title:
+          "Earl F. Ziemke and Magna E. Bauer, Moscow to Stalingrad: Decision in the East (Washington: Center of Military History, 1987)",
+        url: "https://www.ibiblio.org/hyperwar/USA/USA-EF-Decision/index.html",
+        publisher: "HyperWar (ibiblio)",
+        note: "The U.S. Army’s history of the German-Soviet war from Barbarossa to the encirclement at Stalingrad, built on captured German records and the Soviet official histories, which it quotes and argues with. Its conclusion weighs the battles of Moscow and Stalingrad as the turning points of the war in the East.",
+      },
+      {
+        title:
+          "Earl F. Ziemke, Stalingrad to Berlin: The German Defeat in the East (Washington: Center of Military History, 1987)",
+        url: "https://www.ibiblio.org/hyperwar/USA/USA-EF-Defeat/index.html",
+        publisher: "HyperWar (ibiblio)",
+        note: "The sequel, from Stalingrad through Kursk, the collapse of Army Group Center and the fall of Berlin, seen largely from the German side. Its closing chapter sets out the scale and cost of the Eastern Front and Hitler’s responsibility for the German defeat.",
+      },
+      {
+        title:
+          "George E. Blau, The German Campaign in Russia: Planning and Operations (1940–1942) (Department of the Army Pamphlet 20-261a, 1955)",
+        url: "https://archive.org/details/PAM20-261A",
+        publisher: "Internet Archive",
+        note: "An early Army study of German planning and operations in Russia to the high tide of 1942, drawing on German records and the postwar writings of Halder and other German generals, whose case against Hitler’s decisions it largely adopts.",
+      },
+      {
+        title:
+          "The Campaign in Poland, 1939 (West Point: Department of Military Art and Engineering, United States Military Academy, 1945)",
+        url: "https://archive.org/details/CampaignInPoland1939",
+        publisher: "Internet Archive",
+        note: "A short account written for cadets from wartime intelligence material, when the Polish plans were still largely unknown; it follows the German armies day by day and closes with comments on why Poland fell and what the Allies failed to learn.",
+      },
+      {
+        title:
+          "L. F. Ellis, The War in France and Flanders, 1939–1940 (London: HMSO, 1954)",
+        url: "https://www.ibiblio.org/hyperwar/UN/UK/UK-NWE-Flanders/index.html",
+        publisher: "HyperWar (ibiblio)",
+        note: "The British official history of the British Expeditionary Force from the first winter to Dunkirk and the evacuations south of the Somme. Its final chapter judges Gamelin, Georges, Weygand and Gort and traces the defeat to pre-war British policy.",
+      },
+      {
+        title:
+          "Basil Collier, The Defence of the United Kingdom (London: HMSO, 1957)",
+        url: "https://www.ibiblio.org/hyperwar/UN/UK/UK-Defence-UK/index.html",
+        publisher: "HyperWar (ibiblio)",
+        note: "The British official history of home defence, from rearmament through the invasion threat of 1940, the Battle of Britain, the Blitz and the flying bombs and rockets. It sets out the German plans for Operation Sealion and closes with a summing-up of the air defences and radar.",
+      },
+      {
+        title:
+          "Denis Richards, Royal Air Force 1939–1945, vol. I: The Fight at Odds (London: HMSO, 1953)",
+        url: "https://www.ibiblio.org/hyperwar/UN/UK/UK-RAF-I/index.html",
+        publisher: "HyperWar (ibiblio)",
+        note: "The first volume of the RAF’s official history, to the end of 1941, with a full chapter on the Battle of Britain that compares wartime claims with German records and weighs the controversy over Dowding and Park.",
+      },
+      {
+        title:
+          "Hilary St. George Saunders, Royal Air Force 1939–1945, vol. III: The Fight Is Won (London: HMSO, 1954)",
+        url: "https://www.ibiblio.org/hyperwar/UN/UK/UK-RAF-III/index.html",
+        publisher: "HyperWar (ibiblio)",
+        note: "The final volume of the RAF history, covering 1943–1945 in Europe and Burma; its Burma chapters describe the air supply that sustained the defence of the Admin Box, Kohima and Imphal and the Chindit operations.",
+      },
+      {
+        title:
+          "S. W. Roskill, The War at Sea 1939–1945, vol. II: The Period of Balance (London: HMSO, 1956)",
+        url: "https://www.ibiblio.org/hyperwar/UN/UK/UK-RN-II/index.html",
+        publisher: "HyperWar (ibiblio)",
+        note: "The British official naval history for 1942 to May 1943, including the U-boat campaign off the American coast and the convoy battles that ended in the defeat of the U-boats in May 1943. It is outspoken about American slowness to adopt convoy.",
+      },
+      {
+        title:
+          "United States Strategic Bombing Survey (Pacific), The Campaigns of the Pacific War",
+        url: "https://www.ibiblio.org/hyperwar/AAF/USSBS/PTO-Campaigns/index.html",
+        publisher: "HyperWar (ibiblio)",
+        note: "A postwar naval analysis of the Pacific campaigns from Japanese planning and Pearl Harbor to Iwo Jima, based partly on interrogations of Japanese officers. It predates the release of the codebreaking story, and some of its chapters are not online.",
+      },
+      {
+        title:
+          "American Military History (Army Historical Series, Center of Military History)",
+        url: "https://www.ibiblio.org/hyperwar/AMH/AMH/index.html",
+        publisher: "HyperWar (ibiblio)",
+        note: "The U.S. Army’s general history; its Second World War chapters give a compact overview of the defensive phase, the war against Germany and Italy and the war against Japan, with American strategy and its debates at the centre.",
+      },
+      {
+        title:
+          "Invasion of Poland, Fall 1939 (Holocaust Encyclopedia, United States Holocaust Memorial Museum)",
+        url: "https://encyclopedia.ushmm.org/content/en/article/invasion-of-poland-fall-1939",
+        publisher: "United States Holocaust Memorial Museum",
+        note: "A short encyclopedia article on the diplomacy, the German and Soviet invasions and the partition and occupation of Poland, placing the campaign at the start of the Nazi occupation regime.",
+      },
+    ],
   },
   indochina: {
     participants: [

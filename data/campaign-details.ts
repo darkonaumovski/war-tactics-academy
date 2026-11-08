@@ -209,6 +209,669 @@ const gneisenau = ndb(
   "Gneisenau, August Wilhelm Anton Graf Neidhardt von — Hermann Teske (Neue Deutsche Biographie 6, 1964)",
 );
 
+// Second World War (batch K5).
+const hyperwar = "HyperWar (ibiblio)";
+const ukOfficial = (path: string, title: string): Source => ({
+  title: `${title} (History of the Second World War, United Kingdom Military Series)`,
+  url: `https://www.ibiblio.org/hyperwar/UN/UK/${path}.html`,
+  publisher: hyperwar,
+});
+const ellis = ukOfficial(
+  "UK-NWE-Flanders/UK-NWE-Flanders-23",
+  "L. F. Ellis, The War in France and Flanders, 1939–1940 (London: HMSO, 1954), ch. XXIII: Conduct and Consequences of the Campaign",
+);
+const collierSealion = ukOfficial(
+  "UK-Defence-UK/UK-DefenseOfUK-11",
+  "Basil Collier, The Defence of the United Kingdom (London: HMSO, 1957), ch. XI: Operation ‘Sealion’",
+);
+const collierLastPhase = ukOfficial(
+  "UK-Defence-UK/UK-DefenseOfUK-15",
+  "Basil Collier, The Defence of the United Kingdom (London: HMSO, 1957), ch. XV: The Battle of Britain: The Last Phase",
+);
+const collierSumming = ukOfficial(
+  "UK-Defence-UK/UK-DefenseOfUK-26",
+  "Basil Collier, The Defence of the United Kingdom (London: HMSO, 1957), ch. XXVI: A Summing-Up",
+);
+const richardsBritain = ukOfficial(
+  "UK-RAF-I/UK-RAF-I-6",
+  "Denis Richards, Royal Air Force 1939–1945, vol. I: The Fight at Odds (London: HMSO, 1953), ch. VI: The Battle of Britain",
+);
+const richardsSingapore = ukOfficial(
+  "UK-RAF-II/UK-RAF-II-2",
+  "Denis Richards and Hilary St. George Saunders, Royal Air Force 1939–1945, vol. II: The Fight Avails (London: HMSO, 1954), ch. II: The Fall of Singapore",
+);
+const richardsAlamein = ukOfficial(
+  "UK-RAF-II/UK-RAF-II-11",
+  "Denis Richards and Hilary St. George Saunders, Royal Air Force 1939–1945, vol. II: The Fight Avails (London: HMSO, 1954), ch. XI: ‘Middle East’: The Alamein Line and Decisive Victory",
+);
+const saundersImphal = ukOfficial(
+  "UK-RAF-III/UK-RAF-III-15",
+  "Hilary St. George Saunders, Royal Air Force 1939–1945, vol. III: The Fight Is Won (London: HMSO, 1954), ch. XV: Arakan, Kohima, and Imphal",
+);
+const roskillAmerica = ukOfficial(
+  "UK-RN-II/UK-RN-II-4",
+  "S. W. Roskill, The War at Sea 1939–1945, vol. II: The Period of Balance (London: HMSO, 1956), ch. IV: The Battle of the Atlantic: The Campaign in American Waters",
+);
+const roskillEscorts = ukOfficial(
+  "UK-RN-II/UK-RN-II-14",
+  "S. W. Roskill, The War at Sea 1939–1945, vol. II: The Period of Balance (London: HMSO, 1956), ch. XIV: The Battle of the Atlantic: The Triumph of the Escorts",
+);
+const amh = (chapter: number, title: string): Source => ({
+  title: `American Military History (Army Historical Series, Center of Military History), ch. ${chapter}: ${title}`,
+  url: `https://www.ibiblio.org/hyperwar/AMH/AMH/AMH-${chapter}.html`,
+  publisher: hyperwar,
+});
+const amhDefensive = amh(20, "World War II: The Defensive Phase");
+const amhGermany = amh(22, "World War II: The War Against Germany and Italy");
+const amhJapan = amh(23, "World War II: The War Against Japan");
+const ussbs = (chapter: number, title: string): Source => ({
+  title: `United States Strategic Bombing Survey (Pacific), The Campaigns of the Pacific War, ch. ${chapter}: ${title}`,
+  url: `https://www.ibiblio.org/hyperwar/AAF/USSBS/PTO-Campaigns/USSBS-PTO-${chapter}.html`,
+  publisher: hyperwar,
+});
+const ussbsPlanning = ussbs(1, "Japanese Naval Planning");
+const ussbsPearl = ussbs(
+  2,
+  "The Japanese Attack on Pearl Harbor, Planning and Execution",
+);
+const ussbsSouth = ussbs(
+  3,
+  "The Japanese Invasion of the Philippines, the Dutch East Indies, and Southeast Asia",
+);
+const ussbsCoral = ussbs(4, "The Battle of the Coral Sea");
+const ussbsMidway = ussbs(5, "The Battle of Midway");
+const ussbsSolomons = ussbs(7, "The Solomons Campaign");
+const ussbsIwo = ussbs(13, "The Iwo Jima Campaign");
+const ziemkeBauer = (chapter: number, title: string): Source => ({
+  title: `Earl F. Ziemke and Magna E. Bauer, Moscow to Stalingrad: Decision in the East (Washington: Center of Military History, 1987), ch. ${title}`,
+  url: `https://www.ibiblio.org/hyperwar/USA/USA-EF-Decision/USA-EF-Decision-${chapter}.html`,
+  publisher: hyperwar,
+});
+const zbBarbarossa = ziemkeBauer(2, "II: The Blitzkrieg");
+const zbMoscow = ziemkeBauer(3, "III: To Moscow");
+const zbCounter = ziemkeBauer(4, "IV: The Counteroffensive: First Phase");
+const zbFinale = ziemkeBauer(23, "XXIII: Stalingrad, Finale");
+const zbConclusion = ziemkeBauer(24, "XXIV: Conclusion");
+const ziemke = (chapter: number, title: string): Source => ({
+  title: `Earl F. Ziemke, Stalingrad to Berlin: The German Defeat in the East (Washington: Center of Military History, 1987), ch. ${title}`,
+  url: `https://www.ibiblio.org/hyperwar/USA/USA-EF-Defeat/USA-EF-Defeat-${chapter}.html`,
+  publisher: hyperwar,
+});
+const zZitadelle = ziemke(7, "VII: Operation ZITADELLE");
+const zSummer = ziemke(8, "VIII: The First Soviet Summer Offensive");
+const zCenter = ziemke(15, "XV: The Collapse of the Center");
+const zBerlin = ziemke(21, "XXI: Berlin");
+const zConclusion = ziemke(22, "XXII: Conclusion");
+const archive = (id: string, title: string): Source => ({
+  title,
+  url: `https://archive.org/details/${id}`,
+  publisher: "Internet Archive",
+});
+const pamPoland = archive(
+  "PAM20-255",
+  "Robert M. Kennedy, The German Campaign in Poland (1939) (Department of the Army Pamphlet 20-255, 1956)",
+);
+const westPoint = archive(
+  "CampaignInPoland1939",
+  "The Campaign in Poland, 1939 (West Point: Department of Military Art and Engineering, United States Military Academy, 1945)",
+);
+const pamRussia = archive(
+  "PAM20-261A",
+  "George E. Blau, The German Campaign in Russia: Planning and Operations (1940–1942) (Department of the Army Pamphlet 20-261a, 1955)",
+);
+const cmh = (id: string, title: string, author: string, year: number) =>
+  archive(
+    id,
+    `${title}: The U.S. Army Campaigns of World War II — ${author} (Center of Military History, ${year})`,
+  );
+const cmhPapua = cmh("Papua", "Papua", "Center of Military History", 1992);
+const cmhGuadalcanal = cmh(
+  "Guadalcanal",
+  "Guadalcanal",
+  "Charles R. Anderson",
+  1993,
+);
+const cmhEgypt = cmh("Egypt-Libya", "Egypt-Libya", "Clayton R. Newell", 1993);
+const cmhIndiaBurma = cmh("IndiaBurma", "India-Burma", "David W. Hogan", 1992);
+const cmhCentralBurma = cmh(
+  "CentralBurma",
+  "Central Burma",
+  "George L. MacGarrigle",
+  1996,
+);
+const cmhNormandy = cmh(
+  "NormandyCmh72-18",
+  "Normandy",
+  "William M. Hammond",
+  1994,
+);
+const cmhNorthernFrance = cmh(
+  "NorthernFrance",
+  "Northern France",
+  "David W. Hogan",
+  1995,
+);
+const cmhRhineland = cmh("RhinelandCmh72-25", "Rhineland", "Ted Ballard", 1995);
+const cmhArdennes = cmh(
+  "Ardennes-Alsace",
+  "Ardennes-Alsace",
+  "Roger Cirillo",
+  1995,
+);
+const cmhLeyte = cmh("Leyte", "Leyte", "Charles R. Anderson", 1994);
+const cmhRyukyus = cmh("Ryukus", "Ryukyus", "Arnold G. Fisch", 2004);
+const cmhWesternPacific = cmh(
+  "WesternPacific",
+  "Western Pacific",
+  "Charles R. Anderson",
+  1994,
+);
+const ushmmPoland: Source = {
+  title:
+    "Invasion of Poland, Fall 1939 (Holocaust Encyclopedia, United States Holocaust Memorial Museum)",
+  url: "https://encyclopedia.ushmm.org/content/en/article/invasion-of-poland-fall-1939",
+  publisher: "United States Holocaust Memorial Museum",
+};
+const rundstedt = ndb(
+  "109048",
+  "Rundstedt, Karl Rudolf Gerd von — Sönke Neitzel (Neue Deutsche Biographie 22, 2005)",
+);
+const manstein = ndb(
+  "57890",
+  "Manstein, Erich von Lewinski genannt von — Ernst Klink (Neue Deutsche Biographie 16, 1990)",
+);
+const guderian = ndb(
+  "69951",
+  "Guderian, Heinz Wilhelm — Thilo Vogelsang (Neue Deutsche Biographie 7, 1966)",
+);
+const raeder = ndb(
+  "104204",
+  "Raeder, Erich — Michael Salewski (Neue Deutsche Biographie 21, 2003)",
+);
+const paulus = ndb(
+  "94261",
+  "Paulus, Friedrich Wilhelm Ernst — Manfred Kehrig (Neue Deutsche Biographie 20, 2001)",
+);
+const rommel = ndb(
+  "107896",
+  "Rommel, Eugen Johannes Erwin — Sönke Neitzel (Neue Deutsche Biographie 22, 2005)",
+);
+const model = ndb(
+  "63801",
+  "Model, Walter — Dermot Bradley (Neue Deutsche Biographie 17, 1994)",
+);
+
+// Rome (batch K6).
+const thayer = (path: string, title: string): Source => ({
+  title,
+  url: `https://penelope.uchicago.edu/Thayer/E/Roman/Texts/${path}%2A.html`,
+  publisher: "LacusCurtius",
+});
+const eb1911 = (page: string, title: string): Source => ({
+  title: `“${title}”, Encyclopædia Britannica, 11th ed. (1911)`,
+  url: `https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/${page}`,
+  publisher: "Wikisource",
+});
+const liviusRome = (path: string, title: string): Source => ({
+  title,
+  url: `https://www.livius.org/articles/${path}/`,
+  publisher: livius,
+});
+const gutenberg = (id: number, title: string): Source => ({
+  title,
+  url: `https://www.gutenberg.org/ebooks/${id}`,
+  publisher: "Project Gutenberg",
+});
+const polybius3 = thayer(
+  "Polybius/3",
+  "Polybius, Histories, Book 3 (Loeb translation)",
+);
+const polybius14 = thayer(
+  "Polybius/14",
+  "Polybius, Histories, Book 14 (Loeb translation)",
+);
+const polybius15 = thayer(
+  "Polybius/15",
+  "Polybius, Histories, Book 15 (Loeb translation)",
+);
+const polybius18 = thayer(
+  "Polybius/18",
+  "Polybius, Histories, Book 18 (Loeb translation)",
+);
+const livy926 = gutenberg(
+  10907,
+  "Livy, The History of Rome, Books 9–26 (trans. Cyrus Edmonds)",
+);
+const livy2736 = gutenberg(
+  12582,
+  "Livy, The History of Rome, Books 27–36 (trans. Cyrus Edmonds)",
+);
+const livy3745 = gutenberg(
+  44318,
+  "Livy, The History of Rome, Books 37 to the End (trans. W. A. McDevitte)",
+);
+const ebPunic = eb1911("Punic_Wars", "Punic Wars");
+const ebJulius = eb1911("Caesar,_Gaius_Julius", "Caesar, Gaius Julius");
+const ebBoadicea = eb1911("Boadicea", "Boadicea");
+const ebConstantine = eb1911("Constantine_(emperors)", "Constantine");
+const ebGoths = eb1911("Goths", "Goths");
+const ebAttila = eb1911("Attila", "Attila");
+const plutarchFlamininus = thayer(
+  "Plutarch/Lives/Flamininus",
+  "Plutarch, Life of Flamininus (Loeb translation)",
+);
+const plutarchAemilius = thayer(
+  "Plutarch/Lives/Aemilius",
+  "Plutarch, Life of Aemilius Paulus (Loeb translation)",
+);
+const plutarchCrassus = thayer(
+  "Plutarch/Lives/Crassus",
+  "Plutarch, Life of Crassus (Loeb translation)",
+);
+const plutarchCaesar = thayer(
+  "Plutarch/Lives/Caesar",
+  "Plutarch, Life of Caesar (Loeb translation)",
+);
+const plutarchAntony = thayer(
+  "Plutarch/Lives/Antony",
+  "Plutarch, Life of Antony (Loeb translation)",
+);
+const dio40 = thayer(
+  "Cassius_Dio/40",
+  "Cassius Dio, Roman History, Book 40 (Loeb translation)",
+);
+const dio50 = thayer(
+  "Cassius_Dio/50",
+  "Cassius Dio, Roman History, Book 50 (Loeb translation)",
+);
+const dio51 = thayer(
+  "Cassius_Dio/51",
+  "Cassius Dio, Roman History, Book 51 (Loeb translation)",
+);
+const dio56 = thayer(
+  "Cassius_Dio/56",
+  "Cassius Dio, Roman History, Book 56 (Loeb translation)",
+);
+const dio62 = thayer(
+  "Cassius_Dio/62",
+  "Cassius Dio, Roman History, Book 62 (Loeb translation)",
+);
+const caesarGallic7 = thayer(
+  "Caesar/Gallic_War/7A",
+  "Caesar, The Gallic War, Book 7 (Loeb translation)",
+);
+const caesarCivil1 = thayer(
+  "Caesar/Civil_Wars/1A",
+  "Caesar, The Civil Wars, Book 1 (Loeb translation)",
+);
+const caesarCivil3 = thayer(
+  "Caesar/Civil_Wars/3A",
+  "Caesar, The Civil Wars, Book 3 (Loeb translation)",
+);
+const appianCivil2 = thayer(
+  "Appian/Civil_Wars/2",
+  "Appian, The Civil Wars, Book 2 (Loeb translation)",
+);
+const tacitusAnnals1 = thayer(
+  "Tacitus/Annals/1D",
+  "Tacitus, Annals 1.55–71 (Loeb translation)",
+);
+const tacitusAnnals14 = thayer(
+  "Tacitus/Annals/14B",
+  "Tacitus, Annals 14.29–39 (Loeb translation)",
+);
+const tacitusHistories5 = thayer(
+  "Tacitus/Histories/5A",
+  "Tacitus, Histories 5.1–13 (Loeb translation)",
+);
+const tacitusFragments = thayer(
+  "Tacitus/Histories/Fragments",
+  "Tacitus, Histories, fragments (Loeb translation)",
+);
+const ammianus31 = thayer(
+  "Ammian/31",
+  "Ammianus Marcellinus, Roman History, Book 31 (Loeb translation)",
+);
+const buryAttila = thayer(
+  "secondary/BURLAT/9",
+  "J. B. Bury, History of the Later Roman Empire (1923), ch. IX: The Empire of Attila",
+);
+const velleius: Source = {
+  title:
+    "Velleius Paterculus on the Battle in the Teutoburg Forest (2.117–120, trans. F. W. Shipley)",
+  url: "https://www.livius.org/sources/content/paterculus-on-the-battle-in-the-teutoburg-forest/",
+  publisher: livius,
+};
+const josephus = gutenberg(
+  2850,
+  "Flavius Josephus, The Wars of the Jews (trans. William Whiston)",
+);
+const lactantius: Source = {
+  title:
+    "Lactantius, Of the Manner in Which the Persecutors Died (trans. William Fletcher)",
+  url: "https://www.newadvent.org/fathers/0705.htm",
+  publisher: "New Advent",
+};
+const eusebiusLife: Source = {
+  title: "Eusebius, Life of Constantine, Book 1 (trans. Ernest C. Richardson)",
+  url: "https://www.newadvent.org/fathers/25021.htm",
+  publisher: "New Advent",
+};
+const zosimus2: Source = {
+  title: "Zosimus, New History, Book 2 (anonymous translation, London, 1814)",
+  url: "https://www.tertullian.org/fathers/zosimus02_book2.htm",
+  publisher: "The Tertullian Project",
+};
+const zosimus4: Source = {
+  title: "Zosimus, New History, Book 4 (anonymous translation, London, 1814)",
+  url: "https://www.tertullian.org/fathers/zosimus04_book4.htm",
+  publisher: "The Tertullian Project",
+};
+const jordanes = gutenberg(
+  14809,
+  "Jordanes, The Origin and Deeds of the Goths (trans. Charles C. Mierow)",
+);
+const liviusMacedonia = liviusRome(
+  "place/macedonia/macedonia-8",
+  "Macedonia (8)",
+);
+const liviusCarrhae = liviusRome("battle/carrhae-53-bce", "Carrhae (53 BCE)");
+const liviusActium = liviusRome("battle/actium-31-bce", "Actium (31 BCE)");
+const liviusTeutoburg = liviusRome(
+  "battle/teutoburg-forest-9-ce/teutoburg-forest-5",
+  "Teutoburg Forest (5)",
+);
+const liviusKalkriese = liviusRome(
+  "battle/teutoburg-forest-9-ce/kalkriese",
+  "Kalkriese",
+);
+const liviusJewishWar = liviusRome(
+  "concept/roman-jewish-wars/roman-jewish-wars-3",
+  "Jewish War (66–70)",
+);
+const liviusJerusalem = liviusRome(
+  "concept/roman-jewish-wars/roman-jewish-wars-4",
+  "Titus’ Siege of Jerusalem",
+);
+const liviusJewishChronology = liviusRome(
+  "concept/roman-jewish-wars/roman-jewish-wars-5",
+  "Chronology of the Jewish War, 66–70",
+);
+const liviusAdrianople = liviusRome("battle/adrianople", "Adrianople (378 CE)");
+
+// Short contexts for the one-engagement campaigns (batch K7).
+const site =
+  (publisher: string) =>
+  (url: string, title: string): Source => ({
+    title,
+    url,
+    publisher,
+  });
+const britannica = (path: string, title: string): Source => ({
+  title: `${title} (Encyclopaedia Britannica)`,
+  url: `https://www.britannica.com/${path}`,
+  publisher: "Encyclopaedia Britannica",
+});
+const wikisourceZh = site("Wikisource (Chinese)");
+const fordham = site("Internet History Sourcebooks (Fordham University)");
+const deRe = site("De Re Militari");
+const worldHistory = site("World History Encyclopedia");
+const ebsco = site("EBSCO Research Starters");
+const nps = site("U.S. National Park Service");
+const battlefields = site("American Battlefield Trust");
+const stateDept = site("U.S. Department of State, Office of the Historian");
+const herodotus = gutenberg(
+  2456,
+  "Herodotus, The History of Herodotus, vol. 2 (trans. G. C. Macaulay)",
+);
+const ebMarathon = eb1911("Marathon", "Marathon");
+const ebAgincourt = eb1911("Agincourt", "Agincourt");
+const ebBreitenfeld = eb1911("Breitenfeld", "Breitenfeld");
+const ebThirtyYears = eb1911("Thirty_Years%27_War", "Thirty Years’ War");
+const ebBlenheim = eb1911("Blenheim", "Blenheim");
+const ebCrusades = eb1911("Crusades", "Crusades");
+const redCliffsWh = worldHistory(
+  "https://www.worldhistory.org/Battle_of_Red_Cliffs/",
+  "Battle of Red Cliffs — Joshua J. Mark",
+);
+const sanguozhi1 = wikisourceZh(
+  "https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B701",
+  "Chen Shou, Records of the Three Kingdoms (Sanguozhi) 1, Annals of Emperor Wu, in Chinese",
+);
+const sanguozhi54 = wikisourceZh(
+  "https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B754",
+  "Chen Shou, Records of the Three Kingdoms (Sanguozhi) 54, Biography of Zhou Yu, in Chinese",
+);
+const procopius = gutenberg(
+  16764,
+  "Procopius, History of the Wars, Books I and II (trans. H. B. Dewing)",
+);
+const baladhuri = fordham(
+  "https://sourcebooks.web.fordham.edu/source/yarmuk.asp",
+  "Al-Baladhuri: The Battle of the Yarmuk (636) and After",
+);
+const yarmoukWh = worldHistory(
+  "https://www.worldhistory.org/article/1563/battle-of-yarmouk/",
+  "Battle of Yarmouk — Syed Muhammad Khan",
+);
+const englishHeritage: Source = {
+  title: "History of Battle Abbey and Battlefield",
+  url: "https://www.english-heritage.org.uk/visit/places/1066-battle-of-hastings-abbey-and-battlefield/history-and-stories/history/",
+  publisher: "English Heritage",
+};
+const bayeuxMuseum: Source = {
+  title: "What is the Bayeux Tapestry about? The story of the Tapestry",
+  url: "https://www.bayeuxmuseum.com/en/the-bayeux-tapestry/discover-the-bayeux-tapestry/what-is-the-bayeux-tapestry-about/",
+  publisher: "Bayeux Museum",
+};
+const malmesbury = fordham(
+  "https://sourcebooks.fordham.edu/source/1066malmesbury.asp",
+  "William of Malmesbury: The Battle of Hastings, 1066",
+);
+const hattinFordham = fordham(
+  "https://sourcebooks.web.fordham.edu/source/1187hattin.asp",
+  "De Expugnatione Terrae Sanctae per Saladinum: The Battle of Hattin, 1187",
+);
+const hattinDeRe = deRe(
+  "https://www.deremilitari.org/RESOURCES/SOURCES/ctit2.htm",
+  "The Battle of Hattin (1187): three accounts (trans. Peter W. Edbury)",
+);
+const arsufEbsco = ebsco(
+  "https://www.ebsco.com/research-starters/military-history-and-science/battle-arsuf",
+  "Battle of Arsuf",
+);
+const yuanshi119 = wikisourceZh(
+  "https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7119",
+  "Yuan Shi 119, biography of Muqali, in Chinese",
+);
+const jinshi93 = wikisourceZh(
+  "https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2/%E5%8D%B793",
+  "Jin Shi 93, biographies including Wanyan Chengyu, in Chinese",
+);
+const sinor = deRe(
+  "https://deremilitari.org/2014/07/the-mongols-in-the-west/",
+  "Denis Sinor, The Mongols in the West",
+);
+const powLaszlovszky: Source = {
+  title:
+    "Stephen Pow and József Laszlovszky, “Finding Batu’s Hill at Muhi” (Hungarian Historical Review)",
+  url: "https://hunghist.org/83-articles/564-2019-2-laszlovszky",
+  publisher: "Hungarian Historical Review",
+};
+const rashid = deRe(
+  "https://deremilitari.org/2013/03/jumiut-tawarikh-the-battle-of-ayn-jalut-september-8-1260/",
+  "Rashid al-Din, Jamiʿ al-Tawarikh: the battle of ʿAyn Jalut (trans. W. M. Thackston)",
+);
+const southampton: Source = {
+  title: "The truth about Agincourt (University of Southampton)",
+  url: "https://www.southampton.ac.uk/news/2016/05/the-truth-about-agincourt.page",
+  publisher: "University of Southampton",
+};
+const monstrelet: Source = {
+  title:
+    "The Chronicles of Enguerrand de Monstrelet, vol. 4 (trans. Thomas Johnes)",
+  url: "https://www.gutenberg.org/cache/epub/52889/pg52889-images.html",
+  publisher: "Project Gutenberg",
+};
+const constantinopleBr = britannica(
+  "event/Fall-of-Constantinople-1453",
+  "Fall of Constantinople — Myles Hudson",
+);
+const kritovoulos = deRe(
+  "https://deremilitari.org/2016/08/the-siege-of-constantinople-in-1453-according-to-kritovoulos/",
+  "The Siege of Constantinople in 1453, according to Kritovoulos",
+);
+const barbaro = deRe(
+  "https://deremilitari.org/2016/08/the-siege-of-constantinople-in-1453-according-to-nicolo-barbaro/",
+  "The Siege of Constantinople in 1453, according to Nicolo Barbaro",
+);
+const panipatBr = britannica(
+  "event/First-Battle-of-Panipat-1526",
+  "First Battle of Panipat — Tamanna Nangia",
+);
+const nagashinoBr = britannica(
+  "event/Battle-of-Nagashino",
+  "Battle of Nagashino — Stephen Turnbull",
+);
+const nagashinoScreen: Source = {
+  title:
+    "戦国時代屈指の戦いを描いた「長篠合戦図屏風」 (The Nagashino battle screen), in Japanese",
+  url: "https://www.nippon.com/ja/articles/-/3243",
+  publisher: "nippon.com",
+};
+const yiBr = britannica("biography/Yi-Sun-shin", "Yi Sun-shin");
+const hansanEk: Source = {
+  title: "한산도대첩 (The great victory at Hansan Island), in Korean",
+  url: "https://encykorea.aks.ac.kr/Article/E0061676",
+  publisher: "Encyclopedia of Korean Culture",
+};
+const sekigaharaBr = britannica(
+  "event/Battle-of-Sekigahara",
+  "Battle of Sekigahara — Myles Hudson",
+);
+const sekigaharaOsprey: Source = {
+  title: "The battle of Sekigahara – what went right?",
+  url: "https://www.ospreypublishing.com/uk/osprey-blog/2019/the-battle-of-sekigahara-what-went-right",
+  publisher: "Osprey Publishing",
+};
+const sekigaharaNps = nps(
+  "https://www.nps.gov/gett/learn/historyculture/sekigahara-campaign.htm",
+  "Sekigahara Campaign",
+);
+const breitenfeldHw: Source = {
+  title: "Battle of Breitenfeld, 17 September 1631",
+  url: "https://www.historyofwar.org/articles/battles_breitenfeld.html",
+  publisher: "History of War",
+};
+const shivajiBr = britannica(
+  "biography/Shivaji",
+  "Shivaji — Ranjit Ramchandra Desai",
+);
+const sabhasad: Source = {
+  title:
+    "Krishnaji Anant Sabhasad, Sabhasad Bakhar, in Siva Chhatrapati (trans. Surendranath Sen)",
+  url: "https://archive.org/details/sivachhatrapatib00sensuoft",
+  publisher: "Internet Archive",
+};
+const blenheimNam: Source = {
+  title: "The Battle of Blenheim, 13 August 1704",
+  url: "https://www.nam.ac.uk/explore/battle-blenheim-13-august-1704",
+  publisher: "National Army Museum",
+};
+const karnalBr = britannica(
+  "event/Battle-of-Karnal",
+  "Battle of Karnal — Jacob F. Field",
+);
+const sarkarNadir: Source = {
+  title: "Jadunath Sarkar, Nadir Shah in India (1925; 1973 reprint)",
+  url: "https://archive.org/details/in.ernet.dli.2015.107791",
+  publisher: "Internet Archive",
+};
+const sevenYearsBr = britannica(
+  "event/Seven-Years-War/The-course-of-the-Seven-Years-War",
+  "Seven Years’ War: The course of the Seven Years’ War",
+);
+const karlLothringen = ndb(
+  "70325",
+  "Karl (Karl Alexander), Prinz von Lothringen (Deutsche Biographie)",
+);
+const saratogaAbt = battlefields(
+  "https://www.battlefields.org/learn/articles/saratoga-campaign",
+  "The Saratoga Campaign",
+);
+const frenchAlliance = stateDept(
+  "https://history.state.gov/milestones/1776-1783/french-alliance",
+  "French Alliance, French Assistance, and European Diplomacy during the American Revolution",
+);
+const coburg = ndb(
+  "17465",
+  "Friedrich Josias, Prinz von Sachsen-Coburg-Saalfeld (Deutsche Biographie)",
+);
+const yusufPasa: Source = {
+  title: "Yûsuf Paşa, Koca (TDV İslâm Ansiklopedisi), in Turkish",
+  url: "https://islamansiklopedisi.org.tr/yusuf-pasa-koca",
+  publisher: "TDV İslâm Ansiklopedisi",
+};
+const vicksburgNps = nps(
+  "https://www.nps.gov/vick/learn/historyculture/vicksburgsiege.htm",
+  "Vicksburg Siege",
+);
+const mississippiCivilWar: Source = {
+  title: "Civil War — Michael B. Ballard (Mississippi Encyclopedia)",
+  url: "https://mississippiencyclopedia.org/overviews/civil-war/",
+  publisher: "Mississippi Encyclopedia",
+};
+const gettysburgNps = nps(
+  "https://www.nps.gov/gett/learn/historyculture/gettysburg-overview.htm",
+  "Gettysburg Overview",
+);
+const leeReport: Source = {
+  title: "Robert E. Lee’s Report of the Gettysburg Campaign, January 20, 1864",
+  url: "https://explorepahistory.com/odocument.php?docId=1-4-F4",
+  publisher: "ExplorePAhistory.com",
+};
+const atlantaAbt = battlefields(
+  "https://www.battlefields.org/learn/articles/atlanta-campaign",
+  "The Atlanta Campaign",
+);
+const sedanBr = britannica(
+  "event/Battle-of-Sedan",
+  "Battle of Sedan — John Swift",
+);
+const sedanNapoleon: Source = {
+  title: "The Battle of Sedan",
+  url: "https://www.napoleon.org/en/history-of-the-two-empires/articles/the-battle-of-sedan/",
+  publisher: "Fondation Napoléon",
+};
+const adwaBr = britannica("event/Battle-of-Adwa", "Battle of Adwa");
+const baratieri: Source = {
+  title: "Baratieri, Oreste (Dizionario Biografico degli Italiani), in Italian",
+  url: "https://www.treccani.it/enciclopedia/oreste-baratieri_(Dizionario-Biografico)/",
+  publisher: "Treccani",
+};
+const tsushimaBr = britannica("event/Battle-of-Tsushima", "Battle of Tsushima");
+const jacarTsushima: Source = {
+  title:
+    "The “Skirmishing” Ahead of the Battle of Tsushima: The Efforts by Diplomatic Officials",
+  url: "https://www.jacar.go.jp/wp/newsletter_en/newsletter_047e/newsletter_etc1_047e/",
+  publisher: "Japan Center for Asian Historical Records",
+};
+const dbpState = stateDept(
+  "https://history.state.gov/milestones/1953-1960/dien-bien-phu",
+  "Dien Bien Phu & the Fall of French Indochina, 1954",
+);
+const dbpDefense: Source = {
+  title: "Indochine 1954, in French",
+  url: "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/guerre-dindochine/indochine-1954",
+  publisher: "Ministère des Armées (Chemins de mémoire)",
+};
+const frederickLeuthen: Source = {
+  title:
+    "Frederick II (“the Great”) on the Eve of the Battle of Leuthen (November 1757)",
+  url: "https://germanhistorydocs.org/en/the-holy-roman-empire-1648-1815/ghdi:document-3585",
+  publisher: "German History in Documents and Images",
+};
+
 export const campaignDetails: Record<string, CampaignDetails> = {
   "macedonian-invasion-of-persia": {
     summary:
@@ -2375,5 +3038,2334 @@ export const campaignDetails: Record<string, CampaignDetails> = {
       },
     ],
     sources: [kitchen, bas, liman],
+  },
+  "invasion-of-poland": {
+    summary:
+      "Germany’s attack on Poland in September 1939, joined by the Soviet Union from the east, which destroyed the Polish army in five weeks and began the Second World War in Europe.",
+    narrative: [
+      {
+        title: "Plan Z",
+        text: "The Polish army deployed under Plan “Z”, ordered on 23 March 1939. Kennedy calls it an obvious attempt to hold the entire country, faulty because troops in the Corridor, the Poznań salient and the Kraków area could all be encircled from German territory; but those regions held much of Poland’s farmland, mines and heavy industry, and giving them up without a fight was politically unthinkable. The West Point study, written when the Polish plans were still largely unknown, saw a cordon along a thousand-mile border, a general reserve that was to come from divisions not yet mobilized, and hopes of a French and British diversion in the west that never came beyond a half-hearted advance into the Saar.",
+        evidence: "fact",
+        studies: ["poland-1939"],
+        refs: [{ source: 0, locator: "p. 56" }, { source: 1 }],
+      },
+      {
+        title: "The invasion",
+        text: "Germany attacked at dawn on 1 September with sixty divisions and nearly 1.5 million men, an advance force of more than 2,000 tanks, nearly 900 bombers and over 400 fighters, striking from East Prussia, Germany, Silesia and Slovakia. Poland had mobilized late, had few armoured or motorized units and little more than 300 aircraft, most destroyed in the first days. Britain and France declared war on 3 September. German troops reached the outskirts of Warsaw on 8–9 September; the West Point study judges that the Germans broke Polish resistance in the first four days and so prevented a stand behind the Vistula.",
+        evidence: "fact",
+        studies: ["poland-1939"],
+        refs: [{ source: 2 }, { source: 1, locator: "pp. 26–27" }],
+      },
+      {
+        title: "The Bzura",
+        text: "As the German armies drove on toward Warsaw, Polish forces around Kutno remained on their flank. When the German Eighth Army attacked toward the Bzura River on 9 September its advance was stopped, and the Poles counterattacked along its whole front. The Germans turned against them; the concentric attack on the Kutno pocket began on 15 September, and by the 17th the Poles had been pressed into a narrow strip between the Vistula and the Bzura, where the Luftwaffe’s bombing completed their collapse.",
+        evidence: "fact",
+        studies: ["poland-1939"],
+        refs: [{ source: 1 }],
+      },
+      {
+        title: "Two invaders",
+        text: "On 17 September the Soviet Union invaded eastern Poland under the secret protocol of the German-Soviet pact, and the Polish government fled the country the same day. Warsaw, heavily damaged by bombing and shelling, surrendered after a siege, and the last Polish units laid down their arms in early October. Germany and the Soviet Union partitioned the country along the Bug River on 29 September; Germany annexed its western provinces and ruled the rest as the Generalgouvernement under Hans Frank.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }, { source: 1 }],
+      },
+      {
+        title: "Why Poland fell",
+        text: "The West Point study warned against reading the campaign as a mere manoeuvre: the officially published German losses were over 10,000 killed, 30,000 wounded and 3,000 missing, mostly in eight days, against stubborn Polish resistance. It credits a balanced German force, not air power and tanks alone, executing a plan under excellent leadership, and regrets that the Allies learned little from it. The Holocaust Encyclopedia notes that the world coined a new word, Blitzkrieg, for the method. Neitzel adds that Rundstedt, whose Army Group South overran the Polish defences within days, left the actual planning to his chief of staff, so his own share in the victory is hard to judge.",
+        evidence: "interpretation",
+        studies: ["poland-1939"],
+        refs: [
+          { source: 1, locator: "pp. 26–27" },
+          { source: 2 },
+          { source: 3 },
+        ],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "The Holocaust Encyclopedia dates Warsaw’s surrender to 28 September and the surrender of the last Polish unit to 6 October; the West Point study has the Warsaw garrison capitulating on 27 September and resistance east of Dęblin lasting until 5 October. Kennedy’s 1956 Army pamphlet could draw on Polish deployment orders that the 1945 West Point authors admitted they did not have.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 2 }, { source: 1 }, { source: 0 }],
+      },
+    ],
+    sources: [pamPoland, westPoint, ushmmPoland, rundstedt],
+  },
+  "western-campaign-of-1940": {
+    summary:
+      "Germany’s conquest of the Netherlands, Belgium and France in May and June 1940, from the armoured breakthrough in the Ardennes to the evacuation at Dunkirk and the French armistice.",
+    narrative: [
+      {
+        title: "The sickle cut",
+        text: "As chief of staff of Army Group A from October 1939, Manstein opposed the General Staff’s plan, which in essence repeated the Schlieffen Plan’s sweep from the north. He wanted strong armoured forces to break through in the south and drive for the mouth of the Somme, splitting the Allied armies and defeating them in a “sickle cut”. Hitler took up the idea and ordered the plan recast on that basis; Manstein himself was given a corps that only fought in the pursuit. Neitzel writes that Rundstedt, his army group commander, was rather sceptical of the plan and carried it out hesitantly.",
+        evidence: "fact",
+        studies: ["france-1940"],
+        refs: [{ source: 1 }, { source: 2 }],
+      },
+      {
+        title: "The Allied plan",
+        text: "Gamelin’s plan sent the French First and Seventh Armies and the British Expeditionary Force forward to the Dyle in Belgium. Ellis, the British official historian, finds nothing in German records to suggest a trap: without the advance, he argues, Bock’s armies would have reached the French frontier in days instead of taking eighteen to break Belgian resistance, so the move was probably wise, though spoiled by Gamelin’s use of the Seventh and Ninth Armies. Ellis also prints a report of October 1939 in which Ironside recorded Gamelin predicting almost exactly the German attack through the Ardennes that later came, a view Gamelin seems to have abandoned.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Breakthrough to the Channel",
+        text: "Having ordered the advance, Gamelin left the battle to Georges, who was in sole command of the northern armies during the first ten days. Weygand replaced Gamelin on 20 May just as the German breakthrough reached the Channel and cut the Allies in two: the French First Army, the BEF and the Belgian army to the north, and to the south a French Ninth Army virtually destroyed and no substantial reserve. Gort held Arras and then gave it up, improvised a defence of the canal line behind him and moved two divisions in time to stop a break on the Ypres front.",
+        evidence: "fact",
+        studies: ["france-1940"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Dunkirk",
+        text: "Gort began organizing the Dunkirk bridgehead and planning a partial evacuation before his government or the French accepted it; London ordered the evacuation on 26 May, and it had been running for three days before Weygand decided to evacuate French troops. Ellis concedes that Rundstedt’s pause on the canal line probably helped save the BEF, and Neitzel attributes the halt of the panzer divisions before Dunkirk partly to Rundstedt’s hesitation. South of the Somme the 51st Division was lost with the French IX Corps at St Valery because the order to withdraw came too late. British Army casualties came to 68,111; the RAF had 1,526 casualties and lost 931 aircraft.",
+        evidence: "fact",
+        studies: ["france-1940"],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "Why France fell",
+        text: "Ellis traces the British failure to the pre-war policy that prepared only a small army, and concludes that the Allies were neither well enough prepared, equipped nor commanded. The French high command, he writes, was beaten by the pace of German operations and its own inability to think ahead, and once Weygand believed no withdrawal was possible defeat was certain; the Luftwaffe played an important but secondary part. Klink sees the victory as the product of surprise, close cooperation between army and air force and the helplessness of the Allied command.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Ellis’s judgement of the French commanders comes from a British official history that disclaims any intention of discussing the French army itself. His evidence for Gamelin’s forecast of the Ardennes attack is a single report by Ironside, of which no other record seems to exist. Ellis and Neitzel agree that the halt before Dunkirk helped the British, but Ellis presents it as one factor among Gort’s own decisions, while Neitzel uses it to judge Rundstedt’s command.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+    ],
+    sources: [ellis, manstein, rundstedt],
+  },
+  "battle-of-britain": {
+    summary:
+      "The German air offensive against Britain in the summer and autumn of 1940, meant to win the air superiority needed for an invasion, and its defeat by RAF Fighter Command.",
+    narrative: [
+      {
+        title: "Sealion",
+        text: "Hitler ordered preparations for a landing in England, Operation Sealion, but the German Naval Staff, which would have to carry the army across, recommended at the end of July that it be put off until the spring of 1941, and all parties agreed that it needed local air superiority first. Collier concludes that a landing was held to be impossible unless the Luftwaffe won a major victory in the air, and that nothing in the evidence suggests Hitler would not have gone ahead had it done so.",
+        evidence: "fact",
+        studies: ["battle-of-britain"],
+        refs: [{ source: 1 }, { source: 3 }],
+      },
+      {
+        title: "The fighters as target",
+        text: "Göring told his commanders on 19 August that their first aim was the destruction of the British fighters. After attacks on coastal targets and a raid on the north-east on 15 August, which met a strong reception from the squadrons Dowding had kept in the north, the Luftwaffe concentrated by day on No. 11 Group in the south-east and on the sector stations from which its squadrons were controlled. Richards notes that the RAF claimed 182 aircraft destroyed on 15 August, when German records later showed seventy-six.",
+        evidence: "fact",
+        studies: ["battle-of-britain"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "The critical fortnight",
+        text: "Richards places the crisis between 24 August and 6 September, when the sector stations were damaged and fighter losses outran production; three more weeks on that scale would have exhausted the reserves. The real shortage was pilots: by early September squadrons averaged sixteen operational pilots out of twenty-six, and on 8 September Dowding had to divide his squadrons into classes, keeping only those in the south-east at full strength. Yet 125 Spitfires and Hurricanes were still in reserve on 7 September, and the Luftwaffe was in a crisis of its own.",
+        evidence: "fact",
+        studies: ["battle-of-britain"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "London",
+        text: "On 7 September the Luftwaffe turned against London and, because of its own losses, began to drop most of its bombs by night. In the fortnight before that date Fighter Command lost 277 aircraft against 378 German; in the fortnight after, 144 against 262. Bomber Command attacked the invasion barges gathering in the Channel ports, and on 12 October Hitler postponed Sealion until the spring. In October Fighter Command lost a hundred pilots killed, and by the end of the battle nearly 450 of its men had died since July.",
+        evidence: "fact",
+        studies: ["battle-of-britain"],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "Radar and a narrow margin",
+        text: "Collier locates the strength of the defences in commanders and controllers able to act on an early warning system built on radar, which he calls possibly the best investment ever made by a British government. Richards calls Fighter Command’s triumph complete but narrow, and records the controversy over Dowding’s refusal to strip the rest of the country for the south-east and over Park’s tactics, criticized by Leigh-Mallory, who favoured massed wings.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 3 }, { source: 0 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Richards explains how wartime claims went wrong, with several pilots or gunners claiming the same aircraft in the confusion of the big days, and faults the Air Ministry for presenting estimates as facts; German claims of British losses were wilder still. He also rejects the later story that Fighter Command was ever down to a handful of aircraft. Collier dates the end of the invasion threat to October 1940, when the Germans concluded that a landing that year was impossible.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 0 }, { source: 3 }],
+      },
+    ],
+    sources: [
+      richardsBritain,
+      collierSealion,
+      collierLastPhase,
+      collierSumming,
+    ],
+  },
+  "battle-of-the-atlantic": {
+    summary:
+      "The struggle for the Atlantic sea lanes from 1939 to 1945, above all between the German U-boats and the Allied convoys, escorts and aircraft that protected Britain’s supply lines.",
+    narrative: [
+      {
+        title: "Raeder’s navy",
+        text: "Salewski writes that Raeder built toward a large, balanced battle fleet and supported U-boat construction only hesitantly, which set him against the U-boat commander, Dönitz. The outbreak of war in 1939, years earlier than he expected, came to him as a shock. His surface raiders won notable successes until the loss of the Bismarck on 27 May 1941, while the increasingly important U-boat war suffered from shortages of materiel and men. After a quarrel with Hitler over the big ships Raeder resigned on 30 January 1943, and Dönitz, who had directed the U-boats since the start of the war, took command of the navy.",
+        evidence: "fact",
+        studies: ["battle-of-the-atlantic"],
+        refs: [{ source: 3 }, { source: 1 }],
+      },
+      {
+        title: "The American coast",
+        text: "After Germany declared war on the United States, the U-boats struck the American seaboard from mid-January 1942. Roskill counts never more than about twelve working there at once, yet they sank thirteen ships of nearly 100,000 tons in the first two weeks, and in March forty-three ships of over 250,000 tons in American coastal, Gulf and Caribbean waters, most of the tonnage tankers. There was no blackout ashore, lights and radio were used freely, and a partial convoy system began only on 1 April. The Army history notes that at the end of 1941 the Navy had about twenty surface vessels and a hundred aircraft to guard the whole Atlantic coast, and that Allied losses in the first half of 1942 nearly equalled those of all 1941.",
+        evidence: "fact",
+        studies: ["battle-of-the-atlantic"],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "Packs on the convoy routes",
+        text: "As American convoys and patrols took effect, the U-boats moved to the Caribbean in the summer of 1942 and then back to the North Atlantic, hunting in packs and refuelled at sea by supply submarines, the “milch cows”. Allied shipping losses from all causes peaked in November 1942 at over 1.1 million deadweight tons, while the convoys to northern Russia suffered especially heavily.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "The crisis of March 1943",
+        text: "In the first twenty days of March 1943 the Allies lost ninety-seven ships of more than half a million tons, and nearly two-thirds of that month’s sinkings were ships in convoy; some forty U-boats gathered against convoys HX 229 and SC 122 alone. The Admiralty later wrote that the Germans never came so near to cutting the link between the New World and the Old, and the Naval Staff feared that convoy might no longer be an effective defence.",
+        evidence: "fact",
+        studies: ["battle-of-the-atlantic"],
+        refs: [{ source: 1 }],
+      },
+      {
+        title: "The turn of May 1943",
+        text: "Support groups, escort carriers and very long range aircraft reached the convoy routes together that spring. In a series of battles, beginning with the defence of ONS 5, the escorts beat the packs; by 22 May the Germans had lost thirty-three U-boats that month and forty-one by its end. Dönitz withdrew from the North Atlantic, calling the move temporary, and SC 130, which arrived on 25 May, was the last convoy seriously menaced. Throughout the period only two ships were sunk in Atlantic convoys while an air escort was present.",
+        evidence: "fact",
+        studies: ["battle-of-the-atlantic"],
+        refs: [{ source: 1 }],
+      },
+      {
+        title: "How the convoys won",
+        text: "Roskill credits the convoy system, and the sea and air escorts of the convoys, with both reducing losses and defeating the U-boats; he judges that Britain had a narrow escape in the spring of 1943, and that history would have blamed a defeat on the lack of two more squadrons of very long range aircraft. He also gives Admiral Horton of Western Approaches a large share of the credit. Salewski faults Raeder for clinging to strategic and technical ideas that the war quickly made obsolete, above all in U-boat construction.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 1 }, { source: 3 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Roskill, the British naval historian, is openly critical of American slowness to start coastal convoys and to learn from British experience; the American Army history stresses instead the lack of ships and aircraft and the disputes between the Navy and the Army Air Forces over antisubmarine work. Roskill counts losses in ships and tons, the Army history in deadweight tons, so their figures cannot simply be compared. Both concentrate on 1942–1943; Roskill notes that Dönitz returned to the convoy routes six months after May 1943 but that the battle never again hung so delicately in the balance.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }, { source: 1 }],
+      },
+    ],
+    sources: [roskillAmerica, roskillEscorts, amhDefensive, raeder],
+  },
+  "german-invasion-of-the-soviet-union": {
+    summary:
+      "Operation Barbarossa, Germany’s invasion of the Soviet Union in June 1941, and the drive on Moscow that ended in the Soviet counteroffensive of December 1941.",
+    narrative: [
+      {
+        title: "Won in fourteen days",
+        text: "On 3 July 1941, twelve days into the invasion, Halder wrote that the campaign had very likely been won in less than fourteen days; beyond the Dvina and the Dnepr the task would be to seize the Soviet means of production. Stalin, who had said nothing in public until then, spoke to the nation by radio the same day, after setting up the State Defense Committee on 30 June; on 10 July he became supreme commander.",
+        evidence: "fact",
+        studies: ["barbarossa"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Kiev before Moscow",
+        text: "In Directives 33 and 34 of July Hitler gave Leningrad and the Ukraine priority over Moscow and ordered Army Group Center to send armour north and south, to the dismay of his generals, who believed the Soviet command would stand before Moscow. On 21 August he sent Guderian’s panzer group south, and Guderian failed to change his mind in a last interview. Guderian’s and Kleist’s armour met behind Kiev on 16 September, and the Germans counted 665,000 prisoners; a Soviet history gives the strength of Southwest Front as 677,085 at the start of the battle and 150,541 at its end.",
+        evidence: "fact",
+        studies: ["barbarossa"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Typhoon",
+        text: "Directive 35 of 6 September returned the main effort to Army Group Center. Within a week of the attack in early October Bock’s three panzer groups had encircled six Soviet armies at Vyazma and most of Bryansk Front, and the Germans counted 663,000 prisoners from the Vyazma pocket and about 100,000 near Bryansk. Halder called it “downright classical”; the loss of Kalinin on 14 October set off panic in Moscow. Then the autumn mud set in: the first snow fell on 6 October, the roads became quagmires, and the Blau study names the rasputitsa as one of the main reasons the Germans failed to take Moscow.",
+        evidence: "fact",
+        studies: ["moscow-1941"],
+        refs: [{ source: 0 }, { source: 3 }],
+      },
+      {
+        title: "The last push",
+        text: "When Halder met the army group chiefs of staff at Orsha in mid-November, German casualties already stood at 686,000, a fifth of the 3.4 million men committed; panzer divisions were down to 35 percent of their tanks, the 136 divisions in the East were rated as worth 83, and winter clothing lay in depots because the railways could not carry it. The offensive was resumed anyway. Bradley writes that Model, commanding a panzer corps, would not admit that his troops were too weak to storm Moscow; on 4 December they reached a point a few kilometres north of the city before the Soviet blow forced them back.",
+        evidence: "fact",
+        studies: ["moscow-1941"],
+        refs: [{ source: 0 }, { source: 5 }],
+      },
+      {
+        title: "The counteroffensive",
+        text: "At the end of November the Germans abandoned Rostov, news of a German retreat that Ziemke and Bauer call the rarest kind thus far in the war, and Hitler dismissed Rundstedt over it. The Stavka struck at Moscow on 5 and 6 December. Hitler forbade any withdrawal beyond local straightening of the line, Brauchitsch resigned, and Guderian, who would not shrink from quarrelling with Hitler, was relieved of command at Christmas. The Blau study describes heavy frostbite casualties, a critical supply situation and the public discouragement caused by the appeal for furs and winter clothing for the troops.",
+        evidence: "fact",
+        studies: ["moscow-1941"],
+        refs: [{ source: 1 }, { source: 2 }, { source: 4 }, { source: 3 }],
+      },
+      {
+        title: "Why Barbarossa failed",
+        text: "Ziemke and Bauer argue that at Moscow the Soviet reserves and the weather turned what would in any case have been an unsatisfactory end to the German campaign into a disaster, and that once the United States entered the war Germany could not win unless it defeated the Soviet Union first, which after 5 December 1941 it could not do. German strategy aimed at destroying Soviet manpower, yet Soviet strength at the front rose from 2.9 million men in June 1941 to 4.2 million in December.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 6 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "The Soviet accounts used by Ziemke and Bauer differ over when the counteroffensive was decided: Sokolovskiy says on 4 December, Vasilevskiy that the Stavka set 5 and 6 December, while the Germans later believed that the drop in temperature on the night of the 4th governed Zhukov’s timing. The prisoner totals for Kiev and Vyazma are German counts. The Blau study rests largely on German records and the postwar writings of German generals.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 1 }, { source: 0 }, { source: 3 }],
+      },
+    ],
+    sources: [
+      zbBarbarossa,
+      zbMoscow,
+      zbCounter,
+      pamRussia,
+      guderian,
+      model,
+      zbConclusion,
+    ],
+  },
+  "japanese-offensive-of-1941-1942": {
+    summary:
+      "Japan’s opening offensive of December 1941 to the spring of 1942: the attack on Pearl Harbor and the conquest of Malaya, Singapore, the Philippines and the Netherlands Indies.",
+    narrative: [
+      {
+        title: "The plan",
+        text: "Japan’s first phase was to seize the resource-rich southern areas, attack the United States fleet in Hawaii and take positions for a defensive perimeter around the southern resources and the home islands. The Pearl Harbor attack, conceived by Admiral Yamamoto, was meant to put the Pacific Fleet out of action and so gain time and freedom of action in the south. Admiral Nagano decided on it on 3 November 1941, and the carrier force sailed from Hitokappu Bay on 26 November.",
+        evidence: "fact",
+        studies: ["pearl-harbor"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Pearl Harbor",
+        text: "On 7 December some 350 aircraft from six carriers that had approached undetected to 200 miles north of Oahu achieved complete surprise. About 170 aircraft were destroyed, all eight battleships sunk or badly damaged and about 3,400 Americans became casualties, 2,402 of them killed; the Japanese lost about 49 aircraft and five midget submarines. The fleet’s three carriers were away, and the oil tanks and repair shops were not hit. The Japanese did not repeat the attack, because the capital ships had been struck, the American carriers could not be found and some fifty land-based aircraft were thought to remain. The same day, Formosa-based bombers destroyed most of the Far East Air Force on its airfields near Manila.",
+        evidence: "fact",
+        studies: ["pearl-harbor"],
+        refs: [{ source: 3 }, { source: 1 }],
+      },
+      {
+        title: "Malaya and Singapore",
+        text: "Japanese landings in Malaya went ahead on schedule, and on 10 December naval aircraft sank the Prince of Wales and the Repulse for the loss of four planes, removing the only threat to the invasion convoys. Jungle-trained troops drove down the peninsula, infiltrating and outflanking each British position. Richards and Saunders describe the RAF fighting on from airfields under shellfire while its units were evacuated to Sumatra in chaos; the Japanese landed on Singapore island on 8 February, and on 15 February the garrison of over 80,000 surrendered.",
+        evidence: "fact",
+        studies: ["singapore-1942"],
+        refs: [{ source: 2 }, { source: 3 }, { source: 4 }],
+      },
+      {
+        title: "The southern area",
+        text: "Wake, Guam and Hong Kong fell in December. In the Philippines MacArthur withdrew into Bataan on 23 December, leaving supplies behind that doomed the siege. In the Battle of the Java Sea on 27–28 February the Japanese sank two Allied cruisers and three destroyers without loss, and on 9 March the last Allied forces in the Netherlands Indies, almost 100,000 men, surrendered. The Survey writes that never before had so much been gained for so little: apart from three destroyers sunk by submarines, no major Japanese warship was lost.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 3 }, { source: 2 }],
+      },
+      {
+        title: "A brilliant blow and its cost",
+        text: "The Army history calls Pearl Harbor one of the most brilliant tactical feats of the war, but it brought the United States fully into a two-front war, since Germany and Italy declared war at once. The Survey’s Japanese informants saw the trap on their own side: the ease of the first phase led Japan to underestimate American strength and expand beyond the original perimeter, which some senior officers thought already too extended, and the losses suffered there became its greatest handicap.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 3 }, { source: 0 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "The Survey’s Pearl Harbor chapter was supplied from memory by Japanese officers and warns that details may need correcting. It presents the decision not to strike again as following from an aim already achieved, while the Army history counts the untouched oil tanks, repair shops and absent carriers among the attack’s failures. Richards and Saunders tell the fall of Singapore from the air force’s side and give the RAF’s own estimate of 183 Japanese aircraft destroyed.",
+        evidence: "uncertainty",
+        studies: ["pearl-harbor"],
+        refs: [{ source: 1 }, { source: 3 }, { source: 4 }],
+      },
+    ],
+    sources: [
+      ussbsPlanning,
+      ussbsPearl,
+      ussbsSouth,
+      amhDefensive,
+      richardsSingapore,
+    ],
+  },
+  "south-pacific-operations-of-1942": {
+    summary:
+      "The Japanese attempts of 1942 to take Port Moresby in New Guinea, first by sea, turned back in the Battle of the Coral Sea, then overland across the Owen Stanley Range.",
+    narrative: [
+      {
+        title: "Port Moresby",
+        text: "After occupying Rabaul at the end of January 1942, the Japanese set out to push their outer perimeter further. Port Moresby, on the south-east coast of Papua, would be its southern outpost, deny the Allies a base within air range of Rabaul and dominate northern Australia. For MacArthur, the best way to defend Australia was to meet the Japanese in New Guinea, and the way into New Guinea lay through Port Moresby. On 30 April an invasion force sailed from Truk, and Tulagi in the Solomons was occupied on 3 May.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+      },
+      {
+        title: "The Coral Sea",
+        text: "A United States force built around the carriers Lexington and Yorktown entered the Coral Sea to meet it. On 7 May American aircraft sank the light carrier Shoho within fifteen minutes; on 8 May the two carrier forces found each other and struck simultaneously, badly damaging the Shokaku and damaging the Yorktown, while the Lexington, wrecked by fires and explosions, had to be abandoned. Short of air cover and pilots, the invasion force turned back, and the losses at Midway in June made the Japanese give up a seaborne landing at Port Moresby.",
+        evidence: "fact",
+        studies: ["coral-sea"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "The Kokoda Trail",
+        text: "Short of carriers after Midway, the Japanese tried overland from Buna on the north coast, over the Owen Stanley Range through Kokoda. General Horii’s troops defeated the Australian and Papuan units in their way and by mid-September were only twenty miles from Port Moresby; the Allies counterattacked along the trail and at Milne Bay and pushed them back to entrenched positions around Buna and Gona.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 1 }, { source: 3 }],
+      },
+      {
+        title: "Buna",
+        text: "The fighting at Buna and Gona lasted into the new year. Allied losses in the Papua campaign came to 8,546 killed and wounded; the American 32nd Division lost 687 killed in action and 2,161 wounded or lost to other causes. The Army’s campaign history attributes much of this to inexperience: the troops were insufficiently hardened, poorly schooled in night patrolling and attacking fortifications, and short of artillery and tanks under a theatre doctrine summed up by General Kenney’s remark that “the artillery in this theater flies”.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 1 }, { source: 3 }],
+      },
+      {
+        title: "A base saved",
+        text: "The Survey argues that by turning back the Port Moresby force the Coral Sea stopped Japan’s southward expansion by sea and saved the base that became the main stepping stone of the Allied advance through New Guinea. The Army’s campaign history adds that intelligence twice underestimated the Japanese, first their determination to take Port Moresby and then their numbers at Buna, and that MacArthur believed too long that better leadership could overcome any obstacle.",
+        evidence: "interpretation",
+        studies: ["coral-sea"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "The Survey treats the Coral Sea as the end of the threat to Port Moresby, but the overland advance that followed brought the Japanese closer to it than the invasion fleet ever came. The Army brochure is a history of American operations, although its own account shows Australian and Papuan units doing the early fighting on the Kokoda Trail.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+    ],
+    sources: [ussbsCoral, cmhPapua, amhDefensive, amhJapan],
+  },
+  "japanese-midway-operation": {
+    summary:
+      "Japan’s attempt in June 1942 to seize Midway and destroy the remaining American carriers, which ended in the loss of four Japanese fleet carriers.",
+    narrative: [
+      {
+        title: "The second phase",
+        text: "Encouraged by the unexpected ease of their first conquests, the Japanese delayed consolidating and planned further expansion. Midway, to be occupied on 6 June 1942, was the next step east; the Japanese knew that all the American carriers available had been in the distant Coral Sea only three weeks before.",
+        evidence: "fact",
+        studies: ["midway"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "The American plan",
+        text: "The American command suspected Japanese intentions. Having lost ships at Pearl Harbor and the Coral Sea, it decided not to commit its surface forces but to wear the Japanese fleet down by air attack from three carriers rushed north from the Coral Sea; Midway’s defences were strengthened, a submarine cordon was set and Marine squadrons and long-range search planes were concentrated on the island.",
+        evidence: "fact",
+        studies: ["midway"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "4 June",
+        text: "On the morning of 4 June Marine dive bombers from Midway and the Hornet’s torpedo squadron attacked the Japanese carriers without success. At about 10.20 the dive bombers of the Enterprise and Yorktown hit the Soryu three times, the Akagi twice and the Kaga four times, while the Akagi and Kaga had forty and thirty aircraft aboard. Aircraft from the undamaged Hiryu then struck the Yorktown, and that afternoon American aircraft found and sank the Hiryu. With all four carriers of his striking force lost, Yamamoto abandoned the operation; on 6 June dive bombers sank the cruiser Mikuma.",
+        evidence: "fact",
+        studies: ["midway"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "The dive bombers",
+        text: "The Survey credits the carrier dive bombers with the victory: in 191 sorties they scored 32 hits, fifteen of which destroyed the Japanese carrier force. Japanese survivors testified that the B-17s’ horizontal bombing from Midway scored no hits at all.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "The turning point",
+        text: "The Survey judges that the loss of four of Japan’s finest carriers, 250 aircraft and some hundred first-line pilots stripped Japan of the striking force behind its conquests, shifted the balance of power steadily to the United States and made Midway perhaps the decisive battle of the war. The Army history agrees that Midway was the turning point, redressing the naval balance and giving the Allies the initiative, and that Japan lost the bulk of its best naval pilots at the Coral Sea and Midway together.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }, { source: 3 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "The Survey says only that Japanese intentions were “suspected”. The editors of its online edition point out that it was written long before the American decryption of Japanese naval codes, which decided the battle, was declassified. The Survey counts some hundred pilots lost at Midway; the Army history speaks of the losses of the Coral Sea and Midway together.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 0 }, { source: 3 }],
+      },
+    ],
+    sources: [ussbsMidway, ussbsPlanning, amhDefensive, amhJapan],
+  },
+  "german-summer-offensive-of-1942": {
+    summary:
+      "Germany’s 1942 offensive toward the Caucasus oil fields and the Volga, which ended with the encirclement and destruction of the Sixth Army at Stalingrad in the winter of 1942–1943.",
+    narrative: [
+      {
+        title: "Blau",
+        text: "The Blau study, drawing on Halder and other German generals after the war, writes that Hitler himself conceived the 1942 offensive, chose its objectives and dictated its text. Halder wanted to stabilize the front and refit; Hitler insisted that time was working against Germany and that the Caucasus oil mattered more than anything Moscow could offer. Kehrig describes the plan that opened on 28 June: the main thrust for the oil fields, covered by the Sixth Army and parts of the Fourth Panzer Army, which were to take Stalingrad and block the Volga.",
+        evidence: "fact",
+        studies: ["stalingrad"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Directive 45",
+        text: "By 23 July the Germans had failed to trap the Soviet forces in the Don bend, yet Hitler’s Directive 45 of that day sent his tired armies toward the Caucasus and the Volga at the same time. Most of the forces and transport went to Army Group A in the Caucasus, so that the weakened Sixth Army could only attack across the Don toward Stalingrad on 21 August. Paulus warned Hitler on 12 September, and the army high command until November, about the weakness of the Romanian, Italian and Hungarian armies guarding his flanks.",
+        evidence: "fact",
+        studies: ["stalingrad"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Encirclement",
+        text: "The Soviet offensive of 19–20 November broke through the Romanian armies, and by 22 November the Sixth Army, with parts of the Fourth Panzer Army and both Romanian armies, was surrounded. Hitler ordered it to hold between the Don and the Volga until relieved, supplied from the air; Paulus accepted the plan, unlike his corps commander Seydlitz. In December the airlift averaged 90 tons a day and reached the army’s minimum of 300 tons only once, on 7 December.",
+        evidence: "fact",
+        studies: ["stalingrad"],
+        refs: [{ source: 1 }, { source: 2 }],
+      },
+      {
+        title: "Winter Storm",
+        text: "Manstein’s relief attack, Operation Wintergewitter, stalled on 19 December at the Myshkova River, thirty-five kilometres from the pocket. Kehrig writes that a breakout at that last moment was ruled out by the army’s lack of fuel and the hunger of its men. Klink credits Manstein with what followed: an orderly retreat of his army group and the withdrawal of the First Panzer Army from the Caucasus across the Don.",
+        evidence: "fact",
+        studies: ["stalingrad"],
+        refs: [{ source: 1 }, { source: 4 }, { source: 2 }],
+      },
+      {
+        title: "The end at Stalingrad",
+        text: "The final Soviet assault began on 10 January 1943. On the morning of 31 January Sixth Army headquarters in a department store basement signalled that the Russians were at the door; Paulus, promoted field marshal the night before, went into captivity, and the northern pocket held out until 2 February. Ziemke and Bauer put German losses in the pocket at somewhat over 200,000, an exact total never established, with 30,000 wounded flown out; Soviet accounts give 147,000 German dead counted and 91,000 prisoners, among them 24 generals. The Soviet Union never released its own losses.",
+        evidence: "fact",
+        studies: ["stalingrad"],
+        refs: [{ source: 2 }, { source: 1 }],
+      },
+      {
+        title: "The decision in the East",
+        text: "Ziemke and Bauer argue that Germany failed on 19 November 1942 at the one thing it could still do, keeping the strategic initiative from the Soviet Union, and that Stalingrad put the Soviet Union on the road to a full share in victory. They reject the Soviet claim that the decision there was won single-handed: the United States was carrying a two-front war, and the roads from Stalingrad and from North Africa converged in Germany. The generals behind the Blau study conclude that the offensive should never have been launched, and blame faulty intelligence coloured by Hitler’s wishful thinking and an advance the supply services could never sustain.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 3 }, { source: 0 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Kehrig writes of the 500 tons a day of air supply that Hitler announced; Ziemke and Bauer give 300 tons as the army’s daily minimum, which the airlift almost never met. The German loss figures cannot be checked against Soviet ones. The Blau study rests on the postwar writings of Halder and his associates, who had reason to lay the blame on Hitler.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 1 }, { source: 2 }, { source: 0 }],
+      },
+    ],
+    sources: [pamRussia, paulus, zbFinale, zbConclusion, manstein],
+  },
+  "solomon-islands-campaign": {
+    summary:
+      "The Allied counteroffensive in the Solomon Islands from August 1942, opened by the six-month struggle for Guadalcanal and its airfield.",
+    narrative: [
+      {
+        title: "Rabaul’s outposts",
+        text: "Japan drew its south-eastern defence line through the Solomons, with Rabaul on New Britain as its citadel, and in 1942 chose Guadalcanal among the positions that would dominate the line of communications between the United States, Australia and New Zealand. After the Coral Sea and Midway ended the plans to advance on New Caledonia and Fiji, the Japanese went on building outposts for Rabaul in the Solomons, among them an airfield on Guadalcanal.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "The landing",
+        text: "On 7 August 1942 the 1st Marine Division landed on Guadalcanal and nearby islands and took the airfield at Lunga Point, which the marines named Henderson Field. Air battles were fought almost daily for a month and more, and the Japanese sent in strong ground reinforcements, gambling, and finally losing, substantial air and naval forces in the effort to hold the island.",
+        evidence: "fact",
+        studies: ["guadalcanal"],
+        refs: [{ source: 1 }, { source: 2 }],
+      },
+      {
+        title: "Night battles at sea",
+        text: "The Survey follows the naval battles that decided the island’s supply: the Eastern Solomons in August, where American carrier aircraft sank the light carrier Ryujo; Cape Esperance on the night of 11–12 October, where an American cruiser force surprised a Japanese squadron; the Santa Cruz Islands on 26 October, where the Hornet was lost and the Shokaku was hit; and the naval battle of Guadalcanal of 12–15 November, after which the Japanese gave up all plans to retake the island. Lacking landing craft, they had to send reinforcements in small groups that were destroyed piecemeal.",
+        evidence: "fact",
+        studies: ["guadalcanal"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "The airfield and the Tokyo Express",
+        text: "The major Japanese assault on the Henderson Field perimeter in late October, delayed until the 23rd, broke down in repeated attacks. Thereafter the almost nightly “Tokyo Express” of destroyers could not keep the garrison supplied, and with malaria spreading General Hyakutake had to scale down his aims. In January 1943 the Army’s XIV Corps went over to the offensive, but a strongpoint at the Gifu held off five American battalions for a month, long enough for the Japanese to evacuate some 13,000 men by way of Cape Esperance.",
+        evidence: "fact",
+        studies: ["guadalcanal"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "The cost",
+        text: "The Army’s campaign history counts 1,592 Americans killed in action and 4,183 wounded, besides thousands disabled by disease; the two Army divisions lost 550 killed and 1,289 wounded. The Japanese lost about 14,800 killed in battle, another 9,000 dead of disease and about 1,000 taken prisoner. Each navy lost twenty-four ships, and Japan over six hundred aircraft and their pilots.",
+        evidence: "fact",
+        studies: ["guadalcanal"],
+        refs: [{ source: 1 }],
+      },
+      {
+        title: "Taking the initiative",
+        text: "With the victory at Buna, the Army history argues, Guadalcanal turned back the Japanese drive toward Australia, and above all the Americans had stopped reacting to Japanese thrusts and taken the initiative themselves. It is frank about the friction: ground commanders saw an amphibious campaign in which the navy would hold the seas until the island was cleared, while senior naval commanders treated it more as a raid and twice left Guadalcanal waters, in August and October; intelligence about the island stayed poor throughout.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 1 }, { source: 2 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "The Army brochure dates the campaign from 7 August 1942 to 21 February 1943, past the end of fighting on Guadalcanal, to include the occupation of the Russell Islands, which the Army’s general history calls the last act. The figure of 13,000 Japanese evacuated comes from prisoners of war. The brochure adds that although both navies lost twenty-four ships, Japan’s smaller industrial base made its losses the more serious.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 1 }, { source: 2 }],
+      },
+    ],
+    sources: [ussbsSolomons, cmhGuadalcanal, amhJapan],
+  },
+  "north-african-campaign": {
+    summary:
+      "The war in North Africa from Rommel’s arrival in 1941 to the Axis surrender in Tunisia in May 1943, turning on the British victory at El Alamein and the Anglo-American landings in French North Africa.",
+    narrative: [
+      {
+        title: "Rommel in the desert",
+        text: "Sent to Libya in 1941 to help the defeated Italians, Rommel ignored his orders to stay on the defensive, attacked and within weeks reached the Egyptian border. The British drove him back in December 1941, relieving Tobruk after an offensive that began on 18 November, but he retook Cyrenaica and on 21 June 1942 seized Tobruk itself, for which Hitler made him a field marshal. Neitzel writes that Rommel, against Kesselring and Mussolini, who wanted Malta taken first, persuaded Hitler to let him pursue the apparently beaten British army.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 3 }, { source: 0 }],
+      },
+      {
+        title: "The Alamein line",
+        text: "In July and September 1942 the British stopped the badly supplied Afrika Korps at El Alamein, 120 kilometres west of Cairo. Richards and Saunders quote Ciano on 2 September that Rommel was halted for lack of fuel, and Rommel that the petrol on which his plans depended did not arrive. The United States sent its first bombers to Egypt in the summer, and 300 new Sherman tanks, which gave the Eighth Army a tank roughly equal to the German panzers.",
+        evidence: "fact",
+        studies: ["el-alamein"],
+        refs: [{ source: 1 }, { source: 3 }, { source: 0 }],
+      },
+      {
+        title: "Lightfoot and Supercharge",
+        text: "Montgomery’s Eighth Army opened its offensive at El Alamein on 23 October. Richards and Saunders stress that air superiority let it make all its preparations unobserved: the assaulting infantry of XXX Corps spent the whole day of the 23rd in forward fox-holes without being spotted. After a regrouping Montgomery launched Operation Supercharge on the night of 1–2 November, and on 4 November two infantry divisions cleared the anti-tank screen for the armour to go through. In October British aircraft and submarines sank some 50,000 tons of Axis shipping on the North African routes, and of the German cargo lost, sixty-five per cent was fuel. Rommel withdrew against Hitler’s orders to hold, to save his troops from destruction.",
+        evidence: "fact",
+        studies: ["el-alamein"],
+        refs: [{ source: 1 }, { source: 2 }, { source: 3 }],
+      },
+      {
+        title: "Torch and Tunisia",
+        text: "On 8 November Allied troops landed near Casablanca, Oran and Algiers, some 107,000 men carried by over 400 warships. Rommel fell back to the Mareth Line in southern Tunisia, while Arnim faced west against Eisenhower; on 14 February 1943 Rommel broke through at the Kasserine Pass, but without a unified Axis command his thrust was turned north and halted on 22 February. Patton’s II Corps and Montgomery’s Eighth Army attacked the Mareth Line in March, and within a month of joining hands the Allies took Bizerte and Tunis. Rommel had been recalled in March.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }, { source: 3 }],
+      },
+      {
+        title: "Turning points",
+        text: "The Army history calls El Alamein a turning point in British fortunes. Neitzel sees the Alamein line as the end of Hitler’s and Rommel’s dream of a drive to the Nile and beyond, owed not least to Rommel’s own serious operational error, and notes how Goebbels’s propaganda built up the “Desert Fox”. Newell argues that the small American part in the campaign laid the foundation of the Anglo-American cooperation later used in Europe, and that American tanks, guns and trucks in British hands contributed to the breakthrough and pursuit at El Alamein.",
+        evidence: "interpretation",
+        studies: ["el-alamein"],
+        refs: [{ source: 2 }, { source: 3 }, { source: 0 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "The Army history says the last of some 275,000 Germans and Italians in Tunisia surrendered on 10 May 1943; Ziemke dates the surrender of the last German and Italian units to 13 May. Richards and Saunders, quoting Rommel, place the blame for the halt at Alamein on fuel that never arrived, while Neitzel puts much of it on Rommel’s own decision to pursue.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 2 }, { source: 4 }, { source: 1 }, { source: 3 }],
+      },
+    ],
+    sources: [cmhEgypt, richardsAlamein, amhGermany, rommel, zZitadelle],
+  },
+  "kursk-and-soviet-counteroffensives": {
+    summary:
+      "Germany’s last great offensive in the East, Operation Zitadelle against the Kursk salient in July 1943, and the Soviet offensives that followed it to the Dnepr.",
+    narrative: [
+      {
+        title: "Postponements",
+        text: "Hitler announced his “definitive decision” for Zitadelle on 15 April 1943, then postponed it again and again. At a conference in early May, Model reported the strength of the Soviet defences facing his Ninth Army; Manstein thought the attack could succeed if it came in May; Guderian and Speer opposed it altogether because it would cost tanks. Hitler admitted that the thought of the offensive gave him “butterflies in his stomach”. Klink writes that the exhaustion of the Fourth Panzer Army after Manstein’s spring counterstroke forced a pause, so that the attack began only on 5 July.",
+        evidence: "fact",
+        studies: ["kursk"],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "The salient",
+        text: "Inside the bulge, Rokossovskiy’s Central Front alone had dug over 3,000 miles of trenches, and the engineers had laid 400,000 mines; Konev’s Steppe Front stood behind, with further reserves near Orel and Kharkov. Ziemke judges that Zitadelle was not doomed from the start: the assault divisions were in excellent shape with many new tanks, and the Luftwaffe committed about half of its 2,500 first-line aircraft in the East.",
+        evidence: "fact",
+        studies: ["kursk"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Zitadelle",
+        text: "On 5 July the Ninth Army attacked from the north and the Fourth Panzer Army from the south. The Ninth Army broke Rokossovskiy’s first line on the first day but was stalled within a week; in the south the SS panzer corps reached the Psel. On 12 July Soviet fronts attacked the Orel salient behind the Ninth Army, and on 13 July Hitler called off the offensive, alarmed above all by the Allied landing in Sicily three days earlier. Manstein protested that the battle was just reaching its turning point, but Kluge declared that the Ninth Army could not advance again.",
+        evidence: "fact",
+        studies: ["kursk"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "To the Dnepr",
+        text: "Model, placed in command of the Orel salient as well as his own army, had to give up Orel on 4 August and fell back to the Hagen line. In the south the Eighth Army asked on 20 August to evacuate Kharkov, and in September Army Group South was allowed to go behind the Dnepr; the Soviet armies reached the river with their offensive power largely intact and were across it near the Pripyat before the end of September.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 3 }, { source: 1 }],
+      },
+      {
+        title: "The initiative lost",
+        text: "Ziemke concludes that Hitler meant Zitadelle to make the world sit up, and instead set off a convulsion of the whole Eastern Front that weakened his armies and left the Soviet Union in full possession of the initiative. For Klink, its failure was the signal for the German army in the East to go over finally to the defensive.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Manstein’s claim on 13 July that the Russians in the south could be considered beaten was disputed at once by Kluge and cannot be tested, since the offensive was stopped. Ziemke’s account rests largely on German records, and the sources read here say little about the Soviet side of the tank battles in the south.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+    ],
+    sources: [zZitadelle, zSummer, manstein, model],
+  },
+  "burma-campaign": {
+    summary:
+      "The war in Burma and on the Indian frontier, above all the defeat of the Japanese offensive against Imphal and Kohima in 1944 and the Allied reconquest of Burma that followed.",
+    narrative: [
+      {
+        title: "Operation C",
+        text: "In early 1944 the Japanese launched an offensive whose object, Saunders writes, seemed to be nothing less than the invasion of India. In a first phase they would take Chittagong on the Arakan front and draw Slim’s reserves into battle; a month later they would seize the bases at Imphal and Dimapur, cut the lines of communication through Assam and install Subhas Chandra Bose at the head of a government on Indian soil.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "The Admin Box",
+        text: "The Arakan attack opened on 4 February. By the 10th the Japanese had cut the Nyakyedauk Pass and surrounded the British “Admin Box”, expecting the encircled troops to retreat as before. Instead they stood and were supplied by air under Spitfire cover, and by mid-March the besiegers had become the besieged.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Imphal",
+        text: "On 8 March the Japanese 15th and 33rd Divisions struck toward Imphal. The 17th Indian Division, ordered to leave Tiddim, began its withdrawal only on 13 March, when the enemy was already across its road. Mountbatten diverted transport aircraft from the “Hump” route to China, and the 5th Indian Division was flown into Imphal in 758 sorties; the garrison, cut off by road, lived on air supply while fighter-bombers struck at the besiegers.",
+        evidence: "fact",
+        studies: ["imphal-kohima"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Kohima",
+        text: "The Japanese 31st Division attacked Kohima on 4 April, and the fighting there was among the fiercest of the war; at one point the two sides held opposite edges of a tennis court. Hurricane fighter-bombers flew over 2,200 sorties in sixteen days in support. The capture of the Aradura Spur on 5–6 June ended the battle, and IV and XXXIII Corps began to fight their way toward each other along the Kohima–Imphal road.",
+        evidence: "fact",
+        studies: ["imphal-kohima"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "The rout of the Fifteenth Army",
+        text: "Saunders estimates conservatively that the Japanese lost 30,000 men and nearly a hundred guns in northern Burma between mid-March and mid-June 1944. The Fifteenth Army retreated through the monsoon, harried from the air. Hogan writes that the British decisively defeated it at Imphal in June and July, removing the threat to India, while Stilwell’s Chinese-American force took Myitkyina in August; MacGarrigle describes Slim’s pursuit through the rainy season that ended in the destruction of the Fifteenth Army and the reconquest of central Burma.",
+        evidence: "fact",
+        studies: ["imphal-kohima"],
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+      },
+      {
+        title: "War on air supply",
+        text: "Saunders argues that air supply was the decisive factor in the defeat of the Japanese, first in the Arakan and then at Kohima and Imphal, because it let encircled troops stand instead of retreating. Hogan’s brochure shows the American effort in the theatre aimed at the route to China, with Stilwell, pressed by the Joint Chiefs, driving for Myitkyina even while the British were holding off the Japanese offensive into India.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "The account of the Japanese plan comes from the RAF’s official history, which names the Japanese commander as “General Hanayoa”, and its loss figure for the Japanese is an estimate. The American brochures treat Imphal only in passing, as the background to their own operations in northern Burma.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+      },
+    ],
+    sources: [saundersImphal, cmhIndiaBurma, cmhCentralBurma],
+  },
+  "north-west-europe-campaign": {
+    summary:
+      "The Allied campaign in north-west Europe from the Normandy landings of June 1944 through the liberation of France and Belgium, Arnhem and the Battle of the Bulge.",
+    narrative: [
+      {
+        title: "The German defenders",
+        text: "Rundstedt, commander in the West from March 1942, failed in Neitzel’s judgement to develop an effective strategy against an Allied landing. Rommel took over Army Group B in December 1943 and had the coastal defences built up, but the two disagreed over how to fight the invasion. After the landing Rommel soon recognized the hopelessness of the situation but could not convince Hitler, and on 17 July he was badly wounded in an air attack.",
+        evidence: "fact",
+        studies: ["normandy"],
+        refs: [{ source: 5 }, { source: 4 }],
+      },
+      {
+        title: "Normandy",
+        text: "Hammond’s account of the landing is one of things going wrong: the airborne drops on the night before scattered the men too widely to do more than confuse the enemy, Montgomery’s forces failed to take Caen on D-Day, and Omaha Beach was a near-disaster averted by the courage of individual sailors and soldiers. The Germans, instead of withdrawing behind the Seine as Allied planners had expected, held on at brutal cost; Rommel told his son he had never fought with such losses. Montgomery’s repeated attacks around Caen, Hammond argues, held the best German forces away from the Americans in the bocage.",
+        evidence: "fact",
+        studies: ["normandy"],
+        refs: [{ source: 0 }, { source: 4 }],
+      },
+      {
+        title: "Breakout",
+        text: "By late July, Hogan writes, the Germans were losing the battle of the build-up: fourteen German divisions faced fourteen British near Caen, but only nine faced seventeen American divisions in the hedgerows. Once the Americans broke through near St Lô they proved superior in mobile warfare to a largely horse-drawn Wehrmacht, and Hitler’s refusal to retreat across open country north of the Loire led to disaster in the Falaise pocket. Model replaced Kluge as commander in the West on 16 August but could not turn the tide.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 1 }, { source: 6 }],
+      },
+      {
+        title: "Market-Garden",
+        text: "Antwerp was taken almost intact on 4 September but remained useless while the Germans held the Scheldt estuary. Operation Market-Garden, planned by Montgomery’s 21 Army Group and launched on 17 September with 1,545 transport aircraft and 478 gliders, sent airborne divisions to seize the bridges between Eindhoven and Arnhem and open a corridor for the British 30 Corps to cross the Rhine. It rested, Ballard writes, on three assumptions: weak German defences, a single road able to carry 20,000 vehicles quickly, and good flying weather in autumn. On 25 September some 2,000 men of the British 1st Airborne Division crossed back over the Lower Rhine; the other 7,000 who had fought at Arnhem were dead or missing.",
+        evidence: "fact",
+        studies: ["market-garden"],
+        refs: [{ source: 2 }],
+      },
+      {
+        title: "The Ardennes",
+        text: "Model rebuilt a continuous German front from the Scheldt to Belfort and helped plan the Ardennes offensive, agreeing in the end to Hitler’s “big solution”. Hitler had named Antwerp as the objective in September. The attack opened at 5.30 a.m. on 16 December against an Allied command that believed up to the last moment the Germans would not attack, and the few roads through the Ardennes ran through road centres such as Bastogne and St Vith. Model ended the war by dissolving his army group in the Ruhr pocket on 17 April 1945 and taking his own life.",
+        evidence: "fact",
+        studies: ["battle-of-the-bulge"],
+        refs: [{ source: 6 }, { source: 3 }],
+      },
+      {
+        title: "What decided the campaign",
+        text: "Hogan grants that the German generals’ postwar blame on Allied material superiority and on Hitler contains a grain of truth, but credits American mobility, close air-ground cooperation and an aptitude for improvisation. Cirillo concludes that Hitler’s last offensives in the Ardennes and Alsace failed in both their aims, destroying a large Allied force and breaking up the coalition, and that their cost in men, equipment and morale hastened the end of the war, while the Allies’ cautious broad front left weak points that a desperate enemy could exploit.",
+        evidence: "interpretation",
+        studies: ["battle-of-the-bulge"],
+        refs: [{ source: 1 }, { source: 3 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Hogan calls the failure to close the Falaise gap a lasting controversy, with Bradley taking responsibility for halting his corps while blaming Montgomery, and the relative quality of German and American troops a debate that remains heated. Bradley writes that the Allies stopped the Ardennes offensive only after a week, while Cirillo shows the Germans holding off Allied counterattacks for a month and withdrawing part of their force. These are American Army brochures; the British and Canadian armies appear mainly where they bear on American operations.",
+        evidence: "uncertainty",
+        studies: ["market-garden"],
+        refs: [{ source: 1 }, { source: 6 }, { source: 3 }, { source: 0 }],
+      },
+    ],
+    sources: [
+      cmhNormandy,
+      cmhNorthernFrance,
+      cmhRhineland,
+      cmhArdennes,
+      rommel,
+      rundstedt,
+      model,
+    ],
+  },
+  "soviet-summer-offensive-of-1944": {
+    summary:
+      "The Soviet summer offensive of 1944, Operation Bagration, which destroyed the German Army Group Center in Belorussia and carried the Red Army to the Vistula and East Prussia.",
+    narrative: [
+      {
+        title: "Deception and delusion",
+        text: "From the third week of April 1944 the Stavka built up its forces opposite Army Group Center under an elaborate deception meant to persuade the Germans that the summer offensive would again come in the south. Ziemke describes the German commands adding a self-induced delusion: they expected the blow against Army Group North Ukraine because that was where they were ready to meet it, and Busch let Model take Army Group Center’s strongest reserve, the LVI Panzer Corps, for his own front without protest.",
+        evidence: "fact",
+        studies: ["bagration"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "The odds",
+        text: "When the build-up was complete, 1.2 million Soviet combat troops stood in the offensive zone from Vitebsk to Bobruysk against an Army Group Center of slightly over 700,000; with the reserves the Stavka held back, 2.5 million men took part. Four thousand tanks, 24,400 guns and mortars and 5,300 aircraft gave superiorities of ten to one and more at the points of assault.",
+        evidence: "fact",
+        studies: ["bagration"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Collapse of the center",
+        text: "Five divisions were encircled and as good as lost at Vitebsk, and Hitler ordered Orsha and Mogilev held as “fortified places”. In twelve days Army Group Center lost twenty-five divisions; the Fourth Army lost 130,000 of its 165,000 men. Model took over the army group while keeping his own, and on 17 July the Russians marched 57,000 German prisoners through the streets of Moscow.",
+        evidence: "fact",
+        studies: ["bagration"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "To the Vistula",
+        text: "In mid-July the offensive spread south, where Konev’s armies met behind Lvov on 18 July, and north toward the Baltic. Soviet columns crossed the San and headed for the Vistula, and by the end of the month they were twenty miles from the East Prussian border. In the middle of the crisis, on 20 July, a bomb exploded at Hitler’s headquarters; Guderian, appointed acting chief of the General Staff, believed he could influence the conduct of the war in the East, but constant friction with Hitler ended with his being sent on leave at the end of March 1945.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "Who saved the front",
+        text: "Ziemke calls Army Group Center under Busch a mindless instrument of Hitler’s will to hold every line, and points to the irony that Model, called in to rescue it, had helped bring on the disaster by drawing off its reserve. Bradley credits Model’s skill with forming a continuous front again and bringing the Soviet offensive to a halt.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Ziemke reports only that the build-up began “allegedly” on a decision of the State Defense Committee. Bradley’s praise of Model sits uneasily with Ziemke’s account of his part in weakening Army Group Center, and Ziemke notes that by the third week of July the Russians, after advancing more than 200 miles without a pause, had for the time being outrun their supplies, so the halt was not Model’s work alone.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+    ],
+    sources: [zCenter, model, guderian],
+  },
+  "philippines-campaign-of-1944-1945": {
+    summary:
+      "The American return to the Philippines from October 1944: the landing on Leyte, the naval Battle of Leyte Gulf and the campaign for Luzon.",
+    narrative: [
+      {
+        title: "Luzon or Formosa",
+        text: "Through 1944 MacArthur argued for advancing through the Philippines to Luzon, while others preferred Formosa. Once the landing on Leyte had been brought forward by two months, MacArthur could promise Luzon in December, long before a Formosa operation could be ready, and on 3 October Admiral King accepted the new plans. The Japanese, for their part, had drawn up the “Sho” plan for a decisive battle on their inner line, and when the Americans landed in the central Philippines in October they activated it, committing the fleet and sending reinforcements to Leyte.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 1 }, { source: 2 }],
+      },
+      {
+        title: "Leyte Gulf",
+        text: "Four Army divisions landed abreast on Leyte on 20 October. The Japanese fleet came in three groups; one, with four carriers but no aircraft, was a decoy to lure Halsey’s Third Fleet north, and Halsey followed it without consulting MacArthur or Kinkaid. The southern force was destroyed in Surigao Strait, but the main force, with the giant battleships Yamato and Musashi, came through San Bernardino Strait and down the coast of Samar; on the morning of 25 October, after two and a half hours against light escorts, it broke off and withdrew. The Japanese lost three battleships, ten cruisers, nine destroyers and all four carriers; the Americans one light and two escort carriers and three destroyers.",
+        evidence: "fact",
+        studies: ["leyte-gulf"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "The battle for Leyte",
+        text: "Believing they had crippled the American carriers, the Japanese decided to fight the decisive battle on Leyte and ran nine convoys of reinforcements to the island; MacArthur’s staff at first read the intercepted signals as an evacuation. The fighting lasted far longer than planned. Kamikaze aircraft, first used against the shipping in Leyte Gulf, became the Japanese answer to the loss of their air strength.",
+        evidence: "fact",
+        studies: ["leyte-gulf"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Luzon",
+        text: "On 9 January 1945 four divisions landed at Lingayen Gulf. Yamashita did not mean to defend Manila, only to hold down MacArthur’s forces in the mountains, but the naval forces in the city ignored him, and after the Americans reached Manila on 3 February it took a month of building-to-building fighting to clear it. Luzon became the largest land campaign of the Pacific war; organized resistance ended in late June except in the mountains of the north, where Yamashita held out until the end of the war.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 1 }],
+      },
+      {
+        title: "A decisive battle",
+        text: "The Army history counts Leyte Gulf among the most decisive actions of the Pacific war. Anderson calls Leyte the first and most decisive operation of the reconquest: the Japanese lost four divisions, twenty-six major warships and forty-six large transports and merchantmen, and more than half their land-based air power in the Philippines. He also lists the American intelligence failures, above all the failure to see that the Japanese meant to fight the decisive battle on Leyte.",
+        evidence: "interpretation",
+        studies: ["leyte-gulf"],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Anderson writes that the Japanese battle fleet off Samar “mysteriously” broke off the action, leaving its chance unexploited, and that the two sides came away with sharply different ideas of who had won. The Army history stresses Halsey’s decision to go north without consulting MacArthur or Kinkaid, which the brochure records more neutrally.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+    ],
+    sources: [cmhLeyte, amhJapan, ussbsPlanning],
+  },
+  "central-pacific-drive": {
+    summary:
+      "The American advance across the Central Pacific from the Marianas in 1944 to Iwo Jima and Okinawa in 1945, which brought Japan within reach of land-based bombers and invasion.",
+    narrative: [
+      {
+        title: "The Marianas",
+        text: "The Central Pacific route promised to force a naval showdown, and the seizure of the Marianas brought the Japanese home islands within reach of the B-29 bombers, which began to raid Japan in late November 1944. Army and Marine divisions landed on Saipan on 15 June 1944 and on Guam on 21 July, and marines went ashore on Tinian three days later. After the Battle of the Philippine Sea, Anderson writes, the Japanese no longer had the naval air strength to face the American carrier forces; the Marianas and Palaus cost the Army 7,791 dead and wounded and the Marines and Navy over 26,000, while more than 72,000 Japanese became casualties, nearly all of them killed.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 3 }, { source: 0 }],
+      },
+      {
+        title: "Iwo Jima",
+        text: "Iwo Jima was taken for its airfields, within escort fighter range of Honshu and a refuge for crippled B-29s. Japanese plans made no provision for a large-scale defence beyond the local garrison. The 4th and 5th Marine Divisions landed on 19 February 1945 against what the Army history calls probably the strongest defensive system Americans met in the Pacific; the defenders had to be dug out of their underground positions one by one. The Survey dates the end of organized resistance to 16 March and counts about 21,000 American casualties; before the war ended some 2,400 B-29s made emergency landings on the island.",
+        evidence: "fact",
+        studies: ["iwo-jima"],
+        refs: [{ source: 1 }, { source: 3 }],
+      },
+      {
+        title: "Okinawa",
+        text: "General Ushijima’s 32nd Army, over 77,000 troops reinforced by about 20,000 Okinawan home guards and conscripted students, left the beaches undefended and dug into the hills around Shuri. The Americans landed unopposed on 1 April. From 6 April kamikaze attacks struck the fleet, sinking some twenty-five ships, and on 6–7 April carrier aircraft sank the battleship Yamato on her way to the island. General Buckner, commanding the Tenth Army, was killed on 18 June.",
+        evidence: "fact",
+        studies: ["okinawa"],
+        refs: [{ source: 2 }, { source: 3 }],
+      },
+      {
+        title: "The last stand",
+        text: "As the Shuri line fell, the Japanese withdrew to the south of the island; suicides soared, and Ushijima’s chief of staff, General Cho, killed himself on 22 June. The campaign formally ended on 2 July, America’s bloodiest against Japan. Engineers were building airfields long before the fighting ended, and by the end of June five air bases were ready for the bombers that would prepare the invasion of Kyushu and Honshu.",
+        evidence: "fact",
+        studies: ["okinawa"],
+        refs: [{ source: 2 }],
+      },
+      {
+        title: "Firepower against fortification",
+        text: "Fisch sees no tactical breakthrough on Okinawa: it was American firepower against Japanese fortifications, won by foot soldiers and small unit leaders, and it erased any hope among Japanese leaders that an invasion of the home islands could be avoided. The Survey judges that Iwo Jima brought airfields 600 miles closer to Japan, and Anderson questions whether the Palaus were worth their cost.",
+        evidence: "interpretation",
+        studies: ["iwo-jima"],
+        refs: [{ source: 2 }, { source: 1 }, { source: 0 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "The Survey dates the end of organized resistance on Iwo Jima to 16 March, while the Army history speaks only of a month of fighting. For Okinawa the Army history has organized resistance lasting until late June, while Fisch dates the formal end of the campaign to 2 July.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 1 }, { source: 3 }, { source: 2 }],
+      },
+    ],
+    sources: [cmhWesternPacific, ussbsIwo, cmhRyukyus, amhJapan],
+  },
+  "final-soviet-offensives-of-1945": {
+    summary:
+      "The Soviet offensives of 1945 from the Vistula to the Oder and the Battle of Berlin, which ended the war in Europe.",
+    narrative: [
+      {
+        title: "On the Oder",
+        text: "In January 1945 the Red Army drove from the Vistula to the Oder, forty miles from Berlin. Heinrici, commanding the army group defending the Oder front, was promised 100,000 men by Hitler to replace his transferred panzer divisions and received about 35,000 untrained air force and navy men; he made clear that his army group did not propose to fight in the city, and that the Ninth Army would retreat past it on both sides.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }, { source: 0 }],
+      },
+      {
+        title: "The Seelow Heights",
+        text: "The First Belorussian and First Ukrainian Fronts attacked before dawn on 16 April. The main force of the First Belorussian Front had to cross the marshy bottomland of the Oder and take the Seelow Heights, and when the assault stalled again on the second day a reserve army and both tank armies were thrown in. Hitler ordered Heinrici to hold everywhere while also sending troops to the threatened flanks; Heinrici asked to be relieved rather than carry out orders he could not reconcile with his conscience.",
+        evidence: "fact",
+        studies: ["berlin-1945"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Encirclement",
+        text: "The two Soviet fronts met south-east of Berlin and isolated the Ninth Army, while Hitler pinned his hopes on Wenck’s Twelfth Army, turned around from the Elbe to attack east. Hitler ordered Weidling’s panzer corps into the eastern and south-eastern defences of the city. On 25 April American and Soviet troops met at Torgau on the Elbe; Eisenhower had put his main weight elsewhere because the Russians were clearly going to reach Berlin first.",
+        evidence: "fact",
+        studies: ["berlin-1945"],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "The bunker",
+        text: "In his last testament Hitler named Dönitz as his successor. Between 3 and 3.30 in the afternoon of 30 April Hitler and his wife killed themselves in the bunker, while a quarter of a mile away the Russians were storming the Reichstag. On 7 May German emissaries surrendered at Eisenhower’s headquarters in Reims.",
+        evidence: "fact",
+        studies: ["berlin-1945"],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "The war in the East",
+        text: "Ziemke closes with the scale of the German-Soviet war: almost four years of fighting on a front never shorter than 2,400 miles from autumn 1941 to autumn 1943, German military dead of 3 to 3.5 million and Soviet military deaths of more than 12 million, about 47 percent of all soldiers killed in the war. He calls the Soviet victory one of manpower and industrial production exploited with complete ruthlessness, helped by $10.2 billion of lend-lease, and lays the chief responsibility for the German defeat on Hitler.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 1 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Ziemke qualifies the German death toll as “apparently” between 3 and 3.5 million, and the Soviet figures come from Soviet sources. He also questions the Soviet claim to the preponderant contribution to Germany’s defeat, which rests on statistics of troops and distances that, he notes, ignore how much less space meant in the Soviet Union than in the rest of Europe.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 1 }],
+      },
+    ],
+    sources: [zBerlin, zConclusion, amhGermany],
+  },
+  "hannibal-s-italian-campaign": {
+    summary:
+      "Hannibal’s invasion of Italy in the Second Punic War, from the march over the Alps in 218 BCE through Trebia, Trasimene and Cannae to his recall to Africa.",
+    narrative: [
+      {
+        title: "Over the Alps",
+        text: "Hannibal judged that Rome could only be beaten if its Italian confederacy broke apart, so he carried the war into Italy by land while the Roman fleets held the sea. Polybius records a march of five months from New Carthage, fifteen days of it in the Alps, and reports from Hannibal’s own inscription at the Lacinian promontory that he reached the plain of the Po in 218 BCE with 12,000 African and 8,000 Iberian foot and no more than 6,000 horse.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }, { source: 0, locator: "3.56" }],
+      },
+      {
+        title: "Trebia and Trasimene",
+        text: "Superior Carthaginian cavalry and a rising among the Gauls drove the Romans back toward the Apennines, and at the end of 218 Hannibal beat their combined army on the Trebia. In 217 he crossed into Etruria by an unguarded pass and trapped a pursuing army on the shore of Lake Trasimene, where it lost some 40,000 men. He did not march on Rome but turned south to raise Rome’s old enemies, while the dictator Fabius shadowed him without ever accepting battle.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }],
+      },
+      {
+        title: "Cannae",
+        text: "In 216 Rome sent out an exceptionally strong field army to end the war in open battle. Near Cannae in Apulia Hannibal let his centre be driven in by the legions while his cavalry wheeled against their flanks and rear, and the army was all but annihilated. Polybius says about seventy thousand Romans and allies died and some ten thousand were captured away from the field, against about 5,700 killed on Hannibal’s side.",
+        evidence: "fact",
+        studies: ["cannae"],
+        refs: [{ source: 2 }, { source: 0, locator: "3.117" }],
+      },
+      {
+        title: "The war of attrition",
+        text: "Capua and much of the south then went over to Hannibal, but central and northern Italy, the Greek cities of the coast and the Latin colonies held firm. Rome avoided battle with him and raised as many as 200,000 men, while he had to guard his new allies and never secured a good port until most of Tarentum came into his hands in 212. Capua was blockaded and starved into surrender in 211, despite Hannibal’s feint at Rome, and Tarentum was recovered in 209.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }],
+      },
+      {
+        title: "The Metaurus and the recall",
+        text: "In 207 Hasdrubal brought a second army over the Alps, but the consul Nero slipped north from Hannibal’s front with part of his troops, joined his colleague Livius and destroyed Hasdrubal on the Metaurus. Hannibal held on in the far south until Carthage called him home. Livy describes him groaning as he heard the order, and says Rome scarcely knew whether to rejoice that he had left Italy in the sixteenth year of the war.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }, { source: 3, locator: "30.20, 30.28" }],
+      },
+      {
+        title: "Genius and confederacy",
+        text: "Polybius drew the military lesson of Cannae: better half as many infantry and overwhelming cavalry than equality in every arm. Livy gives the Roman tradition that Maharbal told Hannibal he knew how to conquer but not how to use a victory, and that the delay after Cannae saved the city. The Britannica account rejects any strategic fault in Hannibal, explaining his failure by Roman tenacity and the compactness of the Italian confederacy, a case of individual genius overborne by corporate effort.",
+        evidence: "interpretation",
+        studies: ["cannae"],
+        refs: [
+          { source: 0, locator: "3.117" },
+          { source: 1, locator: "22.51" },
+          { source: 2 },
+        ],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Against Polybius’s seventy thousand dead at Cannae, Livy, in the translation used here, reports that forty thousand foot and 2,700 horse are said to have been slain. Livy also cites an account of Hannibal bringing 80,000 foot and 10,000 horse into Italy, far above the figures Polybius took from Hannibal’s inscription. The Britannica article, which warns that Livy drew partly on untrustworthy Roman annalists, has Italy cleared of Carthaginian troops in 205, yet places the Carthaginian peace talks that preceded Hannibal’s recall after Scipio’s victories of 203.",
+        evidence: "uncertainty",
+        studies: ["cannae"],
+        refs: [{ source: 1 }, { source: 0 }, { source: 2 }],
+      },
+    ],
+    sources: [polybius3, livy926, ebPunic, livy2736],
+  },
+  "scipio-s-african-campaign": {
+    summary:
+      "Scipio’s invasion of Africa from 204 BCE, which destroyed the armies of Carthage and Syphax, forced Hannibal home and ended the Second Punic War at Zama.",
+    narrative: [
+      {
+        title: "The invasion",
+        text: "In 205 BCE Scipio, back from his victories in Spain and consul at Rome, proposed to attack Carthage at home. The presence of Hannibal in Italy made the senate hesitate; Livy shows Quintus Fulvius demanding to know whether Scipio would accept its decision or go to the people. Popular support carried the plan. Scipio organized his force in Sicily, crossed in 204 and was penned to the shore near Utica by Carthage and King Syphax of Numidia.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }, { source: 3, locator: "28.45" }],
+      },
+      {
+        title: "The burning of the camps",
+        text: "Through the winter Scipio kept up negotiations with Syphax while his agents studied the enemy camps, the Numidian huts built only of reeds and matting. In the spring he made as if to besiege Utica, then marched at night; Laelius and Massinissa fired the camp of Syphax, and when the Carthaginians ran out unarmed, thinking the blaze an accident, Scipio fell on them and fired theirs. Polybius describes thousands of men, horses and mules dying in the flames.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Recall and truce",
+        text: "In 203 a new Carthaginian force was destroyed on the Great Plains near Utica, Syphax was captured and Massinissa restored to his kingdom. Carthage sued for peace on moderate terms, then changed its mind and summoned Hannibal’s army home for a last trial of arms. A conference between the two commanders came to nothing.",
+        evidence: "fact",
+        studies: ["zama"],
+        refs: [{ source: 2 }],
+      },
+      {
+        title: "Zama",
+        text: "Hannibal placed over eighty elephants in front, then some twelve thousand mercenaries, then the Libyans and Carthaginians, and held his veterans from Italy back as a third line. Scipio’s formation left lanes through which the frightened elephants passed harmlessly, and Laelius drove off the Carthaginian cavalry. The mercenaries, abandoned by the line behind them, turned on it. The decision came against Hannibal’s reserve, when the cavalry of Laelius and Massinissa returned and struck it in the rear.",
+        evidence: "fact",
+        studies: ["zama"],
+        refs: [{ source: 1 }, { source: 2 }],
+      },
+      {
+        title: "The peace",
+        text: "Carthage kept its African territory and its own laws but gave up its warships except ten triremes and all its elephants, undertook to make no war outside Africa, nor any within it without Rome’s consent, restored Massinissa’s possessions and paid an indemnity of 10,000 talents over fifty years.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 1, locator: "15.18" }, { source: 2 }],
+      },
+      {
+        title: "Two generals",
+        text: "Polybius insists that Hannibal did everything at Zama that a good general of long experience could do, and that he first tried to settle the dispute by conference. The Britannica account sees in the final cavalry attack a manoeuvre recalling the tactics of Cannae, and concludes from the Roman successes outside Italy that Carthage could only have won by turning Italy’s own resources against Rome.",
+        evidence: "interpretation",
+        studies: ["zama"],
+        refs: [{ source: 1 }, { source: 2 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Livy counts over twenty thousand Carthaginians and allies killed at Zama, about as many captured and up to two thousand of the victors dead, and notes that Valerius Antias told a different story of the run-up, with a battle of twelve thousand slain before Hannibal came to Scipio as an envoy. The name of Zama is itself a problem: the Britannica article notes that the site had not been identified with certainty. The Britannica article describes Polybius’s books for these years as fragmentary, their most continuous passages being those on Scipio’s campaigns.",
+        evidence: "uncertainty",
+        studies: ["zama"],
+        refs: [{ source: 3, locator: "30.35" }, { source: 2 }, { source: 1 }],
+      },
+    ],
+    sources: [polybius14, polybius15, ebPunic, livy2736],
+  },
+  "second-macedonian-war": {
+    summary:
+      "Rome’s war against Philip V of Macedon from 200 to 196 BCE, decided at Cynoscephalae and ended by the proclamation of Greek freedom at the Isthmian Games.",
+    narrative: [
+      {
+        title: "After Hannibal",
+        text: "Philip V had made a treaty with Hannibal in 215 BCE, and the First Macedonian War ended at the Peace of Phoenice in 205. Once Hannibal was beaten, in the words of the Livius survey, Rome wanted revenge. War came again in 200.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 3 }],
+      },
+      {
+        title: "Flamininus",
+        text: "Titus Quinctius Flamininus was elected consul when not yet thirty and found his predecessor facing Philip across the narrow passes of the river Apsus. Forcing the Macedonians from those positions, he carried the war into Thessaly and sought the support of the Greek states.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }],
+      },
+      {
+        title: "Cynoscephalae",
+        text: "In June 197 the armies met among the hills of Cynoscephalae. Polybius describes Philip’s own wing driving the Romans before it while his other wing was routed and pursued over the summits; an unnamed tribune then took no more than twenty maniples from the victorious Roman side and struck the advancing Macedonians from behind. Eight thousand Macedonians fell and five thousand were captured; Philip escaped because the Aetolians stopped to plunder his camp.",
+        evidence: "fact",
+        studies: ["cynoscephalae"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Freedom proclaimed",
+        text: "The peace required Philip to withdraw from the Greek cities in Europe and Asia. At the Isthmian Games of 196, a herald announced that the Greeks previously subject to him were free, ungarrisoned and tax-free under their own laws; Polybius says the crowd demanded that the announcement be repeated, and Plutarch describes the confusion in the stadium as people asked one another what had been said.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "Legion and phalanx",
+        text: "Polybius used the battle to explain why the legion beat the phalanx: the phalanx was irresistible on level, open ground and while it stayed intact, but it needed exactly those conditions, while Roman soldiers could fight anywhere and exploit any gap. The Livius survey adds that the Roman withdrawal left a vacuum that drew in Antiochus III and brought the legions back.",
+        evidence: "interpretation",
+        studies: ["cynoscephalae"],
+        refs: [{ source: 0 }, { source: 3 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Livy states openly that Valerius Antias, who “on every occasion exaggerates numbers enormously”, gave forty thousand enemy dead and 5,700 prisoners at Cynoscephalae, and Claudius 32,000 dead and 4,300 prisoners, while he himself reports about seven hundred Roman dead and leans on Polybius. It is a rare view of how Roman historians inflated their victories, and a warning for battle figures that survive only from them.",
+        evidence: "uncertainty",
+        studies: ["cynoscephalae"],
+        refs: [{ source: 1 }],
+      },
+    ],
+    sources: [polybius18, livy2736, plutarchFlamininus, liviusMacedonia],
+  },
+  "third-macedonian-war": {
+    summary:
+      "Rome’s war against Perseus of Macedon from 171 to 168 BCE, ended at Pydna by Aemilius Paullus and followed by the abolition of the Macedonian monarchy.",
+    narrative: [
+      {
+        title: "Perseus",
+        text: "Philip’s son Perseus inherited strained relations with Rome but won support in Greece. In the Livius survey’s judgement the Romans had decided to isolate and destroy him; war broke out in 171 BCE.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }],
+      },
+      {
+        title: "Early failures",
+        text: "Perseus opened well. Near Callinicus hill in 171 he brought his cavalry and light troops up to the Roman camp and won the action, Livy counting two hundred Roman horse and not less than two thousand foot killed for a few dozen of his own, then offered peace on the terms his father had accepted; the war went on. In 169 the consul Marcius Philippus forced a way through the mountains into Macedonia by a rugged pass, at great risk, but the war still dragged on.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "The turning of Olympus",
+        text: "In 168 Aemilius Paullus took command and found Perseus in a strong position. He sent Scipio Nasica with a detachment around by the mountains, as if to go by sea, and Nasica surprised the Macedonian guard on the heights, forcing Perseus to withdraw toward Pydna. Plutarch quotes Nasica’s own letter to one of the kings for the details of the march.",
+        evidence: "fact",
+        studies: ["pydna"],
+        refs: [{ source: 1 }],
+      },
+      {
+        title: "Pydna",
+        text: "An eclipse of the moon before the battle alarmed the Macedonians, among whom it was rumoured to portend the eclipse of a king. At Pydna on 22 June 168 the phalanx was broken. Plutarch reports over twenty-five thousand enemy dead, against a Roman loss of a hundred according to Poseidonius or eighty according to Nasica.",
+        evidence: "fact",
+        studies: ["pydna"],
+        refs: [{ source: 1 }],
+      },
+      {
+        title: "The settlement",
+        text: "The senate ended the monarchy, dividing Macedonia into four districts, each with its own council, which were to pay Rome half the tribute they had paid their kings. Perseus was led in Paullus’s triumph, having begged to be spared it. In Epirus Paullus carried out the senate’s order to plunder: Plutarch says seventy cities were sacked and 150,000 people enslaved in a single hour. Macedonia became a province in 148.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+      },
+      {
+        title: "What the victory meant",
+        text: "Plutarch frames the war as a meditation on fortune, with Paullus treating himself in his triumph as no less clear an example of human weakness than his captive. He also judges the sack of Epirus by its result: each soldier received no more than eleven drachmas, and all men shuddered at the outcome.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 1 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Plutarch sets two witnesses against each other on the mountain march: Polybius says the Macedonian guards were still asleep when the Romans fell on them, while Nasica claims a sharp fight in which he killed a Thracian with his own hand. The astonishingly small Roman losses at Pydna come from Poseidonius and from Nasica, a participant.",
+        evidence: "uncertainty",
+        studies: ["pydna"],
+        refs: [{ source: 1 }],
+      },
+    ],
+    sources: [livy3745, plutarchAemilius, liviusMacedonia],
+  },
+  "crassus-s-parthian-expedition": {
+    summary:
+      "Marcus Licinius Crassus’s invasion of the Parthian Empire in 54–53 BCE, which ended in the destruction of his army at Carrhae and his own death.",
+    narrative: [
+      {
+        title: "The expedition",
+        text: "Crassus, assigned Syria for five years as consul in 55 BCE, crossed the Euphrates and at first took many cities in Mesopotamia that came over to him, then marched along the river with seven legions, nearly four thousand horsemen and about as many light troops. King Artavasdes of Armenia offered help and urged an advance through his country; instead, Plutarch writes, Hyrodes divided his forces, invading Armenia himself and sending Surena against the Romans.",
+        evidence: "fact",
+        studies: ["carrhae"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "The advice refused",
+        text: "Cassius urged Crassus to rest in a garrisoned city until he had sure information, or at least to keep to the river and advance on Seleucia. Plutarch and Dio both show him instead led away from the Euphrates by a treacherous local ally, whom Plutarch calls the Arab chieftain Ariamnes and Dio Abgarus of Osroëne, Dio adding the promise that Surena was close with few men. When word came from Armenia that Artavasdes could not send help, Crassus answered that he would punish him later.",
+        evidence: "fact",
+        studies: ["carrhae"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Carrhae",
+        text: "Near Carrhae in May 53 the Parthians enveloped the Roman square. The Romans hoped the archers would run out of arrows, and lost heart on seeing camels bringing up fresh supplies. Crassus’s son Publius fell in a sortie. The survivors retreated by night; when Crassus went to a parley with Surena he was killed.",
+        evidence: "fact",
+        studies: ["carrhae"],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "The aftermath",
+        text: "Plutarch reports twenty thousand killed and ten thousand captured in the whole campaign. Cassius rode away to Syria with five hundred horsemen, and when the Parthians raided as far as Antioch he repulsed them. Plutarch describes a parody of a Roman triumph staged at Seleucia.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Why Crassus lost",
+        text: "The ancient accounts dwell on Crassus’s greed, his omens and the treachery of his guides. The Livius article rejects this: treachery and a desert unfit for Roman deployment were invented, it argues, to cover the fact that the Parthians were superior in numbers and quality and had better supply lines, their camels bringing hundreds of thousands of arrows. It notes too that an army of seven legions could feed itself in the valley of the Balikh.",
+        evidence: "interpretation",
+        studies: ["carrhae"],
+        refs: [{ source: 2 }, { source: 0 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Plutarch and Dio both blame a treacherous ally but name different men, and the Livius article treats the theme of treachery as a Roman excuse. Plutarch alone preserves the detailed story of the campaign, and his casualty figures are introduced only as what “are said” to be the losses.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+      },
+    ],
+    sources: [plutarchCrassus, dio40, liviusCarrhae],
+  },
+  "gallic-revolt-of-52-bce": {
+    summary:
+      "The great Gallic rising of 52 BCE under Vercingetorix, from the massacre at Cenabum through Avaricum and Gergovia to the siege and surrender of Alesia.",
+    narrative: [
+      {
+        title: "The rising",
+        text: "Early in 52 BCE Roman traders were massacred at Cenabum and the Arverni rose under Vercingetorix, soon joined by other tribes. Caesar hurried back from Italy, slipped past him and reached his legions at Agedincum. Vercingetorix, seeing that Caesar could not be met in open battle, resolved to concentrate in a few strong positions and deny the Romans food.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+      {
+        title: "Avaricum and Gergovia",
+        text: "Caesar took Avaricum, and by his own account scarcely eight hundred of about forty thousand people there got away to Vercingetorix. He then besieged Gergovia, the Arvernian capital, but an assault failed with the loss of little less than seven hundred men, and he had to raise the siege. Even the Aedui then went over to the revolt.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Alesia",
+        text: "After a cavalry defeat near Dijon, Vercingetorix shut himself in Alesia, which Caesar surrounded with lines facing both inward and outward. Vercingetorix sent his cavalry away to summon all Gaul, warning that eighty thousand chosen men were doomed with him. A relief army, by Caesar’s count eight thousand horsemen and about 250,000 foot, attacked the outer lines while the garrison attacked the inner, until a last assault was defeated.",
+        evidence: "fact",
+        studies: ["alesia"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Surrender",
+        text: "Caesar says only that he ordered the arms given up and the chiefs brought out. Dio adds that Vercingetorix might have escaped but hoped for pardon from a man who had once been his friend, and came in person to surrender. There were isolated operations in 51, ending with the capture of Uxellodunum, whose defenders had their hands cut off, and Caesar then fixed the tribute of Gaul.",
+        evidence: "fact",
+        studies: ["alesia"],
+        refs: [{ source: 0 }, { source: 2 }, { source: 1 }],
+      },
+      {
+        title: "The revolt’s strategy",
+        text: "The Britannica account credits Vercingetorix with seeing that Caesar could not be fought in open battle and with basing the war on strong points; Caesar’s narrative shows the strength of that strategy at Gergovia and its danger at Alesia, where eighty thousand men shut inside had to wait on a relief army.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Caesar’s is the only contemporary narrative, written by the victor. His figures for Alesia, eighty thousand inside and about 258,000 in the relief army, differ from Plutarch’s, which give not fewer than 170,000 fighting men in the city and 300,000 outside. Caesar’s spare account of the surrender and Dio’s more personal one cannot both be checked.",
+        evidence: "uncertainty",
+        studies: ["alesia"],
+        refs: [{ source: 0 }, { source: 3 }, { source: 2 }],
+      },
+    ],
+    sources: [caesarGallic7, ebJulius, dio40, plutarchCaesar],
+  },
+  "caesar-s-civil-war": {
+    summary:
+      "The civil war between Caesar and Pompey and the Senate from 49 to 45 BCE, from the crossing of the Rubicon through Pharsalus to Thapsus and Munda.",
+    narrative: [
+      {
+        title: "The Rubicon",
+        text: "A law of Pompey in 52 BCE made it possible to replace Caesar in Gaul before the end of 49, which would have left him a private citizen open to prosecution. When Antony and Curio were driven from the senate, Caesar had his pretext. Plutarch shows him pausing at the Rubicon, the river between Cisalpine Gaul and Italy, and talking through the consequences with Asinius Pollio and others before he crossed.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }, { source: 3 }],
+      },
+      {
+        title: "Italy and Spain",
+        text: "Pompey had only two legions in Italy and eight in Spain. Caesar went down the Adriatic coast by forced marches, through Corfinium, and caught Pompey at Brundisium but could not stop him embarking for the East. He then turned on Pompey’s lieutenants in Spain, reaching Ilerda on 23 June 49 and, after a dangerous start, outmanoeuvring them into surrender on 2 August.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }, { source: 1 }],
+      },
+      {
+        title: "Dyrrhachium and Pharsalus",
+        text: "Caesar crossed to Epirus and tried to blockade Pompey’s larger army at Dyrrhachium, but lost 960 men in one day’s fighting and marched off into Thessaly. At Pharsalus Pompey’s 110 cohorts faced Caesar’s eighty, 22,000 men. Fearing for his right wing against Pompey’s horse, Caesar drew individual cohorts from his third line into a fourth, which met and routed the cavalry and then turned the Pompeian flank.",
+        evidence: "fact",
+        studies: ["pharsalus"],
+        refs: [{ source: 0, locator: "3.71, 3.88–99" }, { source: 2 }],
+      },
+      {
+        title: "From Egypt to Munda",
+        text: "Pompey fled to Egypt and was murdered. Caesar stayed nine months at Alexandria, beat Pharnaces at Zela, and in Africa cut to pieces a republican army of fourteen legions at Thapsus on 6 April 46; Cato killed himself. At Munda on 17 March 45 he crushed the sons of Pompey in a battle so close that Plutarch has him running through the ranks to shame his men.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }, { source: 3 }],
+      },
+      {
+        title: "Speed and clemency",
+        text: "The Britannica article stresses Caesar’s marvellous rapidity and his judgement, in the saying attributed to him, that he went to Spain to fight an army without a general and then east to fight a general without an army. It concludes that the powers he then gathered differed little from those of the later Principate, though his apparent reaching for kingship and divinity in his last months helps explain his murder.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 2 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Caesar says some 15,000 Pompeians fell at Pharsalus and over 24,000 surrendered, for a loss of not more than two hundred of his own men and about thirty centurions. Appian writes that exaggerators put Pompey’s other losses at 25,000 but that Asinius Pollio, an officer in the battle, counted 6,000 dead; Plutarch reports Pollio adding that most of the dead were servants killed at the camp. Caesar’s own account is the narrative of the victor.",
+        evidence: "uncertainty",
+        studies: ["pharsalus"],
+        refs: [{ source: 0, locator: "3.99" }, { source: 4 }, { source: 3 }],
+      },
+    ],
+    sources: [
+      caesarCivil3,
+      caesarCivil1,
+      ebJulius,
+      plutarchCaesar,
+      appianCivil2,
+    ],
+  },
+  "war-of-actium": {
+    summary:
+      "The last war of the Roman Republic, between Octavian and Antony and Cleopatra, decided by the blockade and naval battle at Actium in 31 BCE and ended at Alexandria in 30.",
+    narrative: [
+      {
+        title: "The break",
+        text: "After Philippi Antony took the eastern half of the empire and Octavian the west. Antony returned to Cleopatra, and a document, probably forged in the Livius article’s judgement, showed him promising her Roman land; it gave Octavian his excuse for war. Octavian had already annexed Dalmatia, which offered him a land road to the Balkans.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }],
+      },
+      {
+        title: "Agrippa’s blockade",
+        text: "Antony and Cleopatra moved to Greece with a very large force. Octavian crossed the Ionian Sea and landed in Epirus, while Agrippa took Methone by storm, then Leucas and Patrae, and later Corinth, cutting Antony’s communications. Antony’s camps on the Gulf of Ambracia, at Actium, began to run short of food, and Canidius advised him to send Cleopatra away and fight on land in Thrace or Macedonia.",
+        evidence: "fact",
+        studies: ["actium"],
+        refs: [{ source: 1 }, { source: 0 }, { source: 2 }],
+      },
+      {
+        title: "The battle",
+        text: "On 2 September 31 BCE the fleets met outside the gulf. While the fighting was still even, the sixty ships of Cleopatra were seen hoisting their sails and running through the centre, and Antony followed. Agrippa and Octavian defeated the rest; Plutarch says the fleet held out until the tenth hour, and that it took a high sea to finish it, while Dio describes fire and catapults burning the great galleys.",
+        evidence: "fact",
+        studies: ["actium"],
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+      },
+      {
+        title: "Alexandria",
+        text: "Antony’s legionaries surrendered to Octavian. Allies changed sides during the winter; Herod of Judaea was among them. In 30 Octavian pursued the pair to Egypt, and at Alexandria both killed themselves. The day Alexandria fell was declared lucky, and the city was to count its years from it.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }, { source: 0 }, { source: 3 }],
+      },
+      {
+        title: "Tactical victory, strategic defeat",
+        text: "The Livius article argues that Antony had meant to break out of the gulf, and did: a tactical victory that cost him his army, his reputation as a commander who would not abandon his men and any chance of winning the war. Octavian had refused the land battle Antony wanted, because Antony was the better general, and let Agrippa’s operations do the work.",
+        evidence: "interpretation",
+        studies: ["actium"],
+        refs: [{ source: 2 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Dio has Antony mistaking Cleopatra’s escape for flight from fear and following her; the Livius article reads the same movement as a planned break-out, which would make the story of her desertion part of the victor’s propaganda. Plutarch credits Antony with five hundred warships, the Livius article with 230 vessels. Plutarch cites Octavian himself for five thousand dead and three hundred ships captured, and the battle became a prominent part of imperial propaganda.",
+        evidence: "uncertainty",
+        studies: ["actium"],
+        refs: [{ source: 1 }, { source: 2 }, { source: 0 }],
+      },
+    ],
+    sources: [plutarchAntony, dio50, liviusActium, dio51],
+  },
+  "varus-s-campaign-in-germania": {
+    summary:
+      "The Germanic rising under Arminius in 9 CE that destroyed three Roman legions under Varus in the Teutoburg narrows.",
+    narrative: [
+      {
+        title: "A province in the making",
+        text: "Florus, Dio and Velleius agree that Germania had been conquered by Drusus and that the Romans were later trying to turn it into a real province; they also agree that Varus imposed regular taxes and that these provoked resistance. Velleius sketches Varus as mild, slow and better used to the leisure of camp than to war.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 1 }, { source: 2 }],
+      },
+      {
+        title: "The conspiracy",
+        text: "Arminius, a young noble of the Cherusci, led the plot. Segestes warned Varus, who would not listen. A rising in a distant tribe, by Dio’s account arranged on purpose, drew Varus through what he took to be friendly country. Arminius and his fellow conspirators left the column on the pretext of gathering their allied forces, and the detachments of Roman soldiers in the Germanic communities were killed.",
+        evidence: "fact",
+        studies: ["teutoburg"],
+        refs: [{ source: 0 }, { source: 2 }, { source: 1 }],
+      },
+      {
+        title: "The destruction of the legions",
+        text: "Dio is the only writer to give an overview of the fighting, over several days. The Seventeenth, Eighteenth and Nineteenth legions were destroyed. Varus and the senior officers, already wounded, killed themselves; of the two camp prefects Eggius set a noble example and Ceionius proposed surrender, and Vala Numonius rode off toward the Rhine with the cavalry. Varus’s head was sent to Maroboduus.",
+        evidence: "fact",
+        studies: ["teutoburg"],
+        refs: [{ source: 0 }, { source: 2 }, { source: 1 }],
+      },
+      {
+        title: "Germanicus at the site",
+        text: "Germanicus later marched to the field. Tacitus describes Varus’s first camp, whose size showed the work of three legions, and the bones, splintered spears and skulls nailed to tree trunks that his men found there. He gives no account of the battle itself.",
+        evidence: "fact",
+        studies: ["teutoburg"],
+        refs: [{ source: 3 }, { source: 1 }],
+      },
+      {
+        title: "Kalkriese",
+        text: "One of the fights has been located at Kalkriese, north of Osnabrück, on a strip of farmed land about 220 metres wide between a hill and a bog, with a palisade on the slope. The Livius article proposes translating the name Saltus Teutoburgiensis as “Teutoburg Narrows”, and so few open battlefields of antiquity have been excavated that the finds change how the written accounts are read.",
+        evidence: "interpretation",
+        studies: ["teutoburg"],
+        refs: [{ source: 4 }, { source: 1 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Dio says Varus had scattered his soldiers among the communities, while Velleius has three legions destroyed together; the Livius article suggests that Varus regrouped on hearing of the rising. It dismisses Dio’s mountains and ravines as a literary commonplace about the edges of the world. Velleius blames the negligence of the general, the perfidy of the enemy and the unkindness of fortune, while the Livius article suggests Varus was a more capable commander than is sometimes assumed.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }, { source: 1 }],
+      },
+    ],
+    sources: [
+      dio56,
+      liviusTeutoburg,
+      velleius,
+      tacitusAnnals1,
+      liviusKalkriese,
+    ],
+  },
+  "boudican-revolt": {
+    summary:
+      "The rising of the Iceni and Trinovantes under Boudica in Britain in 60 or 61 CE, which destroyed three Roman towns before it was crushed by Suetonius Paulinus.",
+    narrative: [
+      {
+        title: "Causes",
+        text: "While the governor Suetonius Paulinus was attacking the island of Mona, the Icenian king Prasutagus died, having named the emperor as co-heir with his two daughters in the hope of protecting his house. Tacitus describes the kingdom pillaged by centurions, Boudica flogged and her daughters violated, and the Trinobantes joining the Iceni in revolt. Dio adds a financial cause: Seneca, he says, had lent the Britons 40,000,000 sesterces they did not want, and suddenly called it in.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Three towns",
+        text: "The rebels took the colony at Camulodunum and then, then Londinium and Verulamium; Tacitus says the natives passed by forts and garrison posts for the places richest in plunder. He records that close to seventy thousand Roman citizens and allies fell there.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "The last battle",
+        text: "Suetonius, with the Fourteenth Legion and part of the Twentieth, chose his ground and accepted battle against a far larger host. Tacitus says by some accounts little less than eighty thousand Britons fell, against about four hundred Romans killed. The camp-prefect of the Second Legion, Poenius Postumus, who had ignored his orders and so cheated his men of a share in the victory, took his own life.",
+        evidence: "fact",
+        studies: ["watling-street"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Punishment and inquiry",
+        text: "A conflict between Suetonius and the procurator led Nero to send his freedman Polyclitus to inspect Britain and, as Nero hoped, reconcile them and calm the natives. Tacitus remarks that his huge train had been a burden to Italy and Gaul and a terror even to Roman soldiers once it crossed the sea.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Two explanations",
+        text: "Tacitus lays the rising on Roman abuse of the Icenian royal house and of the Trinovantes, Dio on money and the charisma of a woman who, he says, was chosen to direct the whole war. Both writers give Boudica a speech before the fighting, and Haverfield’s Britannica article, combining them, adds Roman taxation and conscription to the list of grievances.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Tacitus has Boudica end her days by poison; Dio says she fell sick and died. Tacitus reports seventy thousand dead in the towns and Dio eighty thousand. Neither writer names the site of the final battle: the Loeb editor presumes that Suetonius fell back along Watling Street and fought “somewhere in the Midlands”, which is where the catalog’s name comes from. Haverfield dates the death of Prasutagus to 61, and the catalog keeps 60 or 61.",
+        evidence: "uncertainty",
+        studies: ["watling-street"],
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+      },
+    ],
+    sources: [tacitusAnnals14, dio62, ebBoadicea],
+  },
+  "judaean-campaign-of-vespasian-and-titus": {
+    summary:
+      "The Roman reconquest of Judaea in the Jewish War of 66–70 CE under Vespasian and Titus, ending in the siege of Jerusalem and the destruction of the Temple.",
+    narrative: [
+      {
+        title: "The outbreak",
+        text: "In 66 CE Gessius Florus took money from the Temple treasure, and his reprisals against those who mocked him set off the revolt. The Livius article finds deeper causes in the impoverishment of the Jewish peasantry under Roman taxation, the unemployment that followed the end of work on the Temple and religious tension, and calls the war also a class struggle. In November the Syrian governor Cestius Gallus was defeated on his way back from Jerusalem, and the Twelfth Legion lost its standard.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Vespasian in Galilee",
+        text: "Nero gave Vespasian the command. In 67 he reinforced Sepphoris and gathered three legions at Ptolemais, with his son Titus bringing the Fifteenth, then took Jotapata, whose commander Joseph son of Matthias was captured, predicted that Vespasian would be emperor and became the historian Josephus. Galilee was pacified by January 68, while John of Gischala went to Jerusalem.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Jerusalem divided",
+        text: "Vespasian, proclaimed emperor, left the war to Titus, assisted by the experienced Tiberius Julius Alexander. Inside Jerusalem the Zealots of Eleazar, the men of John and those of Simon bar Giora were fighting each other. Titus laid siege on 14 April 70, during Passover, when the city was full of pilgrims; Tacitus gives him the Fifth, Tenth and Fifteenth legions already in Judaea.",
+        evidence: "fact",
+        studies: ["jerusalem-70"],
+        refs: [{ source: 1 }, { source: 2 }],
+      },
+      {
+        title: "The siege",
+        text: "Siege towers and rams brought down the outer wall after fifteen days. Titus staged a four-day parade of the army and sent Josephus to urge surrender, without result, and siege dams were built against the Antonia fortress. Early in July Roman soldiers climbed its walls at night and drove out the defenders. On the tenth of August the Temple was burning, and the legionaries sacrificed to their standards there; the Old Town and the palace fell soon after.",
+        evidence: "fact",
+        studies: ["jerusalem-70"],
+        refs: [{ source: 1 }],
+      },
+      {
+        title: "Aftermath",
+        text: "Josephus says 97,000 were taken prisoner in the war. Many were forced to fight in the arena, and most, according to the Livius article, were brought to Rome to build the Forum of Peace and the Colosseum. Simon was executed in the triumph and John imprisoned for life; the Temple’s treasures were carried through the streets, coins proclaimed Judaea Capta, and Jews had to pay a special tax.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 3 }, { source: 1 }],
+      },
+      {
+        title: "Roman strategy",
+        text: "The Livius article describes Vespasian’s strategy as letting the Jews in Jerusalem destroy themselves while he secured the countryside, and judges that Titus’s chief qualification was that his father could trust him. Josephus, who changed sides, wrote his history in part to show that the tyrants in the city, not the Romans, brought on its ruin.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 1 }, { source: 3 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Josephus repeatedly shows Titus wishing to preserve the city and Temple; a fragment attributed to Tacitus has Titus among those who held that it must be destroyed to root out Judaism and Christianity. Josephus gives 1,100,000 dead in the siege, a total that even he explains by the crowds of pilgrims, while Tacitus heard of 600,000 besieged. The chronology is also uncertain: Josephus mixes calendars, and the year of the fall of Masada is not stated.",
+        evidence: "uncertainty",
+        studies: ["jerusalem-70"],
+        refs: [{ source: 3 }, { source: 4 }, { source: 2 }, { source: 5 }],
+      },
+    ],
+    sources: [
+      liviusJewishWar,
+      liviusJerusalem,
+      tacitusHistories5,
+      josephus,
+      tacitusFragments,
+      liviusJewishChronology,
+    ],
+  },
+  "constantine-s-italian-campaign": {
+    summary:
+      "Constantine’s invasion of Italy in 312 against Maxentius, ending at the Milvian Bridge and traditionally associated with his turn to Christianity.",
+    narrative: [
+      {
+        title: "Allies and rivals",
+        text: "When Galerius died in 311, Maximinus Daia entered into negotiations with Maxentius, which drove Licinius into alliance with Constantine. Maxentius had been occupied suppressing the revolt of Domitius Alexander in Africa, and in the spring of 312 Constantine crossed the Alps before his rival had completed his preparations.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 3 }],
+      },
+      {
+        title: "Northern Italy",
+        text: "Constantine stormed Susa, defeated Maxentius’s generals at Turin and Verona and marched straight on Rome. Zosimus describes Maxentius relying on an army much larger than Constantine’s and on a bridge over the Tiber built in two sections, which could be detached to drop the enemy in the river.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 3 }, { source: 2 }],
+      },
+      {
+        title: "The sign",
+        text: "According to Lactantius, a well-informed contemporary, Constantine was told in a dream to mark the heavenly sign on his soldiers’ shields. Eusebius, writing after the emperor’s death, tells of a cross of light seen in the sky at noon, which he says Constantine swore to him was true, followed by Christ appearing to him in his sleep and commanding him to make a standard in that form.",
+        evidence: "fact",
+        studies: ["milvian-bridge"],
+        refs: [{ source: 0 }, { source: 1 }, { source: 3 }],
+      },
+      {
+        title: "The Milvian Bridge",
+        text: "On the anniversary of his accession, 28 October, Maxentius stayed in Rome at first; Lactantius says the Sibylline books were consulted and promised that on that day the enemy of the Romans would perish, and he went out to the field. His forces were routed. He fled to the broken bridge and was driven into the Tiber. Constantine disbanded the praetorian guard.",
+        evidence: "fact",
+        studies: ["milvian-bridge"],
+        refs: [{ source: 0 }, { source: 3 }],
+      },
+      {
+        title: "Boldness and belief",
+        text: "The Britannica article finds the march on Rome a bold, almost desperate move that contrasts with Constantine’s usual caution, and explains it by the event told as a miracle: Constantine, perhaps impressed by the misfortunes of the persecutors, adopted the monogram of Christ and staked all on the issue. Eusebius compares Maxentius’s drowning with Pharaoh’s army in the Red Sea, which shows how quickly the battle became sacred history.",
+        evidence: "interpretation",
+        studies: ["milvian-bridge"],
+        refs: [{ source: 3 }, { source: 1 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Lactantius has a dream; Eusebius has a vision by day and a dream by night, and the Britannica article observes that the story in that form was evidently unknown to him when he wrote his Ecclesiastical History. Constantine’s strength is put at about 25,000 by a panegyrist, near 100,000 by Zonaras, and at 90,000 foot and 8,000 horse by Zosimus, who gives Maxentius 170,000 foot and 18,000 horse. Zosimus also has the trap bridge collapse under Maxentius, and Lactantius simply speaks of a broken bridge.",
+        evidence: "uncertainty",
+        studies: ["milvian-bridge"],
+        refs: [{ source: 0 }, { source: 1 }, { source: 3 }, { source: 2 }],
+      },
+    ],
+    sources: [lactantius, eusebiusLife, zosimus2, ebConstantine],
+  },
+  "gothic-war-of-376-382": {
+    summary:
+      "The war that followed the Gothic crossing of the Danube in 376, in which the Goths destroyed the army of Valens at Adrianople in 378 and were settled inside the empire under Theodosius.",
+    narrative: [
+      {
+        title: "The crossing",
+        text: "Driven by the Huns, the Tervingi begged to be received across the Danube, and the news at court caused more joy than fear. The Greuthungi under Alatheus and Saphrax asked in their turn. Ammianus describes famine among the settlers and two rapacious commanders, Lupicinus, commanding in Thrace, and Maximus. Jordanes tells the same story: the Goths asked for a market to be opened and were cheated.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "Marcianopolis",
+        text: "Lupicinus invited Alavivus and Fritigern to dinner at Marcianopolis and held their followers outside the walls; fighting broke out, and when he led out his soldiers in haste nine miles from the city, most of his army and its tribunes were destroyed. Ammianus has him escaping while the others fought. The Goths spread through Thrace.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "Valens marches",
+        text: "Sebastianus, sent from Italy and given the infantry command, surprised bands of Goths laden with booty near the Hebrus. Gratian, the western emperor, sent Richomeres ahead to ask Valens to wait for him. Valens’s courtiers urged him to make haste so that Gratian might have no share in the victory. Zosimus reports that Sebastianus too advised against bringing so great a multitude to a regular battle.",
+        evidence: "fact",
+        studies: ["adrianople"],
+        refs: [{ source: 0 }, { source: 3 }],
+      },
+      {
+        title: "Adrianople",
+        text: "On 9 August 378 the army marched over rough ground through the heat and at the eighth hour saw the Gothic wagons drawn up in a perfect circle, about thirteen kilometres north of the city. When talks failed the Romans were defeated. Ammianus says that barely a third of the army escaped, and compares the disaster only to Cannae. Valens died, either at once or, as others said, burned in a peasant’s cottage.",
+        evidence: "fact",
+        studies: ["adrianople"],
+        refs: [{ source: 0 }, { source: 4 }],
+      },
+      {
+        title: "Settlement",
+        text: "The Goths failed before the walls of Adrianople. Theodosius succeeded Valens, and the mass of the Gothic warriors entered Roman service as federates. Jordanes reports that Gratian had made a compact, that Theodosius confirmed it, and that the Gothic king Athanaric was received in Constantinople and died there.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }, { source: 4 }],
+      },
+      {
+        title: "Blame",
+        text: "Ammianus lays the blame on the corruption of the officers in Thrace, on Valens’s jealousy of Gratian and on a long list of portents, while the Britannica article states that the peaceful designs of Fritigern were thwarted by the ill-treatment the Goths suffered from Roman officials. The Livius article stresses the outcome: Valens’s successor had to offer land to the victors.",
+        evidence: "interpretation",
+        studies: ["adrianople"],
+        refs: [{ source: 0 }, { source: 1 }, { source: 4 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Ammianus records two versions of the emperor’s death. His history ends at this point, so the peace rests on later and thinner accounts: the Britannica article dates the terms to 381, Jordanes’s editor marks the peace and Athanaric’s death at 380–381, and the catalog’s title follows the common date of 382. Jordanes’s history of the Goths was written long afterward.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+      },
+    ],
+    sources: [ammianus31, ebGoths, jordanes, zosimus4, liviusAdrianople],
+  },
+  "attila-s-invasion-of-gaul": {
+    summary:
+      "Attila’s invasion of Gaul in 451, turned back from Orléans by Aetius and the Visigoths and ended by the drawn battle of the Catalaunian Plains.",
+    narrative: [
+      {
+        title: "Honoria’s ring",
+        text: "Bury writes that the Augusta Honoria’s message reached Attila probably in the spring of 450. He chose to treat her ring as a proposal of marriage, claimed her as his bride and demanded half the territory of Valentinian III. Marcian, the new eastern emperor, took a firmer line, and Attila turned west.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Into Gaul",
+        text: "Early in 451 Attila set out with his Huns and his German subjects, among them Gepids under Ardaric and Ostrogoths under three chieftains, joined at the Rhine by Burgundians and some Ripuarian Franks. His army took Metz on 7 April and wasted the Belgic provinces. Aetius’s own preparations were hurried, and his chance depended on the Visigoths, who had decided to stay neutral until Avitus persuaded Theoderic to join.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Orléans",
+        text: "A settlement of Alans had secretly agreed to help Attila, and Bury takes his objective to have been Orléans. He holds that the allies’ first strategic aim was to prevent him reaching it and that they succeeded, so that the Huns fell back toward Troyes with the allies close behind.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "The Mauriac place",
+        text: "Attila halted not far from Troyes. The battle began in the afternoon and lasted into the night; it was drawn, with immense slaughter, and Theoderic was among the dead. The next day Attila stood behind his wagons, said to have a funeral pyre ready. Aetius persuaded Thorismud to hurry home to secure his succession and sent the Franks away, and Attila escaped.",
+        evidence: "fact",
+        studies: ["catalaunian-plains"],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "A battle overrated",
+        text: "Bury argues that the battle has been enormously exaggerated: the campaign was decided by cutting Attila off from Orléans, and Hun rule in Gaul could not have outlived Attila himself. He explains Aetius’s letting Attila go as policy, since Aetius had long made use of Hun power and did not want to enlarge the prestige of the Visigoths. The Britannica article, by contrast, sees Europe saved by the Teutonic peoples rallying to the empire’s defence.",
+        evidence: "interpretation",
+        studies: ["catalaunian-plains"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "The name is unsettled: Jordanes and Hydatius speak vaguely of the Catalaunian Plains, while chronicles place the battle at Maurica near Troyes, and Bury argues against the conventional name of Châlons. He also calls the accounts of the events at Orléans contradictory and treats the bishop’s role there as the beginning of a church legend. Jordanes, the fullest narrative, follows the earlier historian Priscus at a distance.",
+        evidence: "uncertainty",
+        studies: ["catalaunian-plains"],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+    ],
+    sources: [buryAttila, ebAttila, jordanes],
+  },
+  "persian-expedition-to-the-aegean": {
+    summary:
+      "The Persian seaborne expedition of 490 BCE under Datis and Artaphernes, sent to punish Eretria and Athens, which took Eretria and was defeated at Marathon.",
+    narrative: [
+      {
+        title: "The expedition",
+        text: "Herodotus says Darius wanted a pretext to subdue the Greek states that had refused him earth and water, and was reminded of the Athenians by the sons of Peisistratos. After taking Eretria the Persians sailed for Attica, guided by the exiled tyrant Hippias to Marathon as the ground most convenient for cavalry and nearest Eretria. Athens appealed to Sparta, but its help did not arrive in time. After the battle the Persians sailed round Sunium, and the Athenians hurried back in time to meet them, so that the fleet lay off Phaleron and then went home.",
+        evidence: "fact",
+        studies: ["marathon"],
+        refs: [{ source: 0, locator: "6.94–117" }, { source: 1 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Herodotus gives about 6,400 Persian dead and 192 Athenian, and the Britannica article shows that a burial mound excavated in 1891–1892 does hold the Athenian dead. It estimates the Persian force at perhaps 50,000, a modern guess, against 9,000 Athenian hoplites and 1,000 Plataeans.",
+        evidence: "uncertainty",
+        studies: ["marathon"],
+        refs: [{ source: 0, locator: "6.117" }, { source: 1 }],
+      },
+    ],
+    sources: [herodotus, ebMarathon],
+  },
+  "campaign-on-the-yangtze": {
+    summary:
+      "Cao Cao’s southern campaign of 208 CE, in which Jing province surrendered to him and the alliance of Sun Quan and Liu Bei stopped him at Red Cliffs.",
+    narrative: [
+      {
+        title: "South to the river",
+        text: "Having won the North China Plain, Cao Cao marched against Liu Biao in the seventh month of 208. Liu Biao died, his son Liu Cong surrendered and Liu Bei fled to Xiakou. Liu Bei sent Zhuge Liang to Sun Quan, who dispatched Zhou Yu and Cheng Pu to oppose Cao Cao alongside him; they met him at Red Cliffs, where disease was already spreading in his army. Zhou Yu’s officer Huang Gai observed that the enemy ships lay stem to stern and could be burned. Cao Cao’s defeat stabilized the regions of his rivals and led toward the Three Kingdoms.",
+        evidence: "fact",
+        studies: ["red-cliffs"],
+        refs: [{ source: 1 }, { source: 2 }, { source: 0 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Cao Cao claimed nearly 800,000 men; the World History Encyclopedia reports that contemporaries and modern scholars consider that a wild exaggeration and suggest about 250,000. Chen Shou’s biography of Zhou Yu credits fire and Huang Gai, and also notes the sickness in Cao Cao’s army, which leaves open how much of the defeat was battle and how much disease.",
+        evidence: "uncertainty",
+        studies: ["red-cliffs"],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+    ],
+    sources: [redCliffsWh, sanguozhi1, sanguozhi54],
+  },
+  "mesopotamian-campaign-of-530": {
+    summary:
+      "The Roman–Persian campaign of 530 in northern Mesopotamia, in which Belisarius defeated a larger Persian army before Dara.",
+    narrative: [
+      {
+        title: "The frontier fortress",
+        text: "Dara had been built by the emperor Anastasius as a stronghold against Persia after his treaty with Cabades. Justinian appointed Belisarius General of the East and sent the magister Hermogenes to help him order the army, with Rufinus as ambassador. Procopius sets 25,000 Romans against 40,000 Persian horse and foot and reports about five thousand Persians killed, after which they were no longer willing to fight a pitched battle with the Romans. Mermeroes then invaded near Satala, and the war went on.",
+        evidence: "fact",
+        studies: ["dara"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "The limits of the evidence",
+        text: "Procopius was chosen as Belisarius’s adviser at this time, which makes him both valuable and partial, and his figures are the only ones used here. He notes that even after their defeat the Persians would not leave until Rufinus went before Cabades, so a victory in the field did not end the war.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+    ],
+    sources: [procopius],
+  },
+  "conquest-of-syria": {
+    summary:
+      "The Muslim conquest of Byzantine Syria in the 630s, decided at the Yarmuk River in 636.",
+    narrative: [
+      {
+        title: "Into Syria",
+        text: "After the Ridda wars Abu Bakr sent his armies into Iraq and Syria. Khalid ibn al-Walid crossed the desert from Iraq with his best men to support the divisions in Syria. Umar, who succeeded Abu Bakr, stripped Khalid of his command in favour of Abu Ubaidah, and Damascus fell. Heraclius gathered a great army, which met the Muslims on the Yarmuk on 20 August 636; the victory gave them Syria. Al-Baladhuri’s account stresses the hostility of the Syrians to Byzantium and their welcome for the invaders.",
+        evidence: "fact",
+        studies: ["yarmouk"],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Al-Baladhuri, writing over two centuries later, numbers Heraclius’s army at about 200,000. The World History Encyclopedia warns that Arab chroniclers inflated enemy numbers and shrank their own, and puts the imperial force at around 40,000, while agreeing that the Muslims were outnumbered. The surviving accounts are episodic and personal, more concerned with who fought and was wounded than with the movement of armies.",
+        evidence: "uncertainty",
+        studies: ["yarmouk"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+    ],
+    sources: [baladhuri, yarmoukWh],
+  },
+  "invasion-of-england": {
+    summary:
+      "The succession crisis of 1066 and Duke William of Normandy’s invasion of England, decided at Hastings.",
+    narrative: [
+      {
+        title: "Three claimants",
+        text: "Edward the Confessor died on 5 January 1066 without a direct heir, and Harold was crowned at Westminster the next day. Two rivals threatened: Harald Hardrada of Norway and William of Normandy. Harold marched north and defeated Hardrada and Tostig at Stamford Bridge on 25 September; a few days later he heard that William had landed at Pevensey. The defeat at Hastings followed on 14 October.",
+        evidence: "fact",
+        studies: ["hastings"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Whose story",
+        text: "The Bayeux Tapestry begins in 1064 with Edward sending Harold to Normandy to offer William the succession, which is the Norman case for the conquest. William of Malmesbury’s account of the battle was written after the Conquest. The evidence for the crisis of 1066 therefore comes largely from the side that won or from its heirs.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 1 }, { source: 2 }],
+      },
+    ],
+    sources: [englishHeritage, bayeuxMuseum, malmesbury],
+  },
+  "saladin-s-campaign-of-1187": {
+    summary:
+      "Saladin’s invasion of the Kingdom of Jerusalem in 1187, which destroyed the Frankish army at Hattin and led to the loss of Jerusalem.",
+    narrative: [
+      {
+        title: "A divided kingdom",
+        text: "Raymond III of Tripoli stood opposed to the king and had even allied with Saladin to protect his county, but under pressure he joined the Christian army at the Springs of Saffuriya. From there the army marched to relieve Tiberias. Saladin had water brought up from the lake by camel caravan and positioned near his camp, and the Franks, unable to reach water in the great heat, suffered from thirst and from the smoke of fires lit against them. Hattin opened the way to Saladin’s recovery of Jerusalem later in the year.",
+        evidence: "fact",
+        studies: ["hattin"],
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+      },
+      {
+        title: "Blame for the disaster",
+        text: "The Christian narratives were written in the shadow of defeat, and the divisions between Raymond’s party and the king’s run through them. The Britannica article takes a longer view: Saladin’s army of 1187 had the spirit of the crusaders of 1099, while the kingdom’s own crusaders had lost it.",
+        evidence: "interpretation",
+        studies: ["hattin"],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+    ],
+    sources: [hattinFordham, hattinDeRe, ebCrusades],
+  },
+  "third-crusade": {
+    summary:
+      "The crusade of 1189–1192 launched after the fall of Jerusalem, in which Richard I retook the coast and defeated Saladin at Arsuf but did not recover the city.",
+    narrative: [
+      {
+        title: "Acre and the coast",
+        text: "The siege of Acre, begun in 1189 by Guy de Lusignan, became the centre of the crusade because its capture would open the way to Jerusalem. Frederick Barbarossa drowned on the march and most of his army melted away; Philip II sailed straight to Acre, while Richard stopped to conquer Cyprus. On 22 August 1191 Richard marched south from Acre with Saladin shadowing him and, keeping his cavalry between columns of infantry, refused to charge until 7 September at Arsuf.",
+        evidence: "fact",
+        studies: ["arsuf"],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+      {
+        title: "A limited result",
+        text: "The Britannica article records that Richard stayed another year, winning at Arsuf and refortifying Jaffa. A truce left the crusaders in control of the coast and Jerusalem in Muslim hands. The EBSCO summary’s round figures of 25,000 crusaders against 35,000, with 7,000 Muslim dead and perhaps 700 crusaders, are stated without their basis, and should be read as approximations.",
+        evidence: "uncertainty",
+        studies: ["arsuf"],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+    ],
+    sources: [arsufEbsco, ebCrusades],
+  },
+  "campaign-of-1211-against-the-jin": {
+    summary:
+      "Chinggis Khan’s invasion of the Jin Empire, in which the Jin field army was defeated at Yehuling in the mountains north-west of the capital.",
+    narrative: [
+      {
+        title: "The war with the Jin",
+        text: "The Yuan Shi’s biography of Muqali has Jin defectors reporting the slaughter of relatives and debauchery at their court, and Chinggis declaring that he now had just cause. The Mongols took Dexing and attacked the western commanderies. A Jin army said to number 400,000 drew up north of Yehuling; Muqali argued that the many could only be broken by the few fighting to the death, and led a charge of picked men. The Jin Shi says that the commander Wanyan Chengyu lost heart when the Mongols came to Yehuling, retreated and refused the local militia’s offer to fight in the terrain they knew.",
+        evidence: "fact",
+        studies: ["yehuling"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "The figure of 400,000 is introduced in the Yuan Shi with the word for “claimed”. The Yuan biography places the battle after its entry for the year renshen (1212), while the Jin Shi’s biography sets the arrival at Yehuling in an eighth month, which the catalog takes as 1211. Both are dynastic histories compiled later, one celebrating the victors and the other explaining the failure of a lost state.",
+        evidence: "uncertainty",
+        studies: ["yehuling"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+    ],
+    sources: [yuanshi119, jinshi93],
+  },
+  "mongol-invasion-of-hungary": {
+    summary:
+      "The Mongol invasion of Hungary in 1241–1242, which destroyed King Béla IV’s army at Mohi and then withdrew.",
+    narrative: [
+      {
+        title: "A kingdom unprepared",
+        text: "Béla IV admitted the nomadic Cumans into Hungary, a decision that seemed statesmanlike but alienated his own people; when the Cumans were provoked they left, burning and looting. Sinor estimates Béla’s army at 65,000 and the Mongol centre facing it at no less. After the defeat Béla fled toward the Adriatic and found refuge on an island off Trogir. The west offered no effective help, and Emperor Frederick II blamed an “idle and careless” king.",
+        evidence: "fact",
+        studies: ["mohi"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Why the Mongols left",
+        text: "John of Plano Carpini attributed the withdrawal to the death of Ögödei. Sinor disagrees: he calculates that even on unrealistic assumptions the Hungarian pastures could feed the mounts of only about 83,000 warriors, far below the size of the Mongol army, and concludes that logistics compelled the retreat. Pow and Laszlovszky show that the exact stages of the battle remain uncertain, since there are no real hills near the presumed site to match the sources’ account of Batu climbing one.",
+        evidence: "uncertainty",
+        studies: ["mohi"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+    ],
+    sources: [sinor, powLaszlovszky],
+  },
+  "campaign-in-syria-and-palestine": {
+    summary:
+      "The Mongol advance into Syria under Hulagu and its defeat by the Mamluks of Egypt at Ain Jalut in 1260.",
+    narrative: [
+      {
+        title: "Quduz answers Hulagu",
+        text: "When Hulagu left Syria he sent an envoy with forty men to Egypt demanding submission. Rashid al-Din describes Quduz debating with his commanders; Nasiruddin Qaymari warned that Hulagu’s promises could not be trusted, since he had killed others who surrendered. The Mamluks marched. Hulagu had taken most of his force home, leaving Ket Buqa, and at Ain Jalut the two armies were about equal at some 20,000 each. Ket Buqa was captured and executed, and on the way back to Cairo Baybars killed Quduz and became sultan.",
+        evidence: "fact",
+        studies: ["ain-jalut"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Rashid al-Din was a historian of the Mongol court, writing long after the defeat; the page presenting his account dates the battle to 3 September in its introduction but to 8 September in its own address. The feigned retreat and hidden reserves come from the editor’s summary, and the numbers are approximate.",
+        evidence: "uncertainty",
+        studies: ["ain-jalut"],
+        refs: [{ source: 0 }],
+      },
+    ],
+    sources: [rashid],
+  },
+  "henry-v-s-campaign-of-1415": {
+    summary:
+      "Henry V’s invasion of Normandy in 1415, from the siege of Harfleur to his interception and victory at Agincourt on the march to Calais.",
+    narrative: [
+      {
+        title: "The march to Calais",
+        text: "Henry took Harfleur, which Monstrelet says surrendered when the French king’s forces could not be assembled in time to relieve it. The English then marched for Calais, and d’Albret, the constable of France, barred their way in the defile between the woods of Agincourt and Tramecourt. Anne Curry stresses that the battle came at the end of a failed campaign: Henry was intercepted on the way home and rescued the situation by victory. The Britannica article gives him about 1,000 men-at-arms, 6,000 archers and a few thousand other foot.",
+        evidence: "fact",
+        studies: ["agincourt"],
+        refs: [{ source: 1 }, { source: 2 }, { source: 0 }],
+      },
+      {
+        title: "Legend and evidence",
+        text: "Curry argues that Shakespeare’s Henry V and its wartime use created the image most people have of the battle, one of little England and the common archer against French aristocrats. Monstrelet, who gives upward of ten thousand French dead on the estimate of heralds, was writing in France. Older totals for the armies should be treated with caution, and the University’s historians have been testing popular stories against the records.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 2 }, { source: 1 }],
+      },
+    ],
+    sources: [ebAgincourt, monstrelet, southampton],
+  },
+  "siege-of-constantinople": {
+    summary:
+      "Mehmed II’s siege of Constantinople in 1453, which ended the Byzantine Empire after fifty-five days.",
+    narrative: [
+      {
+        title: "Preparation",
+        text: "Byzantine territory had shrunk to the city and its immediate hinterland, and its population had fallen to perhaps 40,000–50,000. In 1452 Mehmed made peace with Hungary and Venice, built a fortress at the narrowest point of the Bosporus and had Urban cast cannon to breach the walls. Constantine XI’s appeals to Christendom brought little: the pope pressed for church union, which many in the city rejected. The siege began in April, and Mehmed’s ships were dragged overland into the Golden Horn. The land wall was breached on 29 May.",
+        evidence: "fact",
+        studies: ["constantinople"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Witnesses",
+        text: "Kritovoulos describes the ships carried over the ridge as if on the sea. Barbaro, a Venetian present in the harbour, counts seventy-two fuste brought across and a fleet of 145 vessels, and calls the attackers “dogs” throughout. The two accounts complement each other but neither is neutral.",
+        evidence: "uncertainty",
+        studies: ["constantinople"],
+        refs: [{ source: 1 }, { source: 2 }],
+      },
+    ],
+    sources: [constantinopleBr, kritovoulos, barbaro],
+  },
+  "babur-s-invasion-of-hindustan": {
+    summary:
+      "Babur’s invasion of northern India in 1525–1526, ending the Delhi sultanate at Panipat and founding Mughal rule.",
+    narrative: [
+      {
+        title: "A prince without a throne",
+        text: "Babur, descended from both Timur and Genghis Khan, lost Fergana, failed repeatedly to hold Samarkand and fell back on Kabul. With no prospect of recovering his old lands, he turned to India, where Ibrahim Lodi’s effort to build a centralized state had antagonized powerful Afghan chiefs such as Daulat Khan Lodi. He set out in November 1525. The battle at Panipat ended the Lodi dynasty and the Delhi sultanate.",
+        evidence: "fact",
+        studies: ["panipat"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "The evidence",
+        text: "The detailed account comes from Babur’s own memoirs, so the campaign is known mainly through the victor. Britannica notes that the date is usually given as 20 April 1526, though some scholars prefer 21 April, the date used in the catalog.",
+        evidence: "uncertainty",
+        studies: ["panipat"],
+        refs: [{ source: 0 }],
+      },
+    ],
+    sources: [panipatBr],
+  },
+  "nagashino-campaign": {
+    summary:
+      "The Takeda siege of Nagashino castle in 1575 and its relief by the armies of Oda Nobunaga and Tokugawa Ieyasu.",
+    narrative: [
+      {
+        title: "Siege and relief",
+        text: "A Takeda army of 15,000 besieged Nagashino castle in Mikawa. After a week the samurai Torii Suneemon slipped out to summon help and was killed on his return, shouting to the garrison that relief was on the way. A combined force of 38,000 under Oda and Tokugawa arrived; Oda built a staggered palisade between the hills and the river and stationed 3,000 matchlock men behind it to break the Takeda cavalry charges. The Takeda lost, by Turnbull’s count, 10,000 dead, including 54 of their 97 leaders.",
+        evidence: "fact",
+        studies: ["nagashino"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "The image of the battle",
+        text: "Much of the popular picture of Nagashino descends from painted screens. The Naruse screen, made on the orders of the head of the Naruse family, who died in 1620, is thought to be the model for later versions and shows Nobunaga, Hideyoshi and Ieyasu together. Britannica calls Nagashino the first modern Japanese battle because of its firearms; the screen shows how early the battle became a celebration of the three unifiers.",
+        evidence: "interpretation",
+        studies: ["nagashino"],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+    ],
+    sources: [nagashinoBr, nagashinoScreen],
+  },
+  "joseon-naval-operations-of-1592": {
+    summary:
+      "Admiral Yi Sun-sin’s naval campaign of 1592 against the Japanese invasion of Korea, which culminated at Hansan Island.",
+    narrative: [
+      {
+        title: "Cutting the sea route",
+        text: "Appointed commander in Left Jeolla in 1591, Yi trained his men, stocked supplies and developed the turtle ship, so that his fleet, unlike most of the Korean forces, was ready when the Japanese invaded in 1592. His victories off the south coast cut the Japanese armies off from supplies and reinforcements. In the seventh month the Japanese admiral Wakisaka led 73 ships to Geoje; a herdsman told Yi that some seventy lay at Gyeonnaeryang, and in the battle that followed 47 were destroyed and 12 captured.",
+        evidence: "fact",
+        studies: ["hansan-island"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "The turtle ship",
+        text: "Britannica says the turtle ship is thought to have been the first ironclad, a claim resting on descriptions of plates on its upper deck. The Korean Encyclopedia’s figures for the Japanese losses at Hansan come from the Korean side.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+    ],
+    sources: [yiBr, hansanEk],
+  },
+  "sekigahara-campaign": {
+    summary:
+      "The struggle for power after Toyotomi Hideyoshi’s death, decided in 1600 at Sekigahara in favour of Tokugawa Ieyasu.",
+    narrative: [
+      {
+        title: "After Hideyoshi",
+        text: "Hideyoshi appointed five regents for his young son, and when Ieyasu began to act independently Ishida Mitsunari formed a coalition against him. Uesugi Kagekatsu planned to draw Ieyasu east while the western army took Osaka and Fushimi, where Torii Mototada held the castle to delay it. Ieyasu sent armies along the Tōkaidō and the Nakasendō; Hidetada, disobeying orders by besieging Ueda, failed to join the others. On 21 October 1600 nearly 89,000 of Ieyasu’s men met just under 82,000 at Sekigahara, where Kobayakawa Hideaki had already secretly promised to change sides.",
+        evidence: "fact",
+        studies: ["sekigahara"],
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      {
+        title: "Questioning the story",
+        text: "The Osprey article reports the research of the Japanese scholar Shiramine Jun, whose criticism of the traditional layout questions the familiar image of Ieyasu marching into a valley of death and being saved only when Kobayakawa changed sides after being fired upon. The standard narrative has been reinforced by constant retelling.",
+        evidence: "uncertainty",
+        studies: ["sekigahara"],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+    ],
+    sources: [sekigaharaBr, sekigaharaOsprey, sekigaharaNps],
+  },
+  "swedish-intervention-in-germany": {
+    summary:
+      "Gustavus Adolphus’s intervention in the Thirty Years’ War from 1630, which broke imperial power in northern Germany at Breitenfeld.",
+    narrative: [
+      {
+        title: "The King of Sweden lands",
+        text: "North German opponents of the imperial cause called in Gustavus Adolphus. He landed at Peenemünde in June 1630 and spent the rest of the year securing Mecklenburg and Pomerania, partly with an eye to Swedish hegemony in the Baltic. Just as he landed, the princes of the League forced the emperor to dismiss Wallenstein. In September 1631 Tilly, having taken Leipzig, met the Swedes and Saxons at Breitenfeld.",
+        evidence: "fact",
+        studies: ["breitenfeld"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Numbers",
+        text: "History of War gives 36,000 imperialists against 42,000 Swedes and Saxons. The Britannica history of the war notes a swiftness of concentration in Gustavus that surprised the old-fashioned soldiers of his day.",
+        evidence: "interpretation",
+        studies: ["breitenfeld"],
+        refs: [{ source: 2 }, { source: 0 }],
+      },
+    ],
+    sources: [ebThirtyYears, ebBreitenfeld, breitenfeldHw],
+  },
+  "afzal-khan-s-expedition": {
+    summary:
+      "The Bijapur expedition of 1659 against Shivaji, ended by the killing of Afzal Khan at Pratapgad and the rout of his army.",
+    narrative: [
+      {
+        title: "A Bijapur army in the hills",
+        text: "Shivaji had been seizing weaker Bijapur outposts from about 1655. In 1659 the sultan sent Afzal Khan against him. Shivaji appeared intimidated, drew the army deep into difficult mountains around Jawli and arranged a meeting. He killed Afzal Khan there, and troops placed in advance fell on the unsuspecting army. Britannica says he became a formidable warlord overnight, with the horses, guns and ammunition of the Bijapur force.",
+        evidence: "fact",
+        studies: ["pratapgad"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Britannica gives Afzal Khan 20,000 men; Sabhasad’s Marathi chronicle says twelve thousand horse. Sabhasad presents the plan as inspired by a dream of the goddess and tells the story from the Maratha side, and its editor warns that the Marathi chroniclers wrongly connect Afzal with the death of Sambhaji.",
+        evidence: "uncertainty",
+        studies: ["pratapgad"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+    ],
+    sources: [shivajiBr, sabhasad],
+  },
+  "danube-campaign": {
+    summary:
+      "Marlborough’s march from the Low Countries to the Danube in 1704 to save Vienna, which ended at Blenheim.",
+    narrative: [
+      {
+        title: "The march to the Danube",
+        text: "With enemy forces threatening Vienna, Marlborough marched 40,000 men from what is now Belgium to southern Germany, undetected by the French. Joined by Eugene, the allies faced Tallard and Marsin near Blenheim on 13 August 1704. The Britannica article reports 11,000 French and Bavarian prisoners, 100 guns and 200 colours taken; Tallard’s army was almost annihilated, while Marsin’s drew off in good order.",
+        evidence: "fact",
+        studies: ["blenheim"],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+      {
+        title: "How much is known",
+        text: "The Britannica article calls the French and Bavarian killed and wounded large but uncertain, many having drowned in the Danube. The National Army Museum’s account, like most English narratives, tells the campaign through Marlborough, although the allied army was a coalition of British, Austrian, Dutch and Prussian troops.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+    ],
+    sources: [ebBlenheim, blenheimNam],
+  },
+  "indian-campaign-of-1738-1739": {
+    summary:
+      "Nadir Shah’s invasion of Mughal India in 1738–1739, the victory at Karnal and the sack of Delhi.",
+    narrative: [
+      {
+        title: "From Kabul to Delhi",
+        text: "Nadir Shah, king of Persia since 1736, advanced into India after invading Afghanistan in 1738; the Mughal Empire had been seriously weakened since Aurangzeb’s death. On 24 February 1739 at Karnal his troops waited until the Mughal force, with its elephants, came within close range and then fired. Khan Dauran was mortally wounded and Sa’adat Khan captured. Muhammad Shah was taken, Delhi looted and the Peacock Throne carried back to Persia, though he stayed on the throne.",
+        evidence: "fact",
+        studies: ["karnal"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "An empire’s decline",
+        text: "Britannica calls Karnal the effective end of the Mughal Empire. Sarkar’s lectures, drawing on Indian chronicles such as the Siyar, describe how the Indian army ran once its two leaders were gone, with the Persian horsemen in pursuit.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+    ],
+    sources: [karnalBr, sarkarNadir],
+  },
+  "silesian-campaign-of-1757": {
+    summary:
+      "The campaign of late 1757 in which Frederick the Great recovered Silesia from the Austrians at Leuthen.",
+    narrative: [
+      {
+        title: "From Rossbach to Silesia",
+        text: "After beating the French and the imperial army at Rossbach on 5 November 1757, Frederick force-marched from Thuringia, for the Austrians had taken Schweidnitz on 11 November and Breslau on 22 November. On 5 December at Leuthen he attacked Charles of Lorraine with 43,000 men against 72,000. Charles lost 22,000, 12,000 of them captured, and Frederick 6,000.",
+        evidence: "fact",
+        studies: ["leuthen"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "A rhetoric of desperation",
+        text: "The address Frederick is said to have made to his officers before the battle was published only in 1802. It is characteristic of his rhetoric, as the German History in Documents editors note, but it is not a contemporary transcript.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 2 }],
+      },
+    ],
+    sources: [sevenYearsBr, karlLothringen, frederickLeuthen],
+  },
+  "burgoyne-s-northern-campaign": {
+    summary:
+      "General Burgoyne’s invasion from Canada in 1777, which ended in his surrender at Saratoga and helped bring France into the war.",
+    narrative: [
+      {
+        title: "A plan without coordination",
+        text: "Burgoyne proposed a three-pronged attack on Albany to cut New England from the colonies to the south. Germain approved it and also approved Howe’s plan to attack Philadelphia, so that the expected support up the Hudson never properly materialized. Burgoyne lost nearly 1,000 men at Bennington, fought at Freeman’s Farm and Bemis Heights, and surrendered to Gates on 17 October 1777. Vergennes decided for an alliance when the news reached him in December.",
+        evidence: "fact",
+        studies: ["saratoga"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Who was to blame",
+        text: "The American Battlefield Trust points to confusion over Howe’s role and the contentious relations between the two generals. The State Department’s account gives Saratoga a decisive diplomatic weight, and Burgoyne received Clinton’s letter promising a diversion only after the fighting at Freeman’s Farm.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+    ],
+    sources: [saratogaAbt, frenchAlliance],
+  },
+  "danubian-campaign-of-1789": {
+    summary:
+      "The Austro-Russian campaign of 1789 against the Ottomans on the Danube, marked by the victories of Focșani and the Rymnik.",
+    narrative: [
+      {
+        title: "Coburg and Suvorov",
+        text: "Friedrich Josias of Coburg took the fortress of Chotin in 1788 and in 1789 fought in close cooperation with the Russians under Suvorov. Their victories came at Focșani on 1 August and on the Rymnik on 22 September. The Turkish encyclopedia’s biography of Koca Yusuf Pasha records the heavy rout at the crossing of the Rymnik and on the Boza, and the surrender of Ismail on 11 October and Bender on 14 November.",
+        evidence: "fact",
+        studies: ["rymnik"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Whose victory",
+        text: "The German biographies credit Coburg with beating a nearly fivefold superior force at Martinești, as they call the Rymnik, though Suvorov fought beside him; the Ottoman account measures the defeat by a situation that no change of grand vizier could repair. The disparity of numbers given in the German account should be treated with caution.",
+        evidence: "uncertainty",
+        studies: ["rymnik"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+    ],
+    sources: [coburg, yusufPasa],
+  },
+  "vicksburg-campaign": {
+    summary:
+      "Grant’s campaign of 1863 against Vicksburg, the Confederate stronghold on the Mississippi, which ended in surrender on 4 July.",
+    narrative: [
+      {
+        title: "The river fortress",
+        text: "Vicksburg first came under Union naval attack in early 1862. Pemberton had over a year to prepare a ring of earthworks with more than 170 guns. Having cut the city off from Jackson, Grant ordered assaults from 19 May 1863 and on the 23rd turned to siege operations, which continued until Pemberton’s surrender on 4 July. Port Hudson then had no choice but to surrender, and large operations in Mississippi ceased.",
+        evidence: "fact",
+        studies: ["vicksburg"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "How important was it",
+        text: "Ballard notes that historians have debated Vicksburg’s military significance, but that Davis and Lincoln both decided the town was important and the two sides fought furiously over it. Its surrender also weighed on civilian morale: after it many pro-Confederate Mississippians realized that the war was lost.",
+        evidence: "interpretation",
+        studies: ["vicksburg"],
+        refs: [{ source: 1 }],
+      },
+    ],
+    sources: [vicksburgNps, mississippiCivilWar],
+  },
+  "gettysburg-campaign": {
+    summary:
+      "Lee’s invasion of the North in June 1863 and his defeat at Gettysburg on 1–3 July.",
+    narrative: [
+      {
+        title: "Into Pennsylvania",
+        text: "After Chancellorsville Lee decided to invade the North, to revive Confederate morale and relieve pressure on Vicksburg. Ewell advanced through Maryland as far as Chambersburg, and Early reached York and destroyed bridges. The Army of the Potomac followed east of the mountains under orders to protect Washington. Lee reported that he had not meant to fight a general battle so far from his base unless attacked, but having come unexpectedly on the whole Federal army could not easily withdraw through the mountains with his trains. On 4 July he began his retreat, leaving over 51,000 dead, wounded or missing on both sides.",
+        evidence: "fact",
+        studies: ["gettysburg"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Lee’s own account",
+        text: "Lee’s report of January 1864 is the commander’s explanation of a defeat, and its claim that a general battle was unintended helps account for why he fought where he did. The National Park Service’s overview, by contrast, is built around the battlefield and the town left in shambles.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+    ],
+    sources: [gettysburgNps, leeReport],
+  },
+  "atlanta-campaign": {
+    summary:
+      "Sherman’s advance on Atlanta from May to September 1864, against Johnston and then Hood, which helped secure Lincoln’s re-election.",
+    narrative: [
+      {
+        title: "Manoeuvre and assault",
+        text: "Johnston took strong positions around Dalton with 53,800 officers and men, soon reinforced by 15,000, and waited to be attacked. Sherman repeatedly sent McPherson’s army round his left flank against the Western & Atlantic Railroad, beginning at Rocky Face Ridge, from which Johnston retreated on 12 May. After Hood took command he attacked unsuccessfully at Peach Tree Creek on 20 July. Battle casualties for the four months came to about 34,500 for the North and 35,000 for the South.",
+        evidence: "fact",
+        studies: ["atlanta-campaign"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Politics",
+        text: "The American Battlefield Trust writes that Sherman’s capture of Atlanta all but assured Lincoln’s re-election two months later and set the stage for the March to the Sea. It describes Johnston’s plan as one of waiting to be attacked, and Hood’s first attack as a failure, without settling which approach served the South better.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+    ],
+    sources: [atlantaAbt],
+  },
+  "campaign-of-1870": {
+    summary:
+      "The German campaign against the French Army of Châlons in 1870, ending in the surrender of Napoleon III at Sedan.",
+    narrative: [
+      {
+        title: "The march to relieve Metz",
+        text: "After Mars-la-Tour and Gravelotte shut Bazaine in Metz, MacMahon’s was the only French army left in the field. Instead of covering Paris, with the ailing emperor beside him, he marched north toward the Belgian border to turn and relieve Metz, because retreat would have doomed the dynasty. The Germans knew his intentions and moved to intercept. After clashes at Nouart, Beaumont and Bazeilles he retired to Sedan, a small fortress that could not feed his army, and was encircled.",
+        evidence: "fact",
+        studies: ["sedan"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Three commanders in a day",
+        text: "MacMahon was wounded at 7 a.m. on 1 September. Ducrot ordered a retreat toward Mézières; Wimpffen then produced a directive from the war minister claiming command and countermanded him. Napoleon III decided to give himself up to spare his generals the humiliation of surrender. Whether Ducrot’s retreat could have saved the army cannot be settled from the sources used here.",
+        evidence: "uncertainty",
+        studies: ["sedan"],
+        refs: [{ source: 1 }],
+      },
+    ],
+    sources: [sedanBr, sedanNapoleon],
+  },
+  "adwa-campaign": {
+    summary:
+      "The Italian attempt to impose a protectorate on Ethiopia, ended by Menilek II’s victory at Adwa on 1 March 1896.",
+    narrative: [
+      {
+        title: "From Wichale to Adwa",
+        text: "Article XVII of the Treaty of Wichale of 1889 was read by Menilek as allowing Ethiopia to use the Italian government in foreign affairs and by Crispi as requiring it, which implied a protectorate. Menilek repudiated it in 1893. Baratieri crossed the frontier in 1895 and occupied Adigrat, Mekele, Adwa and Axum. With supplies short he hesitated before a force of more than 100,000; Crispi’s furious telegram of 28 February pressed him into advancing with 14,500 men, and his columns fought almost in isolation from each other.",
+        evidence: "fact",
+        studies: ["adwa"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "The cost",
+        text: "Britannica estimates more than 6,000 killed on the Italian side, slightly over half of them Italians, and 3,000 to 4,000 prisoners, and more than 5,000 Ethiopians killed and 8,000 wounded. The Italian biographical dictionary places responsibility on the offensive argument of Arimondi at the commanders’ meeting and on the lack of coordination in the field, a focus on Italian decisions that leaves Menilek’s own management of the campaign in the background.",
+        evidence: "interpretation",
+        studies: ["adwa"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+    ],
+    sources: [adwaBr, baratieri],
+  },
+  "baltic-fleet-voyage": {
+    summary:
+      "The voyage of Russia’s Baltic Fleet around the world in 1904–1905 and its destruction at Tsushima.",
+    narrative: [
+      {
+        title: "Seven months at sea",
+        text: "Russia sent the Baltic Fleet under Rozhestvensky to join the Pacific Squadron. It sailed from Liepāja on 15 October 1904; off the Dogger Bank it fired on British trawlers in the belief that they were Japanese torpedo boats, and only a prompt apology avoided war. At Nossi-Bé Rozhestvensky learned that Port Arthur had fallen and proposed turning back, but he went on, joined by reinforcements at Cam Ranh Bay, and made for Vladivostok through the Tsushima Strait, where Tōgō attacked on 27 May 1905.",
+        evidence: "fact",
+        studies: ["tsushima"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Watching the fleet",
+        text: "Japanese diplomatic archives show the effort to track the fleet’s progress through missions abroad, including reports drawn from foreign newspapers. Britannica reports two-thirds of the Russian fleet sunk, six ships captured, four reaching Vladivostok and six taking refuge in neutral ports; its dating of the battle to 27–29 May differs from the 27–28 May of the catalog.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+    ],
+    sources: [tsushimaBr, jacarTsushima],
+  },
+  "northwestern-campaign-of-1953-1954": {
+    summary:
+      "The French and Viet Minh campaign of 1953–1954 in north-western Vietnam, ended by the fall of Dien Bien Phu.",
+    narrative: [
+      {
+        title: "Navarre’s plan",
+        text: "General Navarre, appointed in May 1953, was sent to find an honourable way out, bringing the Viet Minh to negotiate after weakening them. His plan kept the corps on the defensive in the north for the first year. Operation Castor dropped paratroops at Dien Bien Phu on 20 November 1953. Giap saw in a garrison dependent on air supply the chance of a major victory. On 7 May 1954, after 56 days of fighting, General de Castries ordered the fighting to stop.",
+        evidence: "fact",
+        studies: ["dien-bien-phu"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Geneva",
+        text: "In the wake of the defeat, French and Vietnamese representatives met with the United States and China at Geneva. The State Department calls it a four-month siege where the French account counts 56 days of fighting; the difference probably lies in whether the months before the attack of March are included. Its framing through Eisenhower’s falling dominoes reflects American concerns.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+    ],
+    sources: [dbpDefense, dbpState],
   },
 };

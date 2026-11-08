@@ -1029,3 +1029,96 @@ All fifteen First World War campaigns gain narratives in `data/campaign-details.
 The war bibliography lists fifteen of these sources with notes.
 
 Evidence limits. The encyclopedia articles are short scholarly surveys, and they disagree on many dates and figures; the narratives keep these in "uncertainty" paragraphs, among them the dates of Cer and of the Bulgarian offensive of 1915, the death toll of the Toplica uprising, the Ottoman losses at Gallipoli, the German losses at Jutland, the losses at the tenth battle of the Isonzo, the dates of the two battles of the Marne and of the Bulgarian armistice, and the capture of Jerusalem. Obvious slips in the articles are named rather than repeated: Dowling's 4 May for the start of the Brusilov offensive and Tasić's 1916 for the capture of Skopje. The memoirs of Falkenhayn, Ludendorff, Scheer, Liman von Sanders and Hamilton and Haig's despatches are commanders' accounts written in their own defence; their claims, such as Falkenhayn's on the losses at Verdun and Haig's on German losses, are attributed and set against the encyclopedia figures. The encyclopedia's article on Verdun could not be used: the site links to it but returns "not found".
+
+## Campaign narratives: batch K5, the Second World War (7 November 2026)
+
+All eighteen Second World War campaigns gain narratives in `data/campaign-details.ts`, and the Second World War page gains an annotated bibliography in `data/war-details.ts`. The sources are the official histories online at HyperWar (the British United Kingdom Military Series, the U.S. Army's Eastern Front volumes and general history, and the Strategic Bombing Survey's naval analysis), the Center of Military History's campaign brochures, three Army pamphlets and studies at the Internet Archive, the Holocaust Encyclopedia and Neue Deutsche Biographie articles on the German commanders.
+
+| Campaign                            | Sources read                                                                                                                |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Invasion of Poland                  | Kennedy, _The German Campaign in Poland_ (DA Pam 20-255); _The Campaign in Poland, 1939_ (West Point); USHMM; NDB Rundstedt |
+| Battle of the Atlantic              | Roskill, _The War at Sea_, vol. II, ch. IV and XIV; _American Military History_, ch. 20; NDB Raeder                         |
+| Western campaign of 1940            | Ellis, _The War in France and Flanders_, ch. XXIII; NDB Manstein; NDB Rundstedt                                             |
+| Battle of Britain                   | Richards, _The Fight at Odds_, ch. VI; Collier, _The Defence of the United Kingdom_, ch. XI, XV and XXVI                    |
+| German invasion of the Soviet Union | Ziemke and Bauer, _Moscow to Stalingrad_, ch. II–IV and XXIV; Blau (DA Pam 20-261a); NDB Guderian; NDB Model                |
+| Japanese offensive of 1941–1942     | USSBS, _Campaigns of the Pacific War_, ch. 1–3; _American Military History_, ch. 20; Richards and Saunders, ch. II          |
+| South Pacific operations of 1942    | USSBS ch. 4; CMH _Papua_; _American Military History_, ch. 20 and 23                                                        |
+| Japanese Midway operation           | USSBS ch. 1 and 5; _American Military History_, ch. 20 and 23                                                               |
+| German summer offensive of 1942     | Blau; Ziemke and Bauer, ch. XXIII–XXIV; NDB Paulus; NDB Manstein                                                            |
+| Solomon Islands campaign            | USSBS ch. 7; CMH _Guadalcanal_; _American Military History_, ch. 23                                                         |
+| North African campaign              | CMH _Egypt-Libya_; Richards and Saunders, ch. XI; _American Military History_, ch. 22; NDB Rommel; Ziemke, ch. VII          |
+| Kursk and Soviet counteroffensives  | Ziemke, _Stalingrad to Berlin_, ch. VII–VIII; NDB Manstein; NDB Model                                                       |
+| Burma campaign                      | Saunders, _The Fight Is Won_, ch. XV; CMH _India-Burma_ and _Central Burma_                                                 |
+| North-West Europe campaign          | CMH _Normandy_, _Northern France_, _Rhineland_ and _Ardennes-Alsace_; NDB Rommel, Rundstedt and Model                       |
+| Soviet summer offensive of 1944     | Ziemke, ch. XV; NDB Model; NDB Guderian                                                                                     |
+| Philippines campaign of 1944–1945   | CMH _Leyte_; _American Military History_, ch. 23; USSBS ch. 1                                                               |
+| Central Pacific drive               | CMH _Western Pacific_ and _Ryukyus_; USSBS ch. 13; _American Military History_, ch. 23                                      |
+| Final Soviet offensives of 1945     | Ziemke, ch. XXI–XXII; _American Military History_, ch. 22                                                                   |
+
+The war bibliography lists twelve of these works with notes.
+
+Evidence limits. Most of these sources are official histories of one side, and the narratives say so where it matters: the Army brochures follow American operations, the British volumes British ones, and Ziemke and Bauer and the Blau pamphlet rest largely on German records and the postwar writings of German generals. Disagreements stay in "uncertainty" paragraphs, among them the dates of Warsaw's surrender and of the last Polish resistance, the end of the fighting in Tunisia (10 or 13 May 1943), on Iwo Jima and on Okinawa, the air supply promised to Stalingrad, and the halt before Dunkirk. The Strategic Bombing Survey's Midway chapter predates the release of the codebreaking story, and its editors' note saying so is reported rather than corrected from unread sources; the RAF history's "General Hanayoa" is quoted as printed. Sources tried but not used: the Internet Archive copy of Kennedy's pamphlet in a collection tagged with extremist hashtags (the clean copy cited ends partway through the book, so only its account of the Polish plans is cited); Parotkin's Soviet collection on Kursk, whose text would not download; the Survey's Philippines and Okinawa chapters, which are unfinished stubs on HyperWar; the Indian official history of the Burma reconquest, whose chapters are not online; and the Deutsche Biographie, which has no article on Dönitz or Heinrici.
+
+## Campaign narratives: batch K6, Rome (8 November 2026)
+
+The fourteen campaigns of the Roman collection gain narratives in `data/campaign-details.ts`, and the eleven Roman war pages gain short annotated bibliographies in `data/war-details.ts`. Each of these campaigns has one engagement, so the narrative covers the campaign around the battle rather than the battle alone, leaving tactics to the study pages. Ancient texts were read in the LacusCurtius (Loeb), Project Gutenberg, New Advent and Tertullian Project editions; modern framing comes from the 1911 Britannica on Wikisource, Bury's _History of the Later Roman Empire_ and Livius.org.
+
+| Campaign                       | Sources read                                                                                 |
+| ------------------------------ | -------------------------------------------------------------------------------------------- |
+| Hannibal's Italian campaign    | Polybius 3; Livy, Books 9–26 and 27–36; Britannica, "Punic Wars"                             |
+| Scipio's African campaign      | Polybius 14 and 15; Livy, Books 27–36; Britannica, "Punic Wars"                              |
+| Second Macedonian War          | Polybius 18; Livy, Books 27–36; Plutarch, _Flamininus_; Livius, "Macedonia (8)"              |
+| Third Macedonian War           | Livy, Books 37–45; Plutarch, _Aemilius Paulus_; Livius, "Macedonia (8)"                      |
+| Crassus's Parthian expedition  | Plutarch, _Crassus_; Dio 40; Livius, "Carrhae"                                               |
+| Gallic revolt of 52 BCE        | Caesar, _Gallic War_ 7; Britannica, "Caesar"; Dio 40; Plutarch, _Caesar_                     |
+| Caesar's civil war             | Caesar, _Civil Wars_ 1 and 3; Britannica, "Caesar"; Plutarch, _Caesar_; Appian 2             |
+| War of Actium                  | Plutarch, _Antony_; Dio 50 and 51; Livius, "Actium"                                          |
+| Varus's campaign in Germania   | Dio 56; Velleius 2.117–120; Tacitus, _Annals_ 1; Livius, "Teutoburg Forest (5)", "Kalkriese" |
+| Boudican revolt                | Tacitus, _Annals_ 14; Dio 62; Britannica, "Boadicea"                                         |
+| Judaean campaign               | Josephus, _Jewish War_; Tacitus, _Histories_ 5 and fragments; Livius, three articles         |
+| Constantine's Italian campaign | Lactantius; Eusebius, _Life of Constantine_ 1; Zosimus 2; Britannica, "Constantine"          |
+| Gothic War of 376–382          | Ammianus 31; Jordanes; Zosimus 4; Britannica, "Goths"; Livius, "Adrianople"                  |
+| Attila's invasion of Gaul      | Bury, ch. IX; Britannica, "Attila"; Jordanes                                                 |
+
+The eleven bibliographies list forty-two entries with notes, drawn from these sources.
+
+Evidence limits. Most of the narrative rests on ancient writers separated from events by generations and often writing for the winner, and modern framing is mostly older than a century; historians' reviews should add current scholarship. Differences stay in "uncertainty" paragraphs, among them the dead at Cannae and at Pharsalus, the inflated figures Livy attributes to Valerius Antias, the numbers at Alesia and at the Milvian Bridge, the two versions of Boudica's death and of Valens's, the different names of Crassus's betrayer, Titus's intentions toward the Temple, and whether Antony's escape at Actium was flight or plan. The 1911 Britannica's date of 205 BCE for the clearing of Italy is reported as an inconsistency, not repeated as fact. Sources tried but not used: the Encyclopaedia Iranica article on Carrhae, which blocks automated reading; Britannica's "Macedonian Empire", which has little on these wars; and Tacitus's _Agricola_, whose LacusCurtius address could not be found.
+
+## Campaign contexts: batch K7, the one-engagement campaigns (8 November 2026)
+
+The thirty one-engagement campaigns outside the collections gain short contexts of two paragraphs in `data/campaign-details.ts`, one setting out why the campaign happened and how it ended, the other its source problems or a judgement. The unit test keeps the four-paragraph minimum for the collections and requires two for these. Each source below was read for this batch; Encyclopaedia Britannica articles were read in the built-in browser because the site blocks scripted fetching.
+
+| Campaign                         | Sources read                                                           |
+| -------------------------------- | ---------------------------------------------------------------------- |
+| Persian expedition to the Aegean | Herodotus 6; Britannica 1911, "Marathon"                               |
+| Campaign on the Yangtze          | World History Encyclopedia; _Sanguozhi_ 1 and 54 (Chinese)             |
+| Mesopotamian campaign of 530     | Procopius, _Wars_ 1                                                    |
+| Conquest of Syria                | Al-Baladhuri; World History Encyclopedia                               |
+| Invasion of England              | English Heritage; Bayeux Museum; William of Malmesbury                 |
+| Saladin's campaign of 1187       | _De Expugnatione_; Edbury's three accounts; Britannica 1911            |
+| Third Crusade                    | EBSCO; Britannica 1911, "Crusades"                                     |
+| Campaign of 1211 against the Jin | _Yuan Shi_ 119; _Jin Shi_ 93 (Chinese)                                 |
+| Mongol invasion of Hungary       | Sinor; Pow and Laszlovszky                                             |
+| Campaign in Syria and Palestine  | Rashid al-Din (De Re Militari)                                         |
+| Henry V's campaign of 1415       | Britannica 1911; Monstrelet; University of Southampton (Curry)         |
+| Siege of Constantinople          | Britannica; Kritovoulos; Barbaro                                       |
+| Babur's invasion of Hindustan    | Britannica                                                             |
+| Nagashino campaign               | Britannica (Turnbull); nippon.com on the battle screen                 |
+| Joseon naval operations of 1592  | Britannica; Encyclopedia of Korean Culture                             |
+| Sekigahara campaign              | Britannica; Osprey; National Park Service                              |
+| Swedish intervention in Germany  | Britannica 1911, "Thirty Years' War" and "Breitenfeld"; History of War |
+| Afzal Khan's expedition          | Britannica; Sabhasad Bakhar                                            |
+| Danube campaign                  | Britannica 1911; National Army Museum                                  |
+| Indian campaign of 1738–1739     | Britannica; Sarkar, _Nadir Shah in India_                              |
+| Silesian campaign of 1757        | Britannica; Deutsche Biographie; German History in Documents           |
+| Burgoyne's northern campaign     | American Battlefield Trust; U.S. Office of the Historian               |
+| Danubian campaign of 1789        | Deutsche Biographie; TDV İslâm Ansiklopedisi                           |
+| Vicksburg campaign               | National Park Service; Mississippi Encyclopedia                        |
+| Gettysburg campaign              | National Park Service; Lee's report                                    |
+| Atlanta campaign                 | American Battlefield Trust                                             |
+| Campaign of 1870                 | Britannica; Fondation Napoléon                                         |
+| Adwa campaign                    | Britannica; Treccani, "Baratieri"                                      |
+| Baltic Fleet voyage              | Britannica; Japan Center for Asian Historical Records                  |
+| Northwestern campaign, 1953–1954 | French Ministère des Armées; U.S. Office of the Historian              |
+
+Evidence limits. These are orientation texts, not campaign histories: most rest on two sources, and four (Dara, Ain Jalut, Panipat and Atlanta) on one, with the limits stated on the page. Many sources listed in the engagement studies were not reread for this batch and so are not cited here. The uncertainty paragraphs record differences such as Cao Cao's 800,000 or 250,000 men, al-Baladhuri's 200,000 Byzantines against modern estimates, Sinor's logistical explanation of the Mongol withdrawal against Carpini's, the placement of Yehuling in the Yuan and Jin histories, Afzal Khan's 20,000 or 12,000, and the French and American counts of the siege of Dien Bien Phu. Sources tried but not used: Encyclopaedia Iranica, which blocks automated reading, and the U.S. Naval Institute article on the Baltic Fleet, which could not be read.

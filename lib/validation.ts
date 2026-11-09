@@ -124,6 +124,180 @@ const sourceCheckSchema = z.object({
   campaignSlug: z.string().min(1).optional(),
   battleSlug: z.string().min(1).optional(),
 });
+const refSchema = z.object({
+  source: z.number().int().nonnegative(),
+  locator: z.string().min(1).optional(),
+});
+const leadershipReadingSchema = z.object({
+  text: z.string().min(1),
+  evidence: z.enum(["fact", "interpretation", "uncertainty"]),
+  refs: z.array(refSchema).min(1),
+});
+// A lesson's claim must carry its scope; one career cannot prove a rule.
+const conditionalClaim =
+  /\b(when|where|if|unless|once|while|the more|the higher)\b/i;
+// Sayings not yet traced to a text, and labels and popular findings the
+// editorial rules exclude. Remove a saying only after recording its origin in
+// docs/SOURCE_AUDIT.md.
+const excludedInLessons: [RegExp, string][] = [
+  [/marches on its stomach/i, "untraced saying"],
+  [/interrupt your enemy/i, "untraced saying"],
+  [/lucky generals/i, "untraced saying"],
+  [/baton in his knapsack/i, "untraced saying"],
+  [/lies agreed upon/i, "untraced saying"],
+  [/impossible is not french/i, "untraced saying"],
+  [/narcissis|psychopath|sociopath|megalomania|bipolar/i, "psychiatric label"],
+  [
+    /ego depletion|power pos(e|ing)|myers.briggs|10,000.hour/i,
+    "excluded claim",
+  ],
+  [/\b\d[\d,]*\s+(dead|killed|casualties|wounded)\b/i, "casualty figure"],
+];
+const leadershipLessonSchema = z
+  .object({
+    slug: z.string().regex(/^[a-z0-9-]+$/),
+    title: z.string().min(1),
+    part: z.string().min(1),
+    themes: z
+      .array(
+        z.enum([
+          "judgement",
+          "motivation",
+          "communication",
+          "organisation",
+          "adaptation",
+          "restraint",
+          "succession",
+          "ethics",
+        ]),
+      )
+      .min(1),
+    claim: z
+      .string()
+      .regex(conditionalClaim, "A claim must state when it applies"),
+    moment: leadershipReadingSchema,
+    episodes: z
+      .array(
+        leadershipReadingSchema.extend({
+          title: z.string().min(1),
+          battleSlugs: z.array(z.string()),
+          campaignSlugs: z.array(z.string()).optional(),
+        }),
+      )
+      .min(2)
+      .max(4),
+    witnesses: z
+      .array(
+        z.object({
+          who: z.string().min(1),
+          stake: z.string().min(1),
+          says: z.string().min(1),
+          refs: z.array(refSchema).min(1),
+        }),
+      )
+      .min(2),
+    strategist: z.array(leadershipReadingSchema).min(1),
+    psychologist: z
+      .array(
+        z
+          .object({
+            text: z.string().min(1),
+            evidence: z.literal("interpretation"),
+            refs: z.array(refSchema),
+            mechanism: z.string().min(1),
+            base: z.enum([
+              "meta-analysis",
+              "review",
+              "single study",
+              "theory",
+              "contested",
+              "none",
+            ]),
+            limit: z.string().min(1),
+          })
+          .refine(
+            (p) => p.base === "none" || p.refs.length > 0,
+            "A psychological reading needs a read source",
+          ),
+      )
+      .min(1)
+      .max(2),
+    shadow: leadershipReadingSchema,
+    counterCase: leadershipReadingSchema.extend({
+      commanderSlug: z.string().min(1).optional(),
+      battleSlugs: z.array(z.string()),
+    }),
+    cost: leadershipReadingSchema.optional(),
+    transfer: z.object({
+      holdsWhen: z.array(z.string().min(1)).min(1),
+      failsWhen: z.array(z.string().min(1)).min(1),
+      questions: z.array(z.string().min(1)).length(3),
+    }),
+    bearsOn: z.string().min(1),
+    questions: z.array(questionSchema).min(3),
+    sourceCheck: sourceCheckSchema.optional(),
+    seminar: z.object({
+      prompt: z.string().min(1),
+      guidance: z.string().min(1),
+    }),
+    sources: z.array(sourceSchema).min(2),
+  })
+  .superRefine((lesson, ctx) => {
+    const blocks: { refs: { source: number }[] }[] = [
+      lesson.moment,
+      ...lesson.episodes,
+      ...lesson.witnesses,
+      ...lesson.strategist,
+      ...lesson.psychologist,
+      lesson.shadow,
+      lesson.counterCase,
+      ...(lesson.cost ? [lesson.cost] : []),
+    ];
+    for (const ref of blocks.flatMap((b) => b.refs))
+      if (ref.source >= lesson.sources.length)
+        ctx.addIssue({
+          code: "custom",
+          message: `Reference ${ref.source} is out of range in ${lesson.slug}`,
+        });
+    // Source titles may legitimately name a disorder or a study; prose may not.
+    const prose = JSON.stringify({ ...lesson, sources: [] });
+    for (const [pattern, reason] of excludedInLessons)
+      if (pattern.test(prose))
+        ctx.addIssue({
+          code: "custom",
+          message: `${reason} in ${lesson.slug}: ${pattern}`,
+        });
+    if (
+      !lesson.episodes.some(
+        (e) => e.battleSlugs.length || e.campaignSlugs?.length,
+      )
+    )
+      ctx.addIssue({
+        code: "custom",
+        message: `${lesson.slug} must link at least one study or campaign`,
+      });
+  });
+export const leadershipVolumeSchema = z
+  .object({
+    commanderSlug: z.string().min(1),
+    title: z.string().min(1),
+    summary: z.string().min(1),
+    introduction: z.string().min(1),
+    question: z.string().min(1),
+    parts: z.array(z.string().min(1)).min(1),
+    lessons: z.array(leadershipLessonSchema),
+  })
+  .superRefine((volume, ctx) => {
+    const slugs = volume.lessons.map((l) => l.slug);
+    if (new Set(slugs).size !== slugs.length)
+      ctx.addIssue({ code: "custom", message: "Duplicate lesson slug" });
+    for (const lesson of volume.lessons)
+      if (!volume.parts.includes(lesson.part))
+        ctx.addIssue({
+          code: "custom",
+          message: `${lesson.slug} names an unknown part: ${lesson.part}`,
+        });
+  });
 export const courseSchema = z.array(
   z.object({
     slug: z.string(),

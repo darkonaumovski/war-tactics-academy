@@ -15,7 +15,7 @@ export function Quiz({
   lesson,
   courseSlug,
 }: {
-  lesson: Lesson;
+  lesson: Pick<Lesson, "slug" | "questions">;
   courseSlug: string;
 }) {
   const p = useProgress();
@@ -172,16 +172,18 @@ export function SourceCheck({ check }: { check: SourceCheckData }) {
               Source checks are for practice and are not scored. Try the other
               answers to compare the reasoning.
             </p>
-            <Link
-              className="text-link"
-              href={
-                check.battleSlug
-                  ? `/battles/${check.battleSlug}`
-                  : `/campaigns/${check.campaignSlug}`
-              }
-            >
-              See this disagreement and its sources
-            </Link>
+            {(check.battleSlug || check.campaignSlug) && (
+              <Link
+                className="text-link"
+                href={
+                  check.battleSlug
+                    ? `/battles/${check.battleSlug}`
+                    : `/campaigns/${check.campaignSlug}`
+                }
+              >
+                See this disagreement and its sources
+              </Link>
+            )}
           </FadeIn>
         </div>
       )}

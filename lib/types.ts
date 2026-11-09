@@ -178,6 +178,77 @@ export type Scenario = {
   historical: string;
   options: { text: string; feedback: string; historical: boolean }[];
 };
+// A shared vocabulary, so that later volumes can be compared with this one.
+export type LeadershipTheme =
+  | "judgement"
+  | "motivation"
+  | "communication"
+  | "organisation"
+  | "adaptation"
+  | "restraint"
+  | "succession"
+  | "ethics";
+export type LeadershipReading = {
+  text: string;
+  evidence: Evidence;
+  refs: SectionRef[];
+};
+// How far the research behind a psychological reading can be trusted. "none"
+// says plainly that no reliable mechanism is offered, and then needs no refs.
+export type ResearchBase =
+  "meta-analysis" | "review" | "single study" | "theory" | "contested" | "none";
+export type LeadershipLesson = {
+  slug: string;
+  title: string;
+  // One of the titles in the volume's `parts`.
+  part: string;
+  themes: LeadershipTheme[];
+  // The principle under test, as a conditional claim with its scope.
+  claim: string;
+  moment: LeadershipReading;
+  episodes: (LeadershipReading & {
+    title: string;
+    battleSlugs: string[];
+    campaignSlugs?: string[];
+  })[];
+  witnesses: {
+    who: string;
+    stake: string;
+    says: string;
+    refs: SectionRef[];
+  }[];
+  strategist: LeadershipReading[];
+  psychologist: (Omit<LeadershipReading, "evidence"> & {
+    evidence: "interpretation";
+    mechanism: string;
+    base: ResearchBase;
+    limit: string;
+  })[];
+  shadow: LeadershipReading;
+  counterCase: LeadershipReading & {
+    commanderSlug?: string;
+    battleSlugs: string[];
+  };
+  cost?: LeadershipReading;
+  transfer: { holdsWhen: string[]; failsWhen: string[]; questions: string[] };
+  // What this lesson adds to the question that organises the volume.
+  bearsOn: string;
+  questions: Question[];
+  sourceCheck?: SourceCheck;
+  seminar: { prompt: string; guidance: string };
+  sources: Source[];
+};
+// One commander's volume, addressed by the commander's slug. Editorial data
+// imported by its own pages, not seeded, so it stays out of the catalog payload.
+export type LeadershipVolume = {
+  commanderSlug: string;
+  title: string;
+  summary: string;
+  introduction: string;
+  question: string;
+  parts: string[];
+  lessons: LeadershipLesson[];
+};
 export type Catalog = {
   battles: Battle[];
   commanders: Commander[];

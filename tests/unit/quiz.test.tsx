@@ -36,6 +36,17 @@ it("prevents empty submission, explains a wrong answer and allows a retry", () =
   ).toBeDisabled();
 });
 
+it("omits the study link when a source check names no page", () => {
+  const { battleSlug, campaignSlug, ...check } =
+    courses[0].lessons[0].sourceCheck!;
+  expect(battleSlug || campaignSlug).toBeTruthy();
+  render(<SourceCheck check={check} />);
+  fireEvent.click(
+    screen.getByLabelText(check.options.find((o) => o.best)!.text),
+  );
+  expect(screen.queryByRole("link")).toBeNull();
+});
+
 it("gives feedback on a source check without scoring it", () => {
   const check = courses[0].lessons[0].sourceCheck!;
   render(<SourceCheck check={check} />);

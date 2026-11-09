@@ -1130,3 +1130,7 @@ The five Foundations lessons gain two more questions each and a source check in 
 ## Lesson exercises: batch Q2, the other nine learning paths (8 November 2026)
 
 The remaining 46 lessons gain two more questions each, and 40 of them a source check, on the pattern of batch Q1. Again no new sources were used: questions test the lesson's text, and witness statements restate disagreements already sourced on a campaign or study page, which the exercise links to. Six lessons have no source check, because their linked campaigns offered no disagreement that fits the lesson: Mountains and Steppe, Artillery, Two Battles, Military Technology, Command Coordination and Air and Naval Operations. The reasoning marked as the strongest approach is the course's teaching judgement and should be part of the specialist review of the courses.
+
+## Leadership Lessons: Phase 0 evidence pass (9 November 2026)
+
+No lesson text exists yet, so no source from this pass is cited on the site. `docs/LEADERSHIP_EVIDENCE.md` records what was opened, how it was read, which planned lessons it can carry and what remains unread, along with each saying and legend traced. Long memoirs were searched in full text rather than read through; psychology papers were read as abstracts; web articles came through a summarising tool, so their exact wording must be re-read before a lesson cites them. Each lesson batch adds its own section here for the sources it actually cites.

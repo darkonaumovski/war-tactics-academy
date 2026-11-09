@@ -3,7 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import type { Media } from "../lib/media";
-import { eras } from "../data/catalog";
+import { eras } from "../data/eras";
 import { useHydrated } from "../lib/use-hydrated";
 
 export function HistoricalPortrait({ item }: { item: Media }) {

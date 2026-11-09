@@ -13,9 +13,9 @@ import { geoPath, type GeoProjection } from "d3-geo";
 import { feature } from "topojson-client";
 import type { Topology, GeometryCollection } from "topojson-specification";
 import world from "world-atlas/land-110m.json";
-import type { Battle } from "../lib/types";
+import type { AtlasBattle } from "../lib/projections";
 import { useHydrated } from "../lib/use-hydrated";
-import { eras } from "../data/catalog";
+import { eras } from "../data/eras";
 import {
   ATLAS_HEIGHT,
   ATLAS_WIDTH,
@@ -45,7 +45,7 @@ export function Atlas({
   battles,
   preview = false,
 }: {
-  battles: Battle[];
+  battles: AtlasBattle[];
   preview?: boolean;
 }) {
   if (preview) return <AtlasView battles={battles} preview />;
@@ -55,7 +55,7 @@ export function Atlas({
     </Suspense>
   );
 }
-function AtlasFromUrl({ battles }: { battles: Battle[] }) {
+function AtlasFromUrl({ battles }: { battles: AtlasBattle[] }) {
   const slug = useSearchParams().get("battle") ?? "";
   const focus = battles.some((b) => b.slug === slug) ? slug : undefined;
   return <AtlasView key={focus} battles={battles} initialFocus={focus} />;
@@ -65,7 +65,7 @@ function AtlasView({
   preview = false,
   initialFocus,
 }: {
-  battles: Battle[];
+  battles: AtlasBattle[];
   preview?: boolean;
   initialFocus?: string;
 }) {

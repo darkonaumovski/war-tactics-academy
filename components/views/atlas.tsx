@@ -1,6 +1,7 @@
 import type { Catalog } from "../../lib/types";
 import { Heading } from "../ui";
 import { Atlas } from "../atlas";
+import { atlasBattle } from "../../lib/projections";
 export function AtlasPage({ c }: { c: Catalog }) {
   return (
     <div className="page-container">
@@ -9,7 +10,7 @@ export function AtlasPage({ c }: { c: Catalog }) {
         title="The world is your classroom."
         description="Place each engagement in its geographic context. Select a marker, explore an era, or use the location list below."
       />
-      <Atlas battles={c.battles} />
+      <Atlas battles={c.battles.map(atlasBattle)} />
     </div>
   );
 }

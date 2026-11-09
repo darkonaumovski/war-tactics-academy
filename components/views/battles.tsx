@@ -2,6 +2,7 @@ import Link from "next/link";
 import { IntentLink } from "../intent-link";
 import { ArrowUpRight, Target, MapPin, Shield, Flag, Info } from "lucide-react";
 import type { Catalog, Battle } from "../../lib/types";
+import { battleCatalogData } from "../../lib/projections";
 import { eras } from "../../data/catalog";
 import { collectionBattles, collections } from "../../data/collections";
 import { Heading, SectionTitle, Breadcrumbs, Sources } from "../ui";
@@ -16,7 +17,7 @@ export function BattlesPage({ c }: { c: Catalog }) {
         title="The Battle Atlas"
         description="From the plains of Marathon to the Pacific. Explore the terrain, decisions and consequences behind history’s pivotal engagements."
       />
-      <BattleCatalog c={c} />
+      <BattleCatalog c={battleCatalogData(c, collections)} />
     </div>
   );
 }

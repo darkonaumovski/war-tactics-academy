@@ -15,6 +15,7 @@ import {
 import type { Catalog, Commander } from "../../lib/types";
 import { eras } from "../../data/catalog";
 import { dailyChallengeIndex } from "../../lib/daily-challenge";
+import { atlasBattle, battleListing } from "../../lib/projections";
 import { SectionTitle, BattleCard, CommanderCard } from "../ui";
 import { Cartography } from "../cartography";
 import { Atlas } from "../atlas";
@@ -144,7 +145,10 @@ export function HomePage({ c }: { c: Catalog }) {
         </Reveal>
         <Reveal className="battle-grid home-battles">
           {["cannae", "austerlitz", "midway"].map((s) => (
-            <BattleCard key={s} battle={c.battles.find((b) => b.slug === s)!} />
+            <BattleCard
+              key={s}
+              battle={battleListing(c.battles.find((b) => b.slug === s)!)}
+            />
           ))}
         </Reveal>
         <SectionTitle
@@ -153,7 +157,7 @@ export function HomePage({ c }: { c: Catalog }) {
           href="/atlas"
           label="Open interactive atlas"
         />
-        <Atlas battles={c.battles} preview />
+        <Atlas battles={c.battles.map(atlasBattle)} preview />
         <SectionTitle
           number="03"
           title="The minds behind the maneuvers"

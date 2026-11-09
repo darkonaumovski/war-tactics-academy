@@ -13,6 +13,7 @@ import { CAREER_WIDTH, careerLayout, formatYear } from "../../lib/logic";
 import { CommanderCatalog, Comparison } from "../catalogs";
 import { SaveRecord } from "../persistence-ui";
 import { media } from "../../lib/media";
+import { battleListing } from "../../lib/projections";
 import { HistoricalPortrait } from "../media-library";
 export function CommandersPage({ c }: { c: Catalog }) {
   return (
@@ -155,7 +156,7 @@ export function CommanderPage({
         </>
       ) : linked.length ? (
         <div className="battle-grid">
-          <BattleCard battle={linked[0]} />
+          <BattleCard battle={battleListing(linked[0])} />
         </div>
       ) : (
         <Empty

@@ -10,6 +10,7 @@ import type {
 } from "../../lib/types";
 import { eras } from "../../data/catalog";
 import { collections } from "../../data/collections";
+import { battleListing } from "../../lib/projections";
 import { RouteMap } from "../route-map";
 import { Heading, SectionTitle, BattleCard, Breadcrumbs, Sources } from "../ui";
 export function WarsPage({ c }: { c: Catalog }) {
@@ -137,7 +138,7 @@ export function WarPage({ war: w, c }: { war: War; c: Catalog }) {
       />
       <div className="battle-grid">
         {battles.map((b) => (
-          <BattleCard key={b.slug} battle={b} />
+          <BattleCard key={b.slug} battle={battleListing(b)} />
         ))}
       </div>
       <p className="editorial-note">
@@ -234,7 +235,7 @@ export function CampaignPage({
       />
       <div className="battle-grid">
         {battles.map((b) => (
-          <BattleCard key={b.slug} battle={b} />
+          <BattleCard key={b.slug} battle={battleListing(b)} />
         ))}
       </div>
       <p className="editorial-note">

@@ -1,5 +1,25 @@
 # Verification record
 
+## Phone performance on a local build (9 November 2026)
+
+Lighthouse 13.5.0 ran in its default mobile mode (a mid-range phone on simulated slow 4G) with Playwright's Chromium against three local builds: the export of commit `59995ab`, a build with only the data changes, and the final build. A temporary local server applied gzip, as GitHub Pages does, and served route payloads under the names Linux builds use. Each page was audited three times per build, and the table gives the median. Lighthouse's CPU benchmark stayed between about 1,600 and 2,240 across the runs. These are lab results from one computer and are not comparable with the live-site tables below; the changes have not yet been measured on the live site.
+
+| Page           | Performance    | Largest paint (s) | Total blocking time (ms) | Page weight (KB)  |
+| -------------- | -------------- | ----------------- | ------------------------ | ----------------- |
+| Home           | 58 → 88 → 90   | 6.5 → 3.6 → 3.6   | 409 → 99 → 90            | 1,026 → 460 → 456 |
+| Battle catalog | 41 → 68 → 79   | 8.6 → 4.0 → 3.8   | 810 → 674 → 323          | 1,400 → 534 → 497 |
+| Atlas          | 60 → 81 → 81   | 7.1 → 4.1 → 4.1   | 269 → 213 → 202          | 1,101 → 533 → 533 |
+| Waterloo study | 86 → 89 → 91   | 3.9 → 3.5 → 3.4   | 155 → 77 → 89            | 546 → 381 → 381   |
+
+Each cell reads baseline → data changes → final build. The Waterloo study was not edited directly and serves as a control; it improved because the narrative bundle described below no longer loads on it.
+
+- **Page data.** The battle catalog passed the whole catalog to a client component, and the home page and the atlas passed every engagement with its full study. Each client view now receives only the fields it reads (`lib/projections.ts`). A unit test keeps study and narrative text out of those projections and bounds their size. Catalog HTML fell from 3,916 KB to 1,093 KB (770 KB to 64 KB gzipped), home from 1,851 KB to 257 KB (481 KB to 65 KB), and the atlas from 1,712 KB to 152 KB (465 KB to 52 KB).
+- **JavaScript.** Client components imported the era list from `data/catalog.ts`, which put every campaign narrative in a 468 KB chunk (155 KB gzipped) loaded by every page that uses those components. The list now lives in `data/eras.ts`, the chunk is gone, and total JavaScript fell from 1,950 KB to 1,453 KB. A unit test stops client components importing the full data modules.
+- **Catalog rendering.** The decorative map on each card drew 114 separate strokes; each repeated layer is now one path, taking the catalog from 24,764 DOM elements to 9,080. Cards use `content-visibility: auto`, so off-screen cards skip layout and paint. Main-thread work on the catalog fell from 4.2 s to 2.0 s.
+- **Appearance.** Screenshots of the catalog, home and a war page at phone and desktop widths were compared with the baseline. War pages are identical; elsewhere most differences are antialiasing of at most 3 of 255 levels per channel. On the desktop catalog, card contents can move by up to one pixel, because each card now lays out independently on fractional column widths.
+
+Unit tests (105), lint and type checks passed. The Playwright suite passed in Chromium (60 of 60) and Firefox (60 of 60). In WebKit the first run passed 59 of 60: the mobile navigation test timed out waiting for hydration while another process was rebuilding `out/`. Against an isolated build of these changes on `59995ab`, WebKit passed 60 of 60 and that test passed eight repeats out of eight. The largest paint on phones is now limited mainly by font loading and render-blocking CSS, which were not changed.
+
 ## Lighthouse on the live site (2 November 2026)
 
 Lighthouse 13.5.0 was run against the deployed site (commit `c11ccf5`) with Playwright's Chromium, once per page in its mobile mode (a mid-range phone on simulated slow 4G) and once in its desktop mode. These are single lab runs, so scores move by a few points between runs.

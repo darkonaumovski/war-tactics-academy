@@ -68,7 +68,7 @@ export function filterQuery(f: Partial<BattleFilters>) {
 // A collection holds every engagement of its listed wars and campaigns.
 export const inCollection = (
   c: { wars?: string[]; campaigns?: string[] },
-  b: Battle,
+  b: Pick<Battle, "warId" | "campaignId">,
 ) => !!(c.wars?.includes(b.warId) || c.campaigns?.includes(b.campaignId));
 // Every word of the query must appear somewhere in the text, in any order;
 // case and accents are ignored.
@@ -89,6 +89,22 @@ export function searchRank(title: string, query: string, text = "") {
   if (matchesQuery(title, query)) return 2;
   return normalize(text).replace(/\s+/g, " ").includes(q) ? 3 : 4;
 }
+// The fields search and the catalog filters read, so list pages can pass a
+// projection instead of the full record.
+export type SearchableBattle = Pick<
+  Battle,
+  | "slug"
+  | "name"
+  | "summary"
+  | "location"
+  | "topic"
+  | "date"
+  | "kind"
+  | "eraId"
+  | "region"
+  | "warId"
+  | "campaignId"
+>;
 type SearchLinks = {
   wars?: { slug: string; name: string }[];
   campaigns?: { slug: string; name: string }[];
@@ -102,7 +118,10 @@ type SearchLinks = {
 };
 // What an engagement can be found by: its own fields plus the names of its
 // war, campaign, commanders and collections.
-export const battleSearchText = (b: Battle, links: SearchLinks = {}) =>
+export const battleSearchText = (
+  b: SearchableBattle,
+  links: SearchLinks = {},
+) =>
   [
     b.name,
     b.summary,
@@ -121,8 +140,8 @@ export const battleSearchText = (b: Battle, links: SearchLinks = {}) =>
   ]
     .filter(Boolean)
     .join(" ");
-export function filterBattles(
-  battles: Battle[],
+export function filterBattles<B extends SearchableBattle>(
+  battles: B[],
   f: Partial<BattleFilters>,
   links: SearchLinks = {},
 ) {
@@ -142,7 +161,10 @@ export function filterBattles(
   );
 }
 // Catalog order is already chronological (Battle.ordinal).
-export function sortBattles(battles: Battle[], sort: string) {
+export function sortBattles<B extends { name: string }>(
+  battles: B[],
+  sort: string,
+) {
   if (sort === "date-desc") return [...battles].reverse();
   if (sort === "name")
     return [...battles].sort((a, b) => a.name.localeCompare(b.name, "en"));

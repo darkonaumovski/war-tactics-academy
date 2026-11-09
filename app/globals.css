@@ -725,6 +725,9 @@ footer > div {
   background: var(--panel);
   overflow: hidden;
   border-radius: 3px;
+  /* The catalog holds over a hundred cards; skip layout and paint off screen. */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 385px;
 }
 .battle-card:hover {
   border-color: var(--gold-dim);

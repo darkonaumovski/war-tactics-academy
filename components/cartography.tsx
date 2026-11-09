@@ -1,4 +1,15 @@
 import { useId } from "react";
+// One path per layer rather than one element per stroke: the battle catalog
+// draws this map once per card, and separate elements add thousands of nodes.
+const contours = Array.from(
+  { length: 24 },
+  (_, n) =>
+    `M ${-100 + n * 3} ${60 + n * 21} C ${100 + n * 8} ${-120 + n * 24}, ${190 + n * 14} ${340 + n * 4}, ${420 + n * 8} ${190 + n * 14} S ${790 + n * 6} ${140 + n * 18}, 1050 ${390 + n * 12}`,
+).join(" ");
+const trees = Array.from(
+  { length: 90 },
+  (_, i) => `M${70 + ((i * 47) % 780)} ${70 + ((i * 71) % 460)}l-4 10h8z`,
+).join("");
 export function Cartography({
   variant = "waterloo",
   compact = false,
@@ -50,12 +61,7 @@ export function Cartography({
       <rect width="900" height="600" fill={`url(#wash${id})`} />
       <rect width="900" height="600" fill={`url(#grid${id})`} />
       <g fill="none" stroke="#a8af81" strokeWidth="1" opacity=".3">
-        {Array.from({ length: 24 }, (_, n) => (
-          <path
-            key={n}
-            d={`M ${-100 + n * 3} ${60 + n * 21} C ${100 + n * 8} ${-120 + n * 24}, ${190 + n * 14} ${340 + n * 4}, ${420 + n * 8} ${190 + n * 14} S ${790 + n * 6} ${140 + n * 18}, 1050 ${390 + n * 12}`}
-          />
-        ))}
+        <path d={contours} />
       </g>
       <g fill="none" stroke="#c5b58d" opacity=".45">
         <path
@@ -75,12 +81,7 @@ export function Cartography({
         opacity=".35"
       />
       <g fill="#75806a" opacity=".3">
-        {Array.from({ length: 90 }, (_, i) => (
-          <path
-            key={i}
-            d={`M${70 + ((i * 47) % 780)} ${70 + ((i * 71) % 460)}l-4 10h8z`}
-          />
-        ))}
+        <path d={trees} />
       </g>
       <g
         fill="#ddd0a8"

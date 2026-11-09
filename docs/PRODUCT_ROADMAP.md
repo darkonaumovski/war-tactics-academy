@@ -19,8 +19,8 @@ The battle expansion is complete: 140 engagements with studies in six collection
 
 ## Priority 3 — Product and architecture
 
-1. Reduce per-page payloads and add route-specific projections as the catalog grows; add Open Graph images for shared links.
-2. Lighthouse has been run on the published site (see the verification record). Next: cut the battle catalog's rendering cost and payload on phones, then profile Core Web Vitals in the field; test with screen readers and high zoom.
+1. The battle catalog, home page and atlas now receive route-specific projections (`lib/projections.ts`). Extend them to the war, library, commander-list and search pages, whose page data is still 240–500 KB before compression; add Open Graph images for shared links.
+2. Lighthouse has been run on the published site (see the verification record). The battle catalog's payload and rendering cost on phones have been cut (see the verification record). Next: repeat Lighthouse on the live site, look at font loading and render-blocking CSS, which now limit the largest paint on phones, then profile Core Web Vitals in the field; test with screen readers and high zoom.
 3. Add progress export/import, optional accounts and cloud synchronization with explicit data ownership and privacy controls.
 4. Add an editorial CMS with provenance, corrections, review status and audit history.
 5. The static GitHub Pages site needs no runtime database. Migrate to PostgreSQL and a server deployment only if accounts or writes are added, with a backup strategy.

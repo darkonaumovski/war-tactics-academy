@@ -3,8 +3,7 @@ import { Suspense, useState, type ReactNode } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { LayoutGrid, List, Search, SlidersHorizontal, X } from "lucide-react";
-import { eras } from "../data/catalog";
-import { collections } from "../data/collections";
+import { eras } from "../data/eras";
 import {
   emptyFilters,
   filterBattles,
@@ -14,24 +13,31 @@ import {
   sortBattles,
   type BattleFilters,
 } from "../lib/logic";
-import type { Battle, Catalog, Commander } from "../lib/types";
+import type { BattleCatalogData, BattleListing } from "../lib/projections";
+import type { Commander } from "../lib/types";
 import { BattleCard, CommanderCard, Empty } from "./ui";
 import { useHydrated } from "../lib/use-hydrated";
 // Pages are prerendered for static hosting, so the unfiltered catalog is the
 // build-time fallback and URL filters apply once the page hydrates.
-export function BattleCatalog({ c }: { c: Catalog }) {
+export function BattleCatalog({ c }: { c: BattleCatalogData }) {
   return (
     <Suspense fallback={<BattleCatalogView c={c} urlQuery="" />}>
       <BattleCatalogFromUrl c={c} />
     </Suspense>
   );
 }
-function BattleCatalogFromUrl({ c }: { c: Catalog }) {
+function BattleCatalogFromUrl({ c }: { c: BattleCatalogData }) {
   return <BattleCatalogView c={c} urlQuery={useSearchParams().toString()} />;
 }
-function BattleCatalogView({ c, urlQuery }: { c: Catalog; urlQuery: string }) {
+function BattleCatalogView({
+  c,
+  urlQuery,
+}: {
+  c: BattleCatalogData;
+  urlQuery: string;
+}) {
   const ready = useHydrated();
-  const { battles } = c;
+  const { battles, collections } = c;
   // Order wars and campaigns by their first engagement, so lists read in time.
   const first = (key: "warId" | "campaignId", slug: string) =>
     battles.findIndex((b) => b[key] === slug);
@@ -293,7 +299,7 @@ function BattleTable({
   campaigns,
   name,
 }: {
-  battles: Battle[];
+  battles: BattleListing[];
   wars: { slug: string; name: string }[];
   campaigns: { slug: string; name: string }[];
   name: (list: { slug: string; name: string }[], slug: string) => string;

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight, MapPin, BookOpen } from "lucide-react";
 import type { Battle, Campaign, Source, Commander } from "../lib/types";
+import type { BattleListing } from "../lib/projections";
 import { formatYear } from "../lib/logic";
 import { Cartography } from "./cartography";
 import { IntentLink } from "./intent-link";
@@ -72,7 +73,7 @@ export function BattleCard({
   battle,
   featured = false,
 }: {
-  battle: Battle;
+  battle: BattleListing;
   featured?: boolean;
 }) {
   return (
@@ -101,7 +102,7 @@ export function BattleCard({
             {battle.region}
           </span>
           <span>
-            {battle.research ? "Interactive study" : "Catalog record"}{" "}
+            {battle.hasStudy ? "Interactive study" : "Catalog record"}{" "}
             <ArrowRight size={13} />
           </span>
         </div>

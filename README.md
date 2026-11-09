@@ -162,6 +162,7 @@ All releases are deployed to the live site.
 
 | Commit    | Change                                                                                                                                                                                                                                                                                   |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `59995ab` | All 51 lessons gain three questions with feedback on each answer, and 45 gain an unscored source check drawn from sourced disagreements (batches Q1–Q2).                                                                                                                                 |
 | `71dc606` | The last 62 campaign pages gain sourced text: narratives for the Second World War and Rome, short contexts for 30 one-engagement campaigns, and 12 war bibliographies (batches K5–K7).                                                                                                   |
 | `00222c8` | All fifteen First World War campaigns, the Serbian Front among them, gain sourced narratives, and the First World War page an annotated bibliography, from 1914-1918-online and memoirs (batch K4).                                                                                      |
 | `6ef62bc` | Napoleon's last four campaigns, from Russia to Waterloo, gain sourced narratives, and the Napoleonic Wars page an annotated bibliography, with Russian-headquarters and Prussian sources (batch K3).                                                                                     |
@@ -275,6 +276,6 @@ All releases are deployed to the live site.
 - The media library is a small starting collection (nine records); the two videos cover only D-Day. Embeds and archive images depend on third-party availability.
 - Progress belongs to one browser and is lost if its storage is cleared; storage failures are reported without crashing.
 - The site is static: the database is a build-time content store and updates require a rebuild. Accounts, synchronization, a historian-facing editor and sentence-level citation workflows are future work.
-- Automated accessibility checks supplement, but do not replace, manual screen-reader testing. Lighthouse has been run on the live site (see the verification record); the battle catalog is still slow on phones.
+- Automated accessibility checks supplement, but do not replace, manual screen-reader testing. Lighthouse has been run on the live site and, after the payload work, on a local build (see the verification record); the battle catalog remains the slowest of the pages measured on phones.
 
 See the [prioritized roadmap](docs/PRODUCT_ROADMAP.md).

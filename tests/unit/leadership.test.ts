@@ -87,9 +87,11 @@ describe("leadership volumes", () => {
 
   it("link only to existing studies, campaigns and commanders", () => {
     for (const l of leadershipVolumes.flatMap((x) => x.lessons)) {
-      const linked = [...l.episodes, l.counterCase].flatMap(
-        (x) => x.battleSlugs,
-      );
+      const linked = [
+        ...l.episodes,
+        l.counterCase,
+        { battleSlugs: l.shadow.battleSlugs ?? [] },
+      ].flatMap((x) => x.battleSlugs);
       for (const s of linked) expect(battleSlugs.has(s), s).toBe(true);
       for (const s of l.episodes.flatMap((x) => x.campaignSlugs ?? []))
         expect(campaignSlugs.has(s), s).toBe(true);
@@ -98,6 +100,13 @@ describe("leadership volumes", () => {
     }
   });
 });
+
+it("lists the Napoleon pilot lessons in curriculum order", () =>
+  expect(leadershipVolumes[0].lessons.map((l) => l.slug)).toEqual([
+    "how-to-read-napoleon",
+    "intuition-is-stored-work",
+    "knowing-when-to-stop",
+  ]));
 
 describe("the leadership lesson schema", () => {
   it("accepts a complete lesson", () => expect(accepts({})).toBe(true));

@@ -224,7 +224,7 @@ export type LeadershipLesson = {
     base: ResearchBase;
     limit: string;
   })[];
-  shadow: LeadershipReading;
+  shadow: LeadershipReading & { battleSlugs?: string[] };
   counterCase: LeadershipReading & {
     commanderSlug?: string;
     battleSlugs: string[];
@@ -248,6 +248,8 @@ export type LeadershipVolume = {
   question: string;
   parts: string[];
   lessons: LeadershipLesson[];
+  // Shown while a volume is still being written.
+  inProgress?: string;
 };
 export type Catalog = {
   battles: Battle[];

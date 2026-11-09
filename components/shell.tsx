@@ -20,6 +20,7 @@ import {
   ArrowUpRight,
   Home,
   Bookmark,
+  Medal,
 } from "lucide-react";
 import { readProgress, writeProgress } from "../lib/persistence";
 import { useHydrated } from "../lib/use-hydrated";
@@ -32,6 +33,7 @@ const nav = [
   ["/collections", "Collections", Library],
   ["/atlas", "Interactive Atlas", Compass],
   ["/academy", "The Academy", GraduationCap],
+  ["/leadership", "Leadership Lessons", Medal],
   ["/simulator", "Decision Room", Target],
   ["/library", "Sources & Library", BookOpen],
 ] as const;

@@ -431,6 +431,49 @@ test("lesson quiz accepts an answer, explains it and persists progress", async (
   await page.getByRole("link", { name: "Back to course" }).click();
   await expect(page.getByText("1 of 5 lessons completed")).toBeVisible();
 });
+test("a leadership lesson shows its three readings and saves progress", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await page
+    .getByRole("navigation", { name: "Main navigation" })
+    .getByRole("link", { name: "Leadership Lessons", exact: true })
+    .click();
+  await expect(page).toHaveURL(/\/leadership\/$/);
+  await page.getByRole("link", { name: /Open this volume/ }).click();
+  await expect(
+    page.getByText("Did Napoleon get worse, or did the problem get harder?"),
+  ).toBeVisible();
+  await page.getByRole("link", { name: /Knowing when to stop/ }).click();
+  for (const name of [
+    "What happened",
+    "Without hindsight",
+    "What research can add",
+    "Where the same behaviour failed",
+  ])
+    await expect(page.getByRole("heading", { name, level: 2 })).toBeVisible();
+  await expect(page.getByText("Research base: contested.")).toBeVisible();
+  await page
+    .getByRole("radio", { name: "That if it failed he would leave at once." })
+    .check();
+  await page.getByRole("radio", { name: "Before the first snowfall." }).check();
+  await page
+    .getByRole("radio", {
+      name: "The finding is unsettled, and it fits Moscow badly.",
+    })
+    .check();
+  await page.getByRole("button", { name: "Check my understanding" }).click();
+  await expect(page.getByRole("status")).toContainText("3/3");
+  await page.getByRole("link", { name: "Back to volume" }).click();
+  await expect(page.getByText("1 of 3 lessons completed")).toBeVisible();
+  await page.setViewportSize({ width: 375, height: 800 });
+  await page.goto("/leadership/napoleon-bonaparte/knowing-when-to-stop");
+  await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
+  const overflow = await page.evaluate(
+    () => document.documentElement.scrollWidth - window.innerWidth,
+  );
+  expect(overflow).toBeLessThanOrEqual(0);
+});
 test("extended learning paths are listed and their lessons persist progress", async ({
   page,
 }) => {
@@ -840,6 +883,10 @@ for (const route of [
   "/battles?view=list",
   "/campaigns/italian-campaign-of-1796-1797",
   "/commanders/napoleon-bonaparte",
+  "/leadership",
+  "/leadership/napoleon-bonaparte",
+  "/leadership/napoleon-bonaparte/how-to-read-napoleon",
+  "/leadership/napoleon-bonaparte/knowing-when-to-stop",
 ])
   test(`accessibility: ${route}`, async ({ page }) => {
     // axe takes 30 to 50 seconds on the 127-card catalog in every engine.
@@ -892,6 +939,8 @@ test("main routes produce no browser runtime errors", async ({ page }) => {
     "/collections",
     "/atlas",
     "/academy",
+    "/leadership",
+    "/leadership/napoleon-bonaparte/intuition-is-stored-work",
     "/simulator",
     "/library",
     "/library/videos/",
@@ -919,6 +968,7 @@ test("light theme maintains accessible contrast", async ({ page }) => {
     "/battles/austerlitz",
     "/commanders/yi-sun-sin",
     "/collections/serbian-front",
+    "/leadership/napoleon-bonaparte/how-to-read-napoleon",
   ]) {
     await page.goto(route);
     await expect(page.locator("html")).toHaveAttribute("data-theme", "light");

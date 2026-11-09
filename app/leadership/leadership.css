@@ -1,0 +1,139 @@
+.leadership-lesson {
+  max-width: 860px;
+}
+.leadership-lesson section {
+  margin: 44px 0;
+}
+.leadership-lens {
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+}
+.leadership-lens h2 {
+  margin-top: 6px;
+  font-size: 28px;
+}
+.leadership-reading {
+  margin: 24px 0 30px;
+}
+.leadership-reading-head {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.leadership-reading-head h3 {
+  font-size: 20px;
+  margin: 0;
+}
+.leadership-reading > p:not(.section-refs, .leadership-limit) {
+  font-family: var(--font-serif);
+  font-size: 17px;
+  line-height: 1.85;
+  margin: 10px 0;
+}
+.leadership-claim {
+  margin: 40px 0;
+  padding: 25px 30px;
+  background: var(--panel);
+  border-left: 2px solid var(--gold);
+}
+.leadership-claim p {
+  font-family: var(--font-serif);
+  font-size: 19px;
+  line-height: 1.6;
+  margin: 10px 0 0;
+}
+.leadership-claim .leadership-question {
+  font-style: italic;
+  color: var(--gold);
+}
+.leadership-part {
+  margin: 40px 0 12px;
+  font-size: 22px;
+}
+.leadership-subhead {
+  margin: 34px 0 14px;
+  font-size: 20px;
+}
+.leadership-witnesses {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+.leadership-witnesses article {
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  min-width: 0;
+}
+.leadership-witnesses p {
+  font-size: 14px;
+  line-height: 1.65;
+  margin: 8px 0;
+}
+.leadership-witnesses .leadership-stake {
+  color: var(--muted);
+  font-size: 13px;
+}
+.leadership-limit {
+  padding: 12px 16px;
+  border: 1px solid var(--line);
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+.leadership-limit strong {
+  color: var(--text);
+}
+.leadership-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin: 10px 0;
+}
+.leadership-links:empty {
+  display: none;
+}
+.leadership-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--gold);
+}
+.leadership-transfer {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.leadership-transfer h3 {
+  font-size: 18px;
+  margin: 0 0 8px;
+}
+.leadership-transfer ul,
+.leadership-questions {
+  padding-left: 20px;
+  margin: 0;
+}
+.leadership-transfer li,
+.leadership-questions li {
+  font-size: 15px;
+  line-height: 1.65;
+  margin: 8px 0;
+}
+@media (max-width: 760px) {
+  .leadership-witnesses,
+  .leadership-transfer {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .leadership-reading-head {
+    flex-wrap: wrap;
+  }
+  .leadership-claim {
+    padding: 20px;
+  }
+  .leadership-reading > p:not(.section-refs, .leadership-limit) {
+    font-size: 16px;
+  }
+}

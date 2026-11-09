@@ -222,7 +222,9 @@ const leadershipLessonSchema = z
       )
       .min(1)
       .max(2),
-    shadow: leadershipReadingSchema,
+    shadow: leadershipReadingSchema.extend({
+      battleSlugs: z.array(z.string()).optional(),
+    }),
     counterCase: leadershipReadingSchema.extend({
       commanderSlug: z.string().min(1).optional(),
       battleSlugs: z.array(z.string()),
@@ -286,6 +288,7 @@ export const leadershipVolumeSchema = z
     question: z.string().min(1),
     parts: z.array(z.string().min(1)).min(1),
     lessons: z.array(leadershipLessonSchema),
+    inProgress: z.string().min(1).optional(),
   })
   .superRefine((volume, ctx) => {
     const slugs = volume.lessons.map((l) => l.slug);

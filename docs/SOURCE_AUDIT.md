@@ -1151,3 +1151,13 @@ Three lessons in `data/leadership/napoleon.ts`: how to read Napoleon, the coup d
 Sayings and legends: "a man such as I am…" is quoted from Metternich with the attribution stated. The "menteur comme un bulletin" expression is given with the note that Houdecek names no source for it. The name-recognition legend is presented as a disagreement between Chaptal and Wellington. The other sayings in the prompt's list remain untraced and excluded by the schema.
 
 Corrections made while writing: the lesson on Acre was planned around Bonaparte telling a story of success after the siege, for which no read source was found. Johnston's text for 9 May 1799, in which he writes down in advance what he will do if the last assault fails, replaced it and is the stronger evidence.
+
+## Leadership Lessons: batch L2, Judgement (9 November 2026)
+
+Three lessons: what he inherited, plans that survive error, and speed. Every source listed for them was opened for this batch.
+
+New to this batch: Britannica on the First Coalition, Archduke Charles, Jena, the Jena campaign, the Third and Fourth Coalitions, Ulm, Marengo, the campaign of France and the autumn of 1813 (read in the built-in browser); the 1911 Britannica on artillery, the French Revolutionary Wars and the Napoleonic Campaigns (Wikisource, raw text); _Revue du Souvenir Napoléonien_ 410 and Linden on Davout, Houdecek's introduction to volume 14 of the _Correspondance générale_ (Fondation Napoléon, raw text, French paraphrased); Criste in the ADB (in German, paraphrased); Houssaye (Internet Archive, searched). Psychology, abstract only: Gilbert and Malone 1995, Moore and Healy 2008, Harrison and Horne 2000 (PubMed); Schyns, Felfe and Blank 2007, and Mitchell, Russo and Pennington 1989 (read through the OpenAlex record for each cited DOI).
+
+Gaps named in the evidence pass and their result. The direct statement that Napoleon misjudged the main Prussian force is in the 1911 Britannica, Napoleonic Campaigns, sections 16 and 17. Gribeauval and the divisional system now rest on sources read. No witness to his sleep on campaign was found: Chaptal, describing him in Paris, says he kept no rule, sometimes sleeping eight or ten hours and sometimes hardly at all, so the popular claim about four hours is left out and the lesson says the matter is unproven.
+
+Left out because they could not be confirmed in what was read: Gouvion Saint-Cyr's criticism of the loss of the siege train at Castiglione, and the report that Napoleon at first doubted the scale of Davout's victory. Both remain on the site's existing study pages, where their sources are given.

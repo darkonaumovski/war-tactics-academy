@@ -173,6 +173,127 @@ const s = {
     url: "https://doi.org/10.5465/amj.2010.0696",
     publisher: "Academy of Management Journal",
   },
+  artillery: {
+    title:
+      "“Artillery”, Encyclopædia Britannica, 11th ed., section on Gribeauval’s reforms",
+    url: "https://en.wikisource.org/wiki/Page:EB1911_-_Volume_02.djvu/729",
+    publisher: "Wikisource",
+  },
+  frw: {
+    title: "“French Revolutionary Wars”, Encyclopædia Britannica, 11th ed.",
+    url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/French_Revolutionary_Wars",
+    publisher: "Wikisource",
+  },
+  campaigns: {
+    title: "“Napoleonic Campaigns”, Encyclopædia Britannica, 11th ed.",
+    url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Napoleonic_Campaigns",
+    publisher: "Wikisource",
+  },
+  firstCoalition: {
+    title:
+      "French Revolutionary wars: The First Coalition and the Jacobin regime",
+    url: "https://www.britannica.com/event/French-revolutionary-wars/The-First-Coalition-and-the-Jacobin-regime",
+    publisher: britannica,
+  },
+  archduke: {
+    title: "Archduke Charles",
+    url: "https://www.britannica.com/biography/Archduke-Charles",
+    publisher: britannica,
+  },
+  jena: {
+    title: "Battle of Jena",
+    url: "https://www.britannica.com/event/Battle-of-Jena",
+    publisher: britannica,
+  },
+  jenaCampaign: {
+    title:
+      "Napoleonic Wars: Trafalgar and Italy (the campaign of Jena and Auerstädt)",
+    url: "https://www.britannica.com/event/Napoleonic-Wars/Trafalgar-and-Italy",
+    publisher: britannica,
+  },
+  coalitions: {
+    title: "Napoleonic Wars: The Third and Fourth Coalitions, 1803–07",
+    url: "https://www.britannica.com/event/Napoleonic-Wars/The-Third-and-Fourth-Coalitions-1803-07",
+    publisher: britannica,
+  },
+  ulm: {
+    title: "Battle of Ulm",
+    url: "https://www.britannica.com/event/Battle-of-Ulm",
+    publisher: britannica,
+  },
+  marengoBattle: {
+    title: "Battle of Marengo",
+    url: "https://www.britannica.com/event/Battle-of-Marengo",
+    publisher: britannica,
+  },
+  france1814: {
+    title: "Napoleonic Wars: The campaign of France, 1814",
+    url: "https://www.britannica.com/event/Napoleonic-Wars/The-campaign-of-France-1814",
+    publisher: britannica,
+  },
+  autumn1813: {
+    title: "Napoleonic Wars: Dispositions for the autumn campaign",
+    url: "https://www.britannica.com/event/Napoleonic-Wars/Dispositions-for-the-autumn-campaign",
+    publisher: britannica,
+  },
+  tolentino: {
+    title:
+      "De Mantoue à Tolentino, juin 1796 – février 1797 (Revue du Souvenir Napoléonien 410)",
+    url: "https://www.napoleon.org/wp-content/themes/napoleon/annexes/hors-serie/premiere-campagne-italie/fr/lesecrits/articles/articles02.html",
+    publisher: fondation,
+  },
+  linden: {
+    title:
+      "Davout, homme de devoir. 1. Le soldat (Jean Linden, Revue du Souvenir Napoléonien 303)",
+    url: "https://www.napoleon.org/histoire-des-2-empires/articles/davout-homme-de-devoir-1-le-soldat/",
+    publisher: fondation,
+  },
+  collapse: {
+    title:
+      "The collapse of the Grand Empire: introduction to volume 14 of the Correspondance générale (François Houdecek)",
+    url: "https://www.napoleon.org/en/history-of-the-two-empires/articles/collapse-grand-empire-introduction-volume-14-correspondance-generale-de-napoleon-bonaparte-leipzig-juillet-1813-decembre-1813/",
+    publisher: fondation,
+  },
+  criste: {
+    title: "Weyrother, Franz von (Oscar Criste, ADB 42, 1897), in German",
+    url: "https://www.deutsche-biographie.de/sfz85314.html",
+    publisher: "Allgemeine Deutsche Biographie",
+  },
+  houssaye: {
+    title: "Henry Houssaye, 1815: Waterloo",
+    url: archive("1815waterloo00hous"),
+    publisher: "Internet Archive",
+  },
+  gilbertMalone: {
+    title:
+      "Daniel Gilbert and Patrick Malone, The correspondence bias (1995), abstract",
+    url: "https://pubmed.ncbi.nlm.nih.gov/7870861/",
+    publisher: "Psychological Bulletin (PubMed)",
+  },
+  schyns: {
+    title:
+      "Birgit Schyns, Jörg Felfe and Hartmut Blank, Is charisma hyper-romanticism? Empirical evidence from new data and a meta-analysis (2007), abstract",
+    url: "https://doi.org/10.1111/j.1464-0597.2007.00302.x",
+    publisher: "Applied Psychology",
+  },
+  mooreHealy: {
+    title:
+      "Don Moore and Paul Healy, The trouble with overconfidence (2008), abstract",
+    url: "https://pubmed.ncbi.nlm.nih.gov/18426301/",
+    publisher: "Psychological Review (PubMed)",
+  },
+  mitchell: {
+    title:
+      "Deborah Mitchell, J. Edward Russo and Nancy Pennington, Back to the future: temporal perspective in the explanation of events (1989), abstract",
+    url: "https://doi.org/10.1002/bdm.3960020103",
+    publisher: "Journal of Behavioral Decision Making",
+  },
+  harrisonHorne: {
+    title:
+      "Yvonne Harrison and James Horne, The impact of sleep deprivation on decision making: a review (2000), abstract",
+    url: "https://pubmed.ncbi.nlm.nih.gov/11014055/",
+    publisher: "Journal of Experimental Psychology: Applied (PubMed)",
+  },
 } satisfies Record<string, Source>;
 
 export const napoleonVolume: LeadershipVolume = {
@@ -192,7 +313,7 @@ export const napoleonVolume: LeadershipVolume = {
     "What remains",
   ],
   inProgress:
-    "Three lessons are available while the format is reviewed. Sixteen more are planned, and the last will answer the question above.",
+    "Six lessons are available. Thirteen more are planned, and the last will answer the question above.",
   lessons: [
     {
       slug: "how-to-read-napoleon",
@@ -430,6 +551,241 @@ export const napoleonVolume: LeadershipVolume = {
       ],
     },
     {
+      slug: "inherit-before-you-invent",
+      title: "What he inherited",
+      part: "Judgement",
+      themes: ["judgement", "organisation"],
+      claim:
+        "When a leader appears to have created a system, look first for what they inherited, and then for what they did to scale it.",
+      moment: {
+        text: "On 11 April 1796 an Austrian column under d’Argenteau was stopped at the redoubt of Monte Legino by the resistance of Rampon’s brigade. That night Bonaparte, twenty-six years old and only just in command of the Army of Italy, sent his forces across the Apennines by separate routes: Laharpe straight to Monte Legino, Masséna round the Austrian flank, Augereau by another pass. The Austrians were beaten at Montenotte, and a famous campaign had begun. It looks like the start of something new. Most of what made that night possible was already there when he arrived.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "“Les opérations”" }],
+      },
+      episodes: [
+        {
+          title: "Divisions, guns and a drill-book",
+          text: "An army could march by separate routes that night because it was already built in divisions able to act on their own. Britannica dates the origins of the divisional system to the 1760s and its wholesale adoption to the Revolution, and the 1911 Britannica says that temporary divisions had hardened by 1796 into a practically universal system. The artillery he had trained in owed its form to Gribeauval, who from 1765 built a complete system of guns and carriages, was successfully resisted for a time, and could impose his ideas only from 1776. The infantry’s drill came from the same years: when Britannica describes the great army of 1805 it says that no changes were made in tactics or formation and that the infantry went on using the regulation of 1791.",
+          evidence: "fact",
+          refs: [
+            { source: 2 },
+            { source: 3 },
+            { source: 1, locator: "§ 9" },
+            { source: 4 },
+          ],
+          battleSlugs: ["montenotte"],
+        },
+        {
+          title: "The army the Revolution raised",
+          text: "The men came from the Republic. Carnot drafted the decree of 23 August 1793 that requisitioned all Frenchmen for the armies. The amalgamation of old regulars and Revolutionary volunteers was decreed that February and begun in spring 1794. The 1911 Britannica argues that out of this rough mixture the army gradually evolved its own leaders and reached its highest value in the very campaign of 1796 that made Bonaparte’s name. Promotion by proven ability was therefore something he found in place, along with a generation of officers already tested by four years of war.",
+          evidence: "fact",
+          refs: [{ source: 2 }, { source: 3 }],
+          battleSlugs: [],
+        },
+        {
+          title: "Ideas from books, tested at Toulon",
+          text: "J. Holland Rose wrote in 1911 that Bonaparte took from the younger du Teil’s work on the new artillery, and from Guibert and Bourcet, the principle of concentrating effort against one point of the enemy’s line, which he advocated at Toulon. Chaptal remembers the plan at Toulon as worked out together by Bonaparte and General Dugommier, with Bonaparte given the most dangerous part. The site’s study records the same uncertainty among modern sources. Neither account makes the idea his invention, and neither denies that he saw how to use it.",
+          evidence: "fact",
+          refs: [{ source: 5 }, { source: 7, locator: "pp. 202–203" }],
+          battleSlugs: ["toulon"],
+        },
+        {
+          title: "What was his",
+          text: "None of this makes him a mere heir. Britannica says that until he took command in Italy the changes in the French army had not been matched by a revolution in strategy, and that his campaign of 1796 organised the Revolution’s methods and the ideas of earlier reformers into a coherent system. The Fondation’s article credits Carnot with the intuition of main and secondary theatres and of massed action, and says the applications remained exceptional until Bonaparte made them systematic. The permanent army corps, with its own staff and services, was formed on the Channel coast and first used on the grand scale in 1805, when divisions and corps totalling some two hundred thousand men were coordinated to a single purpose.",
+          evidence: "fact",
+          refs: [
+            { source: 6 },
+            { source: 0, locator: "introduction" },
+            { source: 4 },
+          ],
+          battleSlugs: ["ulm"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "J. Holland Rose, 1911",
+          stake:
+            "A biographer with a thesis about what made Bonaparte, writing a century later.",
+          says: "He names du Teil, Guibert and Bourcet as the source of Bonaparte’s leading principle.",
+          refs: [{ source: 5 }],
+        },
+        {
+          who: "Chaptal",
+          stake:
+            "Once his minister, and writing what he remembered being told.",
+          says: "He has Bonaparte and Dugommier concert the plan of attack at Toulon together.",
+          refs: [{ source: 7, locator: "pp. 202–203" }],
+        },
+        {
+          who: "Bonaparte at Cherasco, April 1796",
+          stake:
+            "A general praising his army in public, with the government at home also listening.",
+          says: "He tells the soldiers they have won battles without guns, crossed rivers without bridges and made forced marches without shoes. The credit is placed on them, in words that also advertise the man who led them.",
+          refs: [{ source: 0, locator: "text of the proclamation" }],
+        },
+        {
+          who: "The Fondation Napoléon’s review",
+          stake:
+            "The journal of a society devoted to Napoleon, which makes its concessions the more useful.",
+          says: "It credits Carnot with the idea, and it warns that the story told at St Helena drew largely on bulletins full of errors and calculated omissions.",
+          refs: [{ source: 0, locator: "introduction" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, what Bonaparte added in April 1796 was a use for what he had found. Divisions that could march apart were an opportunity and a risk, since each could be caught alone. He chose to spread them over mountain roads at night and bring them together on one enemy detachment, while a single brigade on the Genoa side held on to buy time. Any general of the Republic had the same instrument. Few used it this way, and the advantage lay in the combination of inherited means with a new idea of what they were for.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "“Les opérations”" }, { source: 6 }],
+        },
+        {
+          text: "What he left alone is as instructive as what he changed. Britannica says that he did not prescribe infantry formations to his corps commanders, that their combinations were often ineffective and wasteful, and that he made no serious attempt to introduce the two-rank firing that served the British so well. An inheritor who adds a new layer may not notice that the old layers are ageing beneath it. The instrument was excellent for the kind of campaign it had been built for, and he did not rebuild it for others.",
+          evidence: "interpretation",
+          refs: [{ source: 4 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Crediting the person for what the situation explains",
+          base: "review",
+          text: "Gilbert and Malone describe the correspondence bias as the tendency to infer a person’s lasting dispositions from behaviour that the situation could entirely explain. They call it one of the most fundamental phenomena in social psychology, and they say its causes remain poorly understood. A reader who sees a young general win six battles in a few weeks and concludes that genius explains it is at risk of exactly this inference.",
+          evidence: "interpretation",
+          refs: [{ source: 8 }],
+          limit:
+            "The bias concerns observers, so it speaks to how we read Bonaparte and not to what he was like. It does not show that his ability was small. Only the abstract was read.",
+        },
+        {
+          mechanism: "The romance of leadership",
+          base: "meta-analysis",
+          text: "Schyns, Felfe and Blank combined new and earlier studies and found a positive relationship between a person’s tendency to romanticise leadership and their perception of a leader as transformational. They conclude that the perception of leadership comprises more than the leader’s actual behaviour. Admirers of Napoleon, then and since, may be telling us about the admirers.",
+          evidence: "interpretation",
+          refs: [{ source: 9 }],
+          limit:
+            "The studies concern modern students and employees rating leaders. Carrying them over to nineteenth-century opinion is this lesson’s inference, and only the abstract was read.",
+        },
+      ],
+      shadow: {
+        text: "The legend that he made it all was partly his own work. The Fondation’s article says that his St Helena account of the Italian campaign drew largely on his own bulletins, and it singles out the disputed parts played by Fornésy and Rampon at Monte Legino as an example of how hard the real events are to recover. The deeper failure was in maintenance. Britannica says there was no real training for staff work, that staff officers were chosen haphazardly, and that he was content to use men who proved still more deficient when they became theatre commanders. A system he had inherited and sharpened was not being renewed to outlast him.",
+        evidence: "interpretation",
+        refs: [{ source: 0, locator: "introduction" }, { source: 4 }],
+      },
+      counterCase: {
+        text: "Archduke Charles shows the same problem from the opposite side. Britannica says that after 1801, with wide powers, he discarded Austria’s old military system and began reforms that adopted the principle of the nation in arms, French organisation and tactics, and new military academies. He had no Revolution to inherit from, so he had to import one. The army was not yet ready in 1809, but it beat Napoleon at Aspern-Essling before losing at Wagram. A reformer can be seen working in the open in a way that an inheritor cannot.",
+        evidence: "interpretation",
+        refs: [{ source: 10 }],
+        commanderSlug: "archduke-charles",
+        battleSlugs: ["aspern-essling"],
+      },
+      cost: {
+        text: "The inheritance included compulsion. The decree of 1793 requisitioned all Frenchmen, and the 1911 Britannica observes that many were better off in the army than at home, where they lived in fear of denunciation and the guillotine. The law of 1798 replaced the levies with regular conscription, which lasted until 1815 and brought more than two million men into the army. Whatever Napoleon did with that system, the young men it took did not choose it.",
+        evidence: "fact",
+        refs: [{ source: 2 }, { source: 3 }, { source: 4 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "The organisation had a capable structure, trained people or new methods before the celebrated leader arrived.",
+          "Rivals with similar means did less with them, so that the leader’s contribution can be seen.",
+        ],
+        failsWhen: [
+          "The leader really did build the system from nothing, as a founder sometimes does.",
+          "Inheritance becomes an excuse for denying any credit to a person who plainly changed the result.",
+        ],
+        questions: [
+          "What did your organisation’s last success owe to work done before the people now credited with it?",
+          "What are you drawing on that you are not renewing?",
+          "Which of your inherited methods have you stopped looking at?",
+        ],
+      },
+      bearsOn:
+        "If much of his early success drew on capital built up by others, then part of what looks like later decline may be that capital running out. Britannica calls the army of 1805 the best he was to lead. That points towards “the problem got harder”, though he was also the person who failed to renew it.",
+      questions: [
+        {
+          prompt:
+            "By when does the 1911 Britannica say the divisional system had become practically universal in the French army?",
+          choices: ["1765", "1796", "1805"],
+          answer: 1,
+          explanation:
+            "Temporary divisions hardened into a permanent system during the Revolutionary wars, before Bonaparte’s Italian campaign.",
+        },
+        {
+          prompt:
+            "What does Britannica say about the tactics of the army Napoleon led in 1805?",
+          choices: [
+            "No changes were made, and the infantry kept the regulation of 1791.",
+            "Napoleon wrote a new drill-book for it at Boulogne.",
+            "It had adopted British two-rank firing.",
+          ],
+          answer: 0,
+          explanation:
+            "Britannica places his innovation in the organisation of the army and the direction of its movements.",
+        },
+        {
+          prompt: "What is the correspondence bias?",
+          choices: [
+            "Trusting letters more than memoirs.",
+            "Believing that success comes from luck alone.",
+            "Inferring lasting traits from behaviour that the situation could entirely explain.",
+          ],
+          answer: 2,
+          explanation:
+            "It is a tendency in the observer, which is why the lesson applies it to readers of Napoleon.",
+        },
+      ],
+      sourceCheck: {
+        question: "Whose plan took Toulon?",
+        witnesses: [
+          {
+            label: "J. Holland Rose, 1911",
+            claim:
+              "Bonaparte advocated at Toulon the concentration of effort against one point, a principle he took from du Teil, Guibert and Bourcet.",
+          },
+          {
+            label: "Chaptal, his former minister",
+            claim:
+              "Bonaparte and Dugommier concerted the plan of attack together, and the most dangerous part was entrusted to Bonaparte.",
+          },
+        ],
+        prompt: "How can these two accounts be reconciled?",
+        options: [
+          {
+            text: "They cannot: one must be wrong.",
+            feedback:
+              "Advocating a principle and agreeing a plan with one’s commander are different acts. Both can be true at once.",
+          },
+          {
+            text: "Rose is right, because he is a professional historian.",
+            feedback:
+              "He writes with more distance, but he is explaining where an idea came from. Chaptal is describing who made the plan.",
+          },
+          {
+            text: "An idea from books, advocated by a junior officer and adopted with his commander, fits both.",
+            feedback:
+              "That reading gives Bonaparte his part without making him sole author, which is the position this lesson asks you to test.",
+            best: true,
+          },
+        ],
+        battleSlug: "toulon",
+      },
+      seminar: {
+        prompt:
+          "Pick a leader celebrated for transforming an organisation. List what was already in place when they arrived.",
+        guidance:
+          "Then ask what no predecessor with the same means had done. Keep both lists. The lesson is in the difference between them, not in choosing one.",
+      },
+      sources: [
+        s.nice,
+        s.artillery,
+        s.firstCoalition,
+        s.frw,
+        s.forces,
+        s.rose,
+        s.italy,
+        s.chaptal,
+        s.gilbertMalone,
+        s.schyns,
+        s.archduke,
+      ],
+    },
+    {
       slug: "intuition-is-stored-work",
       title: "The coup d’œil: intuition as stored work",
       part: "Judgement",
@@ -658,6 +1014,472 @@ export const napoleonVolume: LeadershipVolume = {
         s.stanhope,
         s.caulaincourt,
         s.borodino,
+      ],
+    },
+    {
+      slug: "plan-for-being-wrong",
+      title: "Plans that survive error",
+      part: "Judgement",
+      themes: ["judgement", "organisation"],
+      claim:
+        "When the situation cannot be known in advance, an organisation built to absorb a wrong assumption is worth more than a correct prediction.",
+      moment: {
+        text: "On the morning of 13 October 1806 Napoleon wrote to Murat: “At last the veil is torn; the enemy have begun their retreat towards Magdeburg.” That afternoon he rode up to the heights above Jena and saw Prussian camps. By the account of the 1911 Britannica he concluded from all his reports that the whole Prussian army was in front of him, and he ordered his forces to concentrate on Jena, marching all night if need be. Six hours earlier that would have been true. The Prussian main body had already begun to move away to the north.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "p. 245" },
+          { source: 1, locator: "§ 16" },
+        ],
+      },
+      episodes: [
+        {
+          title: "Ulm: uncertain and spread out",
+          text: "In 1805 Mack waited near Ulm, expecting Napoleon to come through the Black Forest with far fewer troops than he had. Instead the French crossed the Rhine, wheeled south and were across the Danube behind him before he knew it. The manoeuvre was not as clean as it later looked. Britannica says that after crossing the Danube Napoleon was uncertain of the Austrians’ latest positions, so he extended his front along the Lech and detached a corps towards Munich in case the Russians appeared, and that the encirclement was marked by bad weather, short supplies and clumsiness among some of his subordinates. The wide net caught Mack anyway. It did not depend on knowing exactly where he was.",
+          evidence: "fact",
+          refs: [{ source: 3 }, { source: 2 }],
+          battleSlugs: ["ulm"],
+        },
+        {
+          title: "Jena and Auerstedt: the error forgiven",
+          text: "On 14 October 1806 Napoleon struck at Jena with only part of his army and beat what he took to be the main enemy. It was Hohenlohe’s flank force. Thirteen miles to the north, at Auerstedt, Davout’s single corps, marching on orders to come down on the Prussian rear, ran into the main army under Brunswick and held for six hours until the Prussian attack gave way. Britannica says the Prussians had not yet adopted the divisional system and that Brunswick spent his superior strength in piecemeal attacks. The commander had the wrong picture, and his plan still produced a double victory, because each corps was built to fight alone for a day.",
+          evidence: "fact",
+          refs: [
+            { source: 2 },
+            { source: 4 },
+            { source: 1, locator: "§§ 17–18" },
+            { source: 6 },
+          ],
+          battleSlugs: ["jena-auerstedt"],
+        },
+        {
+          title: "Marengo: the error nearly fatal",
+          text: "Six years earlier the same habit almost cost him everything. Britannica says that in June 1800, mistakenly believing Melas to be at Turin, Bonaparte weakened his army by sending out detachments to find the enemy. Melas came out of Alessandria on the morning of 14 June against a dispersed French force, and it was about eleven before Bonaparte, some way off, understood that he faced the main Austrian army. Of the two detachments only one received its recall: Boudet’s division, with Desaix, turned back at one in the afternoon on a frantic message and reached the field between four and five. Nothing in the arrangements guaranteed that. The margin was one message.",
+          evidence: "fact",
+          refs: [{ source: 5 }],
+          battleSlugs: ["marengo"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Napoleon, in his orders of October 1806",
+          stake:
+            "Written at the time to subordinates who had to act on them, so more reliable than his later accounts, though compiled by an editor.",
+          says: "He writes to Marshal Soult that he hopes for a battle, and that whatever the enemy does he has an answer: delighted if attacked, ready to attack, and in front of them if they turn away.",
+          refs: [{ source: 0, locator: "p. 242" }],
+        },
+        {
+          who: "The 1911 Britannica on the Napoleonic campaigns",
+          stake:
+            "Soldierly narrative drawn from the general staff histories, and more interested in method than in reputation.",
+          says: "It says that on the morning of the 13th the reports only partly cleared up the situation, and that the real truth was very different from what he supposed.",
+          refs: [{ source: 1, locator: "§ 16" }],
+        },
+        {
+          who: "Jean Linden",
+          stake: "Writing an admiring study of Davout in a Napoleonic review.",
+          says: "He says that on the 12th Napoleon did not know the exact position of the Prussian forces, and asked his commanders to look for information.",
+          refs: [{ source: 6 }],
+        },
+        {
+          who: "Oskar Criste, 1897",
+          stake:
+            "An Austrian biographer citing the war archive, and defending an Austrian staff officer.",
+          says: "He says Kutuzov altered Weyrother’s excellent dispositions at Austerlitz, and that Weyrother, constantly ill, lacked the energy to insist on them.",
+          refs: [{ source: 8 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Without hindsight, the corps system looks like insurance. In the days before Jena Napoleon could not know where the main Prussian force was, and he knew that he did not know: his letter to Soult lists what he will do in each case. The orders of that night gave Davout a task and left the choice of road to him. A corps with its own staff, services and cavalry could fight for a day on its own. That is why a false picture did not lead to a catastrophe. The decision worth studying is the one taken years earlier to organise the army so that being wrong would be survivable.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "p. 242" },
+            { source: 13 },
+            { source: 6 },
+          ],
+        },
+        {
+          text: "Marengo shows the limit of the argument. There the dispersal itself was the risk. Bonaparte had detached forces in search of an enemy he had misplaced, and only one reserve division remained. A wide net works when the parts can reach each other in time. Judged on what he knew on 13 June, the detachments were a reasonable way of finding an elusive opponent; judged on how little margin they left, they were dangerous. Both judgements can stand.",
+          evidence: "interpretation",
+          refs: [{ source: 5 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Excessive precision in belief",
+          base: "theory",
+          text: "Moore and Healy distinguish three kinds of overconfidence: overestimating one’s performance, placing oneself above others, and holding beliefs with excessive precision. They report that overprecision is more persistent than the other two. A plan that depends on the enemy being in one place is a precise belief. On that view the useful question at Jena or Marengo is less how confident Napoleon felt than how narrow a range of possibilities his dispositions allowed for.",
+          evidence: "interpretation",
+          refs: [{ source: 10 }],
+          limit:
+            "These are mainly experiments on modern participants, and nobody can measure what Napoleon believed. Only the abstract was read.",
+        },
+        {
+          mechanism: "Imagining the failure has already happened",
+          base: "single study",
+          text: "Prospective hindsight means explaining a future event as if it had already occurred, an idea often recommended to planners. Mitchell, Russo and Pennington found in their first experiment that temporal perspective made little difference, and that it was treating the outcome as certain that strongly changed the explanations people gave. If that holds, the useful exercise is to take a plan’s failure as settled and then explain it.",
+          evidence: "interpretation",
+          refs: [{ source: 11 }],
+          limit:
+            "This is one small research paper on how people explain events. It does not test whether such an exercise improves plans, and only the abstract was read.",
+        },
+      ],
+      shadow: {
+        text: "At Waterloo the insurance had run out. Houssaye writes that neither Napoleon nor Soult expected the Prussians on the field, since they judged that the French were rid of them for many days, and that Soult regretted the detachment of Grouchy with so large a force. Napoleon said on St Helena that when he quitted Quatre Bras he ought to have left only a small force to follow Blücher and taken all the rest with him. In 1806 a wrong belief about the enemy had been absorbed by a corps that could stand alone. In 1815 the same kind of belief met a detached force that did not arrive, and nothing absorbed it.",
+        evidence: "interpretation",
+        refs: [
+          { source: 9, locator: "pp. 163–164" },
+          { source: 7, locator: "pp. 188–189" },
+        ],
+        battleSlugs: ["waterloo"],
+      },
+      counterCase: {
+        text: "The allied plan at Austerlitz was the opposite kind of plan: precise, written and dependent on several columns doing what it said. The Fondation’s timeline shows Buxhöwden and Langeron leaving the Pratzen heights to support the attacks at Telnitz and Sokolnitz, and Kutuzov throwing in all his troops to recover what was abandoned. Who was responsible is disputed. Criste says Kutuzov altered Weyrother’s dispositions, and the site’s study records Russian officers blaming Weyrother. Whichever is right, once the movement was under way there was little in the allied arrangement that could absorb a mistake.",
+        evidence: "interpretation",
+        refs: [{ source: 12 }, { source: 8 }],
+        battleSlugs: ["austerlitz"],
+      },
+      cost: {
+        text: "An error that is absorbed is absorbed by someone. At Auerstedt it was Davout’s corps, which held against the main Prussian army until, the 1911 Britannica says, its strength was nearly exhausted by midday. At Marengo it was the men of Victor and Lannes, driven back disordered across the plain for hours while the recall message travelled. A system that forgives its commander’s mistakes does so at the expense of the people closest to them.",
+        evidence: "fact",
+        refs: [{ source: 1, locator: "§ 18" }, { source: 5 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "The facts that matter cannot be known before action must be taken.",
+          "Parts of the organisation can act alone for long enough to be reached by help.",
+        ],
+        failsWhen: [
+          "Dispersing to cover every possibility leaves no part strong enough to survive contact.",
+          "The situation is predictable and a precise plan would simply be better.",
+        ],
+        questions: [
+          "What is your plan assuming that you have not checked?",
+          "If that assumption is wrong, which team absorbs the error, and can it?",
+          "Take the failure of this plan as settled. What is the most likely explanation?",
+        ],
+      },
+      bearsOn:
+        "The system forgave him in 1806 and did not in 1815. That may be a question of margin: better opponents, a smaller and less practised army, fewer commanders able to stand alone. Or it may be that the same habit of assumption went on unchecked after success had taught him it was safe. This lesson cannot separate those, but it shows that the habit itself did not change.",
+      questions: [
+        {
+          prompt:
+            "What did Napoleon conclude on the afternoon of 13 October 1806, according to the 1911 Britannica?",
+          choices: [
+            "That the whole Prussian army was in front of him at Jena.",
+            "That the Prussians had already retreated beyond the Elbe.",
+            "That the main Prussian army was at Auerstedt.",
+          ],
+          answer: 0,
+          explanation:
+            "The main body had begun to move north that morning, which is why Davout met it at Auerstedt the next day.",
+        },
+        {
+          prompt:
+            "Why did Bonaparte’s army fight at a disadvantage on the morning of Marengo?",
+          choices: [
+            "He had been wounded the day before.",
+            "He believed Melas was at Turin and had sent detachments away.",
+            "His guns had been lost crossing the Alps.",
+          ],
+          answer: 1,
+          explanation:
+            "Britannica says the mistaken belief led him to weaken the army by sending out detachments to find the enemy.",
+        },
+        {
+          prompt: "What did Moore and Healy report about overprecision?",
+          choices: [
+            "It disappears on difficult tasks.",
+            "It is the rarest form of overconfidence.",
+            "It is more persistent than the other two kinds of overconfidence.",
+          ],
+          answer: 2,
+          explanation:
+            "The lesson uses this to ask how narrow a range of possibilities a plan allows for.",
+        },
+      ],
+      sourceCheck: {
+        question:
+          "Why did Bernadotte’s corps not march with Davout on 14 October 1806?",
+        witnesses: [
+          {
+            label: "The 1911 Britannica",
+            claim:
+              "Bernadotte had neglected to keep the emperor informed, concluded that he had missed an order for Dornburg, and marched there to conceal his error.",
+          },
+          {
+            label: "Jean Linden, Revue du Souvenir Napoléonien",
+            claim:
+              "Davout told Bernadotte his instructions were to join him or to go to Dornburg as previously indicated, and Bernadotte chose Dornburg.",
+          },
+        ],
+        prompt: "What should a careful reader conclude?",
+        options: [
+          {
+            text: "Bernadotte deliberately betrayed Davout.",
+            feedback:
+              "Neither account says that. One describes a mistake being concealed, the other a choice between instructions.",
+          },
+          {
+            text: "He went to Dornburg, and his motive is an interpretation that the two accounts make differently.",
+            feedback:
+              "They agree on the movement. The site’s study records that his conduct remains disputed, and motive is the hardest thing to recover.",
+            best: true,
+          },
+          {
+            text: "Linden is more reliable, because Davout is his subject.",
+            feedback:
+              "Writing about Davout may give him detail, but it also gives him a reason to see Davout’s side.",
+          },
+        ],
+        battleSlug: "jena-auerstedt",
+      },
+      seminar: {
+        prompt:
+          "Describe a plan you know that survived a serious wrong assumption, and one that did not. What was different about how each was organised?",
+        guidance:
+          "Compare Jena with Marengo. Ask who could act without new orders, how far apart the parts were, and who carried the cost of the mistake.",
+      },
+      sources: [
+        s.corsican,
+        s.campaigns,
+        s.jena,
+        s.coalitions,
+        s.jenaCampaign,
+        s.marengoBattle,
+        s.linden,
+        s.gourgaud,
+        s.criste,
+        s.houssaye,
+        s.mooreHealy,
+        s.mitchell,
+        s.timeline,
+        s.forces,
+      ],
+    },
+    {
+      slug: "tempo-and-the-decisive-point",
+      title: "Speed, and what it is spent on",
+      part: "Judgement",
+      themes: ["judgement", "restraint"],
+      claim:
+        "When speed concentrates force at the point that matters it can outweigh numbers, and whatever it buys is paid for by the people who march.",
+      moment: {
+        text: "At the end of July 1796 reports reached Bonaparte one after another. Masséna had been driven back, the enemy had appeared near Verona, a French general had been beaten at Salo, and the Austrians were in Brescia on his line of communication. He was besieging Mantua, the prize of the campaign, and its fall was thought to be close. He ordered the siege raised, told Sérurier to burn the siege train if necessary, and gathered everything he had in a central position.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "“La manoeuvre de Castiglione”" },
+          { source: 1 },
+        ],
+      },
+      episodes: [
+        {
+          title: "Montenotte: at the hinge",
+          text: "In April 1796, when two attacks forced his hand, Bonaparte left the brigade on the Genoa side to give ground and win time, and threw everything he could against d’Argenteau’s detachment at Montenotte, moving his divisions over the mountains by night. The point of the exercise was to be stronger in one place for one day than the enemy could be, however his total numbers compared.",
+          evidence: "fact",
+          refs: [{ source: 2, locator: "“Les opérations”" }],
+          battleSlugs: ["montenotte"],
+        },
+        {
+          title: "Castiglione: what was given up",
+          text: "Having raised the siege, he left rearguards to hold Wurmser on the Mincio and took his main force against Quasdanovich, who was scattered and was beaten at Lonato and Salo. Then he brought it all back against Wurmser and defeated him at Castiglione on 5 August. Britannica attributes the unexpected success both to the sacrifice of the investment of Mantua and to the extraordinarily hard marching his strategy demanded. The Fondation’s article, which calls Castiglione the perfect type of a Napoleonic battle, adds that the victorious army was worn out by eight days of excessive marches and could not pursue.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "“La manoeuvre de Castiglione”" },
+            { source: 1 },
+          ],
+          battleSlugs: ["castiglione"],
+        },
+        {
+          title: "The Six Days, February 1814",
+          text: "Eighteen years later the method was still working. Leaving a force to contain Schwarzenberg, Napoleon marched against the flank of Blücher’s army, whose main column was strung out over more than forty miles. Between 10 and 14 February he struck its corps in turn at Champaubert, Montmirail, Château-Thierry and Vauchamps. Britannica says that an inferior force scattered a far larger one, and then adds that Blücher had rallied and been reinforced within days, and that Napoleon had spent himself and his troops to obtain only a postponement of defeat.",
+          evidence: "fact",
+          refs: [{ source: 3 }],
+          battleSlugs: ["six-days-campaign"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Bonaparte at Cherasco, April 1796",
+          stake:
+            "A general addressing his troops and, through the press, the government.",
+          says: "He tells his soldiers they have made forced marches without shoes and bivouacked without brandy and often without bread. It is praise, and it is also a record of what speed cost.",
+          refs: [{ source: 2, locator: "text of the proclamation" }],
+        },
+        {
+          who: "The Revue du Souvenir Napoléonien on 1796",
+          stake:
+            "Based on a tactical course of 1913, from the high point of French study of Napoleon, and admiring in tone.",
+          says: "It treats Castiglione as a model, and still records that the army could not pursue.",
+          refs: [{ source: 0, locator: "“La manoeuvre de Castiglione”" }],
+        },
+        {
+          who: "Wellington, as Earl Stanhope records him",
+          stake:
+            "His opponent, reported at second hand, and a general proud of his own defensive campaigns.",
+          says: "On the campaign of 1814 he says: “The study of it has given me a greater idea of his genius than any other.” But, he adds, “he wanted patience.”",
+          refs: [{ source: 7, locator: "p. 8" }],
+        },
+        {
+          who: "Chaptal",
+          stake:
+            "Once his minister, describing the man at work in Paris and not on campaign.",
+          says: "He says Napoleon kept no rule for meals or sleep: sometimes he slept eight or ten hours, and sometimes he had hardly gone to bed before he rose and worked all night.",
+          refs: [{ source: 8, locator: "pp. 328–329" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, giving up the siege of Mantua was a real sacrifice. Its fall had seemed near, and the siege train might have to be burned. The alternative was to keep the prize and let two converging armies choose the moment. He preferred a known loss to an unknown danger, and that is a sound pattern: speed had value because he had first decided what he was willing to abandon in order to be concentrated. Tempo without that choice would only have been hurry.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "“La manoeuvre de Castiglione”" },
+            { source: 1 },
+          ],
+        },
+        {
+          text: "The Six Days are the hardest test of the idea. As operations they were brilliant, and Wellington thought so. As strategy they answered the wrong question: Blücher was reinforced within days and the allies had more armies than Napoleon had time. Speed can decide the point it is applied to. It cannot decide whether that point was the one that mattered, and by 1814 no point within his reach could end the war.",
+          evidence: "interpretation",
+          refs: [{ source: 3 }, { source: 7, locator: "p. 8" }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Decision-making when short of sleep",
+          base: "review",
+          text: "Harrison and Horne review research on sleep deprivation and say it particularly impairs decisions involving the unexpected, innovation, revising plans, competing distraction and effective communication, while complex rule-based tasks hold up in the short term. They name military commanders among those affected. That is why the famous claim that Napoleon needed only a few hours’ sleep matters. Chaptal, who watched him, describes something irregular rather than ascetic: sometimes eight or ten hours, sometimes none. So the claim is unproven, and the research does not tell us what sleep did to any particular decision.",
+          evidence: "interpretation",
+          refs: [{ source: 9 }, { source: 8, locator: "pp. 328–329" }],
+          limit:
+            "No source read here measures his sleep on campaign or links it to a decision, and Chaptal describes him in Paris. Only the abstract of the review was read.",
+        },
+      ],
+      shadow: {
+        text: "In the autumn of 1813 the method met an enemy who had studied it. Britannica calls that campaign the worst conceived and most disastrous of his career, tied as it was to fortresses on the Elbe. The allies had agreed to avoid battle with Napoleon and attack his subordinates, so a rapid march towards one army simply found another advancing somewhere else. Houdecek says that after the first phase of the campaign the French army was exhausted by marches and counter-marches. Speed needs something to catch.",
+        evidence: "interpretation",
+        refs: [{ source: 5 }, { source: 6 }],
+        battleSlugs: ["dresden", "leipzig"],
+      },
+      counterCase: {
+        text: "Kutuzov in 1812 made slowness his method. After Moscow he stopped at Tarutino, rested his men, gathered winter clothing and organised the partisans. Ganière records that Alexander, poorly informed, reproached him for inaction, and that he answered that the French were now in effect prisoners of their victory. On the retreat, Britannica says, he declined to bring on a general engagement at Krasnoe. Slowness is not a virtue in itself; his was chosen against an enemy whose system needed a quick result.",
+        evidence: "interpretation",
+        refs: [{ source: 11 }, { source: 12 }, { source: 4 }],
+        commanderSlug: "mikhail-kutuzov",
+        battleSlugs: ["maloyaroslavets"],
+      },
+      cost: {
+        text: "Caulaincourt saw what the marches of June 1812 did. Rapid movement without stores consumed everything along the way; the vanguard ate well, the rest went hungry; thousands of horses died from exhaustion and cold rain, and young soldiers of the Guard died on the road of fatigue and hunger, pushed to match veterans. Britannica explains the logic behind it: the method relied on pillage and forced requisition, and so it fell on whoever lived along the road as well as on those who marched.",
+        evidence: "fact",
+        refs: [{ source: 10, locator: "pp. 49–50" }, { source: 4 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "Moving first lets you be strong at a point that truly decides the matter.",
+          "You have decided in advance what you will give up in order to move.",
+        ],
+        failsWhen: [
+          "The other side can decline the contest and simply wait.",
+          "The people doing the work are already exhausted, so that speed consumes what it was meant to protect.",
+        ],
+        questions: [
+          "What are you prepared to abandon in order to move faster?",
+          "If you win this race, does it settle anything?",
+          "Who is carrying the cost of the pace, and for how long can they carry it?",
+        ],
+      },
+      bearsOn:
+        "This is the strongest evidence in the volume so far against simple decline. Wellington, who had reason not to flatter him, rated the 1814 campaign above all his others. The operational skill was intact nearly twenty years on. What had changed was the size of the enemy, the state of his army and whether any victory could still matter, which points towards “the problem got harder”.",
+      questions: [
+        {
+          prompt:
+            "What did Bonaparte give up in order to concentrate before Castiglione?",
+          choices: [
+            "The siege of Mantua, with its siege train at risk.",
+            "His line of communication through Brescia.",
+            "Masséna’s division.",
+          ],
+          answer: 0,
+          explanation:
+            "He ordered the siege raised and told Sérurier to burn the train if necessary.",
+        },
+        {
+          prompt: "What does Chaptal say about Napoleon’s sleep?",
+          choices: [
+            "He never slept more than four hours.",
+            "He kept no rule: sometimes eight or ten hours, sometimes hardly any.",
+            "He slept mainly during the day.",
+          ],
+          answer: 1,
+          explanation:
+            "Chaptal describes irregularity, which is why the lesson leaves the popular claim unproven.",
+        },
+        {
+          prompt: "What was the allied answer to Napoleon’s speed in 1813?",
+          choices: [
+            "To concentrate all their armies at Dresden at once.",
+            "To retreat to the Rhine.",
+            "To avoid battle with him and attack his subordinates.",
+          ],
+          answer: 2,
+          explanation:
+            "An opponent who declines the contest takes away what speed is for.",
+        },
+      ],
+      sourceCheck: {
+        question: "Was the Six Days a success?",
+        witnesses: [
+          {
+            label: "Wellington, reported by Stanhope",
+            claim:
+              "The 1814 campaign gave him a greater idea of Napoleon’s genius than any other, though he wanted patience.",
+          },
+          {
+            label: "Britannica",
+            claim:
+              "An inferior force scattered a larger one, and yet Blücher had rallied and been reinforced within days, so that it won only a postponement of defeat.",
+          },
+        ],
+        prompt: "How should these be read together?",
+        options: [
+          {
+            text: "Wellington is right, because he was a great general himself.",
+            feedback:
+              "His professional admiration is evidence about the operations. It does not show that they could have changed the war’s result.",
+          },
+          {
+            text: "Britannica is right, so the campaign was a failure of generalship.",
+            feedback:
+              "Britannica’s point is about what the victories achieved. It does not say they were badly conducted.",
+          },
+          {
+            text: "They are judging different things: operational skill, and what that skill could still achieve.",
+            feedback:
+              "Separating those two questions is the point of the lesson, and it bears directly on “worse or harder?”.",
+            best: true,
+          },
+        ],
+        battleSlug: "six-days-campaign",
+      },
+      seminar: {
+        prompt:
+          "Think of an organisation that moved fast and won a race that turned out not to matter. What should it have asked first?",
+        guidance:
+          "Compare Castiglione with the Six Days. Look at what was given up in order to move, and whether the point reached actually decided anything.",
+      },
+      sources: [
+        s.tolentino,
+        s.italy,
+        s.nice,
+        s.france1814,
+        s.forces,
+        s.autumn1813,
+        s.collapse,
+        s.stanhope,
+        s.chaptal,
+        s.harrisonHorne,
+        s.caulaincourt,
+        s.ganiere,
+        s.retreat,
       ],
     },
     {

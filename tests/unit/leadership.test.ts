@@ -101,10 +101,13 @@ describe("leadership volumes", () => {
   });
 });
 
-it("lists the Napoleon pilot lessons in curriculum order", () =>
+it("lists the Napoleon lessons in curriculum order", () =>
   expect(leadershipVolumes[0].lessons.map((l) => l.slug)).toEqual([
     "how-to-read-napoleon",
+    "inherit-before-you-invent",
     "intuition-is-stored-work",
+    "plan-for-being-wrong",
+    "tempo-and-the-decisive-point",
     "knowing-when-to-stop",
   ]));
 

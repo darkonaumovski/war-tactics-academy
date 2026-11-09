@@ -465,7 +465,7 @@ test("a leadership lesson shows its three readings and saves progress", async ({
   await page.getByRole("button", { name: "Check my understanding" }).click();
   await expect(page.getByRole("status")).toContainText("3/3");
   await page.getByRole("link", { name: "Back to volume" }).click();
-  await expect(page.getByText("1 of 3 lessons completed")).toBeVisible();
+  await expect(page.getByText("1 of 6 lessons completed")).toBeVisible();
   await page.setViewportSize({ width: 375, height: 800 });
   await page.goto("/leadership/napoleon-bonaparte/knowing-when-to-stop");
   await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
@@ -887,6 +887,7 @@ for (const route of [
   "/leadership/napoleon-bonaparte",
   "/leadership/napoleon-bonaparte/how-to-read-napoleon",
   "/leadership/napoleon-bonaparte/knowing-when-to-stop",
+  "/leadership/napoleon-bonaparte/plan-for-being-wrong",
 ])
   test(`accessibility: ${route}`, async ({ page }) => {
     // axe takes 30 to 50 seconds on the 127-card catalog in every engine.

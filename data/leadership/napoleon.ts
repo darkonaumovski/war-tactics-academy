@@ -565,12 +565,6 @@ const s = {
     url: "https://www.napoleon.org/histoire-des-2-empires/biographies/kleber-jean-baptiste-1753-1800-general/",
     publisher: fondation,
   },
-  bp5: {
-    title:
-      "Bullet Point #5: Was the Egyptian Campaign one of Napoleon’s great successes? (Thierry Lentz)",
-    url: "https://www.napoleon.org/en/history-of-the-two-empires/articles/bullet-point-5-egyptian-campaign-one-napoleons-great-successes/",
-    publisher: fondation,
-  },
   adieux: {
     title: "La campagne de France de 1814 (chronology)",
     url: "https://www.napoleon.org/histoire-des-2-empires/chronologies/la-campagne-de-france-de-1814/",
@@ -625,6 +619,105 @@ const s = {
     url: "https://doi.org/10.1002/job.4030150306",
     publisher: "Journal of Organizational Behavior",
   },
+  malet: {
+    title: "Thierry Lentz: four questions on the 1812 Malet Affair",
+    url: "https://www.napoleon.org/en/magazine/interviews/thierry-lentz-four-questions-on-the-1812-malet-affair/",
+    publisher: fondation,
+  },
+  weber: {
+    title:
+      "Max Weber, The Theory of Social and Economic Organization, trans. A. M. Henderson and Talcott Parsons (1947)",
+    url: archive("in.ernet.dli.2015.276724"),
+    publisher: "Internet Archive",
+  },
+  godechotReforms: {
+    title:
+      "Napoleon I: The Consulate and its programme of reforms (Jacques Godechot)",
+    url: "https://www.britannica.com/biography/Napoleon-I/The-Directory",
+    publisher: britannica,
+  },
+  godechotFounding: {
+    title: "Napoleon I: Founding the empire (Jacques Godechot)",
+    url: "https://www.britannica.com/biography/Napoleon-I/Military-campaigns-and-uneasy-peace",
+    publisher: britannica,
+  },
+  godechotEmpire: {
+    title: "Napoleon I: Consolidation of empire (Jacques Godechot)",
+    url: "https://www.britannica.com/biography/Napoleon-I/War-with-Britain",
+    publisher: britannica,
+  },
+  godechotDownfall: {
+    title:
+      "Napoleon I: Downfall and abdication, Elba and the Hundred Days (Jacques Godechot)",
+    url: "https://www.britannica.com/biography/Napoleon-I/Downfall-and-abdication",
+    publisher: britannica,
+  },
+  godechotLegend: {
+    title: "Napoleon I: The Napoleonic legend (Jacques Godechot)",
+    url: "https://www.britannica.com/biography/Napoleon-I/Exile-on-St-Helena",
+    publisher: britannica,
+  },
+  civilCode: {
+    title: "Napoleonic Code",
+    url: "https://www.britannica.com/topic/Napoleonic-Code",
+    publisher: britannica,
+  },
+  scharnhorstBritannica: {
+    title: "Gerhard Johann David von Scharnhorst",
+    url: "https://www.britannica.com/biography/Gerhard-Johann-David-von-Scharnhorst",
+    publisher: britannica,
+  },
+  chronoEgypt: {
+    title:
+      "Chronologie de la Correspondance générale de Napoléon Bonaparte, tome 2: la campagne d’Égypte et l’avènement, 1798–1799",
+    url: "https://www.napoleon.org/histoire-des-2-empires/chronologies/chronologie-de-la-correspondance-generale-de-napoleon-bonaparte-tome-2-la-campagne-degypte-et-lavenement-1798-1799/",
+    publisher: fondation,
+  },
+  egyptYoung: {
+    title: "Bonaparte in Egypt (1): the military campaign (Pauline Lefebvre)",
+    url: "https://www.napoleon.org/en/young-historians/napodoc/bonaparte-in-egypt-1-the-military-campaign/",
+    publisher: fondation,
+  },
+  darkSlavery: {
+    title: "Napoleon, the dark side: Napoleon’s re-establishment of slavery",
+    url: "https://www.napoleon.org/en/history-of-the-two-empires/articles/napoleon-the-dark-side-napoleons-re-establishement-of-slavery-2-min-read/",
+    publisher: fondation,
+  },
+  darkGenocide: {
+    title:
+      "Napoleon, the dark side: Did Napoleon enact “genocide” in the French colonies?",
+    url: "https://www.napoleon.org/en/history-of-the-two-empires/articles/napoleon-the-dark-side-did-napoleon-enact-genocide-in-the-french-colonies-3-min-read/",
+    publisher: fondation,
+  },
+  antilles: {
+    title: "La politique consulaire aux Antilles (Thierry Lentz)",
+    url: "https://www.napoleon.org/histoire-des-2-empires/articles/la-politique-consulaire-aux-antilles/",
+    publisher: fondation,
+  },
+  economist: {
+    title:
+      "French history, flawed sparkler (review of Napoleon the Great, The Economist, 2014), as quoted by the Fondation Napoléon",
+    url: "https://www.napoleon.org/en/magazine/press-review/french-history-flawed-sparkler-review-of-napoleon-the-great-in-the-economist",
+    publisher: fondation,
+  },
+  crane: {
+    title:
+      "David Crane, The Grand Disturber (review of Napoleon the Great, 2014)",
+    url: "https://www.spectator.com.au/?p=9328021",
+    publisher: "The Spectator",
+  },
+  bandura: {
+    title:
+      "Albert Bandura, Moral disengagement in the perpetration of inhumanities (1999), abstract",
+    url: "https://pubmed.ncbi.nlm.nih.gov/15661671/",
+    publisher: "Personality and Social Psychology Review",
+  },
+  ciulla: {
+    title:
+      "Joanne Ciulla, Leadership ethics: mapping the territory (1995), abstract",
+    url: "https://doi.org/10.2307/3857269",
+    publisher: "Business Ethics Quarterly",
+  },
 } satisfies Record<string, Source>;
 
 export const napoleonVolume: LeadershipVolume = {
@@ -643,8 +736,6 @@ export const napoleonVolume: LeadershipVolume = {
     "The limits of the self",
     "What remains",
   ],
-  inProgress:
-    "Seventeen lessons are available. Two more are planned, and the last will answer the question above.",
   lessons: [
     {
       slug: "how-to-read-napoleon",
@@ -5020,7 +5111,7 @@ export const napoleonVolume: LeadershipVolume = {
       sources: [
         s.corsican,
         s.kleberBio,
-        s.bp5,
+        s.lentz,
         s.battesti,
         s.caulaincourt,
         s.retreat,
@@ -5032,6 +5123,642 @@ export const napoleonVolume: LeadershipVolume = {
         s.peterI,
         s.putnik,
         s.bjelajac,
+      ],
+    },
+    {
+      slug: "what-outlasts-you",
+      title: "What outlasts you",
+      part: "What remains",
+      themes: ["succession", "organisation"],
+      claim:
+        "When authority rests on personal success, it must become institutional or end with the person.",
+      moment: {
+        text: "In early November 1812, on the retreat from Moscow, despatches reached Napoleon about what had happened in Paris on 23 October. General Malet had escaped from detention, announced that the Emperor was dead and, for a few hours, arrested the minister and the prefect of police. Caulaincourt heard Napoleon’s comments. The minister of war, Clarke, had been in such haste that he had run to the barracks without his boots to take the oath to the King of Rome. Others had simply accepted the rumour. What troubled Napoleon most, Caulaincourt says, was that one man coming out of prison with a false report could do so much, in the capital, under a stable government.",
+        evidence: "fact",
+        refs: [
+          {
+            source: 0,
+            locator: "pp. 200–204",
+          },
+          {
+            source: 1,
+          },
+        ],
+      },
+      episodes: [
+        {
+          title: "1804: an heir in place of a constitution",
+          text: "The empire was itself an answer to the problem of succession. Britannica records that in 1804 Fouché suggested turning the life consulate into a hereditary empire, because an heir would remove all hope of changing the regime by assassination. Bonaparte accepted, and the empire was proclaimed on 18 May 1804. The reasoning was sound as far as it went. While the regime depended on one life, killing him was a political programme. A dynasty would give his enemies nothing to gain by his death, provided that people believed in it.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 2,
+            },
+          ],
+          battleSlugs: [],
+        },
+        {
+          title: "1810–1811: the marriage and the King of Rome",
+          text: "In 1810, Britannica says, Napoleon repudiated Joséphine, who had not given him a child, and married Marie-Louise, daughter of the Austrian emperor. The birth of a son, the King of Rome, in March 1811 seemed to assure the empire’s future, and the marriage seemed to bind Austria to France. The remedy had costs of its own. Caulaincourt records Napoleon telling him in 1811 that the Austrian marriage was what had set him at odds with Russia. A dynasty also needed time, and acceptance by the old monarchies whose family he had joined, and it got neither.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 3,
+            },
+            {
+              source: 0,
+              locator: "p. 10",
+            },
+          ],
+          battleSlugs: [],
+        },
+        {
+          title: "October 1812: the Malet affair",
+          text: "Lentz, who has written the modern study of the coup, thinks it never had a chance. Malet chose his accomplices badly, and after three hours of alarm the Paris military staff, Cambacérès and Clarke contained it. But he says the episode raised the central question of these years, whether Napoleon was a legitimate monarch in the eyes of the people and the elites. The dignitaries appeared reluctant to proclaim the King of Rome, although Lentz warns against exaggerating this. The popular story that nobody thought of the heir is contradicted by Clarke’s oath. In both of Malet’s plots the Senate was to proclaim the end of the regime, a precedent Lentz calls the general’s laboratory.",
+          evidence: "uncertainty",
+          refs: [
+            {
+              source: 1,
+            },
+            {
+              source: 0,
+              locator: "pp. 200–201",
+            },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["russian-campaign-of-1812"],
+        },
+        {
+          title: "1814 and 1815: two abdications",
+          text: "In 1814 the laboratory was used. When the allies reached Paris, Britannica says, Talleyrand, as president of a provisional government, proclaimed the deposition of the Emperor, and Napoleon abdicated on 6 April. In 1815 he came back from Elba and won over the soldiers sent to arrest him, but the regime he set up could hardly be told apart from that of Louis XVIII, and the enthusiasm ebbed fast. After Waterloo the parliament forced him to abdicate, and he did so in favour of his son. Louis XVIII was back in Paris within three weeks. The son for whom the dynasty had been built never reigned.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 4,
+            },
+            {
+              source: 5,
+            },
+          ],
+          battleSlugs: ["waterloo"],
+          campaignSlugs: ["campaign-in-france-1814", "waterloo-campaign"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Napoleon, as Caulaincourt records him in 1812",
+          stake: "Hurt and angry, and looking for individuals to blame.",
+          says: "He asked what reliance could be placed on men whose upbringing had not grounded them in honour, and complained that the prefect of the Seine had forgotten his oath to the dynasty as he had forgotten others.",
+          refs: [
+            {
+              source: 0,
+              locator: "pp. 201–203",
+            },
+          ],
+        },
+        {
+          who: "Thierry Lentz",
+          stake: "The modern historian of the coup, correcting older accounts.",
+          says: "The coup was less dangerous than often believed but more troubling for the regime than it first appears, and Napoleon’s own dramatic reaction made the question of legitimacy more pressing.",
+          refs: [
+            {
+              source: 1,
+            },
+          ],
+        },
+        {
+          who: "Metternich",
+          stake:
+            "An enemy recording a conversation of June 1813 in his own favour.",
+          says: "Napoleon told him that sovereigns born to the throne could be beaten many times, but that his own reign would not outlast the day when he ceased to be strong and feared.",
+          refs: [
+            {
+              source: 6,
+              locator: "p. 186",
+            },
+          ],
+        },
+      ],
+      strategist: [
+        {
+          text: "Look at what lasted. Britannica says that the administrative work of the Consulate was more lasting than its constitution: the Council of State, the prefects, the reorganised courts, the tax officials, the stabilised franc, the Banque de France and a reorganised secondary education. The Civil Code of 1804 is still in force, with revisions, and became the main model for the civil codes of most of continental Europe and Latin America. What survived him were institutions that worked without him, run by people who did not need his presence to know what to do. What failed was the one arrangement that depended on him personally, his dynasty.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 7,
+            },
+            {
+              source: 8,
+            },
+          ],
+        },
+        {
+          text: "Judged without hindsight, heredity was the standard answer of his age, and the marriage was a reasonable way to buy acceptance for it. The difficulty was that his own claim did not rest on heredity. It rested on success, and he said as much to Metternich. A child could inherit a crown but not a record of victories, so the dynasty could only become real by years of peace in which the habit of obedience grew. The wars that sustained his own authority denied the dynasty those years. In 1815 he could rekindle personal loyalty, among the peasants of the Alps and the soldiers at Grenoble, but not make it into a lasting order.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 6,
+              locator: "p. 186",
+            },
+            {
+              source: 4,
+            },
+          ],
+        },
+        {
+          text: "His enemies did the opposite with their armies. Prussia had been reduced after Tilsit to a small standing army, and its reformers responded with institutions: a general staff, a reserve trained in rotation, and the idea that national service required political reform. These were built to work whoever commanded. The difference shows in 1813 and 1815, when Prussian headquarters went on functioning through the death of its founder and the fall of its commander, while the French army still depended on a single man being present.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 9,
+            },
+            {
+              source: 10,
+            },
+            {
+              source: 11,
+            },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Charismatic authority and its routinisation",
+          base: "theory",
+          text: "Weber describes charismatic authority as resting on recognition by those who follow, and says that if such a leader is long unsuccessful, above all if his leadership fails to benefit his followers, his authority is likely to disappear. In its pure form it cannot remain stable: it has to become traditional or rational, or some mixture of the two, and the question arises most sharply with the problem of succession. Weber adds that the followers and the staff have their own interest in making their position secure. That describes the marshals with their endowments in 1814 as well as it describes the dignitaries in 1812.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 12,
+              locator: "pp. 359–360, 363–364",
+            },
+            {
+              source: 13,
+              locator: "pp. 247–248",
+            },
+          ],
+          limit:
+            "Weber’s categories are ideal types for comparison, not measurements, and he says himself that no concrete case is exhausted by them. They describe a structure; they say nothing about what any individual felt.",
+        },
+      ],
+      shadow: {
+        text: "The man who needed institutions to outlast him spent his reign making everything depend on himself. Chaptal says that he wanted no glory but his own, believed in no talent but his own, and paralysed everything around him. When the Malet affair exposed the weakness, his response was to blame the disloyalty of particular men, as Caulaincourt records, and not to ask why a rumour of his death had been enough. Earlier lessons showed the same pattern in the headquarters and among the marshals. The dynasty was the last of the arrangements built around one person, and it failed in the same way.",
+        evidence: "interpretation",
+        refs: [
+          {
+            source: 13,
+            locator: "p. 248",
+          },
+          {
+            source: 0,
+            locator: "pp. 201–204",
+          },
+        ],
+      },
+      counterCase: {
+        text: "Scharnhorst, Britannica says, developed the modern general staff system. With Gneisenau he devised a system for training recruits quickly and passing them into the reserves, so that Prussia had far more trained men than the army limit imposed at Tilsit suggested. He saw that conscript citizen armies would replace small professional ones, and that national service had to be accompanied by political reform. He was wounded at Lützen in May 1813 and died soon afterwards. The institution did not die with him. At Ligny in 1815, while Blücher was down, it was Gneisenau who ordered the retreat on Wavre, and the Neue Deutsche Biographie says that the two men’s shares in Prussian operations can never be clearly separated.",
+        evidence: "interpretation",
+        refs: [
+          {
+            source: 9,
+          },
+          {
+            source: 11,
+          },
+          {
+            source: 10,
+          },
+        ],
+        commanderSlug: "gebhard-leberecht-von-blucher",
+        battleSlugs: ["lutzen-1813", "waterloo"],
+      },
+      cost: {
+        text: "A regime with no future still raised armies. Britannica judges that even if Wellington and Blücher had abandoned Belgium in 1815, Napoleon would probably have secured only a short postponement of his defeat. The men who died at Ligny and Waterloo fought for a restoration that could not last, and afterwards the army that remained was marched south of the Loire and disbanded.",
+        evidence: "fact",
+        refs: [
+          {
+            source: 5,
+          },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "People follow because of one person’s record, and nothing else would hold them.",
+          "Nobody has been trained or allowed to take over.",
+        ],
+        failsWhen: [
+          "The organisation already runs on rules and roles that do not depend on the founder.",
+          "The enterprise is meant to end with its leader, and everyone knows it.",
+        ],
+        questions: [
+          "What in your organisation would carry on unchanged if you left tomorrow?",
+          "Who has authority that does not come from you?",
+          "What would your successor need that only time can give?",
+        ],
+      },
+      bearsOn:
+        "The problem was built into the regime from 1804 and did not appear late. It became harder because it could only be solved by time, and the wars that kept his own authority alive used up the time the dynasty needed. The institutions that did not depend on him lasted well. On this lesson the answer is that the problem was always hard, and he made it harder.",
+      questions: [
+        {
+          prompt: "Why did Fouché propose a hereditary empire?",
+          choices: [
+            "To end the war with Britain.",
+            "Because an heir would remove the hope of changing the regime by assassination.",
+            "To please the pope.",
+          ],
+          answer: 1,
+          explanation:
+            "It answered the problem of a regime that depended on one life.",
+        },
+        {
+          prompt: "What does Clarke’s behaviour during the Malet affair show?",
+          choices: [
+            "That nobody thought of the heir.",
+            "That Clarke joined the conspiracy.",
+            "That at least one minister rushed to swear the oath to the King of Rome, so the popular story is wrong.",
+          ],
+          answer: 2,
+          explanation:
+            "Lentz still finds the dignitaries reluctant, but warns against exaggerating it.",
+        },
+        {
+          prompt: "Which of Napoleon’s creations outlasted him best?",
+          choices: [
+            "Institutions that worked without him, such as the Civil Code and the prefects.",
+            "His dynasty.",
+            "The Continental System.",
+          ],
+          answer: 0,
+          explanation: "The Code is still in force, with revisions.",
+        },
+      ],
+      sourceCheck: {
+        question:
+          "How did the regime’s leading men react to the rumour of Napoleon’s death in 1812?",
+        witnesses: [
+          {
+            label: "Napoleon, as Caulaincourt records him",
+            claim:
+              "Clarke rushed to the barracks without his boots to take the oath to the King of Rome, while the prefect of the Seine went along with the conspirators.",
+          },
+          {
+            label: "Thierry Lentz",
+            claim:
+              "The dignitaries appeared reluctant to proclaim the King of Rome, though this should not be exaggerated, and Cambacérès and Clarke kept their heads.",
+          },
+        ],
+        prompt: "What can safely be said?",
+        options: [
+          {
+            text: "Nobody thought of the heir.",
+            feedback:
+              "Both witnesses contradict this: Clarke at least rushed to swear allegiance to the King of Rome.",
+          },
+          {
+            text: "Reactions were mixed; some showed loyalty to the heir, others hesitated or complied, and the episode raised doubts about legitimacy.",
+            feedback:
+              "Yes. That fits both accounts and Lentz’s warning against exaggeration.",
+            best: true,
+          },
+          {
+            text: "Everyone rallied at once to the dynasty.",
+            feedback:
+              "The prefect’s conduct and Lentz’s judgement both tell against this.",
+          },
+        ],
+        campaignSlug: "russian-campaign-of-1812",
+      },
+      seminar: {
+        prompt:
+          "If you had been Napoleon in 1811, with a son just born, what would you have done to make the empire outlast you?",
+        guidance:
+          "Say what you would have given up to buy the years of peace a dynasty needed, and which institution you would have trusted most. Then say why the real Napoleon was unlikely to choose it.",
+      },
+      sources: [
+        s.caulaincourt,
+        s.malet,
+        s.godechotFounding,
+        s.godechotEmpire,
+        s.godechotDownfall,
+        s.hundredDays,
+        s.metternich,
+        s.godechotReforms,
+        s.civilCode,
+        s.scharnhorstBritannica,
+        s.gneisenau,
+        s.blucherNdb,
+        s.weber,
+        s.chaptal,
+      ],
+    },
+    {
+      slug: "the-ledger",
+      title: "Effective is not the same as good",
+      part: "What remains",
+      themes: ["ethics", "judgement"],
+      claim:
+        "When a leader is measured, the measure must include what they spent and on whom.",
+      moment: {
+        text: "At Dresden in June 1813 Metternich told Napoleon that the army he had just raised was made up of children, and asked what would happen if it were swept away. By Metternich’s account Napoleon answered, in a rage, that he had been brought up in the field, and that “a man such as I am does not concern himself much about the lives of a million of men.” Then, more calmly, he said that the French could not complain of him, since to spare them he had sacrificed the Germans and the Poles. Metternich was an enemy and wrote this for publication. The words are his version. They have survived because they name the subject of this last lesson.",
+        evidence: "fact",
+        refs: [
+          {
+            source: 0,
+            locator: "p. 190",
+          },
+        ],
+      },
+      episodes: [
+        {
+          title: "Jaffa, March 1799",
+          text: "Jaffa was taken and pillaged on 7 March 1799. Two days later, the chronology of the Correspondance générale records, Napoleon ordered the execution of all the prisoners taken there. A Fondation Napoléon account for young readers says plainly that, to shock and terrify the opposing troops, many prisoners were executed. Explanations have been offered ever since, from military necessity to deliberate terror, and the account for young readers names the second. No explanation changes what was ordered.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 1,
+            },
+            {
+              source: 2,
+            },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["egyptian-and-syrian-campaign"],
+        },
+        {
+          title: "Slavery and Saint-Domingue, 1799–1803",
+          text: "In December 1799 the consuls promised the people of Saint-Domingue that the liberty and equality of black people would never be infringed. The Fondation’s own summary says that Bonaparte at first had no intention of reversing abolition. Then peace with Britain made a colonial empire seem possible, Toussaint Louverture proclaimed independence, and the colonial lobby pressed. The law of 20 May 1802 maintained slavery where it had not been abolished and restored the slave trade. Leclerc’s expedition arrested Toussaint, who died in the fort of Joux in April 1803 without an answer to his petition. When news came that slavery was being restored, the island rose again. Haiti declared its independence on 1 January 1804.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 3,
+            },
+            {
+              source: 4,
+            },
+          ],
+          battleSlugs: [],
+        },
+        {
+          title: "The bill for the wars",
+          text: "Conscription, Britannica notes, was kept from the Revolution, with the possibility of replacement by substitutes. Spain was occupied and the rising in Madrid ruthlessly suppressed. The retreat from Russia destroyed the army of 1812, and the army of 1813 was the one Metternich called children. Requisitions fed the armies at the expense of the places they passed through: in Egypt, Kléber accused his predecessor of leaving him a country exhausted by them.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 5,
+            },
+            {
+              source: 6,
+            },
+            {
+              source: 7,
+            },
+            {
+              source: 8,
+            },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["russian-campaign-of-1812"],
+        },
+        {
+          title: "What was built",
+          text: "The other column of the account is long too. The Civil Code of 1804, Britannica says, gave permanent form to the gains of the Revolution: individual liberty, freedom of work and conscience, the lay character of the state, and equality before the law. It still governs France, with revisions, and shaped the civil law of most of continental Europe and Latin America. The Concordat of 1801 reconciled the Church with the Revolution. The administrative reforms, Britannica says, proved more lasting than the constitution that created them. The same Code protected landed property, gave greater liberty to employers, showed little concern for employees, and granted women only limited legal rights.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 9,
+            },
+            {
+              source: 5,
+            },
+          ],
+          battleSlugs: [],
+        },
+      ],
+      witnesses: [
+        {
+          who: "The Fondation Napoléon, in its series on Napoleon’s dark side",
+          stake:
+            "An institution devoted to his history, answering an accusation.",
+          says: "The claim that Napoleon ordered a genocide in the colonies has never been taken seriously by specialists, who in any case have sufficient incriminating evidence about the restoration of slavery in 1802.",
+          refs: [
+            {
+              source: 10,
+            },
+          ],
+        },
+        {
+          who: "The Economist, reviewing Andrew Roberts’s admiring biography",
+          stake: "A favourable review, quoted by the Fondation.",
+          says: "Roberts is a masterly analyst of the battles, and his is the first single-volume life to make full use of the newly published letters.",
+          refs: [
+            {
+              source: 11,
+            },
+          ],
+        },
+        {
+          who: "David Crane, reviewing the same book in The Spectator",
+          stake: "A critic of the book’s sympathy.",
+          says: "Roberts does not dodge the accusations, but the immense collateral damage of Napoleon’s ambition never quite gets the attention it deserves; Crane lists Jaffa, the duc d’Enghien, Hofer, the flight from Egypt and the abandonment of the army in Russia.",
+          refs: [
+            {
+              source: 12,
+            },
+          ],
+        },
+        {
+          who: "Las Cases, as Britannica summarises him",
+          stake: "A companion on St Helena, building the legend.",
+          says: "He presented the Emperor as a republican opposed to war, who fought only when Europe forced him to defend freedom.",
+          refs: [
+            {
+              source: 13,
+            },
+          ],
+        },
+      ],
+      strategist: [
+        {
+          text: "Joanne Ciulla argues that debates over what leadership is are really debates over what good leadership is, and that the word good refers both to ethics and to competence. Most of this volume has measured competence: did the decision fit the situation, did it work, what did it teach? That ledger is real, and Napoleon’s entries in it are extraordinary. But it is only one ledger. Measuring a leader by effectiveness alone means counting the people he spent as costs of production. The opposite mistake, which counts only the dead, cannot explain why so many followed him or why so much of what he built survived.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 14,
+            },
+          ],
+        },
+        {
+          text: "The charge of anachronism needs an answer, and the record supplies one. The standards were available at the time. The Convention had abolished slavery in 1794. Admiral Truguet argued inside the consular circle for keeping abolition, the Tribunate cast a large minority of votes against the law of 1802, and Leclerc wrote from Saint-Domingue regretting decisions that made him break his word. Jaffa is still listed among his crimes by a reviewer of an admiring modern biography. These choices were contested by contemporaries who could see them as choices.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 4,
+            },
+            {
+              source: 3,
+            },
+            {
+              source: 12,
+            },
+          ],
+        },
+        {
+          text: "Credit also has to be divided. Codification had been begun in 1790, and the Code fixed in law what the Revolution had won as well as what the property owners wanted kept. The administration owed much to the intendants of the old monarchy, as Britannica notes of the prefects. Napoleon’s share was to finish, impose and export these things, and that is a large share. Ascribing all of it to him repeats the legend; denying him any part repeats his enemies’ pamphlets.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 5,
+            },
+            {
+              source: 13,
+            },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Moral disengagement",
+          base: "theory",
+          text: "Bandura describes the means by which people disengage moral self-sanctions from harmful conduct: justifying it as worthy, sanitising language, advantageous comparison, displacing responsibility, minimising effects, and blaming or dehumanising victims. Applied only to justifications on the record, the list fits uncomfortably well. The law of 1802 spoke of maintaining slavery. To Metternich he said he had spared the French by sacrificing others. He blamed the ruin of the Russian army on the cold. Bandura also notes that many harms run through networks of considerate people in disconnected functions, which describes the officials who drafted, voted on and carried out the colonial laws.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 15,
+            },
+            {
+              source: 3,
+            },
+            {
+              source: 0,
+              locator: "pp. 186, 190",
+            },
+          ],
+          limit:
+            "Read in abstract only. It is applied here to justifications that were spoken or written, not to his conscience, which no source can reach. The same mechanisms appear in the justifications of his enemies.",
+        },
+      ],
+      shadow: {
+        text: "The shadow of this lesson falls on the whole volume. To study a commander as a teacher of leadership is already to take his side a little. Britannica describes how the legend was built after his fall, by the companions of St Helena and later by his nephew, who used it to take power. A course that draws lessons from Austerlitz and Ulm, and leaves Jaffa and Saint-Domingue to a final chapter, repeats the proportions of the legend. That is why the costs have appeared in every lesson here, and why this one comes last only because it sums them up.",
+        evidence: "interpretation",
+        refs: [
+          {
+            source: 13,
+          },
+          {
+            source: 12,
+          },
+        ],
+      },
+      counterCase: {
+        text: "The fullest counter-case is not another commander but the people who said no at the time. Admiral Truguet, Lentz writes, defended Toussaint and opposed the Leclerc expedition, and was increasingly alone. Members of the Tribunate voted against the law of 1802 in numbers that the Fondation records. Leclerc, sent to carry out the policy, wrote to Paris regretting it and complaining that he was being made to go back on his promises. None of them prevailed. They show that the choice was visible, that it had a price for those who opposed it, and that effectiveness was being chosen over another kind of good.",
+        evidence: "interpretation",
+        refs: [
+          {
+            source: 4,
+          },
+          {
+            source: 3,
+          },
+        ],
+        battleSlugs: [],
+      },
+      cost: {
+        text: "The prisoners at Jaffa. The people of Guadeloupe returned to slavery, the people of Saint-Domingue who died in the wars of 1802 and 1803, and the French soldiers who died there of disease. The people of Madrid. The conscripts of 1813 and 1814. Toussaint in his cell at Joux. These belong in the account of the man as surely as the Code does, and the measure that leaves them out is not a measure of leadership.",
+        evidence: "fact",
+        refs: [
+          {
+            source: 1,
+          },
+          {
+            source: 10,
+          },
+          {
+            source: 4,
+          },
+          {
+            source: 6,
+          },
+          {
+            source: 0,
+            locator: "p. 190",
+          },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "A leader is being judged by results that were bought with other people’s losses.",
+          "Those who paid had no say in the choice.",
+        ],
+        failsWhen: [
+          "The costs were genuinely unavoidable, and every alternative cost more.",
+          "The judgement applies standards that nobody at the time could have held.",
+        ],
+        questions: [
+          "Who paid for your best result, and did they agree to it?",
+          "What would your record look like with that column included?",
+          "Which of your justifications would you be willing to say aloud to those who paid?",
+        ],
+      },
+      bearsOn:
+        "This lesson answers the volume’s question. Napoleon did not, on the evidence here, simply get worse. Ligny and the campaign of 1814 show the skill intact. The problem got harder: enemies learned, armies grew, settlement eluded him, and he could not be everywhere. But the habits that made it harder were there at his height: the refusal to hear no, the absence of a successor, the peace that depended on one Tsar, the spending of other people’s lives. What declined was the margin that had let those habits go unpunished.",
+      questions: [
+        {
+          prompt: "What did the law of 20 May 1802 do?",
+          choices: [
+            "It abolished slavery throughout the French colonies.",
+            "It maintained slavery where it had not been abolished and restored the slave trade.",
+            "It freed Toussaint Louverture.",
+          ],
+          answer: 1,
+          explanation:
+            "The Fondation notes that the Tribunate cast a large minority of votes against it.",
+        },
+        {
+          prompt: "Why is the charge of anachronism weak here?",
+          choices: [
+            "Because modern standards always apply.",
+            "Because nobody at the time objected.",
+            "Because contemporaries had abolished slavery in 1794 and some opposed restoring it.",
+          ],
+          answer: 2,
+          explanation:
+            "Truguet, members of the Tribunate and even Leclerc are on record.",
+        },
+        {
+          prompt: "What answer does the volume give to “worse or harder?”",
+          choices: [
+            "The problem got harder, but his own habits, present at his height, made it so.",
+            "He simply declined after 1812.",
+            "Nothing changed at all.",
+          ],
+          answer: 0,
+          explanation:
+            "What declined was the margin that had let those habits go unpunished.",
+        },
+      ],
+      seminar: {
+        prompt:
+          "The volume’s answer is that the problem got harder and that he made it harder. Argue the opposite: that he did get worse.",
+        guidance:
+          "Use at least two lessons as evidence, and say which piece of evidence in this volume your argument has most trouble with. Then say what you would need to read to settle the matter.",
+      },
+      sources: [
+        s.metternich,
+        s.chronoEgypt,
+        s.egyptYoung,
+        s.darkSlavery,
+        s.antilles,
+        s.godechotReforms,
+        s.peninsular,
+        s.retreat,
+        s.kleberBio,
+        s.civilCode,
+        s.darkGenocide,
+        s.economist,
+        s.crane,
+        s.godechotLegend,
+        s.ciulla,
+        s.bandura,
       ],
     },
   ],

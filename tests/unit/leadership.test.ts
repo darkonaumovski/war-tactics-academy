@@ -120,6 +120,8 @@ it("lists the Napoleon lessons in curriculum order", () =>
     "who-can-tell-you-no",
     "the-last-reserve",
     "when-the-leader-leaves",
+    "what-outlasts-you",
+    "the-ledger",
   ]));
 
 describe("the leadership lesson schema", () => {

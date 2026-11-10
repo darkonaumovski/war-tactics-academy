@@ -3,8 +3,17 @@
 // paths return 404.html with a 404 status. Used by `npm start` and Playwright.
 // Set BASE_PATH (as for the build) to preview the project-pages URL layout.
 import { createServer } from "node:http";
-import { readFile, stat } from "node:fs/promises";
-import { extname, join, normalize, resolve } from "node:path";
+import { readdir, readFile, stat } from "node:fs/promises";
+import {
+  basename,
+  dirname,
+  extname,
+  join,
+  normalize,
+  relative,
+  resolve,
+  sep,
+} from "node:path";
 
 const root = resolve("out");
 const port = Number(process.env.PORT ?? 3000);
@@ -28,6 +37,43 @@ const isFile = (path) =>
     () => false,
   );
 
+// The router prefetches each route segment from a flat file beside the page,
+// such as `__next.battles.$d$slug.__PAGE__.txt`. Next 16 builds that name with
+// `/` as the only separator, so an export made on Windows (where the segment
+// paths use `\`) writes `__next.battles/$d$slug/__PAGE__.txt` instead. Linux
+// builds, including the GitHub Pages deploy, are flat. Map the flat request
+// name to the nested file, indexed per directory, so local previews of a
+// Windows build do not log a 404 for every prefetched segment.
+const nestedSegments = new Map();
+async function listFiles(dir) {
+  const entries = await readdir(dir, { withFileTypes: true });
+  const nested = await Promise.all(
+    entries.map((entry) =>
+      entry.isDirectory()
+        ? listFiles(join(dir, entry.name))
+        : [join(dir, entry.name)],
+    ),
+  );
+  return nested.flat();
+}
+async function findNestedSegment(path) {
+  const name = basename(path);
+  if (!name.startsWith("__next.") || !name.endsWith(".txt")) return null;
+  const dir = dirname(path);
+  if (!nestedSegments.has(dir)) {
+    const index = new Map();
+    const entries = await readdir(dir, { withFileTypes: true }).catch(() => []);
+    for (const entry of entries) {
+      if (!entry.isDirectory() || !entry.name.startsWith("__next.")) continue;
+      for (const file of await listFiles(join(dir, entry.name))) {
+        index.set(relative(dir, file).split(sep).join("."), file);
+      }
+    }
+    nestedSegments.set(dir, index);
+  }
+  return nestedSegments.get(dir).get(name) ?? null;
+}
+
 createServer(async (req, res) => {
   const url = new URL(req.url ?? "/", "http://localhost");
   const inBase =
@@ -43,6 +89,7 @@ createServer(async (req, res) => {
     return;
   }
   let file = url.pathname.endsWith("/") ? join(path, "index.html") : path;
+  if (!(await isFile(file))) file = (await findNestedSegment(file)) ?? file;
   if (!(await isFile(file))) {
     if (await isFile(join(path, "index.html"))) {
       res.writeHead(301, { Location: `${url.pathname}/${url.search}` }).end();

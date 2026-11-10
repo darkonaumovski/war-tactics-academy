@@ -2,7 +2,7 @@
 
 Paste everything below the line into a new Claude Code session opened in this repository.
 
-**Status (9 November 2026):** Phase 0 evidence pass done and approved; the results are in `docs/LEADERSHIP_EVIDENCE.md`, and this prompt carries its corrections. The types, schema, volume scaffold and tests exist. The pilot (batch L1: lessons 0, 2 and 13, with the routes and nav entry) is written, and I approved its format, length (about 1,400–1,500 words of body text) and voice on 9 November 2026. Batch L2 (lessons 1, 3 and 4) is written. Resume at batch L3, following the pilot as the model.
+**Status (9 November 2026):** Phase 0 evidence pass done and approved; the results are in `docs/LEADERSHIP_EVIDENCE.md`, and this prompt carries its corrections. The types, schema, volume scaffold and tests exist. The pilot (batch L1: lessons 0, 2 and 13, with the routes and nav entry) is written, and I approved its format, length (about 1,400–1,500 words of body text) and voice on 9 November 2026. Batches L2 and L3 (lessons 1, 3, 4, 5, 6 and 7) are written. Resume at batch L4, following the pilot as the model.
 
 ---
 

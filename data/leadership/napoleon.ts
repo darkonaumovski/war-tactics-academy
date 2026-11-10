@@ -294,6 +294,148 @@ const s = {
     url: "https://pubmed.ncbi.nlm.nih.gov/11014055/",
     publisher: "Journal of Experimental Psychology: Applied (PubMed)",
   },
+  lodiBattle: {
+    title: "Battle of Lodi",
+    url: "https://www.britannica.com/event/Battle-of-Lodi",
+    publisher: britannica,
+  },
+  gros: {
+    title:
+      "Le Tableau de Gros : Les Pestiférés de Jaffa (Guy Ledoux-Lebard, Souvenir Napoléonien 255)",
+    url: "https://www.napoleon.org/histoire-des-2-empires/articles/le-tableau-de-gros-les-pestiferes-de-jaffa/",
+    publisher: fondation,
+  },
+  grosPainting: {
+    title: "Bonaparte visiting the plague victims of Jaffa",
+    url: "https://www.napoleon.org/en/history-of-the-two-empires/paintings/2-bonaparte-visiting-the-plague-victims-of-jaffa/",
+    publisher: fondation,
+  },
+  wounds: {
+    title: "Les blessures de Napoléon (Xavier Riaud)",
+    url: "https://www.napoleon.org/histoire-des-2-empires/articles/les-blessures-de-napoleon/",
+    publisher: fondation,
+  },
+  marbot: {
+    title: "The Memoirs of Baron de Marbot, vol. 1, translated by A. J. Butler",
+    url: archive("TheMemoirsOfBaronDeMarbotVol1"),
+    publisher: "Internet Archive",
+  },
+  bourgogne: {
+    title: "Memoirs of Sergeant Bourgogne, 1812–1813",
+    url: archive("memoirsofsergean00bour"),
+    publisher: "Internet Archive",
+  },
+  steffens: {
+    title:
+      "Niklas Steffens and others, Advancing the social identity theory of leadership: a meta-analytic review of leader group prototypicality (2020), abstract",
+    url: "https://doi.org/10.1177/2041386620962569",
+    publisher: "Organizational Psychology Review",
+  },
+  barsade: {
+    title:
+      "Sigal Barsade, The ripple effect: emotional contagion and its influence on group behavior (2002), abstract",
+    url: "https://doi.org/10.2307/3094912",
+    publisher: "Administrative Science Quarterly",
+  },
+  legion: {
+    title: "La Légion d’honneur : une récompense militaire et civile",
+    url: "https://www.napoleon.org/histoire-des-2-empires/dossiers-thematiques/la-legion-dhonneur-une-recompense-militaire-et-civile/",
+    publisher: fondation,
+  },
+  chabanier: {
+    title:
+      "La Légion d’honneur sous l’Empire (Colonel Chabanier, Revue du Souvenir Napoléonien 269)",
+    url: "https://www.napoleon.org/histoire-des-2-empires/articles/la-legion-dhonneur-sous-lempire/",
+    publisher: fondation,
+  },
+  endOfWar: {
+    title:
+      "Napoleonic Wars: Schwarzenberg’s advance and retreat, the Aisne and the advance on Paris",
+    url: "https://www.britannica.com/event/Napoleonic-Wars/Schwarzenbergs-advance-and-retreat",
+    publisher: britannica,
+  },
+  deci: {
+    title:
+      "Edward Deci, Richard Koestner and Richard Ryan, A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation (1999), abstract",
+    url: "https://pubmed.ncbi.nlm.nih.gov/10589297/",
+    publisher: "Psychological Bulletin (PubMed)",
+  },
+  colquitt: {
+    title:
+      "Jason Colquitt and others, Justice at the millennium, a decade later (2013), abstract",
+    url: "https://pubmed.ncbi.nlm.nih.gov/23458336/",
+    publisher: "Journal of Applied Psychology (PubMed)",
+  },
+  scharnhorst: {
+    title: "Scharnhorst, Gerhard Johann David von",
+    url: "https://en.wikisource.org/wiki/The_New_International_Encyclop%C3%A6dia/Scharnhorst,_Gerhard_Johann_David_von",
+    publisher: "The New International Encyclopædia (Wikisource)",
+  },
+  gneisenau: {
+    title: "August, Count Neidhardt von Gneisenau",
+    url: "https://www.britannica.com/biography/August-Count-Neidhart-von-Gneisenau",
+    publisher: britannica,
+  },
+  blucher: {
+    title: "Gebhard Leberecht von Blücher, Fürst von Wahlstatt",
+    url: "https://www.britannica.com/biography/Gebhard-Leberecht-von-Blucher-Furst-von-Wahlstatt",
+    publisher: britannica,
+  },
+  branda: {
+    title:
+      "Il y a 230 ans, les premières victoires de la campagne d’Italie (Pierre Branda)",
+    url: "https://www.napoleon.org/histoire-des-2-empires/articles/la-chronique-de-pierre-branda-il-y-a-230-ans-les-premieres-victoires-de-la-campagne-ditalie/",
+    publisher: fondation,
+  },
+  egypt: {
+    title: "Egypt: The French occupation and its consequences (1798–1805)",
+    url: "https://www.britannica.com/place/Egypt/From-the-French-to-the-British-occupation-1798-1882",
+    publisher: britannica,
+  },
+  jabarti: {
+    title:
+      "Journal d’Abdurrahman Gabarti pendant l’occupation française en Égypte, translated by Alexandre Cardin (1838), in French",
+    url: archive("journaldabdurra00cardgoog"),
+    publisher: "Internet Archive",
+  },
+  austerlitzPlace: {
+    title: "Austerlitz: the battlefield",
+    url: "https://www.napoleon.org/en/magazine/places/austerlitz-2",
+    publisher: fondation,
+  },
+  bulletin29: {
+    title:
+      "The 29th Bulletin (The Napoleon.org Bulletin, no. 650, December 2012)",
+    url: "https://www.napoleon.org/wp-content/archives/newsletters/1177.html",
+    publisher: fondation,
+  },
+  waterlooDespatch: {
+    title: "Wellington’s Waterloo dispatch to Lord Bathurst, 19 June 1815",
+    url: "https://en.wikisource.org/wiki/Wellingon%27s_Waterloo_dispatch_to_Lord_Bathurst,_19_June_1815",
+    publisher: "Wikisource",
+  },
+  dirks: {
+    title:
+      "Kurt Dirks and Donald Ferrin, Trust in leadership: meta-analytic findings and implications for research and practice (2002), abstract",
+    url: "https://pubmed.ncbi.nlm.nih.gov/12184567/",
+    publisher: "Journal of Applied Psychology (PubMed)",
+  },
+  kim: {
+    title:
+      "Peter Kim and others, Removing the shadow of suspicion: the effects of apology versus denial for repairing competence- versus integrity-based trust violations (2004), abstract",
+    url: "https://pubmed.ncbi.nlm.nih.gov/14769123/",
+    publisher: "Journal of Applied Psychology (PubMed)",
+  },
+  lodi: {
+    title: "Lodi",
+    url: "https://www.napoleon.org/en/magazine/places/lodi-2/",
+    publisher: fondation,
+  },
+  remusat: {
+    title: "Memoirs of Madame de Rémusat, 1802–1808, vol. 1",
+    url: archive("memoirsofmadamed01remu"),
+    publisher: "Internet Archive",
+  },
 } satisfies Record<string, Source>;
 
 export const napoleonVolume: LeadershipVolume = {
@@ -313,7 +455,7 @@ export const napoleonVolume: LeadershipVolume = {
     "What remains",
   ],
   inProgress:
-    "Six lessons are available. Thirteen more are planned, and the last will answer the question above.",
+    "Nine lessons are available. Ten more are planned, and the last will answer the question above.",
   lessons: [
     {
       slug: "how-to-read-napoleon",
@@ -1480,6 +1622,738 @@ export const napoleonVolume: LeadershipVolume = {
         s.caulaincourt,
         s.ganiere,
         s.retreat,
+      ],
+    },
+    {
+      slug: "be-seen-where-it-is-hardest",
+      title: "Presence: being seen where it is hardest",
+      part: "Moving people",
+      themes: ["motivation", "communication"],
+      claim:
+        "Visible shared risk builds authority when followers read it as theirs, and for that very reason it is also worth staging.",
+      moment: {
+        text: "On the night of 1 December 1805, the eve of Austerlitz, Napoleon went round the bivouacs. In the account Johnston compiled he went on foot and incognito and was recognised at once: torches of straw went up on poles, the army stood and cheered, and an old grenadier promised him that he need only watch tomorrow. Back in a roofless straw hut the grenadiers had built for him he is reported to have said: “This is the most glorious night of my life; but I regret that so many of these brave fellows will be lost.”",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "pp. 217–218" }],
+      },
+      episodes: [
+        {
+          title: "Lodi and the nickname",
+          text: "At the bridge of Lodi on 10 May 1796 a massed column ordered across stalled under fire. Britannica says that Bonaparte, Berthier and Masséna reinvigorated the advance, and that his men named him the Little Corporal in recognition of his personal courage. His own report, as Johnston prints it, says that the generals Berthier, Masséna and Lannes rushed to the front, and leaves himself out; that evening, the same compilation notes, the grenadiers acclaimed him as the little corporal. Britannica adds that his reports turned a small engagement into an epic. The nickname is the thing to notice. It places a general among his soldiers, and it came from them.",
+          evidence: "fact",
+          refs: [{ source: 2 }, { source: 0, locator: "p. 27" }, { source: 3 }],
+          battleSlugs: ["lodi"],
+        },
+        {
+          title: "Arcole: when they would not follow",
+          text: "Six months later the same gesture failed. At the bridge of Arcole on 15 November 1796 Bonaparte tried to lead the attack himself and could not get his troops to follow. It is the moment Gros later painted as a triumph. He told Carnot soon afterwards that Lannes, twice wounded and in bed, got up when he heard the general had gone to the head of the column, and was struck down at the bridge. Two aides-de-camp, Elliot and Muiron, were killed. Being seen did not always work, and it was not free.",
+          evidence: "fact",
+          refs: [{ source: 4 }, { source: 0, locator: "pp. 49–50" }],
+          battleSlugs: ["arcole"],
+        },
+        {
+          title: "Jaffa: the plague hospital",
+          text: "On 11 March 1799 Bonaparte visited the plague hospital at Jaffa with some staff officers and the chief physician, Desgenettes. Ledoux-Lebard says that he stayed an hour and a half comforting the sick, and that when Desgenettes tried to cut the visit short he answered that he was only doing his duty as general-in-chief. Five years later Gros painted it. Between sketch and canvas, probably on Denon’s advice, the scene was changed in ways less faithful to the facts: a dark room became an open hall, and the general no longer helps to lift a sick man. The Fondation calls the finished work propaganda, meant to answer the rumour that he had poisoned his plague patients, and it compares his touch to the healing touch of kings.",
+          evidence: "fact",
+          refs: [{ source: 5 }, { source: 6 }],
+          battleSlugs: ["acre"],
+        },
+        {
+          title: "Krasnoe, November 1812",
+          text: "Sergeant Bourgogne of the Guard remembers the fight near Krasnoe during the retreat from Moscow. The Emperor himself, on foot, walked with firm steps as if on parade and placed himself in the middle of the field opposite the enemy’s batteries. The Guard came under artillery fire at once, and the officer just ahead of Bourgogne was the first to fall. Thirteen years after Jaffa, with the army dissolving, the habit was still there.",
+          evidence: "fact",
+          refs: [{ source: 8, locator: "ch. VI" }],
+          battleSlugs: [],
+          campaignSlugs: ["russian-campaign-of-1812"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Johnston’s diary of Napoleon",
+          stake:
+            "A compilation that mixes his letters with reports of what he said, and so shows the scene as admirers preserved it.",
+          says: "He has Napoleon go out incognito on the eve of Austerlitz and be recognised at once.",
+          refs: [{ source: 0, locator: "pp. 217–218" }],
+        },
+        {
+          who: "Baron de Marbot",
+          stake:
+            "A young staff officer who was there, writing long afterwards.",
+          says: "He says that the chasseurs of the escort lit torches of pine and straw to see the way through the fog, and that the troops, recognising the staff, took up the torches all along the line.",
+          refs: [{ source: 1, locator: "pp. 196–197" }],
+        },
+        {
+          who: "Guy Ledoux-Lebard",
+          stake:
+            "Writing in a Napoleonic review, and careful about what the painter altered.",
+          says: "He records witnesses to the visit and also that the canvas was made less faithful to them, and he thinks the Emperor saw the painting chiefly as a means of increasing his popularity.",
+          refs: [{ source: 5 }],
+        },
+        {
+          who: "Wellington, as Earl Stanhope records him",
+          stake: "His opponent, reported at second hand, and generous here.",
+          says: "He says that Napoleon’s presence on the field made the difference of forty thousand men.",
+          refs: [{ source: 11, locator: "p. 9" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, a commander at the head of a wavering column is making a real trade. The gain is immediate and local: a stalled attack may move. The risk falls on the whole enterprise, because an army of that kind had no substitute for the man giving the orders. Bonaparte was badly wounded in the thigh at Toulon and hit again later, and after Eylau he wrote that he had been rather exposed to artillery fire, “but it was necessary.” Whether it was necessary each time cannot be known. It was a repeated decision to spend the risk of his own death on the moral state of the troops.",
+          evidence: "interpretation",
+          refs: [{ source: 14 }, { source: 0, locator: "p. 263" }],
+        },
+        {
+          text: "Staged and sincere are not opposites. He did go into the plague hospital, at real risk, and he did later have the visit painted for political ends. The first made the second possible. A commander who is only ever seen at the moment of a good picture will eventually be found out by the soldiers, who were there. The picture could work on Paris because the army had some reason to believe it.",
+          evidence: "interpretation",
+          refs: [{ source: 5 }, { source: 6 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "The leader as one of us",
+          base: "meta-analysis",
+          text: "Research on social identity asks how far a leader is seen to embody what a group shares. Steffens and colleagues, combining 128 sets of results, report a moderate-to-large effect of this kind of prototypicality on how leaders are evaluated and on behaviour. The effect is stronger when the leader represents the group’s ideal rather than its average member. That is a useful way of reading the name Little Corporal: he was no ordinary soldier, and what the name claimed was that he stood for what soldiers admired.",
+          evidence: "interpretation",
+          refs: [{ source: 12 }],
+          limit:
+            "These studies concern modern groups, and no one surveyed the Army of Italy. The nickname is suggestive only. Only the abstract was read.",
+        },
+        {
+          mechanism: "Moods spreading through a group",
+          base: "single study",
+          text: "Barsade’s laboratory study of group decision-making found that a confederate’s mood spread among group members, and that positive contagion improved cooperation, reduced conflict and raised perceived performance. The torch-lit night at Austerlitz looks like the same process on a vast scale.",
+          evidence: "interpretation",
+          refs: [{ source: 13 }],
+          limit:
+            "Barsade studied small groups in a laboratory. Stretching that to an army the night before a battle is this lesson’s inference, and only the abstract was read.",
+        },
+      ],
+      shadow: {
+        text: "The same man who touched the sick at Jaffa in March came back through the town in May, on the retreat from Acre, and left behind men who had the plague; Lentz records that he went on being criticised for it. Five years later the canvas showed only the first visit. Presence could also be selective in another way. At Borodino, Britannica says, he stayed distant from a field hidden by smoke, and Chaptal says that most of his generals approached him trembling. The soldiers’ emperor could be very far away from the men who had to carry out his orders.",
+        evidence: "interpretation",
+        refs: [
+          { source: 7 },
+          { source: 5 },
+          { source: 9 },
+          { source: 10, locator: "p. 247" },
+        ],
+        battleSlugs: ["borodino"],
+      },
+      counterCase: {
+        text: "Wellington offers the opposite style. Asked about harangues, he told Stanhope that a speech could not be heard by more than a thousand men, that proclamations were meant for Paris, and that the British army was composed of “the scum of the earth”, adding that it was only wonderful they could make so much of them afterwards. Stanhope also records Lord Anglesey being struck while riding alongside him at Waterloo: he was in danger without making anything of it. Soldiers can trust a commander who does not flatter them, if they believe he will not waste them. It is a different bargain, and it held.",
+        evidence: "interpretation",
+        refs: [{ source: 11, locator: "pp. 13–14, 183–185" }],
+        commanderSlug: "arthur-wellesley",
+        battleSlugs: ["waterloo"],
+      },
+      cost: {
+        text: "A leader who stands in the open draws fire on those beside him. Muiron and Elliot died at Arcole. At Krasnoe a shot took off the legs of the officer in front of Bourgogne. The soldiers who cheered on the eve of Austerlitz paid for the next day, as Napoleon’s own reported words acknowledge.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "pp. 49–50, 218" }, { source: 8 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "The people you lead can see that you are bearing some of what you ask of them.",
+          "Your record gives them reason to believe the gesture is more than a gesture.",
+        ],
+        failsWhen: [
+          "The gesture costs you nothing, or is visibly arranged for an audience elsewhere.",
+          "Those who pay for your being seen are the people standing next to you.",
+        ],
+        questions: [
+          "Where is the hardest place in your organisation right now, and when were you last there?",
+          "Who sees your presence, and who only hears about it?",
+          "What would be left of this gesture if no one recorded it?",
+        ],
+      },
+      bearsOn:
+        "Personal courage does not look like the thing that declined. Bourgogne shows it intact in 1812. What changed was what it could buy: a gesture that could start a stalled column at Lodi could not reverse an army’s dissolution. That leans towards “the problem got harder”, though the distance from his generals suggests something had hardened in the man as well.",
+      questions: [
+        {
+          prompt:
+            "What happened when Bonaparte tried to lead the attack at Arcole on 15 November 1796?",
+          choices: [
+            "He carried the bridge and broke the Austrian line.",
+            "He could not get his troops to follow him.",
+            "He was wounded and carried from the field.",
+          ],
+          answer: 1,
+          explanation:
+            "The Fondation’s account says so plainly, and it is the moment Gros made into a triumph.",
+        },
+        {
+          prompt: "What does the lesson say about the Gros painting of Jaffa?",
+          choices: [
+            "It was altered from the witnesses’ account and used for political ends, though the visit itself took place.",
+            "It shows a visit that never happened.",
+            "It is an exact record of what Desgenettes saw.",
+          ],
+          answer: 0,
+          explanation:
+            "Staged and sincere are not opposites here: the visit was real and the image was shaped.",
+        },
+        {
+          prompt:
+            "When is leader group prototypicality stronger, according to Steffens and colleagues?",
+          choices: [
+            "When the leader is the most average member of the group.",
+            "When the group is newly formed.",
+            "When the leader represents the group’s ideal rather than its average member.",
+          ],
+          answer: 2,
+          explanation:
+            "That helps explain how a general could be a “little corporal” without being an ordinary soldier.",
+        },
+      ],
+      sourceCheck: {
+        question: "Was the torch-lit night at Austerlitz arranged?",
+        witnesses: [
+          {
+            label: "Johnston’s compilation",
+            claim:
+              "Napoleon went out on foot and incognito, was recognised at once, and torches of straw went up on a thousand poles.",
+          },
+          {
+            label: "Marbot, on the staff that night",
+            claim:
+              "The escort lit torches of pine and straw to see through the fog, and the troops, recognising the staff, took up the torches all along the line.",
+          },
+        ],
+        prompt: "What is the best reading?",
+        options: [
+          {
+            text: "It was planned by Napoleon to raise morale.",
+            feedback:
+              "Neither account says so, and both describe the enthusiasm as spreading from the men.",
+          },
+          {
+            text: "Both give a spontaneous spread, and differ on who lit the first torches. Marbot’s detail is the more practical.",
+            feedback:
+              "They agree on what matters, and Marbot was present. His ordinary explanation should make a reader cautious about the more theatrical version.",
+            best: true,
+          },
+          {
+            text: "Marbot must be right about everything, since he was there.",
+            feedback:
+              "Being present helps, but he wrote long afterwards. Eyewitnesses can also misremember or improve a story.",
+          },
+        ],
+        battleSlug: "austerlitz",
+      },
+      seminar: {
+        prompt:
+          "Think of a leader whose visible gesture changed how people felt. What made it believable, and who paid for it?",
+        guidance:
+          "Compare Lodi with Jaffa. Separate what the people present saw from what the wider public was shown later.",
+      },
+      sources: [
+        s.corsican,
+        s.marbot,
+        s.lodiBattle,
+        s.lodi,
+        s.arcole,
+        s.gros,
+        s.grosPainting,
+        s.lentz,
+        s.bourgogne,
+        s.borodino,
+        s.chaptal,
+        s.stanhope,
+        s.steffens,
+        s.barsade,
+        s.wounds,
+      ],
+    },
+    {
+      slug: "what-people-will-do-for-recognition",
+      title: "What people will do for recognition",
+      part: "Moving people",
+      themes: ["motivation", "organisation"],
+      claim:
+        "Public recognition mobilises people when it is seen as fair, and loses its force once it hardens into property.",
+      moment: {
+        text: "In May 1802 the Council of State debated the proposed Legion of Honour. Berlier objected that it led straight to an aristocracy, and that “crosses and ribbons are the toys of a Monarchy.” Thibaudeau, who voted against it, took down the First Consul’s reply. “You are pleased to call them toys; well, it is with toys that mankind is governed.” He added that he would not say so in a speech, but that among statesmen one ought to speak freely.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "pp. 142–143" }],
+      },
+      episodes: [
+        {
+          title: "One ribbon, a narrow vote",
+          text: "The law passed the Tribunat by only 58 votes to 38 on 17 May 1802, and the Corps législatif by 166 to 110 two days later. It rewarded services and virtues, civil as well as military. Before it there had been arms of honour for acts of valour, carrying a small addition to pay. Colonel Chabanier stresses what was new: one insignia honoured everyone without distinction of class, origin, rank or religion, and the promotion lists set the descendant of a royal officer beside a grenadier who signed his oath with a cross. As many rank-and-file soldiers as officers were admitted, though the higher grade almost never went to them.",
+          evidence: "fact",
+          refs: [{ source: 1 }, { source: 2 }],
+          battleSlugs: [],
+        },
+        {
+          title: "Careers the Revolution had opened",
+          text: "He did not invent the idea. Marbot remembers a camp of the early 1790s in which his father’s favourites were Augereau, a colonel on the staff, and Lannes, a lieutenant of grenadiers in a volunteer battalion; both became marshals of the Empire. The 1911 Britannica says that the mass of the Revolutionary army gradually evolved its true leaders and obeyed them. Metternich, no friend of the system, says the marshals had for the most part been taken from the lower ranks. What Napoleon did was to give that mobility a public form, with titles and ceremony, and to make himself its source.",
+          evidence: "fact",
+          refs: [
+            { source: 3, locator: "p. 12" },
+            { source: 4 },
+            { source: 9, locator: "p. 85" },
+          ],
+          battleSlugs: [],
+        },
+        {
+          title: "Being named",
+          text: "Recognition worked through publicity. Before Acre in April 1799, after Junot’s men held off a far larger cavalry force at Nazareth, Bonaparte ordered a prize for the best painting of the fight, with the uniforms of the regiments shown correctly, and he ordered that the commendation be communicated to the home communes of every soldier present. Houdecek says that being mentioned in a bulletin was an honour soldiers and regiments watched for. A soldier’s village could hear his name.",
+          evidence: "fact",
+          refs: [{ source: 5, locator: "pp. 96–97" }, { source: 7 }],
+          battleSlugs: ["acre"],
+        },
+        {
+          title: "Davout’s corps enters Berlin",
+          text: "After Auerstedt, Linden says, the Emperor chose to reward the Third Corps in particular by having it enter Berlin first, which it did on 25 October 1806. It was a cheap honour and a precise one, given to the men who had carried the heaviest load. Chaptal gives the other side of the picture: when generals distinguished themselves, he says, Napoleon usually said only that they had done their duty, and he sometimes mentioned them in the bulletins.",
+          evidence: "fact",
+          refs: [{ source: 6 }, { source: 8, locator: "p. 247" }],
+          battleSlugs: ["jena-auerstedt"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Thibaudeau",
+          stake:
+            "A member of the Council who voted against the Legion, and so was no flatterer, recording the argument he lost.",
+          says: "He preserves both Berlier’s objection and Bonaparte’s reply, including the claim that the French have only one sentiment, honour.",
+          refs: [{ source: 0, locator: "pp. 142–143" }],
+        },
+        {
+          who: "Colonel Chabanier",
+          stake:
+            "An officer writing in a Napoleonic review, admiring and institutional in tone.",
+          says: "He presents the Legion as the first French honour to treat everyone alike.",
+          refs: [{ source: 2 }],
+        },
+        {
+          who: "Chaptal",
+          stake: "Once his minister, and bitter on this subject.",
+          says: "He says Napoleon loaded his generals with fortune in the conquered lands, to create great houses at court and to bind them to his fate, and that he never heard him praise a general.",
+          refs: [{ source: 8, locator: "pp. 247–248" }],
+        },
+        {
+          who: "Metternich",
+          stake:
+            "His opponent, writing long afterwards, with an interest in showing the Empire rotten by 1813.",
+          says: "He says the marshals had grown rich from foreign spoil and the Emperor’s calculated generosity, and objected to staking their possessions on the chances of war.",
+          refs: [{ source: 9, locator: "p. 85" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, the Legion was a cheap way to bind a divided country to a new regime. It cost a ribbon and a modest allowance, and it reached soldiers and civilians, old nobles and former volunteers. Chabanier says that it was meant to consolidate the mixing of all classes after years of upheaval. A government with few other sources of loyalty had every reason to try it, and the narrowness of the vote shows that its political meaning was understood at the time.",
+          evidence: "interpretation",
+          refs: [{ source: 2 }, { source: 1 }],
+        },
+        {
+          text: "The difficulty lay in the higher rewards. Ribbons can be given again and again, and they still mean something if the giver is believed to be fair. Estates in conquered lands are different. They give the recipient something to lose, and Chaptal says that was partly their purpose, to tie the generals’ fortunes to the conquests. That bond holds while the conquests hold. Once defeat threatens them, the same interest points the other way.",
+          evidence: "interpretation",
+          refs: [{ source: 8, locator: "pp. 247–248" }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Rewards and intrinsic motivation",
+          base: "meta-analysis",
+          text: "Deci, Koestner and Ryan combined 128 studies and found that expected, tangible rewards significantly undermined free-choice intrinsic motivation, while positive feedback enhanced both free-choice behaviour and self-reported interest. The distinction is suggestive here. A public word of praise looks closer to feedback, and a large estate closer to a tangible reward, which is one way of reading why the ribbon kept its meaning while the fortunes did something else.",
+          evidence: "interpretation",
+          refs: [{ source: 11 }],
+          limit:
+            "The experiments concern tasks done by children and students, and the abstract shows that the paper drew published replies. Nobody measured a marshal’s motivation. Only the abstract was read.",
+        },
+        {
+          mechanism: "Whether the process seems fair",
+          base: "meta-analysis",
+          text: "Colquitt and colleagues, reviewing 493 samples, report that the links between justice and both task performance and helpful behaviour run through the quality of the exchange: trust, commitment and the sense of being supported. That fits the case of a grenadier and an aristocrat on one promotion list. The value of such a list depends on whether people believe it reflects what was done.",
+          evidence: "interpretation",
+          refs: [{ source: 12 }],
+          limit:
+            "These are modern workplace studies, and nothing comparable exists for the Legion. Only part of the abstract could be read.",
+        },
+      ],
+      shadow: {
+        text: "By 1813, Metternich says, the marshals wished to enjoy what they had gained, and France felt the need of repose. He had reason to say so, but Britannica’s account of April 1814 points the same way. At Fontainebleau the marshals refused to follow Napoleon in a last attempt at resistance and prevailed on him to abdicate in favour of his son, and Marmont took his corps into the allied lines. Men he had raised from nothing, and made rich so that their fortunes would be tied to his, ended by telling him to stop.",
+        evidence: "interpretation",
+        refs: [
+          { source: 9, locator: "p. 85" },
+          { source: 10 },
+          { source: 8, locator: "pp. 247–248" },
+        ],
+        battleSlugs: ["arcis-sur-aube"],
+      },
+      counterCase: {
+        text: "Prussia after 1806 tried to build merit into the institution instead of the ruler’s favour. Under Scharnhorst’s reforms, the New International Encyclopædia says, promotion for merit was established; Britannica says Gneisenau, still a company commander at Jena, advocated promotion by merit and the end of special privileges for the higher classes. Napoleon himself forced the dismissal of the reform party in 1808, and it survived regardless. Blücher, who had retired, returned at seventy-one and was made a field marshal for Leipzig. A rule outlasts a patron, though nobody would call Prussia’s reforms complete.",
+        evidence: "interpretation",
+        refs: [{ source: 13 }, { source: 14 }, { source: 15 }],
+        commanderSlug: "gebhard-leberecht-von-blucher",
+        battleSlugs: ["leipzig"],
+      },
+      cost: {
+        text: "Recognition is a way of getting people to accept danger. In the same speech Bonaparte praised Voltaire for calling soldiers Alexanders at five sous a day, and asked whether men could be made to fight by philosophic analysis. Metternich writes that the nation was decimated by the annual levies. A ribbon was also a price, and the men who received it were being paid in advance for what they were being asked to risk.",
+        evidence: "interpretation",
+        refs: [
+          { source: 0, locator: "p. 143" },
+          { source: 9, locator: "pp. 85–86" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "Recognition is public, specific and believed to reflect what was actually done.",
+          "It reaches people at every level, and not only those close to the leader.",
+        ],
+        failsWhen: [
+          "Rewards become wealth or position that people then have to protect.",
+          "Recognition is seen as a matter of the leader’s favour, and not of any standard.",
+        ],
+        questions: [
+          "Who in your organisation was last publicly recognised, and could others say why?",
+          "What are you giving people that they would have to protect by avoiding risk?",
+          "If you left tomorrow, would your standards for recognition remain?",
+        ],
+      },
+      bearsOn:
+        "The Legion seems to have kept its meaning, while the marshals’ loyalty did not. If Chaptal is right, the second was built to depend on conquest, so that the defeat of 1814 removed its basis. That is a case where the design, not the man’s later decline, set the limit, and the design was his.",
+      questions: [
+        {
+          prompt:
+            "What did Bonaparte reply when Berlier called crosses and ribbons toys?",
+          choices: [
+            "That toys were beneath the dignity of a Republic.",
+            "That it is with toys that mankind is governed.",
+            "That the Legion would be for soldiers alone.",
+          ],
+          answer: 1,
+          explanation:
+            "Thibaudeau, who opposed the Legion, recorded the exchange in the Council of State.",
+        },
+        {
+          prompt:
+            "What was new about the Legion, in Colonel Chabanier’s account?",
+          choices: [
+            "One insignia honoured everyone without distinction of class, origin, rank or religion.",
+            "It was limited to the officers of the Guard.",
+            "It replaced all pay with honours.",
+          ],
+          answer: 0,
+          explanation:
+            "He notes that as many rank-and-file soldiers as officers were admitted, though the highest grade rarely reached them.",
+        },
+        {
+          prompt:
+            "In the Deci, Koestner and Ryan meta-analysis, what enhanced free-choice behaviour and interest?",
+          choices: [
+            "Expected tangible rewards.",
+            "Rewards for completing a task.",
+            "Positive feedback.",
+          ],
+          answer: 2,
+          explanation:
+            "That is why the lesson separates public praise from large material rewards.",
+        },
+      ],
+      sourceCheck: {
+        question:
+          "Was the Legion of Honour a step towards equality or away from it?",
+        witnesses: [
+          {
+            label: "Berlier, in Thibaudeau’s record",
+            claim:
+              "The proposed Order leads straight to an aristocracy, and crosses and ribbons are the toys of a Monarchy.",
+          },
+          {
+            label: "Colonel Chabanier, Revue du Souvenir Napoléonien",
+            claim:
+              "For the first time in France a single insignia honoured everyone, without distinction of class, origin, rank or religion.",
+          },
+        ],
+        prompt: "How should a historian weigh these?",
+        options: [
+          {
+            text: "Chabanier is right, because the lists include grenadiers.",
+            feedback:
+              "The lists support him on who received it. They do not answer Berlier’s fear about what the Order would become.",
+          },
+          {
+            text: "Berlier is right, because the Empire created a nobility.",
+            feedback:
+              "His fear has a later basis, but that is hindsight applied to a debate in 1802, and the Legion itself stayed open to the ranks.",
+          },
+          {
+            text: "They answer different questions: who could receive it, and what an order of honour does to a republic.",
+            feedback:
+              "Each is partly right. Recognising that they are not disagreeing about the same thing is the first step.",
+            best: true,
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Describe a reward in your own experience that lost its meaning. When did it change, and why?",
+        guidance:
+          "Compare the Legion with the estates given to the marshals. Ask who decided, on what evidence, and what the recipient then had to protect.",
+      },
+      sources: [
+        s.thibaudeau,
+        s.legion,
+        s.chabanier,
+        s.marbot,
+        s.frw,
+        s.corsican,
+        s.linden,
+        s.houdecek,
+        s.chaptal,
+        s.metternich,
+        s.endOfWar,
+        s.deci,
+        s.colquitt,
+        s.scharnhorst,
+        s.gneisenau,
+        s.blucher,
+      ],
+    },
+    {
+      slug: "words-that-win-and-words-that-spend-trust",
+      title: "Words that win, and words that spend trust",
+      part: "Moving people",
+      themes: ["communication", "ethics"],
+      claim:
+        "When a leader controls what followers are told, they can shape what a situation means, and each distortion draws on a limited account of trust.",
+      moment: {
+        text: "At the start of December 1812, with no letters from France reaching him, Napoleon prepared the account of the retreat that would become the 29th Bulletin. Caulaincourt records his reasoning. He would tell everything: it was better that the particulars should come from him than through private letters, and full details now would soften what had to be announced later. A man who had been shaping the news for sixteen years was deciding, as a matter of calculation, to tell the truth.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "p. 259" }],
+      },
+      episodes: [
+        {
+          title: "Letters written to be printed",
+          text: "Pierre Branda describes what happened after Montenotte and Millesimo in April 1796. French newspapers did more than report the victories. They printed the general’s letters to the Directory, often in full, so that the public read the tone and energy of the man conducting the war. The general did not merely win, Branda says; he told the story, and his letters became the first chapters of an epic in the making.",
+          evidence: "fact",
+          refs: [{ source: 2 }],
+          battleSlugs: ["montenotte"],
+        },
+        {
+          title: "A proclamation to Egypt",
+          text: "In July 1798, after landing, Bonaparte issued an Arabic proclamation assuring Egyptians that he came as a friend to Islam and the Ottoman sultan, to punish the Mamluks and to liberate the people. Al-Jabarti, a Cairo scholar who stayed in the city, records that the French printed it and spread it to reassure the people, and he copies a second declaration from the camp at Giza saying they had come only to end Mamluk rule. The preface to the French edition of his journal concedes that the occupation’s fiscal charges were crushing and repeated.",
+          evidence: "fact",
+          refs: [{ source: 3 }, { source: 4 }],
+          battleSlugs: ["pyramids"],
+        },
+        {
+          title: "Austerlitz, written afterwards",
+          text: "The proclamation of 3 December 1805 opens, “Well done, soldiers!” It was written after the fighting, at the château of Austerlitz. Houdecek says that Napoleon reworked the texts of his proclamations before publication so that victory would seem to have been foreseen and inevitable. Earlier that year, in April 1805, he had told his navy minister to keep the movements of the fleet secret and to see that the Dutch gazettes published that a French fleet had landed troops in Egypt. Praise for the army and planted falsehoods for the enemy came from the same desk.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "pp. 196, 218–219" },
+            { source: 5 },
+            { source: 12 },
+          ],
+          battleSlugs: ["austerlitz"],
+        },
+        {
+          title: "The 29th Bulletin",
+          text: "Le Moniteur led with it on 17 December 1812. The Fondation says that it described the debacle in relatively unambiguous terms: an army without cavalry, artillery or transport. The bulletin itself says that until 6 November the weather was perfect and the movement a complete success, and it lays the ruin on the cold that followed. Britannica’s account is that the large majority of the losses occurred before the first snow. The last line, “The health of H. M. has never been better”, was probably a warning to anyone thinking of repeating Malet’s attempted coup. It was unusually frank, and it still chose the explanation that left him least to blame.",
+          evidence: "fact",
+          refs: [
+            { source: 6 },
+            { source: 1, locator: "pp. 364–366" },
+            { source: 7 },
+          ],
+          battleSlugs: ["berezina"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Caulaincourt",
+          stake:
+            "Close to Napoleon on the retreat, and writing as a man who had warned against the war.",
+          says: "He reports the reasoning behind the 29th Bulletin, and elsewhere says that on leaving Moscow some incident had to appear in the bulletin, at any cost, to balance a recent defeat.",
+          refs: [{ source: 0, locator: "pp. 168, 259" }],
+        },
+        {
+          who: "François Houdecek",
+          stake:
+            "A historian working on the Correspondance générale, with close knowledge of the documents.",
+          says: "He says the bulletins were dictated by Napoleon, worked up by staff officers and read aloud across France.",
+          refs: [{ source: 5 }],
+        },
+        {
+          who: "Madame de Rémusat",
+          stake:
+            "A lady-in-waiting at the court, whose memoirs were published by her grandson.",
+          says: "She names Maret as the “author-in-chief of the bulletins”, which sits awkwardly with the picture of Napoleon weighing every word himself.",
+          refs: [{ source: 13, locator: "p. 433" }],
+        },
+        {
+          who: "Abdurrahman al-Jabarti",
+          stake:
+            "A Muslim scholar in occupied Cairo, hostile to the French and also a member of their council, as the French edition notes.",
+          says: "He records the proclamations as instruments meant to reassure, alongside what the French then did.",
+          refs: [{ source: 4 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Without hindsight, control of the message was a serious military and political tool. The letters of 1796 built a reputation that protected a young general from a government that might otherwise have replaced him. The proclamation in Egypt tried to split the population from its rulers before a shot was fired. The false reports of 1805 aimed to mislead an enemy navy, a legitimate deception in war. The distinction that matters is who is being deceived. A lie told to the enemy costs little at home.",
+          evidence: "interpretation",
+          refs: [
+            { source: 2 },
+            { source: 3 },
+            { source: 1, locator: "p. 196" },
+          ],
+        },
+        {
+          text: "The 29th Bulletin shows a commander who understood the arithmetic. Private letters would carry the news anyway, so that silence would only turn a disaster into a scandal. Publishing first let him set the terms. He was also about to reach Paris and needed the shock to be over before he arrived. On those grounds it was a good decision, made late, by someone who had left himself with little credit to draw on.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "p. 259" }, { source: 6 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Trust in leaders",
+          base: "meta-analysis",
+          text: "Dirks and Ferrin’s review of four decades of research estimates how trust in leadership relates to outcomes, and finds that direct leaders appear to be a particularly important referent of trust. That is a useful warning about bulletins. A soldier might trust the commander he had seen under fire and discount the printed account of the same event, without any contradiction. Trust at a distance and trust at close range are not the same thing.",
+          evidence: "interpretation",
+          refs: [{ source: 10 }],
+          limit:
+            "This is modern organisational research, and the distinction between direct and distant leaders is applied here by analogy. Only the abstract was read.",
+        },
+        {
+          mechanism: "Repairing trust after a failure",
+          base: "single study",
+          text: "Kim and colleagues found, in two studies, that trust was repaired more successfully when people apologised for failures of competence and denied failures of integrity. The 29th Bulletin does neither in that form. It reports the disaster and assigns it to the weather, which avoids both apology and any admission of misjudgement.",
+          evidence: "interpretation",
+          refs: [{ source: 11 }],
+          limit:
+            "These were controlled studies of alleged violations, not an emperor’s report on a lost army. The comparison is an illustration, and only the abstract was read.",
+        },
+      ],
+      shadow: {
+        text: "Control has a way of turning inward. Caulaincourt says that as the army left Moscow some incident had to go into the bulletin, whatever the cost, to balance Murat’s defeat. An editor’s note to his memoirs adds that the 29th Bulletin itself laid a public charge against General Partouneaux that Napoleon later quietly set aside. Readers in France came to know the form well enough, as Houdecek’s phrase “menteur comme un bulletin” suggests, though he gives no source for it. A government that manages every report loses the ability to be believed when it finally has something true and terrible to say.",
+        evidence: "interpretation",
+        refs: [{ source: 0, locator: "pp. 168, 249" }, { source: 5 }],
+        battleSlugs: ["maloyaroslavets"],
+      },
+      counterCase: {
+        text: "Wellington thought the French proclamations “were meant for Paris”. His own report on Waterloo, dated the next day, opens with the movements of the French corps and proceeds without flourish. It names officers and units in turn, and it says that he should not do justice to his own feelings, or to Blücher and the Prussian army, if he did not attribute the successful result to the “cordial and timely assistance” he received from them. It was a document with a purpose, written by the commander who had most to gain from it. But it gave a large share of the victory to an ally in its first official telling, and that is a different use of words.",
+        evidence: "interpretation",
+        refs: [{ source: 9 }, { source: 8, locator: "p. 13" }],
+        commanderSlug: "arthur-wellesley",
+        battleSlugs: ["waterloo"],
+      },
+      cost: {
+        text: "Those who paid were the people for whom the words were written. The French edition of al-Jabarti concedes the crushing and repeated charges laid on Egyptians who had been promised friendship. In France, families learned only from the Moniteur of 17 December what had happened to the army. A false picture is also a delay in grief.",
+        evidence: "interpretation",
+        refs: [{ source: 4 }, { source: 6 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "The leader controls most of what people hear about the situation.",
+          "People can later compare the account with what they saw or were told privately.",
+        ],
+        failsWhen: [
+          "The message is aimed at an opponent, where deception is an accepted part of the contest.",
+          "Other channels are so strong that no official account can shape the meaning at all.",
+        ],
+        questions: [
+          "What did you last report that would look different to someone who was there?",
+          "What bad news are you waiting to announce, and who already knows it?",
+          "If you had to be believed tomorrow on something serious, how much credit do you have?",
+        ],
+      },
+      bearsOn:
+        "The 29th Bulletin suggests that Napoleon’s judgement of how to communicate was intact in 1812. What had worn out was his credit. Sixteen years of managing the news meant that even his most candid report arrived as one more bulletin. That is a cost he had built up himself over time, which is neither simple decline nor simply a harder problem.",
+      questions: [
+        {
+          prompt:
+            "Why, according to Caulaincourt, did Napoleon decide to tell everything in the 29th Bulletin?",
+          choices: [
+            "Because his marshals insisted on it.",
+            "Because it was better that the news came from him than through private letters.",
+            "Because Le Moniteur refused to print anything else.",
+          ],
+          answer: 1,
+          explanation:
+            "It was a calculated choice about who would frame the news first.",
+        },
+        {
+          prompt: "What does the 29th Bulletin blame for the ruin of the army?",
+          choices: [
+            "The cold that set in from 7 November.",
+            "Marshal Ney’s rearguard.",
+            "The burning of Moscow.",
+          ],
+          answer: 0,
+          explanation:
+            "Britannica notes that most of the losses came before the first snow, which is why this choice of explanation matters.",
+        },
+        {
+          prompt: "What did Kim and colleagues find about repairing trust?",
+          choices: [
+            "Denial always worked better than apology.",
+            "Apology always worked better than denial.",
+            "Apology worked better for competence failures, and denial for integrity failures.",
+          ],
+          answer: 2,
+          explanation:
+            "The lesson notes that the 29th Bulletin does neither, and points to the weather instead.",
+        },
+      ],
+      sourceCheck: {
+        question: "How honest was the 29th Bulletin?",
+        witnesses: [
+          {
+            label: "The Fondation Napoléon",
+            claim:
+              "It described the debacle in relatively unambiguous terms: an army without cavalry, artillery or transport.",
+          },
+          {
+            label: "The bulletin, set against Britannica",
+            claim:
+              "The bulletin says all went well until the cold of 7 November. Britannica says the large majority of the losses came before the first snow.",
+          },
+        ],
+        prompt: "What is the fairest judgement?",
+        options: [
+          {
+            text: "It was entirely truthful, as Caulaincourt reports he intended.",
+            feedback:
+              "It admitted the scale of the disaster, but its account of the cause is contradicted by Britannica.",
+          },
+          {
+            text: "It was frank about the result and self-serving about the cause.",
+            feedback:
+              "Both are visible in the text. A document can be unusually honest for its genre and still shape the blame.",
+            best: true,
+          },
+          {
+            text: "It can be dismissed as propaganda, as all the bulletins were.",
+            feedback:
+              "That throws away real evidence. The admission was unusual, and it tells us what he judged could no longer be hidden.",
+          },
+        ],
+        battleSlug: "berezina",
+      },
+      seminar: {
+        prompt:
+          "Find a public statement by an organisation about its own failure. What does it admit, and what does it blame?",
+        guidance:
+          "Use the 29th Bulletin as a model. Separate the description of the outcome from the explanation of its cause, and look for an independent account of each.",
+      },
+      sources: [
+        s.caulaincourt,
+        s.corsican,
+        s.branda,
+        s.egypt,
+        s.jabarti,
+        s.houdecek,
+        s.bulletin29,
+        s.retreat,
+        s.stanhope,
+        s.waterlooDespatch,
+        s.dirks,
+        s.kim,
+        s.austerlitzPlace,
+        s.remusat,
       ],
     },
     {

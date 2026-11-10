@@ -108,6 +108,9 @@ it("lists the Napoleon lessons in curriculum order", () =>
     "intuition-is-stored-work",
     "plan-for-being-wrong",
     "tempo-and-the-decisive-point",
+    "be-seen-where-it-is-hardest",
+    "what-people-will-do-for-recognition",
+    "words-that-win-and-words-that-spend-trust",
     "knowing-when-to-stop",
   ]));
 

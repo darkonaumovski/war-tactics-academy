@@ -13,7 +13,7 @@ The battle expansion is complete: 140 engagements with studies in six collection
 
 1. Specialist review of all ten learning paths, especially the five collection courses added in the expansion.
 2. Add deeper quizzes, advanced learning levels and source-criticism exercises; retain feedback rather than performance rankings. Batches Q1 and Q2 added per-question feedback, three questions to each of the 51 lessons and an unscored source check to 45 of them, drawn from sourced disagreements on the campaign and study pages. Advanced learning levels remain to be done.
-3. Build the Leadership Lessons series, beginning with Napoleon (`docs/LEADERSHIP_LESSONS_PROMPT.md`). Six of the volume's nineteen lessons are written (batches L1 and L2); the search, sitemap and About page entries come when the volume is complete.
+3. Build the Leadership Lessons series, beginning with Napoleon (`docs/LEADERSHIP_LESSONS_PROMPT.md`). Nine of the volume's nineteen lessons are written (batches L1 to L3); the search, sitemap and About page entries come when the volume is complete.
 4. Grow the nine-record media library: verified official video embeds beyond D-Day, more public-domain portraits, maps and primary documents, each with full attribution.
 5. Give each commander profile and war page its own multi-source bibliography.
 

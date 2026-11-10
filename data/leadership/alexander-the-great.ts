@@ -39,10 +39,64 @@ const s = {
   a6_24: arrian("VI", "XXIV", "6.24"),
   a7_9: arrian("VII", "IX", "7.9"),
   a7_29: arrian("VII", "XXIX", "7.29"),
+  a1_1: arrian("I", "I", "1.1"),
+  a1_7: arrian("I", "VII", "1.7"),
+  a1_8: arrian("I", "VIII", "1.8"),
+  a1_9: arrian("I", "IX", "1.9"),
+  a1_11: arrian("I", "XI", "1.11"),
+  a1_18: arrian("I", "XVIII", "1.18"),
+  a2_16: arrian("II", "XVI", "2.16"),
+  a2_18: arrian("II", "XVIII", "2.18"),
+  a2_20: arrian("II", "XX", "2.20"),
+  a2_24: arrian("II", "XXIV", "2.24"),
+  a2_25: arrian("II", "XXV", "2.25"),
+  a2_26: arrian("II", "XXVI", "2.26"),
+  a2_27: arrian("II", "XXVII", "2.27"),
+  a3_10: arrian("III", "X", "3.10"),
+  a3_18: arrian("III", "XVIII", "3.18"),
+  a3_26: arrian("III", "XXVI", "3.26"),
+  a4_4: arrian("IV", "IV", "4.4"),
+  a4_8: arrian("IV", "VIII", "4.8"),
+  a5_9: arrian("V", "IX", "5.9"),
+  a5_10: arrian("V", "X", "5.10"),
+  a5_11: arrian("V", "XI", "5.11"),
+  a5_18: arrian("V", "XVIII", "5.18"),
+  a5_19: arrian("V", "XIX", "5.19"),
+  a6_25: arrian("VI", "XXV", "6.25"),
   plu3: plutarch("3", "1–24.3"),
+  plu4: plutarch("4", "24.4–33"),
   plu9: plutarch("9", "62–65"),
+  dio17a: diodorus("17A", "17.1–16"),
   dio17b: diodorus("17B", "17.17–39"),
+  dio17c: diodorus("17C", "17.40–63"),
   dio17e: diodorus("17E", "17.84–103"),
+  livy: {
+    title:
+      "Livy, The History of Rome, books 9–26 (trans. Cyrus R. Edmonds and D. Spillan)",
+    url: "https://www.gutenberg.org/ebooks/10907",
+    publisher: "Project Gutenberg",
+  },
+  polybius2: {
+    title: "Polybius, The Histories, book 2 (Loeb, vol. I, 1922)",
+    url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/2%2A.html",
+    publisher: lacus,
+  },
+  briant: {
+    title: "Pierre Briant, “Alexander the Great” (1985, updated 2018)",
+    url: "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/",
+    publisher: "Encyclopaedia Iranica",
+  },
+  acre: {
+    title: "Siege of Acre (1799) (Adrian Gilbert)",
+    url: "https://www.britannica.com/event/Siege-of-Acre-1799",
+    publisher: "Encyclopaedia Britannica",
+  },
+  nemeth: {
+    title:
+      "Charlan Jeanne Nemeth, Keith Brown and John Rogers, Devil’s advocate versus authentic dissent: stimulating quantity and quality (2001), abstract",
+    url: "https://doi.org/10.1002/ejsp.58",
+    publisher: "European Journal of Social Psychology",
+  },
   vulgate: {
     title: "Alexander the Great: the vulgate",
     url: "https://www.livius.org/articles/person/alexander-the-great/alexander-3.2-the-vulgate/",
@@ -370,6 +424,256 @@ export const alexanderVolume: LeadershipVolume = {
       ],
     },
     {
+      slug: "a-borrowed-army",
+      title: "A borrowed army: taking over his father’s men",
+      part: "The instrument",
+      themes: ["organisation", "succession"],
+      claim:
+        "When a young leader takes over a proven organisation, the first test is whether its senior people will serve, and the price of their service is often their independence.",
+      inBrief: {
+        strength:
+          "He kept Philip’s army and its generals, and told the Macedonians the king had changed only in name.",
+        shadow:
+          "The inheritance was secured by killing a rival, and two of Philip’s men who served him would later die at his order or by his hand.",
+      },
+      moment: {
+        text: "Philip II was murdered in 336 BCE, on the eve of his war against Persia. Diodorus says his son, about twenty and for that reason not uniformly respected, established his authority far more firmly than anyone thought possible. He punished the murderers and buried his father. Then he won over the Macedonians with tactful statements: the king, he told them, was changed only in name, and the state would be run on principles no less effective than his father’s. He kept the soldiers busy with weapons training and drill. And he decided to kill Attalus, who shared the command of the advance force in Asia with Parmenion and had made himself popular with the troops.",
+        evidence: "fact",
+        refs: [
+          { source: 1, locator: "1.1 and note" },
+          { source: 0, locator: "17.2" },
+        ],
+      },
+      episodes: [
+        {
+          title: "Securing the inheritance",
+          text: "Arrian’s first chapter has Alexander march into the Peloponnese as soon as he held power and ask the Greeks for the supreme command against Persia that they had already given his father; all but the Spartans agreed. In Asia, Diodorus says, Attalus first agreed with the Athenians to act against Alexander, then changed his mind and sent Alexander a letter from Demosthenes to prove his loyalty. Alexander’s agent Hecataeus, following his orders literally, had him killed by treachery. After that, Diodorus writes, the Macedonian forces in Asia were free from any incitement to revolt, Attalus being dead and Parmenion completely devoted to Alexander.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "1.1" },
+            { source: 0, locator: "17.5" },
+          ],
+          battleSlugs: [],
+        },
+        {
+          title: "Thebes, and who gave the order",
+          text: "In 335 Thebes revolted on a rumour that Alexander had been killed in Illyria. He reached Boeotia so fast that the rebels insisted it must be another Alexander. Arrian says he camped outside the city to give the Thebans time to repent. Then, on Ptolemy’s account, Perdiccas attacked the Theban stockade without waiting for the signal, Amyntas followed him, and Alexander committed the rest of the army so that they would not be cut off. Diodorus has Alexander order the decisive move himself, sending Perdiccas to seize an unguarded gate. Chinnock’s note of 1884 suggests that Ptolemy, Arrian’s source, wished to clear Alexander of the city’s destruction. In Arrian the allies, not the king, voted to raze Thebes.",
+          evidence: "uncertainty",
+          refs: [
+            { source: 11, locator: "1.7" },
+            { source: 2, locator: "1.8 and note" },
+            { source: 3, locator: "1.9" },
+            { source: 0, locator: "17.12" },
+          ],
+          battleSlugs: [],
+        },
+        {
+          title: "Philip’s generals in Asia",
+          text: "Before the crossing, Diodorus says, Antipater and Parmenion advised Alexander to produce an heir before so great an enterprise. He refused: it would be a disgrace, he said, for one appointed by Greece to lead the war, who had inherited his father’s invincible forces, to sit at home awaiting children. In 334 he left Antipater in charge of Macedonia and Greece and gave Parmenion the task of ferrying the cavalry and most of the infantry across the Hellespont. At Issus, Badian writes, Parmenion, the most experienced Macedonian commander, held back the Persian attack on the left while Alexander routed the king. Arrian says Parmenion was held in very great respect by Alexander and by the whole army.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "17.16" },
+            { source: 5, locator: "1.11" },
+            { source: 6 },
+            { source: 7, locator: "3.26" },
+          ],
+          battleSlugs: ["issus"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Diodorus, from the vulgate",
+          stake:
+            "Writes three centuries later, following Cleitarchus, and admires the young king’s firmness.",
+          says: "Alexander established his authority far more firmly than anyone supposed possible, and afterwards Parmenion was completely devoted to him.",
+          refs: [{ source: 0, locator: "17.2, 17.5" }],
+        },
+        {
+          who: "Ptolemy, as Arrian reports him",
+          stake:
+            "Served under Alexander and published his memoirs decades later, after he had made himself king in Egypt.",
+          says: "At Thebes Perdiccas attacked without waiting for the signal, and Alexander followed to save him.",
+          refs: [{ source: 2, locator: "1.8" }, { source: 12 }],
+        },
+        {
+          who: "E. J. Chinnock, translating Arrian in 1884",
+          stake: "A Victorian editor comparing the ancient accounts.",
+          says: "It is probable that Ptolemy wished to exonerate Alexander from the guilt of destroying Thebes.",
+          refs: [{ source: 2, locator: "note to 1.8" }],
+        },
+        {
+          who: "Plutarch",
+          stake: "A moral biographer interested in remorse.",
+          says: "In later times the calamity of the Thebans often gave Alexander remorse and made him milder towards many people.",
+          refs: [{ source: 4, locator: "Alexander 13" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "The order of business is the strategist’s first evidence. Diodorus has Alexander secure the army before anything else, with words of continuity and with drill, then remove the one commander who might rally it against him, then turn to the Greeks and the frontier. Arrian has him campaign in Thrace and Illyria before crossing to Asia, so as not to leave restless neighbours behind him. A new ruler of a working organisation had to settle who it obeyed before he could choose what to do with it.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "17.2–3" },
+            { source: 1, locator: "1.1" },
+          ],
+        },
+        {
+          text: "Antipater and Parmenion’s advice deserves to be judged as it stood in 334. A king with no heir who intends to lead every battle himself is a risk to everything he rules, and two men who had served his father said so. Alexander answered with honour and momentum. The strategist need not decide who was right to see that the generals were pointing at the weakness the volume returns to at the Malli town and at Babylon in 323.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "17.16" }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "The Napoleon volume’s lesson on inheritance used research on how observers credit leaders for systems they inherited. That finding is now contested, as the orientation lesson of this volume explains, and no research on how senior staff respond to a young successor was read for this lesson. The behaviour described here, loyalty secured by continuity, by reward and by removing a rival, is left as history.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No psychological source is offered, and the lesson draws no psychological conclusion.",
+        },
+      ],
+      shadow: {
+        text: "The inheritance was cleared by violence before the army left Macedonia, and the cost of serving the new king was learned over time. Ptolemy’s Thebes shows a quieter cost: when an officer acts on his own, the record can later give him the blame. The two men closest to Philip’s army in this lesson’s story met harder ends. Parmenion was put to death after his son Philotas was convicted of concealing a plot, and Cleitus, who saved Alexander’s life at the Granicus, was killed by the king himself at a banquet. Later lessons take up both.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "17.5" },
+          { source: 2, locator: "1.8" },
+          { source: 7, locator: "3.26" },
+          { source: 10, locator: "4.8" },
+        ],
+      },
+      counterCase: {
+        text: "Hannibal took over his father’s army in Spain by a different road. Livy says Hasdrubal sent for him as a youth, and that the veterans imagined Hamilcar was restored to them in his looks; Hannibal then made sure his father counted for less and less in winning their esteem, and served three years under Hasdrubal before the army hailed him as general. Polybius says only that the Carthaginians appointed him, young as he was, for the shrewdness and courage he had shown. Livy is a hostile witness who sets Hannibal’s virtues against “inhuman cruelty” and “Punic perfidy”, yet even he shows an apprenticeship that Alexander, crowned in a crisis, never had.",
+        evidence: "interpretation",
+        refs: [
+          { source: 8, locator: "21.3–4" },
+          { source: 9, locator: "2.36" },
+        ],
+        commanderSlug: "hannibal-barca",
+        battleSlugs: [],
+      },
+      cost: {
+        text: "Thebes paid for the new king’s first test. Arrian says the city was razed and its territory divided, and its women and children, with the men who survived, were sold into slavery; only priests, guest-friends of the Macedonian kings and the house of the poet Pindar were spared. Diodorus describes boys and girls dragged into captivity calling for their mothers.",
+        evidence: "fact",
+        refs: [
+          { source: 3, locator: "1.9" },
+          { source: 0, locator: "17.13" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "You inherit people who were loyal to someone else and who know the work better than you.",
+          "Continuity can be promised honestly while you learn the organisation.",
+        ],
+        failsWhen: [
+          "Loyalty is secured by removing anyone who might be a rival, so the rest learn that disagreement is dangerous.",
+          "The record of a hard first decision is written by those who need it to look like someone else’s.",
+        ],
+        questions: [
+          "Who in your organisation served your predecessor, and what would they need from you to serve you?",
+          "What did you promise would not change, and was it true?",
+          "When a first decision went badly, whose name did the account attach to it?",
+        ],
+      },
+      bearsOn:
+        "In 334 the army was Philip’s, its senior commanders were Philip’s men, and the new king had promised that only the name had changed. Any answer to whether the army stopped following Alexander has to start from what it had agreed to follow. Plutarch adds that Alexander later blamed the Macedonians’ refusal in India on the anger of Dionysus, which was a way of not blaming himself.",
+      questions: [
+        {
+          prompt:
+            "According to Diodorus, what did Alexander tell the Macedonians on his accession?",
+          choices: [
+            "That he would lead them at once into Asia.",
+            "That the king was changed only in name.",
+            "That Parmenion would rule beside him.",
+          ],
+          answer: 1,
+          explanation:
+            "Continuity was the first message to an army that had been Philip’s.",
+        },
+        {
+          prompt:
+            "On Ptolemy’s account in Arrian, how did the assault on Thebes begin?",
+          choices: [
+            "Perdiccas attacked without waiting for the signal, and Alexander followed to support him.",
+            "Alexander ordered an immediate storm on arrival.",
+            "The Thebans opened their gates.",
+          ],
+          answer: 0,
+          explanation:
+            "Diodorus has Alexander order it. Chinnock suspected Ptolemy of shielding the king.",
+        },
+        {
+          prompt:
+            "What advice did Antipater and Parmenion give before the crossing to Asia, according to Diodorus?",
+          choices: [
+            "To wait for the Persian fleet to disperse.",
+            "To produce an heir before so great an enterprise.",
+            "To leave Parmenion in command of Macedonia.",
+          ],
+          answer: 1,
+          explanation:
+            "Alexander refused, saying it would be a disgrace to wait for children with his father’s army ready.",
+        },
+      ],
+      sourceCheck: {
+        question: "Who began the assault that destroyed Thebes in 335 BCE?",
+        witnesses: [
+          {
+            label: "Arrian, citing Ptolemy",
+            claim:
+              "Perdiccas attacked the stockade without waiting for Alexander’s signal; Alexander then committed the army to support him.",
+          },
+          {
+            label: "Diodorus",
+            claim:
+              "Seeing his Macedonians tiring, Alexander sent in his reserve and then sent Perdiccas to seize a gate the guards had left.",
+          },
+        ],
+        prompt: "How should a historian weigh these accounts?",
+        options: [
+          {
+            text: "Trust Ptolemy, because he was there.",
+            feedback:
+              "Being there gives him knowledge; being Alexander’s companion and later a king gives him a reason to move the decision away from his master.",
+          },
+          {
+            text: "Note that Ptolemy’s version shifts responsibility from Alexander to an officer, and that the two accounts cannot both be right about who gave the order.",
+            feedback:
+              "Neither can be proved. The direction of each account’s convenience is itself evidence.",
+            best: true,
+          },
+          {
+            text: "Dismiss both, since neither author was neutral.",
+            feedback:
+              "They agree on the outcome and on Perdiccas’s part. They differ on whose decision it was.",
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Alexander told the army that only the name of the king had changed. When is promising continuity the right first move for a successor, and when does it store up trouble?",
+        guidance:
+          "Compare his accession with Hannibal’s years under Hasdrubal, and look ahead to Opis, where the veterans complained that the king they followed had become someone else.",
+      },
+      sources: [
+        s.dio17a,
+        s.a1_1,
+        s.a1_8,
+        s.a1_9,
+        s.plu3,
+        s.a1_11,
+        s.badianDarius,
+        s.a3_26,
+        s.livy,
+        s.polybius2,
+        s.a4_8,
+        s.a1_7,
+        s.arrianSources,
+      ],
+    },
+    {
       slug: "the-king-in-the-front-rank",
       title: "The king in the front rank",
       part: "The instrument",
@@ -623,6 +927,705 @@ export const alexanderVolume: LeadershipVolume = {
         s.hermalin,
         s.diary,
         s.a6_11,
+      ],
+    },
+    {
+      slug: "a-new-enemy-every-year",
+      title: "A new enemy every year: adapting the method",
+      part: "The instrument",
+      themes: ["adaptation", "judgement"],
+      claim:
+        "When a method has already won, it travels only if the leader keeps diagnosing each new enemy instead of repeating the last victory.",
+      inBrief: {
+        strength:
+          "Against horse archers, a walled pass and a guarded river, he found a different answer each time.",
+        shadow:
+          "In the Gedrosian desert the problem was terrain, not an enemy, and the army paid for it.",
+      },
+      moment: {
+        text: "In the spring of 326 BCE Alexander reached the Hydaspes and found Porus on the far bank with his whole army and a large troop of elephants, and guards posted at every place that could easily be forded. Arrian sets out the problem as Alexander saw it. A crossing where Porus stood was impossible: his army was drawn up to strike men as they came out of the water, and the horses would not land facing elephants, or even stay on the floats once they saw them, but would panic and leap into the river. The cavalry that had won at the Granicus could not simply be repeated.",
+        evidence: "fact",
+        refs: [
+          { source: 3, locator: "5.9" },
+          { source: 4, locator: "5.10" },
+          { source: 7, locator: "5.19" },
+        ],
+      },
+      episodes: [
+        {
+          title: "Horse archers on the Jaxartes",
+          text: "Scythian horsemen rode along the far bank of the Jaxartes, shooting into the river and taunting Alexander. Twice the sacrifices for a crossing were unfavourable, and the seer Aristander refused to read them otherwise. Alexander crossed anyway. Catapults on the bank drove the Scythians back from the water; archers and slingers went over first to cover the landing. The first cavalry he sent against them was ridden round in circles and shot at, as horse archers fought. He then mixed archers, Agrianians and other light infantry in among his cavalry, so that the Scythians could no longer wheel round them safely, and charged. They fled.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "4.4" }],
+          battleSlugs: ["jaxartes"],
+        },
+        {
+          title: "The wall across the Persian Gate",
+          text: "On the road to Persepolis Ariobarzanes, satrap of Persis, built a wall across the pass on the road to Persepolis. Alexander led his army straight at it. On the rugged ground, under missiles from engines on higher ground, many of his men were wounded, and he fell back to his camp. Prisoners told him of another route round. He left Craterus to attack the wall when trumpets sounded, marched by night along a rough, narrow track, fell on the Persian camp at dawn and broke the position from two sides. Badian calls the first repulse the only defeat Alexander is attested to have suffered at Persian hands.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "3.18" }, { source: 2 }],
+          battleSlugs: ["persian-gate"],
+        },
+        {
+          title: "Teaching Porus a habit",
+          text: "At the Hydaspes Alexander split his army and moved detachments up and down the bank. He gathered corn into his camp so that Porus would think he meant to wait until the river fell in winter. At night his cavalry raised war cries along the bank as if about to cross, and Porus marched his elephants to meet each noise. When nothing came of it, Porus concluded his fear was groundless, stayed in his camp, and left scouts to watch. Alexander then crossed at a wooded headland and island some distance from his camp, leaving Craterus in the main camp with orders that turned on one question: where Porus sent his elephants. In Arrian’s words, it was the elephants alone that made it impossible for the horses to land.",
+          evidence: "fact",
+          refs: [
+            { source: 3, locator: "5.9" },
+            { source: 4, locator: "5.10" },
+            { source: 5, locator: "5.11" },
+          ],
+          battleSlugs: ["hydaspes"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Arrian, from Ptolemy and Aristobulus",
+          stake:
+            "An admirer of the commander, writing from the memoirs of two of his officers.",
+          says: "After the Jaxartes Alexander fell ill from bad water; otherwise, Arrian thinks, all the Scythians would have perished in the flight.",
+          refs: [{ source: 0, locator: "4.4" }],
+        },
+        {
+          who: "Aristander the seer, as Arrian reports him",
+          stake:
+            "The king’s diviner, whose readings could license or forbid an action.",
+          says: "He refused to explain the will of the gods contrary to the signs simply because Alexander wished to hear something else.",
+          refs: [{ source: 0, locator: "4.4" }],
+        },
+        {
+          who: "Ernst Badian, in the Encyclopaedia Iranica",
+          stake: "A modern historian writing the Persian side of the war.",
+          says: "At the Persian Gate Ariobarzanes caught Alexander in a trap and inflicted the only defeat he is attested to have suffered at Persian hands.",
+          refs: [{ source: 2 }],
+        },
+        {
+          who: "Arrian on Porus",
+          stake: "Uses the Indian king’s courage to make a point about Darius.",
+          says: "Porus fought on while any body of his men held together, and did not leave the field, Arrian writes, as Darius the Great King did, setting an example of flight to his men.",
+          refs: [{ source: 6, locator: "5.18" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "The common thread is diagnosis before action. Each answer began from the enemy’s particular strength, the horse archers’ wheeling, a wall commanding a pass, elephants that would panic horses, and set out to deny that strength rather than meet it head on. At the Hydaspes the choice was taken without hindsight, with the rivers in flood: wait months for the water to fall, or steal a crossing. Alexander did both at once, letting Porus believe he would wait while he looked for a place to cross.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "4.4" },
+            { source: 4, locator: "5.10" },
+          ],
+        },
+        {
+          text: "The Persian Gate shows that the method included failing first. His first move there was the frontal one, and it cost him men. What followed was quick: he took information from prisoners, accepted a rough route, and divided his force with simple signals. Adapting did not mean being right the first time. It meant changing the plan once the ground had answered.",
+          evidence: "interpretation",
+          refs: [{ source: 1, locator: "3.18" }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Research distinguishes experts who apply a familiar routine from those who adapt to new problems, and the planned reading for this lesson rested on it. No source on that distinction could be read: the review found returned no abstract. The Napoleon volume’s lesson on rivals who learn used research on organisational learning and the traps of success, and this lesson does not repeat it.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No psychological source is offered, and the lesson draws no psychological conclusion.",
+        },
+      ],
+      shadow: {
+        text: "The method was built for enemies. In Gedrosia the enemy was the land. Arrian says most of Alexander’s historians thought nothing in Asia compared with the hardships of that march, and gives only Nearchus’s account of why he chose it: he had heard that no army had come safely through that desert except those of Semiramis and Cyrus, with a handful of survivors each, and wished to outdo them. On the march the soldiers killed and ate the pack animals and pretended they had died of thirst; the sick and the stragglers were left behind in the sand. A commander who diagnosed every army he met did not, on this account, diagnose a desert.",
+        evidence: "interpretation",
+        refs: [
+          { source: 8, locator: "6.24" },
+          { source: 9, locator: "6.25" },
+        ],
+      },
+      counterCase: {
+        text: "Porus adapted too, and his adaptation was the trap. He guarded the fords, met every threat at first, and then, when the night alarms came to nothing, learned to ignore them and keep his army in camp: a reasonable lesson drawn from experience that his opponent had arranged for him. When the real crossing came he was still facing the wrong place. He fought on bravely when the battle went against him, and Alexander, Arrian says, restored his kingdom and added more land to it. A leader who adapts to the pattern an opponent shows can be taught by that opponent.",
+        evidence: "interpretation",
+        refs: [
+          { source: 4, locator: "5.10" },
+          { source: 6, locator: "5.18" },
+          { source: 7, locator: "5.19" },
+        ],
+        commanderSlug: "porus",
+        battleSlugs: ["hydaspes"],
+      },
+      cost: {
+        text: "Arrian counts the enemy dead in these battles in thousands and Alexander’s in tens and hundreds; those figures served a victor’s story and are not used here. At the Persian Gate, he says, many of Ariobarzanes’s men died hurling themselves over the precipices in flight. At the Hydaspes two of Porus’s sons were among the dead. In Gedrosia a flash flood in the night destroyed most of the wives and children of the men who followed the army.",
+        evidence: "fact",
+        refs: [
+          { source: 1, locator: "3.18" },
+          { source: 6, locator: "5.18" },
+          { source: 9, locator: "6.25" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "Each new problem is studied for what makes it different before a familiar answer is applied.",
+          "Failure on a first attempt is treated as information and acted on quickly.",
+        ],
+        failsWhen: [
+          "The problem is not an opponent at all, and the habits built for opponents do not fit it.",
+          "You learn a pattern that someone else is showing you on purpose.",
+        ],
+        questions: [
+          "What made your last success work, and would it work against the next problem?",
+          "When did a first attempt last fail, and how quickly did you change the plan?",
+          "Which of your habits could a competitor be teaching you?",
+        ],
+      },
+      bearsOn:
+        "Between 329 and 326 Alexander’s military judgement shows no decline: the Hydaspes, fought months before the refusal, is among his most careful battles. Whatever stopped the army at the Hyphasis, it was not a failing commander in the field. That weakens the claim that he changed, at least as a soldier, and leaves aims and exhaustion as the stronger answers.",
+      questions: [
+        {
+          prompt:
+            "How did Alexander deal with the Scythian horse archers at the Jaxartes?",
+          choices: [
+            "He sent his heaviest cavalry against them alone.",
+            "He mixed light infantry and archers among his cavalry so the Scythians could not wheel round them.",
+            "He waited for them to attack his camp.",
+          ],
+          answer: 1,
+          explanation:
+            "His first cavalry attack was circled and shot at. Mixing light troops into the cavalry took away the horse archers’ advantage.",
+        },
+        {
+          prompt:
+            "What happened at Alexander’s first attack on the Persian Gate?",
+          choices: [
+            "The wall fell at once.",
+            "The Persians fled before the battle.",
+            "He was repulsed with many wounded, and turned the position by another route that prisoners showed him.",
+          ],
+          answer: 2,
+          explanation:
+            "Badian calls the repulse the only defeat Alexander is attested to have suffered at Persian hands.",
+        },
+        {
+          prompt:
+            "Why did Porus stop moving his army to meet the noises on the river bank at night?",
+          choices: [
+            "Because his scouts reported the crossing.",
+            "Because his elephants were exhausted.",
+            "Because repeated alarms came to nothing, and he concluded his fear was groundless.",
+          ],
+          answer: 2,
+          explanation:
+            "Alexander had trained him to ignore the alarms, then crossed elsewhere.",
+        },
+      ],
+      seminar: {
+        prompt:
+          "Porus learned from experience and was beaten by it. How would you tell a lesson learned from a lesson taught to you by an opponent?",
+        guidance:
+          "Ask who benefits from the pattern you are seeing, and what it would cost to keep responding to it. Compare the Hydaspes with the Persian Gate, where Alexander was the one who had to learn.",
+      },
+      sources: [
+        s.a4_4,
+        s.a3_18,
+        s.badianDarius,
+        s.a5_9,
+        s.a5_10,
+        s.a5_11,
+        s.a5_18,
+        s.a5_19,
+        s.a6_24,
+        s.a6_25,
+      ],
+    },
+    {
+      slug: "staying-at-tyre",
+      title: "Staying at Tyre: when persistence is the strategy",
+      part: "The instrument",
+      themes: ["judgement", "restraint"],
+      claim:
+        "When leaving an objective would undo the strategy, spending months on it can be right, and the same persistence becomes a liability once the reason has gone.",
+      inBrief: {
+        strength:
+          "He stayed at Tyre until it fell, and the Persian fleet lost its Phoenician bases.",
+        shadow:
+          "At Gaza the reason given was reputation: the harder the city looked, the more he wanted it.",
+      },
+      moment: {
+        text: "After Issus, Alexander asked to sacrifice to Heracles in the island city of Tyre. Arrian says the Tyrians voted to obey any other command but to admit no Persian or Macedonian into the city, thinking it the safest answer while the war’s outcome was uncertain. Diodorus adds their hopes: to please Darius, to draw Alexander into a long and difficult siege while Darius rebuilt his army, and to receive help from their colonists in Carthage. They trusted their walls and their island. Alexander sent the envoys back in a rage and called his officers to council.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "2.16" },
+          { source: 2, locator: "17.40" },
+        ],
+      },
+      episodes: [
+        {
+          title: "Two reasons for the same siege",
+          text: "Arrian gives Alexander a speech to his officers. Egypt cannot safely be invaded while Persia holds the sea, nor can he march after Darius with Tyre doubtful behind him and Greece restless. Take Tyre and Phoenicia falls, and with it the best part of the Persian fleet; Cyprus will follow, and with it command of the sea. The speech is Arrian’s composition, but the argument is a strategist’s. Diodorus gives a different reason: Alexander determined to run every risk to save the Macedonian army from being held in contempt by a single undistinguished city. One is a reason of strategy, the other of reputation, and the same siege could serve both.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "2.17" },
+            { source: 2, locator: "17.40" },
+          ],
+          battleSlugs: ["tyre"],
+        },
+        {
+          title: "The mole, the storm and the fleet",
+          text: "Alexander began a mole across the strait. Arrian says the work went fast in the shallows and slowly in deep water under missiles from the walls and attacks by Tyrian ships, and that Alexander himself led it, rousing the men with speeches and money. Diodorus says a gale wrecked much of the mole, that Alexander thought of giving up the siege, but driven by ambition had whole trees brought from the mountains to break the waves, and rebuilt. Then the sea changed hands. Hearing that their cities were Alexander’s, the kings of Aradus and Byblus brought their ships over, with the Sidonian triremes, and the kings of Cyprus followed. The Tyrians, Arrian says, were astonished at the size of the fleet that sailed against them. Plutarch and Diodorus put the siege at seven months; Badian writes that Tyre held out for nearly a year.",
+          evidence: "fact",
+          refs: [
+            { source: 3, locator: "2.18" },
+            { source: 2, locator: "17.42, 17.46" },
+            { source: 4, locator: "2.20" },
+            { source: 6, locator: "Alexander 24" },
+            { source: 7 },
+          ],
+          battleSlugs: ["tyre"],
+        },
+        {
+          title: "Gaza",
+          text: "Gaza, held by the eunuch Batis with Arab mercenaries, refused to admit Alexander on his way to Egypt. Arrian says the engineers judged its wall impossible to take by force because of the height of its mound. The more impracticable it seemed, he writes, the more resolutely Alexander determined that it must be captured, because success against expectation would alarm his enemies, while failure would be a disgrace before the Greeks and Darius. He built a mound round the city, was wounded through shield and breastplate, brought the engines from Tyre by sea, and took the city at the fourth assault. Diodorus gives the siege two months.",
+          evidence: "fact",
+          refs: [
+            { source: 13, locator: "2.25" },
+            { source: 9, locator: "2.26" },
+            { source: 10, locator: "2.27" },
+            { source: 2, locator: "17.48" },
+          ],
+          battleSlugs: ["gaza-332-bce"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Alexander, in the speech Arrian wrote for him",
+          stake:
+            "A composition by a second-century historian, giving the king the strongest strategic case.",
+          says: "Take Tyre, and the Phoenician fleet, the best part of the Persian navy, will have no reason to fight for others; with it will come the sea, and Egypt.",
+          refs: [{ source: 1, locator: "2.17" }],
+        },
+        {
+          who: "Diodorus, from the vulgate",
+          stake: "A tradition that liked to show the king’s passions at work.",
+          says: "After the storm Alexander thought of abandoning the siege, but was driven on by ambition.",
+          refs: [{ source: 2, locator: "17.42" }],
+        },
+        {
+          who: "The Tyrians, as Diodorus reports them",
+          stake:
+            "Defenders reasoning about a war whose outcome they could not know.",
+          says: "They would please Darius, buy him time by a long siege, and look to Carthage for help.",
+          refs: [{ source: 2, locator: "17.40" }],
+        },
+        {
+          who: "Ernst Badian, in the Encyclopaedia Iranica",
+          stake:
+            "Writes from the Persian side about what Darius did meanwhile.",
+          says: "While Persia’s allies waited for Darius to counter-attack, with Tyre holding out for nearly a year, the king began negotiating for a settlement.",
+          refs: [{ source: 7 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Without hindsight, the case for staying was real. The Persian fleet was still at sea, Greece was unsettled, and Tyre was a fleet base on Alexander’s line to Egypt. Yet the siege achieved its strategic aim partly before the city fell: the Phoenician and Cyprian squadrons came over once their own cities were in Alexander’s hands, and that, more than the mole, gave him the sea. From that point the reason in Arrian’s speech was largely met. The reason in Diodorus, not to be defied by one city, was not, and the siege went on to the end.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "2.17" },
+            { source: 4, locator: "2.20" },
+            { source: 2, locator: "17.40" },
+          ],
+        },
+        {
+          text: "Napoleon left Acre after about two months; Alexander stayed at Tyre. The Napoleon volume asks whether that was judgement or outcome. Here the difference lies in the sea. At Acre the defenders were resupplied by sea under British command, and half of Napoleon’s siege guns had been captured on the way. At Tyre the sea passed to the besieger. A decision to persist is only as good as the condition that makes persistence pay, and that condition can change in either direction while the siege goes on.",
+          evidence: "interpretation",
+          refs: [{ source: 11 }, { source: 4, locator: "2.20" }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "The Napoleon volume’s lesson on knowing when to stop examined escalation of commitment, the tendency to keep investing in a failing course, and found the research contested. Tyre did not fail, so the concept would fit it badly in any case. Diodorus’s word for what kept Alexander going after the storm is ambition, and the lesson leaves it as his word.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No psychological source is offered, and the lesson draws no psychological conclusion.",
+        },
+      ],
+      shadow: {
+        text: "At Gaza the strategic reason had thinned and the reason given was reputation: the engineers’ verdict that the wall could not be taken became, in Arrian’s telling, the reason to take it. The same persistence later held the army in Bactria and Sogdiana. Briant describes the advance halted between 330 and 327 by organised resistance under Spitamenes and a general revolt, answered by military colonies and a levy of young men who served as soldiers and hostages. Persistence there had reasons, since the rear could not be left in revolt, but it cost years of the soldiers’ labour.",
+        evidence: "interpretation",
+        refs: [{ source: 9, locator: "2.26" }, { source: 8 }],
+      },
+      counterCase: {
+        text: "At Acre in 1799 Napoleon besieged an Ottoman city from 18 March to 20 May. Britannica’s account records the British capture of a flotilla carrying half his siege guns, defences improved by Sidney Smith and a French émigré officer, an Ottoman relief army beaten at Mount Tabor, and assaults in May that broke through the walls only to find new defences behind them. Acre was resupplied by sea while disease spread in the French camp and the wounded could not be evacuated past the blockade. Napoleon accepted defeat reluctantly and marched back to Egypt. The same will to persist met a city that could not be cut off.",
+        evidence: "fact",
+        refs: [{ source: 11 }],
+        commanderSlug: "napoleon-bonaparte",
+        battleSlugs: ["acre"],
+      },
+      cost: {
+        text: "Arrian says the Macedonians entered Tyre enraged by the length of the siege and by the Tyrians’ killing of captured Macedonians on the wall in sight of the camp, and the slaughter was great. Those who took refuge in the temple of Heracles, among them the king and Carthaginian envoys, were spared; the rest were sold into slavery. Diodorus says the men of military age were crucified, a detail Lendering notes is known only from the vulgate; many non-combatants had been sent to Carthage before the city was cut off. At Gaza the defenders died at their posts, and Alexander sold their wives and children into slavery.",
+        evidence: "fact",
+        refs: [
+          { source: 5, locator: "2.24" },
+          { source: 2, locator: "17.41, 17.46" },
+          { source: 12 },
+          { source: 10, locator: "2.27" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "Leaving the objective would undo the purpose it serves.",
+          "The conditions that make persistence pay are within reach, and you are watching whether they still hold.",
+        ],
+        failsWhen: [
+          "The original reason has been met by other means, and the effort continues for its own sake.",
+          "The difficulty itself becomes the reason to go on.",
+        ],
+        questions: [
+          "What would have to be true for your current long effort to pay off, and is it still true?",
+          "If the goal were already met another way, would you notice?",
+          "Which of your reasons for continuing would you give in public, and which would you not?",
+        ],
+      },
+      bearsOn:
+        "Tyre shows the army following through months of heavy labour, with the king at the work himself, and that labour was part of what Arrian, at the Hyphasis, calls the king raising one labour after another. The cost of persistence fell first on Tyre and Gaza. It also accumulated in the soldiers, which supports exhaustion as an answer and shows how it was earned.",
+      questions: [
+        {
+          prompt:
+            "What reason does Diodorus give for Alexander’s determination to take Tyre?",
+          choices: [
+            "To capture the treasury of Darius.",
+            "To save the Macedonian army from being held in contempt by a single undistinguished city.",
+            "To free Greek prisoners held there.",
+          ],
+          answer: 1,
+          explanation:
+            "Arrian’s speech gives a strategic reason; Diodorus a reason of reputation.",
+        },
+        {
+          prompt:
+            "What changed the naval balance during the siege, according to Arrian?",
+          choices: [
+            "The Phoenician and Cyprian squadrons came over to Alexander once their own cities were his.",
+            "A Macedonian fleet arrived from Greece.",
+            "The Tyrian fleet was destroyed by a storm.",
+          ],
+          answer: 0,
+          explanation:
+            "The defection achieved much of the siege’s strategic purpose before the city fell.",
+        },
+        {
+          prompt: "Why does the lesson compare Tyre with Napoleon at Acre?",
+          choices: [
+            "Because both sieges lasted exactly as long.",
+            "Because at Acre the defenders were supplied by sea, while at Tyre the sea passed to the besieger.",
+            "Because both commanders were wounded.",
+          ],
+          answer: 1,
+          explanation:
+            "Persistence pays only while the condition that makes it pay holds.",
+        },
+      ],
+      sourceCheck: {
+        question: "Why did Alexander besiege Tyre?",
+        witnesses: [
+          {
+            label: "Arrian, in a speech he composed",
+            claim:
+              "To deny the Persian fleet its bases, win the Phoenician navy and secure the sea before invading Egypt.",
+          },
+          {
+            label: "Diodorus",
+            claim:
+              "To save the army from being held in contempt by one undistinguished city; after the storm he went on, driven by ambition.",
+          },
+        ],
+        prompt: "What can the historian conclude?",
+        options: [
+          {
+            text: "That the strategic reason is the true one, because it is more intelligent.",
+            feedback:
+              "It is the more impressive reason, which is why a historian composing a speech would choose it. That does not make it the motive.",
+          },
+          {
+            text: "That both reasons may have been at work, and that the strategic one was largely met when the fleets defected, while the siege continued.",
+            feedback:
+              "The sequence of events lets you test each reason against what happened next.",
+            best: true,
+          },
+          {
+            text: "That Diodorus is wrong, because the vulgate is unreliable.",
+            feedback:
+              "Lendering calls the vulgate certainly not a bad source. A dramatising tradition can still report a real motive.",
+          },
+        ],
+        battleSlug: "tyre",
+      },
+      seminar: {
+        prompt:
+          "Alexander stayed at Tyre and won; Napoleon left Acre and lost Syria. Was either decision right, and how would you know before the outcome?",
+        guidance:
+          "List what each could know about the sea, his siege train and the relieving forces at the moment of decision. Then ask what would have had to change for the other choice to be right.",
+      },
+      sources: [
+        s.a2_16,
+        s.a2_17,
+        s.dio17c,
+        s.a2_18,
+        s.a2_20,
+        s.a2_24,
+        s.plu4,
+        s.badianDarius,
+        s.briant,
+        s.a2_26,
+        s.a2_27,
+        s.acre,
+        s.vulgate,
+        s.a2_25,
+      ],
+    },
+    {
+      slug: "parmenions-advice",
+      title:
+        "Parmenion’s advice: when the record makes the adviser always wrong",
+      part: "The consent of the army",
+      themes: ["judgement", "communication"],
+      claim:
+        "When a record shows one adviser always wrong and the leader always right, suspect the record before the adviser, and ask who needed it that way.",
+      inBrief: {
+        strength:
+          "He heard his senior general’s objections, and often answered them with reasons.",
+        shadow:
+          "The record that preserves Parmenion’s advice was written after Alexander had him killed.",
+      },
+      moment: {
+        text: "Philotas, Parmenion’s son, was convicted before the Macedonians of having heard of a plot against Alexander and said nothing, and was killed with javelins. A Companion, Polydamas, was sent to Media with letters to the generals serving under Parmenion, and they put him to death. Arrian gives two possible reasons: Alexander thought it incredible that the son would plot without the father, or thought that the father would be dangerous if he survived his son’s execution. Arrian adds that Parmenion was held in very great respect by Alexander and by the whole army, Macedonians and Greek allies alike. Most of what survives about his advice was written by men who served the king who ordered his death.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "3.26" }],
+      },
+      episodes: [
+        {
+          title: "Four times wrong",
+          text: "In Arrian, Parmenion advises waiting for dawn at the Granicus, and Alexander attacks at once and wins. At Miletus he urges a sea battle, reading an eagle on the shore as a good omen and offering to sail himself; Alexander answers that a small, unpractised fleet should not fight a larger, skilled one, and reads the eagle on land as a sign he will beat the Persian fleet from the land. When Darius offers territory, money and his daughter, Parmenion is said to have told Alexander he would accept if he were Alexander, and Alexander is said to have answered that so would he, if he were Parmenion. Before Gaugamela it is said that Parmenion urged a night attack, and Alexander answered in others’ hearing that it would be mean to steal a victory. Plutarch tells the Granicus, the offer and the night attack in the same way.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "1.13" },
+            { source: 3, locator: "1.18" },
+            { source: 4, locator: "2.25" },
+            { source: 5, locator: "3.10" },
+            { source: 12, locator: "Alexander 16" },
+            { source: 6, locator: "Alexander 29, 31" },
+          ],
+          battleSlugs: ["granicus", "gaugamela"],
+        },
+        {
+          title: "Once right, and once followed",
+          text: "The pattern is not complete even in Arrian. At Persepolis Parmenion advised Alexander to spare the Persian palace, because it was now his own property and because the peoples of Asia would think he meant only to conquer and leave. Alexander burned it in revenge for Xerxes’s invasion of Greece, and Arrian, who usually defends him, says he did not act with prudence. And in Diodorus’s account of the Granicus the army camps opposite the Persians and crosses at dawn before they can stop it: the plan Arrian gives to Parmenion, carried out by Alexander without comment.",
+          evidence: "fact",
+          refs: [
+            { source: 7, locator: "3.18" },
+            { source: 2, locator: "17.19" },
+          ],
+          battleSlugs: ["persian-gate"],
+          campaignSlugs: ["macedonian-invasion-of-persia"],
+        },
+        {
+          title: "Sluggish at Gaugamela?",
+          text: "Plutarch says Parmenion twice sent riders during Gaugamela asking Alexander for help, once fearing for the camp and baggage, and that there is a general complaint that in that battle he was sluggish and inefficient: either old age was sapping his courage, or he was envious and resentful of what Callisthenes called the arrogance and pomp of Alexander’s power. Badian’s account of the battle has the Persian cavalry fight successfully, as planned, against Alexander’s left, which Parmenion commanded, while Alexander broke the Persian centre. A wing under heavy pressure that asks for help is not obviously a sluggish one.",
+          evidence: "interpretation",
+          refs: [{ source: 6, locator: "Alexander 32–33" }, { source: 8 }],
+          battleSlugs: ["gaugamela"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Arrian, from Ptolemy and Aristobulus",
+          stake:
+            "His sources were Alexander’s officers; Ptolemy published his memoirs, Lendering suggests, between about 310 and 301, long after Parmenion’s death.",
+          says: "Parmenion is said to have given the advice; Alexander’s answers come with reasons, and Arrian commends most of them.",
+          refs: [
+            { source: 4, locator: "2.25" },
+            { source: 5, locator: "3.10" },
+            { source: 9 },
+          ],
+        },
+        {
+          who: "Plutarch, quoting Callisthenes",
+          stake:
+            "Plutarch reports a complaint without naming its authors, and borrows only a phrase from Callisthenes.",
+          says: "There was a general complaint that Parmenion was sluggish at Gaugamela, from age or envy of the arrogance and pomp of Alexander’s power.",
+          refs: [{ source: 6, locator: "Alexander 33" }],
+        },
+        {
+          who: "Ernst Badian, in the Encyclopaedia Iranica",
+          stake:
+            "A modern historian sceptical of the documents in the Greek sources.",
+          says: "The documents quoted in the Greek sources are as usual fictitious; it is said that Parmenion advised accepting Darius’s offer, but Alexander could not easily do so.",
+          refs: [{ source: 8 }],
+        },
+        {
+          who: "Diodorus, from the vulgate",
+          stake:
+            "A different tradition from Arrian’s, with no stake in Parmenion either way.",
+          says: "At the Granicus the army camped and crossed at dawn.",
+          refs: [{ source: 2, locator: "17.19" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged on the arguments as Arrian gives them, the advice was often sound and Alexander’s answers were often better. At Miletus his reasons against a sea battle are strong. On Darius’s offer Badian explains why Alexander could not easily accept: with the hostages returned and peace made, he would have had to go home and guard a long frontier while Darius chose his moment. On the night attack Arrian commends Alexander’s reasons, while Badian judges that a night attack would have overwhelmed the Persians, who stood to arms all night. The advice is mixed. It is the record that is uniform.",
+          evidence: "interpretation",
+          refs: [
+            { source: 3, locator: "1.18" },
+            { source: 8 },
+            { source: 5, locator: "3.10" },
+          ],
+        },
+        {
+          text: "A leader loses something when an adviser becomes a foil. A senior general who has commanded under the leader’s father, and who is respected by the whole army, is the person most able to say what others will not. In the record his role is to be answered. Whether that was how Alexander used him in life, or how later writers shaped the story after his execution, the strategist cannot tell. The point stands either way: a record built from the leader’s side will make the leader’s choices look like the only good ones.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "3.26" }, { source: 9 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Authentic dissent and the devil’s advocate",
+          base: "single study",
+          text: "Nemeth, Brown and Rogers compared groups given an authentic dissenter with groups given a devil’s advocate playing a role, and found the authentic minority superior to every form of devil’s advocate in the quantity and quality of solutions; an earlier study had found that the devil’s advocate mainly led people to bolster their first view. Parmenion, as the sources describe him, was an authentic dissenter: he meant what he said and offered to share the risk. The record turns him into something closer to a role, a voice whose purpose is to be refuted. If the research is right, a leader gains most from dissent that is genuine and taken seriously, whether or not the dissenter turns out to be right.",
+          evidence: "interpretation",
+          refs: [{ source: 10 }],
+          limit:
+            "Only the abstract was read. It reports experiments with small groups solving problems, not a king and his generals, and Parmenion’s advice may itself be the historians’ construction.",
+        },
+      ],
+      shadow: {
+        text: "Parmenion’s death removed the one man the army respected as much as the king. Arrian’s second possible reason, that the father would be dangerous once the son had been executed, describes a court in which a general’s standing could become a threat to him. Who advised Alexander after that, and what frankness cost, is the subject of the lesson on Philotas, Cleitus and Callisthenes.",
+        evidence: "interpretation",
+        refs: [{ source: 0, locator: "3.26" }],
+      },
+      counterCase: {
+        text: "After Cannae, Livy says, Hannibal’s officers urged him to rest his exhausted army, but Maharbal, his cavalry commander, told him to follow at once: in five days he would feast on the Capitol. Hannibal praised his zeal and said he needed time to weigh it. Maharbal answered that the gods had not given everything to one man: Hannibal knew how to win a victory but not how to use it. That day’s delay, Livy writes, is firmly believed to have saved the city and the empire. Here the adviser is remembered as right, and the leader as the one who failed. The record was written by Romans, for whom Hannibal’s hesitation was part of how Rome survived.",
+        evidence: "interpretation",
+        refs: [{ source: 11, locator: "22.51" }],
+        commanderSlug: "hannibal-barca",
+        battleSlugs: ["cannae"],
+      },
+      cost: {
+        text: "Philotas and those convicted with him were killed by the Macedonians with javelins, and Parmenion by officers he had commanded, on the king’s letters. At Persepolis, where Arrian thought Parmenion right, the palace of the Persian kings was burned.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "3.26" },
+          { source: 7, locator: "3.18" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "The account of past decisions comes from the decision-maker’s side.",
+          "One adviser appears in every story as the person who was wrong.",
+        ],
+        failsWhen: [
+          "Independent accounts confirm the pattern. Some advisers are often wrong.",
+          "Suspicion of the record becomes an excuse to rehabilitate anyone who lost.",
+        ],
+        questions: [
+          "Whose objections in your organisation are remembered only as the views that were overruled?",
+          "Do the people who disagree with you mean it, or are they playing a role you have given them?",
+          "If your senior adviser wrote the history of your decisions, how would it differ?",
+        ],
+      },
+      bearsOn:
+        "Parmenion was the old army’s senior voice. His killing, after the conviction of his son, is the first sign in this volume of a court where frankness costs, which supports the answer that Alexander changed. But the stories that show his advice ignored were written by the winners after his death, so the evidence for that answer is partly the record’s own shape.",
+      questions: [
+        {
+          prompt:
+            "Where does Arrian himself say that Alexander was wrong to reject Parmenion’s advice?",
+          choices: [
+            "At the Granicus.",
+            "At Persepolis, where Parmenion advised sparing the palace.",
+            "Before Gaugamela.",
+          ],
+          answer: 1,
+          explanation:
+            "Arrian says Alexander did not act with prudence in burning the palace.",
+        },
+        {
+          prompt:
+            "How does Arrian introduce Parmenion’s advice on Darius’s offer and on the night attack?",
+          choices: [
+            "As quotations from Parmenion’s own letters.",
+            "With “it is said”, as reports he does not vouch for.",
+            "As things he saw himself.",
+          ],
+          answer: 1,
+          explanation:
+            "Both famous exchanges are marked as traditions, not as facts from his main sources.",
+        },
+        {
+          prompt:
+            "What did Nemeth, Brown and Rogers find about authentic dissent?",
+          choices: [
+            "That a devil’s advocate works as well as a real dissenter.",
+            "That an authentic minority produced better solutions than every form of devil’s advocate.",
+            "That dissent always lowers a group’s performance.",
+          ],
+          answer: 1,
+          explanation:
+            "Role-played dissent tended to make people bolster their first view.",
+        },
+      ],
+      sourceCheck: {
+        question: "Was Parmenion sluggish at Gaugamela?",
+        witnesses: [
+          {
+            label: "Plutarch",
+            claim:
+              "There was a general complaint that he was sluggish and inefficient, from age or from envy of Alexander’s arrogance and pomp, in Callisthenes’s words.",
+          },
+          {
+            label: "Ernst Badian",
+            claim:
+              "The Persian cavalry fought successfully, as planned, against the Macedonian left under Parmenion, while Alexander broke the centre.",
+          },
+        ],
+        prompt: "How should the historian read Plutarch’s report?",
+        options: [
+          {
+            text: "As established fact, since Plutarch calls the complaint general.",
+            feedback:
+              "A general complaint has authors, and Plutarch names only Callisthenes, and only for a phrase.",
+          },
+          {
+            text: "As a complaint from Alexander’s side that may reflect Parmenion’s later fall, set against an account in which his wing was under the heaviest pressure.",
+            feedback:
+              "The complaint is evidence of what was said about him. Badian’s account suggests another explanation for his calls for help.",
+            best: true,
+          },
+          {
+            text: "As proof that Parmenion was disloyal.",
+            feedback:
+              "Neither source says so. Envy is offered as one explanation among two, by people with reasons to offer it.",
+          },
+        ],
+        battleSlug: "gaugamela",
+      },
+      seminar: {
+        prompt:
+          "Parmenion is remembered as wrong and Maharbal as right. What would each record look like if the other side had written it?",
+        guidance:
+          "Ask who wrote each account, when, and what they needed the adviser to be. Then ask what Alexander and Hannibal could actually know when they decided.",
+      },
+      sources: [
+        s.a3_26,
+        s.a1_13,
+        s.dio17b,
+        s.a1_18,
+        s.a2_25,
+        s.a3_10,
+        s.plu4,
+        s.a3_18,
+        s.badianDarius,
+        s.arrianSources,
+        s.nemeth,
+        s.livy,
+        s.plu3,
       ],
     },
     {

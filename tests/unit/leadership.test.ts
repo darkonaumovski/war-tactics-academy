@@ -123,7 +123,11 @@ it("lists the Alexander lessons written so far in curriculum order", () => {
   expect(alexander?.inProgress).toBeTruthy();
   expect(alexander?.lessons.map((l) => l.slug)).toEqual([
     "how-to-read-alexander",
+    "a-borrowed-army",
     "the-king-in-the-front-rank",
+    "a-new-enemy-every-year",
+    "staying-at-tyre",
+    "parmenions-advice",
     "the-river-they-would-not-cross",
   ]);
 });
@@ -161,10 +165,17 @@ describe("links from the rest of the site", () => {
     const slugs = lessonsForBattle("borodino").map((x) => x.lesson.slug);
     expect(slugs).toContain("the-last-reserve");
     expect(slugs).toContain("who-can-tell-you-no");
-    expect(lessonsForBattle("cannae")).toEqual([]);
+    expect(lessonsForBattle("midway")).toEqual([]);
+    expect(lessonsForBattle("cannae").map((x) => x.lesson.slug)).toEqual([
+      "parmenions-advice",
+    ]);
     expect(
       lessonsForBattle("granicus").map((x) => x.volume.commanderSlug),
-    ).toEqual(["alexander-the-great", "alexander-the-great"]);
+    ).toEqual([
+      "alexander-the-great",
+      "alexander-the-great",
+      "alexander-the-great",
+    ]);
   });
 
   it("finds a commander’s volume and counter-case lessons", () => {

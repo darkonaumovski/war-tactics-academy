@@ -933,4 +933,140 @@ export const scenarios: Scenario[] = [
       },
     ],
   },
+  {
+    slug: "raise-the-siege",
+    title: "Raise the siege of Mantua?",
+    battleSlug: "castiglione",
+    commander: "Napoleon Bonaparte",
+    situation:
+      "30 July 1796, before Mantua. Wurmser, the veteran Austrian marshal, is coming down the Adige east of Lake Garda to relieve the fortress, while Quasdanovich comes down the western side of the lake. Their columns have driven in your posts at La Corona and Monte Baldo and taken Brescia, threatening your communications. Much of your army is tied to the cordon round Mantua.",
+    known:
+      "Lake Garda separates the two Austrian columns, so they cannot yet support each other. You have written that the situation is decidedly critical. Your siege equipment is in the lines before the fortress.",
+    unknown:
+      "How soon the two columns can unite, and whether the siege equipment could be got away in time if you wait.",
+    historical:
+      "Bonaparte lifted the siege on 30 July, abandoning the siege equipment, and turned on Quasdanovich, whose columns were beaten around Lonato, Salò and Brescia. On 5 August he attacked Wurmser at Castiglione and drove him back toward Trent. The siege was resumed on 7 August without its equipment, and Mantua held out until early 1797.",
+    options: [
+      {
+        text: "Hold the siege lines and meet the Austrians with the troops you can spare.",
+        feedback:
+          "This keeps the siege, but with much of the army in cordon posts you would face two converging columns with part of your force. Wurmser's biography says he believed the siege would keep Bonaparte pinned, which is what this choice would do. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Withdraw the siege equipment first, then march against the Austrian columns.",
+        feedback:
+          "Gouvion Saint-Cyr later argued that the equipment could have been withdrawn in time, and that its loss tied the army to Mantua for months. The Fondation Napoléon judges the decision Bonaparte took consistent with his principles. Whether the time existed is not settled by the sources. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Lift the siege at once, abandon the equipment, and strike each column before they unite.",
+        feedback:
+          "This matches the historical decision. Concentrating between the columns let Bonaparte beat Quasdanovich and then Wurmser separately, but the siege equipment was lost, and whether that price was necessary is still debated.",
+        historical: true,
+      },
+    ],
+  },
+  {
+    slug: "stop-at-smolensk",
+    title: "Stop at Smolensk?",
+    battleSlug: "smolensk-1812",
+    commander: "Napoleon Bonaparte",
+    situation:
+      "August 1812, in the ruins of Smolensk. Your army took the city, but the Russians withdrew across the Dnieper by night, burning the bridges, and their main army escaped again after the fight at Valutina. You have halted in the city to organise supplies and hospitals.",
+    known:
+      "You expected the campaign to be over within thirty days. Long marches and supply failures, more than combat, have worn down your army, above all its horses. At Vitebsk you spoke of digging in, resting the troops and raising Poland before choosing between Moscow and St Petersburg. Before the war Alexander said he would not accept a dictated peace.",
+    unknown:
+      "Whether the Russians will stand and fight before Moscow, or go on trading ground for time.",
+    historical:
+      "Napoleon left Smolensk on 25 August and continued east. Barclay was replaced by Kutuzov, who fought at Borodino on 7 September and then gave up Moscow. The Russians refused to come to terms, and in October the army began its retreat.",
+    options: [
+      {
+        text: "Winter at Smolensk, organise the rear and resume the campaign in spring.",
+        feedback:
+          "Napoleon had proposed a halt of this kind at Vitebsk, and Caulaincourt applauded it. It gives up the hope of a quick decision and leaves the Tsar time; whether Alexander would then negotiate is unknown. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "March on toward Moscow in search of the decisive battle.",
+        feedback:
+          "This matches the historical decision. Kutuzov gave him the battle at Borodino, but the Russian army survived it, and Moscow brought no peace. Each step east lengthened the road back.",
+        historical: true,
+      },
+      {
+        text: "Offer peace to Alexander from Smolensk and wait for his answer.",
+        feedback:
+          "Alexander had told Caulaincourt before the war that he would withdraw to Kamchatka sooner than sign a treaty in his own capital that would be no more than a truce. Waiting would cost the same time as wintering without its preparations. A counterfactual.",
+        historical: false,
+      },
+    ],
+  },
+  {
+    slug: "which-road-home",
+    title: "Which road home?",
+    battleSlug: "maloyaroslavets",
+    commander: "Napoleon Bonaparte",
+    situation:
+      "Evening of 25 October 1812, near Maloyaroslavets. The town is in French hands after changing hands repeatedly, but Kutuzov's army stands behind it across the road to Kaluga. This morning Cossacks nearly captured you while you inspected the Russian positions. Your marshals are with you.",
+    known:
+      "The army left Moscow on 19 October in a long column slowed by poorly clad men, weak horses and wagons of loot. You meant to reach Smolensk by way of Kaluga, through fertile country untouched by the war. Most of the marshals advise against another battle. Davout argues for the southern route; Murat favours going back by Mozhaisk.",
+    unknown:
+      "Whether Kutuzov would fight again or fall back, and how much more the army can bear so far from its depots.",
+    historical:
+      "On 26 October the army turned back toward Borovsk and the Mozhaisk road, the way it had come, through country already stripped bare. Ganière presents the decision as the start of the disaster.",
+    options: [
+      {
+        text: "Turn back to the Mozhaisk road, the way the army came.",
+        feedback:
+          "This matches the historical decision, which Murat favoured. It took the army out of Kutuzov's reach, but along a road that had become a desert, and Ganière presents it as the start of the disaster.",
+        historical: true,
+      },
+      {
+        text: "Attack Kutuzov again and force the road to Kaluga.",
+        feedback:
+          "This would keep to the original plan through intact country, but it means another battle with an army already slowed and short of horses, and most of the marshals advised against it. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Take the southern road to Smolensk, as Davout urges.",
+        feedback:
+          "Davout argued that it was shorter and ran through intact country. It would also have kept the army closer to Kutuzov, which Ganière says Napoleon had resolved to avoid. Whether it would have saved the army cannot be known. A counterfactual.",
+        historical: false,
+      },
+    ],
+  },
+  {
+    slug: "one-bridge-out",
+    title: "One bridge out of Leipzig",
+    battleSlug: "leipzig",
+    commander: "Napoleon Bonaparte",
+    situation:
+      "Evening of 18 October 1813. After nine hours of assaults from north and south, your army has been pushed back into the suburbs of Leipzig. Two Saxon divisions and the Württemberg cavalry changed sides during the day. Bennigsen and Bernadotte arrived during yesterday's lull, so the Allied armies are now together.",
+    known:
+      "Ammunition is running short. Bavaria has joined the Allies, and the Confederation of the Rhine is breaking up behind you. The road west crosses the Elster by a single bridge.",
+    unknown:
+      "How long a rearguard can hold the city, and how hard the Allies will press once the retreat begins.",
+    historical:
+      "At 2 a.m. on 19 October Napoleon began the retreat west over the Elster bridge. At 1 p.m. a corporal blew it up while it was still crowded with French troops, trapping the rearguard and the wounded in Leipzig; Poniatowski died trying to cross the river on horseback. The sources disagree over whether the bridge was under fire at the time.",
+    options: [
+      {
+        text: "Fight on around the city for another day.",
+        feedback:
+          "With ammunition short, allies changing sides during the battle and the Allied armies now united, the sources give little reason to expect a better result than on the 18th. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Delay the retreat until more crossings over the Elster are ready.",
+        feedback:
+          "More crossings would have reduced the dependence on one bridge, but they would have cost time the Allies were using to close in, and the sources read do not say whether it could have been done. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Retreat west by night over the Elster bridge, with a rearguard holding the city.",
+        feedback:
+          "This matches the historical decision. It brought much of the army away, but everything depended on one bridge, and its early destruction turned a defeat into a disaster.",
+        historical: true,
+      },
+    ],
+  },
 ];

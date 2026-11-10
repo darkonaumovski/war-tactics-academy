@@ -440,7 +440,10 @@ test("a leadership lesson shows its three readings and saves progress", async ({
     .getByRole("link", { name: "Leadership Lessons", exact: true })
     .click();
   await expect(page).toHaveURL(/\/leadership\/$/);
-  await page.getByRole("link", { name: /Open this volume/ }).click();
+  await page
+    .getByRole("link", { name: /Open this volume/ })
+    .first()
+    .click();
   await expect(
     page.getByText("Did Napoleon get worse, or did the problem get harder?"),
   ).toBeVisible();
@@ -502,6 +505,36 @@ test("leadership lessons are linked from the hub, profiles, studies and search",
   await expect(
     page.getByRole("link", { name: /Who can tell you no\?/ }),
   ).toBeVisible();
+});
+test("the Alexander volume is listed and linked while it is being written", async ({
+  page,
+}) => {
+  await page.goto("/leadership");
+  await expect(
+    page.getByRole("heading", {
+      name: "Leadership Lessons from Alexander the Great",
+    }),
+  ).toBeVisible();
+  await page.goto("/leadership/alexander-the-great");
+  await expect(
+    page.getByText(
+      "Did his army stop following him, or did he stop leading it?",
+    ),
+  ).toBeVisible();
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(4);
+  await page.goto("/commanders/alexander-the-great");
+  await expect(
+    page.getByRole("link", {
+      name: /Leadership Lessons from Alexander the Great/,
+    }),
+  ).toBeVisible();
+  await page.goto("/battles/hydaspes");
+  await page
+    .getByRole("link", { name: /The river they would not cross/ })
+    .click();
+  await expect(page).toHaveURL(
+    /\/leadership\/alexander-the-great\/the-river-they-would-not-cross\/$/,
+  );
 });
 test("extended learning paths are listed and their lessons persist progress", async ({
   page,
@@ -919,6 +952,9 @@ for (const route of [
   "/leadership/napoleon-bonaparte/plan-for-being-wrong",
   "/leadership/napoleon-bonaparte/words-that-win-and-words-that-spend-trust",
   "/leadership/napoleon-bonaparte/the-bottleneck",
+  "/leadership/alexander-the-great",
+  "/leadership/alexander-the-great/how-to-read-alexander",
+  "/leadership/alexander-the-great/the-river-they-would-not-cross",
 ])
   test(`accessibility: ${route}`, async ({ page }) => {
     // axe takes 30 to 50 seconds on the 127-card catalog in every engine.

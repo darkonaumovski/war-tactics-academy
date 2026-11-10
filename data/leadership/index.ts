@@ -1,6 +1,10 @@
 import type { LeadershipLesson, LeadershipVolume } from "../../lib/types";
+import { alexanderVolume } from "./alexander-the-great";
 import { napoleonVolume } from "./napoleon";
-export const leadershipVolumes: LeadershipVolume[] = [napoleonVolume];
+export const leadershipVolumes: LeadershipVolume[] = [
+  napoleonVolume,
+  alexanderVolume,
+];
 export type LessonLink = { volume: LeadershipVolume; lesson: LeadershipLesson };
 const allLessons: LessonLink[] = leadershipVolumes.flatMap((volume) =>
   volume.lessons.map((lesson) => ({ volume, lesson })),

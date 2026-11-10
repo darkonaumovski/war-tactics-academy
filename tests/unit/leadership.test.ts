@@ -5,7 +5,6 @@ import {
   lessonsForBattle,
   volumeForCommander,
 } from "../../data/leadership";
-import { alexanderVolume } from "../../data/leadership/alexander-the-great";
 import { battles, campaigns } from "../../data/catalog";
 import commanders from "../../data/commanders.json";
 import { leadershipVolumeSchema } from "../../lib/validation";
@@ -86,6 +85,7 @@ describe("leadership volumes", () => {
   it("are valid and belong to known commanders", () => {
     expect(leadershipVolumes.map((x) => x.commanderSlug)).toEqual([
       "napoleon-bonaparte",
+      "alexander-the-great",
     ]);
     for (const x of leadershipVolumes) {
       leadershipVolumeSchema.parse(x);
@@ -118,20 +118,14 @@ describe("leadership volumes", () => {
   });
 });
 
-describe("the Alexander volume, while it is being written", () => {
-  it("is valid, unlisted and belongs to a known commander", () => {
-    leadershipVolumeSchema.parse(alexanderVolume);
-    expect(
-      commanders.some((c) => c.slug === alexanderVolume.commanderSlug),
-    ).toBe(true);
-    expect(leadershipVolumes).not.toContain(alexanderVolume);
-    expect(volumeForCommander("alexander-the-great")).toBeUndefined();
-  });
-
-  it("is marked in progress and has no lessons yet", () => {
-    expect(alexanderVolume.inProgress).toBeTruthy();
-    expect(alexanderVolume.lessons.map((l) => l.slug)).toEqual([]);
-  });
+it("lists the Alexander lessons written so far in curriculum order", () => {
+  const alexander = volumeForCommander("alexander-the-great");
+  expect(alexander?.inProgress).toBeTruthy();
+  expect(alexander?.lessons.map((l) => l.slug)).toEqual([
+    "how-to-read-alexander",
+    "the-king-in-the-front-rank",
+    "the-river-they-would-not-cross",
+  ]);
 });
 
 it("lists the Napoleon lessons in curriculum order", () =>
@@ -159,7 +153,7 @@ it("lists the Napoleon lessons in curriculum order", () =>
 
 describe("links from the rest of the site", () => {
   it("gives every lesson a line for the strength-and-shadow table", () => {
-    for (const l of leadershipVolumes[0].lessons)
+    for (const l of leadershipVolumes.flatMap((x) => x.lessons))
       expect(l.inBrief?.strength && l.inBrief.shadow, l.slug).toBeTruthy();
   });
 
@@ -168,6 +162,9 @@ describe("links from the rest of the site", () => {
     expect(slugs).toContain("the-last-reserve");
     expect(slugs).toContain("who-can-tell-you-no");
     expect(lessonsForBattle("cannae")).toEqual([]);
+    expect(
+      lessonsForBattle("granicus").map((x) => x.volume.commanderSlug),
+    ).toEqual(["alexander-the-great", "alexander-the-great"]);
   });
 
   it("finds a commander’s volume and counter-case lessons", () => {

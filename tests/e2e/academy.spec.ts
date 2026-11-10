@@ -506,7 +506,7 @@ test("leadership lessons are linked from the hub, profiles, studies and search",
     page.getByRole("link", { name: /Who can tell you no\?/ }),
   ).toBeVisible();
 });
-test("the Alexander volume is listed and linked while it is being written", async ({
+test("the Alexander volume is listed and linked across the site", async ({
   page,
 }) => {
   await page.goto("/leadership");
@@ -521,7 +521,7 @@ test("the Alexander volume is listed and linked while it is being written", asyn
       "Did his army stop following him, or did he stop leading it?",
     ),
   ).toBeVisible();
-  await expect(page.getByRole("table").getByRole("row")).toHaveCount(11);
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(14);
   await page.goto("/commanders/alexander-the-great");
   await expect(
     page.getByRole("link", {
@@ -957,6 +957,7 @@ for (const route of [
   "/leadership/alexander-the-great/the-river-they-would-not-cross",
   "/leadership/alexander-the-great/parmenions-advice",
   "/leadership/alexander-the-great/opis",
+  "/leadership/alexander-the-great/the-ledger-of-conquest",
 ])
   test(`accessibility: ${route}`, async ({ page }) => {
     // axe takes 30 to 50 seconds on the 127-card catalog in every engine.

@@ -146,6 +146,55 @@ const s = {
     url: "https://www.britannica.com/biography/Augustus-Roman-emperor",
     publisher: "Encyclopaedia Britannica",
   },
+  a6_22: arrian("VI", "XXII", "6.22"),
+  a6_23: arrian("VI", "XXIII", "6.23"),
+  a6_26: arrian("VI", "XXVI", "6.26"),
+  a7_26: arrian("VII", "XXVI", "7.26"),
+  a7_27: arrian("VII", "XXVII", "7.27"),
+  a7_30: arrian("VII", "XXX", "7.30"),
+  dio18a: diodorus("18A", "18.1–25"),
+  dio19b: diodorus("19B", "19.10–48"),
+  dio19c: diodorus("19C", "19.49–65"),
+  dio19f: diodorus("19F", "19.102–110"),
+  diary323: {
+    title:
+      "A contemporary account of the death of Alexander (Babylonian Astronomical Diary for 323 BCE)",
+    url: "https://www.livius.org/sources/content/oriental-varia/a-contemporary-account-of-the-death-of-alexander/",
+    publisher: livius,
+  },
+  sherman: {
+    title: "Memoirs of General William T. Sherman (1875)",
+    url: "https://www.gutenberg.org/ebooks/4361",
+    publisher: "Project Gutenberg",
+  },
+  ieyasu: {
+    title: "Tokugawa Ieyasu (Conrad D. Totman)",
+    url: "https://www.britannica.com/biography/Tokugawa-Ieyasu",
+    publisher: "Encyclopaedia Britannica",
+  },
+  buehler: {
+    title:
+      "Roger Buehler, Dale Griffin and Michael Ross, Exploring the “planning fallacy”: why people underestimate their task completion times (1994), abstract",
+    url: "https://doi.org/10.1037/0022-3514.67.3.366",
+    publisher: "Journal of Personality and Social Psychology",
+  },
+  zoroastrian: {
+    title:
+      "Philip G. Kreyenbroek and Firoze M. P. Kotwal, “Alexander the Great ii. In Zoroastrian tradition” (2006)",
+    url: "https://www.iranicaonline.org/articles/alexander-the-great-ii/",
+    publisher: "Encyclopaedia Iranica",
+  },
+  eskandarNama: {
+    title: "William L. Hanaway, “Eskandar-nāma” (1998)",
+    url: "https://www.iranicaonline.org/articles/eskandar-nama/",
+    publisher: "Encyclopaedia Iranica",
+  },
+  parke: {
+    title:
+      "H. W. Parke, The Massacre of the Branchidae (1985), abstract extract",
+    url: "https://www.cambridge.org/core/journals/journal-of-hellenic-studies/article/abs/massacre-of-the-branchidae/73F7B2FF7A3FB16E148F12940820E597",
+    publisher: "The Journal of Hellenic Studies",
+  },
   nemeth: {
     title:
       "Charlan Jeanne Nemeth, Keith Brown and John Rogers, Devil’s advocate versus authentic dissent: stimulating quantity and quality (2001), abstract",
@@ -2684,7 +2733,715 @@ export const alexanderVolume: LeadershipVolume = {
         s.augustus,
       ],
     },
+    {
+      slug: "the-desert-road",
+      title: "The desert road: logistics and who pays for daring",
+      part: "Winning and ruling",
+      themes: ["judgement", "ethics"],
+      claim:
+        "When a plan depends on one supply arrangement in hostile country, the leader’s boldness is paid for by those who cannot leave.",
+      inBrief: {
+        strength:
+          "He saw that the fleet needed the land and the army needed the coast, and tried to supply both.",
+        shadow:
+          "In Gedrosia the arrangement failed, and the sick, the stragglers and the families following the army paid for it.",
+      },
+      moment: {
+        text: "Marching through the land of the Gadrosians, Arrian says, the army found a route with no water and no supplies, and marched mostly by night, far from the sea. Alexander wanted to reach the coast, to see what harbours there were and to prepare for the fleet by digging wells or arranging a market and an anchorage. The coast was desert. A scout found only fishermen living in huts of shells and fish bones, scraping brackish water from the gravel. Where corn was more plentiful, Alexander sealed it with his own seal and sent it towards the sea for the fleet. On the way the guards broke the seals and shared it with those most pinched by hunger, choosing, Arrian writes, the destruction in front of their eyes over the king’s distant anger. Alexander, learning why, pardoned them.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "6.23" }],
+      },
+      episodes: [
+        {
+          title: "Why that road",
+          text: "Arrian says most of Alexander’s historians thought nothing in Asia compared with this march. Only Nearchus, who commanded the fleet, gives a reason for choosing it: Alexander had heard that no army had come safely through the desert except those of Semiramis and Cyrus, with a handful of survivors each, and wished to outdo them. Briant gives the practical purpose in the plan: Nearchus was ordered to survey the coast and land supplies of food and water so that the army could cross Gedrosia, and the two forces met in Lower Mesopotamia in January 324. The march and the voyage were one operation, each depending on the other.",
+          evidence: "interpretation",
+          refs: [{ source: 1, locator: "6.24" }, { source: 2 }],
+          battleSlugs: [],
+          campaignSlugs: ["indian-campaign"],
+        },
+        {
+          title: "The march",
+          text: "When food ran short, Arrian says, the soldiers secretly killed and ate the horses and mules and said they had died of thirst; Alexander chose to seem not to know. With the animals gone and the sand deep, wagons were broken up, and the sick and the stragglers could not be carried. Most of those left behind perished in the sand, he writes, like men shipwrecked at sea. A flash flood in the night swept away most of the wives and children of the men who followed the army. When the guides lost the way in the drifting sand, Alexander rode ahead with five men, found the sea, and dug fresh water from the shingle. Plutarch says the crossing took about sixty days and that the army suffered disease, bad food, heat and famine; Diodorus that many died of hunger.",
+          evidence: "fact",
+          refs: [
+            { source: 3, locator: "6.25" },
+            { source: 4, locator: "6.26" },
+            { source: 5, locator: "Alexander 66" },
+            { source: 6, locator: "17.105" },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["indian-campaign"],
+        },
+        {
+          title: "When supply had served him",
+          text: "Earlier, logistics had been part of his method. The case Arrian gives him at Tyre turns on denying the Persian fleet its coastal bases before marching inland. At the Hydaspes he gathered corn into his camp from the whole country on his side of the river, both to feed the army and to make Porus believe he would wait for winter. In each case the supply arrangement was within reach of his army and under its control. In Gedrosia it depended on a coast that could not be reconnoitred in advance and a fleet that could not be seen.",
+          evidence: "interpretation",
+          refs: [
+            { source: 7, locator: "2.17" },
+            { source: 8, locator: "5.9" },
+            { source: 0, locator: "6.23" },
+          ],
+          battleSlugs: ["tyre", "hydaspes"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Nearchus, as Arrian reports him",
+          stake:
+            "The fleet’s commander, whose own voyage was the other half of the plan.",
+          says: "Alexander chose the route knowing its dangers, because no army had come through it safely except Semiramis’s and Cyrus’s, and he wished to outdo them.",
+          refs: [{ source: 1, locator: "6.24" }],
+        },
+        {
+          who: "Arrian",
+          stake: "An admirer who still records what the march cost.",
+          says: "Pouring the helmet of water onto the sand was evidence of Alexander’s endurance and self-control, as well as of his skill in managing an army.",
+          refs: [{ source: 4, locator: "6.26" }],
+        },
+        {
+          who: "Plutarch",
+          stake:
+            "A moralist who sets the march beside the revelry that followed.",
+          says: "The army suffered disease, bad food, heat and famine through some sixty days, and was relieved only on reaching settled country.",
+          refs: [{ source: 5, locator: "Alexander 66" }],
+        },
+        {
+          who: "Pierre Briant, in the Encyclopaedia Iranica",
+          stake: "A modern historian reading the operation as a whole.",
+          says: "Nearchus’s short-term task was to survey the coast and land food and water for the army crossing Gedrosia.",
+          refs: [{ source: 2 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Without hindsight, the plan had a logic. A fleet sailing an unknown desert coast needed water and food from the land, and an army crossing the desert near that coast could supply it and be supplied in turn. What made it fragile was that the arrangement depended on knowledge nobody had: what the coast held, where the fleet would be, how long the crossing would take. Arrian gives no account of other routes considered. The one motive he reports, from Nearchus, is the wish to outdo two earlier armies that had barely survived.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "6.23" },
+            { source: 1, locator: "6.24" },
+          ],
+        },
+        {
+          text: "Once the plan failed, Alexander’s handling of it was sound. He pretended not to see the slaughter of the pack animals, pardoned the guards who ate the fleet’s corn, camped away from water so that men would not kill themselves drinking, and walked with the army, refusing water he could not share. These are the acts of a commander who understood his men. They were responses to a crisis his own choice of route had created.",
+          evidence: "interpretation",
+          refs: [
+            { source: 3, locator: "6.25" },
+            { source: 0, locator: "6.23" },
+            { source: 4, locator: "6.26" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "The planning fallacy",
+          base: "single study",
+          text: "Buehler, Griffin and Ross found that people underestimated how long their own tasks would take, though not others’, because they focused on scenarios built from the plan rather than on relevant past experience, and explained away their past failures; the bias vanished when they were asked to connect past experiences to the prediction. In Gedrosia the relevant past experience existed, in the stories of Semiramis and Cyrus coming out of the desert with a handful of survivors. On Nearchus’s account Alexander heard it and treated it as a challenge rather than as a forecast.",
+          evidence: "interpretation",
+          refs: [{ source: 9 }],
+          limit:
+            "Only the abstract was read. The studies asked students to predict the completion of academic and everyday tasks, a long way from an army in the desert, and the motive comes from one witness.",
+        },
+      ],
+      shadow: {
+        text: "The people who paid for the plan were those who could not leave it. The soldiers could break a seal or kill a mule; the sick and the stragglers could only be left behind. The women and children who followed the army had no part in the decision and no means of escaping the flood. No source read for this volume presents the route as a punishment for the refusal at the Hyphasis; the only motive Arrian reports is emulation.",
+        evidence: "interpretation",
+        refs: [
+          { source: 3, locator: "6.25" },
+          { source: 1, locator: "6.24" },
+        ],
+      },
+      counterCase: {
+        text: "In July 1864, Sherman writes in his memoirs, his armies before Atlanta were two hundred and fifty miles beyond their base, “dependent on a single line of railroad for our daily food.” When he later cut loose for the sea, he did it by order and through country that could feed his men. Special Field Orders No. 120 abolished the general supply train, told the army to forage liberally on the country through organised foraging parties, forbade soldiers to enter dwellings, asked that each family be left a reasonable portion, and allowed corps commanders to order devastation where the inhabitants showed hostility. His order says plainly that the first duty is to those who bear arms. The arrangement was planned rather than hoped for, and its cost fell, by design, on Georgia’s inhabitants rather than on his army. The memoir is Sherman’s own account of his own campaign.",
+        evidence: "interpretation",
+        refs: [{ source: 10, locator: "chs. 18, 21" }],
+        commanderSlug: "william-t-sherman",
+        battleSlugs: ["atlanta-campaign"],
+      },
+      cost: {
+        text: "Arrian describes the sick and the exhausted left to die in the sand, men who drank themselves to death on reaching water, and a flood that destroyed most of the wives and children of the army’s followers along with the royal baggage. The fishermen of the coast, whose huts were made of shells, had little water to spare for an army.",
+        evidence: "fact",
+        refs: [
+          { source: 3, locator: "6.25" },
+          { source: 0, locator: "6.23" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "Success depends on one arrangement, a supplier, a route or a partner, that you cannot see or control in advance.",
+          "The people who bear the risk have no way to leave the plan.",
+        ],
+        failsWhen: [
+          "The warnings from earlier attempts are treated as a challenge rather than as evidence.",
+          "The plan’s cost is shifted onto people outside it and called planning.",
+        ],
+        questions: [
+          "Which single arrangement does your current plan depend on, and how would you know if it failed?",
+          "Who in your plan cannot walk away from it?",
+          "What does the record of earlier attempts at this say, and are you treating it as data or as a dare?",
+        ],
+      },
+      bearsOn:
+        "The desert came after the refusal at the Hyphasis. The army followed Alexander into it and through it, and he led on foot and refused water he could not share. That he still led in the old way is clear. Where he led them, on the only motive any source records, was a route chosen to surpass Semiramis and Cyrus. That is evidence for aims that had outrun his men, not for an army that had stopped following.",
+      questions: [
+        {
+          prompt:
+            "What did Alexander do when the guards broke his seal on the corn meant for the fleet?",
+          choices: [
+            "He had them executed.",
+            "He pardoned them, learning that hunger had driven them to it.",
+            "He sent them home.",
+          ],
+          answer: 1,
+          explanation:
+            "Arrian says they chose the destruction in front of them over the king’s distant anger.",
+        },
+        {
+          prompt:
+            "What reason for the route does Arrian report, and from whom?",
+          choices: [
+            "To punish the army for the Hyphasis, from Ptolemy.",
+            "To outdo Semiramis and Cyrus, from Nearchus alone.",
+            "To find a shorter road, from Aristobulus.",
+          ],
+          answer: 1,
+          explanation:
+            "No source read for this volume supports the punishment theory.",
+        },
+        {
+          prompt:
+            "What did Sherman’s Special Field Orders No. 120 do about supply?",
+          choices: [
+            "Abolished the general supply train and ordered organised foraging on the country.",
+            "Doubled the railroad guard.",
+            "Forbade any taking of food from civilians.",
+          ],
+          answer: 0,
+          explanation:
+            "He planned to live off rich country, and the cost fell on its inhabitants.",
+        },
+      ],
+      seminar: {
+        prompt:
+          "Alexander’s men paid for Gedrosia; Georgia’s inhabitants paid for Sherman’s march. Is shifting the cost of daring onto others ever good leadership?",
+        guidance:
+          "Ask who chose the risk, who bore it, and whether they could refuse. Then ask whether the plan would have been made at all if its maker had borne the cost.",
+      },
+      sources: [
+        s.a6_23,
+        s.a6_24,
+        s.briant,
+        s.a6_25,
+        s.a6_26,
+        s.plu10,
+        s.dio17f,
+        s.a2_17,
+        s.a5_9,
+        s.buehler,
+        s.sherman,
+      ],
+    },
+    {
+      slug: "to-the-strongest",
+      title: "To the strongest: no heir and no plan",
+      part: "What remains",
+      themes: ["succession", "organisation"],
+      claim:
+        "When a leader’s authority is wholly personal and no successor is prepared, the organisation survives them only by breaking apart.",
+      inBrief: {
+        strength:
+          "His personal authority held a vast empire and a mixed army together while he lived.",
+        shadow:
+          "He named no heir, and his half-brother, his mother, his wife and his sons were all killed in the wars that followed.",
+      },
+      moment: {
+        text: "In Babylon in June 323 BCE Alexander lay dying. The Royal Diary, as Arrian reports it, says the soldiers forced their way in, some to see him alive once more, others suspecting his death was being hidden; he could no longer speak, but greeted each of them with his right hand and a sign of the eyes. A Babylonian astronomer wrote under the twenty-ninth day of the month: “The king died. Clouds.” Some authors, Arrian adds, say his Companions asked him to whom he left his kingdom, and he answered: “To the best.” Diodorus has him hand his ring to Perdiccas and answer: “To the strongest.”",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "7.26" },
+          { source: 1 },
+          { source: 2, locator: "17.117" },
+        ],
+      },
+      episodes: [
+        {
+          title: "Warnings in good time",
+          text: "The problem was not new in 323. Before the crossing to Asia, Diodorus says, Antipater and Parmenion advised Alexander to produce an heir first, and he refused. At the Malli town in 325, when the army believed him dead, Arrian says the soldiers did not know who would lead them, because many of the officers seemed equal in rank and merit in the eyes of Alexander and the Macedonians. At his death he had no adult heir: Roxane was pregnant, and Philip’s other son, Arrhidaeus, became the infantry’s candidate.",
+          evidence: "fact",
+          refs: [
+            { source: 3, locator: "17.16" },
+            { source: 4, locator: "6.12" },
+            { source: 11, locator: "Alexander 77" },
+            { source: 5, locator: "18.2" },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["indian-campaign"],
+        },
+        {
+          title: "Babylon, 323",
+          text: "Diodorus says the throne was vacant because Alexander had died without issue, and a great contention arose. The infantry of the phalanx supported Arrhidaeus. The leading Friends and bodyguards, with the Companion cavalry, prepared to fight them, and the envoy they sent, Meleager, went over to the infantry instead. Those inclined to compromise then brought the parties to terms: Arrhidaeus became king under the name Philip, Perdiccas, who held the ring, became regent, and the great satrapies were shared among the leading officers. Ptolemy received Egypt.",
+          evidence: "fact",
+          refs: [{ source: 5, locator: "18.2–3" }],
+          battleSlugs: [],
+        },
+        {
+          title: "A kingdom won by the spear",
+          text: "The family did not survive the generals. Diodorus records that Olympias, Alexander’s mother, was restored to Macedonia with his son when the Macedonian soldiers changed sides out of respect for her and memory of Alexander’s benefits, and that King Philip and his wife Eurydice were captured and murdered. Cassander besieged Olympias in Pydna and, when his soldiers drew back from killing her, relatives of her own victims did it. Years later, fearing that men in Macedonia were saying the boy should have his father’s kingdom, Cassander ordered his guard to murder Roxane and the young king and hide their bodies. With no one left to inherit, Diodorus writes, each ruler held his territory as if it were a kingdom won by the spear. Chinnock notes that Alexander’s other son, by Barsine, was put to death with his mother.",
+          evidence: "fact",
+          refs: [
+            { source: 6, locator: "19.11, 19.35" },
+            { source: 7, locator: "19.51" },
+            { source: 8, locator: "19.105" },
+            { source: 9, locator: "note to 4.19" },
+          ],
+          battleSlugs: [],
+        },
+      ],
+      witnesses: [
+        {
+          who: "The Royal Diary, as Arrian reports it",
+          stake:
+            "An official court record, whose authenticity Arrian does not question; Aristobulus and Ptolemy, he says, differ little from it.",
+          says: "The dying king greeted each soldier with his right hand; nothing is said of an heir.",
+          refs: [{ source: 0, locator: "7.26" }],
+        },
+        {
+          who: "“Some authors”, in Arrian",
+          stake:
+            "Unnamed writers whom Arrian reports without vouching for them.",
+          says: "Asked to whom he left his kingdom, he said “To the best”, and foresaw great funeral games.",
+          refs: [{ source: 0, locator: "7.26" }],
+        },
+        {
+          who: "Diodorus, with the Loeb editor",
+          stake:
+            "Follows the vulgate; his editor notes that the Greek word can mean both best and strongest.",
+          says: "He gave his ring to Perdiccas and said “To the strongest”, adding that his leading Friends would hold a vast contest at his funeral.",
+          refs: [{ source: 2, locator: "17.117 and note" }],
+        },
+        {
+          who: "Arrian, on the poison stories",
+          stake: "A historian separating report from belief.",
+          says: "He records the stories that Antipater’s sons poisoned the king so as not to seem ignorant of them, not because he thinks them worthy of credence.",
+          refs: [{ source: 10, locator: "7.27" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "The strategist’s rule is to judge what was knowable, and the succession problem was knowable for eleven years. A king who led every assault in person, who had been nearly killed at the Granicus and at the Malli town, and whose army could not name a second in command, was running a risk his own generals had named in 334. He had no adult son. Whatever the reasons, no successor was prepared, and the arrangement made at Babylon was the improvisation of men who already commanded armies.",
+          evidence: "interpretation",
+          refs: [
+            { source: 3, locator: "17.16" },
+            { source: 4, locator: "6.12" },
+            { source: 5, locator: "18.2" },
+          ],
+        },
+        {
+          text: "The dynasty was still an asset after his death. The infantry at Babylon rallied to Philip’s son, and years later soldiers changed sides out of memory of Alexander. The generals could have ruled through that loyalty; instead they killed its objects one by one, because each living Argead was a claim on territory they meant to keep. Personal authority did not pass to an institution, because none had been built to receive it.",
+          evidence: "interpretation",
+          refs: [
+            { source: 5, locator: "18.2" },
+            { source: 6, locator: "19.11" },
+            { source: 8, locator: "19.105" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "The Napoleon volume’s lesson on what outlasts a leader drew on Weber’s account of charismatic authority and its routinisation, and this lesson does not restate it. No psychological research on succession was read for this volume, and the lesson leaves the question to the historian and the strategist.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No psychological source is offered, and the lesson draws no psychological conclusion.",
+        },
+      ],
+      shadow: {
+        text: "The bonds Alexander built were personal, and they died with him. Plutarch says Roxane, jealous and pregnant, lured Darius’s daughter Stateira and her sister to her, killed them and threw their bodies into a well, with Perdiccas’s knowledge. Diodorus says Porus, whom Alexander had restored and found faithful, was treacherously killed after Alexander’s death by Eudamus, who took his elephants. Even the cause of Alexander’s death became a weapon: the poison stories Arrian rejects named Antipater’s sons.",
+        evidence: "fact",
+        refs: [
+          { source: 11, locator: "Alexander 77" },
+          { source: 6, locator: "19.14" },
+          { source: 10, locator: "7.27" },
+        ],
+      },
+      counterCase: {
+        text: "Tokugawa Ieyasu used his own lifetime to settle the succession. Britannica’s account says the imperial court appointed him shogun in 1603, and two years later he formally retired to Sumpu and had the title given to his son Hidetada, intending to establish it as a hereditary Tokugawa prerogative, while he kept responsibility for foreign affairs as retired shogun. Military might, he knew, had to become political right. The surviving son of the man he had served, Toyotomi Hideyori, remained a rival at Ōsaka; when enough of Hideyori’s powerful supporters had died, Ieyasu reduced the castle and destroyed those within it. The heir of a ruler who had not secured his succession was destroyed by one who did.",
+        evidence: "interpretation",
+        refs: [{ source: 12 }],
+        commanderSlug: "tokugawa-ieyasu",
+        battleSlugs: ["sekigahara"],
+      },
+      cost: {
+        text: "The wars of the successors lasted decades and were fought with Alexander’s armies. At Pydna, Diodorus says, Cassander’s blockade brought such famine that the besieged fed sawdust to the elephants and slaughtered the pack animals and horses for food. A boy king and his mother were killed in secret, their bodies hidden.",
+        evidence: "fact",
+        refs: [
+          { source: 7, locator: "19.49" },
+          { source: 8, locator: "19.105" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "The organisation’s cohesion rests on loyalty to one person rather than on rules others accept.",
+          "No one has been prepared, publicly and in time, to take over.",
+        ],
+        failsWhen: [
+          "Succession is treated as a sign of weakness, so it is never discussed.",
+          "The leader assumes that loyalty to them will transfer to whoever holds their ring.",
+        ],
+        questions: [
+          "If you left tomorrow, who would decide, and would the others accept it?",
+          "What part of your organisation’s loyalty is to you rather than to its purpose?",
+          "When were you last told to plan your succession, and what did you do?",
+        ],
+      },
+      bearsOn:
+        "To the end the army followed the man: soldiers forced their way in to see him dying, the infantry rallied to his half-brother, and years later troops changed sides out of memory of him. The army had not stopped following Alexander. What he never built was a way for that loyalty to outlive him, and the generals who had served him destroyed the family it might have attached to.",
+      questions: [
+        {
+          prompt:
+            "What answer does Arrian’s report give to the question of who should inherit the kingdom?",
+          choices: [
+            "“To my son.”",
+            "“To the best”, reported by some authors.",
+            "“To Perdiccas.”",
+          ],
+          answer: 1,
+          explanation:
+            "Diodorus has “To the strongest”; his editor notes the Greek word can mean either.",
+        },
+        {
+          prompt:
+            "How was the throne settled at Babylon, according to Diodorus?",
+          choices: [
+            "Roxane ruled as queen.",
+            "Arrhidaeus became king as Philip, with Perdiccas as regent and the satrapies shared among the officers.",
+            "The army elected Ptolemy.",
+          ],
+          answer: 1,
+          explanation:
+            "It was a compromise after the infantry and the cavalry nearly fought.",
+        },
+        {
+          prompt:
+            "Why did Tokugawa Ieyasu retire in favour of his son, according to Britannica?",
+          choices: [
+            "Because of illness.",
+            "To establish the shogunal title as a hereditary Tokugawa prerogative in his own lifetime.",
+            "Because the emperor demanded it.",
+          ],
+          answer: 1,
+          explanation:
+            "He kept real responsibilities as retired shogun while the succession was made visible.",
+        },
+      ],
+      sourceCheck: {
+        question: "What did the dying Alexander say about his successor?",
+        witnesses: [
+          {
+            label: "Arrian",
+            claim:
+              "Some authors say he answered “To the best”; the Royal Diary records no such words.",
+          },
+          {
+            label: "Diodorus",
+            claim:
+              "He gave his ring to Perdiccas and answered “To the strongest”.",
+          },
+        ],
+        prompt: "What should a historian conclude?",
+        options: [
+          {
+            text: "That he left the empire to Perdiccas, since he gave him the ring.",
+            feedback:
+              "The ring made Perdiccas regent in practice, but Diodorus’s own account of Babylon shows that no one treated it as a bequest of the kingdom.",
+          },
+          {
+            text: "That the saying is reported, not attested, and that the Greek word behind it can mean best or strongest; either way, no heir was named.",
+            feedback:
+              "Arrian’s court diary says nothing of it, and the words survive through later writers. The absence of an heir is the firm fact.",
+            best: true,
+          },
+          {
+            text: "That he named Alexander IV, his unborn son.",
+            feedback: "No source read for this lesson says so.",
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Antipater and Parmenion told Alexander to produce an heir before crossing to Asia. Was his refusal a mistake, or would an heir have changed nothing?",
+        guidance:
+          "Ask what happened to the heirs who did exist, a half-brother and a son, and compare Ieyasu, who handed over the title while he could still enforce it.",
+      },
+      sources: [
+        s.a7_26,
+        s.diary323,
+        s.dio17f,
+        s.dio17a,
+        s.a6_12,
+        s.dio18a,
+        s.dio19b,
+        s.dio19c,
+        s.dio19f,
+        s.a4_19,
+        s.a7_27,
+        s.plu10,
+        s.ieyasu,
+      ],
+    },
+    {
+      slug: "the-ledger-of-conquest",
+      title: "The ledger of conquest: effective is not the same as good, again",
+      part: "What remains",
+      themes: ["ethics"],
+      claim:
+        "When a conqueror is measured, the measure must include who paid, and whose memory kept the account.",
+      inBrief: {
+        strength:
+          "He ruled from Greece to the Indus, founded cities, and kept much of the Persian empire’s structure working.",
+        shadow:
+          "Thebes, Tyre, Gaza, Massaga, Persepolis and the Malli town; in Persian priestly memory he is “the accursed”.",
+      },
+      moment: {
+        text: "Arrian ends his history with a challenge to the reader. Whoever reproaches Alexander as a bad man, he writes, should first gather all his deeds into one view, then consider who he himself is, and what that man achieved. He admits he has been compelled to censure some of Alexander’s actions, “but I am not ashamed to admire Alexander himself.” This lesson takes up his challenge and turns it round: gather all the deeds into one view, including the ones paid for by others, and ask who kept the record.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "7.30" }],
+      },
+      episodes: [
+        {
+          title: "The cities that paid",
+          text: "Thebes was razed in 335, and its women and children and surviving men sold into slavery. At Tyre the Macedonians, enraged by the long siege, made a great slaughter, and those not sheltering in the temple were enslaved; Diodorus says the men of military age were crucified. At Gaza the defenders died at their posts and their wives and children were sold. In an Indian city whose mercenaries had been allowed to leave under truce, Alexander attacked them on the march; Diodorus has him say he had granted them the right to leave, not friendship, and Plutarch calls the act a stain on his military career. Diodorus says Persepolis was given to the soldiers, who killed the men they met. At the Malli town the army killed every inhabitant, sparing neither women nor children.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "1.9" },
+            { source: 2, locator: "2.24" },
+            { source: 3, locator: "17.46" },
+            { source: 4, locator: "2.27" },
+            { source: 5, locator: "17.84" },
+            { source: 6, locator: "Alexander 59" },
+            { source: 7, locator: "17.70" },
+            { source: 8, locator: "6.11" },
+          ],
+          battleSlugs: ["tyre", "gaza-332-bce"],
+        },
+        {
+          title: "What was built",
+          text: "Alexander founded cities: one on the Jaxartes, settled with Greek mercenaries, local volunteers and Macedonians unfit for service; Nicaea and Bucephala on the Hydaspes. Coenus, in Arrian’s speech, says the Greek colonists remained in those cities not all of their own free will. Briant argues that the elements of continuity deserve far more emphasis than the classical picture of a violent break: the Achaemenid system of satrapies was kept, new cities often used old sites, and at Ay Khanom the irrigation network was Bactrian rather than Greek engineering. In many ways, he writes, Alexander acted as the last of the Achaemenids.",
+          evidence: "interpretation",
+          refs: [
+            { source: 9, locator: "4.4" },
+            { source: 10, locator: "5.19" },
+            { source: 11, locator: "5.27" },
+            { source: 12 },
+          ],
+          battleSlugs: ["jaxartes", "hydaspes"],
+        },
+        {
+          title: "Two Persian memories",
+          text: "In Persia Alexander was remembered twice. Works reflecting the Sasanian court and priesthood called him the accursed wrecker of the Zoroastrian tradition, who killed the ruler of Iran, burned the sacred texts and killed the priests; most scholars, Kreyenbroek and Kotwal write, are sceptical of the details, and the account looks like a tradition formulated and circulated with specific aims rather than living memory. The other tradition, descended from the Greek romance, made him a world hero and sometimes a sage; in Ferdowsi and many Persian versions he is the son of a Persian king, and he was identified with Dhu’l-Qarnayn of the Qur’an. The same man was claimed as Iran’s enemy and as Iran’s own.",
+          evidence: "interpretation",
+          refs: [{ source: 13 }, { source: 14 }],
+          battleSlugs: [],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Arrian",
+          stake:
+            "An admirer who censures particular acts and asks the reader to judge the whole.",
+          says: "Let the critic gather all of Alexander’s deeds into one view before reproaching him; “I am not ashamed to admire Alexander himself.”",
+          refs: [{ source: 0, locator: "7.30" }],
+        },
+        {
+          who: "Plutarch",
+          stake: "A moralist who admires and judges by turns.",
+          says: "The attack on the departing mercenaries clings to Alexander’s military career like a stain.",
+          refs: [{ source: 6, locator: "Alexander 59" }],
+        },
+        {
+          who: "W. W. Tarn, as later historians describe him",
+          stake:
+            "A twentieth-century admirer whose Alexander, Majidi and Zarrinkoob argue, reflected his own time.",
+          says: "Alexander dreamed of the unity of mankind; and the massacre of the Branchidae, Parke reports, Tarn argued was entirely fictitious.",
+          refs: [{ source: 15 }, { source: 16 }],
+        },
+        {
+          who: "H. W. Parke",
+          stake: "A historian of Greek oracles weighing the evidence.",
+          says: "The massacre of the Branchidae is the most extreme instance behind adverse judgements of Alexander; later writers simply omit it, though the evidence may go back to Callisthenes, an eyewitness if it happened.",
+          refs: [{ source: 16 }],
+        },
+        {
+          who: "The Sasanian priestly tradition",
+          stake:
+            "A court and priesthood restoring a religion and a dynasty, with reasons to cast a destroyer.",
+          says: "The accursed Alexander killed the ruler of Iran, burned the Avesta and killed the priests.",
+          refs: [{ source: 13 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Many of these acts had a purpose the strategist can name. Thebes struck the rest of Greece, Arrian says, with consternation. Tyre fell after a long siege in which the defenders had killed captured Macedonians in sight of the camp. Others had no such purpose: the attack on mercenaries leaving under truce served no end that a truce kept would not have served. The strategist’s measure, whether an act worked, cannot settle whether it was right, and Plutarch’s word for the mercenaries is a moral one.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "1.9" },
+            { source: 2, locator: "2.24" },
+            { source: 6, locator: "Alexander 59" },
+          ],
+        },
+        {
+          text: "Even judged as effective, the conquest has an odd ledger. The empire did not survive its maker as one state. What lasted, on Briant’s account, was much of what Alexander had taken over: the satrapies, the sites, the irrigation. The admiring tradition credits him with founding a new world; the evidence Briant presents credits him more with keeping an old one running under new masters.",
+          evidence: "interpretation",
+          refs: [{ source: 12 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "The Napoleon volume’s ledger drew on research on how people disengage from the moral consequences of their acts. This lesson leaves psychology out, because its question is not how Alexander justified himself, for which the record is too thin, but how others kept his account, which is a question for the historian.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No psychological source is offered, and the lesson draws no psychological conclusion.",
+        },
+      ],
+      shadow: {
+        text: "The ledger itself is incomplete. Thebes, Tyre and Gaza are known through Greek and Roman writers who counted the victims to show the victor’s power or his anger, in figures this volume does not use. The peoples of the Sogdian towns and the Indian cities appear briefly or not at all. The Persian side survives mostly as a priestly tradition written centuries later with aims of its own. A full account of who paid cannot be drawn up from these sources, and saying so is part of the account.",
+        evidence: "interpretation",
+        refs: [{ source: 13 }, { source: 3, locator: "17.46" }],
+      },
+      counterCase: {
+        text: "Darius III is the conqueror’s ledger seen from the other side. Arrian, following Alexander’s companions, calls him effeminate, lacking in self-reliance in war, and says he fled disgracefully among the first. Badian, reading the same sources against themselves, says bravery was his best-attested quality and that his reign is known almost entirely from historians who depicted it as a contrast to Alexander’s first years. His death, Badian writes, was a misfortune for both sides but a disaster for Persia. Whoever keeps the record keeps both ledgers: the victor’s credit and the loser’s debit.",
+        evidence: "interpretation",
+        refs: [{ source: 17, locator: "3.22" }, { source: 18 }],
+        commanderSlug: "darius-iii",
+        battleSlugs: ["issus", "gaugamela"],
+      },
+      cost: {
+        text: "The account includes the Macedonians too. Coenus, in Arrian’s speech, says most of those who set out with Alexander had died, chiefly of disease, and the rest were worn in body and spirit. The wives and children who followed the army died in Gedrosia’s flood. The enslaved of Thebes, Tyre and Gaza are not counted here, because the sources that count them served other purposes; they are not forgotten.",
+        evidence: "interpretation",
+        refs: [
+          { source: 11, locator: "5.27" },
+          { source: 1, locator: "1.9" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "A leader’s record is judged by what they built and won.",
+          "The people who paid are absent from the account, or present only as numbers.",
+        ],
+        failsWhen: [
+          "The ledger is drawn up by one side only, admirers or accusers.",
+          "Moral judgement is replaced by the question of whether it worked.",
+        ],
+        questions: [
+          "Whose costs are missing from the account of your organisation’s greatest success?",
+          "Who keeps the record of what you have done, and what do they need it to say?",
+          "If the people who paid wrote your history, what would it contain?",
+        ],
+      },
+      bearsOn:
+        "This lesson answers the volume’s question. The army did not, on the evidence here, simply stop following Alexander: it followed him through the desert, broke ladders to reach him at the Malli town, forced its way in to see him die, and rallied to his family after. Nor did he simply stop leading: he still fought in the front rank and refused water his men could not have. What failed was the agreement between them. The army had followed a Macedonian king on a Macedonian war; the task became ruling Asia, his aims ran beyond theirs at the Hyphasis, the circle he widened threatened them at Opis, and the court that killed Philotas and Cleitus made it dangerous to tell him so. The ancient writers’ favourite answer, that success corrupted him, has some support in Arrian’s hastier king but is also the frame they brought with them. Napoleon’s volume concluded that the problem got harder and he made it harder. Alexander’s concludes that the problem changed, his aims outran his men’s, and he never built a way for their loyalty to survive the change, or him.",
+      questions: [
+        {
+          prompt:
+            "What does Arrian ask of anyone who would reproach Alexander?",
+          choices: [
+            "To read only Ptolemy.",
+            "To gather all his deeds into one view first, and consider who they themselves are.",
+            "To visit his tomb.",
+          ],
+          answer: 1,
+          explanation:
+            "Arrian admits censuring some acts but says he is not ashamed to admire the man.",
+        },
+        {
+          prompt:
+            "What does Briant argue about the effect of Alexander’s conquest?",
+          choices: [
+            "That it was a complete break with the Persian past.",
+            "That continuity deserves more emphasis: satrapies, sites and systems were kept, so that he acted as the last of the Achaemenids.",
+            "That it left Asia stagnant.",
+          ],
+          answer: 1,
+          explanation:
+            "Briant traces the break thesis to Plutarch and to nineteenth- and twentieth-century European historiography.",
+        },
+        {
+          prompt: "How was Alexander remembered in Persia?",
+          choices: [
+            "Only as a hero.",
+            "Only as a destroyer.",
+            "Both: as the accursed destroyer in the Sasanian priestly tradition, and as a world hero, even a Persian prince, in the romance tradition.",
+          ],
+          answer: 2,
+          explanation:
+            "Iranica shows two contradictory traditions transmitted side by side.",
+        },
+      ],
+      sourceCheck: {
+        question: "Did Alexander massacre the Branchidae?",
+        witnesses: [
+          {
+            label: "W. W. Tarn, as Parke reports him",
+            claim: "The event was entirely fictitious.",
+          },
+          {
+            label: "H. W. Parke",
+            claim:
+              "Later writers usually omit it; but the evidence may go back to Callisthenes, who would have been an eyewitness if it occurred.",
+          },
+        ],
+        prompt: "What is the honest position?",
+        options: [
+          {
+            text: "That it happened, because it is the worst story told of him.",
+            feedback:
+              "The worst story is not the best attested. Arrian does not tell it.",
+          },
+          {
+            text: "That it is contested, and must be kept separate from atrocities that every tradition reports, such as Thebes and Tyre.",
+            feedback:
+              "Thebes, Tyre and Gaza are in Arrian; the Branchidae are not. A ledger should mark the difference.",
+            best: true,
+          },
+          {
+            text: "That it never happened, as Tarn argued.",
+            feedback:
+              "Tarn’s admiration shaped his Alexander, as later historians note; Parke points to an early witness.",
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "The volume’s answer is that the problem changed, his aims outran his men’s, and he built nothing to outlast him. Argue the opposite: that he did change, as the ancient writers say, and that the change explains the rest.",
+        guidance:
+          "Use Philotas, Cleitus, the prostration affair and Arrian’s note that he had grown hastier in temper. Then ask how much of that evidence comes from writers who expected success to corrupt.",
+      },
+      sources: [
+        s.a7_30,
+        s.a1_9,
+        s.a2_24,
+        s.dio17c,
+        s.a2_27,
+        s.dio17e,
+        s.plu8,
+        s.dio17d,
+        s.a6_11,
+        s.a4_4,
+        s.a5_19,
+        s.a5_27,
+        s.briant,
+        s.zoroastrian,
+        s.eskandarNama,
+        s.majidi,
+        s.parke,
+        s.a3_22,
+        s.badianDarius,
+      ],
+    },
   ],
-  inProgress:
-    "This volume is being written. Its remaining lessons are added in reviewed batches.",
 };

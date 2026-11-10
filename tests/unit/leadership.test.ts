@@ -118,9 +118,9 @@ describe("leadership volumes", () => {
   });
 });
 
-it("lists the Alexander lessons written so far in curriculum order", () => {
+it("lists the Alexander lessons in curriculum order", () => {
   const alexander = volumeForCommander("alexander-the-great");
-  expect(alexander?.inProgress).toBeTruthy();
+  expect(alexander?.inProgress).toBeUndefined();
   expect(alexander?.lessons.map((l) => l.slug)).toEqual([
     "how-to-read-alexander",
     "a-borrowed-army",
@@ -132,6 +132,9 @@ it("lists the Alexander lessons written so far in curriculum order", () => {
     "the-cost-of-frankness",
     "opis",
     "after-gaugamela",
+    "the-desert-road",
+    "to-the-strongest",
+    "the-ledger-of-conquest",
   ]);
 });
 

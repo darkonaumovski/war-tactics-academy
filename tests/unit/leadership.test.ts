@@ -5,6 +5,7 @@ import {
   lessonsForBattle,
   volumeForCommander,
 } from "../../data/leadership";
+import { alexanderVolume } from "../../data/leadership/alexander-the-great";
 import { battles, campaigns } from "../../data/catalog";
 import commanders from "../../data/commanders.json";
 import { leadershipVolumeSchema } from "../../lib/validation";
@@ -72,6 +73,8 @@ const volume = (changes: Partial<LeadershipLesson>): LeadershipVolume => ({
 });
 const accepts = (changes: Partial<LeadershipLesson>) =>
   leadershipVolumeSchema.safeParse(volume(changes)).success;
+const acceptsVolume = (changes: Partial<LeadershipVolume>) =>
+  leadershipVolumeSchema.safeParse({ ...volume({}), ...changes }).success;
 
 describe("leadership volumes", () => {
   const slugs = (values: { slug: string }[]) =>
@@ -87,7 +90,16 @@ describe("leadership volumes", () => {
     for (const x of leadershipVolumes) {
       leadershipVolumeSchema.parse(x);
       expect(commanderSlugs.has(x.commanderSlug), x.commanderSlug).toBe(true);
+      for (const s of x.alsoCommanderSlugs ?? [])
+        expect(commanderSlugs.has(s), s).toBe(true);
     }
+    const named = leadershipVolumes.flatMap((x) => [
+      x.commanderSlug,
+      ...(x.alsoCommanderSlugs ?? []),
+    ]);
+    expect(new Set(named).size, "a commander in two volumes").toBe(
+      named.length,
+    );
   });
 
   it("link only to existing studies, campaigns and commanders", () => {
@@ -103,6 +115,22 @@ describe("leadership volumes", () => {
       if (l.counterCase.commanderSlug)
         expect(commanderSlugs.has(l.counterCase.commanderSlug)).toBe(true);
     }
+  });
+});
+
+describe("the Alexander volume, while it is being written", () => {
+  it("is valid, unlisted and belongs to a known commander", () => {
+    leadershipVolumeSchema.parse(alexanderVolume);
+    expect(
+      commanders.some((c) => c.slug === alexanderVolume.commanderSlug),
+    ).toBe(true);
+    expect(leadershipVolumes).not.toContain(alexanderVolume);
+    expect(volumeForCommander("alexander-the-great")).toBeUndefined();
+  });
+
+  it("is marked in progress and has no lessons yet", () => {
+    expect(alexanderVolume.inProgress).toBeTruthy();
+    expect(alexanderVolume.lessons.map((l) => l.slug)).toEqual([]);
   });
 });
 
@@ -148,6 +176,22 @@ describe("links from the rest of the site", () => {
       counterCaseLessons("radomir-putnik").map((x) => x.lesson.slug),
     ).toEqual(["when-the-leader-leaves"]);
     expect(volumeForCommander("mikhail-kutuzov")).toBeUndefined();
+  });
+
+  it("finds a shared volume from each commander it names", () => {
+    const shared = {
+      ...volume({}),
+      commanderSlug: "radomir-putnik",
+      alsoCommanderSlugs: ["zivojin-misic", "stepa-stepanovic"],
+    };
+    leadershipVolumes.push(shared);
+    try {
+      expect(volumeForCommander("radomir-putnik")).toBe(shared);
+      expect(volumeForCommander("zivojin-misic")).toBe(shared);
+      expect(volumeForCommander("petar-bojovic")).toBeUndefined();
+    } finally {
+      leadershipVolumes.pop();
+    }
   });
 });
 
@@ -212,6 +256,25 @@ describe("the leadership lesson schema", () => {
         ],
       }),
     ).toBe(true));
+
+  it("accepts other commanders on a shared volume, each once", () => {
+    expect(acceptsVolume({ alsoCommanderSlugs: ["zivojin-misic"] })).toBe(true);
+    expect(acceptsVolume({ alsoCommanderSlugs: [] })).toBe(false);
+    expect(acceptsVolume({ alsoCommanderSlugs: ["napoleon-bonaparte"] })).toBe(
+      false,
+    );
+  });
+
+  it("excludes the Alexander volume's untraced sayings and labels", () => {
+    for (const text of [
+      "He feared an army of sheep led by a lion.",
+      "He wept that there were no more worlds to conquer.",
+      "His alcoholism explains it.",
+      "A paranoid king.",
+      "The Dunning-Kruger effect applies.",
+    ])
+      expect(accepts({ bearsOn: text }), text).toBe(false);
+  });
 
   it("rejects a lesson filed under an unknown part", () =>
     expect(accepts({ part: "Elsewhere" })).toBe(false));

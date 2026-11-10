@@ -19,5 +19,10 @@ export const counterCaseLessons = (commanderSlug: string) =>
   allLessons.filter(
     ({ lesson }) => lesson.counterCase.commanderSlug === commanderSlug,
   );
+// The volume about a commander, including a shared volume that names them.
 export const volumeForCommander = (commanderSlug: string) =>
-  leadershipVolumes.find((v) => v.commanderSlug === commanderSlug);
+  leadershipVolumes.find(
+    (v) =>
+      v.commanderSlug === commanderSlug ||
+      v.alsoCommanderSlugs?.includes(commanderSlug),
+  );

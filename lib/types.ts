@@ -244,6 +244,9 @@ export type LeadershipLesson = {
 // imported by its own pages, not seeded, so it stays out of the catalog payload.
 export type LeadershipVolume = {
   commanderSlug: string;
+  // Other commanders whose profiles lead to this volume, for a volume about a
+  // shared command. The route and title still follow `commanderSlug`.
+  alsoCommanderSlugs?: string[];
   title: string;
   summary: string;
   introduction: string;

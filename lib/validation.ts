@@ -146,9 +146,14 @@ const excludedInLessons: [RegExp, string][] = [
   [/baton in his knapsack/i, "untraced saying"],
   [/lies agreed upon/i, "untraced saying"],
   [/impossible is not french/i, "untraced saying"],
-  [/narcissis|psychopath|sociopath|megalomania|bipolar/i, "psychiatric label"],
+  [/army of sheep|sheep led by a lion/i, "untraced saying"],
+  [/no (more )?worlds (left )?to conquer/i, "distorted saying"],
   [
-    /ego depletion|power pos(e|ing)|myers.briggs|10,000.hour/i,
+    /narcissis|psychopath|sociopath|megalomania|bipolar|alcoholi(c|sm)|paranoi(a|d)|dark triad/i,
+    "psychiatric label",
+  ],
+  [
+    /ego depletion|power pos(e|ing)|myers.briggs|10,000.hour|dunning.kruger|yerkes.dodson/i,
     "excluded claim",
   ],
   [/\b\d[\d,]*\s+(dead|killed|casualties|wounded)\b/i, "casualty figure"],
@@ -285,6 +290,7 @@ const leadershipLessonSchema = z
 export const leadershipVolumeSchema = z
   .object({
     commanderSlug: z.string().min(1),
+    alsoCommanderSlugs: z.array(z.string().min(1)).min(1).optional(),
     title: z.string().min(1),
     summary: z.string().min(1),
     introduction: z.string().min(1),
@@ -297,6 +303,12 @@ export const leadershipVolumeSchema = z
     const slugs = volume.lessons.map((l) => l.slug);
     if (new Set(slugs).size !== slugs.length)
       ctx.addIssue({ code: "custom", message: "Duplicate lesson slug" });
+    const commanders = [
+      volume.commanderSlug,
+      ...(volume.alsoCommanderSlugs ?? []),
+    ];
+    if (new Set(commanders).size !== commanders.length)
+      ctx.addIssue({ code: "custom", message: "A commander is listed twice" });
     for (const lesson of volume.lessons)
       if (!volume.parts.includes(lesson.part))
         ctx.addIssue({

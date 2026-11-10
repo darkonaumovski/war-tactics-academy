@@ -2,7 +2,7 @@
 
 Paste everything below the line into a new Claude Code session opened in this repository.
 
-**Status (10 November 2026):** Not started. The Napoleon volume is complete (nineteen lessons, integrated, four decision exercises). This prompt chooses the next commanders, analyses why, and sets out curricula for Volume 2 (Alexander the Great) and Volume 3 (Radomir Putnik and the Serbian Supreme Command, 1914–1918). Later volumes are listed with what the catalog must gain before each can begin. Order confirmed on 10 November 2026: Alexander first, then Serbia.
+**Status (10 November 2026):** Phase 0 committed: the shared-volume field (`alsoCommanderSlugs`), Volume 2's evidence pass (`docs/LEADERSHIP_EVIDENCE_ALEXANDER.md`) and its unlisted scaffold. Volume 2 agreed at thirteen lessons (see the evidence pass's "Agreed shape"); the pilot (lessons 0, 2 and 6) is next. No lesson written yet. The Napoleon volume is complete (nineteen lessons, integrated, four decision exercises). This prompt chooses the next commanders, analyses why, and sets out curricula for Volume 2 (Alexander the Great) and Volume 3 (Radomir Putnik and the Serbian Supreme Command, 1914–1918). Later volumes are listed with what the catalog must gain before each can begin. Order confirmed on 10 November 2026: Alexander first, then Serbia.
 
 ## Why these commanders (readiness analysis, 10 November 2026)
 

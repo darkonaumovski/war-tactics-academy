@@ -115,7 +115,11 @@ it("lists the Napoleon lessons in curriculum order", () =>
     "a-headquarters-built-for-one-mind",
     "the-bottleneck",
     "your-rivals-are-learning",
+    "winning-battles-is-not-ending-wars",
     "knowing-when-to-stop",
+    "who-can-tell-you-no",
+    "the-last-reserve",
+    "when-the-leader-leaves",
   ]));
 
 describe("the leadership lesson schema", () => {

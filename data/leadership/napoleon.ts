@@ -523,6 +523,108 @@ const s = {
     url: "https://doi.org/10.1002/smj.4250141009",
     publisher: "Strategic Management Journal",
   },
+  peninsular: {
+    title: "Peninsular War",
+    url: "https://www.britannica.com/event/Peninsular-War",
+    publisher: britannica,
+  },
+  mediation: {
+    title: "Napoleonic Wars: The Austrian attempt at mediation",
+    url: "https://www.britannica.com/event/Napoleonic-Wars/The-Austrian-attempt-at-mediation",
+    publisher: britannica,
+  },
+  chatillon: {
+    title:
+      "Napoleonic Wars: The Congress of Châtillon and the Treaty of Chaumont",
+    url: "https://www.britannica.com/event/Napoleonic-Wars/Schwarzenbergs-advance-and-retreat",
+    publisher: britannica,
+  },
+  timeline1813: {
+    title: "1813 and the lead up to the Battle of Leipzig (timeline)",
+    url: "https://www.napoleon.org/en/history-of-the-two-empires/timelines/38920/",
+    publisher: fondation,
+  },
+  kutuzovBio: {
+    title: "Kutuzov, Mikhail Illarionovich Golenishchev (biography)",
+    url: "https://www.napoleon.org/en/history-of-the-two-empires/biographies/kutuzov-mikhail-illarionovich-golenishchev/",
+    publisher: fondation,
+  },
+  nam: {
+    title: "Battle of Waterloo",
+    url: "https://www.nam.ac.uk/explore/battle-waterloo",
+    publisher: "National Army Museum",
+  },
+  battesti: {
+    title:
+      "L’Égypte française, du départ de Bonaparte à l’assassinat de Kléber (Michèle Battesti)",
+    url: "https://www.napoleon.org/histoire-des-2-empires/articles/legypte-francaise-du-depart-de-bonaparte-a-lassassinat-de-kleber-23-aout-1799-14-juin-1800/",
+    publisher: fondation,
+  },
+  kleberBio: {
+    title: "Kléber, Jean-Baptiste (biography)",
+    url: "https://www.napoleon.org/histoire-des-2-empires/biographies/kleber-jean-baptiste-1753-1800-general/",
+    publisher: fondation,
+  },
+  bp5: {
+    title:
+      "Bullet Point #5: Was the Egyptian Campaign one of Napoleon’s great successes? (Thierry Lentz)",
+    url: "https://www.napoleon.org/en/history-of-the-two-empires/articles/bullet-point-5-egyptian-campaign-one-napoleons-great-successes/",
+    publisher: fondation,
+  },
+  adieux: {
+    title: "La campagne de France de 1814 (chronology)",
+    url: "https://www.napoleon.org/histoire-des-2-empires/chronologies/la-campagne-de-france-de-1814/",
+    publisher: fondation,
+  },
+  peterI: {
+    title: "Peter I, king of Serbia",
+    url: "https://www.britannica.com/biography/Peter-I-king-of-Serbia",
+    publisher: britannica,
+  },
+  putnik: {
+    title: "Radomir Putnik",
+    url: "https://www.britannica.com/biography/Radomir-Putnik",
+    publisher: britannica,
+  },
+  bjelajac: {
+    title: "Serbia (Mile Bjelajac), 1914-1918-online",
+    url: "https://encyclopedia.1914-1918-online.net/article/serbia/",
+    publisher: "1914-1918-online",
+  },
+  ordonez: {
+    title: "Lisa Ordóñez and others, Goals gone wild (2009), abstract",
+    url: "https://doi.org/10.5465/amp.2009.37007999",
+    publisher: "Academy of Management Perspectives",
+  },
+  edmondson: {
+    title:
+      "Amy Edmondson, Psychological safety and learning behavior in work teams (1999), abstract",
+    url: "https://doi.org/10.2307/2666999",
+    publisher: "Administrative Science Quarterly",
+  },
+  keltner: {
+    title:
+      "Dacher Keltner, Deborah Gruenfeld and Cameron Anderson, Power, approach, and inhibition (2003), abstract",
+    url: "https://doi.org/10.1037/0033-295X.110.2.265",
+    publisher: "Psychological Review",
+  },
+  galinsky: {
+    title:
+      "Adam Galinsky and others, Power and perspectives not taken (2006), abstract",
+    url: "https://doi.org/10.1111/j.1467-9280.2006.01824.x",
+    publisher: "Psychological Science",
+  },
+  prospect: {
+    title: "Daniel Kahneman and Amos Tversky, Prospect theory (1979), abstract",
+    url: "https://doi.org/10.2307/1914185",
+    publisher: "Econometrica",
+  },
+  robinson: {
+    title:
+      "Sandra Robinson and Denise Rousseau, Violating the psychological contract (1994), abstract",
+    url: "https://doi.org/10.1002/job.4030150306",
+    publisher: "Journal of Organizational Behavior",
+  },
 } satisfies Record<string, Source>;
 
 export const napoleonVolume: LeadershipVolume = {
@@ -542,7 +644,7 @@ export const napoleonVolume: LeadershipVolume = {
     "What remains",
   ],
   inProgress:
-    "Thirteen lessons are available. Six more are planned, and the last will answer the question above.",
+    "Seventeen lessons are available. Two more are planned, and the last will answer the question above.",
   lessons: [
     {
       slug: "how-to-read-napoleon",
@@ -3343,6 +3445,352 @@ export const napoleonVolume: LeadershipVolume = {
       ],
     },
     {
+      slug: "winning-battles-is-not-ending-wars",
+      title: "Victory without settlement",
+      part: "The limits of the self",
+      themes: ["judgement", "restraint"],
+      claim:
+        "While battles keep being won, success can conceal the absence of a political end that opponents could accept.",
+      moment: {
+        text: "In June 1813, during the armistice, Metternich came to Dresden to put Austria’s position to Napoleon. He left an account of the answer. Your sovereigns, Napoleon said, “born to the throne, may be beaten twenty times, and still go back to their palaces”; he could not, because his reign would not outlast the day when he had ceased to be strong and therefore to be feared. Metternich was preparing to join the war and was writing for publication, so these are his words for what was said. If anything like them was spoken, they state the difficulty of this lesson exactly. His enemies could lose and make peace. By his own reckoning, he could not afford to stop winning.",
+        evidence: "fact",
+        refs: [
+          {
+            source: 0,
+            locator: "p. 186",
+          },
+        ],
+      },
+      episodes: [
+        {
+          title: "Friedland and Tilsit: a peace with one partner",
+          text: "After Friedland in June 1807 the Russians asked for an armistice, and at Tilsit Napoleon got what looked like the end of the war. It was a settlement of two very different halves. Russia lost nothing and became an ally. Prussia was cut to half its former population, stripped of everything west of the Elbe, kept out of the talks between the emperors and occupied until a heavy indemnity had been paid. Britannica says that Alexander made peace partly from dissatisfaction with Britain and fear of what a French invasion would stir up at home. The treaty therefore rested on the calculations of one sovereign and on the helplessness of another. By 1811 Alexander was saying, as Caulaincourt reported, that he would withdraw to Kamchatka sooner than sign in his own capital a treaty that would be no more than a truce.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 1,
+            },
+            {
+              source: 2,
+            },
+            {
+              source: 3,
+              locator: "pp. 5–6",
+            },
+          ],
+          battleSlugs: ["friedland"],
+        },
+        {
+          title: "Spain from 1808: a war no battle could close",
+          text: "Tilsit left Napoleon free, Britannica says, to complete the Continental System, the economic war against Britain, and that drew him into Portugal and then Spain. At Bayonne in May 1808 he forced the Spanish royal family to give up the throne and named his brother Joseph king. Madrid had already risen on 2 May. The rising was put down, the provinces rose in turn, Dupont capitulated at Bailén in July, and Joseph was driven from his capital. A French counterattack retook Madrid in December, and it settled nothing. Elizabeth Latimer, the translator of Gourgaud, puts the novelty simply: until then, when he occupied a capital, both sides had thought the war virtually over. The war lasted until 1814.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 4,
+            },
+            {
+              source: 5,
+              locator: "p. 128 (translator’s note)",
+            },
+          ],
+          battleSlugs: [],
+        },
+        {
+          title: "1813: two victories and a peace not taken",
+          text: "After Russia, Napoleon won at Lützen and Bautzen in May 1813. Neither victory destroyed the allied armies, which got away, and on 4 June he proposed an armistice that was extended to 10 August for peace talks at Prague. Meanwhile Austria agreed at Reichenbach to enter the war if he refused its terms, and those terms and the allies’ further demands went far: the end of the duchy of Warsaw and the Confederation of the Rhine, and the surrender of the German annexations, Holland, Italy, Spain and Illyria. Metternich says he told him that there was absolute contradiction between what Europe needed and what he had been pursuing, and that peace was available today and perhaps not tomorrow.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 6,
+            },
+            {
+              source: 0,
+              locator: "p. 186",
+            },
+          ],
+          battleSlugs: ["lutzen-1813", "bautzen"],
+          campaignSlugs: ["german-campaign-of-1813"],
+        },
+        {
+          title: "1814: terms that moved with the fighting",
+          text: "At Frankfurt in November 1813 Metternich offered peace on France’s natural frontiers, on condition of prompt acceptance. When Caulaincourt delivered Napoleon’s assent on 2 December, the offer had been withdrawn. At Châtillon in February 1814 the allies demanded the frontiers of 1792. Napoleon, who after La Rothière had given Caulaincourt a free hand, rejected that, and his success at Montmirail led him to demand the Rhine and the Alps. On 9 March, at Chaumont, the four allies bound themselves to continue until France accepted the old frontiers. By mid-April he had abdicated. The February victories had done what victories usually did for him: they raised his terms just as his enemies were agreeing never to accept them.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 7,
+            },
+            {
+              source: 8,
+            },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["campaign-in-france-1814"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Metternich",
+          stake:
+            "Austria’s minister, on the verge of joining the coalition, and telling the story afterwards in his own favour.",
+          says: "He says he warned Napoleon that the army he had just raised was made up of children, and that Napoleon answered in rage that a man like him cared little for the lives of a million men.",
+          refs: [
+            {
+              source: 0,
+              locator: "pp. 189–190",
+            },
+          ],
+        },
+        {
+          who: "Caulaincourt",
+          stake:
+            "A former ambassador who wanted peace and recalls having said so.",
+          says: "He says he urged Napoleon before 1812 to redraw Europe with reasonable boundaries and to announce his moderation openly, which he thought would do more to bring Britain to terms than the Continental System.",
+          refs: [
+            {
+              source: 3,
+              locator: "pp. 29–30",
+            },
+          ],
+        },
+        {
+          who: "Napoleon on St Helena, as Gourgaud records him",
+          stake: "Explaining defeat to a small audience, years later.",
+          says: "He says that even at Dresden he ought to have made peace. He also says that Vitoria came at exactly the moment when he could no longer sign, and that his great mistake in Spain was not giving Ferdinand an adopted girl as a wife.",
+          refs: [
+            {
+              source: 5,
+              locator: "pp. 129, 156",
+            },
+          ],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, several of these decisions were reasonable. After Friedland Napoleon had not the means, Britannica says, for an early invasion of Russia, and a peace with an alliance attached was better than he could have forced. Peace with Britain was the problem, and he saw only one way of reaching it: striking at its trade, which needed every port on the Continent closed. A war aim that requires the permanent compliance of a whole continent cannot be achieved by winning. It can only be maintained, and every government asked to maintain it acquires a reason to want it ended.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 1,
+            },
+            {
+              source: 4,
+            },
+          ],
+        },
+        {
+          text: "Clausewitz wrote that war is a continuation of political commerce by other means, and that the political object keeps a prior right to consideration. The test this implies is simple to state and hard to apply: what would this enemy, having lost, be willing to go on accepting? Friedland answered that question for Russia only for as long as Alexander chose. Madrid could not answer it at all, because the people fighting were not the people who had been made to abdicate. Napoleon’s remark on St Helena about Ferdinand’s marriage shows how far he went on treating Spain as a dynastic arrangement that had been badly managed.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 9,
+              locator: "bk I, ch. 1, §§ 23–24",
+            },
+            {
+              source: 5,
+              locator: "p. 129",
+            },
+          ],
+        },
+        {
+          text: "It cannot be shown that a lasting peace was available in 1813 or 1814. The Frankfurt offer had only the reluctant approval of Russia and Prussia, and the allies did not intend to stop operations while they waited. The Fondation’s timeline calls the armistice of 1813 his great mistake, since with two more weeks of campaigning he might have divided the allies; Britannica says his offensive had spent its force and that his army lacked ammunition, supplies and cavalry. The difference matters. If Metternich’s record is right, Napoleon’s own view of his position ruled out the concessions that might have tested the offers.",
+          evidence: "uncertainty",
+          refs: [
+            {
+              source: 7,
+            },
+            {
+              source: 10,
+            },
+            {
+              source: 6,
+            },
+            {
+              source: 0,
+              locator: "p. 186",
+            },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "A goal that narrows what is noticed",
+          base: "review",
+          text: "Ordóñez and colleagues argue, against a large literature on the benefits of goal-setting, that specific goals can produce a narrow focus that neglects whatever lies outside the goal, and can distort attitudes to risk. Winning the next battle is about as specific as a goal can be, and Napoleon was very good at it. As a reading of this record, the battle may have crowded out the less measurable question of what would make his enemies stop. The evidence also cuts the other way. He talked about peace constantly, and he told his soldiers before Borodino what victory would bring them.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 11,
+            },
+            {
+              source: 12,
+              locator: "pp. 353–354",
+            },
+          ],
+          limit:
+            "Read in abstract only. It is an argument about modern organisations, and it cannot show what a commander was attending to. The political reason Metternich records may explain the same conduct without any bias at all.",
+        },
+      ],
+      shadow: {
+        text: "This lesson is the shadow of everything the lessons on judgement praised. The speed, the reading of ground and the habit of asking what the next battle required all pointed one way. On the road to Moscow Caulaincourt heard him tell a detained Russian officer that the war was a political matter, and that a battle would clear the way to peace, much as a duel reconciles two opponents. The officer replied that he did not think peace possible while the French were on Russian soil. At Borodino itself Napoleon’s worry was that a victory without prisoners would not be conclusive. He kept defining the conclusion in military terms.",
+        evidence: "interpretation",
+        refs: [
+          {
+            source: 3,
+            locator: "pp. 81, 99",
+          },
+        ],
+        battleSlugs: ["borodino"],
+      },
+      counterCase: {
+        text: "Kutuzov’s war had a limit that the enemy’s failure could complete. Ganière says he thought his objective reached once no foreign soldier remained on Russian soil, and the Fondation’s biography notes his opposition to Alexander’s wish to carry the war into Germany. The Tsar had reproached him for softness. In the same year he had concluded the peace signed at Bucharest. His view did not prevail, and the war went on into Germany and France. A defender also finds a bounded aim easier to hold. Metternich, for his part, says he kept building Austria’s forces because the means of peace could only be found in time.",
+        evidence: "interpretation",
+        refs: [
+          {
+            source: 13,
+          },
+          {
+            source: 14,
+          },
+          {
+            source: 0,
+            locator: "p. 163",
+          },
+          {
+            source: 8,
+          },
+        ],
+        commanderSlug: "mikhail-kutuzov",
+        battleSlugs: ["borodino"],
+      },
+      cost: {
+        text: "The price of not ending the war was paid by people who had no part in deciding it. Britannica says the rising in Madrid was ruthlessly suppressed, and six years of war in Spain followed. Prussia’s civilians carried the French occupation. After Russia the armies were refilled with conscripts, and Metternich says he told Napoleon at Dresden that the soldiers he had seen were children. They fought on through 1813 and into France.",
+        evidence: "fact",
+        refs: [
+          {
+            source: 4,
+          },
+          {
+            source: 1,
+          },
+          {
+            source: 0,
+            locator: "p. 190",
+          },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "Each success is measured in the thing you are already good at, while the conflict is about something else.",
+          "The other side cannot accept the terms without giving up what it most needs.",
+        ],
+        failsWhen: [
+          "The opponent really can be compelled, and will stay compelled, by defeat.",
+          "No acceptable settlement was on offer, so restraint would have gained nothing.",
+        ],
+        questions: [
+          "What would your opponent, having lost, be willing to go on accepting?",
+          "Which of your recent successes actually brought the end closer?",
+          "What in your own position stops you from accepting a modest result?",
+        ],
+      },
+      bearsOn:
+        "Spain and Tilsit come before any supposed decline. Napoleon was at his height when he made a peace that depended on one Tsar, and an enemy of a people who would not be bound by what their king signed. Here he got no worse; the problem was always harder than a battlefield could solve. What changed in 1813 and 1814 is that he had fewer ways left to postpone it.",
+      questions: [
+        {
+          prompt: "What did Tilsit do to Russia and to Prussia?",
+          choices: [
+            "It punished both equally.",
+            "Russia lost nothing and became an ally, while Prussia lost half its population.",
+            "Prussia became France’s main ally, while Russia lost its Polish lands.",
+          ],
+          answer: 1,
+          explanation:
+            "That uneven settlement rested on Alexander’s continued calculation and Prussia’s helplessness.",
+        },
+        {
+          prompt: "Why did occupying Madrid not end the war in Spain?",
+          choices: [
+            "The people resisting were not bound by what their rulers had been made to sign.",
+            "The French never reached Madrid.",
+            "Britain had already made peace.",
+          ],
+          answer: 0,
+          explanation:
+            "Madrid rose on 2 May 1808, before the abdications were complete, and the provinces followed.",
+        },
+        {
+          prompt:
+            "What can be said about whether peace was available in 1813 or 1814?",
+          choices: [
+            "A lasting peace was definitely on offer.",
+            "The allies never offered any terms.",
+            "It cannot be shown: the offers were real but conditional, and the allies kept fighting.",
+          ],
+          answer: 2,
+          explanation:
+            "Frankfurt had only reluctant allied approval and was withdrawn before his assent arrived.",
+        },
+      ],
+      sourceCheck: {
+        question: "Was the armistice of June 1813 Napoleon’s mistake?",
+        witnesses: [
+          {
+            label: "Fondation Napoléon timeline",
+            claim:
+              "It calls the armistice his great mistake: with more boldness he could have fought on two more weeks and divided the allies.",
+          },
+          {
+            label: "Encyclopaedia Britannica",
+            claim:
+              "His offensive had spent its force, his army lacked ammunition and supplies, and he was short of cavalry; he counted on matching the allies’ growth during the pause.",
+          },
+        ],
+        prompt: "What is the fairest conclusion?",
+        options: [
+          {
+            text: "The timeline is right, so the armistice lost him the war.",
+            feedback:
+              "It says what might have been gained. It cannot show that Austria would then have stayed out.",
+          },
+          {
+            text: "Both describe real pressures: he had an advantage he could not easily sustain, and the outcome of fighting on is unknowable.",
+            feedback:
+              "Yes. The two accounts disagree about the balance of a risk, and neither can test the alternative.",
+            best: true,
+          },
+          {
+            text: "Britannica is right, so the armistice was a wise decision.",
+            feedback:
+              "That his army needed rest does not show that the pause served him better than it served the allies.",
+          },
+        ],
+        campaignSlug: "german-campaign-of-1813",
+      },
+      seminar: {
+        prompt:
+          "Pick the moment between 1807 and 1814 when Napoleon could most plausibly have settled. What exactly would he have had to give up?",
+        guidance:
+          "Name the concession and who would have had to accept it. Say what would have kept the bargain in force after he had made it, and what Metternich’s record suggests it would have cost him at home.",
+      },
+      sources: [
+        s.metternich,
+        s.winter1807,
+        s.polish1807,
+        s.caulaincourt,
+        s.peninsular,
+        s.gourgaud,
+        s.mediation,
+        s.france1814,
+        s.chatillon,
+        s.clausewitz,
+        s.timeline1813,
+        s.ordonez,
+        s.corsican,
+        s.ganiere,
+        s.kutuzovBio,
+      ],
+    },
+    {
       slug: "knowing-when-to-stop",
       title: "Knowing when to stop: Acre and Moscow",
       part: "The limits of the self",
@@ -3566,6 +4014,1024 @@ export const napoleonVolume: LeadershipVolume = {
         s.flora,
         s.sleesman,
         s.fili,
+      ],
+    },
+    {
+      slug: "who-can-tell-you-no",
+      title: "Who can tell you no?",
+      part: "The limits of the self",
+      themes: ["judgement", "organisation"],
+      claim:
+        "The higher a leader’s success, the more deliberately dissent must be protected.",
+      moment: {
+        text: "In the months before the invasion of Russia, Caulaincourt, who had been ambassador at St Petersburg, argued against it to Napoleon’s face. He spoke of the distance and the climate, of the war still unfinished in Spain, and of an enemy who would let him advance and wear himself out without a battle. Napoleon’s reply was that Caulaincourt had gone over to the Russians and understood nothing of great affairs. Caulaincourt answered that in that case it was odd to be consulted. He added that nobody contradicted the Emperor for amusement, since doing so had brought neither him nor his friends any advantage.",
+        evidence: "fact",
+        refs: [
+          {
+            source: 0,
+            locator: "pp. 32–33",
+          },
+        ],
+      },
+      episodes: [
+        {
+          title: "What it cost Caulaincourt",
+          text: "He was not simply ignored. Caulaincourt records the Emperor’s acerbity towards him after his return, and pressure on his private life. Duroc, the grand marshal and a friend, came to explain the position. The Emperor valued him, but he ought to spare the Emperor’s susceptibilities; it was easier to lead him by giving way on certain points than by opposing him directly; and it was foolish to sacrifice oneself over large matters one could not change. Duroc, says Caulaincourt, let him see that at heart he agreed. Yet Napoleon could also be a real listener: in one conversation of five hours he kept returning to the same questions, apparently to see whether the answers held.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 0,
+              locator: "pp. 9–10, 19–20",
+            },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["russian-campaign-of-1812"],
+        },
+        {
+          title: "Borodino: Davout’s flanking march",
+          text: "On the eve of Borodino Davout proposed taking his corps on a wide turning movement round the Russian left, and Linden says that he insisted. Napoleon judged it too risky and allowed only a small manoeuvre by Poniatowski. Britannica gives the reason: he feared that an attempt to outflank the Russians might fail and let them escape, after a campaign spent trying to bring them to battle. This was disagreement working as it should. A subordinate made a proposal, it was argued, and the commander decided. What followed was what Britannica calls a crude frontal attack.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 1,
+            },
+            {
+              source: 2,
+            },
+          ],
+          battleSlugs: ["borodino"],
+        },
+        {
+          title: "Waterloo: Soult and Reille that morning",
+          text: "On the morning of 18 June 1815 Soult, who had fought Wellington in Spain, advised recalling part of Grouchy’s force. Houssaye reports Napoleon’s answer: “Because you have been beaten by Wellington you regard him as a great general,” with the addition that this would be a very small affair. Reille was then asked directly about the English infantry. Well posted and attacked in front, he said, it was invincible, but it was less supple than the French and might be beaten by manoeuvring. Napoleon broke off the conversation. Houssaye suggests that he may have been irritated at frankness that could discourage the generals listening. Houssaye’s own source for the exchange has not been traced.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 3,
+              locator: "pp. 163–164",
+            },
+          ],
+          battleSlugs: ["waterloo"],
+        },
+        {
+          title: "Smorgoni: why don’t you answer?",
+          text: "At Smorgoni on 5 December 1812, as he prepared to leave the army, Napoleon told Caulaincourt that the retreat would soon be over, since Vilna was well supplied. Caulaincourt says that, having tried before to describe the real state of things, this time he listened and said nothing. Napoleon noticed and demanded his opinion. Caulaincourt told him that the army would not rally and that Vilna should be evacuated. Napoleon laughed at the idea. In the end the silence was the more significant event. A man who had spent so long telling the truth had concluded that there was no use in volunteering it.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 0,
+              locator: "pp. 266–267",
+            },
+          ],
+          battleSlugs: ["berezina"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Chaptal",
+          stake: "Once his minister, and hostile on this point.",
+          says: "He says that apart from two or three who had known him young, the generals approached him trembling, and that he kept them at a distance and told them his orders only at the moment of execution.",
+          refs: [
+            {
+              source: 4,
+              locator: "pp. 246–247",
+            },
+          ],
+        },
+        {
+          who: "The introduction to Thibaudeau’s memoir",
+          stake:
+            "A sympathetic editor, describing a councillor who kept his independence.",
+          says: "He voted against nearly all Bonaparte’s schemes, including the Legion of Honour, the Concordat and the Consulate for life, and kept his esteem. In 1803 he was suddenly sent away to the prefecture at Marseilles.",
+          refs: [
+            {
+              source: 5,
+              locator: "pp. xxv–xxvi",
+            },
+          ],
+        },
+        {
+          who: "General Gambiez on Berthier",
+          stake: "An admiring biographer of the chief of staff.",
+          says: "Berthier was not in favour of the Russian campaign or of Murat’s appointment to command its remnants, and he contradicted Napoleon again in 1813, drawing the retort “de quoi vous mêlez-vous !”",
+          refs: [
+            {
+              source: 6,
+            },
+          ],
+        },
+        {
+          who: "Wellington, as Stanhope records him, passing on Marmont",
+          stake:
+            "An old enemy repeating a story from a marshal who had changed sides.",
+          says: "In 1814, he says, Marmont repeatedly told Napoleon that he had three thousand men, and Napoleon nodded and went on planning for ten thousand.",
+          refs: [
+            {
+              source: 7,
+              locator: "p. 98",
+            },
+          ],
+        },
+        {
+          who: "Napoleon on St Helena, as Gourgaud records him",
+          stake: "Rearranging the past, in private.",
+          says: "He says Narbonne told him the Russian expedition was the ruin of the Empire and urged peace at Dresden, and that he should have listened. In the same breath he calls Caulaincourt a man of no ability.",
+          refs: [
+            {
+              source: 8,
+              locator: "p. 140",
+            },
+          ],
+        },
+      ],
+      strategist: [
+        {
+          text: "Test the opposite. The record does not show a court of silent men. Caulaincourt, Davout, Soult, Reille, Berthier, Narbonne and Thibaudeau all told him no, some repeatedly, and several survived it well. The real problem was that nobody’s objection had any consequence unless he chose to give it one. Chaptal describes the removal of the one institution that could impose a cost: when the Tribunate’s reasoned opposition irritated him he abolished it, and told Chaptal that evening that there was now no constitution. After that, disagreement depended on the Emperor’s mood.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 4,
+              locator: "p. 212",
+            },
+            {
+              source: 5,
+              locator: "pp. xxv–xxvi",
+            },
+          ],
+        },
+        {
+          text: "Hindsight flatters the dissenters. Davout’s march might have failed, as Napoleon feared, and no one knows. Reille’s advice was good, but it came on the morning of the battle, when the plan could hardly be remade. There is a real difference between a council before the decision, where doubt is useful, and the hour before the attack, where a commander has reasons not to let generals hear their chief’s opinion questioned. Napoleon’s failure at Waterloo may have been less the brusque reply than the absence of any earlier occasion on which Reille’s knowledge of the English might have shaped the plan.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 3,
+              locator: "pp. 163–164",
+            },
+            {
+              source: 1,
+            },
+            {
+              source: 2,
+            },
+          ],
+        },
+        {
+          text: "The practical damage shows in Duroc’s advice. Give way on certain points, he says, and you will lead him more easily. That is good counsel for a courtier and very bad news for an organisation. It teaches able people to manage the chief instead of informing him, and it makes every piece of information that reaches him a piece of tactics. By 1812 the Emperor’s closest servants were doing exactly what a sensible person would do in their position, and that was the problem.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 0,
+              locator: "pp. 19–20",
+            },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Psychological safety",
+          base: "single study",
+          text: "Edmondson defines team psychological safety as a shared belief that the team is safe for interpersonal risk taking, and a study of 51 work teams in a manufacturing company found it associated with learning behaviour. As an illustration, Caulaincourt’s remark that nobody contradicted the Emperor for amusement describes the reverse condition with some precision. Speaking up had a price, and people who kept paying it were unusual. Duroc’s advice looks like a rational adjustment to that price.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 9,
+            },
+            {
+              source: 0,
+              locator: "pp. 19–20, 32–33",
+            },
+          ],
+          limit:
+            "Read in abstract only. A correlational finding from factory teams is not a measure of a court and a headquarters, and it cannot say what any individual felt.",
+        },
+        {
+          mechanism: "Power and other people’s perspectives",
+          base: "review",
+          text: "Keltner, Gruenfeld and Anderson review evidence that elevated power goes with attention to rewards and more disinhibited behaviour. In experiments by Galinsky and colleagues, people primed to feel powerful were less likely to take account of what others did not know. It is tempting to read Marmont’s ten thousand men this way, with a commander so anchored in his own picture that a correction would not stick. But the same man would interrogate a returning ambassador for five hours. Power may have made him worse at some kinds of listening without making him incapable of it.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 10,
+            },
+            {
+              source: 11,
+            },
+            {
+              source: 7,
+              locator: "p. 98",
+            },
+            {
+              source: 0,
+              locator: "pp. 9–10",
+            },
+          ],
+          limit:
+            "Both read in abstract only, and no record of replications was read. Feeling powerful for a few minutes in a laboratory is not the same thing as twenty years of command, and the Marmont story is third-hand.",
+        },
+      ],
+      shadow: {
+        text: "Napoleon built the room in which he later could not hear. He kept his generals at a distance, as Chaptal says, and rewarded them with fortunes that tied them to his survival. He abolished the body that could oppose him. When a warning came he treated it as a defect in the speaker, and Gourgaud’s pages show the habit lasting into exile, with Caulaincourt, who had been right, dismissed as a man of no ability. Metternich’s account has him throwing his hat into the corner when he was told an unwelcome truth. A leader who responds like this does not need to punish anybody.",
+        evidence: "interpretation",
+        refs: [
+          {
+            source: 4,
+            locator: "pp. 212, 247–248",
+          },
+          {
+            source: 8,
+            locator: "p. 140",
+          },
+          {
+            source: 12,
+            locator: "p. 190",
+          },
+        ],
+      },
+      counterCase: {
+        text: "At Fili on 13 September 1812 Kutuzov took the decision to abandon Moscow in a council of war. The Fondation’s chronology, following Lieven, says he had already reached that conclusion and that agreement had to be secured before the retreat was ordered. Bennigsen, who had been charged with choosing a field for the defence, wrote afterwards that Barclay and Kutuzov were the guilty parties. It was not a free vote, but the decision was argued and had to be owned. Blücher’s headquarters went further. Müffling describes proposals worked up and argued before they reached the field marshal, and the Neue Deutsche Biographie says that the shares of Blücher and Gneisenau in Prussian operations can never be clearly separated. Neither arrangement guaranteed a correct decision. Each made it harder for one person’s certainty to go unexamined.",
+        evidence: "interpretation",
+        refs: [
+          {
+            source: 13,
+          },
+          {
+            source: 14,
+            locator: "pp. 94–95",
+          },
+          {
+            source: 15,
+          },
+        ],
+        commanderSlug: "mikhail-kutuzov",
+        battleSlugs: ["borodino", "waterloo"],
+      },
+      cost: {
+        text: "A warning that is not heard is paid for by those who were not in the room. Reille told Napoleon what a frontal attack on English infantry would cost, and that afternoon the columns went forward. Bourgogne, standing with the Guard at Borodino, heard the reports reach the Emperor one after another, that such a general had been killed and another put in his place. Caulaincourt had warned of an army worn out by marching without the chance to fight, and that is what the road to Moscow did to the men who took it.",
+        evidence: "fact",
+        refs: [
+          {
+            source: 3,
+            locator: "pp. 163–164",
+          },
+          {
+            source: 16,
+            locator: "ch. I",
+          },
+          {
+            source: 0,
+            locator: "pp. 32–33",
+          },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "A record of success has made the leader’s judgement harder to question.",
+          "Objections cost the person making them and have no formal route.",
+        ],
+        failsWhen: [
+          "The moment demands immediate execution, and argument would only spread doubt.",
+          "The dissent itself is weakly informed, or is someone’s way of protecting a position.",
+        ],
+        questions: [
+          "Who told you no in the past year, and what happened to them?",
+          "What does anyone gain by bringing you bad news early?",
+          "Where is the point in your process at which a decision can still be changed?",
+        ],
+      },
+      bearsOn:
+        "The contradictions are spread across the whole career, so this does not look like a late decline. Thibaudeau was sent away in 1803, and the Tribunate was abolished in the years of success. What grew after 1812 was the price of the habit, because the margin for ignoring correct advice had gone.",
+      questions: [
+        {
+          prompt: "What does the record suggest about dissent around Napoleon?",
+          choices: [
+            "Nobody ever disagreed with him.",
+            "Several people did, but objection had no consequence unless he allowed it.",
+            "He always followed the advice of his marshals.",
+          ],
+          answer: 1,
+          explanation:
+            "Caulaincourt, Davout, Reille, Berthier and Thibaudeau all objected at various times.",
+        },
+        {
+          prompt: "What did Duroc advise Caulaincourt to do?",
+          choices: [
+            "Resign at once.",
+            "Report the Emperor to the Senate.",
+            "Give way on certain points, since that was an easier way to lead him.",
+          ],
+          answer: 2,
+          explanation:
+            "That is sensible personal advice and poor practice for the organisation.",
+        },
+        {
+          prompt:
+            "Why is Davout’s proposal at Borodino a weak example of suppressed dissent?",
+          choices: [
+            "It was made, argued and rejected for a stated reason: that the flank march might let the Russians escape.",
+            "Davout never made such a proposal.",
+            "Napoleon adopted it in full.",
+          ],
+          answer: 0,
+          explanation: "No one knows whether the march would have worked.",
+        },
+      ],
+      seminar: {
+        prompt:
+          "You advise a very successful chief who dislikes contradiction. What single change would you ask them to make, and why that one?",
+        guidance:
+          "Think about when in a decision objections would be heard, who would be protected for making them, and how you would know that it was working. Say what would make your proposal useless in an emergency.",
+      },
+      sources: [
+        s.caulaincourt,
+        s.linden,
+        s.borodino,
+        s.houssaye,
+        s.chaptal,
+        s.thibaudeau,
+        s.gambiez,
+        s.stanhope,
+        s.gourgaud,
+        s.edmondson,
+        s.keltner,
+        s.galinsky,
+        s.metternich,
+        s.fili,
+        s.muffling,
+        s.blucherNdb,
+        s.bourgogne,
+      ],
+    },
+    {
+      slug: "the-last-reserve",
+      title: "The last reserve",
+      part: "The limits of the self",
+      themes: ["judgement", "restraint"],
+      claim:
+        "When only one reserve remains, how a leader spends it shows how they weigh future options against present losses.",
+      moment: {
+        text: "Sergeant Bourgogne spent the day of Borodino with the Imperial Guard, near enough to hear what was reported to the Emperor. Generals were being killed and replaced, one after another, in front of the great redoubt. “While the fighting lasted, we were placed in reserve,” he wrote, and the shot fell among their ranks and round the Emperor all the same. Around midday, Caulaincourt says, Napoleon was showing signs of anxiety. He told those around him that they would win, and that it would not be conclusive unless he took prisoners. His best soldiers were standing behind him, fresh, and the question of what they were for had become urgent.",
+        evidence: "fact",
+        refs: [
+          {
+            source: 0,
+            locator: "ch. I",
+          },
+          {
+            source: 1,
+            locator: "p. 99",
+          },
+        ],
+      },
+      episodes: [
+        {
+          title: "Borodino: held back",
+          text: "Britannica says that by noon on 7 September 1812 the French artillery had begun to tip the scales, but that successive attacks were not strong enough to overwhelm the Russians. Napoleon, distant from a field covered in smoke and perhaps unsure of the situation, refused to commit the Guard. The Fondation’s chronology says his officers were divided: Murat, Davout and Ney wanted it used to finish the battle, while Berthier, Duroc and Bessières opposed that, fearing the effect on opinion in Paris of heavy loss to such a corps. Caulaincourt shows the Young Guard being pushed forward in support during the afternoon, so the familiar statement that the Guard stayed out is a simplification.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 2,
+            },
+            {
+              source: 3,
+            },
+            {
+              source: 1,
+              locator: "pp. 99–101",
+            },
+          ],
+          battleSlugs: ["borodino"],
+        },
+        {
+          title: "Krasnoe: what the Guard was kept for",
+          text: "Ten weeks later the army was retreating along a devastated road, and near Krasnoe a Russian force was waiting beside the road. Caulaincourt writes that the soldierly conduct and unity of the Guard reassured Napoleon about the consequences of any engagement. The Young Guard and part of the Old were sent against the Russians and kept the road open. This is the best evidence in favour of the decision at Borodino. A commander who had spent his last formation in September would have had nothing left to send in November. It does not tell us whether a decisive victory in September would have made November unnecessary.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 1,
+              locator: "p. 216",
+            },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["russian-campaign-of-1812"],
+        },
+        {
+          title: "Ligny: spent at the right moment",
+          text: "On 16 June 1815 Napoleon had begun moving the Guard against Ligny when an unidentified column appeared on his flank, and he suspended the movement and brought the Guard back until he knew what it was. Blücher saw the counter-march, took it for hesitation, ordered forward his last reserves and led them himself. When the Guard went in again, the Prussian reserves had been used elsewhere, and it came through a wide breach. Houssaye’s account shows both sides of the problem in one afternoon: the same reserve held back on doubtful information, and committed when the information cleared. The Prussian army was beaten, but it stayed in being.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 4,
+              locator: "pp. 95–100",
+            },
+          ],
+          battleSlugs: ["ligny"],
+        },
+        {
+          title: "Waterloo: committed too late",
+          text: "At about six o’clock on 18 June La Haye Sainte fell and Wellington’s centre was in serious danger. Ney asked for infantry. “Troops!” Napoleon answered, in Houssaye’s telling; where did he think he could get them? He still had battalions of the Old and Middle Guard, and Houssaye thinks that half of them might have broken the allied centre at that moment. But the Prussians were on his flank and Plancenoit was falling, and the Guard went there first. Only after seven did he release battalions to Ney. By then, Britannica says, Wellington had reorganised. The National Army Museum says they went up where he was strongest. They stopped under fire and broke.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 4,
+              locator: "pp. 200–201",
+            },
+            {
+              source: 5,
+            },
+            {
+              source: 6,
+            },
+          ],
+          battleSlugs: ["waterloo"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Encyclopaedia Britannica",
+          stake: "A general reference, giving a settled modern judgement.",
+          says: "Because Kutuzov had already committed every available man, Napoleon forfeited the chance of a decisive rather than a narrow victory.",
+          refs: [
+            {
+              source: 2,
+            },
+          ],
+        },
+        {
+          who: "The Fondation Napoléon’s chronology",
+          stake: "A specialist body, more cautious on the same point.",
+          says: "It records that historians still argue about what committing the Guard would actually have achieved.",
+          refs: [
+            {
+              source: 3,
+            },
+          ],
+        },
+        {
+          who: "Henry Houssaye",
+          stake:
+            "A French patriot writing a dramatic narrative, who cites an English historian in support.",
+          says: "Napoleon, without a reserve of cavalry, did not think he had too many men, even with all his bearskins, to hold his own position, and the moment was as critical for him as it was for Wellington.",
+          refs: [
+            {
+              source: 4,
+              locator: "p. 201",
+            },
+          ],
+        },
+        {
+          who: "Napoleon’s proclamation before Borodino",
+          stake: "Written to make men fight.",
+          says: "Victory depended on their efforts and was essential. It would bring abundance, good winter quarters and a speedy return home.",
+          refs: [
+            {
+              source: 7,
+              locator: "pp. 353–354",
+            },
+          ],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, keeping the Guard at Borodino was defensible. Napoleon was at the far end of a line of communication, the army had been worn away on the march, and he could not know that Kutuzov had nothing left. Britannica’s judgement relies on knowledge he did not have. A reserve exists to pay for something later, and he had reason to expect a later. Those who wanted to use it were, understandably, the marshals who could see their own attacks failing. Those who opposed it were closest to his own position and to the question of what would remain afterwards.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 2,
+            },
+            {
+              source: 3,
+            },
+            {
+              source: 7,
+              locator: "p. 353",
+            },
+          ],
+        },
+        {
+          text: "The difficulty is that a reserve is also a means of buying a decision, and he had told his army that this was the decision. If the proclamation is taken at its word, the battle had to deliver peace, quarters and the road home. A commander who believes that should spend what is needed to get it. One who does not believe it should ask why he is fighting here. Holding the Guard may have been correct, and the battle may have been wrong, in the sense that it could not by his own standard be made worth what it cost. The tension lies between the two positions, and he left it unresolved.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 7,
+              locator: "pp. 353–354",
+            },
+            {
+              source: 1,
+              locator: "p. 99",
+            },
+          ],
+        },
+        {
+          text: "Ligny and Waterloo show what a reserve actually depends on. At Ligny the column that froze the Guard turned out to be d’Erlon’s, and he had time to recover. At Waterloo the threat was real and it had arrived. The Prussian advance claimed a large part of the reserve before he could spend it where he wanted, and it took away the one thing the commitment needed, which was timing. By seven o’clock he had nothing to lose by attacking, which is a different thing from having good reasons to expect that it would succeed. Spent earlier, it might have been decisive, and it might simply have left Plancenoit open.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 4,
+              locator: "pp. 95–100, 200–201",
+            },
+            {
+              source: 5,
+            },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Risk when ahead and when behind",
+          base: "theory",
+          text: "Kahneman and Tversky reported that people tend towards risk aversion in choices involving sure gains and towards risk seeking in choices involving sure losses. It is tempting to apply this directly: ahead on the field at Borodino he held on, while facing ruin at Waterloo he threw in the Guard. As an illustration of how the same person can weigh risk differently from two positions, it is useful. As an explanation it fails quickly, because at Ligny he was ahead and committed the Guard, and a military reason exists for each of these decisions without any need for a bias.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 8,
+            },
+            {
+              source: 4,
+              locator: "pp. 95–100",
+            },
+          ],
+          limit:
+            "Read in abstract only. The theory is built on choices among stated gambles, and it cannot explain one commander’s decision on one afternoon, when neither the odds nor the outcomes could be stated.",
+        },
+      ],
+      shadow: {
+        text: "The Guard was a military formation and also an emblem, and the sources let us see that second role affecting the calculation. Berthier, Duroc and Bessières were thinking about opinion in Paris. And at Waterloo Britannica describes how its repulse, followed by the general allied advance and further Prussian attacks, threw the army into panic. A reserve that has been raised to that level of reputation has an additional effect when it fails. Keeping it safe in order to protect that reputation, and later sending it forward as a last appeal to the army’s faith, can both be ways of using soldiers as a symbol.",
+        evidence: "interpretation",
+        refs: [
+          {
+            source: 3,
+          },
+          {
+            source: 5,
+          },
+          {
+            source: 6,
+          },
+        ],
+        battleSlugs: ["borodino", "waterloo"],
+      },
+      counterCase: {
+        text: "Kutuzov at Borodino did what Napoleon would not. Britannica says he committed every available man. He then withdrew in the night with his army badly mauled but in being. Holding nothing back was a more reasonable risk for a commander who could retreat into his own country. Wellington at Waterloo had almost no reserve left by evening. Houssaye has him telling officers that there were no orders except to hold out to the last man, and sending aides to hurry the Prussians. His remaining hope was an ally on the march. Both took risks that their conditions made possible.",
+        evidence: "interpretation",
+        refs: [
+          {
+            source: 2,
+          },
+          {
+            source: 4,
+            locator: "p. 200",
+          },
+          {
+            source: 5,
+          },
+        ],
+        commanderSlug: "mikhail-kutuzov",
+        battleSlugs: ["borodino", "waterloo"],
+      },
+      cost: {
+        text: "Reserves are often discussed as though they were sums of money. At Borodino a formation held back was under fire all day, as Bourgogne says, while the men who were not held back went against the redoubts. Caulaincourt’s brother was killed coming out of the Great Redoubt, and Caulaincourt was standing beside the Emperor when the report arrived. Each hour that a reserve is withheld is an hour in which others go on doing the work that it might have finished. Spending it means that nothing remains for the army’s next danger.",
+        evidence: "fact",
+        refs: [
+          {
+            source: 0,
+            locator: "ch. I",
+          },
+          {
+            source: 1,
+            locator: "pp. 99–100",
+          },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "There is one uncommitted resource left, and spending it cannot be undone.",
+          "The leader must choose without knowing how close the other side is to breaking.",
+        ],
+        failsWhen: [
+          "More resources can be had in time, so nothing is really final.",
+          "The decision is made for you by a new threat that consumes the reserve.",
+        ],
+        questions: [
+          "What is your last reserve, and what would you have to see before you spent it?",
+          "Have you said this moment is decisive? Does your use of resources agree?",
+          "Which future are you protecting by holding back, and how likely is it?",
+        ],
+      },
+      bearsOn:
+        "Between Borodino and Waterloo his skill with the reserve does not obviously decline, since Ligny lies very close to the end. What shrank was the room for it. At Borodino he could afford a debate about the next campaign. At Waterloo the Prussians had already decided how much of the Guard he would be allowed to use.",
+      questions: [
+        {
+          prompt: "Why is “the Guard stayed out at Borodino” a simplification?",
+          choices: [
+            "Caulaincourt shows the Young Guard being pushed forward in support during the afternoon.",
+            "The Guard was not present at the battle.",
+            "The Old Guard led the first attack.",
+          ],
+          answer: 0,
+          explanation: "The debate concerns the main body of the Guard.",
+        },
+        {
+          prompt:
+            "What is the best evidence in favour of keeping the Guard at Borodino?",
+          choices: [
+            "That Kutuzov had a large reserve remaining.",
+            "That it later kept the road open during the retreat, as at Krasnoe.",
+            "That the battle was decisive.",
+          ],
+          answer: 1,
+          explanation:
+            "It does not settle whether a decisive result in September would have made the retreat unnecessary.",
+        },
+        {
+          prompt:
+            "Why does Ligny weaken a prospect-theory reading of these decisions?",
+          choices: [
+            "Napoleon was absent from Ligny.",
+            "No Guard units were at Ligny.",
+            "He was ahead, and still committed the Guard.",
+          ],
+          answer: 2,
+          explanation:
+            "A military reason is available for each decision without any bias.",
+        },
+      ],
+      sourceCheck: {
+        question: "Would committing the Guard have won at Borodino?",
+        witnesses: [
+          {
+            label: "Encyclopaedia Britannica",
+            claim:
+              "Kutuzov had committed every available man, so Napoleon forfeited the chance of a decisive victory.",
+          },
+          {
+            label: "Fondation Napoléon chronology",
+            claim:
+              "His officers were divided, and historians continue to debate what its engagement would have achieved.",
+          },
+        ],
+        prompt: "What can safely be said?",
+        options: [
+          {
+            text: "That it would certainly have destroyed the Russian army.",
+            feedback:
+              "Britannica speaks of a chance. No source can run the battle again.",
+          },
+          {
+            text: "That the Russians had little left, that he could not know that, and that the result of committing it is unknown.",
+            feedback:
+              "Yes. This separates what was true from what he knew and from what would have happened.",
+            best: true,
+          },
+          {
+            text: "That it would have made no difference.",
+            feedback: "That is as unprovable as the opposite claim.",
+          },
+        ],
+        battleSlug: "borodino",
+      },
+      seminar: {
+        prompt:
+          "Try the Simulator’s exercise “Commit the Guard?”, and decide. Then write down what you would have needed to know to change your answer.",
+        guidance:
+          "Separate what Napoleon knew at the time from what Britannica knows now. Say which future you were protecting and how much of it depended on the Guard.",
+      },
+      sources: [
+        s.bourgogne,
+        s.caulaincourt,
+        s.borodino,
+        s.fili,
+        s.houssaye,
+        s.hundredDays,
+        s.nam,
+        s.corsican,
+        s.prospect,
+      ],
+    },
+    {
+      slug: "when-the-leader-leaves",
+      title: "When the leader leaves",
+      part: "The limits of the self",
+      themes: ["ethics", "motivation"],
+      claim:
+        "When a leader leaves those they led, the decision may be rational and still break the bond that made them follow.",
+      moment: {
+        text: "On 19 August 1799 Bonaparte wrote from Menouf to General Kléber telling him to start for Rosetta at once, because there were matters of extreme importance to discuss. Three days later, from Alexandria, he wrote that he was leaving that night for France, and enclosed an order placing Kléber in command of the army. He left Egypt, he said, with the deepest regret. In mind and heart he would remain with them. “The army I am leaving you is made up of my children,” he wrote. Kléber had not asked for this, and the Fondation’s biography calls it for him, as for many others, a total surprise.",
+        evidence: "fact",
+        refs: [
+          {
+            source: 0,
+            locator: "pp. 104–105",
+          },
+          {
+            source: 1,
+          },
+        ],
+      },
+      episodes: [
+        {
+          title: "Egypt, August 1799",
+          text: "He had just beaten the Turkish army at Aboukir. He had English papers showing that Italy was lost, and Lentz records his own later remark that the pear was ripe. Battesti sets out the possibilities. Had he deserted his post to serve his ambition? Had he concluded that the policy had failed? Or did he believe he could save the position by sending help from France? What he left was, on paper, formidable: an army of some twenty-two thousand, with artillery and munitions, in a country largely pacified. Its men, Battesti says, feared dying in Africa with no news of home. Kléber’s proclamation of 29 August had to tell them that help or an honourable peace was coming.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 0,
+              locator: "p. 104",
+            },
+            {
+              source: 2,
+            },
+            {
+              source: 3,
+            },
+          ],
+          battleSlugs: ["aboukir-1799"],
+        },
+        {
+          title: "Kléber’s report",
+          text: "Kléber was deeply shocked by what Battesti, in inverted commas, calls the “fuite”. He thought himself tricked by a man who had gone in order not to carry responsibility for a surrender. As he learned the true state of affairs his anger grew, and his report to the Directory of 26 September is, Battesti says, a formal indictment: the army halved, without arms, powder or iron, naked, exhausted and decimated by disease. That was also useful, since Kléber was preparing opinion for evacuation. His popularity with the army, Battesti adds, was what finally calmed the soldiers’ anger and fear.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 3,
+            },
+          ],
+          battleSlugs: [],
+        },
+        {
+          title: "Smorgoni, December 1812",
+          text: "On 5 December Napoleon dictated his final orders. He would go at ten that night, with an escort from the Guard, and the marshals were to come to headquarters at seven. Britannica says he handed the command to Murat and hurried on to reach Paris before the news of his disaster. Ganière gives the case: he knew of Malet’s attempted coup, expected the 29th Bulletin to cause alarm, foresaw that Germany might rise, and judged that only he could raise, arm and organise a new army. The marshals approved. He had told Caulaincourt that, as things stood, he could keep his hold on Europe only from the Tuileries.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 4,
+              locator: "pp. 261–262, 265–266",
+            },
+            {
+              source: 5,
+            },
+            {
+              source: 6,
+            },
+          ],
+          battleSlugs: ["berezina"],
+          campaignSlugs: ["russian-campaign-of-1812"],
+        },
+        {
+          title: "Fontainebleau, April 1814",
+          text: "After the abdication he took his leave in public. On 20 April, at about half past eleven, he came down the great horseshoe staircase and spoke to his Guard. The Fondation notes that several versions of the speech have reached us. The text Johnston prints has him saying that he had sacrificed all their interests to those of the country, that they must go on serving France, and that he meant to write down the great things they had done together. “Good-bye, my children!” Here he had no battle left to win and nobody to desert. He stood in front of them and said it, and then he went south, where the crowds soon turned from a timid welcome to insults.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 7,
+            },
+            {
+              source: 0,
+              locator: "pp. 440–441",
+            },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["campaign-in-france-1814"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Sergeant Bourgogne",
+          stake: "A loyal grenadier of the Guard, still marching.",
+          says: "Reaching Smorgoni, he learned the Emperor had gone. Many foreigners blamed him, he says, but “the step he took was a perfectly natural one”. He adds that those loudly complaining may have been English agents.",
+          refs: [
+            {
+              source: 8,
+              locator: "pp. 213–214",
+            },
+          ],
+        },
+        {
+          who: "Caulaincourt, in the sledge with him",
+          stake:
+            "A companion on the journey who had already told him that Vilna could not hold.",
+          says: "Once in the Duchy of Warsaw the Emperor became very cheerful and talked constantly. He had no doubt that the army would stay at Vilna, and did not grasp the extent of his losses.",
+          refs: [
+            {
+              source: 4,
+              locator: "pp. 276–277",
+            },
+          ],
+        },
+        {
+          who: "Michèle Battesti",
+          stake:
+            "A historian of the expedition, who frames the case for and against.",
+          says: "The choice of Kléber was a choice of the most competent and popular man in the army, and whether the expedition’s failure was inevitable remains the open question.",
+          refs: [
+            {
+              source: 3,
+            },
+          ],
+        },
+        {
+          who: "Thierry Lentz",
+          stake:
+            "A historian at the Fondation, sceptical of the Egyptian myth.",
+          says: "Bonaparte heard that events were moving fast in France and decided to return to seize the opportunity.",
+          refs: [
+            {
+              source: 2,
+            },
+          ],
+        },
+      ],
+      strategist: [
+        {
+          text: "The case for leaving is strong, and it should be stated fully. In December 1812 the army was past being commanded in any useful sense, and the Empire needed a head. A failed coup had just shown how much rested on the rumour of his death. New forces had to be raised before Germany turned, and nobody else had the authority to do it. In 1799 he could do little more for a cut-off army in Egypt, while Italy was lost and France was in crisis. Remaining at Smorgoni would have been a fine gesture, and would have helped the men on that road very little.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 6,
+            },
+            {
+              source: 0,
+              locator: "p. 104",
+            },
+          ],
+        },
+        {
+          text: "The case against is also strong. He left command in 1812 to Murat, and Ganière says he could not have made a worse choice, since the King of Naples thought only of saving his throne. Gambiez notes that Berthier was against it too. The orders he left assumed an army that would stop at Vilna, against Caulaincourt’s advice, and he was still sure of that in the sledge. In Egypt he left under secrecy, and the man he left in charge believed he had been deceived. He may have been right to go, and he left badly on both occasions, in the sense that the people left behind were not given a true account of what was now expected of them.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 6,
+            },
+            {
+              source: 9,
+            },
+            {
+              source: 4,
+              locator: "pp. 262, 266–267, 276–277",
+            },
+            {
+              source: 3,
+            },
+          ],
+        },
+        {
+          text: "These two cases do not cancel each other out, and the lesson depends on keeping both. A decision can be right for the institution and wrong for the relationship that made the institution possible. The army that followed him did so in part because he had shared their danger and could speak of it, as an earlier lesson showed. Going away was a statement about whose survival came first. Bourgogne’s loyalty shows that this statement did not have to be fatal. Kléber’s reaction shows what it could do to a senior man who had to explain it.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 8,
+              locator: "pp. 213–214",
+            },
+            {
+              source: 3,
+            },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "A broken understanding of what is owed",
+          base: "single study",
+          text: "Robinson and Rousseau studied graduate management alumni surveyed at graduation and two years later. A majority reported that employers had violated the reciprocal obligations they understood to exist. Violations were associated with lower trust and with more people leaving. Kléber’s feeling of having been tricked looks like the same thing in a harsher setting: an understanding about mutual obligations, not written down, that one side had ended without notice. The analogy is weak, and this lesson uses it only to separate the fact of departure from the feeling that a promise has been broken.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 10,
+            },
+            {
+              source: 3,
+            },
+          ],
+          limit:
+            "Read in abstract only, and based on 128 management graduates and their jobs. It says nothing about war, and the soldiers’ responses were clearly varied, as Bourgogne’s own loyalty shows.",
+        },
+      ],
+      shadow: {
+        text: "“My children” appears in the letter to Kléber of 1799 and in the farewell of 1814. It was the language in which he asked men to die, and he also used it when he was leaving. On his return from Syria earlier in 1799 he had already left behind men sick with the plague, for which Lentz says he went on being criticised. Each departure could be defended, and each was described by the person leaving. At the end of August 1799 the soldiers in Egypt were told he had gone for their own good, by a general who privately thought otherwise.",
+        evidence: "interpretation",
+        refs: [
+          {
+            source: 0,
+            locator: "pp. 105, 440–441",
+          },
+          {
+            source: 2,
+          },
+          {
+            source: 3,
+          },
+        ],
+        battleSlugs: ["aboukir-1799", "berezina"],
+      },
+      counterCase: {
+        text: "When the Serbian army retreated across the mountains in the winter of 1915, its old king went with it. Peter I, already incapacitated by age and poor health and no longer exercising power, took part in the retreat to the Adriatic, Britannica says, carried in a litter. Putnik, the commander-in-chief, shared the retreat in a sedan chair. Bjelajac records that the remnants gathered on Corfu, were reorganised and went back to fight on the Salonika front. No source read proves that the presence of these men held the army together, and they had no capital left to save. But it is the exact opposite of Smorgoni.",
+        evidence: "interpretation",
+        refs: [
+          {
+            source: 11,
+          },
+          {
+            source: 12,
+          },
+          {
+            source: 13,
+          },
+        ],
+        commanderSlug: "radomir-putnik",
+        battleSlugs: ["serbian-retreat-1915"],
+      },
+      cost: {
+        text: "The people who paid for these departures were those who stayed. Bourgogne describes the road after Smorgoni as being like a battlefield, so many were the dead. Men fell calling for help and nobody listened: “We had lost all sense of pity.” At Vilna, Caulaincourt says, people had been dancing at a ball while others froze. The survivors reached Kovno and crossed the Niemen under Russian pressure. In Egypt the army was left to fight on until its surrender in 1801, and Kléber was assassinated in June 1800, on the day of Marengo.",
+        evidence: "fact",
+        refs: [
+          {
+            source: 8,
+            locator: "p. 213",
+          },
+          {
+            source: 4,
+            locator: "p. 273",
+          },
+          {
+            source: 6,
+          },
+          {
+            source: 2,
+          },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "People’s commitment has depended on the leader sharing their position.",
+          "The leader goes while others must stay and bear the outcome.",
+        ],
+        failsWhen: [
+          "The role requires the leader elsewhere, and everyone was told so in advance.",
+          "Staying would be a gesture that changes nothing and costs more elsewhere.",
+        ],
+        questions: [
+          "What have your people been led to believe you would share with them?",
+          "If you had to leave, who would explain it, and could they do so honestly?",
+          "Who are you trusting to take over, and is the choice about them or about you?",
+        ],
+      },
+      bearsOn:
+        "He did the same thing in 1799, at the start of his rise, and in 1812, so this is no sign of decline. The difference lies in the consequences. In 1799 the army he left was out of sight when he reached power. In 1812 the army he left was the Empire’s, and it did not come back.",
+      questions: [
+        {
+          prompt: "What was Kléber’s reaction to the departure from Egypt?",
+          choices: [
+            "He had been told months earlier and approved.",
+            "He felt tricked, and his report to the Directory was an indictment.",
+            "He left for France on the same ship.",
+          ],
+          answer: 1,
+          explanation:
+            "The Fondation’s biography calls the appointment a total surprise to him.",
+        },
+        {
+          prompt: "What did Napoleon wrongly assume when leaving Smorgoni?",
+          choices: [
+            "That the army would stop at Vilna.",
+            "That Paris had already fallen.",
+            "That Murat would refuse command.",
+          ],
+          answer: 0,
+          explanation:
+            "Caulaincourt told him otherwise and records him still sure of it in the sledge.",
+        },
+        {
+          prompt: "How does this lesson treat the argument about Smorgoni?",
+          choices: [
+            "He was simply a deserter.",
+            "He had no choice, so nothing can be said against it.",
+            "The decision may have been right and may still have damaged the bond with the army.",
+          ],
+          answer: 2,
+          explanation:
+            "Bourgogne’s loyalty and Kléber’s anger both belong in the account.",
+        },
+      ],
+      seminar: {
+        prompt:
+          "Draft the three sentences Napoleon should have told the army at Smorgoni. What can honestly be said, and what can’t?",
+        guidance:
+          "Consider what the security of the journey required, who should have been told, and what he actually knew about the state of Vilna. Say whether an honest message would have helped the men on the road.",
+      },
+      sources: [
+        s.corsican,
+        s.kleberBio,
+        s.bp5,
+        s.battesti,
+        s.caulaincourt,
+        s.retreat,
+        s.ganiere,
+        s.adieux,
+        s.bourgogne,
+        s.gambiez,
+        s.robinson,
+        s.peterI,
+        s.putnik,
+        s.bjelajac,
       ],
     },
   ],

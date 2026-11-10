@@ -175,6 +175,9 @@ const leadershipLessonSchema = z
     claim: z
       .string()
       .regex(conditionalClaim, "A claim must state when it applies"),
+    inBrief: z
+      .object({ strength: z.string().min(1), shadow: z.string().min(1) })
+      .optional(),
     moment: leadershipReadingSchema,
     episodes: z
       .array(

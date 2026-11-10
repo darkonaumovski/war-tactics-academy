@@ -24,6 +24,7 @@ const types = [
   "Campaign",
   "Collection",
   "Learning",
+  "Leadership",
 ];
 
 // The search page is prerendered without a query; the query string is read in

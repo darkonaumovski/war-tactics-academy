@@ -9,6 +9,7 @@ import { Heading, SectionTitle, Breadcrumbs, Sources } from "../ui";
 import { BattleCatalog } from "../catalogs";
 import { BattleMap } from "../battle-map";
 import { SaveRecord } from "../persistence-ui";
+import { lessonsForBattle } from "../../data/leadership";
 export function BattlesPage({ c }: { c: Catalog }) {
   return (
     <div className="page-container">
@@ -156,6 +157,18 @@ export function BattlePage({ battle: b, c }: { battle: Battle; c: Catalog }) {
                     Part of the collection {k.title} →
                   </Link>
                 ))}
+              {lessonsForBattle(b.slug).length > 0 && (
+                <h3>Leadership lessons</h3>
+              )}
+              {lessonsForBattle(b.slug).map(({ volume, lesson }) => (
+                <Link
+                  className="text-link"
+                  key={`${volume.commanderSlug}/${lesson.slug}`}
+                  href={`/leadership/${volume.commanderSlug}/${lesson.slug}`}
+                >
+                  {lesson.title} →
+                </Link>
+              ))}
               {c.scenarios
                 .filter((s) => s.battleSlug === b.slug)
                 .map((s) => (

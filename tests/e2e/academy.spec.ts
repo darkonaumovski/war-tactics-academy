@@ -444,7 +444,11 @@ test("a leadership lesson shows its three readings and saves progress", async ({
   await expect(
     page.getByText("Did Napoleon get worse, or did the problem get harder?"),
   ).toBeVisible();
-  await page.getByRole("link", { name: /Knowing when to stop/ }).click();
+  // The lesson list comes first; the strength-and-shadow table links it again.
+  await page
+    .getByRole("link", { name: /Knowing when to stop/ })
+    .first()
+    .click();
   for (const name of [
     "What happened",
     "Without hindsight",
@@ -473,6 +477,31 @@ test("a leadership lesson shows its three readings and saves progress", async ({
     () => document.documentElement.scrollWidth - window.innerWidth,
   );
   expect(overflow).toBeLessThanOrEqual(0);
+});
+test("leadership lessons are linked from the hub, profiles, studies and search", async ({
+  page,
+}) => {
+  await page.goto("/leadership/napoleon-bonaparte");
+  await expect(
+    page.getByRole("heading", { name: "Strengths and their shadows" }),
+  ).toBeVisible();
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(20);
+  await page.goto("/commanders/napoleon-bonaparte");
+  await expect(
+    page.getByRole("heading", { name: /Leadership lessons/ }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: /Leadership Lessons from Napoleon/ }),
+  ).toBeVisible();
+  await page.goto("/battles/borodino");
+  await page.getByRole("link", { name: /The last reserve/ }).click();
+  await expect(page).toHaveURL(
+    /\/leadership\/napoleon-bonaparte\/the-last-reserve\/$/,
+  );
+  await page.goto("/search?q=dissent&type=Leadership");
+  await expect(
+    page.getByRole("link", { name: /Who can tell you no\?/ }),
+  ).toBeVisible();
 });
 test("extended learning paths are listed and their lessons persist progress", async ({
   page,

@@ -15,6 +15,8 @@ import { SaveRecord } from "../persistence-ui";
 import { media } from "../../lib/media";
 import { battleListing } from "../../lib/projections";
 import { HistoricalPortrait } from "../media-library";
+import { counterCaseLessons, volumeForCommander } from "../../data/leadership";
+import { LeadershipLinks } from "../leadership-links";
 export function CommandersPage({ c }: { c: Catalog }) {
   return (
     <div className="page-container">
@@ -106,6 +108,10 @@ export function CommanderPage({
           </section>
         ))}
       </div>
+      <LeadershipLinks
+        volume={volumeForCommander(x.slug)}
+        counterCases={counterCaseLessons(x.slug)}
+      />
       {x.details && <SectionTitle number="⌖" title="Command record" />}
       {x.details && (
         <div className="command-record">

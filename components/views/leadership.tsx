@@ -205,7 +205,57 @@ export function LeadershipVolumePage({
           </section>
         );
       })}
+      <StrengthAndShadow volume={v} />
     </div>
+  );
+}
+// Each lesson's strength beside the cost it carried, with the volume's answer.
+function StrengthAndShadow({ volume: v }: { volume: LeadershipVolume }) {
+  const rows = v.lessons.filter((l) => l.inBrief);
+  if (!rows.length) return null;
+  const last = v.lessons[v.lessons.length - 1];
+  return (
+    <section className="leadership-ledger" aria-labelledby="ledger-title">
+      <h2 className="leadership-part" id="ledger-title">
+        Strengths and their shadows
+      </h2>
+      <p>
+        Every strength in this volume carried a cost. The table sets them side
+        by side, one line for each lesson.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Lesson</th>
+            <th scope="col">The strength</th>
+            <th scope="col">Its shadow</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((l) => (
+            <tr key={l.slug}>
+              <th scope="row">
+                <Link href={`/leadership/${v.commanderSlug}/${l.slug}`}>
+                  {String(v.lessons.indexOf(l) + 1).padStart(2, "0")} {l.title}
+                </Link>
+              </th>
+              <td data-label="The strength">{l.inBrief!.strength}</td>
+              <td data-label="Its shadow">{l.inBrief!.shadow}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      {!v.inProgress && (
+        <p>
+          The last lesson,{" "}
+          <Link href={`/leadership/${v.commanderSlug}/${last.slug}`}>
+            {last.title}
+          </Link>
+          , answers the question of this volume, and its seminar asks you to
+          argue the opposite.
+        </p>
+      )}
+    </section>
   );
 }
 export function LeadershipLessonPage({

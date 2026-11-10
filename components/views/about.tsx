@@ -51,6 +51,16 @@ export function AboutPage() {
           measures participation and stores your best quiz score, not mastery
           certification.
         </p>
+        <h2>Leadership lessons</h2>
+        <p>
+          Each leadership lesson tests one conditional claim against a single
+          career and says when it fails. A historian, a strategist and a
+          psychologist read the same events separately; the psychological
+          readings are always labelled as interpretation, state how far the
+          research behind them reaches, and never diagnose anyone. Every lesson
+          keeps the human cost in view. Sayings that cannot be traced to a named
+          origin are left out, and one career cannot prove a rule.
+        </p>
         <h2>Your reading belongs to you</h2>
         <p>
           Bookmarks, recently explored records and learning progress are saved

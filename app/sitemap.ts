@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { getCatalog } from "../lib/content";
 import { siteUrl } from "../lib/metadata";
 import { collections } from "../data/collections";
+import { leadershipVolumes } from "../data/leadership";
 
 export const dynamic = "force-static";
 
@@ -19,6 +20,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "simulator/",
     "library/",
     "library/videos/",
+    "leadership/",
     "about/",
     ...c.battles.map((b) => `battles/${b.slug}/`),
     ...c.commanders.map((x) => `commanders/${x.slug}/`),
@@ -30,6 +32,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       ...x.lessons.map((l) => `academy/${x.slug}/${l.slug}/`),
     ]),
     ...c.scenarios.map((x) => `simulator/${x.slug}/`),
+    ...leadershipVolumes.flatMap((v) => [
+      `leadership/${v.commanderSlug}/`,
+      ...v.lessons.map((l) => `leadership/${v.commanderSlug}/${l.slug}/`),
+    ]),
   ];
   // Relative to siteUrl, which already includes any base path.
   return paths.map((p) => ({ url: new URL(p, siteUrl).href }));

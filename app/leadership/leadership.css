@@ -122,7 +122,64 @@
   line-height: 1.65;
   margin: 8px 0;
 }
+.leadership-ledger > p {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.65;
+}
+.leadership-ledger table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 18px 0;
+  font-size: 14px;
+  line-height: 1.55;
+}
+.leadership-ledger th,
+.leadership-ledger td {
+  padding: 12px 14px 12px 0;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+.leadership-ledger thead th {
+  color: var(--gold);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.leadership-ledger tbody th {
+  font-weight: 600;
+  width: 30%;
+}
+.leadership-ledger tbody th a {
+  color: var(--text);
+}
+.leadership-ledger td:last-child {
+  color: var(--muted);
+}
 @media (max-width: 760px) {
+  .leadership-ledger thead {
+    display: none;
+  }
+  .leadership-ledger tr,
+  .leadership-ledger th,
+  .leadership-ledger td {
+    display: block;
+    width: auto;
+  }
+  .leadership-ledger tr {
+    border-bottom: 1px solid var(--line);
+    padding: 12px 0;
+  }
+  .leadership-ledger tbody th,
+  .leadership-ledger td {
+    border: 0;
+    padding: 4px 0;
+  }
+  .leadership-ledger td::before {
+    content: attr(data-label) ": ";
+    color: var(--gold);
+  }
   .leadership-witnesses,
   .leadership-transfer {
     grid-template-columns: minmax(0, 1fr);

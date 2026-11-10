@@ -744,6 +744,12 @@ export const napoleonVolume: LeadershipVolume = {
       themes: ["communication", "ethics"],
       claim:
         "When a leader also wrote the record of their own leadership, a lesson drawn from that record is worth only as much as the evidence that does not come from them.",
+      inBrief: {
+        strength:
+          "Control of the record: bulletins and memoirs shaped how his army and posterity saw him.",
+        shadow:
+          "His own testimony is the hardest to check, and the bulletins became a byword for lying.",
+      },
       moment: {
         text: "On 30 November 1811 Napoleon told Berthier to press on without pause with writing the campaigns of 1805 to 1809, because otherwise nothing would remain. The collected bulletins were to be reprinted, and he said how: retouched, with the things recognised as false taken out, faults of style corrected, and staff papers added, such as lists of prisoners and captured flags. An official work of this kind had already been made for Marengo. The man who would be history’s main witness to these campaigns was editing the evidence while he still held power.",
         evidence: "fact",
@@ -979,6 +985,12 @@ export const napoleonVolume: LeadershipVolume = {
       themes: ["judgement", "organisation"],
       claim:
         "When a leader appears to have created a system, look first for what they inherited, and then for what they did to scale it.",
+      inBrief: {
+        strength:
+          "Divisions, guns and ideas inherited from the old army and the Revolution, organised into a new kind of campaign.",
+        shadow:
+          "The legend that he made it all, which he helped write himself.",
+      },
       moment: {
         text: "On 11 April 1796 an Austrian column under d’Argenteau was stopped at the redoubt of Monte Legino by the resistance of Rampon’s brigade. That night Bonaparte, twenty-six years old and only just in command of the Army of Italy, sent his forces across the Apennines by separate routes: Laharpe straight to Monte Legino, Masséna round the Austrian flank, Augereau by another pass. The Austrians were beaten at Montenotte, and a famous campaign had begun. It looks like the start of something new. Most of what made that night possible was already there when he arrived.",
         evidence: "fact",
@@ -1214,6 +1226,12 @@ export const napoleonVolume: LeadershipVolume = {
       themes: ["judgement"],
       claim:
         "When long preparation meets a setting whose signals have stayed the same, fast judgement can be trusted; when the setting changes, the feeling of certainty outlives the reliability.",
+      inBrief: {
+        strength:
+          "Fast judgement built on years of study and practice in familiar settings.",
+        shadow:
+          "Certainty that outlived its reliability once Russia changed the signals.",
+      },
       moment: {
         text: "A little after eight on the morning of 2 December 1805, as the mist cleared near Austerlitz, Napoleon saw that allied columns had come down from the Pratzen heights to join the attacks on Telnitz and Sokolnitz. In the diary of his words compiled by R. M. Johnston he asks Soult how long it will take to reach the plateau. Less than twenty minutes, says Soult. “If that is so, we will wait fifteen minutes more.” Soult took the heights in about half an hour, and the allies spent the rest of the morning trying to get them back. It is the classic image of the coup d’œil: one look, one order.",
         evidence: "fact",
@@ -1445,6 +1463,10 @@ export const napoleonVolume: LeadershipVolume = {
       themes: ["judgement", "organisation"],
       claim:
         "When the situation cannot be known in advance, an organisation built to absorb a wrong assumption is worth more than a correct prediction.",
+      inBrief: {
+        strength: "Corps that could absorb a wrong assumption, as at Jena.",
+        shadow: "By Waterloo the margin for error had gone.",
+      },
       moment: {
         text: "On the morning of 13 October 1806 Napoleon wrote to Murat: “At last the veil is torn; the enemy have begun their retreat towards Magdeburg.” That afternoon he rode up to the heights above Jena and saw Prussian camps. By the account of the 1911 Britannica he concluded from all his reports that the whole Prussian army was in front of him, and he ordered his forces to concentrate on Jena, marching all night if need be. Six hours earlier that would have been true. The Prussian main body had already begun to move away to the north.",
         evidence: "fact",
@@ -1686,6 +1708,11 @@ export const napoleonVolume: LeadershipVolume = {
       themes: ["judgement", "restraint"],
       claim:
         "When speed concentrates force at the point that matters it can outweigh numbers, and whatever it buys is paid for by the people who march.",
+      inBrief: {
+        strength: "Speed that concentrated force where it mattered.",
+        shadow:
+          "Paid for by the men who marched, and studied by enemies by 1813.",
+      },
       moment: {
         text: "At the end of July 1796 reports reached Bonaparte one after another. Masséna had been driven back, the enemy had appeared near Verona, a French general had been beaten at Salo, and the Austrians were in Brescia on his line of communication. He was besieging Mantua, the prize of the campaign, and its fall was thought to be close. He ordered the siege raised, told Sérurier to burn the siege train if necessary, and gathered everything he had in a central position.",
         evidence: "fact",
@@ -1911,6 +1938,11 @@ export const napoleonVolume: LeadershipVolume = {
       themes: ["motivation", "communication"],
       claim:
         "Visible shared risk builds authority when followers read it as theirs, and for that very reason it is also worth staging.",
+      inBrief: {
+        strength: "Shared, visible risk at Lodi, Arcole and Jaffa.",
+        shadow:
+          "Presence staged for the public, and the sick left behind at Jaffa.",
+      },
       moment: {
         text: "On the night of 1 December 1805, the eve of Austerlitz, Napoleon went round the bivouacs. In the account Johnston compiled he went on foot and incognito and was recognised at once: torches of straw went up on poles, the army stood and cheered, and an old grenadier promised him that he need only watch tomorrow. Back in a roofless straw hut the grenadiers had built for him he is reported to have said: “This is the most glorious night of my life; but I regret that so many of these brave fellows will be lost.”",
         evidence: "fact",
@@ -2151,6 +2183,11 @@ export const napoleonVolume: LeadershipVolume = {
       themes: ["motivation", "organisation"],
       claim:
         "Public recognition mobilises people when it is seen as fair, and loses its force once it hardens into property.",
+      inBrief: {
+        strength: "Public honour, seen as fair, that made people strive.",
+        shadow:
+          "Rewards that hardened into property, until the marshals wanted rest.",
+      },
       moment: {
         text: "In May 1802 the Council of State debated the proposed Legion of Honour. Berlier objected that it led straight to an aristocracy, and that “crosses and ribbons are the toys of a Monarchy.” Thibaudeau, who voted against it, took down the First Consul’s reply. “You are pleased to call them toys; well, it is with toys that mankind is governed.” He added that he would not say so in a speech, but that among statesmen one ought to speak freely.",
         evidence: "fact",
@@ -2398,6 +2435,11 @@ export const napoleonVolume: LeadershipVolume = {
       themes: ["communication", "ethics"],
       claim:
         "When a leader controls what followers are told, they can shape what a situation means, and each distortion draws on a limited account of trust.",
+      inBrief: {
+        strength:
+          "Proclamations and bulletins that told the army what its efforts meant.",
+        shadow: "Each distortion spent trust, until the bulletins were mocked.",
+      },
       moment: {
         text: "At the start of December 1812, with no letters from France reaching him, Napoleon prepared the account of the retreat that would become the 29th Bulletin. Caulaincourt records his reasoning. He would tell everything: it was better that the particulars should come from him than through private letters, and full details now would soften what had to be announced later. A man who had been shaping the news for sixteen years was deciding, as a matter of calculation, to tell the truth.",
         evidence: "fact",
@@ -2643,6 +2685,10 @@ export const napoleonVolume: LeadershipVolume = {
       themes: ["organisation", "judgement"],
       claim:
         "Delegation works when subordinates share a doctrine, command forces able to survive alone and know the intent behind their orders.",
+      inBrief: {
+        strength: "Marshals who could fight alone within his intent.",
+        shadow: "He delegated the fighting and kept the thinking.",
+      },
       moment: {
         text: "At three in the morning of 14 October 1806, Napoleon’s orders reached Marshal Davout near Naumburg. They told him what the Emperor meant to do: attack from Jena towards Weimar at first light. They told Davout to march on Apolda and fall on the enemy’s rear. And they left the choice of road to him. By half past six the head of his corps was moving, with Davout himself riding at the front of Gudin’s division.",
         evidence: "fact",
@@ -2861,6 +2907,10 @@ export const napoleonVolume: LeadershipVolume = {
       themes: ["organisation", "judgement"],
       claim:
         "When a headquarters is built to serve one mind, it extends that mind’s reach and leaves little that can think without it.",
+      inBrief: {
+        strength: "A staff that multiplied one man’s reach.",
+        shadow: "Little that could think without him, as 1815 showed.",
+      },
       moment: {
         text: "At Vilna in July 1812, Caulaincourt writes, twenty-four hours were not enough for Napoleon. Aides-de-camp, orderly officers and staff officers were constantly on the roads, and he waited with growing impatience for reports from the corps on the march. His first words to everyone who arrived were always the same: how many prisoners had been taken? The Russians were retreating, and the question that had always told him how a campaign was going was no longer telling him very much.",
         evidence: "fact",
@@ -3087,6 +3137,10 @@ export const napoleonVolume: LeadershipVolume = {
       themes: ["organisation", "judgement"],
       claim:
         "An organisation trained to wait for one person’s decision fails where that person is absent.",
+      inBrief: {
+        strength: "Decisions concentrated in one exceptional mind.",
+        shadow: "Failure wherever he was absent, and blame passed downwards.",
+      },
       moment: {
         text: "Before the war of 1812, Caulaincourt came back from St Petersburg with a warning that he says he noted down at once. Alexander had told him that Russia would never accept a dictated peace, and then added a remark about the French army. Wonders happened where the Emperor was present in person; but he could not be everywhere, and he could not be away from Paris year after year. Napoleon heard this out, Caulaincourt says, with close attention. The Tsar had described the weakness of the whole system in a sentence.",
         evidence: "fact",
@@ -3317,6 +3371,10 @@ export const napoleonVolume: LeadershipVolume = {
       themes: ["adaptation", "organisation"],
       claim:
         "When one side keeps winning by the same method, its opponents have more reason to learn from it than it has itself.",
+      inBrief: {
+        strength: "A method that beat every army it met.",
+        shadow: "Opponents learned it faster than he renewed it.",
+      },
       moment: {
         text: "During the truce of 1813, Müffling writes, the allied sovereigns met at Trachenberg, and the question was raised whether Napoleon could ever be defeated by generals who were strangers to his mode of warfare. The words took on more weight, he says, when the army of the North was given to Bernadotte, one of Napoleon’s former marshals, and two French generals, Moreau and Jomini, were appointed as advisers at the sovereigns’ headquarters. Müffling adds that the Russian and Prussian generals, tested in 1812 and earlier, had by now earned the confidence of their armies. His enemies had hired people who knew how he worked, and they had trained some of their own.",
         evidence: "fact",
@@ -3542,6 +3600,10 @@ export const napoleonVolume: LeadershipVolume = {
       themes: ["judgement", "restraint"],
       claim:
         "While battles keep being won, success can conceal the absence of a political end that opponents could accept.",
+      inBrief: {
+        strength: "Victories that won campaigns.",
+        shadow: "No political end that defeated enemies would accept.",
+      },
       moment: {
         text: "In June 1813, during the armistice, Metternich came to Dresden to put Austria’s position to Napoleon. He left an account of the answer. Your sovereigns, Napoleon said, “born to the throne, may be beaten twenty times, and still go back to their palaces”; he could not, because his reign would not outlast the day when he had ceased to be strong and therefore to be feared. Metternich was preparing to join the war and was writing for publication, so these are his words for what was said. If anything like them was spoken, they state the difficulty of this lesson exactly. His enemies could lose and make peace. By his own reckoning, he could not afford to stop winning.",
         evidence: "fact",
@@ -3888,6 +3950,10 @@ export const napoleonVolume: LeadershipVolume = {
       themes: ["restraint", "judgement"],
       claim:
         "Cutting losses is hardest when the leader’s standing is tied to the commitment and no one can release them from it.",
+      inBrief: {
+        strength: "Breaking off at Acre when the siege failed.",
+        shadow: "Staying in Moscow because his standing was tied to it.",
+      },
       moment: {
         text: "Some time after he reached Moscow in September 1812, Napoleon admitted to those closest to him that it was a bad position. Caulaincourt had this from Berthier and Duroc: the city could be held only long enough to reorganise, and the Austrians and Prussians guarding his rear would become dangerous at the first reverse. He stayed for about a month. Caulaincourt, who watched it, could explain it only as hope, of an answer from the Tsar or of an armistice with Kutuzov that would lead further.",
         evidence: "fact",
@@ -4114,6 +4180,10 @@ export const napoleonVolume: LeadershipVolume = {
       themes: ["judgement", "organisation"],
       claim:
         "The higher a leader’s success, the more deliberately dissent must be protected.",
+      inBrief: {
+        strength: "People who could still tell him no.",
+        shadow: "Objections that had no effect unless he chose.",
+      },
       moment: {
         text: "In the months before the invasion of Russia, Caulaincourt, who had been ambassador at St Petersburg, argued against it to Napoleon’s face. He spoke of the distance and the climate, of the war still unfinished in Spain, and of an enemy who would let him advance and wear himself out without a battle. Napoleon’s reply was that Caulaincourt had gone over to the Russians and understood nothing of great affairs. Caulaincourt answered that in that case it was odd to be consulted. He added that nobody contradicted the Emperor for amusement, since doing so had brought neither him nor his friends any advantage.",
         evidence: "fact",
@@ -4459,6 +4529,10 @@ export const napoleonVolume: LeadershipVolume = {
       themes: ["judgement", "restraint"],
       claim:
         "When only one reserve remains, how a leader spends it shows how they weigh future options against present losses.",
+      inBrief: {
+        strength: "Keeping the Guard for what came next.",
+        shadow: "A reserve treated as an emblem, held and then spent too late.",
+      },
       moment: {
         text: "Sergeant Bourgogne spent the day of Borodino with the Imperial Guard, near enough to hear what was reported to the Emperor. Generals were being killed and replaced, one after another, in front of the great redoubt. “While the fighting lasted, we were placed in reserve,” he wrote, and the shot fell among their ranks and round the Emperor all the same. Around midday, Caulaincourt says, Napoleon was showing signs of anxiety. He told those around him that they would win, and that it would not be conclusive unless he took prisoners. His best soldiers were standing behind him, fresh, and the question of what they were for had become urgent.",
         evidence: "fact",
@@ -4805,6 +4879,10 @@ export const napoleonVolume: LeadershipVolume = {
       themes: ["ethics", "motivation"],
       claim:
         "When a leader leaves those they led, the decision may be rational and still break the bond that made them follow.",
+      inBrief: {
+        strength: "Leaving where the larger task needed him.",
+        shadow: "Armies left behind, and the bond that made them follow.",
+      },
       moment: {
         text: "On 19 August 1799 Bonaparte wrote from Menouf to General Kléber telling him to start for Rosetta at once, because there were matters of extreme importance to discuss. Three days later, from Alexandria, he wrote that he was leaving that night for France, and enclosed an order placing Kléber in command of the army. He left Egypt, he said, with the deepest regret. In mind and heart he would remain with them. “The army I am leaving you is made up of my children,” he wrote. Kléber had not asked for this, and the Fondation’s biography calls it for him, as for many others, a total surprise.",
         evidence: "fact",
@@ -5132,6 +5210,11 @@ export const napoleonVolume: LeadershipVolume = {
       themes: ["succession", "organisation"],
       claim:
         "When authority rests on personal success, it must become institutional or end with the person.",
+      inBrief: {
+        strength:
+          "Institutions, from the Civil Code to the prefects, that outlasted him.",
+        shadow: "A dynasty that depended on his own success.",
+      },
       moment: {
         text: "In early November 1812, on the retreat from Moscow, despatches reached Napoleon about what had happened in Paris on 23 October. General Malet had escaped from detention, announced that the Emperor was dead and, for a few hours, arrested the minister and the prefect of police. Caulaincourt heard Napoleon’s comments. The minister of war, Clarke, had been in such haste that he had run to the barracks without his boots to take the oath to the King of Rome. Others had simply accepted the rumour. What troubled Napoleon most, Caulaincourt says, was that one man coming out of prison with a false report could do so much, in the capital, under a stable government.",
         evidence: "fact",
@@ -5458,6 +5541,11 @@ export const napoleonVolume: LeadershipVolume = {
       themes: ["ethics", "judgement"],
       claim:
         "When a leader is measured, the measure must include what they spent and on whom.",
+      inBrief: {
+        strength: "Achievements that lasted, the Code above all.",
+        shadow:
+          "A cost in lives, liberty and slavery that belongs in the same account.",
+      },
       moment: {
         text: "At Dresden in June 1813 Metternich told Napoleon that the army he had just raised was made up of children, and asked what would happen if it were swept away. By Metternich’s account Napoleon answered, in a rage, that he had been brought up in the field, and that “a man such as I am does not concern himself much about the lives of a million of men.” Then, more calmly, he said that the French could not complain of him, since to spare them he had sacrificed the Germans and the Poles. Metternich was an enemy and wrote this for publication. The words are his version. They have survived because they name the subject of this last lesson.",
         evidence: "fact",

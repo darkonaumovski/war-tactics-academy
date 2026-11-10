@@ -1,5 +1,10 @@
 import { describe, it, expect } from "vitest";
-import { leadershipVolumes } from "../../data/leadership";
+import {
+  counterCaseLessons,
+  leadershipVolumes,
+  lessonsForBattle,
+  volumeForCommander,
+} from "../../data/leadership";
 import { battles, campaigns } from "../../data/catalog";
 import commanders from "../../data/commanders.json";
 import { leadershipVolumeSchema } from "../../lib/validation";
@@ -123,6 +128,28 @@ it("lists the Napoleon lessons in curriculum order", () =>
     "what-outlasts-you",
     "the-ledger",
   ]));
+
+describe("links from the rest of the site", () => {
+  it("gives every lesson a line for the strength-and-shadow table", () => {
+    for (const l of leadershipVolumes[0].lessons)
+      expect(l.inBrief?.strength && l.inBrief.shadow, l.slug).toBeTruthy();
+  });
+
+  it("finds the lessons that cite an engagement", () => {
+    const slugs = lessonsForBattle("borodino").map((x) => x.lesson.slug);
+    expect(slugs).toContain("the-last-reserve");
+    expect(slugs).toContain("who-can-tell-you-no");
+    expect(lessonsForBattle("cannae")).toEqual([]);
+  });
+
+  it("finds a commander’s volume and counter-case lessons", () => {
+    expect(volumeForCommander("napoleon-bonaparte")?.lessons).toHaveLength(19);
+    expect(
+      counterCaseLessons("radomir-putnik").map((x) => x.lesson.slug),
+    ).toEqual(["when-the-leader-leaves"]);
+    expect(volumeForCommander("mikhail-kutuzov")).toBeUndefined();
+  });
+});
 
 describe("the leadership lesson schema", () => {
   it("accepts a complete lesson", () => expect(accepts({})).toBe(true));

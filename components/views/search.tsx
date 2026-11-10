@@ -3,6 +3,7 @@ import { Heading } from "../ui";
 import { SearchResults, type SearchRecord } from "../search";
 import { collections } from "../../data/collections";
 import { battleSearchText, formatYear } from "../../lib/logic";
+import { leadershipVolumes } from "../../data/leadership";
 export function SearchPage({ c }: { c: Catalog }) {
   const warName = (slug: string) => c.wars.find((w) => w.slug === slug)?.name;
   const campaignName = (slug: string) =>
@@ -67,6 +68,27 @@ export function SearchPage({ c }: { c: Catalog }) {
         text: l.paragraphs.join(" "),
         href: `/academy/${course.slug}/${l.slug}`,
         type: "Learning",
+      })),
+    ]),
+    // Lessons are found by title, claim, themes and episode titles; the full
+    // text stays on the lesson pages to keep this page light.
+    ...leadershipVolumes.flatMap((v) => [
+      {
+        title: v.title,
+        text: v.summary,
+        keywords: v.question,
+        href: `/leadership/${v.commanderSlug}`,
+        type: "Leadership",
+      },
+      ...v.lessons.map((l) => ({
+        title: l.title,
+        text: l.claim,
+        keywords: [l.part, ...l.themes, ...l.episodes.map((e) => e.title)].join(
+          " ",
+        ),
+        meta: v.title,
+        href: `/leadership/${v.commanderSlug}/${l.slug}`,
+        type: "Leadership",
       })),
     ]),
   ];

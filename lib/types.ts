@@ -205,6 +205,8 @@ export type LeadershipLesson = {
   themes: LeadershipTheme[];
   // The principle under test, as a conditional claim with its scope.
   claim: string;
+  // One line each for the volume's strength-and-shadow table.
+  inBrief?: { strength: string; shadow: string };
   moment: LeadershipReading;
   episodes: (LeadershipReading & {
     title: string;

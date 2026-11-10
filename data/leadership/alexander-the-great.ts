@@ -91,6 +91,61 @@ const s = {
     url: "https://www.britannica.com/event/Siege-of-Acre-1799",
     publisher: "Encyclopaedia Britannica",
   },
+  a3_16: arrian("III", "XVI", "3.16"),
+  a3_22: arrian("III", "XXII", "3.22"),
+  a3_25: arrian("III", "XXV", "3.25"),
+  a4_7: arrian("IV", "VII", "4.7"),
+  a4_9: arrian("IV", "IX", "4.9"),
+  a4_10: arrian("IV", "X", "4.10"),
+  a4_11: arrian("IV", "XI", "4.11"),
+  a4_12: arrian("IV", "XII", "4.12"),
+  a4_14: arrian("IV", "XIV", "4.14"),
+  a7_4: arrian("VII", "IV", "7.4"),
+  a7_6: arrian("VII", "VI", "7.6"),
+  a7_8: arrian("VII", "VIII", "7.8"),
+  a7_10: arrian("VII", "X", "7.10"),
+  a7_11: arrian("VII", "XI", "7.11"),
+  a7_12: arrian("VII", "XII", "7.12"),
+  plu5: plutarch("5", "34–43"),
+  plu67: plutarch("6-7", "44–48"),
+  plu8: plutarch("8", "49–61"),
+  plu10: plutarch("10", "66–77"),
+  dio17d: diodorus("17D", "17.64–83"),
+  dio17f: diodorus("17F", "17.104–118"),
+  polybius11: {
+    title: "Polybius, The Histories, book 11 (Loeb, vol. IV, 1925)",
+    url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/11%2A.html",
+    publisher: lacus,
+  },
+  majidi: {
+    title:
+      "Seyed Zein al-Abedin Majidi and Roozbeh Zarrinkoob, Tarn’s Alexander and the Dream of a United World (2021), abstract",
+    url: "https://jhss.ut.ac.ir/article_85659_en.html",
+    publisher: "Historical Sciences Studies, University of Tehran",
+  },
+  hogg: {
+    title:
+      "Michael A. Hogg, Daan van Knippenberg and David E. Rast, The social identity theory of leadership: theoretical origins, research findings, and conceptual developments (2012), abstract",
+    url: "https://doi.org/10.1080/10463283.2012.741134",
+    publisher: "European Review of Social Psychology",
+  },
+  park: {
+    title:
+      "Sun Hyun Park, James D. Westphal and Ithai Stern, Set up for a fall: the insidious effects of flattery and opinion conformity toward corporate leaders (2011), abstract",
+    url: "https://doi.org/10.1177/0001839211429102",
+    publisher: "Administrative Science Quarterly",
+  },
+  tyler: {
+    title:
+      "Tom R. Tyler, Psychological perspectives on legitimacy and legitimation (2006), abstract",
+    url: "https://doi.org/10.1146/annurev.psych.57.102904.190038",
+    publisher: "Annual Review of Psychology",
+  },
+  augustus: {
+    title: "Augustus (Michael Grant)",
+    url: "https://www.britannica.com/biography/Augustus-Roman-emperor",
+    publisher: "Encyclopaedia Britannica",
+  },
   nemeth: {
     title:
       "Charlan Jeanne Nemeth, Keith Brown and John Rogers, Devil’s advocate versus authentic dissent: stimulating quantity and quality (2001), abstract",
@@ -1877,7 +1932,759 @@ export const alexanderVolume: LeadershipVolume = {
         s.ducoulombier,
       ],
     },
+    {
+      slug: "the-cost-of-frankness",
+      title: "The cost of frankness: Philotas, Cleitus and Callisthenes",
+      part: "The consent of the army",
+      themes: ["communication", "ethics"],
+      claim:
+        "When a leader’s power becomes absolute, the price of frankness rises for everyone near them, and the record of that price is kept by writers with reasons of their own.",
+      inBrief: {
+        strength:
+          "When the Macedonians objected to prostration, he let the proposal drop for them.",
+        shadow:
+          "Men who spoke frankly near him were killed, by his order or by his own hand.",
+      },
+      moment: {
+        text: "At a drinking party, Arrian says, some of the guests flattered Alexander by ranking him above Castor and Pollux and even Heracles. Cleitus, who had long resented the king’s foreign manners and his flatterers, would not have it: Alexander’s deeds, he said, were not so great, and were mostly the work of the Macedonians. When others belittled Philip, Cleitus put Philip first, and reminded Alexander that he had saved his life at the Granicus: “This hand, Alexander, preserved thee on that occasion.” Alexander called for his guards and none obeyed; he said he was now in the same position as Darius under arrest by Bessus, a king in name only. Then he seized a weapon and killed him. Aristobulus, Arrian adds, blames Cleitus alone: Ptolemy had led him out of the hall, and he came back in, calling “Alexander, here is Clitus!”",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "4.8" }],
+      },
+      episodes: [
+        {
+          title: "Philotas and Parmenion",
+          text: "In Ptolemy’s account, as Arrian gives it, Philotas was tried before the Macedonians and convicted chiefly because he admitted hearing of a plot against the king and had said nothing, though he visited the royal tent twice a day; he and others were killed with javelins, and Parmenion was then put to death in Media. Arrian mentions no torture. Plutarch says Philotas was tortured while Alexander listened behind a tapestry, and that these acts made Alexander an object of fear to many of his friends, above all Antipater, who sent secretly to make an alliance with the Aetolians. Diodorus adds that Alexander formed a separate unit, the Disciplinary Company, for soldiers who criticised him or mourned Parmenion.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "3.26" },
+            { source: 2, locator: "Alexander 49" },
+            { source: 3, locator: "17.79–80" },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["campaigns-in-bactria-and-sogdiana"],
+        },
+        {
+          title: "Prostration",
+          text: "In the most received account, Arrian says, Alexander arranged with his sophists and the leading Persians and Medes that prostration would be proposed at a drinking party. Anaxarchus argued that Alexander deserved divine honours more than Dionysus or Heracles. Those in the plan applauded; most of the Macedonians were vexed and kept silence. Callisthenes then spoke against it, in a speech Arrian composes for him, and in doing so spoke the exact sentiments of the Macedonians. Alexander sent word that the Macedonians should make no further mention of the ceremony; the leading Persians prostrated themselves. In another version Callisthenes, refused a kiss for not prostrating, said: “I am going away only with the loss of a kiss.” Plutarch says he said in public what all the oldest and best of the Macedonians cherished in secret, and destroyed himself because he seemed to use force rather than persuasion with the king.",
+          evidence: "fact",
+          refs: [
+            { source: 4, locator: "4.10" },
+            { source: 5, locator: "4.11" },
+            { source: 6, locator: "4.12" },
+            { source: 2, locator: "Alexander 54" },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["campaigns-in-bactria-and-sogdiana"],
+        },
+        {
+          title: "Two deaths for Callisthenes",
+          text: "When the royal pages plotted to kill Alexander, Aristobulus and Ptolemy both say the youths named Callisthenes as their instigator. Most writers, Arrian notes, say instead that Alexander readily believed the worst of him because he already hated him. Some authors give the leading page, Hermolaus, a speech listing the king’s acts: the illegal execution of Philotas and Parmenion, the killing of Cleitus, the Median dress, prostration, the drinking. Callisthenes’s end is told in incompatible ways. Aristobulus says he was carried about in fetters and died a natural death; Ptolemy says he was racked and hanged. Plutarch adds that some say he was hanged, others that he died of sickness in chains, and gives Chares’s version as well. Arrian’s comment is the lesson of the episode: even these trustworthy authors, who were close to Alexander at the time, do not agree on events so well known.",
+          evidence: "uncertainty",
+          refs: [
+            { source: 7, locator: "4.14" },
+            { source: 2, locator: "Alexander 55" },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["campaigns-in-bactria-and-sogdiana"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Arrian",
+          stake:
+            "An admirer who judges both sides and frames the scene as a moral about flatterers.",
+          says: "Flatterers “have always corrupted the character of kings”; Cleitus deserved censure for his insolence, and Alexander pity for being the slave of anger and drunkenness, and praise for owning the deed.",
+          refs: [
+            { source: 0, locator: "4.8" },
+            { source: 8, locator: "4.9" },
+          ],
+        },
+        {
+          who: "Aristobulus, as Arrian reports him",
+          stake:
+            "A companion whose memoir, Lendering says, usually gives the kinder version.",
+          says: "The fault at the banquet was entirely Cleitus’s, and Callisthenes died a natural death in fetters.",
+          refs: [
+            { source: 0, locator: "4.8" },
+            { source: 7, locator: "4.14" },
+            { source: 9 },
+          ],
+        },
+        {
+          who: "Plutarch",
+          stake:
+            "A moralist who admires Callisthenes’s stand and distrusts Anaxarchus.",
+          says: "Anaxarchus’s consolation, that whatever the master of the world does is lawful and just, made Alexander in many ways more vainglorious and lawless.",
+          refs: [{ source: 2, locator: "Alexander 52" }],
+        },
+        {
+          who: "Diodorus, from the vulgate",
+          stake: "A tradition that kept the darker details.",
+          says: "Philotas was tortured and confessed; soldiers who criticised the king or mourned Parmenion were put in a unit of their own.",
+          refs: [{ source: 3, locator: "17.80" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "The strategist’s concern is information. Philotas was convicted not of acting but of keeping silent, and his father was killed because he might be dangerous. After that, everyone near the king faced a plain calculation: speaking up carried risk, staying silent carried risk, and agreeing carried none. Plutarch’s note that even Antipater, the regent at home, secretly sought allies shows the calculation reaching the top. A commander campaigning in hostile country depended on what his officers told him.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "3.26" },
+            { source: 2, locator: "Alexander 49" },
+          ],
+        },
+        {
+          text: "The prostration affair shows the other side. Alexander was pursuing a real political aim, one court for Persians and Macedonians, and when the Macedonians’ silence and Callisthenes’s speech showed the cost, he withdrew the demand for them while keeping it for the Persians. Judged at the time, that was a leader reading opposition and adjusting. The price was paid afterwards, by the man who had been right too openly. Arrian’s advice, that Callisthenes should have given his opinion discreetly while praising the king, describes what frankness had become.",
+          evidence: "interpretation",
+          refs: [
+            { source: 6, locator: "4.12" },
+            { source: 2, locator: "Alexander 54" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Flattery and opinion conformity",
+          base: "single study",
+          text: "The Napoleon volume’s lesson on dissent drew on research about how power changes the person who holds it. Park, Westphal and Stern looked at the other side of the relationship: what happens to leaders who receive high levels of flattery and opinion conformity from those around them. In survey data on American chief executives, they found that such ingratiation increased leaders’ overconfidence in their own judgement and reduced the likelihood that they would make needed changes when performance was poor. Arrian’s banquet begins with flatterers, and Anaxarchus offers a doctrine that whatever a king does is just. The research suggests why a court that rewards agreement and punishes frankness harms the person at its centre as well as those around him.",
+          evidence: "interpretation",
+          refs: [{ source: 10 }],
+          limit:
+            "Only the abstract was read. It concerns modern chief executives and boards, not a king at war, and Arrian’s flatterers are also a moral device of his own: he says such men have always corrupted kings.",
+        },
+      ],
+      shadow: {
+        text: "The deeper cost was a doctrine. Anaxarchus, Arrian says, told the grieving king that Justice sits beside Zeus so that whatever a king does is just. Arrian calls this a greater injury than the killing itself. Alexander mourned Cleitus for three days, called himself the murderer of his friends and then, Arrian says, was not unwilling to attribute the deed to the anger of Dionysus rather than to his own fault. A leader who can always find another cause for his worst act has removed the price of it for himself, while those near him still pay theirs.",
+        evidence: "interpretation",
+        refs: [{ source: 8, locator: "4.9" }],
+      },
+      counterCase: {
+        text: "Darius shows what happens to a court without power over its own nobles. Badian writes that after Gaugamela Bessus, the satrap of Bactria, and other nobles bound the king in golden fetters and, fearing capture, stabbed him and left him to die. Alexander saw the parallel himself: at the banquet, when his guards would not obey, he said he was reduced to the position of Darius led about under arrest by Bessus. A king whose followers fear him can be told nothing; a king whose followers do not fear him can lose everything. Neither court had found a way for frankness to be safe.",
+        evidence: "interpretation",
+        refs: [{ source: 11 }, { source: 0, locator: "4.8" }],
+        commanderSlug: "darius-iii",
+        battleSlugs: [],
+      },
+      cost: {
+        text: "Philotas and those convicted with him died by javelins, Parmenion by his own officers’ hands, Cleitus by the king’s. Some authors say Hermolaus and the pages arrested with him were stoned to death by those present. Arrian recalls Cleitus’s sister Lanice, Alexander’s nurse, who lived to see her sons die fighting for him and her brother killed by him.",
+        evidence: "fact",
+        refs: [
+          { source: 1, locator: "3.26" },
+          { source: 7, locator: "4.14" },
+          { source: 8, locator: "4.9" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "The people around you depend on you for their positions, and you control what disagreement costs.",
+          "Silence is punished as well as speech, so no choice is safe except agreement.",
+        ],
+        failsWhen: [
+          "Frankness is offered as performance, to win an argument in public rather than to change a decision.",
+          "The record of a leader’s violence comes only from those who opposed him, or only from those who served him.",
+        ],
+        questions: [
+          "When did someone last tell you something you did not want to hear, and what happened to them?",
+          "Who around you gains from agreeing with you?",
+          "When you make a mistake, what other cause do you reach for first?",
+        ],
+      },
+      bearsOn:
+        "All of these episodes came before the Indian campaign and the Hyphasis. By the time the army refused to cross, the court had learned that frankness could be fatal, which helps explain why the officers kept a long silence before Coenus spoke. The list of grievances that some authors give Hermolaus is the answer that Alexander changed, in an ancient voice. It is also an ancient author’s composition, and Aristobulus’s kinder versions show that the companions themselves remembered differently.",
+      questions: [
+        {
+          prompt:
+            "Of what was Philotas chiefly convicted, in Ptolemy’s account?",
+          choices: [
+            "Of attacking the king.",
+            "Of hearing of a plot against the king and saying nothing.",
+            "Of deserting to the Persians.",
+          ],
+          answer: 1,
+          explanation:
+            "He visited the royal tent twice a day and did not report what he had heard.",
+        },
+        {
+          prompt:
+            "What did Alexander do when the Macedonians’ opposition to prostration became clear?",
+          choices: [
+            "He executed Anaxarchus.",
+            "He sent word that the Macedonians should make no further mention of it, while the Persians performed it.",
+            "He made it compulsory for everyone.",
+          ],
+          answer: 1,
+          explanation:
+            "He adjusted. The price fell later on Callisthenes, who had opposed him openly.",
+        },
+        {
+          prompt:
+            "What do Park, Westphal and Stern report about flattery directed at leaders?",
+          choices: [
+            "That it makes leaders more open to change.",
+            "That it has no measurable effect.",
+            "That it increases overconfidence and reduces needed strategic change.",
+          ],
+          answer: 2,
+          explanation:
+            "Their survey of chief executives links ingratiation to overconfidence and persistence.",
+        },
+      ],
+      sourceCheck: {
+        question: "How did Callisthenes die?",
+        witnesses: [
+          {
+            label: "Aristobulus, in Arrian",
+            claim:
+              "He was carried about with the army in fetters and died a natural death.",
+          },
+          {
+            label: "Ptolemy, in Arrian",
+            claim: "He was racked and then hanged.",
+          },
+          {
+            label: "Plutarch",
+            claim:
+              "Some say he was hanged, others that he died of sickness in chains; Chares gives another account again.",
+          },
+        ],
+        prompt: "What should a historian conclude?",
+        options: [
+          {
+            text: "Follow Ptolemy, because Arrian trusted him most.",
+            feedback:
+              "Arrian himself declines to choose, noting that his two best sources contradict each other.",
+          },
+          {
+            text: "That he died in Alexander’s custody, and that the manner of his death cannot be settled from these sources.",
+            feedback:
+              "Every account has him a prisoner. Beyond that, two eyewitness memoirs disagree, and Arrian says so.",
+            best: true,
+          },
+          {
+            text: "That he was released, since one source says he died naturally.",
+            feedback: "Aristobulus has him die in fetters, still a prisoner.",
+          },
+        ],
+        campaignSlug: "campaigns-in-bactria-and-sogdiana",
+      },
+      seminar: {
+        prompt:
+          "Arrian says Callisthenes should have given his opinion discreetly while praising the king. Was that wise advice, or a description of a court where frankness had already died?",
+        guidance:
+          "Compare Callisthenes with Coenus at the Hyphasis, who spoke frankly and lived. Ask what was different about the subject, the audience and the moment.",
+      },
+      sources: [
+        s.a4_8,
+        s.a3_26,
+        s.plu8,
+        s.dio17d,
+        s.a4_10,
+        s.a4_11,
+        s.a4_12,
+        s.a4_14,
+        s.a4_9,
+        s.arrianSources,
+        s.park,
+        s.badianDarius,
+      ],
+    },
+    {
+      slug: "opis",
+      title: "Opis: changing who counts as one of us",
+      part: "The consent of the army",
+      themes: ["organisation", "motivation"],
+      claim:
+        "When a leader widens the circle of insiders, the original core reads it as betrayal unless it keeps a place it recognises as its own.",
+      inBrief: {
+        strength:
+          "At the reconciliation banquet the Macedonians sat nearest the king, with the Persians next to them.",
+        shadow:
+          "He had armed thirty thousand Asian youths in Macedonian style, and the veterans read it as a plan to do without them.",
+      },
+      moment: {
+        text: "At Opis, Alexander told the assembled Macedonians that he would discharge those too old or maimed to serve and send them home with rewards. Arrian says he meant it to please them, and that they took it, not without reason, as a sign they were now despised and useless. They shouted that he should dismiss them all and make war with his father, mocking his claim to be the son of Ammon. Alexander, Arrian writes, was by then more hasty in temper than before and no longer indulgent to the Macedonians. He had the most conspicuous agitators seized and led away to execution, and the rest fell silent.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "7.8" }],
+      },
+      episodes: [
+        {
+          title: "What the veterans saw",
+          text: "Arrian lists the grievances. Thirty thousand youths from the new cities and conquered lands, whom Alexander called the Epigoni, arrived armed and drilled in Macedonian fashion, and the Macedonians thought he was contriving to free himself from his need of them. His Median dress offended them; the weddings at Susa in the Persian manner displeased most of them, even some of the bridegrooms; Peucestas, satrap of Persis, was resented for adopting Persian dress and speech; Iranian horsemen were enrolled in the Companion cavalry and Iranian nobles in the guard. Plutarch says the youths were taught Greek and Macedonian arms so that Alexander could secure his authority while far away, by mixing customs rather than by force. Diodorus says he formed them as a counterweight to the Macedonian phalanx, because the Macedonians had been unruly.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "7.6" },
+            { source: 2, locator: "7.4" },
+            { source: 3, locator: "Alexander 47" },
+            { source: 4, locator: "17.108" },
+          ],
+          battleSlugs: [],
+        },
+        {
+          title: "Kinsmen",
+          text: "After the speech Arrian composes for him, Alexander shut himself in the palace for two days. On the third he gave the brigade commands to Persians, and Persian units began to take Macedonian names. The Macedonians ran to the palace, threw their weapons down before the gates and refused to leave. When Alexander came out, weeping, a senior cavalry officer, Callines, told him what hurt: Persians had been made the king’s kinsmen and allowed to kiss him, and no Macedonian had. “But all of you without exception I consider my kinsmen,” Alexander answered, and they kissed him. At the banquet that followed, Arrian says, the Macedonians sat around the king, the Persians next to them, and the other peoples after; Alexander prayed for harmony and community of rule between Macedonians and Persians. Plutarch adds that the discharged veterans were to have the front seats and wear garlands at every public contest and theatre at home.",
+          evidence: "fact",
+          refs: [
+            { source: 11, locator: "7.10" },
+            { source: 5, locator: "7.11" },
+            { source: 6, locator: "Alexander 71" },
+          ],
+          battleSlugs: [],
+        },
+        {
+          title: "Allies made from enemies",
+          text: "The widening had begun long before Opis. At the Sogdian Rock Alexander married Roxane, the daughter of the Bactrian noble Oxyartes, rather than treat her as a captive, which Arrian praises. After the Hydaspes he restored Porus to his kingdom and added more land to it, and found him faithful. Briant describes the adoption of Achaemenid court ceremony from 330 as part of a broad strategy for securing the collaboration of the Iranian upper classes, a policy that provoked strong opposition among the Macedonian nobles. He warns against calling it a policy of fusion: no Macedonian noblewomen were married to Iranians, the number of Iranian satraps fell steadily until 324–323, and Alexander needed Iranian cadres without planning a new integrated ruling class, which the Macedonian nobles would never have accepted.",
+          evidence: "interpretation",
+          refs: [
+            { source: 7, locator: "4.19" },
+            { source: 8, locator: "5.19" },
+            { source: 9 },
+          ],
+          battleSlugs: ["sogdian-rock", "hydaspes"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Arrian",
+          stake:
+            "An admirer who defends Alexander’s Persian dress while disapproving of much else.",
+          says: "The dress was a political device, so that the king would not seem wholly foreign to the Persians, and so that the Macedonians would see he had a refuge from their rashness and insolence.",
+          refs: [{ source: 10, locator: "7.29" }],
+        },
+        {
+          who: "Plutarch",
+          stake:
+            "A moral biographer who explains the king’s motives generously.",
+          says: "He adopted a dress midway between Persian and Median, either to win the natives by shared custom or to accustom the Macedonians gradually to prostration; the Macedonians tolerated it because they admired his other qualities.",
+          refs: [{ source: 3, locator: "Alexander 45" }],
+        },
+        {
+          who: "Diodorus, from the vulgate",
+          stake: "A tradition alert to the king’s suspicion of his own men.",
+          says: "The Persian youths were raised as a counterweight to the phalanx, because the Macedonians mocked Ammon and were unruly in assembly.",
+          refs: [{ source: 4, locator: "17.108" }],
+        },
+        {
+          who: "Majidi and Zarrinkoob, historians of the debate",
+          stake:
+            "Write about how modern historians have read the prayer, not about the event.",
+          says: "Tarn read the prayer at Opis as a declaration of the unity of mankind, which he called Homonoia; Badian rejected the idea in 1958; Tarn’s ideal reflected the conditions of his own time.",
+          refs: [{ source: 12 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, the problem had changed. A king who meant to rule the Persian empire, with a Macedonian army far from home and shrinking, needed Persian soldiers, governors and courtiers. Briant puts it plainly: he urgently needed Iranian civilian and military cadres. The strategic question was not whether to widen the circle but how to do it without telling the original core that it had become disposable. Training a rival army in Macedonian arms, and then announcing a discharge, answered that question in the worst possible way.",
+          evidence: "interpretation",
+          refs: [{ source: 9 }, { source: 1, locator: "7.6" }],
+        },
+        {
+          text: "The crisis was ended by symbols of place, not by reversing policy. The Persians kept their commands; what changed was that the Macedonians were named kinsmen, sat nearest the king, and went home with gifts, honours in the theatres and Craterus, the man Alexander valued as himself, as their escort. Even then the line was redrawn: the departing veterans had to leave behind their children by Asian wives, so as not to carry discord into Macedonia. Widening the circle at the top did not mean dissolving it at home.",
+          evidence: "interpretation",
+          refs: [
+            { source: 5, locator: "7.11" },
+            { source: 13, locator: "7.12" },
+            { source: 6, locator: "Alexander 71" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Leader prototypicality",
+          base: "review",
+          text: "The social identity theory of leadership holds, in Hogg, van Knippenberg and Rast’s summary, that leaders who are prototypical of their group are better supported, more trusted and seen as more effective, especially when membership is central to members’ identity and they identify strongly with the group. Read that way, the veterans’ complaints are about prototypicality: the king dressed as a Persian, claimed a foreign god as his father, and gave the kiss of kinship to Persians. The remedy at Opis restored the in-group’s visible place without undoing the policy. The Napoleon volume used Steffens and colleagues’ meta-analysis of prototypicality to read a commander’s presence in battle; Opis shows the reverse case, a leader whose task required him to look less like his followers.",
+          evidence: "interpretation",
+          refs: [{ source: 14 }],
+          limit:
+            "Only the abstract was read. The research concerns modern groups, and its authors are summarising their own theory’s support.",
+        },
+      ],
+      shadow: {
+        text: "Opis was settled by emotion and symbol, but its causes stayed. Arrian has Alexander more hasty in temper than before, executing the agitators before he spoke. The departing veterans lost their children by Asian wives, kept back under promises that Arrian calls uncertain and obscure. And the widening itself was partial: on Briant’s account the number of Iranian satraps fell, and no Macedonian woman was given to an Iranian. Both sides of the new circle had reason to doubt its terms.",
+        evidence: "interpretation",
+        refs: [
+          { source: 0, locator: "7.8" },
+          { source: 13, locator: "7.12" },
+          { source: 9 },
+        ],
+      },
+      counterCase: {
+        text: "Polybius admires Hannibal for keeping a large army free from sedition, towards him or among themselves, through sixteen years in Italy, though it was made of Africans, Spaniards, Ligurians, Celts, Phoenicians, Italians and Greeks who had nothing in common in laws, customs or language. He credits the commander’s ability. One difference stands out: Hannibal’s army never had a single founding people whose standing a new intake could threaten. Alexander’s had, and it had been promised at his accession that only the king’s name had changed.",
+        evidence: "interpretation",
+        refs: [{ source: 15, locator: "11.19" }],
+        commanderSlug: "hannibal-barca",
+        battleSlugs: [],
+      },
+      cost: {
+        text: "The agitators seized at Opis were led away to execution. The veterans who went home had to leave behind their children by Asian wives. The Persian and Median noblewomen married at Susa were given in marriage by the king, as part of alliances he arranged.",
+        evidence: "interpretation",
+        refs: [
+          { source: 0, locator: "7.8" },
+          { source: 13, locator: "7.12" },
+          { source: 2, locator: "7.4" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "An organisation must bring in people unlike its founders in order to do what it now has to do.",
+          "The original members can be given a place that is visibly theirs without blocking the newcomers.",
+        ],
+        failsWhen: [
+          "Newcomers are trained as replacements for the core, and the core is told at the same moment that it is no longer needed.",
+          "The symbols of belonging are restored while the reasons for the grievance are left untouched.",
+        ],
+        questions: [
+          "Who were the first members of your team, and what tells them now that they still belong?",
+          "When you bring people in, what do the existing members hear?",
+          "Which of your gestures of inclusion cost someone else their place?",
+        ],
+      },
+      bearsOn:
+        "Opis is the volume’s strongest evidence that the problem changed. The veterans’ grievances were not about exhaustion or a new campaign but about a circle widened to include the people they had conquered. Arrian also says Alexander had grown more hasty in temper, so the answer that he changed is present too. Both answers meet here: a leader whose task now required him to look less Macedonian, and who handled the Macedonians less patiently than before.",
+      questions: [
+        {
+          prompt:
+            "What did the Macedonians fear the Epigoni meant, according to Arrian?",
+          choices: [
+            "That Alexander would invade Macedonia.",
+            "That Alexander was contriving to free himself from his need of them.",
+            "That they would be sent to India again.",
+          ],
+          answer: 1,
+          explanation:
+            "Thirty thousand Asian youths drilled in Macedonian arms looked like replacements.",
+        },
+        {
+          prompt: "What did Callines say grieved the Macedonians at Opis?",
+          choices: [
+            "That Persians were made the king’s kinsmen and allowed to kiss him, and no Macedonian had been.",
+            "That they had not been paid.",
+            "That Alexander had refused to cross the Hyphasis.",
+          ],
+          answer: 0,
+          explanation:
+            "Alexander answered that he considered all of them his kinsmen.",
+        },
+        {
+          prompt:
+            "What does Briant warn against in describing Alexander’s Iranian policy?",
+          choices: [
+            "Calling it a policy of fusion, since no Macedonian noblewomen married Iranians and the number of Iranian satraps fell.",
+            "Treating Persian dress as political.",
+            "Using Arrian as a source.",
+          ],
+          answer: 0,
+          explanation:
+            "Briant sees responses to the needs of the hour, not a plan for an integrated ruling class.",
+        },
+      ],
+      sourceCheck: {
+        question: "What did Alexander’s prayer at the Opis banquet mean?",
+        witnesses: [
+          {
+            label: "Arrian",
+            claim:
+              "He prayed especially that there might be harmony and community of rule between Macedonians and Persians.",
+          },
+          {
+            label: "Tarn, as Majidi and Zarrinkoob summarise him",
+            claim:
+              "The prayer was a declaration of the unity of mankind, Homonoia.",
+          },
+          {
+            label: "Briant",
+            claim:
+              "There was no plan for an integrated ruling class; the measures answered the needs of the hour.",
+          },
+        ],
+        prompt: "What does the evidence support?",
+        options: [
+          {
+            text: "Tarn’s reading, since the prayer speaks of harmony.",
+            feedback:
+              "The prayer as reported names two peoples, Macedonians and Persians, not mankind, and Tarn’s reading was rejected by Badian in 1958.",
+          },
+          {
+            text: "A prayer for partnership between two ruling peoples, at a banquet where the Macedonians still sat first.",
+            feedback:
+              "That fits Arrian’s wording, the seating he describes and Briant’s view of policy driven by need.",
+            best: true,
+          },
+          {
+            text: "Nothing, since Arrian invented the banquet.",
+            feedback:
+              "Arrian composes speeches, but the banquet, the seating and the prayer are given as narrative, with a figure he calls the common account.",
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "At Opis the Macedonians were won back by being called kinsmen and seated first. Was that leadership, or the management of a grievance that should have been addressed?",
+        guidance:
+          "Set the symbols beside what did not change: the Persian commands, the Epigoni, the children left behind. Then compare Hannibal’s army, which had no founding people to placate.",
+      },
+      sources: [
+        s.a7_8,
+        s.a7_6,
+        s.a7_4,
+        s.plu67,
+        s.dio17f,
+        s.a7_11,
+        s.plu10,
+        s.a4_19,
+        s.a5_19,
+        s.briant,
+        s.a7_29,
+        s.a7_10,
+        s.majidi,
+        s.a7_12,
+        s.hogg,
+        s.polybius11,
+      ],
+    },
+    {
+      slug: "after-gaugamela",
+      title: "After Gaugamela: victory is not rule",
+      part: "Winning and ruling",
+      themes: ["judgement", "ethics"],
+      claim:
+        "When a victory removes an enemy army but not the reasons for resistance, the hardest work begins after the battle.",
+      inBrief: {
+        strength:
+          "Babylon and Susa opened their gates; he honoured Babylon’s gods and kept Persians as governors.",
+        shadow:
+          "At Persepolis he burned the palace, and with it, Briant argues, his claim to succeed the Great King.",
+      },
+      moment: {
+        text: "In the weeks after Gaugamela a Babylonian astronomer recorded two things about the victor. From Sippar Alexander sent a message to Babylon: “Into your houses I shall not enter.” Then, the diary says, “Alexander, king of the world, came into Babylon.” Arrian describes the Babylonians coming out in a body with their priests and rulers, bringing gifts and surrendering the city, its citadel and its treasure. Alexander ordered the temples Xerxes had destroyed to be rebuilt, sacrificed to Bel as the Chaldaeans directed, and appointed Mazaeus governor of the Babylonians.",
+        evidence: "fact",
+        refs: [{ source: 0 }, { source: 1, locator: "3.16" }],
+      },
+      episodes: [
+        {
+          title: "Babylon and Susa",
+          text: "Briant says the two great administrative and strategic centres of Babylon and Susa surrendered without a struggle, partly because the last Achaemenid kings had bitterly antagonised the Babylonian priesthood, and that Alexander took the immense Achaemenid treasures. At Susa, Arrian says, he left a Persian, Abulites, as governor, with a Macedonian commanding the citadel and another as general. He sent back to Athens the statues of the tyrant-slayers that Xerxes had carried off. A victor who meant to keep what he had won was working with local elites and local gods.",
+          evidence: "fact",
+          refs: [{ source: 2 }, { source: 1, locator: "3.16" }],
+          battleSlugs: ["gaugamela"],
+        },
+        {
+          title: "The fire at Persepolis",
+          text: "The sources give three readings of the burning of the palace at Persepolis. In Arrian it is policy: revenge on the Persians for Xerxes’s invasion of Greece, against Parmenion’s warning that the peoples of Asia would think Alexander meant only to conquer and leave; Arrian thinks it imprudent. In Plutarch and Diodorus it is a drunken revel, with the Athenian Thaïs urging the king to burn the house of Xerxes; Plutarch says some called it premeditated, that the Macedonians hoped it meant he was thinking of home, and that Alexander quickly repented. Diodorus adds that the city itself was given to the soldiers to plunder and its men slaughtered. Badian sees a timed political act: the lower city destroyed in January, the terrace and royal buildings burned in May, after Alexander had waited in vain for news of the war in Greece.",
+          evidence: "uncertainty",
+          refs: [
+            { source: 3, locator: "3.18" },
+            { source: 4, locator: "Alexander 38" },
+            { source: 5, locator: "17.70, 17.72" },
+            { source: 6 },
+          ],
+          battleSlugs: ["persian-gate"],
+        },
+        {
+          title: "The war after the war",
+          text: "Darius was still alive. Badian writes that Bessus and other nobles took him prisoner and, fearing capture, stabbed him, and suggests that Alexander’s haste to reach him alive may mean Darius was ready to recognise him as superior, which might have spared years of war. Alexander gave Darius a royal burial, Arrian says. Bessus took the royal tiara and the name Artaxerxes; Briant writes that this let Alexander present himself as the avenger of Darius. When Bessus was captured, Alexander had his nose and ears cut off before sending him to be executed by the Medes and Persians, which Arrian condemns as barbaric. In Bactria and Sogdiana, Briant says, the resistance continued under Spitamenes and broadened into a general revolt.",
+          evidence: "fact",
+          refs: [
+            { source: 6 },
+            { source: 7, locator: "3.22" },
+            { source: 8, locator: "3.25" },
+            { source: 2 },
+            { source: 9, locator: "4.7" },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["campaigns-in-bactria-and-sogdiana"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "A Babylonian astronomer",
+          stake:
+            "A temple scribe recording omens and events, with no part in the Greek story.",
+          says: "Alexander promised not to enter the houses of Babylon, and entered the city as “king of the world”.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "Arrian",
+          stake:
+            "Admires Alexander but disapproves of his Persian turn after Darius’s death.",
+          says: "Darius fled disgracefully among the first at Arbela; Bessus’s mutilation was a barbaric custom, and Alexander’s Median dress was not to be commended.",
+          refs: [
+            { source: 7, locator: "3.22" },
+            { source: 9, locator: "4.7" },
+          ],
+        },
+        {
+          who: "Plutarch",
+          stake: "Interested in the mood of the army as much as the king’s.",
+          says: "The Macedonians ran to the burning palace with torches, hoping it meant the king had fixed his thoughts on home.",
+          refs: [{ source: 4, locator: "Alexander 38" }],
+        },
+        {
+          who: "Pierre Briant, in the Encyclopaedia Iranica",
+          stake: "A historian of the Persian empire and its continuities.",
+          says: "The burning of the palace and the firm opposition of the entire Persian people made it impossible for Alexander to pass himself off as the Great King’s legitimate successor.",
+          refs: [{ source: 2 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Without hindsight, Gaugamela solved one problem and exposed another. The Persian royal army was gone, the capitals and the treasure were in reach, and Darius was a fugitive. What remained was the question every conqueror of a great empire faces: whether its people would accept him. Keeping Mazaeus and Abulites, rebuilding Babylon’s temples and returning the tyrant-slayers to Athens were answers that cost little and bought cooperation. Taking a capital gave him the means to rule. It did not give him the right, and he could not take that.",
+          evidence: "interpretation",
+          refs: [{ source: 1, locator: "3.16" }, { source: 2 }],
+        },
+        {
+          text: "Persepolis set two aims against each other. Revenge for Xerxes served the Greek war Alexander had been appointed to lead and pleased an army that hoped to go home; Parmenion’s objection, in Arrian, was that the peoples of Asia would read it as a conqueror passing through. Briant and Badian both judge that the fire damaged his claim to legitimacy, and that only Darius’s recognition might have repaired it. The Napoleon volume’s lesson on victories that do not end wars was about making peace with rivals; this one is about the harder task of being accepted by the conquered.",
+          evidence: "interpretation",
+          refs: [{ source: 3, locator: "3.18" }, { source: 2 }, { source: 6 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Legitimacy",
+          base: "review",
+          text: "Tyler describes legitimacy as a property of an authority that leads those under it to believe it appropriate, proper and just, so that they defer voluntarily, out of obligation rather than fear of punishment or hope of reward. Because power alone makes influence difficult, he writes, legitimacy matters most in times of scarcity, crisis and conflict. The years after Gaugamela show both forms of rule at work: Babylon’s priests and Persian governors cooperating with a king who honoured their gods, and Bactrian and Sogdian nobles who would not, against whom only force served.",
+          evidence: "interpretation",
+          refs: [{ source: 10 }],
+          limit:
+            "Only the abstract was read. Tyler reviews research on modern institutions, and the ancient sources rarely record what the conquered believed.",
+        },
+      ],
+      shadow: {
+        text: "The fire at Persepolis destroyed more than a palace. Badian writes that it largely undid the effect of Alexander’s striving for legitimacy, and Briant that, with the firm opposition of the entire Persian people, it made his claim to be the Great King’s successor impossible. The war that followed in Bactria and Sogdiana lasted years. The army that had won at Gaugamela spent them fighting a resistance that no single battle could end.",
+        evidence: "interpretation",
+        refs: [{ source: 6 }, { source: 2 }],
+      },
+      counterCase: {
+        text: "Augustus turned his victory at Actium into a settlement. After Antony and Cleopatra died, Britannica’s account says, he executed Cleopatra’s son Caesarion, annexed Egypt, and used Cleopatra’s treasure to pay off his veterans. Then, by a long and gradual series of tentative, patient measures, he built the principate: absolute control in essentials, exercised as princeps at the head of outwardly revived republican institutions that made his autocracy palatable. He reduced his legions, organised a fleet to police the Mediterranean, and held a census. Where Alexander destroyed the symbol of the old monarchy, Augustus put on the old republic’s forms.",
+        evidence: "interpretation",
+        refs: [{ source: 11 }],
+        commanderSlug: "augustus",
+        battleSlugs: ["actium"],
+      },
+      cost: {
+        text: "Diodorus says Persepolis was given to the soldiers to plunder, all but the palaces, and that they killed the men they met and fought among themselves over the spoils before the palace was burned. Darius died at the hands of his own nobles. Bessus was mutilated before his execution, by a punishment Arrian calls barbaric.",
+        evidence: "fact",
+        refs: [
+          { source: 5, locator: "17.70" },
+          { source: 6 },
+          { source: 9, locator: "4.7" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "A decisive win removes the opposing force but leaves the people whose cooperation you need.",
+          "Cheap gestures toward local leaders and customs are available and sincere.",
+        ],
+        failsWhen: [
+          "A gesture meant for one audience, such as revenge for your own side, is read as contempt by the people you must now govern.",
+          "The victory is treated as the end of the task rather than the start of a harder one.",
+        ],
+        questions: [
+          "After your last success, whose cooperation did you still need?",
+          "Which of your acts were aimed at your own side and seen by the other?",
+          "What would the people you now lead need to see to accept you?",
+        ],
+      },
+      bearsOn:
+        "After Gaugamela the work changed from beating an army to ruling an empire, and the years in Bactria and Sogdiana that wore the army down came from that change. Plutarch’s detail that the Macedonians hoped the fire meant going home shows that by 330 the army’s aims and the king’s were already apart. That supports both the problem-changed answer and the aims-outran-the-men answer.",
+      questions: [
+        {
+          prompt:
+            "What did Alexander promise Babylon, according to the Astronomical Diary?",
+          choices: [
+            "Freedom from taxes.",
+            "“Into your houses I shall not enter.”",
+            "A new king of its own.",
+          ],
+          answer: 1,
+          explanation:
+            "He then entered the city, which the diary calls him king of the world.",
+        },
+        {
+          prompt:
+            "What reason does Arrian give Parmenion for sparing the palace at Persepolis?",
+          choices: [
+            "That it held the royal treasure.",
+            "That it was now Alexander’s property, and that the peoples of Asia would think he meant only to conquer and leave.",
+            "That the gods forbade it.",
+          ],
+          answer: 1,
+          explanation:
+            "Arrian agrees with Parmenion here and calls the burning imprudent.",
+        },
+        {
+          prompt:
+            "How did Augustus rule after Actium, on Britannica’s account?",
+          choices: [
+            "As an openly declared king.",
+            "Through outwardly revived republican institutions, built by gradual, patient measures.",
+            "By dividing the empire among his generals.",
+          ],
+          answer: 1,
+          explanation:
+            "The forms of the old order made the new power acceptable.",
+        },
+      ],
+      sourceCheck: {
+        question: "Why did the palace at Persepolis burn?",
+        witnesses: [
+          {
+            label: "Arrian",
+            claim:
+              "Alexander burned it in revenge for Xerxes’s invasion of Greece, against Parmenion’s advice.",
+          },
+          {
+            label: "Plutarch and Diodorus",
+            claim:
+              "At a drinking party Thaïs urged the burning of Xerxes’s house, and the king led the revellers with a torch; some said it was premeditated.",
+          },
+          {
+            label: "Ernst Badian",
+            claim:
+              "The royal buildings were destroyed in May as a symbolic gesture of revenge, after Alexander had waited months for news from Greece.",
+          },
+        ],
+        prompt: "What can the historian conclude?",
+        options: [
+          {
+            text: "That it was an accident of a drinking party.",
+            feedback:
+              "That is one tradition, and Plutarch himself says others called it premeditated.",
+          },
+          {
+            text: "That it was deliberate revenge, and that a party may have been its occasion; the sources disagree on how planned it was.",
+            feedback:
+              "Arrian and Badian see policy; the vulgate tells the revel. Both can be true, and the consequence for legitimacy was the same.",
+            best: true,
+          },
+          {
+            text: "That Parmenion ordered it.",
+            feedback: "Arrian has Parmenion advise against it.",
+          },
+        ],
+        battleSlug: "persian-gate",
+      },
+      seminar: {
+        prompt:
+          "Augustus put on the old republic’s forms; Alexander burned the old monarchy’s palace and then adopted its ceremony. Which approach to the defeated was wiser, and for whom?",
+        guidance:
+          "Ask who each gesture was aimed at: the victor’s own soldiers, the defeated elite, or posterity. Then ask which audience the ruler most needed.",
+      },
+      sources: [
+        s.diary,
+        s.a3_16,
+        s.briant,
+        s.a3_18,
+        s.plu5,
+        s.dio17d,
+        s.badianDarius,
+        s.a3_22,
+        s.a3_25,
+        s.a4_7,
+        s.tyler,
+        s.augustus,
+      ],
+    },
   ],
   inProgress:
-    "The pilot lessons are published. The rest of the volume is added in reviewed batches.",
+    "This volume is being written. Its remaining lessons are added in reviewed batches.",
 };

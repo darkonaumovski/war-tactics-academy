@@ -129,6 +129,9 @@ it("lists the Alexander lessons written so far in curriculum order", () => {
     "staying-at-tyre",
     "parmenions-advice",
     "the-river-they-would-not-cross",
+    "the-cost-of-frankness",
+    "opis",
+    "after-gaugamela",
   ]);
 });
 

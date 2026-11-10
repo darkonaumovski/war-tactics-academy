@@ -111,6 +111,10 @@ it("lists the Napoleon lessons in curriculum order", () =>
     "be-seen-where-it-is-hardest",
     "what-people-will-do-for-recognition",
     "words-that-win-and-words-that-spend-trust",
+    "delegate-the-fight",
+    "a-headquarters-built-for-one-mind",
+    "the-bottleneck",
+    "your-rivals-are-learning",
     "knowing-when-to-stop",
   ]));
 

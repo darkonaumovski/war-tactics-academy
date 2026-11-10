@@ -436,6 +436,93 @@ const s = {
     url: archive("memoirsofmadamed01remu"),
     publisher: "Internet Archive",
   },
+  polish1807: {
+    title:
+      "La campagne de Pologne de 1807 (Paul Ganière, Revue du Souvenir Napoléonien 357)",
+    url: "https://www.napoleon.org/histoire-des-2-empires/articles/campagne-de-pologne-de-1807/",
+    publisher: fondation,
+  },
+  winter1807: {
+    title:
+      "Napoleonic Wars: The winter campaign of 1806–07 (Eylau and Friedland)",
+    url: "https://www.britannica.com/event/Napoleonic-Wars/The-winter-campaign-of-1806-07-Eylau",
+    publisher: britannica,
+  },
+  hicks: {
+    title: "La bataille d’Aspern – Essling, 21-22 mai 1809 (Peter Hicks)",
+    url: "https://www.napoleon.org/histoire-des-2-empires/articles/la-bataille-daspern-essling-21-22-mai-1809/",
+    publisher: fondation,
+  },
+  aspern: {
+    title: "Napoleonic Wars: Aspern-Essling, Wagram and the Peace of Vienna",
+    url: "https://www.britannica.com/event/Napoleonic-Wars/Aspern-Essling",
+    publisher: britannica,
+  },
+  lannes: {
+    title: "Jean Lannes, duc de Montebello",
+    url: "https://www.britannica.com/biography/Jean-Lannes-duc-de-Montebello",
+    publisher: britannica,
+  },
+  berthier: {
+    title: "Louis-Alexandre Berthier, prince de Wagram",
+    url: "https://www.britannica.com/biography/Louis-Alexandre-Berthier-prince-de-Wagram",
+    publisher: britannica,
+  },
+  gambiez: {
+    title: "Berthier, Louis-Alexandre (General Gambiez, Dictionnaire Napoléon)",
+    url: "https://www.napoleon.org/histoire-des-2-empires/biographies/berthier-louis-alexandre-1753-1815-prince-de-neufchatel-prince-de-wagram-marechal/",
+    publisher: fondation,
+  },
+  jourquin: {
+    title:
+      "Bacler d’Albe, Louis Albert Guislain (Jacques Jourquin, Dictionnaire du Premier Empire)",
+    url: "https://www.napoleon.org/histoire-des-2-empires/biographies/bacler-dalbe-louis-albert-guislain-baron-1761-1824-ingenieur-geographe-dessinateur/",
+    publisher: fondation,
+  },
+  lejeune: {
+    title: "Lejeune, témoin et peintre de l’épopée : Lejeune et Napoléon",
+    url: "https://www.napoleon.org/histoire-des-2-empires/articles/lejeune-temoin-et-peintre-de-lepopee-lejeune-et-napoleon/",
+    publisher: fondation,
+  },
+  tsas: {
+    title:
+      "Ney et le combat des Quatre-Bras (François Tsas, Revue du Souvenir Napoléonien 271)",
+    url: "https://www.napoleon.org/histoire-des-2-empires/articles/ney-et-le-combat-des-quatre-bras/",
+    publisher: fondation,
+  },
+  blucherWaterloo: {
+    title: "Blücher and the Waterloo campaign",
+    url: "https://www.napoleon.org/en/history-of-the-two-empires/close-up/a-close-up-on-blucher-and-the-waterloo-campaign",
+    publisher: fondation,
+  },
+  blucherNdb: {
+    title:
+      "Blücher von Wahlstatt, Gebhard Leberecht Fürst (Hans Haussherr, NDB 2, 1955), in German",
+    url: "https://www.deutsche-biographie.de/sfz35354.html",
+    publisher: "Neue Deutsche Biographie",
+  },
+  muffling: {
+    title: "Baron von Müffling, Passages from My Life",
+    url: archive("passagesfrommyli00mfuoft"),
+    publisher: "Internet Archive",
+  },
+  hundredDays: {
+    title: "Napoleonic Wars: The Congress of Vienna and the Hundred Days",
+    url: "https://www.britannica.com/event/Napoleonic-Wars/The-Congress-of-Vienna-and-the-Hundred-Days",
+    publisher: britannica,
+  },
+  empowering: {
+    title:
+      "Allan Lee, Sara Willis and Amy Wei Tian, Empowering leadership: a meta-analytic examination of incremental contribution, mediation, and moderation (2017), abstract",
+    url: "https://doi.org/10.1002/job.2220",
+    publisher: "Journal of Organizational Behavior",
+  },
+  levinthal: {
+    title:
+      "Daniel Levinthal and James March, The myopia of learning (1993), abstract",
+    url: "https://doi.org/10.1002/smj.4250141009",
+    publisher: "Strategic Management Journal",
+  },
 } satisfies Record<string, Source>;
 
 export const napoleonVolume: LeadershipVolume = {
@@ -455,7 +542,7 @@ export const napoleonVolume: LeadershipVolume = {
     "What remains",
   ],
   inProgress:
-    "Nine lessons are available. Ten more are planned, and the last will answer the question above.",
+    "Thirteen lessons are available. Six more are planned, and the last will answer the question above.",
   lessons: [
     {
       slug: "how-to-read-napoleon",
@@ -2354,6 +2441,905 @@ export const napoleonVolume: LeadershipVolume = {
         s.kim,
         s.austerlitzPlace,
         s.remusat,
+      ],
+    },
+    {
+      slug: "delegate-the-fight",
+      title: "The corps and its commanders",
+      part: "Building the instrument",
+      themes: ["organisation", "judgement"],
+      claim:
+        "Delegation works when subordinates share a doctrine, command forces able to survive alone and know the intent behind their orders.",
+      moment: {
+        text: "At three in the morning of 14 October 1806, Napoleon’s orders reached Marshal Davout near Naumburg. They told him what the Emperor meant to do: attack from Jena towards Weimar at first light. They told Davout to march on Apolda and fall on the enemy’s rear. And they left the choice of road to him. By half past six the head of his corps was moving, with Davout himself riding at the front of Gudin’s division.",
+        evidence: "fact",
+        refs: [{ source: 0 }],
+      },
+      episodes: [
+        {
+          title: "Auerstedt: an order that left room",
+          text: "Davout’s advance guard ran into the main Prussian army, which should have been far stronger on the ground. The 1911 Britannica says the Prussians came on at the old regulation pace while the French manoeuvred at the quick or double, reinforcing their line in time to avert disaster. Linden says that from half past ten Davout fought with no reserve left, always at the front of the fighting. Nobody was on hand to tell him what to do. He knew what the Emperor wanted, and he had a corps that could fight for a day alone. Afterwards the Emperor chose to reward that corps by letting it enter Berlin first, and Linden records that when the keys of the city were offered, Davout refused them on the ground that they belonged to someone greater.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "§ 18" }, { source: 0 }],
+          battleSlugs: ["jena-auerstedt"],
+        },
+        {
+          title: "Friedland: holding until the army came",
+          text: "On 14 June 1807 Lannes held the Russians from three in the morning until noon, under fire from guns on the far bank of the Alle, while reinforcements came up. Napoleon reached the field at about two in the afternoon. Ganière’s account has him refusing at first to believe the numbers in front of him, congratulating Lannes on the conduct of his troops and ordering the attack that same day. A subordinate’s stubbornness had created the opportunity that the commander then used.",
+          evidence: "fact",
+          refs: [{ source: 3 }, { source: 4 }],
+          battleSlugs: ["friedland"],
+        },
+        {
+          title: "Aspern-Essling: holding when the plan failed",
+          text: "In May 1809 Napoleon crossed the Danube below Vienna on fragile bridges, with only part of his army over. Hicks places Masséna’s corps near Aspern and Lannes’s at Essling on the morning of 21 May, facing a much larger Austrian force coming on in five columns. The French were repulsed on 22 May. It was a defeat, with the fighting around each village in the hands of the marshal commanding there. Lannes was struck in the legs by a cannonball and died nine days later.",
+          evidence: "fact",
+          refs: [{ source: 5 }, { source: 6 }, { source: 7 }],
+          battleSlugs: ["aspern-essling"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Jean Linden",
+          stake: "An admiring study of Davout in a Napoleonic review.",
+          says: "He describes orders that give the intention and leave the route open, and a marshal who took calculated risks all day.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "The 1911 Britannica",
+          stake:
+            "A soldierly narrative that cares more about method than reputation.",
+          says: "It credits French mobility at Auerstedt to their training, and not necessarily to their system.",
+          refs: [{ source: 1, locator: "§ 18" }],
+        },
+        {
+          who: "Chaptal",
+          stake: "Once his minister, bitter about how generals were treated.",
+          says: "He says generals learned their orders only at the moment they had to leave to carry them out.",
+          refs: [{ source: 8, locator: "p. 247" }],
+        },
+        {
+          who: "Bonaparte, in his orders",
+          stake: "Written at the time, for the men who had to act on them.",
+          says: "On 12 October he told Lannes what the army’s skill now consisted of: attacking everything it met, so as to beat the enemy in detail while he concentrated.",
+          refs: [{ source: 11, locator: "p. 243" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, the system was a bet on people. Britannica says that each corps had its own staff and services, three infantry divisions and light cavalry, and that Napoleon kept the control of a campaign to himself while allowing his corps commanders much freedom in executing his orders. That division is the important part. Davout did not choose where to fight. He chose how to do what he had been told, and at Auerstedt the difference between the two was enough to win.",
+          evidence: "interpretation",
+          refs: [{ source: 2 }],
+        },
+        {
+          text: "It was also a bet that could lose. On the same day Bernadotte, whose corps might have joined Davout, marched to Dornburg, and his conduct has been disputed ever since. The freedom that let Davout stand also let another marshal be somewhere else. A system of delegation works by selecting the right people and sharing the intent, and no organisation chart can guarantee either.",
+          evidence: "interpretation",
+          refs: [{ source: 0 }, { source: 1, locator: "§ 16" }],
+        },
+        {
+          text: "Sharing the reasoning mattered as much as issuing the order. In the days before Jena Napoleon wrote to Soult setting out what he could make of the Prussian movements and what he would do in each case, and he told Lannes what the army’s skill now consisted of. Those letters are the working equivalent of a statement of intent: a marshal who read them could guess what the Emperor would want when something unforeseen happened. It did not happen in every campaign. Where it did, it did more for independent action than any rule about who commanded what.",
+          evidence: "interpretation",
+          refs: [{ source: 11, locator: "pp. 242–243" }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Empowering leadership",
+          base: "meta-analysis",
+          text: "Lee, Willis and Tian, drawing on 105 samples, report positive effects of leadership that gives people authority and encouragement on performance and creativity, and that trust in the leader and a sense of empowerment carry those effects at the individual level. That fits a marshal given a task, a route and a statement of intent. It fits less well with Chaptal’s picture of generals who approached him trembling. The research asks about something Napoleon gave only in part.",
+          evidence: "interpretation",
+          refs: [{ source: 10 }],
+          limit:
+            "These are modern workplace studies, and only the abstract was read. No claim about what marshals felt can rest on them.",
+        },
+      ],
+      shadow: {
+        text: "He delegated the fight and seldom the thinking. An article on Lejeune, one of Berthier’s aides, says that strategic conception and tactical idea came from the Emperor and from him alone. Britannica says he was content to use men who had serious deficiencies when they became commanders of whole theatres. Chaptal goes further and says that he paralysed everything around him. A marshal trained to execute brilliantly inside another man’s plan had not been trained to make the plan, as 1813 would show. Chaptal’s harshest sentence is that men, in Napoleon’s eyes, were machines he believed himself destined to set in motion. He had a grievance, and the record of Davout or Lannes does not read like the record of machines. But it is a fair description of what the system asked for at the level of campaign planning.",
+        evidence: "interpretation",
+        refs: [{ source: 12 }, { source: 2 }, { source: 8, locator: "p. 248" }],
+        battleSlugs: ["dresden"],
+      },
+      counterCase: {
+        text: "The army Davout beat shows what delegation is measured against. Britannica says the Prussians had not adopted the divisional system and took the field in three armies under elderly commanders. The 1911 Britannica describes a staff officer, Massenbach, riding up on the 13th, claiming the authority of the king and the commander-in-chief, and persuading Hohenlohe to send his troops back to camp. An army where authority is unclear can have able officers and still not act.",
+        evidence: "interpretation",
+        refs: [{ source: 9 }, { source: 1, locator: "§ 16" }],
+        commanderSlug: "louis-nicolas-davout",
+        battleSlugs: ["jena-auerstedt"],
+      },
+      cost: {
+        text: "Independence meant being alone when things went badly. At Auerstedt the 1911 Britannica says that by midday French strength was nearly exhausted. Lannes’s men stood for nine hours under artillery on the far bank. Lannes himself, a dyer’s apprentice who had become a marshal, died at Aspern. A corps that can hold on alone is a corps that will be asked to.",
+        evidence: "fact",
+        refs: [{ source: 1, locator: "§ 18" }, { source: 3 }, { source: 7 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "People know the intent, and have the means to act on it without asking.",
+          "You have selected and tested the people before relying on them.",
+        ],
+        failsWhen: [
+          "People are told what to do only at the last moment, so that they cannot think ahead.",
+          "The same freedom lets someone choose to be elsewhere, and nobody finds out until afterwards.",
+        ],
+        questions: [
+          "If you were out of contact for a day, what would your team do?",
+          "Do they know why, or only what?",
+          "Which decisions have you kept that you could give away?",
+        ],
+      },
+      bearsOn:
+        "Delegation worked best between 1805 and 1809, when the marshals were tested and close at hand. It does not show him getting worse. It shows that the way he delegated had a limit built into it, because he kept the thinking for himself, and that limit grew more serious as the war spread.",
+      questions: [
+        {
+          prompt:
+            "What did Napoleon’s order to Davout leave to the marshal, according to Linden?",
+          choices: [
+            "The decision whether to fight at all.",
+            "The choice of road.",
+            "The command of the whole army.",
+          ],
+          answer: 1,
+          explanation:
+            "The order gave the intent and the objective, and left the route to Davout.",
+        },
+        {
+          prompt: "What did Lannes do at Friedland before Napoleon arrived?",
+          choices: [
+            "He held the Russians from three in the morning until noon.",
+            "He retreated to Königsberg.",
+            "He took Bennigsen prisoner.",
+          ],
+          answer: 0,
+          explanation:
+            "His stand gave Napoleon time to bring up the army and attack the same day.",
+        },
+        {
+          prompt:
+            "Which pair of statements does the lesson set against each other?",
+          choices: [
+            "That the corps had no staff, and that they had too many.",
+            "That Davout was a poor general, and that Bernadotte was a good one.",
+            "That corps commanders had much freedom in execution, and that generals learned their orders only at the last moment.",
+          ],
+          answer: 2,
+          explanation:
+            "Britannica and Chaptal describe different parts of the same system.",
+        },
+      ],
+      sourceCheck: {
+        question: "How free were Napoleon’s marshals?",
+        witnesses: [
+          {
+            label: "Britannica",
+            claim:
+              "He kept the control of a campaign to himself, though he allowed his corps commanders much freedom in the execution of his orders.",
+          },
+          {
+            label: "Chaptal, his former minister",
+            claim:
+              "Generals learned their orders only at the moment they left to carry them out, and most of them approached him trembling.",
+          },
+        ],
+        prompt: "What is the best way to reconcile these?",
+        options: [
+          {
+            text: "Chaptal is unreliable, since he was a civilian minister.",
+            feedback:
+              "His position limits what he saw of the battlefield, but he did see how Napoleon treated generals at court and in council.",
+          },
+          {
+            text: "They describe different things: freedom in carrying out a task, and little part in deciding it.",
+            feedback:
+              "That reading fits both, and it is the distinction on which this lesson and the next depend.",
+            best: true,
+          },
+          {
+            text: "Britannica must be right, because it is an encyclopedia.",
+            feedback:
+              "A reference work is a summary of other people’s judgements. It needs weighing like any other source.",
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Describe an order or brief that left you real room to act, and one that did not. What was different about the way each was written?",
+        guidance:
+          "Use Napoleon’s order to Davout as a model. Look for the statement of intent, the task, and what was left open.",
+      },
+      sources: [
+        s.linden,
+        s.campaigns,
+        s.forces,
+        s.polish1807,
+        s.winter1807,
+        s.hicks,
+        s.aspern,
+        s.lannes,
+        s.chaptal,
+        s.jenaCampaign,
+        s.empowering,
+        s.corsican,
+        s.lejeune,
+      ],
+    },
+    {
+      slug: "a-headquarters-built-for-one-mind",
+      title: "What a personal staff could and could not do",
+      part: "Building the instrument",
+      themes: ["organisation", "judgement"],
+      claim:
+        "When a headquarters is built to serve one mind, it extends that mind’s reach and leaves little that can think without it.",
+      moment: {
+        text: "At Vilna in July 1812, Caulaincourt writes, twenty-four hours were not enough for Napoleon. Aides-de-camp, orderly officers and staff officers were constantly on the roads, and he waited with growing impatience for reports from the corps on the march. His first words to everyone who arrived were always the same: how many prisoners had been taken? The Russians were retreating, and the question that had always told him how a campaign was going was no longer telling him very much.",
+        evidence: "fact",
+        refs: [{ source: 6, locator: "p. 56" }],
+      },
+      episodes: [
+        {
+          title: "The cabinet and the map",
+          text: "In September 1804 Bacler d’Albe was named head of the topographical bureau just created in the First Consul’s cabinet, and Jourquin says that he never left Napoleon’s side afterwards. An article on the staff officer Lejeune sets out the structure around them: the Emperor’s household with his aides and orderly officers, the cabinet with its secretaries and maps, and Berthier’s general staff. Its aides were expected to find fast horses at their own expense. When Napoleon was uncertain of the Austrians’ positions after crossing the Danube in 1805, this was the machinery that had to find them.",
+          evidence: "fact",
+          refs: [{ source: 2 }, { source: 3 }, { source: 8 }],
+          battleSlugs: ["ulm"],
+        },
+        {
+          title: "Berthier",
+          text: "Berthier was chief of staff of the Grande Armée from 1805, directing six generals and eight colonels and sending out Napoleon’s orders to the marshals. Gambiez, in the Dictionnaire Napoléon, calls him an excellent chief of staff and a remarkable organiser. He says Berthier could be called at any hour, seventeen times in one night on one occasion, and always presented himself booted, spurred and in full uniform. By day he seconded the Emperor, and by night he collected intelligence, organised the armies and watched over supplies. Britannica reports that friction grew between him and the marshals as the power of the chief of staff increased. Napoleon called him the man who had served him longest and had never failed him.",
+          evidence: "fact",
+          refs: [{ source: 4 }, { source: 0 }],
+          battleSlugs: ["austerlitz"],
+        },
+        {
+          title: "1812: too far to see",
+          text: "Caulaincourt says that spies became useless once the army crossed on to Russian soil, because the prospect of Siberia or the knout cooled their zeal, and that information came only by way of Vilna. Reports from the front could be worse than none. At Moscow, he says, Murat kept describing a Russian army in flight and Cossacks ready to desert, on the strength of flattery from Cossack officers, and Napoleon put small faith in his despatches. Britannica says that the method was not easily applied over great distances. A system tuned to the scale of western Europe had to work at the far end of a very long road, with an enemy that had no intention of being found.",
+          evidence: "fact",
+          refs: [{ source: 6, locator: "chs V–VI" }, { source: 1 }],
+          battleSlugs: [],
+          campaignSlugs: ["russian-campaign-of-1812"],
+        },
+        {
+          title: "1813: going around the chief of staff",
+          text: "By the summer of 1813, Houdecek writes, the relationship with Berthier was strained: the Major General had accumulated fatigue, and there was a reciprocal lack of confidence. That helps to explain why Napoleon was so often in direct contact with corps commanders. Britannica adds that he was wrongly informed about Bernadotte’s crossing of the Elbe and acted on further false news. The system was by then carrying more traffic, from a mind under more strain, through a weaker link.",
+          evidence: "fact",
+          refs: [{ source: 5 }, { source: 11 }],
+          battleSlugs: ["dresden"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "General Gambiez",
+          stake:
+            "A soldier writing for the standard French reference work on Napoleon.",
+          says: "He portrays Berthier as far more than a clerk, and records that he opposed the Russian campaign and contradicted Napoleon in 1813.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "Britannica on the staff",
+          stake: "A general history that judges the system by its results.",
+          says: "It says the staff were required not to think or act independently but to communicate effectively, and that there was no real training for staff work.",
+          refs: [{ source: 1 }],
+        },
+        {
+          who: "Houssaye",
+          stake: "A French historian of 1815, unsparing about the campaign.",
+          says: "He says Soult was as superior to Berthier as a man of mind and action is to a good clerk, but had never done the work of a chief of staff.",
+          refs: [{ source: 9, locator: "pp. 35–36" }],
+        },
+        {
+          who: "Wellington, as Earl Stanhope records him",
+          stake: "His opponent, at second hand.",
+          says: "He remarks that nothing was too great or too small for Napoleon’s attention.",
+          refs: [{ source: 10, locator: "p. 98" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, the personal headquarters was a rational answer to one problem: how a single brilliant commander could direct an army of two hundred thousand men. It put maps, returns and messengers in one place and within reach of one person. For the campaigns of 1805 and 1806 it was an extraordinary instrument, and the speed of its orders was a weapon in itself.",
+          evidence: "interpretation",
+          refs: [{ source: 1 }, { source: 3 }],
+        },
+        {
+          text: "What it could not do was think in his absence. Britannica’s judgement, that the staff existed to communicate, describes a design choice. It solved the problem of 1805 and created the problem of 1813. An organisation is shaped around whatever it was built to do, and by the time it was needed for something else, Napoleon would have had to rebuild it in the middle of a war.",
+          evidence: "interpretation",
+          refs: [{ source: 1 }, { source: 5 }],
+        },
+        {
+          text: "The article on Lejeune puts the design in a sentence: staff officers were there to prolong and multiply the Emperor. That is an accurate description, and also the difficulty. An officer who extends another person’s reach is judged by how faithfully he carries a message, so the organisation develops people who do that well. The system had no particular way of producing officers who would tell the Emperor what the Emperor had not thought of.",
+          evidence: "interpretation",
+          refs: [{ source: 3 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "The limits of one mind",
+          base: "none",
+          text: "It is tempting to explain the later campaigns by the limits of human attention and by information overload. The research reviews on overload that could be opened for this lesson describe a field of study, and give no finding that can be applied here. No reliable mechanism is offered. What can be said is only what witnesses describe: more reports, greater distances, and one person at the centre.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "Claims that Napoleon was overloaded would be inference from outcomes, and this lesson does not make them.",
+        },
+      ],
+      shadow: {
+        text: "In 1815 the system met its hardest test without the man who ran it. Berthier had followed Louis XVIII and was struck from the list of marshals, and Napoleon is said to have told Las Cases that with Berthier he would not have suffered this misfortune. Soult had never done the job. Wellington’s remark that in later days Napoleon would admit no facts that did not fit his ideas rests partly on a story from Marmont and is interested at every stage, yet it points to the danger of a system where everything converges on one person: there may be nobody left to correct him.",
+        evidence: "interpretation",
+        refs: [
+          { source: 0 },
+          { source: 9, locator: "pp. 35–36" },
+          { source: 10, locator: "p. 98" },
+        ],
+        battleSlugs: ["waterloo"],
+      },
+      counterCase: {
+        text: "Blücher’s headquarters worked the other way. Müffling, his quartermaster general in 1813, describes all reports coming first to him; he drew up proposals and dispositions and took them to Gneisenau behind closed doors; when Gneisenau agreed they went together to the field marshal. Blücher sanctioned them, and made no difficulties about advancing. Müffling had every reason to stress his own part. Even so, what he describes is a staff that was expected to think.",
+        evidence: "interpretation",
+        refs: [{ source: 7, locator: "pp. 94–95" }],
+        commanderSlug: "gebhard-leberecht-von-blucher",
+        battleSlugs: ["leipzig"],
+      },
+      cost: {
+        text: "The machine was hard on those who ran it. Lejeune says that he lost more than thirty horses in his later campaigns, bought at his own expense. Jourquin says that years of work beside the Emperor wore out Bacler d’Albe’s health, and that the Russian campaign left him in debt. Gambiez explains Berthier’s conduct in 1814 by exhaustion after thirty-five years of fighting.",
+        evidence: "fact",
+        refs: [{ source: 3 }, { source: 2 }, { source: 0 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "One person’s judgement really is the organisation’s main asset, for now.",
+          "The scale of the work is still within what that person can follow.",
+        ],
+        failsWhen: [
+          "The organisation is asked to act where that person cannot see or reach.",
+          "People around the leader have stopped being asked what they think.",
+        ],
+        questions: [
+          "What decisions would stop if one person were away for a month?",
+          "Are the people around you paid to pass on information, or to form a view?",
+          "Who in your organisation can tell you that a report is wrong?",
+        ],
+      },
+      bearsOn:
+        "The headquarters did not get worse by itself. It was built for one size of problem and asked to deal with a larger one, while the man at its centre was asked to do more. That leans towards “the problem got harder”, with the qualification that its design was his choice and he could have changed it.",
+      questions: [
+        {
+          prompt:
+            "When was Bacler d’Albe named head of the topographical bureau?",
+          choices: ["September 1804", "June 1812", "April 1796"],
+          answer: 0,
+          explanation:
+            "Jourquin says that he never left Napoleon’s side afterwards.",
+        },
+        {
+          prompt:
+            "Why, according to Houdecek, was Napoleon so often in direct contact with corps commanders in 1813?",
+          choices: [
+            "He had abolished the post of chief of staff.",
+            "Berthier’s fatigue and absences, and a mutual lack of confidence.",
+            "The marshals had asked him to.",
+          ],
+          answer: 1,
+          explanation:
+            "This is one sign that the system’s weakest link was under strain.",
+        },
+        {
+          prompt:
+            "How did Blücher’s headquarters work, as Müffling describes it?",
+          choices: [
+            "Blücher wrote every order himself.",
+            "Orders came directly from the king.",
+            "Reports went to Müffling, whose proposals went through Gneisenau to Blücher.",
+          ],
+          answer: 2,
+          explanation:
+            "The staff was expected to form a view, though Müffling had reasons to emphasise his part.",
+        },
+      ],
+      sourceCheck: {
+        question: "Was Berthier more than a messenger?",
+        witnesses: [
+          {
+            label: "Britannica",
+            claim:
+              "Berthier and his staff were required not to think or act independently but to communicate effectively between Napoleon and his corps commanders.",
+          },
+          {
+            label: "General Gambiez, Dictionnaire Napoléon",
+            claim:
+              "An excellent chief of staff and a remarkable organiser, who collected intelligence at night, organised armies and watched over supplies.",
+          },
+        ],
+        prompt: "How should these be weighed?",
+        options: [
+          {
+            text: "Gambiez is right, and Britannica is unfair to Berthier.",
+            feedback:
+              "Gambiez is describing an organiser. He does not say Berthier decided what the army would do.",
+          },
+          {
+            text: "Britannica is right, and Berthier was only a clerk.",
+            feedback:
+              "Britannica describes what the role required. Running such a machine demanded great ability, as Gambiez shows.",
+          },
+          {
+            text: "He could be a superb organiser in a post that gave him no authority to decide.",
+            feedback:
+              "That reconciles them. The limit lay in the design of the job and not in the man.",
+            best: true,
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Look at how information reaches the most senior person in an organisation you know. Who filters it, and who is allowed to disagree with it?",
+        guidance:
+          "Compare Napoleon’s cabinet with Blücher’s headquarters. Ask who proposes, who decides, and what would happen if the person at the top were absent.",
+      },
+      sources: [
+        s.gambiez,
+        s.forces,
+        s.jourquin,
+        s.lejeune,
+        s.berthier,
+        s.collapse,
+        s.caulaincourt,
+        s.muffling,
+        s.coalitions,
+        s.houssaye,
+        s.stanhope,
+        s.autumn1813,
+      ],
+    },
+    {
+      slug: "the-bottleneck",
+      title: "When everything depends on one mind",
+      part: "Building the instrument",
+      themes: ["organisation", "judgement"],
+      claim:
+        "An organisation trained to wait for one person’s decision fails where that person is absent.",
+      moment: {
+        text: "Before the war of 1812, Caulaincourt came back from St Petersburg with a warning that he says he noted down at once. Alexander had told him that Russia would never accept a dictated peace, and then added a remark about the French army. Wonders happened where the Emperor was present in person; but he could not be everywhere, and he could not be away from Paris year after year. Napoleon heard this out, Caulaincourt says, with close attention. The Tsar had described the weakness of the whole system in a sentence.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "pp. 5–6" }],
+      },
+      episodes: [
+        {
+          title: "1813: four defeats in a month",
+          text: "In the autumn of 1813 the allies agreed to avoid Napoleon and attack his subordinates. Within weeks Oudinot was beaten at Grossbeeren, Macdonald was routed by Blücher on the Katzbach, Vandamme was surrounded at Kulm and Ney was completely defeated at Dennewitz. Napoleon himself had just won at Dresden. Britannica adds that Oudinot had been left exposed in the north to contain much superior forces. Linden sums up the northern front in a phrase: the scattering of forces brought the defeat of corps commanders left to themselves. Britannica attributes the failure to exploit Dresden to his illness and the shortcomings of his corps commanders.",
+          evidence: "fact",
+          refs: [{ source: 2 }, { source: 4 }, { source: 1 }],
+          battleSlugs: ["dresden"],
+          campaignSlugs: ["german-campaign-of-1813"],
+        },
+        {
+          title: "Ligny: the corps that fought nowhere",
+          text: "On 16 June 1815 Napoleon fought Blücher at Ligny while Ney faced Wellington at Quatre Bras, and d’Erlon’s corps, between them, was meant to tip one battle or the other. D’Erlon later said that a general showed him a pencilled note ordering his corps towards Ligny, and that his column had already been turned. Ney, finding himself heavily engaged, ordered him back. The corps spent the day marching between two battles and fought in neither. Tsas says that it is impossible to reconstruct the messengers and that some testimony is doubtful.",
+          evidence: "fact",
+          refs: [{ source: 5 }],
+          battleSlugs: ["ligny"],
+        },
+        {
+          title: "Waterloo: the absent chief of staff",
+          text: "Soult, Houssaye writes, had never done the work of a chief of staff, and lacked the application and exactness it requires. Britannica says that Ney and Grouchy failed to destroy either enemy while their armies were separated, and that Grouchy led a dilatory pursuit, while the Prussians’ main force got away and turned the tide at Waterloo. The result depended on subordinates working at a distance, in a system that had rarely asked them to.",
+          evidence: "fact",
+          refs: [{ source: 6, locator: "pp. 35–36" }, { source: 8 }],
+          battleSlugs: ["waterloo"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Chaptal",
+          stake: "Once his minister, and hostile on this point.",
+          says: "He says that Napoleon’s men became timid and irresolute, and that this is why he had successes wherever he was and reverses wherever he was not.",
+          refs: [{ source: 3, locator: "pp. 248–249" }],
+        },
+        {
+          who: "Napoleon on St Helena, as Gourgaud records him",
+          stake:
+            "Defending his plan, and with an obvious interest in naming others.",
+          says: "He says he should have given Suchet the command he gave Grouchy, and that Grouchy lacked vigour and promptness. He also admits errors of his own.",
+          refs: [{ source: 7, locator: "pp. 186–189" }],
+        },
+        {
+          who: "François Tsas",
+          stake:
+            "Writing in a Napoleonic review, and yet holding Napoleon responsible.",
+          says: "He blames Vandamme’s report of the column and, above all, Napoleon’s division of his forces. He cites a Belgian professor who called it a failure of liaison.",
+          refs: [{ source: 5 }],
+        },
+        {
+          who: "François Houdecek",
+          stake: "A historian working through the correspondence itself.",
+          says: "He says that Napoleon imagined many combinations in 1813, all dependent on enemy reactions he often learned of in part or too late, as if he no longer had a steady hand.",
+          refs: [{ source: 1 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, the allied plan identified the weakness exactly. Napoleon could be in only one place. If armies were sent to fight wherever he was not, the French system would be tested at its least practised point. There were good reasons for his plan to operate from the Elbe, as Britannica allows, but it meant separating his forces under men whose experience was of executing his orders close at hand.",
+          evidence: "interpretation",
+          refs: [{ source: 2 }, { source: 13 }],
+        },
+        {
+          text: "The events of June 1815 show the same fault on a smaller scale. A corps moved between two fields because the instructions reaching it were partial, delayed and in conflict. In the campaigns of 1805 and 1806 the distances had been shorter and the commanders more practised. Without hindsight, sending d’Erlon to Ligny may have been reasonable. A system with so little slack could not survive doing it by a pencilled note.",
+          evidence: "interpretation",
+          refs: [{ source: 5 }],
+        },
+        {
+          text: "The sources also show the centre itself working less well. In October 1813, Houdecek writes, Napoleon learned only after a skirmish that it was the Russians and not Blücher’s Prussians who were at Meissen, and he chose to wait in order to let the enemy gain confidence, not realising that Blücher and Bernadotte had already joined. His plan of action was settled only in the night of 6 to 7 October. Where one mind is the single point of decision, a mistaken report at the centre costs more than it would anywhere else, because there is no other place from which it can be corrected.",
+          evidence: "interpretation",
+          refs: [{ source: 1 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Reluctance to act without orders",
+          base: "none",
+          text: "Chaptal’s picture of men made timid and irresolute by a dominating chief sounds like a psychological claim, and it would be easy to attach a modern label to it. No study read for this lesson can support one. No reliable mechanism is offered. It remains a contemporary’s judgement, from someone with a grievance, to be weighed against the marshals’ actual record.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "Whether the marshals’ failures in 1813 came from dependence, from fatigue or from being given impossible tasks cannot be established from the sources read.",
+        },
+      ],
+      shadow: {
+        text: "The failure was also a failure of account-keeping, because blame flowed downwards. Chaptal says that when generals were unlucky the fault was always theirs, and never the inferiority of the troops or the positions he had given them. On St Helena Napoleon went through what should have been done, named the men he should have used instead, and concluded that it was fate. The Fondation’s account notes that Grouchy’s failure to return came to be held generally as the real reason for Waterloo. A leader who keeps the decisions and passes on the blame learns nothing from his subordinates’ failures, since the lesson has been assigned to someone else.",
+        evidence: "interpretation",
+        refs: [
+          { source: 3, locator: "p. 247" },
+          { source: 7, locator: "pp. 188–189" },
+          { source: 9 },
+        ],
+        battleSlugs: ["ligny"],
+      },
+      counterCase: {
+        text: "At Ligny Blücher went down under his horse. The Neue Deutsche Biographie says it was then that Gneisenau gave the famous order to retreat not towards the Rhine but north on Wavre, which kept the army within reach of Wellington, and that the shares of the two men in Prussian operations can never be clearly separated. Müffling describes a staff in which proposals were worked up and argued before they reached the field marshal. An army that could take a decision of that importance with its commander on the ground had something Napoleon’s did not.",
+        evidence: "interpretation",
+        refs: [
+          { source: 10 },
+          { source: 11, locator: "pp. 94–95" },
+          { source: 9 },
+          { source: 12 },
+        ],
+        commanderSlug: "gebhard-leberecht-von-blucher",
+        battleSlugs: ["ligny", "waterloo"],
+      },
+      cost: {
+        text: "Men paid for the distance between the decision and the place. Vandamme’s corps was destroyed as a force at Kulm. Davout, cut off at Hamburg, stopped receiving communications from headquarters and, to prepare the city for a siege, had to drive part of its population out. On 16 June 1815 a whole corps marched all day while soldiers died in two battles nearby, for want of a clear message.",
+        evidence: "fact",
+        refs: [{ source: 2 }, { source: 4 }, { source: 5 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "Important decisions wait for one person, and subordinates have rarely decided alone.",
+          "The work now happens further from that person than it used to.",
+        ],
+        failsWhen: [
+          "People have been practised in deciding independently, and have been backed when they did.",
+          "The apparent dependence is really a shortage of resources, and no change in authority would help.",
+        ],
+        questions: [
+          "Which of your people has made a major decision without you in the past year?",
+          "When something went wrong without you, who got the blame?",
+          "What would your organisation do if a message from you was ambiguous?",
+        ],
+      },
+      bearsOn:
+        "Houdecek’s phrase about the steady hand suggests some decline in 1813. But the marshals’ defeats came from a structural weakness that had been there since 1805, and that opponents had now found. The problem got harder because they aimed at the weakness. The weakness was his own creation.",
+      questions: [
+        {
+          prompt: "What did Alexander tell Caulaincourt about the French army?",
+          choices: [
+            "That it could not be beaten anywhere.",
+            "That wonders happened only where the Emperor was present, and he could not be everywhere.",
+            "That its marshals were better than its Emperor.",
+          ],
+          answer: 1,
+          explanation:
+            "The allied plan of 1813 turned that observation into a strategy.",
+        },
+        {
+          prompt: "What happened to d’Erlon’s corps on 16 June 1815?",
+          choices: [
+            "It marched between Ligny and Quatre Bras and fought in neither.",
+            "It broke the Prussian centre at Ligny.",
+            "It defeated Wellington at Quatre Bras.",
+          ],
+          answer: 0,
+          explanation:
+            "Tsas says the messages involved cannot be fully reconstructed.",
+        },
+        {
+          prompt:
+            "What does the lesson say about the psychology of the marshals’ dependence?",
+          choices: [
+            "That learned helplessness is proven in their case.",
+            "That modern tests have measured it.",
+            "That no study read can support a label, so no reliable mechanism is offered.",
+          ],
+          answer: 2,
+          explanation:
+            "Chaptal’s judgement stays a contemporary’s opinion, to be weighed against the record.",
+        },
+      ],
+      sourceCheck: {
+        question: "Who was responsible for d’Erlon’s wasted march?",
+        witnesses: [
+          {
+            label: "D’Erlon’s own account",
+            claim:
+              "A general showed him a pencilled note sending his corps to Ligny, and his column had already been turned.",
+          },
+          {
+            label: "François Tsas",
+            claim:
+              "He blames Vandamme’s report of the column and, above all, Napoleon’s division of his forces, and he warns that some testimony is doubtful.",
+          },
+        ],
+        prompt: "What can safely be said?",
+        options: [
+          {
+            text: "D’Erlon was at fault, since he left his commander without orders.",
+            feedback:
+              "His own account is self-defence, but it does describe an instruction that changed his route.",
+          },
+          {
+            text: "Ney alone is to blame for recalling him.",
+            feedback:
+              "Ney was under attack and had been told to rely on that corps. The recall is only one link in the chain.",
+          },
+          {
+            text: "The chain of messages cannot be rebuilt, and the fault lay at least partly in the arrangement itself.",
+            feedback:
+              "Tsas makes both points. When the evidence runs out, the honest move is to say so and look at the structure.",
+            best: true,
+          },
+        ],
+        battleSlug: "ligny",
+      },
+      seminar: {
+        prompt:
+          "Identify a decision in your organisation that waits for one person. What happens during the wait?",
+        guidance:
+          "Compare the marshals of 1813 with Blücher’s headquarters. Ask who could have acted, what stopped them, and who was blamed afterwards.",
+      },
+      sources: [
+        s.caulaincourt,
+        s.collapse,
+        s.autumn1813,
+        s.chaptal,
+        s.linden,
+        s.tsas,
+        s.houssaye,
+        s.gourgaud,
+        s.hundredDays,
+        s.blucherWaterloo,
+        s.blucherNdb,
+        s.muffling,
+        s.blucher,
+        s.forces,
+      ],
+    },
+    {
+      slug: "your-rivals-are-learning",
+      title: "Competitors copy success",
+      part: "Building the instrument",
+      themes: ["adaptation", "organisation"],
+      claim:
+        "When one side keeps winning by the same method, its opponents have more reason to learn from it than it has itself.",
+      moment: {
+        text: "During the truce of 1813, Müffling writes, the allied sovereigns met at Trachenberg, and the question was raised whether Napoleon could ever be defeated by generals who were strangers to his mode of warfare. The words took on more weight, he says, when the army of the North was given to Bernadotte, one of Napoleon’s former marshals, and two French generals, Moreau and Jomini, were appointed as advisers at the sovereigns’ headquarters. Müffling adds that the Russian and Prussian generals, tested in 1812 and earlier, had by now earned the confidence of their armies. His enemies had hired people who knew how he worked, and they had trained some of their own.",
+        evidence: "fact",
+        refs: [{ source: 1, locator: "pp. 55–56" }],
+      },
+      episodes: [
+        {
+          title: "Alexander learns from Spain",
+          text: "Rivals were studying the method before they had a plan to beat it. Caulaincourt records what Alexander told him before the war of 1812: the Spaniards had often been defeated and had not submitted, a beaten Russia need not accept a dictated peace, and states had been undone by lack of perseverance. He even quoted back a remark Napoleon had made after Wagram, that Austria could have had better terms if it had held out longer. The lesson he drew was that the way to defeat this commander was to refuse to accept that losing a battle had ended the war.",
+          evidence: "fact",
+          refs: [{ source: 11, locator: "pp. 5–6" }],
+          battleSlugs: [],
+        },
+        {
+          title: "Prussia after Jena",
+          text: "In 1806 the Prussian army had not adopted the divisional system. Scharnhorst’s reforms after Tilsit established promotion by merit and began a reserve, and Britannica says that Gneisenau and his colleagues turned a force of limited conscripts and foreign enlistments into an instrument of modern mass warfare, with universal service among its practical results. Napoleon forced the dismissal of the reform party in 1808. It made no lasting difference. By 1813 the Prussians were in the field with the army those men had designed.",
+          evidence: "fact",
+          refs: [{ source: 10 }, { source: 5 }, { source: 6 }],
+          battleSlugs: ["jena-auerstedt"],
+        },
+        {
+          title: "Austria by 1809",
+          text: "Archduke Charles, Britannica says, discarded Austria’s old military system and adopted French organisation and tactics. At Aspern-Essling in May 1809 his army attacked the bridgehead and repulsed Napoleon, a reverse that Britannica says lessened his standing in the eyes of Europe. A week later the Tirolese under Andreas Hofer retook Innsbruck: others were watching too. At Wagram in July the French won, but the Austrians gave a good account of themselves and Charles retired with his forces well in hand.",
+          evidence: "fact",
+          refs: [{ source: 4 }, { source: 3 }],
+          battleSlugs: ["aspern-essling", "wagram"],
+        },
+        {
+          title: "The plan of 1813",
+          text: "Houdecek says the allies adopted the plan on the advice of Bernadotte, Moreau and Jomini: they would avoid battle wherever Napoleon was at the head, concentrate on beating his lieutenants and attack the chief only when his forces had been weakened. He did not know of it. Britannica records the agreement in almost the same terms. Here was a strategy built directly around the way he fought, and it led to Leipzig.",
+          evidence: "fact",
+          refs: [{ source: 0 }, { source: 2 }],
+          battleSlugs: ["leipzig"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Baron von Müffling",
+          stake:
+            "A Prussian staff officer writing about the coalition he served, and concerned with his own place in it.",
+          says: "He reports the question raised at Trachenberg, and the appointment of French generals as advisers.",
+          refs: [{ source: 1, locator: "pp. 55–56" }],
+        },
+        {
+          who: "François Houdecek",
+          stake:
+            "A historian of the correspondence, writing from the French side.",
+          says: "He attributes the plan to the advice of Bernadotte, Moreau and Jomini.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "Britannica on the army of 1809",
+          stake: "A general history with its own judgement of the French army.",
+          says: "It says that the French at Wagram showed their inferiority to the veteran force Napoleon had wasted since 1805.",
+          refs: [{ source: 3 }],
+        },
+        {
+          who: "Wellington, as Earl Stanhope records him",
+          stake: "His opponent, at second hand.",
+          says: "He says that in his later days Napoleon would admit no facts that did not fit his preconceived ideas.",
+          refs: [{ source: 8, locator: "p. 98" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, opponents had every reason to study him, because defeat is a strong teacher and his method was on display. He had less reason to change. Britannica says that he made no serious attempt to adopt the British firing line, and that his later battles favoured frontal attacks wasteful of men. A commander whose system has beaten everyone sees little in it to correct.",
+          evidence: "interpretation",
+          refs: [{ source: 7 }],
+        },
+        {
+          text: "The allied plan of 1813 is the clearest case of learning, and it asked less of its generals than it seemed to. It accepted that nobody on the allied side could reliably beat Napoleon in person. So it stopped trying to, and aimed at the part of his system that was weakest. A strategy built on an honest estimate of one’s own limits can defeat a superior opponent.",
+          evidence: "interpretation",
+          refs: [{ source: 0 }, { source: 2 }],
+        },
+        {
+          text: "Learning here meant more than copying. Austria and Prussia did adopt French organisation, and that alone made them harder to beat. The deeper change is the one Britannica credits to Gneisenau and his colleagues, from an army of subjects to an army of citizens, with universal service behind it. Napoleon’s system had drawn its strength from a mobilised nation. Once his opponents had mobilised theirs, the original advantage was gone, and what remained was the skill of one commander.",
+          evidence: "interpretation",
+          refs: [{ source: 6 }, { source: 4 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "The myopia of learning",
+          base: "theory",
+          text: "Levinthal and March argue that organisations cope with confusing experience by simplifying and specialising, and that this produces three kinds of short-sightedness: overlooking distant times, distant places and failures. They also describe a tendency to overinvest in exploiting what already works at the expense of exploring what might. Applied by analogy, the theory describes a winner with fewer failures to learn from and strong reasons to keep doing what succeeded.",
+          evidence: "interpretation",
+          refs: [{ source: 9 }],
+          limit:
+            "This is a theoretical argument about organisations, read as an abstract. It does not show that Napoleon himself stopped learning, and Wagram shows that he could adapt to circumstances.",
+        },
+      ],
+      shadow: {
+        text: "While his opponents improved, his own instrument was getting worse. Britannica says that the army of 1805 was the best he was to lead, and that at Wagram the French showed their inferiority to it. Houdecek describes 1813 as a year of extreme expansion in the levying of conscripts, with Napoleon himself finding the youngest class too young. The method that had depended on veterans now had to be carried out by men who had not had the time to become them.",
+        evidence: "interpretation",
+        refs: [{ source: 7 }, { source: 3 }, { source: 0 }],
+        battleSlugs: ["wagram"],
+      },
+      counterCase: {
+        text: "Schwarzenberg shows what learning looked like at the top of the coalition. At Dresden in August 1813 Napoleon beat him, and his army withdrew in disorder. Yet the plan held. Within days the losses of Oudinot, Macdonald and Vandamme had wiped out the effect of the victory, and the allies went on converging. A commander who has accepted that he may lose a battle to Napoleon can go on with the campaign regardless.",
+        evidence: "interpretation",
+        refs: [{ source: 2 }],
+        commanderSlug: "karl-philipp-schwarzenberg",
+        battleSlugs: ["dresden", "leipzig"],
+      },
+      cost: {
+        text: "Replacing veterans with mass was paid for by the young. Houdecek records the repeated levies of 1813, and that when desertion and insubordination spread Napoleon ordered corps commanders to shoot one man in ten. Britannica’s word for what became of the army of 1805 is that he wasted it.",
+        evidence: "fact",
+        refs: [{ source: 0 }, { source: 3 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "Your method is visible and has repeatedly beaten people who have every reason to study it.",
+          "Your own record gives you few failures to learn from.",
+        ],
+        failsWhen: [
+          "Your advantage depends on something rivals cannot copy, such as a resource they do not have.",
+          "You are still deliberately exploring alternatives while your current method works.",
+        ],
+        questions: [
+          "If a rival studied how you win, what would they conclude about how to beat you?",
+          "Who have you lost to in the past year, and what did you learn from it?",
+          "What are you spending on what might work next?",
+        ],
+      },
+      bearsOn:
+        "This is the plainest evidence that the problem got harder: enemies reorganised, adopted his methods and built a strategy around his habits. It is not the whole answer. His own army was also weakening, by his own use of it, and Wellington’s remark, though late and interested, suggests that some of the failure to adapt lay in the man.",
+      questions: [
+        {
+          prompt: "What did the allied plan of 1813 aim to do?",
+          choices: [
+            "Attack Napoleon wherever he appeared.",
+            "Avoid battle where he commanded and defeat his lieutenants.",
+            "Force him to fight only at sea.",
+          ],
+          answer: 1,
+          explanation:
+            "It aimed at the weakest part of his system, and it did not require any allied general to beat him in person.",
+        },
+        {
+          prompt: "What had Archduke Charles done with the Austrian army?",
+          choices: [
+            "Discarded the old system and adopted French organisation and tactics.",
+            "Disbanded it and relied on the Russians.",
+            "Kept its old methods unchanged.",
+          ],
+          answer: 0,
+          explanation:
+            "It defeated Napoleon at Aspern-Essling in 1809, though it lost at Wagram.",
+        },
+        {
+          prompt:
+            "What does Levinthal and March’s theory say organisations tend to overlook?",
+          choices: [
+            "Only their competitors.",
+            "Their own finances.",
+            "Distant times, distant places and failures.",
+          ],
+          answer: 2,
+          explanation:
+            "A habitual winner has few failures to learn from, which is why the lesson uses this theory by analogy.",
+        },
+      ],
+      sourceCheck: {
+        question: "Who should be credited with the strategy of 1813?",
+        witnesses: [
+          {
+            label: "François Houdecek",
+            claim:
+              "The allies drew up the plan at Trachenberg, following the advice of Bernadotte, Moreau and Jomini.",
+          },
+          {
+            label: "Baron von Müffling",
+            claim:
+              "Bernadotte played an important part at Trachenberg; Moreau and Jomini were appointed advisers after the truce ended.",
+          },
+        ],
+        prompt: "What should a reader do with this difference?",
+        options: [
+          {
+            text: "Accept Houdecek, since he is working from the documents.",
+            feedback:
+              "His access counts, but Müffling was on the allied side at the time, and his chronology raises a real question.",
+          },
+          {
+            text: "Accept that Bernadotte’s part is agreed, and that the timing of Moreau’s and Jomini’s influence is less clear.",
+            feedback:
+              "That separates what the sources agree on from what they do not. It may also be that advice was given in more than one form.",
+            best: true,
+          },
+          {
+            text: "Conclude that nobody knows anything about the plan.",
+            feedback:
+              "Both agree on what the plan was. The doubt concerns only who shaped it, and when.",
+          },
+        ],
+        battleSlug: "leipzig",
+      },
+      seminar: {
+        prompt:
+          "Choose a method your organisation relies on. Who has had the most reason to study it, and what will they have learned?",
+        guidance:
+          "Compare Prussia in 1806 and 1813. Look for who was forced to change, who was not, and what the winner stopped looking at.",
+      },
+      sources: [
+        s.collapse,
+        s.muffling,
+        s.autumn1813,
+        s.aspern,
+        s.archduke,
+        s.scharnhorst,
+        s.gneisenau,
+        s.forces,
+        s.stanhope,
+        s.levinthal,
+        s.jenaCampaign,
+        s.caulaincourt,
       ],
     },
     {

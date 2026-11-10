@@ -1171,3 +1171,11 @@ New to this batch: Marbot vol. 1, Bourgogne and Rémusat vol. 1 (Internet Archiv
 Gaps named in the evidence pass and their result. Keegan's _Mask of Command_ could not be read, so the contrast with Wellington rests on Stanhope and the Waterloo despatch. Goffman and Weick could not be read, so lesson 7 uses research on trust instead of impression management and sensemaking. Prussian promotion by merit now rests on two sources that state it directly, both of them reference works. Bourgogne's page numbers are unusable in the scan and he is cited without a locator.
 
 Sayings: "it is with toys that mankind is governed" is quoted from Thibaudeau, who opposed the measure. Napoleon's words at the Jaffa hospital are paraphrased from Ledoux-Lebard's French. Caulaincourt on the 29th Bulletin is paraphrased because his 1935 English edition may still be in copyright.
+
+## Leadership Lessons: batch L4, Building the instrument (9 November 2026)
+
+Four lessons: delegation, the headquarters, the bottleneck and rivals who learn. Every source listed for them was opened for this batch.
+
+New to this batch: Müffling and Houssaye's chapter on the command (Internet Archive, searched); the Neue Deutsche Biographie on Blücher (in German, paraphrased); Fondation Napoléon on the Polish campaign, Aspern-Essling, Berthier, Bacler d'Albe, Lejeune, Quatre Bras and Blücher in 1815 (raw text, French paraphrased); Britannica on the winter campaign of 1806–07, Aspern and Wagram, Lannes, Berthier and the Hundred Days (read in the built-in browser). Psychology, abstract only, through the OpenAlex record for each cited DOI: Lee, Willis and Tian 2017, Levinthal and March 1993.
+
+Gaps named in the evidence pass and their result. Van Creveld and Griffin remain unread, so lesson 9 makes no claim about a "directed telescope". The planned comparison with Wellington's own centralised staff found no read source and was dropped; lesson 9 uses Müffling's account of Blücher's headquarters instead. Lessons 9 and 10 state that no reliable psychological mechanism is offered: the overload reviews that could be opened give no usable finding, and nothing read supports a label for the marshals' dependence.

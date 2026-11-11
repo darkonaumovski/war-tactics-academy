@@ -5,7 +5,6 @@ import {
   lessonsForBattle,
   volumeForCommander,
 } from "../../data/leadership";
-import { serbianSupremeCommandVolume } from "../../data/leadership/radomir-putnik";
 import { battles, campaigns } from "../../data/catalog";
 import commanders from "../../data/commanders.json";
 import { leadershipVolumeSchema } from "../../lib/validation";
@@ -87,6 +86,7 @@ describe("leadership volumes", () => {
     expect(leadershipVolumes.map((x) => x.commanderSlug)).toEqual([
       "napoleon-bonaparte",
       "alexander-the-great",
+      "radomir-putnik",
     ]);
     for (const x of leadershipVolumes) {
       leadershipVolumeSchema.parse(x);
@@ -140,25 +140,21 @@ it("lists the Alexander lessons in curriculum order", () => {
 });
 
 describe("the Serbian Supreme Command volume, while it is being written", () => {
-  it("is valid, unlisted and names only known commanders, once each", () => {
-    leadershipVolumeSchema.parse(serbianSupremeCommandVolume);
-    const named = [
-      serbianSupremeCommandVolume.commanderSlug,
-      ...(serbianSupremeCommandVolume.alsoCommanderSlugs ?? []),
-    ];
-    for (const s of named)
-      expect(
-        commanders.some((c) => c.slug === s),
-        s,
-      ).toBe(true);
-    expect(new Set(named).size).toBe(named.length);
-    expect(leadershipVolumes).not.toContain(serbianSupremeCommandVolume);
-    expect(volumeForCommander("zivojin-misic")).toBeUndefined();
+  const volume = volumeForCommander("radomir-putnik");
+
+  it("is found from each of the commanders it names", () => {
+    for (const s of ["zivojin-misic", "stepa-stepanovic", "petar-bojovic"])
+      expect(volumeForCommander(s), s).toBe(volume);
+    expect(volumeForCommander("crown-prince-alexander")).toBeUndefined();
   });
 
-  it("is marked in progress and has no lessons yet", () => {
-    expect(serbianSupremeCommandVolume.inProgress).toBeTruthy();
-    expect(serbianSupremeCommandVolume.lessons).toEqual([]);
+  it("lists the lessons written so far in curriculum order", () => {
+    expect(volume?.inProgress).toBeTruthy();
+    expect(volume?.lessons.map((l) => l.slug)).toEqual([
+      "how-to-read-the-serbian-front",
+      "the-capital-or-the-army",
+      "the-retreat-that-kept-an-army",
+    ]);
   });
 });
 
@@ -219,14 +215,14 @@ describe("links from the rest of the site", () => {
   it("finds a shared volume from each commander it names", () => {
     const shared = {
       ...volume({}),
-      commanderSlug: "radomir-putnik",
-      alsoCommanderSlugs: ["zivojin-misic", "stepa-stepanovic"],
+      commanderSlug: "ferdinand-foch",
+      alsoCommanderSlugs: ["philippe-petain", "joseph-joffre"],
     };
     leadershipVolumes.push(shared);
     try {
-      expect(volumeForCommander("radomir-putnik")).toBe(shared);
-      expect(volumeForCommander("zivojin-misic")).toBe(shared);
-      expect(volumeForCommander("petar-bojovic")).toBeUndefined();
+      expect(volumeForCommander("ferdinand-foch")).toBe(shared);
+      expect(volumeForCommander("philippe-petain")).toBe(shared);
+      expect(volumeForCommander("august-von-mackensen")).toBeUndefined();
     } finally {
       leadershipVolumes.pop();
     }

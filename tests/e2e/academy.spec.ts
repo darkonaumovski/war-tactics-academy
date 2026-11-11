@@ -536,6 +536,28 @@ test("the Alexander volume is listed and linked across the site", async ({
     /\/leadership\/alexander-the-great\/the-river-they-would-not-cross\/$/,
   );
 });
+test("the Serbian Supreme Command volume is shared by its commanders", async ({
+  page,
+}) => {
+  await page.goto("/leadership/radomir-putnik");
+  await expect(
+    page.getByText(
+      "Did its commanders make Serbia’s endurance, or did they keep from wasting it?",
+    ),
+  ).toBeVisible();
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(4);
+  await page.goto("/commanders/zivojin-misic");
+  await expect(
+    page.getByRole("link", {
+      name: /Leadership Lessons from the Serbian Supreme Command/,
+    }),
+  ).toBeVisible();
+  await page.goto("/battles/kolubara");
+  await page.getByRole("link", { name: /The capital or the army/ }).click();
+  await expect(page).toHaveURL(
+    /\/leadership\/radomir-putnik\/the-capital-or-the-army\/$/,
+  );
+});
 test("extended learning paths are listed and their lessons persist progress", async ({
   page,
 }) => {
@@ -958,6 +980,9 @@ for (const route of [
   "/leadership/alexander-the-great/parmenions-advice",
   "/leadership/alexander-the-great/opis",
   "/leadership/alexander-the-great/the-ledger-of-conquest",
+  "/leadership/radomir-putnik",
+  "/leadership/radomir-putnik/how-to-read-the-serbian-front",
+  "/leadership/radomir-putnik/the-retreat-that-kept-an-army",
 ])
   test(`accessibility: ${route}`, async ({ page }) => {
     // axe takes 30 to 50 seconds on the 127-card catalog in every engine.

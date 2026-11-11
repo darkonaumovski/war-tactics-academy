@@ -152,7 +152,10 @@ describe("the Serbian Supreme Command volume, while it is being written", () => 
     expect(volume?.inProgress).toBeTruthy();
     expect(volume?.lessons.map((l) => l.slug)).toEqual([
       "how-to-read-the-serbian-front",
+      "where-will-the-blow-fall",
+      "when-allies-ask-you-to-attack",
       "the-capital-or-the-army",
+      "who-decided",
       "the-retreat-that-kept-an-army",
     ]);
   });
@@ -209,6 +212,9 @@ describe("links from the rest of the site", () => {
     expect(
       counterCaseLessons("radomir-putnik").map((x) => x.lesson.slug),
     ).toEqual(["when-the-leader-leaves"]);
+    expect(
+      counterCaseLessons("paul-von-hindenburg").map((x) => x.lesson.slug),
+    ).toEqual(["who-decided"]);
     expect(volumeForCommander("mikhail-kutuzov")).toBeUndefined();
   });
 

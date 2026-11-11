@@ -115,6 +115,46 @@ const s = {
     url: "https://doi.org/10.5465/amj.2007.26279183",
     publisher: "Academy of Management Journal",
   },
+  rauchensteiner176: {
+    title:
+      "Manfried Rauchensteiner, The First World War and the End of the Habsburg Monarchy, 1914–1918, p. 176",
+    url: "https://austria-forum.org/web-books/firstworldwar01en2014isds/000178",
+    publisher: "Böhlau Verlag, Austria-Forum web edition",
+  },
+  conrad: {
+    title: "Franz Graf Conrad von Hötzendorf",
+    url: "https://www.britannica.com/biography/Franz-Graf-Conrad-von-Hotzendorf",
+    publisher: britannica,
+  },
+  sasinci: {
+    title: "Thomas Lampersberger, Das Gefecht bei Šašinci, in German",
+    url: "https://milak.at/forschung/geschichte/das-gefecht-bei-sasinci",
+    publisher: "Theresian Military Academy, Wiener Neustadt",
+  },
+  foch: {
+    title: "Elizabeth Greenhalgh, “Foch, Ferdinand” (2015), PDF edition",
+    url: "https://encyclopedia.1914-1918-online.net/wp-content/uploads/2023/01/ams/958119/pdf/1914-1918-Online-foch_ferdinand-2015-11-18.pdf",
+    publisher: encyclopedia,
+  },
+  alexander: {
+    title: "Alexander I (king of Yugoslavia)",
+    url: "https://www.britannica.com/biography/Alexander-I-king-of-Yugoslavia",
+    publisher: britannica,
+  },
+  hindenburg: pdf(
+    "hindenburg-paul-von",
+    "Anna von der Goltz, “Hindenburg, Paul von” (2015), PDF edition",
+  ),
+  ludendorff: pdf(
+    "ludendorff-erich",
+    "Roger Chickering, “Ludendorff, Erich” (2017), PDF edition",
+  ),
+  dInnocenzo: {
+    title:
+      "Lauren D’Innocenzo, John E. Mathieu and Michael R. Kukenberger, A meta-analysis of different forms of shared leadership–team performance relations (2014), abstract",
+    url: "https://doi.org/10.1177/0149206314525205",
+    publisher: "Journal of Management",
+  },
 } satisfies Record<string, Source>;
 
 export const serbianSupremeCommandVolume: LeadershipVolume = {
@@ -381,6 +421,493 @@ export const serbianSupremeCommandVolume: LeadershipVolume = {
       ],
     },
     {
+      slug: "where-will-the-blow-fall",
+      title: "Where will the blow fall? Cer, 1914",
+      part: "Judgement, 1914",
+      themes: ["judgement", "adaptation"],
+      claim:
+        "When you cannot know where the main threat will come from, keeping your forces back until it shows itself can pay, but only if you will see it in time and can move faster than it develops.",
+      inBrief: {
+        strength:
+          "The Supreme Command waited for the invasion to show its direction, then sent the Second Army west to meet it at Cer.",
+        shadow:
+          "It had expected the blow from the north and was surprised; waiting gave up the frontier towns, and it worked against an enemy that had divided itself.",
+      },
+      moment: {
+        text: "The museums’ catalogue describes a plan built on waiting. The Serbian war plan against Austria-Hungary envisaged no action by the Serbian armies until the enemy’s invasion plan had shown itself. The main Austro-Hungarian forces were expected from the north and auxiliary troops from Bosnia, and the armies were placed accordingly: the First in central Šumadija, the Second between Aranđelovac and Lazarevac, the Third around Valjevo and the Jadar valley with outposts on the border, and the Užice Army in support of the Montenegrins. On the morning of 12 August two corps of the Austro-Hungarian Fifth Army crossed the Drina from Bosnia. Tasić says the attack came from that direction to Putnik’s surprise, and that it forced a huge redeployment of Serbian forces to the west. The same day, the catalogue records, the Second Army was ordered to move to the support of the Third.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "“The Battle of Cer”" }, { source: 1 }],
+      },
+      episodes: [
+        {
+          title: "The march west",
+          text: "The catalogue follows the Second Army’s divisions to the Cer ridge, where one of the invading corps was heading. Its cavalry cut the railway from Šabac to Lešnica, and a division was sent towards Šabac to stop help reaching the Austro-Hungarian Fifth Army. On the night of 15 to 16 August a Serbian regiment ran into the right wing of an invading division near Tekeriš and drove it back; the next day another division struck the Serbian flank and forced a withdrawal. The crisis was overcome, the catalogue says, by the arrival of the 1st Morava Division and by General Stepa Stepanović, the Second Army’s commander, intervening at the front line. Meanwhile the Third Army was forced back up the Jadar valley. After two more days of attack and counter-attack, on the night of 19 to 20 August, the Fifth Army withdrew across the Drina.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "“The Battle of Cer”" }],
+          battleSlugs: ["cer"],
+          campaignSlugs: ["serbian-campaign-of-1914"],
+        },
+        {
+          title: "An invader divided against itself",
+          text: "The threat from the north was real. Bjelajac writes that the Austro-Hungarian Second Army was deployed along the Sava and the Danube from 12 to 18 August, and the catalogue says its artillery shelled Belgrade, Obrenovac and Šabac, which was quickly taken. But that army was not committed to Serbia. Rauchensteiner says that on 6 August, the day Potiorek received the Balkan command, he was told the Second Army would go to the Russian theatre, and that he still wanted to use all three of his armies. On 18 August, the catalogue says, it was redirected east; Britannica says part of it was diverted that day, so that the invasion was launched with numerical inferiority. Bjelajac adds that the Sixth Army never developed a full-scale advance towards Užice.",
+          evidence: "fact",
+          refs: [
+            { source: 2 },
+            { source: 0, locator: "“The Battle of Cer”" },
+            { source: 4, locator: "p. 176" },
+            { source: 3 },
+          ],
+          battleSlugs: ["cer"],
+        },
+        {
+          title: "The second blow",
+          text: "In September the command expected the next blow where the first had fallen. The catalogue says Serbia expected a renewed offensive and sent the Second and Third Armies and a detachment under Colonel Mišić along the Drina near Ljubovija, with orders to repel any crossing and eventually attack. When the second invasion came over the Drina, the First Army was across the Sava in Syrmia on an offensive the next lesson examines, and it had to be called back. Tasić describes the Battle of the Drina that followed as a series of clashes with heavy losses on both sides, ending in stalemate and a short spell of trench warfare.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "“The Battle of Drina”" },
+            { source: 1 },
+          ],
+          battleSlugs: ["drina-1914", "syrmia-1914"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "The museums’ catalogue",
+          stake:
+            "Belgrade’s historical and military museums, describing the plan and the battle division by division.",
+          says: "The plan was to wait until the enemy’s intentions showed; the Second Army was ordered west on the day the invasion began.",
+          refs: [{ source: 0, locator: "“The Battle of Cer”" }],
+        },
+        {
+          who: "Dmitar Tasić",
+          stake:
+            "A Serbian military historian writing a survey of the whole South East European war.",
+          says: "The main attack came from Bosnia to Putnik’s surprise, and the redeployment it forced was huge.",
+          refs: [{ source: 1 }],
+        },
+        {
+          who: "Britannica",
+          stake: "A general history that names the commander-in-chief.",
+          says: "The able Serbian commander Putnik ended the first invasion early with his victories on Cer and at Šabac.",
+          refs: [{ source: 3 }],
+        },
+        {
+          who: "Mile Bjelajac",
+          stake: "A Serbian historian who credits the army’s formations.",
+          says: "The main Serbian force, its Second Army, stopped the invaders and pushed them back over the border.",
+          refs: [{ source: 2 }],
+        },
+        {
+          who: "Manfried Rauchensteiner",
+          stake:
+            "An Austrian historian, severe on the Habsburg command’s decisions.",
+          says: "Potiorek was told on 6 August that the Second Army would go to Russia, and still wanted all three armies.",
+          refs: [{ source: 4, locator: "p. 176" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, the Supreme Command in early August did not know whether the main blow would cross the Sava and the Danube, where it expected it, or the Drina. Its answer was to trade the first move for information. That works only under two conditions: the armies must stand far enough back to reach either front, and someone at the border must report early. The catalogue’s dispositions meet both, with the armies in the interior and outposts on the frontier. The expectation was wrong; the deployment allowed the command to recover from being wrong, which is the idea the Napoleon volume calls planning for being wrong. The exercise Where will the blow fall? puts the reader at the moment the Drina crossing was reported.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "“The Battle of Cer”" }, { source: 1 }],
+        },
+        {
+          text: "Waiting found an enemy that had split itself. One Habsburg army had stood on the Sava and then left for Russia; another never pressed its advance. Against a concentrated invader the same plan might have produced a battle at worse odds. The credit for the march west is also shared out differently by each witness: Britannica gives Cer to Putnik, Bjelajac to the Second Army, the catalogue to its divisions and to Stepanović at the front line. No source read says Stepanović acted on his own initiative, and this lesson does not claim it.",
+          evidence: "interpretation",
+          refs: [
+            { source: 2 },
+            { source: 4, locator: "p. 176" },
+            { source: 3 },
+            { source: 0, locator: "“The Battle of Cer”" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "The research on decisions under uncertainty is large, but no study read for this volume tests what waiting for information does to a command in war. The lesson leaves the question to the historian and the strategist.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No psychological source is offered, and the lesson draws no psychological conclusion.",
+        },
+      ],
+      shadow: {
+        text: "A plan that waits for the enemy to show himself lets him show himself on someone’s doorstep. Šabac was taken quickly, and Tasić records that Austro-Hungarian troops committed atrocities against Serbian civilians in the town and across western Serbia as they advanced. The surprise Tasić describes also cost marching time the army could not spare. Waiting kept the army’s choices open; the people of the frontier paid for that choice before the army arrived.",
+        evidence: "interpretation",
+        refs: [{ source: 1 }, { source: 0, locator: "“The Battle of Cer”" }],
+      },
+      counterCase: {
+        text: "Conrad, the Habsburg chief of staff, also had a plan for not knowing. Britannica says he devised two: if Russia stayed neutral, preponderant forces would go against Serbia; if Russia came in, Austria would concentrate on that front. The Second Army, which the catalogue calls the manoeuvre force, was the swing between them. It was deployed against Serbia; Potiorek was told on 6 August that it would go to Russia; it shelled the Serbian border in the meantime and was redirected on 18 August. Britannica counts the late redeployment of the strategic reserve among the reasons Conrad’s offensives against Russia were repulsed, and says his invasion of Serbia failed because most of his troops faced Russia. Holding a reserve between two fronts was the Serbian idea too. It fails when the decision on where to send it comes late and is half carried out.",
+        evidence: "interpretation",
+        refs: [
+          { source: 5 },
+          { source: 4, locator: "p. 176" },
+          { source: 0, locator: "“The Battle of Cer”" },
+        ],
+        commanderSlug: "franz-conrad-von-hotzendorf",
+        battleSlugs: ["cer"],
+      },
+      cost: {
+        text: "Tasić says the invaders were repelled at Cer with heavy losses, especially among officers and NCOs, and that the Serbian losses, though smaller, were devastating because they could not be replaced. Civilians in Šabac and western Serbia suffered the invasion’s atrocities. The sources’ figures are not used here.",
+        evidence: "fact",
+        refs: [{ source: 1 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "You can keep your resources where they can reach any of the likely problems, and someone will tell you early which one has arrived.",
+          "Acting first on a guess would commit you to the wrong place, and moving later costs less than being wrong.",
+        ],
+        failsWhen: [
+          "Waiting becomes a way of avoiding a decision after the threat has shown itself.",
+          "The people or parts of the organisation nearest the threat are left exposed while you wait, and no one says so.",
+        ],
+        questions: [
+          "Where do you expect your next serious problem to come from, and what would you do if it came from somewhere else?",
+          "Who is your outpost: who would see it first, and would they tell you in time?",
+          "What would waiting cost the people nearest the threat?",
+        ],
+      },
+      bearsOn:
+        "Cer supports the answer that the commanders kept Serbia’s endurance from being wasted: they did not spend the army on a guess and moved it once the guess was proved wrong. It also shows how much depended on the enemy dividing itself. On who decided, the witnesses name Putnik, the Second Army and Stepanović; the catalogue records only that the Second Army was ordered west on the first day.",
+      questions: [
+        {
+          prompt:
+            "According to the museums’ catalogue, what did the Serbian war plan of 1914 envisage?",
+          choices: [
+            "An immediate invasion of Bosnia.",
+            "No action by the Serbian armies until the enemy’s invasion plan had shown itself.",
+            "Holding every border crossing in strength.",
+          ],
+          answer: 1,
+          explanation:
+            "The armies were held in the interior, with outposts on the border, so that they could move once the direction of attack was known.",
+        },
+        {
+          prompt:
+            "Where did the Supreme Command expect the main attack to come from?",
+          choices: [
+            "From the north, across the Sava and the Danube.",
+            "From Bulgaria.",
+            "From the Adriatic.",
+          ],
+          answer: 0,
+          explanation:
+            "It came from Bosnia across the Drina, which Tasić says surprised Putnik and forced a huge redeployment.",
+        },
+        {
+          prompt:
+            "What happened to the Austro-Hungarian Second Army in August 1914?",
+          choices: [
+            "It led the invasion across the Drina.",
+            "It stood on the Sava and Danube, shelled Serbian towns, and was redirected towards Russia on 18 August.",
+            "It was destroyed at Cer.",
+          ],
+          answer: 1,
+          explanation:
+            "Rauchensteiner says Potiorek was told on 6 August that it would leave; the invasion went ahead without its full weight.",
+        },
+      ],
+      sourceCheck: {
+        question: "Who won the Battle of Cer?",
+        witnesses: [
+          {
+            label: "Britannica",
+            claim:
+              "Putnik ended the invasion with his victories on Cer and at Šabac.",
+          },
+          {
+            label: "Mile Bjelajac",
+            claim:
+              "The main Serbian force, its Second Army, stopped the invaders.",
+          },
+          {
+            label: "The museums’ catalogue",
+            claim:
+              "The Second Army’s divisions fought the battle, and Stepanović’s intervention at the front line helped overcome its crisis.",
+          },
+        ],
+        prompt: "How should a reader combine these?",
+        options: [
+          {
+            text: "Credit Stepanović, who acted on his own and saved the battle.",
+            feedback:
+              "No source read says he acted on his own initiative. The catalogue places him at the front line during a crisis, commanding an army that had been ordered west.",
+          },
+          {
+            text: "Credit the command that ordered the march west, the Second Army for the fighting, and Stepanović for his part in a crisis.",
+            feedback:
+              "Each witness describes a different level of the same battle, and none contradicts the others.",
+            best: true,
+          },
+          {
+            text: "Credit Putnik alone, since a general history names him.",
+            feedback:
+              "General histories credit the commander-in-chief with a whole battle; that tells you who was responsible, not who did what.",
+          },
+        ],
+        battleSlug: "cer",
+      },
+      seminar: {
+        prompt:
+          "The Supreme Command guessed wrong about the direction of attack and still won. Was the plan good, or was the enemy bad?",
+        guidance:
+          "Separate what the plan made possible, the march west, from what the enemy gave away, the Second Army’s departure. Then ask what the same plan would have done against a concentrated invasion.",
+      },
+      sources: [
+        s.catalogue,
+        s.tasic,
+        s.bjelajac,
+        s.campaign1914,
+        s.rauchensteiner176,
+        s.conrad,
+      ],
+    },
+    {
+      slug: "when-allies-ask-you-to-attack",
+      title: "When allies ask you to attack: Syrmia, 1914, and Bulgaria, 1915",
+      part: "Judgement, 1914",
+      themes: ["judgement", "restraint"],
+      claim:
+        "When a stronger ally presses a weaker one to attack for the coalition’s sake, agreeing may keep the alliance, but the weaker partner pays first unless its limits are stated and heard.",
+      inBrief: {
+        strength:
+          "After Cer, Serbia agreed to its allies’ demands and crossed the Sava to draw enemy forces away from the Russians.",
+        shadow:
+          "The offensive was poorly prepared and was broken off when the enemy invaded again; in 1915 the same allies vetoed the attack Serbia wanted.",
+      },
+      moment: {
+        text: "After Cer, Bjelajac writes, the Allies overestimated what the Serbian army could do. It was still waiting for promised rifles, artillery ammunition, horses, tents and enough pontoons for floating bridges, yet they firmly insisted on an offensive across its borders. Reluctantly, the Serbs agreed: the First Army and part of the Second crossed the Sava, and the Užice Army, with the Montenegrins, crossed the upper Drina towards Sarajevo. The museums’ catalogue says the same in a sentence: under pressure from its allies, Serbia attacked across the Sava into Syrmia to relieve the Russians in Galicia, beginning on the night of 5 to 6 September. Tasić notes that drawing Habsburg forces away from Russia had been part of the Serbian and Montenegrin war plan from the start.",
+        evidence: "fact",
+        refs: [
+          { source: 0 },
+          { source: 1, locator: "“The Battle of Drina”" },
+          { source: 3 },
+        ],
+      },
+      episodes: [
+        {
+          title: "Šašinci",
+          text: "An article by Colonel Thomas Lampersberger of the Theresian Military Academy reconstructs one crossing in detail. The Serbian command planned its offensive, he writes, partly because of Russia’s urging. The Timok Division was ordered over the Sava between Mitrovica and Jarak, and he calls the attack poorly prepared: no crossing point had been scouted, the division had a long march to the river, its bridging equipment was only partly usable, and it knew little about the enemy division opposite. Delays pushed the crossing into daylight, and missing bridge material slowed the work. That night an Austro-Hungarian battalion took a Serbian gun position and turned the guns on the bridge, which collapsed under retreating troops; the men cut off on the north bank surrendered. The division, he adds, was not destroyed and was soon back in action.",
+          evidence: "fact",
+          refs: [{ source: 2 }],
+          battleSlugs: ["syrmia-1914"],
+          campaignSlugs: ["serbian-campaign-of-1914"],
+        },
+        {
+          title: "Broken off",
+          text: "Further east the First Army advanced. The catalogue says its units reached a line north of the Sava by 11 September, but the offensive was aborted when Austria-Hungary attacked again across the Drina, and the First Army had to be brought back to the region of Ljubovija. Britannica says the same: the northward offensive had to be broken off when the Austrians began their second offensive. The attack meant to help an ally was ended by the danger at home that the first battle had not removed.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "“The Battle of Drina”" },
+            { source: 4 },
+          ],
+          battleSlugs: ["syrmia-1914", "drina-1914"],
+        },
+        {
+          title: "Towards Sarajevo",
+          text: "To the south, Tasić writes, the Montenegrin army and a strong Serbian corps attacked in mid-September into the Sanjak and eastern Bosnia, took Pljevlja and Višegrad and reached Pale near Sarajevo. That forced the Habsburg command to redeploy troops and counter-attack in October, and after the battle at Glasinac the combined Serbian and Montenegrin units withdrew across the Drina. Bjelajac’s verdict on the same advance is brief: it pursued the enemy towards Sarajevo, but not for long.",
+          evidence: "fact",
+          refs: [{ source: 3 }, { source: 0 }],
+          battleSlugs: ["romanija-1914"],
+        },
+        {
+          title: "The attack they forbade",
+          text: "In 1915 the roles reversed. Hall explains that both coalitions were bidding for Bulgaria, which wanted Macedonia; Serbia would not give up its prize from the Balkan Wars, so the Entente could promise Bulgaria only part of it after the war, while the Central Powers could offer it at once. When Bulgaria joined the Central Powers in September, Tasić writes, Serbia proposed a pre-emptive strike before Bulgarian mobilisation was complete, and the western Allies strongly opposed it. Serbia did defy its allies once that year: Bjelajac records that in June its government sent troops into Albania despite their advice and even threats.",
+          evidence: "fact",
+          refs: [{ source: 5 }, { source: 3 }, { source: 0 }],
+          battleSlugs: ["invasion-of-serbia-1915"],
+          campaignSlugs: ["serbian-campaign-of-1915"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Mile Bjelajac",
+          stake:
+            "A Serbian historian who stresses what the Allies asked of Serbia and what they failed to supply.",
+          says: "The Allies overestimated the army and firmly insisted on an offensive; the Serbs agreed reluctantly.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "The museums’ catalogue",
+          stake: "Belgrade’s museums, narrating the campaign as a whole.",
+          says: "Serbia attacked into Syrmia under pressure from its allies, to relieve the Russians in Galicia.",
+          refs: [{ source: 1, locator: "“The Battle of Drina”" }],
+        },
+        {
+          who: "Thomas Lampersberger",
+          stake:
+            "An officer of the Austrian military academy, describing a local victory of his own army’s predecessors.",
+          says: "The Serbian command planned the offensive partly at Russia’s urging; the crossing at Šašinci was poorly prepared.",
+          refs: [{ source: 2 }],
+        },
+        {
+          who: "Dmitar Tasić",
+          stake: "A Serbian military historian.",
+          says: "In 1915 Serbia proposed striking Bulgaria before it finished mobilising, and the western Allies strongly opposed it.",
+          refs: [{ source: 3 }],
+        },
+        {
+          who: "Richard C. Hall",
+          stake:
+            "An American historian of the Balkan wars, outside the national traditions.",
+          says: "Serbia would not concede Macedonia, so the Entente could not meet Bulgaria’s price and the Central Powers could.",
+          refs: [{ source: 5 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, the allies’ request had a logic. Serbia’s survival depended on Russia not being beaten in Galicia, and its own war plan had aimed to tie down Habsburg forces. An attack across the Sava could do that. Against it stood everything Bjelajac lists as missing and everything Lampersberger says the crossing lacked: reconnaissance, bridging and knowledge of the enemy. The question for the weaker partner was not whether to help, but whether this help was within its means, and whether it said so in terms the ally would hear. The sources read record reluctance; they do not show what Serbia told its allies about its limits.",
+          evidence: "interpretation",
+          refs: [{ source: 3 }, { source: 0 }, { source: 2 }],
+        },
+        {
+          text: "In 1915 Serbia had the local knowledge, a neighbour mobilising on its border, and the Allies had the diplomatic hope that Bulgaria could still be won. A Serbian strike would have ended that hope; restraint left Bulgaria free to finish mobilising. With hindsight the veto looks like the worse choice. At the time it followed from a policy Serbia itself made hard to carry out, since it would not give up the territory Bulgaria wanted. The weaker ally was overruled in both years, once into attacking and once out of it.",
+          evidence: "interpretation",
+          refs: [{ source: 5 }, { source: 3 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "This is a strategist’s lesson about coalitions. No psychological research read for this volume speaks to how a small state’s command weighs an ally’s demand, and the lesson does not borrow a finding from elsewhere.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No psychological source is offered, and the lesson draws no psychological conclusion.",
+        },
+      ],
+      shadow: {
+        text: "Reluctance that does not change the plan is not a limit. The Syrmian offensive cost men taken prisoner at Šašinci, and it had the First Army on the wrong side of the Sava when the second invasion came over the Drina. The weaker partner bore the cost of the help it gave, and the danger at home it had been asked to set aside came back at once.",
+        evidence: "interpretation",
+        refs: [{ source: 2 }, { source: 1, locator: "“The Battle of Drina”" }],
+      },
+      counterCase: {
+        text: "Coalition demands can be handled differently. Greenhalgh writes that at the first Battle of Ypres in 1914, without any formal authority, Foch coordinated the Belgian, British and French forces so energetically that it ensured his acceptance as Allied supreme commander in the crisis of March 1918. Then, as the German offensives struck, all he could do was exhort and refuse to relieve front-line troops unless absolutely necessary, until in July he seized the moment to counter-attack. The contrast is between a coalition commander who could see the whole front and choose when to spend its forces, and allies who pressed a small army from far away. It is not flattering to Foch alone: Greenhalgh also says he spent 1915 and 1916 in unsuccessful attacks and was sacked after the Somme.",
+        evidence: "interpretation",
+        refs: [{ source: 6 }],
+        commanderSlug: "ferdinand-foch",
+        battleSlugs: ["first-ypres"],
+      },
+      cost: {
+        text: "The offensives of September cost the Serbian and Montenegrin armies men they could not replace: prisoners on the Sava, and the fighting in eastern Bosnia that ended in withdrawal after Glasinac. The sources’ figures are not used here.",
+        evidence: "fact",
+        refs: [{ source: 2 }, { source: 3 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "A larger partner asks you to take on work for a shared goal that you also need to succeed.",
+          "You can state, in writing and before you agree, what you lack to do it well.",
+        ],
+        failsWhen: [
+          "Reluctance is expressed but the plan goes ahead unchanged, and the cost falls on your own people.",
+          "You assume the partner who vetoes your idea sees less than you do; they may be weighing something you are not.",
+        ],
+        questions: [
+          "When a stronger partner asks you to act, what do you tell them about your limits, and how?",
+          "What would you have to stop doing at home to do what they ask?",
+          "When were you last overruled by a partner, and what were they protecting?",
+        ],
+      },
+      bearsOn:
+        "This lesson complicates the volume’s first question. In 1914 the commanders spent part of Serbia’s endurance on an offensive they doubted, under allied pressure; in 1915 they were refused the attack they thought would save it. On who decided, the sources name the Allies, Russia and the Serbian command, and agree that the decision was not Serbia’s alone.",
+      questions: [
+        {
+          prompt:
+            "According to Bjelajac, how did the Serbs respond to the Allies’ insistence on an offensive across the borders in 1914?",
+          choices: [
+            "They refused.",
+            "They agreed reluctantly and crossed the Sava and the upper Drina.",
+            "They demanded Allied troops first.",
+          ],
+          answer: 1,
+          explanation:
+            "The army was still waiting for promised rifles, ammunition and bridging equipment.",
+        },
+        {
+          prompt:
+            "What ended the Serbian offensive into Syrmia, according to the catalogue and Britannica?",
+          choices: [
+            "Winter.",
+            "A new Austro-Hungarian offensive across the Drina.",
+            "An order from Russia.",
+          ],
+          answer: 1,
+          explanation:
+            "The First Army had to be brought back to meet the second invasion.",
+        },
+        {
+          prompt:
+            "What did the western Allies do when Serbia proposed striking Bulgaria in 1915?",
+          choices: [
+            "They supported it with troops.",
+            "They strongly opposed it.",
+            "They ignored it.",
+          ],
+          answer: 1,
+          explanation:
+            "They still hoped to win Bulgaria, which Serbia’s refusal to concede Macedonia made unlikely.",
+        },
+      ],
+      sourceCheck: {
+        question: "Who pushed Serbia across the Sava in September 1914?",
+        witnesses: [
+          {
+            label: "Mile Bjelajac",
+            claim:
+              "The Allies firmly insisted on an offensive, and the Serbs agreed reluctantly.",
+          },
+          {
+            label: "The museums’ catalogue",
+            claim:
+              "Serbia attacked under pressure from its allies, to relieve the Russians in Galicia.",
+          },
+          {
+            label: "Thomas Lampersberger",
+            claim:
+              "The Serbian command planned the offensive, partly because of Russia’s urging.",
+          },
+        ],
+        prompt: "What can a historian safely say?",
+        options: [
+          {
+            text: "That Serbia was forced to attack against its will.",
+            feedback:
+              "The sources describe pressure and reluctance, and also a Serbian plan; none says the decision was taken out of Serbian hands.",
+          },
+          {
+            text: "That the Serbian command planned and accepted the offensive under pressure from its allies, chiefly Russia, and that the witnesses weigh the pressure differently.",
+            feedback:
+              "All three agree on the pressure and the Serbian decision; they differ in emphasis, as their standpoints would predict.",
+            best: true,
+          },
+          {
+            text: "That the offensive was Serbia’s own idea, since a Serbian command planned it.",
+            feedback:
+              "Planning an operation is not the same as choosing it freely. Every witness mentions the allies.",
+          },
+        ],
+        battleSlug: "syrmia-1914",
+      },
+      seminar: {
+        prompt:
+          "In 1914 Serbia attacked when its allies asked; in 1915 it held back when they forbade. In which year was its command more right to give way?",
+        guidance:
+          "Ask what each side knew: the allies about Russia and Bulgaria, Serbia about its own army and its border. Then ask what Serbia could have said or refused, and what that would have cost the alliance.",
+      },
+      sources: [
+        s.bjelajac,
+        s.catalogue,
+        s.sasinci,
+        s.tasic,
+        s.campaign1914,
+        s.hall,
+        s.foch,
+      ],
+    },
+    {
       slug: "the-capital-or-the-army",
       title: "The capital or the army: Kolubara, 1914",
       part: "Judgement, 1914",
@@ -631,6 +1158,245 @@ export const serbianSupremeCommandVolume: LeadershipVolume = {
       ],
     },
     {
+      slug: "who-decided",
+      title: "Who decided? A shared command",
+      part: "Sharing command",
+      themes: ["organisation", "succession"],
+      claim:
+        "When authority is shared among several people, the arrangement can hold while they agree on the aim, but responsibility becomes hard to locate, and that ambiguity can later be used against any of them.",
+      inBrief: {
+        strength:
+          "A chief of staff in poor health, a prince regent, a prime minister and strong army commanders fought 1914 without an open break.",
+        shadow:
+          "The record often cannot say who decided, and in 1917 the regent removed a rival centre of power through a trial Britannica calls dubious.",
+      },
+      moment: {
+        text: "When the war began, Britannica says, Radomir Putnik, Serbia’s chief of staff, was in Austria; he was escorted to Romania and, in poor health, resumed the post of commander-in-chief. A different Britannica article says that Prince Alexander had been appointed regent by the ailing King Peter on 24 June 1914, four days before Sarajevo, and served through the war as commander-in-chief of Serbia’s armed forces. The two articles give the same title to two men. The museums’ catalogue speaks of neither, but of the Serbian Supreme Command, which ordered the withdrawal at Kolubara and decided the counter-offensive. Behind all three stood the government of Nikola Pašić, which Bjelajac shows seeking loans and arms in Russia and France months before the war.",
+        evidence: "fact",
+        refs: [
+          { source: 0 },
+          { source: 1 },
+          { source: 3, locator: "“The Battle of Kolubara”" },
+          { source: 2 },
+        ],
+      },
+      episodes: [
+        {
+          title: "A report to the minister",
+          text: "One of Bjelajac’s notes shows the chain at work. On 4 November 1914, two days before the third invasion began, Putnik reported to the minister of war how few shells remained for each type of gun. The chief of staff could count the shortage; only the government could fill it, by finding arms abroad. Bjelajac records that Russia turned down Pašić’s requests for arms in January, in April and again during the July crisis, and sent rifles and some shells only in September, while little of what was bought in France arrived before the war. Operations and supply were in different hands, and the army’s situation depended on both.",
+          evidence: "fact",
+          refs: [{ source: 2, locator: "note 46" }],
+          battleSlugs: ["drina-1914", "kolubara"],
+        },
+        {
+          title: "The government decides",
+          text: "Some of the war’s most important decisions were the government’s. Bjelajac writes that in June 1915, worried by Austro-Hungarian efforts to stir up an Albanian rising behind its lines, the Serbian government decided to support Essad Pasha Toptani and sent troops to occupy communications along the Drin and the towns of Elbasan and Tirana, in spite of advice against it and even some threats from the Allies. Six months later that move helped the army retreat through Albania. In November 1915 it was the High Command that ordered the retreat itself. The sources name the government, the High Command or simply Serbia, and rarely say how one reached the other.",
+          evidence: "fact",
+          refs: [{ source: 2 }],
+          battleSlugs: ["serbian-retreat-1915"],
+        },
+        {
+          title: "Army commanders with their own names",
+          text: "Below the Supreme Command stood army commanders who became national figures. The catalogue places Stepanović at the front line at Cer and describes Mišić’s First Army breaking through at Kolubara; Serbia’s Ministry of Defence says the counter-offensive at Kolubara was decided on Mišić’s suggestion. A chief who is ill and far from the front depends on commanders like these, and the record of 1914 gives each of them a share of the credit.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 3,
+              locator: "“The Battle of Cer”, “The Battle of Kolubara”",
+            },
+            { source: 5 },
+          ],
+          battleSlugs: ["cer", "kolubara"],
+        },
+        {
+          title: "A rival inside the army",
+          text: "There was also a power the formal chain did not show. Britannica describes the Black Hand, a secret society led by Colonel Dragutin Dimitrijević whose members were mostly army officers, as dominating the army and wielding tremendous influence over the government by terrorising officials, until its authority challenged the government’s own. To remove that rival, it says, Prince Alexander, as commander-in-chief of the army in exile, brought its leaders to trial at Salonika in 1917 on dubious charges. Bjelajac notes that Dimitrijević’s own statements at that trial are still argued over.",
+          evidence: "fact",
+          refs: [{ source: 4 }, { source: 2 }],
+          battleSlugs: [],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Britannica, on Putnik",
+          stake: "A short biography of the chief of staff.",
+          says: "Putnik, in poor health, resumed the post of commander-in-chief and routed the Austrians on Cer and the Kolubara.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "Britannica, on Alexander",
+          stake: "A short biography of the future king.",
+          says: "The regent served as commander-in-chief of Serbia’s armed forces throughout the war.",
+          refs: [{ source: 1 }],
+        },
+        {
+          who: "The museums’ catalogue",
+          stake:
+            "Belgrade’s historical and military museums, telling the war as the army’s collective effort.",
+          says: "The Serbian Supreme Command ordered the withdrawal and decided the counter-offensive at Kolubara.",
+          refs: [{ source: 3, locator: "“The Battle of Kolubara”" }],
+        },
+        {
+          who: "Mile Bjelajac",
+          stake:
+            "A Serbian historian who writes about the government and the army together.",
+          says: "The government decided the Albanian operation of 1915 against Allied advice; the High Command ordered the retreat.",
+          refs: [{ source: 2 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, a divided command had uses. The chief of staff, with the Balkan Wars behind him, directed operations; the regent lent the dynasty’s authority to the army; the government dealt with allies and supply; and army commanders with their own standing could act in their sectors. When these people agreed, as they appear to have done on waiting in August, giving up Belgrade in November and retreating in 1915, the arrangement held. The sources read do not show how they settled disagreements, or how Putnik, Pašić and the regent divided decisions in 1915, and this lesson does not fill that gap by guessing.",
+          evidence: "interpretation",
+          refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+        },
+        {
+          text: "The test of a shared command comes with failure, when someone must answer for it. In 1914 the credit was shared generously, among Putnik, Mišić, Stepanović and the Supreme Command. After 1915 the arrangement was rebuilt: Britannica says Putnik was relieved of command and retired to Nice, and the Black Hand’s leaders were tried. A later lesson in this volume follows what happened next.",
+          evidence: "interpretation",
+          refs: [{ source: 0 }, { source: 4 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Shared leadership and task complexity",
+          base: "meta-analysis",
+          text: "D’Innocenzo, Mathieu and Kukenberger pooled fifty effect sizes and found a positive relationship between shared leadership and team performance. The effect depended on how shared leadership was measured, and it was lower for more complex tasks. If that pattern applies at all to a national command, it suggests why a shared arrangement could work in the clear choices of 1914 and come under strain in the tangled ones of 1915, when diplomacy, supply and retreat all pressed at once.",
+          evidence: "interpretation",
+          refs: [{ source: 6 }],
+          limit:
+            "Only the abstract was read. The studies concern work and classroom teams, where shared leadership means influence spread among members, not formal authority divided between a court, a government and a general staff.",
+        },
+      ],
+      shadow: {
+        text: "Ambiguity about who decides can be ended by force. Britannica says the regent used his place as commander-in-chief to bring the Black Hand’s leaders to trial on dubious charges, in order to eliminate a rival. The same uncertainty that let 1914’s successes be shared among several men let 1917’s settling of accounts be presented as justice. A shared command that never says who decides leaves the answer to whoever is strongest when it matters.",
+        evidence: "interpretation",
+        refs: [{ source: 4 }],
+      },
+      counterCase: {
+        text: "Germany’s most famous partnership shows the same problem from the other side. Von der Goltz writes that Hindenburg was recalled in August 1914 not for strategic brilliance but as a calm figurehead to back the younger Ludendorff, and was credited with the victory at Tannenberg all the same. Chickering writes that Ludendorff endorsed the plans of the Eighth Army’s staff, and that he and Hindenburg took full credit; he also warns that the picture of Hindenburg as a mere front is overdrawn, since Ludendorff’s power was inconceivable without Hindenburg’s. When the war was lost in 1918, von der Goltz adds, Ludendorff was assigned the blame and Hindenburg’s myth survived. A shared command decides who receives credit and blame as well as how to fight.",
+        evidence: "interpretation",
+        refs: [{ source: 7 }, { source: 8 }],
+        commanderSlug: "paul-von-hindenburg",
+        battleSlugs: ["tannenberg"],
+      },
+      cost: {
+        text: "The shortages that the chief of staff reported and the government could not fill in time were paid for by soldiers at the front. The Salonika trial ended with executions and imprisonments that Britannica attributes to a struggle for power; the sources read differ on its details, and no figures are used here.",
+        evidence: "fact",
+        refs: [{ source: 2, locator: "note 46" }, { source: 4 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "Authority is spread across several people who each hold something the others need: legitimacy, expertise, resources or the trust of the front line.",
+          "They agree on the aim and the choices are clear enough to agree on.",
+        ],
+        failsWhen: [
+          "No one has said who decides when the partners disagree, and the question is settled later by whoever is strongest.",
+          "Credit is shared in success and blame is pushed onto one person in failure.",
+        ],
+        questions: [
+          "In your organisation, who decides when the people who share authority disagree?",
+          "Could someone outside reconstruct who made your last major decision?",
+          "Who would be blamed if it failed, and is that the person who made it?",
+        ],
+      },
+      bearsOn:
+        "This lesson is the volume’s second question asked directly. The sources give the title of commander-in-chief to two men, the decisions of 1914 to a collective Supreme Command, those of 1915 to the government and the High Command, and the credit to whoever a given tradition prefers. On the first question it suggests that keeping Serbia’s endurance from being wasted was the work of several hands, and that the arrangement was rebuilt, not trusted, after it failed.",
+      questions: [
+        {
+          prompt:
+            "What do Britannica’s articles on Putnik and on Prince Alexander both say about the role of commander-in-chief?",
+          choices: [
+            "That neither man held it.",
+            "Each gives the title to its own subject: Putnik resumed it, and the regent served as commander-in-chief throughout the war.",
+            "That King Peter held it throughout.",
+          ],
+          answer: 1,
+          explanation:
+            "Two short biographies, each centred on its subject, describe one command from two places.",
+        },
+        {
+          prompt:
+            "Who decided to send Serbian troops into Albania in June 1915, according to Bjelajac?",
+          choices: [
+            "The Allies.",
+            "The Serbian government, in spite of Allied advice and threats.",
+            "Putnik alone.",
+          ],
+          answer: 1,
+          explanation:
+            "The move later helped the army retreat through Albania.",
+        },
+        {
+          prompt:
+            "What did D’Innocenzo and colleagues find about shared leadership and task complexity?",
+          choices: [
+            "Shared leadership always harms performance.",
+            "The positive link between shared leadership and performance was weaker for more complex tasks.",
+            "Task complexity made no difference.",
+          ],
+          answer: 1,
+          explanation:
+            "The finding comes from work and classroom teams, so it is suggestive here, not proof.",
+        },
+      ],
+      sourceCheck: {
+        question: "Who commanded the Serbian army in 1914?",
+        witnesses: [
+          {
+            label: "Britannica, on Putnik",
+            claim: "Putnik resumed the post of commander-in-chief.",
+          },
+          {
+            label: "Britannica, on Alexander",
+            claim:
+              "The regent served as commander-in-chief of Serbia’s armed forces throughout the war.",
+          },
+          {
+            label: "The museums’ catalogue",
+            claim:
+              "The Serbian Supreme Command ordered the army’s moves and decided its counter-offensives.",
+          },
+        ],
+        prompt: "What can a careful reader say?",
+        options: [
+          {
+            text: "The regent, since he held the supreme title.",
+            feedback:
+              "Britannica gives him the title; no source read shows him directing the operations of 1914.",
+          },
+          {
+            text: "Putnik, since he won the battles.",
+            feedback:
+              "Britannica credits him with the victories, as biographies of commanders usually do; the catalogue speaks of a collective command.",
+          },
+          {
+            text: "That the regent held the title, Putnik directed the Supreme Command as chief of staff, and the sources read do not show how they divided decisions.",
+            feedback:
+              "This keeps what each witness says and marks the gap honestly.",
+            best: true,
+          },
+        ],
+        battleSlug: "cer",
+      },
+      seminar: {
+        prompt:
+          "Draw the Serbian command of 1914 as an organisation chart from the sources in this lesson. Where would you put the regent, Putnik, Pašić, the army commanders and the Black Hand, and which lines can you not draw?",
+        guidance:
+          "Mark which relationships a source states and which you are inferring. Then compare the German pairing of Hindenburg and Ludendorff, and ask who was credited and who was blamed in each.",
+      },
+      sources: [
+        s.putnik,
+        s.alexander,
+        s.bjelajac,
+        s.catalogue,
+        s.blackHand,
+        s.modKolubara,
+        s.dInnocenzo,
+        s.hindenburg,
+        s.ludendorff,
+      ],
+    },
+    {
       slug: "the-retreat-that-kept-an-army",
       title: "The retreat that kept an army: Albania and Corfu",
       part: "Catastrophe, 1915",
@@ -867,5 +1633,5 @@ export const serbianSupremeCommandVolume: LeadershipVolume = {
     },
   ],
   inProgress:
-    "The pilot lessons are published. The rest of the volume is added in reviewed batches.",
+    "Six of the twelve lessons are published. The rest are added in reviewed batches.",
 };

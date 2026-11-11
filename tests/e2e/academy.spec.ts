@@ -545,7 +545,7 @@ test("the Serbian Supreme Command volume is shared by its commanders", async ({
       "Did its commanders make Serbia’s endurance, or did they keep from wasting it?",
     ),
   ).toBeVisible();
-  await expect(page.getByRole("table").getByRole("row")).toHaveCount(4);
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(7);
   await page.goto("/commanders/zivojin-misic");
   await expect(
     page.getByRole("link", {
@@ -982,6 +982,8 @@ for (const route of [
   "/leadership/alexander-the-great/the-ledger-of-conquest",
   "/leadership/radomir-putnik",
   "/leadership/radomir-putnik/how-to-read-the-serbian-front",
+  "/leadership/radomir-putnik/when-allies-ask-you-to-attack",
+  "/leadership/radomir-putnik/who-decided",
   "/leadership/radomir-putnik/the-retreat-that-kept-an-army",
 ])
   test(`accessibility: ${route}`, async ({ page }) => {

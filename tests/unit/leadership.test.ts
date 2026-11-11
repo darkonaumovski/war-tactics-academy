@@ -5,6 +5,7 @@ import {
   lessonsForBattle,
   volumeForCommander,
 } from "../../data/leadership";
+import { serbianSupremeCommandVolume } from "../../data/leadership/radomir-putnik";
 import { battles, campaigns } from "../../data/catalog";
 import commanders from "../../data/commanders.json";
 import { leadershipVolumeSchema } from "../../lib/validation";
@@ -136,6 +137,29 @@ it("lists the Alexander lessons in curriculum order", () => {
     "to-the-strongest",
     "the-ledger-of-conquest",
   ]);
+});
+
+describe("the Serbian Supreme Command volume, while it is being written", () => {
+  it("is valid, unlisted and names only known commanders, once each", () => {
+    leadershipVolumeSchema.parse(serbianSupremeCommandVolume);
+    const named = [
+      serbianSupremeCommandVolume.commanderSlug,
+      ...(serbianSupremeCommandVolume.alsoCommanderSlugs ?? []),
+    ];
+    for (const s of named)
+      expect(
+        commanders.some((c) => c.slug === s),
+        s,
+      ).toBe(true);
+    expect(new Set(named).size).toBe(named.length);
+    expect(leadershipVolumes).not.toContain(serbianSupremeCommandVolume);
+    expect(volumeForCommander("zivojin-misic")).toBeUndefined();
+  });
+
+  it("is marked in progress and has no lessons yet", () => {
+    expect(serbianSupremeCommandVolume.inProgress).toBeTruthy();
+    expect(serbianSupremeCommandVolume.lessons).toEqual([]);
+  });
 });
 
 it("lists the Napoleon lessons in curriculum order", () =>

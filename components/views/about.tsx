@@ -59,7 +59,10 @@ export function AboutPage() {
           readings are always labelled as interpretation, state how far the
           research behind them reaches, and never diagnose anyone. Every lesson
           keeps the human cost in view. Sayings that cannot be traced to a named
-          origin are left out, and one career cannot prove a rule.
+          origin are left out, and one career cannot prove a rule. Where the
+          record was written centuries after the events, each lesson names the
+          witnesses it depends on, and speeches composed by ancient historians
+          are treated as their authors’ work, not as the speakers’ words.
         </p>
         <h2>Your reading belongs to you</h2>
         <p>

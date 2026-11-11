@@ -156,7 +156,10 @@ describe("the Serbian Supreme Command volume, while it is being written", () => 
       "when-allies-ask-you-to-attack",
       "the-capital-or-the-army",
       "who-decided",
+      "november-1915",
       "the-retreat-that-kept-an-army",
+      "after-the-chief",
+      "a-near-goal",
     ]);
   });
 });
@@ -215,6 +218,9 @@ describe("links from the rest of the site", () => {
     expect(
       counterCaseLessons("paul-von-hindenburg").map((x) => x.lesson.slug),
     ).toEqual(["who-decided"]);
+    expect(
+      counterCaseLessons("erich-von-falkenhayn").map((x) => x.lesson.slug),
+    ).toEqual(["after-the-chief"]);
     expect(volumeForCommander("mikhail-kutuzov")).toBeUndefined();
   });
 

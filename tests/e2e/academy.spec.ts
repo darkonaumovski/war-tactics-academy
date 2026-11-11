@@ -545,7 +545,7 @@ test("the Serbian Supreme Command volume is shared by its commanders", async ({
       "Did its commanders make Serbia’s endurance, or did they keep from wasting it?",
     ),
   ).toBeVisible();
-  await expect(page.getByRole("table").getByRole("row")).toHaveCount(7);
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(10);
   await page.goto("/commanders/zivojin-misic");
   await expect(
     page.getByRole("link", {
@@ -984,7 +984,9 @@ for (const route of [
   "/leadership/radomir-putnik/how-to-read-the-serbian-front",
   "/leadership/radomir-putnik/when-allies-ask-you-to-attack",
   "/leadership/radomir-putnik/who-decided",
+  "/leadership/radomir-putnik/november-1915",
   "/leadership/radomir-putnik/the-retreat-that-kept-an-army",
+  "/leadership/radomir-putnik/a-near-goal",
 ])
   test(`accessibility: ${route}`, async ({ page }) => {
     // axe takes 30 to 50 seconds on the 127-card catalog in every engine.

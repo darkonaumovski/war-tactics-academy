@@ -155,6 +155,43 @@ const s = {
     url: "https://doi.org/10.1177/0149206314525205",
     publisher: "Journal of Management",
   },
+  modBojovic: {
+    title: "Anniversary of death of Field Marshal Petar Bojović (2017)",
+    url: "https://www.mod.gov.rs/eng/10464/godisnjica-smrti-vojvode-petra-bojovica-10464",
+    publisher: mod,
+  },
+  modMisic: {
+    title: "Anniversary of death of Field Marshal Živojin Mišić (2017)",
+    url: "https://www.mod.gov.rs/eng/10465/godisnjica-smrti-vojvode-zivojina-misica-10465",
+    publisher: mod,
+  },
+  modKajmakcalan: {
+    title:
+      "Serbian delegation paid respects to the killed on Kajmakčalan (2014)",
+    url: "https://www.mod.gov.rs/eng/7206/srpska-delegacija-odala-pocast-stradalima-na-kajmakcalanu-7206",
+    publisher: mod,
+  },
+  dimitrijevic: {
+    title: "Dragutin Dimitrijević",
+    url: "https://www.britannica.com/biography/Dragutin-Dimitrijevic",
+    publisher: britannica,
+  },
+  falkenhayn: {
+    title: "Erich von Falkenhayn",
+    url: "https://www.britannica.com/biography/Erich-von-Falkenhayn",
+    publisher: britannica,
+  },
+  petain: {
+    title: "Philippe Pétain",
+    url: "https://www.britannica.com/biography/Philippe-Petain",
+    publisher: britannica,
+  },
+  khannaPoulsen: {
+    title:
+      "Naveen Khanna and Annette B. Poulsen, Managers of financially distressed firms: villains or scapegoats? (1995), abstract",
+    url: "https://doi.org/10.1111/j.1540-6261.1995.tb04042.x",
+    publisher: "The Journal of Finance",
+  },
 } satisfies Record<string, Source>;
 
 export const serbianSupremeCommandVolume: LeadershipVolume = {
@@ -1397,6 +1434,232 @@ export const serbianSupremeCommandVolume: LeadershipVolume = {
       ],
     },
     {
+      slug: "november-1915",
+      title: "November 1915: when every option loses",
+      part: "Catastrophe, 1915",
+      themes: ["judgement", "restraint"],
+      claim:
+        "When no available option can save the position, leading becomes the choice of what to preserve, and waiting for help has to stop at a point decided in advance.",
+      inBrief: {
+        strength:
+          "The command tried each way out in turn, then took its army out of the country rather than surrender it.",
+        shadow:
+          "Each hope it waited on, Allied help from Salonika and a breakthrough to the south, failed, and the army and the refugees paid for the waiting.",
+      },
+      moment: {
+        text: "On 11 November 1915, the Austro-Hungarian official history says, Putnik saw that the time had run out that he had tried to win, falling back slowly across the Morava, for the Allied troops to intervene. Word came that day that the Allied army advancing from Salonika had suffered a setback, so a rescue push through Veles to Skopje could hardly be expected any more. The Serbian command drew its conclusions: the northern armies would escape onto the plain of Kosovo and break out from there to the south-east, through Skopje, to General Sarrail’s army. Bjelajac explains why that road was already closed: the Bulgarian Second Army had taken Skopje on 22 October and cut the Serbian army off from Salonika.",
+        evidence: "fact",
+        refs: [{ source: 2, locator: "pp. 293–295" }, { source: 0 }],
+      },
+      episodes: [
+        {
+          title: "Attacked from three sides",
+          text: "The third invasion began on 6 October, when Austro-Hungarian and German armies crossed the Danube. Bjelajac says their targets were Belgrade and the Morava valley, to link up with Bulgaria and Turkey and cut Serbia’s supply route from Salonika. Tasić says the Bulgarian offensive followed on 14 October, that the Serbian forces were divided and outnumbered two to one, and that the German advance up the Morava valley was carried by heavy artillery the Serbian army could not answer. For a time the defence held better than planned: Bjelajac writes that after two weeks the invaders had advanced far less than expected, that the Serbian Second Army had stopped the Bulgarian First Army in the east, and that the German high command moved its Alpine Corps from the Western Front to reinforce the attack.",
+          evidence: "fact",
+          refs: [{ source: 0 }, { source: 1 }],
+          battleSlugs: ["belgrade-1915", "invasion-of-serbia-1915"],
+          campaignSlugs: ["serbian-campaign-of-1915"],
+        },
+        {
+          title: "Waiting for Salonika",
+          text: "The Serbs, Bjelajac writes, fell back fighting and hoped desperately for the help the Allies had promised. The French and British arrived at Salonika far too slowly to build a strong army in time, and for many reasons did not engage on a larger scale. Tasić adds that the Greek king had dismissed his pro-Allied prime minister, keeping Greece out of the war, and that the Anglo-French force was too weak to reach the Serbs, although it went into Macedonia as far as Krivolak. The Austro-Hungarian official history records that Sarrail had been ordered from Paris on 12 November to stop his offensive.",
+          evidence: "fact",
+          refs: [
+            { source: 0 },
+            { source: 1 },
+            { source: 2, locator: "p. 322" },
+          ],
+          battleSlugs: ["invasion-of-serbia-1915"],
+        },
+        {
+          title: "The breakout that failed",
+          text: "On 15 November, the official history says, Putnik ordered the armies back to Mitrovica and Priština without delay. He could not put off the breakthrough to the south any longer, because the ring of enemies was closing and he could no longer feed his troops in so small a space. His plan was for the armies on the rim of the Kosovo plain to fight a defensive battle to win time, while other divisions were to open the Kačanik gorge and the passes of the Karadag and break through towards Skopje. The attacks began on 19 November and won ground at the heaviest cost, but by 21 November they had been thrown back. That day Putnik ordered a withdrawal behind the Sitnica and stressed that the breakthrough had failed above all because the Allies had done nothing. The official history notes that the fighting took place on the field of the Serbian defeat of 1389.",
+          evidence: "fact",
+          refs: [{ source: 2, locator: "pp. 316–317, 321–322" }],
+          battleSlugs: ["invasion-of-serbia-1915"],
+        },
+        {
+          title: "The order",
+          text: "The official history dates the retreat order to 23 November: the army would go through the mountains of Albania and Montenegro to the Adriatic, because only that left the chance of fighting again, sooner or later, beside the Allies. It assigns each army its road. Bjelajac dates the High Command’s order to 25 November and gives its reasoning: the army was in no condition for a counter-offensive, and capitulation was the worse choice. Tasić writes that the king, the government and thousands of refugees went with the army, and that throughout the campaign it had avoided encirclement several times and struck back where it could.",
+          evidence: "fact",
+          refs: [
+            { source: 2, locator: "pp. 322–323" },
+            { source: 0 },
+            { source: 1 },
+          ],
+          battleSlugs: ["serbian-retreat-1915"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "The Austro-Hungarian official history",
+          stake:
+            "The pursuer’s official history, reconstructing the Serbian command’s reasoning with the help of the Serbian general staff’s own war history.",
+          says: "Putnik waited for the Allies until 11 November, tried to break out to the south, blamed the failure on Allied inaction, and ordered the retreat to the Adriatic on 23 November.",
+          refs: [{ source: 2, locator: "pp. 293–295, 316–323" }],
+        },
+        {
+          who: "Mile Bjelajac",
+          stake:
+            "A Serbian historian who stresses the army’s tenacity and the Allies’ slowness.",
+          says: "The High Command ordered the retreat on 25 November because the army could not counter-attack and capitulation was worse.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "Dmitar Tasić",
+          stake: "A Serbian military historian.",
+          says: "The army withdrew in order, avoided encirclement several times, and struck back, but by the end of November the German plan to defeat it had been accomplished.",
+          refs: [{ source: 1 }],
+        },
+        {
+          who: "Richard C. Hall",
+          stake:
+            "An American historian of the Balkan wars, outside the national traditions.",
+          says: "The Serbs tried to stand on the old Kosovo battlefield but could not hold against the Bulgarians, and withdrew across the Albanian mountains.",
+          refs: [{ source: 3 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, the command had four courses in mid-November: wait for the Allies, break out to the south, make a last stand on the Kosovo plain, or leave the country. It did not choose once. It tried them in an order that kept the others open for as long as it could: it waited while the Allies might still come, attempted the breakout while it could still feed the army, fought on the rim of the plain to cover the attempt, and retreated when every other course had closed. The exercise November 1915 puts the reader at the final choice; the official history shows that the breakout it offers as an alternative was in fact tried first.",
+          evidence: "interpretation",
+          refs: [{ source: 2, locator: "pp. 294–295, 316–323" }, { source: 0 }],
+        },
+        {
+          text: "What was preserved is the real decision. Capitulation would have ended the army and, with it, the state’s place among the Allies. A last stand on the Kosovo plain would most likely have ended the army as well. The retreat preserved an army and a government that could fight on beside the Allies. It did not preserve the territory, the people left under occupation, or many of those who made the march. Choosing the army meant accepting all of that.",
+          evidence: "interpretation",
+          refs: [{ source: 2, locator: "p. 323" }, { source: 0 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "No psychological research read for this volume tests how commanders decide when every option is bad, and the lesson does not borrow a general finding to fill the gap.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No psychological source is offered, and the lesson draws no psychological conclusion.",
+        },
+      ],
+      shadow: {
+        text: "Waiting for allies has a price. The official history says that by the time of the battle on the Kosovo plain the army’s strength to resist was already broken by six weeks of fighting without any prospect of success, fought to give the French and British time to arrive. The breakout attempt cost the last reserves of men who were already exhausted. Putnik blamed the Allies, and they had not come, but the command had set the army’s timetable by a promise. A leader who waits for help needs to decide beforehand when the waiting stops.",
+        evidence: "interpretation",
+        refs: [{ source: 2, locator: "pp. 317, 322" }, { source: 0 }],
+      },
+      counterCase: {
+        text: "Montenegro, Serbia’s ally, made the other choice two months later. Raspopović writes that after the Montenegrin army lost Mount Lovćen in January 1916, the government decided to seek peace, and Austria-Hungary demanded unconditional surrender. General Janko Vukotić ordered the last forces to Scutari, to retreat from there and join the Allies if they failed, and allowed soldiers who did not want to go to stay at home. King Nikola left the country on 19 January. On 21 January the ministers who remained decided to stop the retreat and release the army from its positions, so that there would be no army, only people, and Vukotić sent the men home. Raspopović writes that in the end retreat proved the only option for the Montenegrin army as well, and that its surrender sealed the state’s fate. Montenegro preserved its people at home and lost its army and, in the end, its state.",
+        evidence: "interpretation",
+        refs: [{ source: 4 }],
+        battleSlugs: ["mojkovac"],
+      },
+      cost: {
+        text: "The October and November fighting, the failed breakout and the retreat that followed fell on soldiers, on the refugees who left with the army, and on prisoners of war who had no say in it. The sources’ figures are not used here.",
+        evidence: "fact",
+        refs: [{ source: 0 }, { source: 2, locator: "pp. 321–322" }],
+      },
+      transfer: {
+        holdsWhen: [
+          "Every option ahead means a serious loss, and the real choice is which loss to accept.",
+          "You can try the less drastic courses first without closing off the last one.",
+        ],
+        failsWhen: [
+          "Hope for outside help sets the timetable, and there is no point at which you stop waiting.",
+          "Preserving the organisation is treated as preserving everything, and the people left behind are not counted.",
+        ],
+        questions: [
+          "If every option in front of you meant a loss, what would you protect first?",
+          "Which outside help are you counting on, and by what date would you stop counting on it?",
+          "Who would pay for the choice you are leaning towards, and have you told them?",
+        ],
+      },
+      bearsOn:
+        "November 1915 is the volume’s clearest case of commanders keeping endurance from being wasted: they would not spend the army on a last stand or hand it over in a capitulation. It is also where their dependence on others was greatest, and where waiting for promised help cost most. On who decided, the official history gives the plans and the orders to Putnik, Bjelajac to the High Command.",
+      questions: [
+        {
+          prompt:
+            "What did the Serbian command plan on 11 November 1915, according to the Austro-Hungarian official history?",
+          choices: [
+            "To surrender to the Bulgarians.",
+            "To escape onto the Kosovo plain and break out south-east through Skopje to the Allied army.",
+            "To retake Belgrade.",
+          ],
+          answer: 1,
+          explanation:
+            "The breakout was attempted from 19 November and failed by 21 November; only then was the retreat to the Adriatic ordered.",
+        },
+        {
+          prompt:
+            "Why, according to Bjelajac, did the High Command choose retreat over capitulation?",
+          choices: [
+            "Because the Allies ordered it.",
+            "Because the army could not counter-attack, and capitulation was the worse choice.",
+            "Because the enemy had stopped advancing.",
+          ],
+          answer: 1,
+          explanation:
+            "The aim was to keep the army in the war beside the Allies, outside the country.",
+        },
+        {
+          prompt: "What did Montenegro do in January 1916?",
+          choices: [
+            "Its army retreated to Corfu with the Serbs.",
+            "Its remaining government dissolved the army and sent the soldiers home, and the state surrendered.",
+            "It defeated the Austro-Hungarian offensive at Lovćen.",
+          ],
+          answer: 1,
+          explanation: "Raspopović says the surrender sealed the state’s fate.",
+        },
+      ],
+      sourceCheck: {
+        question: "What happened on the Kosovo plain in November 1915?",
+        witnesses: [
+          {
+            label: "The Austro-Hungarian official history",
+            claim:
+              "The armies on the rim of the plain fought a defensive battle to cover an attempt to break out south through the Kačanik gorge, which failed by 21 November.",
+          },
+          {
+            label: "Richard C. Hall",
+            claim:
+              "The Serbs attempted to stand and fight on the old Kosovo battlefield but could not hold against the Bulgarians.",
+          },
+          {
+            label: "Mile Bjelajac",
+            claim:
+              "The army withdrew into Kosovo, escaped several attempts to cut it off, and on 25 November was ordered to retreat through Montenegro and Albania.",
+          },
+        ],
+        prompt: "How should these be read together?",
+        options: [
+          {
+            text: "As a last stand, as Hall’s summary suggests.",
+            feedback:
+              "Hall compresses the battle into a stand. The detailed account shows the defensive fighting was meant to cover a breakout.",
+          },
+          {
+            text: "As a defensive battle fought to cover a breakout to the south, which failed and was followed by the order to retreat.",
+            feedback:
+              "This keeps the detail of the official history and agrees with what Hall and Bjelajac say happened after.",
+            best: true,
+          },
+          {
+            text: "As a retreat with no fighting, since Bjelajac mentions only the withdrawal.",
+            feedback:
+              "Bjelajac summarises the outcome; silence about the fighting is not evidence that there was none.",
+          },
+        ],
+        battleSlug: "invasion-of-serbia-1915",
+      },
+      seminar: {
+        prompt:
+          "The command waited for the Allies until 11 November and tried to break out before retreating. Did it wait too long?",
+        guidance:
+          "List what the command knew on each date: the Bulgarian capture of Skopje, the news from Salonika, the food it had. Then ask what an earlier retreat would have cost and what it might have saved.",
+      },
+      sources: [s.bjelajac, s.tasic, s.oulk, s.hall, s.raspopovic],
+    },
+    {
       slug: "the-retreat-that-kept-an-army",
       title: "The retreat that kept an army: Albania and Corfu",
       part: "Catastrophe, 1915",
@@ -1631,7 +1894,455 @@ export const serbianSupremeCommandVolume: LeadershipVolume = {
         s.retreatMoscow,
       ],
     },
+    {
+      slug: "after-the-chief",
+      title: "After the chief: Putnik’s removal and the trial at Salonika",
+      part: "Catastrophe, 1915",
+      themes: ["succession", "ethics"],
+      claim:
+        "When a shared command loses its chief after a defeat, it can carry on under successors, but how the old chief and his rivals are treated shows everyone who remains what failure and opposition will cost.",
+      inBrief: {
+        strength:
+          "Command passed from Putnik to Bojović and later to Mišić, men who had led armies since 1914, and the army fought on.",
+        shadow:
+          "No source read says why Putnik was relieved, and a trial Britannica calls dubious removed a rival centre of power with death sentences.",
+      },
+      moment: {
+        text: "Britannica’s account of Putnik ends in two sentences. A year after his victories, carried in a sedan chair, he shared his army’s retreat across Albania; relieved of his command, he retired to Nice, where he died in May 1917. It gives his years as chief of staff as 1903 to 1916. Serbia’s Ministry of Defence says Petar Bojović was appointed Chief of the Supreme Command in January 1916 and later returned to the First Army, and that Živojin Mišić was Chief of the Supreme Command at the breakthrough on the Salonika front; Bjelajac also calls Mišić Chief of the High Command in November 1918. None of the sources read says why Putnik was relieved, or why Bojović gave way to Mišić.",
+        evidence: "fact",
+        refs: [{ source: 0 }, { source: 1 }, { source: 2 }, { source: 3 }],
+      },
+      episodes: [
+        {
+          title: "Successors from the same command",
+          text: "The men who followed Putnik had led his armies. The Ministry of Defence says Bojović commanded the First Army at the Drina in 1914, where it suffered huge losses and he was wounded; that he was Chief of the Supreme Command from January 1916; and that he went back to the First Army, which broke the enemy lines on the Salonika front and advanced deep into occupied territory. Mišić had commanded the First Army at Kolubara, and was the chief in 1918. A shared command had produced its own successors, and a chief could return to an army command without disgrace.",
+          evidence: "fact",
+          refs: [{ source: 1 }, { source: 2 }],
+          battleSlugs: ["drina-1914", "dobro-pole"],
+          campaignSlugs: ["macedonian-front"],
+        },
+        {
+          title: "The trial at Salonika",
+          text: "In exile, power was settled differently. Britannica says the Black Hand, the officers’ society led by Colonel Dragutin Dimitrijević, had dominated the army and challenged the government’s authority, and that Prince Alexander, commander-in-chief of the army in exile, brought its leaders to trial at Salonika in 1917 on dubious charges in order to eliminate that rival. Britannica’s biography of Dimitrijević puts it differently: promoted colonel in 1916, he was soon afterwards marked for elimination, with the society, by the premier, Nikola Pašić, and in May 1917 he was sentenced to death with other officers and executed. A retrial in Belgrade in 1953, which the same article calls staged, cleared him of all charges.",
+          evidence: "fact",
+          refs: [{ source: 4 }, { source: 5 }],
+          battleSlugs: [],
+        },
+        {
+          title: "A year of weakness",
+          text: "Hall places the trial in a dark year. By 1917, he writes, Serbia’s position was in peril: its government controlled only a tiny area of Serbian territory around Monastir, its Russian patron had collapsed in revolution, and internal discord led to the trial and execution of Dimitrijević. Bjelajac adds that Dimitrijević’s statements at Salonika about his role in the Sarajevo plot are still argued over; some historians take his confession as the final truth, and Bjelajac does not.",
+          evidence: "fact",
+          refs: [{ source: 6 }, { source: 3 }],
+          battleSlugs: ["monastir-1916"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Britannica, on Putnik",
+          stake: "A short biography of the chief of staff.",
+          says: "After the retreat Putnik was relieved of his command and retired to Nice.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "Serbia’s Ministry of Defence, 2017",
+          stake:
+            "Anniversary tributes to two field marshals, written to honour them.",
+          says: "Bojović became Chief of the Supreme Command in January 1916 and returned to the First Army; Mišić was chief at the breakthrough.",
+          refs: [{ source: 1 }, { source: 2 }],
+        },
+        {
+          who: "Britannica, on the Black Hand",
+          stake: "A short article on the society.",
+          says: "Prince Alexander brought its leaders to trial on dubious charges to eliminate a rival.",
+          refs: [{ source: 4 }],
+        },
+        {
+          who: "Britannica, on Dimitrijević",
+          stake: "A short biography of the society’s leader.",
+          says: "The premier, Pašić, marked the Black Hand for elimination; Dimitrijević was executed and cleared at a staged retrial in 1953.",
+          refs: [{ source: 5 }],
+        },
+        {
+          who: "Richard C. Hall",
+          stake:
+            "An American historian of the Balkan wars, outside the national traditions.",
+          says: "Internal discord led to the trial and execution of Dimitrijević in a year when Serbia held only the area around Monastir.",
+          refs: [{ source: 6 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, an army rebuilding abroad needed a chief able to do the work, and Britannica says Putnik had been in poor health since 1914 and was carried across Albania. Replacing him was defensible on that ground alone. Whether health, the defeat of 1915 or the politics of exile decided it, the sources read do not say, and this lesson does not choose. What they do show is continuity: the successors were army commanders of 1914, and one of them could step down from the post and go back to an army.",
+          evidence: "interpretation",
+          refs: [{ source: 0 }, { source: 1 }],
+        },
+        {
+          text: "The trial was a different kind of succession. The lesson Who decided showed a command shared with a secret society that the formal chain did not include. In exile the regent and the government ended that division. The means, charges Britannica calls dubious and death sentences, told every officer what opposition would cost. Britannica’s two articles do not even agree on who drove it, the regent or the premier, which is itself a sign of how much power had been gathered into a few hands.",
+          evidence: "interpretation",
+          refs: [{ source: 4 }, { source: 5 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Leaders as scapegoats after failure",
+          base: "single study",
+          text: "Khanna and Poulsen compared the managers of firms that went bankrupt with those of firms that did better and found that they made very similar decisions, and that replacing managers of the failing firms brought no positive response from the market. They concluded that managers blamed for financial distress were serving as scapegoats. If anything like this applies to armies, removing a chief after a defeat may say more about the need for someone to answer for it than about the decisions he made.",
+          evidence: "interpretation",
+          refs: [{ source: 7 }],
+          limit:
+            "Only the abstract was read. It concerns companies, not armies, and no source read says that Putnik was blamed for 1915; his health is an equally possible reason.",
+        },
+      ],
+      shadow: {
+        text: "Continuity in the field had a darker counterpart in exile. A government with almost no territory, an army rebuilding on foreign soil and a regent who was also commander-in-chief settled a rivalry with a military court. Whatever the Black Hand had done, Britannica calls the charges dubious, and the retrial of 1953 cleared Dimitrijević. A command that removes rivals this way keeps its unity at the price of its officers’ trust that the rules apply to everyone.",
+        evidence: "interpretation",
+        refs: [{ source: 4 }, { source: 5 }],
+      },
+      counterCase: {
+        text: "Germany removed its chief of staff the same year. Britannica says the emperor dismissed Erich von Falkenhayn on 29 August 1916, after the long and unsuccessful assault on Verdun, in favour of Hindenburg, and that Falkenhayn then led a German army against Romania for ten months before commanding in Palestine and Lithuania. Von der Goltz writes that Hindenburg had repeatedly threatened the Kaiser with his resignation to push through Falkenhayn’s dismissal. The removal was political, and it followed a failure, but the removed chief was kept in high command. Those who remained learned that failure could cost a post without costing a career.",
+        evidence: "interpretation",
+        refs: [{ source: 8 }, { source: 9 }],
+        commanderSlug: "erich-von-falkenhayn",
+        battleSlugs: ["verdun"],
+      },
+      cost: {
+        text: "Dimitrijević and other officers were executed after the trial at Salonika, and members of the society were imprisoned. Putnik died in exile before his army returned. The sources read differ on the trial’s details, and no figures are used here.",
+        evidence: "fact",
+        refs: [{ source: 4 }, { source: 5 }, { source: 0 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "Your organisation has people who have already led parts of it and can take over.",
+          "The way a leader leaves is visible to everyone who stays.",
+        ],
+        failsWhen: [
+          "A departure after failure is used to settle other scores, and people learn that disagreement is dangerous.",
+          "No one says why a leader was removed, and the silence is filled by the worst explanation.",
+        ],
+        questions: [
+          "Who could take over from you tomorrow, and have they led anything yet?",
+          "When someone leaves after a failure, what do the people who stay conclude about what failure costs?",
+          "How would your organisation remove a rival group of insiders, and could it do so fairly?",
+        ],
+      },
+      bearsOn:
+        "This lesson answers the second question for the years after 1915: the command continued through successors from its own ranks, while power over the whole was gathered into the regent and the government. On the first question it adds a cost that endurance carried: unity in exile was bought partly with a trial that a later Serbian state overturned.",
+      questions: [
+        {
+          prompt:
+            "What does Britannica say happened to Putnik after the retreat?",
+          choices: [
+            "He was tried at Salonika.",
+            "He was relieved of his command and retired to Nice.",
+            "He commanded the breakthrough of 1918.",
+          ],
+          answer: 1,
+          explanation:
+            "No source read gives the reason; he died in Nice in May 1917.",
+        },
+        {
+          prompt:
+            "Who succeeded Putnik as Chief of the Supreme Command, according to the Ministry of Defence?",
+          choices: [
+            "Stepa Stepanović.",
+            "Petar Bojović, from January 1916.",
+            "Prince Alexander.",
+          ],
+          answer: 1,
+          explanation:
+            "Bojović later returned to the First Army, and Mišić was chief in 1918.",
+        },
+        {
+          prompt:
+            "What did Khanna and Poulsen conclude about managers blamed for their firms’ failure?",
+          choices: [
+            "That they had made much worse decisions than others.",
+            "That they made similar decisions to managers of healthier firms and were serving as scapegoats.",
+            "That replacing them always helped.",
+          ],
+          answer: 1,
+          explanation:
+            "The study concerns firms; it suggests a question to ask, not an answer about Putnik.",
+        },
+      ],
+      sourceCheck: {
+        question: "Who brought the Black Hand to trial in 1917, and why?",
+        witnesses: [
+          {
+            label: "Britannica, on the Black Hand",
+            claim:
+              "Prince Alexander, on dubious charges, to eliminate a rival to the government’s authority.",
+          },
+          {
+            label: "Britannica, on Dimitrijević",
+            claim:
+              "The premier, Nikola Pašić, marked the society for elimination; a staged retrial in 1953 cleared Dimitrijević.",
+          },
+          {
+            label: "Richard C. Hall",
+            claim: "Internal discord led to the trial and execution.",
+          },
+        ],
+        prompt: "What can a careful reader say?",
+        options: [
+          {
+            text: "That the regent alone was responsible.",
+            feedback:
+              "One Britannica article says so; another gives the initiative to Pašić.",
+          },
+          {
+            text: "That the regent and the government acted together against a rival centre of power, on charges whose truth is still disputed.",
+            feedback:
+              "This keeps both Britannica accounts and Hall’s, and does not settle what the sources leave open.",
+            best: true,
+          },
+          {
+            text: "That the trial proved the Black Hand guilty, since its leader was executed.",
+            feedback:
+              "Execution is not proof. Britannica calls the charges dubious, and a later court cleared him.",
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Putnik was relieved and retired; Bojović stepped back to an army; Dimitrijević was tried and executed. What did each of these tell the officers who remained?",
+        guidance:
+          "Separate what the sources state from what they leave unexplained. Then compare Falkenhayn, removed after Verdun and kept in command, and ask what each army was teaching its officers about failure and dissent.",
+      },
+      sources: [
+        s.putnik,
+        s.modBojovic,
+        s.modMisic,
+        s.bjelajac,
+        s.blackHand,
+        s.dimitrijevic,
+        s.hall,
+        s.khannaPoulsen,
+        s.falkenhayn,
+        s.hindenburg,
+      ],
+    },
+    {
+      slug: "a-near-goal",
+      title: "A near goal: Corfu, Kajmakčalan and Monastir",
+      part: "The return",
+      themes: ["motivation", "organisation"],
+      claim:
+        "When a defeated organisation is rebuilt and given a near, concrete goal, it can recover its purpose, but the goal may cost more than its strategic value, and it will not carry morale through what follows.",
+      inBrief: {
+        strength:
+          "Rebuilt on Corfu, the army returned to the front in 1916 and fought its way back onto Serbian soil at Monastir.",
+        shadow:
+          "The peaks were taken at great cost, and for two years the ground regained was a narrow strip around one town.",
+      },
+      moment: {
+        text: "After several months of recovery, Bjelajac writes, the Serbian army was shipped from Corfu to the Chalkidiki peninsula near Salonika. It became part of the Allied Army of the Orient and was given the central part of the Salonika front. The reorganised army was smaller than before but had more firepower. Tasić says that in the summer of 1916 the recovered and rearmed army arrived at Salonika, on a front that ran from the Albanian coast across the Macedonian mountains to the Aegean.",
+        evidence: "fact",
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      episodes: [
+        {
+          title: "Rebuilt abroad",
+          text: "Bjelajac describes the rescue in two phases, evacuation from the Albanian coast and then recovery and reorganisation, with soldiers and civilians carried to Corfu, Bizerte, Italy and France. The army was later reinforced by volunteers from overseas and by South Slav former Austro-Hungarian prisoners of war in Russia, for whom Serbia had sent officers from Corfu. Hall says only that the survivors of the retreat joined the Salonika armies after some rest and refurbishment on Corfu. The army that went back to the front had been re-equipped by its allies and partly refilled with men who had not made the retreat.",
+          evidence: "fact",
+          refs: [{ source: 0 }, { source: 2 }],
+          battleSlugs: ["serbian-retreat-1915"],
+        },
+        {
+          title: "Surprised on the march",
+          text: "The first test came before the army was ready. Bjelajac writes that a sudden Bulgarian offensive south of Monastir on 17 August 1916 caught the Allied commander and the Serbian forces by surprise, on the march and in a difficult position. They halted it, took the dominant mountain peaks and pushed the enemy back to the second range. Hall describes the same months from the Allied side: the Bulgarians seized Florina, and through the autumn the Entente drove them out and north as far as Monastir.",
+          evidence: "fact",
+          refs: [{ source: 0 }, { source: 2 }],
+          battleSlugs: ["kajmakcalan"],
+          campaignSlugs: ["macedonian-front"],
+        },
+        {
+          title: "The summit",
+          text: "Serbia’s Ministry of Defence describes Kajmakčalan as the first battle of the Salonika front, fought from 12 to 30 September 1916, in which the First Serbian Army took the Saint Ilija peak with great losses. A chapel now stands on the summit, at more than 2,500 metres, and an ossuary honours the Drina Division. At a commemoration in 2014 a Serbian minister called the victory militarily inexplicable and credited it to the Serbs’ desire for freedom. Tasić places it in a wider series: between 17 August and 20 November 1916, in the battles of Gorničevo, Kajmakčalan and the Crna valley, the Allies stopped the Central Powers’ offensive and pushed them some forty kilometres north.",
+          evidence: "fact",
+          refs: [{ source: 3 }, { source: 1 }],
+          battleSlugs: ["kajmakcalan"],
+        },
+        {
+          title: "The first town",
+          text: "Monastir (Bitola) was taken by 20 November, Tasić says, and Bjelajac calls it the first Serbian ground liberated. Then the front stood still. Bjelajac writes that for the next two years it was basically peaceful, with no large-scale operations; Tasić that the lines stayed more or less unchanged until September 1918, and that every army on the front faced prolonged trench warfare, soldiers’ dissatisfaction and mutinous behaviour, with cases of Bulgarian and Serbian soldiers fraternising in no man’s land. Hall writes that in 1917 the Serbian government controlled only a tiny area of Serbian territory around Monastir.",
+          evidence: "fact",
+          refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+          battleSlugs: ["monastir-1916"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Mile Bjelajac",
+          stake:
+            "A Serbian historian who stresses both Serbian recovery and Allied help.",
+          says: "The reorganised army was smaller but had more firepower; it halted the Bulgarian offensive and took the dominant peaks, and Monastir became the first Serbian ground liberated.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "Dmitar Tasić",
+          stake: "A Serbian military historian.",
+          says: "The autumn battles of 1916 pushed the Central Powers some forty kilometres north; then the front stayed largely unchanged, with dissatisfaction on both sides.",
+          refs: [{ source: 1 }],
+        },
+        {
+          who: "Richard C. Hall",
+          stake:
+            "An American historian of the Balkan wars, writing about the whole front.",
+          says: "The Entente drove the Bulgarians back to Monastir; in 1917 Serbia held only a tiny area around it.",
+          refs: [{ source: 2 }],
+        },
+        {
+          who: "Serbia’s Ministry of Defence, 2014",
+          stake: "An official commemoration on the summit.",
+          says: "The First Army took the peak with great losses; a minister called the victory militarily inexplicable.",
+          refs: [{ source: 3 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, an army that had lost its country needed to show its allies, and itself, that it still counted. Beyond the peaks lay Monastir, Serbian ground, and the heights commanded the way to it. Taking them served the coalition, which needed the Bulgarian offensive stopped, and gave the Serbian army a goal it could see. A near goal of this kind can do what a distant war aim cannot: it gives every unit a task whose completion everyone will recognise.",
+          evidence: "interpretation",
+          refs: [{ source: 0 }, { source: 2 }],
+        },
+        {
+          text: "The value of the goal was then tested by what followed. After Monastir the front stood still for two years, and the ground regained was a strip around one town. Its worth lay less in its military effect than in what it meant to an army and a government in exile, and the sources read do not measure that. A leader may choose a near goal for good reasons; the leader should know what it is being bought for, and what will sustain people once it is reached.",
+          evidence: "interpretation",
+          refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "It would be easy to reach for research on growth after trauma or on goal-setting at work. Neither has been read for this volume, and neither tests what happens to an army that has lost its country. The lesson leaves the question to the historian and the strategist.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No psychological source is offered, and the lesson draws no psychological conclusion.",
+        },
+      ],
+      shadow: {
+        text: "The commemoration on the summit turns cost into miracle. When an official calls a victory militarily inexplicable and credits it to a desire for freedom, the great losses the same page mentions become proof of spirit rather than a price that was paid. Tasić’s account of the two years that followed, dissatisfaction, mutinous behaviour and fraternisation on the front, shows that the near goal did not carry morale through the long wait. It gave the army a beginning, not an answer.",
+        evidence: "interpretation",
+        refs: [{ source: 3 }, { source: 1 }],
+      },
+      counterCase: {
+        text: "France faced a different recovery in 1917. Britannica writes that after the ill-considered offensives of General Nivelle, serious mutinies broke out in the French army, and Philippe Pétain was named commander-in-chief in his place. He re-established discipline with a minimum of repression, it says, by explaining his intentions to the soldiers in person and improving their living conditions, and the French armies went on to take part in the victorious offensives of 1918. Pétain rebuilt with explanation and better conditions, not with a near objective. Britannica also records that he was later discredited as head of the Vichy state, which does not change what he did in 1917.",
+        evidence: "interpretation",
+        refs: [{ source: 4 }],
+        commanderSlug: "philippe-petain",
+        battleSlugs: [],
+      },
+      cost: {
+        text: "The Ministry of Defence says the peak was taken with great losses, and an ossuary stands on the mountain for the Drina Division. The sources give no figures used here.",
+        evidence: "fact",
+        refs: [{ source: 3 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "A team has been through a serious defeat and has been given the resources to work again.",
+          "A near goal exists that everyone can see, and reaching it also serves the larger aim.",
+        ],
+        failsWhen: [
+          "The near goal is chosen for its symbolism alone, and its cost is not weighed.",
+          "Nothing has been planned for the long period after the goal is reached.",
+        ],
+        questions: [
+          "After a setback, what near goal could your team see and reach?",
+          "What would reaching it cost, and what would it actually change?",
+          "What will keep people going once it is reached and the next stage is a long wait?",
+        ],
+      },
+      bearsOn:
+        "Kajmakčalan and Monastir show the commanders rebuilding what had been preserved in 1915, with Allied equipment and Allied partners. The near goal kept the army’s purpose alive; it did not change the war. On who decided, the sources speak of the Allied command and the Serbian army together, and name no single Serbian commander for the autumn of 1916.",
+      questions: [
+        {
+          prompt:
+            "How does Bjelajac describe the Serbian army that returned to the front in 1916?",
+          choices: [
+            "Larger than before, but poorly armed.",
+            "Smaller than before, but with more firepower.",
+            "Unchanged from 1915.",
+          ],
+          answer: 1,
+          explanation:
+            "It had been rebuilt on Corfu with Allied help and later reinforced by volunteers.",
+        },
+        {
+          prompt:
+            "What happened on the Salonika front after Monastir was taken?",
+          choices: [
+            "A rapid advance into Serbia.",
+            "Two years with no large-scale operations, until September 1918.",
+            "The Serbian army was withdrawn to France.",
+          ],
+          answer: 1,
+          explanation:
+            "Tasić describes trench warfare, dissatisfaction and fraternisation on both sides.",
+        },
+        {
+          prompt:
+            "How did Pétain restore discipline in the French army in 1917, according to Britannica?",
+          choices: [
+            "With mass executions.",
+            "By explaining his intentions in person and improving living conditions, with a minimum of repression.",
+            "By launching a new offensive at once.",
+          ],
+          answer: 1,
+          explanation:
+            "A different route to recovery from the near goal the Serbian army was given.",
+        },
+      ],
+      sourceCheck: {
+        question: "What did the battles of autumn 1916 achieve?",
+        witnesses: [
+          {
+            label: "Serbia’s Ministry of Defence",
+            claim:
+              "A militarily inexplicable victory, won by the Serbs’ desire for freedom, at great cost.",
+          },
+          {
+            label: "Mile Bjelajac",
+            claim:
+              "The Bulgarian offensive was halted, the dominant peaks were taken, and Monastir became the first Serbian ground liberated.",
+          },
+          {
+            label: "Richard C. Hall",
+            claim:
+              "In 1917 Serbia’s government controlled only a tiny area of Serbian territory around Monastir.",
+          },
+        ],
+        prompt: "How should a reader weigh them?",
+        options: [
+          {
+            text: "As a miracle of spirit, as the commemoration says.",
+            feedback:
+              "A commemoration on the summit is a source for memory. It also names the losses that its own explanation passes over.",
+          },
+          {
+            text: "As a real military success that regained a small but symbolic piece of Serbia, followed by two years of stalemate.",
+            feedback:
+              "Bjelajac gives the gains, Hall their limits; together they describe a near goal reached.",
+            best: true,
+          },
+          {
+            text: "As a failure, since so little was gained.",
+            feedback:
+              "Stopping the Bulgarian offensive and retaking Serbian soil mattered to the army and its allies, even if the front then stood still.",
+          },
+        ],
+        battleSlug: "kajmakcalan",
+      },
+      seminar: {
+        prompt:
+          "Was Kajmakčalan worth its cost? Answer once as the strategist and once as the soldier’s family.",
+        guidance:
+          "Separate the military effect, the symbolic value and the human cost, and say which sources speak to each. Then compare Pétain’s route to recovery in 1917.",
+      },
+      sources: [s.bjelajac, s.tasic, s.hall, s.modKajmakcalan, s.petain],
+    },
   ],
   inProgress:
-    "Six of the twelve lessons are published. The rest are added in reviewed batches.",
+    "Nine of the twelve lessons are published. The rest are added in reviewed batches.",
 };

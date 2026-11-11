@@ -758,7 +758,7 @@ export const scenarios: Scenario[] = [
       {
         text: "Break south through the Bulgarian line toward Salonika.",
         feedback:
-          "Reaching the Allies would keep the army in the war, but it would have to attack an enemy it was no longer fit to attack. An interpretive alternative.",
+          "The Supreme Command tried this first: from 19 November its divisions attacked towards the Kačanik gorge and Skopje, and by 21 November they had been thrown back. Only then was the retreat ordered.",
         historical: false,
       },
     ],

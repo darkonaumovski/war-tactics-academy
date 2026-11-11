@@ -139,7 +139,7 @@ it("lists the Alexander lessons in curriculum order", () => {
   ]);
 });
 
-describe("the Serbian Supreme Command volume, while it is being written", () => {
+describe("the Serbian Supreme Command volume", () => {
   const volume = volumeForCommander("radomir-putnik");
 
   it("is found from each of the commanders it names", () => {
@@ -148,8 +148,8 @@ describe("the Serbian Supreme Command volume, while it is being written", () => 
     expect(volumeForCommander("crown-prince-alexander")).toBeUndefined();
   });
 
-  it("lists the lessons written so far in curriculum order", () => {
-    expect(volume?.inProgress).toBeTruthy();
+  it("lists its lessons in curriculum order", () => {
+    expect(volume?.inProgress).toBeUndefined();
     expect(volume?.lessons.map((l) => l.slug)).toEqual([
       "how-to-read-the-serbian-front",
       "where-will-the-blow-fall",
@@ -160,6 +160,9 @@ describe("the Serbian Supreme Command volume, while it is being written", () => 
       "the-retreat-that-kept-an-army",
       "after-the-chief",
       "a-near-goal",
+      "where-to-break-the-front",
+      "the-people-left-behind",
+      "the-ledger-of-survival",
     ]);
   });
 });
@@ -221,6 +224,9 @@ describe("links from the rest of the site", () => {
     expect(
       counterCaseLessons("erich-von-falkenhayn").map((x) => x.lesson.slug),
     ).toEqual(["after-the-chief"]);
+    expect(
+      counterCaseLessons("kosta-pecanac").map((x) => x.lesson.slug),
+    ).toEqual(["the-people-left-behind"]);
     expect(volumeForCommander("mikhail-kutuzov")).toBeUndefined();
   });
 

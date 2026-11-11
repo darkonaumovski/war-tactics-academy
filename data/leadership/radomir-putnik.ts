@@ -1,5 +1,5 @@
 import type { LeadershipVolume, Source } from "../../lib/types";
-// Volume 3, a shared volume. Lessons are added in reviewed batches;
+// Volume 3, a shared volume, written in reviewed batches S1 to S4;
 // docs/LEADERSHIP_EVIDENCE_SERBIA.md records which sources can carry each one,
 // and docs/SOURCE_AUDIT.md how each was read (batch S1 is the pilot). The
 // 1914-1918-online articles are cited in the PDF editions that were read.
@@ -191,6 +191,26 @@ const s = {
       "Naveen Khanna and Annette B. Poulsen, Managers of financially distressed firms: villains or scapegoats? (1995), abstract",
     url: "https://doi.org/10.1111/j.1540-6261.1995.tb04042.x",
     publisher: "The Journal of Finance",
+  },
+  pecanac: pdf("pecanac-kosta", "Dmitar Tasić, “Pecanac, Kosta”, PDF edition"),
+  ristovic: pdf(
+    "occupation-during-and-after-the-war-south-east-europe",
+    "Milan Ristović, “Occupation during and after the War (South East Europe)”, PDF edition",
+  ),
+  hallBulgaria: pdf(
+    "bulgaria",
+    "Richard C. Hall, “Bulgaria” (2016), PDF edition",
+  ),
+  balkan1918: {
+    title: "World War I: The Balkan front, 1918 (Dennis E. Showalter)",
+    url: "https://www.britannica.com/event/World-War-I/The-Balkan-front-1918",
+    publisher: britannica,
+  },
+  stanley: {
+    title:
+      "Monica M. Stanley, My Diary in Serbia: April 1, 1915–Nov. 1, 1915 (1916)",
+    url: "https://www.gutenberg.org/ebooks/33001",
+    publisher: "Project Gutenberg",
   },
 } satisfies Record<string, Source>;
 
@@ -2026,7 +2046,7 @@ export const serbianSupremeCommandVolume: LeadershipVolume = {
         ],
       },
       bearsOn:
-        "This lesson answers the second question for the years after 1915: the command continued through successors from its own ranks, while power over the whole was gathered into the regent and the government. On the first question it adds a cost that endurance carried: unity in exile was bought partly with a trial that a later Serbian state overturned.",
+        "This lesson answers the second question for the years after 1915: the command continued through successors from its own ranks, while power over the whole was gathered into the regent and the government. On the first question it adds a cost that endurance carried: unity in exile was bought partly with a trial that a Belgrade court overturned in 1953.",
       questions: [
         {
           prompt:
@@ -2342,7 +2362,668 @@ export const serbianSupremeCommandVolume: LeadershipVolume = {
       },
       sources: [s.bjelajac, s.tasic, s.hall, s.modKajmakcalan, s.petain],
     },
+    {
+      slug: "where-to-break-the-front",
+      title: "Where to break the front: Dobro Pole, 1918",
+      part: "The return",
+      themes: ["judgement", "communication"],
+      claim:
+        "When the junior partner in a coalition knows the ground best, its plan may have to wait until the senior partner’s circumstances make it attractive, and the junior partner must be ready to carry it out when they do.",
+      inBrief: {
+        strength:
+          "A Serbian idea from 1916 became the breakthrough of 1918, and the Serbian armies carried it from Dobro Pole to Belgrade.",
+        shadow:
+          "It waited two years for conditions the Serbs could not create, and the credit went largely to others.",
+      },
+      moment: {
+        text: "The idea of attacking at Dobro Pole, Hall writes, seems to have originated in the Serbian army in 1916. A Serbian staff officer saw that if the Allies broke through the Bulgarian positions on the ridge, they would come out onto relatively flat ground, the good field of the name, from which they could reach the Vardar valley and move on to Skopje and into Serbia. The Bulgarians had been fortifying the ridge since the end of the 1916 fighting, with two main trench lines, barbed wire and artillery behind them. The place looked strong; what lay behind it was the reason to attack there.",
+        evidence: "fact",
+        refs: [{ source: 1 }],
+      },
+      episodes: [
+        {
+          title: "Why 1918",
+          text: "For two years the idea waited. Hall writes that in June 1918 General Franchet d’Espèrey took command of the Allied forces, at a moment when the Entente wanted to draw the Central Powers’ resources away from the Western Front. An attack by Greek and French troops on the ridge of Skra di Legen that month showed how far Bulgarian morale had fallen; the Germans were in retreat in the west and unlikely to help; and by late summer the Allies had gathered a clear superiority in front of Dobro Pole. Britannica dates Franchet d’Espèrey’s arrival to July, after Sarrail and Guillaumat, and says he attacked with six Serbian and two French divisions against a seven-mile front held by a single Bulgarian division.",
+          evidence: "fact",
+          refs: [{ source: 1 }, { source: 3 }],
+          battleSlugs: ["dobro-pole"],
+          campaignSlugs: ["macedonian-front"],
+        },
+        {
+          title: "The breach",
+          text: "Britannica says the assault began on the morning of 15 September after a heavy bombardment through the night; Hall dates the start of the assault to 14 September. By nightfall on the 16th the attackers had broken in, and the next day the Serbs advanced twenty miles while French and Greek forces widened the gap. A British attack near Lake Doiran kept the Bulgarians from shifting troops, and by 21 September the whole front west of the Vardar had collapsed. Bjelajac writes that the Serbian Second Army, with two French divisions in its first line, made the breach, that both Serbian armies pursued the Bulgarians and broke every attempt by their reserves, and that the whole territory of the former kingdom was free by 1 November.",
+          evidence: "fact",
+          refs: [{ source: 3 }, { source: 1 }, { source: 0 }],
+          battleSlugs: ["dobro-pole", "liberation-of-serbia-1918"],
+        },
+        {
+          title: "The other side of the line",
+          text: "Hall describes what the breach found. After two days of heavy fighting the Bulgarian soldiers began to fall back in disorder; almost six years of war, hunger, poor clothing and worry for their families at home made many of them refuse their officers’ attempts to restore discipline. Mobs of soldiers marched on their own capital, and on 27 September rebel leaders proclaimed a republic at Radomir. Bulgaria signed an armistice at Salonika on 29 September. Tasić adds that at Doiran the Bulgarians won a tactical success, which could not save the front once Dobro Pole was breached.",
+          evidence: "fact",
+          refs: [{ source: 1 }, { source: 2 }],
+          battleSlugs: ["dobro-pole"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Richard C. Hall",
+          stake:
+            "An American historian of the Balkan wars, who has written a book on the battle.",
+          says: "The idea seems to have originated with a Serbian staff officer in 1916; by 1918 low Bulgarian morale and Allied superiority made it attractive.",
+          refs: [{ source: 1 }],
+        },
+        {
+          who: "Mile Bjelajac",
+          stake:
+            "A Serbian historian, writing against a tradition that credits the French.",
+          says: "The offensive vindicated Franchet d’Espèrey and Castelnau, and later some Americans, with no mention of the Serbs who had suggested the same in 1915.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "Britannica",
+          stake:
+            "A general history of the war, from the Allied command’s side.",
+          says: "Franchet d’Espèrey launched the offensive with six Serbian and two French divisions against one Bulgarian division.",
+          refs: [{ source: 3 }],
+        },
+        {
+          who: "Dmitar Tasić",
+          stake: "A Serbian military historian.",
+          says: "The offensive was a carefully prepared and conducted action that produced a decisive breakthrough.",
+          refs: [{ source: 2 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, Dobro Pole was the wrong place to attack if the question was where the defences were weakest: it was a fortified mountain ridge. It was the right place if the question was where a breach would lead somewhere. Flat ground behind it opened the Vardar valley and the road home, so a break-in could become a breakthrough. Britannica adds that it was also thinly held. The exercise Where to break the front? puts the reader in the Allied commander’s place in the summer of 1918.",
+          evidence: "interpretation",
+          refs: [{ source: 1 }, { source: 3 }],
+        },
+        {
+          text: "The idea’s owners could not choose its moment. A plan from 1916 had to wait for a new Allied commander, a collapse of Bulgarian morale, Allied superiority on the spot and a Germany in retreat in the west. What the Serbian army could control was being ready: its divisions made up most of the assault force and led the pursuit. A junior partner’s good idea is worth most when it is kept alive and the means to carry it out are kept ready for the day the senior partner wants it.",
+          evidence: "interpretation",
+          refs: [{ source: 1 }, { source: 0 }, { source: 3 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "This is a strategist’s lesson about coalitions and ground. No psychological research read for this volume speaks to it, and the lesson does not borrow a finding from elsewhere.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No psychological source is offered, and the lesson draws no psychological conclusion.",
+        },
+      ],
+      shadow: {
+        text: "The junior partner’s reward was uncertain. Bjelajac complains that the victory vindicated French generals, and later some Americans who developed the same ideas, with no mention of the Serbs who had argued it before. He also shows the victory turning straight into politics: Franchet d’Espèrey ordered small detachments across the rivers so that he could say his troops had entered Austria-Hungary, and Serbian troops were sent to support the Yugoslav movement in Bosnia, Croatia and Vojvodina. Being right about the ground did not settle who would be credited, or what the victory would be used for.",
+        evidence: "interpretation",
+        refs: [{ source: 0 }],
+      },
+      counterCase: {
+        text: "Ludendorff also looked for a point to break a front in 1918. Chickering writes that the German spring offensive, which began on 21 March, reflected Ludendorff’s belief that a breakthrough at a pivotal point in the Allied line would bring about the enemy’s strategic collapse. The German forces could not achieve a breakthrough at any of the points he chose; the Allies’ counter-offensive began in July, and Ludendorff was removed from his post at the end of October. Dobro Pole was chosen for what lay behind the line and for a defender whose will was failing; Ludendorff’s offensives never opened a way through.",
+        evidence: "interpretation",
+        refs: [{ source: 4 }],
+        commanderSlug: "erich-ludendorff",
+        battleSlugs: ["operation-michael"],
+      },
+      cost: {
+        text: "The assault and the pursuit were made by soldiers who had fought since 1912, on both sides of the line. Hall describes Bulgarian troops who had endured almost six years of war, hunger and fear for their families. The sources’ figures are not used here.",
+        evidence: "fact",
+        refs: [{ source: 1 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "You know something about the ground, the market or the problem that your larger partner does not.",
+          "You can keep the means to act ready while you wait for the partner’s circumstances to change.",
+        ],
+        failsWhen: [
+          "You wait for credit before you act; it may never come.",
+          "You mistake a strong-looking position for the wrong place to act, without asking what lies behind it.",
+        ],
+        questions: [
+          "What do you know that your larger partners do not, and how have you told them?",
+          "What would have to change for them to want your idea?",
+          "Would you be ready to carry it out the day they asked?",
+        ],
+      },
+      bearsOn:
+        "Dobro Pole is the volume’s strongest case that the Serbian command did more than avoid waste: one of its officers saw where the front could be broken, and its armies carried the breakthrough home. It also shows how much depended on others, a French commander, Allied superiority and a Bulgarian army at the end of its endurance. On who decided, the sources give the idea to the Serbian staff and the decision to Franchet d’Espèrey.",
+      questions: [
+        {
+          prompt:
+            "Why did a Serbian staff officer see Dobro Pole as the place to attack, according to Hall?",
+          choices: [
+            "Because it was the weakest point in the Bulgarian line.",
+            "Because a breach there led onto flatter ground, the Vardar valley and the road into Serbia.",
+            "Because the French had already chosen it.",
+          ],
+          answer: 1,
+          explanation:
+            "The ridge was fortified; its value lay in what was behind it.",
+        },
+        {
+          prompt: "What made the attack attractive by the summer of 1918?",
+          choices: [
+            "A new Serbian army from Russia.",
+            "Low Bulgarian morale, Allied superiority on the spot and German retreats in the west.",
+            "The surrender of Austria-Hungary.",
+          ],
+          answer: 1,
+          explanation:
+            "Hall and Britannica describe conditions that the Serbian army could not create on its own.",
+        },
+        {
+          prompt:
+            "What did Ludendorff’s spring offensive of 1918 fail to do, according to Chickering?",
+          choices: [
+            "Start on time.",
+            "Achieve a breakthrough at any of the points he chose.",
+            "Use artillery.",
+          ],
+          answer: 1,
+          explanation:
+            "He believed a breakthrough at a pivotal point would collapse the Allies; it never came.",
+        },
+      ],
+      sourceCheck: {
+        question: "Whose idea was the breakthrough at Dobro Pole?",
+        witnesses: [
+          {
+            label: "Richard C. Hall",
+            claim:
+              "It seems to have originated with a Serbian staff officer in 1916.",
+          },
+          {
+            label: "Mile Bjelajac",
+            claim:
+              "The victory vindicated Franchet d’Espèrey and Castelnau, with no mention of the Serbs who had suggested the same in 1915.",
+          },
+          {
+            label: "Britannica",
+            claim:
+              "Franchet d’Espèrey launched the offensive in September 1918.",
+          },
+        ],
+        prompt: "What can a careful reader say?",
+        options: [
+          {
+            text: "That it was Franchet d’Espèrey’s plan, since he launched it.",
+            feedback:
+              "Launching an offensive and conceiving it are different; Hall traces the idea to the Serbian staff.",
+          },
+          {
+            text: "That the idea came from the Serbian staff, the decision and the means from the Allied command, and that the credit was argued over afterwards.",
+            feedback:
+              "Each witness supplies one part, and Bjelajac’s complaint is itself evidence of the argument.",
+            best: true,
+          },
+          {
+            text: "That the Serbs planned and fought it alone.",
+            feedback:
+              "Two French divisions were in the first line, and the British and Greeks attacked on the flanks.",
+          },
+        ],
+        battleSlug: "dobro-pole",
+      },
+      seminar: {
+        prompt:
+          "The idea of Dobro Pole waited two years. What could the Serbian command have done in that time to bring its day closer?",
+        guidance:
+          "Separate what it controlled, its army’s readiness and its arguments to the Allies, from what it did not: Bulgarian morale, Allied numbers, the Western Front. Then compare Ludendorff, who chose his own moment and his own points.",
+      },
+      sources: [s.bjelajac, s.hall, s.tasic, s.balkan1918, s.ludendorff],
+    },
+    {
+      slug: "the-people-left-behind",
+      title: "The people left behind: the Toplica uprising, 1917",
+      part: "The return",
+      themes: ["ethics", "communication"],
+      claim:
+        "When a distant command sends agents to people it cannot protect, it may lose control of the timing, and the cost still falls on those people.",
+      inBrief: {
+        strength:
+          "The Supreme Command prepared resistance in occupied Serbia to help its return, and the guerrillas did help when the offensive came in 1918.",
+        shadow:
+          "The rising broke out early, beyond its envoy’s control, and the occupiers’ reprisals fell on civilians the army could not protect.",
+      },
+      moment: {
+        text: "Armed resistance in occupied Serbia, Tasić writes, probably began on its own, when the occupiers started searching for soldiers who had gone home instead of retreating across Albania. The Serbian Supreme Command knew the potential. In September 1916 it sent Kosta Pećanac, a reserve officer and veteran chetnik leader, into Serbia by aeroplane to prepare a mass uprising that would help the Allied advance after the expected breakthrough on the Macedonian front. Bjelajac gives the instruction more precisely: Pećanac was to prepare and organise attacks on communications, the railways in particular, but not before the main assault from the south began.",
+        evidence: "fact",
+        refs: [{ source: 1 }, { source: 2 }],
+      },
+      episodes: [
+        {
+          title: "An envoy who arrived too late to lead",
+          text: "Tasić writes that Pećanac, flown in by a French aeroplane, found other experienced chetnik leaders already preparing to rise, and that despite his precise instructions to prepare for the Allied breakthrough, they insisted on immediate action. Bjelajac says the scattered groups could not be brought under his control because they were already active and being hunted. Kosta Vojinović, the most prominent of their leaders, called for a rising in October 1916, and Pećanac, reluctantly, joined in, setting up his own headquarters as the man the High Command had appointed.",
+          evidence: "fact",
+          refs: [{ source: 0 }, { source: 2 }],
+          battleSlugs: ["toplica-uprising"],
+          campaignSlugs: ["occupation-of-serbia"],
+        },
+        {
+          title: "What set it off",
+          text: "The occupiers’ own policy lit the fuse. Tasić writes that during the winter Bulgarian attempts to conscript young Serbian men led to an open mass uprising: by the end of February 1917 risings had broken out in the Toplica region of the Bulgarian zone and in the south of the Austro-Hungarian zone, and the insurgents freed several small towns and the country around them. Bjelajac adds what kept hope alive: people knew that a new Serbian army was being assembled in the south, Romania’s entry into the war raised expectations, and rumours of Bulgarian conscription sent many into the woods.",
+          evidence: "fact",
+          refs: [{ source: 1 }, { source: 2 }],
+          battleSlugs: ["toplica-uprising"],
+        },
+        {
+          title: "The reprisals",
+          text: "Tasić writes that the Bulgarians gave the suppression to Colonel Aleksandar Protogerov, a leading figure of the Macedonian revolutionary organisation, brought in additional troops and irregulars, and that the Austro-Hungarians sealed the border between their zones and joined the counter-stroke; both used Albanian irregulars. Their actions were marked by brutality against the civilian population. Ristović writes that the uprising was crushed after two months with huge civilian casualties, and that the deportation of Serbian civilians to internment camps, which had begun in 1914, snowballed after the uprising. Hall says Bulgarian troops brutally suppressed it. Tasić and Ristović give different figures for the dead, from different counts; they are not used here.",
+          evidence: "fact",
+          refs: [{ source: 1 }, { source: 3 }, { source: 4 }],
+          battleSlugs: ["toplica-uprising"],
+        },
+        {
+          title: "A later life that must not rewrite this one",
+          text: "Tasić records the rest of Pećanac’s life plainly. Between the wars he led the chetnik veterans’ organisation and took part in actions against the Macedonian revolutionary organisation and the Croatian Ustaše. In the Second World War he and his organisation fully collaborated with the German occupation and with Milan Nedić’s quisling government, and he was killed in 1944 by a rival chetnik faction. That record belongs in any account of him. It does not change what the sources say he was instructed to do in 1916, or that, by their accounts, the rising went ahead against those instructions.",
+          evidence: "fact",
+          refs: [{ source: 0 }],
+          battleSlugs: [],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Dmitar Tasić",
+          stake:
+            "A Serbian military historian who has also written on Pećanac’s prosecution in 1919.",
+          says: "Pećanac had precise instructions to prepare for the Allied breakthrough; other chetnik leaders insisted on immediate action, and Bulgarian conscription set off the rising.",
+          refs: [{ source: 0 }, { source: 1 }],
+        },
+        {
+          who: "Mile Bjelajac",
+          stake: "A Serbian historian of the state and its army.",
+          says: "The High Command’s envoy was told to act not before the main assault from the south; he joined the rising reluctantly.",
+          refs: [{ source: 2 }],
+        },
+        {
+          who: "Milan Ristović",
+          stake: "A Serbian historian of the occupation regimes.",
+          says: "The rising was crushed with huge civilian casualties, and deportations snowballed after it.",
+          refs: [{ source: 3 }],
+        },
+        {
+          who: "Richard C. Hall",
+          stake:
+            "An American historian of the Balkan wars, outside the national traditions.",
+          says: "Bulgarian troops brutally suppressed the revolt.",
+          refs: [{ source: 4 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, the plan made sense from Salonika. A rising timed to the Allied offensive could cut the railways behind the enemy just when it mattered. But the command could not reach the people it was counting on, could not protect them, and did not control the things that would decide when they rose: the occupiers’ conscription, the local leaders’ impatience, the rumours of a return. It sent one man to hold back a movement that was already moving. The timing was lost before he arrived.",
+          evidence: "interpretation",
+          refs: [{ source: 1 }, { source: 0 }, { source: 2 }],
+        },
+        {
+          text: "The sources agree that the command did not order the rising of 1917. That does not settle its responsibility. By preparing resistance and keeping alive the hope of a return, it raised the stakes for people who would bear the reprisals alone. A command that sends agents into an occupied country has to plan for the rising that comes too early, not only for the one it wants.",
+          evidence: "interpretation",
+          refs: [{ source: 2 }, { source: 1 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "No psychological research read for this volume speaks to why an occupied population rises when it does, and the lesson does not borrow a finding from elsewhere.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No psychological source is offered, and the lesson draws no psychological conclusion.",
+        },
+      ],
+      shadow: {
+        text: "The people left behind paid twice: once under occupation, and again in the reprisals after a rising their own army had not ordered and could not support. Ristović describes deportations to internment camps in Austria-Hungary and Bulgaria, and Tasić Bulgarian policies to erase Serbian identity in the south. A command preparing its return through people it cannot reach owes them, at the least, an honest estimate of when it is coming.",
+        evidence: "interpretation",
+        refs: [{ source: 3 }, { source: 1 }],
+      },
+      counterCase: {
+        text: "The same resistance, at the time the plan intended, did what the command hoped. Tasić writes that despite the defeat of 1917 most of the insurgents kept up a guerrilla campaign that proved extremely valuable when the Allied offensive began in September 1918, and that after the breakthrough Pećanac launched full-scale guerrilla warfare and took many prisoners and much war material. The difference between 1917 and 1918 was not courage. It was whether the army that was meant to arrive was actually coming.",
+        evidence: "interpretation",
+        refs: [{ source: 1 }, { source: 0 }],
+        commanderSlug: "kosta-pecanac",
+        battleSlugs: ["liberation-of-serbia-1918"],
+      },
+      cost: {
+        text: "Civilians in the Toplica region and the south were killed in the suppression, and many more were deported to internment camps. Tasić and Ristović give different figures; none are used here.",
+        evidence: "fact",
+        refs: [{ source: 1 }, { source: 3 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "You depend on people far away who will act on your behalf, and you cannot protect them if it goes wrong.",
+          "Local pressures you do not control may decide when they act.",
+        ],
+        failsWhen: [
+          "Instructions are treated as control, and the plan assumes people will wait as long as you need.",
+          "The people who carry the risk are not told honestly how long they may be on their own.",
+        ],
+        questions: [
+          "Who acts in your name somewhere you cannot see or protect?",
+          "What would make them act before you are ready, and what would you do then?",
+          "What have you told them about when help will come?",
+        ],
+      },
+      bearsOn:
+        "Toplica is the volume’s clearest case of endurance spent rather than kept: the resistance the command prepared rose too early and was crushed, and the people of the occupied south paid. It also shows the limits of command from a distance. On who decided, the sources agree the rising was not ordered by the Supreme Command, but its envoy and its promise of return were part of the story.",
+      questions: [
+        {
+          prompt:
+            "What were Pećanac’s instructions when he was sent into Serbia in 1916?",
+          choices: [
+            "To start an uprising at once.",
+            "To prepare resistance and attacks on communications for the Allied breakthrough, not before the main assault from the south.",
+            "To negotiate with the Bulgarians.",
+          ],
+          answer: 1,
+          explanation:
+            "Tasić and Bjelajac agree he was meant to wait for the offensive.",
+        },
+        {
+          prompt:
+            "What set off the mass rising early in 1917, according to Tasić?",
+          choices: [
+            "An order from Salonika.",
+            "Bulgarian attempts to conscript young Serbian men.",
+            "The arrival of Allied troops.",
+          ],
+          answer: 1,
+          explanation:
+            "The occupiers’ policy and local leaders’ impatience decided the timing.",
+        },
+        {
+          prompt:
+            "What does Tasić say the guerrilla campaign achieved in September 1918?",
+          choices: [
+            "Nothing; it had been destroyed.",
+            "It proved extremely valuable when the Allied offensive began.",
+            "It started the offensive.",
+          ],
+          answer: 1,
+          explanation:
+            "At the time the plan intended, the same resistance helped instead of being crushed.",
+        },
+      ],
+      sourceCheck: {
+        question: "Who started the Toplica uprising?",
+        witnesses: [
+          {
+            label: "Dmitar Tasić, on Pećanac",
+            claim:
+              "Other chetnik leaders insisted on immediate action, despite Pećanac’s precise instructions.",
+          },
+          {
+            label: "Dmitar Tasić, on the war",
+            claim:
+              "Bulgarian attempts to conscript Serbian youths led to an open mass uprising.",
+          },
+          {
+            label: "Mile Bjelajac",
+            claim:
+              "Kosta Vojinović called for a rising in October 1916; Pećanac joined reluctantly.",
+          },
+        ],
+        prompt: "What can a careful reader say?",
+        options: [
+          {
+            text: "That the Supreme Command ordered it from Salonika.",
+            feedback:
+              "Every source read says the envoy was told to wait for the Allied offensive.",
+          },
+          {
+            text: "That occupation policy and local leaders set it off, against the envoy’s instructions, and that the command’s preparations and promises were part of the background.",
+            feedback:
+              "This keeps the occupiers’ conscription, the local leaders and the command’s part in view together.",
+            best: true,
+          },
+          {
+            text: "That Pećanac started it, since he was the command’s man.",
+            feedback:
+              "Tasić says the other leaders acted against his instructions; Bjelajac that he joined reluctantly.",
+          },
+        ],
+        battleSlug: "toplica-uprising",
+      },
+      seminar: {
+        prompt:
+          "The Supreme Command did not order the Toplica rising. How much of its cost should it carry?",
+        guidance:
+          "Separate what the command did, sending an envoy and promising a return, from what it did not control, Bulgarian conscription and local leaders. Then compare 1918, when the same resistance helped, and ask what had changed.",
+      },
+      sources: [s.pecanac, s.tasic, s.bjelajac, s.ristovic, s.hall],
+    },
+    {
+      slug: "the-ledger-of-survival",
+      title: "The ledger of survival: what endurance cost, and who else paid",
+      part: "The return",
+      themes: ["ethics", "judgement"],
+      claim:
+        "When endurance itself is the achievement, its account has to include those who paid for it without choosing to: civilians, prisoners, the people of the lands the army fought over, and the soldiers themselves.",
+      inBrief: {
+        strength:
+          "A small state lost its whole territory, kept its army and government in being, and returned in 1918.",
+        shadow:
+          "Epidemic, occupation, reprisal and exile fell on people who had no say, and the state that came out of the war soon became a royal dictatorship.",
+      },
+      moment: {
+        text: "In May 1915 Monica Stanley, who ran the kitchens of a women’s field hospital sent out under the Serbian Relief Fund, was at Kragujevac. She wrote that a roadside dispensary had been opened near the hospital and that people came from miles away with diphtheria, typhoid, typhus, scarlet fever and consumption; the civilian population, she wrote, was suffering terribly and had been badly neglected. One girl had walked twenty miles for medicine for her father, mother, sister and brother, all down with typhus. A few days later she walked to a cemetery with thousands of small wooden crosses for the soldiers who fell in the last battle and those who died of typhus, where Austrian prisoners were digging rows of new graves.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "3–7 May 1915" }],
+      },
+      episodes: [
+        {
+          title: "The epidemic",
+          text: "Every historian read for this volume records the epidemic of the winter of 1914–1915, and none calls it by the same name: Bjelajac says typhus, Tasić typhoid fever, Hall cholera and typhus. Tasić writes that it crippled the army’s medical staff and killed soldiers, civilians and Austro-Hungarian prisoners alike; Bjelajac counts it among the worst losses of life of the early war. The victories of 1914 had brought the prisoners into the country and the disease went through all of them.",
+          evidence: "fact",
+          refs: [{ source: 1 }, { source: 2 }, { source: 3 }],
+          battleSlugs: ["kolubara"],
+        },
+        {
+          title: "Under occupation",
+          text: "From late 1915 Serbia was divided between Austro-Hungarian and Bulgarian occupation. Ristović writes that the deportation of civilians, which began in 1914, snowballed after Romania entered the war and after the Toplica uprising, with people of both sexes and all ages sent to internment camps in Austria-Hungary and Bulgaria, some on to forced labour as far as the Ottoman Empire; disease, hunger and the war’s losses left the occupied lands severely depopulated. Tasić describes a Bulgarian policy of erasing Serbian identity in the south: the Cyrillic alphabet, Serbian names and folklore banned, Bulgarian teachers and priests brought in, and Serbian teachers and priests interned.",
+          evidence: "fact",
+          refs: [{ source: 4 }, { source: 2 }],
+          battleSlugs: [],
+          campaignSlugs: ["occupation-of-serbia"],
+        },
+        {
+          title: "Victims of both armies",
+          text: "The ledger runs both ways. Reiss documented on the spot the atrocities committed against Serbian civilians in the first invasion of 1914, in a report submitted to the Serbian government. The Carnegie Commission, reporting in 1914 on the Balkan Wars, printed an account from a Bulgarian newspaper that in September 1913 the Serbian army carried off the herds of the Dibra highlands, burned a series of villages, killed women, children and old people, and killed notables held in the town; the commission could not verify it but saw no reason to doubt it. The army whose endurance this volume studies had, a year before the war, been the perpetrator.",
+          evidence: "fact",
+          refs: [{ source: 5 }, { source: 6, locator: "p. 150" }],
+          battleSlugs: ["cer"],
+        },
+        {
+          title: "What the victory built",
+          text: "Britannica writes that as prince regent, Alexander proclaimed the Kingdom of Serbs, Croats and Slovenes on 1 December 1918. In 1917, in exile, he had brought the Black Hand’s leaders to trial on charges Britannica calls dubious. As king, faced with a parliament he could neither reconcile nor work with, he dissolved it in January 1929, abolished the constitution and established a royal dictatorship, and in trying to unify his subjects he created, Britannica says, a police state that needed military support to survive. Britannica adds that his measures were at first well received, and that by 1932 demands for a return to democratic government had grown.",
+          evidence: "fact",
+          refs: [{ source: 7 }, { source: 8 }],
+          battleSlugs: ["liberation-of-serbia-1918"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Monica Stanley",
+          stake:
+            "An English volunteer with a field hospital of the Serbian Relief Fund, writing a diary of sympathy for her hosts.",
+          says: "Civilians were suffering terribly and neglected; typhus filled the dispensary and the cemeteries.",
+          refs: [{ source: 0, locator: "3–7 May 1915" }],
+        },
+        {
+          who: "Milan Ristović",
+          stake: "A Serbian historian of the occupation regimes.",
+          says: "Deportations to internment camps snowballed in 1916 and 1917, and the occupied lands were severely depopulated.",
+          refs: [{ source: 4 }],
+        },
+        {
+          who: "The Carnegie Commission",
+          stake:
+            "An international inquiry funded from the United States, recording crimes by every army in the Balkan Wars.",
+          says: "An account it could not verify but saw no reason to doubt: in 1913 the Serbian army burned Albanian villages around Dibra and killed their inhabitants.",
+          refs: [{ source: 6, locator: "p. 150" }],
+        },
+        {
+          who: "Britannica",
+          stake: "A general reference on the regent and king.",
+          says: "Alexander proclaimed the new kingdom in 1918 and established a royal dictatorship in 1929.",
+          refs: [{ source: 8 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "This volume asked whether Serbia’s commanders made its endurance, or kept from wasting it. Lesson by lesson, the second answer has been stronger. At Cer they waited until they knew where to strike; at Kolubara they gave up the capital rather than the army; in November 1915 they chose the army over a last stand or a capitulation; on Corfu and at Dobro Pole they rebuilt and returned with their allies. In each case the endurance itself came from soldiers and civilians, the means from allies, and much of the opportunity from the enemy’s mistakes.",
+          evidence: "interpretation",
+          refs: [{ source: 1 }, { source: 2 }, { source: 3 }],
+        },
+        {
+          text: "They also spent it. They attacked across the Sava under allied pressure with an army short of everything; they waited for help in November 1915 longer than the army could bear; they prepared a rising they could not time or protect; and the government in exile removed rivals by a trial that a Belgrade court reversed in 1953. A fair account gives the commanders credit for refusing the obvious ways to lose, and does not give them the endurance that others supplied.",
+          evidence: "interpretation",
+          refs: [{ source: 1 }, { source: 7 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "The other volumes’ ledgers raised questions of moral disengagement. This one leaves psychology out: its question is who paid and who keeps the account, which is the historian’s, and no research read for this volume measures it.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No psychological source is offered, and the lesson draws no psychological conclusion.",
+        },
+      ],
+      shadow: {
+        text: "This ledger is incomplete too. No Albanian account of 1915 or 1918 beyond the Carnegie report was read for this volume; the Bulgarian and Austro-Hungarian civilians’ experience appears only through their governments’ policies; and the sources’ figures disagree so widely that none are used. The Ministry of Defence still lays a wreath at sea off Vido for the soldiers buried there after the retreat. Commemoration keeps the debt to its own dead; a ledger has to keep the others as well.",
+        evidence: "interpretation",
+        refs: [{ source: 6, locator: "p. 150" }, { source: 9 }],
+      },
+      counterCase: {
+        text: "Bulgaria endured too. Hall writes that it had been at war more or less since 1912, that by the eve of Dobro Pole virtually every Bulgarian man of military age was in uniform, and that for almost three years its army held a large Entente force north of Salonika; without it, he argues, the Central Powers might not have lasted until the autumn of 1918. Its endurance ended differently: soldiers worn out by hunger, poor clothing and fear for their families refused their officers, marched on their own capital and proclaimed a republic at Radomir. Endurance on both sides of the front was paid for by the same kind of people. What decided its meaning was whether they still believed in what it was for.",
+        evidence: "interpretation",
+        refs: [{ source: 10 }, { source: 3 }],
+        battleSlugs: ["dobro-pole"],
+      },
+      cost: {
+        text: "The account includes soldiers of every army on this front; civilians in Serbia under epidemic, occupation, deportation and reprisal; Austro-Hungarian prisoners who died of disease and on the retreat; Albanian villagers in 1913; and officers executed after the Salonika trial. The sources give figures that disagree, and none are used here.",
+        evidence: "fact",
+        refs: [
+          { source: 1 },
+          { source: 4 },
+          { source: 6, locator: "p. 150" },
+          { source: 7 },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "Your organisation’s story is one of surviving against the odds.",
+          "Others paid part of the price without having a say in the decisions.",
+        ],
+        failsWhen: [
+          "Survival is told as the leaders’ achievement alone.",
+          "The account includes only your own losses, or only the enemy’s crimes.",
+        ],
+        questions: [
+          "Who paid for your organisation’s survival without having chosen to?",
+          "What did your organisation do, in its own hard years, that its story leaves out?",
+          "What did the survivors build afterwards, and was it what they had endured for?",
+        ],
+      },
+      bearsOn:
+        "This lesson gives the volume’s answer. The commanders of the Serbian Supreme Command did not make Serbia’s endurance; soldiers, civilians and allies did, and the enemy’s mistakes helped. What the commanders did, more often than not, was to keep it from being wasted, by refusing to spend the army on a capital, a last stand or a capitulation. They also spent it, and the record of that, from Syrmia to Toplica to Salonika, belongs in the same account. On who decided, the honest answer is several people at once, and the sources often cannot say which.",
+      questions: [
+        {
+          prompt: "What did Monica Stanley record at Kragujevac in May 1915?",
+          choices: [
+            "A quiet front with little disease.",
+            "Civilians with typhus and other diseases coming from miles away, and cemeteries where Austrian prisoners dug new graves.",
+            "The arrival of the Bulgarian army.",
+          ],
+          answer: 1,
+          explanation:
+            "A volunteer’s diary is a witness to the epidemic’s reach beyond the army.",
+        },
+        {
+          prompt:
+            "What does the Carnegie Commission report about the Serbian army in 1913?",
+          choices: [
+            "That it committed no crimes.",
+            "An account, which the commission could not verify but did not doubt, of villages burned and inhabitants killed around Dibra.",
+            "That it protected Albanian villages.",
+          ],
+          answer: 1,
+          explanation:
+            "The ledger includes what the army did as well as what was done to it.",
+        },
+        {
+          prompt: "How does this volume answer its own question?",
+          choices: [
+            "The commanders made Serbia’s endurance.",
+            "The commanders mostly kept Serbia’s endurance from being wasted, and sometimes spent it; the endurance came from others.",
+            "The commanders wasted everything.",
+          ],
+          answer: 1,
+          explanation:
+            "Credit for refusing the obvious ways to lose; no credit for what soldiers, civilians and allies supplied.",
+        },
+      ],
+      sourceCheck: {
+        question: "What was the epidemic of 1914–1915?",
+        witnesses: [
+          {
+            label: "Mile Bjelajac",
+            claim: "Typhus.",
+          },
+          {
+            label: "Dmitar Tasić",
+            claim: "Typhoid fever.",
+          },
+          {
+            label: "Richard C. Hall",
+            claim: "Cholera and typhus.",
+          },
+        ],
+        prompt: "How should a writer name it?",
+        options: [
+          {
+            text: "Choose the most common name and use it throughout.",
+            feedback:
+              "That hides a real disagreement among the sources, and perhaps several diseases at once.",
+          },
+          {
+            text: "Use each source’s own word when reporting it, and say that they differ.",
+            feedback:
+              "The diseases were often confused at the time; reporting the difference is more honest than resolving it.",
+            best: true,
+          },
+          {
+            text: "Avoid naming it at all.",
+            feedback:
+              "The epidemic is central to the cost of 1915; leaving it vague would shrink the ledger.",
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Write the ledger of Serbia’s war in two columns: what the commanders preserved, and what others paid. Which column is longer, and whose entries are missing?",
+        guidance:
+          "Use the witnesses from every lesson in the volume, including the enemy’s files and the Carnegie report. Mark entries for which no source was read, and leave figures out.",
+      },
+      sources: [
+        s.stanley,
+        s.bjelajac,
+        s.tasic,
+        s.hall,
+        s.ristovic,
+        s.reiss,
+        s.carnegie,
+        s.blackHand,
+        s.alexander,
+        s.modVido,
+        s.hallBulgaria,
+      ],
+    },
   ],
-  inProgress:
-    "Nine of the twelve lessons are published. The rest are added in reviewed batches.",
 };

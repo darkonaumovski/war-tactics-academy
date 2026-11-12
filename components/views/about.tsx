@@ -54,12 +54,13 @@ export function AboutPage() {
         <h2>Leadership lessons</h2>
         <p>
           Each leadership lesson tests one conditional claim against a single
-          career and says when it fails. A historian, a strategist and a
+          career, or a single shared command, and says when it fails. A historian, a strategist and a
           psychologist read the same events separately; the psychological
           readings are always labelled as interpretation, state how far the
           research behind them reaches, and never diagnose anyone. Every lesson
           keeps the human cost in view. Sayings that cannot be traced to a named
-          origin are left out, and one career cannot prove a rule. Where the
+          origin are left out, and one record cannot prove a rule. Where
+          command was shared, each lesson asks who actually decided. Where the
           record was written centuries after the events, each lesson names the
           witnesses it depends on, and speeches composed by ancient historians
           are treated as their authors’ work, not as the speakers’ words.

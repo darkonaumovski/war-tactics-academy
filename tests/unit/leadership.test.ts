@@ -204,8 +204,8 @@ describe("the Western Front volume", () => {
   it("is found from both of its commanders", () =>
     expect(volumeForCommander("ferdinand-foch")).toBe(volume));
 
-  it("lists its lessons so far in curriculum order", () => {
-    expect(volume?.inProgress).toBeTruthy();
+  it("lists its lessons in curriculum order", () => {
+    expect(volume?.inProgress).toBeUndefined();
     expect(volume?.lessons.map((l) => l.slug)).toEqual([
       "how-to-read-the-western-front",
       "the-doctrine-before-the-war",
@@ -217,6 +217,8 @@ describe("the Western Front volume", () => {
       "coordination-by-persuasion",
       "knowing-when-to-switch",
       "the-general-battle",
+      "how-to-end-it",
+      "the-ledger-of-learning",
     ]);
   });
 });
@@ -298,7 +300,7 @@ describe("links from the rest of the site", () => {
     ).toEqual(["when-the-leader-leaves"]);
     expect(
       counterCaseLessons("paul-von-hindenburg").map((x) => x.lesson.slug),
-    ).toEqual(["who-decided"]);
+    ).toEqual(["who-decided", "how-to-end-it"]);
     expect(
       counterCaseLessons("erich-von-falkenhayn").map((x) => x.lesson.slug),
     ).toEqual(["after-the-chief", "why-the-somme-went-on"]);

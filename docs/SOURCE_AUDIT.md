@@ -1405,3 +1405,24 @@ Corrections made while writing:
 Counter-cases: Pershing (coordination), Ludendorff (Amiens, his third appearance in the volume, each on a different decision: his record, his tactics, his refusal to switch) and Monash (the general battle). The Ypres episode links the First Ypres study.
 
 Word counts: the three lessons run to about 1,300 words, below the template's guide of 1,400 to 1,600; nothing was added to reach it.
+
+## Leadership Lessons from Foch and Haig: batch W4, the armistice and the ledger (12 November 2026)
+
+Two lessons in `data/leadership/douglas-haig.ts` complete the volume (twelve lessons; `inProgress` removed): how to end it (the armistice terms) and the ledger of learning, which answers the volume's question.
+
+| Tier          | Sources                                                                                                                                                                                                                                                                |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Primary texts | Foch's _Memoirs_ (pp. 535–542, Senlis on 25 October and the meetings of 1–2 November 1918); Haig's despatches (p. 126; p. 298 and its footnote on the armistice; pp. 315–316 and 320–330 of the final despatch)                                                        |
+| Reference     | Britannica on Hindenburg (Andreas Dorpalen), with the articles on Foch, Haig, Ludendorff, Pershing, Pétain and Passchendaele already read; all in the built-in browser                                                                                                 |
+| Other         | Romain Ducoulombier's review of André Loez's history of the 1917 mutinies (_La Vie des idées_, 21 April 2010, in French), re-read for this batch; the Armed Forces Act 2006, section 359 (legislation.gov.uk); the National Army Museum on Haig; Pedersen and Philpott |
+| Psychology    | Baron and Hershey (1988), abstract, re-used for the ledger; the armistice lesson offers no mechanism (`base: "none"`)                                                                                                                                                  |
+
+Corrections made while writing:
+
+- Witness descriptions first called Görlitz "a German historian of the general staff" and Dorpalen "a historian of Hindenburg's presidency", and said Foch wrote "as the Rhine settlement was being contested"; none of this is in a source read, and each now says only what is known (the authors of Britannica's articles; Foch writing in the 1920s).
+- The ledger first said Haig "founded" the British Legion; the National Army Museum speaks of his involvement in its founding and Britannica says he organised it. Both wordings are now attributed.
+- The ledger's source check first gave the National Army Museum's Haig page a sentence ("no real alternative") from its Somme page, which the lesson does not cite; it now gives the Haig page's own sentence on historians who blame trench warfare.
+
+Counts: Hindenburg is now the counter-case of two lessons, in the Serbian volume and this one; Pétain of two in this volume (Doullens and the ledger, on different decisions). The unit and end-to-end tests now expect a complete twelve-lesson volume.
+
+The volume answers its question in the ledger: the generals learned, unevenly and late, much of the learning was done below and beside them, and the soldiers paid both for the learning and for its slowness. Its Phase 3 integration is next.

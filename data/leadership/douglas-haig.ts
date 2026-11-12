@@ -89,6 +89,23 @@ const s = {
     url: "https://pubmed.ncbi.nlm.nih.gov/35719269/",
     publisher: "The Leadership Quarterly",
   },
+  britHindenburg: {
+    title: "Paul von Hindenburg (Andreas Dorpalen)",
+    url: "https://www.britannica.com/biography/Paul-von-Hindenburg",
+    publisher: britannica,
+  },
+  ducoulombier: {
+    title:
+      "Romain Ducoulombier, Une nouvelle histoire des mutineries de 1917 (2010), a review of André Loez, 14-18. Les refus de la guerre, in French",
+    url: "https://laviedesidees.fr/Une-nouvelle-histoire-des",
+    publisher: "La Vie des idées",
+  },
+  pardons: {
+    title:
+      "Armed Forces Act 2006, section 359: Pardons for servicemen executed for disciplinary offences: recognition as victims of First World War",
+    url: "https://www.legislation.gov.uk/ukpga/2006/52/section/359",
+    publisher: "legislation.gov.uk",
+  },
   britPershing: {
     title: "John J. Pershing",
     url: "https://www.britannica.com/biography/John-J-Pershing",
@@ -2292,7 +2309,433 @@ export const westernFrontVolume: LeadershipVolume = {
         s.britPershing,
       ],
     },
+    {
+      slug: "how-to-end-it",
+      title: "How to end it: the armistice terms, October and November 1918",
+      part: "Ending and accounting",
+      themes: ["judgement", "restraint"],
+      claim:
+        "When a beaten enemy asks for terms, the commander’s judgement of how beaten it is shapes the peace as much as the battles did, and both moderation and severity carry risks the victor cannot fully see.",
+      inBrief: {
+        strength:
+          "Haig argued for terms the enemy would accept; Foch secured terms that left Germany unable to resume the war, and warned against demands that would cost lives for little gain.",
+        shadow:
+          "Haig underestimated how far the German army had collapsed, and the armistice ended the fighting without ending the claim that the German army had not been beaten.",
+      },
+      moment: {
+        text: "On the afternoon of 25 October 1918 Foch called the commanders-in-chief to his headquarters at Senlis and asked each in turn what the armistice conditions should be. Haig spoke first. In his opinion, Foch writes, the German army as a whole was not so broken that it could not still offer serious resistance; it could retire to the German frontier and defend it against equal or even superior forces. The British army was under strength, the French army exhausted and the American army incompletely organised. The conditions should therefore be moderate: the evacuation of Belgium and occupied France and of Alsace-Lorraine, with Metz and Strasbourg delivered to the Allies, and the return of rolling stock and civilians.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "pp. 535–537" }],
+      },
+      episodes: [
+        {
+          title: "Four answers at Senlis",
+          text: "Pétain proposed that the Allies occupy the left bank of the Rhine, with bridgeheads on the right bank, and that Germany surrender locomotives and railway trucks. Pershing judged the military situation most favourable and proposed severe conditions, among them withdrawal to the right bank of the Rhine and the surrender of all submarines. Foch found Haig’s reasons not well founded. In a few months, he writes, the German army had lost an enormous amount of ground, prisoners and material; it was a beaten army and must be badly shaken. Victorious forces are never fresh, he answered, and the victor often loses as heavily as the vanquished, but that did not mean the Germans were anything but thoroughly disorganised. The draft conditions included the evacuation of the left bank of the Rhine and Allied bridgeheads across it.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "pp. 537–538" }],
+          battleSlugs: [],
+        },
+        {
+          title: "The Rhine and the naval clauses",
+          text: "On 1 November the heads of the Allied governments examined the terms, and Haig repeated his view of 25 October, which, Foch writes, evidently expressed the opinion of Lloyd George and his colleagues. Foch argued that halting the Allied armies at the frontiers, with the Rhine in front of them, would leave Germany free to re-form its armies while peace was negotiated and to resume the fighting if it rejected the terms; his thesis was accepted. When the naval clauses grew so heavy that Germany might refuse the whole armistice, he warned the governments of the responsibility they would bear if more men had to be killed to win naval material of no value to the land operations. He was told to insert the clauses anyway. The Germans accepted everything.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "pp. 540–542" }],
+          battleSlugs: [],
+        },
+        {
+          title: "The end in the field",
+          text: "At 11 a.m. on 11 November, Haig’s despatch records, hostilities were suspended on the instructions of the Allied commander-in-chief. By then, it says, the enemy was capable neither of accepting nor refusing battle, and a continuance of hostilities could only have meant disaster for the German armies. A footnote gives the reasons for not fighting on: supply difficulties would have greatly delayed the advance, widespread damage and further casualties would have followed, and the armistice in effect amounted to complete surrender. The final despatch adds that an advance against opposition would have caused immense loss of property and incalculable suffering to the inhabitants of Belgium, France and Luxembourg. Britannica writes that Foch dictated the conditions at Rethondes and returned to Metz on 26 November.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "pp. 298, 315–316" }, { source: 2 }],
+          battleSlugs: ["meuse-argonne"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Ferdinand Foch, Memoirs",
+          stake: "The author of the terms, writing in the 1920s.",
+          says: "Haig’s reasons for moderation were not well founded; the German army was beaten and disorganised, and the Rhine had to be held.",
+          refs: [{ source: 0, locator: "pp. 537, 541–542" }],
+        },
+        {
+          who: "Haig’s despatch",
+          stake:
+            "The British commander-in-chief, writing after the war was won.",
+          says: "By 11 November the enemy could neither accept nor refuse battle; the armistice amounted to complete surrender, gained more quickly and at less cost than by fighting.",
+          refs: [{ source: 1, locator: "p. 298" }],
+        },
+        {
+          who: "Walter Görlitz, in Britannica",
+          stake: "The author of Britannica’s article on Ludendorff.",
+          says: "Ludendorff demanded an armistice, then wanted the war carried on when he saw its terms, and afterwards blamed a stab in the back.",
+          refs: [{ source: 4 }],
+        },
+        {
+          who: "Andreas Dorpalen, in Britannica",
+          stake: "The author of Britannica’s article on Hindenburg.",
+          says: "When the high command conceded defeat, Hindenburg let Ludendorff take the blame.",
+          refs: [{ source: 3 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "On 25 October Haig could see an army of his own that was under strength, an ally he thought exhausted, and an American army that was still learning in the Meuse-Argonne. He weighed the risk that harsh terms would be refused and the fighting go on into 1919. Foch weighed the opposite risk, that moderate terms would let Germany re-form behind the Rhine. Both risks were real, and only one could be tested: Germany accepted everything. The despatch Haig wrote afterwards describes an enemy that could neither accept nor refuse battle, which is not the army he had described at Senlis.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "pp. 536–537, 541" },
+            { source: 1, locator: "p. 298" },
+            { source: 6 },
+          ],
+        },
+        {
+          text: "Ending a war also means deciding what the enemy will be able to tell itself about it. Görlitz writes that Ludendorff, having demanded immediate negotiations, insisted on fighting on once he saw how severe the terms were, and afterwards spread the legend that the army, undefeated in the field, had been betrayed at home. No source read here says whether different terms, or an advance into Germany, would have prevented that legend; Haig’s despatch counts the cost such an advance would have had for the people of the invaded countries.",
+          evidence: "interpretation",
+          refs: [{ source: 4 }, { source: 1, locator: "pp. 315–316" }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "No reliable mechanism offered",
+          base: "none",
+          text: "It would be easy to explain Haig’s caution or Foch’s firmness by a trait of character, and no source read here supports either. The minutes of Senlis, as Foch reports them, show four commanders reasoning from different information and different national interests; the lesson relies on that record.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No psychological claim is made. Foch’s account of the meeting is the only one read, and he was a party to it.",
+        },
+      ],
+      shadow: {
+        text: "A judgement of the enemy’s strength can fail in either direction, and Haig’s did both. At Passchendaele in October 1917, Britannica writes, he told the government that German resistance might break at any moment, and it did not. At Senlis in October 1918 he said the German army could still defend its frontier, and within days, by his own despatch, it could neither accept nor refuse battle. The estimate that matters most at the end of a war is the hardest to make, because the evidence of collapse arrives last.",
+        evidence: "interpretation",
+        refs: [
+          { source: 5 },
+          { source: 0, locator: "p. 536" },
+          { source: 1, locator: "p. 298" },
+        ],
+      },
+      counterCase: {
+        text: "Hindenburg ended the war from the losing side, and how he did it outlasted the armistice. Dorpalen writes in Britannica that when the high command conceded defeat, Hindenburg let Ludendorff take the blame; he then directed the withdrawal of the German forces from France and Belgium, had his staff suppress left-radical risings at home, preserved the old officer corps and retired in 1919 to cultivate his image as a nonpartisan national hero. Görlitz adds that the emperor ordered Hindenburg to remain at his post when Ludendorff resigned. A commander who does not own a defeat leaves the account of it to others, and in Germany the account that prevailed was the legend Ludendorff spread.",
+        evidence: "interpretation",
+        refs: [{ source: 3 }, { source: 4 }],
+        commanderSlug: "paul-von-hindenburg",
+        battleSlugs: ["operation-michael"],
+      },
+      cost: {
+        text: "The last weeks were paid for by troops at the end of failing supply lines. Haig’s final despatch records that leading divisions were denied for long periods anything beyond bare necessities, and that on more than one occasion the only food was the day’s ration carried on the man; the British army also fed nearly 800,000 civilians in the liberated districts of France alone. An advance into Germany, the despatch says, would have added immense loss and incalculable suffering for the inhabitants of the invaded countries.",
+        evidence: "fact",
+        refs: [{ source: 1, locator: "pp. 315–316" }],
+      },
+      transfer: {
+        holdsWhen: [
+          "An opponent or rival has asked for terms, and you must judge how weak they really are.",
+          "Your own side is tired, and the temptation is either to settle cheaply or to demand everything.",
+        ],
+        failsWhen: [
+          "The opponent is not really beaten and is using talks to recover.",
+          "The terms are set by others, and the commander’s view is only one input among many.",
+        ],
+        questions: [
+          "When you last settled a conflict, how did you judge how much the other side could still do?",
+          "Which of your demands would cost more to win than it is worth?",
+          "What will the other side be able to tell itself about how the conflict ended?",
+        ],
+      },
+      bearsOn:
+        "The armistice tests learning in an unexpected direction. Haig, so often charged with overestimating the enemy’s weakness, now underestimated it and argued for moderation; Foch, the teacher of will, argued for terms that made renewal impossible and warned against demands that would cost lives for little gain. Both reasoned from 1918, and both counted the cost of going on. Whether the generals learned is answered here by how they stopped as much as by how they fought.",
+      questions: [
+        {
+          prompt:
+            "What did Haig argue at Senlis on 25 October 1918, according to Foch?",
+          choices: [
+            "That Germany should be invaded and occupied.",
+            "That the German army could still offer serious resistance, so the terms should be moderate.",
+            "That the war should continue until 1919 whatever happened.",
+          ],
+          answer: 1,
+          explanation:
+            "He also pointed to the state of the Allied armies; Foch found his reasons not well founded.",
+        },
+        {
+          prompt: "Why did Foch insist on the Rhine?",
+          choices: [
+            "To annex the Rhineland to France.",
+            "Because halting at the frontiers would let Germany re-form its armies behind the river and resume the war if it rejected the peace.",
+            "Because the British government demanded it.",
+          ],
+          answer: 1,
+          explanation:
+            "His aim was a military guarantee for the negotiations, and the governments accepted it.",
+        },
+        {
+          prompt:
+            "What reasons does Haig’s despatch give for not fighting on after the armistice?",
+          choices: [
+            "That the troops had mutinied.",
+            "Supply difficulties, damage to the countries crossed, further casualties, and the fact that the armistice amounted to complete surrender.",
+            "That the Americans refused to advance.",
+          ],
+          answer: 1,
+          explanation:
+            "The despatch counts the cost of going on for soldiers and for the civilians of the invaded countries.",
+        },
+      ],
+      seminar: {
+        prompt:
+          "At Senlis four commanders gave four answers to the same question. Choose the one you would have backed on 25 October 1918, using only what was known that day, and say what would have had to be true for it to be the right choice.",
+        guidance:
+          "Weigh the state of each army, the risk of refusal and the risk of renewal. Remember that Foch’s account is the only one read here, and that he was arguing for the terms he got.",
+      },
+      sources: [
+        s.fochMemoirs,
+        s.despatches,
+        s.britFoch,
+        s.britHindenburg,
+        s.britLudendorff,
+        s.britPasschendaele,
+        s.britPershing,
+      ],
+    },
+    {
+      slug: "the-ledger-of-learning",
+      title: "The ledger of learning: what it cost, and who paid",
+      part: "Ending and accounting",
+      themes: ["ethics", "judgement"],
+      claim:
+        "When a leader says the price of learning was unavoidable, the account has to separate the costs that bought the learning from those that bought nothing, and count those who paid without having a say.",
+      inBrief: {
+        strength:
+          "An army transformed, a coalition welded under one direction, and a war ended in 1918.",
+        shadow:
+          "A price paid by soldiers of many nations, part of it for lessons an ally already knew and part for nothing; the executed were pardoned in 2006 with their convictions left standing.",
+      },
+      moment: {
+        text: "Haig’s final despatch ends its account of the war with a verdict. The rapid collapse of Germany’s military power in the second half of 1918, it says, was the logical outcome of the fighting of the previous two years, and would not have taken place but for that period of ceaseless attrition, which used up the German reserves while the blockade sapped the strength of the German people. It is in the great battles of 1916 and 1917, he wrote, that we have to seek for the secret of our victory in 1918. In the wearing-out stage, he had written a few pages earlier, the price of victory is paid, and there is no way of avoiding it.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "pp. 320, 325–326" }],
+      },
+      episodes: [
+        {
+          title: "The commander’s account",
+          text: "Haig’s despatch claims more than attrition. The battles of 1916 and 1917, it says, gave British soldiers a moral superiority over the German soldier that lasted to the end, even through March and April 1918. It also draws lessons that sit uneasily beside the rest of the record: the decision to keep the cavalry corps had been completely justified, and the idea that a war can be won by standing on the defensive is a dangerous fallacy. Britannica judges that Third Ypres, though it failed to reach the Belgian coast, weakened the Germans and helped prepare their defeat in 1918; the National Army Museum says a more professional and effective army emerged from the Somme and Passchendaele.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "pp. 325–327" },
+            { source: 2 },
+            { source: 1 },
+          ],
+          battleSlugs: ["somme", "passchendaele"],
+        },
+        {
+          title: "The army that refused",
+          text: "The French army reached a limit the British never did. Ducoulombier’s review of André Loez’s history of the 1917 mutinies describes them as a social movement in wartime, not a passing fit of fatigue, carried out mostly by young and relatively educated soldiers rather than habitual troublemakers. The wave of collective disobedience, he writes, imposed a halt to French offensives until the autumn, against Pétain’s wishes. Haig’s despatches register the same fact from outside: a footnote of 1919 lists, among the reasons for continuing Third Ypres, that the fighting capacity of the French armies was seriously diminished by grave internal troubles.",
+          evidence: "fact",
+          refs: [{ source: 4 }, { source: 0, locator: "p. 126" }],
+          battleSlugs: [],
+        },
+        {
+          title: "The executed and the pardoned",
+          text: "The British army executed soldiers convicted of disciplinary offences during the war. In 2006 Parliament passed a section of the Armed Forces Act headed as pardons for servicemen executed for disciplinary offences, and recognising them as victims of the First World War. It covers anyone executed for offences committed between August 1914 and the armistice, among them cowardice, desertion, mutiny, disobedience and a sentry sleeping at his post. Each is taken to be pardoned. The section also states that the pardon does not affect any conviction or sentence, and gives rise to no right or entitlement.",
+          evidence: "fact",
+          refs: [{ source: 5 }],
+          battleSlugs: [],
+        },
+        {
+          title: "Those who paid from outside",
+          text: "The price was not paid by the British alone. At Passchendaele, Britannica writes, Australian and New Zealand divisions were sent in beside the worn-out British, and the Canadians after them; Currie had predicted their cost almost exactly. Pedersen writes that the Australian Corps came out of the line in October 1918 badly depleted and totally exhausted. In the liberated districts of France, Haig’s final despatch records, the British army fed nearly 800,000 civilians, and it counts the incalculable suffering that a fighting advance would have brought to the inhabitants of the invaded countries.",
+          evidence: "fact",
+          refs: [
+            { source: 6 },
+            { source: 7 },
+            { source: 0, locator: "pp. 315–316" },
+          ],
+          battleSlugs: ["passchendaele"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Haig’s final despatch",
+          stake: "The commander whose decisions it judges, writing in 1919.",
+          says: "The victories of 1918 depended on the attrition of 1916 and 1917; the price could not be avoided.",
+          refs: [{ source: 0, locator: "pp. 320, 326" }],
+        },
+        {
+          who: "The National Army Museum",
+          stake: "A national museum summarising a contested reputation.",
+          says: "A more professional army emerged; Haig’s part in founding the British Legion showed concern for ex-servicemen; the popular view is still of an incompetent commander.",
+          refs: [{ source: 1 }],
+        },
+        {
+          who: "William Philpott",
+          stake:
+            "A historian who has re-assessed Haig and criticised the learning curve.",
+          says: "The war’s armies were citizens led by soldiers, not lions led by donkeys.",
+          refs: [{ source: 3 }],
+        },
+        {
+          who: "Romain Ducoulombier, reviewing André Loez",
+          stake:
+            "A French historian reviewing the history of the mutineers rather than the generals.",
+          says: "The soldiers’ refusal, not the commander’s wisdom, stopped the French offensives in 1917.",
+          refs: [{ source: 4 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "The volume’s evidence lets the price be divided. Part of it bought the learning: the first day of the Somme taught methods, and the tanks and the creeping barrage were developed in battle. Part of it was paid for lessons already available: the French sector south of the Somme on 1 July, and Plumer’s limited methods, worked before the British high command adopted them. Part of it bought very little: the last weeks of the Somme, and the deeper attacks at Passchendaele after 4 October 1917, for ground given up in 1918. Haig’s claim that attrition made 1918 possible cannot be tested from the sources read; Britannica partly supports it.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "p. 326" },
+            { source: 6 },
+            { source: 3 },
+            { source: 2 },
+          ],
+        },
+        {
+          text: "The learning was uneven in who did it. Plumer’s army, the Tank Corps staff, Currie and Monash developed the methods; the coalition learned to unite its command in March and April 1918; Foch moved from the decisive blow of his lectures to the general battle; Haig learned, at Amiens, to break off a battle that had lost its purpose. His final despatch shows less change in what he believed: the offensive remained an axiom and the cavalry was vindicated.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "pp. 325–328" }, { source: 3 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Outcome bias in the ledger",
+          base: "single study",
+          text: "Baron and Hershey found that people rate a decision as better thought out when they know its outcome was good, even when they agree that outcomes should not count. The ledger is where that matters most. Victory in 1918 makes the battles of 1916 and 1917 look necessary, which is Haig’s argument; the horror of the first day of the Somme makes everything after it look futile, which is the popular view. A fair account judges each decision by what could be known when it was made.",
+          evidence: "interpretation",
+          refs: [{ source: 8 }],
+          limit:
+            "Only the abstract was read. The participants were undergraduates judging medical and gambling decisions; the study warns about method and cannot weigh lives against lessons.",
+        },
+      ],
+      shadow: {
+        text: "The lessons the commander drew were not always the lessons the army had learned. Haig’s final despatch credits machines with greater driving power but insists that they cannot act independently, calls the cavalry indispensable, and restates the offensive as an axiom. Philpott argues that the real change was a transformation of methods, command and cooperation with allies, much of it worked out below the commander-in-chief. An account written to show that the price was necessary has little room for what was learned too late, or by others.",
+        evidence: "interpretation",
+        refs: [{ source: 0, locator: "pp. 325–330" }, { source: 3 }],
+      },
+      counterCase: {
+        text: "Pétain is remembered as the commander who healed a mutinous army. Georges Blond writes in Britannica that he restored discipline with a minimum of repression, by explaining his intentions to the soldiers and improving their conditions. Ducoulombier’s review of Loez tells it differently: Pétain was named commander-in-chief on 15 May 1917, days before the government learned of the mutinies; the soldiers’ refusals forced the offensives to stop against his wishes; in early June he restored special courts-martial, and executions followed; and repression was held back by the political authorities more than by his moderation. In the French army the soldiers themselves set a limit to the price, and the record gave the credit to the general.",
+        evidence: "interpretation",
+        refs: [{ source: 9 }, { source: 4 }],
+        commanderSlug: "philippe-petain",
+        battleSlugs: [],
+      },
+      cost: {
+        text: "Among those who paid were the soldiers the British army executed for disciplinary offences, pardoned by statute in 2006 with their convictions and sentences left in place, and the French mutineers condemned by the special courts-martial of 1917. The National Army Museum sees in Haig’s part in founding the British Legion a deep concern for the suffering of ex-servicemen, and Britannica records that he organised the Legion and travelled the empire raising money for those in need.",
+        evidence: "fact",
+        refs: [{ source: 5 }, { source: 4 }, { source: 1 }, { source: 2 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "Your organisation’s success was bought with heavy losses, and the people who led it are writing the account.",
+          "Some of those who paid had no say in the decisions that cost them.",
+        ],
+        failsWhen: [
+          "Every cost is treated as avoidable in hindsight, when nobody at the time could have known better.",
+          "The account counts only your own losses, and not the allies, enemies or civilians who also paid.",
+        ],
+        questions: [
+          "Which costs of your organisation’s hardest period bought something, and which bought nothing?",
+          "Who paid part of that price without having a say?",
+          "If your organisation learned something the hard way, who had already learned it, and why did you not listen?",
+        ],
+      },
+      bearsOn:
+        "This lesson answers the volume’s question. The generals did learn, unevenly and late, and much of the learning was done below them, beside them and by their enemies: the methods by armies and corps, the unity of command by a coalition in crisis, and the habit of stopping by Haig himself at Amiens. Was it worth its price? Part of the price bought the learning, part paid for lessons an ally already knew, and part bought very little, and Haig’s claim that all of it was unavoidable does not survive the evidence of 1918, when he showed that a battle could be broken off. Napoleon’s volume concluded that the problem got harder and he made it harder; Alexander’s, that the problem changed and his aims outran his men’s; the Serbian volume, that the commanders kept endurance from being wasted. The Western Front’s answer is that the generals learned, and that the soldiers paid both for the learning and for its slowness.",
+      questions: [
+        {
+          prompt:
+            "Where does Haig’s final despatch say the secret of the 1918 victory is to be found?",
+          choices: [
+            "In the arrival of the Americans.",
+            "In the great battles of 1916 and 1917.",
+            "In the tanks.",
+          ],
+          answer: 1,
+          explanation:
+            "His account makes the attrition of those years the condition of victory, and its price unavoidable.",
+        },
+        {
+          prompt:
+            "What does the 2006 pardon for executed soldiers leave unchanged?",
+          choices: [
+            "Nothing; it quashes every conviction.",
+            "Their convictions and sentences.",
+            "Their regiments’ names.",
+          ],
+          answer: 1,
+          explanation:
+            "The section recognises them as victims of the war and pardons them, without affecting any conviction or sentence.",
+        },
+        {
+          prompt:
+            "What does Ducoulombier’s review of Loez say stopped the French offensives in 1917?",
+          choices: [
+            "Pétain’s decision to rest the army.",
+            "The wave of collective disobedience, against Pétain’s wishes.",
+            "An order from the British.",
+          ],
+          answer: 1,
+          explanation:
+            "The soldiers set the limit, and the record gave the credit to the general.",
+        },
+      ],
+      sourceCheck: {
+        question: "Was the price of the British army’s learning unavoidable?",
+        witnesses: [
+          {
+            label: "Haig’s final despatch",
+            claim:
+              "Yes: in a war of equal forces the wearing-out stage is where the price of victory is paid, and there is no way of avoiding it.",
+          },
+          {
+            label: "William Philpott",
+            claim:
+              "The change was an uneven transformation shared with allies and enemies; on 1 July the French had already shown what enough well-controlled guns could do.",
+          },
+          {
+            label: "The National Army Museum",
+            claim:
+              "Critics say Haig continued Passchendaele long after it was clear to many that men were dying for little gain; some historians blame the losses more on trench warfare and the army’s shortcomings than on individual commanders.",
+          },
+        ],
+        prompt: "How should a reader weigh these answers?",
+        options: [
+          {
+            text: "Accept Haig’s answer, because the war was won.",
+            feedback:
+              "That is the outcome bias the lesson warns against; victory does not show that every cost was needed.",
+          },
+          {
+            text: "Reject it, because the losses were so great.",
+            feedback:
+              "The scale of the loss does not show which decisions could have been different; that needs the evidence of each one.",
+          },
+          {
+            text: "Divide the price: some bought learning, some paid for lessons already known, some bought little, and judge each part by what could be known at the time.",
+            feedback:
+              "That is the strategist’s test applied to the ledger, and it gives a different answer for different years.",
+            best: true,
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "This lesson concludes that the generals learned and that the soldiers paid both for the learning and for its slowness. Make the strongest case for the opposite: that the price could not have been much lower, given what anyone knew.",
+        guidance:
+          "Use Haig’s final despatch, the constraints described in the lessons on the Somme and Passchendaele, and the German army’s own learning. Then test your case against the French sector on 1 July 1916 and against Amiens.",
+      },
+      sources: [
+        s.despatches,
+        s.namHaig,
+        s.britHaig,
+        s.philpott,
+        s.ducoulombier,
+        s.pardons,
+        s.britPasschendaele,
+        s.pedersen,
+        s.baronHershey,
+        s.britPetain,
+      ],
+    },
   ],
-  inProgress:
-    "This volume is being written. Ten of its twelve lessons are published; the others are added in reviewed batches.",
 };

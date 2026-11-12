@@ -558,7 +558,7 @@ test("the Serbian Supreme Command volume is shared by its commanders", async ({
     /\/leadership\/radomir-putnik\/the-capital-or-the-army\/$/,
   );
 });
-test("the Western Front volume opens with its pilot lessons", async ({
+test("the Western Front volume is listed and linked across the site", async ({
   page,
 }) => {
   await page.goto("/leadership/douglas-haig");
@@ -569,8 +569,8 @@ test("the Western Front volume opens with its pilot lessons", async ({
   ).toBeVisible();
   await expect(
     page.getByRole("heading", { name: "A volume in progress" }),
-  ).toBeVisible();
-  await expect(page.getByRole("table").getByRole("row")).toHaveCount(11);
+  ).toHaveCount(0);
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(13);
   await page.goto("/commanders/ferdinand-foch");
   await expect(
     page.getByRole("link", { name: /Leadership Lessons from Foch and Haig/ }),

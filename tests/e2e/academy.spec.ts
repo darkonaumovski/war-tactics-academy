@@ -570,7 +570,7 @@ test("the Western Front volume opens with its pilot lessons", async ({
   await expect(
     page.getByRole("heading", { name: "A volume in progress" }),
   ).toBeVisible();
-  await expect(page.getByRole("table").getByRole("row")).toHaveCount(4);
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(8);
   await page.goto("/commanders/ferdinand-foch");
   await expect(
     page.getByRole("link", { name: /Leadership Lessons from Foch and Haig/ }),

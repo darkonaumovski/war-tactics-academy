@@ -204,11 +204,15 @@ describe("the Western Front volume", () => {
   it("is found from both of its commanders", () =>
     expect(volumeForCommander("ferdinand-foch")).toBe(volume));
 
-  it("lists its pilot lessons in curriculum order", () => {
+  it("lists its lessons so far in curriculum order", () => {
     expect(volume?.inProgress).toBeTruthy();
     expect(volume?.lessons.map((l) => l.slug)).toEqual([
       "how-to-read-the-western-front",
+      "the-doctrine-before-the-war",
       "the-plan-that-was-neither",
+      "why-the-somme-went-on",
+      "what-reaches-the-top",
+      "where-the-learning-happened",
       "the-day-the-front-broke",
     ]);
   });
@@ -294,7 +298,7 @@ describe("links from the rest of the site", () => {
     ).toEqual(["who-decided"]);
     expect(
       counterCaseLessons("erich-von-falkenhayn").map((x) => x.lesson.slug),
-    ).toEqual(["after-the-chief"]);
+    ).toEqual(["after-the-chief", "why-the-somme-went-on"]);
     expect(
       counterCaseLessons("kosta-pecanac").map((x) => x.lesson.slug),
     ).toEqual(["the-people-left-behind"]);

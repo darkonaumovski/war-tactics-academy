@@ -89,6 +89,74 @@ const s = {
     url: "https://pubmed.ncbi.nlm.nih.gov/35719269/",
     publisher: "The Leadership Quarterly",
   },
+  crook: {
+    title:
+      "Peter Crook, Should the Third Battle of Ypres have been called off in October 1917? (27 May 2008)",
+    url: "https://www.westernfrontassociation.com/world-war-i-articles/2008/may/should-the-third-battle-of-ypres-have-been-called-off-in-october-1917/",
+    publisher: "Western Front Association",
+  },
+  principles: {
+    title:
+      "Ferdinand Foch, The Principles of War, trans. Hilaire Belloc (1920), from lectures at the French Staff College first published in 1903",
+    url: "https://archive.org/details/principlesofwar00foch",
+    publisher:
+      "Henry Holt and Company (Internet Archive, Boston Library Consortium copy)",
+  },
+  britJoffre: {
+    title: "Joseph-Jacques-Césaire Joffre",
+    url: "https://www.britannica.com/biography/Joseph-Jacques-Cesaire-Joffre",
+    publisher: britannica,
+  },
+  britFalkenhayn: {
+    title: "Erich von Falkenhayn",
+    url: "https://www.britannica.com/biography/Erich-von-Falkenhayn",
+    publisher: britannica,
+  },
+  britCambrai: {
+    title: "Battle of Cambrai",
+    url: "https://www.britannica.com/event/Battle-of-Cambrai-1917",
+    publisher: britannica,
+  },
+  iwmCambrai: {
+    title: "The Fighting Tactics Of The Battle Of Cambrai",
+    url: "https://www.iwm.org.uk/history/first-world-war/western-front/cambrai",
+    publisher: "Imperial War Museums",
+  },
+  awmHamel: {
+    title: "Battle of Hamel",
+    url: "https://www.awm.gov.au/commemoration/anniversaries/hamel",
+    publisher: "Australian War Memorial",
+  },
+  sleesman: {
+    title:
+      "Dustin J. Sleesman and others, Cleaning up the big muddy: a meta-analytic review of the determinants of escalation of commitment (2012), abstract",
+    url: "https://doi.org/10.5465/amj.2010.0696",
+    publisher: "Academy of Management Journal",
+  },
+  bialek: {
+    title:
+      "Michał Białek, Michał Węgrzyn and Ethan Meyers, Escalation of commitment is independent of numeracy and cognitive reflection: failed replication and extension of Staw (1976) (2021), abstract",
+    url: "https://journals.ue.poznan.pl/ebr/article/view/428",
+    publisher: "Economics and Business Review",
+  },
+  nickerson: {
+    title:
+      "Raymond S. Nickerson, Confirmation bias: a ubiquitous phenomenon in many guises (1998), abstract",
+    url: "https://doi.org/10.1037/1089-2680.2.2.175",
+    publisher: "Review of General Psychology",
+  },
+  keiserArthur: {
+    title:
+      "Nathanael L. Keiser and Winfred Arthur Jr., A meta-analysis of the effectiveness of the after-action review (or debrief) and factors that influence its effectiveness (2021), abstract",
+    url: "https://pubmed.ncbi.nlm.nih.gov/32852990/",
+    publisher: "Journal of Applied Psychology",
+  },
+  tannenbaumCerasoli: {
+    title:
+      "Scott I. Tannenbaum and Christopher P. Cerasoli, Do team and individual debriefs enhance performance? A meta-analysis (2013), abstract",
+    url: "https://pubmed.ncbi.nlm.nih.gov/23516804/",
+    publisher: "Human Factors",
+  },
 } satisfies Record<string, Source>;
 
 export const westernFrontVolume: LeadershipVolume = {
@@ -341,6 +409,203 @@ export const westernFrontVolume: LeadershipVolume = {
       ],
     },
     {
+      slug: "the-doctrine-before-the-war",
+      title: "The will to conquer: doctrine before the war",
+      part: "Learning under fire, 1914–1916",
+      themes: ["judgement", "adaptation"],
+      claim:
+        "When a doctrine formed in peacetime meets a war it did not foresee, its worth depends less on whether it was right than on how quickly the people who hold it notice where it is wrong.",
+      inBrief: {
+        strength:
+          "A shared creed of offensive will, taught to a generation of officers, that held armies together under shock.",
+        shadow:
+          "It taught that better weapons favoured the attacker, and the first battles of the war disproved it.",
+      },
+      moment: {
+        text: "In the 1890s Ferdinand Foch lectured on tactics at the French Staff College; his lectures appeared as a book in 1903. Britannica calls thought and will the key words of his teaching, and the book bears it out. War, he writes, is the domain of moral force; victory is moral superiority in the victors and moral depression in the vanquished; battle is a struggle between two wills. The will to conquer is victory’s first condition and every soldier’s first duty, and the commander must, if need be, impart it to the soldier’s soul. Of all faults, he adds, only one is ignominious: inaction.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "pp. 283–287" }, { source: 2 }],
+      },
+      episodes: [
+        {
+          title: "Better weapons, stronger attack",
+          text: "Foch takes on the argument that each improvement in armament forces armies back to the defensive. History, he answers, suggests the contrary: any improvement of firearms is ultimately bound to add strength to the offensive, because an attacker who concentrates more rifles and guns on one spot will now concentrate better ones, and he offers an arithmetical demonstration. He was not blind to fire: he describes how, in a battle of uniform pressure along the whole front, the defender’s shelter and fire-power make his resistance more efficient than the attack, and concludes that the answer is the battle of manoeuvre, a concentrated blow at one point. The lesson he drew from fire was to concentrate, not to wait.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "pp. 32, 297–298" }],
+          battleSlugs: [],
+        },
+        {
+          title: "The doctrine at the Marne",
+          text: "In September 1914 Foch commanded the Ninth Army, newly formed to fill a gap in the centre of the French line; Britannica writes that his tenacity made Joffre’s victory on the Marne possible. His memoir describes a day when the XI Corps on his right was attacked along its whole front and was, he writes, on the verge of giving way, at the moment when the German right was yielding further west. It seemed to him that the only chance of stopping the enemy was to attack, and he ordered the corps to do so. The corps could not carry out the attack, and held on along a line in the woods behind. The doctrine prescribed attack; the battle allowed only endurance, and the army held.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "pp. 76–78" }, { source: 2 }],
+          battleSlugs: ["marne-1914"],
+        },
+        {
+          title: "Haig’s preparation",
+          text: "Haig’s pre-war work was organisation. As director of military training at the War Office from 1906 to 1909, Britannica writes, he helped the war minister Haldane establish a general staff, form the Territorial Army as a reserve and organise an expeditionary force for a war in Europe; the National Army Museum calls him a recognised authority on cavalry warfare. His doctrine is visible in his final despatch of 1919, where it appears unchanged by the war: decisive success can be gained only by a vigorous offensive; the idea that a war can be won by standing on the defensive is a dangerous fallacy, born of the desire to evade the price of victory; and the decision to keep the cavalry corps had been completely justified.",
+          evidence: "fact",
+          refs: [
+            { source: 3 },
+            { source: 4 },
+            { source: 5, locator: "pp. 325–328" },
+          ],
+          battleSlugs: [],
+        },
+        {
+          title: "A dissenting teacher",
+          text: "The same Staff College had a dissenter. Philippe Pétain, Georges Blond writes in Britannica, was promoted slowly before 1914, and was a general only at fifty-eight, because as a professor at the War College he had taught tactics opposed to those of the high command. While they favoured the offensive at all costs, he held that a well-organised defensive was sometimes called for, and that before any attack the commander must be sure of the superiority of his fire-power. In 1916 he was sent to hold Verdun.",
+          evidence: "fact",
+          refs: [{ source: 6 }],
+          battleSlugs: ["verdun"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Ferdinand Foch, The Principles of War",
+          stake:
+            "A lecturer writing for young officers in peacetime, reissued in translation after his victory.",
+          says: "War is the domain of moral force; better firearms ultimately strengthen the attack.",
+          refs: [{ source: 0, locator: "pp. 32, 287" }],
+        },
+        {
+          who: "Ferdinand Foch, Memoirs",
+          stake:
+            "The same man in the 1920s, describing how his army met the doctrine’s first test.",
+          says: "With a corps about to give way, the only chance seemed to be to attack; the attack could not be made, and the line held.",
+          refs: [{ source: 1, locator: "pp. 76–78" }],
+        },
+        {
+          who: "Georges Blond, in Britannica",
+          stake: "An admiring biographer of Pétain.",
+          says: "Pétain’s career was held back because he taught that the defensive was sometimes called for and that fire superiority must come before attack.",
+          refs: [{ source: 6 }],
+        },
+        {
+          who: "William Philpott",
+          stake:
+            "A historian who argues that the French thought harder about the war than the British debate admits.",
+          says: "Before the Somme, Foch was writing of deep and prolonged battle; in 1918 he directed what Philpott calls the first truly modern operational offensive.",
+          refs: [{ source: 8 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, the doctrine was not absurd. The wars Foch’s generation had studied were decided quickly by the side that attacked with superior preparation, and Haig’s own final despatch cites 1866 and 1870 as proof that the better-prepared side gains a rapid success. What failed was the arithmetic of fire. Foch had seen that the defender’s fire-power made frontal pressure inefficient, and prescribed concentration; he had not seen that machine-guns, wire and artillery would make even concentrated attacks fail when the whole front was entrenched and had no flank to turn.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "pp. 32, 297–298" },
+            { source: 5, locator: "p. 322" },
+          ],
+        },
+        {
+          text: "A doctrine is also an instrument of command. It gives officers a shared language and a default when orders do not come, and Foch’s emphasis on will may help explain why the French centre held at the Marne when its attack orders could not be carried out. The question for this volume is how its holders revised it. Philpott credits Foch with thinking, before the Somme, of a deep and prolonged battle, which is far from the decisive blow of his lectures. Haig’s 1919 despatch, by contrast, restates the offensive as an axiom.",
+          evidence: "interpretation",
+          refs: [{ source: 8 }, { source: 5, locator: "p. 325" }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "No reliable mechanism offered",
+          base: "none",
+          text: "It is tempting to explain the doctrine of the offensive by some bias of military minds, but no source read here tests how professional doctrines are revised under fire, and the record is better read as evidence of what officers were taught than of how they thought. The lesson relies on the history.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No psychological claim is made. The research on expertise and belief revision exists, but none of it was read for this lesson.",
+        },
+      ],
+      shadow: {
+        text: "The doctrine’s cost came in the first two years. Britannica writes that through 1915 the French armies under Joffre tried to burst through the German positions at ruinous cost and failed, and that Foch, commanding the Northern Army Group, vainly tried to break through in Artois and on the Somme, unable to make up for the lack of equipment and supplies. A creed that kept men attacking held armies together in 1914 and spent them in 1915.",
+        evidence: "interpretation",
+        refs: [{ source: 7 }, { source: 2 }],
+      },
+      counterCase: {
+        text: "Joffre carried the doctrine into the war and found a way out of it. Britannica holds him responsible for the calamitous French plan of 1914, which called for mass attacks across the frontier and was caught unawares by the German movement through Belgium. Once convinced of the threat to his left, he shifted his forces, created a new army under his own authority and, after a long retreat, launched the counterstroke of 6 September; in that moment, Britannica writes, his imperturbability, force of character and courage saved the situation. A commander can adapt operationally while the doctrine underneath stays the same, which is what the attacks of 1915 then showed.",
+        evidence: "interpretation",
+        refs: [{ source: 7 }],
+        commanderSlug: "joseph-joffre",
+        battleSlugs: ["marne-1914"],
+      },
+      cost: {
+        text: "The doctrine asked the infantry to supply the will that fire-power denied them. In Foch’s own account of the Marne the men of the XI Corps were ordered to attack while they were on the verge of giving way; in 1915, Britannica writes, the French attempts to break through were made at ruinous cost.",
+        evidence: "fact",
+        refs: [{ source: 1, locator: "pp. 76–78" }, { source: 7 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "Your organisation shares a doctrine that was formed before the conditions it now faces.",
+          "The first evidence against the doctrine is arriving, and those who hold it are explaining it away.",
+        ],
+        failsWhen: [
+          "The doctrine is sound and the early failures come from poor execution, not wrong ideas.",
+          "There is no time to revise anything, and a shared creed is the only thing holding people together.",
+        ],
+        questions: [
+          "Which beliefs in your organisation date from a period when conditions were different?",
+          "Who in your organisation taught the opposite, and what happened to their career?",
+          "What evidence would make you change the doctrine you rely on, and are you collecting it?",
+        ],
+      },
+      bearsOn:
+        "Both commanders began the war with a creed of the offensive. Foch’s lectures called a battle of uniform pressure along the whole front inferior; in 1918 he directed a general battle along the whole front, and Philpott traces his thinking about deep and prolonged battle back to before the Somme. Haig’s final despatch of 1919 still called the offensive an axiom and the cavalry justified. If learning means revising a doctrine, the evidence so far points to more of it in Foch than in Haig; if it means getting better at applying one, the later lessons complicate the picture.",
+      questions: [
+        {
+          prompt:
+            "What did Foch’s lectures argue about improvements in firearms?",
+          choices: [
+            "That they would force armies onto the defensive.",
+            "That they would ultimately add strength to the offensive.",
+            "That they made cavalry useless.",
+          ],
+          answer: 1,
+          explanation:
+            "He argued that an attacker concentrating better weapons on one point gains more than the defender; the trenches of 1915 disproved it.",
+        },
+        {
+          prompt:
+            "Why, according to Blond, was Pétain promoted slowly before 1914?",
+          choices: [
+            "Because he had refused to teach at the War College.",
+            "Because he taught that a well-organised defensive was sometimes called for, against the high command’s offensive at all costs.",
+            "Because he had served in the colonies.",
+          ],
+          answer: 1,
+          explanation:
+            "A dissenter inside the same school was penalised before the war and sent to hold Verdun in 1916.",
+        },
+        {
+          prompt:
+            "What does Haig’s final despatch of 1919 say about the defensive?",
+          choices: [
+            "That it should have been adopted in 1916.",
+            "That the idea of winning a war by standing on the defensive is a dangerous fallacy.",
+            "That it was the main lesson of the war.",
+          ],
+          answer: 1,
+          explanation:
+            "His account restates the pre-war creed; whether the army’s practice had changed more than his doctrine is a question for the later lessons.",
+        },
+      ],
+      seminar: {
+        prompt:
+          "Foch wrote in 1903 that better weapons strengthen the attack, and in 1918 directed a general offensive along the whole front. Was that a revision of his doctrine or an application of it to new means?",
+        guidance:
+          "Compare what the lectures say about the parallel battle and the battle of manoeuvre with what Philpott says of 1918. Ask what had changed in the means available, and what in the idea.",
+      },
+      sources: [
+        s.principles,
+        s.fochMemoirs,
+        s.britFoch,
+        s.britHaig,
+        s.namHaig,
+        s.despatches,
+        s.britPetain,
+        s.britJoffre,
+        s.philpott,
+      ],
+    },
+    {
       slug: "the-plan-that-was-neither",
       title: "The plan that was neither: the Somme, 1916",
       part: "Learning under fire, 1914–1916",
@@ -563,6 +828,616 @@ export const westernFrontVolume: LeadershipVolume = {
         s.morrison,
         s.britEast1916,
         s.britPasschendaele,
+      ],
+    },
+    {
+      slug: "why-the-somme-went-on",
+      title: "Why the Somme went on, July to November 1916",
+      part: "Learning under fire, 1914–1916",
+      themes: ["restraint", "judgement"],
+      claim:
+        "When an offensive fails on its first day but an ally still needs it, continuing can be right, but only while the reason for continuing is tested again as the battle changes, rather than renamed after it.",
+      inBrief: {
+        strength:
+          "He kept the pressure on while Verdun hung in the balance, and the new armies learned to attack in the process.",
+        shadow:
+          "The battle went on into the November mud, and its purpose was redefined as it went.",
+      },
+      moment: {
+        text: "Haig closed his despatch on the Somme, dated 23 December 1916, with a verdict. The enemy’s power had not yet been broken, he wrote, but the battle had placed beyond doubt the Allies’ ability to gain the objects for which they were fighting; a full half of the German army had suffered defeat on the Somme that year, and neither victors nor vanquished would forget it. The new British armies had entered the battle determined to win and had proved that their confidence was justified. In the fierce struggle, he added, they had learned many valuable lessons which would help them in the future.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "pp. 17, 58–59" }],
+      },
+      episodes: [
+        {
+          title: "Not an option to stop",
+          text: "With the French still under pressure at Verdun, the National Army Museum writes, calling off the offensive after 1 July was not an option. Britannica records what changed: the setback removed the chance of a rapid penetration, and Haig adopted the attrition method of limited advances aimed at wearing down German strength. He rejected Joffre’s wish that he again throw his troops frontally at the Thiepval defences, and resumed the attack on the southern flank. The capture of the German second line on 14 July offered a chance for exploitation, Britannica adds, which was not taken; from then on a methodical but costly advance gained little ground.",
+          evidence: "fact",
+          refs: [{ source: 1 }, { source: 2 }],
+          battleSlugs: ["somme", "verdun"],
+        },
+        {
+          title: "Tanks before they were ready",
+          text: "On 15 September, Haig’s despatch records, the new heavily armoured cars known as tanks were brought into action for the first time, co-operated successfully with the infantry and came as a surprise to the enemy. The National Army Museum says they advanced about a mile and a half at Flers-Courcelette without a breakthrough. Britannica judges their early use, before large numbers were ready, a mistake that forfeited the chance of a great strategic surprise; their success was limited, and some senior officers urged that they be abandoned, while more discerning eyes saw a key that, properly used, would unlock the trench barrier.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "p. 42" }, { source: 1 }, { source: 2 }],
+          battleSlugs: ["somme"],
+        },
+        {
+          title: "Into the mud",
+          text: "Haig halted the offensive on 18 November as the weather worsened, the National Army Museum writes, after an advance of about seven miles and no breakthrough. His despatch sets out what had been achieved: Verdun had been relieved, the main German forces had been held in the west, and the enemy’s strength had been very considerably worn down. Any one of these, it says, was sufficient to justify the battle. It also concedes that the extent of the wearing down must depend in some degree on estimates, and that the autumn rains had prevented full advantage being taken of a situation in which there were good grounds for hoping to achieve yet more important successes.",
+          evidence: "fact",
+          refs: [{ source: 1 }, { source: 0, locator: "pp. 51–52" }],
+          battleSlugs: ["somme"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Haig’s despatch",
+          stake:
+            "His public account, published within weeks of the battle’s end.",
+          says: "All three objects were achieved; German morale deteriorated; the new armies learned valuable lessons.",
+          refs: [{ source: 0, locator: "pp. 51–52, 59" }],
+        },
+        {
+          who: "The National Army Museum",
+          stake: "A national museum presenting both sides of the debate.",
+          says: "Many see futile slaughter and incompetence; others point out Haig had no real alternative to fighting on, and the battle produced a more professional army.",
+          refs: [{ source: 1 }],
+        },
+        {
+          who: "An unnamed German officer, quoted by the National Army Museum",
+          stake: "A witness from the receiving side, unidentified.",
+          says: "The Somme was the muddy grave of the German field army.",
+          refs: [{ source: 1 }],
+        },
+        {
+          who: "Britannica",
+          stake:
+            "An unsigned article that draws on the British official history.",
+          says: "The chance of 14 July was not taken, and the tanks were used before enough were ready.",
+          refs: [{ source: 2 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "In July and August the case for continuing was strong and visible. The Germans were still attacking at Verdun; the Russians were advancing in the east, and Showalter writes that Brusilov’s offensive forced the Germans to withdraw divisions from the Western Front, where they could ill be spared from Verdun and the Somme. Breaking off would have freed German reserves against both allies at once. Haig’s despatch claims, plausibly, that the Somme kept German forces in the west that would otherwise have gone east.",
+          evidence: "interpretation",
+          refs: [{ source: 7 }, { source: 0, locator: "p. 52" }],
+        },
+        {
+          text: "The test came later. By the autumn the German offensive at Verdun had been abandoned and the chief of staff who ordered it dismissed, so the first object was met. What remained was the third, wearing down the enemy, whose extent Haig himself said could be judged only by estimates. A reason that can be measured had been replaced by one that could not, and the battle continued into November on the strength of it. That is the point at which a commander needs a test he would accept as a reason to stop, and the despatch gives none.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "pp. 51–52" }, { source: 3 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Escalation of commitment",
+          base: "contested",
+          text: "Escalation of commitment, the tendency to keep investing in a failing course one is responsible for, has been studied for decades, and Sleesman and his colleagues reviewed its many proposed determinants and theories by meta-analysis. The classic finding is less secure than its fame: Białek and his colleagues, repeating the original experiment with 365 participants, found no escalation at all, only that people invested more in more promising projects. If that is the better reading, the question at the Somme is not a bias but what made the project look promising, and the answer the despatch gives is the reports of German morale.",
+          evidence: "interpretation",
+          refs: [{ source: 4 }, { source: 5 }],
+          limit:
+            "Only the abstracts were read. Both concern individuals deciding in experiments or organisations, not a commander answerable to a coalition, and the meta-analysis abstract does not say which determinants it found strongest.",
+        },
+      ],
+      shadow: {
+        text: "The pattern returned in 1917. Britannica records that at Passchendaele Haig went on into October and November as the ground turned to mud, telling the government that German resistance might break at any moment, and called a halt only after the ridge was taken. The Somme had shown that a battle continued for an ally’s sake could be justified at its end by objects that had not been its purpose; at Passchendaele the justification was again assembled afterwards.",
+        evidence: "interpretation",
+        refs: [{ source: 6 }],
+        battleSlugs: ["passchendaele"],
+      },
+      counterCase: {
+        text: "Falkenhayn chose attrition from the start. Britannica writes that he believed the war had to be won in France by exhausting Germany’s enemies, and concentrated resources for an attack on Verdun that he believed would wear out the French army. On 29 August 1916, after a long and unsuccessful assault, the emperor dismissed him in favour of Hindenburg; Showalter adds that the miscarriage of his programme for the year led to his replacement. A commander who named wearing down as his aim before the battle, rather than after it, was no more able to measure it, and paid for its failure with his post.",
+        evidence: "interpretation",
+        refs: [{ source: 3 }, { source: 7 }],
+        commanderSlug: "erich-von-falkenhayn",
+        battleSlugs: ["verdun"],
+      },
+      cost: {
+        text: "Both sides, Britannica writes, lost vast numbers of men who could never be replaced, and the German losses were swollen by an order that every yard of lost trench must be retaken by counter-attack. A German soldier quoted by the National Army Museum lamented that the best soldiers, the stoutest-hearted men, were lost.",
+        evidence: "fact",
+        refs: [{ source: 2 }, { source: 1 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "A costly effort is continued because a partner still depends on it.",
+          "The measurable reason for continuing has been met, and the remaining reason rests on estimates.",
+        ],
+        failsWhen: [
+          "Stopping would hand the initiative to an opponent who is waiting for exactly that.",
+          "The estimates are sound, and the effort is close to paying off.",
+        ],
+        questions: [
+          "What would you accept, in advance, as a reason to stop the effort you are leading?",
+          "Has the reason for continuing changed since you started, and has anyone said so?",
+          "Which of your measures of progress are estimates, and who produces them?",
+        ],
+      },
+      bearsOn:
+        "The Somme is the volume’s first evidence of learning and its first evidence of the price. Haig claimed the lessons in December 1916, the National Army Museum credits the battle with producing a more professional army and the methods of 1918, and the tanks first appeared there. But the reason for going on changed during the battle from relieving an ally to wearing down an enemy, which only estimates could measure. Whether the learning was worth its price depends partly on whether the last two months of the battle taught anything the first four had not.",
+      questions: [
+        {
+          prompt:
+            "According to the National Army Museum, why was calling off the Somme after 1 July not an option?",
+          choices: [
+            "Because the cavalry was about to break through.",
+            "Because the French were still under pressure at Verdun.",
+            "Because the government had ordered Haig to continue.",
+          ],
+          answer: 1,
+          explanation:
+            "Relieving Verdun was the first of the offensive’s stated objects, and it was a real constraint in July.",
+        },
+        {
+          prompt:
+            "What does Haig’s despatch concede about the third object, wearing down the enemy?",
+          choices: [
+            "That it had failed.",
+            "That any statement of how far it was attained must depend in some degree on estimates.",
+            "That it was never an object.",
+          ],
+          answer: 1,
+          explanation:
+            "Once Verdun was relieved, the battle continued on the strength of a measure that could only be estimated.",
+        },
+        {
+          prompt:
+            "What did Białek and his colleagues find when they repeated the classic escalation experiment?",
+          choices: [
+            "A stronger effect than the original.",
+            "No escalation; participants invested more in more promising projects.",
+            "That only experts escalate.",
+          ],
+          answer: 1,
+          explanation:
+            "If the effect is fragile, the lesson’s question shifts from bias to the information that made the project look promising.",
+        },
+      ],
+      seminar: {
+        prompt:
+          "Write the test that Haig could have set himself in August 1916: what evidence, by what date, would have told him to stop the Somme? Then decide whether the battle would have passed it.",
+        guidance:
+          "Use what was known at the time: the state of Verdun, the Russian offensive, the condition of the new armies and the weather. Separate the objects he could measure from those he had to estimate.",
+      },
+      sources: [
+        s.despatches,
+        s.namSomme,
+        s.britSomme,
+        s.britFalkenhayn,
+        s.sleesman,
+        s.bialek,
+        s.britPasschendaele,
+        s.britEast1916,
+      ],
+    },
+    {
+      slug: "what-reaches-the-top",
+      title: "What reaches the top: Passchendaele, 1917",
+      part: "The cost of persistence, 1917",
+      themes: ["judgement", "communication"],
+      claim:
+        "When a leader’s confidence shapes what subordinates report, the information that reaches the top tends to confirm the plan, and doubts travel sideways instead of up.",
+      inBrief: {
+        strength:
+          "He held to a strategy through months of setbacks, and his army won limited victories in September and October.",
+        shadow:
+          "The weather records, his staff’s doubts and his army commanders’ hesitations did not change his course; the cabinet heard of German exhaustion.",
+      },
+      moment: {
+        text: "At a conference on 28 September 1917, Britannica records, Haig said he believed the enemy was on the point of collapse and that tanks and cavalry could be pushed through. Ten days later he told the government that the breakdown of German resistance might come at any moment. On 5 October his head of intelligence, John Charteris, wrote in a note: ‘Unless we get fine weather for all this month, there is no chance of clearing the coast….Most of those at the conference would welcome a stop.’ The commander’s belief went up to London; his staff’s doubts went into a private note.",
+        evidence: "fact",
+        refs: [{ source: 0 }],
+      },
+      episodes: [
+        {
+          title: "What the cabinet was told",
+          text: "General headquarters had information that the Ypres area, being reclaimed marshland, would revert to swamp if prolonged bombardment destroyed its drainage, and its intelligence staff had found in more than eighty years of records that the weather in Flanders broke early each August. Britannica writes that none of this was disclosed by Haig to the war cabinet when he sought approval in late June; he dwelt on the exhaustion of the German army and its declining morale. The cabinet hesitated until Admiral Jellicoe argued that without the Belgian submarine bases Britain might be unable to go on with the war for lack of shipping. Charteris was dismayed to learn that Haig had gone beyond his staff’s figures and told the cabinet that six more months of fighting at that intensity would exhaust Germany’s manpower.",
+          evidence: "fact",
+          refs: [{ source: 0 }],
+          battleSlugs: ["passchendaele"],
+        },
+        {
+          title: "Doubts that stayed sideways",
+          text: "After the failures of August, Britannica writes, Gough suggested that the attack should be abandoned, and Haig remained confident. Sir William Robertson, the chief of the Imperial General Staff and the cabinet’s official military adviser, began to doubt but did not tell the cabinet; to Haig he wrote that he stuck to the plan more because his instinct prompted him to than because of any good argument. Rawlinson submitted an appreciation that the command had relied too much on a belief that a breakdown of German morale was within sight. Crook notes a later account by Edmonds of a meeting on 7 October at which Plumer and Gough said they would welcome a closing down, and that there is no real documentary evidence for it.",
+          evidence: "fact",
+          refs: [{ source: 0 }, { source: 2 }],
+          battleSlugs: ["passchendaele"],
+        },
+        {
+          title: "Limited strokes, unlimited hopes",
+          text: "In late September the weather improved, and on 20 and 26 September and 4 October Plumer’s Second Army made strictly limited attacks, the deepest objective less than a mile, behind a creeping barrage with one gun to every five yards of front. Britannica calls them successful, and says the effect proved too intoxicating behind the front. Haig’s despatch gives his reasoning for going on after 4 October: the ground made movement inconceivably difficult and it was doubtful whether the rest of the ridge could be taken before winter, but there was no reason to anticipate an abnormally wet October, the enemy had suffered severely, and captured documents showed that the German command had recognised the failure of its new methods of defence. The attack of 12 October, with deeper objectives, failed.",
+          evidence: "fact",
+          refs: [{ source: 0 }, { source: 1, locator: "p. 126" }],
+          battleSlugs: ["passchendaele"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "John Charteris",
+          stake:
+            "Haig’s head of intelligence, recording doubts in private notes that Britannica quotes.",
+          says: "Most of those at the conference would welcome a stop.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "Sir William Robertson",
+          stake:
+            "The cabinet’s chief military adviser, writing privately to Haig.",
+          says: "He stuck to the plan more from instinct than from any good argument.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "Haig’s despatch",
+          stake: "His public account, written after the battle.",
+          says: "There was no reason to anticipate an abnormally wet October, and the enemy showed symptoms of confusion and discouragement.",
+          refs: [{ source: 1, locator: "p. 126" }],
+        },
+        {
+          who: "C. E. W. Bean, as Crook quotes him",
+          stake:
+            "The Australian official historian, whose countrymen fought there.",
+          says: "The attack at Poelcappelle was a great bloody experiment, a huge gamble and no more than that.",
+          refs: [{ source: 2 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Haig had real reasons to fight in Flanders and to go on: the French army was recovering from the mutinies, Russia was failing, the Admiralty feared for shipping, and Plumer’s limited attacks of September worked. The decision that is hardest to defend without hindsight is the one after 4 October, to aim deeper as the weather broke, because the information against it was already in hand: the weather records, the state of the ground described in his own despatch, and the doubts of his army commanders. Crook notes that the French, attacking in Champagne in late October, advanced more than six kilometres in four days, which weakens the argument that the British alone had to keep the enemy busy.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0 },
+            { source: 1, locator: "p. 126" },
+            { source: 2 },
+          ],
+        },
+        {
+          text: "The organisational failure was in the channels. The cabinet’s adviser kept his doubts private; the army commanders announced success in public and postponed in private, and Crook writes that after Poelcappelle they carried out orders with more caution and less conviction. Britannica’s summary is that Haig’s assistants, with military loyalty, tried to make their thoughts become the children of his wishes. A commander who wants accurate reports has to make it safe to send bad ones, and nothing in the record shows Haig doing so.",
+          evidence: "interpretation",
+          refs: [{ source: 0 }, { source: 2 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Confirmation bias",
+          base: "review",
+          text: "Nickerson defines confirmation bias as seeking or interpreting evidence in ways that are partial to existing beliefs, expectations or a hypothesis in hand, and reviews it in many guises and practical settings. Haig’s reading of the autumn fits the description: captured documents and prisoners were read as signs of collapse, while the weather records and the state of the ground were read as obstacles to be waited out.",
+          evidence: "interpretation",
+          refs: [{ source: 3 }],
+          limit:
+            "Only the abstract was read. A review of a general tendency cannot show that it operated in one man, and some of Haig’s evidence of German strain was real.",
+        },
+        {
+          mechanism: "Voice and silence",
+          base: "review",
+          text: "Morrison’s review describes silence as withholding concerns or information from those higher up, which deprives an organisation of what it could have used. The record of 1917 shows doubts expressed to peers, in diaries and in private letters, while the formal channel to the cabinet carried confidence.",
+          evidence: "interpretation",
+          refs: [{ source: 4 }],
+          limit:
+            "Only the abstract was read. The research concerns modern employees; the motives of Robertson, Charteris and the army commanders cannot be recovered from it.",
+        },
+      ],
+      shadow: {
+        text: "The same confidence failed again within weeks. At Cambrai, after the first success, Haig’s despatch records early warnings of a German counter-attack in the last days of November, and his confidence that the defence could be considered secure. Britannica writes that the counterstroke of 30 November broke through in the south, and that by 5 December the British had been driven back almost to their starting positions.",
+        evidence: "interpretation",
+        refs: [{ source: 1, locator: "pp. 162–163" }, { source: 5 }],
+        battleSlugs: ["cambrai-1917"],
+      },
+      counterCase: {
+        text: "Arthur Currie, commanding the Canadian Corps, showed what a subordinate could do. Ordered in the summer to attack Lens, Britannica writes, he surveyed the German defences and chose instead to seize the high ground at Hill 70, and succeeded. Ordered in October to take the Passchendaele ridge, he objected to what he considered a reckless attack and predicted its cost; the final figure was almost exactly what he had forecast. He then built and repaired roads and tramlines, improved the gun positions and gave his troops time to prepare before attacking on 26 October. Currie voiced his doubt upward, lost the argument, and limited the damage; the corps took what was left of the village on 6 November.",
+        evidence: "interpretation",
+        refs: [{ source: 0 }],
+        commanderSlug: "arthur-currie",
+        battleSlugs: ["passchendaele"],
+      },
+      cost: {
+        text: "Britannica describes the ground: craters deep enough to drown a man, churned-up graves, mud that swallowed sleeping soldiers and slowed stretcher-bearers to a crawl through waist-deep muck. Australians, New Zealanders and Canadians were sent in after the British assault divisions were worn out. In 1918 all the ground gained was given up in the face of the German offensive.",
+        evidence: "fact",
+        refs: [{ source: 0 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "Your own confidence is known to everyone who reports to you.",
+          "Doubts are being expressed in private conversations and diaries, but not in the reports that reach you.",
+        ],
+        failsWhen: [
+          "The confidence is warranted by evidence that the doubters have not seen.",
+          "Every report is pessimistic by habit, and the leader’s optimism is the corrective.",
+        ],
+        questions: [
+          "What would someone who reports to you have to risk to tell you the plan is failing?",
+          "Which information that you already hold have you treated as an obstacle rather than as evidence?",
+          "Who is your Robertson, and when did they last disagree with you?",
+        ],
+      },
+      bearsOn:
+        "Passchendaele is where the case that the generals did not learn is strongest, and the evidence is more precise than the legend. The army learned: Plumer’s limited attacks were a method the Somme had not had. What did not change was the judgement at the top about when the enemy would break, and the channels that should have corrected it. If the learning happened below and the price was set above, the question becomes whose learning the volume is measuring.",
+      questions: [
+        {
+          prompt:
+            "What information, according to Britannica, did Haig not disclose to the war cabinet in June 1917?",
+          choices: [
+            "The number of tanks available.",
+            "That the area would revert to swamp under bombardment and that the weather usually broke early in August.",
+            "That the French had refused to help.",
+          ],
+          answer: 1,
+          explanation:
+            "He dwelt instead on German exhaustion and declining morale.",
+        },
+        {
+          prompt: "What did Robertson write to Haig about the plan?",
+          choices: [
+            "That it would certainly succeed.",
+            "That he stuck to it more from instinct than from any good argument.",
+            "That he had told the cabinet of his doubts.",
+          ],
+          answer: 1,
+          explanation:
+            "The cabinet’s adviser kept his doubts private, so the channel meant to test the plan carried confidence instead.",
+        },
+        {
+          prompt:
+            "What does Crook say about the reported meeting of 7 October at which Plumer and Gough would have welcomed a stop?",
+          choices: [
+            "That it is recorded in Haig’s diary.",
+            "That there is no real documentary evidence for it.",
+            "That Plumer denied it in 1918.",
+          ],
+          answer: 1,
+          explanation:
+            "A convenient story about doubts expressed in time needs the same scrutiny as the commander’s own account.",
+        },
+      ],
+      sourceCheck: {
+        question:
+          "Should the Third Battle of Ypres have been stopped in early October 1917?",
+        witnesses: [
+          {
+            label: "Haig’s despatch",
+            claim:
+              "There was no reason to expect an abnormally wet October; the enemy had suffered severely and his methods were failing.",
+          },
+          {
+            label: "Charteris’s note, quoted by Britannica",
+            claim:
+              "Without fine weather all month there was no chance of clearing the coast; most at the conference would welcome a stop.",
+          },
+          {
+            label: "Crook",
+            claim:
+              "The French advanced more than six kilometres in Champagne in late October, and attrition seems to have worked the wrong way.",
+          },
+        ],
+        prompt: "How should a reader weigh these witnesses?",
+        options: [
+          {
+            text: "Accept Charteris, because he was Haig’s own intelligence chief.",
+            feedback:
+              "His note is strong evidence of doubt at headquarters, written at the time; it is one note, and he too had a record to protect.",
+          },
+          {
+            text: "Accept the despatch, because Haig knew more than anyone.",
+            feedback:
+              "He did, and the despatch was written after the event; it also concedes how bad the ground was.",
+          },
+          {
+            text: "Set the reasons Haig gave against what was already known on 4 October: the weather records, the ground and his commanders’ doubts.",
+            feedback:
+              "That is the strategist’s test, and it is the one the decision fails most clearly.",
+            best: true,
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "You are Robertson in September 1917, privately unconvinced by Haig’s plan and the cabinet’s official adviser. What do you owe the cabinet, and what do you owe Haig?",
+        guidance:
+          "Consider what Robertson knew and what the cabinet could have done with his doubts. Compare Currie’s protest, which lost the argument but changed how the attack was prepared.",
+      },
+      sources: [
+        s.britPasschendaele,
+        s.despatches,
+        s.crook,
+        s.nickerson,
+        s.morrison,
+        s.britCambrai,
+      ],
+    },
+    {
+      slug: "where-the-learning-happened",
+      title: "Where the learning happened: Messines, Cambrai and Hamel",
+      part: "The cost of persistence, 1917",
+      themes: ["adaptation", "organisation"],
+      claim:
+        "When an organisation learns under pressure, the new methods often come from below and from the side, and they spread only if the top makes room for them without stretching them beyond their means.",
+      inBrief: {
+        strength:
+          "Limited attacks, massed tanks, unregistered artillery fire and all-arms planning were developed and spread through the army.",
+        shadow:
+          "The high command more than once enlarged a small, well-prepared idea into an offensive it could not sustain.",
+      },
+      moment: {
+        text: "After the Flanders swamps, Britannica writes, the officers of the British Tank Corps went looking for ground where their machines could do something. Their chief staff officer, Colonel J. F. C. Fuller, drew up a plan for a large raid on the rolling downland south-west of Cambrai: a swarm of tanks released without any preparatory bombardment, so that the enemy had no warning. The high command adopted the idea and, keeping Fuller’s core, turned the raid into a full offensive with far-reaching aims, the capture of Cambrai itself and a thrust towards Valenciennes, for which, after Passchendaele, it did not have the resources.",
+        evidence: "fact",
+        refs: [{ source: 0 }],
+      },
+      episodes: [
+        {
+          title: "Messines and the limited stroke",
+          text: "On 7 June 1917 Plumer’s Second Army attacked the Messines ridge. Britannica describes a strictly limited attack, made with true siege-war methods on preparations begun a year before, that proved an almost complete success within its limits, helped by the surprise of nineteen great mines fired at once. It then judges that the success inspired the high command with too much confidence in the greater effort to follow, whose methods would be essentially different. In September and October Plumer applied the same approach east of Ypres: shallow objectives, a creeping barrage that won the ground, infantry that occupied it.",
+          evidence: "fact",
+          refs: [{ source: 2 }],
+          battleSlugs: ["passchendaele"],
+        },
+        {
+          title: "Cambrai: surprise returns",
+          text: "At dawn on 20 November 1917 the Third Army attacked with the largest number of tanks yet assembled and an artillery barrage that had not been registered beforehand, so that surprise returned to the battlefield. The Imperial War Museums call these methods ones that were to become common in 1918. The first day gained about five miles, though more than half the tanks were out of action by evening. Haig’s despatch says the object was a local success by surprise, with a force kept small because secrecy demanded it, using divisions that had fought for months and drafts still far from fully trained. The cavalry could not exploit the gap, Britannica adds, and infantry reinforcements were not available in time.",
+          evidence: "fact",
+          refs: [
+            { source: 1 },
+            { source: 5, locator: "pp. 151–152" },
+            { source: 0 },
+          ],
+          battleSlugs: ["cambrai-1917"],
+        },
+        {
+          title: "Hamel: ninety-three minutes",
+          text: "On 4 July 1918 the Australian Corps under John Monash attacked at Le Hamel. The Australian War Memorial writes that Monash planned the battle in detail to last ninety minutes, and that it took ninety-three; its historian Aaron Pegram calls it the first time infantry, artillery, tanks and aircraft were closely integrated in combat. Australian soldiers, by then highly skilled, trained the less experienced Americans who fought beside them. The National Army Museum writes that under Haig the army perfected the all-arms method of tanks, artillery, infantry, cavalry and air power that led the Allied advance of 1918.",
+          evidence: "fact",
+          refs: [{ source: 3 }, { source: 4 }],
+          battleSlugs: [],
+        },
+        {
+          title: "What the commander-in-chief said about machines",
+          text: "Haig’s final despatch credits the machines and keeps them in their place. Heavy artillery, trench mortars, machine-guns, aircraft, tanks and gas had given war greater driving power, and the Allies’ superiority in them contributed powerfully to the victory. But such weapons, it insists, are incapable of effective independent action; tanks need close artillery support and infantry to hold what they take, and to imagine that tanks and aircraft could replace infantry and artillery would be a disservice to them. In early 1918, an earlier despatch says, the lessons of the defensive fighting of 1916 and 1917 had to be assimilated rapidly and thoroughly by all ranks.",
+          evidence: "fact",
+          refs: [{ source: 5, locator: "pp. 179, 329–330" }],
+          battleSlugs: [],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Britannica on Cambrai",
+          stake: "An unsigned encyclopedia article.",
+          says: "The Tank Corps devised the raid; the high command enlarged it beyond its resources; the battle showed that armour was the key to a decision.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "The Imperial War Museums",
+          stake: "A national museum describing tactics for the public.",
+          says: "Cambrai’s methods became common in 1918; the German counter-attack used infiltrating storm troops.",
+          refs: [{ source: 1 }],
+        },
+        {
+          who: "The Australian War Memorial",
+          stake:
+            "Australia’s national memorial, commemorating one of its corps’ most celebrated actions.",
+          says: "Hamel was planned to the minute and was the first close integration of infantry, artillery, tanks and aircraft.",
+          refs: [{ source: 3 }],
+        },
+        {
+          who: "William Philpott",
+          stake: "A historian who distrusts the British learning-curve story.",
+          says: "The change was a transformation shared with allies and enemies, uneven rather than a steady curve.",
+          refs: [{ source: 6 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Each of these methods worked within limits: Messines, Plumer’s September attacks, the first day at Cambrai and Hamel were limited, carefully prepared and, where possible, surprising. The failures came when headquarters enlarged them. Britannica blames Messines for the overconfidence behind the next offensive, whose methods were essentially different, and Cambrai’s raid was turned into an offensive with aims its resources could not reach. The commander’s contribution to learning was to adopt what worked; his danger was to expect more of it than it could give.",
+          evidence: "interpretation",
+          refs: [{ source: 2 }, { source: 0 }],
+        },
+        {
+          text: "The learning was competitive. At Cambrai the German counter-offensive used intensive artillery and infiltrating storm troops, the Imperial War Museums write, and in that respect both sides were rehearsing 1918. Philpott’s objection to the learning curve applies here: the British were improving against an enemy who was improving too, alongside an ally whose methods they sometimes borrowed, so that no army’s progress can be measured on its own.",
+          evidence: "interpretation",
+          refs: [{ source: 1 }, { source: 6 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Structured reviews of performance",
+          base: "meta-analysis",
+          text: "Two meta-analyses find that structured reviews of what happened improve later performance. Keiser and Arthur, combining 61 studies, found a large average improvement, and that in military settings highly structured reviews worked better than loose ones; Tannenbaum and Cerasoli, combining 46 samples, found that debriefs improved effectiveness by about a quarter. An army that improved its methods between 1916 and 1918 must have reviewed its battles somehow, and Haig’s instruction that lessons be assimilated by all ranks points to such a process.",
+          evidence: "interpretation",
+          refs: [{ source: 7 }, { source: 8 }],
+          limit:
+            "Only the abstracts were read. Both concern training and work teams, not an army of millions learning under fire, and no source read for this lesson describes how the British army actually reviewed its battles.",
+        },
+      ],
+      shadow: {
+        text: "Cambrai shows the limit. Having enlarged the raid into a battle, the British could not exploit it, and the attack was halted after an advance of about six miles. On 30 November the German Second Army struck the flanks of the new salient; Britannica writes that it broke through in the south, that disaster was averted only by the counter-attacks of the Guards Division and a tank brigade, and that by 5 December the British were almost back where they had started.",
+        evidence: "interpretation",
+        refs: [{ source: 0 }],
+        battleSlugs: ["cambrai-1917"],
+      },
+      counterCase: {
+        text: "The German army learned too, and showed what tactical learning without a strategic aim could do. Its counter-attack at Cambrai used infiltrating storm troops, and on 21 March 1918 Ludendorff opened a general offensive to smash the Anglo-French armies before the Americans arrived in force. Görlitz writes in Britannica that Ludendorff had overestimated the strength of the German armies and that the offensive failed; Laffargue writes that by July he had decided to gamble everything he had before the Americans joined the battle. Better methods won ground in the spring of 1918 and lost the war by the autumn.",
+        evidence: "interpretation",
+        refs: [{ source: 1 }, { source: 9 }, { source: 10 }],
+        commanderSlug: "erich-ludendorff",
+        battleSlugs: ["operation-michael"],
+      },
+      cost: {
+        text: "The men who tested the new methods were often the most tired. Haig’s despatch says the divisions available for Cambrai had been fighting for months, only part of their losses had been replaced, and many recently arrived drafts were still far from fully trained; it was, he wrote, a serious matter to make a further heavy call on them at the end of such a strenuous year.",
+        evidence: "fact",
+        refs: [{ source: 5, locator: "p. 152" }],
+      },
+      transfer: {
+        holdsWhen: [
+          "Useful new methods are being developed by specialists or units some distance from the top.",
+          "A small success tempts the leadership to scale it up before the means exist.",
+        ],
+        failsWhen: [
+          "The new method has already been proved at scale, and enlarging it is the right next step.",
+          "The organisation has no way of reviewing what happened, so nothing learned below reaches anyone else.",
+        ],
+        questions: [
+          "Where in your organisation are better methods being invented without anyone at the top asking for them?",
+          "When did you last enlarge a small success faster than the resources behind it?",
+          "How does your organisation review what happened, and who reads the results?",
+        ],
+      },
+      bearsOn:
+        "This lesson gives the clearest answer to the first half of the volume’s question. The army learned: limited attacks, unregistered fire, massed tanks and all-arms planning spread between Messines in 1917 and Hamel in 1918. Most of that learning came from below and beside the commander-in-chief: Plumer’s army, the Tank Corps staff, Monash’s corps, and the enemy. Haig’s part was to adopt it, and twice to enlarge it beyond what it could bear. Whether the price was worth it depends on how much of the learning required the battles in which it was paid for.",
+      questions: [
+        {
+          prompt:
+            "Who first proposed the attack at Cambrai, according to Britannica?",
+          choices: [
+            "Haig’s operations staff.",
+            "The Tank Corps, through its chief staff officer J. F. C. Fuller, as a large raid.",
+            "The French high command.",
+          ],
+          answer: 1,
+          explanation:
+            "The high command adopted the idea and enlarged it into an offensive it could not sustain.",
+        },
+        {
+          prompt:
+            "What does the Australian War Memorial’s historian say was new at Hamel?",
+          choices: [
+            "The first use of tanks.",
+            "The first close integration of infantry, artillery, tanks and aircraft.",
+            "The first attack without artillery.",
+          ],
+          answer: 1,
+          explanation:
+            "Planned to the minute, it was a model of the all-arms method that the National Army Museum credits to the army of 1918.",
+        },
+        {
+          prompt:
+            "What did Keiser and Arthur find about after-action reviews in military settings?",
+          choices: [
+            "That they have no effect.",
+            "That highly structured reviews worked better than less structured ones.",
+            "That they work only for individuals.",
+          ],
+          answer: 1,
+          explanation:
+            "The finding suggests how learning spreads, but no source read describes how the British army reviewed its battles.",
+        },
+      ],
+      seminar: {
+        prompt:
+          "Choose one method the British army used in 1918 and trace it back. Who invented it, where was it first tried, and who at the top decided to adopt it?",
+        guidance:
+          "Use Messines, Cambrai and Hamel as starting points. Ask what each method needed to work, and when headquarters asked more of it than it could give.",
+      },
+      sources: [
+        s.britCambrai,
+        s.iwmCambrai,
+        s.britPasschendaele,
+        s.awmHamel,
+        s.namHaig,
+        s.despatches,
+        s.philpott,
+        s.keiserArthur,
+        s.tannenbaumCerasoli,
+        s.britLudendorff,
+        s.britFoch,
       ],
     },
     {
@@ -796,5 +1671,5 @@ export const westernFrontVolume: LeadershipVolume = {
     },
   ],
   inProgress:
-    "This volume is being written. Its first three lessons are published; the others are added in reviewed batches.",
+    "This volume is being written. Seven of its twelve lessons are published; the others are added in reviewed batches.",
 };

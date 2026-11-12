@@ -1359,3 +1359,28 @@ Corrections made while writing:
 - A witness entry cited Britannica on Ludendorff for Lloyd George; the reference was removed.
 
 Link check: the Internet Archive item pages return 200 and the PubMed pages 203; the DOI link for Morrison returns 403 to scripts and resolves in a browser.
+
+## Leadership Lessons from Foch and Haig: batch W2, doctrine, the Somme, Passchendaele and learning (12 November 2026)
+
+Four lessons in `data/leadership/douglas-haig.ts`: the doctrine before the war, why the Somme went on, what reaches the top (Passchendaele) and where the learning happened (Messines, Cambrai and Hamel). Seven of the volume's twelve lessons are now published.
+
+| Tier                    | Sources                                                                                                                                                                                                                                                                                                                                                                 |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Primary texts           | Foch, _The Principles of War_, trans. Hilaire Belloc (Holt, 1920; lectures first published 1903), full text from the Internet Archive; Foch's _Memoirs_ (pp. 76–78, the Ninth Army at the Marne); Haig's despatches (pp. 17–20, 42, 51–52, 58–59 on the Somme; p. 126 on October 1917; pp. 151–152 and 162–163 on Cambrai; pp. 179, 322, 325–330 from later despatches) |
+| Reference               | Britannica on Joffre, on Falkenhayn and on Cambrai (all unsigned), with the articles on Foch, Haig, Pétain, Ludendorff, the Somme, Passchendaele and the Eastern Front in 1916 already read for batch W1; all in the built-in browser                                                                                                                                   |
+| Museums and scholarship | Imperial War Museums on the tactics of Cambrai (built-in browser; automated fetching refused); the Australian War Memorial on Hamel; the National Army Museum on Haig and the Somme; Philpott (RUSI, 2009); Peter Crook for the Western Front Association (2008)                                                                                                        |
+| Psychology              | Sleesman and others (2012), abstract (read in the built-in browser; it names no specific findings); Białek, Węgrzyn and Meyers (2021), abstract (a failed replication of Staw, 1976); Nickerson (1998), abstract; Morrison (2014), abstract; Keiser and Arthur (2021) and Tannenbaum and Cerasoli (2013), abstracts (PubMed)                                            |
+
+The doctrine lesson uses `base: "none"`: no source on how professional doctrines are revised was read. The escalation reading is marked contested because the replication failed.
+
+Corrections made while writing:
+
+- The doctrine lesson first said the XI Corps held "a line further back"; the memoir places it in the woods south of Morains-le-Petit. The despatch's verdict that the Somme placed beyond doubt the Allies' ability "to gain those objects" was first paraphrased as "to win".
+- The Somme lesson first said Verdun's "commander" was dismissed; Britannica's article is about Falkenhayn as chief of the General Staff. Its shadow first said Passchendaele "had no ally to relieve", which contradicts the reasons Haig's despatch gives (the French army's weakness); the sentence was rewritten.
+- The Passchendaele lesson first said the weather records covered eighty years; Britannica quotes "more than eighty years". It first called Edmonds the official historian; Crook names him without the title, and the lesson now does the same.
+- The learning lesson first quoted Laffargue as saying Ludendorff "gambled everything" in March 1918; Laffargue says so of the July attack, and the lesson now says so.
+- Britannica's Brusilov article address and Britannica's Joffre article address were first guessed and returned 404; neither was cited. The Joffre article was found by search and read at its real address.
+
+Saying checked: Charteris's note of 5 October 1917 is quoted only as Britannica quotes it. Foch's lines on moral force and inaction are quoted from the 1920 translation; they are his own words in a published book.
+
+Counts: Falkenhayn is now the counter-case of two lessons, in the Serbian volume and this one; the unit test was updated.

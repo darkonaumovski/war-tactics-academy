@@ -147,6 +147,8 @@ const excludedInLessons: [RegExp, string][] = [
   [/lies agreed upon/i, "untraced saying"],
   [/impossible is not french/i, "untraced saying"],
   [/army of sheep|sheep led by a lion/i, "untraced saying"],
+  [/centre (is )?giving way|situation excellent/i, "untraced saying"],
+  [/tout le monde à la bataille|everyone to (the )?battle/i, "untraced saying"],
   [/no (more )?worlds (left )?to conquer/i, "distorted saying"],
   [
     /narcissis|psychopath|sociopath|megalomania|bipolar|alcoholi(c|sm)|paranoi(a|d)|dark triad/i,

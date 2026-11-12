@@ -305,8 +305,8 @@ export function LeadershipComparePage() {
       />
       <Heading
         eyebrow="ACROSS THE VOLUMES"
-        title="The same problem, three records"
-        description="Napoleon, Alexander and the Serbian Supreme Command met some of the same problems. Each problem below sets the lessons that test it side by side, with their claims, strengths and shadows. A note reading across them is an interpretation drawn only from those lessons, and compares conditions, not commanders. Three records cannot prove a rule either."
+        title="The same problem, four records"
+        description="Napoleon, Alexander, the Serbian Supreme Command and the Western Front commanders Foch and Haig met some of the same problems. Each problem below sets the lessons that test it side by side, with their claims, strengths and shadows. A note reading across them is an interpretation drawn only from those lessons, and compares conditions, not commanders. Four records cannot prove a rule either."
       />
       <nav aria-label="Problems">
         <ul className="compare-jump">
@@ -328,7 +328,14 @@ export function LeadershipComparePage() {
             {p.title}
           </h2>
           <p className="leadership-question compare-question">{p.question}</p>
-          <div className="compare-grid">
+          <div
+            className="compare-grid"
+            style={
+              {
+                "--compare-columns": comparedVolumes.length,
+              } as React.CSSProperties
+            }
+          >
             {comparedVolumes.map((v) => {
               const slugs =
                 p.lessons.find((x) => x.volume === v.commanderSlug)?.slugs ??

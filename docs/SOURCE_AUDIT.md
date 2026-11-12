@@ -1426,3 +1426,13 @@ Corrections made while writing:
 Counts: Hindenburg is now the counter-case of two lessons, in the Serbian volume and this one; Pétain of two in this volume (Doullens and the ledger, on different decisions). The unit and end-to-end tests now expect a complete twelve-lesson volume.
 
 The volume answers its question in the ledger: the generals learned, unevenly and late, much of the learning was done below and beside them, and the soldiers paid both for the learning and for its slowness. Its Phase 3 integration is next.
+
+## Leadership Lessons compared across volumes: batch T3, the fourth volume and two new problems (12 November 2026)
+
+The comparison page (`data/leadership/problems.ts`) adds the Foch and Haig volume as a fourth column and two problems: allies and coalitions (the Serbian and Western Front volumes) and victory and settlement (Napoleon, Alexander and the Western Front). Nine Foch and Haig lesson entries join five existing problems; three problems (taking over, presence, succession) gain one sentence saying the volume has no lesson on them. Ten problems and ten notes in all.
+
+No new sources were read or cited. As in batches T1 and T2, every note is labelled as interpretation and draws only on the lessons it links; the claims, strength-and-shadow lines and "what this adds" passages of all sixteen lessons involved were read again for this batch.
+
+Corrections made while writing: the reading-the-record note first named Foch's memoir among the Western Front's records; the lesson it links uses his introduction to Haig's despatches, and the note now says so. The dissent note first said Rawlinson carried out a plan he doubted, without saying he had first argued for a shorter advance and been overruled, and that Robertson kept his doubts "to himself"; the lessons say he kept them from the cabinet while writing privately to Haig. Both now follow the lessons.
+
+The page’s grid now takes its column count from the number of compared volumes, with two columns between 761 and 1200 pixels and one below. The built page grew from 97 KB to 141 KB, more than the 125–130 KB estimated in the proposal; list pages and search are unchanged.

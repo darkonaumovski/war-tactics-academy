@@ -586,16 +586,16 @@ test("the volumes are compared problem by problem", async ({ page }) => {
   await page.getByRole("link", { name: /Compare the volumes/ }).click();
   await expect(page).toHaveURL(/\/leadership\/compare\/$/);
   await expect(
-    page.getByRole("heading", { name: "The same problem, three records" }),
+    page.getByRole("heading", { name: "The same problem, four records" }),
   ).toBeVisible();
-  await expect(page.locator(".compare-problem")).toHaveCount(8);
-  await expect(page.locator(".compare-note")).toHaveCount(8);
+  await expect(page.locator(".compare-problem")).toHaveCount(10);
+  await expect(page.locator(".compare-note")).toHaveCount(10);
   const stopping = page.locator("#stopping");
-  await expect(stopping.locator(".compare-card")).toHaveCount(6);
+  await expect(stopping.locator(".compare-card")).toHaveCount(9);
   await expect(stopping.getByText("Interpretation")).toBeVisible();
   await expect(
     page.locator("#taking-over").getByText("No lesson in this volume"),
-  ).toBeVisible();
+  ).toHaveCount(2);
   await stopping.getByRole("link", { name: /Staying at Tyre/ }).click();
   await expect(page).toHaveURL(
     /\/leadership\/alexander-the-great\/staying-at-tyre\/$/,

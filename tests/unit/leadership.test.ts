@@ -267,6 +267,11 @@ describe("problems compared across volumes", () => {
       1,
     );
     expect(problemsForLesson("alexander-the-great", "opis")).toEqual([]);
+    expect(
+      problemsForLesson("douglas-haig", "what-reaches-the-top").map(
+        (p) => p.slug,
+      ),
+    ).toEqual(["dissent", "stopping"]);
   });
 });
 

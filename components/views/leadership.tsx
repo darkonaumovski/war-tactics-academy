@@ -286,6 +286,12 @@ function CompareLinks({ volume, lesson }: { volume: string; lesson: string }) {
     </p>
   );
 }
+// Only the volumes the problems draw on get a column.
+const comparedVolumes = leadershipVolumes.filter((v) =>
+  leadershipProblems.some((p) =>
+    p.lessons.some((x) => x.volume === v.commanderSlug),
+  ),
+);
 const shortTitle = (v: LeadershipVolume) =>
   v.title.replace(/^Leadership Lessons from /, "").replace(/^the /, "The ");
 export function LeadershipComparePage() {
@@ -323,7 +329,7 @@ export function LeadershipComparePage() {
           </h2>
           <p className="leadership-question compare-question">{p.question}</p>
           <div className="compare-grid">
-            {leadershipVolumes.map((v) => {
+            {comparedVolumes.map((v) => {
               const slugs =
                 p.lessons.find((x) => x.volume === v.commanderSlug)?.slugs ??
                 [];

@@ -94,6 +94,7 @@ describe("leadership volumes", () => {
       "napoleon-bonaparte",
       "alexander-the-great",
       "radomir-putnik",
+      "douglas-haig",
     ]);
     for (const x of leadershipVolumes) {
       leadershipVolumeSchema.parse(x);
@@ -197,6 +198,22 @@ it("lists the Napoleon lessons in curriculum order", () =>
     "the-ledger",
   ]));
 
+describe("the Western Front volume", () => {
+  const volume = volumeForCommander("douglas-haig");
+
+  it("is found from both of its commanders", () =>
+    expect(volumeForCommander("ferdinand-foch")).toBe(volume));
+
+  it("lists its pilot lessons in curriculum order", () => {
+    expect(volume?.inProgress).toBeTruthy();
+    expect(volume?.lessons.map((l) => l.slug)).toEqual([
+      "how-to-read-the-western-front",
+      "the-plan-that-was-neither",
+      "the-day-the-front-broke",
+    ]);
+  });
+});
+
 describe("problems compared across volumes", () => {
   it("are valid and name only existing volumes and lessons", () => {
     const slugs = leadershipProblems.map((p) => p.slug);
@@ -287,13 +304,13 @@ describe("links from the rest of the site", () => {
   it("finds a shared volume from each commander it names", () => {
     const shared = {
       ...volume({}),
-      commanderSlug: "ferdinand-foch",
-      alsoCommanderSlugs: ["philippe-petain", "joseph-joffre"],
+      commanderSlug: "joseph-joffre",
+      alsoCommanderSlugs: ["arthur-currie", "john-monash"],
     };
     leadershipVolumes.push(shared);
     try {
-      expect(volumeForCommander("ferdinand-foch")).toBe(shared);
-      expect(volumeForCommander("philippe-petain")).toBe(shared);
+      expect(volumeForCommander("joseph-joffre")).toBe(shared);
+      expect(volumeForCommander("arthur-currie")).toBe(shared);
       expect(volumeForCommander("august-von-mackensen")).toBeUndefined();
     } finally {
       leadershipVolumes.pop();

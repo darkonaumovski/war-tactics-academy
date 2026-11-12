@@ -558,6 +558,29 @@ test("the Serbian Supreme Command volume is shared by its commanders", async ({
     /\/leadership\/radomir-putnik\/the-capital-or-the-army\/$/,
   );
 });
+test("the Western Front volume opens with its pilot lessons", async ({
+  page,
+}) => {
+  await page.goto("/leadership/douglas-haig");
+  await expect(
+    page.getByText(
+      "Did the generals learn, and was the learning worth its price?",
+    ),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("heading", { name: "A volume in progress" }),
+  ).toBeVisible();
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(4);
+  await page.goto("/commanders/ferdinand-foch");
+  await expect(
+    page.getByRole("link", { name: /Leadership Lessons from Foch and Haig/ }),
+  ).toBeVisible();
+  await page.goto("/battles/operation-michael");
+  await page.getByRole("link", { name: /The day the front broke/ }).click();
+  await expect(page).toHaveURL(
+    /\/leadership\/douglas-haig\/the-day-the-front-broke\/$/,
+  );
+});
 test("the volumes are compared problem by problem", async ({ page }) => {
   await page.goto("/leadership");
   await page.getByRole("link", { name: /Compare the volumes/ }).click();

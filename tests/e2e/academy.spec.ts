@@ -558,6 +558,36 @@ test("the Serbian Supreme Command volume is shared by its commanders", async ({
     /\/leadership\/radomir-putnik\/the-capital-or-the-army\/$/,
   );
 });
+test("the volumes are compared problem by problem", async ({ page }) => {
+  await page.goto("/leadership");
+  await page.getByRole("link", { name: /Compare the volumes/ }).click();
+  await expect(page).toHaveURL(/\/leadership\/compare\/$/);
+  await expect(
+    page.getByRole("heading", { name: "The same problem, three records" }),
+  ).toBeVisible();
+  await expect(page.locator(".compare-problem")).toHaveCount(8);
+  const stopping = page.locator("#stopping");
+  await expect(stopping.locator(".compare-card")).toHaveCount(6);
+  await expect(stopping.getByText("Interpretation")).toBeVisible();
+  await expect(
+    page.locator("#taking-over").getByText("No lesson in this volume"),
+  ).toBeVisible();
+  await stopping.getByRole("link", { name: /Staying at Tyre/ }).click();
+  await expect(page).toHaveURL(
+    /\/leadership\/alexander-the-great\/staying-at-tyre\/$/,
+  );
+  await page
+    .locator(".leadership-compare-links")
+    .getByRole("link", { name: "When to stop, when to persist" })
+    .click();
+  await expect(page).toHaveURL(/\/leadership\/compare\/#stopping$/);
+  await page.setViewportSize({ width: 375, height: 800 });
+  await page.goto("/leadership/compare");
+  const overflow = await page.evaluate(
+    () => document.documentElement.scrollWidth - window.innerWidth,
+  );
+  expect(overflow).toBeLessThanOrEqual(0);
+});
 test("extended learning paths are listed and their lessons persist progress", async ({
   page,
 }) => {
@@ -816,6 +846,7 @@ test("pages publish descriptive metadata and a sitemap", async ({ page }) => {
   expect(xml).toContain("/battles/waterloo/</loc>");
   expect(xml).toContain("/academy/classical-warfare/siege-warfare/</loc>");
   expect(xml).toContain("/collections/serbian-front/</loc>");
+  expect(xml).toContain("/leadership/compare/</loc>");
 });
 test("global search includes campaigns and learning", async ({ page }) => {
   await page.goto("/");

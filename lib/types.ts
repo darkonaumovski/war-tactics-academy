@@ -256,6 +256,18 @@ export type LeadershipVolume = {
   // Shown while a volume is still being written.
   inProgress?: string;
 };
+// A problem that recurs across volumes, for the page that sets their lessons
+// side by side. Separate from `LeadershipTheme`, which is too broad to compare.
+export type LeadershipProblem = {
+  slug: string;
+  title: string;
+  // The question every volume is asked.
+  question: string;
+  // Lessons by volume, addressed by the volume's `commanderSlug`.
+  lessons: { volume: string; slugs: string[] }[];
+  // "Reading across": an interpretation drawn only from the linked lessons.
+  note?: string;
+};
 export type Catalog = {
   battles: Battle[];
   commanders: Commander[];

@@ -157,7 +157,118 @@
 .leadership-ledger td:last-child {
   color: var(--muted);
 }
+.leadership-compare-cta .text-link {
+  display: inline-flex;
+  margin-top: 12px;
+}
+.leadership-claim .leadership-compare-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  margin-top: 16px;
+  font-family: inherit;
+  font-size: 14px;
+}
+.leadership-compare-links span {
+  color: var(--muted);
+}
+.leadership-compare-links a {
+  color: var(--gold);
+}
+.compare-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 24px 0 8px;
+  padding: 0;
+  list-style: none;
+}
+.compare-jump a {
+  display: inline-block;
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  font-size: 13px;
+  color: var(--text);
+}
+.compare-jump a:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+.compare-problem {
+  margin: 48px 0;
+  scroll-margin-top: 90px;
+}
+.compare-question {
+  margin: 0 0 18px;
+  font-family: var(--font-serif);
+  font-size: 19px;
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--gold);
+}
+.compare-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+.compare-column {
+  min-width: 0;
+}
+.compare-column h3 {
+  margin: 0 0 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.compare-card {
+  margin-bottom: 12px;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+.compare-card > a {
+  font-weight: 600;
+  color: var(--text);
+}
+.compare-card > a:hover {
+  color: var(--gold);
+}
+.compare-card p {
+  margin: 8px 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.compare-card dl {
+  margin: 10px 0 0;
+  font-size: 13px;
+  line-height: 1.55;
+}
+.compare-card dt {
+  color: var(--gold);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.compare-card dd {
+  margin: 2px 0 8px;
+  color: var(--muted);
+}
+.compare-empty {
+  color: var(--muted);
+  font-size: 14px;
+  font-style: italic;
+}
+.compare-note {
+  max-width: 820px;
+  margin-top: 22px;
+}
 @media (max-width: 760px) {
+  .compare-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
   .leadership-ledger thead {
     display: none;
   }

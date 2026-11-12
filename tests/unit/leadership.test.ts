@@ -7,7 +7,14 @@ import {
 } from "../../data/leadership";
 import { battles, campaigns } from "../../data/catalog";
 import commanders from "../../data/commanders.json";
-import { leadershipVolumeSchema } from "../../lib/validation";
+import {
+  leadershipProblems,
+  problemsForLesson,
+} from "../../data/leadership/problems";
+import {
+  leadershipProblemSchema,
+  leadershipVolumeSchema,
+} from "../../lib/validation";
 import type { LeadershipLesson, LeadershipVolume } from "../../lib/types";
 
 const reading = {
@@ -189,6 +196,47 @@ it("lists the Napoleon lessons in curriculum order", () =>
     "what-outlasts-you",
     "the-ledger",
   ]));
+
+describe("problems compared across volumes", () => {
+  it("are valid and name only existing volumes and lessons", () => {
+    const slugs = leadershipProblems.map((p) => p.slug);
+    expect(new Set(slugs).size).toBe(slugs.length);
+    for (const p of leadershipProblems) {
+      leadershipProblemSchema.parse(p);
+      for (const { volume, slugs } of p.lessons) {
+        const v = volumeForCommander(volume);
+        expect(v?.commanderSlug, `${p.slug}: ${volume}`).toBe(volume);
+        for (const s of slugs)
+          expect(
+            v?.lessons.some((l) => l.slug === s),
+            `${p.slug}: ${s}`,
+          ).toBe(true);
+      }
+    }
+  });
+
+  it("rejects a problem drawn from one volume, or listing a volume twice", () => {
+    const lessons = [{ volume: "napoleon-bonaparte", slugs: ["the-ledger"] }];
+    const problem = { slug: "x", title: "X", question: "X?", lessons };
+    expect(leadershipProblemSchema.safeParse(problem).success).toBe(false);
+    expect(
+      leadershipProblemSchema.safeParse({
+        ...problem,
+        lessons: [...lessons, ...lessons],
+      }).success,
+    ).toBe(false);
+  });
+
+  it("finds the problems a lesson is compared under", () => {
+    expect(
+      problemsForLesson("radomir-putnik", "after-the-chief").map((p) => p.slug),
+    ).toEqual(["dissent", "succession"]);
+    expect(problemsForLesson("napoleon-bonaparte", "the-ledger")).toHaveLength(
+      1,
+    );
+    expect(problemsForLesson("alexander-the-great", "opis")).toEqual([]);
+  });
+});
 
 describe("links from the rest of the site", () => {
   it("gives every lesson a line for the strength-and-shadow table", () => {

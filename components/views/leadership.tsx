@@ -18,6 +18,10 @@ import type {
   Source,
 } from "../../lib/types";
 import { leadershipVolumes } from "../../data/leadership";
+import {
+  leadershipProblems,
+  problemsForLesson,
+} from "../../data/leadership/problems";
 import { Heading, Breadcrumbs, Sources } from "../ui";
 import { CourseProgress, LessonStatus } from "../persistence-ui";
 import { Quiz, SourceCheck } from "../learning";
@@ -128,15 +132,25 @@ export function LeadershipPage() {
           </article>
         ))}
       </div>
+      <div className="leadership-claim leadership-compare-cta">
+        <span className="eyebrow">ACROSS THE VOLUMES</span>
+        <p>
+          The same problems recur: reading the record, dissent, knowing when to
+          stop, succession, who pays.
+        </p>
+        <Link className="text-link" href="/leadership/compare">
+          Compare the volumes <ArrowRight size={16} />
+        </Link>
+      </div>
       <div className="catalog-notice">
         <Info />
         <div>
           <h2>How to read these lessons</h2>
           <p>
-            Each lesson tests one claim against a career. The labels show
-            whether you are reading the historical account or an interpretation,
-            and every psychological reading says how far it can go. One career
-            cannot prove a rule.
+            Each lesson tests one claim against a career or a shared command.
+            The labels show whether you are reading the historical account or an
+            interpretation, and every psychological reading says how far it can
+            go. One record cannot prove a rule.
           </p>
         </div>
       </div>
@@ -256,6 +270,109 @@ function StrengthAndShadow({ volume: v }: { volume: LeadershipVolume }) {
         </p>
       )}
     </section>
+  );
+}
+function CompareLinks({ volume, lesson }: { volume: string; lesson: string }) {
+  const problems = problemsForLesson(volume, lesson);
+  if (!problems.length) return null;
+  return (
+    <p className="leadership-compare-links">
+      <span>Compared across volumes:</span>
+      {problems.map((p) => (
+        <Link key={p.slug} href={`/leadership/compare#${p.slug}`}>
+          {p.title}
+        </Link>
+      ))}
+    </p>
+  );
+}
+const shortTitle = (v: LeadershipVolume) =>
+  v.title.replace(/^Leadership Lessons from /, "").replace(/^the /, "The ");
+export function LeadershipComparePage() {
+  return (
+    <div className="page-container leadership-compare">
+      <Breadcrumbs
+        items={[
+          { name: "Leadership Lessons", href: "/leadership" },
+          { name: "Compare the volumes" },
+        ]}
+      />
+      <Heading
+        eyebrow="ACROSS THE VOLUMES"
+        title="The same problem, three records"
+        description="Napoleon, Alexander and the Serbian Supreme Command met some of the same problems. Each problem below sets the lessons that test it side by side, with their claims, strengths and shadows. A note reading across them is an interpretation drawn only from those lessons, and compares conditions, not commanders. Three records cannot prove a rule either."
+      />
+      <nav aria-label="Problems">
+        <ul className="compare-jump">
+          {leadershipProblems.map((p) => (
+            <li key={p.slug}>
+              <a href={`#${p.slug}`}>{p.title}</a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+      {leadershipProblems.map((p) => (
+        <section
+          className="compare-problem"
+          id={p.slug}
+          key={p.slug}
+          aria-labelledby={`${p.slug}-title`}
+        >
+          <h2 className="leadership-part" id={`${p.slug}-title`}>
+            {p.title}
+          </h2>
+          <p className="leadership-question compare-question">{p.question}</p>
+          <div className="compare-grid">
+            {leadershipVolumes.map((v) => {
+              const slugs =
+                p.lessons.find((x) => x.volume === v.commanderSlug)?.slugs ??
+                [];
+              const lessons = slugs.flatMap(
+                (s) => v.lessons.find((l) => l.slug === s) ?? [],
+              );
+              return (
+                <div className="compare-column" key={v.commanderSlug}>
+                  <h3>{shortTitle(v)}</h3>
+                  {lessons.length ? (
+                    lessons.map((l) => (
+                      <article className="compare-card" key={l.slug}>
+                        <Link href={`/leadership/${v.commanderSlug}/${l.slug}`}>
+                          {l.title}
+                        </Link>
+                        <p>{l.claim}</p>
+                        {l.inBrief && (
+                          <dl>
+                            <dt>Strength</dt>
+                            <dd>{l.inBrief.strength}</dd>
+                            <dt>Shadow</dt>
+                            <dd>{l.inBrief.shadow}</dd>
+                          </dl>
+                        )}
+                      </article>
+                    ))
+                  ) : (
+                    <p className="compare-empty">
+                      No lesson in this volume takes this up.
+                    </p>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+          {p.note && (
+            <div className="leadership-reading compare-note">
+              <div className="leadership-reading-head">
+                <h3>Reading across</h3>
+                <span className="evidence interpretation">
+                  {evidenceLabels.interpretation}
+                </span>
+              </div>
+              <p>{p.note}</p>
+            </div>
+          )}
+        </section>
+      ))}
+    </div>
   );
 }
 export function LeadershipLessonPage({
@@ -405,6 +522,7 @@ export function LeadershipLessonPage({
         <span className="eyebrow">WHAT THIS ADDS TO THE QUESTION</span>
         <p className="leadership-question">{v.question}</p>
         <p>{l.bearsOn}</p>
+        <CompareLinks volume={v.commanderSlug} lesson={l.slug} />
       </div>
       <Quiz lesson={l} courseSlug={progressKey(v)} />
       {l.sourceCheck && <SourceCheck check={l.sourceCheck} />}

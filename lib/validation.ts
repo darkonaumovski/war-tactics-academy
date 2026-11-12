@@ -316,6 +316,32 @@ export const leadershipVolumeSchema = z
           message: `${lesson.slug} names an unknown part: ${lesson.part}`,
         });
   });
+export const leadershipProblemSchema = z
+  .object({
+    slug: z.string().regex(/^[a-z0-9-]+$/),
+    title: z.string().min(1),
+    question: z.string().min(1),
+    lessons: z
+      .array(
+        z.object({
+          volume: z.string().min(1),
+          slugs: z.array(z.string().min(1)).min(1),
+        }),
+      )
+      .min(2),
+    note: z.string().min(1).optional(),
+  })
+  .superRefine((problem, ctx) => {
+    const volumes = problem.lessons.map((x) => x.volume);
+    if (new Set(volumes).size !== volumes.length)
+      ctx.addIssue({ code: "custom", message: "A volume is listed twice" });
+    for (const { volume, slugs } of problem.lessons)
+      if (new Set(slugs).size !== slugs.length)
+        ctx.addIssue({
+          code: "custom",
+          message: `${problem.slug} lists a ${volume} lesson twice`,
+        });
+  });
 export const courseSchema = z.array(
   z.object({
     slug: z.string(),

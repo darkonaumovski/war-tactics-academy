@@ -21,6 +21,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "library/",
     "library/videos/",
     "leadership/",
+    "leadership/compare/",
     "about/",
     ...c.battles.map((b) => `battles/${b.slug}/`),
     ...c.commanders.map((x) => `commanders/${x.slug}/`),

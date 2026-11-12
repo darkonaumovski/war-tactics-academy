@@ -359,17 +359,15 @@ export function LeadershipComparePage() {
               );
             })}
           </div>
-          {p.note && (
-            <div className="leadership-reading compare-note">
-              <div className="leadership-reading-head">
-                <h3>Reading across</h3>
-                <span className="evidence interpretation">
-                  {evidenceLabels.interpretation}
-                </span>
-              </div>
-              <p>{p.note}</p>
+          <div className="leadership-reading compare-note">
+            <div className="leadership-reading-head">
+              <h3>Reading across</h3>
+              <span className="evidence interpretation">
+                {evidenceLabels.interpretation}
+              </span>
             </div>
-          )}
+            <p>{p.note}</p>
+          </div>
         </section>
       ))}
     </div>

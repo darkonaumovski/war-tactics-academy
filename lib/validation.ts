@@ -329,7 +329,7 @@ export const leadershipProblemSchema = z
         }),
       )
       .min(2),
-    note: z.string().min(1).optional(),
+    note: z.string().min(1),
   })
   .superRefine((problem, ctx) => {
     const volumes = problem.lessons.map((x) => x.volume);

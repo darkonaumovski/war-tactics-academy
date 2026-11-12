@@ -566,6 +566,7 @@ test("the volumes are compared problem by problem", async ({ page }) => {
     page.getByRole("heading", { name: "The same problem, three records" }),
   ).toBeVisible();
   await expect(page.locator(".compare-problem")).toHaveCount(8);
+  await expect(page.locator(".compare-note")).toHaveCount(8);
   const stopping = page.locator("#stopping");
   await expect(stopping.locator(".compare-card")).toHaveCount(6);
   await expect(stopping.getByText("Interpretation")).toBeVisible();

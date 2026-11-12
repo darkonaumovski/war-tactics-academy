@@ -217,7 +217,13 @@ describe("problems compared across volumes", () => {
 
   it("rejects a problem drawn from one volume, or listing a volume twice", () => {
     const lessons = [{ volume: "napoleon-bonaparte", slugs: ["the-ledger"] }];
-    const problem = { slug: "x", title: "X", question: "X?", lessons };
+    const problem = {
+      slug: "x",
+      title: "X",
+      question: "X?",
+      lessons,
+      note: "N",
+    };
     expect(leadershipProblemSchema.safeParse(problem).success).toBe(false);
     expect(
       leadershipProblemSchema.safeParse({

@@ -266,7 +266,7 @@ export type LeadershipProblem = {
   // Lessons by volume, addressed by the volume's `commanderSlug`.
   lessons: { volume: string; slugs: string[] }[];
   // "Reading across": an interpretation drawn only from the linked lessons.
-  note?: string;
+  note: string;
 };
 export type Catalog = {
   battles: Battle[];

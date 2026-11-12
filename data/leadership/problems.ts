@@ -1,7 +1,7 @@
 import type { LeadershipProblem } from "../../lib/types";
-// Problems that recur across the volumes, for /leadership/compare/. Each note
-// is an interpretation drawn only from the lessons it links, which carry the
-// sources; it compares conditions and does not rank commanders.
+// Problems that recur across the volumes, for /leadership/compare/ (batches T1
+// and T2). Each note is an interpretation drawn only from the lessons it links,
+// which carry the sources; it compares conditions and does not rank commanders.
 export const leadershipProblems: LeadershipProblem[] = [
   {
     slug: "reading-the-record",
@@ -24,6 +24,7 @@ export const leadershipProblems: LeadershipProblem[] = [
       { volume: "napoleon-bonaparte", slugs: ["inherit-before-you-invent"] },
       { volume: "alexander-the-great", slugs: ["a-borrowed-army"] },
     ],
+    note: "Both volumes begin with an inheritance and ask the reader to look at it before crediting the leader. Napoleon inherited divisions, guns and ideas from the old army and the Revolution and organised them into a new kind of campaign; the legend that he made it all is partly his own work. Alexander inherited his father’s army and generals and told the Macedonians that the king had changed only in name. The difference lies in what the inheritance cost. Napoleon’s lesson is about credit: some of what looks like later decline may be inherited capital running out. Alexander’s is about loyalty: the inheritance was secured by killing a rival, its senior men served at the price of their independence, and two of them later died at his order or by his hand. The Serbian volume has no lesson on this problem.",
   },
   {
     slug: "presence",
@@ -35,6 +36,7 @@ export const leadershipProblems: LeadershipProblem[] = [
       { volume: "alexander-the-great", slugs: ["the-king-in-the-front-rank"] },
       { volume: "radomir-putnik", slugs: ["the-retreat-that-kept-an-army"] },
     ],
+    note: "All three volumes find that shared risk binds followers, and all three find where it stops. Napoleon’s presence at Lodi, Arcole and Jaffa built authority because his soldiers read the risk as theirs, which is also why it was worth staging. Alexander fought in the front rank, and at the Malli town the bond and the single point of failure were the same thing. The old Serbian king and the chief of staff crossed the mountains with the army, and it survived as an army, but presence could not feed, clothe or heal it; Allied ships and Corfu did that. Read together, the lessons set the conditions: the risk has to be of the same kind as the followers’, someone has to be able to take over if the leader falls, and presence is no substitute for supplies or rescue.",
   },
   {
     slug: "adapting",
@@ -46,6 +48,7 @@ export const leadershipProblems: LeadershipProblem[] = [
       { volume: "alexander-the-great", slugs: ["a-new-enemy-every-year"] },
       { volume: "radomir-putnik", slugs: ["where-will-the-blow-fall"] },
     ],
+    note: "The three lessons watch the same contest from different sides. Napoleon’s method beat every army it met, and his opponents learned it faster than he renewed it. Alexander kept diagnosing each new enemy, horse archers, a walled pass, a guarded river, and found a different answer each time; his shadow came in the Gedrosian desert, where the problem was terrain, not an enemy. The Serbian command could not know where the blow would fall in 1914, waited until it showed itself and sent the Second Army west to Cer; it had expected the blow from the north, and waiting worked against an enemy that had divided itself. Read together, the lessons suggest that a method travels only as far as the reading of the opponent behind it, and that each way of reading has its own blind spot: the confidence that comes from winning, habits built for opponents turned on terrain, and dependence on seeing the threat in time.",
   },
   {
     slug: "dissent",
@@ -59,6 +62,7 @@ export const leadershipProblems: LeadershipProblem[] = [
       },
       { volume: "radomir-putnik", slugs: ["after-the-chief"] },
     ],
+    note: "Each volume asks who could say no, and each finds the answer shaped by power. Napoleon had people who could still tell him no, but their objections had no effect unless he chose, and the price of ignoring correct advice grew once his margin had gone. Alexander heard Parmenion’s objections and often answered them with reasons, and when the Macedonians objected to prostration he let the proposal drop for them; yet men who spoke frankly near him were killed, and the record that shows Parmenion always wrong was written after Alexander had him killed. In the Serbian case, the trial at Salonika, which Britannica calls dubious, removed a rival centre of power with death sentences that a Belgrade court overturned in 1953, and showed everyone who remained what opposition could cost. Read together, the lessons point to the same condition: dissent lasts where it has a route that does not depend on the leader’s choice, and the record of it is often kept by the side that won the argument.",
   },
   {
     slug: "stopping",
@@ -94,6 +98,7 @@ export const leadershipProblems: LeadershipProblem[] = [
       { volume: "alexander-the-great", slugs: ["to-the-strongest"] },
       { volume: "radomir-putnik", slugs: ["who-decided", "after-the-chief"] },
     ],
+    note: "All three volumes meet authority that rests on people rather than rules. Napoleon built institutions, from the Civil Code to the prefects, that outlasted him, while his dynasty depended on his own success and his army failed wherever he was absent. Alexander’s personal authority held an empire together while he lived; he named no heir, and his half-brother, his mother, his wife and his sons were all killed in the wars that followed. The Serbian command was shared from the start: when Putnik was relieved, command passed to Bojović and later Mišić, men who had led armies since 1914, and the army fought on, though the record often cannot say who decided. Read together, the lessons suggest that what outlasts a leader is what was built not to need them, and that a shared command trades a single point of failure for responsibility that is hard to locate.",
   },
   {
     slug: "who-pays",

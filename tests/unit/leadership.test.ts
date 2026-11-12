@@ -214,6 +214,9 @@ describe("the Western Front volume", () => {
       "what-reaches-the-top",
       "where-the-learning-happened",
       "the-day-the-front-broke",
+      "coordination-by-persuasion",
+      "knowing-when-to-switch",
+      "the-general-battle",
     ]);
   });
 });

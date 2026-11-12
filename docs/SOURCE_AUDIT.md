@@ -1384,3 +1384,24 @@ Corrections made while writing:
 Saying checked: Charteris's note of 5 October 1917 is quoted only as Britannica quotes it. Foch's lines on moral force and inaction are quoted from the 1920 translation; they are his own words in a published book.
 
 Counts: Falkenhayn is now the counter-case of two lessons, in the Serbian volume and this one; the unit test was updated.
+
+## Leadership Lessons from Foch and Haig: batch W3, coordination, Amiens and the general battle (12 November 2026)
+
+Three lessons in `data/leadership/douglas-haig.ts`: coordination by persuasion (Ypres in 1914 to Beauvais in 1918, absorbing the Ypres lesson as agreed in Phase 0), knowing when to switch (Amiens, August 1918) and the general battle (the Hundred Days). Ten of the volume's twelve lessons are now published.
+
+| Tier                    | Sources                                                                                                                                                                                                                                                                                                                     |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Primary texts           | Foch's _Memoirs_ (pp. 177–178, Ypres on 31 October 1914; pp. 296, 311–314, Doullens to Beauvais; pp. 444–446, Amiens in August 1918; pp. 459–466, Saint-Mihiel and the general battle); Haig's despatches (pp. xi–xiii, Foch's introduction; p. 239, April 1918; pp. 257, 262–264, August 1918; p. 320, the final despatch) |
+| Reference               | Britannica on Pershing (unsigned) and on Amiens (Brereton Greenhous and Jon Tattrie, from _The Canadian Encyclopedia_), with the Foch, Ludendorff and Passchendaele articles already read; all in the built-in browser                                                                                                      |
+| Museums and scholarship | The Australian War Memorial on Monash (its _1918: Australians in France_ exhibition page) and Peter Pedersen, "The inner Monash", _Wartime_ 82; Philpott (RUSI, 2009)                                                                                                                                                       |
+| Psychology              | Detert and Burris (2007) and Lee and colleagues (2018), abstracts read in the built-in browser; the coordination lesson offers no mechanism (`base: "none"`)                                                                                                                                                                |
+
+Corrections made while writing:
+
+- The coordination lesson placed Vlamertinghe "west of Ypres", which no source read says; removed. It called Pershing's letter of 31 August a letter of "objections"; Foch calls them observations. It said the British were driven "towards the Channel"; Britannica says towards the sea. It said the record shows Foch keeping both partners' trust; it now says only that he went on to direct the summer's offensives.
+- The Amiens lesson cited Britannica's Foch article for Haig's judgement in 1917; the reference is now the Passchendaele article. Its counter-case placed Ludendorff's May breakthrough "on the Aisne"; Britannica says the French front.
+- The general-battle lesson said Foch's instruction of 3 September ordered every Allied army to attack; it went to Pershing and Pétain, and the lesson now quotes Foch's earlier aim of bringing all the Allied armies into the battle. It called the 2018 meta-analysis's lead author "her"; no source read gives a gender, and the text now says "Lee and colleagues". It called Monash's critics his divisional commanders; Pedersen names Hobbs and others.
+
+Counter-cases: Pershing (coordination), Ludendorff (Amiens, his third appearance in the volume, each on a different decision: his record, his tactics, his refusal to switch) and Monash (the general battle). The Ypres episode links the First Ypres study.
+
+Word counts: the three lessons run to about 1,300 words, below the template's guide of 1,400 to 1,600; nothing was added to reach it.

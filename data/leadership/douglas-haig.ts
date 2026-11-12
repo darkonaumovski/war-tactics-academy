@@ -89,6 +89,38 @@ const s = {
     url: "https://pubmed.ncbi.nlm.nih.gov/35719269/",
     publisher: "The Leadership Quarterly",
   },
+  britPershing: {
+    title: "John J. Pershing",
+    url: "https://www.britannica.com/biography/John-J-Pershing",
+    publisher: britannica,
+  },
+  britAmiens: {
+    title: "Battle of Amiens (Brereton Greenhous and Jon Tattrie)",
+    url: "https://www.britannica.com/event/Battle-of-Amiens",
+    publisher: britannica,
+  },
+  awmMonash: {
+    title: "1918: Australians in France – General Sir John Monash",
+    url: "https://www.awm.gov.au/visit/exhibitions/1918/people/genmonash",
+    publisher: "Australian War Memorial",
+  },
+  pedersen: {
+    title: "Peter Pedersen, The inner Monash, Wartime, issue 82",
+    url: "https://www.awm.gov.au/wartime/82/article-two",
+    publisher: "Australian War Memorial",
+  },
+  detertBurris: {
+    title:
+      "James R. Detert and Ethan R. Burris, Leadership behavior and employee voice: is the door really open? (2007), abstract",
+    url: "https://doi.org/10.5465/amj.2007.26279183",
+    publisher: "Academy of Management Journal",
+  },
+  leeWillisTian: {
+    title:
+      "Allan Lee, Sara Willis and Amy Wei Tian, Empowering leadership: a meta-analytic examination of incremental contribution, mediation, and moderation (2018), abstract",
+    url: "https://doi.org/10.1002/job.2220",
+    publisher: "Journal of Organizational Behavior",
+  },
   crook: {
     title:
       "Peter Crook, Should the Third Battle of Ypres have been called off in October 1917? (27 May 2008)",
@@ -1669,7 +1701,598 @@ export const westernFrontVolume: LeadershipVolume = {
         s.garretsen,
       ],
     },
+    {
+      slug: "coordination-by-persuasion",
+      title: "Coordination by persuasion: Ypres, 1914, to Beauvais, 1918",
+      part: "Sharing command, 1918",
+      themes: ["organisation", "communication"],
+      claim:
+        "When a leader’s authority over allies rests on their agreement, influence depends on putting the argument in a form they can adopt as their own, and on each partner keeping the right to refuse.",
+      inBrief: {
+        strength:
+          "Foch moved armies he did not command by argument, written notes and timely help, from Ypres in 1914 to the general offensive of 1918.",
+        shadow:
+          "Persuasion took time and left each partner a veto, and when he stripped one front to help another, the enemy struck where he had weakened.",
+      },
+      moment: {
+        text: "On the afternoon of 31 October 1914 Sir John French, the British commander-in-chief, found Foch in the town hall at Vlamertinghe. Foch had no authority over the British; Joffre had sent him to coordinate the Allied armies in the north. French described Haig’s I Corps in full retreat and said that if it were asked to go on fighting, there was nothing left for him but to go up and be killed with it. Foch argued that any withdrawal would bring a converging flood of attacks they could not stop, and promised a French attack to relieve the corps. To fix his own ideas and give them precise form, he wrote them on a sheet of paper and handed it over: it is absolutely essential not to retreat. French wrote on the back that he agreed entirely and sent it to Haig, and the retreat was countermanded.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "pp. 177–178" }, { source: 2 }],
+      },
+      episodes: [
+        {
+          title: "From a note to a mandate",
+          text: "In 1914, Britannica writes, Joffre sent Foch to coordinate the efforts of the British, French and Belgians at the Yser and Ypres. In March 1918, Foch writes, Milner recorded that Foch wanted the same position again, with a more distinct and higher authority, that of both Allied governments; the Doullens agreement gave it to him. Within days he judged its powers plainly inadequate. The role of coordinator gave far too little play to the officer who filled it, he writes, if he was to react rapidly to a defensive battle or organise an offensive. At Beauvais on 3 April the British, French and American governments entrusted him with the strategic direction of operations, left the commanders-in-chief full control of the tactical employment of their forces, and gave each the right to appeal to his government if he thought the safety of his army compromised by Foch’s orders.",
+          evidence: "fact",
+          refs: [{ source: 2 }, { source: 0, locator: "pp. 296, 311–314" }],
+          battleSlugs: ["first-ypres", "operation-michael"],
+        },
+        {
+          title: "Help asked and given",
+          text: "In April the German offensive fell on the British in Flanders. Haig’s despatch records that he represented the state of his exhausted divisions to Foch and asked for relief, and that Foch complied without delay, moving French forces north behind the British front. Britannica writes that to support the British, who were being pushed back towards the sea, Foch withdrew troops from the French front, and that Ludendorff took advantage: on 27 May he broke through that front and his troops reached the Marne. On 9 June a new gap opened at the Oise, and Foch stopped it again.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "p. 239" }, { source: 2 }],
+          battleSlugs: ["operation-michael"],
+        },
+        {
+          title: "Negotiating with Pershing",
+          text: "At the end of August Foch asked Pershing to cut back the American attack on the Saint-Mihiel salient so that the Americans could join a larger offensive west of the Meuse. Pershing answered with observations of his own in a letter of 31 August. Foch’s reply set out what the general battle required and told him that, if he could not make the Saint-Mihiel attack before or alongside the other, it should be abandoned; at a meeting on 2 September Pershing agreed that both could be done in rapid succession. Saint-Mihiel was taken on 12 September. Britannica adds that at Foch’s request Pershing then regrouped quickly for the Meuse-Argonne offensive, despite his own plans to advance towards Metz.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "pp. 462–465" }, { source: 3 }],
+          battleSlugs: ["meuse-argonne"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Ferdinand Foch, Memoirs",
+          stake:
+            "The coordinator himself, writing in the 1920s and careful to show his allies’ good sense.",
+          says: "The Doullens powers were plainly inadequate; the role of coordinator had to become one of direction.",
+          refs: [{ source: 0, locator: "pp. 312–313" }],
+        },
+        {
+          who: "Haig’s despatch",
+          stake: "The British commander-in-chief’s public report.",
+          says: "When he asked Foch for relief in April, Foch complied without delay.",
+          refs: [{ source: 1, locator: "p. 239" }],
+        },
+        {
+          who: "Britannica on Foch",
+          stake: "An admiring account by Charles-André Laffargue.",
+          says: "Foch’s help to the British in April weakened the French front, and Ludendorff broke through it in May.",
+          refs: [{ source: 2 }],
+        },
+        {
+          who: "Britannica on Pershing",
+          stake:
+            "An unsigned article that sets out Pershing’s case for an independent army.",
+          says: "Pershing insisted on keeping the American army intact against Allied pressure for amalgamation, but placed his resources at Foch’s disposal when Paris was threatened.",
+          refs: [{ source: 3 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "The Beauvais agreement made persuasion structural. Foch could direct strategy, but every commander-in-chief kept his tactics and the right to appeal to his government, so an order that a partner thought dangerous would come back as a political question. In practice Foch’s instructions had to be arguments that each partner could accept as his own. The next lesson shows the arrangement working in reverse, when Haig argued Foch out of an order and Foch conceded.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "pp. 313–314, 445–446" }],
+        },
+        {
+          text: "Coordination also has a dilemma that no argument removes: reserves sent to the threatened point weaken somewhere else. Judged without hindsight, sending French divisions north in April was sound, since the British were being pushed back towards the sea and the coalition could not survive their defeat. The cost fell on the Aisne in May. A coordinator who helps one partner at another’s expense has to be trusted by both, and Foch went on to direct the summer’s offensives after a breakthrough on his own country’s front.",
+          evidence: "interpretation",
+          refs: [{ source: 1, locator: "p. 239" }, { source: 2 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "No reliable mechanism offered",
+          base: "none",
+          text: "Research on influence without formal authority exists, but none of it was read for this lesson, and the record is unusually direct: written notes, letters and agreements in which Foch’s arguments and his allies’ answers survive. The lesson relies on them.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No psychological claim is made. Foch’s memoir is the main witness to his own persuasiveness, and should be read as such.",
+        },
+      ],
+      shadow: {
+        text: "Persuasion has a price in time and in exposure. The Doullens agreement had to be rewritten within a week because coordination could not act fast enough, and Foch’s help to the British in April left the French front thin enough for the German breakthrough of 27 May, which Britannica says carried the enemy to the Marne. A coordinator who must move reserves by agreement will sometimes move them too late, or move them away from the next blow.",
+        evidence: "interpretation",
+        refs: [{ source: 0, locator: "pp. 312–313" }, { source: 2 }],
+      },
+      counterCase: {
+        text: "Pershing met the coalition from the opposite position: a partner with fresh troops and the right to say no. Britannica writes that he insisted from the start on preserving the integrity of the American army, resisted Allied pressure to feed American units into French and British formations, and opposed diverting troops to secondary theatres; his stance strained the exhausted Allies, and the disasters of early 1918 seemed to show the risk. When the German offensives threatened Paris he placed all his resources at Foch’s disposal, then reverted to his policy when the pressure passed. His independent army took Saint-Mihiel, and its inexperience and incomplete preparations slowed the Meuse-Argonne. A partner who keeps his veto can strengthen a coalition, or make it wait.",
+        evidence: "interpretation",
+        refs: [{ source: 3 }],
+        commanderSlug: "john-j-pershing",
+        battleSlugs: ["meuse-argonne"],
+      },
+      cost: {
+        text: "The breakthrough of 27 May fell on French divisions holding a front Foch had thinned to help the British; Britannica records that it carried the Germans to the Marne. In the autumn, Britannica writes of the Meuse-Argonne, incomplete preparations and inexperience slowed the American operations that Pershing had regrouped for at Foch’s request.",
+        evidence: "fact",
+        refs: [{ source: 2 }, { source: 3 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "You must move people or resources you do not control, and each owner can refuse.",
+          "The arrangement has to work at speed, and every partner has a reason to protect their own first.",
+        ],
+        failsWhen: [
+          "One partner’s refusal would destroy the whole, and someone must be able to overrule it.",
+          "Persuasion becomes endless negotiation, and the moment for action passes.",
+        ],
+        questions: [
+          "Whom do you depend on that you cannot order, and how do you put your requests to them?",
+          "What right of refusal does each partner in your work hold, and is it written down?",
+          "When you help one part of your organisation, which other part pays?",
+        ],
+      },
+      bearsOn:
+        "Coordination is where the coalition visibly learned. In 1914 it worked by a note on a sheet of paper; in 1916 Haig wrote that goodwill was enough; in 1918 it became a written mandate that combined Foch’s strategic direction with the partners’ tactical control and rights of appeal. That was learning at the level of the alliance, bought by the crisis of March. Its price included the French front thinned in April and broken in May.",
+      questions: [
+        {
+          prompt:
+            "What did Foch hand to Sir John French at Vlamertinghe on 31 October 1914?",
+          choices: [
+            "An order from Joffre.",
+            "A written note of his argument that it was essential not to retreat.",
+            "A request for British reinforcements.",
+          ],
+          answer: 1,
+          explanation:
+            "French endorsed it in his own hand and sent it to Haig, and the I Corps retreat was countermanded.",
+        },
+        {
+          prompt:
+            "What did the Beauvais agreement leave to each commander-in-chief?",
+          choices: [
+            "Nothing; Foch commanded everything.",
+            "Full control of the tactical employment of his forces, and the right to appeal to his government.",
+            "The right to choose the strategy of the war.",
+          ],
+          answer: 1,
+          explanation:
+            "Foch gained strategic direction, and each partner kept a means of refusal.",
+        },
+        {
+          prompt:
+            "Why did Pershing resist amalgamation, according to Britannica?",
+          choices: [
+            "Because he distrusted the French artillery.",
+            "Because he wanted to keep the American army intact as an independent force.",
+            "Because his government had forbidden any cooperation.",
+          ],
+          answer: 1,
+          explanation:
+            "He also placed his resources at Foch’s disposal when Paris was threatened, which shows the veto being used flexibly.",
+        },
+      ],
+      seminar: {
+        prompt:
+          "Foch’s note at Ypres worked because Sir John French could sign it as his own. Draft the note you would need to send to a partner you cannot order, about a decision they would rather not make.",
+        guidance:
+          "Look at what Foch’s note contains: the danger, the reason, a concrete instruction, and an offer of help. Compare his later letter to Pershing, which gave him a choice between two ways of doing what Foch wanted.",
+      },
+      sources: [s.fochMemoirs, s.despatches, s.britFoch, s.britPershing],
+    },
+    {
+      slug: "knowing-when-to-switch",
+      title: "Knowing when to switch: Amiens, August 1918",
+      part: "Sharing command, 1918",
+      themes: ["restraint", "judgement"],
+      claim:
+        "When an attack has lost the surprise that made it succeed, breaking it off and striking elsewhere can achieve more than pressing on, but only if the commander sees the change for himself and a superior can be persuaded.",
+      inBrief: {
+        strength:
+          "Haig broke off a stalled attack after four days, switched the blow north, and persuaded Foch to agree.",
+        shadow:
+          "The judgement that served him in August 1918 had failed him in 1916 and 1917, and his despatch leaves out the argument with Foch.",
+      },
+      moment: {
+        text: "On the afternoon of 14 August 1918 Foch was driving to see Pétain when an English officer overtook him by aeroplane with a letter from Haig. German artillery fire had increased, Haig wrote, the old Chaulnes–Roye line was solidly held, and he had decided to postpone the attack planned for the 16th until an adequate preparation made it possible in the best conditions. Foch replied at once that he could see no reason to wait, and that evening wrote again that any postponement would have the most serious consequences. The Allied commander-in-chief had ordered an attack, and the British commander-in-chief had declined to make it on the day.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "pp. 444–445" }],
+      },
+      episodes: [
+        {
+          title: "Surprise on 8 August",
+          text: "The battle had begun as a model of the new methods. Britannica writes that the Allies made a show of weakening their front, moved troops forward at night and used bogus radio traffic to deceive the Germans, and attacked without a preliminary bombardment to keep surprise. The German defenders, outnumbered and unprepared, gave way, and Ludendorff called 8 August the black day of the German army. Haig’s despatch records that within five days Amiens and its railway had been disengaged and the line pushed forward about twelve miles in a vital sector.",
+          evidence: "fact",
+          refs: [{ source: 2 }, { source: 1, locator: "p. 263" }],
+          battleSlugs: ["amiens-1918"],
+        },
+        {
+          title: "The old battlefield",
+          text: "By the night of 12 August, Haig’s despatch says, the advance had reached the old Roye–Chaulnes defences: a derelict battle area of old trench lines, shell holes and tangled wire, overgrown by two years of vegetation, which offered unrivalled opportunities for machine-gun defence. Attacks proved the strength of these positions and showed that the enemy, heavily reinforced, was ready to fight for them. ‘I therefore determined to break off the battle on this front,’ the despatch says, and to transfer the attack north of the Somme, where the Third Army could strike where it was not expected, on ground not greatly damaged by shellfire. A footnote adds that on 10 August Haig had visited a division at the front and personally satisfied himself that the enemy’s opposition had stiffened. Britannica writes that the battle ended as the Canadian commander Arthur Currie urged the Allied leadership to consolidate its gains.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "pp. 262–264" }, { source: 2 }],
+          battleSlugs: ["amiens-1918"],
+        },
+        {
+          title: "Persuading the generalissimo",
+          text: "On 15 August, Foch writes, General Debeney told him the attack on Roye would be difficult and that his army would be too weak to sustain it. That afternoon Haig repeated his reasons: the attack south of the Somme would be hard and its success doubtful, even at the price of considerable losses, and the same result could be obtained more surely by the Third Army attacking north of the Ancre and turning the line of the Somme. Foch writes that he definitely came round to Haig’s opinion and changed his orders, on condition that the Third Army’s attack was strong enough to restart the drive south of the river. Haig’s despatch mentions none of this; it says only that he decided to break off, and that the French First Army ceased to be under his command.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "pp. 445–446" },
+            { source: 1, locator: "p. 263" },
+          ],
+          battleSlugs: ["amiens-1918"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Ferdinand Foch, Memoirs",
+          stake:
+            "The superior who was overruled, writing in the 1920s with nothing to gain from admitting it.",
+          says: "Haig’s reasons were sound, and he came round to them, with a condition.",
+          refs: [{ source: 0, locator: "pp. 445–446" }],
+        },
+        {
+          who: "Haig’s despatch",
+          stake:
+            "Haig’s public account, which omits the disagreement with Foch.",
+          says: "The enemy was ready to fight for the old positions, so he broke off and struck elsewhere.",
+          refs: [{ source: 1, locator: "p. 263" }],
+        },
+        {
+          who: "Britannica on Amiens",
+          stake:
+            "An article first published by The Canadian Encyclopedia, attentive to the Canadian Corps.",
+          says: "The battle ended as Currie urged the Allied leadership to consolidate its gains.",
+          refs: [{ source: 2 }],
+        },
+        {
+          who: "Erich Ludendorff, as Britannica and the despatch quote him",
+          stake: "The defeated commander, in his memoirs.",
+          says: "8 August was the black day of the German army in the war.",
+          refs: [{ source: 2 }, { source: 1, locator: "p. 263" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Set beside 1916 and 1917, the decision stands out. On the Somme and at Passchendaele attacks went on for months after surprise was gone; here Haig broke off after four days. The difference is partly circumstance: the ground ahead was the old Somme battlefield, ideal for defence, and an alternative existed in a sector the enemy did not expect. It is also method. The despatch says he went forward on 10 August and saw the resistance stiffen for himself, where in 1917 he had judged German collapse from headquarters and reports.",
+          evidence: "interpretation",
+          refs: [{ source: 1, locator: "pp. 262–264" }, { source: 6 }],
+        },
+        {
+          text: "The command structure helped. Under the Beauvais agreement Foch directed strategy and Haig controlled his armies’ tactics, with a right of appeal behind him, so the disagreement was settled by argument within days. Foch conceded but attached a condition that kept his aim, a renewed drive south of the river. Neither man gave up his responsibility, and the result was better than either had first proposed.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "pp. 313, 445–446" }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "A superior’s openness to voice",
+          base: "single study",
+          text: "Detert and Burris studied 3,149 employees and 223 managers in a restaurant chain and found that managerial openness was more consistently related to subordinates’ improvement-oriented voice than transformational leadership was, through subordinates’ sense of psychological safety, and that leaders’ behaviour mattered most for the best performers. In August 1918 the superior was open: Foch heard Haig’s case, consulted a French army commander, and changed his orders. The contrast with Passchendaele, where doubts stayed in diaries, is a contrast in the channel as much as in the man.",
+          evidence: "interpretation",
+          refs: [{ source: 4 }],
+          limit:
+            "Only the abstract was read. Restaurant employees speaking to managers are not commanders-in-chief with a right of appeal to their governments, and the study cannot explain Foch’s motives.",
+        },
+      ],
+      shadow: {
+        text: "The same judgement had failed him before. In October 1917, Britannica writes, Haig ordered deeper attacks at Passchendaele as the ground turned to mud, telling the government that German resistance might break at any moment. The ability to break off a battle that has lost its purpose was not a fixed trait; it appeared when surprise, ground, an alternative and first-hand knowledge all pointed the same way.",
+        evidence: "interpretation",
+        refs: [{ source: 6 }],
+        battleSlugs: ["passchendaele"],
+      },
+      counterCase: {
+        text: "Ludendorff did the opposite through the spring and summer of 1918. Laffargue writes in Britannica that, holding the initiative and superior numbers, Ludendorff redoubled his attacks after being stopped in Picardy and Flanders, broke through the French front in May, opened a new gap at the Oise in June, and on 15 July gambled everything he had in Champagne and was stopped within two days. Görlitz writes that he had overestimated the strength of the German armies. Each offensive was pressed after its surprise was spent, and no switch to a defensive posture came until the army that would have needed it was worn out.",
+        evidence: "interpretation",
+        refs: [{ source: 3 }, { source: 5 }],
+        commanderSlug: "erich-ludendorff",
+        battleSlugs: ["operation-michael"],
+      },
+      cost: {
+        text: "Even four successful days were paid for, on both sides; Britannica gives figures that the lesson does not repeat. Haig’s despatch says that in the months that followed, suffering, danger and losses were alike forgotten in the troops’ desire to beat the enemy. It is a commander’s sentence about men whose losses it does not count.",
+        evidence: "fact",
+        refs: [{ source: 2 }, { source: 1, locator: "p. 264" }],
+      },
+      transfer: {
+        holdsWhen: [
+          "An effort that worked because of surprise or novelty is now meeting prepared resistance.",
+          "There is another place to apply the same effort where it is not expected.",
+        ],
+        failsWhen: [
+          "Breaking off would give the opponent time to recover from a blow that is close to decisive.",
+          "Switching becomes a habit, and no effort is ever pressed to its result.",
+        ],
+        questions: [
+          "Which of your current efforts succeeded at first because it was unexpected, and is it still?",
+          "When did you last see the resistance for yourself rather than in a report?",
+          "Who above you could be persuaded to change an order, and how would you put the case?",
+        ],
+      },
+      bearsOn:
+        "Amiens is the clearest evidence in the volume that Haig learned something about stopping. In 1916 and 1917 attacks continued long after surprise was gone; in August 1918 he broke one off within days, went to see for himself, argued with his superior and switched the blow. The coalition’s structure made the argument possible. If learning is measured by what changed in the commander, this is where the evidence is strongest, and it came after the price had already been paid.",
+      questions: [
+        {
+          prompt:
+            "Why did Haig break off the Amiens attack, according to his despatch?",
+          choices: [
+            "Because Foch ordered him to stop.",
+            "Because the old Roye–Chaulnes defences were strongly held by a reinforced enemy, and an unexpected sector lay to the north.",
+            "Because his tanks had run out of fuel.",
+          ],
+          answer: 1,
+          explanation:
+            "The despatch adds that he had seen the stiffening resistance for himself on 10 August.",
+        },
+        {
+          prompt: "How did Foch respond to Haig’s arguments on 15 August?",
+          choices: [
+            "He dismissed Haig.",
+            "He came round to Haig’s opinion and changed his orders, on condition that the drive south of the Somme was resumed.",
+            "He appealed to the British government.",
+          ],
+          answer: 1,
+          explanation:
+            "The superior was persuaded, and kept his aim through a condition.",
+        },
+        {
+          prompt:
+            "What did Detert and Burris find most consistently related to employees speaking up?",
+          choices: [
+            "The manager’s charisma.",
+            "The manager’s openness, through employees’ sense of psychological safety.",
+            "The employees’ pay.",
+          ],
+          answer: 1,
+          explanation:
+            "Foch’s openness in August 1918 is the coalition-level version of the same thing.",
+        },
+      ],
+      sourceCheck: {
+        question: "Who decided to break off the Amiens attack in August 1918?",
+        witnesses: [
+          {
+            label: "Haig’s despatch",
+            claim:
+              "Haig determined to break off the battle and transfer the attack north.",
+          },
+          {
+            label: "Foch’s Memoirs",
+            claim:
+              "Haig postponed the attack and argued for the switch; Foch came round to his opinion and changed his orders.",
+          },
+          {
+            label: "Britannica on Amiens",
+            claim:
+              "The battle ended as Currie urged the Allied leadership to consolidate its gains.",
+          },
+        ],
+        prompt: "How should a reader combine these accounts?",
+        options: [
+          {
+            text: "Credit Haig alone, as his despatch does.",
+            feedback:
+              "His despatch omits Foch’s orders and objections; it is the account of the man who won the argument.",
+          },
+          {
+            text: "Credit Currie, because the Canadian account says so.",
+            feedback:
+              "Currie’s advice is recorded, from a Canadian source; it was one voice among several, and Haig made the decision.",
+          },
+          {
+            text: "See a decision made by argument: Currie and Debeney advised, Haig decided and persuaded, and Foch agreed with a condition.",
+            feedback:
+              "Each witness shows the part that its author or tradition cared about; together they show how the coalition decided.",
+            best: true,
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Compare Haig’s decision to break off at Amiens on 15 August 1918 with his decision to continue at Passchendaele after 4 October 1917. List what was different in each case: the ground, the alternatives, the information and the command arrangement.",
+        guidance:
+          "Use the despatch for both decisions and Foch’s memoir for 1918. Ask which differences were in Haig and which were in the situation.",
+      },
+      sources: [
+        s.fochMemoirs,
+        s.despatches,
+        s.britAmiens,
+        s.britFoch,
+        s.detertBurris,
+        s.britLudendorff,
+        s.britPasschendaele,
+      ],
+    },
+    {
+      slug: "the-general-battle",
+      title: "The general battle: the Hundred Days, 1918",
+      part: "Sharing command, 1918",
+      themes: ["organisation", "judgement"],
+      claim:
+        "When an enemy is weakening along a whole front, many converging blows under one direction can achieve what no single decisive attack could, but only if the commanders below are trusted with their part, and the pace is paid for by troops who get no rest.",
+      inBrief: {
+        strength:
+          "Foch’s general battle and the British armies’ succession of attacks broke the German army in a hundred days.",
+        shadow:
+          "No respite for the enemy meant none for the Allied troops; corps were driven until they were worn out.",
+      },
+      moment: {
+        text: "On 1 September 1918, in a letter to Pershing, Foch defined what he was organising. His note of the previous day, he wrote, had contemplated organising immediately a general battle of the Allied armies: in a predetermined direction, with the maximum of Allied forces, in the shortest possible time, and under the best conditions of supply. The next day the commanders-in-chief met at his headquarters, and on 3 September he sent them a general instruction. The battle he had in mind, he had written days before, required bringing all the Allied armies into it.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "pp. 462–465" }],
+      },
+      episodes: [
+        {
+          title: "Converging blows",
+          text: "Haig’s despatch describes the design. The French and American armies were to press attacks in a converging direction towards Mézières, while the British, attacking towards St Quentin and Cambrai, struck directly at the lateral railways through Maubeuge on which the German armies in Champagne depended; to protect them the enemy relied on the fortified zone of the Hindenburg Line. Foch, introducing the despatches, calls the British part a series of violent and repeated attacks linked with the French, American and Belgian blows in a converging assault from the North Sea to the Moselle, an unbroken offensive of 116 days. Philpott calls Foch’s general battle the first truly modern operational offensive.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "pp. xi–xiii, 257" }, { source: 2 }],
+          battleSlugs: ["amiens-1918", "meuse-argonne"],
+        },
+        {
+          title: "The corps that did the work",
+          text: "The battle was fought by corps and armies that planned their own attacks. John Monash took command of the Australian Corps in May 1918; the Australian War Memorial describes his conferences with officers to generate ideas and make sure everyone knew the plan, his preference for many weapons working together so that the whole was greater than the sum of its parts, and his use of gas and smoke shells together for days before an attack, then smoke alone, to confuse the defenders. Peter Pedersen writes that Monash aimed to use artillery, tanks and aircraft to spare the infantry the obligation to fight its way forward, and that Haig called him a most thorough and capable commander who left nothing to chance.",
+          evidence: "fact",
+          refs: [{ source: 4 }, { source: 5 }],
+          battleSlugs: ["amiens-1918"],
+        },
+        {
+          title: "No respite",
+          text: "Haig’s final despatch states the principle: when the enemy weakens, the greatest possible pressure must be kept up against his whole front, and at the crisis every man, horse and gun is required. Britannica writes that Foch intensified the offensive from August, giving no respite to the enemy nor to his own troops, until the German army, exhausted, dwindling, threatened by revolution at home and abandoned by its allies, was forced to ask for an armistice. The American part was harder than planned: Pershing regrouped quickly for the Meuse-Argonne at Foch’s request, and Britannica writes that incomplete preparations and inexperience slowed the operations.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "p. 320" },
+            { source: 3 },
+            { source: 7 },
+          ],
+          battleSlugs: ["meuse-argonne"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Ferdinand Foch",
+          stake:
+            "The director of the general battle, in his memoir and in his introduction to Haig’s despatches.",
+          says: "The battle needed a set direction, the most forces, the least time and sound supply; the British part was a series of violent, repeated attacks in a converging assault.",
+          refs: [
+            { source: 0, locator: "pp. 463–464" },
+            { source: 1, locator: "p. xii" },
+          ],
+        },
+        {
+          who: "Haig’s final despatch",
+          stake: "The British commander-in-chief, writing after the victory.",
+          says: "At the crisis the greatest possible pressure must be maintained against the whole front.",
+          refs: [{ source: 1, locator: "p. 320" }],
+        },
+        {
+          who: "William Philpott",
+          stake:
+            "A historian who credits the French more than the British debate does.",
+          says: "Foch’s general battle was the first truly modern operational offensive.",
+          refs: [{ source: 2 }],
+        },
+        {
+          who: "Peter Pedersen",
+          stake:
+            "A former acting assistant director of the Australian War Memorial and historian of Monash.",
+          says: "Monash planned exhaustively to spare his infantry, and could also be ruthless about losses.",
+          refs: [{ source: 5 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Foch’s lectures had called a battle of uniform pressure along the whole front inferior, because the defender’s fire made his resistance more efficient than the attack. The general battle of 1918 was not uniform. Its blows converged on chosen directions against the enemy’s railways, followed each other quickly enough to deny him time to move his reserves, and were made by armies whose methods had changed since 1916. Concentration came in time and direction rather than at a single point.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "p. 257" },
+            { source: 0, locator: "p. 463" },
+          ],
+        },
+        {
+          text: "A general battle cannot be run from one headquarters. Foch set the directions and the timetable; Haig chose where to strike within the British sector, switching between armies; corps commanders like Monash planned the attacks in detail. The direction was centralised and the execution devolved, which is close to what the Beauvais agreement had written down in April.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "pp. 313, 463–465" },
+            { source: 1, locator: "p. 263" },
+            { source: 4 },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Empowering leadership",
+          base: "meta-analysis",
+          text: "Lee and colleagues combined data from 105 samples and found that empowering leadership, which shares authority and autonomy with those led, had positive effects on performance, on helpful behaviour beyond the job, and on creativity, for individuals and for teams, partly through trust in the leader and a sense of empowerment. The Hundred Days fit the pattern at the top of the chain: Foch left tactics to the commanders-in-chief, and Monash’s conferences shared the planning with his officers.",
+          evidence: "interpretation",
+          refs: [{ source: 6 }],
+          limit:
+            "Only the abstract was read. The samples are modern organisations, not armies at war, and the same corps commanders who shared planning also ordered attacks regardless of losses, which the research does not describe.",
+        },
+      ],
+      shadow: {
+        text: "No respite for the enemy meant none for the attackers. Britannica says Foch gave no respite to his own troops either, and Haig’s principle required every man, horse and gun at the crisis. Pedersen writes that when the Australian Corps left the line in October it was badly depleted and totally exhausted, and that Monash had brushed aside pleas from Hobbs and others that their men were worn out. A general battle wins by wearing the enemy out faster than one’s own army; it does not spare one’s own army.",
+        evidence: "interpretation",
+        refs: [{ source: 3 }, { source: 1, locator: "p. 320" }, { source: 5 }],
+      },
+      counterCase: {
+        text: "Monash shows the general battle from inside one corps. The Australian War Memorial quotes Montgomery’s later judgement that he was the best general on the Western Front; Pedersen describes the method behind it, exhaustive planning, all arms working together, and attacks designed so that machines rather than men did the fighting forward. Pedersen also records the other side: Monash told his officers to hypnotise themselves into complete indifference over losses, ordered one objective taken regardless of casualties, and drove his corps until it was spent. The corps commander who did most to spare his infantry in each attack still spent them across the campaign.",
+        evidence: "interpretation",
+        refs: [{ source: 4 }, { source: 5 }],
+        commanderSlug: "john-monash",
+        battleSlugs: ["amiens-1918"],
+      },
+      cost: {
+        text: "The Australian Corps, Pedersen writes, came out of the line in October 1918 badly depleted and totally exhausted. The Americans in the Meuse-Argonne, Britannica writes, fought with incomplete preparations and inexperience. The general battle ended the war in a hundred days, and its price was paid daily by the divisions kept in action through them.",
+        evidence: "fact",
+        refs: [{ source: 5 }, { source: 7 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "A competitor or problem is weakening across a broad front, and no single effort will finish it.",
+          "Those carrying out each part can be trusted to plan it themselves within a common direction.",
+        ],
+        failsWhen: [
+          "The opponent is not yet weakening, and simultaneous efforts only spread your resources thin.",
+          "The people doing the work are already exhausted, and the pace consumes what it is meant to win.",
+        ],
+        questions: [
+          "Which parts of your effort could move at the same time under a shared direction, and who would plan each?",
+          "What would you need to know to judge that your opponent or problem is weakening everywhere at once?",
+          "Who is paying for the pace you have set, and have you asked them?",
+        ],
+      },
+      bearsOn:
+        "The Hundred Days are the strongest evidence that the generals learned. Foch directed a general battle that his lectures would not have recognised; Haig’s armies attacked with methods developed since 1916; corps commanders like Monash planned with a thoroughness the first day of the Somme had lacked. Haig’s final despatch claims this victory depended on the two years before it. The methods did: tanks, artillery and all-arms planning were developed in those years. Whether the attrition of 1916 and 1917 was also required is the question the last lesson takes up.",
+      questions: [
+        {
+          prompt:
+            "What four conditions did Foch set for the general battle in his letter to Pershing?",
+          choices: [
+            "Surprise, cavalry, aircraft and gas.",
+            "A predetermined direction, the maximum of Allied forces, the shortest possible time, and the best conditions of supply.",
+            "A single point of attack, a long bombardment, a reserve and a pursuit.",
+          ],
+          answer: 1,
+          explanation:
+            "Concentration came in direction and time, with every army taking part.",
+        },
+        {
+          prompt:
+            "How did Monash aim to spare his infantry, according to Pedersen?",
+          choices: [
+            "By refusing to attack.",
+            "By using artillery, tanks and aircraft to relieve the infantry of fighting its way forward.",
+            "By attacking only at night.",
+          ],
+          answer: 1,
+          explanation:
+            "The same commander drove his corps to exhaustion across the campaign.",
+        },
+        {
+          prompt:
+            "What does Britannica say about Foch’s offensive from August 1918?",
+          choices: [
+            "That it paused every few weeks to rest the troops.",
+            "That it gave no respite to the enemy nor to his own troops.",
+            "That it was fought only by the French.",
+          ],
+          answer: 1,
+          explanation:
+            "The pace that broke the German army also wore out the Allied divisions.",
+        },
+      ],
+      seminar: {
+        prompt:
+          "Haig’s final despatch argues that the victories of 1918 depended on the battles of 1916 and 1917. Separate the claim into two parts, the methods and the attrition, and judge each on the evidence of this volume.",
+        guidance:
+          "Use the lessons on the Somme, Passchendaele and where the learning happened for the methods. For attrition, ask what evidence exists that the German army of 1918 was weaker because of 1916 and 1917, and who supplies it.",
+      },
+      sources: [
+        s.fochMemoirs,
+        s.despatches,
+        s.philpott,
+        s.britFoch,
+        s.awmMonash,
+        s.pedersen,
+        s.leeWillisTian,
+        s.britPershing,
+      ],
+    },
   ],
   inProgress:
-    "This volume is being written. Seven of its twelve lessons are published; the others are added in reviewed batches.",
+    "This volume is being written. Ten of its twelve lessons are published; the others are added in reviewed batches.",
 };

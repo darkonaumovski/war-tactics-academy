@@ -12,12 +12,16 @@ export function SearchPage({ c }: { c: Catalog }) {
     ...c.battles.map((b) => ({
       title: b.name,
       text: b.summary,
-      keywords: battleSearchText(b, {
-        wars: c.wars,
-        campaigns: c.campaigns,
-        commanders: c.commanders,
-        collections,
-      }),
+      // The name and summary are already the title and text.
+      keywords: battleSearchText(
+        { ...b, name: "", summary: "" },
+        {
+          wars: c.wars,
+          campaigns: c.campaigns,
+          commanders: c.commanders,
+          collections,
+        },
+      ),
       meta: [
         b.kind,
         formatYear(b.year),

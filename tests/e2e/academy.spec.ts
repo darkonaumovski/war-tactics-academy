@@ -872,6 +872,18 @@ test("pages publish descriptive metadata and a sitemap", async ({ page }) => {
   expect(xml).toContain("/collections/serbian-front/</loc>");
   expect(xml).toContain("/leadership/compare/</loc>");
 });
+test("search lists nothing until there is a query or a type", async ({
+  page,
+}) => {
+  await page.goto("/search");
+  await expect(page.getByText(/Search by name, place, date/)).toBeVisible();
+  await expect(page.locator(".search-results")).toHaveCount(0);
+  await page.goto("/search?type=Leadership");
+  await expect(page.getByRole("status")).toContainText("results");
+  await expect(
+    page.locator(".search-results").getByRole("link").first(),
+  ).toBeVisible();
+});
 test("global search includes campaigns and learning", async ({ page }) => {
   await page.goto("/");
   await page

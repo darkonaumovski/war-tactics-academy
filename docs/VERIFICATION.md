@@ -1,15 +1,30 @@
 # Verification record
 
+## Search page weight (13 November 2026)
+
+The built search page had grown to 601 KB (125 KB gzipped) as the Leadership Lessons volumes were added. Measuring the export showed two parts: 318 KB of HTML, because with no query the page prerendered every one of its 493 records as a result, and 280 KB of serialised records that the browser filters (battles 74 KB, course lessons 58 KB of full lesson text, commanders 43 KB, leadership lessons 24 KB, campaigns 18 KB). No end-to-end test relied on the empty-query list.
+
+Two changes, with no change to which records a query finds: the page now shows a short prompt instead of results until there is a query or a type filter (a type alone still lists its records), and battle records no longer repeat their name and summary inside their keywords, since those are already the record's title and text.
+
+| Built page         | Before | After  |
+| ------------------ | ------ | ------ |
+| Search, total      | 601 KB | 277 KB |
+| HTML               | 318 KB | 14 KB  |
+| Serialised records | 280 KB | 262 KB |
+| Search, gzipped    | 125 KB | 79 KB  |
+
+The home page, the battle catalog and the commander list were unchanged. All 133 unit and 89 end-to-end tests passed in Chromium, including a new test for the empty-search prompt and for browsing by type. Moving the records to a separate file loaded on the first search was proposed and not done.
+
 ## Phone performance on a local build (9 November 2026)
 
 Lighthouse 13.5.0 ran in its default mobile mode (a mid-range phone on simulated slow 4G) with Playwright's Chromium against three local builds: the export of commit `59995ab`, a build with only the data changes, and the final build. A temporary local server applied gzip, as GitHub Pages does, and served route payloads under the names Linux builds use. Each page was audited three times per build, and the table gives the median. Lighthouse's CPU benchmark stayed between about 1,600 and 2,240 across the runs. These are lab results from one computer and are not comparable with the live-site tables below; the changes have not yet been measured on the live site.
 
-| Page           | Performance    | Largest paint (s) | Total blocking time (ms) | Page weight (KB)  |
-| -------------- | -------------- | ----------------- | ------------------------ | ----------------- |
-| Home           | 58 → 88 → 90   | 6.5 → 3.6 → 3.6   | 409 → 99 → 90            | 1,026 → 460 → 456 |
-| Battle catalog | 41 → 68 → 79   | 8.6 → 4.0 → 3.8   | 810 → 674 → 323          | 1,400 → 534 → 497 |
-| Atlas          | 60 → 81 → 81   | 7.1 → 4.1 → 4.1   | 269 → 213 → 202          | 1,101 → 533 → 533 |
-| Waterloo study | 86 → 89 → 91   | 3.9 → 3.5 → 3.4   | 155 → 77 → 89            | 546 → 381 → 381   |
+| Page           | Performance  | Largest paint (s) | Total blocking time (ms) | Page weight (KB)  |
+| -------------- | ------------ | ----------------- | ------------------------ | ----------------- |
+| Home           | 58 → 88 → 90 | 6.5 → 3.6 → 3.6   | 409 → 99 → 90            | 1,026 → 460 → 456 |
+| Battle catalog | 41 → 68 → 79 | 8.6 → 4.0 → 3.8   | 810 → 674 → 323          | 1,400 → 534 → 497 |
+| Atlas          | 60 → 81 → 81 | 7.1 → 4.1 → 4.1   | 269 → 213 → 202          | 1,101 → 533 → 533 |
+| Waterloo study | 86 → 89 → 91 | 3.9 → 3.5 → 3.4   | 155 → 77 → 89            | 546 → 381 → 381   |
 
 Each cell reads baseline → data changes → final build. The Waterloo study was not edited directly and serves as a control; it improved because the narrative bundle described below no longer loads on it.
 

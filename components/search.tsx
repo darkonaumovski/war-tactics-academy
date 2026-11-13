@@ -58,18 +58,23 @@ function SearchView({
   query: string;
   type: string;
 }) {
-  const result = records
-    .filter(
-      (r) =>
-        (!type || r.type === type) &&
-        matchesQuery(`${r.title} ${r.text} ${r.keywords ?? ""}`, query),
-    )
-    .map((r) => ({
-      r,
-      rank: searchRank(r.title, query, `${r.text} ${r.keywords ?? ""}`),
-    }))
-    .sort((a, b) => a.rank - b.rank)
-    .map(({ r }) => r);
+  // With neither a query nor a type there is nothing to show yet, so the
+  // prerendered page lists no records and stays light.
+  const idle = !query && !type;
+  const result = idle
+    ? []
+    : records
+        .filter(
+          (r) =>
+            (!type || r.type === type) &&
+            matchesQuery(`${r.title} ${r.text} ${r.keywords ?? ""}`, query),
+        )
+        .map((r) => ({
+          r,
+          rank: searchRank(r.title, query, `${r.text} ${r.keywords ?? ""}`),
+        }))
+        .sort((a, b) => a.rank - b.rank)
+        .map(({ r }) => r);
   return (
     <>
       <Form action="/search" className="filter-bar">
@@ -90,10 +95,17 @@ function SearchView({
           Search <ArrowRight size={15} />
         </button>
       </Form>
-      <p role="status" className="muted">
-        {result.length} results {query && `for “${query}”`}
-      </p>
-      {result.length ? (
+      {idle ? (
+        <p className="muted search-hint">
+          Search by name, place, date, war, commander, collection or idea, or
+          choose a content type to browse it.
+        </p>
+      ) : (
+        <p role="status" className="muted">
+          {result.length} results {query && `for “${query}”`}
+        </p>
+      )}
+      {idle ? null : result.length ? (
         <div className="search-results">
           {result.map((r) => (
             <Link href={r.href} key={r.href}>

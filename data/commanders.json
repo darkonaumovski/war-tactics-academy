@@ -5796,6 +5796,168 @@
     }
   },
   {
+    "slug": "louis-franchet-desperey",
+    "name": "Louis Franchet d'Espèrey",
+    "years": "1856–1942",
+    "state": "France / Allied coalition",
+    "eraId": "world-wars",
+    "role": "Commander of the Allied Army of the Orient, 1918–1920; Marshal of France",
+    "summary": "Commanded the French Fifth Army at the Marne in 1914 and, from June 1918, the Allied Army of the Orient, whose breakthrough at Dobro Pole forced Bulgaria out of the war.",
+    "approach": "A veteran of colonial campaigns with a long interest in the Balkans, he built close ties with the Serbian command and chose to attack from the mountain ridges the Bulgarians held rather than in the valleys or on the flanks.",
+    "strength": "Exploited the breakthrough at Dobro Pole: the Bulgarian front collapsed within days, his troops took 90,000 prisoners, and Serbian and French forces under his orders freed Belgrade on 1 November 1918.",
+    "limitation": "He inherited an army that Guillaumat had trained, equipped and brought into closer inter-allied cooperation, and his plans to push on to the Danube, Bohemia and the Straits were cut back by stretched supply lines and by British and Italian objections to French control.",
+    "legacy": "Made Marshal of France and vojvoda of the Kingdom of Serbs, Croats and Slovenes in 1921. The Serbian historian Mile Bjelajac notes that the victory vindicated French generals, with no mention of the Serbian officers who had proposed the same attack in 1915.",
+    "battleSlugs": ["marne-1914", "dobro-pole", "liberation-of-serbia-1918"],
+    "source": {
+      "title": "Franchet d'Espèrey, Louis Félix Marie François (Gwendal Piégais), PDF edition",
+      "url": "https://encyclopedia.1914-1918-online.net/article/franchet-desperey-louis-felix-marie-francois/?format=pdf",
+      "publisher": "1914-1918-online. International Encyclopedia of the First World War"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "General from 1908; Marshal of France and vojvoda of the Kingdom of Serbs, Croats and Slovenes (1921); member of the Académie française (1934)",
+      "principalCommands": [
+        "1st Army Corps, 1913–1914",
+        "Fifth Army, 1914–1916",
+        "Eastern Army Group, 1916",
+        "Northern Army Group, 1916–1918",
+        "Allied Army of the Orient, 1918–1920"
+      ],
+      "timeline": [
+        {
+          "date": "1856",
+          "event": "Born in Mostaganem, French Algeria"
+        },
+        {
+          "date": "1885–1887",
+          "event": "Serves in Tonkin against the Black Flag Army"
+        },
+        {
+          "date": "1900–1901",
+          "event": "Takes part in the campaign against the Boxer Rebellion"
+        },
+        {
+          "date": "1912",
+          "event": "Commands the occupation forces in Morocco"
+        },
+        {
+          "date": "Late August 1914",
+          "event": "Replaces Lanrezac at the head of the Fifth Army; counter-attacks at the Marne and reaches the Aisne"
+        },
+        {
+          "date": "October 1914",
+          "event": "Proposes a second front in the Balkans to President Poincaré"
+        },
+        {
+          "date": "1916",
+          "event": "Commands the Eastern Army Group from March, then the Northern Army Group"
+        },
+        {
+          "date": "June 1918",
+          "event": "Takes command of the Allied Army of the Orient at Salonika"
+        },
+        {
+          "date": "15–29 September 1918",
+          "event": "The Franco-Serbian attack at Dobro Pole breaks the Bulgarian front; Bulgaria signs an armistice at Salonika"
+        },
+        {
+          "date": "1 November 1918",
+          "event": "Belgrade is freed by the Serbian and French forces under his orders"
+        },
+        {
+          "date": "March 1920",
+          "event": "Leaves the command of the Allied Army of the Orient"
+        },
+        {
+          "date": "1942",
+          "event": "Dies at Saint-Amancet; buried in the Invalides"
+        }
+      ],
+      "notableDecision": "Unlike his predecessor, he made the main attack from the ridges held by the Bulgarians, on a plan first proposed by the Serbian staff; the Franco-Serbian attack at Dobro Pole broke the line between 15 and 18 September 1918.",
+      "setback": "At the Supreme War Council of 6–9 October 1918 his plans to advance beyond Serbia were criticised by Lloyd George and the Italians, and on 13 October he was ordered to confine himself to Serbia, Bulgaria and a line on the Danube. The intervention in southern Russia, which he judged too risky, failed, and he recalled its commander in April 1919."
+    }
+  },
+  {
+    "slug": "adolphe-guillaumat",
+    "name": "Adolphe Guillaumat",
+    "years": "1863–1940",
+    "state": "France / Allied coalition",
+    "eraId": "world-wars",
+    "role": "Commander-in-chief of the Allied armies at Salonika, December 1917 – June 1918",
+    "summary": "A division and army commander on the Western Front who succeeded Sarrail at Salonika in December 1917, rebuilt the Allied army there and prepared the offensive his successor launched in September 1918.",
+    "approach": "A former teacher of military history and infantry tactics, he restored confidence between the Allies, set up an inter-allied staff, and prepared the army for a major attack with training, equipment and new infrastructure.",
+    "strength": "Took over a heterogeneous force disorganised by inaction and left his successor an efficient army, with inter-allied cooperation on a much firmer footing than when Sarrail was removed.",
+    "limitation": "He was recalled before the offensive he had prepared, and the sources disagree on how much of its plan was his: the 1922 Britannica credits him with the plan Franchet d'Espèrey carried out, while Piégais writes that Franchet, unlike his predecessor, chose to attack from the ridges rather than the valleys or flanks.",
+    "legacy": "Remembered as the organiser of the Allied victory in Macedonia. From Paris he pressed the Supreme War Council to authorise the Salonika advance, and the 1922 Britannica says it was with his aid that Franchet d'Espèrey obtained authority to advance.",
+    "battleSlugs": ["verdun", "somme"],
+    "source": {
+      "title": "Guillaumat, Marie Louis Adolphe (Encyclopædia Britannica, 12th edition, 1922)",
+      "url": "https://en.wikisource.org/wiki/1922_Encyclop%C3%A6dia_Britannica/Guillaumat,_Marie_Louis_Adolphe",
+      "publisher": "Wikisource"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "General of division (confirmed 23 December 1915); Grand Cross of the Legion of Honour (10 July 1918); médaille militaire (3 October 1918)",
+      "principalCommands": [
+        "33rd Division, 1914",
+        "Second Army, 1916–1917",
+        "Allied armies at Salonika, 1917–1918",
+        "Military governor of Paris, 1918",
+        "Fifth Army, 1918"
+      ],
+      "timeline": [
+        {
+          "date": "4 January 1863",
+          "event": "Born in Charente-Inférieure"
+        },
+        {
+          "date": "1882",
+          "event": "Enters Saint-Cyr"
+        },
+        {
+          "date": "1903",
+          "event": "Professor of military history at Saint-Cyr; later lecturer on infantry tactics at the École de Guerre"
+        },
+        {
+          "date": "1913",
+          "event": "Director of infantry at the Ministry of War; general of brigade"
+        },
+        {
+          "date": "2 September 1914",
+          "event": "Given command of the 33rd Division"
+        },
+        {
+          "date": "1916",
+          "event": "Takes part in the defence of Verdun against the German offensive and in the Somme offensive"
+        },
+        {
+          "date": "December 1916",
+          "event": "Takes over the Second Army from Nivelle"
+        },
+        {
+          "date": "14 December 1917",
+          "event": "Succeeds Sarrail as commander-in-chief at Salonika"
+        },
+        {
+          "date": "June 1918",
+          "event": "Recalled to Paris as military governor while German offensives threaten the capital"
+        },
+        {
+          "date": "October 1918",
+          "event": "Given command of the Fifth Army"
+        },
+        {
+          "date": "1940",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "At Salonika he created an inter-allied staff suited to directing a multinational army and obtained the material means that made an offensive conceivable.",
+      "setback": "In June 1918 he was suddenly recalled to Paris, three months before the offensive he had prepared, and the breakthrough was made under his successor."
+    }
+  },
+  {
     "slug": "edmund-allenby",
     "name": "Edmund Allenby",
     "years": "1861–1936",

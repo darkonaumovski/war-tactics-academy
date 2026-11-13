@@ -4519,12 +4519,12 @@
     "years": "1888–1934",
     "state": "Kingdom of Serbia",
     "eraId": "world-wars",
-    "role": "Prince regent and commander-in-chief; later king",
-    "summary": "Regent of Serbia from June 1914 and commander-in-chief of its armed forces through the war; he entered liberated Belgrade in 1918 and proclaimed the Kingdom of Serbs, Croats and Slovenes.",
-    "approach": "Held supreme command as head of state, while the chiefs of the Supreme Command, Putnik and later Bojović and Mišić, directed operations.",
-    "strength": "Kept the dynasty, the government and the army's command together through defeat, exile on Corfu and return.",
-    "limitation": "His command in the war was largely formal. As king he abolished the constitution in 1929 and ruled as a dictator over a police state.",
-    "legacy": "Founder-king of the South Slav state; his wartime role is remembered in Serbia, his later dictatorship more critically. He was assassinated in Marseille in 1934.",
+    "role": "Prince regent and commander-in-chief of the Serbian armed forces, 1914–1918; later king",
+    "summary": "Regent of Serbia from June 1914 and commander-in-chief of its armed forces through the war, while the chiefs of the Supreme Command directed operations; he entered liberated Belgrade in 1918 and proclaimed the Kingdom of Serbs, Croats and Slovenes.",
+    "approach": "Held supreme command as head of state, with the Supreme Command under Putnik, then Bojović and Mišić, directing operations. Britannica gives the title of commander-in-chief to both him and Putnik, and the sources read do not show how decisions were divided between them, the chief of staff and Pašić's government.",
+    "strength": "A field commander before he was a regent: the Museum of Yugoslavia says he led the First Army at Kumanovo in 1912 and against the Bulgarians in 1913. In the world war he kept the dynasty, the government and the army's command together through defeat, exile on Corfu and return.",
+    "limitation": "The sources read credit him with no operational decision of his own in 1914–1918. As king he abolished the constitution in 1929 and, Britannica says, created a police state that needed military support to survive.",
+    "legacy": "Remembered in Serbia as the regent who led the country through the war; the Museum of Yugoslavia says he led his army in the Salonika breakthrough, while the encyclopedias give the direction of operations to the Supreme Command. He was assassinated in Marseille in 1934.",
     "battleSlugs": ["liberation-of-serbia-1918"],
     "source": {
       "title": "Alexander I (king of Yugoslavia)",
@@ -4536,6 +4536,7 @@
       "category": "Ruler-commander",
       "titles": "Crown prince and regent of Serbia from 24 June 1914; commander-in-chief of the Serbian armed forces in the First World War; king of the Serbs, Croats and Slovenes from 1921 and of Yugoslavia from 1929",
       "principalCommands": [
+        "First Army, in the Balkan Wars, 1912–1913",
         "Serbian armed forces, as commander-in-chief, 1914–1918"
       ],
       "timeline": [
@@ -4548,12 +4549,20 @@
           "event": "Becomes heir to the Serbian throne"
         },
         {
-          "date": "1912–1913",
-          "event": "Commands in the Balkan Wars"
+          "date": "October 1912",
+          "event": "Commands the First Army at Kumanovo in the First Balkan War"
         },
         {
           "date": "24 June 1914",
           "event": "Appointed regent by the ailing King Peter"
+        },
+        {
+          "date": "24 July 1914",
+          "event": "Appeals personally to Tsar Nicholas II; the answer arrives only on 28 July, after Serbia has replied to the ultimatum"
+        },
+        {
+          "date": "1917",
+          "event": "As commander-in-chief of the army in exile, brings the leaders of the Black Hand to trial at Salonika; Dimitrijević is executed in June"
         },
         {
           "date": "31 October 1918",
@@ -4572,7 +4581,7 @@
           "event": "Assassinated in Marseille"
         }
       ],
-      "notableDecision": "In July 1914, with Serbia's fate depending on Russia, he wrote personally to the Tsar on the advice of the Russian chargé d'affaires.",
+      "notableDecision": "In 1917, as commander-in-chief of the army in exile, he brought the leaders of the Black Hand, an officers' society whose authority had come to rival the government's, to trial at Salonika. Britannica's article on the society says he did it to eliminate a rival, on dubious charges; its biography of Dimitrijević says the society was marked for elimination by the premier, Pašić. Dimitrijević and two others were executed, and a retrial in Belgrade in 1953, which Britannica calls staged, cleared him.",
       "setback": "In 1915 the army he commanded was driven out of Serbia and had to be rebuilt in exile on Corfu."
     }
   },

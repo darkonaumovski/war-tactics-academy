@@ -2807,6 +2807,264 @@
     }
   },
   {
+    "slug": "louis-alexandre-berthier",
+    "name": "Louis-Alexandre Berthier",
+    "years": "1753–1815",
+    "state": "France",
+    "eraId": "napoleonic",
+    "role": "Chief of staff (major-general) of the Grande Armée; first of Napoleon's marshals",
+    "summary": "Napoleon's chief of staff from the Italian campaign of 1796 to the campaign in France in 1814, who ran imperial headquarters and turned the emperor's intentions into orders for his marshals.",
+    "approach": "An engineer and staff officer by training, he directed a small staff that dispatched Napoleon's orders to the marshals, which he carried out with professed impersonality; the growing power of the post caused friction with the marshals.",
+    "strength": "Ran headquarters with great efficiency through every campaign from 1805 to 1814, and after Napoleon left the army in Russia struggled to keep order in the retreat.",
+    "limitation": "Britannica judges him no distinguished commander: when he commanded in Napoleon's absence at the opening of the 1809 campaign, he sent Davout's corps first toward Ingolstadt and then back to Regensburg, leaving the army dangerously dispersed.",
+    "legacy": "On Saint Helena Napoleon said that with Berthier he would not have lost at Waterloo. He rallied to Louis XVIII in 1814 and died at Bamberg on 1 June 1815 in a fall from a window; the Fondation Napoléon leaves suicide or foul play open, while Britannica thinks the fall probably accidental, owing to illness.",
+    "battleSlugs": ["lodi", "marengo", "eckmuhl", "wagram", "borodino"],
+    "source": {
+      "title": "Berthier, Louis-Alexandre (biography)",
+      "url": "https://www.napoleon.org/en/history-of-the-two-empires/biographies/berthier-louis-alexandre/",
+      "publisher": "Fondation Napoléon"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Staff planner",
+      "titles": "Marshal of the Empire (1804, the first named); prince of Neuchâtel (1806); vice-constable (1807); prince de Wagram (1809)",
+      "principalCommands": [
+        "Chief of staff of the Army of Italy, 1796–1797",
+        "Minister of war, 1799–1800 and 1800–1807",
+        "Chief of staff (major-general) of the Grande Armée, 1805–1814"
+      ],
+      "timeline": [
+        {
+          "date": "1753",
+          "event": "Born at Versailles"
+        },
+        {
+          "date": "1780",
+          "event": "Serves on Rochambeau's staff in the American War of Independence"
+        },
+        {
+          "date": "March 1796",
+          "event": "Chief of staff of the Army of Italy, where he first works with Bonaparte"
+        },
+        {
+          "date": "10 May 1796",
+          "event": "In Bonaparte's account, rushes to the front with Masséna and Lannes when the column wavers on the bridge at Lodi"
+        },
+        {
+          "date": "February 1798",
+          "event": "Occupies Rome"
+        },
+        {
+          "date": "14 June 1800",
+          "event": "Wounded in the arm at Marengo"
+        },
+        {
+          "date": "1804",
+          "event": "First of Napoleon's marshals"
+        },
+        {
+          "date": "April 1809",
+          "event": "Commanding in Napoleon's absence, leaves the army dispersed on the Danube before Eckmühl"
+        },
+        {
+          "date": "July 1809",
+          "event": "His horse is shot under him at Wagram; made prince de Wagram in December"
+        },
+        {
+          "date": "1812",
+          "event": "Stays with Napoleon to the end of the retreat from Moscow, then with the army after his departure"
+        },
+        {
+          "date": "7 September 1812",
+          "event": "At Borodino, advises against committing the Imperial Guard"
+        },
+        {
+          "date": "1814",
+          "event": "Rallies to Louis XVIII after the abdication"
+        },
+        {
+          "date": "1 June 1815",
+          "event": "Dies in a fall from a window at Bamberg"
+        }
+      ],
+      "notableDecision": "When Napoleon left the army in Russia in December 1812, Berthier stayed and struggled to keep order in the retreat, first under Murat and then under Eugène de Beauharnais.",
+      "setback": "In April 1809, commanding in Napoleon's absence, he sent Davout's corps first toward Ingolstadt and then back to Regensburg, leaving the French dangerously dispersed until Napoleon arrived."
+    }
+  },
+  {
+    "slug": "jean-de-dieu-soult",
+    "name": "Jean-de-Dieu Soult",
+    "years": "1769–1851",
+    "state": "France",
+    "eraId": "napoleonic",
+    "role": "Marshal of the Empire; corps commander, commander in Spain, chief of staff in 1815",
+    "summary": "Commanded the corps that took the Pratzen plateau at Austerlitz, led the French armies in Spain and southern France against Wellington, and was Napoleon's chief of staff in the Waterloo campaign.",
+    "approach": "A hard trainer and a cool, quick-sighted tactician: his IV Corps reached Ulm in 1805 without deserters or stragglers, and Napoleon called him the first manoeuvrer of Europe after Austerlitz.",
+    "strength": "After Vitoria in 1813 he gathered the remains of the army of Spain and fought a slow, stubborn retreat against far larger forces to Toulouse.",
+    "limitation": "Less successful at Eylau and Heilsberg in 1807, beaten by Wellington at Oporto in 1809, and as chief of staff in 1815 he could not replace Berthier: Grouchy's cavalry lost a day at the start of the campaign because no one warned it, and Vandamme's corps failed to march because a single messenger was sent to find him.",
+    "legacy": "Marshal-general under Louis-Philippe and three times head of government. Garnier judges him a good general whose character did not match his talent: he flattered every regime he served, and was among the marshals who plundered most in Spain.",
+    "battleSlugs": [
+      "ulm",
+      "austerlitz",
+      "jena-auerstedt",
+      "eylau",
+      "ligny",
+      "waterloo"
+    ],
+    "source": {
+      "title": "Soult, Jean de Dieu, duc de Dalmatie (Jacques Garnier, Dictionnaire Napoléon, in French)",
+      "url": "https://www.napoleon.org/histoire-des-2-empires/biographies/soult-jean-de-dieu-duc-de-dalmatie-1769-1851-marechal-de-france/",
+      "publisher": "Fondation Napoléon"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Marshal of the Empire (1804); duc de Dalmatie (1808); marshal-general of France (1847)",
+      "principalCommands": [
+        "IV Corps of the Grande Armée, 1805–1807",
+        "II Corps in Spain, 1808–1809",
+        "Major-general to King Joseph, then commander in Andalusia, from 1809",
+        "Army of Spain and the Pyrenees, 1813–1814",
+        "Chief of staff (major-general) of the army, 1815"
+      ],
+      "timeline": [
+        {
+          "date": "29 March 1769",
+          "event": "Born at Saint-Amans-la-Bastide (Tarn)"
+        },
+        {
+          "date": "1785",
+          "event": "Enlists in the Royal-Infanterie regiment"
+        },
+        {
+          "date": "1794",
+          "event": "General of brigade after Fleurus"
+        },
+        {
+          "date": "1804",
+          "event": "Marshal of the Empire"
+        },
+        {
+          "date": "2 December 1805",
+          "event": "His corps attacks the Allied centre on the Pratzen plateau at Austerlitz"
+        },
+        {
+          "date": "14 October 1806",
+          "event": "Breaks through at Jena"
+        },
+        {
+          "date": "February 1807",
+          "event": "Fights at Eylau"
+        },
+        {
+          "date": "1809",
+          "event": "Invades Portugal; driven from Oporto by Wellington"
+        },
+        {
+          "date": "1813–1814",
+          "event": "After Vitoria, defends the Pyrenees and southern France against Wellington, to Toulouse"
+        },
+        {
+          "date": "June 1815",
+          "event": "Napoleon's chief of staff in the Waterloo campaign"
+        },
+        {
+          "date": "1832–1847",
+          "event": "Three times president of the council under Louis-Philippe"
+        },
+        {
+          "date": "1851",
+          "event": "Dies at Saint-Amans"
+        }
+      ],
+      "notableDecision": "At Austerlitz, as the Allied columns moved against the French right, his corps attacked the weakened centre on the Pratzen plateau.",
+      "setback": "Wellington drove him from Oporto in 1809 and defeated him at Toulouse in April 1814, four days after Napoleon's abdication; Garnier calls Toulouse a memorable fight."
+    }
+  },
+  {
+    "slug": "emmanuel-de-grouchy",
+    "name": "Emmanuel de Grouchy",
+    "years": "1766–1847",
+    "state": "France",
+    "eraId": "napoleonic",
+    "role": "Cavalry commander; the only marshal Napoleon named in the Hundred Days, commanding the right wing after Ligny",
+    "summary": "A cavalry general of the Revolutionary and Napoleonic wars, made marshal in the Hundred Days, whose pursuit of the Prussians after Ligny kept a third of Napoleon's army away from Waterloo.",
+    "approach": "An aristocrat who embraced the Revolution, he spent almost his whole career with the cavalry, commanding a cavalry corps in 1812 and the army's reserve cavalry in 1815.",
+    "strength": "A brave and capable cavalry leader: fourteen wounds covering the retreat at Novi in 1799, the charge with Murat at Eylau, the cavalry of the left wing at Friedland; after Waterloo he brought his wing back to Paris unbroken.",
+    "limitation": "Napoleon would not give him an army corps in 1813, and given an independent wing in 1815 he could not close with the Prussians on the 17th and, on the 18th, was held by a Prussian rearguard while the rest of their army marched to Waterloo.",
+    "legacy": "Blamed for Waterloo in the French legend, fixed by a line of Victor Hugo, he spent the rest of his life defending his conduct. The Fondation Napoléon presents him above all as a brilliant cavalry general reduced to his role in 1815.",
+    "battleSlugs": ["eylau", "friedland", "ligny"],
+    "source": {
+      "title": "Grouchy, Emmanuel, Marquis de (Encyclopædia Britannica, 11th edition, 1911)",
+      "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Grouchy,_Emmanuel,_Marquis_de",
+      "publisher": "Wikisource"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Marquis; colonel-general of the chasseurs à cheval; marshal of the Empire (April 1815, the only marshal named in the Hundred Days); peer of France",
+      "principalCommands": [
+        "A division in Italy, 1799",
+        "Cavalry of the left wing, 1807",
+        "Cavalry of the Army of Italy, 1809",
+        "A cavalry corps of the Grande Armée, 1812",
+        "Reserve cavalry, then the right wing of the Armée du Nord, 1815"
+      ],
+      "timeline": [
+        {
+          "date": "1766",
+          "event": "Born in Paris"
+        },
+        {
+          "date": "1786",
+          "event": "Sub-lieutenant in the Gardes du corps"
+        },
+        {
+          "date": "1793",
+          "event": "Distinguished in the Vendée; general of division"
+        },
+        {
+          "date": "1796–1797",
+          "event": "On the staff of the expedition to Ireland"
+        },
+        {
+          "date": "1799",
+          "event": "Wounded fourteen times covering the retreat at Novi and taken prisoner"
+        },
+        {
+          "date": "February 1807",
+          "event": "Charges with Murat's cavalry at Eylau"
+        },
+        {
+          "date": "14 June 1807",
+          "event": "Commands the cavalry of the left wing at Friedland"
+        },
+        {
+          "date": "1812",
+          "event": "Commands a cavalry corps in Russia, then the squadron of officers escorting Napoleon in the retreat"
+        },
+        {
+          "date": "April 1815",
+          "event": "Made marshal after defeating the royalist rising in the Rhône valley"
+        },
+        {
+          "date": "16 June 1815",
+          "event": "Commands the reserve cavalry at Ligny"
+        },
+        {
+          "date": "17–19 June 1815",
+          "event": "Pursues the Prussians with the right wing; beats their rearguard at Wavre after Waterloo is lost"
+        },
+        {
+          "date": "1847",
+          "event": "Dies at Saint-Étienne"
+        }
+      ],
+      "notableDecision": "On 18 June 1815, urged to march toward the sound of the guns at Waterloo, he kept to his pursuit of the Prussians and was held up by their rearguard at Wavre; the controversy over that choice began at once and continues in nearly every work on the campaign.",
+      "setback": "Exiled after the Second Restoration, he lived in the United States and was restored as marshal only under Louis-Philippe, the only marshal reinstated so late."
+    }
+  },
+  {
     "slug": "arthur-wellesley",
     "name": "Arthur Wellesley, Duke of Wellington",
     "years": "1769–1852",
@@ -2994,6 +3252,165 @@
       ],
       "notableDecision": "After his defeat at Ligny on 16 June 1815 his army, on Gneisenau's order, retreated north toward Wavre rather than toward the Rhine, and on 18 June he sent his corps against the French right at Waterloo.",
       "setback": "At Ligny on 16 June 1815 Napoleon defeated his army, and he was hurt when his horse was shot from under him."
+    }
+  },
+  {
+    "slug": "august-von-gneisenau",
+    "name": "August von Gneisenau",
+    "years": "1760–1831",
+    "state": "Prussia",
+    "eraId": "napoleonic",
+    "role": "Prussian army reformer; Blücher's chief of staff, 1813–1815",
+    "summary": "Defender of Kolberg in 1807 and one of the reformers who rebuilt the Prussian army after 1806, he became Blücher's chief of staff and was largely responsible for Prussian strategy from 1813 to Waterloo.",
+    "approach": "Pressed for a citizen army, promotion by merit and the abolition of corporal punishment; in the field he insisted on the decisive battle and a relentless pursuit.",
+    "strength": "After Ligny, acting for the injured Blücher, he chose Wavre to the north as the rallying point, which let the Prussian army reach Waterloo on the 18th; that evening he led the pursuit himself.",
+    "limitation": "In 1815 he was given no command of his own, only his old post beside Blücher, and his reforming views made the king and the court distrust him; he resigned in 1816.",
+    "legacy": "With Scharnhorst and Boyen he gave universal military service its moral justification; his friend Clausewitz made his principle of the decisive battle central to On War. Teske calls him the real conqueror of Napoleon.",
+    "battleSlugs": ["bautzen", "leipzig", "laon", "ligny", "waterloo"],
+    "source": {
+      "title": "Gneisenau, August Wilhelm Anton Graf Neidhardt von (Hermann Teske, Neue Deutsche Biographie 6, in German)",
+      "url": "https://www.deutsche-biographie.de/sfz69918.html",
+      "publisher": "Deutsche Biographie"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Staff planner",
+      "titles": "Count (1814); Prussian field marshal (1825)",
+      "principalCommands": [
+        "Kolberg fortress, 1807",
+        "Second quartermaster-general of Blücher's Army of Silesia, 1813",
+        "Chief of staff (quartermaster-general) to Blücher, 1813–1815",
+        "Commanding general at Koblenz, 1815–1816"
+      ],
+      "timeline": [
+        {
+          "date": "1760",
+          "event": "Born at Schildau, near Torgau"
+        },
+        {
+          "date": "1782–1783",
+          "event": "Sails to Canada with an Ansbach battalion in British pay"
+        },
+        {
+          "date": "1786",
+          "event": "Enters Prussian service"
+        },
+        {
+          "date": "October 1806",
+          "event": "Wounded at Saalfeld; at Jena still a company commander"
+        },
+        {
+          "date": "April–July 1807",
+          "event": "Holds Kolberg with Nettelbeck until the armistice"
+        },
+        {
+          "date": "1808",
+          "event": "Joins the military reorganisation commission with Scharnhorst"
+        },
+        {
+          "date": "1811–1812",
+          "event": "Secret missions to Austria, Russia, Sweden and England for a new war against Napoleon"
+        },
+        {
+          "date": "March 1813",
+          "event": "Major-general and second quartermaster-general under Blücher"
+        },
+        {
+          "date": "1813",
+          "event": "Succeeds Scharnhorst, mortally wounded at Lützen, as Blücher's chief of staff"
+        },
+        {
+          "date": "16–19 October 1813",
+          "event": "Shares in the victory at Leipzig"
+        },
+        {
+          "date": "16–18 June 1815",
+          "event": "After Ligny orders the retreat on Wavre; leads the pursuit after Waterloo"
+        },
+        {
+          "date": "1831",
+          "event": "Dies at Posen during the campaign against the Polish rising"
+        }
+      ],
+      "notableDecision": "On the night after Ligny he ordered the Prussian army to fall back north on Wavre rather than east toward its own communications, keeping it in reach of Wellington; the NDB says recent research shows he acted entirely as Blücher would have wished.",
+      "setback": "In 1806 he was swept up in the rout after Jena, and in the 1814 advance on Paris Blücher's headquarters suffered reverses before reaching the capital."
+    }
+  },
+  {
+    "slug": "gerhard-von-scharnhorst",
+    "name": "Gerhard von Scharnhorst",
+    "years": "1755–1813",
+    "state": "Prussia",
+    "eraId": "napoleonic",
+    "role": "Prussian army reformer and chief of staff; founder of the modern general staff",
+    "summary": "The son of a Hanoverian smallholder and former dragoon who became the leading reformer of the Prussian army after 1806, built the general staff and the reserve system, and was mortally wounded at Lützen as Blücher's chief of staff.",
+    "approach": "A teacher and writer on war before he was a commander, he saw how the levée en masse had changed war and argued for a conscripted citizen army, education for officers and humane discipline.",
+    "strength": "As head of the reorganisation commission after Tilsit he drove the reform that ended with universal military service in 1813, and his Krümper system trained more men than the 42,000 Napoleon allowed Prussia.",
+    "limitation": "In 1806 he could not bring the irresolute Duke of Brunswick to decisive action; his advice was only partly followed, and the army was beaten at Auerstedt.",
+    "legacy": "Kunisch calls him a new type of professional officer; his pupils included Clausewitz, and his military society grew into the Prussian war academy.",
+    "battleSlugs": ["jena-auerstedt", "eylau", "lutzen-1813"],
+    "source": {
+      "title": "Scharnhorst, Gerhard Johann David von (Johannes Kunisch, Neue Deutsche Biographie 22, in German)",
+      "url": "https://www.deutsche-biographie.de/sfz22607.html",
+      "publisher": "Deutsche Biographie"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Staff planner",
+      "titles": "Ennobled (1802); Prussian lieutenant-general (1813)",
+      "principalCommands": [
+        "Quartermaster-general of the main Prussian army under Brunswick, 1806",
+        "Head of the war department and of the reorganisation commission, after 1807",
+        "Chief of staff to Blücher, 1813"
+      ],
+      "timeline": [
+        {
+          "date": "1755",
+          "event": "Born at Bordenau, near Hanover"
+        },
+        {
+          "date": "1773–1778",
+          "event": "Attends the military school on the Wilhelmstein"
+        },
+        {
+          "date": "1794",
+          "event": "Helps the garrison of Menin break out; promoted major"
+        },
+        {
+          "date": "1801",
+          "event": "Enters Prussian service; directs the school for young officers, where Clausewitz studies"
+        },
+        {
+          "date": "14 October 1806",
+          "event": "Quartermaster-general of Brunswick's army at Auerstedt"
+        },
+        {
+          "date": "1806",
+          "event": "Taken prisoner with Blücher's corps near Lübeck; exchanged"
+        },
+        {
+          "date": "February 1807",
+          "event": "Distinguishes himself at Eylau with L'Estocq's corps"
+        },
+        {
+          "date": "After 1807",
+          "event": "Leads the reorganisation commission and the war department"
+        },
+        {
+          "date": "March 1813",
+          "event": "Lieutenant-general and Blücher's chief of staff"
+        },
+        {
+          "date": "2 May 1813",
+          "event": "Badly wounded in the foot at Lützen (Grossgörschen)"
+        },
+        {
+          "date": "28 June 1813",
+          "event": "Dies of the wound in Prague, on a mission to Austria"
+        }
+      ],
+      "notableDecision": "Bound by the 42,000-man limit Napoleon imposed on Prussia, he introduced the Krümper system, rotating trained men into the reserve so that far more could be trained than the treaty allowed.",
+      "setback": "Mortally wounded at Lützen in the first battle of the 1813 campaign, he died before the army he had rebuilt won its victories."
     }
   },
   {

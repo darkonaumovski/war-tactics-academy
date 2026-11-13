@@ -168,7 +168,6 @@ function Bibliography({ entries }: { entries: BibliographyEntry[] }) {
           <li key={s.url}>
             <a href={s.url} target="_blank" rel="noreferrer">
               {s.title}
-              <ArrowUpRight size={14} />
             </a>
             <span>{s.publisher}</span>
             <p>{s.note}</p>

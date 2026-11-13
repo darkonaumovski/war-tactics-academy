@@ -1,5 +1,18 @@
 # Verification record
 
+## Source lists: library and war pages (13 November 2026)
+
+The library page (820 KB) and the largest war pages (the First World War's 825 KB) were not sending whole records to the browser: they are server-rendered. Their weight came from long source lists. Every link in the shared source list and in the war bibliography drew its own inline arrow icon, and a server-rendered element is written twice, once as HTML and once in the page data React uses to hydrate. The library's 527 links carried 1,054 copies of the same icon. The arrow is now drawn once by CSS (a masked `::after` on `.sources li > a`), at the same size, spacing and colour.
+
+| Built page                               | Before | After  | Gzipped before | Gzipped after |
+| ---------------------------------------- | ------ | ------ | -------------- | ------------- |
+| Library                                  | 820 KB | 416 KB | 87 KB          | 80 KB         |
+| First World War                          | 825 KB | 722 KB | —              | 56 KB         |
+| Second World War                         | 692 KB | 588 KB | —              | 53 KB         |
+| French Revolutionary and Napoleonic Wars | 586 KB | 518 KB | —              | 41 KB         |
+
+Repeated icons compress well, so the gzipped saving is smaller than the raw one; the browser still parses the full size. Every study and profile page lost its few icons too (Waterloo 100 → 97 KB). All 133 unit and 89 end-to-end tests passed, and the arrow's computed size, spacing and colour were checked in the browser. What remains on the war pages is mostly their engagement cards: each card draws its own small map, about 7 KB per card written twice, so the First World War's 30 cards take about 210 KB of HTML and as much again in page data.
+
 ## Commander list and comparison weight (13 November 2026)
 
 The built commander list had grown to 437 KB (115 KB gzipped) as profiles were added, because its client catalog received every commander's full record: chronology, principal commands, assessments, engagement links and source. The cards and filters read only the name, state, years, era, role, approach, command role and titles. The page now receives a projection of those fields (`commanderListing` in `lib/projections.ts`); each profile page still receives its full record.

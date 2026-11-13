@@ -149,7 +149,6 @@ export function Sources({ sources }: { sources: Source[] }) {
           <li key={`${s.url}-${i}`} id={`source-${i + 1}`}>
             <a href={s.url} target="_blank" rel="noreferrer">
               {s.title}
-              <ArrowUpRight size={14} />
             </a>
             <span>{s.publisher}</span>
           </li>

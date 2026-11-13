@@ -16,9 +16,9 @@ import {
 import type {
   BattleCatalogData,
   BattleListing,
+  CommanderComparison,
   CommanderListing,
 } from "../lib/projections";
-import type { Commander } from "../lib/types";
 import { BattleCard, CommanderCard, Empty } from "./ui";
 import { useHydrated } from "../lib/use-hydrated";
 // Pages are prerendered for static hosting, so the unfiltered catalog is the
@@ -426,7 +426,11 @@ export function CommanderCatalog({
     </>
   );
 }
-export function Comparison({ commanders }: { commanders: Commander[] }) {
+export function Comparison({
+  commanders,
+}: {
+  commanders: CommanderComparison[];
+}) {
   const ready = useHydrated();
   const [a, setA] = useState(
     commanders.find((c) => c.name.includes("Napoleon"))?.slug ??
@@ -503,7 +507,7 @@ export function Comparison({ commanders }: { commanders: Commander[] }) {
                 ["Setbacks & limitations", (c) => c.limitation],
                 ["Defeats & reverses", (c) => c.details?.setback],
                 ["Legacy", (c) => c.legacy],
-              ] as [string, (c: Commander) => ReactNode][]
+              ] as [string, (c: CommanderComparison) => ReactNode][]
             ).map(([label, cell]) => (
               <tr key={label}>
                 <th scope="row">{label}</th>

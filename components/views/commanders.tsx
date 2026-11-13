@@ -13,7 +13,11 @@ import { CAREER_WIDTH, careerLayout, formatYear } from "../../lib/logic";
 import { CommanderCatalog, Comparison } from "../catalogs";
 import { SaveRecord } from "../persistence-ui";
 import { media } from "../../lib/media";
-import { battleListing, commanderListing } from "../../lib/projections";
+import {
+  battleListing,
+  commanderComparison,
+  commanderListing,
+} from "../../lib/projections";
 import { HistoricalPortrait } from "../media-library";
 import { counterCaseLessons, volumeForCommander } from "../../data/leadership";
 import { LeadershipLinks } from "../leadership-links";
@@ -268,7 +272,7 @@ export function ComparePage({ c }: { c: Catalog }) {
         title="Different worlds. Different commands."
         description="Compare historical context and evidence. No invented ratings, no all-time rankings."
       />
-      <Comparison commanders={c.commanders} />
+      <Comparison commanders={c.commanders.map(commanderComparison)} />
     </div>
   );
 }

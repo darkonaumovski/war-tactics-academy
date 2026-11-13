@@ -1,6 +1,6 @@
 # Verification record
 
-## Commander list weight (13 November 2026)
+## Commander list and comparison weight (13 November 2026)
 
 The built commander list had grown to 437 KB (115 KB gzipped) as profiles were added, because its client catalog received every commander's full record: chronology, principal commands, assessments, engagement links and source. The cards and filters read only the name, state, years, era, role, approach, command role and titles. The page now receives a projection of those fields (`commanderListing` in `lib/projections.ts`); each profile page still receives its full record.
 
@@ -8,8 +8,10 @@ The built commander list had grown to 437 KB (115 KB gzipped) as profiles were a
 | ----------------------- | ------ | ------ |
 | Commander list          | 437 KB | 167 KB |
 | Commander list, gzipped | 115 KB | 34 KB  |
+| Comparison              | 368 KB | 238 KB |
+| Comparison, gzipped     | 106 KB | 72 KB  |
 
-The home page, the battle catalog and the search page were unchanged. All 133 unit and 89 end-to-end tests passed in Chromium, and the era, command-role and text filters were checked in the browser, including a search that matches only a commander's titles. The comparison page (368 KB) still receives every full record, since it can show any two; it is the next candidate.
+The home page, the battle catalog and the search page were unchanged. All 133 unit and 89 end-to-end tests passed in Chromium, and the era, command-role and text filters were checked in the browser, including a search that matches only a commander's titles. The comparison page, which can show any two commanders, then received every full record. It now receives a second projection (`commanderComparison`) with the fields its table shows, leaving out each commander's chronology, summary, era and engagement links. All thirteen rows were checked in the browser for two pairs of commanders.
 
 ## Search page weight (13 November 2026)
 

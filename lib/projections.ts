@@ -104,3 +104,45 @@ export const commanderListing = (x: Commander): CommanderListing => ({
     details: { category: x.details.category, titles: x.details.titles },
   }),
 });
+
+// The comparison table shows two whole profiles side by side, but not their
+// chronologies, summaries or engagement links.
+export type CommanderComparison = Pick<
+  Commander,
+  | "slug"
+  | "name"
+  | "state"
+  | "years"
+  | "role"
+  | "approach"
+  | "strength"
+  | "limitation"
+  | "legacy"
+  | "source"
+> & {
+  details?: Pick<
+    CommanderDetails,
+    "category" | "titles" | "principalCommands" | "notableDecision" | "setback"
+  >;
+};
+export const commanderComparison = (x: Commander): CommanderComparison => ({
+  slug: x.slug,
+  name: x.name,
+  state: x.state,
+  years: x.years,
+  role: x.role,
+  approach: x.approach,
+  strength: x.strength,
+  limitation: x.limitation,
+  legacy: x.legacy,
+  source: x.source,
+  ...(x.details && {
+    details: {
+      category: x.details.category,
+      titles: x.details.titles,
+      principalCommands: x.details.principalCommands,
+      notableDecision: x.details.notableDecision,
+      setback: x.details.setback,
+    },
+  }),
+});

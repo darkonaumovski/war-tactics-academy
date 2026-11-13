@@ -13,7 +13,7 @@ import { CAREER_WIDTH, careerLayout, formatYear } from "../../lib/logic";
 import { CommanderCatalog, Comparison } from "../catalogs";
 import { SaveRecord } from "../persistence-ui";
 import { media } from "../../lib/media";
-import { battleListing } from "../../lib/projections";
+import { battleListing, commanderListing } from "../../lib/projections";
 import { HistoricalPortrait } from "../media-library";
 import { counterCaseLessons, volumeForCommander } from "../../data/leadership";
 import { LeadershipLinks } from "../leadership-links";
@@ -30,7 +30,7 @@ export function CommandersPage({ c }: { c: Catalog }) {
           Compare commanders ↔
         </Link>
       </div>
-      <CommanderCatalog commanders={c.commanders} />
+      <CommanderCatalog commanders={c.commanders.map(commanderListing)} />
     </div>
   );
 }

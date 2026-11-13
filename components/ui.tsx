@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight, MapPin, BookOpen } from "lucide-react";
-import type { Battle, Campaign, Source, Commander } from "../lib/types";
-import type { BattleListing } from "../lib/projections";
+import type { Battle, Campaign, Source } from "../lib/types";
+import type { BattleListing, CommanderListing } from "../lib/projections";
 import { formatYear } from "../lib/logic";
 import { Cartography } from "./cartography";
 import { IntentLink } from "./intent-link";
@@ -110,7 +110,7 @@ export function BattleCard({
     </Link>
   );
 }
-export function CommanderCard({ commander }: { commander: Commander }) {
+export function CommanderCard({ commander }: { commander: CommanderListing }) {
   return (
     <Link className="commander-card" href={`/commanders/${commander.slug}`}>
       <div className="commander-monogram" aria-hidden="true">

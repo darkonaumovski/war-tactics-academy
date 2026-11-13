@@ -4,6 +4,7 @@ import type {
   Catalog,
   Collection,
   Commander,
+  CommanderDetails,
   War,
 } from "./types";
 // Every prop passed to a client component is written into the page. These
@@ -84,4 +85,22 @@ export const atlasBattle = (b: Battle): AtlasBattle => ({
   location: b.location,
   lat: b.lat,
   lon: b.lon,
+});
+// The commander catalog's cards and filters read these fields only; the
+// chronology, assessments and sources stay on each profile page.
+export type CommanderListing = Pick<
+  Commander,
+  "slug" | "name" | "state" | "years" | "eraId" | "role" | "approach"
+> & { details?: Pick<CommanderDetails, "category" | "titles"> };
+export const commanderListing = (x: Commander): CommanderListing => ({
+  slug: x.slug,
+  name: x.name,
+  state: x.state,
+  years: x.years,
+  eraId: x.eraId,
+  role: x.role,
+  approach: x.approach,
+  ...(x.details && {
+    details: { category: x.details.category, titles: x.details.titles },
+  }),
 });

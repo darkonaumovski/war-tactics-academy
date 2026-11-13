@@ -1,5 +1,16 @@
 # Verification record
 
+## Commander list weight (13 November 2026)
+
+The built commander list had grown to 437 KB (115 KB gzipped) as profiles were added, because its client catalog received every commander's full record: chronology, principal commands, assessments, engagement links and source. The cards and filters read only the name, state, years, era, role, approach, command role and titles. The page now receives a projection of those fields (`commanderListing` in `lib/projections.ts`); each profile page still receives its full record.
+
+| Built page              | Before | After  |
+| ----------------------- | ------ | ------ |
+| Commander list          | 437 KB | 167 KB |
+| Commander list, gzipped | 115 KB | 34 KB  |
+
+The home page, the battle catalog and the search page were unchanged. All 133 unit and 89 end-to-end tests passed in Chromium, and the era, command-role and text filters were checked in the browser, including a search that matches only a commander's titles. The comparison page (368 KB) still receives every full record, since it can show any two; it is the next candidate.
+
 ## Search page weight (13 November 2026)
 
 The built search page had grown to 601 KB (125 KB gzipped) as the Leadership Lessons volumes were added. Measuring the export showed two parts: 318 KB of HTML, because with no query the page prerendered every one of its 493 records as a result, and 280 KB of serialised records that the browser filters (battles 74 KB, course lessons 58 KB of full lesson text, commanders 43 KB, leadership lessons 24 KB, campaigns 18 KB). No end-to-end test relied on the empty-query list.

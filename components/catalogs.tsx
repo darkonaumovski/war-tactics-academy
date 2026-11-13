@@ -13,7 +13,11 @@ import {
   sortBattles,
   type BattleFilters,
 } from "../lib/logic";
-import type { BattleCatalogData, BattleListing } from "../lib/projections";
+import type {
+  BattleCatalogData,
+  BattleListing,
+  CommanderListing,
+} from "../lib/projections";
 import type { Commander } from "../lib/types";
 import { BattleCard, CommanderCard, Empty } from "./ui";
 import { useHydrated } from "../lib/use-hydrated";
@@ -347,7 +351,11 @@ function BattleTable({
     </div>
   );
 }
-export function CommanderCatalog({ commanders }: { commanders: Commander[] }) {
+export function CommanderCatalog({
+  commanders,
+}: {
+  commanders: CommanderListing[];
+}) {
   const ready = useHydrated();
   const [q, setQ] = useState("");
   const [era, setEra] = useState("");

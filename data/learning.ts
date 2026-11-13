@@ -1239,4 +1239,72 @@ export const scenarios: Scenario[] = [
       },
     ],
   },
+  {
+    slug: "cross-into-syrmia",
+    title: "Cross the Sava?",
+    battleSlug: "syrmia-1914",
+    commander: "Serbian Supreme Command",
+    situation:
+      "Early September 1914. In the second half of August your armies drove the first Austro-Hungarian invasion back across the Drina at Cer, the first Allied victory of the war. Now your allies, above all Russia, fighting in Galicia, firmly insist that you attack across your own borders.",
+    known:
+      "The army is still waiting for the promised 120,000 rifles, artillery ammunition, horses, tents and enough pontoons for floating bridges. The losses at Cer were smaller than the enemy’s but cannot be replaced. Your own war plan with Montenegro was to stand on the defensive while drawing as many Austro-Hungarian forces as possible away from Russia. The Montenegrin army is ready to advance with you into eastern Bosnia, towards Sarajevo.",
+    unknown:
+      "How many enemy troops an offensive would draw away from the Russians, whether the river crossings can be made with the bridging you have, and whether the Austro-Hungarian armies beaten at Cer will attack again across the Drina while yours are north of the Sava.",
+    historical:
+      "Reluctantly, Serbia agreed. On the night of 5 to 6 September the First Army and part of the Second began crossing the Sava into Syrmia, and the Užice Army crossed the upper Drina with the Montenegrins towards Sarajevo. At Šašinci the poorly prepared crossing of the Timok Division ended with the bridge collapsing and the men cut off on the far bank surrendering. The offensive into Syrmia was broken off when Austria-Hungary attacked again across the Drina, and the advance on Sarajevo ended in withdrawal in the autumn.",
+    options: [
+      {
+        text: "Decline for now: tell your allies what the army lacks, and hold the Drina against the next invasion.",
+        feedback:
+          "It keeps the army where the danger proved to be, but it refuses the allies while Russia is fighting for both of you, and it departs from your own plan of drawing Habsburg forces away. The sources read record Serbia’s reluctance, not what it told its allies about its limits. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Agree, and cross the Sava into Syrmia and the upper Drina towards Sarajevo.",
+        feedback:
+          "This matches the historical decision, taken reluctantly. It kept faith with the alliance and served the war plan, but the crossings lacked reconnaissance and bridging, and the second invasion caught the First Army on the wrong side of the Sava.",
+        historical: true,
+      },
+      {
+        text: "Agree in principle, but send only raids across the Sava and keep the main armies facing the Drina.",
+        feedback:
+          "A limited effort would protect the home front, but it might draw too few enemy troops to matter to the Russians, and it would not satisfy allies who were insisting on an offensive. It is not a documented plan.",
+        historical: false,
+      },
+    ],
+  },
+  {
+    slug: "strike-bulgaria-first",
+    title: "Strike Bulgaria first?",
+    battleSlug: "invasion-of-serbia-1915",
+    commander: "Serbian Supreme Command",
+    situation:
+      "September 1915. Bulgaria, courted by both coalitions for a year, has joined the Central Powers, and its army is mobilising and concentrating on your eastern border. You can propose to your allies a strike at Bulgaria before its mobilisation and concentration are complete.",
+    known:
+      "The army is short of ammunition and other supplies, and cholera and typhus have ravaged soldiers and civilians alike. Bulgaria wanted Macedonia, your prize from the Balkan Wars, which you would not concede: the Entente could offer it only part of Macedonia after the war, the Central Powers all of it at once. British and French help has been promised, and the only way it can reach you is through the Greek port of Salonika and up the Vardar. In June your government sent troops into Albania despite your allies’ advice and even threats.",
+    unknown:
+      "Whether Bulgaria will attack at once, when and in what strength Austria-Hungary and Germany will strike from the north, and how quickly Allied troops can come up from Salonika.",
+    historical:
+      "Serbia proposed the strike, and the western Allies strongly opposed it; it was not made. Austro-Hungarian and German armies crossed the Danube on 6 October, and two Bulgarian armies attacked from the east a week later. British and French troops had begun landing at Salonika on 5 October, too slowly to help. Cut off from the south by the Bulgarians, the Serbian army retreated in November and December across the Albanian mountains to the Adriatic.",
+    options: [
+      {
+        text: "Hold back, as the western Allies insist, and rely on their promised help through Salonika.",
+        feedback:
+          "This matches what happened: Serbia proposed the strike and gave way when the Allies opposed it. Restraint left Bulgaria free to finish mobilising, and the help from Salonika came too slowly. With hindsight it looks the worse choice; at the time it followed from a policy that Serbia’s own refusal to concede Macedonia had made hard to carry out.",
+        historical: true,
+      },
+      {
+        text: "Strike Bulgaria now, before its mobilisation is complete, whatever the Allies say.",
+        feedback:
+          "Serbia had defied its allies once that year, in Albania. A strike might have disrupted the Bulgarian concentration, but it would be made against the Allies’ wishes, by an army short of ammunition, with an invasion still to come from the north. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Offer Bulgaria the part of Macedonia it wants, now, to keep it out of the war.",
+        feedback:
+          "Hall writes that Serbia would not concede Macedonia, and that the Central Powers could offer all of it at once while the Entente could promise only part of it after the war. By September Bulgaria had already chosen. A counterfactual.",
+        historical: false,
+      },
+    ],
+  },
 ];

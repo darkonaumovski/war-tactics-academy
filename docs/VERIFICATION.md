@@ -1,5 +1,19 @@
 # Verification record
 
+## Battle-card maps (13 November 2026)
+
+Every battle card drew the same decorative map inline, a gradient, a grid, twenty-four contours, ninety trees, rivers, a marker, a compass and a noise filter, differing only in its place labels. Each copy was about 7 KB and was written twice, in the HTML and in the page data. The shared artwork is now one background in the stylesheet (`.card-map`, built from the same layers as `components/cartography.tsx`), downloaded once and cached across pages; each card writes only its labels, in a small SVG laid over it, so the era tints and tilts still apply to the whole map. The stylesheet grew by about 5 KB.
+
+| Built page       | Before   | After  | Gzipped before | Gzipped after |
+| ---------------- | -------- | ------ | -------------- | ------------- |
+| Battle catalog   | 1,120 KB | 421 KB | 65 KB          | 53 KB         |
+| Home             | 263 KB   | 230 KB | 68 KB          | 65 KB         |
+| First World War  | 722 KB   | 391 KB | 56 KB          | 43 KB         |
+| Second World War | 588 KB   | 334 KB | 53 KB          | 41 KB         |
+| Napoleonic Wars  | 518 KB   | 265 KB | 41 KB          | 31 KB         |
+
+All 133 unit and 89 end-to-end tests passed. In the browser the 30 cards of the First World War page carry the background, the era filter and tilt, and their labels, and the battle catalog's cards were compared with the live site's: the same contours, marker, compass and label positions. The labels are now drawn above the noise texture rather than beneath it, a difference not visible at card size. The large maps on the home page and the battle pages still draw the full artwork inline.
+
 ## Source lists: library and war pages (13 November 2026)
 
 The library page (820 KB) and the largest war pages (the First World War's 825 KB) were not sending whole records to the browser: they are server-rendered. Their weight came from long source lists. Every link in the shared source list and in the war bibliography drew its own inline arrow icon, and a server-rendered element is written twice, once as HTML and once in the page data React uses to hydrate. The library's 527 links carried 1,054 copies of the same icon. The arrow is now drawn once by CSS (a masked `::after` on `.sources li > a`), at the same size, spacing and colour.

@@ -10,13 +10,7 @@ const trees = Array.from(
   { length: 90 },
   (_, i) => `M${70 + ((i * 47) % 780)} ${70 + ((i * 71) % 460)}l-4 10h8z`,
 ).join("");
-export function Cartography({
-  variant = "waterloo",
-  compact = false,
-}: {
-  variant?: string;
-  compact?: boolean;
-}) {
+export function Cartography({ variant = "waterloo" }: { variant?: string }) {
   const id = useId().replace(/:/g, "");
   return (
     <svg
@@ -83,39 +77,7 @@ export function Cartography({
       <g fill="#75806a" opacity=".3">
         <path d={trees} />
       </g>
-      <g
-        fill="#ddd0a8"
-        fontFamily="Georgia, serif"
-        fontSize={compact ? 22 : 17}
-        fontStyle="italic"
-        opacity=".7"
-      >
-        {variant.toLowerCase() === "waterloo" ? (
-          <>
-            <text x="390" y="140">
-              Mont-Saint-Jean
-            </text>
-            <text x="240" y="390">
-              Hougoumont
-            </text>
-            <text x="530" y="420">
-              La Belle Alliance
-            </text>
-            <text x="700" y="200" transform="rotate(-26 700 200)">
-              Bois de Paris
-            </text>
-          </>
-        ) : (
-          <>
-            <text x="390" y="140">
-              {variant}
-            </text>
-            <text x="530" y="420">
-              Cartographic study
-            </text>
-          </>
-        )}
-      </g>
+      <Labels variant={variant} fontSize={17} />
       <g transform="translate(470 282)">
         <circle r="65" fill="#c2a46b" opacity=".04" />
         <circle r="39" fill="none" stroke="#c2a46b" strokeOpacity=".2" />
@@ -150,5 +112,64 @@ export function Cartography({
         opacity=".24"
       />
     </svg>
+  );
+}
+function Labels({ variant, fontSize }: { variant: string; fontSize: number }) {
+  return (
+    <g
+      fill="#ddd0a8"
+      fontFamily="Georgia, serif"
+      fontSize={fontSize}
+      fontStyle="italic"
+      opacity=".7"
+    >
+      {variant.toLowerCase() === "waterloo" ? (
+        <>
+          <text x="390" y="140">
+            Mont-Saint-Jean
+          </text>
+          <text x="240" y="390">
+            Hougoumont
+          </text>
+          <text x="530" y="420">
+            La Belle Alliance
+          </text>
+          <text x="700" y="200" transform="rotate(-26 700 200)">
+            Bois de Paris
+          </text>
+        </>
+      ) : (
+        <>
+          <text x="390" y="140">
+            {variant}
+          </text>
+          <text x="530" y="420">
+            Cartographic study
+          </text>
+        </>
+      )}
+    </g>
+  );
+}
+// The battle cards' version. Every card shares the same artwork, so it is
+// drawn once, as a background in the stylesheet (`.card-map` in globals.css,
+// built from the layers above), and each card writes only its place labels.
+// Drawn inline, the artwork added about 7 KB per card, twice over: in the HTML
+// and again in the page data.
+export function CardMap({ variant }: { variant: string }) {
+  return (
+    <div
+      className="cartography card-map"
+      role="img"
+      aria-label={`Decorative cartographic study inspired by ${variant}; not a historical survey`}
+    >
+      <svg
+        viewBox="0 0 900 600"
+        preserveAspectRatio="xMidYMid slice"
+        aria-hidden="true"
+      >
+        <Labels variant={variant} fontSize={22} />
+      </svg>
+    </div>
   );
 }

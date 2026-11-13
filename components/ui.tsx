@@ -3,7 +3,7 @@ import { ArrowRight, ArrowUpRight, MapPin, BookOpen } from "lucide-react";
 import type { Battle, Campaign, Source } from "../lib/types";
 import type { BattleListing, CommanderListing } from "../lib/projections";
 import { formatYear } from "../lib/logic";
-import { Cartography } from "./cartography";
+import { CardMap } from "./cartography";
 import { IntentLink } from "./intent-link";
 export function Heading({
   eyebrow,
@@ -82,7 +82,7 @@ export function BattleCard({
       href={`/battles/${battle.slug}`}
     >
       <div className={`battle-visual tone-${battle.eraId}`}>
-        <Cartography variant={battle.name} compact />
+        <CardMap variant={battle.name} />
         <span className="map-index">
           {battle.lat.toFixed(2)}° / {battle.lon.toFixed(2)}°
         </span>

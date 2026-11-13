@@ -1436,3 +1436,9 @@ No new sources were read or cited. As in batches T1 and T2, every note is labell
 Corrections made while writing: the reading-the-record note first named Foch's memoir among the Western Front's records; the lesson it links uses his introduction to Haig's despatches, and the note now says so. The dissent note first said Rawlinson carried out a plan he doubted, without saying he had first argued for a shorter advance and been overruled, and that Robertson kept his doubts "to himself"; the lessons say he kept them from the cabinet while writing privately to Haig. Both now follow the lessons.
 
 The page’s grid now takes its column count from the number of compared volumes, with two columns between 761 and 1200 pixels and one below. The built page grew from 97 KB to 141 KB, more than the 125–130 KB estimated in the proposal; list pages and search are unchanged.
+
+## Decision exercises from Leadership Lessons from Foch and Haig (13 November 2026)
+
+Two Decision Room exercises in `data/learning.ts`, drawn from the volume's lessons and the sources they cite: "Press on at Roye, or switch?" (Haig, 14–15 August 1918; linked study Amiens) and "Terms for an armistice" (Foch, Senlis, 25 October 1918; linked study the Meuse-Argonne). Each has one historical option, the third and the second respectively, and the alternatives are marked as counterfactuals.
+
+No new sources were read. The Amiens exercise rests on Haig's despatch (pp. 262–264, the old Roye–Chaulnes defences, the visit of 10 August, the switch to the Third Army and its attack of 21 August), Foch's memoir (pp. 444–446, the postponement and Foch's agreement with a condition) and Britannica on Amiens (Currie urging consolidation). The armistice exercise rests on Foch's memoir (pp. 535–542, the four answers at Senlis and the meetings of 1–2 November) and Haig's despatch (pp. 298, 315–316, the reasons for not fighting on). The Decision Room now has twenty-five exercises.

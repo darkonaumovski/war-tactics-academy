@@ -1069,4 +1069,72 @@ export const scenarios: Scenario[] = [
       },
     ],
   },
+  {
+    slug: "press-on-at-roye",
+    title: "Press on at Roye, or switch?",
+    battleSlug: "amiens-1918",
+    commander: "Douglas Haig",
+    situation:
+      "Night of 14 August 1918, British headquarters. Since 8 August the Fourth Army, with the Canadian and Australian Corps and the French First Army on its right, has advanced about twelve miles east of Amiens. Foch, the Allied commander-in-chief, has ordered a renewed attack on the Chaulnes–Roye line for 16 August.",
+    known:
+      "The advance has reached the old Roye–Chaulnes defences: a derelict battle area of old trenches, shell holes and tangled wire, ideal for machine-gun defence. German artillery fire has increased over the last two days, and the enemy has been heavily reinforced. On 10 August you visited a division at the front and saw the resistance stiffen for yourself. North of the Somme, the ground facing the Third Army is little damaged by shellfire, and an attack there seems unexpected. The Canadian commander, Arthur Currie, urges consolidating the gains.",
+    unknown:
+      "How strong the German reserves are, whether an attack on the 16th would break through or only add to the losses, and whether Foch will accept a change to his orders.",
+    historical:
+      "Haig postponed the attack of the 16th and argued for an attack by the Third Army north of the Ancre, to turn the old Somme defences from the north. On 15 August Foch came round to his view, on condition that the drive south of the Somme be resumed. The Third Army attacked on 21 August, the first of the British attacks that continued to the armistice.",
+    options: [
+      {
+        text: "Attack the Chaulnes–Roye line on the 16th, as Foch has ordered.",
+        feedback:
+          "It keeps faith with the Allied commander-in-chief and keeps the pressure on a shaken enemy, but against prepared positions on ground made for machine guns; Haig judged success doubtful even at the price of considerable losses. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Halt and consolidate the gains east of Amiens until the artillery is ready.",
+        feedback:
+          "This is close to what Currie urged, and it would spare losses, but it would give the German army time to recover from 8 August. Haig chose to strike elsewhere rather than wait. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Postpone the attack, and press Foch to let the Third Army strike north of the Ancre instead.",
+        feedback:
+          "This matches the historical decision. Haig broke off where the enemy was ready and struck where it was not, and Foch agreed after a French army commander also doubted the attack on Roye. It is what Haig had not done on the Somme or at Passchendaele.",
+        historical: true,
+      },
+    ],
+  },
+  {
+    slug: "terms-for-an-armistice",
+    title: "Terms for an armistice",
+    battleSlug: "meuse-argonne",
+    commander: "Ferdinand Foch",
+    situation:
+      "Afternoon of 25 October 1918, at your headquarters at Senlis. Germany has asked for an armistice, and the Allied governments have asked you to draft its military conditions. You have called the British, American and French commanders-in-chief to give their views.",
+    known:
+      "In a few months the German army has lost an enormous amount of ground, prisoners and material. Haig says it is not so broken that it cannot retire to its frontier and defend it, that the British army is under strength, the French exhausted and the Americans incompletely organised, and asks for moderate terms: the evacuation of Belgium, occupied France and Alsace-Lorraine, and the return of rolling stock and civilians. Pétain wants the left bank of the Rhine occupied, with bridgeheads. Pershing wants severe terms, including withdrawal to the right bank and the surrender of submarines.",
+    unknown:
+      "Whether Germany will accept harsh terms or fight on into 1919, and whether moderate terms would let it re-form its armies behind the Rhine while peace is negotiated.",
+    historical:
+      "Foch judged Haig’s reasons not well founded and drafted conditions that included the evacuation of the left bank of the Rhine and Allied bridgeheads across it. On 1 November the governments accepted his argument for the Rhine; he warned them against naval clauses heavy enough to make Germany refuse, but was told to include them. Germany accepted everything, and hostilities ended at 11 a.m. on 11 November.",
+    options: [
+      {
+        text: "Recommend Haig’s moderate terms, so that Germany is sure to accept.",
+        feedback:
+          "It would end the fighting quickly, but it would halt the Allies at the frontiers with the Rhine in front of them, leaving Germany free, Foch argued, to re-form its armies and resume the war if it rejected the peace. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Require the evacuation of the left bank of the Rhine and Allied bridgeheads across it.",
+        feedback:
+          "This matches Foch’s draft. It made a renewal of the war impossible while peace was negotiated, and Germany accepted. It also ended the fighting before any advance into Germany, which left room for the later claim that the German army had not been beaten.",
+        historical: true,
+      },
+      {
+        text: "Demand terms close to surrender, and be ready to fight on into Germany if they are refused.",
+        feedback:
+          "Pershing proposed the severest terms at Senlis. Haig’s despatch counts the cost of an advance against opposition: supply lines already stretched, further casualties, and incalculable suffering for the inhabitants of the countries crossed. A counterfactual.",
+        historical: false,
+      },
+    ],
+  },
 ];

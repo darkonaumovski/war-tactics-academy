@@ -8,7 +8,7 @@ Vitest runs ten test files with 79 cases.
 - **Atlas and route maps:** every engagement falls in a region and stays on screen there, the Serbian Front markers separate in the Balkans view, zoom is clamped, nearby markers group deterministically and every marker appears once, groups zoom or fan out, and route maps number every stop once in date order, keep markers apart and draw a locator for a single engagement.
 - **Collections:** the six planned collections, references to existing wars, campaigns and courses, membership in date order, and arc paragraphs that name only member studies (all of them, in a finished collection).
 - **Data integrity:** source schemas, 140 unique engagement slugs in a connected hierarchy, same-year ordering by date, commander assignments that point at real engagements, all ten learning paths in curriculum order with valid answers, and a diagram, seminar and traceable sources for every extended-path lesson.
-- **Content depth:** a validated command record and chronology for every commander, details for every war, section references that point at existing sources, every perspective field for each battle with perspectives, the distinction between battles, sieges, operations and campaigns, and twenty-five exercises that each have one historical choice, a linked study and varied answer positions.
+- **Content depth:** a validated command record and chronology for every commander, details for every war, section references that point at existing sources, every perspective field for each battle with perspectives, the distinction between battles, sieges, operations and campaigns, and twenty-eight exercises that each have one historical choice, a linked study and varied answer positions.
 - **Media and persistence:** every media record with attribution and licence, video-only privacy-enhanced embeds, portrait hosts in the image configuration, links to existing battles and commanders; persistence round trips, corrupt or unsupported storage, unsafe destinations and storage denial; page metadata and base-path handling.
 - **Components:** React Testing Library exercises the quiz (empty submission, explanation, retry) and the media library (filters, empty-state recovery, the video tab, on-request embeds and the portrait error fallback) through visible controls.
 
@@ -23,7 +23,7 @@ Playwright defines Chromium, Firefox and WebKit projects. Unless `PLAYWRIGHT_BAS
 - Collection pages with ordered timelines, schematic route maps on campaign and collection pages, and commander career strips in date order.
 - Commander search, role filtering, profile associations, the command record and chronology, portrait attribution and its fallback, and the qualitative comparison with principal commands and notable decisions.
 - Lesson answers across several questions, explanatory results and completion after reload, in both the Foundations path and an extended path, including seminar guidance and lesson page titles.
-- Every decision exercise (25), history/counterfactual separation and persistence.
+- Every decision exercise (28), history/counterfactual separation and persistence.
 - Media library filtering, empty-state recovery, the video tab, on-request official embeds (with YouTube blocked) and links to related studies.
 - War pages with participants, chronology and key commanders; the war, campaign and engagement hierarchy.
 - Study section references linking to the cited source, and every perspective field on a battle with perspectives.

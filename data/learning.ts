@@ -1137,4 +1137,106 @@ export const scenarios: Scenario[] = [
       },
     ],
   },
+  {
+    slug: "besiege-tyre",
+    title: "Besiege Tyre, or march on?",
+    battleSlug: "tyre",
+    commander: "Alexander III of Macedon",
+    situation:
+      "Early 332 BCE, on the Phoenician coast, some months after Issus. Byblus and Sidon have opened their gates. Envoys from Tyre met you on the march and promised to do whatever you commanded, but when you asked to enter the city and sacrifice to Heracles, the Tyrians voted to admit no Persian or Macedonian. You have sent their envoys back and called your Companions and officers to council.",
+    known:
+      "Tyre is an island city, fortified all round with lofty walls. The strait is shallow and muddy near the mainland and about three fathoms deep under the walls. The Persians still command the sea, the Tyrians have many ships of their own, and their king is at sea with the Persian fleet, whose best and largest part is Phoenician. Darius escaped from Issus and is free to raise a new army. In Greece, Sparta is openly at war with you and Athens is held back by fear rather than goodwill. Egypt and Cyprus are still in Persian hands.",
+    unknown:
+      "How long a siege would take with no fleet to match the Tyrians’, whether the Phoenician squadrons serving Persia would change sides once their own cities were yours, whether Carthage would send Tyre help, and what Darius would do with the time.",
+    historical:
+      "Alexander persuaded his officers to besiege Tyre and began a mole across the strait, leading the work himself. When the kings of Aradus and Byblus learned that their cities were his, they brought their ships over with the Sidonian triremes, and the kings of Cyprus followed, giving him the sea. Darius offered territory, money and his daughter while the siege went on. Tyre fell in midsummer 332, after seven months by Plutarch’s and Diodorus’s count. The slaughter in the city was great, and except for those who had taken refuge in the temple of Heracles, the survivors were sold into slavery.",
+    options: [
+      {
+        text: "Besiege Tyre, however long it takes, to win the Phoenician fleet and the sea before going on to Egypt.",
+        feedback:
+          "This matches the historical decision. The strategic case Arrian gives Alexander was largely met when the Phoenician and Cyprian squadrons came over, before the city fell. Diodorus gives another reason, not to be held in contempt by one city, and the siege went on to the end at a heavy cost to the Tyrians.",
+        historical: true,
+      },
+      {
+        text: "Leave a force on the mainland to watch Tyre and march on to Egypt.",
+        feedback:
+          "It saves months, but in the argument Arrian gives Alexander it leaves a Persian fleet base behind you while Persia holds the sea, and gives the Phoenician crews no reason to change sides. Whether Tyre would still have mattered once Egypt was taken cannot be known. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Turn inland and pursue Darius before he can raise a new army.",
+        feedback:
+          "It strikes at the king while he is weak, but Arrian’s speech names exactly this danger: with the coast unsecured, the Persians could retake the maritime provinces and carry the war into Greece, where Sparta was already fighting. An interpretive alternative whose result cannot be known.",
+        historical: false,
+      },
+    ],
+  },
+  {
+    slug: "a-night-attack",
+    title: "Attack by night?",
+    battleSlug: "gaugamela",
+    commander: "Alexander III of Macedon",
+    situation:
+      "331 BCE, the evening before the battle at Gaugamela. Your army has halted on the hills about thirty stades from the Persian line. On Parmenion’s advice you have camped and reconnoitred the ground with the light infantry and the Companion cavalry; you have briefed your officers and ordered the men to dine and rest. Now Parmenion comes to your tent and urges you to attack tonight.",
+    known:
+      "Darius has chosen a level plain and had the uneven ground levelled for his chariots and cavalry, persuaded that he lost at Issus because the field was too narrow. Captured scouts describe an army far larger than yours, with scythe-bearing chariots and some fifteen elephants. Parmenion argues that at night the Persians would be caught unprepared and confused, and more liable to panic in the dark. You do not know the country; the enemy does, the people around are friendly to them, and you hold many prisoners in your camp.",
+    unknown:
+      "Whether the Persians expect an attack tonight, how a night battle on unfamiliar ground would go, and whether a victory won in the dark would settle anything with Darius.",
+    historical:
+      "In Arrian’s account, which introduces the story with “it is said”, Alexander answered in others’ hearing that it would be mean to steal a victory, and the army rested. Arrian commends his reasons: accidents at night can overturn the stronger side, a defeat would be fatal in hostile country, and a victory by night would let Darius avoid admitting that he was the inferior general. Fearing a night attack, the Persians stood in their ranks all night, which Arrian says wore them down. Alexander won the battle the next day.",
+    options: [
+      {
+        text: "Attack tonight, as Parmenion urges.",
+        feedback:
+          "Badian judges that a night attack would have overwhelmed the Persians, who stood to arms all night. Arrian lists what could go wrong: confusion that hands victory to the weaker side, a rout in country where everyone was hostile, and prisoners ready to join an attack on the camp. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Hold your position on the hills, and wait for Darius to leave his levelled plain.",
+        feedback:
+          "It would deny Darius the ground he prepared, but nothing in the sources suggests he would leave it, and an army deep in enemy country gains little by waiting. An interpretive alternative, not a documented plan.",
+        historical: false,
+      },
+      {
+        text: "Rest the army tonight and fight in daylight, on the ground you have reconnoitred.",
+        feedback:
+          "This matches the historical decision, and Arrian commends it, while Badian thinks the night attack would have succeeded. The exchange comes from a record written on the king’s side after Parmenion’s death, a record in which Parmenion is always the one who is answered.",
+        historical: true,
+      },
+    ],
+  },
+  {
+    slug: "turn-back-at-the-hyphasis",
+    title: "Go on, or turn back?",
+    battleSlug: "hydaspes",
+    commander: "Alexander III of Macedon",
+    situation:
+      "326 BCE, on the bank of the Hyphasis, the easternmost river of the campaign, some months after the victory over Porus at the Hydaspes. You have made a long speech urging your officers to go on. A long silence followed, until Coenus spoke for the army: few of those who set out are left, the rest are worn out and long for home, and men led against their will will not be the same in danger. The officers applauded him, and many wept.",
+    known:
+      "The land beyond the river is said to be fertile, well governed and rich in elephants. Meetings have been held throughout the camp; some soldiers say they will not follow you farther even if you lead the way. In Diodorus’s account the rains have lasted seventy days, horses’ hooves are worn thin and armour is failing, and you have already let the men plunder the country and given rations to their wives and bounties to their children. Coenus proposes that you go home and start a new expedition later with fresh men.",
+    unknown:
+      "Whether the army would come round if you stood firm, how many would follow you as volunteers, and what really lies beyond the river.",
+    historical:
+      "Alexander broke up the meeting, annoyed at Coenus’s frankness. The next day he said he would go on with those who chose to follow, and shut himself in his tent for three days, but the camp stayed silent and unmoved. Ptolemy, as Arrian reports him, says the sacrifices for the crossing were then unfavourable, and Alexander announced the return. The soldiers wept for joy and blessed him for letting himself be conquered by them alone, and twelve altars marked the limit. Plutarch and Diodorus tell the turning differently, but all three agree that the army would not go on.",
+    options: [
+      {
+        text: "Announce that you will cross with volunteers only, and let the rest go home.",
+        feedback:
+          "Alexander threatened this and waited three days for the camp to change its mind; it did not. A king who crossed with part of his army into country he did not know would risk the army and his authority together. Carried out, it is a counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Give way, and find a form for the return that lets king and army both keep their standing.",
+        feedback:
+          "This matches the historical outcome. In Ptolemy’s account the omens made the turning the gods’ decision; in Arrian’s the soldiers thanked the king for letting them conquer him. Both readings could hold at once. Alexander learned the army’s limit only by reaching it, in front of everyone.",
+        historical: true,
+      },
+      {
+        text: "Order the crossing, and make an example of the officers who spoke against it.",
+        feedback:
+          "Coenus warned that men led against their will will not be the same in danger, and the army held the one power that mattered, its willingness to fight. None of the three accounts has Alexander try force here. A counterfactual.",
+        historical: false,
+      },
+    ],
+  },
 ];

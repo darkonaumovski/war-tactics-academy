@@ -873,6 +873,82 @@ const frederickLeuthen: Source = {
 };
 
 export const campaignDetails: Record<string, CampaignDetails> = {
+  "balkan-and-greek-campaign-of-335": {
+    summary:
+      "Alexander’s first campaigns as king, in 335 BCE: the march to the Danube and into Illyria, the revolt and destruction of Thebes, and the settlement with Athens before the crossing to Asia.",
+    narrative: [
+      {
+        title: "A new king",
+        text: "When Philip II was murdered in 336 BCE, Diodorus says, the Aetolians, the Ambraciots and the Thebans moved against Macedonian control, the Thebans voting to drive out the garrison in their citadel, and Argos, Elis and Sparta sought their independence. Plutarch says Alexander’s Macedonian counsellors urged him to give up the Greek states and win back the tribes by mild measures, and that he chose boldness instead, judging that any sign of weakness would bring all his enemies upon him. A rapid march into Boeotia brought Athens to send envoys asking forgiveness.",
+        evidence: "fact",
+        studies: [],
+        refs: [
+          { source: 2, locator: "17.3–4" },
+          { source: 3, locator: "11" },
+        ],
+      },
+      {
+        title: "The northern campaign",
+        text: "In the spring of 335 Alexander marched north against the Thracians, the Triballians and the Illyrians, to show them, Lendering says, that the kingdom was still strong under a young king. Arrian follows the army through the Haemus to the Triballians, across the Danube against the Getae, and back west to Pelium, which the Illyrian Cleitus had seized while Glaucias of the Taulantians came to his aid.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 4 }, { source: 0, locator: "1.1–6" }],
+      },
+      {
+        title: "Thebes",
+        text: "While he was in Illyria, Theban exiles returned, killed two officers of the garrison and persuaded the city to revolt, claiming that Alexander was dead. He reached Boeotia before the Thebans knew he had passed Thermopylae, waited outside the city for envoys who did not come, and took it in a single day’s fighting. The allies who had fought with him voted to raze Thebes and sell its people into slavery.",
+        evidence: "fact",
+        studies: ["thebes-335-bce"],
+        refs: [
+          { source: 1, locator: "1.7–9" },
+          { source: 2, locator: "17.8–14" },
+          { source: 4 },
+        ],
+      },
+      {
+        title: "Athens and the crossing",
+        text: "The other Greek states hurried to make their peace. Arrian says the Athenians congratulated Alexander on his return and his punishment of Thebes; he demanded the surrender of Demosthenes, Lycurgus and other leaders and then relented, either from respect for Athens or from eagerness to begin the expedition into Asia, banishing only Charidemus, who went to Darius. Plutarch says he even told Athens to look to its affairs, since it would rule Greece if anything happened to him. Lendering says the League of Corinth ratified his acts.",
+        evidence: "fact",
+        studies: [],
+        refs: [
+          { source: 1, locator: "1.10" },
+          { source: 3, locator: "13" },
+          { source: 4 },
+        ],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "The narratives disagree over who decided what at Thebes. Arrian, following Ptolemy, has Perdiccas begin the assault without orders and leaves the sentence to the allies; Diodorus has Alexander decide to destroy the city and order the attack; Plutarch says he did it to terrify the Greeks and to satisfy the Phocians and Plataeans.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [
+          { source: 1, locator: "1.8–9" },
+          { source: 2, locator: "17.9, 17.12" },
+          { source: 3, locator: "11" },
+        ],
+      },
+    ],
+    sources: [
+      arrian("I", "I", "1.1–6"),
+      arrian("I", "VII", "1.7–10"),
+      {
+        title:
+          "Diodorus Siculus, Library of History 17.3–4, 17.8–14 (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/17A%2A.html",
+        publisher: "LacusCurtius, University of Chicago",
+      },
+      {
+        title: "Plutarch, Life of Alexander 11–13 (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Alexander%2A/3.html",
+        publisher: "LacusCurtius, University of Chicago",
+      },
+      {
+        title: "Alexander 2.2",
+        url: "https://www.livius.org/articles/person/alexander-the-great/alexander-2.2/",
+        publisher: livius,
+      },
+    ],
+  },
   "macedonian-invasion-of-persia": {
     summary:
       "Alexander’s war against Darius III from the crossing into Asia in 334 BCE to Darius’s death in 330: three pitched battles, a long contest for the coast and the surrender of the Achaemenid capitals.",
@@ -888,7 +964,7 @@ export const campaignDetails: Record<string, CampaignDetails> = {
         title: "A war for the coast",
         text: "Arrian says Alexander disbanded his fleet, partly for lack of money and partly because it was no match for the Persian one, reasoning that if he took the coastal cities the Persian navy would have nowhere to recruit crews or land. Briant calls this the strategy planned at Miletus in the summer of 334: to capture the whole Aegean front of the empire. Darius made Memnon supreme commander in the west. Memnon held Halicarnassus, whose new walls were exceptionally strong, and withdrew the garrison by sea when he chose; Lendering counts it a costly siege that the ancient sources call a victory. While the army moved through Lycia, Pamphylia and Phrygia to meet Parmenion at Gordion in April 333, Memnon took the war into the Aegean and threatened the Hellespont. Alexander ordered Antipater to raise a new fleet. Memnon died in August 333, and Pharnabazus continued his offensive.",
         evidence: "fact",
-        studies: [],
+        studies: ["halicarnassus-334-bce"],
         refs: [
           { source: 9, locator: "1.20" },
           { source: 0 },
@@ -1047,7 +1123,7 @@ export const campaignDetails: Record<string, CampaignDetails> = {
         title: "Down the Indus",
         text: "In November 326 the fleet under Nearchus set out down the rivers, with armies under Craterus and Hephaestion on the banks. The Mallians and Oxydracae resisted, and at the siege of one of their towns Alexander was shot through the lung and nearly killed. Further south, Musicanus submitted and then rose with the Brahmans, who were hanged; Musicanus was crucified. Craterus took about a third of the army and the elephants west by an inland route, and the rest reached the Ocean and founded a base at Patala.",
         evidence: "fact",
-        studies: [],
+        studies: ["malli-town-325-bce"],
         refs: [{ source: 2 }],
       },
       {

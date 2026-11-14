@@ -24,7 +24,7 @@ export const wars: War[] = [
     "alexander",
     "Conquests of Alexander",
     "ancient",
-    "334–323 BCE",
+    "335–323 BCE",
     "A Macedonian-led army dismantled the Achaemenid empire.",
     "Alexander inherited an expedition planned under Philip II and pursued royal expansion.",
     "Successor kingdoms spread Hellenistic institutions while fighting over Alexander’s empire.",

@@ -7,13 +7,17 @@ export const collections: Collection[] = [
     slug: "alexander",
     title: "Alexander’s campaign",
     summary:
-      "Alexander’s invasion of the Persian Empire, from his first battle in Asia to the river crossing in the Punjab.",
+      "Alexander’s wars from the destruction of Thebes to the descent of the Indus: the invasion of the Persian Empire and the campaigns beyond it.",
     introduction:
-      "These studies follow Alexander’s army from the Granicus to the Hydaspes. The war changed character as it moved east: pitched battles against satraps and a royal army, sieges of fortified coastal cities, a defended mountain pass, years of fighting against revolt in Bactria and Sogdiana, and finally a river crossing against an army with elephants.",
+      "These studies follow Alexander’s army from the revolt of Thebes to the descent of the Indus. The war changed character as it moved east: a Greek city destroyed as a warning, pitched battles against satraps and a royal army, sieges of fortified coastal cities, a defended mountain pass, years of fighting against revolt in Bactria and Sogdiana, a river crossing against an army with elephants, and a siege in which the king was nearly killed.",
     arc: [
       {
-        text: "Darius III had only recently come to power and faced revolts elsewhere, so no royal army met the invasion in 334 BCE. The satraps of western Asia Minor were beaten at the Granicus, and Sardis and Ephesus fell without a fight.",
-        studies: ["granicus"],
+        text: "Before he could cross to Asia, Alexander had to hold Greece. When Thebes revolted in 335 BCE on a rumour of his death, he stormed it, and his allies voted to raze the city and sell its people; the other Greek states submitted at once.",
+        studies: ["thebes-335-bce"],
+      },
+      {
+        text: "Darius III had only recently come to power and faced revolts elsewhere, so no royal army met the invasion in 334 BCE. The satraps of western Asia Minor were beaten at the Granicus, and Sardis and Ephesus fell without a fight. At Halicarnassus Memnon of Rhodes held out against a costly siege and then withdrew his garrison by sea.",
+        studies: ["granicus", "halicarnassus-334-bce"],
       },
       {
         text: "Darius then raised a royal army and came down behind Alexander on the Cilician coast, and was defeated at Issus, which left Phoenicia and Egypt largely unprotected. Persian sea power still threatened Alexander’s communications, and its crews came largely from the Phoenician cities: Tyre fell to a mole, a fleet gathered from defecting cities and a seaborne assault, and Gaza to a siege that opened the road to Egypt.",
@@ -28,8 +32,8 @@ export const collections: Collection[] = [
         studies: ["jaxartes", "sogdian-rock"],
       },
       {
-        text: "In 326 BCE Alexander crossed the flooded Hydaspes by deception and defeated Porus. Soon afterwards the army refused to advance beyond the Hyphasis and Alexander turned back; Porus remained as a client ruler on the eastern border.",
-        studies: ["hydaspes"],
+        text: "In 326 BCE Alexander crossed the flooded Hydaspes by deception and defeated Porus. Soon afterwards the army refused to advance beyond the Hyphasis and Alexander turned back; Porus remained as a client ruler on the eastern border. On the way down the rivers, leading the assault on a Mallian citadel early in 325, Alexander was shot through the chest and nearly killed.",
+        studies: ["hydaspes", "malli-town-325-bce"],
       },
     ],
     wars: ["alexander"],

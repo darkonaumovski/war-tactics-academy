@@ -1,5 +1,319 @@
 [
   {
+    "slug": "thebes-335-bce",
+    "sources": [
+      {
+        "title": "Arrian, Anabasis of Alexander 1.7–10 (trans. E. J. Chinnock)",
+        "url": "https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_I/Chapter_VII",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Diodorus Siculus, Library of History 17.3–4, 17.8–14 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/17A%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Plutarch, Life of Alexander 11–13 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Alexander%2A/3.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Alexander 2.2",
+        "url": "https://www.livius.org/articles/person/alexander-the-great/alexander-2.2/",
+        "publisher": "Livius.org (Jona Lendering)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "When Philip II was murdered in 336 BCE, Diodorus says, several Greek states moved against Macedonian control, and the Thebans voted to drive out the garrison Philip had placed in their citadel, the Cadmea. In the spring of 335 Alexander campaigned against the Thracians, the Triballians and the Illyrians. While he was away, exiles slipped back into Thebes by night, killed two officers of the garrison outside the Cadmea and persuaded the assembly to revolt, insisting that Alexander had been killed in Illyria; Lendering names the Athenian orator Demosthenes as the source of that rumour.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "17.3–4"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 0,
+            "locator": "1.7"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Arrian says Alexander took the revolt seriously because he already suspected Athens, and feared that Sparta, the Aetolians and doubtful states in the Peloponnese would join Thebes. Diodorus describes the help Thebes sought and did not get: Demosthenes sent weapons, Athens voted support but sent no army, and the Peloponnesians who came as far as the Isthmus waited to see how the war would go. The new king had not yet crossed to Asia, and a Greek revolt behind him would have put the expedition at risk.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.7"
+          },
+          {
+            "source": 1,
+            "locator": "17.8"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "In Arrian, Alexander camped close to the Cadmea to support its garrison and still preferred terms to battle. Plutarch says he asked only for the surrender of two leaders, Phoenix and Prothytes, and offered an amnesty to anyone who came over. Diodorus says he would gladly have granted the Thebans peace and alliance, to be free for the war with Persia, but that once he saw they despised him he decided to destroy the city and so take the heart out of anyone else who might rise against him.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.7"
+          },
+          {
+            "source": 2,
+            "locator": "11"
+          },
+          {
+            "source": 1,
+            "locator": "17.9"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Thebes lay in Boeotia, with the Macedonian garrison in the citadel of the Cadmea. The Thebans had cut it off with a double stockade, in Arrian's account, or with deep trenches and heavy stockades in Diodorus's. Alexander came from the north-west through Eordaea and Elimiotis to Pelina in Thessaly and into Boeotia by Onchestus, then moved round to the gate on the road to Eleutherae and Attica. Arrian's narrative of the fighting runs from the stockade by a hollow way to the temple of Heracles, through the gates, to the temple of Amphion and the market-place.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.7–8"
+          },
+          {
+            "source": 1,
+            "locator": "17.8"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Alexander had the Macedonian army that Philip had trained, with Greek allies; Arrian names Phocians, Plataeans and other Boeotians among them, and Diodorus Thespians, Plataeans and Orchomenians. The garrison in the Cadmea, commanded according to Diodorus by Philotas, strengthened its walls and stocked missiles. The Thebans had their citizens, cavalry and light infantry; Diodorus says they put freed slaves, refugees and resident aliens on the walls and fought in front of the city themselves. The revolt was led by the returned exiles, some of them Boeotarchs, who Arrian says expected no mercy. The sources' figures are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.7–8"
+          },
+          {
+            "source": 1,
+            "locator": "17.8, 17.11, 17.13"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Alexander first camped by the precinct of Iolaus to give the Thebans time to send envoys; instead their cavalry and light infantry attacked his outposts and were driven back. The next day he moved round to the gate on the road to Eleutherae and Attica and camped near the Cadmea. Arrian places the brigade of Perdiccas in the advanced guard, close to the Theban stockade, with that of Amyntas son of Andromenes beside it. Diodorus describes a set-piece arrangement after three days of preparation: one division against the palisades, one facing the Theban battle line and one in reserve.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.7–8"
+          },
+          {
+            "source": 1,
+            "locator": "17.11"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "In Arrian's account, which follows Ptolemy, Perdiccas broke into the stockade without waiting for the signal and Amyntas followed. Alexander sent in the archers and the Agrianians and brought up the rest of the army so that the two brigades would not be cut off. Perdiccas was badly wounded at the second stockade. His men drove the Thebans back as far as the temple of Heracles, where the Thebans turned and routed them, killing Eurybotas, the captain of the archers, with many of his men. Alexander then advanced with the phalanx in order against the Thebans, whose ranks had broken in pursuit, and drove them back through the gates before they could be shut.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.8"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Alexander's choices were to march south at once, to wait outside the city rather than assault it, and, once fighting began, to commit his whole force behind Perdiccas. The Thebans' leaders chose to fight: Diodorus says they voted for it unanimously, and Plutarch that they answered Alexander's demand with a counter-demand for Philotas and Antipater and a call to all who would free Greece. Diodorus has Alexander answer a proclamation calling him the tyrant of Greece by vowing the extremity of punishment.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.7–8"
+          },
+          {
+            "source": 1,
+            "locator": "17.9"
+          },
+          {
+            "source": 2,
+            "locator": "11"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "In Arrian the Macedonians followed the fugitives through the gates, and the walls, empty because the defenders were out in front of them, fell with them. Some joined the garrison of the Cadmea; others ran along the walls into the market-place, and when the Thebans at the temple of Amphion saw themselves attacked from several sides, their cavalry broke out into the plain and the infantry scattered. Diodorus has a different sequence: Alexander committed his reserve, saw a postern gate left unguarded and sent Perdiccas through it, and the garrison burst out of the Cadmea into the confused Thebans. Plutarch, too, has the garrison fall on their rear.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.8"
+          },
+          {
+            "source": 1,
+            "locator": "17.12"
+          },
+          {
+            "source": 2,
+            "locator": "11"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Arrian says the Thebans were then killed less by the Macedonians than by the Phocians, Plataeans and other Boeotians, who took revenge for old injuries, in the houses and in the temples, sparing neither women nor children. Alexander left the settlement to the allies who had fought with him. They voted to garrison the Cadmea, raze the city, divide its territory and sell the women, the children and the surviving men into slavery, except priests and priestesses, the guest-friends of Philip and Alexander and those who had acted for the Macedonians. It is said, Arrian adds, that Alexander spared the house and descendants of the poet Pindar. Diodorus and Plutarch give figures for the dead and the enslaved that are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.8–9"
+          },
+          {
+            "source": 1,
+            "locator": "17.13–14"
+          },
+          {
+            "source": 2,
+            "locator": "11"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The effect was immediate. Arrian says the Arcadians, who had set out to help Thebes, condemned those who had urged them to; the Eleans recalled exiles friendly to Alexander; the Aetolians sent envoys asking pardon; and the Athenians abandoned the Great Mysteries, brought their property into the city and sent envoys to congratulate him. He demanded the surrender of Demosthenes, Lycurgus and other leaders, then relented, either from respect for Athens or because he was eager to cross to Asia; only Charidemus was exiled, and went to Darius. The allies also voted to rebuild Orchomenus and Plataea. Lendering says the League of Corinth ratified Alexander's acts.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.9–10"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 2,
+            "locator": "13"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Thebes shows terror used as a policy. The destruction of one city settled Greece behind Alexander within days, without further fighting, and freed him to cross to Asia. Handing the sentence to Thebes's neighbours made it the act of the Greek alliance, and also let old local hatreds decide the fate of its people. Plutarch says the memory later gave Alexander remorse.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.9–10"
+          },
+          {
+            "source": 2,
+            "locator": "11, 13"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Who began the assault is disputed. Arrian, following Ptolemy, has Perdiccas attack without orders and Alexander follow to save him; Diodorus has Alexander prepare an assault for three days and send Perdiccas through a postern gate himself. Who decided the city's fate is told differently too: Arrian gives the decision to the allies, Diodorus to the common council of the Greeks, and Plutarch says Alexander destroyed Thebes to terrify the Greeks and to satisfy the complaints of the Phocians and Plataeans. Arrian puts much of the killing on the Boeotian neighbours. Accounts written from Alexander's side had reasons to spread the responsibility.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.8–9"
+          },
+          {
+            "source": 1,
+            "locator": "17.9, 17.12, 17.14"
+          },
+          {
+            "source": 2,
+            "locator": "11"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Arrian gives the fullest military narrative and the aftermath in Greece, from Ptolemy, who served in the campaign. Diodorus, from the vulgate tradition, gives the Theban preparations, the appeals to other states and a different account of the assault. Plutarch gives the exchange of demands and Alexander's motives and later remorse. Lendering's survey places the revolt between the northern campaign and the crossing to Asia.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.7–10"
+          },
+          {
+            "source": 1,
+            "locator": "17.8–14"
+          },
+          {
+            "source": 2,
+            "locator": "11–13"
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Revolt",
+        "time": "335 BCE",
+        "description": "Exiles return to Thebes, kill two garrison officers and blockade the Macedonians in the Cadmea."
+      },
+      {
+        "title": "Forced march",
+        "time": "A thirteen-day march",
+        "description": "Alexander reaches Boeotia before the Thebans know he has passed Thermopylae, and waits for envoys who do not come."
+      },
+      {
+        "title": "The stockade",
+        "time": "Day of the assault",
+        "description": "Perdiccas breaks into the stockade; a Theban counter-attack is checked by the phalanx and driven back through the gates."
+      },
+      {
+        "title": "Sack and sentence",
+        "time": "After the fall",
+        "description": "The city is taken and plundered; the allies vote to raze it and sell its people into slavery."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Alexander III of Macedon",
+        "objective": "Put down a Greek revolt before crossing to Asia.",
+        "known": "Thebes had blockaded his garrison in the Cadmea and was appealing to Athens and the Peloponnese.",
+        "uncertainty": "Whether Athens, Sparta, the Aetolians and the Peloponnesians would join the revolt.",
+        "constraints": "He was far to the north-west in Illyria when the revolt began, and the expedition to Asia was waiting.",
+        "forces": "The Macedonian army trained under Philip, with allied contingents from Phocis, Plataea and other Boeotian towns.",
+        "terrain": "A walled city with a Macedonian-held citadel, cut off from his army by Theban stockades.",
+        "logistics": "A forced march brought the whole army into Boeotia before the rebels could believe it was his.",
+        "decision": "He waited outside the city for envoys, then committed his whole army once the fighting began at the stockade.",
+        "outcome": "Thebes was taken and razed; the rest of Greece submitted, and he crossed to Asia the next year."
+      },
+      {
+        "name": "The leaders of the Theban revolt",
+        "objective": "Expel the Macedonian garrison and free Thebes from Macedonian control.",
+        "known": "They had blockaded the Cadmea and had promises of help from Athens and the Peloponnese.",
+        "uncertainty": "Whether Alexander was alive, and whether any ally would actually march.",
+        "constraints": "The returned exiles, some of them Boeotarchs, expected no mercy if they submitted; the promised allies stayed at home or at the Isthmus.",
+        "forces": "Citizen infantry, cavalry and light troops, with freed slaves, refugees and resident aliens on the walls.",
+        "terrain": "Their own walls and the stockades round the Cadmea, with a Macedonian garrison inside the city.",
+        "logistics": "Weapons sent from Athens equipped citizens who lacked heavy armour.",
+        "decision": "They refused Alexander's terms and fought in front of the city.",
+        "outcome": "The city was stormed and destroyed, and its survivors sold into slavery."
+      }
+    ]
+  },
+  {
     "slug": "granicus",
     "sources": [
       {
@@ -294,6 +608,301 @@
         "logistics": "Dascylium nearby served as a supply base.",
         "decision": "They defended the river line and placed their cavalry forward to meet the crossing.",
         "outcome": "Their cavalry broke and the mercenaries were destroyed; Arrian says Arsites fled and killed himself."
+      }
+    ]
+  },
+  {
+    "slug": "halicarnassus-334-bce",
+    "sources": [
+      {
+        "title": "Arrian, Anabasis of Alexander 1.20–24 (trans. E. J. Chinnock)",
+        "url": "https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_I/Chapter_XX",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Diodorus Siculus, Library of History 17.23–29 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/17B%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Alexander 2.4",
+        "url": "https://www.livius.org/articles/person/alexander-the-great/alexander-2.4/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Alexander the Great — Pierre Briant",
+        "url": "https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/",
+        "publisher": "Encyclopaedia Iranica"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After the Granicus and the capture of Miletus in 334 BCE, Alexander disbanded his fleet: Arrian says it was short of money and no match for the Persian one, and that he meant to defeat the Persian navy from the land by taking the coastal cities it needed. Diodorus says the bulk of the Persians and mercenaries, with the most enterprising commanders, then gathered at Halicarnassus, the largest city of Caria. Darius made Memnon of Rhodes commander in the west; Diodorus adds that Memnon sent his wife and children to the king, to keep them safe and to win his trust.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.20"
+          },
+          {
+            "source": 1,
+            "locator": "17.23"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Lendering argues that Memnon's aim was to win time. While he held Halicarnassus the Macedonians could not safely go east, Darius could raise a new army, and with the Persian fleet at sea Memnon could take the garrison off whenever he chose. Briant counts the long resistance at Halicarnassus among the signs that Persian defeat in battle did not bring a quick collapse of the empire. Caria's ruling family was divided: Ada, daughter of Hecatomnus, had been driven from power by Pixodarus, after whose death the Persian king sent Orontobates to rule Caria, and she met Alexander on his march, offered him her fortress of Alinda and adopted him as her son.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 0,
+            "locator": "1.23"
+          },
+          {
+            "source": 1,
+            "locator": "17.24"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Alexander needed the city to carry out the strategy he had chosen when he gave up his fleet: to deny the Persian navy its harbours. Memnon needed only to hold out for as long as the siege served Darius. Lendering judges that Alexander must have understood that he would lose whatever the outcome: he could take the city only at heavy cost, while the defenders could leave before their losses grew too great.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.20"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Arrian says the city's position was naturally strong and that Memnon had made good whatever it lacked; Lendering adds that the walls were recently built and designed against siege engines. A deep ditch ran in front of the walls. Arrian names a gate toward Mylasa, the side of the city toward Myndus, a citadel facing Mylasa, a triple gate, and two strongholds that held out after the city fell: one on the island called Arconnesus and another called Salmacis. Triremes in the harbour supported the defence.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.20–23"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Memnon held the city with many Greek mercenaries and Persian troops, alongside Orontobates, the Persian ruler of Caria; Diodorus names two Athenian exiles, Ephialtes and Thrasybulus, among the commanders. Alexander brought the shield-bearing guards, the Companion cavalry, the infantry brigades of Amyntas, Perdiccas and Meleager, the archers and the Agrianians; Diodorus says his siege engines and supplies came by sea. The sources' figures for losses are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.20, 1.23"
+          },
+          {
+            "source": 1,
+            "locator": "17.24–25"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Alexander camped close to the city, Arrian says, as if he expected a long siege. On the first day a sortie at the Mylasa gate was driven back. A few days later he took a strong force round to the Myndus side, both to inspect the walls and to take Myndus, whose people had offered to surrender by night. No one opened the gates; he had brought no engines or ladders, a tower his men undermined fell without opening a breach, and reinforcements arrived from Halicarnassus by sea, so he returned to the siege.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.20"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The Macedonians filled the ditch and brought up siege towers. A night sortie to burn them was beaten off. Then two drunken soldiers of Perdiccas's brigade attacked the wall alone; the fighting that followed nearly carried the city, because two towers and the wall between them were already down. The defenders built a crescent-shaped brick wall behind the breach, and when Alexander brought his engines against it, they sallied again and burned part of a shed and of a tower. A few days later came the largest sortie, through the breach and through the triple gate at once.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.20–22"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Memnon's choices were active defence, with repeated sorties against the engines and a new wall behind each breach, and in the end evacuation. Alexander's were to try Myndus, to press the siege with engines, and, at the moment the city seemed about to fall, to call his army back. Arrian says he did so to see whether the Halicarnassians would offer to surrender, because he still wished to save their city. After it fell he chose not to besiege the strongholds, judging them of little use to the defenders now that he held the city.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.22–23"
+          },
+          {
+            "source": 1,
+            "locator": "17.25–27"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The great sortie failed. At the breach the defenders were driven back by men round Alexander and by stones from the engines; at the triple gate a bridge over the ditch broke under the fleeing crowd, and the gates were shut too early in a panic, leaving many outside. Diodorus describes the same crisis as a sortie led by Ephialtes that drove the Macedonians back under fire from a tall wooden tower until older veterans, exempt from the fighting, closed ranks and killed him. Orontobates and Memnon then decided they could not hold out, fired their own siege tower, the magazines and the houses near the wall, and withdrew.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.22–23"
+          },
+          {
+            "source": 1,
+            "locator": "17.26–27"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Alexander entered the burning city that night and killed those still setting fires, but ordered that Halicarnassians found in their houses be spared. Arrian says he razed the city, left the strongholds under watch with a garrison under Ptolemy, and made Ada ruler of all Caria. In Diodorus, Memnon left his best men in the citadel with supplies and shipped the rest of the army and the stores to Cos, and Alexander walled the citadel off with a wall and trench.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.23"
+          },
+          {
+            "source": 1,
+            "locator": "17.27"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Before winter Alexander sent the newly married Macedonians home from Caria and marched along the coast into Lycia and Pamphylia to take its harbours. Lendering says that Alexander and his generals must now have decided to go on to Phoenicia, so that no enemy fleet could again enter the Aegean. The Persian fleet was still at sea: Diodorus says Memnon took Chios and the cities of Lesbos and alarmed Euboea, until he fell ill and died.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.24"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1,
+            "locator": "17.29"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A defender who controls the sea can treat a city as something to be spent for time. Memnon gave up Halicarnassus only when holding it no longer paid, and took much of his force away by sea. Alexander won the city and lost months, which is why the next step was to take the Persian fleet's bases one by one along the coast.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0,
+            "locator": "1.20, 1.24"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Lendering says the ancient sources present the siege as a victory, but that Alexander must have known better, and notes that after one failed attack he had to ask for a truce to recover his dead, something he never did again. Diodorus records that request and says Memnon granted it against the advice of Ephialtes and Thrasybulus; Arrian does not mention it. The accounts of the evacuation differ: Arrian sends the defenders to the island and to Salmacis, Diodorus to the citadel and to Cos. Arrian has Neoptolemus, a Macedonian deserter, die fighting for the Persians in a sortie, while Diodorus has an officer of that name die among the Macedonians at the gates.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 1,
+            "locator": "17.25, 17.27"
+          },
+          {
+            "source": 0,
+            "locator": "1.20, 1.23"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Arrian gives the fullest account of the siege, from Ptolemy, who served in it. Diodorus gives the Persian command, the truce and the sortie of Ephialtes. Lendering's survey sets out Memnon's strategy of delay and doubts the ancient verdict of victory. Briant's article in the Encyclopaedia Iranica places Halicarnassus in the Persian resistance that followed the Granicus.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.20–24"
+          },
+          {
+            "source": 1,
+            "locator": "17.23–29"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Investment",
+        "time": "Autumn 334 BCE",
+        "description": "Alexander camps before the city; a first sortie is repulsed and an attempt on Myndus fails."
+      },
+      {
+        "title": "The ditch and the breach",
+        "time": "Main siege",
+        "description": "The ditch is filled and the engines brought up; two towers fall, and the defenders build a new wall behind them."
+      },
+      {
+        "title": "The great sortie",
+        "time": "Climax of the siege",
+        "description": "Sorties through the breach and the triple gate are thrown back with heavy losses, and Alexander calls off his men."
+      },
+      {
+        "title": "Fire and withdrawal",
+        "time": "The same night",
+        "description": "Memnon and Orontobates fire the city and withdraw to its strongholds and the sea; Alexander razes the city."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Alexander III of Macedon",
+        "objective": "Take the last great Persian stronghold on the Aegean coast and deny its harbour to the Persian fleet.",
+        "known": "Memnon commanded a strong garrison behind new walls, with triremes in the harbour.",
+        "uncertainty": "How long the city could hold, and whether its defenders would simply leave by sea.",
+        "constraints": "He had disbanded his own fleet and could not cut the city off from the sea.",
+        "forces": "The shield-bearing guards, Companion cavalry, three phalanx brigades, archers and Agrianians, with siege engines brought by sea.",
+        "terrain": "Strong walls on a naturally strong site, behind a deep ditch.",
+        "logistics": "Engines and supplies came by sea; Ada and the Carian cities supported him on land.",
+        "decision": "He pressed a siege with engines, beat off repeated sorties and called his men back when the city seemed about to fall.",
+        "outcome": "He took and razed the city, but the strongholds held out and much of the garrison escaped by sea."
+      },
+      {
+        "name": "Memnon of Rhodes",
+        "objective": "Hold Halicarnassus for as long as the delay served Darius.",
+        "known": "Alexander had no fleet, and the Persian ships in the harbour could supply or evacuate the city.",
+        "uncertainty": "How much damage the Macedonian engines would do, and how long his men could keep up the sorties.",
+        "constraints": "Repeated sorties cost him heavily, and the breaches grew faster than new walls could close them.",
+        "forces": "Greek mercenaries and Persian troops, with Orontobates and Athenian exiles among the commanders, and triremes in the harbour.",
+        "terrain": "New walls built against siege engines, a deep ditch, a citadel and island strongholds.",
+        "logistics": "Command of the sea let him bring help to Myndus and take his men away.",
+        "decision": "He defended actively with sorties and inner walls, then fired the city and withdrew.",
+        "outcome": "He lost the city but saved much of his force, and went on to campaign in the Aegean islands until his death."
       }
     ]
   },
@@ -2889,6 +3498,301 @@
         "logistics": "Arrian notes that the clayey ground made his son's chariots slow.",
         "decision": "He stopped reacting to the feints, sent his son to investigate, then marched against Alexander, leaving some elephants facing Craterus, and drew up his elephants with infantry between them.",
         "outcome": "His army was broken; wounded, he surrendered and was confirmed as king under Alexander, in recognition of his courage according to Diodorus."
+      }
+    ]
+  },
+  {
+    "slug": "malli-town-325-bce",
+    "sources": [
+      {
+        "title": "Arrian, Anabasis of Alexander 6.4–13 (trans. E. J. Chinnock)",
+        "url": "https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_VI/Chapter_IV",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Diodorus Siculus, Library of History 17.98–99 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/17E%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Plutarch, Life of Alexander 63 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Alexander%2A/9.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Alexander 2.14",
+        "url": "https://www.livius.org/articles/person/alexander-the-great/alexander-2.14/",
+        "publisher": "Livius.org (Jona Lendering)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After the army refused to go beyond the Hyphasis, Alexander turned south and in November 326 BCE began the voyage down the rivers toward the Indus and the sea. Arrian says he learned that the Mallians and the Oxydracians, the most numerous and warlike peoples of the region, had put their women and children into their strongest cities and meant to fight, and he hurried on to attack them before they were ready. Lendering places the fighting in January 325 and the Mallians near modern Multan.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.4"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Diodorus says the two peoples had been at war with each other, made peace as Alexander approached, and then quarrelled over the command and withdrew into their cities. Arrian calls the Mallians an independent people. Lendering notes that the populous river valleys of Egypt and Babylonia had not resisted the Macedonians, while the peoples along the Indus did, and he judges the war against them merciless.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "17.98"
+          },
+          {
+            "source": 0,
+            "locator": "6.6"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Alexander divided his forces so that the Mallians could neither unite nor escape. Arrian says the fleet under Nearchus went ahead down the river, Hephaestion marched five days in advance to catch anyone fleeing before the main force, Ptolemy followed three days behind to catch anyone turning back, and all were to meet at the confluence of the Acesines and the Hydraotes. Alexander himself took a picked force across waterless country to fall on the Mallian towns from an unexpected direction.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.5–6"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The approach crossed a tract without water, covered in a day and a night of marching. The Mallian towns lay near the Hydraotes, with woods along its banks where fugitives hid. The town where Alexander was wounded had walls of earth and a citadel with towers; Arrian mentions a mound of earth inside, close to the wall, from which defenders could throw at him. Lendering identifies the Mallian capital with Multan, a modern identification the ancient narratives do not make.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.6–10"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Alexander led the shield-bearing guards, the archers, the Agrianians, Peithon's brigade of foot Companions, the horse archers and half the Companion cavalry, with Perdiccas commanding a second column. The Mallians defended their towns and, at the Hydraotes, formed a dense array against his cavalry; neither Arrian nor Diodorus names a Mallian commander. Arrian and Diodorus give large figures for the Indian forces, which are not repeated here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.6, 6.8"
+          },
+          {
+            "source": 1,
+            "locator": "17.98"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Alexander's night march caught many Mallians outside their first town and unarmed, Arrian says, because they did not believe he would come through the waterless country; he used his cavalry as a ring round the walls until the infantry arrived, and the citadel was stormed. He then pursued the Mallians across the Hydraotes. When they drew up on the far bank and saw he had only cavalry, they turned and fought, until his light infantry and phalanx came up; they then fled into the strongest of their nearby cities, and Alexander camped round it for the night.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.6–8"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The next day the army attacked in two divisions, one under Alexander and one under Perdiccas. The defenders abandoned the town walls for the citadel. Alexander's men broke in through a small gate; Perdiccas's men were late, having brought no ladders. At the citadel Alexander, thinking the ladder-bearers too slow, seized a ladder, climbed it under his shield and cleared the battlement. Peucestas, carrying the sacred shield from the temple of Athena at Troy, followed him, with Leonnatus, and Abreas on another ladder. The shield-bearing guards, rushing to follow the king, broke the ladder.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.9"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Standing alone on the wall under missiles from the towers, Alexander leapt down into the citadel. Arrian gives his reasoning: if he stayed where he was he would be in danger to no purpose, but if he jumped down he might terrify the defenders, and if not, he would at least die after deeds worth remembering. Diodorus adds that a seer, Demophon, had warned him of a great danger from a wound in this assault and begged him to leave the city alone, and that Alexander rebuked him for discouraging the soldiers.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.9"
+          },
+          {
+            "source": 1,
+            "locator": "17.98"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Inside, with his back to the wall, Alexander killed the defenders' leader and others who came at him. Abreas was killed by an arrow in the forehead. An arrow went through Alexander's breastplate into his chest, and Ptolemy, Arrian says, reports that air came out of the wound with the blood. He fought until he fainted and fell on his shield, with Peucestas and Leonnatus, both wounded, standing over him. Outside, the Macedonians climbed the earth wall on pegs and on each other's shoulders, and others broke the bar of a gate and forced it open.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.10"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Arrian says the Macedonians, believing their king dead or dying, killed everyone in the citadel and spared neither women nor children; Diodorus says that in their fury they filled the city with corpses. Alexander was carried out on his shield. Some writers, Arrian says, had Critodemus, a physician of Cos, cut out the arrow; others say Perdiccas did it with his sword at Alexander's bidding. The loss of blood made him faint again, and the bleeding stopped. Plutarch says the arrowhead was lodged in a rib and that its removal brought him close to death.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.11"
+          },
+          {
+            "source": 1,
+            "locator": "17.99"
+          },
+          {
+            "source": 2,
+            "locator": "63"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Diodorus says that the false report of Alexander's death led Greek settlers in Bactria and Sogdiana to revolt and march for home. For fear of unrest in his own army, Arrian says, Alexander had himself carried to the river as soon as it was safe and taken by boat to the camp at the confluence of the Hydraotes and the Acesines. Lendering says the last Mallians surrendered, followed by the Oxydracae; Alexander made the region a satrapy under Peithon and Oxyartes and founded an Alexandria near the confluence of the Indus and the Acesines.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "17.99"
+          },
+          {
+            "source": 0,
+            "locator": "6.13"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Alexander's habit of leading assaults in person drove his men to follow him, and it was their rush up the ladder that left him alone on the wall. The same bond made his wound a danger to the whole army: Plutarch says the camp believed him dead, and Arrian that he feared unrest in the army. The citadel he took at that risk was a minor objective, and its people paid for his wound.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.9–11, 6.13"
+          },
+          {
+            "source": 2,
+            "locator": "63"
+          },
+          {
+            "source": 1,
+            "locator": "17.99"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Arrian complains that the common account placed this disaster among the Oxydracians, not the Mallians, and that some writers made Ptolemy one of the king's rescuers, though Ptolemy himself recorded that he was elsewhere. The rescuers differ: Arrian names Peucestas, Leonnatus and Abreas, Plutarch Peucestas and Limnaeus, and Diodorus Peucestas. Some writers, Arrian notes, said Alexander was first struck on the head; Plutarch has a blow on the neck with a club. Diodorus sets the episode at the first city attacked and has Alexander shelter by a tree, while Arrian puts it at the strongest city, after the crossing of the Hydraotes. The identification with Multan is modern.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.11"
+          },
+          {
+            "source": 2,
+            "locator": "63"
+          },
+          {
+            "source": 1,
+            "locator": "17.98–99"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Arrian gives the campaign, the assault and the wound in most detail, from Ptolemy, and corrects other writers by name. Diodorus, from the vulgate, adds the seer and the revolt of the settlers. Plutarch gives the wound and its treatment. Lendering's survey dates the campaign and places it in the descent of the Indus.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "6.4–13"
+          },
+          {
+            "source": 1,
+            "locator": "17.98–99"
+          },
+          {
+            "source": 2,
+            "locator": "63"
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Across the desert",
+        "time": "January 325 BCE",
+        "description": "A night march across waterless country surprises the first Mallian town; its citadel is stormed."
+      },
+      {
+        "title": "The Hydraotes",
+        "time": "The following days",
+        "description": "Alexander forces the river with his cavalry and drives the Mallians into their strongest city."
+      },
+      {
+        "title": "The ladder",
+        "time": "Day of the assault",
+        "description": "The town falls; at the citadel Alexander climbs alone, the ladder breaks and he leaps inside."
+      },
+      {
+        "title": "The wound",
+        "time": "The same day",
+        "description": "Alexander is shot through the chest; his men break in and kill the defenders, and he is carried out barely alive."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Alexander III of Macedon",
+        "objective": "Defeat the Mallians before they could join the Oxydracians and secure the descent of the rivers.",
+        "known": "The Mallians had gathered in their strongest towns, and his columns were placed to catch any who fled.",
+        "uncertainty": "Where the Mallians would stand and how long their citadels would hold.",
+        "constraints": "His picked force had outmarched its infantry, and the ladders were too few and too slow.",
+        "forces": "Shield-bearing guards, archers, Agrianians, foot Companions, horse archers and half the Companion cavalry.",
+        "terrain": "Waterless country, the Hydraotes and its wooded banks, and towns with earth walls and towered citadels.",
+        "logistics": "His men filled their vessels at the last water before the desert and marched through the night.",
+        "decision": "He climbed the citadel wall himself and, left alone when the ladder broke, leapt down inside.",
+        "outcome": "The citadel fell and its people were killed; he was so badly wounded that the army believed him dead."
+      },
+      {
+        "name": "The Mallian defenders",
+        "objective": "Defend their towns and families against the invasion.",
+        "known": "Alexander was coming down the rivers; they had put their women and children in their strongest cities.",
+        "uncertainty": "Whether the Oxydracians would fight beside them, and from which direction the attack would come.",
+        "constraints": "Diodorus says their alliance broke down in a dispute over the command before the attack.",
+        "forces": "Town garrisons and a field army that stood against Alexander's cavalry at the Hydraotes.",
+        "terrain": "Earth-walled towns with citadels, a river line and woods along its banks.",
+        "logistics": "They believed no army could cross the waterless country to reach them.",
+        "decision": "They abandoned their outer walls and held the citadel, where they nearly killed Alexander.",
+        "outcome": "The citadel was stormed and its people killed; the last Mallians later surrendered."
       }
     ]
   }

@@ -569,7 +569,7 @@ export const alexanderVolume: LeadershipVolume = {
             { source: 3, locator: "1.9" },
             { source: 0, locator: "17.12" },
           ],
-          battleSlugs: [],
+          battleSlugs: ["thebes-335-bce"],
         },
         {
           title: "Philip’s generals in Asia",
@@ -827,7 +827,7 @@ export const alexanderVolume: LeadershipVolume = {
             { source: 8, locator: "6.13" },
             { source: 9, locator: "17.99" },
           ],
-          battleSlugs: [],
+          battleSlugs: ["malli-town-325-bce"],
           campaignSlugs: ["indian-campaign"],
         },
       ],
@@ -3224,7 +3224,12 @@ export const alexanderVolume: LeadershipVolume = {
             { source: 7, locator: "17.70" },
             { source: 8, locator: "6.11" },
           ],
-          battleSlugs: ["tyre", "gaza-332-bce"],
+          battleSlugs: [
+            "thebes-335-bce",
+            "tyre",
+            "gaza-332-bce",
+            "malli-town-325-bce",
+          ],
         },
         {
           title: "What was built",

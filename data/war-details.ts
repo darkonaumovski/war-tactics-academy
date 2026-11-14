@@ -35,12 +35,17 @@ export const warDetails: Record<string, WarDetails> = {
     geography:
       "Anatolia, the Levant, Egypt, Mesopotamia, the Iranian plateau, Central Asia and the Indus basin.",
     developments: t(
-      ["334 BCE", "Crossing into Asia; battle at the Granicus"],
+      ["335 BCE", "Thebes revolts and is destroyed"],
+      [
+        "334 BCE",
+        "Crossing into Asia; battle at the Granicus; siege of Halicarnassus",
+      ],
       ["333 BCE", "Battle of Issus"],
       ["332 BCE", "Sieges of Tyre and Gaza; Egypt occupied"],
       ["331 BCE", "Battle of Gaugamela"],
       ["330 BCE", "Persepolis burned; Darius III killed by his own officers"],
       ["326 BCE", "Battle at the Hydaspes; the army refuses to go farther"],
+      ["325 BCE", "Alexander gravely wounded at a Mallian town"],
       ["323 BCE", "Alexander dies at Babylon"],
     ),
     bibliography: [

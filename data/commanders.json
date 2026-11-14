@@ -12,7 +12,9 @@
     "limitation": "Expansion strained manpower and political cohesion; his troops refused to advance farther at the Hyphasis.",
     "legacy": "His conquests reshaped the Hellenistic world through cultural exchange, coercion, enslavement and destructive sieges.",
     "battleSlugs": [
+      "thebes-335-bce",
       "granicus",
+      "halicarnassus-334-bce",
       "issus",
       "tyre",
       "gaza-332-bce",
@@ -20,7 +22,8 @@
       "persian-gate",
       "jaxartes",
       "sogdian-rock",
-      "hydaspes"
+      "hydaspes",
+      "malli-town-325-bce"
     ],
     "source": {
       "title": "Alexander the Great — Pierre Briant",

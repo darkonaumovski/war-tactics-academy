@@ -47,6 +47,7 @@ describe("campaign narratives", () => {
       "atlanta-campaign",
       "attila-s-invasion-of-gaul",
       "babur-s-invasion-of-hindustan",
+      "balkan-and-greek-campaign-of-335",
       "baltic-fleet-voyage",
       "battle-of-britain",
       "battle-of-the-atlantic",

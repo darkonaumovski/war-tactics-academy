@@ -3110,6 +3110,7 @@
       "austerlitz",
       "jena-auerstedt",
       "eylau",
+      "corunna-1809",
       "ligny",
       "waterloo"
     ],
@@ -3278,7 +3279,7 @@
     "strength": "Combined defensive preparation with offensive opportunities, notably at Salamanca.",
     "limitation": "The failed siege of Burgos forced a retreat; his career also served British colonial expansion.",
     "legacy": "Waterloo depended on a multinational army and Prussian intervention, making it a study of coalition warfare.",
-    "battleSlugs": ["waterloo"],
+    "battleSlugs": ["talavera-1809", "waterloo"],
     "source": {
       "title": "Wellington: The Iron Duke",
       "url": "https://www.nam.ac.uk/explore/duke-wellington",

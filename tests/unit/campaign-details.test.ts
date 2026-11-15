@@ -102,6 +102,7 @@ describe("campaign narratives", () => {
       "northwestern-campaign-of-1953-1954",
       "occupation-of-serbia",
       "paris-insurrection-of-1795",
+      "peninsular-war",
       "persian-expedition-to-the-aegean",
       "philippines-campaign-of-1944-1945",
       "russian-campaign-of-1812",

@@ -1086,10 +1086,13 @@ export const warDetails: Record<string, WarDetails> = {
       ["1805", "Trafalgar; Ulm; Austerlitz"],
       ["1806", "Jena–Auerstedt"],
       ["1807", "Eylau and Friedland; Treaties of Tilsit"],
-      ["1808", "Peninsular War begins"],
+      [
+        "1808",
+        "Peninsular War begins; Dupont capitulates at Bailén; Napoleon retakes Madrid",
+      ],
       [
         "1809",
-        "Eckmühl, Aspern-Essling and Wagram; Peace of Vienna (Schönbrunn)",
+        "Corunna; Eckmühl, Aspern-Essling and Wagram; Talavera; Peace of Vienna (Schönbrunn)",
       ],
       [
         "1812",

@@ -118,6 +118,10 @@ export const collections: Collection[] = [
         ],
       },
       {
+        text: "In Spain from 1808 the war was fought mostly by Napoleon's marshals and his brother Joseph, against Spanish armies, guerrillas and a British expedition. Dupont's army capitulated at Bailén, the first defeat in Spain of a regular Napoleonic army. Napoleon came in person, retook Madrid and drove Moore's army to embark at Corunna; in 1809 Wellesley beat King Joseph at Talavera but had to fall back to Portugal.",
+        studies: ["bailen-1808", "corunna-1809", "talavera-1809"],
+      },
+      {
         text: "In 1812 the Russian armies withdrew from Smolensk and fought before Moscow at Borodino, then withdrew again. Napoleon entered Moscow, but the Russians would not come to terms. After Maloyaroslavets the army retreated over the devastated road it had come by and crossed the Berezina, and only a few broken thousands recrossed the Neman. Long marches and supply failures, more than combat, had taken a heavy toll even before Borodino, and the cavalry lost in Russia could not be replaced.",
         studies: ["smolensk-1812", "borodino", "maloyaroslavets", "berezina"],
       },

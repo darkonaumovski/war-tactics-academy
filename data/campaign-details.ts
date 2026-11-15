@@ -949,6 +949,76 @@ export const campaignDetails: Record<string, CampaignDetails> = {
       },
     ],
   },
+  "peninsular-war": {
+    summary:
+      "The war in Spain and Portugal from 1808: the Spanish rising, Dupont's capitulation at Bailén, Moore's retreat to Corunna and Wellesley's first campaign into Spain at Talavera.",
+    narrative: [
+      {
+        title: "Bayonne and the rising",
+        text: "Tilsit left Napoleon free, Britannica says, to complete the Continental System against Britain. When Portugal was slow to close its ports, Junot marched through Spain and took Lisbon in November 1807, and French troops occupied northern Spain. At Bayonne in May 1808 Napoleon forced Charles IV and Ferdinand VII to give up the throne and named his brother Joseph king. Madrid had risen on 2 May; the rising was put down, but the provinces rose in turn, set up juntas and asked Britain for help.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Bailén",
+        text: "Dupont, sent to subdue Andalusia, let his three divisions be spread along the Guadalquivir, and in July 1808 Castaños's army caught his main body between two forces at Bailén. After failing to break through, Dupont capitulated with both his corps. The capitulation promised the prisoners passage home by sea and was never carried out. Joseph left Madrid, and the French fell back behind the Ebro.",
+        evidence: "fact",
+        studies: ["bailen-1808"],
+        refs: [{ source: 2, locator: "pp. 176–205" }, { source: 1 }],
+      },
+      {
+        title: "Napoleon in Spain and the road to Corunna",
+        text: "In the autumn Napoleon came with a far larger army, routed the Spanish armies and retook Madrid on 3 December. Sir John Moore, advancing from Portugal, struck at Soult's corps to threaten the French communications; Napoleon turned north after him, and Moore retreated through the Galician mountains in winter to his ships at Corunna, where he beat off Soult's attack on 16 January 1809 and was killed. The army embarked for England.",
+        evidence: "fact",
+        studies: ["corunna-1809"],
+        refs: [{ source: 1 }, { source: 2, locator: "pp. 583–602" }],
+      },
+      {
+        title: "Talavera",
+        text: "Wellesley returned to Lisbon in April 1809, drove Soult from Oporto and in July marched into Spain with Cuesta's army. At Talavera on 27 and 28 July they beat off King Joseph's attacks, but the Spanish arrangements had failed, the army was short of food, and Soult came through the mountains behind it. Wellesley retreated across the Tagus to Portugal, and from then on, the 1911 Britannica says, he refused large joint operations with Spanish armies he did not command.",
+        evidence: "fact",
+        studies: ["talavera-1809"],
+        refs: [
+          { source: 1 },
+          { source: 3, locator: "pp. 507–558" },
+          { source: 0 },
+        ],
+      },
+      {
+        title: "A war no battle settled",
+        text: "Britannica judges the next two years of fighting numerous but inconclusive. They wore down French men and material, while the guerrillas pinned down garrisons and cut communications; when Napoleon turned to Russia in 1812, the armies in Spain were not reinforced and troops were withdrawn. Wellington advanced from Portugal in 1812, and his victory at Vitoria in June 1813 decided the issue in the Peninsula; Ferdinand VII returned to the throne in 1814.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+    ],
+    sources: [
+      {
+        title: "Peninsular War",
+        url: "https://www.britannica.com/event/Peninsular-War",
+        publisher: "Encyclopaedia Britannica",
+      },
+      {
+        title:
+          "“Peninsular War” — Charles Walker Robinson, Encyclopædia Britannica, 11th ed., vol. 21 (1911)",
+        url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Peninsular_War",
+        publisher: "Wikisource",
+      },
+      {
+        title:
+          "Charles Oman, A History of the Peninsular War, vol. I: 1807–1809 (Oxford: Clarendon Press, 1902)",
+        url: "https://www.gutenberg.org/ebooks/53264",
+        publisher: "Project Gutenberg",
+      },
+      {
+        title:
+          "Charles Oman, A History of the Peninsular War, vol. II: January–September 1809 (Oxford: Clarendon Press, 1903)",
+        url: "https://www.gutenberg.org/ebooks/54279",
+        publisher: "Project Gutenberg",
+      },
+    ],
+  },
   "macedonian-invasion-of-persia": {
     summary:
       "Alexander’s war against Darius III from the crossing into Asia in 334 BCE to Darius’s death in 330: three pitched battles, a long contest for the coast and the surrender of the Achaemenid capitals.",

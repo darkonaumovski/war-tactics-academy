@@ -3651,7 +3651,7 @@ export const napoleonVolume: LeadershipVolume = {
               locator: "p. 128 (translator’s note)",
             },
           ],
-          battleSlugs: [],
+          battleSlugs: ["bailen-1808"],
         },
         {
           title: "1813: two victories and a peace not taken",

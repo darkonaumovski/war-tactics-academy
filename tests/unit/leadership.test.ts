@@ -2,6 +2,7 @@ import { describe, it, expect } from "vitest";
 import {
   counterCaseLessons,
   leadershipVolumes,
+  lessonsDiscussing,
   lessonsForBattle,
   volumeForCommander,
 } from "../../data/leadership";
@@ -124,6 +125,28 @@ describe("leadership volumes", () => {
       if (l.counterCase.commanderSlug)
         expect(commanderSlugs.has(l.counterCase.commanderSlug)).toBe(true);
     }
+  });
+
+  it("name as people only other profiled commanders", () => {
+    for (const v of leadershipVolumes) {
+      const own = new Set([v.commanderSlug, ...(v.alsoCommanderSlugs ?? [])]);
+      for (const l of v.lessons) {
+        const people = l.people ?? [];
+        expect(new Set(people).size, l.slug).toBe(people.length);
+        for (const s of people) {
+          expect(commanderSlugs.has(s), `${l.slug}: ${s}`).toBe(true);
+          expect(own.has(s), `${l.slug}: ${s} is the subject`).toBe(false);
+          expect(s, `${l.slug}: ${s} is the counter-case`).not.toBe(
+            l.counterCase.commanderSlug,
+          );
+        }
+      }
+    }
+    expect(lessonsDiscussing("parmenion").map((x) => x.lesson.slug)).toEqual([
+      "a-borrowed-army",
+      "parmenions-advice",
+      "the-cost-of-frankness",
+    ]);
   });
 });
 

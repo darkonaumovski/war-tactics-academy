@@ -1224,6 +1224,7 @@ export const napoleonVolume: LeadershipVolume = {
       title: "The coup d’œil: intuition as stored work",
       part: "Judgement",
       themes: ["judgement"],
+      people: ["jean-de-dieu-soult"],
       claim:
         "When long preparation meets a setting whose signals have stayed the same, fast judgement can be trusted; when the setting changes, the feeling of certainty outlives the reliability.",
       inBrief: {
@@ -1706,6 +1707,7 @@ export const napoleonVolume: LeadershipVolume = {
       title: "Speed, and what it is spent on",
       part: "Judgement",
       themes: ["judgement", "restraint"],
+      people: ["gebhard-leberecht-von-blucher"],
       claim:
         "When speed concentrates force at the point that matters it can outweigh numbers, and whatever it buys is paid for by the people who march.",
       inBrief: {
@@ -2683,6 +2685,7 @@ export const napoleonVolume: LeadershipVolume = {
       title: "The corps and its commanders",
       part: "Building the instrument",
       themes: ["organisation", "judgement"],
+      people: ["jean-lannes"],
       claim:
         "Delegation works when subordinates share a doctrine, command forces able to survive alone and know the intent behind their orders.",
       inBrief: {
@@ -2905,6 +2908,7 @@ export const napoleonVolume: LeadershipVolume = {
       title: "What a personal staff could and could not do",
       part: "Building the instrument",
       themes: ["organisation", "judgement"],
+      people: ["louis-alexandre-berthier"],
       claim:
         "When a headquarters is built to serve one mind, it extends that mind’s reach and leaves little that can think without it.",
       inBrief: {
@@ -3135,6 +3139,7 @@ export const napoleonVolume: LeadershipVolume = {
       title: "When everything depends on one mind",
       part: "Building the instrument",
       themes: ["organisation", "judgement"],
+      people: ["emmanuel-de-grouchy", "jean-de-dieu-soult"],
       claim:
         "An organisation trained to wait for one person’s decision fails where that person is absent.",
       inBrief: {
@@ -4178,6 +4183,7 @@ export const napoleonVolume: LeadershipVolume = {
       title: "Who can tell you no?",
       part: "The limits of the self",
       themes: ["judgement", "organisation"],
+      people: ["louis-nicolas-davout", "jean-de-dieu-soult"],
       claim:
         "The higher a leader’s success, the more deliberately dissent must be protected.",
       inBrief: {

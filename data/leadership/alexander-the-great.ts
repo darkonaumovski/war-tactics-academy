@@ -532,6 +532,7 @@ export const alexanderVolume: LeadershipVolume = {
       title: "A borrowed army: taking over his father’s men",
       part: "The instrument",
       themes: ["organisation", "succession"],
+      people: ["parmenion", "antipater"],
       claim:
         "When a young leader takes over a proven organisation, the first test is whether its senior people will serve, and the price of their service is often their independence.",
       inBrief: {
@@ -1492,6 +1493,7 @@ export const alexanderVolume: LeadershipVolume = {
         "Parmenion’s advice: when the record makes the adviser always wrong",
       part: "The consent of the army",
       themes: ["judgement", "communication"],
+      people: ["parmenion"],
       claim:
         "When a record shows one adviser always wrong and the leader always right, suspect the record before the adviser, and ask who needed it that way.",
       inBrief: {
@@ -1986,6 +1988,7 @@ export const alexanderVolume: LeadershipVolume = {
       title: "The cost of frankness: Philotas, Cleitus and Callisthenes",
       part: "The consent of the army",
       themes: ["communication", "ethics"],
+      people: ["parmenion"],
       claim:
         "When a leader’s power becomes absolute, the price of frankness rises for everyone near them, and the record of that price is kept by writers with reasons of their own.",
       inBrief: {
@@ -2946,6 +2949,7 @@ export const alexanderVolume: LeadershipVolume = {
       title: "To the strongest: no heir and no plan",
       part: "What remains",
       themes: ["succession", "organisation"],
+      people: ["antipater"],
       claim:
         "When a leader’s authority is wholly personal and no successor is prepared, the organisation survives them only by breaking apart.",
       inBrief: {

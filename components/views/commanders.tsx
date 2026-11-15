@@ -19,7 +19,11 @@ import {
   commanderListing,
 } from "../../lib/projections";
 import { HistoricalPortrait } from "../media-library";
-import { counterCaseLessons, volumeForCommander } from "../../data/leadership";
+import {
+  counterCaseLessons,
+  lessonsDiscussing,
+  volumeForCommander,
+} from "../../data/leadership";
 import { LeadershipLinks } from "../leadership-links";
 export function CommandersPage({ c }: { c: Catalog }) {
   return (
@@ -115,6 +119,7 @@ export function CommanderPage({
       <LeadershipLinks
         volume={volumeForCommander(x.slug)}
         counterCases={counterCaseLessons(x.slug)}
+        discussed={lessonsDiscussing(x.slug)}
       />
       {x.details && <SectionTitle number="⌖" title="Command record" />}
       {x.details && (

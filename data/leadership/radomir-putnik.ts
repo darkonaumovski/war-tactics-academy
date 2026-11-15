@@ -1219,6 +1219,7 @@ export const serbianSupremeCommandVolume: LeadershipVolume = {
       title: "Who decided? A shared command",
       part: "Sharing command",
       themes: ["organisation", "succession"],
+      people: ["crown-prince-alexander"],
       claim:
         "When authority is shared among several people, the arrangement can hold while they agree on the aim, but responsibility becomes hard to locate, and that ambiguity can later be used against any of them.",
       inBrief: {
@@ -1919,6 +1920,7 @@ export const serbianSupremeCommandVolume: LeadershipVolume = {
       title: "After the chief: Putnik’s removal and the trial at Salonika",
       part: "Catastrophe, 1915",
       themes: ["succession", "ethics"],
+      people: ["crown-prince-alexander"],
       claim:
         "When a shared command loses its chief after a defeat, it can carry on under successors, but how the old chief and his rivals are treated shows everyone who remains what failure and opposition will cost.",
       inBrief: {
@@ -2367,6 +2369,7 @@ export const serbianSupremeCommandVolume: LeadershipVolume = {
       title: "Where to break the front: Dobro Pole, 1918",
       part: "The return",
       themes: ["judgement", "communication"],
+      people: ["louis-franchet-desperey"],
       claim:
         "When the junior partner in a coalition knows the ground best, its plan may have to wait until the senior partner’s circumstances make it attractive, and the junior partner must be ready to carry it out when they do.",
       inBrief: {
@@ -2800,6 +2803,7 @@ export const serbianSupremeCommandVolume: LeadershipVolume = {
       title: "The ledger of survival: what endurance cost, and who else paid",
       part: "The return",
       themes: ["ethics", "judgement"],
+      people: ["crown-prince-alexander"],
       claim:
         "When endurance itself is the achievement, its account has to include those who paid for it without choosing to: civilians, prisoners, the people of the lands the army fought over, and the soldiers themselves.",
       inBrief: {

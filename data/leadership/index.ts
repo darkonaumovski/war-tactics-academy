@@ -27,6 +27,9 @@ export const counterCaseLessons = (commanderSlug: string) =>
   allLessons.filter(
     ({ lesson }) => lesson.counterCase.commanderSlug === commanderSlug,
   );
+// Lessons that discuss a commander at length without being about them.
+export const lessonsDiscussing = (commanderSlug: string) =>
+  allLessons.filter(({ lesson }) => lesson.people?.includes(commanderSlug));
 // The volume about a commander, including a shared volume that names them.
 export const volumeForCommander = (commanderSlug: string) =>
   leadershipVolumes.find(

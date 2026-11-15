@@ -400,6 +400,9 @@ export function LeadershipLessonPage({
   const commander = c.commanders.find(
     (m) => m.slug === l.counterCase.commanderSlug,
   );
+  const people = (l.people ?? []).flatMap(
+    (slug) => c.commanders.find((m) => m.slug === slug) ?? [],
+  );
   return (
     <div className="page-container lesson-page leadership-lesson">
       <Breadcrumbs
@@ -453,6 +456,20 @@ export function LeadershipLessonPage({
             </article>
           ))}
         </div>
+        {!!people.length && (
+          <>
+            <h3 className="leadership-subhead">People in this lesson</h3>
+            <div className="leadership-links">
+              {people.map((p) => (
+                <Link key={p.slug} href={`/commanders/${p.slug}`}>
+                  <Shield size={14} />
+                  {p.name}
+                  <ArrowUpRight size={13} />
+                </Link>
+              ))}
+            </div>
+          </>
+        )}
       </section>
       <section>
         <Lens name="THE STRATEGIST" title="Without hindsight" />

@@ -45,4 +45,4 @@ Rules that held throughout the Napoleon volume:
 
 ## After the last lesson
 
-Integration needs no new code for a second volume: the hub lists it, its volume page builds the strength-and-shadow table, studies and profiles link its lessons, and search and the sitemap include it. Check those pages in the browser, add a README feature line, and update the About page only if the method has changed.
+Integration needs no new code for a second volume: the hub lists it, its volume page builds the strength-and-shadow table, studies and profiles link its lessons, and search and the sitemap include it. A lesson that discusses another profiled commander at length, beyond the volume's subject and the counter-case, lists them in its optional `people` field, so that the lesson and the profile link each other. Check those pages in the browser, add a README feature line, and update the About page only if the method has changed.

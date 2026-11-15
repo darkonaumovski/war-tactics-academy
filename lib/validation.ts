@@ -235,6 +235,7 @@ const leadershipLessonSchema = z
     shadow: leadershipReadingSchema.extend({
       battleSlugs: z.array(z.string()).optional(),
     }),
+    people: z.array(z.string().min(1)).min(1).optional(),
     counterCase: leadershipReadingSchema.extend({
       commanderSlug: z.string().min(1).optional(),
       battleSlugs: z.array(z.string()),

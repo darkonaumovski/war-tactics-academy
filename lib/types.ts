@@ -203,6 +203,9 @@ export type LeadershipLesson = {
   // One of the titles in the volume's `parts`.
   part: string;
   themes: LeadershipTheme[];
+  // Profiled people the lesson discusses at length, besides the volume's
+  // subject and the counter-case; their profiles and the lesson link each other.
+  people?: string[];
   // The principle under test, as a conditional claim with its scope.
   claim: string;
   // One line each for the volume's strength-and-shadow table.

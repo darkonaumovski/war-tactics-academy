@@ -201,6 +201,205 @@
     }
   },
   {
+    "slug": "parmenion",
+    "name": "Parmenion",
+    "years": "c. 400–330 BCE",
+    "state": "Macedon",
+    "eraId": "ancient",
+    "role": "Philip II's senior general; Alexander's second in command, 336–330 BCE",
+    "summary": "The senior general of Philip II who commanded the left wing in Alexander's three great battles against Persia, and was killed on Alexander's orders after his son Philotas was convicted of concealing a plot.",
+    "approach": "Held the defensive wing while Alexander led the decisive cavalry attack on the right. In the surviving accounts his counsel is usually cautious, and usually overruled.",
+    "strength": "Commanded the left at the Granicus, at Issus by the sea and at Gaugamela, and, Arrian says, was held in very great respect by Alexander and by the whole army, the Greek allies included.",
+    "limitation": "The stories of his advice were written by men on Alexander's side after his death, and in them he is nearly always the one who is answered, so his own judgment is hard to assess.",
+    "legacy": "Britannica calls him the best officer in the service of Philip and Alexander. His killing, after the trial of a son whom Britannica thinks probably innocent, showed a court in which a general's standing could become a danger to him.",
+    "battleSlugs": ["granicus", "issus", "gaugamela"],
+    "source": {
+      "title": "Parmenio",
+      "url": "https://www.britannica.com/biography/Parmenio",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "General of Philip II and Alexander III; commander of the left wing",
+      "principalCommands": [
+        "Advance force in Asia Minor, 336–334 BCE",
+        "Left wing of Alexander's army, 334–331 BCE",
+        "Forces in Media, 330 BCE"
+      ],
+      "timeline": [
+        {
+          "date": "c. 400 BCE",
+          "event": "Born"
+        },
+        {
+          "date": "356 BCE",
+          "event": "Wins a great victory over the Illyrians for Philip II"
+        },
+        {
+          "date": "336 BCE",
+          "event": "Sent to Asia Minor with Amyntas and Attalus to prepare the invasion; after Philip's murder declares for Alexander"
+        },
+        {
+          "date": "334 BCE",
+          "event": "Commands the left wing at the Granicus"
+        },
+        {
+          "date": "333 BCE",
+          "event": "Commands the left wing at Issus, then seizes the Persian treasure at Damascus"
+        },
+        {
+          "date": "331 BCE",
+          "event": "Commands the left wing at Gaugamela"
+        },
+        {
+          "date": "330 BCE",
+          "event": "Left in Media to guard the army's communications"
+        },
+        {
+          "date": "330 BCE",
+          "event": "Killed at Ecbatana by his own officers, on letters from Alexander, after Philotas's execution"
+        }
+      ],
+      "notableDecision": "Before Gaugamela, it is said, he urged a night attack on the Persian army; Alexander answered in others' hearing that it would be mean to steal a victory.",
+      "setback": "His son Philotas was convicted of hearing of a plot and saying nothing, and was executed; Parmenion was then put to death by the generals serving under him, on Alexander's orders."
+    }
+  },
+  {
+    "slug": "antipater",
+    "name": "Antipater",
+    "years": "c. 399–319 BCE",
+    "state": "Macedon",
+    "eraId": "ancient",
+    "role": "Regent of Macedonia and general in Europe, 334–323 BCE; regent of the empire, 321–319",
+    "summary": "Philip II's general and diplomat who helped secure Alexander's succession, held Macedonia and Greece while Alexander campaigned in Asia, and after Alexander's death defeated the Greek cities in the Lamian War.",
+    "approach": "Held the northern frontiers and kept order among the Greek states through the League of Corinth, supporting oligarchic governments.",
+    "strength": "Kept the Persian naval offensive of 333 from reaching Macedonia, raised the army that defeated Agis III of Sparta at Megalopolis in 330, and sent reinforcements east to Alexander.",
+    "limitation": "Britannica says his support for oligarchies made him unpopular. Olympias complained of him in letters to her son, and in 324 Alexander summoned him to Babylon and sent Craterus to replace him.",
+    "legacy": "His death in 319, Britannica says, signalled the end of centralized authority in Alexander's empire. His son Cassander later took control of Macedonia.",
+    "battleSlugs": [],
+    "source": {
+      "title": "Antipater (Jona Lendering)",
+      "url": "https://www.livius.org/articles/person/antipater/",
+      "publisher": "Livius.org"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "General in Europe and regent of Macedonia (334–323 BCE); regent of the Macedonian empire (321–319 BCE)",
+      "principalCommands": [
+        "Macedonian forces in Europe, 334–323 BCE",
+        "Army against Agis III, 331–330 BCE",
+        "Macedonian forces in the Lamian War, 323–322 BCE"
+      ],
+      "timeline": [
+        {
+          "date": "c. 399 BCE",
+          "event": "Born, son of the Macedonian noble Iolaus"
+        },
+        {
+          "date": "336 BCE",
+          "event": "With Parmenion, secures Alexander's succession after Philip's murder"
+        },
+        {
+          "date": "335 BCE",
+          "event": "Accompanies Alexander in the campaign against Thebes"
+        },
+        {
+          "date": "334 BCE",
+          "event": "Left in charge of Macedonia and Greece as general in Europe"
+        },
+        {
+          "date": "Spring 330 BCE",
+          "event": "Defeats Agis III at Megalopolis"
+        },
+        {
+          "date": "324 BCE",
+          "event": "Summoned to Babylon, to be replaced by Craterus; sends his son Cassander instead"
+        },
+        {
+          "date": "323–322 BCE",
+          "event": "Repelled at Thermopylae and besieged in Lamia at the start of the Lamian War"
+        },
+        {
+          "date": "5 September 322 BCE",
+          "event": "Defeats the Greeks at Crannon"
+        },
+        {
+          "date": "321 BCE",
+          "event": "Becomes regent of the empire at Triparadisus"
+        },
+        {
+          "date": "319 BCE",
+          "event": "Dies in Macedonia"
+        }
+      ],
+      "notableDecision": "In 324 he did not obey Alexander's summons to Babylon. Lendering says the order to restore exiles to the Greek cities had raised tensions that he judged too dangerous to face with a weakened army, and he sent Cassander instead.",
+      "setback": "When the Lamian War broke out in 323, the Greeks repelled him at Thermopylae and besieged him in Lamia until he was relieved in 322."
+    }
+  },
+  {
+    "slug": "spitamenes",
+    "name": "Spitamenes",
+    "years": "d. 328 BCE",
+    "state": "Sogdiana",
+    "eraId": "ancient",
+    "role": "Sogdian leader of the revolt against Alexander, 329–328 BCE",
+    "summary": "A Sogdian noble who helped bring down Bessus and then led the most dangerous resistance Alexander met in Central Asia, until he was defeated by Coenus and killed by his own allies in 328 BCE.",
+    "approach": "Fought with mounted archers and nomad allies from the steppe, attacking garrisons and columns and withdrawing into the desert faster than the Macedonian infantry could follow.",
+    "strength": "Destroyed the force sent to relieve Maracanda at the river Polytimetus, and kept the revolt alive with raids as far as Bactra.",
+    "limitation": "He depended on oases and on allies from the steppe. Once Craterus fortified Margiana and Coenus defeated him, his Sogdian and Bactrian followers deserted him and his allies killed him.",
+    "legacy": "Lendering calls him the last Persian leader who fought against Alexander. His daughter Apame married Seleucus and was recognized as the mother of the Seleucid dynasty; Apamea on the Orontes was named after her.",
+    "battleSlugs": ["jaxartes"],
+    "source": {
+      "title": "Spitamenes (Jona Lendering)",
+      "url": "https://www.livius.org/articles/person/spitamenes/",
+      "publisher": "Livius.org"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Sogdian noble; leader of the revolt in Sogdiana",
+      "principalCommands": ["Sogdian and allied steppe cavalry, 329–328 BCE"],
+      "timeline": [
+        {
+          "date": "330 BCE",
+          "event": "Darius III is killed by Bessus, whom Spitamenes follows"
+        },
+        {
+          "date": "329 BCE",
+          "event": "Bessus is handed over to Alexander's general Ptolemy; the accounts differ on whether Spitamenes and Dataphernes gave him up"
+        },
+        {
+          "date": "Summer 329 BCE",
+          "event": "Leads the Sogdian revolt and besieges Maracanda while Alexander is on the Jaxartes"
+        },
+        {
+          "date": "329 BCE",
+          "event": "Destroys the Macedonian relief force at the river Polytimetus"
+        },
+        {
+          "date": "Winter 329/328 BCE",
+          "event": "Raids Bactra with Dahae allies; repelled by the satrap Artabazus"
+        },
+        {
+          "date": "Spring 328 BCE",
+          "event": "Craterus fortifies the oasis of Margiana against him"
+        },
+        {
+          "date": "December 328 BCE",
+          "event": "Defeated by Coenus"
+        },
+        {
+          "date": "328 BCE",
+          "event": "Killed by his allies, who send his head to Alexander"
+        }
+      ],
+      "notableDecision": "When Macedonian garrisons held every place in Sogdiana, Arrian says, he turned to attack Coenus with Scythian horsemen rather than wait to be cornered, and was beaten.",
+      "setback": "After his defeat by Coenus, his Sogdian and Bactrian followers surrendered, and the Scythians who fled with him into the desert cut off his head and sent it to Alexander."
+    }
+  },
+  {
     "slug": "hannibal-barca",
     "name": "Hannibal Barca",
     "years": "247–c.183 BCE",

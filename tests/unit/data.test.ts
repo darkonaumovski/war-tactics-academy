@@ -10,7 +10,7 @@ import { battles, wars, campaigns, eras } from "../../data/catalog";
 import { courses } from "../../data/learning";
 it("validates source-backed analyses and the commander corpus", () => {
   expect(researchSchema.parse(research)).toHaveLength(143);
-  expect(commanderSchema.parse(commanders)).toHaveLength(113);
+  expect(commanderSchema.parse(commanders)).toHaveLength(116);
 });
 it("provides 143 unique engagement slugs and a connected hierarchy", () => {
   expect(battles).toHaveLength(143);

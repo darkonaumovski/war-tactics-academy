@@ -2565,6 +2565,7 @@
       "jena-auerstedt",
       "eylau",
       "friedland",
+      "bussaco-torres-vedras-1810",
       "smolensk-1812",
       "borodino",
       "berezina",
@@ -2796,7 +2797,8 @@
       "rivoli",
       "eckmuhl",
       "aspern-essling",
-      "wagram"
+      "wagram",
+      "bussaco-torres-vedras-1810"
     ],
     "source": {
       "title": "Masséna, André",
@@ -3279,7 +3281,13 @@
     "strength": "Combined defensive preparation with offensive opportunities, notably at Salamanca.",
     "limitation": "The failed siege of Burgos forced a retreat; his career also served British colonial expansion.",
     "legacy": "Waterloo depended on a multinational army and Prussian intervention, making it a study of coalition warfare.",
-    "battleSlugs": ["talavera-1809", "waterloo"],
+    "battleSlugs": [
+      "talavera-1809",
+      "bussaco-torres-vedras-1810",
+      "salamanca-1812",
+      "vitoria-1813",
+      "waterloo"
+    ],
     "source": {
       "title": "Wellington: The Iron Duke",
       "url": "https://www.nam.ac.uk/explore/duke-wellington",

@@ -3640,7 +3640,7 @@ export const napoleonVolume: LeadershipVolume = {
         },
         {
           title: "Spain from 1808: a war no battle could close",
-          text: "Tilsit left Napoleon free, Britannica says, to complete the Continental System, the economic war against Britain, and that drew him into Portugal and then Spain. At Bayonne in May 1808 he forced the Spanish royal family to give up the throne and named his brother Joseph king. Madrid had already risen on 2 May. The rising was put down, the provinces rose in turn, Dupont capitulated at Bailén in July, and Joseph was driven from his capital. A French counterattack retook Madrid in December, and it settled nothing. Elizabeth Latimer, the translator of Gourgaud, puts the novelty simply: until then, when he occupied a capital, both sides had thought the war virtually over. The war lasted until 1814.",
+          text: "Tilsit left Napoleon free, Britannica says, to complete the Continental System, the economic war against Britain, and that drew him into Portugal and then Spain. At Bayonne in May 1808 he forced the Spanish royal family to give up the throne and named his brother Joseph king. Madrid had already risen on 2 May. The rising was put down, the provinces rose in turn, Dupont capitulated at Bailén in July, and Joseph was driven from his capital. A French counterattack retook Madrid in December, and it settled nothing. Elizabeth Latimer, the translator of Gourgaud, puts the novelty simply: until then, when he occupied a capital, both sides had thought the war virtually over. The war lasted until 1814; Britannica dates the decision in the Peninsula to Wellington’s victory at Vitoria in June 1813.",
           evidence: "fact",
           refs: [
             {
@@ -3651,7 +3651,7 @@ export const napoleonVolume: LeadershipVolume = {
               locator: "p. 128 (translator’s note)",
             },
           ],
-          battleSlugs: ["bailen-1808"],
+          battleSlugs: ["bailen-1808", "vitoria-1813"],
         },
         {
           title: "1813: two victories and a peace not taken",

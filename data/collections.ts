@@ -122,6 +122,14 @@ export const collections: Collection[] = [
         studies: ["bailen-1808", "corunna-1809", "talavera-1809"],
       },
       {
+        text: "The war in the Peninsula went on without Napoleon. In 1810 Masséna's invasion of Portugal broke against the ridge of Bussaco and stopped before the Lines of Torres Vedras, in a country stripped of food. In 1812, while Napoleon marched on Moscow, Wellington beat Marmont at Salamanca and entered Madrid, and in June 1813 he routed King Joseph at Vitoria, after which the French withdrew across the Pyrenees.",
+        studies: [
+          "bussaco-torres-vedras-1810",
+          "salamanca-1812",
+          "vitoria-1813",
+        ],
+      },
+      {
         text: "In 1812 the Russian armies withdrew from Smolensk and fought before Moscow at Borodino, then withdrew again. Napoleon entered Moscow, but the Russians would not come to terms. After Maloyaroslavets the army retreated over the devastated road it had come by and crossed the Berezina, and only a few broken thousands recrossed the Neman. Long marches and supply failures, more than combat, had taken a heavy toll even before Borodino, and the cavalry lost in Russia could not be replaced.",
         studies: ["smolensk-1812", "borodino", "maloyaroslavets", "berezina"],
       },

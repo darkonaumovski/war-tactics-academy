@@ -951,7 +951,7 @@ export const campaignDetails: Record<string, CampaignDetails> = {
   },
   "peninsular-war": {
     summary:
-      "The war in Spain and Portugal from 1808: the Spanish rising, Dupont's capitulation at Bailén, Moore's retreat to Corunna and Wellesley's first campaign into Spain at Talavera.",
+      "The war in Spain and Portugal from 1808: the Spanish rising, Dupont's capitulation at Bailén, Moore's retreat to Corunna, Talavera, Masséna's invasion of Portugal stopped at Bussaco and the Lines of Torres Vedras, and Wellington's victories at Salamanca and Vitoria.",
     narrative: [
       {
         title: "Bayonne and the rising",
@@ -986,11 +986,33 @@ export const campaignDetails: Record<string, CampaignDetails> = {
         ],
       },
       {
-        title: "A war no battle settled",
-        text: "Britannica judges the next two years of fighting numerous but inconclusive. They wore down French men and material, while the guerrillas pinned down garrisons and cut communications; when Napoleon turned to Russia in 1812, the armies in Spain were not reinforced and troops were withdrawn. Wellington advanced from Portugal in 1812, and his victory at Vitoria in June 1813 decided the issue in the Peninsula; Ferdinand VII returned to the throne in 1814.",
+        title: "Bussaco and the Lines of Torres Vedras",
+        text: "In 1810 Masséna invaded Portugal with three corps. Wellington had ordered the country in front of him emptied and had secretly fortified the hills north of Lisbon. At Bussaco on 27 September Masséna attacked the ridge head-on and was beaten off; he turned it the next day, and Wellington fell back into the Lines. Masséna reconnoitred them, judged them too strong to attack, and stayed before them until hunger drove him back to Santarem in November.",
         evidence: "fact",
-        studies: [],
-        refs: [{ source: 0 }],
+        studies: ["bussaco-torres-vedras-1810"],
+        refs: [{ source: 4, locator: "pp. 341–481" }, { source: 1 }],
+      },
+      {
+        title: "Salamanca",
+        text: "Britannica judges the fighting of 1810–11 numerous but inconclusive; it wore down the French, and when Napoleon turned to Russia the armies in Spain were not reinforced. In 1812 Wellington stormed Ciudad Rodrigo and Badajoz and advanced into Leon. On 22 July, south of Salamanca, Marmont's left wing marched across his front to turn him; Wellington struck it while it was strung out and routed the Army of Portugal, then entered Madrid. The year still ended in retreat, after the failed siege of Burgos.",
+        evidence: "fact",
+        studies: ["salamanca-1812"],
+        refs: [
+          { source: 0 },
+          { source: 5, locator: "pp. 418–474" },
+          { source: 1 },
+        ],
+      },
+      {
+        title: "Vitoria",
+        text: "In 1813 Wellington turned each French line in turn until King Joseph stood behind the Zadorra in front of Vitoria. On 21 June four allied columns broke his army, which fled toward Pamplona, leaving its guns, its baggage and the plunder of Spain. Britannica says the victory decided the issue in the Peninsula. Within weeks the French had withdrawn across the Pyrenees, and Ferdinand VII returned to the throne in 1814.",
+        evidence: "fact",
+        studies: ["vitoria-1813"],
+        refs: [
+          { source: 0 },
+          { source: 6, locator: "pp. 384–450" },
+          { source: 1 },
+        ],
       },
     ],
     sources: [
@@ -1016,6 +1038,24 @@ export const campaignDetails: Record<string, CampaignDetails> = {
           "Charles Oman, A History of the Peninsular War, vol. II: January–September 1809 (Oxford: Clarendon Press, 1903)",
         url: "https://www.gutenberg.org/ebooks/54279",
         publisher: "Project Gutenberg",
+      },
+      {
+        title:
+          "Charles Oman, A History of the Peninsular War, vol. III: September 1809–December 1810 (Oxford: Clarendon Press, 1908)",
+        url: "https://archive.org/details/ahistoryofthepen55231gut",
+        publisher: "Internet Archive",
+      },
+      {
+        title:
+          "Charles Oman, A History of the Peninsular War, vol. V: October 1811–August 1812 (Oxford: Clarendon Press, 1914)",
+        url: "https://archive.org/details/historyofpeninsu05oman",
+        publisher: "Internet Archive",
+      },
+      {
+        title:
+          "Charles Oman, A History of the Peninsular War, vol. VI: September 1812–August 1813 (Oxford: Clarendon Press, 1922)",
+        url: "https://archive.org/details/historyofpeninsu06oman",
+        publisher: "Internet Archive",
       },
     ],
   },

@@ -122,10 +122,12 @@ export const collections: Collection[] = [
         studies: ["bailen-1808", "corunna-1809", "talavera-1809"],
       },
       {
-        text: "The war in the Peninsula went on without Napoleon. In 1810 Masséna's invasion of Portugal broke against the ridge of Bussaco and stopped before the Lines of Torres Vedras, in a country stripped of food. In 1812, while Napoleon marched on Moscow, Wellington beat Marmont at Salamanca and entered Madrid, and in June 1813 he routed King Joseph at Vitoria, after which the French withdrew across the Pyrenees.",
+        text: "The war in the Peninsula went on without Napoleon. In 1810 Masséna's invasion of Portugal broke against the ridge of Bussaco and stopped before the Lines of Torres Vedras, in a country stripped of food. In 1812, while Napoleon marched on Moscow, Wellington stormed Badajoz, whose sack followed, beat Marmont at Salamanca and entered Madrid, but failed before the castle of Burgos and retreated to Portugal. In June 1813 he routed King Joseph at Vitoria, after which the French withdrew across the Pyrenees.",
         studies: [
           "bussaco-torres-vedras-1810",
+          "badajoz-1812",
           "salamanca-1812",
+          "burgos-1812",
           "vitoria-1813",
         ],
       },

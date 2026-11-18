@@ -3282,9 +3282,12 @@
     "limitation": "The failed siege of Burgos forced a retreat; his career also served British colonial expansion.",
     "legacy": "Waterloo depended on a multinational army and Prussian intervention, making it a study of coalition warfare.",
     "battleSlugs": [
+      "assaye-1803",
       "talavera-1809",
       "bussaco-torres-vedras-1810",
+      "badajoz-1812",
       "salamanca-1812",
+      "burgos-1812",
       "vitoria-1813",
       "waterloo"
     ],

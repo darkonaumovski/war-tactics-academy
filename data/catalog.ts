@@ -327,6 +327,15 @@ export const wars: War[] = [
     "The Congress of Vienna settlement followed French defeat and years of widespread destruction.",
   ],
   [
+    "second-anglo-maratha",
+    "Second Anglo-Maratha War",
+    "napoleonic",
+    "1803–1805",
+    "The East India Company fought Sindia, the Raja of Berar and then Holkar, and broke the independent power of the Maratha chiefs.",
+    "The Company restored the Peshwa at Poona; when Sindia would not withdraw his army from the Nizam’s frontier, Arthur Wellesley declared war in August 1803.",
+    "Treaties with the Raja of Berar and Sindia ended the war in the Deccan in December 1803; the war with Holkar lasted until 1805.",
+  ],
+  [
     "civil-war",
     "American Civil War",
     "industrial",

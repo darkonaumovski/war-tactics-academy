@@ -2,7 +2,7 @@
 
 Paste everything below the line into a new Claude Code session opened in this repository.
 
-**Status (18 November 2026):** not begun. The Peninsular War studies this volume was waiting for are live (Bailén, Corunna and Talavera in `87f59fa`; Bussaco and Torres Vedras, Salamanca and Vitoria in `64dd74a`). Wellington's profile now links five studies, three short of the template's eight, so this prompt opens with a studies phase that needs approval before any lesson is written.
+**Status (18 November 2026):** Phase S is done. The user chose Assaye, Badajoz and Burgos from the proposed studies, and they are in the catalog: Assaye (1803) under a new Second Anglo-Maratha War, Badajoz and Burgos (1812) under the `peninsular-war` campaign, with a source audit section of their own. Wellington's profile now links eight studies, the template's minimum. Vimeiro was proposed as a fourth and not chosen; Cintra and the inquiry stay in prose. Phase 0 is next. The readiness analysis below is kept as written before Phase S.
 
 ## Why Wellington, and what is missing (readiness analysis, 18 November 2026)
 

@@ -1070,6 +1070,39 @@ export const warDetails: Record<string, WarDetails> = {
       },
     ],
   },
+  "second-anglo-maratha": {
+    participants: [
+      "East India Company",
+      "Daulat Rao Sindia",
+      "Raghuji Bhonsle, Raja of Berar",
+      "Yashvantrao Holkar (from 1804)",
+      "The Peshwa Bajirao, restored at Poona by the Company",
+      "The Nizam of Hyderabad, whose territories the Company defended",
+    ],
+    geography:
+      "The Deccan and Berar, and northern India from Aligarh to Delhi and Bharatpur.",
+    developments: t(
+      [
+        "March–April 1803",
+        "Arthur Wellesley marches from Mysore and restores the Peshwa at Poona",
+      ],
+      ["6 August 1803", "War declared on Sindia and the Raja of Berar"],
+      [
+        "September 1803",
+        "Lake takes Aligarh and enters Delhi; Wellesley wins at Assaye",
+      ],
+      ["November 1803", "Lake wins at Laswadi; Wellesley wins at Argaum"],
+      [
+        "December 1803",
+        "Gawilghur stormed; treaties of Devgaon with the Raja of Berar and of Surji-Anjangaon with Sindia",
+      ],
+      ["1804", "War declared on Holkar; Monson retreats from Malwa"],
+      [
+        "1805",
+        "Lake fails before Bharatpur; Lord Wellesley resigns; Holkar makes peace at Rajghat",
+      ],
+    ),
+  },
   napoleonic: {
     participants: [
       "France and its allies and client states",
@@ -1097,7 +1130,7 @@ export const warDetails: Record<string, WarDetails> = {
       ["1810", "Masséna invades Portugal; Bussaco; the Lines of Torres Vedras"],
       [
         "1812",
-        "Salamanca; invasion of Russia; Smolensk and Borodino; retreat and the Berezina",
+        "Badajoz stormed; Salamanca; invasion of Russia; Smolensk and Borodino; siege of Burgos; retreat and the Berezina",
       ],
       ["1813", "Lützen and Bautzen; Vitoria; Dresden; Battle of Leipzig"],
       ["1814", "Campaign in France; Paris capitulates; Napoleon abdicates"],

@@ -8641,5 +8641,339 @@
         "outcome": "His army collapsed at Huihechuan; he escaped and was removed from office."
       }
     ]
+  },
+  {
+    "slug": "assaye-1803",
+    "sources": [
+      {
+        "title": "The Dispatches of Field Marshal the Duke of Wellington, comp. John Gurwood, new ed., vol. II (London: John Murray, 1837)",
+        "url": "https://archive.org/details/in.ernet.dli.2015.76894",
+        "publisher": "Internet Archive (Digital Library of India)"
+      },
+      {
+        "title": "Govind Sakharam Sardesai, New History of the Marathas, vol. III: Sunset over Maharashtra, 1772–1848 (Bombay: Phoenix Publications, 1948)",
+        "url": "https://archive.org/details/dli.ernet.236034",
+        "publisher": "Internet Archive (Digital Library of India)"
+      },
+      {
+        "title": "James Grant Duff, A History of the Mahrattas, vol. III (1826; Calcutta: R. Cambray, 1918)",
+        "url": "https://archive.org/details/historyofthemahr030602mbp",
+        "publisher": "Internet Archive"
+      },
+      {
+        "title": "“Assaye” — Encyclopædia Britannica, 11th ed., vol. 2 (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Assaye",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“Wellington, Arthur Wellesley, 1st Duke of” — Encyclopædia Britannica, 11th ed., vol. 28 (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Wellington,_Arthur_Wellesley,_1st_Duke_of",
+        "publisher": "Wikisource"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "The Peshwa, nominal head of the Maratha states, had been driven from Poona by his rivals, and the East India Company undertook to restore him. Major-General Arthur Wellesley, younger brother of the Governor-General, Lord Wellesley, marched from Mysore in March 1803 and entered Poona in April after a forced march to save the city from burning. Daulat Rao Sindia and Raghuji Bhonsle, the Raja of Berar, kept their armies on the Nizam's frontier. Wellesley, given the general direction of military and political affairs in the region, required Sindia to withdraw north of the Narmada; when he did not, war was declared on 6 August, and Ahmadnagar fell within days.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 4
+          },
+          {
+            "source": 1,
+            "locator": "pp. 409–410"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Sardesai, writing the Maratha history, holds that the war's object was to destroy Maratha sovereignty and that Lord Wellesley was determined to do so by any means; the Peshwa and the Gaikwad were brought down by diplomacy, Sindia, Bhonsle and Holkar by fighting, while the southern chiefs stayed aloof. He quotes Wellesley's instruction to the Resident at Poona to pay for knowledge of the Peshwa's court, and notes that the Ahmadnagar fort's European officer had been bribed before he went over. Grant Duff judges that neither Sindia nor Bhonsle had military enterprise, and that they wavered between trusting their regular battalions and artillery and the older predatory plan of raiding.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "pp. 409–410, 420"
+          },
+          {
+            "source": 2,
+            "locator": "pp. 238–239"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Sardesai describes Wellesley's aim as the destruction of Sindia's armed power, concentrated between Burhanpur and Ahmadnagar. On 21 September Wellesley met Colonel Stevenson, commanding a second division, and they agreed to attack the confederate army together on the morning of the 24th, Stevenson marching by the western route and Wellesley by the eastern, round the hills between Budnapoor and Jaulna. The confederates, joined in the preceding days by their regular infantry, were camped about Bokerdun, threatening the Nizam's territory and Wellesley's convoys of grain.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "p. 410"
+          },
+          {
+            "source": 0,
+            "locator": "pp. 323–324"
+          },
+          {
+            "source": 2,
+            "locator": "pp. 238–239"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Assaye is a village in what was then the Nizam's dominions, just beyond the Berar frontier. The confederate camp lay along the Kaitna, a river whose steep banks were impassable for carriages except at two fords, Peepulgaon and Warsor. Parallel to it ran the Juah, a stream with banks scarcely passable for horses, with the village of Assaye upon it. Wellesley's memorandum explains his first mistake by the ground: the camp stretched for miles from Bokerdun to Assaye, all of it in the district of Bokerdun, so his spies' reports that the enemy were at Bokerdun misled him. Grant Duff notes that fighting in the angle between the two rivers, near their junction, narrowed the front the confederates could use.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 0,
+            "locator": "pp. 329–332"
+          },
+          {
+            "source": 2,
+            "locator": "pp. 240–241"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Wellesley's division had British and Madras cavalry, among them the 19th Light Dragoons, Madras and Bombay artillery, the 74th and 78th Highlanders and battalions of Madras sepoys, with Maratha and Mysore horse in alliance. Against it stood the combined armies of Sindia and the Raja of Berar: a great body of horse and regular infantry brigades trained on European lines, including those under Colonel Pohlman and of Begum Sumroo, with many guns. Sardesai names Gopalrao Bhau, and Vithalpant Bakhshi of the Bhonsle forces, as the principal Maratha commanders. Grant Duff records that British officers in Sindia's service had left it at the outbreak of war under a British proclamation offering them the same pay. All sources agree that the confederates far outnumbered Wellesley; their figures differ widely and are not given here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "pp. 323–326"
+          },
+          {
+            "source": 1,
+            "locator": "p. 410"
+          },
+          {
+            "source": 2,
+            "locator": "pp. 240–244"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "When Wellesley came in sight, the confederate cavalry formed the right, towards Bokerdun, and the infantry and guns the left, near Assaye, along the Kaitna. He marched round their left, crossed the Kaitna at the Peepulgaon ford beyond their flank and formed his infantry in two lines, with the British cavalry as a reserve in a third, in the open space between the Kaitna and the Juah. The allied Maratha and Mysore horse stayed across the river, watching the enemy's cavalry. Seeing the move, the confederates changed front: their infantry now stood across the ground between the Kaitna and Assaye, in more than one line, with the fortified village on their left.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "pp. 324, 330–331"
+          },
+          {
+            "source": 2,
+            "locator": "pp. 240–241"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 23 September, at Naulniah, Wellesley learned that the enemy were not twelve or fourteen miles away, as he had planned, but about six, and were said to be leaving. He left his baggage at Naulniah under guard and marched on. After crossing the ford he meant to push the enemy back on the Juah by his left, but the officer commanding the picquets on the right led straight towards Assaye, and the 74th followed in support; a gap opened in the line, and the two corps were cut up by fire from the village and charged by cavalry. The British cavalry charged in time to save them. The line advanced, the confederate infantry gave way and was driven over the Juah, though some corps left in good order; gunners who had lain as if dead turned their guns on the British rear, and Lieutenant-Colonel Maxwell was killed charging a re-formed body of infantry. The confederates left most of their guns and fled towards the Adjuntee (Ajanta) ghat.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "pp. 323–325, 329–332"
+          },
+          {
+            "source": 2,
+            "locator": "pp. 239–243"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Wellesley's memorandum, written afterwards, gives his reasoning. Having stumbled close to the enemy, he could not reconnoitre without his whole force, nor withdraw in the face of their cavalry without being harassed all the way back to Naulniah and risking his baggage. He considered withdrawing to attack next morning as planned, but expected the enemy to hear of Stevenson's approach and slip away with their infantry and guns in the night. He chose to attack their left, because defeating the infantry would be most effective, and to cross at Peepulgaon. The 1911 Britannica presents the decision as a weighing of the dangers of delay, retreat and attack; Grant Duff calls it prudence and decision founded on a knowledge of the enemy.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "pp. 329–331"
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 2,
+            "locator": "p. 239"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Wellesley himself names the luck of the ford: the confederates did not occupy Peepulgaon, and had they done so he would have had to cross lower down, perhaps cutting a road, and might have lost the daylight. The cavalry charge that saved the 74th and the picquets kept the line from breaking at its right, and the advance of the centre and left decided the action; as he had foreseen, the corps at Assaye went off only when the rest of the line was beaten. The price of the early charge, by his account, was that the cavalry lost its order and could not be used for the pursuit he had kept it back for.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "pp. 330–332"
+          },
+          {
+            "source": 2,
+            "locator": "pp. 241–242"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Company's army held the field and took most of the confederate artillery. Grant Duff writes that the Raja of Berar fled at the beginning of the action and Sindia soon after, and that Sindia's minister, Yadavrao Bhaskar, was among the dead. Wellesley wrote to the Governor-General that the victory was complete but had cost dear, and his own losses, especially among the officers of the 74th, were very heavy; Sardesai adds that the cost made pursuit impossible. Stevenson reached the field only on the evening of the 24th.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "pp. 325–326"
+          },
+          {
+            "source": 2,
+            "locator": "pp. 243–244"
+          },
+          {
+            "source": 1,
+            "locator": "pp. 410–411"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Stevenson followed the confederates down the ghats; Burhanpur fell and the keeper of Asirgarh surrendered the fort for money to pay its garrison's arrears. Wellesley won again at Argaum on 29 November, when some of his sepoy battalions broke under fire and he rallied them himself, and Gawilghur was stormed in December. The treaties he negotiated with Sindia and the Raja of Berar, the 1911 Britannica says, marked the downfall of Maratha power; Sardesai titles the chapter 'Maratha Independence Gone'. He also quotes Wellesley's report of January 1804 that the restored Peshwa's government was only a name, and his advice to the Peshwa's minister to choose pardon and conciliation over revenge, advice that was not taken. In Calcutta the Governor-General in Council ordered public honours for the victory. Wellesley left India in 1805.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "pp. 411–412, 420–421"
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 0,
+            "locator": "p. 333"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Assaye was an attack forced by an intelligence failure. The plan of two divisions converging on a camp ended when the camp proved to be somewhere else, and Wellesley's choice was among bad options: to attack alone, to retreat before a much larger cavalry, or to wait and let the enemy go. Read through his memorandum, the boldness of the attack was a judgment about what each of the other courses would cost. The battle also shows how much an accident of execution can cost: one officer's wrong turn produced the worst of the losses and spent the reserve meant for the pursuit.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "pp. 329–332"
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Sardesai dates the battle 24 September, against the 23rd in Wellesley's own dispatches, Grant Duff and both Britannica articles. He also dates the capture of Gawilghur to 25 December, against 15 December in the 1911 Britannica. The 1911 'Assaye' says the guns were served by French artillerymen in an entrenched position; Wellesley's dispatch mentions European commanders of the infantry brigades but no entrenchment. Sources differ on the Marathas' conduct: Wellesley wrote privately that Sindia's infantry behaved remarkably well and stood to their guns, Grant Duff praises the artillerymen and the old battalions but calls the horse dastardly, and Sardesai credits Gopalrao Bhau's resistance while pointing to unpaid wages and British bribery. The British accounts read here centre on British troops: the 1911 'Assaye' calls it the most complete victory British valour had won in India. Their figures for both armies and both losses differ widely and are left out.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "pp. 410–412"
+          },
+          {
+            "source": 0,
+            "locator": "pp. 323–329"
+          },
+          {
+            "source": 2,
+            "locator": "pp. 243–244"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Wellesley's dispatch to the Governor-General of 24 September, his letters of the same days and his memorandum on the battle, written later with a corrected plan, are in the second volume of Gurwood's new edition of the Dispatches, read in the Digital Library of India scan. Sardesai's New History of the Marathas gives a Maratha-centred account from Indian and British records. Grant Duff, a Company officer and former Resident at Satara, published his history in 1826 and had read Wellesley's private wartime letters to Close. The 1911 Britannica articles on Assaye and on Wellington give the British view of the time.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "pp. 323–333"
+          },
+          {
+            "source": 1,
+            "locator": "pp. 409–421"
+          },
+          {
+            "source": 2,
+            "locator": "pp. 238–244"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Two divisions converge",
+        "time": "20–22 September 1803",
+        "description": "Wellesley and Stevenson agree to attack the confederate camp on the 24th and march by separate routes round the hills."
+      },
+      {
+        "title": "Naulniah",
+        "time": "Morning of 23 September",
+        "description": "Finding the enemy only six miles off and said to be leaving, Wellesley parks his baggage and marches to attack alone."
+      },
+      {
+        "title": "The ford at Peepulgaon",
+        "time": "Early afternoon",
+        "description": "The division crosses the Kaitna beyond the confederate left; the confederates change front between the rivers."
+      },
+      {
+        "title": "Assaye",
+        "time": "Afternoon",
+        "description": "The picquets and the 74th stray towards the village under heavy fire; the cavalry saves them and the line drives the confederates over the Juah."
+      },
+      {
+        "title": "Pursuit",
+        "time": "24 September onwards",
+        "description": "Stevenson arrives and follows the confederates down the ghats; Wellesley secures his wounded and the captured guns."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Major-General Arthur Wellesley",
+        "objective": "Destroy Sindia's army, above all its regular infantry and guns, in concert with Stevenson.",
+        "known": "Spies placed the confederate camp at Bokerdun and, on the morning of the 23rd, reported it leaving.",
+        "uncertainty": "Where the enemy's line really ran, whether they would stay to fight, and whether the fords were guarded.",
+        "constraints": "One division alone, far from Stevenson, with baggage to protect against a much larger cavalry.",
+        "forces": "British and Madras cavalry, artillery, two Highland regiments and Madras sepoy battalions, with allied Maratha and Mysore horse.",
+        "terrain": "Two steep-banked rivers joining near the village, passable at few points.",
+        "logistics": "Grain convoys from the south, and gun bullocks killed under fire, leaving the infantry to advance without its guns.",
+        "decision": "He attacked at once, crossing beyond the enemy's left to strike their infantry between the rivers.",
+        "outcome": "He won and took most of their guns, at a heavy cost and with no cavalry left for the pursuit."
+      },
+      {
+        "name": "Daulat Rao Sindia",
+        "objective": "Keep his army in being and press on the Nizam's territories with the Raja of Berar.",
+        "known": "Two Company divisions were close by, and his regular battalions had joined him.",
+        "uncertainty": "Whether to stake the war on his trained infantry and guns or return to raiding, and when the British would attack.",
+        "constraints": "A command shared with the Raja of Berar, troops whose wages were in arrears, and the loss of his British officers.",
+        "forces": "A large body of horse, regular infantry brigades trained on European lines and numerous guns.",
+        "terrain": "A long camp on the Kaitna, with the village of Assaye and the Juah behind its left.",
+        "logistics": "An army whose pay was in arrears, camped for miles along the river.",
+        "decision": "His army stood and changed front to meet the attack between the rivers.",
+        "outcome": "His infantry and gunners fought hard but broke; he lost most of his guns and fled with his army towards the ghats."
+      }
+    ]
   }
 ]

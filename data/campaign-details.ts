@@ -951,7 +951,7 @@ export const campaignDetails: Record<string, CampaignDetails> = {
   },
   "peninsular-war": {
     summary:
-      "The war in Spain and Portugal from 1808: the Spanish rising, Dupont's capitulation at Bailén, Moore's retreat to Corunna, Talavera, Masséna's invasion of Portugal stopped at Bussaco and the Lines of Torres Vedras, and Wellington's victories at Salamanca and Vitoria.",
+      "The war in Spain and Portugal from 1808: the Spanish rising, Dupont's capitulation at Bailén, Moore's retreat to Corunna, Talavera, Masséna's invasion of Portugal stopped at Bussaco and the Lines of Torres Vedras, the storm of Badajoz, Salamanca, the failed siege of Burgos and Wellington's victory at Vitoria.",
     narrative: [
       {
         title: "Bayonne and the rising",
@@ -993,15 +993,29 @@ export const campaignDetails: Record<string, CampaignDetails> = {
         refs: [{ source: 4, locator: "pp. 341–481" }, { source: 1 }],
       },
       {
-        title: "Salamanca",
-        text: "Britannica judges the fighting of 1810–11 numerous but inconclusive; it wore down the French, and when Napoleon turned to Russia the armies in Spain were not reinforced. In 1812 Wellington stormed Ciudad Rodrigo and Badajoz and advanced into Leon. On 22 July, south of Salamanca, Marmont's left wing marched across his front to turn him; Wellington struck it while it was strung out and routed the Army of Portugal, then entered Madrid. The year still ended in retreat, after the failed siege of Burgos.",
+        title: "Ciudad Rodrigo and Badajoz",
+        text: "Britannica judges the fighting of 1810–11 numerous but inconclusive; it wore down the French, and when Napoleon turned to Russia the armies in Spain were not reinforced. In January 1812 Wellington stormed Ciudad Rodrigo, then marched south in secret and besieged Badajoz, the two gates into Spain in the 1911 Britannica's phrase. With Soult coming to relieve it, he ordered the storm on the night of 6 April. The attack on the three breaches failed against mines and obstacles, but Picton's division escaladed the castle and Leith's the bastion of San Vicente, and the town fell. The troops then sacked it for most of a day, until Wellington ordered the plunder stopped.",
         evidence: "fact",
-        studies: ["salamanca-1812"],
+        studies: ["badajoz-1812"],
         refs: [
           { source: 0 },
-          { source: 5, locator: "pp. 418–474" },
           { source: 1 },
+          { source: 5, locator: "pp. 217–264" },
         ],
+      },
+      {
+        title: "Salamanca",
+        text: "Wellington then advanced into Leon. On 22 July, south of Salamanca, Marmont's left wing marched across his front to turn him; Wellington struck it while it was strung out and routed the Army of Portugal, then entered Madrid.",
+        evidence: "fact",
+        studies: ["salamanca-1812"],
+        refs: [{ source: 0 }, { source: 5, locator: "pp. 418–474" }],
+      },
+      {
+        title: "Burgos and the retreat",
+        text: "When Clausel rallied the Army of Portugal, Wellington marched north with part of his army and in September besieged the castle of Burgos with three heavy guns. Five assaults failed against Dubreton's garrison, and in October, with the French armies of the north and south converging, he raised the siege, evacuated Madrid and retreated to the Portuguese frontier. Discipline broke down on the way, and in November he censured his officers for it. Oman blames the failure largely on Wellington's own decisions: too few guns, and storming parties too small. The year that began with Ciudad Rodrigo still ended in retreat, though the south of Spain was free.",
+        evidence: "fact",
+        studies: ["burgos-1812"],
+        refs: [{ source: 1 }, { source: 6, locator: "pp. 1–180" }],
       },
       {
         title: "Vitoria",
@@ -5301,6 +5315,40 @@ export const campaignDetails: Record<string, CampaignDetails> = {
       },
     ],
     sources: [shivajiBr, sabhasad],
+  },
+  "deccan-campaign-of-1803": {
+    summary:
+      "Arthur Wellesley's campaign of 1803 against Sindia and the Raja of Berar in the Deccan, from the restoration of the Peshwa to Assaye, Argaum and the treaties that ended Maratha independence in the south.",
+    narrative: [
+      {
+        title: "From Poona to Assaye",
+        text: "The Company restored the Peshwa at Poona in April 1803, after Wellesley's march from Mysore. When Sindia would not withdraw from the Nizam's frontier, war was declared on 6 August; Ahmadnagar fell within days, its European officer having been bribed, Sardesai writes. On 23 September Wellesley found the combined armies of Sindia and the Raja of Berar closer than he expected, attacked alone and broke them at Assaye. Stevenson took Burhanpur and Asirgarh, Wellesley won again at Argaum in November and Gawilghur was stormed in December, and treaties with the Raja of Berar and with Sindia followed that month. Sardesai calls the result the end of Maratha independence; the 1911 Britannica, the downfall of Maratha power.",
+        evidence: "fact",
+        studies: ["assaye-1803"],
+        refs: [{ source: 0, locator: "pp. 407–412" }, { source: 1 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Sardesai, writing the Maratha history, dates Assaye 24 September and Gawilghur 25 December; the 1911 Britannica gives 23 September and 15 December. He holds that Lord Wellesley was determined to destroy the Maratha state, and that the war was won as much by diplomacy and payments as by arms; the 1911 Britannica stresses Arthur Wellesley's good faith and personal ascendancy among the Maratha chiefs.",
+        evidence: "uncertainty",
+        studies: ["assaye-1803"],
+        refs: [{ source: 0, locator: "pp. 407–412, 420" }, { source: 1 }],
+      },
+    ],
+    sources: [
+      {
+        title:
+          "Govind Sakharam Sardesai, New History of the Marathas, vol. III: Sunset over Maharashtra, 1772–1848 (Bombay: Phoenix Publications, 1948)",
+        url: "https://archive.org/details/dli.ernet.236034",
+        publisher: "Internet Archive (Digital Library of India)",
+      },
+      {
+        title:
+          "“Wellington, Arthur Wellesley, 1st Duke of” — Encyclopædia Britannica, 11th ed., vol. 28 (1911)",
+        url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Wellington,_Arthur_Wellesley,_1st_Duke_of",
+        publisher: "Wikisource",
+      },
+    ],
   },
   "danube-campaign": {
     summary:

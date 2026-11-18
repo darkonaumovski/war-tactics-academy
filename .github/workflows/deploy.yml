@@ -20,8 +20,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
@@ -39,9 +39,11 @@ jobs:
           # Absolute origin for canonical URLs, Open Graph and the sitemap.
           SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
       - run: touch out/.nojekyll
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: out
+          # Since v4 dotfiles are left out unless asked for; keep .nojekyll.
+          include-hidden-files: true
 
   deploy:
     needs: build
@@ -51,4 +53,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

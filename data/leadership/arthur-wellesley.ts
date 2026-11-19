@@ -1,6 +1,7 @@
 import type { LeadershipVolume, Source } from "../../lib/types";
 // Volume 5, written in reviewed batches (batch V1, the pilot, is lessons 0,
-// the record, 2, preparation, and 4, Salamanca);
+// the record, 2, preparation, and 4, Salamanca; batch V2 is lessons 1, the
+// only army, 3, supply, and 5, the breach);
 // docs/LEADERSHIP_EVIDENCE_WELLINGTON.md records which sources can carry each
 // lesson, and docs/SOURCE_AUDIT.md how each was read. Gurwood's dispatches,
 // the recorded conversations and Oman were read as full texts from the
@@ -22,6 +23,8 @@ const s = {
   gurwoodV: gurwood("V", 1836, "dispatchesoffie05welluoft"),
   gurwoodVI: gurwood("VI", 1836, "dispatchesoffiel06welluoft"),
   gurwoodIX: gurwood("IX", 1837, "dispatchesoffie09welluoft"),
+  gurwoodX: gurwood("X", 1838, "dispatchesoffiel10welluoft"),
+  gurwoodXI: gurwood("XI", 1838, "dispatchesoffiel11welluoft"),
   gurwoodXII: gurwood("XII", 1838, "dispatchesoffiel12welluoft"),
   creevey: {
     title:
@@ -58,6 +61,52 @@ const s = {
       "Charles Oman, A History of the Peninsular War, vol. V: October 1811–August 1812 (Oxford: Clarendon Press, 1914)",
     url: "https://archive.org/details/historyofpeninsu05oman",
     publisher: toronto,
+  },
+  omanVI: {
+    title:
+      "Charles Oman, A History of the Peninsular War, vol. VI: September 1812–August 1813 (Oxford: Clarendon Press, 1922)",
+    url: "https://archive.org/details/historyofpeninsu06oman",
+    publisher: toronto,
+  },
+  omanVII: {
+    title:
+      "Charles Oman, A History of the Peninsular War, vol. VII: August 1813–April 14, 1814 (Oxford: Clarendon Press, 1930)",
+    url: "https://archive.org/details/historyofpeninsu07oman",
+    publisher: toronto,
+  },
+  corsican: {
+    title:
+      "The Corsican: A Diary of Napoleon’s Life in His Own Words, ed. R. M. Johnston (Boston: Houghton Mifflin, 1910)",
+    url: "https://archive.org/details/corsicandiary00napouoft",
+    publisher: toronto,
+  },
+  fondationBarclay: {
+    title: "Barclay de Tolly, Michael Andreas, Prince",
+    url: "https://www.napoleon.org/en/history-of-the-two-empires/biographies/barclay-de-tolly-michael-andreas-prince/",
+    publisher: "Fondation Napoléon",
+  },
+  eb1911Barclay: {
+    title:
+      "Barclay de Tolly, Michael Andreas, Encyclopædia Britannica, 11th ed., vol. 3 (1910)",
+    url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Barclay_de_Tolly,_Michael_Andreas",
+    publisher: "Wikisource",
+  },
+  fondationRussia: {
+    title: "Napoleon’s Russian campaign: From the Niemen to Moscow (timeline)",
+    url: "https://www.napoleon.org/en/history-of-the-two-empires/timelines/napoleons-russian-campaign-from-the-niemen-to-moscow/",
+    publisher: "Fondation Napoléon",
+  },
+  ganiere: {
+    title:
+      "Paul Ganière, “La retraite de Russie”, Revue du Souvenir Napoléonien 354, in French",
+    url: "https://www.napoleon.org/histoire-des-2-empires/articles/la-retraite-de-russie/",
+    publisher: "Fondation Napoléon",
+  },
+  lernerTetlock: {
+    title:
+      "Jennifer S. Lerner and Philip E. Tetlock, Accounting for the effects of accountability (1999), abstract",
+    url: "https://pubmed.ncbi.nlm.nih.gov/10087938/",
+    publisher: "Psychological Bulletin",
   },
   eb1911Waterloo: {
     title:
@@ -321,6 +370,246 @@ export const wellingtonVolume: LeadershipVolume = {
       ],
     },
     {
+      slug: "the-only-army",
+      title: "The only army: caution as arithmetic",
+      part: "An army that could not be replaced",
+      themes: ["restraint", "judgement"],
+      claim:
+        "When a leader commands something that cannot be replaced, preserving it can be the decisive act, but only while preserving it serves a purpose beyond survival, and only if the people who depend on the leader can see what that purpose is.",
+      inBrief: {
+        strength:
+          "He kept Britain’s one field army in being through 1810, refusing every battle that could not change the war.",
+        shadow:
+          "Allies left to fight alone, like the garrison of Ciudad Rodrigo, read his arithmetic as bad faith.",
+      },
+      moment: {
+        text: "On 2 April 1810, at Viseu, Wellington answered a letter from Lord Liverpool, the Secretary of State for War. Everything was ready, he wrote, for embarking the army and all that belonged to it. He would embark when he found that a military necessity existed, delay it as long as he could, and fight a battle to save Portugal if the French came with a force he did not think so superior as to oblige him to go. He knew what was said of him at home. ‘Depend upon it, whatever people may tell you, I am not so desirous as they imagine of fighting desperate battles; if I was, I might fight one any day I please.’ For six months he had kept the army in two positions, against its own wish and that of the allies, and let pass openings in some of which a single stroke would certainly have succeeded, because he looked to the great result of keeping a footing in the Peninsula. And if in the end the army had to leave, he wanted it to go like gentlemen, out of the hall door, and not by the back door or the area.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "pp. 5–9" }],
+      },
+      episodes: [
+        {
+          title: "After Talavera: objects, means and risks",
+          text: "A month after Talavera, on 24 August 1809, Wellington wrote from Mérida to his brother the Marquis Wellesley, who dealt on Britain’s behalf with the Spanish government at Seville, a government astonished and alarmed that he had withdrawn. He set out his reasoning like a sum. While the two armies were joined there had been an implied engagement not to separate; now there was none, in the treaty or from him. The King had never ordered, ‘but has only permitted me to carry on such operations in Spain as I might think proper, upon my own responsibility, and as were consistent with the safety of Portugal’. He weighed the objects of co-operation, the means of attaining them, and the risks of losing his army and losing sight of Portugal, for whose defence it had been sent. He judged that everything would have to be done by the British alone, and that the Spanish troops could not be relied on to hold a pass. ‘Upon every ground, therefore, of objects, means, and risks’, he concluded, he ought to avoid any further co-operation with the Spanish armies.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "pp. 76–82" }],
+          battleSlugs: ["talavera-1809"],
+        },
+        {
+          title: "Orders that left him the risk",
+          text: "The arithmetic was not his alone; it was written into his orders. In the memorandum of October 1809 for the works that became the Lines, the embarkation of the British troops in case of reverse stands beside the defence of Lisbon as a connected object. On 2 April 1810 he told General Hill that his instructions agreed with opinion at home in forbidding any risk or any unnecessary loss. On 21 April he wrote to Charles Stuart, the British minister at Lisbon, that ministers were as much alarmed as the public, and seemed to think him inclined ‘to fight a desperate battle which is to answer no purpose’. Their private letters, he complained, were at variance with their public instructions. The instructions were clear, though they threw on him the whole responsibility of bringing the army away safely; but private hints which, if followed, would contradict them, and if ignored would multiply that danger, would not answer. In the same letter he gave up an attempt on the French magazine at Salamanca as not worth moving out of the strong country into the plains.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "p. 230" },
+            { source: 0, locator: "pp. 3–4, 48–50" },
+          ],
+          battleSlugs: ["bussaco-torres-vedras-1810"],
+        },
+        {
+          title: "Ciudad Rodrigo, 1810",
+          text: "In June 1810 Marshal Ney besieged Ciudad Rodrigo, a Spanish fortress just across the frontier, held by the veteran General Andrés Herrasti. Wellington’s outposts were close enough to watch. On 11 June he wrote to his brother Henry that the French had been obliged to collect an army to attack the worst fortified place in the world, and that he might have prevented the siege altogether ‘if the Government possessed any strength or desired to have any thing done but what is safe and cheap’. With an army inferior in cavalry and full of newly formed troops, he thought he ought not to risk a general action in the plains to relieve it. On 20 June he asked himself the question again: ‘Is it right, under these circumstances, to risk a general action to relieve or to raise the siege of Ciudad Rodrigo? I should think not.’ Yet if the garrison held out like men, he added, they were worth saving, and he would incur a risk to save them. The circumstances he hoped for never came. Herrasti capitulated on 10 July, after the French had battered the walls into one broad breach.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "pp. 180–181, 206" },
+            { source: 2, locator: "pp. 241–253" },
+          ],
+          battleSlugs: ["bussaco-torres-vedras-1810"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Wellington’s letters to ministers and his brothers",
+          stake:
+            "Written to people who could recall him, or who had to explain him to allies, by a commander who would be blamed for any loss.",
+          says: "He would not risk the army for objects it could not secure; the government wanted what was safe and cheap.",
+          refs: [
+            { source: 1, locator: "pp. 76–82" },
+            { source: 0, locator: "pp. 5–9, 180–181" },
+          ],
+        },
+        {
+          who: "Thomas Picton, in a letter to a friend, as Oman quotes it",
+          stake:
+            "One of Wellington’s divisional generals, writing privately while the siege went on.",
+          says: "If the army tried to relieve the place the French would drive it out of Portugal; if they took it, they would lose time, which mattered more to them.",
+          refs: [{ source: 2, locator: "p. 245" }],
+        },
+        {
+          who: "General Herrasti, as Oman reports his dispatch",
+          stake:
+            "The governor of Ciudad Rodrigo, reporting his surrender to the Spanish government after a defence Oman calls highly honourable.",
+          says: "Wellington had made no effort to relieve the place.",
+          refs: [{ source: 2, locator: "p. 253" }],
+        },
+        {
+          who: "Charles Oman",
+          stake:
+            "The British historian of the war, writing in 1908 with Wellington’s papers and French siege records in hand.",
+          says: "Weak in cavalry and with many untried troops, Wellington would have been mad to march to the relief; he chose rightly, and not without regret.",
+          refs: [{ source: 2, locator: "pp. 244–245" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "The Mérida letter is the clearest statement in his papers of caution as calculation. It names the terms: objects, means, risks. In 1810 the same terms produced the same answer at Ciudad Rodrigo. Oman sets out the imbalance: success would only have raised the siege until the French corps behind Ney came up, while failure might lose Portugal. Picton, in a private letter Oman quotes, put the other half of the sum: the siege cost the French time, which they needed more than the town. What makes this arithmetic rather than timidity is that the preservation served an end Wellington had stated. As long as the army remained active in Portugal, he told Liverpool, the war must go on in Spain, and the French could drive it out only by gathering a force that would expose everything else they held there.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "pp. 77–81" },
+            { source: 2, locator: "pp. 244–245" },
+            { source: 0, locator: "pp. 5–6" },
+          ],
+        },
+        {
+          text: "Judged by what he knew, the refusal at Ciudad Rodrigo was sound: Oman finds his estimates of the French close to the truth, and Napoleon himself had told Masséna that it was practically impossible that Wellington would offer battle in the plains. But the same letters show that the arithmetic was not wholly his own. ‘Safe and cheap’ was the government’s rule as he understood it, and the instructions that left him responsible for bringing the army away made every risk personal. A reader cannot cleanly separate the commander who judged the odds from the subordinate who knew he would carry the blame. Wellington himself saw the difficulty, and asked for one thing in return: that if he was to be responsible, he should be left to his own judgement, with the fair confidence of the government.",
+          evidence: "interpretation",
+          refs: [
+            { source: 2, locator: "pp. 242–244" },
+            { source: 0, locator: "pp. 9, 48–49, 181" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Accountability and its ground rules",
+          base: "review",
+          text: "Lerner and Tetlock’s review of accountability research, read here in its abstract, asks what different ground rules of accountability do to judgement and choice, under what conditions accountability reduces, leaves unchanged or amplifies biases, and whether it changes how people think or only what they say they think. Wellington’s ground rules were unusually explicit and unusually mixed: public instructions that made him answerable for bringing the army away, private letters that pulled another way, and a public that thought him rash. His demand that ministers explain themselves can be read as an attempt to fix the rules he was judged by. The review’s own questions also cut against a flattering reading. If accountability can amplify bias as well as reduce it, his caution may have been better judgement, or the self-protection of a man who knew he would be blamed, or both.",
+          evidence: "interpretation",
+          refs: [{ source: 5 }],
+          limit:
+            "Abstract only. The review covers laboratory and organisational research, not commanders in war, and cannot say which of the readings fits Wellington; it only shows why the question is worth asking.",
+        },
+      ],
+      shadow: {
+        text: "Arithmetic done in private looks like indifference to those left out of the sum. In 1809 the Spanish government at Seville was alarmed that he had gone. In 1810 Herrasti, who had been told that the British would do anything feasible for his relief and warned that it might be impossible, still hoped, as Oman writes Spanish and some English officers did, that Wellington could not bear to watch the town fall with his outposts a few miles away. After the surrender Herrasti spoke bitterly to the Spanish government of the absence of any attempt, and Martín de la Carrera, whose Spanish division had stood near the town, marched off to Estremadura in anger. Oman calls Herrasti’s feeling natural. The calculation that preserved the British army was paid for by an allied garrison and its town, and the trust it cost had to be rebuilt later.",
+        evidence: "interpretation",
+        refs: [
+          { source: 1, locator: "p. 76" },
+          { source: 2, locator: "pp. 244–245, 253" },
+        ],
+        battleSlugs: ["bussaco-torres-vedras-1810"],
+      },
+      counterCase: {
+        text: "Barclay de Tolly shows the same arithmetic with a different ending. The Fondation Napoléon credits him with conceiving and carrying out the Russian policy of retreat in the first months of 1812, against the bitter opposition of most Russian officers, Bagration above all, and of the public; he was also disliked, it says, for his supposed German origins, and the Tsar replaced him with Kutuzov in August. The 1911 Britannica adds that there was keen opposition to a foreigner as commander-in-chief, and that after Smolensk the outcry against him forced him to give up the command and serve under Kutuzov. He commanded the right at Borodino, the Fondation notes, with great valour. The Napoleon volume reads that retreat from the French side. Here it shows what Wellington’s letters were for: preservation is defensible only while those who can recall the commander accept its purpose, and Barclay lost them before his retreat had time to show what it was for.",
+        evidence: "interpretation",
+        refs: [{ source: 3 }, { source: 4 }],
+        commanderSlug: "barclay-de-tolly",
+        battleSlugs: ["smolensk-1812", "borodino"],
+      },
+      cost: {
+        text: "Ciudad Rodrigo surrendered with much of the town roofless or in ruins, and its garrison was marched into captivity in France. Oman records that Masséna sent the civilian members of the town’s junta to France as prisoners and imposed a heavy fine on the ruined town, of which he extracted half from a homeless and starving population.",
+        evidence: "fact",
+        refs: [{ source: 2, locator: "pp. 253–254" }],
+      },
+      transfer: {
+        holdsWhen: [
+          "What the leader preserves cannot be replaced within the contest, and keeping it in being forces the opponent to spend heavily elsewhere.",
+          "Those who can recall the leader have stated the limits of risk, and the leader can show them what the caution is for.",
+        ],
+        failsWhen: [
+          "Preservation becomes the purpose, and the leader refuses every risk, including the ones that would change the outcome.",
+          "Allies and dependants bear what the leader declines to risk, and are told too little to understand why.",
+        ],
+        questions: [
+          "What in your organisation cannot be replaced this year, and what would you refuse to risk it for?",
+          "Who set the rules you will be judged by, and have they told you the same thing in public and in private?",
+          "Which ally is waiting for help you have already decided not to send, and what have you told them?",
+        ],
+      },
+      bearsOn:
+        "This is the strongest case for caution as arithmetic, and it is made in his own hand: objects, means and risks, set down for a brother and a minister. It also shows the limits of that answer. Some of the arithmetic was imposed by a government that wanted what was safe and cheap, and some of it was paid by allies who were not consulted. If there was daring here, it lay less in any battle than in staying at all, when ministers half expected him to embark, and in telling them plainly that he would go only when he judged it necessary.",
+      questions: [
+        {
+          prompt:
+            "Why did Wellington decide in August 1809 against further co-operation with the Spanish armies?",
+          choices: [
+            "Because he had been ordered home by the government.",
+            "Because, weighing objects, means and risks, he judged that everything would fall on an army he was only permitted, not ordered, to risk in Spain.",
+            "Because the French had already left Spain.",
+          ],
+          answer: 1,
+          explanation:
+            "His letter from Mérida of 24 August sets out the reasoning, and says the King had permitted operations in Spain only on his own responsibility.",
+        },
+        {
+          prompt:
+            "What did Wellington say the government’s instructions of 1810 placed on him?",
+          choices: [
+            "The duty to fight a decisive battle on the frontier.",
+            "The whole responsibility of bringing the army away in safety, if it had to leave.",
+            "Command of the Spanish armies.",
+          ],
+          answer: 1,
+          explanation:
+            "He told Charles Stuart so on 21 April 1810, and complained that ministers’ private letters pulled against their public instructions.",
+        },
+        {
+          prompt:
+            "How did the governor of Ciudad Rodrigo respond after his surrender in July 1810?",
+          choices: [
+            "He thanked Wellington for not risking the British army.",
+            "He spoke bitterly, in his report to the Spanish government, of Wellington’s failure to attempt a relief.",
+            "He joined the French.",
+          ],
+          answer: 1,
+          explanation:
+            "Oman reports Herrasti’s dispatch and calls his feeling natural; a Spanish divisional commander nearby left in anger.",
+        },
+      ],
+      sourceCheck: {
+        question: "Was Wellington right not to relieve Ciudad Rodrigo in 1810?",
+        witnesses: [
+          {
+            label: "Wellington to his brother Henry, 20 June 1810",
+            claim:
+              "A relief meant leaving the mountains and crossing the plains and two rivers with many troops of doubtful quality: it was not right to risk a general action for it.",
+          },
+          {
+            label: "Picton to a friend, as Oman quotes him",
+            claim:
+              "A relief would get the army driven out of Portugal; the siege cost the French time, which mattered more to them than the town.",
+          },
+          {
+            label: "Herrasti’s dispatch, as Oman reports it",
+            claim:
+              "Wellington made no effort to relieve the place, though his outposts were close by.",
+          },
+        ],
+        prompt: "Which reading uses all three witnesses best?",
+        options: [
+          {
+            text: "Wellington and Picton agree, so Herrasti’s complaint can be set aside.",
+            feedback:
+              "Both were British officers in the same army; agreement between them does not answer the ally’s charge, which concerns what he was led to expect.",
+          },
+          {
+            text: "Herrasti was there and they were not, so his judgement settles it.",
+            feedback:
+              "He saw the siege, not the odds of a battle in the plains, which the British letters set out in detail.",
+          },
+          {
+            text: "The refusal can be sound on the arithmetic and still have cost trust with an ally who had hoped for more; each witness speaks to a different part of the question.",
+            feedback:
+              "The British letters judge the risk; Herrasti’s dispatch records what the refusal meant to the people who paid for it.",
+            best: true,
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Wellington wrote that the government wanted nothing done but what was safe and cheap. Argue whether his caution in 1809 and 1810 was his own judgement, a rule imposed on him, or both, and what difference it makes to the lesson.",
+        guidance:
+          "Use the Mérida letter, the letters of April 1810 to Liverpool, Hill and Stuart, and the letter of 11 June. Then set Barclay de Tolly beside him, and ask what Wellington had that Barclay lacked.",
+      },
+      sources: [
+        s.gurwoodVI,
+        s.gurwoodV,
+        s.omanIII,
+        s.fondationBarclay,
+        s.eb1911Barclay,
+        s.lernerTetlock,
+      ],
+    },
+    {
       slug: "ground-chosen-in-advance",
       title: "Ground chosen in advance: preparation as command",
       part: "An army that could not be replaced",
@@ -560,6 +849,239 @@ export const wellingtonVolume: LeadershipVolume = {
       sources: [s.gurwoodV, s.gurwoodVI, s.omanIII, s.croker],
     },
     {
+      slug: "the-commissariat",
+      title: "The commissariat: supply as strategy",
+      part: "An army that could not be replaced",
+      themes: ["organisation", "judgement"],
+      people: ["andre-massena"],
+      claim:
+        "When an army can be fed where its enemy cannot, it gains time, and time can do what battles cannot, but only while its own supply holds, and an army that depends on someone else to feed it has handed that person its strategy.",
+      inBrief: {
+        strength:
+          "Supply by sea and by money kept his army in Portugal while Masséna’s hunted for food before the Lines.",
+        shadow:
+          "When his supply failed, as after Talavera, his own soldiers plundered, and every hungry army fed on the people around it.",
+      },
+      moment: {
+        text: "On 8 August 1809, at Deleytosa in Estremadura, eleven days after the victory at Talavera, Wellington wrote two letters to his brother the Marquis Wellesley. The public one said that the army had had almost no bread for days, that it would be useless in Spain and entirely lost if this treatment continued, and that the cause was not the British minister but the poverty and exhausted state of the country, the inactivity of the magistrates and people, and the want of power in the Spanish government. The private one said what that meant. He believed it almost impossible to remain in Spain, though he saw all the consequences of withdrawing. ‘But a starving army is actually worse than none. The soldiers lose their discipline and their spirit. They plunder even in the presence of their officers.’ The officers were discontented and almost as bad as the men, and with the army that had beaten the French a fortnight before he would now hesitate, he wrote, to meet a French corps half its strength.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "pp. 13–15" }],
+      },
+      episodes: [
+        {
+          title: "Talavera: an army fed by an ally",
+          text: "The campaign of 1809 depended on Spanish transport and food, and Wellington had warned since mid-July that without them he could not advance and must leave Spain. On the same day as the letters to his brother, he told John Villiers in Lisbon that all was now safe and he should feel no anxiety ‘if we had provisions: but we are almost starving’. Three days later he answered a complaint from General Cuesta, the Spanish commander, about the conduct of British troops. When troops were starving, he replied, it was not astonishing that they went to the villages and even the mountains to look for food; and in that very village he had seen Spanish soldiers take the doors off locked houses to plunder them. He denied that his commissaries had stopped any convoy for the Spanish army, said he had let loaded mule trains pass through his own hungry army untouched, and asked Cuesta to say plainly whether the Spanish army was to have not only all the country could give but everything sent from Seville as well.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "pp. 10, 24–25, 75" }],
+          battleSlugs: ["talavera-1809"],
+        },
+        {
+          title: "Before the Lines: hunger as a weapon",
+          text: "A year later the position was reversed. Oman writes that Wellington, having refused a chance to attack Junot near Sobral, chose to lie still in the Lines and let the weapon of starvation play on the French. He misjudged by about a fortnight how long they could stay. By early November, in the report from Junot’s corps that Oman translates, General Clausel observed that most of his men were away on raids to the rear in search of maize and cattle, that the last detachment had been gone nine days, that the troops had lived for eight days on boiled maize flour at half ration, and that if the corps had to retreat it would have to abandon its sick and wounded for want of carts. On 10 November Masséna ordered a withdrawal, not to Spain but to the plain around Santarém, where he hoped to feed his army for weeks more on country that had been less stripped. The previous lesson read the Lines as preparation; this one reads them as a contest of stores.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "pp. 453–454, 462–464" }],
+          battleSlugs: ["bussaco-torres-vedras-1810"],
+        },
+        {
+          title: "1813: the base moves to the sea",
+          text: "In June 1813, as the army marched north-east across Spain towards Vitoria, Wellington moved its base with it. On 10 June he asked that the ships lying at Corunna with biscuit, flour, a heavy siege train and ammunition be taken under naval convoy to Santander, to wait off the port if the French still held it. On 24 June, three days after the battle, he wrote to Lord Bathurst that ammunition had been held at Lisbon for want of convoy and had not yet reached Santander, so that he was using captured French cartridges, of a smaller calibre than British muskets. The army could not stay in that part of the country without magazines, and these must come by sea or be bought with ready money. ‘For the first time I believe it has happened to any British army, that its communication by sea is insecure; and certainly we have not money to purchase in the country all we want.’ Even its money had to come by sea from Lisbon once a fortnight.",
+          evidence: "fact",
+          refs: [{ source: 2, locator: "pp. 429, 458–459" }],
+          battleSlugs: ["vitoria-1813"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Wellington to his brother, 8 August 1809",
+          stake:
+            "A private letter to the man who had to persuade the Spanish government, written to justify a withdrawal he had already half decided.",
+          says: "A starving army is worse than none: it loses discipline and plunders in front of its officers.",
+          refs: [{ source: 0, locator: "p. 15" }],
+        },
+        {
+          who: "Wellington to General Cuesta, 11 August 1809",
+          stake:
+            "An answer to an allied commander’s complaint, written in anger and meant to put the blame back on the Spanish authorities.",
+          says: "His men took food from the villages because they were starving, and Spanish soldiers plundered too.",
+          refs: [{ source: 0, locator: "pp. 24–25" }],
+        },
+        {
+          who: "General Clausel, in the report of Junot’s corps that Oman translates",
+          stake:
+            "A French corps commander describing his men’s condition to Masséna, in support of a withdrawal.",
+          says: "His troops were scattered in search of maize and cattle, on half rations, and could not carry their sick if they moved.",
+          refs: [{ source: 1, locator: "p. 463" }],
+        },
+        {
+          who: "Charles Oman",
+          stake:
+            "The British historian of the war, reconstructing both armies’ supply from their papers.",
+          says: "Wellington chose starvation over attack before the Lines, and misjudged by a fortnight how long it would take.",
+          refs: [{ source: 1, locator: "pp. 454, 462–463" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Supply set the limits of every plan in these letters. In 1809 Wellington advanced into Spain on an ally’s promise to feed him, and when it failed he had no choice left: whatever Talavera had won, the army had to go back to Portugal or dissolve. In 1810 he fought on ground where he controlled the food, and the enemy did not. Behind the Lines his army could be supplied from Lisbon and the sea; in front of them the French had to find what the Portuguese had hidden. Time, which the arithmetic of the previous lesson told him to buy rather than spend in battle, became a weapon only because one side could eat and the other could not. The strategist should note what he could not know: Oman shows him wrong by a fortnight about how long hunger would take, and the stroke he declined against Junot might have shortened it.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "pp. 13–15" },
+            { source: 1, locator: "pp. 454, 462–463" },
+          ],
+        },
+        {
+          text: "The letters of 1813 show the same method at a larger scale and its new limits. The sea was his road and his bank, and both depended on things outside his command: naval convoys, the Treasury and the security of a coast where ships were being taken. His complaint to Bathurst is a supply officer’s letter written three days after a great victory, and it makes the point of this lesson better than any maxim. Battles decided where the army could go; magazines decided whether it could stay.",
+          evidence: "interpretation",
+          refs: [{ source: 2, locator: "pp. 429, 458–459" }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Wellington’s description of what hunger does to an army, discipline lost, spirit gone, plunder in front of officers, is a commander’s observation, and so is Clausel’s. No research on deprivation and group behaviour was read for this lesson, and it would add little to what both armies’ letters already show. The lesson relies on those letters.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered. The behaviour described is reported by commanders with reasons of their own to stress it.",
+        },
+      ],
+      shadow: {
+        text: "Supply as strategy has a price that falls outside the army. When his own commissariat failed in 1809, his men did exactly what he said starving soldiers do, and the villages of Estremadura paid, as they paid the Spanish soldiers he saw breaking into houses. In 1810 the hunger he turned on the French was felt first by the Portuguese whose hidden granaries the French foragers searched for, and near Lisbon, by his own account, the people had fled late and left their food behind for the enemy. A strategy of starving the enemy is also a strategy of emptying a country, and a later lesson in this volume asks who paid for it.",
+        evidence: "interpretation",
+        refs: [
+          { source: 0, locator: "pp. 15, 24–25" },
+          { source: 1, locator: "p. 463" },
+          { source: 5, locator: "pp. 544–545" },
+        ],
+        battleSlugs: ["talavera-1809", "bussaco-torres-vedras-1810"],
+      },
+      counterCase: {
+        text: "Napoleon’s army in Russia in 1812 met the problem Wellington had set Masséna, on a vastly larger scale. The Fondation Napoléon’s timeline records the Russians destroying their depots at Vilna and burning the magazines of the camp at Drissa as they fell back, and partisans harrying French transport columns during the month in Moscow, where a great deal of food had been left but little coordinated effort was made to prepare winter supplies. Kutuzov, meanwhile, could draw supplies at Tarutino from the fertile lands to the south. On the retreat, Paul Ganière writes, the French had hoped to live off the road, but it crossed a desolate region; the magazines Napoleon had ordered filled at Smolensk held little, many depots had been burned or plundered by marauders, and the horses were fed on bark and rotten straw. The Napoleon volume reads Moscow as a failure to stop; here it is a failure of supply, and it mirrors the Lines: the side that could be fed where it stood gained the time, and the side that had to forage lost its army.",
+        evidence: "interpretation",
+        refs: [{ source: 3 }, { source: 4 }],
+        commanderSlug: "napoleon-bonaparte",
+        battleSlugs: ["smolensk-1812", "berezina"],
+      },
+      cost: {
+        text: "In the village where he wrote to Cuesta, Wellington recorded the complaints of the inhabitants against British soldiers looking for food, and saw Spanish soldiers take the doors off locked houses, plunder them and burn the doors. Before the Lines in November 1810, Clausel reported that his corps could not carry its sick and wounded if it had to retreat.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "p. 24" },
+          { source: 1, locator: "p. 463" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "The leader controls the means of sustaining the organisation where the opponent must live on what it finds.",
+          "Time favours the side that can be supplied, and the leader is willing to let it work.",
+        ],
+        failsWhen: [
+          "Supply depends on an ally’s promise or an outside service the leader cannot command.",
+          "The cost of the opponent’s hunger falls on third parties, and the leader treats it as someone else’s concern.",
+        ],
+        questions: [
+          "Who feeds your organisation, in the widest sense, and what happens to your strategy if they stop?",
+          "Which of your plans would survive the loss of the one supply line you take for granted?",
+          "When you starve a competitor of what it needs, who else goes hungry?",
+        ],
+      },
+      bearsOn:
+        "Supply turns caution into a method with a clock. The Lines worked as a cautious position because one side could eat behind them and the other could not; waiting was a weapon only on those terms. Talavera shows the reverse: a bold advance on borrowed supply ended in a retreat that no victory could prevent. Whatever daring Wellington showed in his campaigns was bought in advance by convoys, money and magazines, and his letters admit how often those failed.",
+      questions: [
+        {
+          prompt:
+            "What did Wellington tell his brother a starving army does, in August 1809?",
+          choices: [
+            "It fights harder because it has nothing to lose.",
+            "It loses its discipline and spirit, and plunders even in front of its officers.",
+            "It deserts to the enemy at once.",
+          ],
+          answer: 1,
+          explanation:
+            "His private letter of 8 August says a starving army is actually worse than none.",
+        },
+        {
+          prompt:
+            "What did Clausel report about his corps in front of the Lines in November 1810?",
+          choices: [
+            "That it was well supplied and ready to attack.",
+            "That most of his men were away foraging for maize and cattle, on half rations, and the sick could not be carried if the corps retreated.",
+            "That the Portuguese had sold them all the food they needed.",
+          ],
+          answer: 1,
+          explanation:
+            "Oman translates the report; Masséna ordered a withdrawal to Santarém days later.",
+        },
+        {
+          prompt:
+            "What did Wellington complain of to Bathurst three days after Vitoria?",
+          choices: [
+            "That he had too many prisoners to feed.",
+            "That his supplies came by a sea route that was no longer secure, and he had no money to buy in the country what he needed.",
+            "That Santander had refused to receive his ships.",
+          ],
+          answer: 1,
+          explanation:
+            "The army could not stay without magazines brought by sea or bought with ready money, and the sea was insecure.",
+        },
+      ],
+      sourceCheck: {
+        question: "Why was Wellington’s army hungry in August 1809?",
+        witnesses: [
+          {
+            label: "Wellington to Cuesta, 11 August",
+            claim:
+              "The Spanish authorities had formed no magazines for the British, while convoys for the Spanish army passed through untouched.",
+          },
+          {
+            label:
+              "Wellington to the Marquis Wellesley, public letter of 8 August",
+            claim:
+              "The poverty and exhaustion of the country, the inactivity of magistrates and people, and the weakness of the Spanish government.",
+          },
+          {
+            label: "Cuesta’s complaint, as Wellington’s reply describes it",
+            claim:
+              "British troops were taking food from the villages and stopping provisions meant for the Spanish army.",
+          },
+        ],
+        prompt: "How should a reader use these?",
+        options: [
+          {
+            text: "Accept Wellington’s account, since he wrote two letters that agree.",
+            feedback:
+              "They do not quite agree: one blames an ally’s officers, the other the state of the country. And both are his.",
+          },
+          {
+            text: "Notice that Cuesta reaches us only through Wellington’s reply, and that Wellington’s own letters give two explanations, one accusing an ally and one blaming conditions no one could quickly change.",
+            feedback:
+              "The record is one-sided, and even that side varies with its reader; the hunger is certain, the blame is not.",
+            best: true,
+          },
+          {
+            text: "Conclude that the Spanish deliberately starved their ally.",
+            feedback:
+              "Wellington’s own public letter puts much of it down to an exhausted country and a weak government, not intent.",
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Wellington retreated from Spain in 1809 after a victory, and Masséna retreated from the Lines in 1810 without a battle. Compare the two, and argue whether supply or command decided each.",
+        guidance:
+          "Use the Deleytosa letters and the reply to Cuesta for 1809, and Oman’s account of the French before the Lines for 1810. Say in each case who controlled the food, and who paid when it ran out.",
+      },
+      sources: [
+        s.gurwoodV,
+        s.omanIII,
+        s.gurwoodX,
+        s.fondationRussia,
+        s.ganiere,
+        s.gurwoodVI,
+      ],
+    },
+    {
       slug: "the-afternoon-at-salamanca",
       title: "The afternoon at Salamanca: striking when the enemy errs",
       part: "Caution and daring",
@@ -795,7 +1317,263 @@ export const wellingtonVolume: LeadershipVolume = {
       },
       sources: [s.gurwoodIX, s.omanV, s.gurwoodII, s.croker, s.eb1911Waterloo],
     },
+    {
+      slug: "the-breach",
+      title: "The breach: the costly risk",
+      part: "Caution and daring",
+      themes: ["ethics", "judgement"],
+      claim:
+        "When a commander known for sparing his army pays heavily for time by storming a fortress, the price includes what the army does once it is inside, and that part is paid by people who had no say in the decision.",
+      inBrief: {
+        strength:
+          "He took Badajoz in a race against relief, ordering the storm while Soult was still days away and keeping more than one way in.",
+        shadow:
+          "The breaches failed, an allied town was sacked, and at Burgos the same haste failed outright.",
+      },
+      moment: {
+        text: "At ten o’clock on the night of 6 April 1812 the allied army stormed Badajoz. Wellington’s dispatch, written the next day, tells it plainly. Two breaches had been practicable since the evening of the 5th, but the French had entrenched behind them, so he waited a day to batter a third. Then the 4th and Light Divisions went down into the ditch and up the breaches, and could not get in: officers and men were killed by explosions at the top, and those who followed found the obstacles impossible to pass. The attempts went on until after midnight, when he ordered the two divisions back to where they had formed. By then Picton’s 3rd Division had taken the castle by escalade, as had been planned, and on the far side of the town Major-General Walker’s brigade, sent in a false attack that was to become real if circumstances allowed, had climbed the bastion of San Vicente. With British troops in the castle and the town, resistance ceased. At daylight the French governor, General Philippon, surrendered.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "pp. 40–43" }],
+      },
+      episodes: [
+        {
+          title: "A race against relief",
+          text: "The storm was a decision about time. Oman writes that Wellington resolved to strike while Marshal Soult, marching up from Andalusia to relieve the place, was still four or five marches away, and that he put the storm off a day only because his engineer, Colonel Fletcher, reported the obstacles being heaped up behind the breaches. Oman calls the assault a business Wellington knew would be costly and not certain of success. The escalade of the castle that decided it was made on Picton’s own petition. The dispatch closes with the clock still running: Soult was at Llerena, Marmont had appeared on the northern frontier, and because the Spanish authorities had failed to provision Ciudad Rodrigo, Wellington would have to return there within a short time. His orders for the assault had also looked past it. The last article asked every officer to keep the men together and formed as a military body after the storm and through the night, for the success of the operation, the honour of the army and their own safety.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "pp. 243–245" },
+            { source: 0, locator: "pp. 40, 46–47" },
+          ],
+          battleSlugs: ["badajoz-1812"],
+        },
+        {
+          title: "What his letters say about the price",
+          text: "On the same day as the dispatch he wrote privately to Colonel Torrens, the Commander-in-Chief’s military secretary, that the loss had been very great, and that he was sending a letter to Lord Liverpool which accounted for it. ‘The truth is, that, equipped as we are, the British army are not capable of carrying on a regular siege.’ Gurwood’s footnote adds that the letter to Liverpool could not be found; its summary in the index for 1812 showed that it recommended forming a corps of sappers and miners, whose absence had been the chief cause of the great loss in the sieges. Eight years later, writing to Canning about another matter, Wellington gave a harder explanation, which Oman quotes. It had always been understood, he wrote, that defenders of a stormed fortress had no claim to quarter, and the French rule that a breach must stand at least one assault had cost him the flower of his army at Ciudad Rodrigo and Badajoz; he would have thought himself justified in putting both garrisons to the sword. Oman adds that comparatively few of either garrison were shot down, and those in hot blood as the walls were carried.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "p. 49" },
+            { source: 1, locator: "pp. 259–260" },
+          ],
+          battleSlugs: ["badajoz-1812"],
+        },
+        {
+          title: "Burgos: the method without the means",
+          text: "In the autumn of 1812 he tried the same method at Burgos and failed. On 23 November he explained to Liverpool that the public would be disappointed with a campaign he thought the most successful a British army had fought for a century, and that Burgos was where it had gone wrong. ‘The Government had nothing to say to the siege. It was entirely my own act.’ The means, he wrote, had been ample at Madrid and Santander; what was lacking was transport to bring guns and stores to the place, and his own fault was to have taken inexperienced troops rather than his best, whose first escalade failed when its commanding officer ignored his orders. Oman, writing a century later, accepts the admission and rejects the explanation. By Wellington’s own fault, he writes, the army lacked the artillery to subdue a third-class fortress; Sir Home Popham and officers at Madrid had pressed him to take more heavy guns; and when Madrid was later evacuated, transport was found to remove a great part of its stores.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "pp. 565–567" },
+            { source: 2, locator: "pp. 176–177" },
+          ],
+          battleSlugs: ["burgos-1812"],
+        },
+        {
+          title: "San Sebastián: whose account",
+          text: "The last of the storms, at San Sebastián on the Basque coast on 31 August 1813, was followed by fire and plunder, and by a quarrel over who was to blame. Spanish authorities and newspapers charged that the British had burned the town; Wellington answered the magistrates in November that it had been in great part burned, and on fire in several places, before his troops entered it, and that the libels made it delicate for him to interfere. He was very desirous, he wrote, not to be applied to again. Oman, who read the British officers’ letters and the reports Wellington called for, finds much drunkenness and plunder, and some rape, but no eyewitness trace of the wholesale murder the local junta’s manifesto alleged, and he calls the charge that Wellington wanted the town destroyed absurd. He quotes Wellington’s own concession: that he had never seen or heard of a town so taken, by troops of any nation, that was not plundered. No Spanish account was read for this lesson.",
+          evidence: "fact",
+          refs: [
+            { source: 3, locator: "pp. 246–247" },
+            { source: 4, locator: "pp. 31–35" },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["peninsular-war"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Wellington’s Badajoz dispatch",
+          stake:
+            "His official report to the Secretary of State, written the day after, naming officers for promotion and the dead.",
+          says: "The breaches could not be carried; the castle and San Vicente were taken by escalade; the gallantry of all was beyond expression.",
+          refs: [{ source: 0, locator: "pp. 40–47" }],
+        },
+        {
+          who: "Wellington to Colonel Torrens, 7 April 1812",
+          stake:
+            "A private letter to the Commander-in-Chief’s secretary, about promotions and the reasons for the loss.",
+          says: "The British army, as it was equipped, could not carry on a regular siege.",
+          refs: [{ source: 0, locator: "p. 49" }],
+        },
+        {
+          who: "Wellington to Canning, 1820, as Oman quotes it",
+          stake:
+            "A retrospective letter on another subject, written by a man defending the practice of war he had led.",
+          says: "Stormed garrisons had no claim to quarter, and the French rule of standing an assault had cost him the flower of his army.",
+          refs: [{ source: 1, locator: "p. 260" }],
+        },
+        {
+          who: "Charles Oman",
+          stake:
+            "The British historian of the war, admiring of Wellington but critical of him at Burgos, and sceptical of Spanish charges at San Sebastián.",
+          says: "Burgos failed by Wellington’s own fault; the sacks were real, and the worst stories of San Sebastián come from writers who were not there.",
+          refs: [
+            { source: 2, locator: "pp. 176–177" },
+            { source: 4, locator: "pp. 32–35" },
+          ],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged by what he knew, the storm of Badajoz was a sound gamble against the clock. A relieving army was coming, a second French army was on the other frontier, and Ciudad Rodrigo, behind him, was unprovisioned. Within that, he weighed the cost: he delayed a day for a third breach when his engineer warned him, and he ordered the breaches abandoned once the castle was held. The plan also had more than one way in. The castle escalade was a subordinate’s proposal he allowed, and Walker’s false attack was licensed to become a real one. The breaches, where the plan put its weight, failed; the attacks it treated as secondary succeeded. A plan that leaves room for its own failure is a theme of the preparation lesson, and here it decided the night.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "pp. 40–47" },
+            { source: 1, locator: "pp. 243–245" },
+          ],
+        },
+        {
+          text: "Why did a commander so careful of his army in the field pay so heavily at the walls? The letter to Torrens gives the structural answer: without trained sappers and miners, and with a short siege train, the army could not make the slow approaches a regular siege needed, so it bought time with assaults. The arithmetic of the earlier lessons still applies, but the scarce quantity has changed. In the field he could wait and the French could not; before a fortress with a relieving army on the road, time was what he could not spare, and men were what he spent. Burgos shows the method failing when the means were short by his own choice, and his letter to Liverpool shows him taking the blame in a sentence and spreading it in a paragraph.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "pp. 49, 565–567" },
+            { source: 2, locator: "pp. 176–177" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Oman’s witnesses explain the sacks themselves: exhaustion, thirst, drink, and a belief shared across armies that a town taken by storm belonged to its takers. Those are soldiers’ and historians’ explanations, and no research on crowd violence or on combat and atrocity was read for this lesson. It would be easy to borrow a mechanism that made the sacks seem inevitable; the documents show instead orders given, ignored, and enforced late.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered. The explanations in the lesson are those of witnesses who were there, or who wrote about their own side.",
+        },
+      ],
+      shadow: {
+        text: "Badajoz was a Spanish town, an ally’s, and Oman notes that this adds a special shame to what followed. The sack went on through 7 April. Late that day Wellington issued an order, which Oman quotes from the Supplementary Despatches: ‘It is now full time that the plunder of Badajoz should cease.’ A Portuguese brigade was sent in to clear the streets and a gallows was put up in the cathedral square; Oman finds the evidence divided on whether it was used, and quotes Napier that the tumult rather subsided than was quelled. The orders asking officers to keep their men together after the storm had not held. After Burgos it happened again in retreat. On 28 November Wellington told his divisional commanders that from the moment the army left Burgos and Madrid the officers had lost all command over their men, and outrages of every description were committed with impunity; he put it down to the habitual inattention of regimental officers to their duty.",
+        evidence: "interpretation",
+        refs: [
+          { source: 1, locator: "pp. 261–264" },
+          { source: 0, locator: "pp. 40, 574–575" },
+        ],
+        battleSlugs: ["badajoz-1812", "burgos-1812"],
+      },
+      counterCase: {
+        text: "At Acre in 1799 Bonaparte faced the choice Wellington took at Badajoz and chose the other way. The Napoleon volume’s lesson on knowing when to stop reads his note of 9 May, setting out what he would do if the last assault failed. The next day’s entry, in R. M. Johnston’s arrangement of his words as a diary (which, its preface warns, abbreviates his words and transposes words and dates), records what happened: the attackers carried the principal parts of the wall and found a second wall behind it, so that taking the town would mean sapping through it, opening trenches before every house, and losing more lives than he was willing to lose. He did not go on. Instead he planted a battery to raze the pasha’s palace and the principal buildings, and left the town crushed under shellfire. The contrast is not between a careful commander and a careless one. Bonaparte stopped at the inner defence and spent shells on the town; Wellington pressed on, got in by the escalades, and the town paid in a different way.",
+        evidence: "interpretation",
+        refs: [{ source: 5, locator: "pp. 98–99, preface" }],
+        commanderSlug: "napoleon-bonaparte",
+        battleSlugs: ["acre"],
+      },
+      cost: {
+        text: "The Badajoz dispatch names among the dead Lieutenant-Colonel Macleod of the 43rd and Major O’Hare of the 95th, killed in the breach, and Lieutenant-Colonel Ridge of the 5th, killed in the assault of the castle. Of San Sebastián, an officer of the 5th Division wrote in his diary four days after the storm, as Oman quotes it, that apart from a handful of buildings nothing was left but blackened walls, and that men of all ranks had worked to save the wounded, French and English, from the flames.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "pp. 44–45" },
+          { source: 4, locator: "p. 32" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "Time is scarcer than any other resource, and the leader can show why waiting would cost more than the attempt.",
+          "The plan keeps more than one way to succeed, and the leader is willing to abandon the main effort when a secondary one works.",
+        ],
+        failsWhen: [
+          "The means are short by the leader’s own choice, and speed is asked to make up for preparation that was not done.",
+          "No one has the authority, or the will, to control what the organisation does once the risk has paid off.",
+        ],
+        questions: [
+          "What are you buying with speed, and what are you paying for it in people?",
+          "If your main effort fails tonight, which secondary effort have you licensed to become the real one?",
+          "Who will control what your people do in the hour after success, and are they still standing?",
+        ],
+      },
+      bearsOn:
+        "The breach shows that Wellington’s caution was a calculation and not a temperament. When time cost more than men, he spent men, quickly and heavily, and his letters say so. It complicates the volume’s question from the other side: the same commander who would not risk a battle in the plains for Ciudad Rodrigo stormed Badajoz against the clock. Daring here was real, and so was its price, which fell on his soldiers, on the defenders, and on Spanish towns whose people had no say.",
+      questions: [
+        {
+          prompt:
+            "How was Badajoz finally taken on the night of 6–7 April 1812?",
+          choices: [
+            "Through the main breaches, at the first rush.",
+            "The breaches could not be carried; the castle and the bastion of San Vicente were taken by escalade, and the garrison then gave up.",
+            "By a negotiated surrender before any assault.",
+          ],
+          answer: 1,
+          explanation:
+            "Wellington’s dispatch says so: the attacks the plan treated as secondary decided it.",
+        },
+        {
+          prompt: "What did Wellington tell Torrens explained the heavy loss?",
+          choices: [
+            "The cowardice of the Portuguese troops.",
+            "That the British army, equipped as it was, could not carry on a regular siege.",
+            "That the French had been reinforced during the night.",
+          ],
+          answer: 1,
+          explanation:
+            "Gurwood notes that the fuller letter to Liverpool, recommending a corps of sappers and miners, could not be found.",
+        },
+        {
+          prompt:
+            "What did Oman make of Wellington’s explanation of the failure at Burgos?",
+          choices: [
+            "He accepted it entirely.",
+            "He accepted that it was Wellington’s own act but found his account of the means unconvincing, since heavy guns had been pressed on him.",
+            "He blamed the government in London.",
+          ],
+          answer: 1,
+          explanation:
+            "Oman writes that the army lacked artillery by Wellington’s own fault, and that transport was found later when Madrid was evacuated.",
+        },
+      ],
+      sourceCheck: {
+        question:
+          "What happened to San Sebastián after the storm of 31 August 1813?",
+        witnesses: [
+          {
+            label: "Wellington to the magistrates, 2 November 1813",
+            claim:
+              "The town was in great part burned, and on fire in several places, before his troops entered it; the charges against them are libels.",
+          },
+          {
+            label: "A 5th Division officer’s diary, as Oman quotes it",
+            claim:
+              "The fire was probably started by the enemy; much was plundered, but officers and men also helped the townspeople and saved the wounded.",
+          },
+          {
+            label: "The local junta’s manifesto, as Oman describes it",
+            claim:
+              "The atrocities were the worst of the war, and the town was destroyed on purpose. (Not read for this lesson.)",
+          },
+        ],
+        prompt: "What can a reader of this lesson conclude?",
+        options: [
+          {
+            text: "The junta exaggerated, so nothing serious happened.",
+            feedback:
+              "Wellington himself conceded that the town was plundered, and Oman finds drunkenness, plunder and some rape in British accounts.",
+          },
+          {
+            text: "There was plunder by the army’s own admission; the worst charges rest on a Spanish account this lesson has only seen through a British historian, so they stay open.",
+            feedback:
+              "Every witness read here is British. The concession is solid; the rest needs the Spanish side read directly.",
+            best: true,
+          },
+          {
+            text: "The junta was there and Oman was not, so its account should be preferred.",
+            feedback:
+              "Oman read eyewitness letters and reports; but neither he nor this lesson can settle the question without the junta’s own text.",
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Wellington refused to risk a battle for Ciudad Rodrigo in 1810 and stormed Badajoz at heavy cost in 1812. Was this the same calculation or two different men? Argue it from the commander’s position and then from that of a citizen of Badajoz.",
+        guidance:
+          "Use the dispatch and the orders for the storm, the letter to Torrens and the letter to Canning, Oman on the sack, and the order of 7 April. Then set Bonaparte at Acre beside him, and ask who paid in each case for the decision to go on or to stop.",
+      },
+      sources: [
+        s.gurwoodIX,
+        s.omanV,
+        s.omanVI,
+        s.gurwoodXI,
+        s.omanVII,
+        s.corsican,
+      ],
+    },
   ],
   inProgress:
-    "This volume is being written. Its pilot lessons are published, and the rest are added in reviewed batches.",
+    "This volume is being written. Six of its twelve lessons are published, and the rest are added in reviewed batches.",
 };

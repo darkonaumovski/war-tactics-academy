@@ -252,12 +252,15 @@ describe("the Wellington volume", () => {
   it("is found from Wellington's profile", () =>
     expect(volumeForCommander("arthur-wellesley")).toBe(wellingtonVolume));
 
-  it("lists its pilot lessons in curriculum order", () => {
+  it("lists its lessons so far in curriculum order", () => {
     expect(wellingtonVolume.inProgress).toBeTruthy();
     expect(wellingtonVolume.lessons.map((l) => l.slug)).toEqual([
       "how-to-read-wellington",
+      "the-only-army",
       "ground-chosen-in-advance",
+      "the-commissariat",
       "the-afternoon-at-salamanca",
+      "the-breach",
     ]);
   });
 });

@@ -6,6 +6,7 @@ import {
   lessonsForBattle,
   volumeForCommander,
 } from "../../data/leadership";
+import { wellingtonVolume } from "../../data/leadership/arthur-wellesley";
 import { battles, campaigns } from "../../data/catalog";
 import commanders from "../../data/commanders.json";
 import {
@@ -246,6 +247,19 @@ describe("the Western Front volume", () => {
   });
 });
 
+describe("the Wellington volume", () => {
+  it("stays unlisted and empty until its pilot ships", () => {
+    leadershipVolumeSchema.parse(wellingtonVolume);
+    expect(
+      commanders.some((c) => c.slug === wellingtonVolume.commanderSlug),
+    ).toBe(true);
+    expect(wellingtonVolume.inProgress).toBeTruthy();
+    expect(wellingtonVolume.lessons).toEqual([]);
+    expect(leadershipVolumes).not.toContain(wellingtonVolume);
+    expect(volumeForCommander("arthur-wellesley")).toBeUndefined();
+  });
+});
+
 describe("problems compared across volumes", () => {
   it("are valid and name only existing volumes and lessons", () => {
     const slugs = leadershipProblems.map((p) => p.slug);
@@ -434,6 +448,24 @@ describe("the leadership lesson schema", () => {
       "The Dunning-Kruger effect applies.",
     ])
       expect(accepts({ bearsOn: text }), text).toBe(false);
+  });
+
+  it("excludes the Wellington volume's untraced sayings", () => {
+    for (const text of [
+      "Waterloo was won on the playing fields of Eton.",
+      "Hard pounding, gentlemen.",
+      "Up, Guards, and at 'em!",
+      "By God, they frighten me.",
+      "Publish and be damned.",
+      "Next to a battle lost, the saddest thing is a battle won.",
+      "He made his campaigns of ropes.",
+      "The thin red line held.",
+    ])
+      expect(accepts({ bearsOn: text }), text).toBe(false);
+    // His own later account of the order at Waterloo is traced.
+    expect(
+      accepts({ bearsOn: "He wrote that he said: Stand up, Guards!" }),
+    ).toBe(true);
   });
 
   it("rejects a lesson filed under an unknown part", () =>

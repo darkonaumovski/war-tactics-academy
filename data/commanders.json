@@ -3275,12 +3275,12 @@
     "years": "1769–1852",
     "state": "Great Britain / United Kingdom",
     "eraId": "napoleonic",
-    "role": "Field marshal and coalition commander",
-    "summary": "Commanded in India and the Peninsular War, then led the Anglo-Allied army at Waterloo.",
-    "approach": "Prioritized supplies, intelligence, defensible positions and dependable cooperation with allies.",
-    "strength": "Combined defensive preparation with offensive opportunities, notably at Salamanca.",
-    "limitation": "The failed siege of Burgos forced a retreat; his career also served British colonial expansion.",
-    "legacy": "Waterloo depended on a multinational army and Prussian intervention, making it a study of coalition warfare.",
+    "role": "Commander in India 1799–1805, of the British and Portuguese army in the Peninsula 1809–1814 and of the allied army at Waterloo 1815; field marshal",
+    "summary": "Born in Dublin, he served under his brother, the governor-general, in India, where he governed Mysore and won at Assaye in 1803. From 1809 to 1814 he led the British and Portuguese army from Oporto and Talavera through the Lines of Torres Vedras, Salamanca and Vitoria to Toulouse, and in 1815 the allied army that, with Blücher's Prussians, defeated Napoleon at Waterloo. He was later prime minister (1828–1830) and commander-in-chief of the army.",
+    "approach": "Built campaigns on supply, intelligence and ground chosen in advance: he fortified the Lines of Torres Vedras in secret a year before they were needed, emptied the country in front of Masséna, sheltered his infantry behind rising ground, and attacked when an enemy erred, as at Salamanca. He kept close control of his subordinates and seldom explained his reasons.",
+    "strength": "Judgement of risk that kept Britain's one field army in being through the Peninsular War, and the readiness to strike suddenly, as at Assaye and Salamanca; the National Army Museum says Salamanca established his reputation as an offensive general. He made the Portuguese army part of his own and worked with allies he could not command, from the Spanish armies to the Prussians in 1815.",
+    "limitation": "The siege of Burgos failed in 1812 for want of siege guns, and the retreat that followed broke the army's discipline; his storms of Ciudad Rodrigo, Badajoz and San Sebastián were followed by the sack of allied towns. He called his soldiers the scum of the earth and boasted of his iron hand in discipline, his strategy of 1810 was paid for by the Portuguese population, and his career served British expansion in India.",
+    "legacy": "Created a duke in 1814, he was idolized in old age and, his Britannica biographer writes, rated after his death an overcautious general, before his military gifts came to be widely appreciated. As commander-in-chief in his last decade he was, she judges, past starting the reforms the army later needed. His dispatches, published in his lifetime, and the conversation his friends recorded are the core of his record, and Waterloo, won with the Prussians and a multinational army, remains a study in coalition warfare.",
     "battleSlugs": [
       "assaye-1803",
       "talavera-1809",
@@ -3292,18 +3292,22 @@
       "waterloo"
     ],
     "source": {
-      "title": "Wellington: The Iron Duke",
-      "url": "https://www.nam.ac.uk/explore/duke-wellington",
-      "publisher": "National Army Museum"
+      "title": "Arthur Wellesley, 1st duke of Wellington — Elizabeth Pakenham, Countess of Longford",
+      "url": "https://www.britannica.com/biography/Arthur-Wellesley-1st-Duke-of-Wellington",
+      "publisher": "Encyclopaedia Britannica"
     },
     "editorialStatus": "concise-profile",
     "details": {
       "category": "Coalition and theater commander",
-      "titles": "1st Duke of Wellington; field marshal; prime minister (1828–1830)",
+      "titles": "Viscount Wellington (1809), earl (1812), marquess, duke (1814); field marshal (1813); prime minister (1828–1830)",
       "principalCommands": [
-        "British forces in India, 1797–1805",
-        "British–Portuguese army in the Peninsular War, 1808–1814",
-        "Allied army in the Netherlands, 1815"
+        "A division against Mysore and the governorship of Mysore, 1799",
+        "Command against the Marathas in the Deccan, 1803, under his brother as governor-general",
+        "British force in Portugal, 1808, until superseded after Vimeiro",
+        "British and Portuguese army in Portugal, Spain and southern France, 1809–1814",
+        "Command of the Spanish armies, granted by the Spanish government and Cortes, 1812–1813",
+        "Allied army in the Netherlands, 1815, and the army of occupation in France, 1815–1818",
+        "Commander-in-chief of the British army, 1827–1828 and in his last decade, to 1852"
       ],
       "timeline": [
         {
@@ -3311,40 +3315,80 @@
           "event": "Born in Dublin"
         },
         {
-          "date": "1803",
-          "event": "Victory at Assaye"
+          "date": "1796",
+          "event": "Sails for India"
         },
         {
-          "date": "1808",
-          "event": "Victory at Vimeiro"
+          "date": "1799",
+          "event": "Commands a division against Mysore; governor of Mysore"
+        },
+        {
+          "date": "23 September 1803",
+          "event": "Victory at Assaye over Sindia and the Raja of Berar"
+        },
+        {
+          "date": "1805",
+          "event": "Returns to England"
+        },
+        {
+          "date": "August 1808",
+          "event": "Roliça and Vimeiro; superseded, then the Convention of Cintra"
+        },
+        {
+          "date": "November–December 1808",
+          "event": "Court of inquiry at Chelsea; no further proceedings"
         },
         {
           "date": "1809",
-          "event": "Battle of Talavera"
+          "event": "Takes Oporto and drives the French from Portugal"
         },
         {
-          "date": "1810",
-          "event": "Holds the Lines of Torres Vedras"
+          "date": "July 1809",
+          "event": "Talavera; made Viscount Wellington"
         },
         {
-          "date": "1812",
-          "event": "Victory at Salamanca; siege of Burgos fails"
+          "date": "September–October 1810",
+          "event": "Bussaco; falls back to the Lines of Torres Vedras"
         },
         {
-          "date": "1813",
-          "event": "Victory at Vitoria"
+          "date": "May 1811",
+          "event": "Fuentes de Oñoro, after Masséna's withdrawal from Portugal"
         },
         {
-          "date": "1815",
+          "date": "January–April 1812",
+          "event": "Ciudad Rodrigo and Badajoz stormed"
+        },
+        {
+          "date": "22 July 1812",
+          "event": "Victory at Salamanca"
+        },
+        {
+          "date": "September–October 1812",
+          "event": "Siege of Burgos fails; retreat to Portugal"
+        },
+        {
+          "date": "21 June 1813",
+          "event": "Victory at Vitoria; field marshal"
+        },
+        {
+          "date": "10 April 1814",
+          "event": "Enters Toulouse; made a duke"
+        },
+        {
+          "date": "18 June 1815",
           "event": "Victory at Waterloo with Blücher"
         },
         {
-          "date": "1852",
-          "event": "Dies"
+          "date": "1828–1830",
+          "event": "Prime minister; Catholic Emancipation, 1829"
+        },
+        {
+          "date": "14 September 1852",
+          "event": "Dies at Walmer Castle"
         }
       ],
-      "notableDecision": "In 1810 he built the Lines of Torres Vedras and stripped the countryside ahead of Masséna's advance. The strategy halted the French but imposed severe hardship on Portuguese civilians.",
-      "setback": "His siege of Burgos failed in 1812 and was followed by a difficult retreat."
+      "notableDecision": "In 1810 he fell back on the Lines of Torres Vedras, fortified in secret over the previous year, and ordered the country in front of them emptied, threatening with hanging magistrates who stayed and anyone who helped the enemy. Masséna's army was halted and starved out of Portugal by the spring of 1811; the cost fell on the Portuguese population.",
+      "setback": "His siege of Burgos failed in the autumn of 1812. He told Lord Liverpool it had been entirely his own act, and in the retreat to Portugal that followed the army's discipline collapsed."
     }
   },
   {

@@ -1307,4 +1307,106 @@ export const scenarios: Scenario[] = [
       },
     ],
   },
+  {
+    slug: "stay-with-cuesta",
+    title: "Stay in Spain, or go back to Portugal?",
+    battleSlug: "talavera-1809",
+    commander: "Arthur Wellesley",
+    situation:
+      "24 August 1809, at Mérida in Estremadura, four weeks after the victory at Talavera. Your army has fallen back across the Tagus and is now separated from the Spanish army of General Cuesta. Your brother, who represents Britain to the Spanish government at Seville, has asked whether you will help the Spanish defend the line of the Guadiana.",
+    known:
+      "Since early August the army has been almost starving; for days it had no bread, and you have told the Spanish authorities repeatedly that without food and transport you could not advance and must leave Spain. You gave the Portuguese carts that carried your ammunition to move the wounded, and those who could not be moved were left at Talavera when Cuesta marched away. You have seen Spanish troops run at Talavera and at the bridge of Arzobispo. The King's government has never ordered you to operate in Spain, only permitted it on your own responsibility, so long as Portugal is safe. The Spanish government is alarmed at your withdrawal.",
+    unknown:
+      "Whether food and transport will now come from Spain, where the French corps that came down on your rear will go next, and what a withdrawal will cost you with the Spanish government and people.",
+    historical:
+      "Weighing, in his words, objects, means and risks, Wellesley told his brother that he ought to avoid any further co-operation with the Spanish armies and that no hope should be held out that he would remain in Spain to co-operate with them. He was in no hurry, and would rest the army near the frontier first, but he withdrew to his base in Portugal, where the Lines of Torres Vedras were begun that autumn. The Spanish army was left to hold the Guadiana without him.",
+    options: [
+      {
+        text: "Join the Spanish army on the Guadiana, as the Spanish government asks.",
+        feedback:
+          "It would answer the charge that Britain abandons its allies, but Wellesley judged that the Guadiana could not be defended by a weaker army against a stronger, that everything would fall on his own troops, and that his army was in no state to fight. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Withdraw towards Portugal, refuse further joint operations, and keep the freedom to decide later.",
+        feedback:
+          "This matches the historical decision. It preserved the army and the base it was sent to defend, and it left Wellesley free to choose when, how and on what conditions to act with the Spanish again. It also confirmed, to many in Spain, that the British would not stay.",
+        historical: true,
+      },
+      {
+        text: "Advance again towards Madrid once the Spanish promise supplies.",
+        feedback:
+          "The offensive after Talavera had failed for want of exactly those supplies and of an ally who would hold the passes behind him; Wellesley saw no chance of resuming it. A counterfactual.",
+        historical: false,
+      },
+    ],
+  },
+  {
+    slug: "relieve-ciudad-rodrigo",
+    title: "Relieve Ciudad Rodrigo?",
+    battleSlug: "bussaco-torres-vedras-1810",
+    commander: "Viscount Wellington",
+    situation:
+      "20 June 1810, at Celorico in Portugal. Across the frontier Marshal Ney's corps is besieging the Spanish fortress of Ciudad Rodrigo, held by General Herrasti, a veteran determined to fight. Your Light Division's outposts are a few miles from the town, and the governor is hoping for your help.",
+    known:
+      "To raise the siege you must leave the mountains and cross the plains and two rivers. The French are stronger than you in cavalry, and nearly half your force is Portuguese and Spanish troops newly formed and never tested under fire. A second French corps can join Ney within a day or two. Your instructions forbid any unnecessary risk and leave you responsible for bringing the army away safely if it must go; you believe the government wants nothing done but what is safe and cheap. The Spanish, and some of your own officers, expect you not to stand by. One of your divisional generals writes that a relief would get the army driven out of Portugal, while every week of siege costs the French time.",
+    unknown:
+      "Whether Ney could be caught alone before his reinforcements arrive, how long the garrison can hold, and what refusing will cost you with the Spanish.",
+    historical:
+      "Wellington refused to risk a general action in the plains. He had already warned Herrasti that relief might be impossible, though he would act if the circumstances changed; they never did. Ciudad Rodrigo fell on 10 July, after the French had battered its walls into one broad breach. Herrasti spoke bitterly to the Spanish government of the absence of any attempt to relieve him, a Spanish divisional commander nearby marched off in anger, and within weeks Wellington reported that the people of Castile had stopped sending him intelligence. Masséna's proclamation to the Portuguese used the fall of the town against him.",
+    options: [
+      {
+        text: "Strike at Ney's corps before its reinforcements arrive.",
+        feedback:
+          "A staff officer, D'Urban, suggested a surprise attack. Oman thinks it most improbable that Ney, with a strong cavalry screen, could have been caught alone, and a battle in the open with untested troops risked the one army Britain had. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Send a strong detachment to break into the town with men and supplies.",
+        feedback:
+          "The garrison had food for weeks and ammunition, so supplies were not what it lacked; a detachment cut off in the plain might have been lost with the town. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Refuse to risk a general action in the plains, stay in the hills, and tell the governor plainly that relief may be impossible.",
+        feedback:
+          "This matches the historical decision. Oman judges it right: success would only have raised the siege until the French reinforcements came, while defeat might have lost Portugal. The price was paid by the garrison and the town, and in Spanish trust.",
+        historical: true,
+      },
+    ],
+  },
+  {
+    slug: "attack-at-noon",
+    title: "Attack at noon, or wait?",
+    battleSlug: "salamanca-1812",
+    commander: "Earl of Wellington",
+    situation:
+      "Noon on 22 July 1812, south of Salamanca. For days your army and Marshal Marmont's have marched side by side without a battle. The two armies now face each other south of the town, you have just ordered an attack, and Marshal Beresford urges you to call it off.",
+    known:
+      "You have decided that if you cannot attack today you will march for Ciudad Rodrigo without further delay, because French cavalry reinforcements are a day or two away. A plan of retreat is drafted and the baggage is already moving off, watched by the people of Salamanca, who welcomed your army and fear being abandoned. Your divisions are hidden behind the crest and in the folds of the ground, and one division waits screened by trees where the French can hardly see it.",
+    unknown:
+      "Whether an attack now would break the French or stall against them, and whether Marmont, who may think you are about to retreat, will make the mistake you have been waiting for before the day is out.",
+    historical:
+      "Wellington called off the noon attack on Beresford's advice, kept the army hidden and the retreat ready, and waited. In the afternoon Marmont extended his left along the plateau to threaten the road to Portugal, and Wellington wrote that this gave him the opportunity of attacking for which he had long been anxious. Pakenham's division turned the French left while the divisions behind the village of Arapiles attacked in front, and the battle was won that evening.",
+    options: [
+      {
+        text: "Call off the noon attack, keep the army hidden with the retreat ready, and strike only if Marmont overreaches.",
+        feedback:
+          "This matches the historical decision. It kept both possibilities open until the deadline: a retreat drafted in case no opening came, and an army close enough to strike within the hour when one did. It paid only because Marmont made the mistake.",
+        historical: true,
+      },
+      {
+        text: "Attack at noon as ordered.",
+        feedback:
+          "Oman thinks a noon attack might have succeeded, but that the later blow, delivered against an enemy strung out on the march, was far more effective. With the outcome unknown, it meant attacking an enemy still in hand. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "March for Ciudad Rodrigo now, before the French cavalry arrive.",
+        feedback:
+          "It would save the army from any risk, but abandon Salamanca and its people, who were already complaining that the English were leaving without a battle, and confirm the reputation Marmont was relying on. A counterfactual.",
+        historical: false,
+      },
+    ],
+  },
 ];

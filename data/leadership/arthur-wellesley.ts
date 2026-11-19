@@ -1175,6 +1175,7 @@ export const wellingtonVolume: LeadershipVolume = {
       title: "The afternoon at Salamanca: striking when the enemy errs",
       part: "Caution and daring",
       themes: ["judgement", "adaptation"],
+      people: ["auguste-de-marmont"],
       claim:
         "When a leader known for avoiding battle keeps the army hidden, ready and close, an opponent who trusts that reputation may offer an opening, but the strike pays only if the leader has already decided what to do if the opening never comes.",
       inBrief: {

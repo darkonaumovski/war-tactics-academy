@@ -3392,6 +3392,419 @@
     }
   },
   {
+    "slug": "william-carr-beresford",
+    "name": "William Carr Beresford, Viscount Beresford",
+    "years": "1768–1854",
+    "state": "Great Britain / United Kingdom; Portugal",
+    "eraId": "napoleonic",
+    "role": "Marshal and reorganiser of the Portuguese army 1809–1819; British general",
+    "summary": "A British officer who lost an eye early in his career, he served in Egypt and at the Cape, and captured and then lost Buenos Aires. Sent to Portugal, he fought under Moore at Corunna and in 1809 was given the task of rebuilding the Portuguese army, which by 1810 fought beside the British at Bussaco. He commanded a corps at Albuera in 1811, was wounded at Salamanca in 1812, and fought through to Toulouse.",
+    "approach": "An organiser above all: he weeded out inefficient officers and men, and so improved the discipline of the Portuguese army that Wellington brigaded its regiments with British ones.",
+    "strength": "Organisation. The 1911 Britannica records that Wellington, who had no illusions about his generalship, thought so highly of his powers of organisation that he would have recommended him as his successor had he himself been killed.",
+    "limitation": "In independent command in 1811 he never gained his troops' confidence: his cavalry got out of hand at Campo Mayor, he invested Badajoz with too few men, and at Albuera the hard-won victory owed more, the 1911 Britannica judges, to the initiative of Colonel Hardinge than to his generalship.",
+    "legacy": "Created a baron in 1814 and a viscount in 1823, he left Portugal when a revolution there dismissed the British officers, served as master-general of the ordnance in Wellington's cabinet of 1828, and spent years in controversy with the historian William Napier over Albuera.",
+    "battleSlugs": [
+      "corunna-1809",
+      "bussaco-torres-vedras-1810",
+      "badajoz-1812",
+      "salamanca-1812",
+      "vitoria-1813"
+    ],
+    "source": {
+      "title": "Beresford, William Carr Beresford, Viscount, Encyclopædia Britannica, 11th ed., vol. 3 (1910)",
+      "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Beresford,_William_Carr_Beresford,_Viscount",
+      "publisher": "Wikisource"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Portuguese marshal; Baron Beresford of Albuera (1814); Viscount Beresford (1823)",
+      "principalCommands": [
+        "Governor and commander-in-chief in Madeira, 1807–1808",
+        "The Portuguese army, 1809–1819",
+        "Hill's corps in Estremadura, 1811",
+        "The British centre at the Nivelle, the Nive and Orthez, 1813–1814"
+      ],
+      "timeline": [
+        {
+          "date": "1768",
+          "event": "Born on 2 October"
+        },
+        {
+          "date": "1785",
+          "event": "Enters the British army"
+        },
+        {
+          "date": "1793",
+          "event": "Distinguishes himself at Toulon"
+        },
+        {
+          "date": "16 January 1809",
+          "event": "Fights at Corunna under Moore"
+        },
+        {
+          "date": "February 1809",
+          "event": "Begins reorganising the Portuguese army"
+        },
+        {
+          "date": "27 September 1810",
+          "event": "Portuguese and British fight side by side at Bussaco"
+        },
+        {
+          "date": "1811",
+          "event": "Raises the siege of Badajoz and fights at Albuera"
+        },
+        {
+          "date": "1812",
+          "event": "At the siege of Badajoz; wounded at Salamanca"
+        },
+        {
+          "date": "1813",
+          "event": "At Vitoria and in the Pyrenees"
+        },
+        {
+          "date": "1814",
+          "event": "Leads a corps at Toulouse; made a baron"
+        },
+        {
+          "date": "1828",
+          "event": "Master-general of the ordnance"
+        },
+        {
+          "date": "1854",
+          "event": "Dies on 8 January"
+        }
+      ],
+      "notableDecision": "At Salamanca on 22 July 1812 he advised Wellington to call off the attack ordered at noon, as a cavalry diarist and Marmont's later conversation with Wellington both record; the attack made that afternoon won the battle.",
+      "setback": "At Albuera in 1811, after raising the siege of Badajoz on Soult's approach, he won a hard-fought battle whose success the 1911 Britannica credits less to him than to Colonel Hardinge."
+    }
+  },
+  {
+    "slug": "rowland-hill",
+    "name": "Rowland Hill, 1st Viscount Hill",
+    "years": "1772–1842",
+    "state": "Great Britain / United Kingdom",
+    "eraId": "napoleonic",
+    "role": "Divisional and corps commander under Wellington 1808–1815; commander-in-chief of the British army 1828–1842",
+    "summary": "Commissioned in 1790, he served at Toulon and in Egypt before joining the force sent to Portugal in 1808. From Vimeiro to Vitoria, in the 1911 Britannica's words, he proved Wellington's ablest and most indefatigable helper: he led a brigade at Vimeiro and Corunna, a division at Talavera, detached commands in 1810–1812, the right wing at Vitoria and a corps at Waterloo. He was general commanding-in-chief from 1828 to 1842.",
+    "approach": "Trusted with commands away from Wellington's eye: he operated south of the Tagus and in Estremadura, surprised a French force at Arroyo dos Molinos in 1811, and in 1812 stormed the works at Almaraz on the Tagus, destroying the bridge by which the French armies of the south and north communicated.",
+    "strength": "Reliability in detached command and the affection of his soldiers, who called him “the soldier's friend”, as the 1911 Britannica records. On the night of 27 July 1809 he led the brigade that drove the French off the crest at Talavera.",
+    "limitation": "The sources read record no defeat of his own. His commands were detached corps working to Wellington's plans, so his record shows how far Wellington could delegate rather than how Hill would have commanded an army alone.",
+    "legacy": "Made a peer in 1814 and a viscount on retiring in 1842, he was, the 1911 Britannica judges, next to Wellington the most popular and able soldier of his time in the British service.",
+    "battleSlugs": [
+      "corunna-1809",
+      "talavera-1809",
+      "bussaco-torres-vedras-1810",
+      "vitoria-1813",
+      "waterloo"
+    ],
+    "source": {
+      "title": "Hill, Rowland Hill, 1st Viscount, Encyclopædia Britannica, 11th ed., vol. 13 (1910)",
+      "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hill,_Rowland_Hill,_1st_Viscount",
+      "publisher": "Wikisource"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Lieutenant-general (1812); Baron Hill (1814); general (1825); Viscount Hill (1842)",
+      "principalCommands": [
+        "A brigade at Vimeiro, Corunna and Oporto, 1808–1809",
+        "A division at Talavera, 1809",
+        "Detached corps in the south of Portugal and Estremadura, 1810–1812",
+        "The right wing at Vitoria, 1813",
+        "A corps of the Anglo-Allied army, 1815",
+        "General commanding-in-chief of the British army, 1828–1842"
+      ],
+      "timeline": [
+        {
+          "date": "1772",
+          "event": "Born at Prees Hall, Shropshire"
+        },
+        {
+          "date": "1790",
+          "event": "Commissioned"
+        },
+        {
+          "date": "1793",
+          "event": "Serves at the siege of Toulon"
+        },
+        {
+          "date": "1801",
+          "event": "Wounded at Alexandria"
+        },
+        {
+          "date": "1808",
+          "event": "Leads a brigade at Vimeiro"
+        },
+        {
+          "date": "27–28 July 1809",
+          "event": "Commands a division at Talavera"
+        },
+        {
+          "date": "1811",
+          "event": "Surprises a French force at Arroyo dos Molinos"
+        },
+        {
+          "date": "1812",
+          "event": "Storms the works at Almaraz"
+        },
+        {
+          "date": "21 June 1813",
+          "event": "Leads the right wing at Vitoria"
+        },
+        {
+          "date": "18 June 1815",
+          "event": "Commands a corps at Waterloo"
+        },
+        {
+          "date": "1828",
+          "event": "General commanding-in-chief"
+        },
+        {
+          "date": "1842",
+          "event": "Created viscount; dies on 10 December"
+        }
+      ],
+      "notableDecision": "In 1812 he stormed the works at Almaraz on the Tagus and destroyed the bridge by which Soult in the south communicated with Marmont in the north, before Wellington's advance to Salamanca.",
+      "setback": "In 1811, while he was on sick leave, his corps passed to Beresford, whose campaign ended in the hard-won battle of Albuera."
+    }
+  },
+  {
+    "slug": "john-moore",
+    "name": "Sir John Moore",
+    "years": "1761–1809",
+    "state": "Great Britain",
+    "eraId": "napoleonic",
+    "role": "Commander of the British army in Portugal and Spain 1808–1809; lieutenant-general",
+    "summary": "Commissioned in 1776, he served in the American War of Independence, Corsica, the West Indies, Ireland in 1798 and Egypt in 1801, organised the defence of the south coast of England, and trained light infantry at Shorncliffe. Given command in Portugal in 1808, he advanced into Spain to co-operate with the Spanish armies, fell back on Corunna when the French concentrated against him, and was killed there on 16 January 1809 in the battle that covered his army's embarkation.",
+    "approach": "A trainer and reformer: at Shorncliffe he taught light infantry tactics to the regiments that later formed the Light Division, and he made sure his troops were well housed and fed, earning, the National Army Museum writes, a reputation as a comparatively humane commander.",
+    "strength": "Training, care of his men and composure in crisis. The National Army Museum credits him with keeping up the morale of his army, weakened by hunger and cold, through the winter retreat, and his rearguard battle at Corunna kept the French from attacking the embarking troops.",
+    "limitation": "His advance into Spain was overtaken by the fall of Madrid and Napoleon's arrival, and the retreat that followed was marked, by the museum's account, by foul weather, long marches and widespread drunkenness. His judgement that his army could not defend Portugal became, Wellington complained in 1810, a prejudice against any plan to defend it.",
+    "legacy": "The regiments he trained formed Wellington's Light Division. The museum records that Soult ordered a monument to him at Corunna, and Charles Wolfe's poem on his burial made him a national hero.",
+    "battleSlugs": ["corunna-1809"],
+    "source": {
+      "title": "John Moore: Alone with his glory",
+      "url": "https://www.nam.ac.uk/explore/john-moore",
+      "publisher": "National Army Museum"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Knighted and lieutenant-general (1804)",
+      "principalCommands": [
+        "Reserve division in Egypt, 1801",
+        "Light infantry training camp at Shorncliffe, Kent",
+        "British army in Portugal and Spain, 1808–1809"
+      ],
+      "timeline": [
+        {
+          "date": "1761",
+          "event": "Born"
+        },
+        {
+          "date": "1776",
+          "event": "Commissioned into the 51st Regiment"
+        },
+        {
+          "date": "20 June 1798",
+          "event": "Turns the tide at Foulksmills in the Irish rebellion"
+        },
+        {
+          "date": "21 March 1801",
+          "event": "His division bears the French attack at Alexandria"
+        },
+        {
+          "date": "1804",
+          "event": "Knighted and promoted lieutenant-general"
+        },
+        {
+          "date": "September 1808",
+          "event": "Given command of the British army in Portugal"
+        },
+        {
+          "date": "Winter 1808–1809",
+          "event": "Retreats from Salamanca to Corunna"
+        },
+        {
+          "date": "16 January 1809",
+          "event": "Killed at Corunna"
+        }
+      ],
+      "notableDecision": "He advanced deep into Spain to co-operate with the Spanish armies, then, when Madrid fell and Napoleon came against him, fell back north to Corunna and fought there to cover the embarkation.",
+      "setback": "The winter retreat to Corunna, through foul weather and with discipline breaking down, exhausted his army before it reached the sea."
+    }
+  },
+  {
+    "slug": "joseph-bonaparte",
+    "name": "Joseph Bonaparte",
+    "years": "1768–1844",
+    "state": "France; kingdoms of Naples and Spain",
+    "eraId": "napoleonic",
+    "role": "King of Naples 1806–1808 and of Spain 1808–1813; commander, with Marshal Jourdan, of the French armies at Talavera and Vitoria",
+    "summary": "Napoleon's eldest surviving brother, a lawyer and diplomat who took part in negotiating the treaties of Lunéville and Amiens, he was made king of Naples in 1806 and king of Spain in 1808. Driven from Madrid after Bailén and restored by Napoleon, he was kept, Britannica writes, in a subordinate position that led him four times to offer to abdicate. He decided to fight at Talavera in 1809 and commanded at Vitoria in 1813, where his army was routed.",
+    "approach": "A lawyer and diplomat rather than a soldier, he reformed the administration of Naples, and in Spain commanded with Marshal Jourdan beside him, under a brother who kept him in a subordinate position.",
+    "strength": "Experience as a negotiator, and as a reforming administrator in Naples, where, according to Britannica, he abolished the remnants of feudalism and reorganised the courts, the finances and the schools.",
+    "limitation": "He was not a soldier. At Vitoria his army stood to defend the Zadorra encumbered by his court and its convoys; Oman finds one of his army commanders abandoning a position the King had ordered him to hold, and the battle ended in a rout in which his carriages were plundered.",
+    "legacy": "Left in Paris in 1814, he fled as the Allies arrived, leaving Marmont to treat with them. After Waterloo he went to the United States, later living in England, Genoa and Florence, where he died in 1844.",
+    "battleSlugs": ["talavera-1809", "vitoria-1813"],
+    "source": {
+      "title": "Joseph Bonaparte",
+      "url": "https://www.britannica.com/biography/Joseph-Bonaparte",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "King of Naples (1806–1808); king of Spain (1808–1813)",
+      "principalCommands": [
+        "French armies covering Madrid, 1809, with Marshal Jourdan",
+        "French armies on the retreat to Vitoria, 1813, with Marshal Jourdan"
+      ],
+      "timeline": [
+        {
+          "date": "1768",
+          "event": "Born at Corte, Corsica"
+        },
+        {
+          "date": "1801–1802",
+          "event": "Takes part in the negotiations for Lunéville and Amiens"
+        },
+        {
+          "date": "1806",
+          "event": "King of Naples"
+        },
+        {
+          "date": "1808",
+          "event": "King of Spain; leaves Madrid after Bailén"
+        },
+        {
+          "date": "Late 1808",
+          "event": "Restored by Napoleon"
+        },
+        {
+          "date": "July 1809",
+          "event": "Decides to fight at Talavera"
+        },
+        {
+          "date": "21 June 1813",
+          "event": "Routed at Vitoria"
+        },
+        {
+          "date": "30 March 1814",
+          "event": "Leaves Paris as the Allies arrive"
+        },
+        {
+          "date": "1815",
+          "event": "Goes to the United States"
+        },
+        {
+          "date": "1844",
+          "event": "Dies in Florence"
+        }
+      ],
+      "notableDecision": "In July 1809, with Wellesley and Cuesta advancing, the Spanish general Venegas approaching Madrid and Soult unable to arrive for days, he decided to fight at Talavera rather than wait.",
+      "setback": "At Vitoria on 21 June 1813 his army was routed, its road to France cut, and he escaped with his escort while his baggage was taken."
+    }
+  },
+  {
+    "slug": "auguste-de-marmont",
+    "name": "Auguste Viesse de Marmont",
+    "years": "1774–1852",
+    "state": "France",
+    "eraId": "napoleonic",
+    "role": "Commander of the Army of Portugal 1811–1812 and of corps under Napoleon; marshal of France from 1809",
+    "summary": "An artillery officer who met Bonaparte at Toulon and became his aide-de-camp, he fought in Italy and Egypt, distinguished himself at Marengo, governed Dalmatia and the Illyrian provinces, and was made marshal after Znaim in 1809. He replaced Masséna at the head of the Army of Portugal in 1811, was beaten and wounded by Wellington at Salamanca in 1812, commanded a corps in Germany and France in 1813–1814, and in April 1814 took his corps over to the Allies.",
+    "approach": "An able artillerist and administrator, at his best in organisation and in commands of his own far from Napoleon. At Salamanca he manoeuvred to turn Wellington's flank and threaten his road to Portugal, convinced, as he wrote to Berthier, that Wellington would retire the moment his flank was threatened.",
+    "strength": "Technical skill with artillery, ability as an administrator in Dalmatia and the Illyrian provinces, and success in operations of his own, at Göspich and Znaim in 1809 and, with Ney, against Olsufiev's isolated corps at Champaubert in 1814.",
+    "limitation": "At Salamanca he extended his left much too far, in Jourdan's judgement, and was attacked while his army was strung out; at Laon in March 1814 his corps was surprised at night near Athies and broken up. His surrender of his corps to the Allies in April 1814, which Napoleon on Saint Helena called the act of a traitor, made him the bête noire of Napoleonic historiography.",
+    "legacy": "Made a peer by Louis XVIII, he failed to hold Paris for Charles X in July 1830 and went into exile, dying in Venice in 1852. His memoirs, published after his death in nine volumes and called vengeful by the Fondation Napoléon, are a source for his campaigns to be read against his interest in explaining Salamanca.",
+    "battleSlugs": [
+      "marengo",
+      "salamanca-1812",
+      "lutzen-1813",
+      "bautzen",
+      "dresden",
+      "leipzig",
+      "hanau",
+      "la-rothiere",
+      "six-days-campaign",
+      "laon"
+    ],
+    "source": {
+      "title": "MARMONT, Auguste-Frédéric-Louis Viesse de",
+      "url": "https://www.napoleon.org/en/history-of-the-two-empires/biographies/marmont-auguste-frederic-louis-viesse-de/",
+      "publisher": "Fondation Napoléon"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Duke of Ragusa (1808); marshal of France (1809); peer of France (1814)",
+      "principalCommands": [
+        "2nd Corps of the Grande Armée, 1805",
+        "Governor-general of Dalmatia, 1806, and of the Illyrian provinces, 1809",
+        "11th Corps, 1809",
+        "Army of Portugal, 1811–1812",
+        "A corps of the Grande Armée in Germany and France, 1813–1814"
+      ],
+      "timeline": [
+        {
+          "date": "1774",
+          "event": "Born at Châtillon-sur-Seine"
+        },
+        {
+          "date": "1796",
+          "event": "Becomes one of Bonaparte's aides-de-camp"
+        },
+        {
+          "date": "1800",
+          "event": "Distinguishes himself at Marengo"
+        },
+        {
+          "date": "1808",
+          "event": "Made Duke of Ragusa"
+        },
+        {
+          "date": "12 July 1809",
+          "event": "Made marshal after Znaim"
+        },
+        {
+          "date": "7 May 1811",
+          "event": "Replaces Masséna at the head of the Army of Portugal"
+        },
+        {
+          "date": "22 July 1812",
+          "event": "Beaten and wounded at Salamanca"
+        },
+        {
+          "date": "1813",
+          "event": "Fights at Lützen, Bautzen, Dresden, Leipzig and Hanau"
+        },
+        {
+          "date": "March 1814",
+          "event": "His corps is surprised near Athies at Laon"
+        },
+        {
+          "date": "30 March 1814",
+          "event": "Capitulates at Belleville, outside Paris"
+        },
+        {
+          "date": "5 April 1814",
+          "event": "Takes his corps over to the Allies"
+        },
+        {
+          "date": "1830",
+          "event": "Fails to hold Paris for Charles X; goes into exile"
+        },
+        {
+          "date": "1852",
+          "event": "Dies in Venice"
+        }
+      ],
+      "notableDecision": "At Salamanca on 22 July 1812, believing that Wellington would retire when his flank was threatened, he extended his left along the plateau to cut the road to Portugal; Wellington attacked the stretched line that afternoon.",
+      "setback": "Beaten and wounded at Salamanca, he left the army. In April 1814 he took his corps over to the Allies, an act Napoleon never forgave."
+    }
+  },
+  {
     "slug": "gebhard-leberecht-von-blucher",
     "name": "Gebhard Leberecht von Blücher",
     "years": "1742–1819",

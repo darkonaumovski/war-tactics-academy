@@ -1,7 +1,8 @@
 import type { LeadershipVolume, Source } from "../../lib/types";
 // Volume 5, written in reviewed batches (batch V1, the pilot, is lessons 0,
 // the record, 2, preparation, and 4, Salamanca; batch V2 is lessons 1, the
-// only army, 3, supply, and 5, the breach);
+// only army, 3, supply, and 5, the breach; batch V3 is lessons 6, subordinates,
+// 7, the soldiers, and 8, allies);
 // docs/LEADERSHIP_EVIDENCE_WELLINGTON.md records which sources can carry each
 // lesson, and docs/SOURCE_AUDIT.md how each was read. Gurwood's dispatches,
 // the recorded conversations and Oman were read as full texts from the
@@ -107,6 +108,47 @@ const s = {
       "Jennifer S. Lerner and Philip E. Tetlock, Accounting for the effects of accountability (1999), abstract",
     url: "https://pubmed.ncbi.nlm.nih.gov/10087938/",
     publisher: "Psychological Bulletin",
+  },
+  mcnatt: {
+    title:
+      "D. Brian McNatt, Ancient Pygmalion joins contemporary management: a meta-analysis of the result (2000), abstract",
+    url: "https://pubmed.ncbi.nlm.nih.gov/10783547/",
+    publisher: "Journal of Applied Psychology",
+  },
+  jussimHarber: {
+    title:
+      "Lee Jussim and Kent D. Harber, Teacher expectations and self-fulfilling prophecies: knowns and unknowns, resolved and unresolved controversies (2005), abstract",
+    url: "https://pubmed.ncbi.nlm.nih.gov/15869379/",
+    publisher: "Personality and Social Psychology Review",
+  },
+  fraser: {
+    title:
+      "Sir William Fraser, Words on Wellington: The Duke, Waterloo, the Ball (London: George Routledge, n.d.)",
+    url: "https://archive.org/details/wordsonwellingto00frasuoft",
+    publisher: toronto,
+  },
+  ndbGneisenau: {
+    title:
+      "Gneisenau, August Wilhelm Anton Graf Neidhardt von (Hermann Teske, Neue Deutsche Biographie 6, in German)",
+    url: "https://www.deutsche-biographie.de/sfz69918.html",
+    publisher: "Deutsche Biographie",
+  },
+  ndbBlucher: {
+    title:
+      "Blücher von Wahlstatt, Gebhard Leberecht Fürst (Hans Haussherr, Neue Deutsche Biographie 2, in German)",
+    url: "https://www.deutsche-biographie.de/sfz35354.html",
+    publisher: "Deutsche Biographie",
+  },
+  fondationSchwarzenberg: {
+    title: "Schwarzenberg, Karl Philip von",
+    url: "https://www.napoleon.org/en/history-of-the-two-empires/biographies/schwarzenberg-karl-philip-von/",
+    publisher: "Fondation Napoléon",
+  },
+  eb1911Schwarzenberg: {
+    title:
+      "Schwarzenberg, Karl Philipp, Prince zu, Encyclopædia Britannica, 11th ed., vol. 24 (1911)",
+    url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Schwarzenberg,_Karl_Philipp,_Prince_zu",
+    publisher: "Wikisource",
   },
   eb1911Waterloo: {
     title:
@@ -1573,7 +1615,734 @@ export const wellingtonVolume: LeadershipVolume = {
         s.corsican,
       ],
     },
+    {
+      slug: "a-short-leash",
+      title: "A short leash: subordinates he did not trust",
+      part: "People",
+      themes: ["organisation", "communication"],
+      claim:
+        "When a leader keeps close control over subordinates of uneven ability, errors of initiative become rarer, but only while the leader is there to decide, and subordinates who are given orders without reasons cannot act well when events outrun the orders.",
+      inBrief: {
+        strength:
+          "Detailed orders and personal supervision kept an uneven set of generals from wrecking his campaigns.",
+        shadow:
+          "Generals who did not know his reasons waited in the mud or stood still, and on the eve of Waterloo his second in command did not know his plans.",
+      },
+      moment: {
+        text: "On 18 November 1812, during the retreat from Burgos, three of Wellington’s divisional generals looked at the route he had ordered for them, which took their columns over fords in flooded fields, and judged it hopeless. Oman writes that they consulted together and turned off towards a bridge, which they found blocked by the Spanish army of Galicia. Wellington, not finding them on the road he had prescribed, rode out to look for them and came upon them waiting miserably in the mud. He is said, in the story Oman takes from Napier, to have given them no more rebuke than a sarcastic remark that he knew his own business best, and to have let them cross after the Spaniards, many hours late. Oman calls their insubordination inexcusable. He adds that it would not have been beneath Wellington’s dignity to have explained in the order that the main road was kept for the Spanish divisions, but that this was not his style: he was not prone to give subordinates his reasons, even when his orders looked inexplicable to them.",
+        evidence: "fact",
+        refs: [{ source: 3, locator: "pp. 151–152" }],
+      },
+      episodes: [
+        {
+          title: "Obey, and wait",
+          text: "The habit was there from the start of his Peninsular command. On 13 August 1809, a fortnight after Talavera, he wrote a memorandum about an officer whose name Gurwood’s edition leaves blank, who had given orders on his own authority about depots, marches and troops from Lisbon. The orders of the day before, Wellington wrote, contained a detailed plan for the defence of Portugal, founded on the supposition that each corps would be where it had been ordered, with provisions waiting for it. Now all of that was in doubt. The officer would see how important it was to obey strictly the orders he received, ‘and having obeyed them, that he should patiently wait for further orders’. He could not suppose that he was forgotten, or that headquarters had overlooked what he had taken upon himself to arrange; and he had involved himself in a very serious responsibility.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "pp. 36–37" }],
+          battleSlugs: ["talavera-1809"],
+        },
+        {
+          title: "The Coa, July 1810",
+          text: "Not every subordinate was held so close. General Craufurd, commanding the Light Division on the frontier, received suggestions rather than orders. On 22 July 1810, as Oman quotes the note, Wellington wrote that he was not desirous of an affair beyond the river Coa, and asked whether it would not be better to bring the infantry across it. Oman reads the tentative form as a mark of the confidence Wellington placed in Craufurd’s judgement, and says that this time it was misplaced: Craufurd stayed two more days outside Almeida with the river and its single bridge behind him, and on the 24th Ney’s whole corps attacked him. The division fought its way back across the bridge with heavy loss. Wellington’s dispatch to Lord Liverpool said that it had been desirable to keep open the communication with Almeida, but not intended to risk an affair or any loss for it, and that the enemy had approached too near before the retreat was made. It named no one and praised the regiments. To his relative Pole, Oman writes, he was franker: he had positively forbidden such affairs, and would not accuse a man who had meant well, if he was to be hanged for it, because the error was one of judgement, not of intention.",
+          evidence: "fact",
+          refs: [
+            { source: 2, locator: "pp. 258–259, 266" },
+            { source: 1, locator: "pp. 279–280" },
+          ],
+          battleSlugs: ["bussaco-torres-vedras-1810"],
+        },
+        {
+          title: "Vitoria: the column that waited",
+          text: "At Vitoria on 21 June 1813 Wellington gave the column that was to cross the middle of the river Zadorra to Lord Dalhousie, who outranked the experienced Picton. Oman calls it an extraordinary choice: Dalhousie had been only a few months in the Peninsula and had no experience of the higher responsibilities. His orders told him to regulate his movements by what was happening on his right and to move when it became evidently necessary to help the columns there. With two of his brigades held up on a mountain road, he used that discretion to wait for formal orders. Picton, an eyewitness recalled, rode up and down asking every aide-de-camp for orders and saying that Lord Wellington must have forgotten them. When an aide arrived with orders for Dalhousie instead, Picton told him that the 3rd Division would take the bridge in front of him in ten minutes, and led it across without waiting. Oman notes that neither Wellington’s nor Dalhousie’s dispatch hints at disapproval: complete success justified it.",
+          evidence: "fact",
+          refs: [{ source: 3, locator: "pp. 408–411" }],
+          battleSlugs: ["vitoria-1813"],
+        },
+        {
+          title: "The plans no one else knew",
+          text: "Sir William Fraser, in his Words on Wellington, tells a story of 17 June 1815 without saying where he heard it. Lord Uxbridge, commanding the cavalry and next in line to command if Wellington fell, told one of his brigadiers that he had no idea of the Duke’s plans and dared not ask. With the Spanish general Álava as go-between he went to Wellington, who heard him out and asked who would attack first the next day, he or Bonaparte. Bonaparte, said Uxbridge. Then, said Wellington, since Bonaparte had not told him his plans, and his own depended on them, how could Uxbridge expect him to say what his were? He ended by touching Uxbridge on the shoulder and saying that whatever happened, they would both do their duty. Fraser thinks the Duke’s careful mind must surely have provided for the case of his death, and repeats a rumour heard years before that a commission was found on Picton’s body. He gives no evidence for either.",
+          evidence: "fact",
+          refs: [{ source: 5, locator: "pp. 1–3" }],
+          battleSlugs: ["waterloo"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Wellington’s memorandum of 13 August 1809",
+          stake:
+            "A rebuke written to protect a plan that depended on everyone being where they were ordered; Gurwood printed it with the officer’s name left out.",
+          says: "Obey orders strictly, and having obeyed them, wait patiently for more.",
+          refs: [{ source: 0, locator: "pp. 36–37" }],
+        },
+        {
+          who: "Wellington to William Pole, July 1810, as Oman quotes it",
+          stake:
+            "A private letter to a relative, written while the public dispatch shielded the officer concerned.",
+          says: "He had forbidden Craufurd’s affairs, but would not accuse a man whose error was of judgement, not intention.",
+          refs: [{ source: 2, locator: "p. 266" }],
+        },
+        {
+          who: "Charles Oman",
+          stake:
+            "The British historian of the war, admiring of Wellington and of Craufurd, writing from both armies’ papers.",
+          says: "Wellington seldom gave his reasons; his generals’ disobedience in the retreat was inexcusable, but an explanation would have prevented it.",
+          refs: [{ source: 3, locator: "p. 152" }],
+        },
+        {
+          who: "Sir William Fraser",
+          stake:
+            "A Victorian collector of Wellington anecdotes, writing long after the Duke’s death, without naming his informant.",
+          says: "On the eve of Waterloo Wellington refused to tell Uxbridge his plans.",
+          refs: [{ source: 5, locator: "pp. 1–2" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "These cases are not a simple story of control against trust. Where Wellington held his generals close, as in 1809 and in the retreat of 1812, the trouble came from orders given without reasons: the officers could not tell which parts of the order mattered, so they either did nothing unbidden or improvised in the wrong direction. Where he trusted, as with Craufurd, the trouble came from the opposite side, a capable subordinate reading tentative advice as permission. What would have helped in both cases was the same thing, the intent behind the order. The Napoleon volume’s lesson on delegating the fight argues that delegation works when subordinates know that intent; this lesson shows a commander who could manage without sharing it most of the time, because he was nearly always there.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "pp. 36–37" },
+            { source: 3, locator: "p. 152" },
+            { source: 2, locator: "pp. 258–259" },
+          ],
+        },
+        {
+          text: "Judged by what he knew, close control was a reasonable answer to the generals he had. Dalhousie and the other newcomers had little experience, and the army’s rules of seniority gave them commands over men who had more. But the method had a limit he could not avoid: it made the army depend on his presence. At Vitoria the column he had given to the wrong man was saved by a subordinate who disobeyed the letter of his orders. In 1815, if Fraser’s story is true, the officer who would have succeeded him did not know his plan. A system that works because one man is everywhere fails at the one moment he is not.",
+          evidence: "interpretation",
+          refs: [
+            { source: 3, locator: "pp. 408–411" },
+            { source: 5, locator: "pp. 1–3" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Wellington’s reluctance to explain himself invites readings of temperament, secrecy or distrust, and the documents cannot decide between them. His answer to Uxbridge, if Fraser reports it accurately, gives a practical reason: his plans depended on the enemy’s. No research on delegation or on the effect of explained orders was read for this lesson, and it offers no mechanism.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered. Statements about why he withheld his reasons are interpretations by Oman and Fraser, not his own.",
+        },
+      ],
+      shadow: {
+        text: "Generals who are told only what to do learn to wait to be told. In 1809 Wellington had warned an officer that he could not suppose he was forgotten; at Vitoria Picton said exactly that, that Lord Wellington must have forgotten them. Blame followed the same line. In the letter of November 1812 explaining Burgos to Lord Liverpool, Wellington put the failure of the first escalade on the field officer who led it, who had paid no attention to orders read and explained to him twice and had fallen with many of his men; Gurwood printed the letter with the officer’s name left blank. The choice of inexperienced troops was Wellington’s, by his own admission in the same letter, and so, in Oman’s judgement, was the lack of guns.",
+        evidence: "interpretation",
+        refs: [
+          { source: 0, locator: "p. 36" },
+          { source: 3, locator: "p. 410" },
+          { source: 4, locator: "p. 566" },
+        ],
+        battleSlugs: ["vitoria-1813", "burgos-1812"],
+      },
+      counterCase: {
+        text: "Blücher’s headquarters in 1813–1815 worked the other way. Hans Haussherr, in the Neue Deutsche Biographie, writes that Blücher used to choose the boldest of the plans his chief of staff Gneisenau worked out for him and take responsibility for carrying it out, and that the shares of the commander and the chief of staff in the operations can never be clearly separated. The arrangement was tested at Ligny on 16 June 1815, when Blücher fell under his horse. Hermann Teske writes that Gneisenau, standing in for the injured Blücher, gave the order to retreat northwards on Wavre, acting, according to more recent research, entirely in Blücher’s sense. The Napoleon volume reads that partnership in its lesson on delegation. Here it is the contrast: a headquarters in which a second man knew the plan because he had largely made it could act when its commander fell, as Wellington’s, if Fraser is right, could not have done the next day.",
+        evidence: "interpretation",
+        refs: [{ source: 7 }, { source: 6 }],
+        commanderSlug: "gebhard-leberecht-von-blucher",
+        battleSlugs: ["ligny"],
+      },
+      cost: {
+        text: "Wellington’s dispatch on the Coa reports that the Light Division suffered considerable loss, and names Lieutenant-Colonel Hull, one of its commanding officers, among the dead. In the retreat from Burgos, the days around the generals’ detour, Oman writes, many men dropped to the rear and died of fatigue and hunger.",
+        evidence: "fact",
+        refs: [
+          { source: 1, locator: "p. 280" },
+          { source: 3, locator: "p. 151" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "Subordinates are new or uneven, and the leader can be present at the points that matter.",
+          "Orders carry their reasons, so that a subordinate who meets the unexpected knows what the order was for.",
+        ],
+        failsWhen: [
+          "The leader is absent, injured or killed, and no one else knows the plan.",
+          "Subordinates learn that initiative will be rebuked and failure blamed on them, and stop offering either.",
+        ],
+        questions: [
+          "If you were unavailable tomorrow, who would know what your current plan is for?",
+          "Which of your instructions would make sense to someone who did not know your reasons?",
+          "When a subordinate last disobeyed you and was right, what did you say about it?",
+        ],
+      },
+      bearsOn:
+        "Close control is caution applied to people. It protected the army from generals Wellington did not trust and made his own judgement the army’s judgement, which is part of why his campaigns could be both careful and sudden: no subordinate committed him to a fight he had not chosen. The price was a command that worked only while he was there, and officers who seldom learned his reasons. Caution here bought safety from subordinates’ mistakes at the cost of their initiative.",
+      questions: [
+        {
+          prompt:
+            "What did Wellington’s memorandum of 13 August 1809 require of the officer who had acted on his own?",
+          choices: [
+            "To use his own judgement when orders seemed wrong.",
+            "To obey strictly the orders he received, and then wait patiently for further orders.",
+            "To report directly to the government in London.",
+          ],
+          answer: 1,
+          explanation:
+            "The plan for the defence of Portugal depended on every corps being where it had been ordered.",
+        },
+        {
+          prompt:
+            "How did Wellington report the combat on the Coa to Lord Liverpool?",
+          choices: [
+            "He blamed Craufurd by name.",
+            "He said no affair had been intended, that the enemy came too near before the retreat, and praised the regiments without naming anyone at fault.",
+            "He did not report it.",
+          ],
+          answer: 1,
+          explanation:
+            "Privately, as Oman quotes him, he said he had forbidden such affairs but would not accuse a man whose error was one of judgement.",
+        },
+        {
+          prompt:
+            "Why, in Oman’s view, did three divisional generals leave their ordered route in November 1812?",
+          choices: [
+            "They had been bribed by the French.",
+            "They judged the route over flooded fords hopeless, and Wellington had not told them the main road was kept for the Spanish.",
+            "They were following Spanish orders.",
+          ],
+          answer: 1,
+          explanation:
+            "Oman calls the disobedience inexcusable, but notes that Wellington seldom gave his reasons.",
+        },
+      ],
+      sourceCheck: {
+        question: "Who was to blame for the combat on the Coa on 24 July 1810?",
+        witnesses: [
+          {
+            label: "Wellington’s dispatch to Liverpool, 25 July",
+            claim:
+              "No affair was intended; the enemy came too near before the retreat across the river. Names no one at fault.",
+          },
+          {
+            label: "Wellington to Pole, as Oman quotes it",
+            claim:
+              "He had positively forbidden such affairs, but would not accuse Craufurd, whose error was one of judgement.",
+          },
+          {
+            label: "Oman, 1908",
+            claim:
+              "Wellington’s advice was tentative, a mark of his confidence; Craufurd misused it, and Wellington was justly displeased.",
+          },
+        ],
+        prompt: "What do the three together show?",
+        options: [
+          {
+            text: "That the dispatch is false and should be ignored.",
+            feedback:
+              "It says nothing untrue; it leaves out the blame, which is a choice about what to report, not a falsehood.",
+          },
+          {
+            text: "That Wellington blamed Craufurd in private and protected him in public, and that his own tentative advice was part of the story.",
+            feedback:
+              "Public report and private letter differ in purpose, and Oman shows that the form of the order mattered too.",
+            best: true,
+          },
+          {
+            text: "That Craufurd was wholly to blame, since he disobeyed a clear order.",
+            feedback:
+              "Oman stresses that the note of 22 July was a suggestion rather than an order.",
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Wellington seldom gave his subordinates his reasons. Argue for and against that habit from three positions: Wellington, a divisional general such as Dalhousie, and a capable subordinate such as Craufurd or Picton.",
+        guidance:
+          "Use the memorandum of 1809, the Coa, the generals in the mud in 1812 and Vitoria. Then set Blücher and Gneisenau beside them, and ask what each system would have done if its commander had fallen.",
+      },
+      sources: [
+        s.gurwoodV,
+        s.gurwoodVI,
+        s.omanIII,
+        s.omanVI,
+        s.gurwoodIX,
+        s.fraser,
+        s.ndbGneisenau,
+        s.ndbBlucher,
+      ],
+    },
+    {
+      slug: "the-scum-of-the-earth",
+      title: "The scum of the earth: contempt and care",
+      part: "People",
+      themes: ["motivation", "ethics"],
+      claim:
+        "When a leader despises followers in words and still looks after them in practice, the care may keep them fighting, but the words are part of the record of how they were treated, and expectations held by those who command them may shape what they become.",
+      inBrief: {
+        strength:
+          "He fed, carried and doctored his army with close attention, and said the whole business depended on the private soldier.",
+        shadow:
+          "He called his soldiers the scum of the earth, kept flogging in reserve, and blamed their plunder on a system too soft to restrain them.",
+      },
+      moment: {
+        text: "On 2 July 1813, eleven days after Vitoria, Wellington sent Lord Bathurst a letter from the governor of Vitoria describing what British soldiers were doing in the neighbourhood. They were detachments sent back under officers the day after the battle to collect the wounded and their arms, and they were plundering. ‘It is quite impossible for me or any other man to command a British army under the existing system. We have in the service the scum of the earth as common soldiers; and of late years we have been doing every thing in our power, both by law and by publications, to relax the discipline by which alone such men can be kept in order.’ The officers of the lower ranks, he went on, would not do the duty needed to keep their men in order, and it was next to impossible to punish them; the non-commissioned officers were as bad as the men, and too near them in pay and situation. He had ordered a hospital set up on the march to receive the stragglers, and very few were in it: the others were plundering the country.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "pp. 495–496" }],
+      },
+      episodes: [
+        {
+          title: "The phrase, eighteen years later",
+          text: "Philip Henry Stanhope heard the phrase again in November 1831, when he asked the Duke about the difference between British and French soldiers. The French conscription, Wellington said, brought together a fair sample of all classes; the British army was composed of the scum of the earth, the mere scum of the earth. ‘It is only wonderful that we should be able to make so much out of them afterwards.’ The English soldiers had all enlisted for drink; that was the plain fact. In another conversation that Stanhope noted the same year he repeated it at greater length: some men enlisted because they had fathered children outside marriage, some for minor offences, many more for drink, and it was wonderful that they had been made the fine fellows they were. In the same talk he spoke strongly, Stanhope writes, for keeping a strong military punishment in reserve, if only to give force to the milder ones. Stanhope thought he meant flogging.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "pp. 13–14, 18" }],
+          battleSlugs: [],
+          campaignSlugs: ["peninsular-war"],
+        },
+        {
+          title: "Carts for the wounded",
+          text: "Care shows in the letters as logistics. After Talavera, when General Cuesta left the town and the British hospital behind, Wellington reported that a large part of his wounded had been brought away and the rest could not be moved under any circumstances, or consistently with humanity. He expected the French to treat them well, because of the treatment some of his own wounded had received from them and because he had always taken care of theirs; he could only lament that events beyond his control had obliged him to leave any behind. A few days later he told the Marquis Wellesley that if the army had to move it would have to leave behind most of its little ammunition, because he had given all the Portuguese carts that carried it to move the wounded, and could find no other transport in the country.",
+          evidence: "fact",
+          refs: [{ source: 2, locator: "pp. 6–8, 36" }],
+          battleSlugs: ["talavera-1809"],
+        },
+        {
+          title: "‘That article’",
+          text: "A few weeks before Waterloo, Thomas Creevey met Wellington walking in the park at Brussels and asked him what he thought he would make of the coming campaign. ‘By God! I think Blucher and myself can do the thing,’ Creevey reports him saying. He expected no desertions from Napoleon’s army and wanted no help from the French king’s troops. Then, seeing a British infantryman come into the park and gape at the statues, he pointed at him. ‘There, it all depends upon that article whether we do the business or not. Give me enough of it, and I am sure.’ A week or so later, Creevey adds, watching three Hanoverian regiments pass in review, he called them very good troops, or troops that would be so once he had good officers in them.",
+          evidence: "fact",
+          refs: [{ source: 3, locator: "vol. I, pp. 228–229" }],
+          battleSlugs: ["waterloo"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Wellington to Bathurst, 2 July 1813",
+          stake:
+            "A letter to the Secretary of State arguing against the relaxing of military discipline, written in anger after the plunder that followed Vitoria.",
+          says: "The common soldiers are the scum of the earth, and only discipline, which the law is weakening, can keep them in order.",
+          refs: [{ source: 0, locator: "pp. 495–496" }],
+        },
+        {
+          who: "Philip Henry Stanhope",
+          stake:
+            "A young friend writing down the Duke’s conversation in 1831, published long after both were dead.",
+          says: "The Duke repeated the phrase, and added that it was wonderful what had been made of such men.",
+          refs: [{ source: 1, locator: "pp. 13–14, 18" }],
+        },
+        {
+          who: "Thomas Creevey",
+          stake:
+            "An English politician in Brussels, writing up a conversation of 1815 for his own record.",
+          says: "Wellington said that the outcome depended on the private soldier.",
+          refs: [{ source: 3, locator: "vol. I, p. 228" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Read in context, the letter of 1813 is less a description of soldiers than an argument about a system. Its targets are the law and the press that were softening punishment, the junior officers who would not supervise their men, and the regulations that put sergeants too close to privates. Its occasion is plunder after a victory, by men sent to collect the wounded. The phrase that became famous is one clause in a minister’s brief. Stanhope’s versions of 1831 make the same argument in conversation and add what the letter leaves out: that the army had turned such recruits into fine soldiers, which is a claim about the officers and the system as much as about the men.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "pp. 495–496" },
+            { source: 1, locator: "pp. 13–14, 18" },
+          ],
+        },
+        {
+          text: "The care has the same logic. The supply lesson read his view that a starving army plunders and loses its spirit, and the carts given to the wounded after Talavera, at the cost of most of his ammunition, show him paying for his men’s survival with his army’s fighting power. Neither the contempt nor the care was sentimental. Both treated the soldier as the instrument on which everything depended, ‘that article’ in Creevey’s report, to be kept fed, carried, supervised and, if need be, punished. Whether soldiers felt that care as care cannot be read from his letters; it would need their own memoirs, which this lesson has not read.",
+          evidence: "interpretation",
+          refs: [
+            { source: 2, locator: "pp. 8, 36" },
+            { source: 3, locator: "vol. I, p. 228" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Expectation effects",
+          base: "contested",
+          text: "Research on expectation effects asks whether what leaders expect of people changes how they perform. McNatt’s meta-analysis of studies in management settings, read here in its abstract, found effects that could be fairly strong but varied widely, and were stronger in the military, among men, and for people of whom little was expected at first. Jussim and Harber’s review of classroom research, also read in its abstract, found such effects typically small, not accumulating over time, and found that expectations often predict outcomes because they are accurate rather than because they fulfil themselves. Wellington’s case fits neither neatly. His low expectations were stated in private, to ministers and friends, not to his soldiers; the people who might have carried them to the men were the officers, whom he also expected little of. The research suggests a question, what the officers expected of their men, that his letters do not answer.",
+          evidence: "interpretation",
+          refs: [{ source: 4 }, { source: 5 }],
+          limit:
+            "Abstracts only. The studies mostly test interventions that raise expectations, not contempt expressed in private, and the field disagrees about how large and lasting the effects are. Nothing here shows that Wellington’s words affected any soldier.",
+        },
+      ],
+      shadow: {
+        text: "The words are part of the record of how these men were treated, and the record is harsh. He argued for a strong punishment kept in reserve, which Stanhope took to mean flogging, called his soldiers the scum of the earth to a minister and to his friends, and blamed their plunder on the men, their officers and the law, never on any decision of his own. The lesson on the breach showed discipline breaking after every storm and retreat, and Wellington’s own letters putting the fault on regimental officers. Care and contempt existed side by side. The phrase has outlived both, usually without the letter it came from or Stanhope’s next sentence.",
+        evidence: "interpretation",
+        refs: [
+          { source: 0, locator: "pp. 495–496" },
+          { source: 1, locator: "pp. 14, 18" },
+        ],
+        battleSlugs: ["vitoria-1813"],
+      },
+      counterCase: {
+        text: "Napoleon spoke to his soldiers in the opposite register. The Napoleon volume’s lesson on recognition reads his proclamations, decorations and public praise; at Acre, in Johnston’s arrangement of his words, he ordered a medal in honour of Junot’s small force after its stand at Nazareth. Wellington was unimpressed. Asked by Stanhope whether British and French soldiers differed in how speeches and proclamations moved them, he said very little: the French proclamations were seen far more in the newspapers than by the soldiers, and were meant for Paris, and no speech could be heard by more than a small crowd. Giving an eagle was much the same as giving colours; one always said something then. The contrast is not that one leader valued soldiers and the other did not. Napoleon praised in public and spent his armies freely; Wellington disparaged in private and husbanded his. Neither the words nor the care alone tells the reader how soldiers were treated.",
+        evidence: "interpretation",
+        refs: [
+          { source: 6, locator: "p. 96" },
+          { source: 1, locator: "pp. 13–14" },
+        ],
+        commanderSlug: "napoleon-bonaparte",
+        battleSlugs: ["acre"],
+      },
+      cost: {
+        text: "After Talavera, Wellington reported, the wounded who could not be moved were left in the town when the Spanish army marched away, to be cared for by the French. After Vitoria, he wrote, the men who had left the ranks to plunder far outnumbered those who came into the hospital he set up for stragglers.",
+        evidence: "fact",
+        refs: [
+          { source: 2, locator: "p. 8" },
+          { source: 0, locator: "p. 496" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "Care is practical and visible to the people it serves: food, transport, medical attention.",
+          "The leader’s view of followers is stated where it cannot reach them, and the people who do command them expect more.",
+        ],
+        failsWhen: [
+          "Contempt reaches the followers through their immediate superiors, or becomes the excuse for failures of the system.",
+          "Care is offered only because it keeps the instrument working, and stops when it no longer does.",
+        ],
+        questions: [
+          "What do you say about the people you lead when they cannot hear you, and who repeats it?",
+          "Which of your failures have you blamed on the quality of your people rather than on the system they work in?",
+          "What does your care for your people cost you, and when would you stop paying it?",
+        ],
+      },
+      bearsOn:
+        "Contempt and care were both forms of caution. He expected the worst of his soldiers, and so took no risks with their food, their discipline or their supervision; and because the army could not be replaced, he paid for its survival in carts and hospitals. The volume’s question gets a darker answer here. A commander who believed his men would plunder at the first chance built a system to restrain them, and the system failed at exactly the moments of victory when it was needed most.",
+      questions: [
+        {
+          prompt:
+            "What was the occasion of Wellington’s letter of 2 July 1813 calling his soldiers the scum of the earth?",
+          choices: [
+            "A mutiny in the Guards.",
+            "Plunder by soldiers sent back after Vitoria to collect the wounded, and his argument that discipline was being relaxed by law and the press.",
+            "A defeat in the Pyrenees.",
+          ],
+          answer: 1,
+          explanation:
+            "The phrase is one clause in an argument to the Secretary of State about the system of discipline.",
+        },
+        {
+          prompt:
+            "What did Wellington add to the phrase when Stanhope recorded it in 1831?",
+          choices: [
+            "That the men could never be made into soldiers.",
+            "That it was wonderful the army had made such men into the fine fellows they were.",
+            "That he regretted ever saying it.",
+          ],
+          answer: 1,
+          explanation:
+            "Stanhope records the phrase twice, each time with the claim that much had been made of the men.",
+        },
+        {
+          prompt:
+            "What did Wellington give up to move his wounded after Talavera?",
+          choices: [
+            "His cavalry horses.",
+            "The Portuguese carts that carried his ammunition, so that most of it would have to be left if the army moved.",
+            "His own headquarters baggage.",
+          ],
+          answer: 1,
+          explanation:
+            "He told the Marquis Wellesley so, adding that no other transport could be found in the country.",
+        },
+      ],
+      sourceCheck: {
+        question: "What did Wellington think of his soldiers?",
+        witnesses: [
+          {
+            label: "To Bathurst, 2 July 1813",
+            claim:
+              "The scum of the earth, kept in order only by a discipline that the law and the press are weakening.",
+          },
+          {
+            label: "Stanhope’s record, November 1831",
+            claim:
+              "The scum of the earth, enlisted for drink; and it is wonderful what has been made of them.",
+          },
+          {
+            label: "Creevey’s record, Brussels 1815",
+            claim:
+              "Everything depends on the private soldier: give him enough of them and he is sure of success.",
+          },
+        ],
+        prompt: "Which reading uses all three best?",
+        options: [
+          {
+            text: "He despised them; the phrase settles it.",
+            feedback:
+              "The phrase is real, but both the letter and Stanhope’s record set it inside an argument about discipline and what training had made of the men.",
+          },
+          {
+            text: "He admired them; Creevey shows his real view.",
+            feedback:
+              "Creevey records dependence and confidence, not admiration, and the other two witnesses are not cancelled by it.",
+          },
+          {
+            text: "He thought poorly of the men who enlisted, depended entirely on what the army made of them, and believed only hard discipline held them; the witnesses agree more than the phrase suggests.",
+            feedback:
+              "Each source adds a part, and none of them is the soldiers’ own view, which needs other evidence.",
+            best: true,
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Can a leader be judged by what they say about their followers in private, if what they do for them is good? Argue it from the position of Wellington, of a soldier who later read the letter of 1813, and of the people of the Spanish villages the stragglers plundered.",
+        guidance:
+          "Use the letter to Bathurst, Stanhope’s two records, the carts given to the wounded after Talavera and Creevey’s ‘that article’. Then bring in Napoleon’s opposite style, and the expectation research with its limits.",
+      },
+      sources: [
+        s.gurwoodX,
+        s.stanhope,
+        s.gurwoodV,
+        s.creevey,
+        s.mcnatt,
+        s.jussimHarber,
+        s.corsican,
+      ],
+    },
+    {
+      slug: "allies-he-could-not-command",
+      title: "Allies he could not command: coalition without authority",
+      part: "People",
+      themes: ["communication", "judgement"],
+      people: ["august-von-gneisenau"],
+      claim:
+        "When a leader must fight beside allies he cannot command, cooperation depends less on promises than on what each side can see the other doing, and a grant of authority from an allied government is worth only as much as that government will honour.",
+      inBrief: {
+        strength:
+          "He made the Portuguese army part of his own, and in 1815 the alliance with the Prussians held through a lost battle.",
+        shadow:
+          "He trusted Cuesta once and never again, blamed Spanish troops for failures that were partly his, and lost Castilian goodwill when he left Ciudad Rodrigo to fall.",
+      },
+      moment: {
+        text: "On the evening of 3 August 1809, a week after Talavera, Wellington was marching west to meet a French corps coming down on his line of retreat when he learned that General Cuesta meant to leave Talavera that night with the Spanish army. Cuesta would leave behind the British hospital, except the men he could move with the means he had, because he feared the British were not strong enough for the French coming from Plasencia and that the enemy was on his own flank. Wellington wrote that these reasons did not seem sufficient for giving up so important a post, exposing both armies to attack front and rear, and abandoning his hospital; the letter arrived after Cuesta had marched. In a private letter to Lord Castlereagh he hoped his public dispatch would clear him of all blame in ministers’ eyes, ‘excepting that of having trusted the Spanish General in any thing’.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "pp. 6–8" }],
+      },
+      episodes: [
+        {
+          title: "An allied army inside his own",
+          text: "The Portuguese army was the alliance he could shape. Oman writes that in the spring of 1810 Wellington brought five Portuguese brigades up to the frontier and placed two of them inside British divisions, a system he afterwards extended to nearly all the Portuguese units. At Bussaco that September, he told Lord Liverpool, the stand on the ridge had brought the Portuguese levies into action for the first time in an advantageous position, and they had proved worthy of fighting in the same ranks as British troops. The French offered the Portuguese another reading. Masséna’s proclamation, which Gurwood printed after Wellington’s own, told them that Britain risked nothing, used their battalions as a rampart as if their blood counted for nothing, and would abandon them when it suited her; had the British fired a single shot to help Ciudad Rodrigo? On the day he sent the Bussaco dispatch, Wellington told Charles Stuart that if the Portuguese troops had to be embarked, they must go in the same kind of ships as the British army, and in nothing less.",
+          evidence: "fact",
+          refs: [
+            { source: 3, locator: "p. 243" },
+            { source: 1, locator: "pp. 309–311, 449, 451–452" },
+          ],
+          battleSlugs: ["bussaco-torres-vedras-1810"],
+        },
+        {
+          title: "Command on conditions",
+          text: "In 1812 the Spanish government and Cortes gave Wellington the command of the Spanish armies. On 25 December, at Cadiz, he told the Minister of War, Don J. de Carvajal, that he could not do the duties it imposed without powers, and that if the government would not trust him with them he would give the command up. He named four: promotions and appointments to command only on his recommendation; the power to dismiss officers; the application of the state’s military resources as he recommended; and a chief of staff at his headquarters through whom all reports and orders would pass. Whatever they decided, he added, he would go on helping whoever commanded the Spanish forces. The engagements were made and, he wrote six months later, broken. On 2 July 1813 he protested to Juan O’Donojú, who had sent him the Regency’s decisions, that the Regency had recalled General Castaños and removed General Girón without trial or cause, in breach of the engagements that alone had induced him to accept the command; this was not the first time, and he felt himself most unworthily treated, even as a gentleman.",
+          evidence: "fact",
+          refs: [{ source: 2, locator: "pp. 1–4, 492–494" }],
+          battleSlugs: ["vitoria-1813"],
+        },
+        {
+          title: "1815: an alliance that held after a defeat",
+          text: "In 1815 the two allied armies in Belgium answered to different commanders. Haussherr writes that Blücher accepted battle at Ligny on 16 June trusting in Wellington’s promised support, and was beaten. Creevey learned in Brussels the next night that communication between the two armies had been cut and that Wellington had fallen back. What decided the next day was a choice made in the Prussian headquarters. Teske writes that Gneisenau, standing in for the injured Blücher, ordered the retreat northwards on Wavre, not back towards Prussia’s own communications. Hardinge, a British officer who had lost an arm at Ligny and lay that night in Blücher’s anteroom, told Stanhope in 1837 that he had heard there was a great argument, in which Blücher and Grolmann carried the day for keeping in touch with the British, while Gneisenau doubted, fearing that if the British were beaten the Prussians would be destroyed. Wellington, for his part, told Stanhope that his first act on the 17th was to send an officer with cavalry to find out what had become of the Prussians. The Waterloo study and the Napoleon volume read the battle that followed.",
+          evidence: "fact",
+          refs: [
+            { source: 7 },
+            { source: 4, locator: "vol. I, p. 231" },
+            { source: 6 },
+            { source: 5, locator: "pp. 109–110" },
+          ],
+          battleSlugs: ["ligny", "waterloo"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Wellington’s letters to ministers and allies",
+          stake:
+            "Written by a commander justifying a withdrawal, demanding powers or protesting a breach, to readers who could check some of it.",
+          says: "Allies he could not command failed him, and an allied command was worth having only with the powers to exercise it.",
+          refs: [
+            { source: 0, locator: "pp. 6–8" },
+            { source: 2, locator: "pp. 1–4, 492–494" },
+          ],
+        },
+        {
+          who: "Marshal Masséna’s proclamation to the Portuguese, 1810",
+          stake:
+            "Enemy propaganda, printed by Gurwood in its original French beside Wellington’s proclamation.",
+          says: "Britain risks nothing, shelters behind Portuguese battalions and will abandon them.",
+          refs: [{ source: 1, locator: "pp. 309–311" }],
+        },
+        {
+          who: "Hardinge, as Stanhope records him in 1837",
+          stake:
+            "A British officer wounded at Ligny and lying at Prussian headquarters that night, recalling twenty-two years later what he had been told there.",
+          says: "Blücher and Grolmann overruled Gneisenau’s doubts and kept the Prussian army in touch with the British.",
+          refs: [{ source: 5, locator: "pp. 109–110" }],
+        },
+        {
+          who: "Hermann Teske, Neue Deutsche Biographie",
+          stake:
+            "A German historian writing Gneisenau’s entry in the national biography in 1964.",
+          says: "Gneisenau gave the order to retreat on Wavre, acting entirely in Blücher’s sense.",
+          refs: [{ source: 6 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "The record suggests a rule of thumb that Wellington followed without stating it: rely on what you can see and shape. Cuesta’s army he could neither see into nor direct, and after Talavera he refused to operate with it again. The Portuguese army he could train, inspect and place inside his own divisions, and he came to rely on it. The Spanish armies he accepted to command only with the powers to appoint, dismiss and pay; when the Regency removed generals behind his back, his protest was about exactly that loss of sight and control. The judgement about Cuesta should be held with care. His reasons for leaving Talavera reach us only through Wellington’s letter, and they were not absurd: a French corps was on the British line of retreat.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "pp. 6–8" },
+            { source: 3, locator: "p. 243" },
+            { source: 2, locator: "pp. 1–4" },
+          ],
+        },
+        {
+          text: "In 1815 the alliance held for the opposite reason: neither commander could see the other, and both acted to restore contact. Wellington sent cavalry to find the Prussians; the Prussian headquarters chose a line of retreat that kept them within reach of the British. The accounts of who in that headquarters made the choice differ, Hardinge giving the credit to Blücher and Grolmann over Gneisenau’s doubts, Teske to Gneisenau acting in Blücher’s spirit, and neither was written by someone in the room for the whole night. What they agree on is the decision. The comparison page sets this beside the coalitions of the other volumes, under the problem of allies and coalitions.",
+          evidence: "interpretation",
+          refs: [
+            { source: 5, locator: "pp. 109–110" },
+            { source: 6 },
+            { source: 7 },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Coalitions invite explanations from research on trust, on in-groups and out-groups, and on cooperation without enforcement. None was read for this lesson. The documents show behaviour that needs no mechanism to describe: commitments made in writing, broken or kept, and armies sending officers to find out what their allies were doing.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered. Statements about what Wellington or his allies felt are drawn from their own letters and from recorders with interests of their own.",
+        },
+      ],
+      shadow: {
+        text: "Wellington’s letters are hard on his allies and easy on himself. In August 1809 he wrote of the constant and shameful misbehaviour of the Spanish troops; the earlier lesson on the only army showed him leaving Ciudad Rodrigo to fall in 1810, and on 25 July of that year he told Liverpool that the people of Castile were not satisfied with the British nation because no effort had been made to raise the siege, and had stopped sending intelligence. Masséna’s proclamation to the Portuguese turned the same fact into propaganda. No Spanish account of Talavera, of Cuesta or of the command of 1812–1813 was read for this lesson, so the Spanish side of these quarrels appears only in Wellington’s summaries of it, and in a French enemy’s.",
+        evidence: "interpretation",
+        refs: [
+          { source: 0, locator: "p. 80" },
+          { source: 1, locator: "pp. 282, 310–311" },
+        ],
+        battleSlugs: ["talavera-1809", "bussaco-torres-vedras-1810"],
+      },
+      counterCase: {
+        text: "Schwarzenberg held the formal command Wellington lacked at Talavera and lost in Spain. The Fondation Napoléon writes that he was named commander-in-chief of the allied armies in 1813, and that the number of troops and generals and their frequent inability to work together made his task extremely difficult; his tactics stayed cautious, and he wore Napoleon down before meeting him at Leipzig. The 1911 Britannica adds that critics called him timid beside the fiery Blücher, and answers that his army was nearly all the force Austria could put into the field, so that his caution served Vienna’s policy as much as any strategy. That was the charge Masséna made against Britain in 1810: an ally whose caution protected its own army at its partners’ expense. A coalition commander’s caution is always open to that reading, whether he holds the title of command or not.",
+        evidence: "interpretation",
+        refs: [{ source: 8 }, { source: 9 }],
+        commanderSlug: "karl-philipp-schwarzenberg",
+        battleSlugs: ["leipzig"],
+      },
+      cost: {
+        text: "When Cuesta left Talavera, the British wounded who could not be moved were left in the town for the French. At Ligny, Haussherr writes, Blücher himself fell under his horse in the defeat that preceded Waterloo.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "pp. 6–8" }, { source: 7 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "Each partner can see what the other is doing, and takes the trouble to find out when it cannot.",
+          "Authority granted by an ally comes with powers set down in writing, and the leader is ready to give it up if they are withdrawn.",
+        ],
+        failsWhen: [
+          "One partner’s caution protects its own resources at the others’ expense, and they can see it.",
+          "The record of the partnership is kept by one side only, and its failures are always the other side’s.",
+        ],
+        questions: [
+          "Which of your partners can you actually see at work, and which do you know only from their promises?",
+          "What powers would you need before accepting responsibility for someone else’s people?",
+          "How would your partners tell the story of your last joint failure?",
+        ],
+      },
+      bearsOn:
+        "Caution towards allies was the hardest kind to tell from bad faith. Refusing to fight beside Cuesta again, leaving Ciudad Rodrigo, demanding powers before commanding the Spanish: each was defensible, and each looked to the people on the other side like Britain protecting its one army at their expense, as Masséna said aloud. Where he could see and shape an ally, as with the Portuguese, his caution became investment. In 1815, when two allied commanders could not see each other, the bold choice was made by the Prussians, and it was the one that made Waterloo possible.",
+      questions: [
+        {
+          prompt:
+            "What did Wellington say, in his private letter to Castlereagh, was the only thing he could be blamed for after Talavera?",
+          choices: [
+            "Fighting the battle at all.",
+            "Having trusted the Spanish general in anything.",
+            "Leaving his own wounded behind on purpose.",
+          ],
+          answer: 1,
+          explanation:
+            "Cuesta had left Talavera and the British hospital on his own judgement.",
+        },
+        {
+          prompt:
+            "What did Wellington require before keeping the command of the Spanish armies in December 1812?",
+          choices: [
+            "A Spanish title and estates.",
+            "Powers over promotions and dismissals, the use of military resources, and a chief of staff through whom all reports passed.",
+            "The right to choose Spain’s Regency.",
+          ],
+          answer: 1,
+          explanation:
+            "His letter to Carvajal lists four conditions and offers to resign the command if they are refused.",
+        },
+        {
+          prompt:
+            "What did Masséna’s proclamation of 1810 tell the Portuguese about their British allies?",
+          choices: [
+            "That the British would fight to the last man for Portugal.",
+            "That Britain risked nothing, sheltered behind Portuguese battalions and would abandon them when it suited her.",
+            "That the British had already left.",
+          ],
+          answer: 1,
+          explanation:
+            "Gurwood printed it after Wellington’s proclamation; it cites Ciudad Rodrigo as proof.",
+        },
+      ],
+      sourceCheck: {
+        question:
+          "Who decided that the Prussian army would retreat towards Wavre after Ligny?",
+        witnesses: [
+          {
+            label: "Hermann Teske, Neue Deutsche Biographie",
+            claim:
+              "Gneisenau gave the order, standing in for the injured Blücher, and acted in Blücher’s sense.",
+          },
+          {
+            label: "Hardinge, as Stanhope records him in 1837",
+            claim:
+              "There was a great argument that night; Blücher and Grolmann carried the day for keeping in touch with the British, against Gneisenau’s doubts.",
+          },
+          {
+            label: "Hans Haussherr, Neue Deutsche Biographie",
+            claim:
+              "Gneisenau gave the famous order not to retreat towards the Rhine, and so Blücher could intervene at Waterloo in time.",
+          },
+        ],
+        prompt: "How should a reader handle the disagreement?",
+        options: [
+          {
+            text: "Prefer Hardinge, because he was there.",
+            feedback:
+              "He was in the anteroom, wounded, and says he was told of the argument; he recalled it twenty-two years later to a third person.",
+          },
+          {
+            text: "Prefer the German historians, because they had the archives.",
+            feedback:
+              "Teske himself rests on more recent research, and none of the three accounts was written by someone present at the whole discussion.",
+          },
+          {
+            text: "Separate the order, which all agree Gneisenau issued towards Wavre, from the argument behind it, on which the witnesses differ.",
+            feedback:
+              "The decision is secure; who argued for it and how hard is not, and the lesson should say so.",
+            best: true,
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Wellington refused to operate with Cuesta after Talavera, integrated the Portuguese into his army, and demanded powers before commanding the Spanish. Argue whether this was sound coalition practice or a habit of trusting only what he controlled.",
+        guidance:
+          "Use the letters on Talavera, the Bussaco dispatch and the letter to Stuart on the Portuguese, the letters to Carvajal and O’Donojú, and Masséna’s proclamation as the enemy’s reading. Then set 1815 and Schwarzenberg beside them.",
+      },
+      sources: [
+        s.gurwoodV,
+        s.gurwoodVI,
+        s.gurwoodX,
+        s.omanIII,
+        s.creevey,
+        s.stanhope,
+        s.ndbGneisenau,
+        s.ndbBlucher,
+        s.fondationSchwarzenberg,
+        s.eb1911Schwarzenberg,
+      ],
+    },
   ],
   inProgress:
-    "This volume is being written. Six of its twelve lessons are published, and the rest are added in reviewed batches.",
+    "This volume is being written. Nine of its twelve lessons are published, and the rest are added in reviewed batches.",
 };

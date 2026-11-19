@@ -261,6 +261,9 @@ describe("the Wellington volume", () => {
       "the-commissariat",
       "the-afternoon-at-salamanca",
       "the-breach",
+      "a-short-leash",
+      "the-scum-of-the-earth",
+      "allies-he-could-not-command",
     ]);
   });
 });

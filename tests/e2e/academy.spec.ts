@@ -589,7 +589,7 @@ test("the Wellington volume lists its lessons so far", async ({ page }) => {
   await expect(
     page.getByRole("heading", { name: "A volume in progress" }),
   ).toBeVisible();
-  await expect(page.getByRole("table").getByRole("row")).toHaveCount(7);
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(10);
   await page.goto("/commanders/arthur-wellesley");
   await expect(
     page.getByRole("link", { name: /Leadership Lessons from Wellington/ }),

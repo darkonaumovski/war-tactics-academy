@@ -320,6 +320,9 @@ describe("problems compared across volumes", () => {
         (p) => p.slug,
       ),
     ).toEqual(["dissent", "stopping"]);
+    expect(
+      problemsForLesson("arthur-wellesley", "the-only-army").map((p) => p.slug),
+    ).toEqual(["irreplaceable"]);
   });
 });
 

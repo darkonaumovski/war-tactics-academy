@@ -186,6 +186,17 @@ const s = {
     url: "https://archive.org/details/dli.ernet.236034",
     publisher: "Internet Archive (Digital Library of India)",
   },
+  longford: {
+    title:
+      "Arthur Wellesley, 1st duke of Wellington — Elizabeth Pakenham, Countess of Longford",
+    url: "https://www.britannica.com/biography/Arthur-Wellesley-1st-Duke-of-Wellington",
+    publisher: "Encyclopaedia Britannica",
+  },
+  namWellington: {
+    title: "Wellington: The Iron Duke",
+    url: "https://www.nam.ac.uk/explore/duke-wellington",
+    publisher: "National Army Museum",
+  },
   eb1911Wellington: {
     title:
       "Wellington, Arthur Wellesley, 1st Duke of, Encyclopædia Britannica, 11th ed., vol. 28 (1911)",
@@ -2882,9 +2893,14 @@ export const wellingtonVolume: LeadershipVolume = {
         },
         {
           title: "What he left",
-          text: "The 1911 Britannica’s verdict on the man is cooler than its verdict on the general. He disciplined his army and won it victories, it says, but he was cold and punctilious and never won the affection of officers and men as Marlborough and Napoleon had; he inspired few disciples outside his own staff, and his harsh condemnation of the army’s conduct in the retreat from Burgos was bitterly resented. Of all generals, it adds, he was the last to waste a single trained man. The legend grew anyway. Four years after his death the French writer Montalembert had him exclaim, on a visit to Eton in old age, that Waterloo had been won there; the first lesson of this volume showed that the story has no witness and no date. The ledger of his reputation was written largely by others, as he had foreseen when he compared the history of a battle to the history of a ball.",
+          text: "The 1911 Britannica’s verdict on the man is cooler than its verdict on the general. He disciplined his army and won it victories, it says, but he was cold and punctilious and never won the affection of officers and men as Marlborough and Napoleon had; he inspired few disciples outside his own staff, and his harsh condemnation of the army’s conduct in the retreat from Burgos was bitterly resented. Of all generals, it adds, he was the last to waste a single trained man. Elizabeth Longford, in Britannica’s modern biography, adds a judgement on what he left the army itself: he made a mistake, she writes, in keeping its chief command through his last ten years, because by then he was past starting the reforms it would later badly need, and the National Army Museum says that as commander-in-chief he proved resistant to military reform. The legend grew anyway. Four years after his death the French writer Montalembert had him exclaim, on a visit to Eton in old age, that Waterloo had been won there; the first lesson of this volume showed that the story has no witness and no date. The ledger of his reputation was written largely by others, as he had foreseen when he compared the history of a battle to the history of a ball.",
           evidence: "fact",
-          refs: [{ source: 1 }, { source: 4, locator: "p. 145" }],
+          refs: [
+            { source: 1 },
+            { source: 9 },
+            { source: 10 },
+            { source: 4, locator: "p. 145" },
+          ],
           battleSlugs: [],
           campaignSlugs: ["peninsular-war"],
         },
@@ -3073,6 +3089,8 @@ export const wellingtonVolume: LeadershipVolume = {
         s.namMarlborough,
         s.croker,
         s.doresCosta,
+        s.longford,
+        s.namWellington,
       ],
     },
   ],

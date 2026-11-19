@@ -2,7 +2,8 @@ import type { LeadershipVolume, Source } from "../../lib/types";
 // Volume 5, written in reviewed batches (batch V1, the pilot, is lessons 0,
 // the record, 2, preparation, and 4, Salamanca; batch V2 is lessons 1, the
 // only army, 3, supply, and 5, the breach; batch V3 is lessons 6, subordinates,
-// 7, the soldiers, and 8, allies);
+// 7, the soldiers, and 8, allies; batch V4 is lessons 9, the government at
+// home, 10, the empty country, and 11, the ledger);
 // docs/LEADERSHIP_EVIDENCE_WELLINGTON.md records which sources can carry each
 // lesson, and docs/SOURCE_AUDIT.md how each was read. Gurwood's dispatches,
 // the recorded conversations and Oman were read as full texts from the
@@ -149,6 +150,52 @@ const s = {
       "Schwarzenberg, Karl Philipp, Prince zu, Encyclopædia Britannica, 11th ed., vol. 24 (1911)",
     url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Schwarzenberg,_Karl_Philipp,_Prince_zu",
     publisher: "Wikisource",
+  },
+  gurwoodIVnew: {
+    title:
+      "The Dispatches of Field Marshal the Duke of Wellington, comp. John Gurwood, new ed., vol. IV (London: John Murray, 1837)",
+    url: "https://archive.org/details/dukedispatches04welluoft",
+    publisher: toronto,
+  },
+  omanIV: {
+    title:
+      "Charles Oman, A History of the Peninsular War, vol. IV: December 1810–December 1811 (Oxford: Clarendon Press, 1911)",
+    url: "https://archive.org/details/historyofpeninsu04oman",
+    publisher: toronto,
+  },
+  doresCosta: {
+    title:
+      "Fernando Dores Costa, “A invasão de Masséna em 1810 e as linhas de Torres Vedras: uma paradoxal confluência de objectivos?”, Ler História 58 (2010), pp. 115–135, in Portuguese",
+    url: "https://journals.openedition.org/lerhistoria/1195",
+    publisher: "OpenEdition Journals",
+  },
+  lopes: {
+    title:
+      "Leonídio Paulo Ferreira, “Nunca mais a população portuguesa voltou a sofrer tanto como na terceira invasão francesa”, interview with the historian Maria Antónia Lopes, Diário de Notícias, 3 May 2021, in Portuguese",
+    url: "https://www.dn.pt/sociedade/-nunca-mais-a-populacao-portuguesa-voltou-a-sofrer-tanto-como-na-terceira-invasao-francesa--13680540.html",
+    publisher: "Diário de Notícias",
+  },
+  fondationKutuzov: {
+    title: "KUTUZOV, Mikhail Illarionovich Golenishchev (biography)",
+    url: "https://www.napoleon.org/en/history-of-the-two-empires/biographies/kutuzov-mikhail-illarionovich-golenishchev/",
+    publisher: "Fondation Napoléon",
+  },
+  sardesai: {
+    title:
+      "Govind Sakharam Sardesai, New History of the Marathas, vol. III: Sunset over Maharashtra, 1772–1848 (Bombay: Phoenix Publications, 1948)",
+    url: "https://archive.org/details/dli.ernet.236034",
+    publisher: "Internet Archive (Digital Library of India)",
+  },
+  eb1911Wellington: {
+    title:
+      "Wellington, Arthur Wellesley, 1st Duke of, Encyclopædia Britannica, 11th ed., vol. 28 (1911)",
+    url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Wellington,_Arthur_Wellesley,_1st_Duke_of",
+    publisher: "Wikisource",
+  },
+  namMarlborough: {
+    title: "The Duke of Marlborough: Corporal John",
+    url: "https://www.nam.ac.uk/explore/marlborough",
+    publisher: "National Army Museum",
   },
   eb1911Waterloo: {
     title:
@@ -439,7 +486,7 @@ export const wellingtonVolume: LeadershipVolume = {
         },
         {
           title: "Orders that left him the risk",
-          text: "The arithmetic was not his alone; it was written into his orders. In the memorandum of October 1809 for the works that became the Lines, the embarkation of the British troops in case of reverse stands beside the defence of Lisbon as a connected object. On 2 April 1810 he told General Hill that his instructions agreed with opinion at home in forbidding any risk or any unnecessary loss. On 21 April he wrote to Charles Stuart, the British minister at Lisbon, that ministers were as much alarmed as the public, and seemed to think him inclined ‘to fight a desperate battle which is to answer no purpose’. Their private letters, he complained, were at variance with their public instructions. The instructions were clear, though they threw on him the whole responsibility of bringing the army away safely; but private hints which, if followed, would contradict them, and if ignored would multiply that danger, would not answer. In the same letter he gave up an attempt on the French magazine at Salamanca as not worth moving out of the strong country into the plains.",
+          text: "The arithmetic was not his alone; it was written into his orders. In the memorandum of October 1809 for the works that became the Lines, the embarkation of the British troops in case of reverse stands beside the defence of Lisbon as a connected object. On 2 April 1810 he told General Hill that his instructions agreed with opinion at home in forbidding any risk or any unnecessary loss. On 21 April he wrote to Charles Stuart at Lisbon that ministers were as much alarmed as the public, and seemed to think him inclined ‘to fight a desperate battle which is to answer no purpose’. Their private letters, he complained, were at variance with their public instructions. The instructions were clear, though they threw on him the whole responsibility of bringing the army away safely; but private hints which, if followed, would contradict them, and if ignored would multiply that danger, would not answer. In the same letter he gave up an attempt on the French magazine at Salamanca as not worth moving out of the strong country into the plains.",
           evidence: "fact",
           refs: [
             { source: 1, locator: "p. 230" },
@@ -2342,7 +2389,690 @@ export const wellingtonVolume: LeadershipVolume = {
         s.eb1911Schwarzenberg,
       ],
     },
+    {
+      slug: "the-government-at-home",
+      title: "The government at home: managing those who can recall you",
+      part: "Beyond the battlefield",
+      themes: ["communication", "judgement"],
+      claim:
+        "When a commander far from home depends on a government that can recall him, he wins time by controlling what is reported and how, but only while his reports stay accurate enough to be trusted, and the control he needs can turn into a claim that no one else may speak.",
+      inBrief: {
+        strength:
+          "Considered reports, one channel of news and plain answers kept ministers and the Portuguese regency behind a strategy they half doubted.",
+        shadow:
+          "He disowned the details of a convention he had signed, and demanded that his own report be the only one published.",
+      },
+      moment: {
+        text: "On 11 September 1810, at Gouveia, with Masséna’s army about to march into Portugal, Wellington wrote to Charles Stuart, who dealt with the Portuguese government at Lisbon, about reports. The Portuguese government had been publishing Marshal Beresford’s daily accounts of events beside his own, and the Portuguese papers were canvassing small differences between them, which the English papers would copy with all the comment malevolence could suggest. A daily report, he wrote, could never be as accurate as one written after events had been considered and inquired into. If he had written to Stuart the day before, he would have said that a large French column had marched on Guarda; he now knew it had been a reconnaissance that had already fallen back. ‘There is no harm in Government being informed of these events as they come to our knowledge; but where is the use of keeping the public in a state of fever by the publication of them?’ It came to this: if the Portuguese government published any report of military transactions except his, he would make them no report.",
+        evidence: "fact",
+        refs: [{ source: 1, locator: "pp. 401–403" }],
+      },
+      episodes: [
+        {
+          title: "Cintra: answering for a paper he signed",
+          text: "His first lesson in this came in 1808. After his victory at Vimeiro, two senior generals arrived and superseded him within a day, and an armistice and then a convention allowed the defeated French to evacuate Portugal. Newspaper attacks at home were followed by a Court of Inquiry at Chelsea in November. Wellington opened by complaining that newspapers had printed accounts claiming his authority; he had never said, nor let anyone say, that he was ordered or compelled to sign the armistice. He had signed it at the desire of the commander-in-chief, from his wish always to carry out the orders of those placed over him however he differed from them, and he had agreed with its principle, that the French should be allowed to evacuate Portugal, while differing on its details. He submitted his dispatches as the record of his motives at the time. The Board declared that zeal and firmness had been shown by all three generals and that no further military proceeding was necessary. The King accepted that, while disapproving the articles that touched the interests of the Spanish and Portuguese nations. Gurwood printed only the parts of the proceedings in which Wellington spoke.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "pp. 163–168, 253–257" }],
+          battleSlugs: [],
+          campaignSlugs: ["peninsular-war"],
+        },
+        {
+          title: "News for the enemy",
+          text: "In the summer of 1810 he found that the French were reading the English newspapers. On 3 July he sent Lord Liverpool a translation of an intercepted letter from Berthier to Masséna giving the strength of the allied armies, taken from the English press, and asked the government again to notice how intelligence of this kind was published at home: very recently every paper had given not only the numbers but the positions of his army. In August he told General Graham at Cadiz about orders he had issued that day on officers’ private letters. He had been astonished to read in the English papers an exact account of the batteries being built at Cadiz, with their guns and distances, which must have come from an officer’s letter. If officers wished to give their friends such information, he wrote, they should ask them not to publish it.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "pp. 232–233, 324–325" }],
+          battleSlugs: ["bussaco-torres-vedras-1810"],
+        },
+        {
+          title: "Croakers and governors",
+          text: "The letter of 11 September went on to the army itself. For the first time, Wellington wrote, he lacked the confidence of his officers: whether from the opposition in England, or because the business was too much for their nerves, or because he was wrong and they were right, there was a system of croaking in the army that would put an end to them unless he put an end to it. Officers of high rank should keep their opinions to themselves or leave the army. If anyone else, knowing what he knew, had commanded, the army would already be at Lisbon, if not in its ships. The Portuguese regency, he added, would end by forcing him to leave them, and would then find that he alone kept things as they were. Fernando Dores Costa, writing from the Portuguese side, reads the long quarrel with the regency, and especially with Principal Sousa, as a struggle over Wellington’s demand for political tutelage over Portugal, to remove the obstacles to his military choices.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "pp. 403–404" }, { source: 3 }],
+          battleSlugs: ["bussaco-torres-vedras-1810"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Wellington before the Court of Inquiry, 1808",
+          stake:
+            "A young general defending his part in an unpopular convention before a board of senior officers, with his career at stake.",
+          says: "He signed at his superior’s desire, agreed with the principle and differed on the details, and never claimed to have been forced.",
+          refs: [{ source: 0, locator: "pp. 167–168" }],
+        },
+        {
+          who: "Wellington to Charles Stuart, 11 September 1810",
+          stake:
+            "A private letter to the British minister who dealt with the Portuguese regency, written on the eve of the invasion.",
+          says: "Considered reports are better than daily ones; only his should be published; his officers’ croaking must stop.",
+          refs: [{ source: 1, locator: "pp. 401–404" }],
+        },
+        {
+          who: "Fernando Dores Costa",
+          stake:
+            "A Portuguese historian writing in 2010, reading the campaign through the regency’s quarrels with Wellington.",
+          says: "The conflict with Principal Sousa expressed a demand for political tutelage over Portugal.",
+          refs: [{ source: 3 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Wellington’s method with those who could recall him is consistent across these letters. Report late rather than early, so that what is reported is true. Send the same account to every authority, so that no difference between reports can be exploited. Keep information that helps the enemy out of the papers. Answer charges in person and on the record, as at Chelsea, with the documents written at the time. Each rule served the arithmetic of the earlier lessons: a government that panicked at a false report might recall the one army it had, and a public in a fever would push it to. The method also bought him the time the Lines needed. The strategist should judge it by what it was for, and it worked: through the winter of 1810 the army stayed, and the government held.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "pp. 232–233, 401–404" },
+            { source: 0, locator: "pp. 167–168" },
+          ],
+        },
+        {
+          text: "The same rules could protect the commander as well as the army. The Chelsea statement separates his agreement with the principle of the convention from his disagreement with its details, which is true and also convenient. The demand that only his report be published removes a check on him as well as a source of confusion. Dores Costa’s reading, that the quarrel with the regency was about tutelage, makes the point from the other side: a foreign commander who insists on being the sole voice in an allied country is asking for a kind of authority that country has not given him. Which reading is right depends on whose risk one counts.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "pp. 167–168" },
+            { source: 1, locator: "p. 403" },
+            { source: 3 },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Accountability to several audiences",
+          base: "review",
+          text: "The lesson on the only army used Lerner and Tetlock’s review to ask how the rules of accountability shaped Wellington’s caution. This lesson takes up another of the questions the abstract names: what goals accountable decision makers seek to achieve. Wellington answered to several audiences at once, ministers, the Portuguese regency, the British public through its newspapers, his own officers, and he worked to reduce them to one channel he controlled. The review’s question whether accountability changes how people think or only what they say fits his distinction between a report for the government and a report for the public. It cannot say which goal ruled him at any moment, the army’s safety or his own standing.",
+          evidence: "interpretation",
+          refs: [{ source: 4 }],
+          limit:
+            "Abstract only, from laboratory and organisational research. It frames questions about audiences and goals; it does not explain any decision of Wellington’s.",
+        },
+      ],
+      shadow: {
+        text: "Control of the record shades into control of judgement. Wellington’s officers had a right, he conceded, to form their own opinions; he wanted the senior ones silent or gone. The Portuguese government, whose country was being emptied on his advice, was to publish nothing military but his reports. The convention of 1808, whose principle he defended, contained articles that his own King found offensive to the Spanish and Portuguese, and the inquiry heard from British generals only. Earlier lessons in this volume showed the same habit after failure: the letter on Burgos took the blame in one sentence and spread it in the next.",
+        evidence: "interpretation",
+        refs: [
+          { source: 1, locator: "pp. 403–404" },
+          { source: 0, locator: "pp. 256–257" },
+        ],
+      },
+      counterCase: {
+        text: "Masséna in front of the Lines shows a commander cut off from the authority that could recall him. Oman writes that from September to the end of 1810 not a single dispatch reached him, and his own messengers were caught by the Portuguese Ordenança and militia, except Foy, who forced his way out with a whole battalion as escort. Foy saw Napoleon in Paris in late November; the orders that followed were not sent until December. Oman’s judgement is that the Emperor insisted on directing all his armies in Spain from Paris, on information a month old, with orders that arrived a month later still, and afterwards lectured Soult on what he should have done. Masséna’s problem was the reverse of Wellington’s. He had no channel to manage, and his master acted on reports that were already history.",
+        evidence: "interpretation",
+        refs: [{ source: 2, locator: "pp. 9–10, 26–28" }],
+        commanderSlug: "andre-massena",
+        battleSlugs: ["bussaco-torres-vedras-1810"],
+      },
+      cost: {
+        text: "The King’s decision of January 1809 records his disapproval of the articles of the convention that made stipulations directly affecting the interests and feelings of the Spanish and Portuguese nations; neither nation had a voice at the inquiry. In 1810, by his own account, the newspapers at home had printed the numbers and positions of his army where the French could read them.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "p. 256" },
+          { source: 1, locator: "pp. 232–233" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "Reports are written late enough to be accurate, and the same account goes to everyone entitled to it.",
+          "The leader answers criticism on the record, with documents written at the time.",
+        ],
+        failsWhen: [
+          "Control of the channel becomes a way to silence disagreement, inside the organisation or among partners.",
+          "Those affected by a decision are absent from the inquiry into it.",
+        ],
+        questions: [
+          "Do your first reports of events turn out to be right, and who acts on them before you know?",
+          "Is there one account of your work that every stakeholder receives, or several that can be compared?",
+          "When you ask for a single channel, are you protecting the work or yourself?",
+        ],
+      },
+      bearsOn:
+        "Caution in reporting was the political side of caution in the field. A government that received considered reports and a public kept out of a fever were less likely to recall the army, and that bought the time on which his strategy depended. The daring lay in staking his career on a plan most of his officers doubted, and saying so. The cost was a habit of making his voice the only one, which his officers, his Portuguese allies and later historians had reason to resist.",
+      questions: [
+        {
+          prompt:
+            "Why did Wellington object in 1810 to the Portuguese government publishing Beresford’s daily reports?",
+          choices: [
+            "Because Beresford’s reports were false.",
+            "Because daily reports were less accurate than considered ones, and differences between two accounts would be exploited by the newspapers.",
+            "Because he wanted the credit for every action.",
+          ],
+          answer: 1,
+          explanation:
+            "His letter to Stuart of 11 September gives the example of a French column on Guarda that proved to be a reconnaissance.",
+        },
+        {
+          prompt:
+            "What did Wellington tell the Court of Inquiry in 1808 about the armistice he had signed?",
+          choices: [
+            "That he had been ordered to sign it against his will.",
+            "That he signed at his superior’s desire, agreed with its principle and differed on details, and had never claimed to be compelled.",
+            "That he had not signed it.",
+          ],
+          answer: 1,
+          explanation:
+            "His opening address answers newspaper stories that claimed his authority.",
+        },
+        {
+          prompt:
+            "What, according to Oman, was wrong with how Napoleon directed Masséna in the winter of 1810?",
+          choices: [
+            "He gave Masséna too much freedom.",
+            "He directed the war in Spain from Paris on information a month old, with orders that arrived a month later.",
+            "He visited the army too often.",
+          ],
+          answer: 1,
+          explanation:
+            "Foy’s journey to Paris and back shows the delay; no dispatch had reached Masséna for months.",
+        },
+      ],
+      sourceCheck: {
+        question:
+          "Why did Wellington want his own reports to be the only ones published in Portugal?",
+        witnesses: [
+          {
+            label: "Wellington to Stuart, 11 September 1810",
+            claim:
+              "Considered reports are accurate and daily ones are not; differences between accounts feed the newspapers and the public’s fever.",
+          },
+          {
+            label: "The same letter, later",
+            claim:
+              "His officers’ croaking must stop, and the regency would find that he alone kept things as they were.",
+          },
+          {
+            label: "Fernando Dores Costa, 2010",
+            claim:
+              "The quarrel with the regency expressed a demand for political tutelage over Portugal.",
+          },
+        ],
+        prompt: "Which reading uses all three?",
+        options: [
+          {
+            text: "It was only about accuracy, as his first reason says.",
+            feedback:
+              "The same letter moves from accuracy to silencing critics and to his own indispensability.",
+          },
+          {
+            text: "It was only about power, as the Portuguese historian argues.",
+            feedback:
+              "The example of the Guarda column is real; his worry about accuracy cannot simply be dismissed.",
+          },
+          {
+            text: "Both: a sound rule about reporting and a claim to be the only voice, which a Portuguese reader sees more clearly than a British one.",
+            feedback:
+              "The letter contains both, and the historian from the other side shows what the second meant for the ally.",
+            best: true,
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Wellington asked that only his reports be published, that his senior officers keep their doubts to themselves, and that he be judged on documents written at the time. Was this good management of those who could recall him, or a refusal to be checked? Argue it from the positions of Wellington, a doubting officer, and the Portuguese regency.",
+        guidance:
+          "Use the Chelsea statement, the letters on newspapers, the letter of 11 September 1810 and Dores Costa’s reading. Then set Masséna beside him, a commander whose government heard nothing for months.",
+      },
+      sources: [
+        s.gurwoodIVnew,
+        s.gurwoodVI,
+        s.omanIV,
+        s.doresCosta,
+        s.lernerTetlock,
+      ],
+    },
+    {
+      slug: "the-empty-country",
+      title: "The empty country: who pays for a strategy",
+      part: "Beyond the battlefield",
+      themes: ["ethics", "judgement"],
+      claim:
+        "When a strategy works by emptying a country in front of the enemy, it can be right and its cost still unjust, because the people who pay are rarely the people who decide, and a strategy judged only by those who decided it will leave the payment out.",
+      inBrief: {
+        strength:
+          "Emptying the country before the Lines starved the French army out of Portugal without a decisive battle.",
+        shadow:
+          "The people of Beira and Estremadura were ordered from their homes under threat of hanging, and paid in hunger, disease and the violence of both armies.",
+      },
+      moment: {
+        text: "At two in the afternoon of 4 August 1810, at Celorico, Wellington wrote a note of three lines to Sir Stapleton Cotton, commanding his cavalry: ‘Send round to the people that they must retire from the villages, and let the magistrates know that if any of them stay, or if any of the inhabitants have any communication with the enemy, they shall be hanged.’ On the same day he signed a proclamation to the people of Portugal, which Gurwood printed in English with a note that it was a translation, not the original draft. It declared that magistrates and persons in authority who stayed in their towns and villages after a military officer had ordered them to leave, and anyone who aided the enemy in any way, would be considered traitors to the state and tried and punished as such. Days later he told Cotton that the people of one village might stay or not as they pleased, but that any man who communicated with the enemy would be hanged.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "pp. 303, 308–309, 330" }],
+      },
+      episodes: [
+        {
+          title: "Coimbra",
+          text: "Coimbra was a university city, and Oman writes that the sacrifice demanded of its citizens was far more bitter than that asked of peasants with flimsy cottages. The Portuguese government had published the proclamations but taken no great pains to enforce them, and after Bussaco most of the inhabitants were still at home, hoping the victory meant they could stay. Then came Wellington’s message that the army was falling back, that the French would arrive within days, and that force would be used if necessary to expel those who stayed. For two days the population streamed south on the roads or down the river to take ship for Lisbon, carrying what they could, since the richer families had taken most of the carts and others had been requisitioned for the allied wounded. The Portuguese historian Maria Antónia Lopes, interviewed in 2021, says the French found the city deserted, evacuated by Wellesley’s order, and sacked it for three days; only the university partly escaped.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "pp. 400–402" }, { source: 4 }],
+          battleSlugs: ["bussaco-torres-vedras-1810"],
+        },
+        {
+          title: "What an empty country does to its people",
+          text: "The order was not fully obeyed. Oman writes that the Portuguese government had told the peasants to destroy all food they could not carry, but that most could not bring themselves to burn good grain, and hid it instead. The French, starving before the Lines, became food-hunters. Oman draws on French diarists for what followed: villages pulled down in the search for hiding places, peasants who had stayed hunted at night and offered the choice between revealing their stores and being shot, torture by hanging when threats failed, and, in one officer’s diary, village girls carried off and sold. Masséna and his generals forbade it and executed some offenders, without effect, since officers who depended on their men’s foraging did not ask how the food was found. Lopes adds that the French officers’ memoirs she knows pass over killings, torture and rape that happened on a mass scale, and that the allied soldiers plundered too: whatever escaped the enemy, as one witness from Arganil put it, our own troops cleaned up.",
+          evidence: "fact",
+          refs: [{ source: 2, locator: "pp. 10–13" }, { source: 4 }],
+          battleSlugs: ["bussaco-torres-vedras-1810"],
+        },
+        {
+          title: "The Portuguese side of the decision",
+          text: "Fernando Dores Costa begins his study of 1810 by judging the end of that year and the start of the next, measured by the direct effects of war on the population, as certainly the most dramatic period in Portuguese history. Part of the population of the invaded regions moved to Lisbon, and disease, he writes, killed more of the desperate inhabitants than the armies did. The devastation was contested inside the Portuguese government. Two of the governors, Principal Sousa above all, opposed the destruction of every resource that might sustain the enemy, and Wellington held that their position justified the failure to carry out his orders and was the only reason the French had been able to stay so long. From Rio de Janeiro, the Count of Linhares, defending his brother Sousa, wrote that no good Portuguese could see without horror a plan that had almost annihilated the two greatest provinces of the kingdom, Beira and Estremadura.",
+          evidence: "fact",
+          refs: [{ source: 3 }],
+          battleSlugs: ["bussaco-torres-vedras-1810"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Wellington’s order and proclamation of 4 August 1810",
+          stake:
+            "The commander’s instructions, one private and blunt, one public and printed in translation by Gurwood.",
+          says: "The people must leave; those who stay or help the enemy will be hanged, or tried as traitors.",
+          refs: [{ source: 0, locator: "pp. 303, 308–309" }],
+        },
+        {
+          who: "Charles Oman, from French diarists",
+          stake:
+            "The British historian of the war, using French witnesses for French crimes and British ones for the evacuation.",
+          says: "Coimbra was emptied by threat; the peasants hid their food; French foragers hunted and tortured them.",
+          refs: [
+            { source: 1, locator: "pp. 400–402" },
+            { source: 2, locator: "pp. 10–13" },
+          ],
+        },
+        {
+          who: "Fernando Dores Costa",
+          stake:
+            "A Portuguese historian reading the campaign through the regency and its quarrels with Wellington.",
+          says: "It was the most dramatic period in Portuguese history for civilians, and the regency was divided over the devastation.",
+          refs: [{ source: 3 }],
+        },
+        {
+          who: "Maria Antónia Lopes, interviewed in 2021",
+          stake:
+            "A Portuguese historian of the invasions, speaking to a national newspaper from local and church records.",
+          says: "Never again did the Portuguese population suffer so; the scorched earth was ordered by the English, and both armies plundered.",
+          refs: [{ source: 4 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged as strategy, the devastation worked. The lessons on preparation and supply showed Masséna halted before the Lines and starved out of them, and Oman, on the French side, shows how close to collapse his army came. Wellington’s own complaint, that the regency’s reluctance let the French stay months longer than he expected, is an argument that more devastation would have ended it sooner. Dores Costa grants that Wellington’s tactical choice proved a success, while calling the Lines the illustration of his supposed genius. A strategist can also note what Wellington could know: he ordered the evacuation knowing it would fall on people who had not chosen it, and he expected the French to be starved out within weeks, which Oman shows was wrong by about two months.",
+          evidence: "interpretation",
+          refs: [{ source: 2, locator: "pp. 10–13" }, { source: 3 }],
+        },
+        {
+          text: "The decision was taken by a British general and accepted, with reluctance and division, by a regency in Lisbon. It was paid for in Beira and Estremadura by people who were offered a choice between leaving everything and being hanged as traitors, and who then met an army hunting their hidden food and an allied army that plundered what was left. A strategy can be correct and its distribution of costs unjust, and the two judgements are separate. The comparison page’s problem ‘Who pays’ sets this case beside the others in the series.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "pp. 303, 308–309" },
+            { source: 3 },
+            { source: 4 },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "It would be possible to read Wellington’s note to Cotton through research on distance, abstraction or moral disengagement, and no such research was read for this lesson. The note itself is evidence enough of how the decision looked from headquarters: three lines, an afternoon hour, and a threat of hanging. What it felt like in the villages is recorded by Portuguese historians from petitions, church records and local witnesses, not by psychology.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered. Nothing in the documents tells us what Wellington felt in giving the order.",
+        },
+      ],
+      shadow: {
+        text: "The cost to Wellington’s reputation was small, and the cost to Portugal was not. British tradition remembers the Lines as a feat of engineering and patience; Lopes says the scale of the tragedy in central Portugal has not been properly emphasised by historians, and Dores Costa calls Wellington’s genius supposed. Even Wellington’s complaint against the regency treats Portuguese reluctance to destroy their own food as an obstacle. Until this lesson the volume, like its main sources, told the story of 1810 from British and French papers; the Portuguese accounts read here are modern, and the voices of the peasants themselves reach it only through what those historians report.",
+        evidence: "interpretation",
+        refs: [{ source: 4 }, { source: 3 }],
+        battleSlugs: ["bussaco-torres-vedras-1810"],
+      },
+      counterCase: {
+        text: "Kutuzov met Napoleon’s invasion of Russia in 1812 with a scorched country of his own. The Fondation Napoléon’s biography says that after taking command in late August he executed the scorched-earth retreat policy and abandoned Moscow; its timeline records the Russians destroying depots and burning magazines as they fell back, while Kutuzov himself could be supplied at Tarutino from the fertile lands to the south. The supply lesson read that campaign as a failure of French supply. Here the point is what the sources read leave out: they say nothing about what the policy cost Russian peasants. That silence is the same one this lesson set out to correct for Portugal, and it is a reminder that a scorched-earth strategy is usually recorded by those who ordered it and those who suffered from it as an army, not by those who lived on the ground.",
+        evidence: "interpretation",
+        refs: [{ source: 5 }, { source: 6 }],
+        commanderSlug: "mikhail-kutuzov",
+        battleSlugs: ["borodino"],
+      },
+      cost: {
+        text: "Oman notes that the authorities of Coimbra published in 1812 a table of the damage done by the French army in 1810–1811, recording for each rural deanery of the bishopric the houses burned and the people killed. Dores Costa writes that disease, more than the armies, killed the inhabitants of the invaded regions who had fled in desperation.",
+        evidence: "fact",
+        refs: [{ source: 1, locator: "p. 398" }, { source: 3 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "The strategy is judged on its results and, separately, on who bore its costs and whether they had any say.",
+          "Those who will pay are told the truth about what is asked of them, and the cost is recorded rather than left out of the account.",
+        ],
+        failsWhen: [
+          "The cost falls on people who cannot refuse, under threat, and is treated as an obstacle when they resist.",
+          "The story of success is told only by those who decided it.",
+        ],
+        questions: [
+          "Who will bear the cost of your next strategic decision, and were they asked?",
+          "When those who pay resist, do you treat it as information or as obstruction?",
+          "Whose account of your last success has never been heard?",
+        ],
+      },
+      bearsOn:
+        "This is the darkest answer to the volume’s question. Caution as arithmetic preserved the British army by spending Portugal: the country was emptied so that the army would not have to fight a battle it might lose. If that was daring, the daring was Wellington’s and the risk was the Portuguese peasants’. A complete answer to whether caution can be a form of daring must ask whose caution and whose risk, and the ledger that follows begins from that.",
+      questions: [
+        {
+          prompt:
+            "What did Wellington’s note to Cotton of 4 August 1810 threaten?",
+          choices: [
+            "Fines for villages that did not supply the army.",
+            "Hanging for magistrates who stayed, or for inhabitants who communicated with the enemy.",
+            "Conscription into the militia.",
+          ],
+          answer: 1,
+          explanation:
+            "The proclamation of the same day threatened trial as traitors; days later he allowed one village to stay, but kept the threat for contact with the enemy.",
+        },
+        {
+          prompt:
+            "Why, according to Oman, were the French able to stay so long before the Lines?",
+          choices: [
+            "Because the British supplied them by mistake.",
+            "Because many peasants hid their food instead of destroying it, and French foragers found it by searching and by force.",
+            "Because Napoleon sent them a large convoy.",
+          ],
+          answer: 1,
+          explanation:
+            "Oman, drawing on French diarists, describes the search and the violence that came with it.",
+        },
+        {
+          prompt:
+            "Who in the Portuguese government opposed the destruction of resources in 1810?",
+          choices: [
+            "No one; the regency was unanimous.",
+            "Two of the governors, above all Principal Sousa, according to Dores Costa.",
+            "Marshal Beresford.",
+          ],
+          answer: 1,
+          explanation:
+            "Wellington blamed their opposition for the length of the French stay; Sousa’s brother called the plan a near annihilation of Beira and Estremadura.",
+        },
+      ],
+      sourceCheck: {
+        question:
+          "Who was responsible for the suffering of central Portugal in 1810–1811?",
+        witnesses: [
+          {
+            label: "Wellington, 1810",
+            claim:
+              "The regency’s failure to enforce the destruction of food let the French stay; the enemy wantonly destroyed what they took.",
+          },
+          {
+            label: "Oman, from French diarists",
+            claim:
+              "French foragers hunted, tortured and killed peasants for hidden food, despite their commanders’ orders.",
+          },
+          {
+            label: "Maria Antónia Lopes, 2021",
+            claim:
+              "The scorched earth was ordered by the English; the French committed mass atrocities; the allied troops plundered too.",
+          },
+        ],
+        prompt: "Which reading is best supported?",
+        options: [
+          {
+            text: "The French alone, since they committed the atrocities.",
+            feedback:
+              "They did, by their own diarists’ account; but the evacuation and the destruction of food were ordered by the allies, and allied soldiers plundered.",
+          },
+          {
+            text: "Wellington alone, since he ordered the devastation.",
+            feedback:
+              "He ordered the evacuation; he did not order the French to torture peasants, and the regency shared the decision.",
+          },
+          {
+            text: "Responsibility was shared and unequal: the French for their crimes, Wellington and the regency for a strategy that put the population in their path, both armies for plunder.",
+            feedback:
+              "Each witness sees part of it, and the Portuguese historian is the only one who puts all three together.",
+            best: true,
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Can a strategy be right and its cost unjust? Argue it from the positions of Wellington, Principal Sousa in the regency, and a family from Coimbra on the road to Lisbon in October 1810.",
+        guidance:
+          "Use the note to Cotton and the proclamation, Oman on Coimbra and on the French foragers, Dores Costa on the regency and Lopes on the population. Then set Kutuzov beside them, and ask why his sources say nothing about Russian peasants.",
+      },
+      sources: [
+        s.gurwoodVI,
+        s.omanIII,
+        s.omanIV,
+        s.doresCosta,
+        s.lopes,
+        s.fondationKutuzov,
+        s.fondationRussia,
+      ],
+    },
+    {
+      slug: "the-ledger",
+      title: "The ledger: can caution be a form of daring?",
+      part: "Beyond the battlefield",
+      themes: ["judgement", "ethics"],
+      claim:
+        "When a leader’s career is weighed whole, caution can prove to have been a form of daring if it kept open the chance to strike and was used when the chance came, but the account is complete only if it includes who paid for the caution and for the strikes.",
+      inBrief: {
+        strength:
+          "Caution as arithmetic and method, preparation that made sudden attacks possible, and a war won without losing the one army.",
+        shadow:
+          "An empire extended in India, a Portuguese population and Spanish towns that paid, soldiers held by the lash, and a victory at Waterloo shared with the Prussians.",
+      },
+      moment: {
+        text: "On 15 November 1852, as Wellington’s funeral was being prepared, Lord Hardinge wrote to John Wilson Croker that he had chosen twenty-four of the Duke’s most celebrated victories to be inscribed in bronze letters on the car that would carry his body, three on each of its eight panels. The car, he wrote, was of bronze, of beautiful workmanship, and, like his fame, would endure for ever. On the same page of Croker’s papers stands the Duke’s own last statement of his method, written that year in reply to Croker: his common practice in a defensive position was to attack the enemy at the very moment the enemy was about to attack. One ledger was being cast in bronze, a list of victories chosen by a friend; the other was a sentence from a man defending his record. This lesson tries to keep a third, with the costs entered beside the victories.",
+        evidence: "fact",
+        refs: [{ source: 7, locator: "pp. 282–283" }],
+      },
+      episodes: [
+        {
+          title: "The empire in the account",
+          text: "His career as a commander began in India, in a war whose object, the Maratha historian Govind Sakharam Sardesai wrote in 1948, was to destroy the sovereign power of the Marathas. Sardesai’s account of 1803 is not the British one. He notes that Arthur Wellesley told Colonel Close, at the Peshwa’s court, that an accurate knowledge of the Peshwa’s court could not be had without paying for it; that the European officer commanding Sindia’s fort at Ahmadnagar had been bribed and went over; and that the Peshwa’s flag was hoisted on the captured fort, concealing a foreign conquest. The Marathas, he writes, gave a creditable account of themselves, and Assaye was won at a cost so great that pursuit was impossible. He also credits the general with sound advice: Wellesley urged the Peshwa to pardon and conciliation rather than revenge, and did what he could between a hopeless prince and an imperious brother. The 1911 Britannica, writing in the voice of the empire, praises his good faith and his judgement of Orientals.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "pp. 409–421" }, { source: 1 }],
+          battleSlugs: ["assaye-1803"],
+        },
+        {
+          title: "A shared victory",
+          text: "Waterloo was not his alone, and he knew it. Creevey records him saying the morning after that the battle would not have been won had he not been there, and then explaining why he left that remark out of his letter home: it was not vanity, he thought, but meant that the fight was so equal that only the army’s confidence in its general had carried it through. The Prussian account gives the other half. Hans Haussherr writes that Blücher, beaten at Ligny, was able to intervene at Waterloo in time and contributed decisively to the final victory by his attack on the French right. The Napoleon volume and the Waterloo study read the day itself. For the ledger, it is enough that the most famous victory on the bronze car was won by two armies, and that each nation’s memory has tended to enlarge its own share.",
+          evidence: "fact",
+          refs: [{ source: 2, locator: "vol. I, p. 237" }, { source: 3 }],
+          battleSlugs: ["waterloo", "ligny"],
+        },
+        {
+          title: "What he left",
+          text: "The 1911 Britannica’s verdict on the man is cooler than its verdict on the general. He disciplined his army and won it victories, it says, but he was cold and punctilious and never won the affection of officers and men as Marlborough and Napoleon had; he inspired few disciples outside his own staff, and his harsh condemnation of the army’s conduct in the retreat from Burgos was bitterly resented. Of all generals, it adds, he was the last to waste a single trained man. The legend grew anyway. Four years after his death the French writer Montalembert had him exclaim, on a visit to Eton in old age, that Waterloo had been won there; the first lesson of this volume showed that the story has no witness and no date. The ledger of his reputation was written largely by others, as he had foreseen when he compared the history of a battle to the history of a ball.",
+          evidence: "fact",
+          refs: [{ source: 1 }, { source: 4, locator: "p. 145" }],
+          battleSlugs: [],
+          campaignSlugs: ["peninsular-war"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Govind Sakharam Sardesai",
+          stake:
+            "A Maratha historian writing in 1948, after the end of British rule, on the fall of the Maratha states.",
+          says: "The war of 1803 was meant to destroy Maratha sovereignty; Wellesley used bribes and advised conciliation.",
+          refs: [{ source: 0, locator: "pp. 409–421" }],
+        },
+        {
+          who: "The 1911 Encyclopædia Britannica",
+          stake:
+            "An imperial reference work, admiring of the general and frank about the man.",
+          says: "Cold, punctilious, careful of every trained man, with few disciples; wise and honourable in India.",
+          refs: [{ source: 1 }],
+        },
+        {
+          who: "Maximilien Foy, as Oman translates his diary",
+          stake:
+            "A French general writing after Salamanca, in the army Wellington had just beaten.",
+          says: "Salamanca raised Wellington almost to the level of Marlborough.",
+          refs: [{ source: 5, locator: "pp. 472–473" }],
+        },
+        {
+          who: "Wellington to Croker, 1852",
+          stake:
+            "An old man’s account of his own method, written in the last year of his life.",
+          says: "His common practice in a defensive position was to attack at the moment the enemy was about to attack.",
+          refs: [{ source: 7, locator: "p. 283" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "The volume set four answers to its question. Caution as arithmetic is the best supported: the letters of 1809 and 1810 reason in objects, means and risks, and the army that could not be replaced was never lost. Caution as method is close behind: the Lines, the hidden ridge, the supply by sea and the drafted retreat at Salamanca made sudden attacks possible and affordable. Caution as reputation is real but narrower than the legend: Marmont and Foy believed it, and Salamanca exploited it, but the evidence read here rests mainly on one afternoon. Caution as temperament is the weakest: Assaye, Badajoz and Burgos show a commander quite willing to attack against expectation, and to pay heavily for time. The verdict this volume reaches is that his caution was a calculation, and that it was a form of daring when the calculation kept the means to strike and he used them, as at Salamanca, and only a form of waiting when it did not, as before the Lines in November 1810.",
+          evidence: "interpretation",
+          refs: [
+            { source: 7, locator: "p. 283" },
+            { source: 5, locator: "pp. 472–473" },
+          ],
+        },
+        {
+          text: "The reader should argue the opposite. Every success in this volume can be told as luck in his enemies: Marmont overextended, Masséna waited, the Portuguese proved willing to be trained as Cuesta’s army had not been his to train, and the Prussians came at Waterloo. A commander whose method depended on enemies making mistakes was cautious in the ordinary sense, and lucky. The volume’s own evidence cuts both ways: the drafted retreat at Salamanca shows he was ready if Marmont made no mistake, and the refusal before the Lines shows him waiting past an opening. Which reading one prefers depends on whether one credits the preparation that made the luck usable, or the luck that made the preparation pay.",
+          evidence: "interpretation",
+          refs: [{ source: 3 }, { source: 2, locator: "vol. I, p. 237" }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "A closing lesson invites a verdict on character, and this one declines it. The volume has used research where it could ask a fair question, on accountability and on expectations, and has said each time what that research could not show. Whether Wellington was by temperament cautious or bold is not a question psychology can answer about a man dead for over a century and a half; the documents show what he did and what he said about it, and those are what the ledger weighs.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered. The verdicts in this lesson are historical and strategic judgements, not psychological ones.",
+        },
+      ],
+      shadow: {
+        text: "Enter the costs beside the victories, and the ledger changes. The Maratha states lost their independence in a war he helped win with bribes as well as battles. The people of Beira and Estremadura were emptied from their homes on his orders and paid in hunger, disease and the violence of two armies. Badajoz and San Sebastián were sacked by his soldiers. His men were held to discipline by the lash, called the scum of the earth, and blamed for the plunder his system could not stop. Waterloo was shared. None of this cancels the strategy, and none of it was on the bronze car.",
+        evidence: "interpretation",
+        refs: [{ source: 0, locator: "pp. 409–411" }, { source: 8 }],
+        battleSlugs: ["assaye-1803", "badajoz-1812"],
+      },
+      counterCase: {
+        text: "Marlborough, the earlier British coalition commander to whom Foy compared Wellington, offers the contrast the comparison invites. The National Army Museum writes that he commanded an allied army to which the Dutch supplied the largest share and most of the supplies, and that his cooperation with allies, above all Prince Eugene, was central to his success. He was not cautious: some contemporaries thought him reckless, and at Blenheim he attacked outnumbered against a strong position. He was always concerned for his soldiers’ welfare, it says, and won their trust; a corporal wrote in 1708 that his attention and care was over all of them. And he was dismissed in 1711 when a new government wanted peace. Both men led coalitions and depended on politics at home. The 1911 Britannica’s judgement that Wellington never won the affection Marlborough did marks the difference: Marlborough’s daring was open and his care was felt; Wellington’s daring was hidden inside his caution, and his care was given without warmth.",
+        evidence: "interpretation",
+        refs: [{ source: 6 }, { source: 5, locator: "p. 472" }, { source: 1 }],
+        commanderSlug: "john-churchill",
+        battleSlugs: [],
+      },
+      cost: {
+        text: "Sardesai writes that Assaye was won at so great a cost in men that the British could not pursue. Dores Costa judges the winter of 1810–1811, for the people of central Portugal, the most dramatic period in their country’s history.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "pp. 410–411" }, { source: 8 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "Caution is a calculation that keeps the means to act, and the leader uses them when the opening comes.",
+          "The account of the leader’s record includes those who paid, and is not written only by friends.",
+        ],
+        failsWhen: [
+          "Caution becomes waiting for luck, and preparation becomes a reason not to act.",
+          "The ledger lists victories and leaves out costs, as monuments do.",
+        ],
+        questions: [
+          "Which of your cautious decisions kept an option open that you later used, and which only postponed a choice?",
+          "If you wrote your own ledger, whose costs would you be tempted to leave out?",
+          "Who will choose the victories inscribed on your record, and who will be missing from it?",
+        ],
+      },
+      bearsOn:
+        "Can caution be a form of daring? On the evidence of this volume: yes, when caution was arithmetic that kept the one army in being and method that prepared the ground for a sudden blow, and when he struck, as at Salamanca and Assaye. No, when it was waiting for an enemy’s mistake that did not come, as before the Lines. And always at a price paid by others: Portuguese peasants, Spanish townspeople, Maratha states, his own soldiers. The reader who disagrees should start from the luck in his enemies and the shared victory at Waterloo, and argue that the caution was ordinary and the daring belonged to others.",
+      questions: [
+        {
+          prompt:
+            "According to Sardesai, what was the object of the war of 1803 in which Wellesley fought at Assaye?",
+          choices: [
+            "To defend the Peshwa against the French.",
+            "To destroy the sovereign power of the Marathas.",
+            "To open trade with Persia.",
+          ],
+          answer: 1,
+          explanation:
+            "He also notes Wellesley’s use of bribes for intelligence and his advice to the Peshwa to conciliate rather than take revenge.",
+        },
+        {
+          prompt:
+            "What did the 1911 Britannica say Wellington lacked that Marlborough and Napoleon had?",
+          choices: [
+            "Skill in sieges.",
+            "The affection of his officers and men.",
+            "Political influence at home.",
+          ],
+          answer: 1,
+          explanation:
+            "It calls him cold and punctilious, with few disciples outside his own staff, and the last of generals to waste a trained man.",
+        },
+        {
+          prompt:
+            "Which of the volume’s four answers is least supported by the evidence read?",
+          choices: [
+            "Caution as arithmetic.",
+            "Caution as method.",
+            "Caution as temperament.",
+          ],
+          answer: 2,
+          explanation:
+            "Assaye, Badajoz and Burgos show him willing to attack against expectation and to pay heavily for time.",
+        },
+      ],
+      sourceCheck: {
+        question: "Who won the battle of Waterloo?",
+        witnesses: [
+          {
+            label: "Wellington, as Creevey records him",
+            claim:
+              "It would not have been won had he not been there, which Creevey took to mean the army’s confidence in him carried it through.",
+          },
+          {
+            label: "Hans Haussherr, Neue Deutsche Biographie",
+            claim:
+              "Blücher intervened in time and contributed decisively to the final victory by his attack on the French right.",
+          },
+          {
+            label: "Lord Hardinge’s choice for the funeral car, 1852",
+            claim:
+              "Waterloo among the twenty-four victories of the Duke, inscribed in bronze.",
+          },
+        ],
+        prompt: "How should the ledger record it?",
+        options: [
+          {
+            text: "As Wellington’s victory, as the bronze car does.",
+            feedback:
+              "The car is a monument chosen by a friend, not a witness; and Wellington himself spoke of how close it was.",
+          },
+          {
+            text: "As a Prussian victory, since Blücher’s attack was decisive.",
+            feedback:
+              "Haussherr says decisive contribution, not sole cause; the allied army had held all day.",
+          },
+          {
+            text: "As a shared victory, each nation’s account enlarging its own part, with Wellington’s remark read as Creevey explains it.",
+            feedback:
+              "The witnesses agree on more than they seem to, once the monument is set aside.",
+            best: true,
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Write the opposite verdict to this volume’s: that Wellington’s caution was ordinary prudence, that his successes came from his enemies’ mistakes and his allies’ efforts, and that the daring belonged to others. Then answer it.",
+        guidance:
+          "Use Salamanca, the Lines, Badajoz and Waterloo from the earlier lessons, Sardesai on India, and the costs entered in the lesson on the empty country. Set Marlborough beside him, and decide what a fair ledger of either man must include.",
+      },
+      sources: [
+        s.sardesai,
+        s.eb1911Wellington,
+        s.creevey,
+        s.ndbBlucher,
+        s.montalembert,
+        s.omanV,
+        s.namMarlborough,
+        s.croker,
+        s.doresCosta,
+      ],
+    },
   ],
-  inProgress:
-    "This volume is being written. Nine of its twelve lessons are published, and the rest are added in reviewed batches.",
 };

@@ -581,15 +581,15 @@ test("the Western Front volume is listed and linked across the site", async ({
     /\/leadership\/douglas-haig\/the-day-the-front-broke\/$/,
   );
 });
-test("the Wellington volume lists its lessons so far", async ({ page }) => {
+test("the Wellington volume lists all its lessons", async ({ page }) => {
   await page.goto("/leadership/arthur-wellesley");
   await expect(
-    page.getByText("Can caution be a form of daring?"),
+    page.getByText("Can caution be a form of daring?", { exact: true }),
   ).toBeVisible();
   await expect(
     page.getByRole("heading", { name: "A volume in progress" }),
-  ).toBeVisible();
-  await expect(page.getByRole("table").getByRole("row")).toHaveCount(10);
+  ).toHaveCount(0);
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(13);
   await page.goto("/commanders/arthur-wellesley");
   await expect(
     page.getByRole("link", { name: /Leadership Lessons from Wellington/ }),

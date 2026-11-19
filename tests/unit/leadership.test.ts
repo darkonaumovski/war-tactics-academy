@@ -252,8 +252,8 @@ describe("the Wellington volume", () => {
   it("is found from Wellington's profile", () =>
     expect(volumeForCommander("arthur-wellesley")).toBe(wellingtonVolume));
 
-  it("lists its lessons so far in curriculum order", () => {
-    expect(wellingtonVolume.inProgress).toBeTruthy();
+  it("lists its lessons in curriculum order", () => {
+    expect(wellingtonVolume.inProgress).toBeUndefined();
     expect(wellingtonVolume.lessons.map((l) => l.slug)).toEqual([
       "how-to-read-wellington",
       "the-only-army",
@@ -264,6 +264,9 @@ describe("the Wellington volume", () => {
       "a-short-leash",
       "the-scum-of-the-earth",
       "allies-he-could-not-command",
+      "the-government-at-home",
+      "the-empty-country",
+      "the-ledger",
     ]);
   });
 });

@@ -81,6 +81,8 @@ Numbers are the prompt's; the last column gives the new number after the merge.
 16. **Fraser's Uxbridge story is a weak witness.** Published in 1889, it reaches Fraser through Vivian and Alava without saying how. Lesson 6 (new numbering) may tell it only with that chain.
 17. **No Portuguese or Spanish source has been read.** Rule 10 asks for both traditions. Before lesson 10 (new numbering) a Portuguese account of 1810 must be found, or the lesson says what it cannot see.
 18. **No figures.** Creevey, Gurwood's appendices and Oman give numbers for armies and losses; lessons describe without them.
+19. **The chance before the Lines came early** (added in batch V1). Oman's account of the opportunity Wellington refused against Junot at Sobral falls at the turn of October and November 1810 (vol. III, pp. 453–454), not after Masséna withdrew.
+20. **"The first time he had ever attacked" is a diarist's error** (added in batch V1). Tomkinson's remark on Salamanca, as Oman quotes it, is contradicted by Assaye, where Wellesley's own memorandum explains why he attacked against imperfect information. Lesson 4 sets the two side by side.
 
 ## Psychology to read in the batches
 

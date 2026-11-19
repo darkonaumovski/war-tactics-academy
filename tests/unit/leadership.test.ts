@@ -97,6 +97,7 @@ describe("leadership volumes", () => {
       "alexander-the-great",
       "radomir-putnik",
       "douglas-haig",
+      "arthur-wellesley",
     ]);
     for (const x of leadershipVolumes) {
       leadershipVolumeSchema.parse(x);
@@ -248,15 +249,16 @@ describe("the Western Front volume", () => {
 });
 
 describe("the Wellington volume", () => {
-  it("stays unlisted and empty until its pilot ships", () => {
-    leadershipVolumeSchema.parse(wellingtonVolume);
-    expect(
-      commanders.some((c) => c.slug === wellingtonVolume.commanderSlug),
-    ).toBe(true);
+  it("is found from Wellington's profile", () =>
+    expect(volumeForCommander("arthur-wellesley")).toBe(wellingtonVolume));
+
+  it("lists its pilot lessons in curriculum order", () => {
     expect(wellingtonVolume.inProgress).toBeTruthy();
-    expect(wellingtonVolume.lessons).toEqual([]);
-    expect(leadershipVolumes).not.toContain(wellingtonVolume);
-    expect(volumeForCommander("arthur-wellesley")).toBeUndefined();
+    expect(wellingtonVolume.lessons.map((l) => l.slug)).toEqual([
+      "how-to-read-wellington",
+      "ground-chosen-in-advance",
+      "the-afternoon-at-salamanca",
+    ]);
   });
 });
 

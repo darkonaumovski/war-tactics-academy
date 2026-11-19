@@ -3,11 +3,13 @@ import { alexanderVolume } from "./alexander-the-great";
 import { napoleonVolume } from "./napoleon";
 import { serbianSupremeCommandVolume } from "./radomir-putnik";
 import { westernFrontVolume } from "./douglas-haig";
+import { wellingtonVolume } from "./arthur-wellesley";
 export const leadershipVolumes: LeadershipVolume[] = [
   napoleonVolume,
   alexanderVolume,
   serbianSupremeCommandVolume,
   westernFrontVolume,
+  wellingtonVolume,
 ];
 export type LessonLink = { volume: LeadershipVolume; lesson: LeadershipLesson };
 const allLessons: LessonLink[] = leadershipVolumes.flatMap((volume) =>

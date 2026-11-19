@@ -581,6 +581,25 @@ test("the Western Front volume is listed and linked across the site", async ({
     /\/leadership\/douglas-haig\/the-day-the-front-broke\/$/,
   );
 });
+test("the Wellington volume opens with its pilot lessons", async ({ page }) => {
+  await page.goto("/leadership/arthur-wellesley");
+  await expect(
+    page.getByText("Can caution be a form of daring?"),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("heading", { name: "A volume in progress" }),
+  ).toBeVisible();
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(4);
+  await page.goto("/commanders/arthur-wellesley");
+  await expect(
+    page.getByRole("link", { name: /Leadership Lessons from Wellington/ }),
+  ).toBeVisible();
+  await page.goto("/battles/salamanca-1812");
+  await page.getByRole("link", { name: /The afternoon at Salamanca/ }).click();
+  await expect(page).toHaveURL(
+    /\/leadership\/arthur-wellesley\/the-afternoon-at-salamanca\/$/,
+  );
+});
 test("the volumes are compared problem by problem", async ({ page }) => {
   await page.goto("/leadership");
   await page.getByRole("link", { name: /Compare the volumes/ }).click();

@@ -157,6 +157,10 @@ const excludedInLessons: [RegExp, string][] = [
   [/next to a battle lost|melancholy as a battle won/i, "untraced saying"],
   [/campaigns? of ropes?|harness of leather|tied a knot/i, "untraced saying"],
   [/thin red line/i, "anachronistic phrase"],
+  [/et tu,? brute/i, "literary invention"],
+  [/alea iacta est/i, "untraced word order"],
+  [/wife (must|should) be above suspicion/i, "popular form of a saying"],
+  [/fortune favou?rs the (bold|brave)/i, "misattributed saying"],
   [/no (more )?worlds (left )?to conquer/i, "distorted saying"],
   [
     /narcissis|psychopath|sociopath|megalomania|bipolar|alcoholi(c|sm)|paranoi(a|d)|dark triad/i,

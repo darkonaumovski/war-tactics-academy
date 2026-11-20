@@ -7,6 +7,7 @@ import {
   volumeForCommander,
 } from "../../data/leadership";
 import { wellingtonVolume } from "../../data/leadership/arthur-wellesley";
+import { caesarVolume } from "../../data/leadership/julius-caesar";
 import { battles, campaigns } from "../../data/catalog";
 import commanders from "../../data/commanders.json";
 import {
@@ -271,6 +272,19 @@ describe("the Wellington volume", () => {
   });
 });
 
+describe("the Caesar volume", () => {
+  it("stays unlisted and empty until its pilot ships", () => {
+    leadershipVolumeSchema.parse(caesarVolume);
+    expect(commanders.some((c) => c.slug === caesarVolume.commanderSlug)).toBe(
+      true,
+    );
+    expect(caesarVolume.inProgress).toBeTruthy();
+    expect(caesarVolume.lessons).toEqual([]);
+    expect(leadershipVolumes).not.toContain(caesarVolume);
+    expect(volumeForCommander("julius-caesar")).toBeUndefined();
+  });
+});
+
 describe("problems compared across volumes", () => {
   it("are valid and name only existing volumes and lessons", () => {
     const slugs = leadershipProblems.map((p) => p.slug);
@@ -480,6 +494,23 @@ describe("the leadership lesson schema", () => {
     expect(
       accepts({ bearsOn: "He wrote that he said: Stand up, Guards!" }),
     ).toBe(true);
+  });
+
+  it("excludes the Caesar volume's untraced sayings", () => {
+    for (const text of [
+      "Et tu, Brute?",
+      "Alea iacta est.",
+      "Caesar's wife must be above suspicion.",
+      "Fortune favours the bold, he said.",
+    ])
+      expect(accepts({ bearsOn: text }), text).toBe(false);
+    // The forms traced to a named reporter stay allowed.
+    for (const text of [
+      "As Suetonius reports it, he said: iacta alea est.",
+      "As Plutarch tells it, he said: Let the die be cast.",
+      "Suetonius says some wrote that he asked Brutus in Greek: You too, my child?",
+    ])
+      expect(accepts({ bearsOn: text }), text).toBe(true);
   });
 
   it("rejects a lesson filed under an unknown part", () =>

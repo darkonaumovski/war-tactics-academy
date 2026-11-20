@@ -1522,6 +1522,7 @@ export const caesarVolume: LeadershipVolume = {
       title: "Lieutenants: delegation and its failures",
       part: "An army bound to him",
       themes: ["organisation", "judgement"],
+      people: ["titus-labienus"],
       claim:
         "When a commander delegates command to trusted lieutenants, he extends his reach beyond what he can see, but only while they share his purpose and know when to decide for themselves, and the most capable of them may one day leave him.",
       inBrief: {
@@ -1717,6 +1718,7 @@ export const caesarVolume: LeadershipVolume = {
       title: "Gaul divided: using an enemy’s divisions",
       part: "Enemies and allies",
       themes: ["judgement", "ethics"],
+      people: ["vercingetorix"],
       claim:
         "When a commander can play an enemy’s factions against each other, he can conquer more than his army alone could, until the enemy unites against him, and only so long as the allies he makes believe they gain more from him than from their own kin.",
       inBrief: {
@@ -2141,6 +2143,7 @@ export const caesarVolume: LeadershipVolume = {
       title: "A rival who knew him: Pompey",
       part: "Enemies and allies",
       themes: ["adaptation", "judgement"],
+      people: ["titus-labienus"],
       claim:
         "When two leaders know each other’s habits, the advantage goes to the one who can act on that knowledge and change his own, but only if his followers let him, and only while the knowledge is still true.",
       inBrief: {

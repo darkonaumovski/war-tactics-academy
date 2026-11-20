@@ -532,6 +532,79 @@
     }
   },
   {
+    "slug": "marcus-licinius-crassus",
+    "name": "Marcus Licinius Crassus",
+    "years": "c. 115–53 BCE",
+    "state": "Roman Republic",
+    "eraId": "ancient",
+    "role": "Commander against Spartacus 72–71 BCE; consul 70 and 55 BCE; triumvir; governor of Syria 54–53 BCE",
+    "summary": "He fled Rome when Marius took it in 87 BCE, supported Sulla in the civil war of 83–82 and grew rich, largely from property confiscated under Sulla. In 72–71 he put down the slave rising led by Spartacus, though Pompey managed to take the credit, and he was consul with Pompey in 70. In 60 he joined Pompey and Caesar in the coalition called the First Triumvirate, was consul again in 55 and, as governor of Syria, invaded Parthia, where he was defeated at Carrhae and killed in 53.",
+    "approach": "Built his power on money and credit more than on command: Britannica says he lent to indebted senators, the young Caesar among them, and joined the triumvirate partly to pass laws that helped his business in Asia. In Syria he sought the military glory his partners already had.",
+    "strength": "He ended the Spartacus rising in 72–71 BCE, and his wealth and the credit he extended made him a political force at Rome while Pompey won victories abroad; Britannica's biography of Caesar says only Caesar, on good terms with both rivals, could reconcile them in 60.",
+    "limitation": "At Carrhae he chose the Mesopotamian route over the Armenian hills that King Artavasdes urged, pressed on past the river Balikh without rest and sent his son Publius on a sortie that was drawn away and destroyed; these became the standing charges against him. His army had no answer to horse archers kept supplied with arrows from a camel train. Britannica calls the invasion unwarranted, while Shahbazi argues that the war grew out of a century of converging Roman and Parthian expansion.",
+    "legacy": "His death left Pompey and Caesar as the remaining triumvirs and, in Britannica's judgement, led to the civil war between them; the standards lost at Carrhae came back only through a peace negotiated in 20 BCE. Plutarch's Life, the main narrative of his end, is a moral tale full of omens, and the stories of a treacherous guide and a waterless desert are doubted by modern writers.",
+    "battleSlugs": ["carrhae"],
+    "source": {
+      "title": "Marcus Licinius Crassus — Britannica Editors",
+      "url": "https://www.britannica.com/biography/Marcus-Licinius-Crassus",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Praetor (c. 73 BCE); consul (70 and 55 BCE); censor (65 BCE); governor of Syria (54–53 BCE)",
+      "principalCommands": [
+        "Officer under Sulla in the civil war, 83–82 BCE",
+        "Command against Spartacus, 72–71 BCE",
+        "Province of Syria and the invasion of Parthia, 54–53 BCE"
+      ],
+      "timeline": [
+        {
+          "date": "c. 115 BCE",
+          "event": "Born"
+        },
+        {
+          "date": "87 BCE",
+          "event": "Flees Rome when Marius takes the city"
+        },
+        {
+          "date": "83–82 BCE",
+          "event": "Supports Sulla in the civil war"
+        },
+        {
+          "date": "72–71 BCE",
+          "event": "Puts down the Spartacus rising"
+        },
+        {
+          "date": "70 BCE",
+          "event": "Consul with Pompey"
+        },
+        {
+          "date": "65 BCE",
+          "event": "Censor"
+        },
+        {
+          "date": "60 BCE",
+          "event": "Joins Pompey and Caesar in the First Triumvirate"
+        },
+        {
+          "date": "56 BCE",
+          "event": "Reconciled with Pompey at Luca"
+        },
+        {
+          "date": "55 BCE",
+          "event": "Consul again with Pompey; given Syria"
+        },
+        {
+          "date": "53 BCE",
+          "event": "Defeated at Carrhae; killed at a parley with the Parthian commander Surena"
+        }
+      ],
+      "notableDecision": "In 53 BCE he rejected the advice of King Artavasdes of Armenia to march through the Armenian hills, where Parthian cavalry would be least effective, and invaded through Mesopotamia, where he had garrisons.",
+      "setback": "At Carrhae in 53 BCE Surena's horse archers, resupplied from a camel train, shot into his square; his son's sortie was drawn off and destroyed, the army fell back to Carrhae leaving its wounded, and Crassus was killed when a parley with Surena broke into a scuffle."
+    }
+  },
+  {
     "slug": "pompey",
     "name": "Pompey the Great",
     "years": "106–48 BCE",
@@ -729,6 +802,238 @@
       ],
       "notableDecision": "At Alesia in 52 BCE, told that the Gallic cavalry had slipped out to raise all Gaul and that the town had corn for about thirty days, he built a second line of works facing outward against the coming relief and ordered corn and forage gathered for thirty days, instead of lifting the siege.",
       "setback": "Repulsed at Gergovia in 52 BCE: by his own account the legions beyond a valley did not hear the recall and pressed on to the walls, and the next day he reprimanded them for thinking they knew better than their commander. At Dyrrhachium in 48 Pompey broke through an unfinished stretch of his lines, and he gave up the siege and marched into Thessaly."
+    }
+  },
+  {
+    "slug": "titus-labienus",
+    "name": "Titus Labienus",
+    "years": "d. 45 BCE",
+    "state": "Roman Republic",
+    "eraId": "ancient",
+    "role": "Caesar's senior legate in Gaul 58–50 BCE; Pompeian commander in the civil war 49–45 BCE",
+    "summary": "As tribune of the plebs in 63 BCE he worked for Caesar, prosecuting Rabirius and carrying the measure that helped make Caesar pontifex maximus. He served as Caesar's legate throughout the Gallic campaigns, commanding in his absence, beating the Treveri in 54 and leading an expedition against Lutetia in 52. When the civil war broke out he was one of the first to leave Caesar for Pompey; he commanded Pompey's cavalry at Pharsalus, fought on in Africa and was killed at Munda in 45.",
+    "approach": "A lieutenant trusted to decide for himself. At the Sabis he sent the Tenth back from the captured Nervian camp when he saw the battle below; in 54, told to come if he could do so without damage to the public service, he judged that leaving his camp beside the Treveri would invite disaster, stayed and explained why; at Alesia Caesar sent him with cohorts to the threatened northern camp.",
+    "strength": "Independent command in Gaul: the 1911 Britannica names his defeat of the Treveri under Indutiomarus in 54 BCE, his expedition against Lutetia and his victory over Camulogenus in 52 as his chief exploits, and Cassius Dio says he commanded all the legions beyond the Alps whenever Caesar was in Italy. Caesar accepted his judgement when he declined an order.",
+    "limitation": "His success did not follow him to Pompey's side; the 1911 Britannica judges his ill fortune there as marked as his success under Caesar. Before Pharsalus he told Pompey's council that Caesar's army was no longer the one that had conquered Gaul, and the cavalry he led there was routed. After Dyrrhachium, by Caesar's account, he had captured Caesarian soldiers paraded, mocked them as veterans who ran away and killed them; at Munda, Dio says, his move against King Bogud was taken by his own men for flight.",
+    "legacy": "Why he left Caesar is not settled: the 1911 Britannica thinks his sense of his own importance was not adequately recognised, and Dio, two centuries later, that Caesar's favour cooled as he grew rich and famous; Caesar's own surviving account does not say. Plutarch says Caesar sent his money and baggage after him. He is the clearest case in Caesar's wars of a capable lieutenant whose knowledge of the army was turned against it.",
+    "battleSlugs": [
+      "bibracte",
+      "sabis",
+      "alesia",
+      "dyrrhachium",
+      "pharsalus",
+      "munda"
+    ],
+    "source": {
+      "title": "Labienus — Encyclopædia Britannica, 11th ed. (1911)",
+      "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Labienus",
+      "publisher": "Wikisource"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Tribune of the plebs (63 BCE); legate under Caesar in Gaul (58–50 BCE)",
+      "principalCommands": [
+        "Caesar's legions in Gaul in his absence, 58–50 BCE",
+        "Campaign against the Treveri, 54 BCE",
+        "Expedition against Lutetia and the Parisii, 52 BCE",
+        "Pompey's cavalry at Pharsalus, 48 BCE",
+        "Pompeian forces in Africa and Spain, 46–45 BCE"
+      ],
+      "timeline": [
+        {
+          "date": "63 BCE",
+          "event": "Tribune of the plebs; prosecutes Rabirius and carries the measure for Caesar's election as pontifex maximus"
+        },
+        {
+          "date": "58 BCE",
+          "event": "Holds the height before Bibracte while a false report says the enemy has it"
+        },
+        {
+          "date": "57 BCE",
+          "event": "Sends the Tenth back from the Nervian camp at the Sabis"
+        },
+        {
+          "date": "Winter 54 BCE",
+          "event": "Stays in his camp beside the Treveri rather than march to relieve Quintus Cicero"
+        },
+        {
+          "date": "54 BCE",
+          "event": "Defeats the Treveri under Indutiomarus"
+        },
+        {
+          "date": "52 BCE",
+          "event": "Expedition against Lutetia; victory over Camulogenus; at Alesia with Caesar"
+        },
+        {
+          "date": "49 BCE",
+          "event": "Leaves Caesar for Pompey"
+        },
+        {
+          "date": "48 BCE",
+          "event": "With Pompey at Dyrrhachium; commands the cavalry at Pharsalus"
+        },
+        {
+          "date": "46 BCE",
+          "event": "Checks Caesar at Ruspina in Africa"
+        },
+        {
+          "date": "17 March 45 BCE",
+          "event": "Killed at Munda"
+        }
+      ],
+      "notableDecision": "In the winter of 54 BCE, told by Caesar to bring his legion to the borders of the Nervii if he could do so without damage to the public service, he judged that leaving his camp with the whole force of the Treveri a few miles off would look like flight and invite disaster, stayed, and sent a dispatch explaining the danger.",
+      "setback": "Pharsalus, 48 BCE: the cavalry massed under him to ride round Caesar's right was met by Caesar's fourth line and fled for the hills, and the Pompeian army broke."
+    }
+  },
+  {
+    "slug": "vercingetorix",
+    "name": "Vercingetorix",
+    "years": "d. 46 BCE",
+    "state": "Arverni (Gaul)",
+    "eraId": "ancient",
+    "role": "King of the Arverni and commander of the Gallic confederation against Caesar, 52 BCE",
+    "summary": "A chieftain of the Arverni, he led the general rising of the Gauls against Caesar in 52 BCE and was named king of his people and general of the confederates. He fought to starve the Romans by cavalry raids and the burning of Gallic towns and corn, held Gergovia against Caesar's assault, and was shut in Alesia, where he surrendered when the relieving army failed. He was taken to Rome, shown in Caesar's triumph in 46 and executed.",
+    "approach": "Avoided pitched battles and sieges where he could and fought for supply: his cavalry harassed Roman foraging, the Gauls burned their own corn and buildings, by Caesar's account at his order, and he offered battle on ground unfavourable to the Romans. He held the confederation together through daily councils of its chiefs, tested his men in constant cavalry skirmishes, and was confirmed as supreme commander by the council of all Gaul at Bibracte over the Aedui's claim.",
+    "strength": "He brought almost all the peoples of Gaul under one commander, which Livius calls a first in the war, and his strategy of denying the Romans supply was sound; at Gergovia he held the town and threw back Caesar's assault, the first outright defeat Caesar suffered in Gaul in Britannica's judgement.",
+    "limitation": "He could not make his allies hold to his strategy: the Bituriges insisted on defending Avaricum, which was taken by storm within a month, and after Gergovia his attack on the Roman army on the march failed and drove him into Alesia, where he was the one besieged. Short of food there, the Gauls drove out the Mandubii, the town's own people, whom the Romans would not let through their lines; Dio says Vercingetorix drove them out. The Remi, the Lingones and the Treveri stayed out of the rising.",
+    "legacy": "Almost everything known of him comes from Caesar, his enemy, and from later Roman and Greek writers; no Gallic account survives. Those writers tell his surrender differently: Plutarch has him ride out in his finest armour, Dio come unannounced hoping for pardon from a former friend. A memorial to him stands near Alise-Sainte-Reine.",
+    "battleSlugs": ["gergovia", "alesia"],
+    "source": {
+      "title": "Vercingetorix — Britannica Editors",
+      "url": "https://www.britannica.com/biography/Vercingetorix",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "King of the Arverni and general of the Gallic confederation (52 BCE); confirmed as supreme commander by the council of all Gaul at Bibracte",
+      "principalCommands": [
+        "Gallic confederation against Caesar, 52 BCE",
+        "Defence of Gergovia, 52 BCE",
+        "Defence of Alesia, 52 BCE"
+      ],
+      "timeline": [
+        {
+          "date": "52 BCE",
+          "event": "Leads the rising of the Arverni; named king and general of the confederates"
+        },
+        {
+          "date": "52 BCE",
+          "event": "Defeated at Noviodunum of the Bituriges; turns to cutting Roman supplies"
+        },
+        {
+          "date": "52 BCE",
+          "event": "Avaricum, defended against his advice, is taken by storm"
+        },
+        {
+          "date": "52 BCE",
+          "event": "Holds Gergovia against Caesar's assault"
+        },
+        {
+          "date": "52 BCE",
+          "event": "Confirmed as supreme commander at the council of all Gaul at Bibracte"
+        },
+        {
+          "date": "52 BCE",
+          "event": "Attack on the Roman army on the march fails; besieged in Alesia"
+        },
+        {
+          "date": "52 BCE",
+          "event": "Surrenders after the relieving army is beaten"
+        },
+        {
+          "date": "46 BCE",
+          "event": "Shown in Caesar's triumph at Rome and executed"
+        }
+      ],
+      "notableDecision": "In 52 BCE, after the loss at Noviodunum, he turned the rising to a war of supply, telling the Gauls, by Caesar's account, to burn their own corn and buildings and using his cavalry against Roman foraging, so that the Romans would be starved out of Gaul.",
+      "setback": "Shut in Alesia in 52 BCE, he timed breakouts with the relieving army's assaults on the Roman lines; when the last of them failed he surrendered, and Caesar gave most of the prisoners to his soldiers as plunder."
+    }
+  },
+  {
+    "slug": "mark-antony",
+    "name": "Mark Antony (Marcus Antonius)",
+    "years": "83–30 BCE",
+    "state": "Roman Republic",
+    "eraId": "ancient",
+    "role": "Caesar's lieutenant 54–44 BCE; triumvir from 43 BCE, ruling Rome's eastern provinces",
+    "summary": "After service as a cavalry commander under Gabinius in Judaea and Egypt he joined Caesar in Gaul, and as tribune in 49 BCE fled to him when the civil war began. He held Italy for Caesar during the Spanish campaign, commanded the left wing at Pharsalus and was consul with him in 44. After the murder he formed the triumvirate with Octavian and Lepidus, shared the victory over Brutus and Cassius at Philippi in 42 and ruled the East in alliance with Cleopatra; defeated by Octavian at Actium in 31, he killed himself at Alexandria in 30.",
+    "approach": "As Caesar's lieutenant he was trusted with the hardest separate tasks: he brought the rest of the army across the Adriatic in 48, commanded on the siege lines at Dyrrhachium and, with Caesar, halted Pompey's breakout there. As triumvir he looked east, needing Egypt as a source of supplies and funds for war against Parthia.",
+    "strength": "His Britannica biographers call him an outstanding leader of men and a competent general; he distinguished himself as a commander at Philippi, and Livius says he rescued Caesar at Dyrrhachium.",
+    "limitation": "Left to keep order in Italy as master of the horse in 48, he failed and was probably removed in 47. His attack on Parthia in 36 failed with heavy losses, his first military failure. At Actium he chose to break out by sea rather than retreat overland as Canidius advised, with heavy ships whose crews, Plutarch says, were short and poorly trained, against a fleet led by Agrippa, while his advisers and forces were leaving him for Octavian.",
+    "legacy": "With Octavian and Lepidus he drew up the proscriptions in which Cicero, who had attacked him in the Philippics, was killed. Because Octavian won, Britannica notes, it is Octavian's interpretation of him that has lasted, beside Cicero's portrait of a drunken debauchee; Actium settled that the empire would follow Octavian's Roman-Italian policy rather than Antony's Greco-Roman one.",
+    "battleSlugs": ["dyrrhachium", "pharsalus", "actium"],
+    "source": {
+      "title": "Mark Antony — Michael Grant and E. Badian",
+      "url": "https://www.britannica.com/biography/Mark-Antony-Roman-triumvir",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Quaestor (52 BCE); augur (50); tribune of the plebs (49); master of the horse (48–47); consul (44, with Caesar); triumvir (from 43 BCE)",
+      "principalCommands": [
+        "Cavalry under Gabinius in Judaea and Egypt, 57–55 BCE",
+        "On Caesar's staff in Gaul, 54–50 BCE",
+        "Italy for Caesar during the Spanish campaign, 49 BCE",
+        "Left wing at Pharsalus, 48 BCE",
+        "Triumviral army at Philippi, 42 BCE",
+        "Rome's eastern provinces and the war with Parthia, 41–31 BCE",
+        "Fleet and army at Actium, 31 BCE"
+      ],
+      "timeline": [
+        {
+          "date": "83 BCE",
+          "event": "Born"
+        },
+        {
+          "date": "57–55 BCE",
+          "event": "Cavalry commander under Gabinius in Judaea and Egypt"
+        },
+        {
+          "date": "54 BCE",
+          "event": "Joins Caesar in Gaul"
+        },
+        {
+          "date": "49 BCE",
+          "event": "Tribune of the plebs; flees to Caesar; holds Italy during the Spanish campaign"
+        },
+        {
+          "date": "48 BCE",
+          "event": "Brings the rest of the army across the Adriatic; commands the left at Pharsalus"
+        },
+        {
+          "date": "44 BCE",
+          "event": "Consul with Caesar; offers him a diadem at the Lupercalia"
+        },
+        {
+          "date": "43 BCE",
+          "event": "Defeated at Mutina; forms the triumvirate with Octavian and Lepidus"
+        },
+        {
+          "date": "42 BCE",
+          "event": "Victory over Brutus and Cassius at Philippi"
+        },
+        {
+          "date": "40 BCE",
+          "event": "Reconciled with Octavian at Brundisium; marries Octavia"
+        },
+        {
+          "date": "36 BCE",
+          "event": "Attack on Parthia fails"
+        },
+        {
+          "date": "2 September 31 BCE",
+          "event": "Defeated at Actium"
+        },
+        {
+          "date": "August 30 BCE",
+          "event": "Kills himself at Alexandria"
+        }
+      ],
+      "notableDecision": "Before Actium in 31 BCE, with provisions failing and his cavalry beaten, he decided, on Cleopatra's advice in Dio's account, to break out by sea rather than retreat overland as Canidius urged, preparing the breakout as if for a naval battle so as not to seem to flee.",
+      "setback": "At Actium, when Agrippa's fleet gained the upper hand, Cleopatra broke through with her ships for Egypt and Antony followed; his army waited seven days and then went over to Octavian."
     }
   },
   {

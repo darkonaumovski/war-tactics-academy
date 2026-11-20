@@ -79,6 +79,9 @@ Numbers are the prompt's; the last column gives the new number after the merge.
 14. **The psychology is mostly already used.** Leader prototypicality is in `opis` and the Napoleon volume; legitimacy (Tyler) in the Alexander volume; after-action reviews and extrinsic rewards elsewhere. Lessons 5 and 10 (new numbering) link those lessons rather than restate them. Only lesson 3 brings a new review (Mezulis and others, 2004).
 15. **The Gallic side has no voice of its own in anything read.** Every Gallic speech is Caesar's, Dio's or Plutarch's composition; archaeology (Bibracte, Gergovie, Alésia) gives places, not words. Lessons 7 and 8 (new numbering) say so.
 16. **Figures throughout.** Pliny's count, Plutarch's sums for the soldiers, Caesar's numbers at Alesia, the Helvetii and the Usipetes, and Napoleon's own estimates are left out; the lessons describe without them.
+17. **Lesson 0's counter-case is Wellington** (added in batch C1). Arrian's preface was not found as a page of the Wikisource edition, so the Alexander comparison was dropped; Wellington's letter of 8 August 1815 on the history of Waterloo (Gurwood XII, p. 590) sets a commander who left parts of the story untold against one who wrote it himself.
+18. **Suetonius and Caesar disagree on desertion** (added in batch C1). Suetonius says no soldier deserted in the civil war (68.1); the _Civil War_ records two Allobrogian officers who went over at Dyrrhachium (3.59–61). Lesson 5 gives both.
+19. **Aduatuca came through a parley** (added in batch C1). Ambiorix's warning reached Sabinus and Cotta through two envoys (_Gallic War_ 5.26–27); Sabinus died at a second parley, Cotta fighting, and the survivors killed one another in the camp (5.37).
 
 ## Psychology to read in the batches
 

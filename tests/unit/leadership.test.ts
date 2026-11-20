@@ -99,6 +99,7 @@ describe("leadership volumes", () => {
       "radomir-putnik",
       "douglas-haig",
       "arthur-wellesley",
+      "julius-caesar",
     ]);
     for (const x of leadershipVolumes) {
       leadershipVolumeSchema.parse(x);
@@ -273,15 +274,16 @@ describe("the Wellington volume", () => {
 });
 
 describe("the Caesar volume", () => {
-  it("stays unlisted and empty until its pilot ships", () => {
-    leadershipVolumeSchema.parse(caesarVolume);
-    expect(commanders.some((c) => c.slug === caesarVolume.commanderSlug)).toBe(
-      true,
-    );
+  it("is found from Caesar's profile", () =>
+    expect(volumeForCommander("julius-caesar")).toBe(caesarVolume));
+
+  it("lists its pilot lessons in curriculum order", () => {
     expect(caesarVolume.inProgress).toBeTruthy();
-    expect(caesarVolume.lessons).toEqual([]);
-    expect(leadershipVolumes).not.toContain(caesarVolume);
-    expect(volumeForCommander("julius-caesar")).toBeUndefined();
+    expect(caesarVolume.lessons.map((l) => l.slug)).toEqual([
+      "how-to-read-caesar",
+      "the-reverse-explained",
+      "my-soldiers",
+    ]);
   });
 });
 

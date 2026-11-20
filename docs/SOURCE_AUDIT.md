@@ -1684,3 +1684,34 @@ What the reading changed in the prompt's plan:
 - Dates: Ilerda from the 1911 Britannica (arrival 23 June, surrender 2 August 49); Dyrrhachium from Livius (7 July 48 by the Roman calendar, as the Pharsalus study already said); Munda from Way's note on the Liberalia and the 1911 Britannica (17 March 45).
 
 Choices: no casualty or army figures are given, and each study says which figures it leaves out (Caesar's registers of the Helvetii, the Nervian envoys' report, the losses at Gergovia, Ilerda and Dyrrhachium, and both armies at Munda). Sayings are given as reports, with the writer who records them: Plutarch's horse at Bibracte, his and Suetonius's versions of Caesar's verdicts on Pompey after Dyrrhachium and of his words after Munda, and the "wild beasts" remark that Suetonius and Appian give to Pompey. Where the sources disagree (Plutarch on the Tigurini, Dio on Orgetorix and on the course of the Sabis, Appian and Dio on the men cut off at Ilerda, Dio on the numbers at Dyrrhachium, the two accounts of the break at Munda), the study says so. A link check returned 200 for every source address in the six studies. Stale counts were corrected in passing: thirty exercises in `docs/ARCHITECTURE.md` and the roadmap (now thirty-three) and 106 profiles in `docs/DATA_MODEL.md` (now 121).
+
+## Leadership Lessons from Julius Caesar, batch C1: the pilot (20 November 2026)
+
+The pilot of Volume 6 under `docs/LEADERSHIP_CAESAR_PROMPT.md`: lesson 0, `how-to-read-caesar` (the record), lesson 3, `the-reverse-explained` (defeats explained, with Aduatuca added in Phase 0) and lesson 5, `my-soldiers` (the army bound to him, with the pay-and-plunder lesson merged into it, as agreed in Phase 0). Counter-cases: Wellington, Napoleon and Alexander. The volume is listed as in progress. Classical texts were read in the Loeb translations on LacusCurtius, chapter by chapter; the Latin of Suetonius 32 and 37 was checked on the same site.
+
+Sources read:
+
+- Caesar, _Gallic War_ (H. J. Edwards, 1917): 1.39–41 (Vesontio), 4.13–15 (the Usipetes and Tencteri), 5.26–30, 5.37 and 5.52 (Ambiorix's warning, the council of Sabinus and Cotta, their deaths, and Caesar's speech at Quintus Cicero's camp), 7.45–52 (Gergovia and the speech after it) and 7.53.
+- Hirtius, _Gallic War_ 8, preface to Balbus (Edwards).
+- Caesar, _Civil War_ (A. G. Peskett, 1914): 1.39 (the loans from tribunes and centurions), 3.59–61 (the Allobrogian deserters), 3.71 and 3.73–74 (the losses at Dyrrhachium and the speech after them).
+- A. G. Way, introduction to _The Spanish War_ (1955), on its unknown author.
+- Suetonius, _Julius_ (J. C. Rolfe, 1913): 25.2, 30.4, 31–33, 56.1–4, 65, 67, 68, 69 and 70.
+- Plutarch, _Caesar_ (Loeb, 1919): 17, 22, 32, 39 and 51; _Pompey_ 60.
+- Appian, _Civil Wars_ 2.63 and 2.92–94; Cassius Dio 42.52–55.
+- Pliny, _Natural History_ 7.91–92, in Rackham's translation on Wikisource, with the Latin on LacusCurtius.
+- Napoleon, _Précis des guerres de César_ (Paris, 1836), in French, as the Internet Archive's OCR text: chapter 1, p. 28 (Caesar's defeats), and the observations on 55 BCE, p. 60. Paraphrased; nothing is quoted.
+- Gurwood, _Dispatches_, vol. XII (1838), University of Toronto scan: Wellington's letter of 8 August 1815 on the history of Waterloo, p. 590.
+- Arrian, _Anabasis_ 7.8 and 7.11 (E. J. Chinnock, on Wikisource), for Opis.
+- "Caesar, Gaius Julius", _Encyclopædia Britannica_, 11th ed. (1911), on Wikisource: the winter quarters of 54.
+- Psychology, abstracts only: Mezulis, Abramson, Hyde and Hankin (2004), a meta-analysis of the self-serving attributional bias (lesson 3); Kross and others (2014), on third-person self-talk, cited only to say why it is not used (lesson 0).
+
+Quotations are from these texts with their chain stated: Caesar's Usipetes, "as treacherous and hypocritical as ever" (_Gallic War_ 4.13); Cicero's praise, "naked in their simplicity, straightforward yet graceful, stripped of all rhetorical adornment", and Pollio's "somewhat carelessly and without strict regard for truth", both as Suetonius gives them (56.2, 56.4); "The die is cast" (Rolfe's Suetonius 32) and "Let the die be cast" (Plutarch); "comrades", "soldiers", "citizens" and "I discharge you" (Suetonius 67 and 70, Appian 2.93); the narrator's "as I related" (_Gallic War_ 2.24, read in Phase S). Speeches reported by Caesar, Appian and Dio are paraphrased as their authors' compositions. Sayings: the Rubicon phrase appears only with its reporters; Pollio's report of Caesar's words at Pharsalus is paraphrased with Suetonius as its source; no banned saying appears. No figures for armies, losses or rewards are given: the number of studies in the meta-analysis is the only number in the psychology, and the lessons count no dead.
+
+What the batch changed from the evidence pass:
+
+- Lesson 0's counter-case is Wellington's letter of 1815, not Alexander: Arrian's preface on his sources, which would have made the Alexander comparison, is not a separate page of the Wikisource edition and was not read. Wellington's letters-and-no-memoir record is the comparison the prompt names.
+- Suetonius says no soldier deserted Caesar in the civil war (68.1); Caesar's own _Civil War_ records the two Allobrogian officers who went over to Pompey at Dyrrhachium and says no one had before (3.59–61). Lesson 5 gives both.
+- Ambiorix's warning to Sabinus and Cotta came through two Roman envoys at a parley (_Gallic War_ 5.26–27); Sabinus was killed at a second parley and Cotta fighting, and the survivors who regained the camp killed one another (5.37). Lesson 3 gives the sequence without figures.
+- Lesson 3's strategist says only that Caesar gave up the lines and took the war inland after Dyrrhachium; what he did at Pharsalus is left to the study, whose sources were not re-read in this batch.
+
+A link check returned 200 for every new source address.

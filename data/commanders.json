@@ -633,12 +633,12 @@
     "years": "100–44 BCE",
     "state": "Roman Republic",
     "eraId": "ancient",
-    "role": "General, consul and dictator",
-    "summary": "Conquered much of Gaul before defeating Roman rivals in civil war and concentrating political power.",
-    "approach": "Used rapid campaigning, extensive field engineering and personally loyal legions.",
-    "strength": "The siege works at Alesia demonstrate the importance of engineering and labor organization.",
-    "limitation": "Setbacks at Gergovia and Dyrrachium complicate an uninterrupted-success narrative; his own accounts defend his conduct.",
-    "legacy": "Conquest involved mass violence and enslavement. His dictatorship contributed to the Republic's collapse.",
+    "role": "Proconsul in Gaul 58–50 BCE, victor of the civil war of 49–45 BCE and dictator",
+    "summary": "A patrician from a family neither rich nor distinguished, he was consul in 59 BCE and from 58 to 50 conquered Gaul to the Rhine, defeating the Helvetii, Ariovistus and the Belgic peoples, failing at Gergovia and taking Alesia from Vercingetorix in 52. In January 49 he led his troops across the Rubicon into Italy, and in four years he drove his opponents from Italy and defeated them in Spain, at Pharsalus in Greece after a reverse at Dyrrhachium, at Thapsus in Africa and at Munda. Made dictator for life in 44, he was assassinated in the Senate on the Ides of March.",
+    "approach": "Moved before his enemies, and often his own messengers, expected him; built field works on a scale his opponents could not match, at Alesia against both the besieged and an army coming to relieve them; and dealt separately with Gallic peoples and factions, entering Gaul as the ally of the Aedui. He bound his legions to himself through shared danger, recognition and reward, spared Roman opponents while meeting Gallic resistance with severity, and wrote the account of his wars himself, year by year.",
+    "strength": "Speed and energy that ancient and modern writers single out: the elder Pliny ranked him first of all men for vigour of mind, and his Britannica biographer calls his energy, intellectual and physical, his most amazing characteristic. An army that, by his own account, formed itself and fought without orders when surprised at the Sabis, and that built and held the double lines of Alesia.",
+    "limitation": "Repulsed at Gergovia, his first outright defeat in Gaul in Britannica's judgement, and beaten at Dyrrhachium after crossing to Epirus with only part of his army; at Aduatuca two legates who could not agree lost a legion in a winter when he had spread his legions widely. In 55 he detained the chiefs of the Usipetes and Tencteri who came to him after a clash during a truce and attacked their leaderless camp; Cato proposed handing him over to the Germans, and Napoleon judged the conduct contrary to the law of nations. His clemency was for Romans: the defenders of Uxellodunum lost their hands. His own account blames his soldiers, a legate or fortune for each defeat, never his own plan.",
+    "legacy": "The conquest of Gaul was carried out with mass killing and enslavement; the elder Pliny, who praised his clemency, would not count the killing in his battles to his glory. His dictatorship ended the rule of the Republic's nobility, and his murder was followed by thirteen more years of civil war; his heir Augustus kept the republican forms he had set aside. His Commentaries, terse reports which his Britannica biographer says are contrived to make the reader see his acts in the light he chose, remain the record through which most of his wars are read, and his family name became a title for supreme rulers.",
     "battleSlugs": [
       "bibracte",
       "sabis",
@@ -650,54 +650,85 @@
       "munda"
     ],
     "source": {
-      "title": "Julius Caesar — Jona Lendering",
-      "url": "https://www.livius.org/articles/person/caesar/",
-      "publisher": "Livius.org"
+      "title": "Julius Caesar — Arnold Joseph Toynbee and Britannica Editors",
+      "url": "https://www.britannica.com/biography/Julius-Caesar-Roman-ruler",
+      "publisher": "Encyclopaedia Britannica"
     },
     "editorialStatus": "concise-profile",
     "details": {
       "category": "Ruler-commander",
-      "titles": "Gaius Julius Caesar; consul (59 BCE); proconsul of Gaul and Illyricum (58–49 BCE); dictator",
+      "titles": "Gaius Julius Caesar; pontifex maximus (63 BCE); consul (59, 48, 46, 45 and 44 BCE); proconsul of Cisalpine Gaul, Illyricum and Transalpine Gaul (58–49 BCE); dictator (49 and 48 BCE, for ten years from 46, for life in 44)",
       "principalCommands": [
-        "Proconsular army in Gaul, 58–50 BCE",
-        "Armies of the civil war, 49–45 BCE"
+        "Proconsular army in Gaul, 58–50 BCE, with legates commanding detached legions",
+        "Army of the civil war in Italy and Spain, 49 BCE",
+        "Army in Epirus and Thessaly against Pompey, 48 BCE",
+        "Campaigns in Alexandria and Pontus, 48–47 BCE",
+        "Campaigns in Africa, 46 BCE, and Spain, 45 BCE"
       ],
       "timeline": [
         {
           "date": "100 BCE",
-          "event": "Born at Rome"
+          "event": "Born at Rome (the traditional year)"
         },
         {
           "date": "59 BCE",
-          "event": "Consul"
+          "event": "Consul, in alliance with Pompey and Crassus"
         },
         {
           "date": "58 BCE",
-          "event": "Begins Gallic command against the Helvetii"
+          "event": "Takes up the Gallic command; defeats the Helvetii near Bibracte and then Ariovistus"
         },
         {
-          "date": "55–54 BCE",
-          "event": "Bridges the Rhine; expeditions to Britain"
+          "date": "57 BCE",
+          "event": "Surprised by the Nervii and victorious at the Sabis"
+        },
+        {
+          "date": "55 BCE",
+          "event": "Attacks the Usipetes and Tencteri; bridges the Rhine; first expedition to Britain"
+        },
+        {
+          "date": "Winter 54–53 BCE",
+          "event": "A legion lost at Aduatuca; Quintus Cicero's besieged camp relieved"
         },
         {
           "date": "52 BCE",
-          "event": "Repulsed at Gergovia; besieges and takes Alesia"
+          "event": "Repulsed at Gergovia; besieges Alesia, where Vercingetorix surrenders"
+        },
+        {
+          "date": "51 BCE",
+          "event": "Takes Uxellodunum and has the defenders' hands cut off"
+        },
+        {
+          "date": "January 49 BCE",
+          "event": "Crosses the Rubicon into Italy"
         },
         {
           "date": "49 BCE",
-          "event": "Crosses the Rubicon, beginning civil war"
+          "event": "Releases the Pompeian leaders at Corfinium; the Pompeian army in Spain surrenders at Ilerda"
         },
         {
           "date": "48 BCE",
-          "event": "Defeats Pompey at Pharsalus"
+          "event": "Repulsed at Dyrrhachium; defeats Pompey at Pharsalus on 9 August"
         },
         {
-          "date": "44 BCE",
-          "event": "Assassinated in Rome"
+          "date": "47 BCE",
+          "event": "Defeats Pharnaces at Zela"
+        },
+        {
+          "date": "46 BCE",
+          "event": "Defeats the republicans at Thapsus; Cato's suicide at Utica"
+        },
+        {
+          "date": "17 March 45 BCE",
+          "event": "Defeats Pompey's sons at Munda"
+        },
+        {
+          "date": "15 March 44 BCE",
+          "event": "Dictator for life, assassinated in the Senate on the Ides of March"
         }
       ],
-      "notableDecision": "At Alesia he built lines of fortification facing both the besieged settlement and the expected relief army, instead of lifting the siege.",
-      "setback": "He was repulsed at Gergovia in 52 BCE. His own account presents the reverse as troops exceeding his orders, which is self-interested testimony."
+      "notableDecision": "At Alesia in 52 BCE, told that the Gallic cavalry had slipped out to raise all Gaul and that the town had corn for about thirty days, he built a second line of works facing outward against the coming relief and ordered corn and forage gathered for thirty days, instead of lifting the siege.",
+      "setback": "Repulsed at Gergovia in 52 BCE: by his own account the legions beyond a valley did not hear the recall and pressed on to the walls, and the next day he reprimanded them for thinking they knew better than their commander. At Dyrrhachium in 48 Pompey broke through an unfinished stretch of his lines, and he gave up the siege and marched into Thessaly."
     }
   },
   {

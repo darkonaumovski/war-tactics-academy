@@ -161,6 +161,12 @@ const excludedInLessons: [RegExp, string][] = [
   [/alea iacta est/i, "untraced word order"],
   [/wife (must|should) be above suspicion/i, "popular form of a saying"],
   [/fortune favou?rs the (bold|brave)/i, "misattributed saying"],
+  [
+    /(find|make) a way,? or (make|find) one|viam inveniam aut faciam/i,
+    "untraced saying",
+  ],
+  [/hannibal (ad|ante) portas/i, "later proverb"],
+  [/carthago delenda|delenda est carthago/i, "later Latin form"],
   [/no (more )?worlds (left )?to conquer/i, "distorted saying"],
   [
     /narcissis|psychopath|sociopath|megalomania|bipolar|alcoholi(c|sm)|paranoi(a|d)|dark triad/i,

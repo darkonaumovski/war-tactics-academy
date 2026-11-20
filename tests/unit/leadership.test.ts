@@ -8,6 +8,7 @@ import {
 } from "../../data/leadership";
 import { wellingtonVolume } from "../../data/leadership/arthur-wellesley";
 import { caesarVolume } from "../../data/leadership/julius-caesar";
+import { hannibalScipioVolume } from "../../data/leadership/hannibal-barca";
 import { battles, campaigns } from "../../data/catalog";
 import commanders from "../../data/commanders.json";
 import {
@@ -296,6 +297,28 @@ describe("the Caesar volume", () => {
   });
 });
 
+describe("the Hannibal and Scipio volume", () => {
+  it("stays unlisted and empty until its pilot ships", () => {
+    leadershipVolumeSchema.parse(hannibalScipioVolume);
+    for (const slug of [
+      hannibalScipioVolume.commanderSlug,
+      ...(hannibalScipioVolume.alsoCommanderSlugs ?? []),
+    ])
+      expect(
+        commanders.some((c) => c.slug === slug),
+        slug,
+      ).toBe(true);
+    expect(hannibalScipioVolume.alsoCommanderSlugs).toEqual([
+      "scipio-africanus",
+    ]);
+    expect(hannibalScipioVolume.inProgress).toBeTruthy();
+    expect(hannibalScipioVolume.lessons).toEqual([]);
+    expect(leadershipVolumes).not.toContain(hannibalScipioVolume);
+    expect(volumeForCommander("hannibal-barca")).toBeUndefined();
+    expect(volumeForCommander("scipio-africanus")).toBeUndefined();
+  });
+});
+
 describe("problems compared across volumes", () => {
   it("are valid and name only existing volumes and lessons", () => {
     const slugs = leadershipProblems.map((p) => p.slug);
@@ -527,6 +550,24 @@ describe("the leadership lesson schema", () => {
       "As Suetonius reports it, he said: iacta alea est.",
       "As Plutarch tells it, he said: Let the die be cast.",
       "Suetonius says some wrote that he asked Brutus in Greek: You too, my child?",
+    ])
+      expect(accepts({ bearsOn: text }), text).toBe(true);
+  });
+
+  it("excludes the Hannibal and Scipio volume's untraced sayings", () => {
+    for (const text of [
+      "I will find a way or make one.",
+      "Aut viam inveniam aut faciam.",
+      "Hannibal ad portas!",
+      "Carthago delenda est.",
+      "Ceterum censeo Carthaginem esse delendam... delenda est Carthago.",
+    ])
+      expect(accepts({ bearsOn: text }), text).toBe(false);
+    // The traced forms, with their reporters, stay allowed.
+    for (const text of [
+      "Livy says Hannibal rode with his cavalry up to the Colline Gate to inspect the walls.",
+      "As Plutarch tells it, Cato added to every vote: In my opinion, Carthage must be destroyed.",
+      "As Livy tells it, Maharbal said: You know how to win victory, Hannibal, you do not know how to use it.",
     ])
       expect(accepts({ bearsOn: text }), text).toBe(true);
   });

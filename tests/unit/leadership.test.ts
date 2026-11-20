@@ -348,6 +348,12 @@ describe("problems compared across volumes", () => {
     expect(
       problemsForLesson("arthur-wellesley", "the-only-army").map((p) => p.slug),
     ).toEqual(["irreplaceable"]);
+    expect(
+      problemsForLesson("julius-caesar", "two-fronts").map((p) => p.slug),
+    ).toEqual(["stopping", "who-pays"]);
+    expect(problemsForLesson("julius-caesar", "the-reverse-explained")).toEqual(
+      [],
+    );
   });
 });
 

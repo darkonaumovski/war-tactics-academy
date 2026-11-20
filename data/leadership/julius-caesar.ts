@@ -1,7 +1,8 @@
 import type { LeadershipVolume, Source } from "../../lib/types";
 // Volume 6, written in reviewed batches (batch C1, the pilot, is lessons 0,
 // the record, 3, defeats explained, and 5, the army bound to him; batch C2 is
-// lessons 1, speed, 2, the front rank, and 4, siege lines on two fronts);
+// lessons 1, speed, 2, the front rank, and 4, siege lines on two fronts;
+// batch C3 is lessons 6, lieutenants, 7, Gaul divided, and 8, clemency);
 // docs/LEADERSHIP_EVIDENCE_CAESAR.md records which sources can carry each
 // lesson, and docs/SOURCE_AUDIT.md how each was read. Classical texts are the
 // Loeb translations on LacusCurtius; locators are book and chapter, or
@@ -34,6 +35,7 @@ const s = {
   gw4: edwards("4", "book 4"),
   gw5B: edwards("5B", "5.26–58"),
   gw7B: edwards("7B", "7.8–14"),
+  gw7C: edwards("7C", "7.15–33"),
   gw7D: edwards("7D", "7.34–52"),
   gw7E: edwards("7E", "7.53–62"),
   gw7F: edwards("7F", "7.63–74"),
@@ -42,7 +44,9 @@ const s = {
     "Caesar/Gallic_War/8A",
     "Aulus Hirtius, The Gallic War 8, preface and 1–48, trans. H. J. Edwards (Loeb Classical Library, 1917)",
   ),
+  cw1A: peskett("1A", "1.1–29"),
   cw1B: peskett("1B", "1.30–58"),
+  cw1C: peskett("1C", "1.59–87"),
   cw3A: peskett("3A", "3.1–30"),
   cw3B: peskett("3B", "3.31–55"),
   cw3C: peskett("3C", "3.56–81"),
@@ -57,6 +61,14 @@ const s = {
   suetonius: thayer(
     "Suetonius/12Caesars/Julius",
     "Suetonius, The Deified Julius, trans. J. C. Rolfe (Loeb Classical Library, 1913)",
+  ),
+  suetoniusAugustus: thayer(
+    "Suetonius/12Caesars/Augustus",
+    "Suetonius, The Deified Augustus, trans. J. C. Rolfe (Loeb Classical Library, 1913)",
+  ),
+  resGestae: thayer(
+    "Augustus/Res_Gestae/1",
+    "Augustus, Res Gestae Divi Augusti 1–7, trans. F. W. Shipley (Loeb Classical Library, 1924)",
   ),
   plutarchCaesar: thayer(
     "Plutarch/Lives/Caesar",
@@ -77,6 +89,10 @@ const s = {
   dio43: thayer(
     "Cassius_Dio/43",
     "Cassius Dio, Roman History, book 43 (Loeb Classical Library)",
+  ),
+  dio41: thayer(
+    "Cassius_Dio/41",
+    "Cassius Dio, Roman History, book 41 (Loeb Classical Library)",
   ),
   dio42: thayer(
     "Cassius_Dio/42",
@@ -116,6 +132,22 @@ const s = {
       "Amy Mezulis, Lyn Abramson, Janet Hyde and Benjamin Hankin, Is there a universal positivity bias in attributions? A meta-analytic review of individual, developmental, and cultural differences in the self-serving attributional bias (2004), abstract",
     url: "https://pubmed.ncbi.nlm.nih.gov/15367078/",
     publisher: "Psychological Bulletin",
+  },
+  ndbGneisenau: {
+    title:
+      "Gneisenau, August Wilhelm Anton Graf Neidhardt von (Hermann Teske, Neue Deutsche Biographie 6, in German)",
+    url: "https://www.deutsche-biographie.de/sfz69918.html",
+    publisher: "Deutsche Biographie",
+  },
+  ndbArminius: {
+    title: "Arminius (Johannes Bühler, Neue Deutsche Biographie 1, in German)",
+    url: "https://www.deutsche-biographie.de/118504037.html",
+    publisher: "Deutsche Biographie",
+  },
+  liviusTeutoburg: {
+    title: "Teutoburg Forest (9 CE) (Jona Lendering)",
+    url: "https://www.livius.org/articles/battle/teutoburg-forest-9-ce/",
+    publisher: "Livius.org",
   },
   liviusHannibal: {
     title: "Hannibal Barca (Jona Lendering)",
@@ -1465,6 +1497,625 @@ export const caesarVolume: LeadershipVolume = {
         s.dio42,
         s.a7_8,
         s.a7_11,
+      ],
+    },
+    {
+      slug: "lieutenants",
+      title: "Lieutenants: delegation and its failures",
+      part: "An army bound to him",
+      themes: ["organisation", "judgement"],
+      claim:
+        "When a commander delegates command to trusted lieutenants, he extends his reach beyond what he can see, but only while they share his purpose and know when to decide for themselves, and the most capable of them may one day leave him.",
+      inBrief: {
+        strength:
+          "Quintus Cicero held his camp and Labienus judged rightly when to stay put.",
+        shadow:
+          "Two legates who could not agree marched their men to destruction, and his best lieutenant went over to Pompey.",
+      },
+      moment: {
+        text: "In the winter of 54 BCE Caesar spread his legions across northern Gaul in separate winter quarters. When the Nervii and their allies besieged Quintus Cicero’s camp, the chiefs who had friends inside asked for a parley and told him what Ambiorix had told Sabinus: all Gaul was in arms, the Germans had crossed the Rhine, Caesar’s other camps were under attack, Sabinus was dead, and Cicero and his men might leave in safety wherever they pleased. By Caesar’s account Cicero made one reply: it was not the practice of Rome to accept terms from an enemy in arms; if they laid down their arms they could send envoys to Caesar, whose justice he hoped they would find. The legion built towers overnight from the timber it had gathered, held the rampart for days with most of its men wounded, and sent messenger after messenger until a Nervian refugee’s slave carried a dispatch through on a javelin.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "5.39–45" }],
+      },
+      episodes: [
+        {
+          title: "Two legates, one camp",
+          text: "Sabinus and Cotta had shared a camp among the Eburones. When Ambiorix urged them at a parley to leave before the Germans came, Cotta and the senior centurions held that they should not move without Caesar’s order; Sabinus argued for marching to the nearest legion and, by Caesar’s account, raised his voice so the soldiers could hear. Neither could command the other. They marched, were attacked on the way, and in the emergency ordered the baggage abandoned and a square formed, which Caesar judges understandable but disheartening to their own men and encouraging to the enemy. He writes that Sabinus, taken by surprise, lost his judgement, while Cotta did his duty as a commander in encouraging the troops and as a soldier in the fight. Sabinus was killed at a second parley; Cotta fell fighting.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "5.26–37" }],
+          battleSlugs: [],
+          campaignSlugs: ["caesar-s-conquest-of-gaul-58-53-bce"],
+        },
+        {
+          title: "An order with discretion",
+          text: "When Cicero’s message reached him, Caesar sent for Crassus’s and Fabius’s legions and wrote to Labienus to bring his legion to the borders of the Nervii if he could do so without damage to the public service. Labienus, with the whole force of the Treveri camped a few miles from him, judged that leaving his camp would look like flight and invite disaster, and sent back a dispatch explaining the danger. Caesar marched with what he had, relieved Cicero, praised him and his legion according to their deserts and addressed by name the centurions and tribunes whose valour Cicero reported. Then he told the army that the loss at Aduatuca was owed to the fault and foolhardiness of a general.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "5.46–52" }],
+          battleSlugs: [],
+          campaignSlugs: ["caesar-s-conquest-of-gaul-58-53-bce"],
+        },
+        {
+          title: "Labienus",
+          text: "Titus Labienus was the lieutenant Caesar trusted most in Gaul. Cassius Dio says he commanded all the legions beyond the Alps whenever Caesar was in Italy. In 49 he left Caesar for Pompey. Plutarch calls him one of Caesar’s greatest friends, who had fought most zealously with him in all his Gallic wars, and says Caesar sent his money and baggage after him. Dio, writing two centuries later, gives a reason: grown rich and famous, Labienus began to behave above his station, Caesar grew less fond of him, and Labienus, unable to bear the change and afraid of harm, went over and told Pompey all Caesar’s secrets. He fought Caesar at Dyrrhachium and died at Munda.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "41.4" },
+            { source: 2, locator: "34" },
+            { source: 3, locator: "3.71" },
+            { source: 4, locator: "31" },
+          ],
+          battleSlugs: ["dyrrhachium", "munda"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Caesar, Gallic War",
+          stake:
+            "The commander who placed the winter quarters, judging the legates who held them for readers in Rome.",
+          says: "Cicero did his duty, Labienus judged rightly, Cotta fought well, and Sabinus’s folly lost a legion.",
+          refs: [{ source: 0, locator: "5.33, 5.47, 5.52" }],
+        },
+        {
+          who: "Cassius Dio",
+          stake:
+            "A senator of the third century, inclined to explain defections by character.",
+          says: "Labienus left because his pride outgrew his rank and Caesar’s favour cooled.",
+          refs: [{ source: 1, locator: "41.4" }],
+        },
+        {
+          who: "Plutarch",
+          stake:
+            "A biographer who liked to show Caesar’s generosity in small acts.",
+          says: "Caesar sent Labienus’s money and baggage after him.",
+          refs: [{ source: 2, locator: "34" }],
+        },
+        {
+          who: "Suetonius",
+          stake: "A biographer collecting signs of Caesar’s bond with his men.",
+          says: "When he heard of the disaster to Titurius Sabinus, Caesar let his hair and beard grow until he had taken vengeance.",
+          refs: [{ source: 5, locator: "67.2" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Without hindsight, dispersing the legions in the winter of 54 made every legate a commander, far from Caesar and from one another. The system worked where a legate shared Caesar’s purpose and knew when to decide alone: Cicero refused terms and held; Labienus, given an order that left him discretion, used it and explained himself, and Caesar accepted his judgement. It failed where the command itself was divided. Sabinus and Cotta were equals in one camp, with no one above them nearer than Caesar, and the dispute was settled by the louder voice in front of the soldiers. The fault Caesar names was Sabinus’s; the arrangement that let one legate overrule another was his own.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "5.28–30, 5.41, 5.46–47" }],
+        },
+        {
+          text: "A commander who builds his command on personal trust cannot keep it when trust fails. Labienus had Caesar’s full confidence in Gaul and every reason to know his plans; in 49 the same knowledge went to Pompey. The Wellington volume’s lesson on a short leash shows a commander who kept his subordinates close and shared little with them; Caesar shared a great deal, and one of the people he shared it with crossed over. Dio’s explanation of why is a later writer’s inference, and Caesar’s own pages say nothing of it.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "41.4" },
+            { source: 0, locator: "5.46" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "No research on delegation or defection is read for this lesson. Earlier volumes read research on empowering leadership and shared command; this case adds only what the sources show. Caesar praised by name the officers who held and blamed by name the one who failed, and the ancient explanations of Labienus’s departure, pride, cooled favour and fear, are Dio’s guesses about a man whose own account is lost.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered. Labienus left no record of his reasons, and the only explanation read was written two centuries later.",
+        },
+      ],
+      shadow: {
+        text: "A lieutenant who knows the army knows how to hurt it. Dio says Labienus told Pompey all Caesar’s secrets. At Dyrrhachium, in Caesar’s account, he had the captured Caesarian soldiers brought out, called them comrades, asked them insolently whether veterans were in the habit of running away, and killed them in front of the army, to increase, Caesar writes, his own credit as a traitor. The commander’s best officer in Gaul became the enemy’s cruellest in the civil war.",
+        evidence: "fact",
+        refs: [
+          { source: 1, locator: "41.4" },
+          { source: 3, locator: "3.71" },
+        ],
+        battleSlugs: ["dyrrhachium"],
+      },
+      counterCase: {
+        text: "August von Gneisenau was the capable subordinate who stayed. As Hermann Teske’s article in the Neue Deutsche Biographie tells it, he succeeded Scharnhorst in 1813 as quartermaster-general, in effect chief of staff, of Blücher’s army and had a large share in the campaigns that took the allies to Paris; in 1815, through the King’s suspicion and the intrigues of the court against a reforming general, he was denied a command of his own and given again his old post as Blücher’s assistant, to his bitter disappointment. After the defeat at Ligny, with Blücher injured by a fall from his horse, he gave the order to retreat north to Wavre, acting, Teske writes, entirely in Blücher’s sense, so that the Prussian army could join the battle at Waterloo. Labienus left a chief whose favour had cooled; Gneisenau, slighted by his king, kept faith with his commander’s purpose.",
+        evidence: "interpretation",
+        refs: [{ source: 6 }],
+        commanderSlug: "august-von-gneisenau",
+        battleSlugs: ["ligny", "waterloo"],
+      },
+      cost: {
+        text: "At Aduatuca, Caesar writes, the standard-bearer Lucius Petrosidius flung his eagle inside the rampart and was cut down before the camp, and the men who had regained it held off the enemy until nightfall and then, despairing of rescue, killed one another to a man. When Caesar reached Quintus Cicero’s camp he found few of the soldiers unwounded.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "5.37, 5.52" }],
+      },
+      transfer: {
+        holdsWhen: [
+          "Each delegated command has one clear head who shares the leader’s purpose and knows when to act without orders.",
+          "Orders leave room for judgement, and a subordinate who uses it and explains why is backed.",
+        ],
+        failsWhen: [
+          "Two equals share one command with no one to decide between them, and the dispute is settled in front of the people who will pay for it.",
+          "The command rests on personal trust alone, so a capable subordinate whose standing grows has no place to go but out.",
+        ],
+        questions: [
+          "Which of your delegated responsibilities has two people in charge and no one to decide between them?",
+          "When did a subordinate last refuse an order of yours with good reasons, and what did you do?",
+          "What would your most capable deputy take with them if they left, and where would they go?",
+        ],
+      },
+      bearsOn:
+        "Caesar’s soldiers are the second answer to the volume’s question, but an army is also its officers, and this lesson shows them at both ends. Cicero and Labienus in 54 extended Caesar’s reach exactly as delegation should; Sabinus and Cotta show the cost of a divided command; and Labienus in 49 shows that an army bound to one man could lose its best officer when the bond frayed. His account praises the first, blames the second and, in what was read, says nothing about why the third went.",
+      questions: [
+        {
+          prompt:
+            "What did Quintus Cicero reply when the Nervii offered him safe departure from his winter quarters?",
+          choices: [
+            "That he would leave if they gave hostages.",
+            "That it was not the practice of Rome to accept terms from an enemy in arms.",
+            "That he would wait for Caesar’s answer.",
+          ],
+          answer: 1,
+          explanation:
+            "Caesar records the single reply; Sabinus had accepted the same arguments from Ambiorix and marched out.",
+        },
+        {
+          prompt:
+            "How did Labienus respond to Caesar’s order to bring his legion to the Nervii?",
+          choices: [
+            "He marched at once and was ambushed.",
+            "He judged that leaving camp in the face of the Treveri would invite disaster, and wrote to explain, as the order allowed.",
+            "He ignored it.",
+          ],
+          answer: 1,
+          explanation:
+            "Caesar’s order said to come if he could do so without damage to the public service; Labienus used that discretion.",
+        },
+        {
+          prompt:
+            "What explanation does Cassius Dio give for Labienus’s defection in 49?",
+          choices: [
+            "He was bribed by Pompey.",
+            "He grew proud beyond his rank, Caesar’s favour cooled, and he feared harm.",
+            "Caesar dismissed him.",
+          ],
+          answer: 1,
+          explanation:
+            "It is Dio’s inference, two centuries later; Labienus’s own reasons are not recorded.",
+        },
+      ],
+      seminar: {
+        prompt:
+          "Caesar praised Cicero, accepted Labienus’s refusal and blamed Sabinus. Argue who was responsible for Aduatuca, from the positions of Cotta, a centurion who heard Sabinus shout, and Caesar.",
+        guidance:
+          "Use the council at Aduatuca, Cicero’s reply, Labienus’s dispatch and Caesar’s speech after the relief. Distinguish the decision that lost the legion from the arrangement that allowed it to be made.",
+      },
+      sources: [
+        s.gw5B,
+        s.dio41,
+        s.plutarchCaesar,
+        s.cw3C,
+        s.spanish,
+        s.suetonius,
+        s.ndbGneisenau,
+      ],
+    },
+    {
+      slug: "gaul-divided",
+      title: "Gaul divided: using an enemy’s divisions",
+      part: "Enemies and allies",
+      themes: ["judgement", "ethics"],
+      claim:
+        "When a commander can play an enemy’s factions against each other, he can conquer more than his army alone could, until the enemy unites against him, and only so long as the allies he makes believe they gain more from him than from their own kin.",
+      inBrief: {
+        strength:
+          "He entered Gaul as the ally of one faction against another and kept Gallic peoples on his side even in 52.",
+        shadow:
+          "The Aedui, who invited him, lost the primacy they sought and rose against him.",
+      },
+      moment: {
+        text: "In 58 BCE, after the Helvetii had been sent home, the chiefs of the Gallic states asked Caesar to hear them in private. By his own account they threw themselves at his feet in tears, as anxious that their words should not be published as to obtain what they wanted, because publication would expose them to cruel vengeance. The Aeduan Diviciacus spoke for them. All Gaul, he said, was divided into two parties, one led by the Aedui and the other by the Arverni, who had long fought for dominion; the Arverni and the Sequani had hired Germans from across the Rhine, the Germans had liked the land and stayed, and now their king Ariovistus held the Sequani in a cruel tyranny and the Aedui were broken. He alone of the Aedui had refused to swear never to ask Rome for help, and he had gone to the Senate to ask it.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "1.31" }],
+      },
+      episodes: [
+        {
+          title: "An ally divided against itself",
+          text: "Earlier that summer, with the corn the Aedui had promised still not delivered, Caesar pressed their chiefs, and Liscus, their chief magistrate, told him that men of more influence with the common people than the magistrates themselves were stirring the people against delivering it. If the Aedui could not hold the primacy of Gaul, these men argued, it was better to obey Gauls than Romans, who would take the liberty of the Aedui along with the rest. They also told the enemy everything that happened in the Roman camp. Caesar saw that Liscus meant Dumnorix, the brother of his friend Diviciacus, who had grown powerful by buying up the Aeduan taxes and kept a body of horse at his own expense.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "1.16–18" }],
+          battleSlugs: ["bibracte"],
+        },
+        {
+          title: "The Aedui turn",
+          text: "In 52, during the siege of Gergovia, the Aeduan magistrate Convictolitavis, whom Caesar had confirmed in office, took an Arvernian bribe and persuaded young nobles that the Aedui alone stood between Gaul and victory. Litaviccus turned the Aeduan force marching to Caesar with a false story of a massacre; Caesar recovered it without bloodshed, but at home Aeduan crowds killed and robbed Roman traders. When Caesar let Eporedorix and Viridomarus go home, he reminded them of what he had done for the Aedui: found them crowded into their towns, stripped of their lands, paying tribute and giving hostages, and raised them above anything in their history. Dio says that after the defeat at Gergovia those who had caused the first rising feared Roman vengeance and rebelled.",
+          evidence: "fact",
+          refs: [
+            { source: 2, locator: "7.37–43, 7.54" },
+            { source: 4, locator: "40.37–38" },
+          ],
+          battleSlugs: ["gergovia"],
+        },
+        {
+          title: "All Gaul at Bibracte",
+          text: "With the Aedui in revolt, a council of all Gaul met at Bibracte. The Aedui asked for the supreme command; the assembly, by Caesar’s account, voted to a man for Vercingetorix, and the Aedui, resenting the loss of their primacy and of Caesar’s favour, obeyed unwillingly. The Remi and the Lingones stayed away out of friendship for Rome, and the Treveri, hard pressed by the Germans, sent no help to either side. Vercingetorix told the Gauls to burn their own corn and buildings to starve the Romans. After Alesia, Caesar kept back the Aeduan and Arvernian prisoners, hoping to win back their peoples through them, and gave the rest to his soldiers.",
+          evidence: "fact",
+          refs: [
+            { source: 3, locator: "7.63–64" },
+            { source: 5, locator: "7.89" },
+          ],
+          battleSlugs: ["alesia"],
+          campaignSlugs: ["gallic-revolt-of-52-bce"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Caesar, Gallic War",
+          stake:
+            "The conqueror, writing the Gauls’ speeches himself and explaining his interventions as answers to their requests.",
+          says: "The Gauls asked for his help against each other and the Germans, and broke faith when he had served them.",
+          refs: [
+            { source: 0, locator: "1.31" },
+            { source: 2, locator: "7.54" },
+          ],
+        },
+        {
+          who: "Diviciacus, as Caesar reports him",
+          stake:
+            "An Aeduan noble whose faction needed Roman help, speaking in a speech Caesar composed for him.",
+          says: "Gaul was split between the Aedui and the Arverni, and Rome was the Aedui’s only hope against the Germans.",
+          refs: [{ source: 0, locator: "1.31" }],
+        },
+        {
+          who: "Cassius Dio",
+          stake:
+            "A later historian telling the revolt of 52 from a Roman point of view, sometimes differently from Caesar.",
+          says: "The Aedui rose twice, the second time from fear of punishment after Gergovia.",
+          refs: [{ source: 4, locator: "40.37–38" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Caesar entered Gaul by invitation. The Aedui wanted Roman help against the Arverni, the Sequani and the Germans they had hired, and his pages show him using what the alliance gave: Aeduan corn, Aeduan cavalry, Aeduan hostages and intelligence. He also learned to use the Aedui’s own divisions, between Diviciacus who needed him and Dumnorix who feared him; on the march against Ariovistus it was Diviciacus, the one man, Caesar writes, in whom he had absolute confidence, who found the army its route through open country. Without hindsight, this was the cheapest way for a proconsul with a few legions to act across a country he did not know: every intervention on behalf of one people was also a foothold over its rivals.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "1.31, 1.41" },
+            { source: 1, locator: "1.16–18" },
+          ],
+        },
+        {
+          text: "The method worked until 52, when it produced the thing it had prevented. Vercingetorix united most of Gaul, and even the Aedui joined him. Yet the divisions did not disappear: the Remi and Lingones stayed loyal, the Treveri stayed out, and the Aedui resented serving under an Arvernian. After Alesia Caesar returned at once to the old method, keeping back the Aeduan and Arvernian prisoners as tools for winning back their peoples. The lesson is not that divisions can be exploited for ever, but that a conqueror who has exploited them will reach for them again the moment the union breaks.",
+          evidence: "interpretation",
+          refs: [
+            { source: 3, locator: "7.63" },
+            { source: 5, locator: "7.89" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "No research on alliances or intergroup rivalry is read for this lesson. Every Gallic voice in it, Diviciacus, Liscus, Convictolitavis, is a speech or a report in Caesar’s or Dio’s text, so the motives the lesson can see are the motives a Roman author gave the Gauls. Archaeology shows their towns, not their deliberations.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered. The Gallic side survives only through Roman authors, and no Gallic account of these choices exists.",
+        },
+      ],
+      shadow: {
+        text: "Allies made by Rome were ruined by Rome. The Aedui invited Caesar to restore their primacy against the Arverni; by 52 they were offered, in his own reminder, a dignity greater than any in their history, and by the council at Bibracte they had lost the leadership of Gaul to an Arvernian and resented losing Caesar’s favour too. Diviciacus had begged that his words not be published for fear of vengeance; Caesar published them in his book. The faction that bound itself to Rome found that it had bound itself to a power that would rule both factions.",
+        evidence: "interpretation",
+        refs: [
+          { source: 0, locator: "1.31" },
+          { source: 2, locator: "7.54" },
+          { source: 3, locator: "7.63" },
+        ],
+      },
+      counterCase: {
+        text: "Arminius did what Vercingetorix did, and was undone by the same divisions. As the Neue Deutsche Biographie tells it, he commanded the Cheruscan auxiliaries in the Roman army, and in 9 CE led a coalition of Germanic peoples that drew Varus and his legions into an ambush and destroyed them; the Livius article adds that Germania was never included in the empire afterwards. But the Cherusci were divided too. Segestes, a Cheruscan prince and a keen friend of Rome, was his father-in-law against his will; when Arminius besieged him he called in Germanicus, and Arminius’s wife, Segestes’s daughter, was carried into captivity in Italy with the son she was carrying. Arminius fought Rome to a standstill and then fought the Marcomannic king Marbod, and in 21 CE he was murdered by his own kin, allegedly because he sought to be king. Union defeated Rome in Germany once; division ended the man who had built it.",
+        evidence: "interpretation",
+        refs: [{ source: 6 }, { source: 7 }],
+        commanderSlug: "arminius",
+        battleSlugs: ["teutoburg"],
+      },
+      cost: {
+        text: "The divisions were paid for in Gaul. When the Aedui rose in 52 they took the hostages Caesar had lodged with them and tried to terrify waverers by executing them; their crowds robbed, killed or enslaved Roman traders; Vercingetorix ordered the Gauls to burn their own corn and buildings. After Alesia the prisoners who were not useful for winning back the Aedui and the Arverni were given to the soldiers.",
+        evidence: "fact",
+        refs: [
+          { source: 3, locator: "7.63–64" },
+          { source: 2, locator: "7.42" },
+          { source: 5, locator: "7.89" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "An opponent is split into rivals who fear each other more than they fear the outsider, and one of them asks for help.",
+          "The allies believe they gain more from the outsider than they would lose to him.",
+        ],
+        failsWhen: [
+          "The outsider’s success makes him the greater threat, and the rivals unite against him.",
+          "The allies discover that the help they asked for has made them subjects, and change sides at the worst moment.",
+        ],
+        questions: [
+          "Which of your partners is working with you mainly because it fears a rival more than it fears you?",
+          "What would make your opponents set aside their differences, and are you doing it?",
+          "What did your last ally gain from you, and do they still think so?",
+        ],
+      },
+      bearsOn:
+        "This is the answer the Commentaries say least about directly, and show most often. Caesar’s Gaul is a country of rival peoples and rival factions within them, and nearly every campaign begins with one of them asking for his help. The divisions let a few legions conquer a country; when they closed in 52 they nearly undid him; and even then they were not closed enough. His account presents them as the Gauls’ weakness and his help as an answer to requests, which is the fourth answer, his record, at work on the third.",
+      questions: [
+        {
+          prompt:
+            "According to Diviciacus, as Caesar reports him, how was Gaul divided in 58?",
+          choices: [
+            "Between the coast and the interior.",
+            "Into two parties led by the Aedui and the Arverni, the latter having hired Germans from across the Rhine.",
+            "Between Gauls and Belgae only.",
+          ],
+          answer: 1,
+          explanation:
+            "The speech is Caesar’s composition, but it explains the invitation through which he intervened.",
+        },
+        {
+          prompt: "What did Liscus reveal to Caesar about the Aedui?",
+          choices: [
+            "That they were short of corn.",
+            "That powerful men among them were turning the people against Rome and informing the enemy.",
+            "That they had elected Vercingetorix.",
+          ],
+          answer: 1,
+          explanation:
+            "Caesar identified Dumnorix, his ally Diviciacus’s brother, as the leader of that faction.",
+        },
+        {
+          prompt:
+            "Which Gallic peoples stayed away from the council at Bibracte in 52, according to Caesar?",
+          choices: [
+            "The Arverni and the Aedui.",
+            "The Remi and the Lingones, out of friendship for Rome, and the Treveri, pressed by the Germans.",
+            "None; all Gaul attended.",
+          ],
+          answer: 1,
+          explanation:
+            "Even the great rising was not complete, and the Aedui resented the command going to an Arvernian.",
+        },
+      ],
+      seminar: {
+        prompt:
+          "The Aedui invited Caesar into Gaul. Argue whether they were right to do so, from the positions of Diviciacus in 58, Dumnorix, and an Aeduan noble at the council of Bibracte in 52.",
+        guidance:
+          "Use Diviciacus’s speech, Liscus’s report, Caesar’s reminder to Eporedorix and Viridomarus, and the council at Bibracte. Remember that every Gallic voice here was written by a Roman.",
+      },
+      sources: [
+        s.gw1B,
+        s.gw1A,
+        s.gw7D,
+        s.gw7F,
+        s.dio40,
+        s.gw7G,
+        s.ndbArminius,
+        s.liviusTeutoburg,
+      ],
+    },
+    {
+      slug: "clemency",
+      title: "Clemency: mercy as policy",
+      part: "Enemies and allies",
+      themes: ["ethics", "restraint"],
+      claim:
+        "When a leader shows mercy to defeated enemies, it can win a war by making surrender safe, but only when the mercy is credible and the enemy believes it will be honoured, and only for as long as those spared accept being in his debt.",
+      inBrief: {
+        strength:
+          "He let Roman enemies go at Corfinium and Ilerda, and their soldiers came over to him.",
+        shadow:
+          "The Gauls were not offered the same terms, and men he had pardoned killed him.",
+      },
+      moment: {
+        text: "Early in 49 BCE, soon after the Rubicon, the garrison of Corfinium handed over its commander, Lucius Domitius, whom Suetonius calls Caesar’s irregularly named successor in Gaul. At dawn, by Caesar’s own account, the senators and their sons, the military tribunes and the Roman knights in the town were brought before him: Domitius, Lentulus Spinther, the quaestor and others, with many young men and the municipal notables Domitius had summoned. Caesar protected them from the jeers of his soldiers, complained in a few words that they had shown no gratitude for his kindnesses, and let them all go unharmed. The money Domitius had brought into the town for Pompey’s soldiers he returned to Domitius, so as not to seem more restrained with men’s lives than with their property. Domitius’s soldiers he made swear allegiance to himself, and marched on the same day. Plutarch adds that Domitius, despairing, had asked his physician for poison and drunk it, and then, hearing of the wonderful clemency Caesar was showing his prisoners, lamented his haste.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "1.20–23" },
+          { source: 2, locator: "34.1" },
+          { source: 7, locator: "34" },
+        ],
+      },
+      episodes: [
+        {
+          title: "Mercy to citizens",
+          text: "At Ilerda in 49 Caesar refused to fight an army he had cut off from water, saying in his own account that he was moved by compassion for fellow citizens; when it surrendered he disbanded it and forced no one to swear to him. Dio says he did not put to death a single man captured in that war, and that his reputation and cause profited from it. Suetonius adds that while Pompey declared that he would treat as enemies those who did not take up arms for the government, Caesar said that those who stayed neutral would be counted his friends; that at Pharsalus he called out to spare fellow citizens and let each of his men save one man of the other side; and that no Pompeian died except in battle save three, and not even those, it was believed, by his wish.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "1.72, 1.85–87" },
+            { source: 2, locator: "75" },
+            { source: 3, locator: "41.23" },
+          ],
+          battleSlugs: ["ilerda", "pharsalus"],
+        },
+        {
+          title: "No such terms in Gaul",
+          text: "In Gaul the same commander chose severity, and wrote it down. In 55 he detained the chiefs of the Usipetes and Tencteri who had come to his quarters and attacked their leaderless camp, sending his cavalry after the women and children who fled. At Avaricum in 52, he writes, his soldiers, maddened by the massacre of Romans at Cenabum and the toil of the siege, spared neither the old, nor women, nor children. At Uxellodunum in 51 Hirtius explains the reasoning: Caesar’s clemency was known to all, so he did not fear that severity would be thought cruelty in him, and since he saw no end to the war if more peoples rebelled, he granted the defenders their lives and cut off the hands of all who had borne arms, as a warning.",
+          evidence: "fact",
+          refs: [
+            { source: 4, locator: "4.13–15" },
+            { source: 5, locator: "7.28" },
+            { source: 6, locator: "8.44" },
+          ],
+          battleSlugs: [],
+          campaignSlugs: [
+            "caesar-s-conquest-of-gaul-58-53-bce",
+            "gallic-revolt-of-52-bce",
+          ],
+        },
+        {
+          title: "Those who would not be pardoned",
+          text: "Plutarch says that after the civil wars a temple of Clemency was decreed in thanks for Caesar’s mildness; he pardoned many who had fought him and gave some honours and offices, among them Brutus and Cassius, both made praetors. He refused a bodyguard, saying it was better to die once than always to expect death. Suetonius adds that he let all those he had not yet pardoned return to Italy and hold office, and answered plots and slanders with warnings rather than punishments. Cato would not be pardoned. When Caesar learned that Cato had killed himself at Utica, Plutarch reports him saying that he begrudged Cato his death, as Cato had begrudged him the saving of his life. The elder Pliny counted another act as the true sign of a great spirit: when Pompey’s dispatch cases were taken at Pharsalus, and Scipio’s at Thapsus, Caesar burned them unread.",
+          evidence: "fact",
+          refs: [
+            { source: 7, locator: "54, 57" },
+            { source: 2, locator: "75.4–5" },
+            { source: 8, locator: "7.94" },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["caesar-s-civil-war"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Caesar, Civil War",
+          stake:
+            "The commander, presenting his civil war as a defence of his honour and his mercy as proof of it.",
+          says: "He spared senators at Corfinium and an army at Ilerda, from compassion for fellow citizens.",
+          refs: [
+            { source: 0, locator: "1.23" },
+            { source: 1, locator: "1.72" },
+          ],
+        },
+        {
+          who: "Aulus Hirtius",
+          stake:
+            "Caesar’s officer and continuator, explaining the punishment at Uxellodunum.",
+          says: "Because his clemency was known, severity could be used without being taken for cruelty.",
+          refs: [{ source: 6, locator: "8.44" }],
+        },
+        {
+          who: "Pliny the Elder",
+          stake:
+            "A Roman of the next century, condemning Caesar’s killing in war and praising his mercy.",
+          says: "He surpassed everyone in clemency, even to the point of regretting it, and burned his enemies’ letters unread.",
+          refs: [{ source: 8, locator: "7.93–94" }],
+        },
+        {
+          who: "Suetonius",
+          stake: "A biographer listing the evidence for Caesar’s mercy.",
+          says: "No Pompeian died outside battle by his wish, and he treated plots with warnings.",
+          refs: [{ source: 2, locator: "75" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "In a civil war, mercy is a weapon. Every enemy soldier is a citizen who may be needed afterwards, and every garrison deciding whether to hold out is weighing what surrender will cost. Caesar’s mercy at Corfinium was public and immediate, and the garrison’s soldiers swore to him the same day; at Ilerda it ended a campaign without a battle. Repeated, it became credible, and credibility was the point: Pompey’s threat to treat neutrals as enemies made Caesar’s promise to count them as friends the better offer. Dio’s judgement that his cause profited from it states the calculation plainly.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "1.23" },
+            { source: 2, locator: "75.1" },
+            { source: 3, locator: "41.23" },
+          ],
+        },
+        {
+          text: "In Gaul the calculation ran the other way, and Hirtius says so. Clemency and severity were not two temperaments but two instruments of one policy: mercy where surrender had to be made safe, terror where revolt had to be made too costly to repeat. The reputation for mercy even licensed the terror, by Hirtius’s account, because no one would mistake it for cruelty. A reader should hold both in view rather than choose the Caesar of Corfinium or the Caesar of Uxellodunum.",
+          evidence: "interpretation",
+          refs: [{ source: 6, locator: "8.44" }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "No research on forgiveness or reconciliation between enemies is read for this lesson. Cato’s refusal points to what such research might ask: to accept a pardon was to accept that the pardoner had the right to give it. Caesar’s reported words at Utica suggest he understood that, and the sources do not say what the men he pardoned felt about their debt.",
+          evidence: "interpretation",
+          refs: [{ source: 7, locator: "54" }],
+          limit:
+            "No mechanism is offered. Cato’s motives and Caesar’s reported words come from Plutarch, writing a century and a half later.",
+        },
+      ],
+      shadow: {
+        text: "Mercy left its recipients alive and in debt, and some refused to stay there. Plutarch names Brutus and Cassius among the pardoned whom Caesar made praetors; both were among the men who killed him. Dio says many of the soldiers who fought him to the end at Munda had been captured with Afranius and Varro and spared, and fought desperately because they expected no second pardon. Cato, rather than owe Caesar his life, ended it. A mercy that could only be given, never refused or repaid, was itself a sign of how far above the Republic he stood.",
+        evidence: "interpretation",
+        refs: [
+          { source: 7, locator: "54, 57" },
+          { source: 9, locator: "43.36" },
+        ],
+        battleSlugs: ["munda"],
+      },
+      counterCase: {
+        text: "Caesar’s heir took the opposite course and wrote the opposite record. Suetonius says that as a triumvir Octavian at first opposed a proscription of his enemies, but once it began carried it through more severely than his colleagues, insisting that no one be spared and adding his own guardian to the list; when Lepidus held out hope of leniency afterwards, he declared he had agreed to end the proscription only if he kept a free hand for the future. In the Res Gestae, his own account of his deeds, Augustus wrote that when victorious he had spared all citizens who asked for pardon. He died in his bed after ruling for decades; the men Caesar spared killed him.",
+        evidence: "interpretation",
+        refs: [
+          { source: 10, locator: "27" },
+          { source: 11, locator: "3" },
+        ],
+        commanderSlug: "augustus",
+        battleSlugs: ["actium"],
+      },
+      cost: {
+        text: "The policy’s cost fell on those it excluded. At Uxellodunum the men who had borne arms lost their hands; at Avaricum, by Caesar’s account, the old, the women and the children were not spared; the Usipetes and Tencteri died in their camp and in the Rhine. The elder Pliny, who praised Caesar’s clemency, refused in the same passage to count the killing in his foreign wars to his glory.",
+        evidence: "fact",
+        refs: [
+          { source: 6, locator: "8.44" },
+          { source: 5, locator: "7.28" },
+          { source: 4, locator: "4.14–15" },
+          { source: 8, locator: "7.92–93" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "The opponents are people the leader will need afterwards, and surrender is a choice they are still weighing.",
+          "The mercy is public and repeated, so that people believe it before they test it.",
+        ],
+        failsWhen: [
+          "Mercy is offered to some and refused to others in ways the excluded can see, so it reads as calculation rather than principle.",
+          "Those spared resent the debt more than they value their lives, and use the freedom they were given.",
+        ],
+        questions: [
+          "Whom will you need after this conflict, and what are you doing now to make surrender safe for them?",
+          "Who is outside your generosity, and what do they conclude from it?",
+          "What does accepting your forgiveness cost the people who accept it?",
+        ],
+      },
+      bearsOn:
+        "Clemency won Caesar Italy and Spain with little fighting, and his account makes it proof of his cause: the defender of his honour who would not shed citizens’ blood. That is the fourth answer, his record, joined to the second, an army that swelled with the soldiers of every garrison he spared. The Gauls saw the other face of the same policy, and the men he pardoned in Rome found the debt unbearable. Mercy was a strategy, and like his speed it worked where its conditions held.",
+      questions: [
+        {
+          prompt:
+            "What did Caesar do with the senators and knights captured at Corfinium, by his own account?",
+          choices: [
+            "He executed the leaders.",
+            "He protected them from his soldiers, reproached them for ingratitude and let them all go unharmed, returning Domitius’s money.",
+            "He sent them to Rome in chains.",
+          ],
+          answer: 1,
+          explanation:
+            "Their soldiers swore allegiance to him, and he marched on the same day.",
+        },
+        {
+          prompt: "How does Hirtius explain the punishment at Uxellodunum?",
+          choices: [
+            "As revenge for Roman losses.",
+            "Caesar’s clemency was known, so severity would not be taken for cruelty, and he wanted to deter further revolts.",
+            "As a mistake by a subordinate.",
+          ],
+          answer: 1,
+          explanation:
+            "Hirtius presents clemency and severity as two tools of one policy.",
+        },
+        {
+          prompt:
+            "What does the Res Gestae claim about Augustus’s treatment of defeated citizens, and what does Suetonius report?",
+          choices: [
+            "Both say he proscribed his enemies.",
+            "The Res Gestae says he spared all who asked for pardon; Suetonius says he pressed the proscription harder than his colleagues.",
+            "Both say he pardoned everyone.",
+          ],
+          answer: 1,
+          explanation:
+            "The commander’s own record and a later biographer disagree, as they often do for Caesar.",
+        },
+      ],
+      seminar: {
+        prompt:
+          "Was Caesar’s clemency a virtue or a policy? Argue from the positions of Domitius at Corfinium, a defender of Uxellodunum, and Cato at Utica.",
+        guidance:
+          "Use Corfinium, Ilerda, Hirtius on Uxellodunum, Plutarch on Cato and the pardoned assassins, and Augustus’s two records. Say who received mercy, who did not, and what accepting it meant.",
+      },
+      sources: [
+        s.cw1A,
+        s.cw1C,
+        s.suetonius,
+        s.dio41,
+        s.gw4,
+        s.gw7C,
+        s.hirtius,
+        s.plutarchCaesar,
+        s.pliny,
+        s.dio43,
+        s.suetoniusAugustus,
+        s.resGestae,
       ],
     },
   ],

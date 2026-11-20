@@ -611,7 +611,7 @@ test("the Caesar volume lists its lessons so far", async ({ page }) => {
   await expect(
     page.getByRole("heading", { name: "A volume in progress" }),
   ).toBeVisible();
-  await expect(page.getByRole("table").getByRole("row")).toHaveCount(7);
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(10);
   await page.goto("/commanders/julius-caesar");
   await expect(
     page.getByRole("link", { name: /Leadership Lessons from Julius Caesar/ }),

@@ -286,6 +286,9 @@ describe("the Caesar volume", () => {
       "the-reverse-explained",
       "two-fronts",
       "my-soldiers",
+      "lieutenants",
+      "gaul-divided",
+      "clemency",
     ]);
   });
 });

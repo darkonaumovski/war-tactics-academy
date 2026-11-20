@@ -1736,3 +1736,25 @@ Sources read:
 Quotations are from these texts with their chain stated: "I came, I saw, I conquered" (Rolfe's Suetonius 37.2). Caesar's speeches and observations, Plutarch's and Dio's accounts of Munda, Nearchus's report in Arrian and Napoleon's observations are paraphrased. No figures for armies, losses or ships are given; distances and days (snow six feet deep, a river crossed in a day that took the migrants twenty, forty days to build the works at Alesia, Burgos in ten days with a proper train) are kept where the argument depends on them. A link check returned 200 for every new source address.
 
 What the batch changed from the evidence pass: lesson 2's counter-case is Gustavus Adolphus, not Alexander, whose front-rank lesson already uses the Malli town (correction 20); Hannibal rests on the Livius article (21); Burgos on Oman VI (22); Napoleon's observations on Alesia are used for their conditions, not their numbers (23). The test of which lessons cite Cannae now includes `celeritas`.
+
+## Leadership Lessons from Julius Caesar, batch C3: lieutenants, Gaul divided and clemency (20 November 2026)
+
+Lessons 6, `lieutenants`, 7, `gaul-divided`, and 8, `clemency`, of Volume 6. Counter-cases: Gneisenau, Arminius and Augustus. The volume stays listed as in progress, with nine of its twelve lessons. Classical texts were read in the Loeb translations on LacusCurtius, chapter by chapter; the two German biographies in German.
+
+Sources read:
+
+- Caesar, _Gallic War_ (H. J. Edwards, 1917): 1.16–18 (Liscus and Dumnorix), 1.31 (Diviciacus's speech), 1.41 (Diviciacus finds the route), 4.13–15 (the Usipetes), 5.26–52 (Aduatuca, Quintus Cicero's defence, Labienus's dispatch and the relief), 7.28 (Avaricum), 7.37–43 and 7.54 (the Aedui), 7.63–64 (the council at Bibracte) and 7.89 (the prisoners after Alesia).
+- Hirtius, _Gallic War_ 8.44 (Uxellodunum).
+- Caesar, _Civil War_ (A. G. Peskett, 1914): 1.20–23 (Corfinium), 1.72 and 1.85–87 (Ilerda), 3.71 (Labienus and the captives).
+- _The Spanish War_ (A. G. Way), 31 (Labienus's death).
+- Suetonius, _Julius_ (Rolfe): 34.1, 67.2 and 75; _Augustus_ 27.
+- Plutarch, _Caesar_ (Loeb, 1919): 34, 54 and 57.
+- Cassius Dio 40.37–38, 41.4, 41.23 and 43.36.
+- Pliny, _Natural History_ 7.92–94, in Rackham's translation on Wikisource.
+- Augustus, _Res Gestae_ 3 (F. W. Shipley, Loeb, 1924), on LacusCurtius.
+- Hermann Teske, "Gneisenau", _Neue Deutsche Biographie_ 6, and Johannes Bühler, "Arminius", _Neue Deutsche Biographie_ 1, both on deutsche-biographie.de, in German.
+- Jona Lendering, "Teutoburg Forest (9 CE)", Livius.org, the introduction.
+
+Quotations are from these texts with their chain stated: none beyond short phrases inside paraphrase; Cato's and Caesar's words at Utica, Quintus Cicero's reply, Diviciacus's speech, Hirtius's reasoning and the German biographies are paraphrased. No figures for armies, losses or prisoners are given; Pliny's total and the numbers in Diviciacus's speech are left out. A link check returned 200 for every new source address.
+
+What the batch changed from the evidence pass: corrections 24–27. The lessons are shorter than the template's guide (about 1,170–1,230 words of body text), kept to what the sources read support.

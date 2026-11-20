@@ -1715,3 +1715,24 @@ What the batch changed from the evidence pass:
 - Lesson 3's strategist says only that Caesar gave up the lines and took the war inland after Dyrrhachium; what he did at Pharsalus is left to the study, whose sources were not re-read in this batch.
 
 A link check returned 200 for every new source address.
+
+## Leadership Lessons from Julius Caesar, batch C2: speed, the front rank and two fronts (20 November 2026)
+
+Lessons 1, `celeritas` (speed as a habit), 2, `the-sabis` (surprise and the front rank) and 4, `two-fronts` (siege lines against the besieged and a relief), of Volume 6. Counter-cases: Hannibal, Gustavus Adolphus and Wellington at Burgos. The volume stays listed as in progress, with six of its twelve lessons. Classical texts were read in the Loeb translations on LacusCurtius, chapter by chapter.
+
+Sources read:
+
+- Caesar, _Gallic War_ (H. J. Edwards, 1917): 1.7 and 1.12–13 (the Rhone and the Saône in 58), 2.20–28 (the Sabis), 7.6–9 (the winter march over the Cevennes) and 7.69–89 (the works at Alesia, the relief battle, the Mandubii and the surrender).
+- Caesar, _Civil War_ (A. G. Peskett, 1914): 3.2 and 3.6–8 (the crossing to Epirus and Bibulus's burning of the returning ships), 3.42–48 (supply and the investment at Dyrrhachium) and 3.61–63 (the unfinished cross-wall).
+- _The Spanish War_ (A. G. Way, 1955), 31 (Munda).
+- Suetonius, _Julius_ (Rolfe): 36, 37.2, 57 and 58. Plutarch, _Caesar_: 17, 20, 39, 50 and 56. Cassius Dio 40.40 (the people driven out of Alesia) and 43.37–38 (Munda).
+- Pliny, _Natural History_ 7.91 (Rackham, on Wikisource).
+- Napoleon, _Précis des guerres de César_ (1836), in French OCR: the observations on 52 BCE, ch. 7, pp. 109–111. Paraphrased.
+- Jona Lendering, "Hannibal Barca", Livius.org: the invasion of Italy, Trasimene and Cannae, the allies who stayed loyal, the ports, the Metaurus and Zama.
+- Arrian, _Anabasis_ 6.9–13 (E. J. Chinnock, on Wikisource): the Malli town, the camp's despair and Nearchus's account of the friends' reproach; 6.12–13 are cited.
+- "Gustavus II. Adolphus" (R. N. Bain), _Encyclopædia Britannica_, 11th ed. (1911), on Wikisource: Breitenfeld and Lützen. The Vasa Museum's page, the profile's source, was read and says nothing of Lützen.
+- Charles Oman, _A History of the Peninsular War_, vol. VI (1922), University of Toronto scan: the castle of Burgos and Wellington's want of a siege train, pp. 22–24; the order to raise the siege, p. 66.
+
+Quotations are from these texts with their chain stated: "I came, I saw, I conquered" (Rolfe's Suetonius 37.2). Caesar's speeches and observations, Plutarch's and Dio's accounts of Munda, Nearchus's report in Arrian and Napoleon's observations are paraphrased. No figures for armies, losses or ships are given; distances and days (snow six feet deep, a river crossed in a day that took the migrants twenty, forty days to build the works at Alesia, Burgos in ten days with a proper train) are kept where the argument depends on them. A link check returned 200 for every new source address.
+
+What the batch changed from the evidence pass: lesson 2's counter-case is Gustavus Adolphus, not Alexander, whose front-rank lesson already uses the Malli town (correction 20); Hannibal rests on the Livius article (21); Burgos on Oman VI (22); Napoleon's observations on Alesia are used for their conditions, not their numbers (23). The test of which lessons cite Cannae now includes `celeritas`.

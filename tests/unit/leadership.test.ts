@@ -277,11 +277,14 @@ describe("the Caesar volume", () => {
   it("is found from Caesar's profile", () =>
     expect(volumeForCommander("julius-caesar")).toBe(caesarVolume));
 
-  it("lists its pilot lessons in curriculum order", () => {
+  it("lists its lessons in curriculum order", () => {
     expect(caesarVolume.inProgress).toBeTruthy();
     expect(caesarVolume.lessons.map((l) => l.slug)).toEqual([
       "how-to-read-caesar",
+      "celeritas",
+      "the-sabis",
       "the-reverse-explained",
+      "two-fronts",
       "my-soldiers",
     ]);
   });
@@ -355,6 +358,7 @@ describe("links from the rest of the site", () => {
     expect(lessonsForBattle("midway")).toEqual([]);
     expect(lessonsForBattle("cannae").map((x) => x.lesson.slug)).toEqual([
       "parmenions-advice",
+      "celeritas",
     ]);
     expect(
       lessonsForBattle("granicus").map((x) => x.volume.commanderSlug),

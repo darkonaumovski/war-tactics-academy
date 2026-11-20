@@ -600,7 +600,7 @@ test("the Wellington volume lists all its lessons", async ({ page }) => {
     /\/leadership\/arthur-wellesley\/the-afternoon-at-salamanca\/$/,
   );
 });
-test("the Caesar volume opens with its pilot lessons", async ({ page }) => {
+test("the Caesar volume lists its lessons so far", async ({ page }) => {
   await page.goto("/leadership/julius-caesar");
   await expect(
     page.getByText(
@@ -611,7 +611,7 @@ test("the Caesar volume opens with its pilot lessons", async ({ page }) => {
   await expect(
     page.getByRole("heading", { name: "A volume in progress" }),
   ).toBeVisible();
-  await expect(page.getByRole("table").getByRole("row")).toHaveCount(4);
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(7);
   await page.goto("/commanders/julius-caesar");
   await expect(
     page.getByRole("link", { name: /Leadership Lessons from Julius Caesar/ }),

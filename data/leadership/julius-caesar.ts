@@ -2,7 +2,8 @@ import type { LeadershipVolume, Source } from "../../lib/types";
 // Volume 6, written in reviewed batches (batch C1, the pilot, is lessons 0,
 // the record, 3, defeats explained, and 5, the army bound to him; batch C2 is
 // lessons 1, speed, 2, the front rank, and 4, siege lines on two fronts;
-// batch C3 is lessons 6, lieutenants, 7, Gaul divided, and 8, clemency);
+// batch C3 is lessons 6, lieutenants, 7, Gaul divided, and 8, clemency;
+// batch C4 is lessons 9, the rival, 10, the Rubicon, and 11, the ledger);
 // docs/LEADERSHIP_EVIDENCE_CAESAR.md records which sources can carry each
 // lesson, and docs/SOURCE_AUDIT.md how each was read. Classical texts are the
 // Loeb translations on LacusCurtius; locators are book and chapter, or
@@ -50,6 +51,7 @@ const s = {
   cw3A: peskett("3A", "3.1–30"),
   cw3B: peskett("3B", "3.31–55"),
   cw3C: peskett("3C", "3.56–81"),
+  cw3D: peskett("3D", "3.82–112"),
   spanish: thayer(
     "Caesar/Spanish_War/text",
     "The Spanish War, by an unknown author, trans. A. G. Way (Loeb Classical Library, 1955)",
@@ -69,6 +71,10 @@ const s = {
   resGestae: thayer(
     "Augustus/Res_Gestae/1",
     "Augustus, Res Gestae Divi Augusti 1–7, trans. F. W. Shipley (Loeb Classical Library, 1924)",
+  ),
+  resGestae6: thayer(
+    "Augustus/Res_Gestae/6",
+    "Augustus, Res Gestae Divi Augusti 32–35, trans. F. W. Shipley (Loeb Classical Library, 1924)",
   ),
   plutarchCaesar: thayer(
     "Plutarch/Lives/Caesar",
@@ -120,6 +126,18 @@ const s = {
     title: "“Caesar, Gaius Julius”, Encyclopædia Britannica, 11th ed. (1911)",
     url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Caesar,_Gaius_Julius",
     publisher: "Wikisource",
+  },
+  tyler: {
+    title:
+      "Tom R. Tyler, Psychological perspectives on legitimacy and legitimation (2006), abstract",
+    url: "https://pubmed.ncbi.nlm.nih.gov/16318600/",
+    publisher: "Annual Review of Psychology",
+  },
+  gurwoodVI: {
+    title:
+      "The Dispatches of Field Marshal the Duke of Wellington, comp. John Gurwood, vol. VI (London: John Murray, 1836)",
+    url: "https://archive.org/details/dispatchesoffiel06welluoft",
+    publisher: "Internet Archive (University of Toronto)",
   },
   kross: {
     title:
@@ -2118,7 +2136,611 @@ export const caesarVolume: LeadershipVolume = {
         s.resGestae,
       ],
     },
+    {
+      slug: "a-rival-who-knew-him",
+      title: "A rival who knew him: Pompey",
+      part: "Enemies and allies",
+      themes: ["adaptation", "judgement"],
+      claim:
+        "When two leaders know each other’s habits, the advantage goes to the one who can act on that knowledge and change his own, but only if his followers let him, and only while the knowledge is still true.",
+      inBrief: {
+        strength:
+          "At Pharsalus he read Pompey’s plan from his dispositions and built a line against it.",
+        shadow:
+          "Victory over a fellow Roman settled the war, not the question of how Rome would be ruled.",
+      },
+      moment: {
+        text: "Before Pharsalus in 48 BCE, Pompey told his council of war, as Caesar later recorded it, that Caesar’s army would be routed before the lines met. He knew it sounded incredible, he said, but his cavalry had promised to ride round Caesar’s open right flank and drive his army from behind before a weapon was thrown, so that the war would be ended without risking the legions. Labienus spoke next. Do not suppose, he told Pompey, that this is the army that conquered Gaul and Germany; he had been at all its battles, most of it had perished or gone home, and the flower of what was left had fallen at Dyrrhachium. He swore not to return to camp except as a victor, Pompey swore the same, and the council broke up in high expectation. Caesar’s account of this council was written by the man it was about.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "3.86–87" }],
+      },
+      episodes: [
+        {
+          title: "Dyrrhachium: Pompey reads Caesar",
+          text: "At Dyrrhachium Pompey did what Caesar could not make him undo. He refused a pitched battle, built an inner line of redoubts faster than Caesar could close the outer ring, and waited while Caesar’s men lived on roots. When two Allobrogian deserters told him where Caesar’s lines were unfinished, he struck there by land and sea and broke out. Then, with Caesar’s counterattack collapsing, he did not press the pursuit. Caesar thought he feared an ambush; Appian says Labienus persuaded him to chase the fugitives instead of taking Caesar’s camp, and that Pompey hesitated; Suetonius has Caesar say afterwards that Pompey did not know how to use a victory.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "3.44, 3.48" },
+            { source: 5, locator: "3.61–63, 3.70" },
+            { source: 4, locator: "2.62" },
+            { source: 3, locator: "36" },
+          ],
+          battleSlugs: ["dyrrhachium"],
+        },
+        {
+          title: "Two camps",
+          text: "In Thessaly, Caesar writes, Pompey’s camp behaved as though the war were won: men quarrelled over Caesar’s priesthood, apportioned consulships for years ahead, and argued over how to punish those who had stayed neutral. Plutarch, from the other side, says Pompey meant to avoid battle and wear Caesar down by want, but was denounced for prolonging the war to keep his command, called Agamemnon and King of Kings, and forced from his purpose by followers he was loath to disappoint. Caesar, meanwhile, offered battle daily, trained picked young infantrymen to fight among his outnumbered cavalry, and was on the point of marching away when Pompey’s line came further from its rampart than usual. He turned the army round and said this was the chance they had always asked for.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "3.82–85" },
+            { source: 2, locator: "66–67" },
+          ],
+          battleSlugs: ["pharsalus"],
+        },
+        {
+          title: "The fourth line",
+          text: "Seeing Pompey’s cavalry massed against his right, Caesar drew single cohorts from his third line into a fourth, posted it facing the horsemen, told those men that the day depended on them, and ordered the third line not to engage until he gave the signal. Pompey ordered his infantry to stand and receive the charge, which Caesar calls irrational; Caesar’s veterans, seeing the enemy not advancing, halted of their own accord halfway to recover their breath, then charged. When Pompey’s cavalry drove back Caesar’s horse and began to ride round the flank, the fourth line attacked them so fiercely that they fled for the hills, the archers and slingers behind them were cut down, and the cohorts wheeled onto the Pompeian rear. The exercise ‘Pompey’s cavalry’ puts the reader at that choice.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "3.84, 3.89, 3.92–94" }],
+          battleSlugs: ["pharsalus"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Caesar, Civil War",
+          stake:
+            "The victor, writing his rival’s council of war and his own reading of it.",
+          says: "Pompey’s plan was legible, his camp was quarrelling over spoils, and his order to stand was a mistake.",
+          refs: [{ source: 0, locator: "3.83, 3.86, 3.92" }],
+        },
+        {
+          who: "Plutarch, Life of Pompey",
+          stake:
+            "A biographer sympathetic to Pompey, writing a century and a half later.",
+          says: "Pompey knew delay was his best course and was shamed out of it by his own side.",
+          refs: [{ source: 2, locator: "67" }],
+        },
+        {
+          who: "Suetonius",
+          stake: "A biographer recording Caesar’s sayings.",
+          says: "Caesar said Pompey did not know how to use a victory.",
+          refs: [{ source: 3, locator: "36" }],
+        },
+        {
+          who: "Appian",
+          stake:
+            "A Greek historian of the second century, inclined to see fate and folly in Pompey’s choices.",
+          says: "Labienus led Pompey away from taking Caesar’s camp after Dyrrhachium.",
+          refs: [{ source: 4, locator: "2.62" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Each commander knew the other, and each knew something different. Pompey’s knowledge was strategic: Caesar’s army was short of supplies and could be worn down by delay, and Plutarch says he judged Caesar’s veterans invincible in battle but ill fitted by age for marches and digging. Caesar’s knowledge was tactical: he could read Pompey’s plan from the way his cavalry was massed, and he had already trained infantry to fight among his own horse. Without hindsight, Pompey’s plan for the battle was sound on paper and his plan for the campaign was better. He could not hold his camp to the second, and Caesar met the first with a line he had prepared for.",
+          evidence: "interpretation",
+          refs: [
+            { source: 2, locator: "66–67" },
+            { source: 0, locator: "3.84, 3.89" },
+          ],
+        },
+        {
+          text: "Knowledge of a rival is a snapshot. Labienus knew the army of Gaul better than anyone in Pompey’s camp, and told the council that it was gone; the veterans who halted halfway through their charge without orders, because they had learned from earlier battles, showed what he had missed. The Napoleon volume’s lesson on rivals who learn makes the general point; this case adds that the man with the most intimate knowledge of the enemy can be the most confidently wrong, because he knows what the enemy used to be.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "3.87, 3.93" }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "No research on rivalry or on group pressure in decisions is read for this lesson, and the Napoleon volume already carries the argument about opponents who learn. The sources show a pressure that research might name: a commander with a sound plan argued out of it by followers who mocked his caution and divided the spoils in advance. Plutarch’s explanation, that Pompey was a slave to reputation, is a biographer’s judgement of character, not a finding.",
+          evidence: "interpretation",
+          refs: [{ source: 2, locator: "67" }],
+          limit:
+            "No mechanism is offered. Pompey’s motives come from Plutarch and from Caesar, his enemy; his own account does not survive.",
+        },
+      ],
+      shadow: {
+        text: "Victory over a fellow Roman settled the campaign, not the Republic. Pompey fled to Egypt, where the young king’s advisers lured him into a small boat and had him killed by Achillas and Septimius, a man who had served under him as a centurion; Lentulus was killed in prison. The war went on in Africa and in Spain against Pompey’s sons, and ended, as the 1911 Britannica judges it, with Caesar holding powers little different from those of the later Principate.",
+        evidence: "interpretation",
+        refs: [{ source: 0, locator: "3.103–104" }, { source: 6 }],
+      },
+      counterCase: {
+        text: "Pompey is the counter-case to his own victory at Dyrrhachium. He had read Caesar correctly: his best course, Plutarch writes, was to follow him, avoid battle and starve him, and he knew it. He also feared, Plutarch says, a saying current among his cavalry that once they had routed Caesar they must put down Pompey too, and, some said, he kept Cato away from the army in case Cato forced him to lay down his command after victory. Mocked by the senators and kings in his camp, he gave way. The rival who knew Caesar best could not act on that knowledge because his followers did not share it, while Caesar’s soldiers, in Suetonius’s account, asked to be punished for Dyrrhachium and fought at Pharsalus weeks later.",
+        evidence: "interpretation",
+        refs: [
+          { source: 2, locator: "67" },
+          { source: 3, locator: "68.3" },
+        ],
+        commanderSlug: "pompey",
+        battleSlugs: ["dyrrhachium", "pharsalus"],
+      },
+      cost: {
+        text: "Asinius Pollio, as Suetonius reports him, saw Caesar at Pharsalus look at his enemies slain or in flight and say, word for word, ‘They would have it so’: even he, after so many great deeds, would have been condemned if he had not turned to his army. The dead on that field were Roman citizens on both sides.",
+        evidence: "fact",
+        refs: [{ source: 3, locator: "30.4" }],
+      },
+      transfer: {
+        holdsWhen: [
+          "You know how a rival thinks, and you can prepare a specific answer to what they are likely to do.",
+          "Your own people trust your judgement enough to let you act on what you know, even when it looks like caution.",
+        ],
+        failsWhen: [
+          "Your knowledge of the rival is old, and they have learned since you last saw them work.",
+          "Your followers do not share your reading and press you into the action the rival wants.",
+        ],
+        questions: [
+          "What do you know about your main competitor that is more than a year old?",
+          "Who in your organisation could talk you out of a plan you know is right, and how?",
+          "What would your rival say about you today, and is it still true?",
+        ],
+      },
+      bearsOn:
+        "Pharsalus is often told as Caesar’s genius and Pompey’s blunder. The evidence makes it the meeting of two of the volume’s answers: Caesar’s soldiers, who halted mid-charge without orders and broke the cavalry, and his enemies’ divisions, here not Gallic factions but a Pompeian camp that could not agree to wait. The account of Pompey’s council, the quarrels over spoils and Labienus’s boast comes from Caesar, the fourth answer, and it makes his enemies’ folly the explanation of his victory.",
+      questions: [
+        {
+          prompt:
+            "What did Pompey promise his council before Pharsalus, as Caesar records it?",
+          choices: [
+            "That he would wait until Caesar starved.",
+            "That his cavalry would rout Caesar’s army from the flank before the lines met.",
+            "That he would negotiate.",
+          ],
+          answer: 1,
+          explanation:
+            "Labienus added that Caesar’s army was no longer the army of Gaul; both swore to return only as victors.",
+        },
+        {
+          prompt: "How did Caesar meet Pompey’s cavalry at Pharsalus?",
+          choices: [
+            "With his own larger cavalry.",
+            "With a fourth line of cohorts drawn from his third, posted against the cavalry and told the day depended on them.",
+            "By retreating to his camp.",
+          ],
+          answer: 1,
+          explanation:
+            "He had also trained young infantry to fight among his outnumbered horse in the days before.",
+        },
+        {
+          prompt:
+            "According to Plutarch, why did Pompey fight at Pharsalus at all?",
+          choices: [
+            "Because he expected an easy victory.",
+            "Because his followers mocked his caution and forced him from his plan of wearing Caesar down.",
+            "Because his supplies had run out.",
+          ],
+          answer: 1,
+          explanation:
+            "Plutarch says Pompey knew delay was his best course and gave way to his camp.",
+        },
+      ],
+      seminar: {
+        prompt:
+          "Pompey knew how to beat Caesar and fought him anyway. Argue who was responsible for Pharsalus, from the positions of Pompey, Labienus and a senator in Pompey’s camp.",
+        guidance:
+          "Use Pompey’s council as Caesar records it, Plutarch on the pressure to fight, and the fourth line. Say what each man knew about Caesar’s army, and how old that knowledge was.",
+      },
+      sources: [
+        s.cw3D,
+        s.cw3B,
+        s.plutarchPompey,
+        s.suetonius,
+        s.appian,
+        s.cw3C,
+        s.eb1911,
+      ],
+    },
+    {
+      slug: "the-rubicon",
+      title: "The Rubicon: command and legitimacy",
+      part: "Beyond the battlefield",
+      themes: ["ethics", "succession"],
+      claim:
+        "When a commander turns his army against the authority that gave it to him, he may win the war, but he loses the legitimacy that would let his victory be accepted, and the more power he then gathers, the less of it he can rule by consent.",
+      inBrief: {
+        strength:
+          "His army followed him across the Rubicon and won him Italy in weeks.",
+        shadow:
+          "He won the war and was killed within a year of its end by men who called it liberty.",
+      },
+      moment: {
+        text: "Early in 49 BCE, as Suetonius tells it, Caesar slipped away from a dinner at Ravenna after dark, lost his way in the night, and at dawn overtook his cohorts at the Rubicon, the boundary of his province. He paused, and, realising what he was doing, said to those about him that they could still draw back, but once across the little bridge the whole issue would be with the sword. Then a figure of wondrous stature appeared, seized a trumpet from one of his trumpeters, sounded the war note and strode to the other bank. Caesar said they should go where the signs of the gods and the injustice of their enemies called: in Rolfe’s translation of Suetonius, ‘The die is cast.’ Plutarch says he used a Greek proverb, ‘Let the die be cast’, after talking over with his friends, Asinius Pollio among them, the evils that would follow for all mankind.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "31–32" },
+          { source: 1, locator: "32" },
+        ],
+      },
+      episodes: [
+        {
+          title: "The law and the vetoes",
+          text: "The 1911 Britannica explains the trap. Caesar’s command in Gaul had been extended so that he would hold office, and with it immunity from prosecution, until he could be elected consul again; in 52 Pompey passed a law that made it possible to name his successor before then, which would leave him for some months a private citizen, liable to be called to account. When the Senate proclaimed martial law in January 49, the tribunes Antony and Cassius fled to him. Suetonius gives the motives others saw: Pompey said Caesar wanted turmoil because he could not pay for all he had promised; Cato swore to impeach him the moment he gave up his army; and Pollio reported that at Pharsalus Caesar said he would have been condemned had he not turned to his army.",
+          evidence: "fact",
+          refs: [{ source: 2 }, { source: 0, locator: "30" }],
+          battleSlugs: [],
+          campaignSlugs: ["caesar-s-civil-war"],
+        },
+        {
+          title: "His own case",
+          text: "Caesar’s Civil War gives his answer, spoken to a captured enemy at Corfinium: he had not left his province with any evil intent, but to defend himself from the insults of his enemies, to restore the tribunes who had been expelled, and to assert the freedom of himself and the Roman people, oppressed by a small faction. Across the Rubicon, Suetonius says, he harangued the soldiers with tears, tearing his robe from his breast, and begged for their faithful service. Plutarch says the news filled Rome with a fear beyond compare, and the senators ran to Pompey, who could point only to the soldiers who had come from Caesar and to troops still to be gathered.",
+          evidence: "fact",
+          refs: [
+            { source: 3, locator: "1.22" },
+            { source: 0, locator: "33" },
+            { source: 4, locator: "60" },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["caesar-s-civil-war"],
+        },
+        {
+          title: "Dictator for life",
+          text: "Victory brought power, and the power had no republican name. The 1911 Britannica traces the dictatorships, the third for ten years and, before February 44, one for life, which it calls a contradiction in terms that suspended the guarantees of Roman liberty. Suetonius lists the honours Caesar accepted, from the perpetual dictatorship to temples and a priest of his own, and says they were thought too great for a mortal; Titus Ampius, a hostile witness, recorded him saying that the Republic was nothing, a mere name without body or form. Suetonius says the conspiracies came together because even the populace now cried out for defenders of their liberty. On the Ides of March he was stabbed in the Senate, uttering, Suetonius says, not a word but a groan.",
+          evidence: "fact",
+          refs: [{ source: 2 }, { source: 0, locator: "76–77, 80, 82" }],
+          battleSlugs: [],
+          campaignSlugs: ["caesar-s-civil-war"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Caesar, Civil War",
+          stake:
+            "The man who crossed, making his case to readers who would judge whether he had a right to.",
+          says: "He came to defend his honour, restore the tribunes and free the Roman people from a faction.",
+          refs: [{ source: 3, locator: "1.22" }],
+        },
+        {
+          who: "Suetonius",
+          stake:
+            "A biographer writing under the emperors, collecting both Caesar’s defenders and his accusers.",
+          says: "It was thought he abused his power and was justly slain.",
+          refs: [{ source: 0, locator: "76.1" }],
+        },
+        {
+          who: "Asinius Pollio, as Suetonius reports him",
+          stake:
+            "An officer who was with Caesar at the Rubicon and at Pharsalus.",
+          says: "Caesar said that without his army he would have been condemned.",
+          refs: [{ source: 0, locator: "30.4" }],
+        },
+        {
+          who: "The 1911 Britannica",
+          stake: "A modern constitutional reading of the dictatorship.",
+          says: "His powers differed little from Augustus’s Principate; his reach for kingship and divinity explains his murder.",
+          refs: [{ source: 2 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Without hindsight, Caesar’s choice in January 49 was between giving up his army and facing the courts, as Cato promised, or keeping it and fighting. Suetonius’s witnesses differ on why he chose, but agree on what he weighed. He moved before his enemies were ready, with what he had, and Pompey abandoned Italy; as a campaign it was the volume’s first answer, speed, at its most effective. As a political act it had a price the campaign could not pay: every later victory was a victory over Romans, won by an army the state had not authorised, and needed a name the Republic did not have.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "30.3–4" },
+            { source: 4, locator: "60" },
+          ],
+        },
+        {
+          text: "His answer was to gather powers and offices until no rival could match them. The 1911 Britannica judges that this cumulation differed little from what Augustus later held, and that the perpetual dictatorship alone would not explain his murder; what did, it suggests, were signs in his last months of reaching for kingship and divinity. The strategist’s conclusion is narrower: a commander who has taken power by force has to convert it into authority people accept, and Caesar, by the evidence of his honours and his reported words, did not find the form that would do it.",
+          evidence: "interpretation",
+          refs: [{ source: 2 }, { source: 0, locator: "76–77" }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Legitimacy",
+          base: "review",
+          text: "Tyler’s review describes legitimacy as the property of an authority that makes people believe it proper and just, so that they defer out of obligation rather than fear or reward, and argues that power alone makes influence difficult to sustain. The Alexander volume used it for a conqueror seeking acceptance from a foreign people; here the question is different: a commander who, in the Senate’s eyes, had broken the authority that made his command legitimate. Caesar commanded his soldiers’ obedience and Rome’s submission; the conspiracy and the cry for liberty that Suetonius reports suggest he never commanded the obligation Tyler describes.",
+          evidence: "interpretation",
+          refs: [{ source: 5 }],
+          limit:
+            "Only the abstract was read. Tyler reviews research on modern institutions, and what Romans felt about Caesar’s authority reaches us through hostile and admiring writers a century and more later.",
+        },
+      ],
+      shadow: {
+        text: "The Republic did not survive his victory, and neither did he. The 1911 Britannica quotes Seneca’s remark that more of Caesar’s friends than his enemies were among his murderers, and accounts for it by the growing absolutism of his rule. The men he had pardoned and promoted, Brutus and Cassius among them, killed him in the name of the liberty he said he had crossed the Rubicon to defend.",
+        evidence: "interpretation",
+        refs: [
+          { source: 2 },
+          { source: 0, locator: "80" },
+          { source: 1, locator: "57" },
+        ],
+      },
+      counterCase: {
+        text: "Wellington served governments he distrusted and stayed within their orders, and the Wellington volume’s lesson on the government at home reads his case in full. Writing to Lord Liverpool from Viseu on 2 April 1810, he accepted responsibility for evacuating Portugal under the instructions he had been given, and insisted that, whatever people said, he was not as eager to fight desperate battles as they imagined; he had kept the army in its positions for six months against the wishes of his own officers and the allies, looking to the great result of keeping a foothold in the Peninsula. He argued with ministers in letters, not with an army. His victories were accepted at home because they were won within the authority that sent him.",
+        evidence: "interpretation",
+        refs: [{ source: 6, locator: "pp. 5–9" }],
+        commanderSlug: "arthur-wellesley",
+        battleSlugs: ["bussaco-torres-vedras-1810"],
+      },
+      cost: {
+        text: "The crossing put Rome itself at risk. Plutarch says that when the news came the city was filled with tumult, consternation and a fear beyond compare, and the senators went in haste to Pompey; within weeks the consuls and many senators had left Italy. The war that followed was fought by Romans against Romans in Italy, Spain, Greece, Egypt and Africa.",
+        evidence: "fact",
+        refs: [
+          { source: 4, locator: "60" },
+          { source: 1, locator: "34–35" },
+          { source: 2 },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "A leader’s authority depends on an institution, and acting against it would leave power without a name people accept.",
+          "There is still a lawful way to fight, even if it is slower and riskier for the leader personally.",
+        ],
+        failsWhen: [
+          "The leader treats the loyalty of his own people as a substitute for the consent of everyone else.",
+          "Power taken by force is held by accumulating offices rather than by finding a form others can accept.",
+        ],
+        questions: [
+          "If your team followed you against the organisation that employs it, what would you be left leading afterwards?",
+          "Which of your powers would survive a change of leader at the top, and which depend on you alone?",
+          "Whose consent do you need beyond the people who work for you?",
+        ],
+      },
+      bearsOn:
+        "The Rubicon tests every answer to the volume’s question at once. Speed took Italy in weeks; his soldiers made it possible; his enemies’ divisions, a Senate that could not agree with Pompey, let him win; and his account, the defence of his honour and the tribunes, gave him a case. What none of them could win him was the legitimacy that would let Rome accept the result. The wars were won; the peace was lost on the Ides of March.",
+      questions: [
+        {
+          prompt:
+            "What did the 1911 Britannica identify as the trap that faced Caesar in 49?",
+          choices: [
+            "A Gallic revolt behind him.",
+            "Pompey’s law of 52, which could leave him a private citizen liable to prosecution before he could become consul again.",
+            "The loss of his army’s loyalty.",
+          ],
+          answer: 1,
+          explanation:
+            "Suetonius adds Cato’s oath to impeach him and Pollio’s report of his words at Pharsalus.",
+        },
+        {
+          prompt:
+            "How did Caesar justify leaving his province, in his own Civil War?",
+          choices: [
+            "As a campaign against Pompey’s ambition only.",
+            "As defending himself from his enemies’ insults, restoring the expelled tribunes and freeing himself and the Roman people from a faction.",
+            "As a response to a German invasion.",
+          ],
+          answer: 1,
+          explanation:
+            "He said it to Lentulus Spinther at Corfinium; it is his case to his readers.",
+        },
+        {
+          prompt: "According to the 1911 Britannica, why was Caesar murdered?",
+          choices: [
+            "For the perpetual dictatorship alone.",
+            "Less for the dictatorship than for signs in his last months that he sought kingship and divinity.",
+            "For his conduct in Gaul.",
+          ],
+          answer: 1,
+          explanation:
+            "It judges his powers little different from Augustus’s; Seneca’s remark about his murderers is quoted there.",
+        },
+      ],
+      seminar: {
+        prompt:
+          "Was Caesar right to cross the Rubicon? Argue from the positions of a tribune who fled to him, a senator who stayed in Rome, and a soldier of the Thirteenth who crossed with him.",
+        guidance:
+          "Use the law of 52, Caesar’s own case at Corfinium, the motives Suetonius reports and the honours that followed. Say what each gained and lost, and what Wellington’s letter of 1810 suggests about the alternative.",
+      },
+      sources: [
+        s.suetonius,
+        s.plutarchCaesar,
+        s.eb1911,
+        s.cw1A,
+        s.plutarchPompey,
+        s.tyler,
+        s.gurwoodVI,
+      ],
+    },
+    {
+      slug: "the-ledger",
+      title: "The ledger: what won Caesar his wars?",
+      part: "Beyond the battlefield",
+      themes: ["judgement", "ethics"],
+      claim:
+        "When a leader’s record is weighed by the results he chose to report, his gifts look decisive; once the costs, the conditions and the record itself are entered beside them, the verdict depends on what the reader counts, and that choice should be made openly.",
+      inBrief: {
+        strength:
+          "He won a decade of wars in Gaul and four years of civil war, and wrote their history himself.",
+        shadow:
+          "Gaul paid for the conquest, Romans for the civil war, and the Republic did not survive.",
+      },
+      moment: {
+        text: "More than a century after Caesar’s death the elder Pliny, writing an encyclopedia of the natural world, came to the gifts of the human mind and put Caesar first for vigour, not for courage or constancy, he wrote, but for a quickness winged as it were with fire: he could read or write and dictate or listen at once, and dictate four letters on important affairs to his secretaries at the same time. In the next sentence Pliny counted Caesar’s pitched battles, then refused to count to his glory the number of people he had killed in them, besides conquering his fellow citizens, calling it a prodigious, even if unavoidable, wrong inflicted on the human race, which Caesar himself confessed by not publishing the casualties of the civil wars. Then he praised Caesar’s clemency, in which he surpassed all men, even to the point of later regret. The volume ends where Pliny’s chapter does: with the gifts and the costs on the same page.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "7.91–93" }],
+      },
+      episodes: [
+        {
+          title: "Speed and soldiers",
+          text: "The first two answers have the strongest evidence. Suetonius records the speed: distances covered in a hired carriage faster than his messengers, and a triumph that displayed three words about how quickly a war was won. He records the soldiers too: no mutiny in ten years of the Gallic war, an army that offered to serve without pay at the start of the civil war, and men who asked to be punished after their only defeat at Dyrrhachium. The lessons on speed and on the army bound to him show both at their best and at their limits: the speed that stranded him in Epirus, and the bond that had to be paid for with conquest and nearly broke in the mutiny of 47.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "37.2, 57, 68–70" }],
+          battleSlugs: ["dyrrhachium", "pharsalus"],
+        },
+        {
+          title: "His enemies’ divisions",
+          text: "The third answer runs through his own pages without being named. Plutarch, comparing Caesar with Rome’s great generals, says he surpassed one in the savage manners and treacherous dispositions of the peoples he won over; Caesar’s narrative shows how: he entered Gaul as the ally of the Aedui and, after Alesia, kept back the Aeduan and Arvernian prisoners to win their peoples back. In the civil war, as the lesson on Pompey shows, his account makes a quarrelling Pompeian camp part of the explanation of Pharsalus. The divisions were real; they were also the explanation that most flattered the man who exploited them.",
+          evidence: "interpretation",
+          refs: [
+            { source: 2, locator: "15" },
+            { source: 3, locator: "7.89" },
+          ],
+          battleSlugs: ["alesia"],
+        },
+        {
+          title: "His account",
+          text: "The fourth answer is the hardest to weigh because it is the source of most of the evidence for the others. Cicero, as Suetonius quotes him, thought the Commentaries so good that men of sense would not try to write the subject again; Pollio, who served with Caesar, thought them careless and not strictly truthful. Their power can be measured in a later reader. Napoleon, dictating his own reading of Caesar’s wars on Saint Helena, counted three defeats in thirteen campaigns, at Dyrrhachium, Alexandria and in Africa, and left out Gergovia, which Caesar had explained as his soldiers’ indiscipline and Suetonius had counted as a reverse. Nineteen centuries later, the most professional reader of all was still reading inside Caesar’s frame.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "25.2, 56.2–4" },
+            { source: 4, locator: "ch. 1, p. 28" },
+          ],
+          battleSlugs: ["gergovia"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Pliny the Elder",
+          stake:
+            "An encyclopaedist of the next century, admiring Caesar’s mind and condemning his killing in one passage.",
+          says: "No one surpassed his speed of mind or his clemency; his killing was a wrong to mankind.",
+          refs: [{ source: 0, locator: "7.91–93" }],
+        },
+        {
+          who: "Plutarch",
+          stake:
+            "A Greek biographer setting Caesar beside Rome’s greatest generals.",
+          says: "He surpassed them all in his achievements.",
+          refs: [{ source: 2, locator: "15" }],
+        },
+        {
+          who: "Napoleon, in the Précis des guerres de César",
+          stake: "A deposed emperor reading another commander on Saint Helena.",
+          says: "Caesar was beaten three times, and the defeats did not affect the outcome.",
+          refs: [{ source: 4, locator: "ch. 1, p. 28" }],
+        },
+        {
+          who: "The 1911 Britannica",
+          stake: "A modern constitutional historian’s summary.",
+          says: "His powers prefigured the Principate; his reach for kingship explains his end.",
+          refs: [{ source: 5 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Weighed against each other, the four answers are not rivals but conditions. Speed won where it was aimed at what the enemy had to defend and where the ground could feed the army, and failed in Epirus. The soldiers carried him through both his defeats, but were bound by rewards that conquest had to keep paying for. His enemies’ divisions let a few legions act across Gaul and let Pompey be argued out of his plan, and closed against him once, in 52. His account did not win battles, but it chose which battles counted and why, and it is the reason most of these judgements can be made at all.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "57, 68" },
+            { source: 3, locator: "7.89" },
+          ],
+        },
+        {
+          text: "If one answer must be put first, the evidence of this volume favours the soldiers, because they appear in every success and both recoveries: they formed without orders at the Sabis, dug the lines at Alesia, asked to be punished after Dyrrhachium, and halted mid-charge at Pharsalus. But that is a verdict built largely on Caesar’s own pages, which praise his men in order to praise their general. A reader who distrusts the account will put the divisions first; a reader who trusts it, the speed. The honest answer is that the record cannot settle the question it was written to settle.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "68" },
+            { source: 1, locator: "56.4" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "The ledger offers no new mechanism. The volume used research where it had a sound base: on self-serving explanations of defeat, and, with a link to the Alexander volume, on legitimacy. Elsewhere it relied on the documents and said so. A single career cannot show which of Caesar’s qualities caused his victories, and the qualities themselves reach us chiefly through his own description of them.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered. Any psychological verdict on Caesar would rest on his self-portrait and on admirers and enemies writing long after him.",
+        },
+      ],
+      shadow: {
+        text: "The costs belong on the same page as the victories. In Gaul, by Caesar’s own account, the Usipetes and Tencteri died in their camp and in the Rhine, the old, the women and the children of Avaricum were not spared, and after Alesia the prisoners were given to his soldiers as plunder; Pliny would not count the killing as glory. The civil war killed Romans on both sides. The Republic ended in a dictatorship for life, which the 1911 Britannica calls a contradiction in terms, and in the murder of the dictator by men he had pardoned.",
+        evidence: "interpretation",
+        refs: [
+          { source: 6, locator: "4.14–15" },
+          { source: 10, locator: "7.28" },
+          { source: 3, locator: "7.89" },
+          { source: 0, locator: "7.92" },
+          { source: 5 },
+        ],
+        battleSlugs: ["alesia"],
+      },
+      counterCase: {
+        text: "Augustus, Caesar’s heir, finished the work by other means and wrote a different record. In the Res Gestae he says that when victorious he spared all citizens who asked for pardon, and that after extinguishing the civil wars he transferred the republic from his own control to the Senate and people, receiving the name Augustus and a golden shield for his valour, clemency, justice and piety; afterwards, he wrote, he took precedence of all in rank, but possessed no more power than his colleagues in any magistracy. Suetonius records the proscriptions he pressed harder than his fellow triumvirs. The 1911 Britannica judges Caesar’s powers little different from Augustus’s Principate; what differed was the form. Augustus kept the republican names and ruled for decades; Caesar took a dictatorship for life and was killed within a year.",
+        evidence: "interpretation",
+        refs: [
+          { source: 7, locator: "34" },
+          { source: 8, locator: "3" },
+          { source: 9, locator: "27" },
+          { source: 5 },
+        ],
+        commanderSlug: "augustus",
+        battleSlugs: ["actium"],
+      },
+      cost: {
+        text: "The ledger’s debit side, without the numbers the ancient writers gave: the peoples of Gaul, killed, enslaved and made subject; the Helvetii, the Usipetes and Tencteri, Avaricum, the defenders of Uxellodunum; the soldiers of both armies at Dyrrhachium, Pharsalus and Munda; Rome’s citizens, who lived through civil war and a dictatorship; and Caesar himself, killed in the Senate.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "7.92" },
+          { source: 6, locator: "4.14–15" },
+          { source: 5 },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "A leader’s record is weighed with the costs and conditions entered beside the results.",
+          "The reader can say which witness supplies each part of the verdict, and what that witness wanted.",
+        ],
+        failsWhen: [
+          "The leader’s own account sets the terms, so that what it leaves out is never counted.",
+          "Success is credited to the leader’s gifts while the conditions that made it possible are forgotten.",
+        ],
+        questions: [
+          "Which costs of your organisation’s greatest success appear in no report?",
+          "Which of your achievements would you still claim if you had to write down who paid for them?",
+          "Who will write the account of your career, and what will they leave out?",
+        ],
+      },
+      bearsOn:
+        "What won Caesar his wars? This volume’s answer is his soldiers, made formidable by years of shared danger and reward, set to work by a commander who moved faster than his enemies expected, against enemies divided enough to be beaten one at a time, and explained to Rome, and to us, by the commander himself. Argue the opposite: that the account is the true answer, because without it we would know too little of the soldiers to credit them, and that a Gaul which had written its own history might tell a story in which the divisions, not the legions, decided everything.",
+      questions: [
+        {
+          prompt: "What two verdicts on Caesar does Pliny place side by side?",
+          choices: [
+            "His wealth and his debts.",
+            "His unmatched quickness of mind, and his killing in battle, which Pliny would not count to his glory.",
+            "His victories and his defeats.",
+          ],
+          answer: 1,
+          explanation:
+            "Pliny also praises his clemency in the same passage; the volume gives no number for the killing.",
+        },
+        {
+          prompt:
+            "Why does the ledger say the fourth answer, his account, is the hardest to weigh?",
+          choices: [
+            "Because the Commentaries are lost.",
+            "Because his account is the main source of the evidence for the other three answers.",
+            "Because no one has read it.",
+          ],
+          answer: 1,
+          explanation:
+            "Even Napoleon’s reading of the defeats followed Caesar’s frame and left out Gergovia.",
+        },
+        {
+          prompt:
+            "How does the 1911 Britannica compare Caesar’s powers with Augustus’s?",
+          choices: [
+            "As entirely different.",
+            "As little different in substance; the difference lay in the form and in Caesar’s reach for kingship and divinity.",
+            "As much greater.",
+          ],
+          answer: 1,
+          explanation:
+            "Augustus kept republican names and claimed in the Res Gestae to have restored the republic.",
+        },
+      ],
+      seminar: {
+        prompt:
+          "Answer the volume’s question, then argue the opposite: what won Caesar his wars, his speed, his soldiers, his enemies’ divisions, or his own account of them?",
+        guidance:
+          "Use at least one lesson for each answer, and Pliny’s double verdict. Say which witnesses supply your evidence and what each wanted, and enter the costs beside the victories.",
+      },
+      sources: [
+        s.pliny,
+        s.suetonius,
+        s.plutarchCaesar,
+        s.gw7G,
+        s.precis,
+        s.eb1911,
+        s.gw4,
+        s.resGestae6,
+        s.resGestae,
+        s.suetoniusAugustus,
+        s.gw7C,
+      ],
+    },
   ],
-  inProgress:
-    "This volume is being written. Its first lessons are published; the rest are added in reviewed batches.",
 };

@@ -278,7 +278,7 @@ describe("the Caesar volume", () => {
     expect(volumeForCommander("julius-caesar")).toBe(caesarVolume));
 
   it("lists its lessons in curriculum order", () => {
-    expect(caesarVolume.inProgress).toBeTruthy();
+    expect(caesarVolume.inProgress).toBeUndefined();
     expect(caesarVolume.lessons.map((l) => l.slug)).toEqual([
       "how-to-read-caesar",
       "celeritas",
@@ -289,6 +289,9 @@ describe("the Caesar volume", () => {
       "lieutenants",
       "gaul-divided",
       "clemency",
+      "a-rival-who-knew-him",
+      "the-rubicon",
+      "the-ledger",
     ]);
   });
 });

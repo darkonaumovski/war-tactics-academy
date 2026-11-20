@@ -1758,3 +1758,25 @@ Sources read:
 Quotations are from these texts with their chain stated: none beyond short phrases inside paraphrase; Cato's and Caesar's words at Utica, Quintus Cicero's reply, Diviciacus's speech, Hirtius's reasoning and the German biographies are paraphrased. No figures for armies, losses or prisoners are given; Pliny's total and the numbers in Diviciacus's speech are left out. A link check returned 200 for every new source address.
 
 What the batch changed from the evidence pass: corrections 24–27. The lessons are shorter than the template's guide (about 1,170–1,230 words of body text), kept to what the sources read support.
+
+## Leadership Lessons from Julius Caesar, batch C4: the rival, the Rubicon and the ledger (20 November 2026)
+
+Lessons 9, `a-rival-who-knew-him`, 10, `the-rubicon`, and 11, `the-ledger`, the last of Volume 6. Counter-cases: Pompey, Wellington and Augustus. With them the volume is complete at twelve lessons and is no longer listed as in progress. Classical texts were read in the Loeb translations on LacusCurtius, chapter by chapter.
+
+Sources read:
+
+- Caesar, _Civil War_ (A. G. Peskett, 1914): 1.22 (his case to Lentulus at Corfinium), 3.44 and 3.48 (Dyrrhachium), 3.61–63 and 3.70 (the breakout), 3.82–94 (the Pompeian camp, Pompey's council, Labienus's speech, the fourth line and the battle) and 3.103–104 (Pompey's death).
+- Caesar, _Gallic War_ 4.14–15, 7.28 and 7.89 (Edwards), for the ledger's costs.
+- Suetonius, _Julius_ (Rolfe): 25.2, 30–33, 36, 37.2, 56.2–4, 57, 68–70, 76–77, 80 and 82; _Augustus_ 27.
+- Plutarch, _Caesar_ 15, 32, 34–35 and 57; _Pompey_ 60 and 66–67.
+- Appian, _Civil Wars_ 2.62.
+- Pliny, _Natural History_ 7.91–93 (Rackham, on Wikisource).
+- Napoleon, _Précis des guerres de César_ (1836), ch. 1, p. 28, in French OCR. Paraphrased.
+- Augustus, _Res Gestae_ 3 and 34 (F. W. Shipley, Loeb, 1924).
+- "Caesar, Gaius Julius", _Encyclopædia Britannica_, 11th ed. (1911): the law of 52, the outbreak, the dictatorships, the comparison with the Principate and Seneca's remark on the murderers.
+- Gurwood, _Dispatches_, vol. VI (1836), University of Toronto scan: Wellington to Liverpool, Viseu, 2 April 1810, pp. 5–9.
+- Psychology, abstract only: Tyler (2006) on legitimacy, already cited in the Alexander volume, used here for a different question.
+
+Quotations are from these texts with their chain stated: "They would have it so" (Pollio as Rolfe's Suetonius gives him, 30.4); "The die is cast" (Rolfe's Suetonius 32) and "Let the die be cast" (Plutarch). Everything else, including Pompey's and Labienus's speeches as Caesar wrote them, Titus Ampius's report of Caesar's words, Wellington's letter and the _Res Gestae_, is paraphrased. The 1911 Britannica's Latin form of the Rubicon saying, in the banned word order, is not used. No figures for armies, losses or rewards are given; Caesar's strengths at Pharsalus, Plutarch's totals for the Gallic wars and Pliny's count are left out. A link check returned 200 (203 for PubMed) for every new source address.
+
+What the batch changed from the evidence pass: corrections 28–31. The lessons run about 1,140–1,180 words of body text, under the template's guide, kept to what the sources read support.

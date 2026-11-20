@@ -1409,4 +1409,106 @@ export const scenarios: Scenario[] = [
       },
     ],
   },
+  {
+    slug: "leave-gergovia",
+    title: "Leave Gergovia now, or strike first?",
+    battleSlug: "gergovia",
+    commander: "Gaius Julius Caesar",
+    situation:
+      "52 BCE, before Gergovia, the hill town of the Arverni. You have despaired of taking it by storm, and you hold a hill below it and two camps joined by a double ditch. Behind you the Aedui, your allies, have risen: their crowds have plundered and killed Roman citizens, and while their deputies protest their innocence, their states are sounding out others for war.",
+    known:
+      "You expect a greater rising and fear being surrounded by all the states of Gaul; you have begun to plan how to withdraw and concentrate the whole army without letting a departure caused by fear of the revolt look like flight. Deserters and your scouts tell you that a hill the enemy had crowded is now empty, because Vercingetorix has called every man to fortify a wooded ridge on the far side of the town, which the Gauls fear to lose. The ascent to the town wall is long, and a wall of large stones crosses it halfway up.",
+    unknown:
+      "Whether the legions can be held to a limited stroke once they are among the enemy's camps, whether the Aeduan contingent with you will be taken for friends in a fight, and what a withdrawal with nothing to show will do to your standing in Gaul.",
+    historical:
+      "Caesar tried a limited surprise first. Muleteers in helmets riding like cavalry, and a legion hidden in the woods, drew the Gauls to the far ridge, and he told his legates to keep the men in hand: it was a question of surprise, not of battle. The legions took three Gallic camps; he sounded the recall and halted the Tenth, but the legions beyond a valley did not hear it, pressed on to the town wall and were driven down with heavy loss. The next day he reprimanded the army, offered battle twice on level ground, and marched away into the country of the Aedui.",
+    options: [
+      {
+        text: "Withdraw at once and concentrate the army before the revolt spreads.",
+        feedback:
+          "It was the course Caesar was already planning, and it would have kept the legions intact; but a retreat with no success to show risked looking like the flight he wanted to avoid, while the Aedui were wavering. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Stay and press the siege of Gergovia with the whole army.",
+        feedback:
+          "Caesar had already despaired of taking the town by storm and had put off a blockade until his corn supply was secure; with the Aedui in revolt behind him, he feared being surrounded by all the states. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Use the empty hill for a limited surprise, take the Gallic camps below the wall, then withdraw.",
+        feedback:
+          "This matches the historical decision. The feint worked and the camps were taken, but the plan depended on stopping victorious legions on command, and the legions out of earshot of the recall did not stop. The withdrawal came after a defeat, which Caesar's own account blames on the soldiers rather than on the plan.",
+        historical: true,
+      },
+    ],
+  },
+  {
+    slug: "after-dyrrhachium",
+    title: "Fight again, or leave the coast?",
+    battleSlug: "dyrrhachium",
+    commander: "Gaius Julius Caesar",
+    situation:
+      "48 BCE, on the Adriatic coast near Dyrrhachium. Pompey has broken out through an unfinished stretch of your siege lines, and your counterattack on a Pompeian camp has ended in panic: men fled past you even when you seized their standards and ordered them to halt. You have lost standards, centurions and men, and Pompey's soldiers have hailed him as Imperator.",
+    known:
+      "The army is ashamed and eager to repair the disgrace, and some officers of rank think you should stay where you are and stake everything on a pitched battle. You do not trust troops who have just panicked, and if you give up your lines you fear for your corn: Pompey holds the sea and draws supplies from every province he controls, while your men have lived for months on barley, meat and bread made from roots. Your lieutenant Domitius is camped inland facing the Pompeian Scipio, and could be caught alone if Pompey marched on him.",
+    unknown:
+      "Whether Pompey will follow you inland or cross to Italy, whether your troops would stand in a battle now, and whether the report of your defeat, which the Pompeians are spreading in dispatches, will turn the towns against you.",
+    historical:
+      "Caesar abandoned the siege, called the army together and told it to set one reverse against many victories; he disgraced some standard-bearers, then sent the baggage off at nightfall and marched before dawn, outpacing Pompey's pursuit. After leaving his wounded at Apollonia he marched inland to join Domitius, reasoning that if Pompey followed he would be drawn from the sea and the stores at Dyrrhachium and made to fight on equal terms. Plutarch says Caesar spent the night after the defeat convinced he had shown bad generalship by posting himself by a sea his enemies controlled. Weeks later the armies met at Pharsalus.",
+    options: [
+      {
+        text: "Abandon the siege, give the army time to recover, and march inland to join Domitius, drawing Pompey away from the sea.",
+        feedback:
+          "This matches the historical decision. It gave up the position and admitted the failure, but it saved a lieutenant, moved the war to ground where Pompey's fleet and stores could not help him, and gave a shaken army time. It paid because Pompey chose to follow.",
+        historical: true,
+      },
+      {
+        text: "Stay and offer a pitched battle at once, while the army burns to repair the disgrace.",
+        feedback:
+          "Some officers urged it, and the army's eagerness was real. Caesar judged that troops who had just panicked could not yet be trusted, and a second defeat on the coast would have left the army without corn or a line of retreat. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Hold the lines and renew the siege, waiting for Pompey to tire.",
+        feedback:
+          "The enclosure had already failed: Pompey had the larger army, the shorter line to fortify and the sea behind him, and Caesar's men were hungrier than his. A counterfactual.",
+        historical: false,
+      },
+    ],
+  },
+  {
+    slug: "starve-them-out-at-ilerda",
+    title: "Attack the Pompeians, or starve them out?",
+    battleSlug: "ilerda",
+    commander: "Gaius Julius Caesar",
+    situation:
+      "49 BCE, in Spain, a few months after you crossed the Rubicon. Pompey's legates Afranius and Petreius have tried to march the Pompeian army of Spain away towards the Ebro. Your army reached the passes first and stands across their road, and your cavalry has just cut down four of their light cohorts in sight of both armies.",
+    known:
+      "The enemy army is halted on a hill without water, its standards crowded together, its men keeping neither to their ranks nor to their colours and scarcely holding off your cavalry; it must come down sooner or later. Your legates, centurions and tribunes beg you not to hesitate: the men are as keen as they can be, and the enemy is shaken. You have cut the enemy off from food and can close every route to the Ebro. The men on the other side are Roman citizens.",
+    unknown:
+      "How long the enemy can hold out without water, whether its generals will try to break out or stop their men from going over to you, and whether your own soldiers, already complaining, will follow you if you refuse to fight.",
+    historical:
+      "Caesar refused battle. He had hoped, he writes, to finish the business without bloodshed by cutting the enemy off from food: why lose men even in a successful battle, why make trial of fortune, when a commander should win by policy as much as by the sword, and why kill fellow citizens? His soldiers said openly that if this chance was let slip they would not fight when he wished it. He drew back a little, closed every route to the Ebro and entrenched beside the enemy camp. The two armies began to fraternise until Petreius had the Caesarians he could catch killed; but, cut off from water and forage, the Pompeians asked for terms within days, and Caesar disbanded their army without forcing any man to swear allegiance to him.",
+    options: [
+      {
+        text: "Attack now, while the enemy is shaken and in the open.",
+        feedback:
+          "Caesar admits the chance was real: a demoralised army, surrounded by cavalry on level ground. A battle might have ended the Spanish campaign that day, at the price of Roman lives on both sides and of soldiers Caesar hoped to win over. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Refuse battle, close every route to the Ebro and to water, and let thirst and hunger do the work.",
+        feedback:
+          "This matches the historical decision. It cost Caesar his soldiers' anger and gave Afranius and Petreius time, but it ended with the enemy army surrendering intact and disbanded, and with a reputation for leniency that, by Caesar's account, won the approval of all.",
+        historical: true,
+      },
+      {
+        text: "Let the Pompeians go on towards the Ebro and follow them, waiting for a better field.",
+        feedback:
+          "It would throw away the position the army had just raced to win; Caesar writes that the whole contest had turned on which side reached the passes first. A counterfactual.",
+        historical: false,
+      },
+    ],
+  },
 ];

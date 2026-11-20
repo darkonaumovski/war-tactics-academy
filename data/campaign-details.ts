@@ -426,6 +426,20 @@ const polybius3 = thayer(
   "Polybius/3",
   "Polybius, Histories, Book 3 (Loeb translation)",
 );
+const polybius10 = thayer(
+  "Polybius/10",
+  "Polybius, Histories, Book 10 (Loeb translation)",
+);
+const polybius11 = thayer(
+  "Polybius/11",
+  "Polybius, Histories, Book 11 (Loeb translation)",
+);
+const livyWikisource = (book: number): Source => ({
+  title: `Livy, History of Rome, Book ${book} (trans. Canon Roberts, 1905)`,
+  url: `https://en.wikisource.org/wiki/From_the_Founding_of_the_City/Book_${book}`,
+  publisher: "Wikisource",
+});
+const ebScipio = eb1911("Scipio", "Scipio");
 const polybius14 = thayer(
   "Polybius/14",
   "Polybius, Histories, Book 14 (Loeb translation)",
@@ -4205,32 +4219,35 @@ export const campaignDetails: Record<string, CampaignDetails> = {
   },
   "hannibal-s-italian-campaign": {
     summary:
-      "Hannibal’s invasion of Italy in the Second Punic War, from the march over the Alps in 218 BCE through Trebia, Trasimene and Cannae to his recall to Africa.",
+      "Hannibal’s invasion of Italy in the Second Punic War, from the march over the Alps in 218 BCE through the Ticinus, the Trebia, Trasimene and Cannae to the Metaurus and his recall to Africa.",
     narrative: [
       {
         title: "Over the Alps",
-        text: "Hannibal judged that Rome could only be beaten if its Italian confederacy broke apart, so he carried the war into Italy by land while the Roman fleets held the sea. Polybius records a march of five months from New Carthage, fifteen days of it in the Alps, and reports from Hannibal’s own inscription at the Lacinian promontory that he reached the plain of the Po in 218 BCE with 12,000 African and 8,000 Iberian foot and no more than 6,000 horse.",
+        text: "Hannibal judged that Rome could only be beaten if its Italian confederacy broke apart, so he carried the war into Italy by land while the Roman fleets held the sea. Polybius records a march of five months from New Carthage, fifteen days of it in the Alps, and takes the strength of the army that reached the plain of the Po in 218 BCE from Hannibal’s own inscription at the Lacinian promontory; the crossing had cost it many men and most of its horses and pack animals.",
         evidence: "fact",
         studies: [],
         refs: [{ source: 2 }, { source: 0, locator: "3.56" }],
       },
       {
-        title: "Trebia and Trasimene",
-        text: "Superior Carthaginian cavalry and a rising among the Gauls drove the Romans back toward the Apennines, and at the end of 218 Hannibal beat their combined army on the Trebia. In 217 he crossed into Etruria by an unguarded pass and trapped a pursuing army on the shore of Lake Trasimene, where it lost some 40,000 men. He did not march on Rome but turned south to raise Rome’s old enemies, while the dictator Fabius shadowed him without ever accepting battle.",
+        title: "Ticinus, Trebia and Trasimene",
+        text: "On the plain by the Ticinus Hannibal’s cavalry routed the consul Scipio’s reconnaissance and wounded the consul, and the Gauls of the region came over to him. Superior Carthaginian cavalry and a rising among the Gauls drove the Romans back toward the Apennines, and at the end of 218 Hannibal drew their combined army across the Trebia and broke it with an ambush. In 217 he crossed into Etruria by an unguarded pass and trapped a pursuing consular army on the shore of Lake Trasimene, where it was destroyed. He did not march on Rome but turned south to raise Rome’s old enemies, while the dictator Fabius shadowed him without ever accepting battle.",
         evidence: "fact",
-        studies: [],
-        refs: [{ source: 2 }],
+        studies: ["ticinus", "trebia", "lake-trasimene"],
+        refs: [
+          { source: 2 },
+          { source: 0, locator: "3.65–66, 3.71–74, 3.82–85" },
+        ],
       },
       {
         title: "Cannae",
-        text: "In 216 Rome sent out an exceptionally strong field army to end the war in open battle. Near Cannae in Apulia Hannibal let his centre be driven in by the legions while his cavalry wheeled against their flanks and rear, and the army was all but annihilated. Polybius says about seventy thousand Romans and allies died and some ten thousand were captured away from the field, against about 5,700 killed on Hannibal’s side.",
+        text: "In 216 Rome sent out an exceptionally strong field army to end the war in open battle. Near Cannae in Apulia Hannibal let his centre be driven in by the legions while his cavalry wheeled against their flanks and rear, and the army was all but annihilated. Polybius gives the losses on both sides; like every ancient figure for this war, they cannot be checked and are not repeated here.",
         evidence: "fact",
         studies: ["cannae"],
         refs: [{ source: 2 }, { source: 0, locator: "3.117" }],
       },
       {
         title: "The war of attrition",
-        text: "Capua and much of the south then went over to Hannibal, but central and northern Italy, the Greek cities of the coast and the Latin colonies held firm. Rome avoided battle with him and raised as many as 200,000 men, while he had to guard his new allies and never secured a good port until most of Tarentum came into his hands in 212. Capua was blockaded and starved into surrender in 211, despite Hannibal’s feint at Rome, and Tarentum was recovered in 209.",
+        text: "Capua and much of the south then went over to Hannibal, but central and northern Italy, the Greek cities of the coast and the Latin colonies held firm. Rome avoided battle with him and kept raising new armies, while he had to guard his new allies and never secured a good port until most of Tarentum came into his hands in 212. Capua was blockaded and starved into surrender in 211, despite Hannibal’s feint at Rome, and Tarentum was recovered in 209.",
         evidence: "fact",
         studies: [],
         refs: [{ source: 2 }],
@@ -4239,7 +4256,7 @@ export const campaignDetails: Record<string, CampaignDetails> = {
         title: "The Metaurus and the recall",
         text: "In 207 Hasdrubal brought a second army over the Alps, but the consul Nero slipped north from Hannibal’s front with part of his troops, joined his colleague Livius and destroyed Hasdrubal on the Metaurus. Hannibal held on in the far south until Carthage called him home. Livy describes him groaning as he heard the order, and says Rome scarcely knew whether to rejoice that he had left Italy in the sixteenth year of the war.",
         evidence: "fact",
-        studies: [],
+        studies: ["metaurus"],
         refs: [{ source: 2 }, { source: 3, locator: "30.20, 30.28" }],
       },
       {
@@ -4255,13 +4272,100 @@ export const campaignDetails: Record<string, CampaignDetails> = {
       },
       {
         title: "Where the sources disagree",
-        text: "Against Polybius’s seventy thousand dead at Cannae, Livy, in the translation used here, reports that forty thousand foot and 2,700 horse are said to have been slain. Livy also cites an account of Hannibal bringing 80,000 foot and 10,000 horse into Italy, far above the figures Polybius took from Hannibal’s inscription. The Britannica article, which warns that Livy drew partly on untrustworthy Roman annalists, has Italy cleared of Carthaginian troops in 205, yet places the Carthaginian peace talks that preceded Hannibal’s recall after Scipio’s victories of 203.",
+        text: "Livy’s count of the Roman dead at Cannae, in the translation used here, is far below Polybius’s, and Livy cites an account that gave Hannibal a much larger army on entering Italy than the figures Polybius took from Hannibal’s inscription; neither set is repeated here. The Britannica article, which warns that Livy drew partly on untrustworthy Roman annalists, has Italy cleared of Carthaginian troops in 205, yet places the Carthaginian peace talks that preceded Hannibal’s recall after Scipio’s victories of 203.",
         evidence: "uncertainty",
         studies: ["cannae"],
         refs: [{ source: 1 }, { source: 0 }, { source: 2 }],
       },
     ],
     sources: [polybius3, livy926, ebPunic, livy2736],
+  },
+  "scipio-s-spanish-campaign": {
+    summary:
+      "Scipio’s war in Spain from 210 or 209 BCE, from the capture of New Carthage through Baecula to Ilipa, which drove Carthage out of the peninsula by the end of 206.",
+    narrative: [
+      {
+        title: "The young Scipio",
+        text: "In 212 or 211 BCE the elder Scipios were killed in Spain after their Celtiberian allies deserted them. Publius Cornelius Scipio, the son of one of them and still a young man, was then chosen for the Spanish command; the 1911 Britannica says he was elected unanimously, and that on his arrival, in 210 or 209, Carthage held all Spain south of the Ebro. Its three commanders, however, were divided and distracted by revolts in Africa.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 5 }, { source: 6 }],
+      },
+      {
+        title: "New Carthage",
+        text: "Rather than attack any of the three Carthaginian armies, Scipio struck at their base, New Carthage, which held their money, war material and hostages from all Spain and had only a small garrison. He told no one but Laelius, arrived with army and fleet together, and while the walls were assaulted sent men through the lagoon as the water fell, as fishermen had told him it would. The city was taken in a day.",
+        evidence: "fact",
+        studies: ["new-carthage"],
+        refs: [
+          { source: 0, locator: "10.7–15" },
+          { source: 2, locator: "26.42–46" },
+        ],
+      },
+      {
+        title: "Winning the Spanish peoples",
+        text: "Scipio returned the Spanish hostages to their peoples. The prince Edeco came to him first, and Andobales and Mandonius left Hasdrubal Barca, who had demanded their wives and daughters as hostages. Polybius makes the Carthaginian collapse a lesson: after beating the elder Scipios they ruled their subjects harshly, and the subjects became their enemies.",
+        evidence: "fact",
+        studies: [],
+        refs: [
+          { source: 0, locator: "10.18, 10.34–36" },
+          { source: 3, locator: "27.17" },
+        ],
+      },
+      {
+        title: "Baecula",
+        text: "In the next campaigning season Scipio drove Hasdrubal Barca from a strong position near Baecula by sending the two halves of his army round its flanks. Fearing the other two Carthaginian armies, he did not pursue, and Hasdrubal escaped with his treasury and elephants, crossed the western Pyrenees and marched for Italy, where he died at the Metaurus.",
+        evidence: "fact",
+        studies: ["baecula"],
+        refs: [
+          { source: 0, locator: "10.38–40" },
+          { source: 3, locator: "27.19–20" },
+          { source: 5 },
+        ],
+      },
+      {
+        title: "Ilipa",
+        text: "In 206 Hasdrubal the son of Gisco and Mago brought the last Carthaginian army in Spain to battle near Ilipa. Scipio, who could not trust his Spanish allies in a decisive fight, used them to hold the enemy centre, reversed the order and the hour he had shown for days, and broke the Carthaginian wings with his legions. The army deserted and dispersed, and by the end of the year Carthage had been driven out of Spain.",
+        evidence: "fact",
+        studies: ["ilipa"],
+        refs: [
+          { source: 1, locator: "11.20–24" },
+          { source: 4, locator: "28.13–16" },
+          { source: 6 },
+        ],
+      },
+      {
+        title: "Calculation and its price",
+        text: "Polybius, who drew on Scipio’s friend Laelius and on a letter of Scipio’s own, insists that his successes came from calculation, not fortune, and that his talk of divine help was a way of giving his men confidence. The same account records the cost: at New Carthage, by Roman custom, the inhabitants were killed until the signal to plunder was given, and after Baecula the African prisoners were sold. After Ilipa Polybius has Scipio say that Rome could now make war on Carthage.",
+        evidence: "interpretation",
+        studies: ["new-carthage", "ilipa"],
+        refs: [
+          { source: 0, locator: "10.2, 10.9, 10.15" },
+          { source: 3, locator: "27.19" },
+          { source: 1, locator: "11.24a" },
+        ],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "The dates are uncertain by a year: the 1911 Britannica puts New Carthage in 210 or 209 in one article and 209 in another. Livy found his authorities at odds over almost every number at New Carthage and even over who commanded, naming Hannibal’s historian Silenus and the annalist Valerius Antias. The last battle is Ilipa in Polybius and Silpia in Livy, and the Britannica places it near Corduba.",
+        evidence: "uncertainty",
+        studies: ["new-carthage", "ilipa"],
+        refs: [
+          { source: 5 },
+          { source: 6 },
+          { source: 2, locator: "26.49" },
+          { source: 4, locator: "28.12" },
+        ],
+      },
+    ],
+    sources: [
+      polybius10,
+      polybius11,
+      livyWikisource(26),
+      livyWikisource(27),
+      livyWikisource(28),
+      ebScipio,
+      ebPunic,
+    ],
   },
   "scipio-s-african-campaign": {
     summary:

@@ -112,10 +112,15 @@ export const warDetails: Record<string, WarDetails> = {
     geography: "Iberia, southern Gaul, Italy, Sicily and North Africa.",
     developments: t(
       ["219 BCE", "Hannibal takes Saguntum"],
-      ["218 BCE", "Hannibal crosses the Alps; battle of the Trebia"],
+      [
+        "218 BCE",
+        "Hannibal crosses the Alps; cavalry battle on the Ticinus; battle of the Trebia",
+      ],
       ["217 BCE", "Battle of Lake Trasimene"],
       ["216 BCE", "Battle of Cannae"],
       ["212–211 BCE", "Rome takes Syracuse and recovers Capua"],
+      ["210 or 209 BCE", "Scipio takes New Carthage"],
+      ["209 or 208 BCE", "Scipio defeats Hasdrubal Barca at Baecula"],
       ["207 BCE", "Hasdrubal defeated at the Metaurus"],
       ["206 BCE", "Scipio's victory at Ilipa"],
       ["202 BCE", "Battle of Zama; peace follows in 201 BCE"],
@@ -126,6 +131,12 @@ export const warDetails: Record<string, WarDetails> = {
         url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/3%2A.html",
         publisher: "LacusCurtius",
         note: "The fullest narrative of the Hannibalic War to Cannae, by a historian who criticizes his predecessors, argues about the causes of the war and takes Hannibal’s troop figures from his inscription at the Lacinian promontory.",
+      },
+      {
+        title: "Polybius, Histories, Book 10 (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/10%2A.html",
+        publisher: "LacusCurtius",
+        note: "Scipio’s war in Spain, from New Carthage to Baecula, opened by a portrait of Scipio that Polybius says rests on the testimony of his friend Laelius and argues for calculation against fortune.",
       },
       {
         title: "Polybius, Histories, Book 15 (Loeb translation)",

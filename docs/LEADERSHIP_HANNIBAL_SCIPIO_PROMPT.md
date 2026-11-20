@@ -2,7 +2,7 @@
 
 Paste everything below the line into a new Claude Code session opened in this repository.
 
-**Status (20 November 2026):** Planned. The user chose Hannibal and Scipio as Volume 7 from the later volumes in `docs/LEADERSHIP_NEXT_VOLUMES_PROMPT.md`, after the Caesar volume was completed. Nothing in this prompt has been started; Phase S comes first.
+**Status (20 November 2026):** Phase S done. The user chose Hannibal and Scipio as Volume 7 from the later volumes in `docs/LEADERSHIP_NEXT_VOLUMES_PROMPT.md`, after the Caesar volume was completed. The studies phase added seven studies, the suggested six and Baecula (the Metaurus was fought by neither commander, so a seventh was needed for the two profiles to link eight), with a new campaign, Scipio's Spanish campaign; see the Phase S section of `docs/SOURCE_AUDIT.md`. Phase 0 comes next.
 
 ## Why Hannibal and Scipio, and what is missing (readiness analysis, 20 November 2026)
 

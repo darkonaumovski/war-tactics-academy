@@ -111,6 +111,7 @@ describe("campaign narratives", () => {
       "russian-campaign-of-1812",
       "saladin-s-campaign-of-1187",
       "scipio-s-african-campaign",
+      "scipio-s-spanish-campaign",
       "second-macedonian-war",
       "sekigahara-campaign",
       "serbian-campaign-of-1914",

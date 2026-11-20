@@ -79,7 +79,7 @@ describe("collections", () => {
         ),
       );
     expect(period("alexander")).toBe("335–325 BCE");
-    expect(period("rome")).toBe("216 BCE – 451 CE");
+    expect(period("rome")).toBe("218 BCE – 451 CE");
     expect(period("napoleon")).toBe("1793–1815");
   });
 });

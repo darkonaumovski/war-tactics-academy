@@ -44,13 +44,24 @@ export const collections: Collection[] = [
     slug: "rome",
     title: "Rome, Republic to Empire",
     summary:
-      "Roman war from Hannibal’s victory at Cannae to the coalition that turned Attila out of Gaul.",
+      "Roman war from Hannibal’s first battles in Italy to the coalition that turned Attila out of Gaul.",
     introduction:
-      "These studies span nearly seven centuries of Roman war. Rome won most of them, but the collection keeps its great defeats as well: Cannae, Carrhae, Teutoburg and Adrianople, where an emperor died with his army. Several also record what conquest meant for the conquered, from the plundering of Epirus to the destruction of Jerusalem.",
+      "These studies span nearly seven centuries of Roman war. Rome won most of them, but the collection keeps its great defeats as well: the Trebia, Trasimene, Cannae, Carrhae, Teutoburg and Adrianople, where an emperor died with his army. Several also record what conquest meant for the conquered, from the sack of New Carthage and the plundering of Epirus to the destruction of Jerusalem.",
     arc: [
       {
-        text: "Against Carthage and Macedon the Republic showed that it could lose battles and still win wars. After Cannae, where Hannibal encircled a much larger Roman army, Rome refused to ransom its prisoners and kept fighting; at Zama, Scipio and Massinissa’s Numidian cavalry defeated Hannibal and ended the Second Punic War. In the east, Cynoscephalae broke Philip V’s phalanx, and Pydna ended the Antigonid kingdom; Macedonia became a province in 148 BCE.",
-        studies: ["cannae", "zama", "cynoscephalae", "pydna"],
+        text: "Against Carthage the Republic showed that it could lose battles and still win wars. Hannibal’s cavalry beat a consul on the Ticinus; he drew another across the Trebia into an ambush, caught a third army on the march by Lake Trasimene and encircled a much larger one at Cannae. Rome refused to ransom its prisoners and kept fighting, and in 207 the consul Nero marched the length of Italy to destroy Hasdrubal’s relieving army on the Metaurus.",
+        studies: ["ticinus", "trebia", "lake-trasimene", "cannae", "metaurus"],
+      },
+      {
+        text: "Meanwhile the young Scipio took the war to Carthage’s base in Spain. He seized New Carthage through its lagoon, drove Hasdrubal Barca from Baecula and broke the last Carthaginian army in Spain at Ilipa; at Zama, with Massinissa’s Numidian cavalry, he defeated Hannibal and ended the Second Punic War. In the east, Cynoscephalae broke Philip V’s phalanx, and Pydna ended the Antigonid kingdom; Macedonia became a province in 148 BCE.",
+        studies: [
+          "new-carthage",
+          "baecula",
+          "ilipa",
+          "zama",
+          "cynoscephalae",
+          "pydna",
+        ],
       },
       {
         text: "In the last century of the Republic, the generals who led its wars also fought for power within it. Caesar’s conquest of Gaul began with a pursuit: he turned the migrating Helvetii back after a battle near Bibracte, and the next year the Nervii nearly overran his camp on the Sabis. Crassus’s death at Carrhae fixed the Euphrates as a boundary with Parthia and left Pompey and Caesar as the remaining triumvirs. In the Gallic revolt of 52 Caesar was thrown back from Gergovia before his siege lines at Alesia faced the defenders and a relief army at once.",

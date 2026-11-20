@@ -1,5 +1,1038 @@
 [
   {
+    "slug": "ticinus",
+    "sources": [
+      {
+        "title": "Polybius, Histories, Book 3 (Loeb translation by W. R. Paton)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/3%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Polybius, Histories, Book 10 (Loeb translation by W. R. Paton)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/10%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Livy, History of Rome, Book 21 (trans. Canon Roberts, 1905)",
+        "url": "https://en.wikisource.org/wiki/From_the_Founding_of_the_City/Book_21",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Appian, The War against Hannibal 1 (trans. Horace White)",
+        "url": "https://www.livius.org/sources/content/appian/appian-war-against-hannibal/appian-war-against-hannibal-1/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "“Scipio”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Scipio",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“Hannibal”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hannibal_(general)",
+        "publisher": "Wikisource"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Hannibal came down into the plain of the Po in the autumn of 218 BCE, five months after leaving New Carthage and after fifteen days in the Alps, with an army much reduced by the crossing; Polybius takes its strength from Hannibal's own inscription at the Lacinian promontory. The consul Publius Cornelius Scipio, who had missed him at the Rhone, left his army in Spain with his brother Gnaeus, sailed back to Pisa and took over the legions already fighting the Boii. Appian says Hannibal first stormed a town of the Taurini and put the prisoners to death to frighten the other Gauls.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.56"
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 3,
+            "locator": "5"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Hannibal's war in Italy depended on the Gauls of the Po valley, who would bring him food, men and a base only if he looked like winning. Livy has him send Maharbal to plunder the lands of Rome's allies while sparing the Gauls and courting their chiefs. Rome had planned to fight in Spain and Africa; in the speech Polybius gives him, Scipio says he left his fleet and his Spanish command to hurry back to Italy. The 1911 Britannica calls Hannibal's arrival a frustration of every Roman attempt to fight the main issue on foreign ground.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "21.45"
+          },
+          {
+            "source": 0,
+            "locator": "3.64, 3.66"
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Scipio meant to fight Hannibal as soon as possible after his descent from the Alps, and bridged the Ticinus to advance against him. The battle itself began as a reconnaissance: Polybius says both generals took their cavalry out to look at each other's forces, and Livy that Scipio wanted to see the number and nature of the enemy army. Hannibal needed an early success to bring the Gauls over to him.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.56, 3.64–65"
+          },
+          {
+            "source": 2,
+            "locator": "21.45–46"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The armies met on the open plain north of the Po, near the river Ticinus. The country was flat, which favoured the side with the stronger cavalry; Livy concludes from the battle that the plains between the Po and the Alps were no place for the Romans to fight. Behind the Roman army lay two rivers, crossed by bridges the Romans had built. The sources name no closer site.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.65–66"
+          },
+          {
+            "source": 2,
+            "locator": "21.45, 21.47"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Scipio led cavalry and javelineers on foot, including Gaulish horsemen serving with the Romans; Hannibal led his heavier, bridled cavalry and his Numidian light horse. Each general commanded in person. Polybius reports, from Scipio's friend Laelius, that the consul's seventeen-year-old son, in his first campaign, had been given a picked troop of horse to keep him safe. No figures for either force are given here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.65"
+          },
+          {
+            "source": 1,
+            "locator": "10.3"
+          },
+          {
+            "source": 2,
+            "locator": "21.46"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Scipio placed his javelineers and Gaulish cavalry in front and the rest of his horse behind, and advanced slowly. Hannibal put his bridled cavalry and the heavier part of his horse in the centre, facing them, with the Numidians on each wing ready to ride round the Roman flanks. Livy gives the same order, and adds that portents in the Roman camp, a wolf and a swarm of bees, had unsettled the soldiers.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.65"
+          },
+          {
+            "source": 2,
+            "locator": "21.46"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Before the battle Polybius has Hannibal show his army Alpine prisoners fighting each other for their freedom, and Livy has him promise land, money and citizenship. The armies marched along the north bank of the Po and camped near each other. Next morning the cavalry met in a cloud of dust; the Roman javelineers fled through their own horsemen before throwing, and the cavalry fought on even terms, many men dismounting. Then the Numidians rode round the flanks and took the Romans in the rear. The Roman horse broke, and a few gathered round the wounded consul. Scipio withdrew over the Po to Placentia, and Hannibal crossed the river further upstream.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.62–66"
+          },
+          {
+            "source": 2,
+            "locator": "21.45–47"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Scipio chose to meet Hannibal on open ground with cavalry and light troops, and then, wounded, with the country flat and the enemy stronger in horse, decided to put his legions behind the Po rather than risk a battle of infantry. Hannibal placed his Numidians to outflank the Roman cavalry. When he found the bridge over the Po broken up, he took the guard prisoner and marched upstream to bridge the river with boats, instead of forcing a crossing.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.65–66"
+          },
+          {
+            "source": 2,
+            "locator": "21.47"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The fight turned when the Numidians outflanked the Roman horse and attacked it from the rear, riding down the javelineers who had escaped the first charge. The consul's wound then decided the retreat: Polybius lists it beside the flat country and the enemy's cavalry among Scipio's reasons for withdrawing.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.65–66"
+          },
+          {
+            "source": 2,
+            "locator": "21.46"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Romans fell back to Placentia, a Roman colony, and broke the bridge behind them; Hannibal captured the men left to guard it. Appian, more briefly, says the Romans were surrounded by the Africans, fled to their camp and the next night crossed the Po to Placentia. The Gauls of the region at once sent envoys to Hannibal, offering alliance, supplies and men.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.66"
+          },
+          {
+            "source": 3,
+            "locator": "5"
+          },
+          {
+            "source": 2,
+            "locator": "21.47"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Livy draws the lesson the Romans drew: Carthage was stronger in cavalry, and the open plains favoured it. Polybius says the news surprised Rome, where people blamed the consul's rashness or the Celts' treachery, and trusted the unbeaten infantry. Within days the Gauls serving in the Roman camp went over to Hannibal. The 1911 Britannica sums up the effect: superior cavalry forced the Romans to give up the plain of Lombardy, and the Trebia followed within weeks.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "21.47"
+          },
+          {
+            "source": 0,
+            "locator": "3.67–68"
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A reconnaissance in force can become the first battle of a campaign that neither commander planned to fight that day. On open ground the stronger cavalry decides, and the commander who leads his horse in person risks the whole army's direction with his own body: Polybius says the younger Scipio, having proved his courage here, afterwards refrained from exposing himself without reason. For an invader living on the goodwill of local peoples, a first success counts for more than its size.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "10.3"
+          },
+          {
+            "source": 2,
+            "locator": "21.47"
+          },
+          {
+            "source": 0,
+            "locator": "3.66"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The rescue of the wounded consul by his son is a test of the record. Polybius tells it from Laelius, the son's lifelong friend, as the first proof of a commander who acted by calculation rather than luck. Livy says the annalist Coelius gave the rescue to a Ligurian slave, but prefers the son because most writers say so; Appian does not mention it; the 1911 Britannica calls it one tradition. Livy also rejects Coelius's story that Hannibal's army forded the Po with elephants breaking the current. The speeches and the oath with the lamb belong to the historians.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "10.2–3"
+          },
+          {
+            "source": 2,
+            "locator": "21.46–47"
+          },
+          {
+            "source": 3,
+            "locator": "5"
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Polybius, Book 3, chapters 56 and 62–68, and Book 10, chapters 2–3, in W. R. Paton's Loeb translation on LacusCurtius, give the main narrative and Laelius's story of the rescue. Livy 21.45–47, in Canon Roberts's translation on Wikisource, follows Polybius closely and records Coelius's variants. Appian's War against Hannibal 5, in Horace White's translation on Livius, is a short later summary. The 1911 Britannica articles on Scipio and on Hannibal give the outline.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Bridging the Ticinus",
+        "time": "Late 218 BCE",
+        "description": "Scipio bridges the Ticinus and advances; both generals address their armies."
+      },
+      {
+        "title": "Reconnaissance",
+        "time": "The third morning",
+        "description": "Both commanders lead their cavalry out to look at the enemy and meet in a cloud of dust."
+      },
+      {
+        "title": "The cavalry fight",
+        "time": "Opening of the action",
+        "description": "The Roman javelineers flee through their horsemen; the cavalry fight on even terms, many dismounted."
+      },
+      {
+        "title": "Numidian envelopment",
+        "time": "Decision",
+        "description": "The Numidians ride round the flanks into the Roman rear; the consul is wounded and rescued."
+      },
+      {
+        "title": "Behind the Po",
+        "time": "The following days",
+        "description": "Scipio retreats to Placentia; Hannibal crosses upstream and the Gauls send envoys to him."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Hannibal Barca",
+        "objective": "Win a first success in Italy that would bring the Gauls of the Po valley over to him.",
+        "known": "A consular army had crossed the Po to meet him; his own cavalry, the Numidians above all, was strong.",
+        "uncertainty": "Whether the Romans would risk an infantry battle, and whether the Gauls would declare for him.",
+        "constraints": "An army worn down by the Alps, far from Spain, living on what the Po valley would give or yield.",
+        "forces": "Heavy bridled cavalry in the centre, Numidian light horse on the wings.",
+        "terrain": "Flat open plain, good country for cavalry.",
+        "logistics": "Dependent on the Gauls of the region for food and recruits, and on what his army could take.",
+        "decision": "Met the Roman reconnaissance head-on and sent the Numidians round its flanks.",
+        "outcome": "The Roman cavalry broke, the consul was wounded, and the Gauls offered alliance and supplies."
+      },
+      {
+        "name": "Publius Cornelius Scipio",
+        "objective": "Fight Hannibal soon after his descent from the Alps, before his army recovered.",
+        "known": "Hannibal had lost many men and horses in the crossing; the Gauls of the region were wavering.",
+        "uncertainty": "The number and nature of Hannibal's forces, which he rode out to see.",
+        "constraints": "Legions taken over from the praetors, Gaulish auxiliaries of doubtful loyalty, and rivers at his back.",
+        "forces": "Javelineers on foot, Gaulish cavalry and Roman and allied horse.",
+        "terrain": "Open plain north of the Po, with the Ticinus and the Po behind him.",
+        "logistics": "Bridges over the Ticinus and the Po, and the colony of Placentia as a base.",
+        "decision": "Led his cavalry forward in person; after the defeat, wounded, withdrew his legions behind the Po.",
+        "outcome": "His cavalry was routed and he was seriously wounded, but the legions reached Placentia intact."
+      }
+    ]
+  },
+  {
+    "slug": "trebia",
+    "sources": [
+      {
+        "title": "Polybius, Histories, Book 3 (Loeb translation by W. R. Paton)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/3%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Livy, History of Rome, Book 21 (trans. Canon Roberts, 1905)",
+        "url": "https://en.wikisource.org/wiki/From_the_Founding_of_the_City/Book_21",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Appian, The War against Hannibal 2 (trans. Horace White)",
+        "url": "https://www.livius.org/sources/content/appian/appian-war-against-hannibal/appian-war-against-hannibal-2/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Plutarch, Life of Fabius Maximus (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Fabius_Maximus%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "“Trebia”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Trebia",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“Hannibal”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hannibal_(general)",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“Punic Wars”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Punic_Wars",
+        "publisher": "Wikisource"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After the Ticinus the Gauls serving in the Roman camp rose in the night, killed the Romans nearest them and went over to Hannibal, who sent them home to raise their peoples. Scipio, wounded, moved to the hills beside the Trebia to wait for his colleague Tiberius Sempronius Longus, who was bringing his army from Sicily. The Roman garrison of Clastidium was betrayed to Hannibal with its grain; he spared the prisoners to show that those who yielded to him would be treated well.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.67–69"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Rome still trusted its infantry; Polybius says it was generally thought the legions had only to show themselves. Sempronius had command because his colleague was ill, and the consuls' year was ending: Polybius and Livy both say he wanted to win the battle himself before Scipio recovered or new consuls took office. Hannibal's need was the opposite of Scipio's caution. In Polybius's words, a general who has led an army into a foreign country can only hope to survive by keeping alive the hopes of his allies.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.68, 3.70"
+          },
+          {
+            "source": 1,
+            "locator": "21.53"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Scipio advised waiting: the legions would gain from a winter's drill, and the Celts would not stay loyal to Hannibal if he were kept idle. Sempronius wanted a decisive battle at once. Hannibal wanted one too, while the Celts were eager, the legions raw and Scipio still unfit, and above all so that his army would not stand still.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.70"
+          },
+          {
+            "source": 1,
+            "locator": "21.52–53"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The Trebia joins the Po a few miles west of Placentia. Between the two camps lay flat, treeless ground crossed by a water-course with steep banks overgrown with brambles: Polybius says the Romans feared woods, where Gauls laid ambushes, and did not suspect open ground. It was about the winter solstice, cold and snowing, and rain in the night had swollen the river breast-high. The 1911 Britannica says Polybius's placing of the battle on the left bank is to be preferred to Livy's.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.71–72"
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 1,
+            "locator": "21.54"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The two consular armies were united under Sempronius, with Roman legions, Latin allies and the Cenomani, whom Livy calls the only Gallic people still loyal to Rome. Hannibal had Spaniards, Celts and Africans in his line, cavalry with his Celtic allies on the wings, elephants and light troops. His brother Mago led a picked force for the ambush, chosen man by man. No figures are given here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.71–72"
+          },
+          {
+            "source": 1,
+            "locator": "21.54–55"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "In the night Mago took his force to the water-course. At daybreak Hannibal sent the Numidian horse across the river to shoot into the Roman camp and draw the Romans out before they had eaten, while his own men breakfasted, oiled their limbs and armed by their fires. Once the Romans had crossed, he put his pikemen and slingers in front, his infantry in a single line and his cavalry and elephants on the wings.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.71–72"
+          },
+          {
+            "source": 1,
+            "locator": "21.54–55"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Days before, Hannibal raided Gauls who were dealing with both sides; Sempronius sent help and won a skirmish, which Hannibal broke off. On the day, Sempronius sent his cavalry after the Numidians, then his light troops, then the whole army across the river without food. The light troops on each side opened the battle, and the Carthaginian cavalry, fresher and stronger, drove off the Roman horse; light troops and Numidians fell on the exposed flanks while the infantry centres fought on even terms. Then Mago's men rose from the water-course behind the Roman centre. The wings were driven to the river; the front of the centre broke through the Celts and Africans and marched to Placentia.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.69, 3.72–74"
+          },
+          {
+            "source": 1,
+            "locator": "21.52, 21.54–56"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Hannibal provoked a Roman intervention by raiding wavering Gauls, and then refused to let the skirmish that followed grow into a battle: Polybius says a good general does not risk a decision on a chance pretext. He chose open ground for the ambush, timed the provocation for before the Roman breakfast, and fed his own army. Sempronius overruled his colleague's advice, used the skirmish as proof of Roman superiority, and committed his whole army across a swollen river in the cold.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.69–71"
+          },
+          {
+            "source": 1,
+            "locator": "21.52–54"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The Roman cavalry gave way on both wings, leaving the infantry's flanks open, and the ambush struck the rear of the centre while it was locked in front. From then on, Polybius says, the Roman army was in utmost confusion.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.73–74"
+          },
+          {
+            "source": 1,
+            "locator": "21.55"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Roman army was driven from the field. The body that had broken through reached Placentia in order, with the cavalry and the few infantry who escaped; most of the rest died at the river. Hannibal's losses fell mainly on the Celts. The cold and snow that followed killed men and horses on his side and all but one of his elephants, Polybius says; Livy says nearly all.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.74"
+          },
+          {
+            "source": 1,
+            "locator": "21.56"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Sempronius reported to Rome that a storm had cost him the victory; Plutarch says neither his dispatch nor his messenger told the truth. Rome learned it when it heard the Celts had all gone over and the Romans were shut in the towns. It sent legions to Sardinia and Sicily, garrisons to Tarentum and a fleet to sea, and raised new legions; Polybius remarks that the Romans are most to be feared when in real danger. The 1911 Britannica says the victory secured Hannibal's hold on northern Italy, though the Gauls' zeal began to cool when his army wintered on them.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.75"
+          },
+          {
+            "source": 3,
+            "locator": "3"
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Polybius says Hannibal knew Sempronius was sure to be aggressive, and Livy that he had heard so and found it true. A trap set for a commander's temper works only while that commander is in charge: here a sick colleague's advice was overruled, and the elections were close. A fed, warm army met a cold, hungry one, and an ambush was hidden on ground the enemy thought safe. Polybius's own judgement is that Sempronius failed because he chose his own time instead of the time circumstances offered.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.70–71"
+          },
+          {
+            "source": 1,
+            "locator": "21.53"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Appian's version has no ambush: the Roman horse flees from the elephants and Hannibal's cavalry, held back behind them, decides the day; he also places the elder Scipio's wound here, not at the Ticinus. Which bank of the Trebia the armies fought on is argued from Polybius against Livy. The record of the councils comes from the side of the Scipios: Polybius, who knew Laelius, gives the elder Scipio the wise advice that Sempronius ignored. The speeches, including Hannibal's orders to Mago in Livy, are the historians' compositions. Figures for the armies and losses in Polybius and Livy are not repeated.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "6–7"
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 0,
+            "locator": "3.70"
+          },
+          {
+            "source": 1,
+            "locator": "21.53–55"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Polybius 3.67–75, in Paton's Loeb translation on LacusCurtius, is the main narrative; Livy 21.52–56, in Roberts's translation on Wikisource, follows it with differences; Appian's War against Hannibal 6–7, in White's translation on Livius, is a shorter later version; Plutarch's Fabius Maximus 2–3, in the Loeb translation, reports how Rome heard the news. The 1911 Britannica articles on the Trebia, on Hannibal and on the Punic Wars give the site question and the outline.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Provocation",
+        "time": "December 218 BCE",
+        "description": "Hannibal raids Gauls who deal with both sides; Sempronius wins a skirmish and wants battle."
+      },
+      {
+        "title": "The ambush laid",
+        "time": "The night before",
+        "description": "Mago takes picked men into a water-course with overgrown banks between the camps."
+      },
+      {
+        "title": "Across the river",
+        "time": "Dawn, the winter solstice",
+        "description": "The Numidians draw the unfed Romans across the swollen Trebia; Hannibal's men eat and arm by their fires."
+      },
+      {
+        "title": "The wings broken",
+        "time": "Morning",
+        "description": "Carthaginian cavalry and light troops drive off the Roman horse and attack the exposed flanks."
+      },
+      {
+        "title": "The ambush",
+        "time": "Decision",
+        "description": "Mago strikes the rear of the Roman centre; its front breaks through and marches to Placentia."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Hannibal Barca",
+        "objective": "Force a battle while the Celts were eager, the legions raw and Scipio unfit.",
+        "known": "Sempronius was eager to fight and had won a skirmish; the Gauls nearby were hedging.",
+        "uncertainty": "Whether the Romans would take the bait on his terms and in time.",
+        "constraints": "Allies whose loyalty depended on action, and an army far from any base of its own.",
+        "forces": "Spanish, Celtic and African infantry, strong cavalry with Celtic allies, elephants and light troops.",
+        "terrain": "Open ground with a hidden water-course, a river between the armies, winter weather.",
+        "logistics": "Supplied by the Celts of the plain and by the captured stores of Clastidium.",
+        "decision": "Laid an ambush on open ground and drew the Romans across the river before they had eaten.",
+        "outcome": "The Roman army was broken and Hannibal's position in northern Italy secured, at the cost of his elephants."
+      },
+      {
+        "name": "Tiberius Sempronius Longus",
+        "objective": "Win the decisive battle himself before his colleague recovered or the new consuls took office.",
+        "known": "His cavalry had driven off the raiders; his army was larger in infantry and Rome expected a victory.",
+        "uncertainty": "Where Hannibal's cavalry and hidden troops were.",
+        "constraints": "A colleague who advised delay, a season of snow and a river in spate.",
+        "forces": "Two consular armies of Roman legions, Latin allies and the Cenomani.",
+        "terrain": "Flat ground beyond the Trebia, which his men had to wade breast-deep.",
+        "logistics": "Supplied up the Po through Placentia; his soldiers marched out without a meal.",
+        "decision": "Followed the Numidians across the river with his whole army and offered battle.",
+        "outcome": "His army was routed; he reported that a storm had cost him the victory."
+      }
+    ]
+  },
+  {
+    "slug": "lake-trasimene",
+    "sources": [
+      {
+        "title": "Polybius, Histories, Book 3 (Loeb translation by W. R. Paton)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/3%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Livy, History of Rome, Book 22 (trans. Canon Roberts, 1905)",
+        "url": "https://en.wikisource.org/wiki/From_the_Founding_of_the_City/Book_22",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Appian, The War against Hannibal 2 (trans. Horace White)",
+        "url": "https://www.livius.org/sources/content/appian/appian-war-against-hannibal/appian-war-against-hannibal-2/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Plutarch, Life of Fabius Maximus (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Fabius_Maximus%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Lake Trasimene (217 BCE)",
+        "url": "https://www.livius.org/articles/battle/lake-trasimene/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "“Trasimene, Lake”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Trasimene,_Lake",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“Hannibal”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hannibal_(general)",
+        "publisher": "Wikisource"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Over the winter after the Trebia Hannibal released his Italian prisoners without ransom, telling them he had come to fight Rome for the freedom of Italy. In spring 217 the consuls Gaius Flaminius and Gnaeus Servilius covered the roads south, Flaminius at Arretium and Servilius at Ariminum. Hannibal crossed into Etruria by a route through flooded marshes that took three days and nights; many pack animals died, and Polybius reports that Hannibal, riding the last elephant, lost the sight of one eye from an untreated infection.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.77–79"
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Flaminius was a popular politician who had beaten the Gauls against the senate's wishes, as Plutarch tells it. Polybius calls him a demagogue with no talent for war, and Livy an overbearing man who would take counsel from neither gods nor men. Livius reads the Roman plan differently: Rome gave up the Po plains and guarded the Apennine passes so that Hannibal would be caught between two consular armies wherever he came through, and Flaminius was too careful to be baited. Hannibal still needed Rome's allies to change sides.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.80"
+          },
+          {
+            "source": 1,
+            "locator": "22.3"
+          },
+          {
+            "source": 3,
+            "locator": "2"
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Hannibal meant to draw Flaminius into battle before the two consuls could join. Polybius says he reckoned that if he passed the Roman army and laid the country waste, Flaminius would neither bear the jeers of his soldiers nor wait for his colleague. Flaminius, as Livy and Plutarch tell it, would not sit at Arretium while the enemy burned the lands of Rome's allies on the road to Rome.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.80, 3.82"
+          },
+          {
+            "source": 1,
+            "locator": "22.3"
+          },
+          {
+            "source": 3,
+            "locator": "3"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The road ran along the north shore of the lake through a narrow passage between hills and water into a strip of level ground closed in front by a steep hill. Livy says a fog from the lake lay thicker on the plain than on the heights. The 1911 Britannica, after Thomas Ashby, places the trap on the hills between Terontola and Tuoro, with the Roman camp outside the valley of the Sanguineto; Livius describes the same ground from Borghetto to Tuoro.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.83–84"
+          },
+          {
+            "source": 1,
+            "locator": "22.4"
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Flaminius commanded a consular army; Polybius says crowds followed it for plunder, carrying chains for the captives they expected. His officers urged him to wait for Servilius. Hannibal posted his Spaniards and Africans on the hill at the end of the valley, his slingers and pikemen behind the hills on one side, and his cavalry and Celts behind the hills on the other, closing the entrance. No figures are given here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.82–83"
+          },
+          {
+            "source": 1,
+            "locator": "22.3–4"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Flaminius camped late by the lake and at first light led his column into the passage. Livy says he sent no scouts ahead. Hannibal's troops had taken their places in the night and waited without moving.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.83"
+          },
+          {
+            "source": 1,
+            "locator": "22.4"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Hannibal marched past the Roman camp and laid waste the country between Cortona and the lake, and Flaminius followed. Hannibal laid his ambush in the night. In the misty morning, when most of the Roman column was in the passage and its head had met his troops, he gave the signal, and his forces attacked from every side at once. The Romans were cut down in marching order. Flaminius was killed by Celts. Men driven into the lake drowned or were killed in the water by the cavalry. The head of the column fought its way through to the heights, saw the disaster when the mist lifted, withdrew to a village and surrendered to Maharbal the next day.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.82–84"
+          },
+          {
+            "source": 1,
+            "locator": "22.4–6"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Hannibal took the marsh road because the other routes were long and expected, and this one would surprise Flaminius. He then marched past the Roman army instead of attacking it, burned the country to provoke it, and chose ground where a column could be attacked before it could deploy. Flaminius rejected his council's advice to wait, pursued, and entered the passage without reconnaissance.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.78, 3.80, 3.82"
+          },
+          {
+            "source": 1,
+            "locator": "22.3–4"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The battle was decided in its first moments, when the signal sent every hidden body down on the column together. Polybius says the centurions and tribunes could not understand what was happening, let alone set it right, and that the soldiers were betrayed by their commander's lack of judgement.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.84"
+          },
+          {
+            "source": 1,
+            "locator": "22.5"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The consul's army was destroyed and Flaminius killed. Hannibal kept the Roman prisoners under guard, released the allies without ransom, saying again that he fought Rome for the freedom of Italy, and buried his own leading dead. He looked for Flaminius's body to bury it, Livy and Plutarch say, but it was not found. Appian adds that he gave the booty to his Gauls.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.85"
+          },
+          {
+            "source": 1,
+            "locator": "22.7"
+          },
+          {
+            "source": 3,
+            "locator": "3"
+          },
+          {
+            "source": 2,
+            "locator": "10"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Polybius and Livy give the praetor's announcement in Rome, \"We have been defeated in a great battle\", as the moment the city understood, and Plutarch a fuller version; Polybius adds that the senate kept its head. Fabius Maximus was made dictator. Hannibal did not march on Rome: the 1911 Britannica says he saw that he could not take the city without siege engines and turned south to raise a revolt. Livius notes that even nearby Assisi refused to surrender to him.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.85"
+          },
+          {
+            "source": 1,
+            "locator": "22.7"
+          },
+          {
+            "source": 3,
+            "locator": "3"
+          },
+          {
+            "source": 6
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Polybius made this battle his lesson that a general must study the character of the opposing general and find the weak places in his mind, as a fighter looks for an unguarded part of the body. The case for that lesson rests on Polybius's portrait of Flaminius. If Livius is right that Flaminius followed carefully and kept his distance, the trap worked through the mist, the ground and the march order rather than one man's vanity. Either way, a column on the march in country the enemy has chosen cannot become an army in time.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.81"
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Flaminius's character is the main dispute. Polybius has him dismayed and dejected when he fell; Livy gives him coolness and rallying words and names the Insubrian horseman Ducarius who killed him; Livy and Plutarch both tell of a horse that threw him and other portents, which turn the defeat into a lesson about a consul who slighted the gods. On the surrender, Polybius and Appian say Hannibal denied Maharbal's authority to promise safety but freed the allies; Livy says the promise was kept with Punic faith. Livy cites Fabius Pictor, who lived through the war, for the losses; neither his figures nor the larger ones he rejects are repeated here. The date, 24 June, is Livius's.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.84–85"
+          },
+          {
+            "source": 1,
+            "locator": "22.3, 22.5–7"
+          },
+          {
+            "source": 3,
+            "locator": "3"
+          },
+          {
+            "source": 2,
+            "locator": "10"
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Polybius 3.77–85, in Paton's Loeb translation on LacusCurtius, is the main narrative, with his reflection on knowing the enemy general; Livy 22.3–7, in Roberts's translation on Wikisource, adds Roman detail and cites Fabius Pictor; Appian's War against Hannibal 9–10 on Livius and Plutarch's Fabius Maximus 2–3 on LacusCurtius are later versions. Jona Lendering's Livius article on the battle and the 1911 Britannica articles on the lake and on Hannibal give the ground and a modern reading.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Through the marshes",
+        "time": "Spring 217 BCE",
+        "description": "Hannibal crosses into Etruria by flooded marshes in three days and nights, losing animals and men."
+      },
+      {
+        "title": "Provocation",
+        "time": "Days before the battle",
+        "description": "He passes Flaminius at Arretium and burns the country toward the lake; Flaminius follows."
+      },
+      {
+        "title": "The trap set",
+        "time": "The night before",
+        "description": "Hannibal posts his troops on the hills around the lakeside passage; Flaminius camps by the lake."
+      },
+      {
+        "title": "Ambush in the mist",
+        "time": "Morning of the battle",
+        "description": "The column enters the passage; attacked from all sides, it is destroyed and Flaminius killed."
+      },
+      {
+        "title": "Surrender and release",
+        "time": "The next day",
+        "description": "The Roman vanguard surrenders to Maharbal; Hannibal frees the allies and keeps the Romans."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Hannibal Barca",
+        "objective": "Draw one consular army into battle on ground of his choosing before the other could join it.",
+        "known": "Where Flaminius lay, the country ahead, and what was said of the consul's temper.",
+        "uncertainty": "Whether Flaminius would follow closely, and when Servilius would arrive.",
+        "constraints": "An army tired by the marshes, Celtic allies who wanted plunder, and no siege train.",
+        "forces": "African and Spanish infantry, Celts, slingers and pikemen, and cavalry.",
+        "terrain": "Hills above a narrow lakeside passage, with a morning mist off the water.",
+        "logistics": "Living off the rich country of Etruria.",
+        "decision": "Passed the Roman army, laid the country waste and set an ambush along the lake.",
+        "outcome": "The consular army was destroyed; he freed the Italian prisoners and turned south."
+      },
+      {
+        "name": "Gaius Flaminius",
+        "objective": "Stop Hannibal ravaging the lands of Rome's allies on the road to Rome.",
+        "known": "Hannibal had slipped past him and was burning the country ahead.",
+        "uncertainty": "Where the Carthaginian army was, in the hills and the mist.",
+        "constraints": "A council that urged him to wait for his colleague, and his reputation at Rome.",
+        "forces": "A consular army, followed by crowds hoping for plunder.",
+        "terrain": "A narrow road between hills and the lake, entered at first light in fog.",
+        "logistics": "His base at Arretium, left behind in the pursuit.",
+        "decision": "Pursued without waiting for Servilius and led his column into the passage.",
+        "outcome": "His army was destroyed in marching order and he was killed."
+      }
+    ]
+  },
+  {
     "slug": "cannae",
     "sources": [
       {
@@ -241,6 +1274,1343 @@
         "terrain": "Polybius reports that Paullus considered the open plain unfavorable against Hannibal's cavalry.",
         "logistics": "A large concentrated army needed steady supply, and Hannibal's capture of the Cannae depot added pressure to act.",
         "outcome": "A catastrophic defeat in which Paullus died. Ancient writers assigned blame along political lines, especially against Varro."
+      }
+    ]
+  },
+  {
+    "slug": "new-carthage",
+    "sources": [
+      {
+        "title": "Polybius, Histories, Book 10 (Loeb translation by W. R. Paton)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/10%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Livy, History of Rome, Book 26 (trans. Canon Roberts, 1905)",
+        "url": "https://en.wikisource.org/wiki/From_the_Founding_of_the_City/Book_26",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Appian, The Spanish Wars 4 (trans. Horace White)",
+        "url": "https://www.livius.org/sources/content/appian/appian-the-spanish-wars/appian-the-spanish-wars-4/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Appian, The Spanish Wars 5 (trans. Horace White)",
+        "url": "https://www.livius.org/sources/content/appian/appian-the-spanish-wars/appian-the-spanish-wars-5/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "“Cartagena (Spain)”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Cartagena_(Spain)",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“Scipio”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Scipio",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“Hasdrubal”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hasdrubal",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“Punic Wars”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Punic_Wars",
+        "publisher": "Wikisource"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "In 212 or 211 BCE the brothers Publius and Gnaeus Scipio were killed in Spain after their Celtiberian allies deserted them. Rome then gave the Spanish command to Publius's son and namesake, who was still very young. Appian says no one else came forward and that older men called his promises foolhardy; the 1911 Britannica says he was elected unanimously. He arrived in 210 or 209, when all Spain south of the Ebro was in Carthaginian hands.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 5
+          },
+          {
+            "source": 7
+          },
+          {
+            "source": 2,
+            "locator": "18–19"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Polybius says Scipio had learned at Rome that his father's defeat came from Celtiberian treachery and the division of the Roman armies, and in Spain that the Carthaginian commanders had quarrelled and were treating their subjects harshly. Their three armies lay far apart, none within ten days' march of New Carthage. Attacking any one of them risked being trapped by the other two, as his father and uncle had been. New Carthage was the enemy's base: it had the only good harbour on that coast, faced Africa, and held their money, their war material and hostages from all Spain.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.6–8"
+          },
+          {
+            "source": 1,
+            "locator": "26.42"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Scipio meant to take the city by surprise. If he failed, Polybius says, he reckoned he could still save his army, because he held the sea and the enemy's field armies were far away. He prepared through the winter and told no one but Gaius Laelius, his friend and commander of the fleet.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.8–9"
+          },
+          {
+            "source": 1,
+            "locator": "26.42"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The city stood on a hilly peninsula at the head of a sheltered bay, with the sea to the east and south and a lagoon to the west and north; a narrow isthmus joined it to the mainland. Polybius, who says he saw the place himself, describes its hills and its circuit. From fishermen Scipio had learned that the lagoon was shallow, mostly fordable, and usually fell every day toward evening. Livy says the fishermen were from Tarraco. The 1911 Britannica describes the harbour of modern Cartagena as the finest on Spain's east coast.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.8, 10.10–11"
+          },
+          {
+            "source": 1,
+            "locator": "26.42, 26.45"
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Scipio marched with his army along the coast while Laelius brought the fleet. In the city Mago commanded a small garrison of trained soldiers, which he split between the citadel and the eastern hill, and armed the strongest of the townsmen, most of them craftsmen, traders and sailors with no military experience. No figures are given here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.8–9, 10.12"
+          },
+          {
+            "source": 1,
+            "locator": "26.42, 26.44"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Army and fleet arrived together on the seventh day. Scipio camped north of the city, fortifying only the landward side of his camp and leaving the isthmus open for sorties. He told his soldiers that Neptune had appeared to him in his sleep and promised help that the whole army would see, and offered gold crowns to the first men on the wall.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.9, 10.11"
+          },
+          {
+            "source": 1,
+            "locator": "26.42–43"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The assault began at about the third hour. Mago sent his armed citizens out through the gate onto the isthmus, where Scipio had kept his troops close to the camp so that he could reinforce faster; they were driven back with heavy loss. The first escalade failed against the height of the wall, and Scipio recalled it. He then renewed the attack with more ladders while five hundred men waited by the lagoon. As the water ebbed they waded across with guides, found the wall above the lagoon unguarded and took it, while the main force cut through the gate. Mago surrendered the citadel.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.12–15"
+          },
+          {
+            "source": 1,
+            "locator": "26.44–46"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Scipio chose the enemy's base over its armies, kept the plan secret, timed the march with the fleet, and posted his troops near his own camp to fight the sortie on his terms. He watched the assault from higher ground behind three large shields, Polybius says, so that he could see and be seen. He gave his own reading of the tide a divine meaning in advance. When the city was taken he sent most of his men to kill everyone they met until the signal to plunder was given.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.8–9, 10.11–13, 10.15"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The defeat of the sortie shook the defenders. The decision came when the water fell: men crossed the lagoon to a stretch of wall left unguarded because no one thought it could be reached, while the defenders were drawn to the isthmus and the gate. Polybius says the army took the ebb as the work of a god and remembered Neptune's promise.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.12, 10.14"
+          },
+          {
+            "source": 1,
+            "locator": "26.46"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The city fell in a day. Polybius says the killing of the inhabitants was a Roman custom meant to inspire terror, and that dogs and other animals were cut down too. Livy says the citizens were then freed and given back their city and property, the craftsmen became public slaves with a promise of freedom if they worked well, and other able-bodied men and slaves were sent to row in the fleet. Scipio received the Spanish hostages kindly and sent messages to their families. He took the money, arms and ships in the city.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.15, 10.18–19"
+          },
+          {
+            "source": 1,
+            "locator": "26.47, 26.49"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Carthage lost its arsenal, its treasury and its hold on the Spanish peoples whose hostages it had kept. Polybius says Scipio sent Laelius to Rome with the news because Rome had thought the war in Spain lost. The 1911 Britannica says his kindness to the hostages and prisoners brought many Spaniards over to him, and that he gained a harbour and war stores. Appian says the success made Scipio seem divinely inspired, to others and to himself, for the rest of his life.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.19"
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 3,
+            "locator": "23"
+          },
+          {
+            "source": 7
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A base no one thinks threatened is guarded as if it were safe; Polybius says the garrison was small for exactly that reason. Intelligence about a lagoon, gathered from fishermen and kept secret, decided the day. A commander can use his men's belief in signs while himself acting on calculation, as Polybius insists Scipio did, though the same habit can come to persuade the commander himself, as Appian suggests. The city's people paid for the speed of the capture.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.2, 10.8, 10.15"
+          },
+          {
+            "source": 3,
+            "locator": "23"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Polybius writes against authors who credited the gods and fortune, citing Laelius and a letter of Scipio's own to Philip of Macedon; his account comes from Scipio's circle. Livy has the ebb at about midday, helped by a north wind, while Polybius reports only that the lagoon usually fell toward evening. Livy lists wide disagreements among his authorities over the hostages, the garrison, the prisoners and even the commanders, citing Hannibal's historian Silenus and the annalist Valerius Antias, whom he accuses of invention. Appian confuses the city with Saguntum, as Livius notes. Polybius has Scipio give a captive girl back to her father; Livy has him return her to her Celtiberian betrothed. The date is 210 or 209.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.2, 10.8–9, 10.19"
+          },
+          {
+            "source": 1,
+            "locator": "26.45, 26.49–50"
+          },
+          {
+            "source": 2,
+            "locator": "19"
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Polybius 10.2–15 and 10.18–19, in Paton's Loeb translation on LacusCurtius, is the main narrative, with his portrait of Scipio and his description of the city; Livy 26.41–47 and 26.49–50, in Roberts's translation on Wikisource, follows it and records his authorities' disagreements; Appian's Spanish Wars 18–23, in White's translation on Livius, gives a later and partly confused version. The 1911 Britannica articles on Cartagena, Scipio, Hasdrubal and the Punic Wars supply the setting and the dates.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          },
+          {
+            "source": 7
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "The march",
+        "time": "Spring, 210 or 209 BCE",
+        "description": "Scipio crosses the Ebro and marches on New Carthage while Laelius brings the fleet; only Laelius knows the aim."
+      },
+      {
+        "title": "The sortie",
+        "time": "Assault day, from the third hour",
+        "description": "Mago's armed citizens attack on the isthmus and are driven back through the gate."
+      },
+      {
+        "title": "The first escalade",
+        "time": "Same day",
+        "description": "Ladders break and climbers fall from the high wall; Scipio recalls the assault."
+      },
+      {
+        "title": "Through the lagoon",
+        "time": "Later the same day, at the ebb",
+        "description": "Men wade the falling lagoon to an unguarded wall while the main attack forces the gate."
+      },
+      {
+        "title": "Sack and surrender",
+        "time": "Same day and night",
+        "description": "The inhabitants are killed until the signal to plunder; Mago surrenders the citadel."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Publius Cornelius Scipio (Africanus)",
+        "objective": "Seize Carthage's base in Spain by surprise before any of its field armies could intervene.",
+        "known": "The enemy armies were divided and distant; the garrison was small; the lagoon was shallow and fell daily.",
+        "uncertainty": "Whether the walls could be scaled, and when exactly the water would fall.",
+        "constraints": "A young commander's untested authority, the memory of his father's defeat, and a short time before relief could come.",
+        "forces": "His legions and allies by land, and Laelius's fleet by sea.",
+        "terrain": "A walled hill on a peninsula, a narrow isthmus and a shallow lagoon.",
+        "logistics": "Supplied by sea, with a retreat by sea if the attack failed.",
+        "decision": "Struck at the base rather than an army, kept the plan secret and used the ebb to cross the lagoon.",
+        "outcome": "Took the city in a day, with its treasury, arsenal and the Spanish hostages."
+      },
+      {
+        "name": "Mago (commander at New Carthage)",
+        "objective": "Hold the city until a Carthaginian field army could relieve it.",
+        "known": "A Roman army and fleet had arrived without warning.",
+        "uncertainty": "Where the Romans would attack, and whether the citizens would fight.",
+        "constraints": "A small trained garrison and a population of craftsmen and sailors.",
+        "forces": "The garrison, split between the citadel and the eastern hill, and armed townsmen.",
+        "terrain": "High walls, the sea and a lagoon thought to protect the western side.",
+        "logistics": "The stores and treasury of Carthage's Spanish province.",
+        "decision": "Sent the armed citizens out to break up the attack, then manned the walls.",
+        "outcome": "The sortie failed, the lagoon wall fell and he surrendered the citadel."
+      }
+    ]
+  },
+  {
+    "slug": "baecula",
+    "sources": [
+      {
+        "title": "Polybius, Histories, Book 10 (Loeb translation by W. R. Paton)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/10%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Livy, History of Rome, Book 27 (trans. Canon Roberts, 1905)",
+        "url": "https://en.wikisource.org/wiki/From_the_Founding_of_the_City/Book_27",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Appian, The Spanish Wars 5 (trans. Horace White)",
+        "url": "https://www.livius.org/sources/content/appian/appian-the-spanish-wars/appian-the-spanish-wars-5/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "“Scipio”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Scipio",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“Bailén”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Bail%C3%A9n",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“Hasdrubal”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hasdrubal",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Appian, The Spanish Wars 6 (trans. Horace White)",
+        "url": "https://www.livius.org/sources/content/appian/appian-the-spanish-wars/appian-the-spanish-wars-6/",
+        "publisher": "Livius.org (Jona Lendering)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After taking New Carthage Scipio wintered at Tarraco and restored the Spanish hostages to their peoples. The prince Edeco came to him first to recover his wife and children, and the peoples north of the Ebro followed. Andobales, whom Livy calls Indibilis, and his brother Mandonius left Hasdrubal Barca's camp with their forces: Polybius says Hasdrubal had demanded money from them and their wives and daughters as hostages.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.34–35"
+          },
+          {
+            "source": 1,
+            "locator": "27.17"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Polybius draws a general lesson from the Carthaginian collapse in Spain: after beating the elder Scipios its commanders ruled their subjects harshly, and those subjects became enemies. Hasdrubal, deserted by the Iberians and at odds with the other Carthaginian generals, decided to fight; if beaten, he would take what men he could through Gaul to join Hannibal in Italy. Scipio feared that the other two Carthaginian armies would come up and surround him.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.36–38"
+          },
+          {
+            "source": 1,
+            "locator": "27.17"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Scipio wanted to beat Hasdrubal before the armies of Mago and of Hasdrubal the son of Gisco could join him. Hasdrubal wanted a battle on ground of his choosing, with a way out toward the Pyrenees if it went against him.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.37–38"
+          },
+          {
+            "source": 1,
+            "locator": "27.17, 27.20"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Hasdrubal was in the district of Castalon, near the town of Baecula and not far from the silver mines. He moved to a position with a river at his back and a level space in front, deep and wide enough for his army, bounded by a ridge on which he kept a covering force. The 1911 Britannica places Baecula on the upper Guadalquivir and says that Bailén, north of Jaén, is probably the ancient town.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.38"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Scipio led his legions, strengthened by sailors from the fleet he had laid up, with Laelius as his second, and Spanish allies under Andobales. Hasdrubal Barca commanded a Carthaginian army weakened by desertions, with elephants and a war-chest. No figures are given here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.35, 10.38–39"
+          },
+          {
+            "source": 1,
+            "locator": "27.17, 27.19"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Scipio studied the position for two days. Hasdrubal kept his main force in camp, relying on the strength of the ground and convinced that the Romans would not attack it, with only the covering force on the ridge.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.38–39"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Scipio sent his light infantry and picked foot against the ridge. When they pressed the covering force hard, Hasdrubal began to lead his army out. Scipio sent the rest of his light troops in support, took half his army round the enemy's left and gave Laelius the other half to go round the right. They climbed onto the ground on the flanks before the Carthaginians had formed, and struck them while they were still moving into line. Hasdrubal broke off the fight, as he had planned, and withdrew with his money, his elephants and what fugitives he could gather toward the Tagus and the Pyrenees.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.39"
+          },
+          {
+            "source": 1,
+            "locator": "27.19"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Scipio chose to attack a strong position rather than risk the other Carthaginian armies arriving, and sent his main force round both flanks while the light troops held the enemy's attention in front. Hasdrubal chose to save his army and his treasury for the march to Italy rather than fight to the end. After the battle Scipio decided not to pursue him, for fear of the other two generals; Livy says some of his council urged pursuit.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.38–39"
+          },
+          {
+            "source": 1,
+            "locator": "27.20"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The battle turned on timing: the Roman wings reached the high ground on the flanks while Hasdrubal's army was still leaving its camp and forming, because he had not believed the Romans would attack.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.39"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Scipio gave the camp to his soldiers to plunder. He released the Spanish prisoners without ransom; Livy says the Africans were sold by the quaestor. When the Spaniards hailed him as king he told them to call him general, or in Livy's version imperator. Livy adds that he sent a captured young Numidian, Massiva, back to his uncle Masinissa with gifts. Scipio then occupied the Carthaginian camp, watched the Pyrenean passes and went back to Tarraco for the winter.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.39–40"
+          },
+          {
+            "source": 1,
+            "locator": "27.19–20"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The victory did not achieve what mattered most: Hasdrubal escaped, crossed the Pyrenees at their western end and marched for Italy, as the 1911 Britannica says Scipio was unable to prevent. Livy says the Carthaginian generals then agreed to send him to Italy, to take the Spanish soldiers beyond the reach of Scipio's name. His march ended at the Metaurus.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 1,
+            "locator": "27.20"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A battle can be won on the field and lost in the campaign: Scipio beat Hasdrubal's army but not his purpose. A commander facing several enemy armies must weigh pursuit against being caught, and Scipio, who had seen his father and uncle destroyed that way, chose caution. Polybius's lesson about the Carthaginians in Spain, that power is kept by the same kindness that won it, is the other half of the story of the hostages.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.36, 10.39"
+          },
+          {
+            "source": 1,
+            "locator": "27.20"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Polybius is the only full account read for the battle: the chapter in which Livy described it (27.18) is empty in the Wikisource translation used here. Appian is confused. He has Scipio defeat the son of Gisco near Baetica, which Livius's note places at Castulo, and then fight a larger battle at Carmo, which another Livius note identifies with Baecula; but Carmo's details, Mago and Masinissa attacking Scipio's camp and an enemy forced to fight before eating, are close to Polybius's Ilipa. The date is 209 in the 1911 Britannica and 209 or 208 in Livius's notes. Polybius's praise of Scipio's refusal of kingship looks forward to the rest of his life and is part of his portrait.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "10.40"
+          },
+          {
+            "source": 1,
+            "locator": "27.17, 27.19"
+          },
+          {
+            "source": 2,
+            "locator": "24–25"
+          },
+          {
+            "source": 6,
+            "locator": "27"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Polybius 10.34–40, in Paton's Loeb translation on LacusCurtius, is the main narrative; Livy 27.17 and 27.19–20, in Roberts's translation on Wikisource, give the events before and after; Appian's Spanish Wars 24–27, in White's translation on Livius, offers a confused later version. The 1911 Britannica articles on Scipio, on Bailén and on Hasdrubal give the site and the outline.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Allies change sides",
+        "time": "Winter and spring, 209 or 208 BCE",
+        "description": "Hostages are returned; Edeco, Andobales and Mandonius come over to Scipio."
+      },
+      {
+        "title": "The ridge",
+        "time": "After two days",
+        "description": "Roman light troops attack the covering force on the ridge; Hasdrubal begins to lead his army out."
+      },
+      {
+        "title": "Round both flanks",
+        "time": "Same day",
+        "description": "Scipio and Laelius take the two halves of the army round the flanks onto ground not yet occupied."
+      },
+      {
+        "title": "Hasdrubal's withdrawal",
+        "time": "Same day",
+        "description": "Hasdrubal breaks off with his money and elephants and marches toward the Pyrenees."
+      },
+      {
+        "title": "A title refused",
+        "time": "The next day",
+        "description": "Spanish prisoners are freed; Scipio refuses the name of king and does not pursue."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Publius Cornelius Scipio (Africanus)",
+        "objective": "Beat Hasdrubal Barca before the other Carthaginian armies could join him.",
+        "known": "Hasdrubal's Spanish allies had left him; his position was strong; two other armies were in the field.",
+        "uncertainty": "How soon Mago and the son of Gisco could arrive.",
+        "constraints": "The memory of his father's and uncle's destruction, and allies only newly won.",
+        "forces": "His legions strengthened with sailors, Laelius as second in command, and Spanish allies.",
+        "terrain": "A ridge before the enemy's position and a river behind it.",
+        "logistics": "Based on Tarraco, with arms from New Carthage.",
+        "decision": "Attacked the ridge with light troops and sent the two halves of his army round the flanks.",
+        "outcome": "Won the battle and the Spanish peoples, but Hasdrubal escaped toward Italy."
+      },
+      {
+        "name": "Hasdrubal Barca",
+        "objective": "Fight on strong ground, and if beaten keep his army and treasury for a march to Italy.",
+        "known": "His Spanish allies were deserting to Scipio and the other Carthaginian generals were estranged from him.",
+        "uncertainty": "Whether the Romans would dare attack his position.",
+        "constraints": "A shrinking army, unreliable allies and colleagues too far away to help.",
+        "forces": "His Carthaginian army, a covering force on the ridge, elephants and a war-chest.",
+        "terrain": "A level space below a ridge, with a river at his back.",
+        "logistics": "The war-chest, which he secured before the battle.",
+        "decision": "Broke off the fight once his army was outflanked and withdrew toward the Pyrenees.",
+        "outcome": "Lost the battle and his camp but kept the core of his army and marched for Italy."
+      }
+    ]
+  },
+  {
+    "slug": "metaurus",
+    "sources": [
+      {
+        "title": "Polybius, Histories, Book 11 (Loeb translation by W. R. Paton)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/11%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Livy, History of Rome, Book 27 (trans. Canon Roberts, 1905)",
+        "url": "https://en.wikisource.org/wiki/From_the_Founding_of_the_City/Book_27",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Appian, The War against Hannibal 11 (trans. Horace White)",
+        "url": "https://www.livius.org/sources/content/appian/appian-war-against-hannibal/appian-war-against-hannibal-11/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "“Metaurus”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Metaurus",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“Hasdrubal”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hasdrubal",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“Hannibal”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hannibal_(general)",
+        "publisher": "Wikisource"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Baecula Hasdrubal Barca slipped past Scipio by the western end of the Pyrenees, marched through Gaul and crossed the Alps into Italy in 207 BCE. Polybius and Livy both say his crossing was far easier and quicker than his brother's; Livy says the Arverni and other Gallic and Alpine peoples received him in friendship. Livy also says Hannibal, remembering his own five months of struggle, did not expect him so soon and left his winter quarters too late.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 4
+          },
+          {
+            "source": 0,
+            "locator": "11.1"
+          },
+          {
+            "source": 1,
+            "locator": "27.39"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The two brothers together in Italy were Rome's worst fear: Livy describes the city as alarmed as when Hannibal's camp had stood in sight of its walls, and Polybius says Rome had never been so excited and dismayed. The consuls had divided the work, Marcus Livius in the north against Hasdrubal and Gaius Claudius Nero in the south against Hannibal, each to keep his enemy in his own province. Appian calls Hasdrubal's army the addition without which Hannibal could never have been conquered, if he had received it.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "27.39, 27.44"
+          },
+          {
+            "source": 0,
+            "locator": "11.1"
+          },
+          {
+            "source": 2,
+            "locator": "52"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Hasdrubal meant to join his brother; his letters, Livy says, proposed a meeting in Umbria. When the letters were captured, Nero resolved to take part of his army north in secret, join Livius and destroy Hasdrubal before the brothers met, and asked the senate to block the road at Narnia.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "27.43"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Livius was camped near Sena on the Adriatic coast, close to Hasdrubal. Hasdrubal, retreating by night, lost his way along the river Metaurus, which Appian describes as unfordable, among marshes and pools. At the battle a hill in front of the Gauls on Hasdrubal's left kept the Roman right from attacking. The 1911 Britannica says the exact site is uncertain: tradition places it between Fossombrone and the Furlo Pass, but it probably lay nearer the coast.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "27.46–48"
+          },
+          {
+            "source": 2,
+            "locator": "52"
+          },
+          {
+            "source": 0,
+            "locator": "11.1"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Two consuls and a praetor, Lucius Porcius Licinus, commanded together on the Roman side, Nero on the right, Livius on the left and Porcius in the centre. Nero had brought a picked force of Roman and allied soldiers, joined on the march by veterans and young volunteers. Hasdrubal had Spaniards, whom he trusted most, Gauls, Ligurians and elephants. No figures for the armies are given here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "27.43, 27.46, 27.48"
+          },
+          {
+            "source": 0,
+            "locator": "11.1"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Nero's men entered Livius's camp by night and were taken into the tents by men of their own rank, so that the camp did not grow. Next day Hasdrubal, drawn up for battle, noticed worn shields and lean horses in the Roman ranks; his patrols found the camps no bigger, but heard the trumpet sound twice in the consul's camp. Concluding that both consuls were there, he withdrew into camp.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "27.46–47"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Nero left most of his army facing Hannibal, gave out that he was marching on a town in Lucania, and turned north by night, sending ahead for food and transport along the road. After his arrival Hasdrubal put out his fires and marched away in the night; his guides slipped off and his column lost its way along the river. Nero's cavalry and Porcius's light troops caught it, and Livius came up with the legions ready for battle. Hasdrubal put his elephants in front, deepened his line and attacked the Roman left. Nero, unable to cross the hill before him, led troops from the right behind the Roman line and fell on the Carthaginian flank and rear. Hasdrubal was killed.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "27.43, 27.47–49"
+          },
+          {
+            "source": 0,
+            "locator": "11.1–2"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Nero's decision was the war's boldest by a Roman: Livy says he saw that the rule confining each consul to his province would not serve the state, and that his march was debated at Rome as rash or brilliant. Livius hid his colleague's arrival. Hasdrubal read the signs correctly but chose a night retreat that left his army strung out and lost. In the battle, Polybius says, Nero's inaction on the right suggested what to do: he took his men round to the other wing.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "27.43–44, 27.46–47"
+          },
+          {
+            "source": 0,
+            "locator": "11.1"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Until Nero arrived on the flank the fight on the Roman left was even, and the maddened elephants did harm to both sides. Once his troops struck the Spaniards from behind, Polybius says, the battle became unequal. Livy says more elephants were killed by their own drivers, with a chisel driven in behind the head, than by the enemy.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "11.1"
+          },
+          {
+            "source": 1,
+            "locator": "27.48–49"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Hasdrubal's army was destroyed and he died in the fighting; Polybius and Livy both praise the manner of his death. The Romans plundered the camp and, Polybius says, killed many Gauls they found drunk and asleep. Rome, which at first could not believe the news, decreed three days of thanksgiving.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "11.2–3"
+          },
+          {
+            "source": 1,
+            "locator": "27.49–51"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Nero marched back to his own front, had Hasdrubal's head thrown before Hannibal's outposts and showed him African prisoners in chains. Livy reports that Hannibal is said to have recognised the fate awaiting Carthage, and that he then withdrew into Bruttium, giving up the rest of Italy. The 1911 Britannica says the hope of recovering his position in Italy was lost with his brothers' failures. The Metaurus decided the war away from Hannibal, without his being able to fight.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "27.50–51"
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A commander holding a central position can defeat enemies in turn only if he knows where they are and dares to leave his own task; Nero had the captured letters and took the risk. Livy observes that Rome waited for the result before judging his march, which he calls a most unfair way of judging. The danger was real: Hannibal, Livy says, did not know where Nero and his men had gone. Hasdrubal shows the opposite skill, reading worn shields and a doubled trumpet call, and how little it helps when the decision that follows goes wrong.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "27.43–44, 27.47"
+          },
+          {
+            "source": 0,
+            "locator": "11.1"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Polybius's account survives only as a fragment, beginning in the middle of the battle and followed by his eulogy of Hasdrubal; Nero's march, the intercepted letters and Hasdrubal's night retreat come from Livy. Appian tells a different, shorter story: the consuls learn of the letters, combine and camp near Sena, and Hasdrubal, lost at night, is caught scattered at daybreak, with no march by Nero. Appian also sees a god's compensation for Cannae. The site is uncertain. Livy's reported words of Hannibal are hearsay by Livy's own account. The ancient casualty figures are not repeated here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "11.1–3"
+          },
+          {
+            "source": 1,
+            "locator": "27.43–51"
+          },
+          {
+            "source": 2,
+            "locator": "52–53"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Polybius 11.1–3, in Paton's Loeb translation on LacusCurtius, is a fragment on the battle and Hasdrubal; Livy 27.39 and 27.43–51, in Roberts's translation on Wikisource, is the full narrative; Appian's War against Hannibal 52–54, in White's translation on Livius, is a shorter later version. The 1911 Britannica articles on the Metaurus, on Hasdrubal and on Hannibal give the site and the outline.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Hasdrubal in Italy",
+        "time": "207 BCE",
+        "description": "Hasdrubal crosses the Alps faster than expected and moves south toward his brother."
+      },
+      {
+        "title": "The captured letters",
+        "time": "Before the battle",
+        "description": "Hasdrubal's messengers to Hannibal are taken; Nero reads the plan to meet in Umbria."
+      },
+      {
+        "title": "Nero's march",
+        "time": "Days before the battle",
+        "description": "Nero takes picked troops north by night and enters Livius's camp unseen."
+      },
+      {
+        "title": "The night retreat",
+        "time": "The night before",
+        "description": "Hasdrubal suspects both consuls are present, withdraws and loses his way along the Metaurus."
+      },
+      {
+        "title": "Battle on the Metaurus",
+        "time": "Day of battle",
+        "description": "Hasdrubal attacks the Roman left; Nero swings round from the right and takes him in flank and rear."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Gaius Claudius Nero",
+        "objective": "Destroy Hasdrubal before he could join Hannibal.",
+        "known": "From the captured letters, where Hasdrubal meant to meet his brother.",
+        "uncertainty": "Whether Hannibal would discover his absence and attack the camp he had left.",
+        "constraints": "The rule confining each consul to his province, and the risk to the army left facing Hannibal.",
+        "forces": "A picked force of Roman and allied infantry and cavalry, swelled by volunteers.",
+        "terrain": "The length of Italy to cross, then broken ground by the Metaurus.",
+        "logistics": "Food and transport ordered ahead from the districts along his road.",
+        "decision": "Marched north in secret, joined his colleague and in the battle led troops round to the decisive flank.",
+        "outcome": "Hasdrubal's army was destroyed; Nero was back facing Hannibal within days."
+      },
+      {
+        "name": "Hasdrubal Barca",
+        "objective": "Join his brother in central Italy.",
+        "known": "Signs that a second consul had arrived: worn shields, lean horses and a doubled trumpet call.",
+        "uncertainty": "Whether his letters had reached Hannibal, and how one consul had got away from him.",
+        "constraints": "A strange country, guides who deserted him, and unreliable Gallic allies.",
+        "forces": "Spaniards, Gauls and Ligurians, with elephants.",
+        "terrain": "Marshy ground along a river he could not find a way across.",
+        "logistics": "An army on the march, far from any base.",
+        "decision": "Withdrew by night, then, caught, fought with a narrow, deep line against the Roman left.",
+        "outcome": "His army was destroyed and he was killed."
+      }
+    ]
+  },
+  {
+    "slug": "ilipa",
+    "sources": [
+      {
+        "title": "Polybius, Histories, Book 11 (Loeb translation by W. R. Paton)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/11%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Livy, History of Rome, Book 28 (trans. Canon Roberts, 1905)",
+        "url": "https://en.wikisource.org/wiki/From_the_Founding_of_the_City/Book_28",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Appian, The Spanish Wars 5 (trans. Horace White)",
+        "url": "https://www.livius.org/sources/content/appian/appian-the-spanish-wars/appian-the-spanish-wars-5/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Appian, The Spanish Wars 6 (trans. Horace White)",
+        "url": "https://www.livius.org/sources/content/appian/appian-the-spanish-wars/appian-the-spanish-wars-6/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "“Scipio”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Scipio",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“Punic Wars”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Punic_Wars",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“Roman Army”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Roman_Army",
+        "publisher": "Wikisource"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "With Hasdrubal Barca gone to Italy, Hasdrubal the son of Gisco gathered the Carthaginian forces from their winter quarters and camped near the town of Ilipa, which Livy calls Silpia; Mago and the Numidian prince Masinissa commanded the cavalry. The 1911 Britannica calls it a last Carthaginian effort to recover what had been lost in Spain.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "11.20–21"
+          },
+          {
+            "source": 1,
+            "locator": "28.12"
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Scipio faced the problem that had destroyed his father and uncle. Without his Spanish allies he was too weak to risk battle, and it was too dangerous to rely on them in a decisive one. Polybius and Livy both say he decided to use them for show and leave the fighting to his legions. Livy sets the moment beside Hannibal's position in Italy, where the Romans now let him be in Bruttium.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "11.20"
+          },
+          {
+            "source": 1,
+            "locator": "28.12–13"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Hasdrubal sought a decisive battle on ground he had chosen, with a level space in front of his camp. Scipio wanted the same battle, but on terms that would put his best troops against the enemy's weakest.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "11.20, 11.24"
+          },
+          {
+            "source": 1,
+            "locator": "28.14"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Hasdrubal entrenched under hills with a level plain before him; Scipio camped on low hills opposite, and for days the armies formed up on the plain between. Polybius and Livy both bring Scipio past Castulo and Baecula on his way. The 1911 Britannica places Ilipa near Corduba; the exact site is not settled by the sources read.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "11.20–21"
+          },
+          {
+            "source": 1,
+            "locator": "28.13"
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "On the Carthaginian side Hasdrubal commanded, with Mago and Masinissa leading the horse; his Libyans, the best of his troops, stood in the centre, with Spaniards on the wings and elephants before them. Scipio had his Roman and Latin legions and Spanish allies, some raised by a chief Polybius calls Colichas, with Marcus Junius Silanus and Lucius Marcius under him. No figures are given here: those in Polybius and Livy differ and are not repeated.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "11.20–23"
+          },
+          {
+            "source": 1,
+            "locator": "28.13–15"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "As the Romans made camp Mago and Masinissa charged them, expecting to catch them off guard, but Scipio had hidden cavalry under a hill and drove them off. For several days afterward both armies drew up late in the day in the same order, Romans facing Libyans in the centre and Spaniards on the wings, and skirmished without a decision.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "11.21–22"
+          },
+          {
+            "source": 1,
+            "locator": "28.13–14"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On the chosen day Scipio had his men fed and armed before dawn, sent his cavalry and light infantry against the Carthaginian camp at first light, and formed his line in the plain with the Spaniards in the centre and the Romans on the wings. Hasdrubal had to send out his horse and form his infantry in its usual order, his men unfed. After a long skirmish Scipio took his light troops behind his wings and advanced; at a distance he led the wings outward and then forward against the enemy's flanks, while the Spaniards in the centre came on slowly. The Carthaginian wings broke, the elephants did harm to both sides, and the Libyans in the centre could neither help nor fight. A storm stopped the Romans at the enemy's camp.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "11.22–24"
+          },
+          {
+            "source": 1,
+            "locator": "28.14–15"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Scipio reversed both the hour and the order he had shown for days, so that the enemy formed by habit and found his best troops on the wrong part of the field. Livy says he deliberately delayed the main attack until the seventh hour so that hunger, thirst and heat would wear down the Carthaginians. He used his doubtful allies to hold the enemy centre in place without fighting. Polybius notes that the wheeling movement left his wings in an unusual order and says Scipio rightly cared only about outflanking the enemy.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "11.22–23"
+          },
+          {
+            "source": 1,
+            "locator": "28.14–15"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The battle was decided on the wings, where the Romans met the weakest of the enemy, while the Libyans, the best troops on the field, stood unused because the Spaniards opposite them would not close. By the heat of the day the unfed Carthaginians gave way.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "11.24"
+          },
+          {
+            "source": 1,
+            "locator": "28.15"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Hasdrubal's army fled to its camp, saved that day by the storm. In the night his Spanish allies began to desert, Livy says, starting with Attenes of the Turdetani. Hasdrubal withdrew; Scipio pursued and caught his column, and Hasdrubal fled to the hills with part of his army and then by sea, leaving it to its fate. Mago sailed to Gades.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "11.24"
+          },
+          {
+            "source": 1,
+            "locator": "28.15–16"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The 1911 Britannica says the victory drove the Carthaginians out of Spain by the end of 206. Livy says Masinissa came to a secret understanding with Silanus soon after. Polybius has Scipio say that until then Carthage had made war on Rome, and now Rome could make war on Carthage; Scipio then visited Syphax in Africa. The road to Zama began here.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 5
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 1,
+            "locator": "28.16"
+          },
+          {
+            "source": 0,
+            "locator": "11.24a"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A commander can teach the enemy a pattern and then break it on the day that matters, but only with an army disciplined enough to execute an unfamiliar movement under pressure. A fed army against a hungry one decided Ilipa as it had decided the Trebia against Rome twelve years earlier; that comparison is this study's, not Polybius's or Livy's. Allies who cannot be trusted to fight can still be given a part that does not need it.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "11.20–24"
+          },
+          {
+            "source": 1,
+            "locator": "28.14–15"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The town is Ilipa in Polybius and Silpia in Livy, and the site is disputed. Appian has no battle by either name: his battle at Carmo, which a Livius note identifies with Baecula, has Mago and Masinissa attacking Scipio's camp and an enemy forced to fight before eating, which matches Polybius's Ilipa, and adds a scene of Scipio running alone between the lines that neither Polybius nor Livy has. The 1911 Britannica article on the Roman army cites Ilipa as the case where Scipio put his Spaniards in the centre and attacked with both wings. Livy puts the attack on the wings at the seventh hour; Polybius says only that the Carthaginians tired in the heat of the day.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "11.20–24"
+          },
+          {
+            "source": 1,
+            "locator": "28.12, 28.15"
+          },
+          {
+            "source": 2,
+            "locator": "25"
+          },
+          {
+            "source": 3,
+            "locator": "26–27"
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Polybius 11.20–24a, in Paton's Loeb translation on LacusCurtius, is the main narrative; Livy 28.12–16, in Roberts's translation on Wikisource, follows it with details of the pursuit; Appian's Spanish Wars 25–28, in White's translation on Livius, gives a version under another name. The 1911 Britannica articles on Scipio, the Punic Wars and the Roman army give the setting and a tactical summary.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "The camp attacked",
+        "time": "206 BCE, on arrival",
+        "description": "Mago and Masinissa charge the Romans making camp; hidden Roman cavalry drives them off."
+      },
+      {
+        "title": "Days of display",
+        "time": "The following days",
+        "description": "Both armies form late in the same order each day and skirmish without a decision."
+      },
+      {
+        "title": "The reversed line",
+        "time": "Battle day, dawn",
+        "description": "Scipio attacks early with fed troops and forms Spaniards in the centre, Romans on the wings."
+      },
+      {
+        "title": "The wings",
+        "time": "Later in the day",
+        "description": "Roman wings wheel onto the Carthaginian flanks; the Libyans in the centre stand idle."
+      },
+      {
+        "title": "Rain, desertion and pursuit",
+        "time": "That night and after",
+        "description": "A storm saves the camp; allies desert, Hasdrubal flees and the army breaks up."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Publius Cornelius Scipio (Africanus)",
+        "objective": "Destroy the last Carthaginian field army in Spain.",
+        "known": "The enemy's habit of forming late with Libyans in the centre and elephants before the wings.",
+        "uncertainty": "Whether his Spanish allies would hold, or turn as his father's had.",
+        "constraints": "Too few Roman troops to fight alone, and allies he could not trust in the decisive fight.",
+        "forces": "Roman and Latin legions, Spanish allies, cavalry and light infantry.",
+        "terrain": "A plain between two lines of hills, with the enemy camp under the far slope.",
+        "logistics": "Supplied from Tarraco and the friendly peoples on his march.",
+        "decision": "Attacked early with fed troops, reversed his order and wheeled his Roman wings onto the enemy's flanks.",
+        "outcome": "Broke the Carthaginian army, which deserted and dispersed; Spain was lost to Carthage."
+      },
+      {
+        "name": "Hasdrubal, son of Gisco",
+        "objective": "Win a decisive battle on ground he had chosen and hold Spain for Carthage.",
+        "known": "The Romans had copied his order of battle for days.",
+        "uncertainty": "Whether his Spanish troops and allies would stand.",
+        "constraints": "Raw Spanish levies, wavering allies and an army that formed by routine.",
+        "forces": "Libyan veterans in the centre, Spaniards on the wings, elephants, and Mago's and Masinissa's cavalry.",
+        "terrain": "His camp under the hills with a level plain before it.",
+        "logistics": "His camp, later defended with stones from the valleys; no relief in reach.",
+        "decision": "Formed his army in its usual order when surprised, without time to feed it.",
+        "outcome": "His wings were broken and his allies deserted; he fled by sea."
       }
     ]
   },

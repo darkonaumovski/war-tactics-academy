@@ -1842,3 +1842,29 @@ Sites: the Ticinus is placed west of Pavia and the Metaurus near Fano, each mark
 Sayings and stories: the praetor's announcement after Trasimene is quoted as Polybius and Livy give it; Scipio's Neptune and the ebb, the captive girl at New Carthage (Polybius: returned to her father; Livy: to her betrothed Aluccius), the title of king refused after Baecula, and Hannibal's reported words after the Metaurus (hearsay in Livy) are given with their reporters. Speeches are treated as the historians' compositions.
 
 Choices: no army, casualty or elephant figures are given, and each study says which it leaves out. The narrative of `hannibal-s-italian-campaign` lost its figures in the same commit: the inscription's troop numbers, the dead at Trasimene and Cannae, the armies Rome raised and Livy's variants are now described without numbers. The human cost is stated: the Taurini put to death (Appian), the Romans killed by their Gaulish auxiliaries after the Ticinus, the men drowned at the Trebia and Trasimene, the killing of the inhabitants of New Carthage by Roman custom (Polybius) and the enslavement of its craftsmen, the Africans sold after Baecula, and the Gauls killed asleep after the Metaurus. Every page opened in the browser at the linked address; no scripted link check was run.
+
+## Leadership Lessons from Hannibal and Scipio, batch H1: the pilot (20 November 2026)
+
+The pilot of Volume 7 under `docs/LEADERSHIP_HANNIBAL_SCIPIO_PROMPT.md`: lesson 0, `how-to-read-the-hannibalic-war` (the record), lesson 5, `the-delayer` (Rome's answer) and lesson 7, `learning-from-the-enemy` (Scipio in Spain). The volume is listed as in progress at `/leadership/hannibal-barca/`, and Scipio's profile leads to it. Counter-cases: Caesar, Pompey, and Hasdrubal son of Gisco (not profiled). Classical texts were read in the built-in browser, chapter by chapter.
+
+Sources read:
+
+- Polybius (W. R. Paton, Loeb, on LacusCurtius): 3.8–9, 3.11–12, 3.20 with the Loeb note on Sosylus, 3.33, 3.47–48, 3.54–55, 3.70, 3.72, 3.82, 3.89–90, 3.105, 3.118; 10.2–3, 10.6–15, 10.20 (its opening), 10.38–39; 11.19, 11.20–24; 15.15.
+- Livy (Canon Roberts, 1905, on Wikisource): 21.1, 21.4, 21.37–38; 22.7, 22.12, 22.58, 22.61; 26.45, 26.49; 27.9–10, 27.20, 27.43–44; 28.13–16; 30.26, 30.35; 38.56.
+- Plutarch (Loeb, on LacusCurtius): _Fabius Maximus_ 5 and 25–26; _Pompey_ 66–67.
+- Suetonius, _Julius_ 56 (J. C. Rolfe, Loeb, on LacusCurtius).
+- Appian, _Spanish Wars_ 26–27 (Horace White, on Livius).
+- Cicero, _Cato maior de senectute_ 10, in Latin on Latin Wikisource.
+- The 1911 Britannica on Wikisource: "Polybius" (his friendship with Scipio Aemilianus), "Punic Wars" (its verdict on the second war, its bibliography on Livy's sources and its account of the third war), "Scipio".
+- Psychology: Taylor, Russ-Eft and Chan (2005), a meta-analysis of behaviour-modelling training, PubMed abstract only.
+
+Sayings and stories: the oath is given through Hannibal's own telling to Antiochus (Polybius) and as "a story widely current" (Livy); the vinegar only as Livy's, set against Polybius's built-up path; the Ennius verse with Livy and Cicero as reporters; the praetor's announcement is not used. No banned saying appears. Speeches in Polybius and Livy, including Scipio's on crossing the Ebro, are called compositions.
+
+What the batch changed in the evidence pass:
+
+- Lesson 5's counter-case is Pompey before Pharsalus, not Barclay de Tolly, because the Wellington volume's `the-only-army` already uses Barclay for the same point; Plutarch, _Pompey_ 66–67, gives the plan of delay and the followers' contempt that forced it. Lesson 10 will therefore need another counter-case than Pompey.
+- Lesson 7's counter-case is Hasdrubal son of Gisco at Ilipa, who learned Scipio's routine and was deceived by it (Polybius 11.22; Livy 28.14). He has no profile, so the counter-case names no commander.
+- The claim that Scipio learned from Hannibal is presented, as the evidence pass required, as the reader's inference, with the Trebia and Ilipa side by side and the 1911 Britannica's statement that Scipio was present at the Ticinus, the Trebia and Cannae.
+- Two details drafted from memory were removed in the source check: that Minucius was given an equal share of Fabius's command (Polybius 3.103, not read) and that the dictatorship lasted six months.
+
+Choices: no casualty or army figures; the Latin colonies are described as twelve of thirty, a count of communities, not of people. Every page opened in the browser at the linked address; no scripted link check was run.

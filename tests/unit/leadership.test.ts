@@ -101,6 +101,7 @@ describe("leadership volumes", () => {
       "douglas-haig",
       "arthur-wellesley",
       "julius-caesar",
+      "hannibal-barca",
     ]);
     for (const x of leadershipVolumes) {
       leadershipVolumeSchema.parse(x);
@@ -298,24 +299,18 @@ describe("the Caesar volume", () => {
 });
 
 describe("the Hannibal and Scipio volume", () => {
-  it("stays unlisted and empty until its pilot ships", () => {
-    leadershipVolumeSchema.parse(hannibalScipioVolume);
-    for (const slug of [
-      hannibalScipioVolume.commanderSlug,
-      ...(hannibalScipioVolume.alsoCommanderSlugs ?? []),
-    ])
-      expect(
-        commanders.some((c) => c.slug === slug),
-        slug,
-      ).toBe(true);
-    expect(hannibalScipioVolume.alsoCommanderSlugs).toEqual([
-      "scipio-africanus",
-    ]);
+  it("is found from both commanders' profiles", () => {
+    expect(volumeForCommander("hannibal-barca")).toBe(hannibalScipioVolume);
+    expect(volumeForCommander("scipio-africanus")).toBe(hannibalScipioVolume);
+  });
+
+  it("lists its pilot lessons in curriculum order", () => {
     expect(hannibalScipioVolume.inProgress).toBeTruthy();
-    expect(hannibalScipioVolume.lessons).toEqual([]);
-    expect(leadershipVolumes).not.toContain(hannibalScipioVolume);
-    expect(volumeForCommander("hannibal-barca")).toBeUndefined();
-    expect(volumeForCommander("scipio-africanus")).toBeUndefined();
+    expect(hannibalScipioVolume.lessons.map((l) => l.slug)).toEqual([
+      "how-to-read-the-hannibalic-war",
+      "the-delayer",
+      "learning-from-the-enemy",
+    ]);
   });
 });
 
@@ -394,6 +389,7 @@ describe("links from the rest of the site", () => {
     expect(lessonsForBattle("cannae").map((x) => x.lesson.slug)).toEqual([
       "parmenions-advice",
       "celeritas",
+      "the-delayer",
     ]);
     expect(
       lessonsForBattle("granicus").map((x) => x.volume.commanderSlug),

@@ -93,6 +93,8 @@ Grades: **strong** means the lesson's main claims and its counter-evidence are i
 28. **Figures throughout.** The ancient numbers for the armies, the Alps, the elephants, Cannae, Trasimene, Zama, the Latin colonies, the ransom and the booty are left out.
 29. **The modern reference denies what Polybius asserts.** The 1911 Britannica's "Punic Wars" says Hannibal's failure was not due to any strategic mistake but to Roman will and the compactness of the Italian confederacy, "individual genius overborne by corporate and persevering effort"; Polybius 11.19 says he began with the enemy he should have left to last. The two are the candidate answers "Hannibal's strategy" and "Rome's system" in their sharpest form, and the orientation and the ledger set them side by side.
 30. **Polybius's closeness to the Scipios is confirmed** by the 1911 Britannica's "Polybius": the lifelong friend of Scipio Aemilianus, the future conqueror of Carthage, who more than once paid for his researches. The orientation can say so with that source.
+31. **Lesson 5's counter-case is Pompey** (added in batch H1), because Barclay already serves the same point in `the-only-army`; lesson 10 needs another counter-case.
+32. **Lesson 7's counter-case is Hasdrubal son of Gisco at Ilipa** (added in batch H1), who learned Scipio's routine and was deceived by it.
 
 ## Psychology to read in the batches
 

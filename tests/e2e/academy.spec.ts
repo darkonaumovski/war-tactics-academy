@@ -622,6 +622,32 @@ test("the Caesar volume lists all its lessons", async ({ page }) => {
     /\/leadership\/julius-caesar\/the-reverse-explained\/$/,
   );
 });
+test("the Hannibal and Scipio volume opens with its pilot lessons", async ({
+  page,
+}) => {
+  await page.goto("/leadership/hannibal-barca");
+  await expect(
+    page.getByText(
+      "Why did the better tactician lose the war: Hannibal’s strategy, Rome’s system, Scipio’s command, or the record written by the winners?",
+      { exact: true },
+    ),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("heading", { name: "A volume in progress" }),
+  ).toBeVisible();
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(4);
+  await page.goto("/commanders/scipio-africanus");
+  await expect(
+    page.getByRole("link", {
+      name: /Leadership Lessons from Hannibal and Scipio/,
+    }),
+  ).toBeVisible();
+  await page.goto("/battles/ilipa");
+  await page.getByRole("link", { name: /Learning from the enemy/ }).click();
+  await expect(page).toHaveURL(
+    /\/leadership\/hannibal-barca\/learning-from-the-enemy\/$/,
+  );
+});
 test("the volumes are compared problem by problem", async ({ page }) => {
   await page.goto("/leadership");
   await page.getByRole("link", { name: /Compare the volumes/ }).click();

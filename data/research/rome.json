@@ -1072,6 +1072,648 @@
     ]
   },
   {
+    "slug": "bibracte",
+    "sources": [
+      {
+        "title": "Caesar, The Gallic War 1.1–29 (Loeb translation by H. J. Edwards)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Gallic_War/1A%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Plutarch, Life of Caesar (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Cassius Dio, Roman History, Book 38 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/38%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "“Helvetii”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Helvetii",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“Bibracte”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Bibracte",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Bibracte: the Gallic town on Mount Beuvray and its museum",
+        "url": "https://www.bibracte.fr/en",
+        "publisher": "Bibracte"
+      },
+      {
+        "title": "“Caesar, Gaius Julius”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Caesar,_Gaius_Julius",
+        "publisher": "Wikisource"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Caesar opens his Commentaries with the Helvetii, a people hemmed in by the Rhine, the Jura and the Lake of Geneva. Their noble Orgetorix persuaded them to leave their land in full force; when his bid for kingship was exposed he died before he could be tried, but the Helvetii went ahead. In 58 BCE they burned their towns, villages and spare corn and set out, with neighbouring peoples and the Boii, to settle in the west near the Santones. The easy road ran through the Roman Province by the bridge at Geneva. Caesar, newly in command of the Gallic provinces, hurried from Rome, broke the bridge and closed the Rhone crossings.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.2–8"
+          },
+          {
+            "source": 6
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Caesar presents the campaign as the defence of the Province. He recalls that within living memory the Helvetii had killed the consul Lucius Cassius and sent his army under the yoke, and argues that a warlike people near Tolosa would endanger a rich and unprotected district. Dio is less generous: Caesar's wish to be at war for the whole of his command was being granted, and he chose to drive the Helvetii back with Gallic help, fearing for Tolosa, before the tribes could come to terms with each other. The appeals of the Aedui, the Ambarri and the Allobroges, whose lands the migrants were plundering, gave him allies and a cause beyond the Province.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.7, 1.10–11"
+          },
+          {
+            "source": 2,
+            "locator": "38.31–32"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Caesar's first object was to keep the Helvetii out of the Province, and his second, once they were in the lands of Rome's allies, to stop the migration. The Helvetii wanted new land. After the defeat at the Saône their envoy Divico offered to settle wherever Caesar chose if he made peace; Caesar demanded hostages and satisfaction for the Aedui and the Allobroges, and Divico answered that the Helvetii were used to receiving hostages, not giving them.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.13–14"
+          },
+          {
+            "source": 2,
+            "locator": "38.32–33"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The migrants turned from the Rhone narrows through the land of the Sequani and the Aedui, crossed the Saône (the Arar), whose current Caesar calls beyond belief for slowness, and moved north. The battle takes its name from Bibracte, by Caesar's account the largest and best-provided town of the Aedui, toward which he had turned for corn and from which he was then less than a day's march. The 1911 Britannica places Bibracte on Mont Beuvray near Autun, where excavation had found a rampart, houses, a temple and metalworkers' shops; the museum at the foot of the mountain presents it as the Aeduan capital. The battle was fought on hills some distance from the town; the Loeb edition's map follows Colonel Stoffel, who found an entrenchment on the ground, and Colonel Bircher's placing of the troops.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.12, 1.23–26"
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Caesar commanded veteran legions, two newly raised in Nearer Gaul and cavalry levied in the Province and among the Aedui and their allies. Titus Labienus, his lieutenant, held the Rhone works and later led the flanking force before the battle. The Helvetii marched as a people, with families and carts; the Boii and Tulingi formed their rearguard, and Divico, who had commanded against Cassius, spoke for them. Inside Caesar's camp the Aeduan Dumnorix, brother of the loyal Diviciacus, was obstructing the corn supply and informing the enemy, according to the Aeduan magistrate Liscus. Caesar's figures for the migrants, which he says came from registers found in their camp, are not repeated.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.10, 1.13, 1.15–18, 1.24–25, 1.29"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "When the Helvetii turned to pursue him, Caesar withdrew to the nearest hill and sent his horse to delay them. He drew up the veteran legions in three lines halfway up the slope and posted the new legions and the auxiliaries on the summit, where the packs were gathered and entrenched. The Helvetii parked their carts in one place, threw back the Roman horse and came up the hill in a close mass. Dio describes the same sequence: the cavalry sent forward to buy time while Caesar formed on higher ground.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.24"
+          },
+          {
+            "source": 2,
+            "locator": "38.33"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Caesar fell on the canton still on the near bank of the Saône, bridged the river in a day and followed the main body. For about a fortnight the armies marched close together; after a cavalry reverse Caesar refused battle and was content to stop the migrants plundering. A planned dawn attack failed when Publius Considius, sent ahead with the scouts, reported that the height Labienus had been sent to seize was held by the enemy, when Labienus held it. Next day, with the corn ration due, Caesar turned for Bibracte and the Helvetii followed. The battle began after midday: a javelin volley broke the Helvetian mass, which fell back to a height; the Boii and Tulingi struck the Roman flank, and the third line turned to meet them. The fighting around the wagon laager went on far into the night. Plutarch adds that women and children died defending the wagons.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.12–13, 1.15, 1.21–26"
+          },
+          {
+            "source": 1,
+            "locator": "18"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Caesar bought time on the Rhone by asking the Helvetian envoys to come back on a fixed day and used it to build his entrenchment, then refused them passage; Dio says he held out hope of agreement while he made the road impassable. At the Saône he struck the part of the migration that had not crossed. After the cavalry reverse he followed without fighting. When the corn ran short he broke away toward Bibracte, which the Helvetii read as retreat. Attacked, he had his own horse and then every officer's sent out of sight, as he explains, to make the danger equal and remove hope of flight. Plutarch turns this into a saying: the horse would serve for the pursuit after victory.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.7–8, 1.12, 1.15, 1.23, 1.25"
+          },
+          {
+            "source": 2,
+            "locator": "38.31"
+          },
+          {
+            "source": 1,
+            "locator": "18"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "When the Boii and Tulingi came onto the Roman flank and the beaten Helvetii turned back from their height, Caesar's third line faced about while the first two held the front, so the two-sided fight did not become an envelopment. The storm of the wagon laager at night ended the migrants' resistance, and lack of every provision brought their envoys to Caesar a few days later.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.25–27"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The survivors marched night and day to the Lingones, whom Caesar forbade to help them. When the Helvetii surrendered he demanded hostages, arms and runaway slaves. A canton that slipped away toward the Rhine by night was brought back, and in Caesar's words treated as enemies. The rest were ordered home to rebuild the towns they had burned, with corn from the Allobroges, and the Aedui were allowed to settle the Boii among themselves.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.26–28"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Caesar gives his reason for sending the Helvetii home: he did not want their good land left empty for Germans from across the Rhine to occupy, beside the Province. Plutarch and the 1911 Britannica give the same reason. The Britannica continues that the Gallic chiefs then appealed to Caesar against the German king Ariovistus, whom he defeated that same year. The pattern of the Gallic command was set: an intervention on behalf of allies that ended in Roman control of their country.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.28"
+          },
+          {
+            "source": 1,
+            "locator": "18"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "An army that pursues beyond its supply hands the initiative to the pursued: Caesar's turn toward Bibracte, forced by the corn ration and the Aedui's delays, brought on the battle he had failed to force. A line formed on a slope before the attack arrives can absorb a surprise on the march. And a migration is not only an army: the families at the wagons were where the fighting lasted longest.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.16–20, 1.23–26"
+          },
+          {
+            "source": 1,
+            "locator": "18"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Caesar's narrative is the only full account, written by the commander for readers in Rome. Its figures for the migration, which he says were drawn from registers in Greek letters found in the Helvetian camp, are not used; Plutarch's differ. Plutarch credits the destruction of the Tigurini at the Saône to Labienus, where Caesar says he led the attack himself. Dio has Orgetorix lead the migration, where Caesar says he died before it began. Dio also makes Caesar deceive the envoys with hope; Caesar says only that he took time to consider. Caesar's phrase for the fate of the runaways leaves what happened to them unstated. The exact battlefield is a modern reconstruction.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.4, 1.12, 1.28–29"
+          },
+          {
+            "source": 1,
+            "locator": "18"
+          },
+          {
+            "source": 2,
+            "locator": "38.31–32"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Caesar's Gallic War 1, in H. J. Edwards's Loeb translation on LacusCurtius, is the main narrative. Plutarch's Life of Caesar and Cassius Dio's Book 38, also in Loeb translations on LacusCurtius, are later Greek retellings that differ on the Saône and on Caesar's dealings with the envoys. The 1911 Britannica's articles on the Helvetii, on Bibracte and on Caesar give a modern frame, and the website of Bibracte presents the Aeduan town on Mount Beuvray and its museum.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "The Rhone closed",
+        "time": "58 BCE · at Geneva",
+        "description": "Caesar breaks the bridge and entrenches the river; the Helvetii turn north through the land of the Sequani."
+      },
+      {
+        "title": "The Saône",
+        "time": "58 BCE · the crossing",
+        "description": "Caesar destroys the canton left on the near bank and bridges the river in a day."
+      },
+      {
+        "title": "The pursuit",
+        "time": "About a fortnight",
+        "description": "The armies march close together; a cavalry reverse, the Aedui's delays over corn and Considius's false report."
+      },
+      {
+        "title": "Battle on the hill",
+        "time": "The day after the turn toward Bibracte, from early afternoon",
+        "description": "A javelin volley breaks the Helvetian mass; the Boii and Tulingi strike the flank and the third line turns to meet them."
+      },
+      {
+        "title": "The wagons and the surrender",
+        "time": "That night and the days after",
+        "description": "The laager is stormed in the dark; the survivors surrender for lack of food and are sent home."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Gaius Julius Caesar",
+        "objective": "Keep the Helvetii out of the Province and, once they were in the lands of Rome's allies, stop the migration.",
+        "known": "Their route, their crossing of the Saône and, from his allies, their plundering of the Aedui, the Ambarri and the Allobroges.",
+        "uncertainty": "The ground ahead, the loyalty of the Aedui who were to feed his army, and the reliability of reports such as Considius's.",
+        "constraints": "The corn ration falling due, Aeduan delays and a cavalry arm already beaten once.",
+        "forces": "Veteran legions, two new legions and auxiliaries, with Gallic cavalry from the Province and the Aedui.",
+        "terrain": "A hill he reached before the attack, with a summit where the packs could be entrenched.",
+        "logistics": "Corn brought up the Saône by boat, which he lost touch with when the Helvetii left the river, and the stores of Bibracte.",
+        "decision": "He turned for Bibracte to feed his army and, attacked on the march, fought on the slope with the horses sent away.",
+        "outcome": "He defeated the Helvetii, took their surrender and sent them home."
+      },
+      {
+        "name": "The Helvetii and their allies",
+        "objective": "Reach new land in western Gaul, near the Santones.",
+        "known": "That the Romans had followed them for days without fighting, that Caesar's cavalry had been beaten, and, from deserters, that he had turned away toward Bibracte.",
+        "uncertainty": "Whether Caesar was retreating in fear, as Caesar supposes they believed, or could be cut off from his corn.",
+        "constraints": "A column of families and carts that could not outrun a Roman army, with its rearguard far behind.",
+        "forces": "The fighting men of the migrating peoples, with the Boii and Tulingi in the rear.",
+        "terrain": "An uphill attack against legions already formed.",
+        "logistics": "What they carried; by the end they had lost their produce and had nothing at home to return to.",
+        "decision": "They changed their route and attacked Caesar on the march.",
+        "outcome": "Beaten after fighting into the night, they surrendered and were sent home."
+      }
+    ]
+  },
+  {
+    "slug": "sabis",
+    "sources": [
+      {
+        "title": "Caesar, The Gallic War, Book 2 (Loeb translation by H. J. Edwards)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Gallic_War/2%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Sabis (57 BCE), with Caesar, Gallic War 2.16–28 (trans. Anne and Peter Wiseman)",
+        "url": "https://www.livius.org/articles/battle/sabis-57-bce/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "Plutarch, Life of Caesar (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Cassius Dio, Roman History, Book 39 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/39%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "“Caesar, Gaius Julius”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Caesar,_Gaius_Julius",
+        "publisher": "Wikisource"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After the campaigns of 58 against the Helvetii and Ariovistus, the Belgae of north-western Gaul formed a league against Rome; only the Remi stayed friendly and warned Caesar. In the spring of 57 he marched north, checked the Belgic army at the Aisne and watched it break up as it went home, short of food and alarmed by an Aeduan invasion of its lands. The Nervii, with the Atrebates and the Viromandui, stayed in arms. After three days' march through the land of the Ambiani, prisoners told Caesar that they were waiting beyond the river Sabis, that the Atuatuci were on the way, and that their families had been sent into the marshes.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 4
+          },
+          {
+            "source": 3,
+            "locator": "39.1–2"
+          },
+          {
+            "source": 0,
+            "locator": "2.16"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The 1911 Britannica says Caesar marched to anticipate a Belgic offensive he understood to be in preparation; Dio says the Belgae, seeing his success, feared that he would come for them next. Either way the war of 57 carried the Gallic command from the defence of the Province, its claim in 58, into the conquest of northern Gaul. Caesar ends his account with praise of the Nervii's courage, which also magnified his victory for readers in Rome.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 4
+          },
+          {
+            "source": 3,
+            "locator": "39.1"
+          },
+          {
+            "source": 0,
+            "locator": "2.27"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Caesar meant to bring the Nervii to battle and end resistance in the north. The Nervii meant to destroy his army piece by piece: Belgic informers who had marched with the Romans told them that each legion was separated by a long baggage train, so the first legion could be attacked at the camp while the rest were far behind. The sight of the baggage was to be their signal.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.17, 2.19"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Caesar's camp was marked out on a hill sloping evenly down to the river. Opposite rose a matching slope, open near the water and so thickly wooded higher up that the enemy could hide in it; the river was about three feet deep. The Nervii, who had almost no cavalry, grew hedges of bent saplings and brambles against raiding horsemen, and these blocked the view across the field. The plan in the Loeb edition, after Colonel Stoffel, and the 1911 Britannica put the battle on the Sambre; the Livius article holds, citing Pierre Turquin's study of 1955, that it was the Selle, and places the Roman slope west of Saulzoir.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.17–18, 2.22"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Caesar marched with his legions, cavalry, slingers, archers and Numidians, the two newest legions guarding the baggage; Labienus and the legates commanded under him. Treveran horsemen served as auxiliaries. The Nervii relied on infantry and fought under Boduognatus, their commander-in-chief, with the Atrebates and the Viromandui beside them; the Atuatuci had not yet arrived. The figures the Nervian envoys later gave are not repeated.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.16–17, 2.19, 2.23–24"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Because he was approaching the enemy, Caesar followed his usual practice and changed the order of march: the legions in light order went first, the baggage of the whole army behind them, and the two recently raised legions at the rear. The cavalry, slingers and archers crossed the river and skirmished with the enemy's horse, which kept withdrawing into the wood. The leading legions marked out the camp and set to work.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.19"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "When the head of the baggage train came in sight, the Nervii broke from the wood, scattered the cavalry and crossed the river so fast that they seemed at the wood's edge, in the river and on the Romans at once. With no time to form, the soldiers fell in wherever they stood. On the left the Ninth and Tenth drove the Atrebates into the river and pursued them across it; in the centre the Eleventh and Eighth broke the Viromandui and fought on the banks. That left the front of the camp and the Twelfth and Seventh on the right exposed, and the Nervii, in a dense column under Boduognatus, enveloped the right and entered the camp. Cavalry, sutlers and the Treveri fled. Caesar went to the right, then had the two legions there close together. The rear legions appeared on the crest, and Labienus, who had taken the Nervian camp, sent the Tenth back. The Nervii fought on from the heaps of their dead until they were cut down.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.19–27"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "By Caesar's account two orders given before the attack saved the army: the changed order of march, and the instruction that every legate stay with his legion until the camp was fortified, so that the legates acted without waiting for him. In the crisis he took a shield from a soldier in the rear, went into the front line, called on the centurions by name and ordered the ranks opened so the men could use their swords; he then told the tribunes to join the two hard-pressed legions so that they could face in any direction. He says he gave only the essential orders and that there was time for few of the rest.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.19–21, 2.25–26"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The return of the Tenth from the captured Nervian camp, sent by Labienus when he saw the Roman camp from the higher ground, and the arrival of the rear legions on the crest turned a half-lost camp into a victory. Caesar writes that even the wounded fought again, propped on their shields, and the sutlers attacked the enemy unarmed.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.26–27"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "20"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Nervii were all but destroyed as a fighting people. Their elders in the marshes surrendered, and Caesar, wishing to be seen to show mercy to suppliants, left them their land and towns and ordered their neighbours not to harm them.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.28"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The campaign went on against the Atuatuci, who submitted and were later sold into slavery for what the 1911 Britannica calls treachery, while Caesar's lieutenant Publius Crassus received the submission of other peoples; by the Britannica's account almost all Gaul except Aquitania acknowledged Roman supremacy by the year's end. The battle also fixed a picture of the army and its general: Plutarch makes Caesar's daring the reason his men fought beyond their strength.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 4
+          },
+          {
+            "source": 2,
+            "locator": "20"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Trained troops can act without orders when there is no time to give them; Caesar credits his soldiers' experience and his standing order to the legates. Reconnaissance was the weak point: informers in his own column betrayed his routine, and the cavalry screen could not see into the wood. A victorious wing that pursues across a river leaves the centre and the camp open.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.17, 2.20, 2.23"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Caesar's is the only detailed narrative, and the Livius article notes that he almost admits he was caught off guard. Plutarch has the Seventh and Twelfth surrounded and all their centurions killed, and says the Tenth ran down from the heights when it saw Caesar in danger. Dio, in a passage with a gap in the text, tells a different battle: the Nervii fled where Caesar was, while the larger part took his camp, and he turned back from the pursuit to surround them at their plunder. Lendering points out that the losses the Nervian envoys reported conflict with Caesar's own figures elsewhere and calls them an exaggeration; they are not repeated here. The river is disputed between the Sambre and the Selle.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "2.25–28"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2,
+            "locator": "20"
+          },
+          {
+            "source": 3,
+            "locator": "39.3"
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Caesar's Gallic War 2, in H. J. Edwards's Loeb translation on LacusCurtius, is the main narrative. The Livius article by Jona Lendering quotes Anne and Peter Wiseman's translation of the battle chapters and adds his own judgements and photographs of the Selle. Plutarch's Life of Caesar and Cassius Dio's Book 39, in Loeb translations on LacusCurtius, are later versions that differ from Caesar and from each other. The 1911 Britannica's article on Caesar sets the battle in the campaign of 57.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "March to the river",
+        "time": "57 BCE · three days through the Ambiani's land",
+        "description": "Prisoners report the Nervii and their allies waiting beyond the Sabis; Caesar changes his order of march."
+      },
+      {
+        "title": "The surprise",
+        "time": "As the baggage comes in sight",
+        "description": "The Nervii break from the wood, scatter the cavalry, cross the river and attack the legions at work on the camp."
+      },
+      {
+        "title": "Wings apart",
+        "time": "The first hour of fighting",
+        "description": "The left and centre win and pursue; the Nervii envelop the right and enter the camp."
+      },
+      {
+        "title": "The right wing",
+        "time": "Caesar in the front line",
+        "description": "Caesar fights in the line, opens the ranks and joins the two legions so they can face any way."
+      },
+      {
+        "title": "Relief",
+        "time": "The Tenth returns",
+        "description": "Labienus sends the Tenth back and the rear legions arrive; the Nervii are cut down where they stand."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Gaius Julius Caesar",
+        "objective": "Bring the Nervii and their allies to battle and end resistance in northern Gaul.",
+        "known": "From prisoners, that the Nervii waited beyond the Sabis with the Atrebates and Viromandui, that the Atuatuci were coming, and that their families were in the marshes.",
+        "uncertainty": "Where the main enemy force lay in the wood, and the fact that his marching routine had been betrayed.",
+        "constraints": "A fortified camp to build at the end of a march, with men scattered for timber and turf.",
+        "forces": "Legions in light order, two new legions with the baggage, and cavalry, slingers, archers and Numidians.",
+        "terrain": "A slope down to a shallow river, facing a wooded hill, with hedges blocking the view.",
+        "logistics": "The whole army's baggage moved together behind the leading legions.",
+        "decision": "He changed the order of march and kept the legates with their legions; in the crisis he fought in the front line and joined the two hard-pressed legions.",
+        "outcome": "Relieved by the Tenth and the rear legions, his army destroyed the Nervii, who surrendered."
+      },
+      {
+        "name": "Boduognatus and the Nervii",
+        "objective": "Destroy the Roman army piecemeal by attacking the first legion before the rest came up.",
+        "known": "From Belgic informers, Caesar's usual order of march, with baggage between the legions.",
+        "uncertainty": "Whether the column would arrive as described.",
+        "constraints": "Almost no cavalry, and an attack that had to cross a river and climb against an enemy on higher ground.",
+        "forces": "Nervian infantry with the Atrebates and the Viromandui; the Atuatuci not yet arrived.",
+        "terrain": "A wood to hide in, a shallow river and a steep climb, with their own hedges across the field.",
+        "logistics": "Families and goods sent into the marshes, out of reach.",
+        "decision": "They kept to their plan though the column came in a different order, and attacked at the sight of the baggage.",
+        "outcome": "They took the Roman camp and nearly surrounded two legions, but were destroyed when the Tenth and the rear legions arrived."
+      }
+    ]
+  },
+  {
     "slug": "carrhae",
     "sources": [
       {
@@ -1362,6 +2004,335 @@
     ]
   },
   {
+    "slug": "gergovia",
+    "sources": [
+      {
+        "title": "Caesar, The Gallic War 7.34–52 (Loeb translation by H. J. Edwards)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Gallic_War/7D%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Caesar, The Gallic War 7.53–62 (Loeb translation by H. J. Edwards)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Gallic_War/7E%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Cassius Dio, Roman History, Book 40 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/40%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Suetonius, Life of Julius Caesar (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Julius%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "“Gergovia”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Gergovia",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“Caesar, Gaius Julius”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Caesar,_Gaius_Julius",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“L'affaire Gergovie: historique de la controverse autour de la localisation de Gergovie”",
+        "url": "https://www.gergovie.fr/htmfr/affaire.html",
+        "publisher": "ASCOT (gergovie.fr)"
+      },
+      {
+        "title": "Caesar, The Civil Wars 3.56–81 (Loeb translation by A. G. Peskett)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Civil_Wars/3C%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Early in 52 BCE Roman traders were massacred at Cenabum and the Arverni rose under Vercingetorix. Caesar took Avaricum, whose occupants were massacred, and then divided his army: Labienus went north against the Senones and the Parisii, and Caesar marched up the Allier toward Gergovia, the Arvernian capital. Vercingetorix broke the bridges and shadowed him along the far bank, but Caesar hid part of his force, rebuilt a bridge on its old piles while the rest marched on, and crossed. Dio tells the crossing differently, by rafts built while the Gauls watched the column ahead.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 5
+          },
+          {
+            "source": 0,
+            "locator": "7.34–35"
+          },
+          {
+            "source": 2,
+            "locator": "40.35"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The Aedui, Rome's oldest allies in Gaul, were wavering. Convictolitavis, whom Caesar had confirmed as their chief magistrate, took an Arvernian bribe and persuaded young nobles led by Litaviccus that the Aedui alone stood between Gaul and victory. Litaviccus turned the Aeduan force marching to join Caesar with an invented story that the Romans had killed the Aeduan horsemen and their chiefs, and Romans travelling with it were tortured and killed. Caesar's narrative makes the siege a race between his army and the defection of his allies; Dio links the defeat to the same cause, saying the Romans were beaten while Caesar was away dealing with the Aedui.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.37–43"
+          },
+          {
+            "source": 2,
+            "locator": "40.37–38"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Caesar judged the town too strong to storm and would not blockade it until his corn supply was secure. He took a hill opposite the town to cut the defenders off from much of their water and forage. After the Aeduan crisis his aim changed: by his own account he was planning how to leave Gergovia and reunite his army without making the departure look like flight, and he describes the assault as a bid for surprise, not a battle. Vercingetorix's aim was to hold the heights and refuse battle on level ground.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.36, 7.43–45"
+          },
+          {
+            "source": 1,
+            "locator": "7.53"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Gergovia stood on a very high hill with difficult approaches on every side; Vercingetorix camped the contingent of each state separately on the ridge, holding every point with a view. Caesar's large camp lay below, joined by a double ditch to a lesser camp on the captured hill. Halfway up the slope the Gauls had built a stone wall, and above it their camps filled the hillside to the town wall; a valley separated part of the assaulting force from the rest. Dio stresses that the Romans, camped in the plain, were overlooked and could not reach the heights with their missiles. The 1911 Britannica places Gergovia on a hill about eight miles from the Puy de Dôme. The plateau that Napoleon III's excavations identified, and that was renamed Gergovie in 1865, carries the monument and the museum; an association founded with Paul Eychart's support argues instead for the Côtes de Clermont, north of Clermont-Ferrand.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.36, 7.44–47"
+          },
+          {
+            "source": 2,
+            "locator": "40.36"
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Caesar commanded with a legate at the head of each legion. Gaius Fabius held the camps while Caesar marched against the Aeduan column, and Titus Sextius the lesser camp during the assault. The Aedui supplied cavalry and an infantry force, until Litaviccus turned it; the Aeduan nobles Eporedorix and Viridomarus served with Caesar. Vercingetorix led a coalition: he met the chiefs of the states in council every dawn and tested his men daily in cavalry skirmishes with archers among the horsemen. Teutomatus, king of the Nitiobriges, was among his allies.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.34, 7.36–41, 7.45–46, 7.49"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "For the assault Caesar drew the enemy to the far side of the town. Cavalry ranged noisily round the hills at night; at dawn muleteers in helmets rode round like cavalry, and a legion was shown and then hidden in the woods. While the Gauls hurried to fortify the threatened hill, he moved soldiers in small parties into the lesser camp with their badges covered, told his legates to keep the men in hand, warned them of the ground, and sent the Aedui up by another ascent on the right.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.44–45"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "After crossing the Allier, Caesar reached Gergovia in five days, reconnoitred and took the hill opposite by night. When the Aeduan column was turned, he marched out with most of his army, recovered it without bloodshed and came back by forced march to relieve Fabius, whose camp had been attacked all day. Then came the assault. At the signal the legions crossed the stone wall and took three camps, so suddenly that King Teutomatus escaped half-dressed. Caesar sounded the retreat and halted the Tenth, but the other legions, beyond the valley, did not hear and went on to the walls. Women on the walls first begged for mercy, then, as Gallic reinforcements arrived, urged their own men on. The Aedui, appearing on the Roman flank in arms like the enemy's, caused alarm; the attackers were driven down, and the Tenth and cohorts of the Thirteenth checked the pursuit.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.35–51"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Caesar chose not to storm or blockade at once, but to seize the hill that threatened the enemy's water. When the Aedui were turned, he left the siege with most of his army and forbade his men to kill any of the column, and the Aedui returned to their allegiance. The assault was a limited surprise meant to cover a withdrawal, with Sextius's cohorts posted at the foot of the hill and Caesar himself advancing with the Tenth in case of a repulse. After the defeat he offered battle on level ground for two days; when Vercingetorix declined, he marched into Aeduan territory and recrossed the Allier.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.36, 7.40, 7.43–45, 7.49"
+          },
+          {
+            "source": 1,
+            "locator": "7.53"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The recall failed. The legions beyond the valley did not hear the trumpet and, in Caesar's account, pressed on against the efforts of their tribunes and legates, carried away by hope and earlier success. The Gauls from the far side of the town returned in force, and the sight of the Aedui on the flank turned an advance into a rout.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.47–50"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The assault failed with heavy loss among the centurions, and Caesar raised the siege. Dio says he had been repulsed throughout, lost a number of soldiers and saw that the town could not be taken. The defeat emboldened the Aedui to revolt; Litaviccus went to rouse their state, and Eporedorix and Viridomarus asked to go ahead of him; Caesar, though he expected the revolt, let them go.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.51"
+          },
+          {
+            "source": 1,
+            "locator": "7.53–54"
+          },
+          {
+            "source": 2,
+            "locator": "40.36–38"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Within weeks, by the 1911 Britannica's account, Caesar had marched toward the Province, beaten Vercingetorix near Dijon and shut him in Alesia. Suetonius counts the rout of a legion at Gergovia among only three reverses in Caesar's Gallic wars. Caesar himself later used it as an example: after his defeat at Dyrrhachium he told his army that the loss might be turned to advantage, as it had been at Gergovia.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 5
+          },
+          {
+            "source": 3,
+            "locator": "25"
+          },
+          {
+            "source": 7,
+            "locator": "3.73"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A deception can work and the plan still fail if its limits cannot be enforced: the surprise succeeded, but the halt depended on a signal half the army could not hear. Caesar's speech the next day states the problem as he saw it: he required discipline and self-restraint no less than courage. A siege by an army whose allies are wavering places the commander in two places at once.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.45, 7.47, 7.52"
+          },
+          {
+            "source": 2,
+            "locator": "40.36"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Caesar is the only full source. He explains the defeat by his soldiers' disobedience and the unfavourable ground, and insists that the plan was a surprise, not a battle, a reading that protects his judgement. Dio describes a long, failing siege and ties the defeat to Caesar's absence among the Aedui. The losses Caesar gives are not repeated here. The site itself is disputed: the association's history of the controversy traces the identification of the plateau of Merdogne to a sixteenth-century scholar, Gabriele Simeoni, and to Colonel Stoffel's excavations for Napoleon III, and the rival case for the Côtes de Clermont to Maurice Busset in 1933 and Paul Eychart from 1952. That account comes from one side of the debate.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "7.45, 7.47–52"
+          },
+          {
+            "source": 2,
+            "locator": "40.36"
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Caesar's Gallic War 7.34–54, in H. J. Edwards's Loeb translation on LacusCurtius, is the main narrative, and the Civil War 3.73 shows how he recalled the defeat later. Cassius Dio's Book 40 and Suetonius's Life of Julius Caesar, also in Loeb translations there, give a later Greek narrative and a Roman biographer's verdict. The 1911 Britannica's articles on Gergovia and on Caesar give a modern outline, and the website of the ASCOT association sets out the controversy over the site from the point of view of those who reject the official one.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          },
+          {
+            "source": 7
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Crossing the Allier",
+        "time": "52 BCE, after Avaricum",
+        "description": "Vercingetorix breaks the bridges; Caesar hides part of his army and rebuilds one on its old piles."
+      },
+      {
+        "title": "Before the town",
+        "time": "Five days later",
+        "description": "Caesar reconnoitres, waits for corn and takes the hill opposite the town by night."
+      },
+      {
+        "title": "The Aeduan crisis",
+        "time": "During the siege",
+        "description": "Litaviccus turns the Aeduan column; Caesar recovers it by a night march while Fabius holds the camps."
+      },
+      {
+        "title": "The assault",
+        "time": "The day of the attack",
+        "description": "A feint draws the Gauls away; the legions take three camps, miss the recall and are driven down from the walls."
+      },
+      {
+        "title": "Withdrawal",
+        "time": "The following days",
+        "description": "Caesar reprimands the army, offers battle on level ground for two days and marches to the Allier."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Gaius Julius Caesar",
+        "objective": "Take or isolate the Arvernian capital and then, as the Aedui wavered, withdraw without appearing beaten.",
+        "known": "The town was too strong to storm; deserters said the Gauls feared for the wooded hill on the far side.",
+        "uncertainty": "The loyalty of the Aedui and of the troops they had sent him.",
+        "constraints": "His corn supply, a camp too large for a small garrison, and an uphill attack over broken ground.",
+        "forces": "Legions under their legates, with Aeduan allies of doubtful loyalty.",
+        "terrain": "A high plateau whose every approach was overlooked, and a valley dividing his assaulting legions.",
+        "logistics": "He would not begin a blockade until his corn was secured, and the Aeduan crisis made supply uncertain.",
+        "decision": "He attempted a limited surprise attack, with reserves posted to cover a repulse.",
+        "outcome": "The legions went beyond the recall and were driven back, and he raised the siege."
+      },
+      {
+        "name": "Vercingetorix",
+        "objective": "Hold Gergovia and the heights around it and refuse battle on level ground.",
+        "known": "The Romans had taken the hill opposite and could cut off water and forage; the wooded hill on the far side was the town's weak point.",
+        "uncertainty": "Where Caesar would strike, under movements he could watch but not read.",
+        "constraints": "A coalition of separate contingents held together by daily councils.",
+        "forces": "Contingents of many states camped apart, and cavalry with archers among them.",
+        "terrain": "The plateau and its heights, with a stone wall built halfway up the slope.",
+        "logistics": "Water and forage from the land round the town, threatened by the Roman works.",
+        "decision": "He moved his men to fortify the threatened hill, then brought them back in force when the town was attacked.",
+        "outcome": "His men drove the Romans down; he declined battle on the plain and let Caesar go."
+      }
+    ]
+  },
+  {
     "slug": "alesia",
     "sources": [
       {
@@ -1633,6 +2604,760 @@
         "logistics": "Caesar reports that the Mandubii, inhabitants of Alesia, were expelled to save food and were refused passage through the Roman lines; Dio says Vercingetorix drove out the women, children and others least useful, who died between the lines.",
         "decision": "Breakouts were timed with the relief army's assaults. After those failed, Vercingetorix surrendered. Gallic decisions are known almost entirely through Caesar.",
         "outcome": "Surrender, captivity and enslavement for many of the defeated; Dio says Vercingetorix, who had hoped for pardon, was executed after Caesar's triumph."
+      }
+    ]
+  },
+  {
+    "slug": "ilerda",
+    "sources": [
+      {
+        "title": "Caesar, The Civil Wars 1.30–58 (Loeb translation by A. G. Peskett)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Civil_Wars/1B%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Caesar, The Civil Wars 1.59–87 (Loeb translation by A. G. Peskett)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Civil_Wars/1C%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Appian, The Civil Wars, Book 2 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/2%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Cassius Dio, Roman History, Book 41 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/41%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Plutarch, Life of Caesar (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "“Caesar, Gaius Julius”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Caesar,_Gaius_Julius",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Cassius Dio, Roman History, Book 43 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/43%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Early in 49 BCE Caesar drove Pompey out of Italy, but Pompey's legates held Spain with veteran legions: Afranius the nearer province, Petreius Lusitania and Varro the further province. Caesar sent Gaius Fabius ahead to seize the Pyrenean passes and followed; the 1911 Britannica dates his arrival at Ilerda to 23 June. Afranius and Petreius had joined forces there because of the natural strength of the position, while Varro held the south.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.37–38"
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Plutarch says Caesar meant to leave no enemy in his rear before marching against Pompey. Opinion in Rome counted: when Afranius and Petreius sent home exaggerated reports of Caesar's troubles, crowds congratulated Afranius's household and men set out from Italy to join Pompey, and Dio says Romans at home gave Caesar up for lost. Before the campaign Caesar borrowed money from his tribunes and centurions and gave it to the soldiers, which, he writes, bound the officers to him by the debt and the men by the bounty. His account, written for the same public, stresses his reluctance to shed citizens' blood.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 4,
+            "locator": "36"
+          },
+          {
+            "source": 0,
+            "locator": "1.39, 1.53"
+          },
+          {
+            "source": 3,
+            "locator": "41.21"
+          },
+          {
+            "source": 1,
+            "locator": "1.72"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Afranius and Petreius meant to hold Ilerda and its bridge and, when that became unsafe, to carry the war into Celtiberia, where Pompey's name was strong and Caesar's barely known, and to prolong it into the winter. Caesar's aim, as he states it, was to cut them off from food and water and finish the business without exposing his men to battle.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.38"
+          },
+          {
+            "source": 1,
+            "locator": "1.61, 1.72"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Ilerda stood on a hill by the river Sicoris, with the Pompeian camp on the next height and a narrow plain between them, a mound in its middle. Caesar's camp lay between the Sicoris and the Cinga, which a flood could make impassable. To the south lay the Ebro, the town of Octogesa and a belt of rugged hills and defiles that whoever reached first could hold against the other. Dio calls the region bowl-shaped and terribly dry.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.43, 1.45, 1.48"
+          },
+          {
+            "source": 1,
+            "locator": "1.61, 1.65–66, 1.68"
+          },
+          {
+            "source": 3,
+            "locator": "41.22"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Afranius and Petreius shared command of Pompey's legions in Spain, with heavy and light auxiliaries from both provinces and cavalry. Caesar had veteran legions, cavalry from Gaul and lightly armed Germans. He describes the Afranian infantry as fighting in loose order, charging and giving ground without shame, a style learned against the Lusitanians. The two Pompeian commanders decided by council and disagreed; on Caesar's side, officers and men pressed him openly to fight. No figures are given here.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.39, 1.44"
+          },
+          {
+            "source": 1,
+            "locator": "1.67, 1.71–72, 1.83"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Caesar arrived to find that a storm had broken one of Fabius's two bridges over the Sicoris and that Plancus had held off Afranius until relieved. He offered battle in three lines below the Pompeian camp; Afranius stayed on the slope. Caesar then entrenched close by, digging a ditch with the front lines standing under arms rather than raising a rampart the enemy could see.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.40–42"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "First came the fight for the mound, lost to the faster Afranians, and a struggle of five hours under the walls of the town. Then a flood broke both of Caesar's bridges, cutting him off from his allies and his convoys while the Pompeians had plenty. Caesar built light boats of a kind he had seen in Britain, carried them overland, crossed upstream and bridged the river, and communities began to come over to him. Afranius and Petreius set out for the Ebro; Caesar's infantry forded the Sicoris, which he had partly diverted, caught the column and, marching by no road, reached the defiles first. Cut off from the Ebro and then from water, the Pompeians tried to return to Ilerda under constant attack, killed their baggage animals and asked for terms. The 1911 Britannica dates the submission to 2 August.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.43–54"
+          },
+          {
+            "source": 1,
+            "locator": "1.59–84"
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Caesar's choices were to restore his communications by building boats rather than wait for the water to fall; to divert part of the Sicoris to make a ford; to let the army attempt the ford when the men demanded it, after setting the weakest aside; to march across country by no marked road to get ahead of the enemy; and, above all, to refuse battle when his legates, centurions and tribunes demanded it against a shaken enemy. He writes that he hoped to win by cutting off supply, asked why he should lose soldiers even in a successful battle, and was moved by compassion for fellow citizens.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.54"
+          },
+          {
+            "source": 1,
+            "locator": "1.61–64, 1.68–72, 1.81–82"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The bridge upstream reversed the supply situation within days, and the arrival at the defiles ahead of the Pompeian column closed the road to the Ebro. The soldiers of the two armies then began to visit each other's camps and talk of surrender; Petreius broke up the talks, had Caesarians found in his camp killed and made his army swear a new oath, while Caesar sent the Pompeians in his camp back unharmed. That delayed the end by a few days.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.54"
+          },
+          {
+            "source": 1,
+            "locator": "1.59–60, 1.70, 1.74–77"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Afranius asked for terms in the hearing of both armies. Caesar answered that he wanted only the armies raised against him disbanded: men with homes in Spain were released at once and the rest at the river Varus, none was to be forced to swear allegiance to him, and he fed them on the march and paid for property his soldiers had taken. Afranius and Petreius went to Pompey.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "1.84–87"
+          },
+          {
+            "source": 2,
+            "locator": "2.43"
+          },
+          {
+            "source": 4,
+            "locator": "36"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Spain came over to Caesar, including the legions with Varro, and Dio says his reputation and his cause profited from his clemency; he put no prisoner to death. Appian has him address the released men at the Varus, reminding them that he had spared them though Petreius had killed his men. Clemency had limits as policy: Dio says many of the men who fought against Caesar at Munda four years later had been captured with Afranius and Varro and spared.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 3,
+            "locator": "41.23"
+          },
+          {
+            "source": 2,
+            "locator": "2.43"
+          },
+          {
+            "source": 6,
+            "locator": "43.36"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Supply can decide a campaign without a pitched battle, but it nearly decided this one against Caesar when the floods cut him off. A commander who declines a battle he could win must carry his army with him: Caesar records the soldiers saying they would not fight later when he wanted them to. When the enemy's soldiers are fellow citizens who can talk to one's own, clemency works as a weapon.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.48–52"
+          },
+          {
+            "source": 1,
+            "locator": "1.72, 1.74"
+          },
+          {
+            "source": 3,
+            "locator": "41.23"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Caesar's account is detailed and self-justifying; the reply he gives himself at the surrender is a political case against Pompey's long command in Spain. Appian tells it otherwise: Caesar was at first worsted and then fought an indecisive engagement, the men cut off by the broken bridge were destroyed by Petreius, and Caesar surrounded and released a division sent against his camp. Dio also has the cut-off men destroyed and says Caesar surrounded the retreating enemy with his superior numbers. Caesar says Plancus held out until relieved. The losses he gives for the fight at the mound and for the ambushed Gallic convoy are not repeated.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "1.40, 1.46–47, 1.51"
+          },
+          {
+            "source": 1,
+            "locator": "1.85"
+          },
+          {
+            "source": 2,
+            "locator": "2.42–43"
+          },
+          {
+            "source": 3,
+            "locator": "41.20–22"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Caesar's Civil War 1.37–87, in A. G. Peskett's Loeb translation on LacusCurtius, is the main narrative. Appian's Civil Wars 2, Cassius Dio's Books 41 and 43 and Plutarch's Life of Caesar, in Loeb translations on LacusCurtius, give shorter later versions that differ on the opening fights. The 1911 Britannica's article on Caesar supplies the dates of his arrival and of the surrender.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Arrival",
+        "time": "23 June 49 BCE (1911 Britannica)",
+        "description": "Caesar joins Fabius, offers battle below the Pompeian camp and entrenches close by."
+      },
+      {
+        "title": "The mound and the flood",
+        "time": "The following days",
+        "description": "The Afranians win the race for the mound; a flood breaks both of Caesar's bridges and hunger follows."
+      },
+      {
+        "title": "The bridge upstream",
+        "time": "Some days later",
+        "description": "Boats carried overland put a legion across; a bridge restores supply and communities change sides."
+      },
+      {
+        "title": "The race for the defiles",
+        "time": "The Pompeian withdrawal",
+        "description": "Caesar's infantry fords the Sicoris, overtakes the column and reaches the hills before it."
+      },
+      {
+        "title": "Water and surrender",
+        "time": "To 2 August",
+        "description": "Cut off from the Ebro and from water, the Pompeians ask for terms and are disbanded."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Gaius Julius Caesar",
+        "objective": "Remove Pompey's army in Spain before turning against Pompey, if possible without a battle.",
+        "known": "The strength of the position at Ilerda and the stores in the town; later, the enemy's intention to withdraw to the Ebro.",
+        "uncertainty": "Whether Pompey was coming through Mauretania, as rumour said, and how long the floods would last.",
+        "constraints": "Rivers that could cut his communications, hunger in his camp and a country that at first favoured the enemy.",
+        "forces": "Veteran legions with Gallic cavalry and lightly armed Germans.",
+        "terrain": "Two rivers behind him and the rough hills and defiles between Ilerda and the Ebro.",
+        "logistics": "Fragile, dependent on bridges, allied communities and convoys from Gaul and Italy.",
+        "decision": "He outmarched the retreating enemy, cut them off from the Ebro and from water, and refused battle.",
+        "outcome": "The Pompeian army surrendered and was disbanded."
+      },
+      {
+        "name": "Lucius Afranius and Marcus Petreius",
+        "objective": "Hold Ilerda, then withdraw into Celtiberia and prolong the war.",
+        "known": "Caesar's supply crisis after the floods; later, that he had bridged the river and won over the neighbouring communities.",
+        "uncertainty": "Whether to march by night or by day, and whether their men would stay loyal.",
+        "constraints": "Divided counsel, soldiers talking with the enemy, and cavalry demoralised by Caesar's horse.",
+        "forces": "Pompey's legions in Spain with Spanish auxiliaries and cavalry.",
+        "terrain": "The strong position at Ilerda, then broken hills and dry country.",
+        "logistics": "Plentiful at first, through the bridge at Ilerda and the country beyond it; then cut off from water and fodder.",
+        "decision": "They withdrew toward the Ebro, postponed the march through the defiles and lost the race to them.",
+        "outcome": "They surrendered, their army was disbanded, and they went to Pompey."
+      }
+    ]
+  },
+  {
+    "slug": "dyrrhachium",
+    "sources": [
+      {
+        "title": "Caesar, The Civil Wars 3.31–55 (Loeb translation by A. G. Peskett)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Civil_Wars/3B%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Caesar, The Civil Wars 3.56–81 (Loeb translation by A. G. Peskett)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Civil_Wars/3C%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Appian, The Civil Wars, Book 2 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Appian/Civil_Wars/2%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Cassius Dio, Roman History, Book 41 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/41%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Plutarch, Life of Caesar (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Plutarch, Life of Pompey (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Pompey%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Suetonius, Life of Julius Caesar (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Julius%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Siege of Dyrrhachium (49/48 BCE)",
+        "url": "https://www.livius.org/articles/battle/siege-of-dyrrhachium-48-48-bce/",
+        "publisher": "Livius.org (Jona Lendering)"
+      },
+      {
+        "title": "“Durazzo”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Durazzo",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“Caesar, Gaius Julius”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Caesar,_Gaius_Julius",
+        "publisher": "Wikisource"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Spain Caesar sailed from Brundisium for Epirus, on 4 January 48 BCE by the 1911 Britannica's date, running the blockade of Pompey's fleets. Suetonius says that when the rest of his troops were slow to follow, he tried to cross back alone at night in a small boat. Antony brought them over later. Pompey, who had raised a new army in the east, refused battle at Asparagium; Caesar then marched round by a long, difficult route and placed himself between Pompey and Dyrrhachium, where Pompey kept his stores and war material.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 9
+          },
+          {
+            "source": 6,
+            "locator": "58"
+          },
+          {
+            "source": 3,
+            "locator": "41.47–49"
+          },
+          {
+            "source": 0,
+            "locator": "3.41"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Caesar says he began to wall Pompey in for three reasons: to bring in supplies with less risk, since Pompey was stronger in cavalry; to stop Pompey foraging and make his cavalry useless; and to damage the prestige on which Pompey relied among foreign peoples, once it was known that he was besieged and dared not fight. Pompey held the sea and drew corn from Asia and every district he controlled; Plutarch says every wind brought him grain, troops or money while Caesar was reduced to straits by land and sea. The Livius article frames the stakes as monarchy, which Caesar eventually created, against a republic with a strong military leader.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.42–43"
+          },
+          {
+            "source": 5,
+            "locator": "65"
+          },
+          {
+            "source": 7
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Caesar aimed to enclose Pompey's army with a ring of forts and lines and force it to fight or starve. Pompey aimed to keep his base by the sea, to hold as wide a circle of hills as he could so that Caesar's lines were stretched, and to break out before the ring closed. He had decided not to fight a pitched battle at that time.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.43–45"
+          },
+          {
+            "source": 7
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Dyrrhachium, at the start of the Via Egnatia to Thessalonica, was protected by broad swamps, according to the 1911 Britannica. Cut off from the town, Pompey camped on Petra, a height with a fair anchorage. The country around was hilly and rugged; Caesar fortified the heights and joined them with lines, and dammed or diverted the streams running to the sea. The southern end of his lines, by the sea, had a double rampart facing both ways, but the cross-wall that was to join the two along the shore was unfinished.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.42–44, 3.49"
+          },
+          {
+            "source": 1,
+            "locator": "3.63"
+          },
+          {
+            "source": 7
+          },
+          {
+            "source": 8
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Pompey had the larger army, by Caesar's account, with a great superiority in cavalry and many archers and slingers, and command of the sea. Labienus, once Caesar's lieutenant in Gaul, served him. Caesar's veterans included the Ninth, which suffered badly in the fighting; Antony commanded on the lines, and Publius Sulla held the main camp in Caesar's absence. Two Allobrogian brothers, Raucillus and Egus, deserted from Caesar's cavalry after being accused of embezzling pay, and told Pompey where his lines were weak. Dio, unlike Caesar, says Caesar had the larger army.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.44, 3.47, 3.51"
+          },
+          {
+            "source": 1,
+            "locator": "3.59–62, 3.65"
+          },
+          {
+            "source": 3,
+            "locator": "41.49–50"
+          },
+          {
+            "source": 7
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The armies built facing rings: Caesar's outer line of forts and works around Pompey's positions, and Pompey's inner line of redoubts, which he completed faster because it was shorter and he had more men. Appian calls Caesar's plan an extremely difficult and chimerical task, undertaken because even failure would bring renown for its boldness.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.43–44"
+          },
+          {
+            "source": 2,
+            "locator": "2.61"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "For weeks the armies fought for hills. Caesar's men lived on barley, meat and bread made from a root called chara, while the Pompeians' animals died and their men fell sick from the cramped space and the lack of water. In one day of six fights Sulla relieved a hard-pressed redoubt, whose defenders brought Caesar the arrows shot at it and the centurion Scaeva's shield. Then the deserters came. At dawn Pompey's men attacked the unfinished sea end of the lines from land and from boats and took the defenders from behind; Antony and then Caesar came up and halted them, but Pompey entrenched a new camp by the sea. Caesar's counterattack on an old camp, where a Pompeian legion had been seen, broke in and then collapsed when his right wing followed a wall to the river and Pompey came up with his legions. Caesar's men fled. The Livius article dates the breakout to 7 July by the Roman calendar.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.45–53"
+          },
+          {
+            "source": 1,
+            "locator": "3.58–70"
+          },
+          {
+            "source": 7
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Caesar chose to enclose an army larger than his own, in what he calls a new kind of warfare. Sulla, after relieving the redoubt, would not pursue; Caesar defends him, writing that a legate should act under direction and leave pitched battles to the commander. After the breakout Caesar attacked the isolated legion to repair the day's loss. After the defeat he gave up the lines, concentrated and marched away rather than fight with shaken troops and his corn supply in doubt. Plutarch says he spent that night reproaching himself for posting his army by a sea the enemy controlled instead of carrying the war into Macedonia and Thessaly.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.43, 3.47, 3.51"
+          },
+          {
+            "source": 1,
+            "locator": "3.67, 3.73–75"
+          },
+          {
+            "source": 4,
+            "locator": "39"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The unfinished cross-wall at the sea, known to Pompey through the deserters, let his men land between Caesar's two ramparts and take the defenders in the rear. In the counterattack, the wall from the old camp to the river, which Caesar's right wing mistook for part of the camp, divided his force. Caesar observes that the same wall, by checking Pompey's pursuit, saved his army.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "3.61–63, 3.68–70"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Caesar was beaten and lost many men, centurions and standards; Pompey was hailed imperator. By Caesar's account Labienus had the captured Caesarian soldiers paraded, mocked them as veterans who ran away, and killed them in front of the army. Caesar abandoned the siege and marched off toward Apollonia and then into Thessaly. The 1911 Britannica calls Dyrrhachium the place where Pompey made his last successful resistance to Caesar.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "3.69–75"
+          },
+          {
+            "source": 3,
+            "locator": "41.51"
+          },
+          {
+            "source": 8
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The Pompeians, Caesar says, behaved as though they had already won and announced the victory throughout the world. Plutarch says Pompey still preferred to wear Caesar down by delay while Afranius urged him to recover Italy, and that his followers could no longer be restrained. Caesar's soldiers, ashamed, asked to be punished: Suetonius says their commander had rather to console than chastise them, and Appian that they demanded decimation, which he refused, punishing only a few standard-bearers. Within weeks the armies met at Pharsalus.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "3.72–74"
+          },
+          {
+            "source": 5,
+            "locator": "66"
+          },
+          {
+            "source": 6,
+            "locator": "68"
+          },
+          {
+            "source": 2,
+            "locator": "2.63"
+          },
+          {
+            "source": 7
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A blockade is only as strong as its weakest unfinished stretch, and deserters can find it. A commander who chooses the theatre must count who controls the sea: Plutarch's Caesar concluded that he had been besieged by want rather than besieging. Recovery after a defeat depended on the decision to break off at once and on an army that wanted to repair its disgrace.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "3.61–63, 3.73–74"
+          },
+          {
+            "source": 4,
+            "locator": "39"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Caesar says he enclosed a larger army with fewer men; Dio says he had the larger army. Caesar thinks Pompey did not follow up because he feared an ambush; Appian blames Labienus for persuading Pompey to chase the fugitives instead of taking Caesar's camp, and has Pompey hesitate. The saying that Pompey did not know how to use a victory survives in different words in Suetonius, in both of Plutarch's Lives and in Appian; Pompey's remark, on seeing the root bread, that he was fighting wild beasts is told by Suetonius and Appian; Plutarch has him hide the bread from his men, who already thought the enemy like wild beasts. None is an eyewitness report. Caesar, Plutarch and Appian give different numbers of standards and men lost, and these are not repeated.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "3.47"
+          },
+          {
+            "source": 1,
+            "locator": "3.70–71"
+          },
+          {
+            "source": 3,
+            "locator": "41.50"
+          },
+          {
+            "source": 2,
+            "locator": "2.61–62"
+          },
+          {
+            "source": 4,
+            "locator": "39"
+          },
+          {
+            "source": 5,
+            "locator": "65"
+          },
+          {
+            "source": 6,
+            "locator": "36, 68"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Caesar's Civil War 3.41–75, in A. G. Peskett's Loeb translation on LacusCurtius, is the main narrative. Appian's Civil Wars 2, Cassius Dio's Book 41, Plutarch's Lives of Caesar and Pompey and Suetonius's Life of Julius Caesar, all in Loeb translations on LacusCurtius, give later versions. The Livius article by Jona Lendering gives a modern summary and the date, and the 1911 Britannica's articles on Durazzo and on Caesar give the setting.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          },
+          {
+            "source": 7
+          },
+          {
+            "source": 8
+          },
+          {
+            "source": 9
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Race to Dyrrhachium",
+        "time": "Spring 48 BCE",
+        "description": "Caesar marches round Pompey and cuts him off from his base; Pompey camps on Petra by the sea."
+      },
+      {
+        "title": "The lines",
+        "time": "Spring and early summer",
+        "description": "Forts and counter-forts on the hills; skirmishes, hunger in Caesar's army and thirst and sickness in Pompey's."
+      },
+      {
+        "title": "Six fights in a day",
+        "time": "During the blockade",
+        "description": "Pompey attacks several redoubts; Sulla relieves one, and the defenders' shields and arrows are brought to Caesar."
+      },
+      {
+        "title": "The breakout",
+        "time": "7 July 48 BCE (Roman calendar)",
+        "description": "Pompey storms the unfinished sea end of the lines by land and boat; Antony and Caesar halt the advance."
+      },
+      {
+        "title": "Counterattack and rout",
+        "time": "The same day",
+        "description": "Caesar's attack on the old camp breaks in, then collapses when Pompey arrives with his legions."
+      },
+      {
+        "title": "Withdrawal",
+        "time": "That night and after",
+        "description": "Caesar sends his baggage to Apollonia and marches away; his cavalry checks the pursuit at the Genusus."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Gaius Julius Caesar",
+        "objective": "Enclose Pompey's army and force it to fight or starve, while damaging his prestige abroad.",
+        "known": "Pompey's stores lay at Dyrrhachium, his cavalry was stronger, and his supplies came by sea.",
+        "uncertainty": "When his own fleets and supplies from Italy would arrive, and where Pompey would strike his long lines.",
+        "constraints": "Fewer men, by his account, to hold a far longer line, and an enemy fleet controlling the coast.",
+        "forces": "Veteran legions, including the Ninth, with cavalry and lightly armed troops.",
+        "terrain": "Rugged hills for his forts, streams he could dam, and a sea flank he had not finished closing.",
+        "logistics": "Corn scarce for weeks; barley, meat and root bread until the harvest ripened.",
+        "decision": "He built the ring, counterattacked after the breakout, and when that failed gave up the siege and marched away.",
+        "outcome": "He was defeated and withdrew into Thessaly, where he fought Pompey at Pharsalus weeks later."
+      },
+      {
+        "name": "Gnaeus Pompeius Magnus (Pompey)",
+        "objective": "Keep his base and his communications by sea, avoid a pitched battle, and break the enclosing lines.",
+        "known": "From the Allobrogian deserters, the unfinished cross-wall at the sea end of Caesar's lines.",
+        "uncertainty": "Whether Caesar's flight after the counterattack hid an ambush.",
+        "constraints": "Cramped ground within the lines, failing fodder for his horses and scarce water.",
+        "forces": "A larger army by Caesar's account, strong in cavalry, archers and slingers, with a fleet.",
+        "terrain": "Petra and the hills within the ring, and the sea at his back.",
+        "logistics": "Corn by sea from Asia and his other provinces; fodder had to come by sea from Corcyra and Acarnania.",
+        "decision": "He attacked the weak sea end by land and sea, then brought up his legions against Caesar's counterattack but did not press the pursuit.",
+        "outcome": "He broke the siege and was hailed imperator, but Caesar's army escaped intact."
       }
     ]
   },
@@ -1928,6 +3653,339 @@
         "logistics": "Better supplied than Caesar, which made delay a realistic option.",
         "decision": "He massed cavalry under Labienus to turn Caesar's right and ordered his infantry to await the charge.",
         "outcome": "His cavalry was routed, his army broke and he was killed in Egypt."
+      }
+    ]
+  },
+  {
+    "slug": "munda",
+    "sources": [
+      {
+        "title": "The Spanish War, by an unknown author (Loeb translation by A. G. Way)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Spanish_War/text%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "A. G. Way, Introduction to The Spanish War (Loeb Classical Library, 1955)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Spanish_War/Introduction%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Cassius Dio, Roman History, Book 43 (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/43%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Plutarch, Life of Caesar (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "Suetonius, Life of Julius Caesar (Loeb translation)",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Julius%2A.html",
+        "publisher": "LacusCurtius, University of Chicago"
+      },
+      {
+        "title": "“Caesar, Gaius Julius”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Caesar,_Gaius_Julius",
+        "publisher": "Wikisource"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Thapsus in April 46 BCE the Pompeian cause survived in Further Spain, where Gnaeus Pompeius, Pompey's elder son, raised an army and his brother Sextus held Corduba. The 1911 Britannica says Caesar was obliged to sail for Spain in November. The campaign that followed was a winter of sieges and marches around Ategua, Ucubi and Ventipo; as towns fell to Caesar, Dio writes, other communities came over to him, and Pompeius moved from place to place.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 5
+          },
+          {
+            "source": 0,
+            "locator": "27"
+          },
+          {
+            "source": 2,
+            "locator": "43.35"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Plutarch says the sons of Pompey were young but had gathered an army of amazing size and showed a boldness that justified their claim to lead. Dio says many of their soldiers had been captured with Afranius and Varro, spared, handed over to Longinus and had then revolted from him, so that they had nothing to hope for if beaten. It was a war of Romans against Romans, with Spanish and Moorish allies on both sides; Plutarch adds that the triumph Caesar celebrated for it vexed the Romans as nothing else had, because it marked the destruction of the family of the greatest Roman.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 3,
+            "locator": "56"
+          },
+          {
+            "source": 2,
+            "locator": "43.36"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Pompeius, by the anonymous author's account, had written to the people of Ursao that Caesar would not come down into the valley because most of his army was inexperienced, and offered battle from ground protected by the hills and by the town. Caesar, about to march on, raised the signal for battle when his scouts reported the enemy in line. Dio says Pompeius chose to risk a battle because he feared that his remaining adherents would desert him.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "28"
+          },
+          {
+            "source": 2,
+            "locator": "43.35"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "A plain ran between the camps. Near the town the ground rose, and a stream crossed the plain with marshy, broken ground on its right, which made the approach awkward for Caesar's troops; the Pompeian line stood on the slope in front of the town wall. The site of Munda is disputed. The Loeb editor, A. G. Way, follows Holmes and Veith in placing it a few miles north-west of Ursao, the modern Osuna; Stoffel and Klotz put it at Montilla, and Hübner at a place known locally as Campo de Munda.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "29 and n. 55"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Both armies had citizen legions with native troops and Moors: the sons of the Moorish king Bocchus fought for Pompeius, and King Bogud with Caesar. Caesar's army mixed veteran and newly raised legions, with the Tenth on the right and the Third and Fifth on the left. Titus Labienus and Attius Varus served Pompeius. The anonymous author gives the strength of both armies; the figures are not repeated.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "30 and n. 58"
+          },
+          {
+            "source": 2,
+            "locator": "43.36"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Pompeius kept his line close to the town and the high ground. Caesar expected him to come down into the plain and advanced; when his men reached the stream and the broken ground at the far edge of the plain, they found the enemy waiting above them. Caesar began to restrict the advance, and his men, the author says, were bitterly disgusted, thinking their chance of victory was being taken from them.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "29–30"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The battle was joined with shouting and volleys so fierce that, the author admits, Caesar's men nearly lost confidence. The Tenth on the right pressed the enemy back until Pompeius moved a legion from his right to support his left; Caesar's cavalry then attacked so that the line could not be reinforced, and the Pompeians broke and fled to the town and their camp. Dio describes the allies on both sides fleeing early while the legions fought it out, both commanders dismounting to join the fight, and the break coming when Labienus left his post to meet King Bogud's move against the Pompeian camp, and the Pompeians took it for flight. Survivors who reached Munda were blockaded behind a rampart of weapons and bodies.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "30–32"
+          },
+          {
+            "source": 2,
+            "locator": "43.37–38"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Caesar accepted battle on ground his enemy had chosen, then limited the advance up the slope; Way suggests that he did not yet know the strength of the prepared positions. When the fight hung in the balance he went into the ranks. Plutarch has him run through the lines asking his men whether they were not ashamed to hand him over to boys; Dio says both commanders leapt from their horses and fought. On the Pompeian side, the transfer of a legion across the line and Labienus's departure from his station each weakened the front at the moment of greatest pressure.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "30–31 and n. 59"
+          },
+          {
+            "source": 3,
+            "locator": "56"
+          },
+          {
+            "source": 2,
+            "locator": "43.37–38"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The two narratives explain the collapse differently. The anonymous author makes it the pressure of the Tenth, which forced Pompeius to shift a legion, and the cavalry attack that stopped him reinforcing the line. Dio makes it Labienus's move against Bogud, which the Pompeian ranks read as flight.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "31"
+          },
+          {
+            "source": 2,
+            "locator": "43.38"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Pompeians were routed on 17 March 45 BCE, the day of the Liberalia; Labienus and Attius Varus were killed. Munda was blockaded and later taken. Sextus Pompeius left Corduba by night; Gnaeus, wounded, was carried to Carteia, failed to escape by sea and was later killed. Plutarch says his head was brought to Caesar by Deidius; Dio that he was defeated by Caesennius Lento and died in a wood.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "31–32 and n. 61"
+          },
+          {
+            "source": 2,
+            "locator": "43.39–40"
+          },
+          {
+            "source": 3,
+            "locator": "56"
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Caesar took Corduba and Hispalis; Dio says he killed the armed slaves at Corduba and sold the rest, levied tribute so rigorously that he took the offerings in the temple of Hercules at Gades, and rewarded the cities that had favoured him with land, exemptions and citizenship. The 1911 Britannica records that he returned to Rome in September and was murdered six months later. Plutarch calls Munda the last war Caesar waged.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "43.39"
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 3,
+            "locator": "56"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "An attack uphill against a prepared line relied on the quality of the attacking troops, and on this day it nearly failed. Soldiers who expect no mercy fight to the end: Dio connects the Pompeians' resistance to the fate they feared after being spared once already. In a battle this even, a misread movement behind the line could decide it.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "30–31"
+          },
+          {
+            "source": 2,
+            "locator": "43.36–38"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The Spanish War was attached to Caesar's name but its author is unknown; Way judges him an honest man struggling with an unfamiliar task, whose colloquial grammar and habit of changing the subject without warning cause serious ambiguities, so that even which enemy wing Caesar's cavalry attacked depends on the reading of the manuscripts. Dio's account is rhetorical and opens with omens. Plutarch reports Caesar saying after the battle that he had often fought for victory but now for the first time for his life; Suetonius says that, believing the battle lost, he thought of suicide. Neither names a witness. The casualty figures in the Spanish War and in Plutarch are not repeated, and the site of Munda is still disputed.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 0,
+            "locator": "n. 60"
+          },
+          {
+            "source": 2,
+            "locator": "43.35–38"
+          },
+          {
+            "source": 3,
+            "locator": "56"
+          },
+          {
+            "source": 4,
+            "locator": "36"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The Spanish War, in A. G. Way's Loeb translation on LacusCurtius with his introduction and notes, is the only detailed narrative. Cassius Dio's Book 43, Plutarch's Life of Caesar and Suetonius's Life of Julius Caesar, also in Loeb translations on LacusCurtius, give later versions. The 1911 Britannica's article on Caesar supplies the frame of the campaign.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "War of sieges",
+        "time": "Winter 46–45 BCE",
+        "description": "Caesar takes Ategua and Ventipo; Pompeius burns Ucubi and moves from position to position."
+      },
+      {
+        "title": "The armies meet",
+        "time": "The day before the battle",
+        "description": "Caesar camps opposite Pompeius in the plain of Munda."
+      },
+      {
+        "title": "Battle on the slope",
+        "time": "17 March 45 BCE, the Liberalia",
+        "description": "Caesar's men advance to the stream and climb against the Pompeian line; the fight hangs in the balance."
+      },
+      {
+        "title": "The break",
+        "time": "Later that day",
+        "description": "The Tenth presses the Pompeian left, the cavalry attacks, and the Pompeian line breaks."
+      },
+      {
+        "title": "The town and the pursuit",
+        "time": "The following weeks",
+        "description": "Munda is blockaded and taken; Sextus flees Corduba, and Gnaeus is hunted down and killed."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Gaius Julius Caesar",
+        "objective": "Destroy the last Pompeian army in the field.",
+        "known": "His scouts reported that Pompeius had stood in battle order since the third watch, on ground protected by the town and the hills.",
+        "uncertainty": "The strength of the enemy's prepared positions on the heights.",
+        "constraints": "An army that mixed veterans with recruits, and broken ground beyond the stream.",
+        "forces": "Veteran and new legions, cavalry, and King Bogud's Moors.",
+        "terrain": "A plain crossed by a stream with marshy ground, rising to the slope in front of the town.",
+        "logistics": "He was campaigning in a province held by his enemies, sustained by the towns he took and the communities that came over to him.",
+        "decision": "He accepted battle, limited the advance up the slope, and then went into the ranks himself.",
+        "outcome": "The Pompeian army was destroyed, and he took Munda, Corduba and Hispalis."
+      },
+      {
+        "name": "Gnaeus Pompeius, son of Pompey",
+        "objective": "Defeat Caesar on ground of his own choosing before his support in Spain fell away.",
+        "known": "He believed, or told his allies, that Caesar would not come down to fight because his army was inexperienced.",
+        "uncertainty": "Whether his men would hold against Caesar's veterans in open battle.",
+        "constraints": "Communities deserting him after Caesar's sieges, and soldiers with nothing to hope for if defeated.",
+        "forces": "Legions that included men once captured with Afranius and Varro and others who had revolted from Longinus, with Spanish and Moorish allies, Labienus and Attius Varus.",
+        "terrain": "The slope in front of the town of Munda, with the town behind him.",
+        "logistics": "The towns of Baetica that still held for him, and Munda as a refuge.",
+        "decision": "He offered battle from the heights and stayed close to the town rather than advance into the plain.",
+        "outcome": "His army was routed; he escaped wounded and was killed in the pursuit."
       }
     ]
   },

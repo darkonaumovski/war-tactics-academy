@@ -9,12 +9,12 @@ import {
 import { battles, wars, campaigns, eras } from "../../data/catalog";
 import { courses } from "../../data/learning";
 it("validates source-backed analyses and the commander corpus", () => {
-  expect(researchSchema.parse(research)).toHaveLength(152);
+  expect(researchSchema.parse(research)).toHaveLength(158);
   expect(commanderSchema.parse(commanders)).toHaveLength(121);
 });
-it("provides 152 unique engagement slugs and a connected hierarchy", () => {
-  expect(battles).toHaveLength(152);
-  expect(new Set(battles.map((b) => b.slug)).size).toBe(152);
+it("provides 158 unique engagement slugs and a connected hierarchy", () => {
+  expect(battles).toHaveLength(158);
+  expect(new Set(battles.map((b) => b.slug)).size).toBe(158);
   for (const b of battles) {
     expect(wars.some((w) => w.slug === b.warId)).toBe(true);
     expect(
@@ -29,6 +29,8 @@ it("orders engagements in the same year by date", () => {
   const order = battles.map((b) => b.slug);
   for (const [earlier, later] of [
     ["tyre", "gaza-332-bce"],
+    ["gergovia", "alesia"],
+    ["dyrrhachium", "pharsalus"],
     ["toulon", "vendemiaire"],
     ["vendemiaire", "montenotte"],
     ["montenotte", "lodi"],

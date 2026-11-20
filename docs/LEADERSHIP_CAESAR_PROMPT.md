@@ -2,7 +2,7 @@
 
 Paste everything below the line into a new Claude Code session opened in this repository.
 
-**Status (19 November 2026):** written, not begun. The user chose Caesar from the later volumes listed in `docs/LEADERSHIP_NEXT_VOLUMES_PROMPT.md`, ahead of Hannibal and Scipio and Grant. The readiness analysis below was made from the catalog on that date. Phase S comes first.
+**Status (20 November 2026):** Phase S is done. The user chose Caesar from the later volumes listed in `docs/LEADERSHIP_NEXT_VOLUMES_PROMPT.md`, ahead of Hannibal and Scipio and Grant, and then the six suggested studies, which are in the catalog: Bibracte and the Sabis under a new campaign, `caesar-s-conquest-of-gaul-58-53-bce`, Gergovia under `gallic-revolt-of-52-bce`, and Ilerda, Dyrrhachium and Munda under `caesar-s-civil-war`, with a source audit section of their own. Caesar's profile now links eight studies, the template's minimum. The readiness analysis below was made from the catalog on 19 November, before those studies. Phase 0 comes next.
 
 ## Why Caesar, and what is missing (readiness analysis, 19 November 2026)
 
@@ -119,6 +119,8 @@ Propose six new engagement studies, chosen to fill the gaps in the readiness tab
 | **Uxellodunum, 51 BCE**                     | The end of resistance, and the punishment of the defenders                                                      | _Gallic War_ 8 (Hirtius)                                                    |
 
 My suggestion, for you to test: Gergovia, Dyrrhachium, the Sabis, Bibracte, Ilerda and Munda, which bring in two defeats, a surprise, the first campaign, a bloodless one and the last, with Avaricum or Uxellodunum as alternatives if the cost lessons need a study of their own. Each study follows the existing format exactly (`data/research/rome.json`: fourteen sections, four or more phases, two perspectives, at least four sources read for it, no figures). Rows go in `data/battles/rome.ts` under the wars `gallic` and `roman-civil-wars`. Check how campaigns are assigned there: Gergovia and Avaricum belong with `gallic-revolt-of-52-bce`, the civil-war engagements with `caesar-s-civil-war`, and the campaigns of 58 and 57 have no campaign yet; propose whether to add one, following the campaign narratives in `data/campaign-details.ts`. Link Caesar's and Pompey's profiles, extend the campaign narratives and the war page, update counts and tests, and add a `docs/SOURCE_AUDIT.md` section, as the Peninsular and Wellington studies did (`87f59fa`, `64dd74a`, `48763c6`). One commit for the studies, after my approval, before Phase 0.
+
+**Done (20 November 2026).** Reading corrected three entries in the table above: Plutarch's _Life of Caesar_ does not mention Gergovia; the _Spanish War_ is by an unknown author, not demonstrably an officer of Caesar's; and Appian's _Civil Wars_ 2 does not cover Munda. The audit section lists what was read for each study.
 
 The _Commentaries_ are on LacusCurtius (Edwards's Loeb translation of the _Gallic War_, Peskett's of the _Civil War_), on Perseus, and in McDevitte and Bohn's translation on Project Gutenberg and Wikisource. LacusCurtius also has the Loeb Plutarch, Suetonius, Appian and Dio. Chapter numbers are the locators.
 

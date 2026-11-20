@@ -211,13 +211,22 @@ export const warDetails: Record<string, WarDetails> = {
     geography:
       "Gaul (modern France, Belgium and adjoining regions), with crossings of the Rhine and expeditions to Britain.",
     developments: t(
-      ["58 BCE", "Campaigns against the Helvetii and Ariovistus"],
-      ["57 BCE", "Campaign against the Belgae"],
+      ["58 BCE", "Campaigns against the Helvetii (Bibracte) and Ariovistus"],
+      [
+        "57 BCE",
+        "Campaign against the Belgae; battle with the Nervii on the Sabis",
+      ],
       ["55–54 BCE", "Rhine bridge; expeditions to Britain"],
       ["52 BCE", "Revolt under Vercingetorix; Gergovia; siege of Alesia"],
       ["51 BCE", "Last major resistance ends at Uxellodunum"],
     ),
     bibliography: [
+      {
+        title: "Caesar, The Gallic War, Book 1 (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Gallic_War/1A%2A.html",
+        publisher: "LacusCurtius",
+        note: "Caesar’s account of the first year of his command, the migration of the Helvetii and the battle near Bibracte, written for readers in Rome who would judge his conduct.",
+      },
       {
         title: "Caesar, The Gallic War, Book 7 (Loeb translation)",
         url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Gallic_War/7A%2A.html",
@@ -296,8 +305,9 @@ export const warDetails: Record<string, WarDetails> = {
     geography:
       "Italy, Spain, Greece, Egypt, North Africa and the eastern Mediterranean.",
     developments: t(
-      ["49 BCE", "Caesar crosses the Rubicon"],
-      ["48 BCE", "Battle of Pharsalus; Pompey killed in Egypt"],
+      ["49 BCE", "Caesar crosses the Rubicon; Ilerda campaign in Spain"],
+      ["48 BCE", "Dyrrhachium; battle of Pharsalus; Pompey killed in Egypt"],
+      ["45 BCE", "Battle of Munda"],
       ["44 BCE", "Caesar assassinated"],
       ["42 BCE", "Battles of Philippi"],
       ["31 BCE", "Battle of Actium"],
@@ -307,6 +317,12 @@ export const warDetails: Record<string, WarDetails> = {
       ],
     ),
     bibliography: [
+      {
+        title: "Caesar, The Civil Wars, Book 1 (Loeb translation)",
+        url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Civil_Wars/1B%2A.html",
+        publisher: "LacusCurtius",
+        note: "Caesar’s narrative of the Ilerda campaign of 49 BCE, which he presents as a victory won by supply and restraint rather than battle.",
+      },
       {
         title: "Caesar, The Civil Wars, Book 3 (Loeb translation)",
         url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Civil_Wars/3A%2A.html",

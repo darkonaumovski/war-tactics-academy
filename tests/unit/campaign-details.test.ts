@@ -56,6 +56,7 @@ describe("campaign narratives", () => {
       "burgoyne-s-northern-campaign",
       "burma-campaign",
       "caesar-s-civil-war",
+      "caesar-s-conquest-of-gaul-58-53-bce",
       "campaign-in-france-1814",
       "campaign-in-syria-and-palestine",
       "campaign-of-1211-against-the-jin",

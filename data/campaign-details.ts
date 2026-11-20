@@ -496,6 +496,14 @@ const dio62 = thayer(
   "Cassius_Dio/62",
   "Cassius Dio, Roman History, Book 62 (Loeb translation)",
 );
+const caesarGallic1 = thayer(
+  "Caesar/Gallic_War/1A",
+  "Caesar, The Gallic War 1.1–29 (Loeb translation)",
+);
+const caesarGallic2 = thayer(
+  "Caesar/Gallic_War/2",
+  "Caesar, The Gallic War, Book 2 (Loeb translation)",
+);
 const caesarGallic7 = thayer(
   "Caesar/Gallic_War/7A",
   "Caesar, The Gallic War, Book 7 (Loeb translation)",
@@ -576,6 +584,7 @@ const liviusMacedonia = liviusRome(
   "Macedonia (8)",
 );
 const liviusCarrhae = liviusRome("battle/carrhae-53-bce", "Carrhae (53 BCE)");
+const liviusSabis = liviusRome("battle/sabis-57-bce", "Sabis (57 BCE)");
 const liviusActium = liviusRome("battle/actium-31-bce", "Actium (31 BCE)");
 const liviusTeutoburg = liviusRome(
   "battle/teutoburg-forest-9-ce/teutoburg-forest-5",
@@ -4464,6 +4473,66 @@ export const campaignDetails: Record<string, CampaignDetails> = {
     ],
     sources: [plutarchCrassus, dio40, liviusCarrhae],
   },
+  "caesar-s-conquest-of-gaul-58-53-bce": {
+    summary:
+      "Caesar’s campaigns in Gaul from the Helvetian migration of 58 BCE to the destruction of the Eburones in 53, before the great revolt of 52.",
+    narrative: [
+      {
+        title: "The Helvetii",
+        text: "In 58 BCE the Helvetii burned their towns and set out to find new land in western Gaul. Caesar broke the bridge at Geneva and closed the Rhone, then followed them through the lands of the Aedui, destroyed the canton still on the near bank of the Saône and, when they attacked him on his way to Bibracte for corn, beat them in a battle that lasted into the night. He sent the survivors home so that Germans would not settle their empty land.",
+        evidence: "fact",
+        studies: ["bibracte"],
+        refs: [{ source: 0, locator: "1.7–28" }, { source: 2 }],
+      },
+      {
+        title: "Ariovistus",
+        text: "The Gallic chiefs then appealed to Caesar against the German king Ariovistus, whom the Romans had inscribed as a friend of the Roman people only the year before. Caesar marched by Vesontio into the plain of Alsace and defeated him; only a few of the Germans, Ariovistus among them, got back across the Rhine.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }],
+      },
+      {
+        title: "The Belgae and the Nervii",
+        text: "In 57 the Belgae of the north-west, alarmed by these successes, formed a league, and only the Remi took Rome’s side. Caesar checked the Belgic army at the Aisne and it dispersed, but the Nervii and their neighbours surprised his army as it made camp beside the Sabis and were destroyed only after Caesar had fought in the front line. The Atuatuci submitted and were later sold into slavery, and by the end of the year, in the Britannica’s account, almost all Gaul except Aquitania acknowledged Roman supremacy.",
+        evidence: "fact",
+        studies: ["sabis"],
+        refs: [{ source: 1, locator: "2.16–28" }, { source: 2 }],
+      },
+      {
+        title: "Brittany, the Rhine and Britain",
+        text: "In 56 the Veneti of Brittany rose and held Roman officers as hostages; a fleet built on the Loire under Decimus Brutus defeated their ships, and Caesar had their senate put to death and the people sold. In 55 he destroyed the Usipetes and Tencteri after seizing their leaders at a parley, which his enemies in Rome called treachery. He bridged the Rhine, and crossed to Britain that year and again in 54, when he crossed the Thames but came back with a tribute that was never paid.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }],
+      },
+      {
+        title: "Revolt in the north",
+        text: "In the winter of 54 the Eburones under Ambiorix destroyed a newly raised legion at Aduatuca, and Quintus Cicero’s besieged camp was relieved only just in time. In 53 Caesar crossed the Rhine again and destroyed the Eburones, though Ambiorix escaped, and at Durocortorum the Senonian chief Acco was condemned for treason and flogged to death. The great revolt broke out early the next year.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 2 }],
+      },
+      {
+        title: "Where the sources disagree",
+        text: "Caesar’s Commentaries are the only full narrative of these years, written by the conqueror year by year for readers in Rome. Plutarch gives the defeat of the Tigurini at the Saône to Labienus, where Caesar claims it for himself. The Livius article argues that the battle with the Nervii was fought on the Selle, not the Sambre, and judges that Caesar exaggerated their losses. The figures Caesar gives for the peoples he fought are not repeated here.",
+        evidence: "uncertainty",
+        studies: ["bibracte", "sabis"],
+        refs: [
+          { source: 0, locator: "1.12" },
+          { source: 3, locator: "18" },
+          { source: 4 },
+          { source: 1, locator: "2.28" },
+        ],
+      },
+    ],
+    sources: [
+      caesarGallic1,
+      caesarGallic2,
+      ebJulius,
+      plutarchCaesar,
+      liviusSabis,
+    ],
+  },
   "gallic-revolt-of-52-bce": {
     summary:
       "The great Gallic rising of 52 BCE under Vercingetorix, from the massacre at Cenabum through Avaricum and Gergovia to the siege and surrender of Alesia.",
@@ -4479,7 +4548,7 @@ export const campaignDetails: Record<string, CampaignDetails> = {
         title: "Avaricum and Gergovia",
         text: "Caesar took Avaricum, and by his own account scarcely eight hundred of about forty thousand people there got away to Vercingetorix. He then besieged Gergovia, the Arvernian capital, but an assault failed with the loss of little less than seven hundred men, and he had to raise the siege. Even the Aedui then went over to the revolt.",
         evidence: "fact",
-        studies: [],
+        studies: ["gergovia"],
         refs: [{ source: 0 }, { source: 1 }],
       },
       {
@@ -4528,21 +4597,21 @@ export const campaignDetails: Record<string, CampaignDetails> = {
         title: "Italy and Spain",
         text: "Pompey had only two legions in Italy and eight in Spain. Caesar went down the Adriatic coast by forced marches, through Corfinium, and caught Pompey at Brundisium but could not stop him embarking for the East. He then turned on Pompey’s lieutenants in Spain, reaching Ilerda on 23 June 49 and, after a dangerous start, outmanoeuvring them into surrender on 2 August.",
         evidence: "fact",
-        studies: [],
+        studies: ["ilerda"],
         refs: [{ source: 2 }, { source: 1 }],
       },
       {
         title: "Dyrrhachium and Pharsalus",
         text: "Caesar crossed to Epirus and tried to blockade Pompey’s larger army at Dyrrhachium, but lost 960 men in one day’s fighting and marched off into Thessaly. At Pharsalus Pompey’s 110 cohorts faced Caesar’s eighty, 22,000 men. Fearing for his right wing against Pompey’s horse, Caesar drew individual cohorts from his third line into a fourth, which met and routed the cavalry and then turned the Pompeian flank.",
         evidence: "fact",
-        studies: ["pharsalus"],
+        studies: ["dyrrhachium", "pharsalus"],
         refs: [{ source: 0, locator: "3.71, 3.88–99" }, { source: 2 }],
       },
       {
         title: "From Egypt to Munda",
         text: "Pompey fled to Egypt and was murdered. Caesar stayed nine months at Alexandria, beat Pharnaces at Zela, and in Africa cut to pieces a republican army of fourteen legions at Thapsus on 6 April 46; Cato killed himself. At Munda on 17 March 45 he crushed the sons of Pompey in a battle so close that Plutarch has him running through the ranks to shame his men.",
         evidence: "fact",
-        studies: [],
+        studies: ["munda"],
         refs: [{ source: 2 }, { source: 3 }],
       },
       {

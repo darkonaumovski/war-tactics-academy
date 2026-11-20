@@ -53,8 +53,12 @@ export const collections: Collection[] = [
         studies: ["cannae", "zama", "cynoscephalae", "pydna"],
       },
       {
-        text: "In the last century of the Republic, the generals who led its wars also fought for power within it. Crassus’s death at Carrhae fixed the Euphrates as a boundary with Parthia and left Pompey and Caesar as the remaining triumvirs. Caesar’s siege lines at Alesia faced the defenders and a relief army at once; at Pharsalus he defeated Pompey, and Livius calls the battle the end of the Republic. Octavian’s victory at Actium left him, as Augustus, ruling alone for over forty years.",
-        studies: ["carrhae", "alesia", "pharsalus", "actium"],
+        text: "In the last century of the Republic, the generals who led its wars also fought for power within it. Caesar’s conquest of Gaul began with a pursuit: he turned the migrating Helvetii back after a battle near Bibracte, and the next year the Nervii nearly overran his camp on the Sabis. Crassus’s death at Carrhae fixed the Euphrates as a boundary with Parthia and left Pompey and Caesar as the remaining triumvirs. In the Gallic revolt of 52 Caesar was thrown back from Gergovia before his siege lines at Alesia faced the defenders and a relief army at once.",
+        studies: ["bibracte", "sabis", "carrhae", "gergovia", "alesia"],
+      },
+      {
+        text: "In the civil war Caesar took Spain from Pompey’s legates at Ilerda without a pitched battle, was beaten by Pompey in the siege lines at Dyrrhachium and then defeated him at Pharsalus, which Livius calls the end of the Republic. His last battle, against Pompey’s sons at Munda, was among his hardest. Octavian’s victory at Actium left him, as Augustus, ruling alone for over forty years.",
+        studies: ["ilerda", "dyrrhachium", "pharsalus", "munda", "actium"],
       },
       {
         text: "The Empire’s wars were fought on its frontiers and in its provinces. Three legions under Varus were destroyed in the Teutoburg ambush, and Tiberius later chose not to occupy Germania east of the Rhine. Suetonius Paulinus crushed Boudica’s revolt at Watling Street. In 70 CE Titus besieged and starved Jerusalem; the city and its Temple were destroyed, and Jews throughout the empire had to pay a special tax.",

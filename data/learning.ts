@@ -1511,4 +1511,106 @@ export const scenarios: Scenario[] = [
       },
     ],
   },
+  {
+    slug: "after-trasimene",
+    title: "March on Rome, or turn away?",
+    battleSlug: "lake-trasimene",
+    commander: "Hannibal Barca",
+    situation:
+      "217 BCE, in Etruria, days after Lake Trasimene. Your army has destroyed the consul Flaminius’s army on the march along the lake, and your cavalry has caught the horsemen the other consul sent ahead to join him. You have sent the allied prisoners home without ransom, telling them you came to fight Rome for the freedom of Italy.",
+    known:
+      "No Roman field army stands between you and the city; the other consul is on the Adriatic side. You have no siege engines, and Rome is a walled city. Your men and horses are worn out by the winter in the open, the marshes and the battle, and many are sick. Not one Italian city has yet come over to you, and you have not been able to send word to Carthage since you crossed the Alps.",
+    unknown:
+      "Whether Rome would treat if you came to its walls, whether its allies will change sides once they see that Rome cannot defend their land, and how quickly Rome can raise new armies.",
+    historical:
+      "Polybius says Hannibal put aside, for the present, the idea of approaching Rome. He marched to the Adriatic, plundering the country and killing the adults his men met on the road, rested his men and horses in a rich land, rearmed his Africans with captured Roman weapons and sent the news to Carthage by sea for the first time. Then he moved south into Apulia. Rome appointed Fabius dictator, and Fabius shadowed him without giving battle. The 1911 Britannica judges that without siege engines he could not hope to take the capital and chose instead to rouse the south; no Italian city went over to him until after Cannae, a year later.",
+    options: [
+      {
+        text: "March on Rome at once, while the city is still in shock.",
+        feedback:
+          "The road was open, but an army without engines could not storm the walls, and a siege would have let Rome gather new forces round a worn army. A failure under the walls would also have shown Rome’s allies that it could hold. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Turn east to the Adriatic, rest and rearm the army in rich country, reach Carthage by sea, and then move south among Rome’s allies.",
+        feedback:
+          "This matches the historical decision. It restored the army and kept the strategy of turning Rome’s allies, but it gave Rome time to appoint Fabius, and for a year no Italian city came over.",
+        historical: true,
+      },
+      {
+        text: "Stay in Etruria and wait for reinforcements from Carthage and the Gauls.",
+        feedback:
+          "Etruria had already been laid waste by your own army, the Gauls wanted war on Roman land for its plunder rather than a halt, and Carthage could not yet be reached. A counterfactual.",
+        historical: false,
+      },
+    ],
+  },
+  {
+    slug: "nero-before-the-metaurus",
+    title: "Hold your front, or march to your colleague?",
+    battleSlug: "metaurus",
+    commander: "Gaius Claudius Nero",
+    situation:
+      "207 BCE, in southern Italy. You are consul, facing Hannibal with your army; your colleague Marcus Livius is in the north facing Hasdrubal, Hannibal’s brother, who has crossed the Alps with a second Carthaginian army. Your foragers have caught Hasdrubal’s messengers on their way to Hannibal, and the despatches say the brothers are to meet in Umbria.",
+    known:
+      "Hannibal has not received the letters and does not know his brother’s plan. The rule that each consul keeps to the province, army and enemy the senate gave him would leave you watching Hannibal while Livius faces Hasdrubal alone. You could take the best of your infantry and cavalry north along the Adriatic, if the towns on the road have food and transport ready, and leave your camp under your second in command.",
+    unknown:
+      "Whether Hannibal will learn that you have gone and attack your weakened camp or follow you north, whether you can reach Livius before Hasdrubal moves, and how Rome will judge you for leaving your province if the march fails.",
+    historical:
+      "Livy says Nero sent the despatches to the senate with advice to cover the road at Narnia, sent couriers ahead to have food and carts ready on his route, and gave out that he was marching on a town in Lucania. He then took a picked force north by night, leaving his camp in place, and joined Livius in secret, entering his camp by night. Rome, Livy says, could not decide whether to praise or condemn him and waited for the result. Hasdrubal’s army was destroyed on the Metaurus; Nero returned to his camp in six days and had Hasdrubal’s head thrown in front of Hannibal’s outposts. Hannibal withdrew into Bruttium.",
+    options: [
+      {
+        text: "Keep your camp in place, give out a march into Lucania, and take a picked force north in secret to join Livius.",
+        feedback:
+          "This matches the historical decision. It broke the rule of provinces and left a weakened camp in front of Hannibal on the bet that he would not find out, and it decided the war away from him before the brothers could meet.",
+        historical: true,
+      },
+      {
+        text: "Hold your front and send the letters to the senate, leaving the north to Livius and whatever forces Rome can raise.",
+        feedback:
+          "It was the lawful course, and Nero did send the letters with advice for the defence of the city; but it would have left one consul to face an army that Rome’s citizens feared as a second Hannibal, with the brothers marching to meet. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Attack Hannibal at once, while he waits for news of his brother.",
+        feedback:
+          "Hannibal had beaten every Roman army that fought him on his own terms, and a defeat in the south would have opened the road for the brothers to join. A counterfactual.",
+        historical: false,
+      },
+    ],
+  },
+  {
+    slug: "africa-in-205",
+    title: "Carry the war to Africa, or finish Hannibal in Italy?",
+    battleSlug: "zama",
+    commander: "Publius Cornelius Scipio",
+    situation:
+      "205 BCE, in Rome. You are consul, elected with enthusiasm after driving Carthage out of Spain. Hannibal is still in Italy, in Bruttium. You want Africa as your province; the leaders of the senate do not, and Fabius has challenged you in the senate to say whether you will abide by its decision or take the question to the people.",
+    known:
+      "Carthage’s armies are mostly hired, and its African allies are kings who have changed sides before: King Syphax has received your envoy, and Masinissa has promised to serve Rome in Africa. Fabius argues that Africa has no harbour, city or friendly king to receive a Roman army, that Regulus was destroyed there in the last war, and that Hannibal is still in Italy. The tribunes have ruled that if you submit the question to the senate its decision will bind you, and if you do not they will support any senator who refuses to vote. Your colleague is pontifex maximus and cannot leave Italy.",
+    unknown:
+      "Whether Carthage would recall Hannibal if Africa were invaded, whether the Numidian kings will keep faith, and whether the senate will give you the men and money you need.",
+    historical:
+      "Livy says Scipio asked for a day to consult his colleague and then submitted to the senate, which gave him Sicily with leave to cross to Africa if he thought it in the state’s interest. Refused a levy, he enlisted volunteers and accepted timber, iron, sailcloth, grain and arms from the towns of Etruria and other allies; Plutarch says Fabius blocked public money and had his forces limited. After the scandal at Locri a senate commission inspected his army and told him to sail. He landed in 204, burned the Carthaginian and Numidian camps in 203, Syphax having taken Carthage’s side, and Carthage recalled Hannibal, whom Scipio beat at Zama in 202.",
+    options: [
+      {
+        text: "Take the question to the people’s assembly if the senate refuses you Africa.",
+        feedback:
+          "It was lawful in form and the people were with you, but the tribunes had said they would back senators who refused to vote, and it would have made you the consul Fabius described, carrying armies where you pleased like a king. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Accept the war against Hannibal in Bruttium, as Fabius urges, and finish him in Italy first.",
+        feedback:
+          "Hannibal was still dangerous and the case was a serious one, but it meant fighting him on ground he knew while Carthage kept Africa untouched, in a war already in its fourteenth year. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Submit to the senate, accept Sicily with leave to cross, and raise the rest from volunteers and allies.",
+        feedback:
+          "This matches the historical decision. It gave Scipio less than he asked and left him open to Fabius’s attacks and to the scandal at Locri, but it kept the state behind him, and the invasion drew Hannibal out of Italy.",
+        historical: true,
+      },
+    ],
+  },
 ];

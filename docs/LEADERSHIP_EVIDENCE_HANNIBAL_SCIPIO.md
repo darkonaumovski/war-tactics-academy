@@ -95,6 +95,10 @@ Grades: **strong** means the lesson's main claims and its counter-evidence are i
 30. **Polybius's closeness to the Scipios is confirmed** by the 1911 Britannica's "Polybius": the lifelong friend of Scipio Aemilianus, the future conqueror of Carthage, who more than once paid for his researches. The orientation can say so with that source.
 31. **Lesson 5's counter-case is Pompey** (added in batch H1), because Barclay already serves the same point in `the-only-army`; lesson 10 needs another counter-case.
 32. **Lesson 7's counter-case is Hasdrubal son of Gisco at Ilipa** (added in batch H1), who learned Scipio's routine and was deceived by it.
+33. **Lesson 2's counter-case is Marmont at Salamanca** (added in batch H2), who read a pattern of retreat as Wellington's character (Oman V, pp. 421–431). Napoleon misjudging Wellington was not used, because no source read gives the misjudgement.
+34. **Lesson 4's counter-case is Napoleon's army of 1812–1813** (added in batch H2), whose allied contingents followed their governments after the retreat from Moscow (Britannica); Wellington's allied army is linked as the opposite case, because it held.
+35. **Tarentum and the Italian soldiers were read in batch H2**: Livy 25.7–10 (the hostages scourged and thrown from the Rock, the terms, the betrayal) and 27.15–16 (the recapture); Appian, _War against Hannibal_ 56–61, and Livy 30.20 on the Italians who refused to sail, in two incompatible versions, both given as uncertain.
+36. **At Cannae Polybius makes battle the senate's decision** (3.107), not only Varro's; lesson 2 sets this against the portrait of a rash consul, beside Jona Lendering's dissent on Flaminius.
 
 ## Psychology to read in the batches
 

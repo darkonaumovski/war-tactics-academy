@@ -1,7 +1,8 @@
 import type { LeadershipVolume, Source } from "../../lib/types";
 // Volume 7, shared by Hannibal and Scipio, written in reviewed batches (batch
 // H1, the pilot, is lessons 0, the record, 5, Rome's answer, and 7, Scipio
-// learning from the enemy); docs/LEADERSHIP_EVIDENCE_HANNIBAL_SCIPIO.md records
+// learning from the enemy; batch H2 is lessons 1 to 4, Hannibal's war);
+// docs/LEADERSHIP_EVIDENCE_HANNIBAL_SCIPIO.md records
 // which sources can carry each lesson, and docs/SOURCE_AUDIT.md how each was
 // read. Polybius and Plutarch are the Loeb translations on LacusCurtius, Livy
 // is Canon Roberts's translation on Wikisource; locators are book and chapter,
@@ -35,6 +36,8 @@ const s = {
   pol23: polybius(23),
   livy21: livy(21),
   livy22: livy(22),
+  livy23: livy(23),
+  livy25: livy(25),
   livy26: livy(26),
   livy27: livy(27),
   livy28: livy(28),
@@ -57,14 +60,59 @@ const s = {
     url: "https://www.livius.org/sources/content/appian/appian-the-spanish-wars/appian-the-spanish-wars-6/",
     publisher: "Livius.org (Jona Lendering)",
   },
+  appianHannibal12: {
+    title: "Appian, The War against Hannibal 56–61, trans. Horace White",
+    url: "https://www.livius.org/sources/content/appian/appian-war-against-hannibal/appian-war-against-hannibal-12/",
+    publisher: "Livius.org (Jona Lendering)",
+  },
+  liviusTrasimene: {
+    title: "Jona Lendering, Lake Trasimene (217 BCE)",
+    url: "https://www.livius.org/articles/battle/lake-trasimene/",
+    publisher: "Livius.org",
+  },
+  caesarGallic2: thayer(
+    "Caesar/Gallic_War/2",
+    "Caesar, The Gallic War, Book 2, trans. H. J. Edwards (Loeb Classical Library, 1917)",
+  ),
+  oman5: {
+    title:
+      "Charles Oman, A History of the Peninsular War, vol. V: October 1811–August 1812 (Oxford: Clarendon Press, 1914)",
+    url: "https://archive.org/details/historyofpeninsu05oman",
+    publisher: "Internet Archive",
+  },
+  britRussia: {
+    title:
+      "Napoleonic Wars: France and northern Europe, 1809–12, and the Russian campaign (Britannica Editors)",
+    url: "https://www.britannica.com/event/Napoleonic-Wars/France-and-northern-Europe-1809-12",
+    publisher: "Encyclopædia Britannica",
+  },
+  britRetreat: {
+    title:
+      "Napoleonic Wars: The retreat from Moscow and the campaign of 1813 (Britannica Editors)",
+    url: "https://www.britannica.com/event/Napoleonic-Wars/The-retreat-from-Moscow",
+    publisher: "Encyclopædia Britannica",
+  },
   ciceroCato: {
     title: "Cicero, Cato maior de senectute (Latin text)",
     url: "https://la.wikisource.org/wiki/Cato_maior_de_senectute",
     publisher: "Wikisource (Latin)",
   },
+  ebHannibal: eb1911("Hannibal_(general)", "Hannibal (general)"),
   ebPolybius: eb1911("Polybius", "Polybius"),
   ebPunic: eb1911("Punic_Wars", "Punic Wars"),
   ebScipio: eb1911("Scipio", "Scipio"),
+  gilbertMalone: {
+    title:
+      "Daniel Gilbert and Patrick Malone, The correspondence bias (1995), abstract",
+    url: "https://pubmed.ncbi.nlm.nih.gov/7870861/",
+    publisher: "Psychological Bulletin (PubMed)",
+  },
+  vanKnippenberg: {
+    title:
+      "Daan van Knippenberg and Michaéla Schippers, Work group diversity (2007), abstract",
+    url: "https://pubmed.ncbi.nlm.nih.gov/16903805/",
+    publisher: "Annual Review of Psychology (PubMed)",
+  },
   taylor: {
     title:
       "Paul Taylor, Darlene Russ-Eft and Daniel Chan, A meta-analytic review of behavior modeling training (2005), abstract",
@@ -350,6 +398,1020 @@ export const hannibalScipioVolume: LeadershipVolume = {
         s.livy22,
         s.pol11,
         s.suetonius,
+      ],
+    },
+    {
+      slug: "over-the-alps",
+      title: "Over the Alps: carrying the war into the enemy’s country",
+      part: "Hannibal’s war",
+      themes: ["judgement", "adaptation"],
+      claim:
+        "Carrying a war into the enemy’s own country can turn the enemy’s strength against it, but only while the invader can live off the land and enough of the enemy’s allies change sides to make up for what home cannot send.",
+      inBrief: {
+        strength:
+          "Hannibal took the war to Italy, where he could feed on the country and offer Rome’s allies their freedom.",
+        shadow:
+          "Most of the allies stayed, Rome would not treat, and Italy was laid waste by both armies for fifteen years.",
+      },
+      moment: {
+        text: "Before he left Spain, Polybius writes, Hannibal had informed himself accurately about the fertility of the land at the foot of the Alps and along the Po, how thickly it was peopled, how brave its men were in war, and above all how they had hated Rome since their last war with it. He sent messengers with unlimited promises to the Celtic chiefs on both sides of the mountains, judging that the only way to carry the war into Italy was to reach that country and make the Celts his partners. When the messengers came back to say that the Celts consented and were waiting, and that the crossing was very toilsome but by no means impossible, he drew his army out of winter quarters. The invasion was planned around a people, not a road.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "3.34" }],
+      },
+      episodes: [
+        {
+          title: "The price of the passes",
+          text: "The road cost more than any battle of that year. Polybius says that rivers, hostile tribes and the precipices of the Alps had cost Hannibal many men and a far greater number of horses and pack animals, and that the survivors came down into the plain more like beasts than men, worn out by toil and want of food; he gives the strength Hannibal himself recorded on the tablet at Lacinium, and those figures are left out here. The 1911 Britannica, in Caspari’s article, judges the march one of the most memorable achievements of any army of antiquity, because it brought the war straight into Roman territory and frustrated Rome’s plan to fight the main issue abroad. Hannibal rested the army, then approached the Taurini, who refused his alliance.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "3.56, 3.60" }, { source: 3 }],
+          battleSlugs: [],
+          campaignSlugs: ["hannibal-s-italian-campaign"],
+        },
+        {
+          title: "The first allies",
+          text: "The plan began to work after the first clash. Once the Carthaginian prospects looked brighter after the Ticinus, Polybius says, the Celtic contingents serving in the Roman army fell on the Romans camped nearest them at night and went over; Hannibal sent them home to bring their peoples in, and the Celts of the plain kept his camp supplied before the Trebia. Polybius gives the reason he attributes to Hannibal for fighting there so soon: a general who has brought his army into a foreign country on such a venture has only one hope of safety, to keep his allies’ hopes alive. Victory was not the aim but the means; the aim was a following.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "3.67–68, 3.70" }],
+          battleSlugs: ["ticinus", "trebia"],
+        },
+        {
+          title: "Living on the country",
+          text: "The following had a price. Polybius says the Celts disliked the war being fought in their own land and wanted to invade the enemy’s, chiefly in hope of plunder; the Britannica adds that their zeal abated once Hannibal’s army was quartered on them for the winter. So in 217 he went south, and after Trasimene ravaged the country to the Adriatic. In Campania he tried to force the issue on Rome’s allies directly: either Fabius would fight, or it would be plain to everyone that the Romans were abandoning the country, and the towns would hurry to change sides. Polybius adds that up to then, after two Roman defeats, not one Italian city had gone over.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "3.78, 3.86, 3.90" }, { source: 3 }],
+          battleSlugs: ["lake-trasimene"],
+          campaignSlugs: ["hannibal-s-italian-campaign"],
+        },
+        {
+          title: "After Cannae",
+          text: "Cannae brought what the plan required: the south of Italy began to come over. It did not bring the other thing an invasion needs, an enemy willing to treat. Polybius says the Romans expected Hannibal at the city any moment, and that the senate deliberated with manly coolness. Livy gives the counter-argument in the Carthaginian senate to Hanno, an enemy of the Barcid house, in a speech of Livy’s composing: had any Roman envoy come to sue for peace, had anyone in Rome even spoken the word? If not, Carthage had as much war before it as on the day Hannibal entered Italy. The senate voted reinforcements anyway. The Alexander volume’s lesson on Parmenion’s advice reads Maharbal’s reproach after the battle. The Britannica judges that after Trasimene, without siege engines, Hannibal could not hope to take Rome, and that after Cannae only proper reinforcements from home might have made a direct attack possible.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "3.118" },
+            { source: 2, locator: "23.13" },
+            { source: 1, locator: "22.51, 22.61" },
+            { source: 3 },
+          ],
+          battleSlugs: ["cannae"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Polybius",
+          stake:
+            "A Greek who wrote two generations later among Hannibal’s enemies, who admired the general and judged the plan.",
+          says: "Hannibal inquired carefully before he marched; had he begun with the rest of the world and finished with the Romans, none of his plans would have failed.",
+          refs: [
+            { source: 0, locator: "3.34, 3.48" },
+            { source: 4, locator: "11.19" },
+          ],
+        },
+        {
+          who: "Livy",
+          stake:
+            "A Roman historian writing under Augustus, for whom the war is the story of Rome’s endurance.",
+          says: "The day’s delay after Cannae is believed to have saved the city and the empire, and no one in Rome spoke of peace.",
+          refs: [{ source: 1, locator: "22.51, 22.61" }],
+        },
+        {
+          who: "Hanno, as Livy reports him",
+          stake:
+            "A Carthaginian senator hostile to Hannibal’s family, in a speech Livy composed two centuries later.",
+          says: "A victory that brings no Roman offer of peace has not shortened the war.",
+          refs: [{ source: 2, locator: "23.13" }],
+        },
+        {
+          who: "The 1911 Britannica (M. O. B. Caspari)",
+          stake:
+            "A modern classical scholar, admiring of Hannibal, who notes that nearly all that is known of him comes from hostile sources.",
+          says: "The march frustrated Rome’s plan to fight abroad; Hannibal could not take Rome without siege engines, and Carthage gave him only grudging support.",
+          refs: [{ source: 3 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, the invasion answered a real problem. Rome meant, the Britannica says, to fight out the main issue on foreign ground; a Carthaginian army that waited in Spain would fight on Rome’s terms. Italy offered what Spain could not: a rich country to feed an army far from home, and Celts who had fought Rome within living memory and hated it still. Polybius’s account shows the measure Hannibal set himself. He freed allied prisoners and spoke of the freedom of Italy, and he fought early at the Trebia to keep his new allies’ hopes alive. The strategy was judged by defections, not by battles, and by that measure it stalled for two years after its first success among the Celts.",
+          evidence: "interpretation",
+          refs: [
+            { source: 3 },
+            { source: 0, locator: "3.34, 3.70, 3.77, 3.90" },
+          ],
+        },
+        {
+          text: "The choice after Cannae should be judged the same way. A march on Rome would have meant a siege, without engines, of a walled city whose senate was spending what it had on arming even slaves, while allies waited to be won in the south. Hannibal chose the south. When he did come to Rome, in 211, it was to draw the armies besieging Capua away from it; Livy has him ride up to the Colline Gate to look at the walls, and says that although one proconsul brought part of his army to the city, the siege of Capua went on unrelaxed. Rome had read the march for what it was. The strategy’s weak point was not that it avoided Rome but that it needed Rome to behave like a defeated state, and Rome would not.",
+          evidence: "interpretation",
+          refs: [
+            { source: 5, locator: "26.10, 26.12" },
+            { source: 0, locator: "3.118" },
+            { source: 1, locator: "22.61" },
+            { source: 3 },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "It would be easy to call the invasion overconfident, or to admire it as nerve. Neither reading rests on anything but the outcome, and no research on risk or confidence was read for this lesson. Hannibal’s reasoning reaches us almost entirely through Polybius, who reconstructs it, and the one Carthaginian argument against the war is a speech Livy wrote for an enemy of the Barcids. The lesson judges the plan by what it needed and what it got.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered and no study is cited; the motives in this lesson are those the ancient historians attribute.",
+        },
+      ],
+      shadow: {
+        text: "An army that lives on the enemy’s country lives on the people in it. To provoke Flaminius, Polybius says, Hannibal burned and wasted Etruria, and after Trasimene he ravaged his way to the Adriatic with orders to kill the adults his men met on the road, as at the storming of a city, which Polybius puts down to his hatred of Rome. Rome’s own allies paid for resisting him: by 209 the Latin colonies told the consuls that ten years of levies and taxes had drained them. The strategy that was meant to free Italy’s peoples was paid for by them, on both sides.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "3.82, 3.86" },
+          { source: 8, locator: "27.9" },
+        ],
+      },
+      counterCase: {
+        text: "Napoleon’s invasion of Russia in 1812 shows the same strategy failing faster. Britannica’s account says he assembled the largest army Europe had ever seen, with unprecedented efforts at supply and transport that were still quite insufficient for an advance so far into Russia, and that he wrongly supposed the campaign would be over within a month. The Russians retreated; marching and the failure of the commissariat, not combat, took a heavy toll before Moscow, and forage failed the horses. The Russians then refused to come to terms. The Napoleon volume’s lesson on knowing when to stop reads the month at Moscow, and the Caesar volume’s lesson on speed sets Hannibal beside Caesar; the comparison here is narrower. Hannibal invaded a country that could feed his army, and he kept it there for fifteen years. Napoleon invaded one that could not, and lost his army in a season. Both waited for an enemy to make peace who would not.",
+        evidence: "interpretation",
+        refs: [{ source: 6 }, { source: 7 }],
+        commanderSlug: "napoleon-bonaparte",
+        battleSlugs: [],
+      },
+      cost: {
+        text: "The first people to meet the invasion in Italy were the Taurini, at the foot of the mountains. When they refused Hannibal’s offer of friendship, Polybius writes, he surrounded their chief town, took it in three days and massacred those who had opposed him, which so terrified the neighbouring tribes that they all came in and submitted. The war that promised the peoples of Italy their liberty opened with the destruction of one of them.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "3.60" }],
+      },
+      transfer: {
+        holdsWhen: [
+          "The place you carry the contest into can sustain you, and the people there have reasons of their own to join you.",
+          "Each success is measured by what it brings over to your side, not by the size of the win.",
+        ],
+        failsWhen: [
+          "The plan assumes the opponent will behave as a beaten party should, and the opponent refuses.",
+          "Support from home is grudging, so that every loss must be replaced from the ground you stand on.",
+        ],
+        questions: [
+          "If you took the contest onto your competitor’s ground, what would feed you there, and who would join you?",
+          "What would your opponent have to do for your strategy to succeed, and what if they simply refuse?",
+          "Who pays for your presence in the places you are trying to win?",
+        ],
+      },
+      bearsOn:
+        "This is the first evidence for the answer ‘Hannibal’s strategy’, and it is mixed. The invasion achieved what it could control: an army in Italy, fed by Italy, victorious for three years. It depended on two things it could not control, the allies’ choice and Rome’s will to go on, and both went against it, the second most of all. Polybius’s verdict that Hannibal began with the enemy he should have left to last is a judgement on exactly that dependence, and Hanno’s question, as Livy gives it, states it from Carthage.",
+      questions: [
+        {
+          prompt:
+            "What did Hannibal inquire into before marching, according to Polybius?",
+          choices: [
+            "The best pass over the Alps for elephants.",
+            "The fertility and population of the Po valley, its men’s bravery and their hatred of Rome.",
+            "The strength of Rome’s walls.",
+          ],
+          answer: 1,
+          explanation:
+            "Polybius 3.34: the invasion was planned around the Celts as partners.",
+        },
+        {
+          prompt:
+            "What did Polybius say about Italian cities before Cannae, despite two Roman defeats?",
+          choices: [
+            "That most had gone over to Hannibal.",
+            "That not one had changed sides, which showed the awe the allies felt for Rome.",
+            "That Rome had disbanded its alliances.",
+          ],
+          answer: 1,
+          explanation: "Polybius 3.90, during the campaign in Campania.",
+        },
+        {
+          prompt:
+            "Why, in the speech Livy gives him, did Hanno doubt that Cannae had shortened the war?",
+          choices: [
+            "Because Hannibal had lost too many men.",
+            "Because no Roman had asked for peace or even mentioned it.",
+            "Because Carthage had no money.",
+          ],
+          answer: 1,
+          explanation:
+            "Livy 23.13; the speech is Livy’s composition, given to an opponent of Hannibal’s family.",
+        },
+      ],
+      sourceCheck: {
+        question: "Why did Hannibal not march on Rome after Cannae?",
+        witnesses: [
+          {
+            label: "Livy 22.51",
+            claim:
+              "That day’s delay is believed to have saved the city and the empire.",
+          },
+          {
+            label: "Polybius 3.118",
+            claim:
+              "Rome expected him at any moment, but its senate kept its head and its constitution brought it through.",
+          },
+          {
+            label: "1911 Britannica, “Hannibal”",
+            claim:
+              "After Trasimene, without siege engines, he could not hope to take Rome; after Cannae, with proper reinforcements he might have attacked it.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Livy settles it: Hannibal hesitated and lost the war that day.",
+            feedback:
+              "Livy reports a belief, written two centuries later by a Roman for whom Rome’s survival was the story; it is a verdict, not evidence of what a march could have done.",
+          },
+          {
+            text: "Set the belief against the means: a siege without engines, a senate that kept its head and allies to be won in the south; the choice is defensible, and the strategy’s weakness lay elsewhere.",
+            feedback:
+              "This judges the choice by what was knowable and keeps Livy’s verdict as evidence of how Romans later saw it.",
+            best: true,
+          },
+          {
+            text: "None of them can be used, because they disagree.",
+            feedback:
+              "Disagreement is the evidence: each witness shows what its writer thought decided the war.",
+          },
+        ],
+        battleSlug: "cannae",
+      },
+      seminar: {
+        prompt:
+          "Spring 218, New Carthage. Argue whether Hannibal should invade Italy or wait for Rome in Spain, from three positions: a Celtic chief of the Po valley, a member of the Carthaginian senate, and one of Rome’s Latin colonists.",
+        guidance:
+          "Use Polybius’s account of Hannibal’s inquiries, the cost of the passes, the first Celtic allies and the silence of the Italian cities before Cannae. Say what each speaker could know in 218, and who would pay for each choice.",
+      },
+      sources: [
+        s.pol3,
+        s.livy22,
+        s.livy23,
+        s.ebHannibal,
+        s.pol11,
+        s.livy26,
+        s.britRussia,
+        s.britRetreat,
+        s.livy27,
+      ],
+    },
+    {
+      slug: "reading-the-consul",
+      title: "Reading the consul: knowing the enemy commander",
+      part: "Hannibal’s war",
+      themes: ["judgement", "adaptation"],
+      claim:
+        "A commander who studies the opposing general’s character can set traps that general will walk into, but only while the enemy keeps sending the same kind of commander, and only if the reading is of the person in front of him rather than of a reputation.",
+      inBrief: {
+        strength:
+          "Hannibal read Sempronius and Flaminius and drew each into battle on ground of his choosing.",
+        shadow:
+          "Rome sent Fabius, who would not be drawn, and the portraits of the rash consuls were written by their political enemies.",
+      },
+      moment: {
+        text: "Camped at the edge of the Etrurian marshes in 217, Polybius writes, Hannibal learned that the country ahead promised rich plunder and that the consul Flaminius was a demagogue and a courtier of the mob, with no talent for war and great confidence in himself. He reckoned that if he marched past the Roman army and laid the country waste, Flaminius would not look on for fear of his soldiers’ jeers, and would follow anywhere to win the victory before his colleague arrived. Polybius stops to praise the reasoning: anyone who thinks there is anything more essential to a general than knowing his opponent’s principles and character is ignorant and foolish. As a swordsman looks for the unprotected part of the body, a commander must look for the weak spots in the enemy general’s mind.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "3.80–81" }],
+      },
+      episodes: [
+        {
+          title: "The Trebia: a consul with a deadline",
+          text: "In December 218 the consul Sempronius had won a skirmish and wanted a battle. His colleague Scipio, wounded, advised waiting through the winter. Polybius gives Sempronius’s motive as ambition: he wanted to fight before Scipio recovered and before the consuls of the next year took office. Hannibal, Polybius says, knew that Sempronius was sure to be aggressive. Livy adds how he knew: he had heard by report that one consul was impetuous and headstrong, found it confirmed by the skirmish, and sent Gauls, who served in both armies, to see whether the Romans were preparing for battle. The ambush in the stream bed and the Romans drawn across the river before breakfast followed from the reading.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "3.70–71" },
+            { source: 1, locator: "21.53" },
+          ],
+          battleSlugs: ["trebia"],
+        },
+        {
+          title: "Trasimene: a consul provoked",
+          text: "Livy says that after the marshes Hannibal investigated as carefully as he could the consul’s mood and plans, then burned the country within his sight to make his faults show more plainly. Both Polybius and Livy describe Flaminius’s officers urging him to wait for his colleague, and Flaminius asking what Rome would say if the army sat still while Italy burned. Plutarch calls him fiery and ambitious, elated by an earlier victory won against the senate’s wishes. Jona Lendering, writing for Livius, dissents: in his reading Flaminius was too careful to take the bait, followed Hannibal at a distance to avoid his cavalry, and was caught because he did not know exactly where the enemy had gone, marching along the road between the hills and the lake in morning fog.",
+          evidence: "fact",
+          refs: [
+            { source: 2, locator: "22.3" },
+            { source: 0, locator: "3.82" },
+            { source: 3, locator: "2–3" },
+            { source: 4 },
+          ],
+          battleSlugs: ["lake-trasimene"],
+        },
+        {
+          title: "A commander who would not be drawn",
+          text: "Fabius gave Hannibal nothing to read. Livy says Hannibal saw at once that he faced a different kind of commander from Flaminius or Sempronius. So he read the politics around Fabius instead. Plutarch says that when Hannibal reached Fabius’s own estates he had everything around them burned and those alone spared and guarded, to bring more odium on him at Rome, where the tribunes were already denouncing him. Years later, Livy says, Hannibal had the leaders of Metapontum write to Fabius offering to surrender their town, meaning to ambush him on the way; Fabius believed the letter, and was saved, in Livy’s account, by unfavourable omens and by the messengers’ confession.",
+          evidence: "fact",
+          refs: [
+            { source: 2, locator: "22.12" },
+            { source: 3, locator: "5, 7" },
+            { source: 7, locator: "27.16" },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["hannibal-s-italian-campaign"],
+        },
+        {
+          title: "Cannae: a reading and a decision",
+          text: "Before Cannae, Livy says, Hannibal knew as much of the Roman camp as of his own: that the consuls quarrelled, that many of the soldiers were recruits, and that a skirmish he had lost would bait Varro into more rashness. Polybius tells it differently. The senate in Rome had already decided to give battle and sent both consuls to do it; at the river, Aemilius wanted to draw the enemy onto ground where infantry would decide, and Varro, through inexperience in Polybius’s word, advanced on his day of command. At Cannae Hannibal’s reading of a consul met a state that had chosen to fight.",
+          evidence: "fact",
+          refs: [
+            { source: 2, locator: "22.41" },
+            { source: 0, locator: "3.107, 3.110" },
+          ],
+          battleSlugs: ["cannae"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Polybius",
+          stake:
+            "A Greek who wrote as the friend of a leading Roman family and for statesmen, and who makes the commander’s study of his enemy a rule of generalship.",
+          says: "Flaminius was a demagogue, Varro inexperienced, and the general who sees his opponent’s faults will soonest win.",
+          refs: [{ source: 0, locator: "3.80–81, 3.110" }],
+        },
+        {
+          who: "Livy",
+          stake:
+            "A Roman historian who drew on annalists such as the senator Fabius Pictor, and in whose pages the consuls who defied the senate come off badly; he gives Fabius a speech calling Varro more dangerous than Hannibal, which is Livy’s own composition.",
+          says: "Flaminius respected neither gods, senate nor laws; Varro was impetuous and headstrong.",
+          refs: [{ source: 2, locator: "22.3, 22.7, 22.39, 22.41" }],
+        },
+        {
+          who: "Plutarch",
+          stake:
+            "A Greek biographer writing about three centuries later, whose hero is Fabius.",
+          says: "Flaminius was fiery and ambitious; of all Fabius’s enemies only Hannibal understood him.",
+          refs: [{ source: 3, locator: "2–3, 5" }],
+        },
+        {
+          who: "Jona Lendering",
+          stake:
+            "A modern historian writing for a general readership, reading the campaign from the ground and the map.",
+          says: "Flaminius was too careful to swallow the bait, and was caught by a trap he could not see in the fog.",
+          refs: [{ source: 4 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, Hannibal’s readings were not guesses about temperament alone. Livy has him start from report and wait for behaviour to confirm it; Polybius has him calculate from the consul’s position as well as his character. What he exploited was a feature of the Roman system: consuls served for a year, commanded in turn and answered to citizens watching their fields burn, so that every consul had reasons to fight soon. A commander who reads the institution as well as the man is less likely to be surprised when the man turns out to be careful, as Flaminius may have been.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "21.53" },
+            { source: 0, locator: "3.70, 3.82" },
+          ],
+        },
+        {
+          text: "The method’s limit was that the enemy could change what there was to read. Rome appointed a dictator after Trasimene, and Fabius refused battle; Hannibal’s answer, to work on Fabius’s critics at home, nearly succeeded, and the critics won in 216. After Cannae Rome did not give him another field army to read on his terms, and this volume’s lesson on the Delayer follows that change. When Tarentum was retaken by a ruse in 209, Livy has Hannibal remark that the Romans too had their Hannibal. The Napoleon volume’s lesson on rivals who learn makes the general point: the side that keeps losing has more reason to study the winner than the winner has to change.",
+          evidence: "interpretation",
+          refs: [
+            { source: 3, locator: "7" },
+            { source: 7, locator: "27.16" },
+            { source: 0, locator: "3.107" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Reading character from behaviour the situation explains",
+          base: "review",
+          text: "Gilbert and Malone describe the correspondence bias as the tendency to infer a person’s lasting dispositions from behaviour that the situation could entirely explain, and call its causes poorly understood. The Napoleon volume used the same review to warn against reading genius into a young general’s victories. Here it cuts two ways. Hannibal’s readings worked best when he read the situation too: a consul with a deadline, a consul whose land was burning. And the historians who explain Rome’s defeats by the rashness of Flaminius and Varro may be making the same inference about them, when Polybius himself says the senate had decided to fight at Cannae.",
+          evidence: "interpretation",
+          refs: [{ source: 5 }, { source: 0, locator: "3.107" }],
+          limit:
+            "Only the abstract was read. The research concerns modern observers judging other people; it cannot show what Hannibal thought, or whether Flaminius and Varro were in fact rash.",
+        },
+      ],
+      shadow: {
+        text: "The lesson rests on portraits that may be politics. Flaminius was a popular consul, as Lendering calls him, who had fought the Gauls against the senate’s wishes in Plutarch’s account, and the writers who call him a demagogue wrote from the senate’s side; Livy’s Varro is drawn in the same colours. Livy’s own Rome treated the defeated Varro better than his history does: it thanked him for not despairing of the republic. A reader who learns from these sources to read an opponent’s character may be learning the historians’ prejudices about men they blamed for disaster.",
+        evidence: "interpretation",
+        refs: [
+          { source: 4 },
+          { source: 3, locator: "2" },
+          { source: 2, locator: "22.3, 22.61" },
+          { source: 0, locator: "3.80" },
+        ],
+      },
+      counterCase: {
+        text: "Marshal Marmont read Wellington at Salamanca in 1812 and was destroyed by the reading. Oman writes that after days of manoeuvre in which the allies had given ground whenever outflanked, Marmont, by his own exculpatory dispatch, was convinced that Wellington would retire again the moment his flank was threatened. He took the shifting of British reserves behind a crest for the start of a retreat and pushed his left forward to catch the rearguard; Jourdan wrote that he extended it much too far. Wellington, Oman says, was still hoping the French would commit themselves to some premature movement, with every man in hand. The Wellington volume’s lesson on the afternoon at Salamanca reads the day from Wellington’s side. Marmont had read a pattern as a character, when the pattern belonged to a situation that Wellington could end whenever the enemy erred.",
+        evidence: "interpretation",
+        refs: [{ source: 6, locator: "pp. 421–431" }],
+        commanderSlug: "auguste-de-marmont",
+        battleSlugs: ["salamanca-1812"],
+      },
+      cost: {
+        text: "The men who paid for a consul’s reading were the soldiers in the defile. At Trasimene, Polybius writes, the Romans were attacked from all sides in the mist and cut down in marching order, betrayed, as he puts it, by their commander’s lack of judgement; those driven into the lake stood with only their heads above water and were killed by the cavalry riding in after them. Livy adds that Flaminius was killed by an Insubrian horseman who recognised him as the man who had laid waste his people’s land.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "3.84" },
+          { source: 2, locator: "22.6" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "The people you compete against are chosen by a system that keeps producing the same pressures, and you can see both the person and the pressures.",
+          "Reports about a rival’s character are tested against what the rival actually does before anything is staked on them.",
+        ],
+        failsWhen: [
+          "The other side changes who leads it, or how, and the old reading is applied to a new opponent.",
+          "The portrait you are working from was drawn by the rival’s own enemies, or by those who need to explain a defeat.",
+        ],
+        questions: [
+          "What do you know about your main rival’s leader that you have checked against behaviour, and what only by report?",
+          "Which pressures on that leader, rather than their character, explain what they do?",
+          "If they were replaced tomorrow by someone careful, which of your plans would still work?",
+        ],
+      },
+      bearsOn:
+        "The lesson tests the volume’s premise that Hannibal was the better tactician. His great victories came from reading Roman commanders and a Roman system that kept giving him commanders under pressure to fight. When Rome changed the system, the reading had less to work on, and the later years in Italy show no battle of the same kind. That strengthens the answer ‘Rome’s system’: the better tactician was beaten partly by an enemy that stopped offering him the battles he was best at. And the portraits of the consuls he beat come from the record, the fourth answer, written by their political opponents.",
+      questions: [
+        {
+          prompt:
+            "Why, according to Polybius, did Sempronius want to fight at the Trebia so soon?",
+          choices: [
+            "Because his army was starving.",
+            "Because he wanted the victory for himself before his colleague recovered and the new consuls took office.",
+            "Because the senate ordered it.",
+          ],
+          answer: 1,
+          explanation:
+            "Polybius 3.70; Hannibal, Polybius says, knew he was sure to be aggressive.",
+        },
+        {
+          prompt:
+            "How, according to Plutarch, did Hannibal try to turn Rome against Fabius?",
+          choices: [
+            "By bribing the tribunes.",
+            "By sparing Fabius’s own estates while burning everything around them.",
+            "By offering him a separate peace.",
+          ],
+          answer: 1,
+          explanation: "Plutarch, Fabius 7.",
+        },
+        {
+          prompt:
+            "What does Polybius say about the decision to fight at Cannae?",
+          choices: [
+            "That Varro chose battle against the senate’s orders.",
+            "That the senate had decided to give battle and sent both consuls to do it.",
+            "That Hannibal forced a battle the Romans did not want.",
+          ],
+          answer: 1,
+          explanation:
+            "Polybius 3.107; the dispute between the consuls was over where and when, at 3.110.",
+        },
+      ],
+      sourceCheck: {
+        question: "Was Flaminius rash?",
+        witnesses: [
+          {
+            label: "Polybius 3.80–82",
+            claim:
+              "A demagogue with no talent for war, who could not bear to watch the country burn and pursued regardless of time or place.",
+          },
+          {
+            label: "Livy 22.3",
+            claim:
+              "Overbearing and contemptuous of gods, senate and laws; he overrode his officers and marched.",
+          },
+          {
+            label: "Jona Lendering, Livius",
+            claim:
+              "Too careful to take the bait; he followed at a distance and was caught in fog without knowing where the enemy was.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Accept the ancient verdict: two independent sources agree.",
+            feedback:
+              "Polybius and Livy drew on the same Roman tradition, which was hostile to popular consuls; their agreement is weaker than it looks.",
+          },
+          {
+            text: "Treat the portrait as a political judgement to be tested against the movements: he followed, kept his distance and was surprised in fog, which fits caution as well as rashness.",
+            feedback:
+              "This separates what Flaminius did from what his enemies said he was, and keeps the modern dissent as an interpretation, not a fact.",
+            best: true,
+          },
+          {
+            text: "Accept the modern view, because modern historians are neutral.",
+            feedback:
+              "A modern reading is an argument from the same evidence; it shows the ancient portrait can be questioned, not that it is wrong.",
+          },
+        ],
+        battleSlug: "lake-trasimene",
+      },
+      seminar: {
+        prompt:
+          "In the winter of 217 a Carthaginian officer argues that Hannibal’s method of reading consuls has stopped working. Argue the point from three positions: Hannibal’s brother Mago, a Roman tribune attacking Fabius, and a modern historian sceptical of the ancient portraits.",
+        guidance:
+          "Use the Trebia, Trasimene, the spared estates of Fabius and Cannae. Say in each case whether the reading was of a person, a situation or an institution, and who wrote the portrait being relied on.",
+      },
+      sources: [
+        s.pol3,
+        s.livy21,
+        s.livy22,
+        s.plutarchFabius,
+        s.liviusTrasimene,
+        s.gilbertMalone,
+        s.oman5,
+        s.livy27,
+      ],
+    },
+    {
+      slug: "the-allies-who-stayed",
+      title: "The allies who stayed: breaking a confederacy",
+      part: "Hannibal’s war",
+      themes: ["judgement", "ethics"],
+      claim:
+        "A strategy aimed at an enemy’s allies can win what battles cannot, but only if the allies see more to gain from changing sides than to fear from the power they leave, and only while the new protector can defend them when that power returns.",
+      inBrief: {
+        strength:
+          "Hannibal freed allied prisoners, offered liberty on generous terms and won Capua, Tarentum and much of the south.",
+        shadow:
+          "He could not protect them: Capua and Tarentum were retaken and punished, and Rome’s colonies held.",
+      },
+      moment: {
+        text: "In the winter after the Trebia, Polybius writes, Hannibal kept his Roman prisoners on short rations but treated the prisoners from Rome’s allies with the greatest kindness. He called them together and told them he had come to make war not on them but on the Romans for their sake; he had come to restore the liberty of the peoples of Italy and help them recover the cities and lands Rome had taken. Then he sent them home without ransom, meaning, Polybius says, to win the peoples of Italy over and turn them against Rome. After Trasimene he did the same, telling the freed allies that he was fighting the Romans for the freedom of Italy.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "3.77, 3.85" }],
+      },
+      episodes: [
+        {
+          title: "Not a single city",
+          text: "For two years the offer won nothing south of the Po. Polybius says that after two Roman defeats not one Italian city had revolted, though some suffered greatly, and he takes it as a measure of the awe and respect the allies felt for Rome. Jona Lendering adds that after Trasimene, even when Hannibal had beaten part of the other consul’s army near Assisi, that town refused to surrender. Hannibal’s march into Campania was meant to change that by showing the allies that Rome would not defend them.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "3.90" }, { source: 6 }],
+          battleSlugs: ["lake-trasimene"],
+        },
+        {
+          title: "Capua’s terms",
+          text: "After Cannae the south began to move. Livy lists the peoples who went over, and Capua, in Campania, sent envoys. The terms Livy reports were generous: no Carthaginian officer was to have any authority over a Campanian, no Campanian was to serve against his will, and Capua was to keep its own laws and magistrates. Livy also says what held some Campanians back: families tied to Rome by marriage, and young nobles serving with Roman forces in Sicily. One Capuan, Decius Magius, opposed admitting a Carthaginian garrison. Hannibal summoned him; when he refused, Hannibal had the Capuan senate hand him over and sent him in chains to Carthage, in breach, Magius protested, of the treaty’s first term.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "22.61" },
+            { source: 2, locator: "23.4, 23.7, 23.10" },
+          ],
+          battleSlugs: ["cannae"],
+        },
+        {
+          title: "Tarentum",
+          text: "Tarentum went over for a reason Rome supplied. Livy says that hostages from Tarentum and Thurii, held loosely in Rome, escaped, were caught and were scourged and thrown from the Rock with the people’s approval, and that the cruelty of it turned the two cities. Young Tarentine nobles met Hannibal and agreed terms: freedom, their own laws, no tribute and no garrison against their will. The city was betrayed to him by night, but the Roman garrison held the citadel. In 209 Fabius retook the city through a Bruttian officer of the garrison, and Livy says that armed and unarmed, Carthaginians, Tarentines and even Bruttians were killed without distinction before the sack.",
+          evidence: "fact",
+          refs: [
+            { source: 3, locator: "25.7–8, 25.10" },
+            { source: 5, locator: "27.15–16" },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["hannibal-s-italian-campaign"],
+        },
+        {
+          title: "Capua abandoned",
+          text: "When Rome besieged Capua in 211, Hannibal tried to draw the besiegers away by marching on Rome itself. Livy says that one proconsul brought part of his army to the city, but the siege went on unrelaxed, and that Hannibal then went south towards Regium. The Capuans learned from the Romans across the lines that they had been left to themselves. A dispatch from the Carthaginian garrison commanders, intercepted by the Romans, charged Hannibal with surrendering the city to the enemy: the Romans, it said, could not be drawn off Capua even by a threat to their own city, so much more determined were they as enemies than the Carthaginians as friends.",
+          evidence: "fact",
+          refs: [{ source: 4, locator: "26.10, 26.12" }],
+          battleSlugs: [],
+          campaignSlugs: ["hannibal-s-italian-campaign"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Polybius",
+          stake:
+            "A Greek admirer of the Roman constitution, writing two generations later.",
+          says: "The allies held after two defeats out of awe and respect for the Roman state.",
+          refs: [{ source: 0, locator: "3.90" }],
+        },
+        {
+          who: "Livy",
+          stake:
+            "A Roman historian who writes the defectors as morally corrupt and commends their punishment.",
+          says: "Capua was demoralised by luxury and a licentious populace; its punishment was a policy that commended itself from every point of view.",
+          refs: [
+            { source: 2, locator: "23.2–4" },
+            { source: 4, locator: "26.16" },
+          ],
+        },
+        {
+          who: "Hannibal, as Livy reports him",
+          stake:
+            "Words given to him by a Roman historian two centuries later, addressed to Roman prisoners after Cannae.",
+          says: "He had no deadly feud with Rome; he was fighting for his country’s honour and power.",
+          refs: [{ source: 1, locator: "22.58" }],
+        },
+        {
+          who: "Decius Magius, as Livy reports him",
+          stake:
+            "The Capuan who opposed the defection, remembered in a Roman history as the one loyal man.",
+          says: "The Capuans had got the liberty they asked for, and were watching a fellow citizen led off in chains.",
+          refs: [{ source: 2, locator: "23.10" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, the offer was well made. Freeing allied prisoners cost little and told every town what Hannibal intended; the terms given to Capua and Tarentum were as generous as any ally could ask. But generosity had a price. A city that kept its laws, admitted no garrison against its will and owed no service gave Hannibal territory to defend rather than soldiers to defend it with. The strategy needed allies to replace what Carthage could not send; the terms that won their consent made them least able to do so.",
+          evidence: "interpretation",
+          refs: [
+            { source: 2, locator: "23.7" },
+            { source: 3, locator: "25.8" },
+          ],
+        },
+        {
+          text: "The allies’ choice turned on what would happen when Rome came back, and Rome’s system answered that question for them. Its colonies were planted across Italy on land taken from its enemies; when twelve of thirty refused men and money in 209, they still did not go over to Hannibal, and The Delayer reads the cost they complained of. Its punishments were visible: the Tarentine hostages, then Capua. And Hannibal could not be everywhere. Livy’s own conclusion on Capua states the strategic lesson from Rome’s side: the punishment showed the power of Rome to punish the faithless and the powerlessness of Hannibal to protect those who had gone over to him.",
+          evidence: "interpretation",
+          refs: [
+            { source: 5, locator: "27.9–10" },
+            { source: 4, locator: "26.16" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Research on trust and on when people leave a group exists, but none was read for this lesson, and the sources offer little to apply it to. Livy explains Capua’s defection by luxury and the mob, and Tarentum’s recapture by a soldier’s love affair; these are a moralist’s explanations, not evidence of motive. What the documents do show is calculation: the terms each city demanded, the ties that held others back, and what each feared from Rome’s return.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered. The Italian cities’ own deliberations survive only in Roman retellings.",
+        },
+      ],
+      shadow: {
+        text: "The allies who changed sides paid most. At Capua, Livy says, the leading men were executed or imprisoned, the people sold into slavery, and the city left standing only as a shelter for farmers, with no senate, no assembly and no magistrates of its own, its justice given by an officer sent each year from Rome. When Hannibal left Italy, Appian says, the senate pardoned the Italians who had sided with him, except the Bruttians, who had stayed loyal to him longest; they lost much of their land and their arms and were made to serve Roman magistrates as attendants. Hannibal’s promise of liberty ended, for those who believed it longest, in the loss of the liberty they had had.",
+        evidence: "fact",
+        refs: [
+          { source: 4, locator: "26.16" },
+          { source: 8, locator: "61" },
+        ],
+      },
+      counterCase: {
+        text: "Caesar shows the strategy working where its conditions held. In 57 BCE, by his own account, the Remi, the Belgic people nearest Gaul, came over to him unasked, gave hostages and corn, and told him everything about the Belgic coalition, though their own kinsmen the Suessiones had joined it. When the Belgae attacked the Remian town of Bibrax, Caesar sent archers and slingers in that same night, and the town held. The coalition broke up when its members went home to defend their own lands; and when the Suessiones surrendered, it was the Remi who interceded for them and won them terms. The Caesar volume’s lesson on Gaul divided reads the Aedui, the other side of the same method. The Remi changed sides because Caesar could protect them at once and raise them above their kin; Capua changed sides on terms no one could enforce.",
+        evidence: "interpretation",
+        refs: [{ source: 7, locator: "2.3–12" }],
+        commanderSlug: "julius-caesar",
+        battleSlugs: [],
+      },
+      cost: {
+        text: "The violence went both ways. When Capua went over, Livy says, the populace seized Roman officers and citizens in the city and shut them in the baths, where they died from the heat and fumes. When Tarentum was retaken, the killing was indiscriminate and the city was sacked; even men of the Bruttian garrison, which had let the Romans in, were killed, by mistake, from old hatred, or, Livy suggests, to hide that the city had been betrayed. The peoples of the south were fought over by both sides, and each side’s historians record the other’s cruelty most fully.",
+        evidence: "fact",
+        refs: [
+          { source: 2, locator: "23.7" },
+          { source: 5, locator: "27.16" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "The people you hope to win over have grievances of their own against the side they would leave, and you can protect them once they move.",
+          "What you offer them can be enforced, by you or by them.",
+        ],
+        failsWhen: [
+          "The terms that win consent leave the new allies unable or unwilling to help you.",
+          "The other side is visibly able to return and punish, and you cannot be everywhere at once.",
+        ],
+        questions: [
+          "If a partner of your competitor came over to you, could you protect them when the competitor retaliated?",
+          "What are you offering that wins agreement but gives you nothing you need?",
+          "What is the other side doing, harshly or generously, that decides your prospects more than your own offer does?",
+        ],
+      },
+      bearsOn:
+        "The allies are where the first two answers meet. Hannibal’s strategy depended on them, and Rome’s system was built to keep them: colonies, intermarriage, citizens serving in Rome’s armies, and punishments everyone could see. The evidence favours the system. Most allies stayed for two years without any defeat to excuse it, and those who left found that Hannibal could not shield them. Rome’s own cruelty to the Tarentine hostages shows the system could also push allies away; it survived that mistake, which Hannibal’s strategy needed it to make more often.",
+      questions: [
+        {
+          prompt:
+            "What did Hannibal tell the allied prisoners he freed after the Trebia?",
+          choices: [
+            "That they must join his army.",
+            "That he had come to make war on Rome for their sake and to restore the liberty of the peoples of Italy.",
+            "That Carthage would rule Italy.",
+          ],
+          answer: 1,
+          explanation:
+            "Polybius 3.77; they were sent home without ransom to win their peoples over.",
+        },
+        {
+          prompt: "What, according to Livy, turned Tarentum against Rome?",
+          choices: [
+            "A Roman defeat at sea.",
+            "The scourging and execution of Tarentine hostages who had escaped from Rome.",
+            "A famine.",
+          ],
+          answer: 1,
+          explanation:
+            "Livy 25.7–8: the cruelty of the punishment caused bitter resentment.",
+        },
+        {
+          prompt:
+            "How did Caesar keep the Remi, by his own account, when the Belgae attacked them?",
+          choices: [
+            "He paid them a subsidy.",
+            "He sent troops to their town of Bibrax that same night, and it held.",
+            "He told them to make peace with the Belgae.",
+          ],
+          answer: 1,
+          explanation: "Caesar, Gallic War 2.6–7.",
+        },
+      ],
+      sourceCheck: {
+        question: "Why did Capua go over to Hannibal?",
+        witnesses: [
+          {
+            label: "Livy 23.2–4",
+            claim:
+              "The city was corrupted by prosperity, its senate cowed and its populace unrestrained; after Cannae it despised Rome’s power.",
+          },
+          {
+            label: "Livy 23.7",
+            claim:
+              "It negotiated terms: its own laws and magistrates, no Carthaginian authority, no service against its will.",
+          },
+          {
+            label: "Polybius 3.118",
+            claim:
+              "After Cannae some Campanian towns invited Hannibal, and all eyes turned to the Carthaginians.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Livy explains it: a corrupt city made a corrupt choice.",
+            feedback:
+              "Livy’s moral portrait is written by the side that punished Capua; it explains nothing that the terms do not explain better.",
+          },
+          {
+            text: "Read the terms as the evidence of motive: after Cannae Capua expected Rome to lose and bargained for its independence, and the moral portrait is Livy’s judgement on that bargain.",
+            feedback:
+              "This uses what Capua demanded as the best surviving trace of its reasoning, and keeps Livy’s verdict as evidence of how Rome saw it.",
+            best: true,
+          },
+          {
+            text: "No reason can be known, so the defection tells us nothing.",
+            feedback:
+              "The terms and the timing are evidence even without a Capuan account.",
+          },
+        ],
+        campaignSlug: "hannibal-s-italian-campaign",
+      },
+      seminar: {
+        prompt:
+          "Capua, summer 216, after Cannae. The senate debates whether to send envoys to Hannibal. Argue from three positions: Pacuvius Calavius, Decius Magius, and a Capuan noble whose son is serving with the Romans in Sicily.",
+        guidance:
+          "Use Hannibal’s treatment of allied prisoners, the silence of the cities before Cannae, Capua’s terms and Tarentum’s grievance. Say what each speaker could know in 216 about what Rome would do if it returned.",
+      },
+      sources: [
+        s.pol3,
+        s.livy22,
+        s.livy23,
+        s.livy25,
+        s.livy26,
+        s.livy27,
+        s.liviusTrasimene,
+        s.caesarGallic2,
+        s.appianHannibal12,
+      ],
+    },
+    {
+      slug: "an-army-of-many-peoples",
+      title: "An army of many peoples: holding a coalition far from home",
+      part: "Hannibal’s war",
+      themes: ["organisation", "motivation"],
+      claim:
+        "A commander can hold an army of many peoples together without a state behind it, but only while he can feed it, pay it and lead it to victory, and only at the cost of the country it lives on.",
+      inBrief: {
+        strength:
+          "No source records a mutiny in Hannibal’s army in all its years in Italy, even after its defeats.",
+        shadow:
+          "It lived off Italy, and the army he led at Zama, most of it new to him, broke apart along its lines of language and pay.",
+      },
+      moment: {
+        text: "After the Metaurus, Livy writes, no battle was fought with Hannibal that year; he made no move, and the Romans did not care to disturb him. Livy stops to admire him more in adversity than in success. For thirteen years he had made war in an enemy’s country far from home, with an army that was not of his own people but a mixture of nations with nothing in common, neither laws, customs nor language, who differed in dress, arms and even gods. Yet no disturbance broke out among them or against him, though money and supplies often ran short, and want of them had caused disgraceful scenes between generals and soldiers in the first war with Rome. Now he withdrew into Bruttium, which could barely feed his army, and Carthage sent him nothing.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "28.12" }],
+      },
+      episodes: [
+        {
+          title: "Placed so they could not turn back",
+          text: "Hannibal managed his army’s differences openly. On the march through the Arno marshes in 217, Polybius says, he put the Africans and Spaniards in front with the baggage, the Celts behind them and the cavalry under his brother Mago at the rear, chiefly because the Celts were soft and averse to labour and might try to turn back; the cavalry was there to stop them. The Celts suffered most and lost most. The same winter, Polybius says, Hannibal had wigs made for different ages and changed them constantly, because he feared the fickleness of his new Celtic allies and attempts on his life.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "3.78–79" }],
+          battleSlugs: [],
+          campaignSlugs: ["hannibal-s-italian-campaign"],
+        },
+        {
+          title: "Recruited by victory",
+          text: "The army grew by winning. After the Ticinus the Celtic contingents in the Roman army killed the Romans nearest them and came over, and Hannibal sent them home to bring their peoples in. At Trasimene, Livy says, the consul was killed by an Insubrian horseman who recognised him as the man who had laid waste his people’s land: the Celts fought Hannibal’s war for grievances of their own. The 1911 Britannica sums up what the record implies: as his veterans melted away he had to raise fresh levies where he was, and yet we never hear of a mutiny.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "3.67" },
+            { source: 11, locator: "22.6" },
+            { source: 7 },
+          ],
+          battleSlugs: ["ticinus", "lake-trasimene"],
+        },
+        {
+          title: "Zama: many voices",
+          text: "At Zama Hannibal commanded a different army. Polybius describes it in three lines: in front, mercenaries of several peoples, Ligurians, Celts, Balearic islanders and Moors; behind them the African levies and Carthaginians; and at the rear, well apart, the troops he had brought from Italy. Each mercenary commander addressed his own men; Livy says the officers passed Hannibal’s words on through interpreters. Polybius, quoting Homer, says the mercenaries’ war cries were not one voice but many tongues. When the Romans pressed them, the mercenaries thought the Carthaginians behind them had left them in the lurch and turned on them; Hannibal had his rear ranks level their spears to keep the fugitives out of his own line.",
+          evidence: "fact",
+          refs: [
+            { source: 3, locator: "15.11–13" },
+            { source: 4, locator: "30.33" },
+          ],
+          battleSlugs: ["zama"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Polybius",
+          stake:
+            "A Greek who served Rome’s friends and admired Hannibal’s generalship without admiring his choice of enemy.",
+          says: "The ability of the commander made men of different races give ear to a single word of command for sixteen years.",
+          refs: [{ source: 2, locator: "11.19" }],
+        },
+        {
+          who: "Livy",
+          stake:
+            "A Roman historian who follows Polybius in admiration, but also gives a Roman consul a speech describing Hannibal’s army as savages from the ends of the earth taught to eat human flesh, which is Livy’s composition.",
+          says: "No disturbance ever broke out in the army, though pay and supplies were often lacking.",
+          refs: [
+            { source: 0, locator: "28.12" },
+            { source: 5, locator: "23.5" },
+          ],
+        },
+        {
+          who: "Appian",
+          stake:
+            "A Greek writing in the second century CE; Jona Lendering notes that his books on Hannibal add little to Polybius and Livy.",
+          says: "Hannibal used his allies from necessity, not good will, and treated them as enemies when they were of no further use.",
+          refs: [{ source: 6, locator: "59–60" }],
+        },
+        {
+          who: "The 1911 Britannica (M. O. B. Caspari)",
+          stake:
+            "A modern classical scholar who says plainly that almost all that is known of Hannibal comes from hostile sources.",
+          says: "We never hear of a mutiny, though the army was made of Africans, Spaniards and Gauls and Carthage gave grudging support.",
+          refs: [{ source: 7 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "The Alexander volume’s lesson on Opis sets Polybius’s admiration beside an army that had one founding people to offend; this lesson asks what held an army that had none. The sources show four means. Placement, which put the doubtful where they could not run and the reliable where the danger was. Pay and plunder: Polybius says the Celts wanted to invade Roman land chiefly for booty, and Livy has Hannibal promise his auxiliaries pay and booty at Zama. Victory, which brought recruits. And the commander himself, present through every year of it. Each had its limit. Placement works only in battle; plunder requires country still worth taking; victory stopped after Cannae.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "3.78–79" },
+            { source: 4, locator: "30.33" },
+            { source: 2, locator: "11.19" },
+          ],
+        },
+        {
+          text: "Without a state that reinforced it, the army’s cohesion depended on its own history. The army in Italy had shared one for years; the army at Zama had not. Livy says Scipio himself acknowledged the skill of Hannibal’s order there, and explains it as an answer to troops he could not trust: mercenaries in front, held by pay and not loyalty, and Italians at the rear because he doubted them. Scipio had faced the same problem at Ilipa, where Polybius says he dared not rely on his Spanish allies in a decisive battle and used them for show while his legions fought. Both commanders put the men they doubted where their doubts would cost least. Hannibal at Zama had more of them.",
+          evidence: "interpretation",
+          refs: [
+            { source: 4, locator: "30.35" },
+            { source: 2, locator: "11.20" },
+            { source: 3, locator: "15.11" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Diversity with no simple rule",
+          base: "review",
+          text: "Van Knippenberg and Schippers, reviewing research on work-group diversity, report that differences between members can affect a group’s process and performance positively as well as negatively, that much remains unclear, and that more attention is needed to the processes behind the effects and the conditions on which they depend. That is a caution, not a mechanism. It warns against two easy readings of this lesson: that an army of many peoples was bound to fall apart, and that Hannibal’s genius alone held it together. The sources point to conditions, placement, pay, victory and a long shared history, which is the kind of contingency the review says matters.",
+          evidence: "interpretation",
+          refs: [{ source: 8 }],
+          limit:
+            "Only the abstract was read. The research concerns modern workplace groups, not armies, and the absence of mutiny in Hannibal’s army is known from the silence of hostile sources.",
+        },
+      ],
+      shadow: {
+        text: "The army that held together lived on Italy, and its leaving was brutal in the accounts that survive. When Carthage recalled him, Livy says, Italians in the army who refused to follow took refuge in the temple of Juno Lacinia and were murdered within the sacred precinct. Appian tells it differently: Hannibal gathered those who meant to stay, had his soldiers choose some of them as slaves, and had the rest killed so that Rome could not use them. Both writers were hostile, and their versions disagree; neither can be checked against Polybius, whose account of the departure was not read for this volume. Appian adds that before he sailed Hannibal had the towns still allied to him plundered.",
+        evidence: "uncertainty",
+        refs: [
+          { source: 4, locator: "30.20" },
+          { source: 6, locator: "58–59" },
+        ],
+      },
+      counterCase: {
+        text: "Napoleon’s army of 1812 shows a coalition army failing when victory stopped. Britannica says that fewer than half of those who entered Russia were French, and that the non-French contingents were given secondary tasks; Austria and Prussia, which supplied two of them, told the Tsar beforehand that they would make no serious effort. After the retreat the contingents went home with their governments. The commander of the Prussian contingent, Yorck, signed his own convention of neutrality with the Russians at Tauroggen; Schwarzenberg signed an armistice and withdrew the Austrians; and the Poles offered no resistance to the Russian advance. The Wellington volume’s lesson on allies he could not command shows the opposite case, an allied army held because its commander could see it, train it and place it inside his own divisions. Napoleon’s contingents had governments to recall them. Hannibal’s men had nowhere to go but with him, which may explain as much as his ability.",
+        evidence: "interpretation",
+        refs: [{ source: 9 }, { source: 10 }],
+        commanderSlug: "napoleon-bonaparte",
+        battleSlugs: [],
+      },
+      cost: {
+        text: "The men of many peoples died for causes not their own as well as for their own. In the marshes the Celts, placed where they could not turn back, suffered and lost most. At Zama, Polybius writes, the mercenaries, believing themselves abandoned, fell on the Carthaginians, who were forced to fight both them and the Romans, and many of both were cut down where they stood. Their names are not recorded.",
+        evidence: "fact",
+        refs: [
+          { source: 1, locator: "3.79" },
+          { source: 3, locator: "15.13" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "People from different backgrounds share a long history of success together, and their leader can still feed and pay them.",
+          "Each group’s doubts are known and the leader places people where those doubts cost least.",
+        ],
+        failsWhen: [
+          "Success stops and each group has somewhere else to go, a government, an employer or a home.",
+          "A new group is assembled quickly from strangers and expected to hold like the old one.",
+        ],
+        questions: [
+          "What holds your most varied team together: shared history, pay, success, or you?",
+          "If success stopped for a year, who would leave first, and where would they go?",
+          "Who outside your team pays for keeping it together?",
+        ],
+      },
+      bearsOn:
+        "This lesson strengthens the premise and narrows the first answer. The army in Italy did not fail Hannibal; it held through defeat and want, and the sources, all hostile, record no mutiny. What failed was what it depended on: Carthage, which, Livy says, was more concerned to keep Spain than to help him, and a war that stopped giving it victories. At Zama Hannibal fought with an army he had not made, and it came apart along the lines Polybius admired him for crossing. The better tactician lost partly because he no longer had the instrument he had built.",
+      questions: [
+        {
+          prompt:
+            "Why, according to Polybius, did Hannibal put the Celts in the middle of the column through the marshes?",
+          choices: [
+            "Because they knew the ground.",
+            "Because he feared they would turn back, and the cavalry behind them could stop them.",
+            "Because they were his best troops.",
+          ],
+          answer: 1,
+          explanation: "Polybius 3.79; the Celts suffered and lost most.",
+        },
+        {
+          prompt:
+            "What happened among Hannibal’s troops at Zama, according to Polybius?",
+          choices: [
+            "The Italian veterans deserted.",
+            "The mercenaries, thinking themselves abandoned, turned on the Carthaginians behind them.",
+            "The Numidians changed sides during the battle.",
+          ],
+          answer: 1,
+          explanation:
+            "Polybius 15.13; Hannibal kept the fugitives out of his rear line with levelled spears.",
+        },
+        {
+          prompt:
+            "What happened to the Prussian and Austrian contingents of Napoleon’s army after the retreat from Moscow?",
+          choices: [
+            "They fought on to Leipzig as French allies.",
+            "Yorck signed a convention of neutrality and Schwarzenberg an armistice, and both withdrew.",
+            "They were disbanded by Napoleon.",
+          ],
+          answer: 1,
+          explanation:
+            "Britannica, ‘The retreat from Moscow’: the contingents followed their governments, not the commander.",
+        },
+      ],
+      sourceCheck: {
+        question: "Who stood in Hannibal’s third line at Zama?",
+        witnesses: [
+          {
+            label: "Polybius 15.11",
+            claim:
+              "The troops he had brought from Italy, whom he urged to remember their comradeship of seventeen years.",
+          },
+          {
+            label: "Livy 30.33, 30.35",
+            claim:
+              "Mainly Bruttians who had followed him from necessity rather than will; he doubted whether they would be friends or foes and kept them at the rear.",
+          },
+          {
+            label: "Appian, War against Hannibal 59",
+            claim:
+              "Before sailing he took the Italians who would follow him and had many of those who would not killed.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Follow Polybius: they were his veterans, and the rear was a place of honour.",
+            feedback:
+              "Polybius is the earliest witness, but the speech about comradeship is his composition; it shows how he understood the line, not who was in it.",
+          },
+          {
+            text: "Both can be true: veterans of Italy, many of them Italians whose loyalty after the departure was uncertain. The disagreement is about trust, and Livy’s and Appian’s hostile accounts of the departure explain why it was in doubt.",
+            feedback:
+              "This keeps both witnesses and asks what each emphasised; the rear line could be both a reserve and a precaution.",
+            best: true,
+          },
+          {
+            text: "Follow Livy: the army from Italy was unreliable throughout.",
+            feedback:
+              "Livy himself says no disturbance ever broke out in the army in Italy; his doubt is about the Italians at Zama, not the whole army.",
+          },
+        ],
+        battleSlug: "zama",
+      },
+      seminar: {
+        prompt:
+          "Bruttium, 205. Hannibal’s army has held for years without a mutiny, and no help is coming. Argue what holds it together, from three positions: a Spanish veteran who crossed the Alps, a Bruttian recruited in Italy, and a Carthaginian senator deciding whether to send reinforcements to Italy or to Spain.",
+        guidance:
+          "Use Polybius 11.19 and Livy 28.12, the marsh march, the Celtic recruits after the Ticinus, and the order at Zama. Say what each speaker gains from staying, and where else each could go.",
+      },
+      sources: [
+        s.livy28,
+        s.pol3,
+        s.pol11,
+        s.pol15,
+        s.livy30,
+        s.livy23,
+        s.appianHannibal12,
+        s.ebHannibal,
+        s.vanKnippenberg,
+        s.britRussia,
+        s.britRetreat,
+        s.livy22,
       ],
     },
     {

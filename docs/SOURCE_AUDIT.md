@@ -1868,3 +1868,26 @@ What the batch changed in the evidence pass:
 - Two details drafted from memory were removed in the source check: that Minucius was given an equal share of Fabius's command (Polybius 3.103, not read) and that the dictatorship lasted six months.
 
 Choices: no casualty or army figures; the Latin colonies are described as twelve of thirty, a count of communities, not of people. Every page opened in the browser at the linked address; no scripted link check was run.
+
+## Leadership Lessons from Hannibal and Scipio, batch H2: Hannibal's war (21 November 2026)
+
+Lessons 1, `over-the-alps` (the strategy of invasion), 2, `reading-the-consul` (knowing the enemy commander), 3, `the-allies-who-stayed` (breaking a confederacy) and 4, `an-army-of-many-peoples` (holding a coalition far from home), Part I of Volume 7. Counter-cases: Napoleon in Russia, Marmont at Salamanca, Caesar and the Remi, and Napoleon's allied contingents in 1812–1813. The volume stays listed as in progress, with seven of its thirteen lessons. Classical texts were read in the built-in browser, chapter by chapter.
+
+Sources read:
+
+- Polybius (W. R. Paton, Loeb, on LacusCurtius): 3.34, 3.56, 3.60, 3.67–71, 3.77–82, 3.84–86, 3.90, 3.107–110, 3.118; 11.19–20; 15.11–13.
+- Livy (Canon Roberts, 1905, on Wikisource): 21.38, 21.53; 22.3, 22.6–7, 22.12, 22.39, 22.41, 22.51, 22.58, 22.61; 23.2, 23.4–5, 23.7, 23.10, 23.13; 25.7–8, 25.10; 26.10, 26.12, 26.16; 27.9–10, 27.15–16; 28.12; 30.19–20, 30.33, 30.35.
+- Plutarch, _Fabius Maximus_ 2–3 and 5–7 (Loeb, on LacusCurtius).
+- Appian, _War against Hannibal_ 56–61 (Horace White, on Livius, with Jona Lendering's introduction).
+- Caesar, _Gallic War_ 2.3–13 (H. J. Edwards, Loeb, on LacusCurtius).
+- Jona Lendering, "Lake Trasimene (217 BCE)", Livius.
+- The 1911 Britannica on Wikisource: "Hannibal (general)" (M. O. B. Caspari).
+- Charles Oman, _A History of the Peninsular War_, vol. V (1914), Internet Archive text: Salamanca, pp. 421–431.
+- Britannica, "Napoleonic Wars": "France and northern Europe, 1809–12" with "The Russian campaign, 1812", and "The retreat from Moscow" with the opening of "The campaign of 1813", read in the built-in browser.
+- Psychology, PubMed abstracts only: Gilbert and Malone (1995), already cited in the Napoleon volume, used here for a different question (how historians portray defeated consuls); van Knippenberg and Schippers (2007).
+
+Sayings and stories: Maharbal's reproach after Cannae is not quoted; lesson 1 links the Alexander volume's `parmenions-advice` and cites Livy 22.51 only for the belief that the delay saved Rome. Hanno's speech (Livy 23.13), Varro's speech to the Capuans (23.5), Fabius's speech to Paulus (22.39) and Hannibal's speech at Zama (Polybius 15.11) are called compositions. Hannibal's remark after Tarentum (Livy 27.16) and his words to the prisoners of Cannae (22.58) are paraphrased with Livy as reporter. The ride to the Colline Gate is told from Livy 26.10 as an event; the banned Latin proverb is not used. Polybius's quotation of Homer at Zama is described, not quoted. No banned saying appears.
+
+What the batch changed in the evidence pass: corrections 33–36. Lesson 2's counter-case is Marmont, not Napoleon misjudging Wellington, which no source read gives; lesson 4's is Napoleon's army of 1812–1813, not Wellington, whose allied army held and is linked as the opposite case. Lesson 3's counter-case, Caesar and the Remi, shows the strategy succeeding where its conditions held, because Hannibal's own case is the failure. Tarentum (Livy 25 and 27) and the Italian soldiers at the recall (Appian 56–61, Livy 30.20) were read; the two accounts of the Italians' fate disagree and lesson 4 gives both as uncertain. Two details drafted from memory were removed in the source check: that the Romans laid waste the country to deny it to Hannibal, and that the besiegers of Capua stayed at their posts in 211 (Livy says one proconsul brought part of his army to Rome while the siege went on). Jona Lendering's view that Flaminius was too careful to take the bait is given as a modern dissent, not a fact.
+
+Choices: no casualty, army or elephant figures; Polybius's tablet figures, the losses in the Alps, at Trasimene and at Zama, the captured at Tarentum and the counts of the Grande Armée are left out, and lesson 1 says so where the number is the point. The Latin colonies are described as twelve of thirty, a count of communities. Every page opened in the browser at the linked address; no scripted link check was run.

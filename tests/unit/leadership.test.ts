@@ -382,6 +382,11 @@ describe("problems compared across volumes", () => {
     expect(problemsForLesson("julius-caesar", "the-reverse-explained")).toEqual(
       [],
     );
+    expect(
+      problemsForLesson("hannibal-barca", "the-meeting-at-zama").map(
+        (p) => p.slug,
+      ),
+    ).toEqual(["adapting", "settlement"]);
   });
 });
 

@@ -208,12 +208,21 @@
 }
 .compare-grid {
   display: grid;
-  /* At most three columns: six volumes make two even rows. */
+  /* At most three columns, so no card is narrower than about 300 pixels;
+     on wide screens four, so seven volumes make a row of four and three. */
   grid-template-columns: repeat(
     min(var(--compare-columns, 3), 3),
     minmax(0, 1fr)
   );
   gap: 16px;
+}
+@media (min-width: 1601px) {
+  .compare-grid {
+    grid-template-columns: repeat(
+      min(var(--compare-columns, 4), 4),
+      minmax(0, 1fr)
+    );
+  }
 }
 .compare-column {
   min-width: 0;

@@ -405,50 +405,64 @@
     "years": "247–c.183 BCE",
     "state": "Carthage",
     "eraId": "ancient",
-    "role": "General",
-    "summary": "Led Carthage's invasion of Italy during the Second Punic War, winning at Trebia, Lake Trasimene and Cannae.",
-    "approach": "Sought to defeat Roman armies and weaken Rome's network of Italian allies.",
-    "strength": "Integrated troops from different communities and exploited terrain and opponents' expectations.",
-    "limitation": "Tactical victories did not destroy Roman political cohesion; he was ultimately defeated at Zama.",
-    "legacy": "Cannae became a famous case study, but ancient accounts require critical reading rather than treating reconstructed speeches as transcripts.",
+    "role": "Commander of the Carthaginian army in Spain and Italy, 221–203 BCE, and suffete of Carthage",
+    "summary": "Son of Hamilcar Barca, he was acclaimed commander by the army in Spain in 221 BCE, took Saguntum in 219, and in 218 marched from Spain over the Alps into Italy, where he beat Roman armies at the Ticinus, the Trebia, Lake Trasimene and Cannae. Rome would not make peace and most of its allies held; in fifteen years in Italy he lost Capua and Tarentum, his brother’s relief army was destroyed at the Metaurus, and in 203 he was recalled to Africa and defeated by Scipio at Zama in 202. As a magistrate at Carthage he reformed its government and finances; denounced to Rome by his enemies, he fled to Antiochus III and later to Prusias of Bithynia, where he took poison rather than be surrendered.",
+    "approach": "Carried the war into Italy to turn Rome’s allies against it, sending allied prisoners home without ransom and promising the peoples of Italy their liberty. He studied the Roman commanders and drew impatient ones into battle on ground he had chosen, by an ambush at the Trebia and in the defile at Trasimene, and won by cavalry striking the enemy’s flanks and rear, as at Cannae. He held an army of Africans, Spaniards, Gauls and Italians together by placement, pay, victory and his own presence, and fed it from the country it fought in.",
+    "strength": "Polybius admired him for keeping an army of many peoples free of sedition for sixteen years under his own command, and his Britannica biographers find his power of leadership in the absence of disharmony in that mixed force. His reading of Roman commanders, his use of ground and his cavalry won the great battles of 218–216 BCE.",
+    "limitation": "Polybius judged that he began with the enemy he should have left to last. After Cannae Rome refused to treat and most of its allies held; inadequately supported from Carthage and unable to protect the cities that joined him, he passed, in Britannica’s words, to a cautious and not always successful defensive. His army lived off Italy for fifteen years, and at Zama, short of cavalry, he faced a Roman army that had the horse his methods needed. Roman writers charged him with cruelty and treachery, charges Britannica partly ascribes to Roman propaganda.",
+    "legacy": "Almost everything known of him was written on the side that beat him: his own historians survive only in his enemies’ quotations, and Carthage was destroyed in 146 BCE. Cannae became the textbook example of a double envelopment. The 1911 Britannica saw in his war individual genius overborne by corporate and persevering effort; Polybius, who knew the Romans from within, thought the strategy itself was the mistake.",
     "battleSlugs": ["ticinus", "trebia", "lake-trasimene", "cannae", "zama"],
     "source": {
-      "title": "Hannibal the Historian at Ticinus and Cannae — Charles Oughton",
-      "url": "https://classicalstudies.org/hannibal-historian-ticinus-and-cannae",
-      "publisher": "Society for Classical Studies"
+      "title": "Hannibal — William Culican, Patrick Hunt and Britannica Editors",
+      "url": "https://www.britannica.com/biography/Hannibal-Carthaginian-general-247-183-BCE",
+      "publisher": "Encyclopaedia Britannica"
     },
     "editorialStatus": "concise-profile",
     "details": {
       "category": "Field commander",
-      "titles": "Carthaginian general; commander in Iberia from 221 BCE; later suffete (chief magistrate) of Carthage, c. 196 BCE",
+      "titles": "Carthaginian general; commander-in-chief in Spain from 221 BCE, acclaimed by the army and confirmed by the government at Carthage; suffete (civil magistrate) of Carthage after the war",
       "principalCommands": [
-        "Carthaginian army in Iberia and Italy, 221–203 BCE",
-        "Carthaginian army at Zama, 202 BCE"
+        "Carthaginian army in Spain, 221–218 BCE",
+        "Carthaginian army in Italy, 218–203 BCE",
+        "Carthaginian army at Zama, 202 BCE",
+        "A fleet raised for Antiochus III in the Phoenician cities, 190 BCE"
       ],
       "timeline": [
         {
           "date": "247 BCE",
-          "event": "Born (traditional date), son of Hamilcar Barca"
+          "event": "Born, son of Hamilcar Barca"
         },
         {
           "date": "221 BCE",
-          "event": "Takes command of Carthaginian forces in Iberia"
+          "event": "Acclaimed commander by the army in Spain after Hasdrubal’s murder"
         },
         {
           "date": "219 BCE",
-          "event": "Besieges and takes Saguntum"
+          "event": "Takes Saguntum after an eight-month siege"
         },
         {
           "date": "218 BCE",
-          "event": "Crosses the Alps into Italy; victory at the Trebia"
+          "event": "Crosses the Alps into Italy; victories at the Ticinus and the Trebia"
         },
         {
           "date": "217 BCE",
-          "event": "Victory at Lake Trasimene"
+          "event": "Loses an eye crossing the Arno marshes; victory at Lake Trasimene"
         },
         {
           "date": "216 BCE",
-          "event": "Victory at Cannae"
+          "event": "Victory at Cannae; Capua and much of southern Italy go over to him"
+        },
+        {
+          "date": "212 BCE",
+          "event": "Takes Tarentum, though the Roman garrison holds its citadel"
+        },
+        {
+          "date": "211 BCE",
+          "event": "Marches to the walls of Rome to relieve Capua, which falls"
+        },
+        {
+          "date": "207 BCE",
+          "event": "His brother Hasdrubal is destroyed at the Metaurus; he withdraws into Bruttium"
         },
         {
           "date": "203 BCE",
@@ -459,39 +473,52 @@
           "event": "Defeated by Scipio at Zama"
         },
         {
-          "date": "c. 183–181 BCE",
-          "event": "Dies in exile in Bithynia"
+          "date": "After 201 BCE",
+          "event": "As suffete, reforms Carthage’s judges and finances"
+        },
+        {
+          "date": "195 BCE",
+          "event": "Flees to Antiochus III after his enemies denounce him to Rome"
+        },
+        {
+          "date": "190 BCE",
+          "event": "Defeated at sea off Side, commanding Antiochus’s fleet"
+        },
+        {
+          "date": "c. 183 BCE",
+          "event": "Takes poison at Libyssa in Bithynia when Prusias’s guards surround his house"
         }
       ],
-      "notableDecision": "In 218 BCE he invaded Italy overland across the Alps rather than waiting for Rome to carry the war to Iberia or Africa. The march brought the war to Roman territory but cost heavy losses and left him far from reinforcement.",
-      "setback": "Despite his victories, Rome's alliance system largely held in central Italy. He could not take Rome, and he was defeated at Zama in 202 BCE."
+      "notableDecision": "In 218 BCE he carried the war overland from Spain across the Alps into Italy, where Rome had meant to fight the war abroad, counting on the Gauls of the Po valley and Rome’s Italian allies to join him. The march cost a large part of his army, but it brought the war onto Roman territory, and his first victories brought the Gauls over.",
+      "setback": "After Cannae Rome refused to negotiate and most of its allies, its Latin colonies above all, held. He could not protect the cities that came over: Capua fell in 211 although he marched to the walls of Rome to draw its besiegers away, and Tarentum was retaken in 209. His brother’s army was destroyed at the Metaurus in 207, and in 202 he was beaten at Zama."
     }
   },
   {
     "slug": "scipio-africanus",
     "name": "Publius Cornelius Scipio Africanus",
-    "years": "236–183 BCE",
+    "years": "236–184 or 183 BCE",
     "state": "Roman Republic",
     "eraId": "ancient",
-    "role": "General and consul",
-    "summary": "Commanded Roman operations in Iberia and later Africa during the Second Punic War; defeated Hannibal at Zama.",
-    "approach": "Shifted the war toward Carthage's resource bases and cultivated Numidian alliances.",
-    "strength": "Combined battlefield adaptation with coalition building, including cooperation with Masinissa.",
-    "limitation": "Later political controversy shows that military success did not guarantee security within republican competition.",
-    "legacy": "His victories helped establish Roman predominance in the western Mediterranean. Later stories of exemplary virtue also shaped his reputation.",
+    "role": "Proconsul in Spain 210–206 BCE, consul in 205 and 194, and commander of the invasion of Africa",
+    "summary": "From a patrician family whose father, grandfather and great-grandfather had all been consuls, he fought at the Ticinus in his first campaign, where Polybius, on his friend Laelius’s authority, says he saved his wounded father, and survived Cannae. In 210 BCE the Roman people gave him the command in Spain, although he had held no higher magistracy; he took New Carthage, beat Hasdrubal Barca at Baecula and the Carthaginian armies at Ilipa, and drove Carthage out of Spain. Consul in 205, he overcame opposition in the senate, crossed to Africa, burned the Carthaginian and Numidian camps, won at the Great Plains and defeated Hannibal at Zama in 202, earning the name Africanus. Attacked by his political opponents in the 180s, he withdrew to Liternum, where he died.",
+    "approach": "Prepared his strokes by inquiry and in secret: he chose New Carthage, the enemy’s base in Spain, because none of the Carthaginian armies was within ten days of it and its garrison was small, attacked with knowledge of the lagoon that Polybius says came from fishermen, and told only Laelius of the plan. He trained his army in new movements and used them at Ilipa against an enemy who had learned his routine; won the peoples of Spain by returning the hostages Carthage had taken, and Masinissa by sending home his captured nephew; and carried the war to Africa to draw Hannibal out of Italy.",
+    "strength": "Calculation and preparation: Polybius, who drew on Laelius, insists that everything he did was done with foresight, and his Britannica biographer credits him with the confidence and ability to drive Carthage from Spain in four years. At Zama he drew the elephants into corridors between his maniples and had the cavalry, Masinissa’s above all, that decided the battle.",
+    "limitation": "At Baecula he did not stop Hasdrubal Barca from leaving Spain for Italy, a charge Livy gives Fabius in the debate of 205; he kept his legate Pleminius in command at Locri after an inquiry, although Pleminius’s men had plundered the town, and his opponents used it against him; and he made his soldiers believe his plans were divinely inspired, a belief Appian says came to hold him too. Called to account in his later years, he would not answer the charges and tore up an account he was asked to render.",
+    "legacy": "His victories ended Carthage’s power in Spain and then the war, and he granted Carthage comparatively lenient terms. The grant of a command outside Italy to a man who had not been praetor or consul, his Britannica biographer notes, set an important constitutional precedent. His reputation was shaped by his admirers, Laelius through Polybius, and by stories such as his treatment of a captive at New Carthage, told in two incompatible versions; his own memoirs, written in Greek, are lost, and Livy could not settle the facts of his last years.",
     "battleSlugs": ["new-carthage", "baecula", "ilipa", "zama"],
     "source": {
-      "title": "Scipio: historical context and reception",
-      "url": "https://www.nationalgallery.org.uk/paintings/glossary/scipio",
-      "publisher": "National Gallery"
+      "title": "Scipio Africanus — Patrick Hunt and Britannica Editors",
+      "url": "https://www.britannica.com/biography/Scipio-Africanus",
+      "publisher": "Encyclopaedia Britannica"
     },
     "editorialStatus": "concise-profile",
     "details": {
       "category": "Field commander",
-      "titles": "Publius Cornelius Scipio Africanus; proconsul in Hispania (210–206 BCE); consul in 205 and 194 BCE",
+      "titles": "Publius Cornelius Scipio Africanus; military tribune at Cannae (216 BCE); curule aedile (213); proconsul in Spain (210–206); consul (205 and 194); censor and princeps senatus (199)",
       "principalCommands": [
-        "Roman forces in Hispania, 210–206 BCE",
-        "Roman invasion of Africa, 204–202 BCE"
+        "Roman forces in Spain, 210–206 BCE",
+        "Consular army in Sicily and the invasion of Africa, 205–202 BCE",
+        "Legate to his brother Lucius in the war against Antiochus III, 190 BCE"
       ],
       "timeline": [
         {
@@ -499,36 +526,68 @@
           "event": "Born into the patrician Cornelii Scipiones"
         },
         {
+          "date": "218 BCE",
+          "event": "In his first campaign at the Ticinus, saves his wounded father (Polybius, from Laelius)"
+        },
+        {
           "date": "216 BCE",
-          "event": "Survives Cannae as a military tribune, according to Livy"
+          "event": "Survives Cannae as a military tribune and, according to Livy, stops young nobles at Canusium who meant to abandon Italy"
+        },
+        {
+          "date": "213 BCE",
+          "event": "Curule aedile"
         },
         {
           "date": "210 BCE",
-          "event": "Receives proconsular command in Hispania"
+          "event": "Elected by the people to the command in Spain, though he had held no higher magistracy"
         },
         {
           "date": "209 BCE",
-          "event": "Captures New Carthage (date debated: 210 or 209 BCE)"
+          "event": "Takes New Carthage (210 or 209 in the sources)"
+        },
+        {
+          "date": "208 BCE",
+          "event": "Defeats Hasdrubal Barca at Baecula (209 or 208), who escapes towards Italy"
         },
         {
           "date": "206 BCE",
-          "event": "Victory at Ilipa"
+          "event": "Victory at Ilipa; Carthage driven from Spain"
+        },
+        {
+          "date": "205 BCE",
+          "event": "Consul; wins leave to cross from Sicily to Africa; retakes Locri, where his legate Pleminius is later tried"
         },
         {
           "date": "204 BCE",
-          "event": "Lands in Africa"
+          "event": "Lands in Africa and besieges Utica"
+        },
+        {
+          "date": "203 BCE",
+          "event": "Burns the Carthaginian and Numidian camps; victory at the Great Plains"
         },
         {
           "date": "202 BCE",
           "event": "Defeats Hannibal at Zama"
         },
         {
-          "date": "c. 183 BCE",
-          "event": "Dies at Liternum after leaving public life"
+          "date": "199 BCE",
+          "event": "Censor and princeps senatus"
+        },
+        {
+          "date": "190 BCE",
+          "event": "Legate to his brother Lucius in Asia against Antiochus III"
+        },
+        {
+          "date": "187–184 BCE",
+          "event": "Trials of the Scipios; withdraws to Liternum"
+        },
+        {
+          "date": "184 or 183 BCE",
+          "event": "Dies at Liternum"
         }
       ],
-      "notableDecision": "He struck New Carthage, the main Carthaginian base in Iberia, before seeking battle with the Carthaginian field armies. Its capture gave Rome a port, stores and hostages.",
-      "setback": "Political prosecutions at Rome in the 180s BCE, the so-called trials of the Scipios, ended his public career; he withdrew to Liternum."
+      "notableDecision": "In 209 BCE (or 210) he struck New Carthage, the main Carthaginian base in Spain, instead of seeking battle with one of the three Carthaginian armies, none of which was within ten days’ march. He told only Laelius of the plan. The capture gave Rome a harbour, stores, silver mines and the Spanish hostages Carthage had held.",
+      "setback": "The trials of the Scipios in the 180s BCE, pressed by opponents led by the elder Cato, ended his influence; the ancient evidence is confused, and Livy could not settle who prosecuted him or when. He withdrew to Liternum and, it is said, ordered his burial there rather than at Rome."
     }
   },
   {

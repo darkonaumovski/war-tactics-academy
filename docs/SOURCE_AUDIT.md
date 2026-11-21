@@ -1891,3 +1891,22 @@ Sayings and stories: Maharbal's reproach after Cannae is not quoted; lesson 1 li
 What the batch changed in the evidence pass: corrections 33–36. Lesson 2's counter-case is Marmont, not Napoleon misjudging Wellington, which no source read gives; lesson 4's is Napoleon's army of 1812–1813, not Wellington, whose allied army held and is linked as the opposite case. Lesson 3's counter-case, Caesar and the Remi, shows the strategy succeeding where its conditions held, because Hannibal's own case is the failure. Tarentum (Livy 25 and 27) and the Italian soldiers at the recall (Appian 56–61, Livy 30.20) were read; the two accounts of the Italians' fate disagree and lesson 4 gives both as uncertain. Two details drafted from memory were removed in the source check: that the Romans laid waste the country to deny it to Hannibal, and that the besiegers of Capua stayed at their posts in 211 (Livy says one proconsul brought part of his army to Rome while the siege went on). Jona Lendering's view that Flaminius was too careful to take the bait is given as a modern dissent, not a fact.
 
 Choices: no casualty, army or elephant figures; Polybius's tablet figures, the losses in the Alps, at Trasimene and at Zama, the captured at Tarentum and the counts of the Grande Armée are left out, and lesson 1 says so where the number is the point. The Latin colonies are described as twelve of thirty, a count of communities. Every page opened in the browser at the linked address; no scripted link check was run.
+
+## Leadership Lessons from Hannibal and Scipio, batch H3: Scipio's answer (21 November 2026)
+
+Lessons 6, `the-young-commander` (a command given by an assembly), 8, `allies-made-and-kept` (winning peoples, not only battles) and 9, `taking-the-war-to-africa` (persuading the state), which complete Part II of Volume 7. Counter-cases: the young Pompey in Spain, Caesar's pardoned enemies, and Caesar at the Rubicon. The volume stays listed as in progress, with ten of its thirteen lessons. Classical texts were read in the built-in browser, chapter by chapter.
+
+Sources read:
+
+- Polybius (W. R. Paton, Loeb, on LacusCurtius): 10.2–9, 10.14, 10.17–20, 10.34–37, 10.40; 11.20, 11.25–33; 14.1–5.
+- Livy (Canon Roberts, 1905, on Wikisource): 26.18–19, 26.41, 26.49–51; 27.17, 27.19; 28.17, 28.24, 28.34–35, 28.38, 28.40, 28.42, 28.44–45; 29.1, 29.3, 29.8–9, 29.19, 29.21–22.
+- Appian, _Spanish Wars_ 17–19 and 23 (Horace White, on Livius).
+- Plutarch (Loeb, on LacusCurtius): _Fabius Maximus_ 25–26; _Pompey_ 6–8 and 17–20; _Caesar_ 57.
+- Suetonius, _Julius_ 29–33, 75 and 80 (J. C. Rolfe, Loeb, on LacusCurtius).
+- The 1911 Britannica on Wikisource: "Scipio", the article on Africanus the elder.
+
+Sayings and stories: the captive young woman at New Carthage is given in both versions, Polybius's (returned to her father) and Livy's (returned to her betrothed Aluccius), as part of Scipio's reputation told by admirers. Scipio's dream of the aedileship is given as Polybius tells it, with his explanation. His refusal of the title of king is told from Polybius 10.40 and Livy 27.19 and not quoted. The speeches of Scipio at the Ebro and at Tarraco, of Indibilis, of Masinissa, and of Fabius and Scipio in the debate of 205, are called Livy's or Polybius's compositions and paraphrased. The burning of the camps is described as done under cover of negotiations, following Polybius 14.2, where Paton's translation uses the word "truce". No banned saying appears.
+
+What the batch changed in the evidence pass: corrections 37–40. Lesson 6's counter-case is the young Pompey, whose early command and defeats in Spain parallel Scipio's case more closely than Alexander's accession, which is linked instead. The revolt of Indibilis and Mandonius (Livy 28.24–34; Polybius 11.25–33), unread at the evidence pass, is now read, with Indibilis's second rising (Livy 29.1–3). Dates drafted from memory were removed where the sources read do not give them: the year of the election (given as after the fall of Capua) and of the retaking of Locri.
+
+Choices: no army, casualty or prisoner figures; the hostages and craftsmen of New Carthage, the prisoners after Baecula, the mutineers at Sucro, the volunteers and the dead of the burned camps are described without numbers. Scipio's age is given in both versions (twenty-four in Livy and Appian, twenty-seven in Polybius). Every page opened in the browser at the linked address; no scripted link check was run.

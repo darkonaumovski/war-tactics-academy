@@ -313,7 +313,10 @@ describe("the Hannibal and Scipio volume", () => {
       "the-allies-who-stayed",
       "an-army-of-many-peoples",
       "the-delayer",
+      "the-young-commander",
       "learning-from-the-enemy",
+      "allies-made-and-kept",
+      "taking-the-war-to-africa",
     ]);
   });
 });

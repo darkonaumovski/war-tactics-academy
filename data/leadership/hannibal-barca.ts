@@ -1,7 +1,8 @@
 import type { LeadershipVolume, Source } from "../../lib/types";
 // Volume 7, shared by Hannibal and Scipio, written in reviewed batches (batch
 // H1, the pilot, is lessons 0, the record, 5, Rome's answer, and 7, Scipio
-// learning from the enemy; batch H2 is lessons 1 to 4, Hannibal's war);
+// learning from the enemy; batch H2 is lessons 1 to 4, Hannibal's war; batch
+// H3 is lessons 6, 8 and 9, the rest of Scipio's answer);
 // docs/LEADERSHIP_EVIDENCE_HANNIBAL_SCIPIO.md records
 // which sources can carry each lesson, and docs/SOURCE_AUDIT.md how each was
 // read. Polybius and Plutarch are the Loeb translations on LacusCurtius, Livy
@@ -32,6 +33,7 @@ const s = {
   pol3: polybius(3),
   pol10: polybius(10),
   pol11: polybius(11),
+  pol14: polybius(14),
   pol15: polybius(15),
   pol23: polybius(23),
   livy21: livy(21),
@@ -41,6 +43,7 @@ const s = {
   livy26: livy(26),
   livy27: livy(27),
   livy28: livy(28),
+  livy29: livy(29),
   livy30: livy(30),
   livy38: livy(38),
   plutarchFabius: thayer(
@@ -55,6 +58,20 @@ const s = {
     "Suetonius/12Caesars/Julius",
     "Suetonius, The Deified Julius, trans. J. C. Rolfe (Loeb Classical Library, 1913)",
   ),
+  plutarchCaesar: thayer(
+    "Plutarch/Lives/Caesar",
+    "Plutarch, Life of Caesar, trans. B. Perrin (Loeb Classical Library, 1919)",
+  ),
+  appianSpain4: {
+    title: "Appian, The Spanish Wars 16–20, trans. Horace White",
+    url: "https://www.livius.org/sources/content/appian/appian-the-spanish-wars/appian-the-spanish-wars-4/",
+    publisher: "Livius.org (Jona Lendering)",
+  },
+  appianSpain5: {
+    title: "Appian, The Spanish Wars 21–25, trans. Horace White",
+    url: "https://www.livius.org/sources/content/appian/appian-the-spanish-wars/appian-the-spanish-wars-5/",
+    publisher: "Livius.org (Jona Lendering)",
+  },
   appianSpain6: {
     title: "Appian, The Spanish Wars 26–28, trans. Horace White",
     url: "https://www.livius.org/sources/content/appian/appian-the-spanish-wars/appian-the-spanish-wars-6/",
@@ -1668,6 +1685,260 @@ export const hannibalScipioVolume: LeadershipVolume = {
       ],
     },
     {
+      slug: "the-young-commander",
+      title: "The young commander: a command given by an assembly",
+      part: "Scipio’s answer",
+      themes: ["judgement", "communication"],
+      claim:
+        "A leader given command young and outside the usual route can act with a freedom older men lack, but only while early success keeps the doubters quiet, and only if the freedom is spent on preparation rather than display.",
+      inBrief: {
+        strength:
+          "Scipio took a command no one else would stand for, kept his plan to one friend, and prepared New Carthage in secret.",
+        shadow:
+          "He made his men believe the gods were with him, and the belief, by one ancient account, came to hold him too.",
+      },
+      moment: {
+        text: "After Capua fell, Rome turned to Spain, where it had lost both its generals within a month of each other, and the people were left to elect a proconsul. Livy says the consuls hoped that men qualified for so great a command would stand, and none did; the citizens went out to the Campus Martius almost in despair, looking at their leaders, who looked at one another. Then Publius Cornelius Scipio, son of the general who had fallen, a young man barely twenty-four by Livy’s count, stood up on a rise where he could be seen and heard and offered himself. Every century and every voter chose him. When the enthusiasm cooled, Livy writes, there was a sudden silence, as people asked whether affection had got the better of judgement; what worried them most was his youth, and some dreaded the fortune of his house.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "26.18" }],
+      },
+      episodes: [
+        {
+          title: "An age and a name",
+          text: "The witnesses disagree on his age: Livy and Appian make him twenty-four at the election, Polybius twenty-seven when he crossed the Ebro. Appian says the older men called his speech foolhardiness rather than spirit, and that when Scipio offered to yield the command to any elder who wanted it, none came forward. His record was short and told by friends. Polybius has from Laelius the story of the seventeen-year-old saving his father at the Ticinus, and tells how Scipio won the aedileship for himself and his brother by telling his mother he had twice dreamed it, which Polybius explains as a calculation on his popularity. The 1911 Britannica adds that he was present at the Trebia and Cannae.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "26.18" },
+            { source: 2, locator: "18" },
+            { source: 1, locator: "10.3–6" },
+            { source: 4 },
+          ],
+          battleSlugs: ["ticinus"],
+          campaignSlugs: ["scipio-s-spanish-campaign"],
+        },
+        {
+          title: "A plan told to one man",
+          text: "The volume’s lesson on learning from the enemy follows the inquiry behind the march on New Carthage; this lesson follows its handling. Polybius says Scipio had decided to do none of the things he had publicly announced, and concealed the plan from everyone except Laelius, who was to bring the fleet. He set aside the course that anyone would expect, an attack on one of the enemy’s field armies, for one that neither his enemies nor his friends foresaw. He also made sure of a way out: if the attempt failed, he could save his army by sea, since he held it, and the enemy armies were too far away to stop him. Polybius adds that Scipio himself, in a letter to Philip of Macedon, explained the siege by these calculations.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "10.6, 10.8–9" }],
+          battleSlugs: ["new-carthage"],
+        },
+        {
+          title: "Three readings of a religion",
+          text: "The orientation of this volume reads the tide at New Carthage; the larger question is how Scipio used belief. Polybius’s answer is policy: like Lycurgus, Scipio saw that most men will not face great risks without hope of divine help, and made his soldiers believe his projects were inspired. Livy leaves it open: Scipio never undertook important business without first sitting alone in the temple on the Capitol, and he neither denied nor admitted the story that he had been fathered by a serpent, whether he was open to such beliefs or used them to have his orders obeyed. Appian says that after New Carthage he began to think himself divinely inspired, and said so for the rest of his life. The 1911 Britannica thinks it quite possible that he honestly shared the belief.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "10.2, 10.5" },
+            { source: 0, locator: "26.19" },
+            { source: 3, locator: "23" },
+            { source: 4 },
+          ],
+          battleSlugs: ["new-carthage"],
+        },
+        {
+          title: "The workshop of war",
+          text: "After the capture Scipio sent Laelius to Rome at once with the news and the most distinguished prisoners because, Polybius says, the Romans had regarded Spain as desperate, and he knew the news would make them support him harder. Then he stayed to train. Polybius and Livy give the same cycle of days: a run in armour, a day for arms, a day of rest, then mock fighting with blunted weapons, while the fleet practised at sea and Scipio visited the workshops daily. Polybius borrows Xenophon’s phrase for the town: a workshop of war. The Carthaginian generals, Livy says, told people that a young swaggerer had stolen one city by a trick and would soon be reminded of his family’s deaths; among themselves they knew how much they had lost.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "10.19–20" },
+            { source: 0, locator: "26.51" },
+          ],
+          battleSlugs: ["new-carthage"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Polybius",
+          stake:
+            "A Greek who drew his picture of Scipio from Laelius, Scipio’s lifelong friend, and wrote to correct those who credited him to fortune.",
+          says: "Everything Scipio did was done by calculation; those who see the gods and fortune in it cannot see causes.",
+          refs: [{ source: 1, locator: "10.2, 10.5, 10.9" }],
+        },
+        {
+          who: "Livy",
+          stake:
+            "A Roman historian who admired Scipio and was willing to say that part of what he admired was performance.",
+          says: "Scipio won admiration by his real qualities and by his skill in displaying them; some of his traits were genuine and some studied acting.",
+          refs: [{ source: 0, locator: "26.19" }],
+        },
+        {
+          who: "Appian",
+          stake:
+            "A Greek of the second century CE, writing from earlier histories without naming them.",
+          says: "He spoke at his election like one possessed, and after New Carthage came to believe in his own inspiration.",
+          refs: [
+            { source: 2, locator: "18–19" },
+            { source: 3, locator: "23" },
+          ],
+        },
+        {
+          who: "The 1911 Britannica",
+          stake:
+            "A modern reference that admires Scipio as one of Rome’s greatest generals.",
+          says: "He was elected unanimously for his noble demeanour and enthusiastic language, and may honestly have believed he was favoured by the gods; to his political opponents he was often harsh and arrogant.",
+          refs: [{ source: 4 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, Scipio’s youth gave him one freedom older men lacked: no method of his own to defend. A commander with a reputation built on battles would have looked for a battle; Scipio, by Polybius’s account, chose a target nobody was guarding and kept the choice to himself. The assembly’s unanimity gave him political cover, but not resources: Appian says he was not allowed a larger force while Hannibal was in Italy. He spent his freedom on preparation, a winter of inquiry, secrecy, a fallback by sea and drill afterwards. The Alexander volume’s lesson on a borrowed army shows a young commander, and Hannibal himself, taking over an army that already knew how to win; Scipio took over a beaten one, and his first act was to give it a success.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "10.6, 10.8, 10.20" },
+            { source: 2, locator: "18" },
+          ],
+        },
+        {
+          text: "Early success was political capital, and Scipio spent it as fast as he earned it. Laelius was sent to Rome before the army had finished training. Later the bill came in. In the speech Livy gives Fabius against the invasion of Africa, which is Livy’s composition, the charges are those a young commander’s freedom invites: that he let Hasdrubal Barca slip out of Spain to Italy, and that he crossed to Africa to visit King Syphax, leaving his province and army without authority. A commander chosen because no one else would stand has to keep winning, because his authority rests on the doubters’ silence.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "10.19" },
+            { source: 6, locator: "28.42" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Research on age and leadership, or on how leaders use followers’ beliefs, was not read for this lesson. The evidence is also unusually shaped. Scipio wrote memoirs in Greek, the Britannica says, and they are lost; what survives is the picture of his friend Laelius as Polybius used it, Livy’s admiring scepticism and Appian’s later account. Three writers read the same behaviour as policy, as performance and as belief, and none of them could see inside him.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered. What Scipio believed about the gods cannot be known; the lesson reports what each witness thought.",
+        },
+      ],
+      shadow: {
+        text: "Polybius praises Scipio for making his men believe his projects were divinely inspired so that they would face greater dangers; at New Carthage that belief sent them wading across a lagoon to the walls. The admiring reading is that he managed fear with faith. The less admiring one is in Appian, who says the success persuaded him too, and in Livy, who says that after Spain his thirst for lasting renown was insatiable and that he already saw Africa as the crown of his glory. A young commander’s freedom, used well, can harden into a conviction of being chosen.",
+        evidence: "interpretation",
+        refs: [
+          { source: 1, locator: "10.2, 10.14" },
+          { source: 3, locator: "23" },
+          { source: 6, locator: "28.17" },
+        ],
+        battleSlugs: ["new-carthage"],
+      },
+      counterCase: {
+        text: "Pompey shows the same freedom failing in the same country. Plutarch says that at twenty-three, appointed general by nobody, he raised legions in Picenum on his own authority, won a series of fights and was saluted as imperator by Sulla himself. Later he kept his army under arms near Rome until the senate gave him the command against Sertorius in Spain. There the young commander met an enemy he could not out-calculate. At Lauron, thinking he had Sertorius surrounded, he found himself enveloped and had to watch the town burn; at the Sucro he hurried into battle late in the day so as not to share the victory with Metellus, and escaped only by abandoning his horse. Short of money, he wrote to the senate threatening to bring his army back to Italy unless it was sent. Scipio’s youth was spent on preparation; Pompey’s, in Spain, on haste for a victory of his own.",
+        evidence: "interpretation",
+        refs: [{ source: 5, locator: "6–8, 17–20" }],
+        commanderSlug: "pompey",
+        battleSlugs: [],
+      },
+      cost: {
+        text: "The success that made Scipio’s name was paid for by the people of New Carthage. The orientation of this volume quotes Polybius on the killing in the streets. Of those who survived, Polybius says, the citizens were sent home, but the craftsmen were made public slaves of Rome, promised freedom only if they worked well until Carthage was beaten, and the strongest of the young prisoners were put to the oars of the fleet on the same promise.",
+        evidence: "fact",
+        refs: [{ source: 1, locator: "10.17" }],
+      },
+      transfer: {
+        holdsWhen: [
+          "No one more senior will take the task, so that the newcomer’s authority comes from the choice itself.",
+          "The leader uses the absence of a reputation to choose the unexpected course, and prepares it quietly.",
+        ],
+        failsWhen: [
+          "The newcomer needs a victory of their own and hurries to get it.",
+          "Early success is taken as proof of being chosen, and the leader stops checking the calculation.",
+        ],
+        questions: [
+          "If you were given a role no one else wanted, what would you do that someone with a reputation to protect could not?",
+          "Who is waiting for your first mistake, and what would buy their silence for another year?",
+          "Which of your colleagues’ beliefs are you using to get them to take risks, and would you say so aloud?",
+        ],
+      },
+      bearsOn:
+        "This lesson begins the evidence for the third answer, Scipio’s command, and complicates it at once. The young commander’s first victory came from calculation, secrecy and preparation, not luck, as Polybius insists. But he was the choice of a Roman assembly in a crisis, and his freedom was a gift of Rome’s system as much as of his talent: a state that could put a twenty-four-year-old in charge of a lost province, and then let him prepare. The record that describes his calculation comes from his friend.",
+      questions: [
+        {
+          prompt:
+            "Why, according to Livy, was Scipio elected to the Spanish command?",
+          choices: [
+            "The senate appointed him over several rivals.",
+            "No other candidate stood, and when he offered himself every century voted for him.",
+            "His father had named him as successor.",
+          ],
+          answer: 1,
+          explanation:
+            "Livy 26.18; the doubts about his youth came after the vote.",
+        },
+        {
+          prompt: "How does Polybius explain Scipio’s claims of divine help?",
+          choices: [
+            "As genuine visions.",
+            "As policy: like Lycurgus, he made his men believe his plans were inspired so that they would face danger.",
+            "As inventions of later writers.",
+          ],
+          answer: 1,
+          explanation:
+            "Polybius 10.2 and 10.5; Livy leaves the question open and Appian thinks he came to believe it.",
+        },
+        {
+          prompt:
+            "What happened when the young Pompey, by Plutarch’s account, hurried to fight Sertorius at the Sucro?",
+          choices: [
+            "He won a complete victory.",
+            "The battle was indecisive, his own wing was routed and he escaped by abandoning his horse.",
+            "He refused battle.",
+          ],
+          answer: 1,
+          explanation:
+            "Plutarch, Pompey 19: he wanted the victory before Metellus arrived.",
+        },
+      ],
+      sourceCheck: {
+        question: "How old was Scipio when he took command in Spain?",
+        witnesses: [
+          {
+            label: "Livy 26.18",
+            claim: "Barely twenty-four at the election.",
+          },
+          {
+            label: "Appian, Spanish Wars 18",
+            claim: "Only twenty-four years of age.",
+          },
+          {
+            label: "Polybius 10.6",
+            claim:
+              "Twenty-seven when he crossed the Ebro to march on New Carthage.",
+          },
+        ],
+        prompt: "How should a reader handle the disagreement?",
+        options: [
+          {
+            text: "Take the majority: two witnesses say twenty-four.",
+            feedback:
+              "Appian wrote centuries later and may follow the same tradition as Livy; agreement is not independence.",
+          },
+          {
+            text: "Give both and say what depends on the difference: very young either way, and the lesson’s argument does not need a precise age.",
+            feedback:
+              "This keeps the dispute visible and avoids building an argument on a number the sources do not settle.",
+            best: true,
+          },
+          {
+            text: "Follow Polybius alone, because he is earliest.",
+            feedback:
+              "Polybius is earliest, but even he dates the age to a different moment, the crossing of the Ebro, not the election.",
+          },
+        ],
+        campaignSlug: "scipio-s-spanish-campaign",
+      },
+      seminar: {
+        prompt:
+          "Rome, after the fall of Capua. The assembly has just elected Scipio, and the silence has set in. Argue whether the vote should stand, from three positions: a senator who served at Cannae, a veteran of the Scipios’ army in Spain, and a Spanish prince whose family is held hostage at New Carthage.",
+        guidance:
+          "Use Livy on the election, Appian on the elders’ objection, Polybius on Scipio’s plan and his use of belief, and Pompey’s youth in Spain. Say what each speaker could know on the day of the vote.",
+      },
+      sources: [
+        s.livy26,
+        s.pol10,
+        s.appianSpain4,
+        s.appianSpain5,
+        s.ebScipio,
+        s.plutarchPompey,
+        s.livy28,
+      ],
+    },
+    {
       slug: "learning-from-the-enemy",
       title: "Learning from the enemy: Scipio in Spain",
       part: "Scipio’s answer",
@@ -1921,6 +2192,511 @@ export const hannibalScipioVolume: LeadershipVolume = {
         s.taylor,
         s.livy28,
       ],
+    },
+    {
+      slug: "allies-made-and-kept",
+      title: "Allies made and kept: winning peoples, not only battles",
+      part: "Scipio’s answer",
+      themes: ["ethics", "judgement"],
+      claim:
+        "A commander who treats the enemy’s allies generously can turn them, but only while his promises are kept, the alternative looks worse, and the allies believe the generosity belongs to his state and not only to him.",
+      inBrief: {
+        strength:
+          "Scipio returned hostages, freed Spanish prisoners and sent Masinissa’s nephew home, and Spain and Masinissa came over.",
+        shadow:
+          "Indibilis and Mandonius rose twice when Scipio seemed gone, and in Africa he burned the camps of a king he was negotiating with.",
+      },
+      moment: {
+        text: "Among the prizes of New Carthage were the hostages Carthage held from the peoples of Spain. Polybius says Scipio called the children to him one by one, told them they would soon see their parents, gave the girls earrings and bracelets and the young men daggers and swords, and asked them all to write home that they were safe and that Rome would restore them if their families became Rome’s allies. Livy gives him a sentence on the policy: the Romans preferred to bind men by kindness rather than by fear. Then the wife of Mandonius, brother of the Ilergete king, fell at his feet. When he promised that the women would want for nothing, she answered that it was not food she was afraid for, and Scipio, Polybius says, understood her and wept.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "10.18" },
+          { source: 1, locator: "26.49" },
+        ],
+      },
+      episodes: [
+        {
+          title: "Two stories of a captive",
+          text: "Soldiers brought Scipio a young woman of great beauty. In Polybius’s version he said that as a private man he would have welcomed no gift more, but as general none less, and gave her to her father to marry whom he chose; the army approved his self-restraint. In Livy’s she was betrothed to a young Celtiberian noble, Aluccius; Scipio returned her to him, asked only that he be a friend to Rome, and gave him the gold her parents had brought for her ransom as a wedding present, and Aluccius came back with a body of horsemen. The two endings cannot both be true. Both reach us from Scipio’s admirers, and both were told to show what kind of Roman he was.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "10.19" },
+            { source: 1, locator: "26.50" },
+          ],
+          battleSlugs: ["new-carthage"],
+        },
+        {
+          title: "The princes who changed sides",
+          text: "The hostages brought their families. Polybius says Edeco, prince of the Edetani, came first, asking for his wife and children and to be named a friend before he went home, so that the rest would follow; they did. Andobales, whom Livy calls Indibilis, and his brother Mandonius had long been estranged from Carthage, which had demanded money from them and their wives and daughters as hostages. Livy gives Indibilis a careful speech: a deserter is loathed by his old friends and suspected by his new ones, so let Scipio judge them by what they did next. Scipio answered that he would not call men deserters who left an alliance in which no law was respected. Polybius draws the moral: Carthage won Spain by kindness and lost it by tyranny.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "10.34–37" },
+            { source: 2, locator: "27.17" },
+          ],
+          battleSlugs: ["baecula"],
+          campaignSlugs: ["scipio-s-spanish-campaign"],
+        },
+        {
+          title: "Freed and sold",
+          text: "After Baecula the generosity had edges. Polybius says Scipio freed the Iberian prisoners without ransom and let Andobales choose horses from the captured herd; Livy adds that the Africans were sold by the quaestor. Among them was a Numidian boy of royal blood, Massiva, nephew of Masinissa, the cavalry leader serving Carthage; Scipio gave him gifts and an escort and sent him back to his uncle. When the Spaniards hailed Scipio as king, he told them to call him general. Later, Livy says, Masinissa met Scipio, thanked him first for his nephew, and offered to serve Rome in Africa.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "10.40" },
+            { source: 2, locator: "27.19" },
+            { source: 3, locator: "28.35" },
+          ],
+          battleSlugs: ["baecula"],
+        },
+        {
+          title: "The princes rise",
+          text: "Once the Carthaginians had gone, the princes’ calculation changed. Livy says that when Scipio fell ill in 206 and rumour made him dead, Indibilis and Mandonius, who had expected the lordship of Spain to pass to them, raised their peoples against Rome’s allies. Scipio recovered, beat them, and when Mandonius came to beg for mercy, spared them a second time without taking hostages or arms, telling them they would feel his anger in arms if they rose again. After he left Spain, Livy says, Indibilis rose again, telling the Spaniards that the Roman generals left behind were names only and Spain could be free; this time Mandonius was handed over by his own council, and the tribes paid and gave hostages.",
+          evidence: "fact",
+          refs: [
+            { source: 3, locator: "28.24, 28.34" },
+            { source: 4, locator: "11.31–33" },
+            { source: 5, locator: "29.1–3" },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["scipio-s-spanish-campaign"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Polybius",
+          stake:
+            "Scipio’s admirer, who uses Carthage in Spain as a lesson for those who rule others.",
+          says: "Power is kept best by the same means that won it, kindness and the prospect of benefits; the Carthaginians forgot this and lost their allies.",
+          refs: [{ source: 0, locator: "10.36" }],
+        },
+        {
+          who: "Livy",
+          stake:
+            "A Roman historian who tells Scipio’s generosity with admiration and the Spaniards’ revolts as treachery.",
+          says: "Indibilis rose the second time out of admiration for Scipio, thinking no other Roman general worth fearing.",
+          refs: [{ source: 5, locator: "29.1" }],
+        },
+        {
+          who: "Indibilis, as Livy reports him",
+          stake:
+            "A Spanish king changing sides, in words a Roman historian gave him.",
+          says: "A deserter is loathed by old friends and suspected by new ones; judge us by what we do from today.",
+          refs: [{ source: 2, locator: "27.17" }],
+        },
+        {
+          who: "Masinissa, as Livy reports him",
+          stake:
+            "The Numidian prince whose cavalry Carthage relied on, in a meeting Livy describes from the Roman side.",
+          says: "He had been grateful since his nephew came home, and in Africa he could serve Rome as he could not in Spain.",
+          refs: [{ source: 3, locator: "28.35" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, generosity was Scipio’s cheapest weapon. Carthage’s hostages were its guarantee of Spanish loyalty; by sending them home on condition of alliance, Scipio turned Carthage’s security into Rome’s credit. Carthage had made the comparison easy, demanding money from its own allies and their wives and daughters as hostages. He did not mistake gratitude for reliability: at Ilipa, Polybius says, he dared not trust his Spanish allies in a decisive battle and gave them the centre for show. Generosity bought neutrality, supplies and friends; the fighting he kept for Romans.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "10.35" },
+            { source: 4, locator: "11.20" },
+          ],
+        },
+        {
+          text: "The generosity was personal, and that was its limit. Livy’s account of the second rising says Indibilis thought Scipio the only Roman general worth fearing; when Scipio left, the bond left with him. Scipio’s answer the first time was to spare the princes again, without hostages, which made mercy his policy and his signature; his successors demanded Mandonius alive. Masinissa’s change of sides held: by Livy’s account he had a father’s throne to win in Africa, and Rome was the power that could help him to it. The lesson on the allies who stayed asked what made Rome’s allies hold; this one shows how much of Scipio’s Spanish success rested on one man’s presence.",
+          evidence: "interpretation",
+          refs: [
+            { source: 5, locator: "29.1–3" },
+            { source: 3, locator: "28.34–35" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Research on reciprocity and gratitude could be applied here, but none was read for this lesson, and the evidence would not bear it. Every motive in the lesson, the old woman’s fear, Aluccius’s joy, Indibilis’s calculation and Masinissa’s gratitude, is reported by Roman or pro-Roman writers in speeches they composed. The behaviour can be traced; the feelings cannot.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered. No Spanish or Numidian account of these choices survives.",
+        },
+      ],
+      shadow: {
+        text: "The same commander deceived an African king in a negotiation. Polybius says that in the winter of 204 to 203, besieging Utica, Scipio let Syphax believe that a peace was possible, sent his envoys again and again to the camps of Syphax and the Carthaginians, and sent officers with them disguised as slaves to study the huts and the gates. When he was ready he sent a last message that his council was against peace, so that he would not seem to break faith while negotiations were in progress, and that night his men set fire to both camps and cut down those who ran from the flames. Polybius calls it the most splendid of Scipio’s exploits.",
+        evidence: "fact",
+        refs: [{ source: 6, locator: "14.1–5" }],
+      },
+      counterCase: {
+        text: "Caesar shows generosity to enemies failing at its source. Suetonius says he spared Pompeians who asked, let those not yet pardoned come home and hold office, and answered plots with warnings; Plutarch says he gave honours and offices to men who had fought him, Brutus and Cassius among them, both made praetors, and refused a bodyguard. Suetonius names Cassius and the two Bruti at the head of the conspiracy that killed him, and records that two Pompeians he had pardoned took up arms again. The Caesar volume’s lesson on clemency reads that policy whole. The comparison is with Indibilis: generosity that depends on one man’s person holds only while that person is present and feared, and both commanders were tested by men they had spared.",
+        evidence: "interpretation",
+        refs: [
+          { source: 7, locator: "75, 80" },
+          { source: 8, locator: "57" },
+        ],
+        commanderSlug: "julius-caesar",
+        battleSlugs: [],
+      },
+      cost: {
+        text: "Scipio’s generosity was selective, and others paid for the selection. After Baecula the Spaniards went home free and the Africans were sold. After the second rising the Spanish tribes, Livy says, had to pay the army double, supply corn and clothing, and give hostages again, the hostages Scipio had made a point of returning. And in Africa, Livy says, Laelius’s first raid fell on people around Hippo Regius who were working their fields and suspected nothing.",
+        evidence: "fact",
+        refs: [
+          { source: 2, locator: "27.19" },
+          { source: 5, locator: "29.3" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "Your opponent has treated its own partners badly, so that your fair dealing is a visible contrast.",
+          "Your promises are kept by your organisation, not only by you, and partners can see that they will survive your absence.",
+        ],
+        failsWhen: [
+          "The goodwill attaches to you personally, and you leave.",
+          "The same partners see you deceive someone else when it suits you.",
+        ],
+        questions: [
+          "Which of your relationships would survive your leaving, and which would end that week?",
+          "What has your competitor done to its partners that makes your offer look good, and how long will that last?",
+          "Where does your generosity stop, and who sees where it stops?",
+        ],
+      },
+      bearsOn:
+        "This lesson adds to the third answer, Scipio’s command, a strength Hannibal’s war lacked: at Zama the cavalry that decided the battle came from a prince Scipio had won over in Spain. It also adds to the first answer, read from the other side. Polybius’s verdict that Carthage lost Spain by tyranny is the mirror of the allies who stayed with Rome in Italy: in both countries the side that treated its allies worse lost them. And Scipio’s own bonds proved personal; Rome kept Spain afterwards by the older method, hostages and force.",
+      questions: [
+        {
+          prompt:
+            "What did Scipio ask the Spanish hostages at New Carthage to write home, according to Polybius?",
+          choices: [
+            "That they would be sold unless ransomed.",
+            "That they were safe, and that Rome would restore them if their families became Rome’s allies.",
+            "That Carthage had abandoned them.",
+          ],
+          answer: 1,
+          explanation:
+            "Polybius 10.18; the hostages were Carthage’s guarantee of Spanish loyalty.",
+        },
+        {
+          prompt:
+            "Why did Indibilis and Mandonius rise in 206, according to Livy?",
+          choices: [
+            "Because Scipio had executed their hostages.",
+            "Because they had expected the lordship of Spain once Carthage left, and the rumour of Scipio’s death gave them their chance.",
+            "Because Carthage paid them.",
+          ],
+          answer: 1,
+          explanation: "Livy 28.24; Scipio spared them a second time (28.34).",
+        },
+        {
+          prompt:
+            "How did Scipio prepare the burning of the camps in Africa, according to Polybius?",
+          choices: [
+            "By a direct assault in daylight.",
+            "By sending officers disguised as slaves with his envoys during peace negotiations to study the camps.",
+            "By bribing Syphax.",
+          ],
+          answer: 1,
+          explanation:
+            "Polybius 14.1–2; he sent a last message so as not to appear to break faith while negotiations were in progress.",
+        },
+      ],
+      sourceCheck: {
+        question:
+          "What did Scipio do with the captive young woman at New Carthage?",
+        witnesses: [
+          {
+            label: "Polybius 10.19",
+            claim:
+              "He said that as general he could accept no such gift and gave her to her father to marry whom he chose.",
+          },
+          {
+            label: "Livy 26.50",
+            claim:
+              "He returned her to her betrothed, Aluccius, and gave him her ransom as a wedding gift; Aluccius came back with horsemen for Rome.",
+          },
+          {
+            label: "Polybius 10.18",
+            claim:
+              "He promised the wife of Mandonius to guard the captive princesses as if they were his own family.",
+          },
+        ],
+        prompt: "What can a reader take from these?",
+        options: [
+          {
+            text: "That Livy’s fuller version is right, because it has names.",
+            feedback:
+              "Names and dialogue are what a later writer adds; Livy gives no source for them.",
+          },
+          {
+            text: "That the event is uncertain in its details, but both versions show the reputation Scipio’s admirers wanted him to have, and that the treatment of captives was part of his policy.",
+            feedback:
+              "This keeps the contradiction and asks what each version was for, without choosing a romance.",
+            best: true,
+          },
+          {
+            text: "That the story is invented and should be ignored.",
+            feedback:
+              "Two early reporters tell it; what it shows about Scipio’s reputation is evidence even if the details are not.",
+          },
+        ],
+        battleSlug: "new-carthage",
+      },
+      seminar: {
+        prompt:
+          "Tarraco, 206. Scipio is about to leave Spain. Argue how Rome should keep its Spanish allies after he goes, from three positions: Indibilis, a Roman officer staying in Spain, and a Carthaginian envoy trying to win the princes back.",
+        guidance:
+          "Use the hostages of New Carthage, Indibilis’s speech, the Africans sold after Baecula, the first rising and its pardon, and Caesar’s pardoned enemies. Say what each speaker could promise, and who would keep the promise after Scipio sailed.",
+      },
+      sources: [
+        s.pol10,
+        s.livy26,
+        s.livy27,
+        s.livy28,
+        s.pol11,
+        s.livy29,
+        s.pol14,
+        s.suetonius,
+        s.plutarchCaesar,
+      ],
+    },
+    {
+      slug: "taking-the-war-to-africa",
+      title: "Taking the war to Africa: persuading the state",
+      part: "Scipio’s answer",
+      themes: ["judgement", "ethics"],
+      claim:
+        "A commander who must persuade his own government to adopt his strategy can win the argument by results, but only if he stays within the authority it gives him and answers for what his subordinates do under it.",
+      inBrief: {
+        strength:
+          "Scipio stepped back from appealing to the people, accepted the senate’s terms, raised what it refused him from volunteers and allies, and let a commission see his army.",
+        shadow:
+          "His legate Pleminius plundered Locri, and Scipio’s first inquiry left him in command.",
+      },
+      moment: {
+        text: "In 205 Scipio was consul, and Africa was the question. Livy says it was generally believed that if the senate refused him Africa he would take the matter straight to the people. Fabius challenged him in the senate to say whether he would abide by its decision. Scipio answered that he would act as he thought best for the state. Fabius appealed to the tribunes, and they ruled that if the consul submitted the provinces to the senate its decision would be final, and if he did not they would support any senator who refused to vote. Scipio asked for a day to consult his colleague. The next day he submitted the question to the senate. It gave him Sicily, with leave to cross to Africa if he thought it in the interest of the state.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "28.45" }],
+      },
+      episodes: [
+        {
+          title: "The case against",
+          text: "Livy gives Fabius a long speech against the invasion, which is Livy’s composition, and it is a serious case. Africa had destroyed Regulus in the first war; Spain had friendly harbours and Africa had none; the Numidian kings had proved faithless; Hannibal was still in Italy; and Scipio, Fabius says, had let Hasdrubal slip out of Spain and had left his province without authority to visit King Syphax. Plutarch thinks Fabius’s opposition began in caution and grew violent out of rivalry, and says the people thought him jealous. Livy gives Scipio a reply, also his composition: Carthage’s armies were mercenaries and its allies faithless, and an invasion of Africa would draw Hannibal home.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "28.40, 28.42, 28.44" },
+            { source: 1, locator: "25" },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["scipio-s-african-campaign"],
+        },
+        {
+          title: "Volunteers and Etruscan timber",
+          text: "The senate gave Scipio the province but not the means. Livy says he was not allowed to levy troops, but could enlist volunteers, and since he had said the fleet would cost the state nothing, he could accept what the allies gave. The towns of Etruria sent timber, iron, sailcloth, grain and arms, and men came from the Umbrians, the Sabines and the Marsi. Plutarch says Fabius blocked public money and had Scipio’s forces limited to the troops already in Sicily and a few of his Spanish veterans. In Sicily, Livy says, Scipio turned reluctant Sicilian nobles into a cavalry squadron by letting each buy his way out with a trained substitute, picked the veterans of the siege of Syracuse, and made Italians return property they had seized from Syracusans, because confidence in the honesty of government mattered more than anything.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "28.45" },
+            { source: 1, locator: "25–26" },
+            { source: 2, locator: "29.1" },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["scipio-s-african-campaign"],
+        },
+        {
+          title: "Locri",
+          text: "In southern Italy Scipio retook Locri from the Carthaginians and left his legate Pleminius in command. Livy says the Locrians found Pleminius and his soldiers worse than the Carthaginians: they outraged the townspeople and their families and plundered the treasury of Proserpine. When Pleminius’s men fought those of two military tribunes, the tribunes’ soldiers mutilated Pleminius. Scipio came, held an inquiry, kept Pleminius in his post and sent the tribunes in chains towards Rome. Pleminius then had the tribunes tortured to death and punished the Locrians who had complained. At Rome Fabius moved that Scipio be recalled for leaving his province without orders; the senate sent a commission instead.",
+          evidence: "fact",
+          refs: [{ source: 2, locator: "29.8–9, 29.19, 29.21" }],
+          battleSlugs: [],
+          campaignSlugs: ["scipio-s-african-campaign"],
+        },
+        {
+          title: "An army as the answer",
+          text: "The commission found at Locri that the Locrians would rather have Scipio as a friend than accuse him; his fault, they said, was too much confidence in Pleminius or too little in them. Pleminius and others were sent in chains to Rome. At Syracuse, Livy says, Scipio answered the rumours about his Greek dress and idle staff not with words but by putting his army and fleet through manoeuvres as if for battle, and the commissioners left convinced that if this general and army could not conquer Carthage, no one could. The senate told him to sail. Plutarch says that when news came from Africa of camps burned and a king captured, and Carthage recalled Hannibal, Fabius still demanded a successor for Scipio.",
+          evidence: "fact",
+          refs: [
+            { source: 2, locator: "29.21–22" },
+            { source: 1, locator: "26" },
+          ],
+          battleSlugs: ["zama"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Livy",
+          stake:
+            "A Roman historian who writes the debate of 205 as a contest of two great men and composes both their speeches.",
+          says: "Scipio, no longer content with a moderate share of glory, said he had been elected to end the war and would take it to the people if the senate refused.",
+          refs: [{ source: 0, locator: "28.40" }],
+        },
+        {
+          who: "Fabius, as Livy reports him",
+          stake:
+            "Rome’s senior general, five times consul, speaking against a man younger than his son, in speeches Livy composed.",
+          says: "Consuls are elected for the commonwealth, not to carry armies wherever they please like kings; Scipio was born to destroy military discipline.",
+          refs: [
+            { source: 0, locator: "28.42" },
+            { source: 2, locator: "29.19" },
+          ],
+        },
+        {
+          who: "Plutarch",
+          stake:
+            "Fabius’s biographer, admiring of him but willing to name his faults.",
+          says: "Fabius began in caution and grew violent from rivalry; he tried to keep money and men from Scipio.",
+          refs: [{ source: 1, locator: "25–26" }],
+        },
+        {
+          who: "The Locrians, as Livy reports them",
+          stake:
+            "The victims of Scipio’s legate, speaking before a Roman commission and wary of a powerful man.",
+          says: "The crimes were not done by Scipio’s order; his fault was trusting Pleminius too much or the Locrians too little.",
+          refs: [{ source: 2, locator: "29.21" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged by what was knowable in 205, both sides of the debate had a case. Fabius’s points were real: an invasion without a friendly harbour, Numidian kings who had switched sides before, Hannibal undefeated in Italy. Scipio’s were real too: Carthage’s armies were hired, its African allies unreliable, and Hannibal could be drawn home only by a threat to Carthage. What decided it was not the argument but the method. Scipio pressed to the edge of his authority, threatened to go to the people, then accepted the tribunes’ ruling and a half-measure, and built the rest from volunteers and allies. The Wellington volume’s lesson on the government at home follows a commander managing those who could recall him by controlling what they heard; Scipio did it by showing them.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "28.42, 28.44–45" },
+            { source: 2, locator: "29.22" },
+          ],
+        },
+        {
+          text: "The authority he stretched was political; the authority that nearly cost him was the one he delegated. Scipio’s weakness at Locri was loyalty to his own appointee, the fault the Locrians named. His first inquiry punished the tribunes and kept the legate, and the result was murder and a scandal that gave his opponents their best weapon. He survived because the senate chose an inquiry over a recall, and because the commission judged him by his army. A commander who wins the argument by results is answerable for the results of the people he leaves in charge.",
+          evidence: "interpretation",
+          refs: [{ source: 2, locator: "29.9, 29.19, 29.21" }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Research on legitimacy, already read for the Alexander and Caesar volumes, would describe what Scipio kept and Caesar lost. This lesson does not repeat it. The decisive acts are institutional: a challenge, a ruling by the tribunes, a decree, a commission, an inspection. The two men’s motives reach us only through speeches Livy wrote for them and Plutarch’s judgement of Fabius.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered. Motives are those the ancient writers attribute.",
+        },
+      ],
+      shadow: {
+        text: "Locri paid for Scipio’s loyalty to his legate. By Livy’s account the city suffered worse under its Roman garrison than under the Carthaginians: its people and their families were outraged, its temple of Proserpine robbed, its leading men who complained were tortured. It was the senate’s commission, not Scipio, that gave the Locrians back their laws, had their property and their free people returned and put the sacred money back in the temple. The commission found Scipio innocent of ordering the crimes, and the Locrians, facing a powerful man, chose to call him their friend.",
+        evidence: "fact",
+        refs: [{ source: 2, locator: "29.8–9, 29.19, 29.21" }],
+      },
+      counterCase: {
+        text: "Caesar faced the same fork in 49 and took the other road. Suetonius says he asked the senate to let him keep the privilege the people had granted or make the others give up their armies, offered a compromise, and when the senate would not intervene and the tribunes who vetoed for him fled the city, crossed the Rubicon with his army. Pompey said he wanted turmoil because he could not pay for his promises; Cato swore to prosecute him the moment he disbanded. The Caesar volume’s lesson on the Rubicon follows where that road led. Scipio, threatened only by a vote, could afford to step back and win by results; Caesar, threatened by prosecution, believed he could not. Their states differed less than their stakes.",
+        evidence: "interpretation",
+        refs: [{ source: 3, locator: "29–31" }],
+        commanderSlug: "julius-caesar",
+        battleSlugs: [],
+      },
+      cost: {
+        text: "The war Scipio carried to Africa fell first on Africans who had no say in it. Livy says that when Laelius landed near Hippo Regius ahead of the invasion, his men were sent to ravage the country at daybreak while the inhabitants were going about their work suspecting nothing, and did much damage. Plutarch records the news Rome celebrated: two camps destroyed by fire, and in them a great number of men, arms and horses.",
+        evidence: "fact",
+        refs: [
+          { source: 2, locator: "29.3" },
+          { source: 1, locator: "26" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "You can accept less than you asked for and build the rest from people who choose to back you.",
+          "When challenged, you can show the work rather than argue about it.",
+        ],
+        failsWhen: [
+          "Someone you appointed abuses the authority you gave them and you protect them.",
+          "Stepping back costs you more than you can bear, so that you cross instead.",
+        ],
+        questions: [
+          "If your board refused your strategy, what would you build from volunteers and partners alone?",
+          "Whom have you put in charge somewhere you do not see, and what would you do if they were accused tomorrow?",
+          "What could you show, rather than say, to the people who doubt you?",
+        ],
+      },
+      bearsOn:
+        "Here the second and third answers meet. The strategy that ended the war, carrying it to Africa, was the young commander’s, not the system’s; the system’s most respected voice opposed it. But the system shaped it: it set limits, Scipio accepted them, it audited him after Locri, and it let him go when the audit was satisfied. Rome won through a commander who could persuade it and a state that could be persuaded without being overthrown.",
+      questions: [
+        {
+          prompt:
+            "What did the tribunes rule in the senate debate of 205, according to Livy?",
+          choices: [
+            "That Scipio could take the question to the people.",
+            "That if Scipio submitted the provinces to the senate its decision would be final, and if not they would support senators who refused to vote.",
+            "That Fabius should command in Africa.",
+          ],
+          answer: 1,
+          explanation:
+            "Livy 28.45; Scipio asked for a day and then submitted to the senate.",
+        },
+        {
+          prompt:
+            "How did Scipio equip his expedition when the senate refused him a levy?",
+          choices: [
+            "He borrowed from Carthage.",
+            "He enlisted volunteers and accepted materials offered by the towns of Etruria and other allies.",
+            "He used Hannibal’s captured ships.",
+          ],
+          answer: 1,
+          explanation: "Livy 28.45; Plutarch, Fabius 25.",
+        },
+        {
+          prompt:
+            "What did the commission sent to Sicily do before reporting on Scipio?",
+          choices: [
+            "It recalled him to Rome.",
+            "It watched his army and fleet manoeuvre and inspected his preparations.",
+            "It read his letters to the senate.",
+          ],
+          answer: 1,
+          explanation:
+            "Livy 29.22: he answered the charges by acts, not words.",
+        },
+      ],
+      sourceCheck: {
+        question:
+          "Why did Scipio leave Pleminius in command after the first inquiry?",
+        witnesses: [
+          {
+            label: "Livy 29.9",
+            claim:
+              "Scipio acquitted Pleminius and kept him in his post, and sent the tribunes in chains towards Rome.",
+          },
+          {
+            label: "The Locrians, Livy 29.21",
+            claim:
+              "He trusted Pleminius too much or the Locrians too little; he did not order the crimes.",
+          },
+          {
+            label: "Fabius, Livy 29.19",
+            claim:
+              "Scipio was born to destroy discipline: he indulged soldiers and then punished them, like a foreign tyrant.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Fabius is right: it shows Scipio’s contempt for discipline.",
+            feedback:
+              "Fabius was Scipio’s chief opponent, and the speech is Livy’s; it is an accusation, not a finding.",
+          },
+          {
+            text: "The Locrians’ judgement is the most useful: the inquiry weighed the outrage to his legate over the outrage to the town, and the result shows the danger of loyalty to one’s own appointee.",
+            feedback:
+              "This uses the witnesses with the least reason to flatter Scipio, though they had reason to be careful, and reads the decision by its result.",
+            best: true,
+          },
+          {
+            text: "Scipio cannot be blamed, because he was preparing for Africa.",
+            feedback:
+              "Being busy elsewhere explains the inquiry’s haste; it does not answer for its outcome.",
+          },
+        ],
+        campaignSlug: "scipio-s-african-campaign",
+      },
+      seminar: {
+        prompt:
+          "Rome, 204. The senate debates Fabius’s motion to recall Scipio after Locri. Argue the motion from three positions: a Locrian envoy, a volunteer from Umbria waiting in Sicily to sail, and a senator who voted for the commission.",
+        guidance:
+          "Use the debate of 205, the volunteers and the Etruscan gifts, the inquiry at Locri, the commission’s inspection and Caesar’s Rubicon. Say what each speaker wants Rome to do about a commander whose strategy they need and whose legate they fear.",
+      },
+      sources: [s.livy28, s.plutarchFabius, s.livy29, s.suetonius],
     },
   ],
   inProgress:

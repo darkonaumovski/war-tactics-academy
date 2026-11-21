@@ -635,7 +635,7 @@ test("the Hannibal and Scipio volume opens with its first lessons", async ({
   await expect(
     page.getByRole("heading", { name: "A volume in progress" }),
   ).toBeVisible();
-  await expect(page.getByRole("table").getByRole("row")).toHaveCount(8);
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(11);
   await page.goto("/commanders/scipio-africanus");
   await expect(
     page.getByRole("link", {
@@ -651,6 +651,11 @@ test("the Hannibal and Scipio volume opens with its first lessons", async ({
   await page.getByRole("link", { name: /Reading the consul/ }).click();
   await expect(page).toHaveURL(
     /\/leadership\/hannibal-barca\/reading-the-consul\/$/,
+  );
+  await page.goto("/battles/new-carthage");
+  await page.getByRole("link", { name: /The young commander/ }).click();
+  await expect(page).toHaveURL(
+    /\/leadership\/hannibal-barca\/the-young-commander\/$/,
   );
 });
 test("the volumes are compared problem by problem", async ({ page }) => {

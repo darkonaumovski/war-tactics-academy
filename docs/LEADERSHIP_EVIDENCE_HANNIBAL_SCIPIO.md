@@ -99,6 +99,10 @@ Grades: **strong** means the lesson's main claims and its counter-evidence are i
 34. **Lesson 4's counter-case is Napoleon's army of 1812–1813** (added in batch H2), whose allied contingents followed their governments after the retreat from Moscow (Britannica); Wellington's allied army is linked as the opposite case, because it held.
 35. **Tarentum and the Italian soldiers were read in batch H2**: Livy 25.7–10 (the hostages scourged and thrown from the Rock, the terms, the betrayal) and 27.15–16 (the recapture); Appian, _War against Hannibal_ 56–61, and Livy 30.20 on the Italians who refused to sail, in two incompatible versions, both given as uncertain.
 36. **At Cannae Polybius makes battle the senate's decision** (3.107), not only Varro's; lesson 2 sets this against the portrait of a rash consul, beside Jona Lendering's dissent on Flaminius.
+37. **Lesson 6's counter-case is the young Pompey in Spain** (added in batch H3), not Alexander: Plutarch, _Pompey_ 6–8 and 17–20, gives a commander who took command at twenty-three on his own authority and, in Spain against Sertorius, hurried into battle for a victory of his own. Alexander's `a-borrowed-army` is linked in the strategist's reading.
+38. **Scipio's religion has a fourth reading**: the 1911 Britannica thinks it quite possible that he honestly shared the belief that he was favoured by heaven, and notes that his memoirs, written in Greek, are lost. Lesson 6 gives it beside Polybius, Livy and Appian.
+39. **The revolt of Indibilis and Mandonius was read in batch H3**: Livy 28.24 and 28.34 (the rising on the rumour of Scipio's death, and the second pardon without hostages), Polybius 11.25–33 (the mutiny at Sucro and the battle) and Livy 29.1–3 (the second rising after Scipio left, which Livy puts down to admiration for Scipio alone). Lesson 8 uses it as the limit of a personal generosity.
+40. **Lesson 8's counter-case is Caesar's pardoned enemies** (Suetonius 75 and 80; Plutarch, _Caesar_ 57), set beside Indibilis rather than retelling `clemency`; lesson 9's is Caesar at the Rubicon (Suetonius 29–31), set beside the tribunes' ruling of 205.
 
 ## Psychology to read in the batches
 

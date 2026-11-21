@@ -304,8 +304,8 @@ describe("the Hannibal and Scipio volume", () => {
     expect(volumeForCommander("scipio-africanus")).toBe(hannibalScipioVolume);
   });
 
-  it("lists its lessons so far in curriculum order", () => {
-    expect(hannibalScipioVolume.inProgress).toBeTruthy();
+  it("lists all its lessons in curriculum order", () => {
+    expect(hannibalScipioVolume.inProgress).toBeUndefined();
     expect(hannibalScipioVolume.lessons.map((l) => l.slug)).toEqual([
       "how-to-read-the-hannibalic-war",
       "over-the-alps",
@@ -317,6 +317,9 @@ describe("the Hannibal and Scipio volume", () => {
       "learning-from-the-enemy",
       "allies-made-and-kept",
       "taking-the-war-to-africa",
+      "the-meeting-at-zama",
+      "both-rejected",
+      "the-ledger",
     ]);
   });
 });
@@ -400,6 +403,7 @@ describe("links from the rest of the site", () => {
       "reading-the-consul",
       "the-allies-who-stayed",
       "the-delayer",
+      "the-ledger",
     ]);
     expect(
       lessonsForBattle("granicus").map((x) => x.volume.commanderSlug),

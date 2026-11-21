@@ -1910,3 +1910,23 @@ Sayings and stories: the captive young woman at New Carthage is given in both ve
 What the batch changed in the evidence pass: corrections 37–40. Lesson 6's counter-case is the young Pompey, whose early command and defeats in Spain parallel Scipio's case more closely than Alexander's accession, which is linked instead. The revolt of Indibilis and Mandonius (Livy 28.24–34; Polybius 11.25–33), unread at the evidence pass, is now read, with Indibilis's second rising (Livy 29.1–3). Dates drafted from memory were removed where the sources read do not give them: the year of the election (given as after the fall of Capua) and of the retaking of Locri.
 
 Choices: no army, casualty or prisoner figures; the hostages and craftsmen of New Carthage, the prisoners after Baecula, the mutineers at Sucro, the volunteers and the dead of the burned camps are described without numbers. Scipio's age is given in both versions (twenty-four in Livy and Appian, twenty-seven in Polybius). Every page opened in the browser at the linked address; no scripted link check was run.
+
+## Leadership Lessons from Hannibal and Scipio, batch H4: the meeting and after (21 November 2026)
+
+Lessons 10, `the-meeting-at-zama` (two commanders who knew each other), 11, `both-rejected` (what their states did with them) and 12, `the-ledger` (why did the better tactician lose?), Part III of Volume 7. Counter-cases: Darius III at Gaugamela, Zhukov after 1945, and Napoleon in 1813. With them the volume is complete at thirteen lessons and is no longer listed as in progress. Classical texts were read in the built-in browser, chapter by chapter.
+
+Sources read:
+
+- Polybius (W. R. Paton, Loeb, on LacusCurtius): 15.1–8, 15.11–19; 23.14; with 3.11–12, 3.86, 3.90, 3.118, 10.15, 10.17 and 11.19 as read for earlier batches in this volume and checked again.
+- Livy (Canon Roberts, 1905, on Wikisource): 30.20, 30.29–30, 30.33, 30.35, 30.37, 30.44; 33.45–49; 38.50–53, 38.56; 39.51–52; with 23.13, 26.16, 27.9–10, 27.16, 27.19 and 28.12 as read for batch H2.
+- Plutarch, _Flamininus_ 20–21 (Loeb, on LacusCurtius).
+- Appian, _War against Hannibal_ 59 (Horace White, on Livius), as read for batch H2.
+- Arrian, _Anabasis_ 3.8 and 3.13 (E. J. Chinnock, on Wikisource).
+- The 1911 Britannica on Wikisource: "Punic Wars" (the end of the second war, its verdict and the third war) and "Hannibal (general)".
+- Britannica, "Georgy Zhukov" (Britannica Editors), and "Napoleonic Wars: Dispositions for the autumn campaign", read in the built-in browser.
+
+Sayings and stories: the meeting before Zama is told as an event, and the speeches in Polybius and Livy are called compositions; Valerius Antias's variant is given as Livy reports it. Hannibal pulling a senator from the platform is "it is said" in Polybius and named Gisgo in Livy. "Two cities ungrateful to their foremost men" is given as an opinion Livy reports, beside the opposite opinion he also reports. Hannibal's last words and his reply to the weeping senate are Livy's compositions and are paraphrased, not quoted. The ranking of generals at Ephesus is not used. The 1911 Britannica's English rendering of Cato's saying, in its account of the third war, is not used, and no banned saying appears. Livy's tradition that Scipio said only the jealousy of two consuls kept the war from ending with Carthage's destruction is given as a tradition.
+
+What the batch changed in the evidence pass: corrections 41–44. Lesson 10's counter-case is Darius at Gaugamela, because Pompey had already served twice; lesson 11's is Zhukov, whose two dismissals and one political intervention fit the claim better than Napoleon or Wellington; lesson 12's is Napoleon in 1813. Livy 38.56's other version of Scipio's last years, in which he used force against tribunes to free his brother, is given beside the Capitol story. Dates not given in what was read were removed in the source check, and lesson 11 begins "late in Scipio's life" rather than in a decade.
+
+Choices: no casualty, army or indemnity figures; Polybius's and Livy's dead and prisoners at Zama, the size of the indemnity, the population of Carthage in 146 and the Grande Armée's numbers in 1813 are left out, and lesson 10 says so where the number is the point. Every page opened in the browser at the linked address; no scripted link check was run.

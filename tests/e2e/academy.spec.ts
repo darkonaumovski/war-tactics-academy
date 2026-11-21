@@ -622,7 +622,7 @@ test("the Caesar volume lists all its lessons", async ({ page }) => {
     /\/leadership\/julius-caesar\/the-reverse-explained\/$/,
   );
 });
-test("the Hannibal and Scipio volume opens with its first lessons", async ({
+test("the Hannibal and Scipio volume lists all its lessons", async ({
   page,
 }) => {
   await page.goto("/leadership/hannibal-barca");
@@ -634,8 +634,8 @@ test("the Hannibal and Scipio volume opens with its first lessons", async ({
   ).toBeVisible();
   await expect(
     page.getByRole("heading", { name: "A volume in progress" }),
-  ).toBeVisible();
-  await expect(page.getByRole("table").getByRole("row")).toHaveCount(11);
+  ).toHaveCount(0);
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(14);
   await page.goto("/commanders/scipio-africanus");
   await expect(
     page.getByRole("link", {
@@ -656,6 +656,11 @@ test("the Hannibal and Scipio volume opens with its first lessons", async ({
   await page.getByRole("link", { name: /The young commander/ }).click();
   await expect(page).toHaveURL(
     /\/leadership\/hannibal-barca\/the-young-commander\/$/,
+  );
+  await page.goto("/battles/zama");
+  await page.getByRole("link", { name: /The meeting at Zama/ }).click();
+  await expect(page).toHaveURL(
+    /\/leadership\/hannibal-barca\/the-meeting-at-zama\/$/,
   );
 });
 test("the volumes are compared problem by problem", async ({ page }) => {

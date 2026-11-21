@@ -2,7 +2,9 @@ import type { LeadershipVolume, Source } from "../../lib/types";
 // Volume 7, shared by Hannibal and Scipio, written in reviewed batches (batch
 // H1, the pilot, is lessons 0, the record, 5, Rome's answer, and 7, Scipio
 // learning from the enemy; batch H2 is lessons 1 to 4, Hannibal's war; batch
-// H3 is lessons 6, 8 and 9, the rest of Scipio's answer);
+// H3 is lessons 6, 8 and 9, the rest of Scipio's answer; batch H4 is lessons
+// 10 to 12, the meeting at Zama, both rejected and the ledger, which complete
+// the volume);
 // docs/LEADERSHIP_EVIDENCE_HANNIBAL_SCIPIO.md records
 // which sources can carry each lesson, and docs/SOURCE_AUDIT.md how each was
 // read. Polybius and Plutarch are the Loeb translations on LacusCurtius, Livy
@@ -45,7 +47,34 @@ const s = {
   livy28: livy(28),
   livy29: livy(29),
   livy30: livy(30),
+  livy33: livy(33),
   livy38: livy(38),
+  livy39: livy(39),
+  plutarchFlamininus: thayer(
+    "Plutarch/Lives/Flamininus",
+    "Plutarch, Life of Flamininus, trans. B. Perrin (Loeb Classical Library, 1921)",
+  ),
+  arrian38: {
+    title: "Arrian, Anabasis of Alexander 3.8 (trans. E. J. Chinnock, 1884)",
+    url: "https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_III/Chapter_VIII",
+    publisher: "Wikisource",
+  },
+  arrian313: {
+    title: "Arrian, Anabasis of Alexander 3.13 (trans. E. J. Chinnock, 1884)",
+    url: "https://en.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_III/Chapter_XIII",
+    publisher: "Wikisource",
+  },
+  britZhukov: {
+    title: "Georgy Zhukov (Britannica Editors)",
+    url: "https://www.britannica.com/biography/Georgy-Zhukov",
+    publisher: "Encyclopædia Britannica",
+  },
+  britAutumn1813: {
+    title:
+      "Napoleonic Wars: Dispositions for the autumn campaign (of 1813) (Britannica Editors)",
+    url: "https://www.britannica.com/event/Napoleonic-Wars/Dispositions-for-the-autumn-campaign",
+    publisher: "Encyclopædia Britannica",
+  },
   plutarchFabius: thayer(
     "Plutarch/Lives/Fabius_Maximus",
     "Plutarch, Life of Fabius Maximus, trans. B. Perrin (Loeb Classical Library, 1916)",
@@ -2698,7 +2727,753 @@ export const hannibalScipioVolume: LeadershipVolume = {
       },
       sources: [s.livy28, s.plutarchFabius, s.livy29, s.suetonius],
     },
+    {
+      slug: "the-meeting-at-zama",
+      title: "The meeting at Zama: two commanders who knew each other",
+      part: "The meeting and after",
+      themes: ["judgement", "adaptation"],
+      claim:
+        "When two commanders know each other’s methods, the battle goes to the one with the better instrument for the method both expect, but only if he can keep it in hand when the fighting turns.",
+      inBrief: {
+        strength:
+          "Scipio met Hannibal’s elephants with open lanes, re-formed his line in the middle of the battle and had the cavalry to finish it.",
+        shadow:
+          "The battle was nearer than its result: Hannibal’s veterans stood until the cavalry came back, and Polybius says it came providentially.",
+      },
+      moment: {
+        text: "Hannibal had marched to Zama and sent three spies to see where the Romans were camped and how they were disposed. They were caught. Scipio, Polybius writes, was so far from punishing them, as was the custom, that he had a tribune show them round the whole camp, asked whether they had seen everything, gave them food and an escort, and told them to report carefully to Hannibal. Livy adds that Masinissa had come in with his Numidians that very day, so that what the spies saw was the force that would beat their army. Hannibal, Polybius says, was so struck by Scipio’s daring that he asked to meet him.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "15.5" },
+          { source: 1, locator: "30.29" },
+        ],
+      },
+      episodes: [
+        {
+          title: "The meeting",
+          text: "The two commanders rode out with a few horsemen, left them, and met with only interpreters. Polybius and Livy both give long speeches, and both are the historians’ compositions. In Polybius, Hannibal warns the younger man that fortune turns, offers Rome Sicily, Sardinia and Spain, and Scipio answers that Carthage had broken a peace already agreed and must now surrender or fight. Livy calls them the greatest commanders of their own or any earlier age. He also admits he cannot say whether Hannibal asked for the meeting on his own initiative or his government’s, and reports Valerius Antias’s story that Hannibal had first been beaten and came to Scipio’s camp with envoys, a story Livy does not adopt.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "15.6–8" },
+            { source: 1, locator: "30.29–30" },
+          ],
+          battleSlugs: ["zama"],
+        },
+        {
+          title: "Dispositions both expected",
+          text: "Each commander set out his army against the other’s known strengths. Hannibal, Polybius says, placed his elephants in front to throw the Roman ranks into confusion, mercenaries behind them, then Libyans and Carthaginians, and the troops he had brought from Italy far to the rear. Scipio, Livy says, did not close up his maniples but left lanes between them for the elephants, with light troops told to fall back into them; Masinissa’s Numidians were on one wing and Laelius’s Italian cavalry on the other. When the trumpets sounded, Polybius writes, some elephants turned back on Hannibal’s own Numidians, and the rest passed through the gaps Scipio had left.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "15.11–12" },
+            { source: 1, locator: "30.33" },
+          ],
+          battleSlugs: ["zama"],
+        },
+        {
+          title: "The second battle",
+          text: "After the first two Carthaginian lines broke, Scipio faced the veterans of Italy across ground covered with dead and arms. Polybius says he recalled by bugle the hastati who were pursuing, carried the wounded to the rear, set the hastati opposite the enemy centre and moved the principes and triarii up on the wings, then sent the whole line over the bodies. The two lines, nearly equal in number, spirit and arms, fought for a long time, the men falling where they stood, until Masinissa and Laelius came back from pursuing the cavalry, providentially, Polybius says, and fell on the rear. The 1911 Britannica calls it a manoeuvre recalling the tactics of Cannae.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "15.14" }, { source: 2 }],
+          battleSlugs: ["zama"],
+        },
+        {
+          title: "After the battle",
+          text: "Hannibal escaped to Hadrumetum and then to Carthage, and told the senate, Livy says, that they had lost not a battle but the war, and that their only safety lay in peace. When a senator rose to oppose the terms, Polybius says, it is said that Hannibal pulled him down from the platform, then apologised: he had left Carthage at nine and was now over forty-five, and they should ask not whether he knew their customs but whether he cared for his country. Livy names the man as Gisgo. The terms Polybius gives left Carthage its laws and its African lands but took its warships and elephants, its right to make war outside Africa, and hostages, with an indemnity spread over fifty years.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "30.35, 30.37" },
+            { source: 0, locator: "15.18–19" },
+          ],
+          battleSlugs: ["zama"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Polybius",
+          stake:
+            "Scipio’s admirer, who also admired Hannibal and wrote his verdict on Zama for military readers.",
+          says: "Hannibal did all that a good general of long experience could do, and no one could have disposed the same arms better against the Romans; a brave man met a braver.",
+          refs: [{ source: 0, locator: "15.15–16" }],
+        },
+        {
+          who: "Livy",
+          stake:
+            "A Roman historian who writes Zama as the meeting of the two greatest commanders in history, and doubts some of his own sources.",
+          says: "Scipio himself, and every experienced soldier, acknowledged Hannibal’s skill in the disposition of his troops.",
+          refs: [{ source: 1, locator: "30.30, 30.35" }],
+        },
+        {
+          who: "Valerius Antias, as Livy reports him",
+          stake:
+            "A Roman annalist whom Livy elsewhere accuses of inventing numbers.",
+          says: "Hannibal had already been beaten once and came to Scipio’s camp with envoys to ask for terms.",
+          refs: [{ source: 1, locator: "30.29" }],
+        },
+        {
+          who: "The 1911 Britannica",
+          stake:
+            "A modern summary that sees the battle as decided by numbers of horse and by training.",
+          says: "Scipio’s smaller army was well trained throughout and far stronger in cavalry; Hannibal could not make his indifferent troops a match for it, and his veterans were broken only from behind.",
+          refs: [{ source: 2 }, { source: 3 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged without hindsight, both commanders knew what the other would try. Hannibal’s victories had been won by cavalry striking the Roman rear; Scipio, as the lesson on learning from the enemy shows, had won Ilipa by breaking the enemy’s wings. At Zama the cavalry was on the Roman side, because Masinissa had come over. Hannibal therefore had to win without the instrument his method needed. His answer, elephants to disorder the Roman ranks and a line in depth to blunt the Roman swords before his veterans engaged, was the best use of what he had, as Polybius insists. Scipio’s lanes show he expected the elephants; his wings show he expected to win where Hannibal used to.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "15.16" },
+            { source: 1, locator: "30.33" },
+          ],
+        },
+        {
+          text: "Knowing the method was not enough; the battle turned on keeping the army in hand. When the first lines broke, Scipio stopped the pursuit by bugle and rebuilt his line before attacking the veterans, and the cavalry that won the day had first ridden off the field after the Carthaginian horse and had to come back. Polybius’s word for their return, providentially, admits how close it was. The Caesar volume’s lesson on a rival who knew him asks the same question of Pharsalus, where Caesar’s hidden fourth line answered the attack Pompey had planned. In both, the winner had prepared for the method he knew was coming and kept something back.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "15.14" }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "The meeting at Zama invites a reading of two minds sizing each other up, and the ancient writers supplied the dialogue. None of it is evidence of what either man thought: the speeches are compositions, and the scene of mutual admiration is Livy’s. No research was read for this lesson, and the evidence that matters is what each commander did with his troops.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered. What passed between the two men is unknown beyond the fact that they met.",
+        },
+      ],
+      shadow: {
+        text: "The meeting is remembered as courtesy between great men, and the war around it was not courteous. Before Zama, after the Carthaginians had seized Roman transports and broken the agreement Scipio had made with them, Polybius says Scipio went round the towns of the Carthaginian countryside no longer accepting surrenders, taking them by assault and selling the inhabitants as slaves, to show his anger. Scipio’s generosity to the spies and his severity to the towns served the same end: to show Carthage what it faced.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "15.1–4" }],
+        battleSlugs: ["zama"],
+      },
+      counterCase: {
+        text: "Darius III shows the prepared answer failing. After Issus, Arrian says, some persuaded the king that he had been beaten because the field was too narrow, so at Gaugamela he chose open country and had all uneven ground levelled for his chariots and cavalry. Alexander led his army to the right until he was almost off the levelled ground, forcing Darius to send cavalry round to stop him. When the scythed chariots charged, the light troops in front shot down some and seized the reins of others, and where the rest came on, Arrian writes, the men opened their ranks as they had been told, let the chariots through and had them killed behind the line. Darius had prepared for the battle he had lost; Alexander, like Scipio at Zama, had prepared for the weapon he knew was coming. The Alexander volume’s lessons read what followed.",
+        evidence: "interpretation",
+        refs: [{ source: 4 }, { source: 5 }],
+        commanderSlug: "darius-iii",
+        battleSlugs: ["gaugamela"],
+      },
+      cost: {
+        text: "Polybius describes the ground between the armies after the first lines had broken: covered with blood and bodies, so slippery with corpses and thrown-away arms that Scipio feared his line would break crossing it. The veterans of Italy fell where they stood, and when the cavalry struck from behind, most were cut down in their ranks and few of those who fled escaped across the level country. The ancient figures for the dead are left out here.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "15.14" }],
+      },
+      transfer: {
+        holdsWhen: [
+          "Both sides know each other’s methods, so that the advantage lies in having the means the method requires.",
+          "The leader has rehearsed what to do when the first phase succeeds, and can stop the people who are winning in order to win again.",
+        ],
+        failsWhen: [
+          "Preparation is aimed at the last contest, not the one in front of you.",
+          "The decisive resource leaves the field in pursuit and does not come back in time.",
+        ],
+        questions: [
+          "What does your rival know about your methods, and what are they preparing in answer?",
+          "What would you need to stop your own people doing in the middle of a success?",
+          "Which resource do you rely on to finish, and what if it is late?",
+        ],
+      },
+      bearsOn:
+        "Zama is the only direct test of the premise, and it supports it narrowly. Polybius and Livy both say Hannibal did everything a commander could; he lost to a younger general who had the cavalry, prepared for the elephants and kept his army in hand. The cavalry came from Masinissa, whom Scipio had won over, and the army from Spain and Sicily that Scipio had trained, so the third answer, Scipio’s command, decides the battle. But Hannibal fought at Zama because Rome’s system had outlasted him in Italy, and without the cavalry his method needed because Carthage’s allies had gone.",
+      questions: [
+        {
+          prompt:
+            "What did Scipio do with Hannibal’s captured spies, according to Polybius?",
+          choices: [
+            "He executed them, as was the custom.",
+            "He had them shown round his camp and sent them back to report to Hannibal.",
+            "He kept them as hostages.",
+          ],
+          answer: 1,
+          explanation:
+            "Polybius 15.5; Livy adds that Masinissa had arrived that day.",
+        },
+        {
+          prompt: "How did Scipio deal with Hannibal’s elephants at Zama?",
+          choices: [
+            "He attacked them with his own elephants.",
+            "He left lanes between his maniples for them to pass through.",
+            "He retreated until they tired.",
+          ],
+          answer: 1,
+          explanation:
+            "Livy 30.33 and Polybius 15.12; Arrian describes Alexander’s men opening their ranks to scythed chariots at Gaugamela.",
+        },
+        {
+          prompt:
+            "What decided the final stage of the battle, according to Polybius?",
+          choices: [
+            "Hannibal’s veterans broke at the first charge.",
+            "Masinissa and Laelius returned from the pursuit and fell on the rear of the evenly matched lines.",
+            "Rain stopped the fighting.",
+          ],
+          answer: 1,
+          explanation:
+            "Polybius 15.14; he says they arrived providentially at the right moment.",
+        },
+      ],
+      sourceCheck: {
+        question: "Who asked for the meeting before Zama, and why?",
+        witnesses: [
+          {
+            label: "Polybius 15.5",
+            claim:
+              "Hannibal, struck by Scipio’s treatment of his spies, wanted to meet and talk with him.",
+          },
+          {
+            label: "Livy 30.29",
+            claim:
+              "Hannibal asked, hoping for better terms before a defeat; Livy cannot say whether on his own initiative or his government’s.",
+          },
+          {
+            label: "Valerius Antias, in Livy 30.29",
+            claim:
+              "Hannibal had already been defeated and came with envoys to Scipio’s camp.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Follow Polybius: the meeting came from admiration.",
+            feedback:
+              "Polybius gives Hannibal a motive no one could have known; Livy’s more political motive is at least as likely.",
+          },
+          {
+            text: "Accept that Hannibal asked for it, keep both motives open, and set aside Antias, whose story neither Livy nor Polybius follows.",
+            feedback:
+              "The fact is agreed; the motive is a reconstruction, and the reader should say so.",
+            best: true,
+          },
+          {
+            text: "Follow Antias, because his account is the most specific.",
+            feedback:
+              "Livy elsewhere accuses Antias of invention, and gives his version only as a variant.",
+          },
+        ],
+        battleSlug: "zama",
+      },
+      seminar: {
+        prompt:
+          "The night before Zama. Argue what each commander should do with what he learned at the meeting, from three positions: Hannibal’s veteran officer from Italy, Masinissa, and a Carthaginian senator who wants peace.",
+        guidance:
+          "Use the spies, the meeting, the dispositions, the second battle and Darius at Gaugamela. Say what each speaker knew about the other side’s method, and what they could not know.",
+      },
+      sources: [
+        s.pol15,
+        s.livy30,
+        s.ebPunic,
+        s.ebHannibal,
+        s.arrian38,
+        s.arrian313,
+      ],
+    },
+    {
+      slug: "both-rejected",
+      title: "Both rejected: what their states did with them",
+      part: "The meeting and after",
+      themes: ["ethics", "succession"],
+      claim:
+        "A state can turn on the commanders who served it best once the danger is past, and how each commander answers that test, through its laws or past them, shows what he served.",
+      inBrief: {
+        strength:
+          "Hannibal reformed Carthage’s finances as a magistrate; Scipio, prosecuted, would not plead but did not raise a hand against the Republic.",
+        shadow:
+          "Hannibal fled to make war on Rome again; Scipio tore up the accounts he was asked for and defied the tribunes.",
+      },
+      moment: {
+        text: "Late in Scipio’s life two tribunes, the Petillii, brought charges against Scipio Africanus, by Valerius Antias’s account. Livy reports what people said. Some blamed the whole citizen body: the two greatest cities in the world had proved ungrateful to their foremost men at almost the same time, Carthage driving the defeated Hannibal into exile and Rome banishing the victorious Scipio in the hour of its victory. Others answered that no citizen should stand so high that he could not be made to answer according to law; nothing protected the liberty of all so much as the power to put the most powerful man on trial.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "38.50" }],
+      },
+      episodes: [
+        {
+          title: "Hannibal in office",
+          text: "After the peace Hannibal served as one of Carthage’s chief magistrates. Livy says the order of judges held office for life and had every citizen’s property and life in its power; when a quaestor of that party ignored Hannibal’s summons, he had him arrested and carried a law making judges elected yearly. Finding that public revenues were wasted or embezzled, so that the payments to Rome threatened a new tax, he showed the assembly that recovering what had been stolen would pay Rome without taxing anyone, and did it. The 1911 Britannica confirms the reform and its result. The men who had lost by it, Livy says, began to urge the Romans against him.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "33.45–47" }, { source: 2 }],
+          battleSlugs: ["zama"],
+        },
+        {
+          title: "Flight",
+          text: "Scipio, Livy says, long opposed Rome’s involvement: it was beneath the Roman people, having beaten Hannibal in war, to act as his prosecutors in Carthaginian party politics. He lost. Roman envoys came, ostensibly about Masinissa. Hannibal understood they had come for him, showed himself in the forum by day, and at night rode to a ship waiting at his estate on the coast. Livy describes the crowd at his house next day, some saying he had fled and more that the Romans had killed him. The Roman envoys told the Carthaginian council he had gone to Antiochus to stir up war, and Carthage answered that it would do whatever Rome thought right. He went to Antiochus, who, the Britannica says, would not trust him with any important command.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "33.47–49" }, { source: 2 }],
+          battleSlugs: [],
+        },
+        {
+          title: "Scipio on trial",
+          text: "The tribunes revived Syracuse and Locri and accused Scipio of taking money from Antiochus. Livy says that on the day of his defence he would not answer the charges: it was the anniversary of Zama, he told the assembly, and he was going to the Capitol to give thanks, and the whole crowd followed him there, leaving the tribunes alone. Then he withdrew to Liternum and would not appear again, and a tribune who was his political enemy, Tiberius Gracchus, stopped the prosecution as a greater disgrace to Rome than to him. Polybius tells, for the sake of the good fame of the dead, of Scipio tearing up an account book in the senate rather than render it. Livy admits he cannot settle who prosecuted Scipio, when or where he died.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "38.51–53, 38.56" },
+            { source: 3, locator: "23.14" },
+          ],
+          battleSlugs: [],
+        },
+        {
+          title: "Two deaths",
+          text: "Hannibal ended at the court of Prusias of Bithynia. When Flamininus came from Rome, Livy says, the king’s soldiers surrounded the house, every exit was guarded, and Hannibal took the poison he had long kept ready; the speech Livy gives him against Rome and his host is Livy’s composition. Plutarch says there were several accounts of his death, and that many senators thought Flamininus’s pursuit of a harmless old man odious, setting it against Scipio’s magnanimity. Livy says Scipio died about the same time, by Polybius’s dating, which he disputes, and that it is said he ordered his tomb at Liternum so that his ungrateful country would not bury him.",
+          evidence: "fact",
+          refs: [
+            { source: 4, locator: "39.51–52" },
+            { source: 5, locator: "20–21" },
+            { source: 0, locator: "38.53" },
+          ],
+          battleSlugs: [],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Livy",
+          stake:
+            "A Roman historian of the Augustan age, writing about the limits of great men’s power in a state that had just been ruled by one.",
+          says: "Neither Hannibal, Scipio nor Philopoemen died in a way worthy of his career, nor in his own country.",
+          refs: [{ source: 4, locator: "39.52" }],
+        },
+        {
+          who: "Polybius",
+          stake:
+            "The friend of Scipio’s adoptive grandson, who says plainly why he tells these stories.",
+          says: "Scipio had won such affection that his accusers were left alone in the forum; these anecdotes are told for the good fame of the dead.",
+          refs: [{ source: 3, locator: "23.14" }],
+        },
+        {
+          who: "Tiberius Gracchus, as Livy reports him",
+          stake:
+            "Scipio’s political opponent, whose speech Livy says survived but did not fit the other accounts.",
+          says: "Scipio on trial would shame Rome more than himself; yet in the speech Livy says survived, Gracchus complained that Scipio had once defied the tribunes by force to free his brother.",
+          refs: [{ source: 0, locator: "38.52–53, 38.56" }],
+        },
+        {
+          who: "Plutarch",
+          stake:
+            "A Greek biographer of Flamininus, who reports both the senate’s disgust and the defence of his act.",
+          says: "Many thought the hounding of Hannibal cruel and vain; others thought him a fire that needed only fanning while he lived.",
+          refs: [{ source: 5, locator: "21" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Without hindsight, each state had reasons. Carthage was paying Rome and could not afford to be thought to shelter Rome’s enemy; Hannibal’s reforms had made him powerful enemies at home, who used Rome against him. Rome had a hero whose authority, by his accusers’ account, had come to outweigh the senate’s; the principle Livy reports, that no citizen should be beyond trial, was not only envy. The test for the commanders was what to do when their states turned. Neither used an army against his own state. Hannibal left and went to a king at war with Rome; Scipio stayed within reach and refused to submit.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "33.46–47" },
+            { source: 0, locator: "38.50–51" },
+          ],
+        },
+        {
+          text: "Their answers show different loyalties. Hannibal served Carthage while he could, honestly by Livy’s own account, and when Carthage could no longer protect him he served his war with Rome, as he told Antiochus, in Polybius’s account of the oath, that he always would. Scipio served the Republic by his own lights: he had refused the dictatorship and the statues the people offered him, Gracchus reminded the assembly, but he would not account for money or appear before tribunes. The restraint that kept him from Caesar’s road also kept him from submitting to the law he had refused to rise above.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "38.56" },
+            { source: 3, locator: "23.14" },
+            { source: 8, locator: "3.11–12" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "The endings invite psychological readings, bitterness in exile, pride at Liternum, and the sources supply speeches and gestures to support them. None is safe. Hannibal’s last words are Livy’s; Scipio’s defiance is told by his family’s friend for the good fame of the dead; Livy himself cannot settle the facts of Scipio’s last years. No research is offered.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered. Both men’s feelings at the end are known only through admirers or enemies.",
+        },
+      ],
+      shadow: {
+        text: "Each man’s answer had a cost to the state he served. Scipio’s refusal to account for public money, which Polybius tells as greatness, was also a refusal of the oversight that Rome’s liberty depended on, and Livy’s other version has him using violence against tribunes to free his brother. Hannibal’s flight took him to Antiochus, and the Roman envoys’ charge that he would stir up war everywhere was, by his own story of the oath, not unfounded. Both states treated their great men badly; both men gave their states reasons.",
+        evidence: "interpretation",
+        refs: [
+          { source: 3, locator: "23.14" },
+          { source: 0, locator: "38.56" },
+          { source: 1, locator: "33.49" },
+          { source: 8, locator: "3.11–12" },
+        ],
+      },
+      counterCase: {
+        text: "Georgy Zhukov faced the same test in a state far harsher than Rome. Britannica says that after commanding the assault on Berlin and receiving Germany’s surrender, he came home in 1946 so popular that Stalin apparently saw him as a threat and sent him to a series of obscure regional commands. He went. After Stalin died the new leaders, wanting the army’s support, brought him back; in 1957 he provided the aircraft that carried Central Committee members to Moscow to save Khrushchev from a majority of the Presidium. Months later Khrushchev, unable to tolerate his efforts to make the army more autonomous, dismissed him. Zhukov accepted obscurity twice and was honoured late; when he used the army’s means in politics once, for his master, it ended his career.",
+        evidence: "interpretation",
+        refs: [{ source: 6 }],
+        commanderSlug: "georgy-zhukov",
+        battleSlugs: ["berlin-1945"],
+      },
+      cost: {
+        text: "Carthage’s citizens paid for the peace that Hannibal urged and the reforms that drove him out. Livy says that when the first instalment of the indemnity came due the treasury was empty and the senate wept; he gives Hannibal a reply, which is Livy’s composition, that they should have wept when their arms and ships were taken. Hannibal’s reforms were meant to spare citizens a new tax to pay Rome, and the men who lost by them turned to Rome to be rid of him.",
+        evidence: "fact",
+        refs: [
+          { source: 7, locator: "30.44" },
+          { source: 1, locator: "33.46–47" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "The danger that made a leader indispensable has passed, and the institutions they bypassed reassert themselves.",
+          "The leader’s rivals at home can borrow the authority of an outside power.",
+        ],
+        failsWhen: [
+          "The leader treats the institution’s demand for an account as an insult to be refused.",
+          "The leader answers rejection by finding another patron to continue the old fight.",
+        ],
+        questions: [
+          "When your organisation no longer needs you as much, what account will it ask of you, and will you give it?",
+          "Which of your reforms has made enemies who would welcome outside help against you?",
+          "If you were pushed aside, what would you do that showed what you had been serving?",
+        ],
+      },
+      bearsOn:
+        "This lesson changes the question’s frame: neither state was grateful, and neither commander outlived his war in honour. For the record, the fourth answer, it shows why the stories survive in the form they do: Scipio’s defiance told for his good fame, Hannibal’s death told with a speech against Rome by a Roman historian. For Rome’s system, the second answer, it shows the system’s other side: the same institutions that outlasted Hannibal would not exempt Scipio.",
+      questions: [
+        {
+          prompt:
+            "What reform did Hannibal carry as a magistrate at Carthage, according to Livy?",
+          choices: [
+            "He abolished the senate.",
+            "He made the judges, who had held office for life, elected yearly, and recovered embezzled revenue to pay Rome without new taxes.",
+            "He raised a new army.",
+          ],
+          answer: 1,
+          explanation:
+            "Livy 33.46–47; the men who lost by it urged Rome against him.",
+        },
+        {
+          prompt:
+            "What did Scipio do on the day of his defence, according to Livy?",
+          choices: [
+            "He answered every charge in detail.",
+            "He said it was the anniversary of Zama and led the assembly to the Capitol to give thanks.",
+            "He fled to Antiochus.",
+          ],
+          answer: 1,
+          explanation: "Livy 38.51; he then withdrew to Liternum.",
+        },
+        {
+          prompt:
+            "Why, according to Britannica, was Zhukov dismissed as defence minister in 1957?",
+          choices: [
+            "For losing a battle.",
+            "Because Khrushchev could not tolerate his efforts to make the army more autonomous.",
+            "For corruption.",
+          ],
+          answer: 1,
+          explanation:
+            "Months after he had helped Khrushchev survive the attempt to oust him.",
+        },
+      ],
+      sourceCheck: {
+        question: "Was Scipio’s prosecution ingratitude, or the law at work?",
+        witnesses: [
+          {
+            label: "Livy 38.50",
+            claim:
+              "Some called Rome ungrateful to its foremost man; others said no citizen should be above answering to the law.",
+          },
+          {
+            label: "Polybius 23.14",
+            claim:
+              "Scipio tore up the account book rather than render it, and Polybius tells it for his good fame.",
+          },
+          {
+            label: "Livy 38.56",
+            claim:
+              "In another version Scipio freed his brother from arrest by force, and Gracchus complained that a private citizen had defied the tribunes.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Ingratitude: Polybius shows a great man hounded by lesser ones.",
+            feedback:
+              "Polybius says he tells the anecdotes for Scipio’s good fame; the same story shows a refusal to account for public money.",
+          },
+          {
+            text: "Both: the prosecution had political motives, and it also tested a principle Scipio would not accept; Livy reports both views and his sources disagree on the facts.",
+            feedback:
+              "This keeps both readings, which Livy himself presents, and notes that the facts are uncertain.",
+            best: true,
+          },
+          {
+            text: "The law: Scipio was guilty because he would not answer.",
+            feedback:
+              "Refusing to answer is not proof of the charge; no source shows the bribery.",
+          },
+        ],
+        campaignSlug: "scipio-s-african-campaign",
+      },
+      seminar: {
+        prompt:
+          "Rome, the day Scipio walks from the Rostra to the Capitol. Argue what the Republic owes him, and what he owes it, from three positions: a tribune of the plebs, a veteran of Zama, and a Carthaginian merchant in Rome who remembers Hannibal’s flight.",
+        guidance:
+          "Use Hannibal’s reforms and flight, Scipio’s trial and the torn account book, the two deaths and Zhukov’s dismissal. Say what each state could reasonably demand of a commander once the war was over.",
+      },
+      sources: [
+        s.livy38,
+        s.livy33,
+        s.ebHannibal,
+        s.pol23,
+        s.livy39,
+        s.plutarchFlamininus,
+        s.britZhukov,
+        s.livy30,
+        s.pol3,
+      ],
+    },
+    {
+      slug: "the-ledger",
+      title: "The ledger: why did the better tactician lose?",
+      part: "The meeting and after",
+      themes: ["judgement", "ethics"],
+      claim:
+        "When a war is weighed whole, the winner of the great battles can prove to have lost to a system, a rival and a record at once, but the verdict holds only when the costs are counted with the victories and the reader says openly which evidence decided it.",
+      inBrief: {
+        strength:
+          "Hannibal won every great battle in Italy and held an army together for fifteen years far from home.",
+        shadow:
+          "Italy, Spain and Africa paid for the war, and half a century later Carthage itself was destroyed.",
+      },
+      moment: {
+        text: "The two verdicts that frame this volume were written two thousand years apart. Polybius, who knew the Romans from within, admired Hannibal’s generalship over sixteen years and judged that had he begun with the rest of the world and finished with the Romans, none of his plans would have failed; he began with those he should have left to last. The 1911 Britannica, reading Polybius among others, answered that Carthage could only hope to win by invading Italy and turning Rome’s own resources against it, and that the failure was due not to any strategic mistake but to Rome’s strength of will and the compactness of its Italian confederacy: individual genius overborne by corporate and persevering effort.",
+        evidence: "interpretation",
+        refs: [{ source: 0, locator: "11.19" }, { source: 1 }],
+      },
+      episodes: [
+        {
+          title: "Hannibal’s strategy",
+          text: "The invasion needed two things it could not compel. Rome’s allies had to change sides, and before Cannae, Polybius says, not one Italian city did. Rome had to treat, and in the speech Livy gives him after Cannae, Hanno asked the Carthaginian senate whether any Roman had so much as mentioned peace. When the south did go over, Hannibal could not protect it: Livy’s verdict on Capua is that its fate showed his powerlessness to defend those who had joined him. The lessons on the invasion and on the allies who stayed weigh this answer; it is strong, but it is the strength of a plan that depended on its enemy.",
+          evidence: "interpretation",
+          refs: [
+            { source: 2, locator: "3.90, 3.118" },
+            { source: 3, locator: "23.13" },
+            { source: 4, locator: "26.16" },
+          ],
+          battleSlugs: ["cannae"],
+        },
+        {
+          title: "Rome’s system",
+          text: "Polybius credits Rome’s recovery after Cannae to its constitution and to wise counsel. The volume has followed the system at work: a dictator who refused battle, a senate that would not ransom its prisoners or mention peace, colonies that kept sending men even when twelve of them refused, and, as the lesson on the Delayer tells, a consul who left his own front to destroy a relieving army on the Metaurus before Hannibal knew it had come. The system also produced Scipio, by an assembly’s vote, and audited him after Locri. It did not win by delay alone, as the lesson on the Delayer shows; it won by enduring until its bolder commanders could strike.",
+          evidence: "interpretation",
+          refs: [
+            { source: 2, locator: "3.118" },
+            { source: 5, locator: "27.9–10" },
+          ],
+          battleSlugs: ["metaurus"],
+        },
+        {
+          title: "Scipio’s command",
+          text: "Scipio took Carthage’s base in Spain by calculation, won its peoples with returned hostages and freed prisoners, beat its armies by reversing his own habits at Ilipa, carried the war to Africa against the senate’s most respected voice, and at Zama had the cavalry Hannibal lacked because Masinissa had come over. Polybius’s verdict on Zama is that Hannibal did all a good general could and met a braver man. Whether Scipio learned from Hannibal the sources never say; that he learned from defeat and from his enemies’ habits, they show.",
+          evidence: "interpretation",
+          refs: [{ source: 6, locator: "15.15–16" }],
+          battleSlugs: ["ilipa", "zama"],
+        },
+        {
+          title: "The record",
+          text: "Every answer reaches us through the winners’ side. Polybius drew on Laelius and wrote as the friend of Scipio’s grandson; Livy wrote two centuries later for Romans; Hannibal’s own historians survive only in his enemies’ quotations, and the Britannica notes that nearly all that is known of him comes from hostile sources. In the speech Livy gives him at his recall, Hannibal blames not the Roman people but the Carthaginian senate’s envy, a fifth answer the record allows only in a Roman’s words. The record does not decide the question, but it decides what evidence the other answers can use.",
+          evidence: "interpretation",
+          refs: [{ source: 7 }, { source: 8, locator: "30.20" }],
+          battleSlugs: [],
+          campaignSlugs: ["hannibal-s-italian-campaign"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Polybius",
+          stake:
+            "A Greek who watched Rome conquer his own country and became the friend of the man who destroyed Carthage.",
+          says: "Hannibal’s choice of enemy was his mistake; Rome’s constitution was its strength.",
+          refs: [
+            { source: 0, locator: "11.19" },
+            { source: 2, locator: "3.118" },
+          ],
+        },
+        {
+          who: "The 1911 Britannica",
+          stake:
+            "A modern reference written in an age of empires, admiring Rome’s will and Hannibal’s genius together.",
+          says: "Carthage could only win by invading Italy, and Hannibal made no strategic mistake; individual genius was overborne by corporate effort.",
+          refs: [{ source: 1 }],
+        },
+        {
+          who: "Livy",
+          stake:
+            "A Roman historian who admired Hannibal most in adversity and wrote Rome’s endurance as its virtue.",
+          says: "In thirteen years in an enemy’s country no mutiny broke out in his army of many peoples, though Carthage sent him nothing.",
+          refs: [{ source: 9, locator: "28.12" }],
+        },
+        {
+          who: "Hannibal, as Livy imagines him at his recall",
+          stake:
+            "Words a Roman historian composed for the defeated general two centuries later.",
+          says: "Not the Roman people, so often routed, but the Carthaginian senate’s envy had beaten him.",
+          refs: [{ source: 8, locator: "30.20" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Weighed without hindsight, the strategy was the only one that offered Carthage victory, as the Britannica argues, and it was also a wager on things Hannibal could not control, as Polybius implies. Both verdicts can be true. The invasion turned Rome’s strength, its manpower and allies, into the object of the war; it would succeed if the allies broke and fail if they held. They held, mostly, because Rome’s system gave them more to lose by leaving and Hannibal could not protect them when they did. On this volume’s evidence, the war was lost first in the allied cities of Italy and the Roman senate, not on a battlefield.",
+          evidence: "interpretation",
+          refs: [{ source: 1 }, { source: 0, locator: "11.19" }],
+        },
+        {
+          text: "The premise, that Hannibal was the better tactician, survives but narrowly. He won every great battle he chose in Italy by reading Roman commanders and using cavalry and ground; Scipio won his by preparation, by reversing his own habits and by allies. At Zama the two met when Scipio had the instrument Hannibal’s method needed and Hannibal did not. The better tactician on the field lost to a better strategist of alliances and a better state. Readers who think the premise wrong should argue that Scipio’s battles, never lost, are the stronger record; the sources would allow it.",
+          evidence: "interpretation",
+          refs: [{ source: 6, locator: "15.15–16" }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "A ledger of a war is a judgement of value and of evidence, not a psychological question. The earlier lessons used research only where a sound review spoke to a narrow point, on learning from models, on diversity in groups, on reading character from behaviour. None of it can weigh a war, and none is offered here.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered; the lesson weighs sources and costs.",
+        },
+      ],
+      shadow: {
+        text: "The war’s last cost came fifty years after it ended. The 1911 Britannica says Carthage’s revived commerce roused Roman jealousy and alarm, a pretext was found, and after a siege that went badly for the Romans for two years Scipio Aemilianus, Africanus’s adoptive grandson and Polybius’s friend, took the city street by street; the survivors were sold into slavery, the city razed and its site cursed to lie desolate. Whatever Carthage might have written about Hannibal went with it. Livy records a tradition that Scipio Africanus used to say only the jealousy of two Roman consuls had kept the war of his own day from ending with Carthage’s destruction.",
+        evidence: "fact",
+        refs: [{ source: 1 }, { source: 8, locator: "30.44" }],
+      },
+      counterCase: {
+        text: "Napoleon in 1813 lost a war the same way, and the Napoleon volume’s lesson on rivals who learn reads it from his side. Britannica says the allies agreed to avoid battle with Napoleon himself and attack his subordinates. He beat Schwarzenberg at Dresden, his last great victory, and within days his marshals were routed at Grossbeeren, the Katzbach and Kulm, and later at Dennewitz; Bavaria changed sides; at Leipzig the converging armies beat him, and for the second year running he lost an army. Rome had done the same to Hannibal: avoided him when it could, beat Hasdrubal on the Metaurus, and took Spain and Africa from under him. A commander who wins every battle he fights can still lose to enemies who choose which battles to give him.",
+        evidence: "interpretation",
+        refs: [{ source: 10 }],
+        commanderSlug: "napoleon-bonaparte",
+        battleSlugs: ["dresden", "leipzig"],
+      },
+      cost: {
+        text: "The ledger’s other column runs through every lesson. Italy laid waste by both armies for fifteen years, with orders on Hannibal’s march after Trasimene to kill the adults met on the road. The Latin colonies drained by levies and taxes. Capua’s people sold and its government abolished; Tarentum sacked. The inhabitants of New Carthage killed in the streets by Roman custom and its craftsmen made public slaves. The Africans sold after Baecula, the towns of the Carthaginian countryside sold before Zama, and the Italian soldiers who would not sail with Hannibal killed, in Livy’s account and Appian’s. The ancient figures for all of them are left out.",
+        evidence: "fact",
+        refs: [
+          { source: 2, locator: "3.86" },
+          { source: 5, locator: "27.9, 27.16, 27.19" },
+          { source: 4, locator: "26.16" },
+          { source: 11, locator: "10.15, 10.17" },
+          { source: 6, locator: "15.4" },
+          { source: 8, locator: "30.20" },
+          { source: 12, locator: "59" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "A contest is judged as a whole, with its costs and its sources entered beside its results.",
+          "The reader can say which evidence decided the verdict, and what would change it.",
+        ],
+        failsWhen: [
+          "The best performer is assumed to be the deserving winner, and the system that outlasted them is left out.",
+          "The account of the contest was written by one side and is read as if it were neutral.",
+        ],
+        questions: [
+          "In your field, who won the visible contests and who won the long one, and why were they different?",
+          "What in your organisation plays the part of Rome’s allies: the thing that holds when the battles go badly?",
+          "Whose account of your last success will survive, and whose will not?",
+        ],
+      },
+      bearsOn:
+        "Why did the better tactician lose the war? This volume’s answer is Rome’s system first: a state that would not treat, replaced its armies and kept most of its allies, and so turned Hannibal’s victories into a war of attrition he could not win far from home. Scipio’s command second: a commander that system produced, who took away Carthage’s base, its allies and its cavalry and then beat Hannibal with them. Hannibal’s strategy third: not a mistake in its choice, which was the only path to victory, but a wager on allies and on Rome’s will that both went against him. And the record over all three, written by the winners’ friends. Argue the opposite: that Scipio, not Rome, decided the war, because without Spain and Masinissa the system could have endured for ever without winning.",
+      questions: [
+        {
+          prompt: "What did Polybius think was Hannibal’s great mistake?",
+          choices: [
+            "Crossing the Alps.",
+            "Beginning with the Romans, whom he should have left to the last.",
+            "Not marching on Rome after Trasimene.",
+          ],
+          answer: 1,
+          explanation:
+            "Polybius 11.19; the 1911 Britannica answers that invading Italy was Carthage’s only path to victory.",
+        },
+        {
+          prompt:
+            "To what did the 1911 Britannica attribute Hannibal’s failure?",
+          choices: [
+            "To his strategic mistakes.",
+            "To Rome’s strength of will and the compactness of its Italian confederacy.",
+            "To the elephants.",
+          ],
+          answer: 1,
+          explanation:
+            "Individual genius overborne by corporate and persevering effort.",
+        },
+        {
+          prompt:
+            "What plan did the allies adopt against Napoleon in 1813, according to Britannica?",
+          choices: [
+            "To seek battle with him at once.",
+            "To avoid battle with Napoleon himself and attack his subordinates.",
+            "To make peace on his terms.",
+          ],
+          answer: 1,
+          explanation:
+            "Dresden was his last great victory; the war was lost around it.",
+        },
+      ],
+      sourceCheck: {
+        question: "Was Hannibal’s strategy a mistake?",
+        witnesses: [
+          {
+            label: "Polybius 11.19",
+            claim:
+              "Had he begun with the rest of the world and finished with Rome, none of his plans would have failed.",
+          },
+          {
+            label: "1911 Britannica, “Punic Wars”",
+            claim:
+              "Carthage could only win by invading Italy; the failure was not due to any strategic mistake.",
+          },
+          {
+            label: "Hanno, in Livy 23.13",
+            claim:
+              "A victory that brings no Roman offer of peace has not shortened the war.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Polybius is right, because he was closer to events.",
+            feedback:
+              "Polybius was closer, but his alternative, conquering the rest of the world first, is a counterfactual no one could test.",
+          },
+          {
+            text: "Both can be true: invasion was Carthage’s only chance, and it was a wager on allies and on Rome’s will that went against it; Hanno’s question names the wager.",
+            feedback:
+              "This keeps the two verdicts as answers to different questions, the choice and the odds, and uses the Carthaginian voice the record preserves.",
+            best: true,
+          },
+          {
+            text: "The Britannica is right, because modern scholarship supersedes ancient opinion.",
+            feedback:
+              "The Britannica reads the same ancient sources; its verdict is an argument, not new evidence.",
+          },
+        ],
+        campaignSlug: "hannibal-s-italian-campaign",
+      },
+      seminar: {
+        prompt:
+          "Write the epitaph for the war. Argue why the better tactician lost, from three positions: a Carthaginian who survived the fall of the city in 146, a Latin colonist whose town held, and Polybius himself.",
+        guidance:
+          "Use the volume’s four answers, the two verdicts, the costs and Napoleon in 1813. Each speaker must name the evidence that decided their verdict and the evidence they would rather not count.",
+      },
+      sources: [
+        s.pol11,
+        s.ebPunic,
+        s.pol3,
+        s.livy23,
+        s.livy26,
+        s.livy27,
+        s.pol15,
+        s.ebHannibal,
+        s.livy30,
+        s.livy28,
+        s.britAutumn1813,
+        s.pol10,
+        s.appianHannibal12,
+      ],
+    },
   ],
-  inProgress:
-    "This volume is being written. Its lessons are added in reviewed batches.",
 };

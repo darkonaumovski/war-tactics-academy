@@ -2071,3 +2071,29 @@ What the batch changed in the evidence pass:
 - Source check: a draft said Butler, Sigel and Banks held their commands for political reasons, which nothing read states; it now says they already held their commands when Grant took over and that Banks's expedition was ordered from Washington. A draft counterfactual that Lee's thin front "could not have held" was softened to "could hardly have held". Two dates given as 1 May for Hooker's halt were replaced by "the first days of May", which the sources support.
 
 Choices: no casualty or army figures; Grant's count of commanders is kept as a count of commands, and Forrest's numbers are left out. Every page was read at the address cited; no scripted link check was run.
+
+## Leadership Lessons from Grant and Lee, batch G4: Petersburg, the exchange and the army of emancipation (23 November 2026)
+
+Lessons 8 to 10 of Volume 8: `the-army-that-could-not-be-replaced` (Lee at Petersburg), `the-exchange-that-stopped` (prisoner exchange) and `whose-war` (the United States Colored Troops and the Confederacy's last law). Counter-cases: Tadamichi Kuribayashi on Iwo Jima (lesson 8), Richard I at Acre in 1191 (lesson 9) and the Confederacy's own attempt to arm enslaved men, which names no commander (lesson 10). The volume now has eleven of its thirteen lessons and stays in progress.
+
+Sources read, as text or in the built-in browser:
+
+- National Park Service: "Myth: General Ulysses S. Grant stopped the prisoner exchange" (Andersonville National Historic Site), with Grant's letter to Butler of 18 August 1864 as it prints it; "Prisoner Exchanges Halted – April 17, 1864" (Richmond National Battlefield Park), with Grant's order to Butler, Seddon's refusal and the Lee–Grant letters of October 1864, citing Butler's correspondence and the _Official Records_; "African Americans at Andersonville" (the Emancipation Proclamation's enlistment clause, the Dix-Hill Cartel, the Confederate demand that Black prisoners be returned as runaway slaves); "Arming the Enslaved? March 13, 1865" (Richmond: the act, its section on owners, Davis's order of 23 March, the two companies).
+- Encyclopedia Virginia: Andre Fleche, "The United States Colored Troops"; Jaime Amanda Martinez, "Black Confederates"; the primary document "Letter from Robert E. Lee to Ethelbert Barksdale (February 18, 1865)"; Greene, "Petersburg Campaign", and Pryor, "Robert E. Lee", re-read.
+- Grant, _Personal Memoirs_, on Wikisource: chapters XXX (freedpeople at Grand Junction), XLVII (Fort Pillow), LVII (the mine and Meade's interference with the Black division) and LXIV (Sheridan's instructions), re-read.
+- The 1911 Britannica, "Petersburg" (the campaign section), re-read.
+- The Avalon Project's Mississippi declaration and the Park Service's "Vicksburg Siege" (Milliken's Bend), re-read.
+- Myles Hudson, "Battle of Iwo Jima", Britannica, in the browser.
+- Bahā' al-Dīn, _The Life of Saladin_ (Palestine Pilgrims' Text Society translation), Internet Archive scan `lifesaladin00condgoog`: chapter CXVI, the massacre of the Acre garrison, and pp. 278–280, Saladin's retaliation. Britannica's "Battle of Arsūf" was opened but does not describe the massacre, and is not cited.
+
+Sayings and stories: Grant's letter of 18 August 1864 is quoted as the Park Service prints it, with its context and its later use on the Wirz Monument; his order of 17 April and the letters of October 1864 are quoted as the Park Service quotes them; Lee's letter to Barksdale is quoted from Encyclopedia Virginia's text. Forrest's dispatch is paraphrased from Grant's quotation without its numbers. No banned saying appears.
+
+What the batch changed in the evidence pass:
+
+- Lesson 9 was thin and is now adequate: the three Park Service pages carry the sequence from the cartel of 1862 to the agreement of winter 1864–65, and show two different reasons in Grant's letters, a principle (equal treatment of Black soldiers, April and October 1864) and an arithmetic (August 1864). The lesson stays separate from lesson 10, as the prompt planned; correction 14's merge was not needed.
+- Lesson 9's counter-case is Richard I at Acre, as proposed, from Bahā' al-Dīn, who gives two explanations for the massacre and declines to choose; Britannica's Arsuf article was not enough.
+- Lesson 10's gaps are filled: Fort Pillow from Grant's chapter XLVII, the Confederate law of March 1865 from Martinez and the Park Service, the soldiers' pay and service from Fleche. Its counter-case is the Confederacy's own attempt, which names no commander because it was a government's decision; Lee's letter, which endorsed it, is the lesson's moment.
+- Lesson 8's counter-case is Kuribayashi, as proposed.
+- Source check: a draft of lesson 9's shadow said Black prisoners at Andersonville were treated as runaway slaves, which the page read states only of Confederate policy in general; it now says so. A draft called the Wirz Monument a monument to the prison's commandant, which nothing read states; it now names the monument only. Two episodes of lesson 9 linked campaigns they do not discuss, and the links were removed. Lesson 8's counter-case no longer says why Lee surrendered. Lesson 10 now says commissions stayed "almost entirely" with white men, as Fleche writes.
+
+Choices: no casualty or army figures; the numbers of prisoners at Andersonville, of Black soldiers in the Union army and of Medals of Honor are given in words ("tens of thousands", "a substantial share", "most of"), and Bahā' al-Dīn's count of the Acre prisoners is left out. Every page was read at the address cited; no scripted link check was run.

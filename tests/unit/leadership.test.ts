@@ -344,6 +344,9 @@ describe("the Grant and Lee volume", () => {
       "the-third-day",
       "general-in-chief",
       "fight-it-out-on-this-line",
+      "the-army-that-could-not-be-replaced",
+      "the-exchange-that-stopped",
+      "whose-war",
     ]);
   });
 });

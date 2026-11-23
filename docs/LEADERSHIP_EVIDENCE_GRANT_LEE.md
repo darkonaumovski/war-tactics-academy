@@ -91,6 +91,8 @@ Grades: **strong** means the lesson's main claims and its counter-evidence are i
 13. **Lesson 6 needs Grant's own plan.** The batch that writes it must read memoir chapters XLV–XLVI (or the _Official Records_ letters to Sherman and Meade of April 1864) before drafting.
 14. **Lesson 9 is thin.** Nothing on prisoner exchange has been read. Recommendation: read Grant's correspondence on exchange and a Park Service page on Andersonville before Part III; if they cannot carry the lesson, merge it into lesson 10, since the exchange broke down over the Confederacy's treatment of Black prisoners, and keep the prisoners in the ledger.
 
+Batch G4 note: lesson 9 is no longer thin. Three National Park Service pages (Andersonville and Richmond) were read and carry it, so it stays a lesson of its own; Fort Pillow, the Confederate law of March 1865 and the United States Colored Troops were read for lesson 10 (see `docs/SOURCE_AUDIT.md`, batch G4).
+
 ## Psychology to read in the batches
 
 Batch G1 note: the Sleesman review below could not be read (the publisher's page sits behind a bot check), so lesson 7 uses Roth, Robbert and Straus (2015), an open-access meta-analysis of the sunk-cost effect, abstract only.

@@ -2,7 +2,8 @@ import type { LeadershipVolume, Source } from "../../lib/types";
 // Volume 8, shared by Grant and Lee, written in reviewed batches (batch G1,
 // the pilot, is lessons 0, the record, 5, Lee's third day, and 7, Grant's
 // persistence; batch G2 is lessons 1 to 3, Grant in the West; batch G3 is
-// lessons 4 and 6, the divided army and the general-in-chief); docs/LEADERSHIP_EVIDENCE_GRANT_LEE.md records which sources
+// lessons 4 and 6, the divided army and the general-in-chief; batch
+// G4 is lessons 8 to 10, Petersburg, the exchange and emancipation); docs/LEADERSHIP_EVIDENCE_GRANT_LEE.md records which sources
 // can carry each lesson, and docs/SOURCE_AUDIT.md how each was read. Grant's
 // memoirs are cited by chapter on Wikisource; scanned books by page.
 const grant = (chapter: string, subject: string): Source => ({
@@ -115,6 +116,54 @@ const s = {
       "Napoleonic Wars: Dispositions for the autumn campaign (of 1813) (Britannica Editors)",
     url: "https://www.britannica.com/event/Napoleonic-Wars/Dispositions-for-the-autumn-campaign",
     publisher: "Encyclopædia Britannica",
+  },
+  grant57: grant(
+    "LVII",
+    "Mining the Works before Petersburg—Explosion of the Mine before Petersburg",
+  ),
+  grant64: grant("LXIV", "Battle of Five Forks"),
+  leeBarksdale: virginia(
+    "letter-from-robert-e-lee-to-ethelbert-barksdale-february-18-1865",
+    "Letter from Robert E. Lee to Ethelbert Barksdale (February 18, 1865)",
+  ),
+  usct: virginia(
+    "united-states-colored-troops-the",
+    "The United States Colored Troops (Andre Fleche)",
+  ),
+  blackConfederates: virginia(
+    "black-confederates",
+    "Black Confederates (Jaime Amanda Martinez)",
+  ),
+  exchangeMyth: {
+    title:
+      "Myth: General Ulysses S. Grant stopped the prisoner exchange, and is thus responsible for all of the suffering in Civil War prisons on both sides",
+    url: "https://home.nps.gov/ande/learn/historyculture/grant-and-the-prisoner-exchange.htm",
+    publisher: "National Park Service, Andersonville National Historic Site",
+  },
+  andersonvilleAfricanAmericans: {
+    title: "African Americans at Andersonville",
+    url: "https://www.nps.gov/ande/learn/african_americans.htm",
+    publisher: "National Park Service, Andersonville National Historic Site",
+  },
+  exchangeHalted: {
+    title: "Prisoner Exchanges Halted – April 17, 1864",
+    url: "https://www.nps.gov/rich/learn/historyculture/prisoner-exchanges-halted-april-17-1864.htm",
+    publisher: "National Park Service, Richmond National Battlefield Park",
+  },
+  armingEnslaved: {
+    title: "Arming the Enslaved? March 13, 1865",
+    url: "https://www.nps.gov/rich/arming-the-enslaved.htm",
+    publisher: "National Park Service, Richmond National Battlefield Park",
+  },
+  britIwoJima: {
+    title: "Battle of Iwo Jima (Myles Hudson)",
+    url: "https://www.britannica.com/event/Battle-of-Iwo-Jima",
+    publisher: "Encyclopædia Britannica",
+  },
+  beha: {
+    title: "Behâ ed-Dîn, The Life of Saladin",
+    url: "https://archive.org/details/lifesaladin00condgoog",
+    publisher: "Internet Archive",
   },
   grant25: grant("XXV", "General Johnston—Remarks on Shiloh"),
   grant50: grant("L", "Entering the Wilderness—Battle of the Wilderness"),
@@ -2164,7 +2213,697 @@ export const grantLeeVolume: LeadershipVolume = {
         s.philpott,
       ],
     },
+    {
+      slug: "the-army-that-could-not-be-replaced",
+      title:
+        "The army that could not be replaced: defending a cause by entrenchment",
+      part: "Grant against Lee",
+      themes: ["judgement", "organisation", "restraint"],
+      claim:
+        "When a commander’s army cannot be replaced, he can hold a stronger enemy for a long time from fortified lines, but only while his supply lines hold and his men will stay, and the lines that protect his army also fix it in place.",
+      inBrief: {
+        strength:
+          "From the trenches of Petersburg Lee held Grant for most of a year with an army that could not be rebuilt.",
+        shadow:
+          "The lines tied him to two cities and their railroads, and hunger and desertion emptied them from inside.",
+      },
+      moment: {
+        text: "In the winter of 1864–65 the two armies faced each other across trenches that in places, Greene writes, were less than four hundred yards apart. On the Union side a military railroad brought supplies from the base at City Point to the front, delivering bread still warm from the ovens. The Confederates had no such facilities: firewood was short, rations and warm clothing failed to meet the army’s needs, and Lee faced a rising tide of desertion as veterans gave way to hunger, pessimism and the pleas of their suffering families. The 1911 Britannica adds that his army had no coffee, tea or sugar and lived chiefly on corn-bread, and that the trench work and outpost duty of a severe winter overtaxed its patriotism.",
+        evidence: "fact",
+        refs: [{ source: 0 }, { source: 1, locator: "Petersburg Campaign" }],
+      },
+      episodes: [
+        {
+          title: "Behind the earthworks",
+          text: "When Grant crossed the James in June 1864, the 1911 Britannica writes, Lee for four days refused to believe the reports, and Beauregard held Petersburg with a small force until Lee’s army arrived on the 18th. From then on, Greene writes, the campaign saw the peak of field fortification in the war: each side built elaborate, almost impregnable earthworks, which forced Grant to look for ways round the Confederate defences and allowed Lee to remain defiant at a two-to-one numerical disadvantage. Pryor adds that Lee, always a reluctant politician, could not wrest critical supplies from the Confederate authorities.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "Petersburg Campaign" },
+            { source: 0 },
+            { source: 2 },
+          ],
+          battleSlugs: ["petersburg"],
+          campaignSlugs: ["petersburg-campaign"],
+        },
+        {
+          title: "The railroads",
+          text: "Once Grant gave up hope of taking the city by assault, Greene writes, he set out to strangle it and Lee’s army by cutting each supply line from the south and west, and Lee answered each Union thrust with a counter-attack meant to limit its gains. The 1911 Britannica describes the three routes to victory open to Grant, a decisive battle, a successful assault or the destruction of the railroads, and calls the last the surest but necessarily slow. In August Union troops took the Weldon Railroad, which had brought the cargoes of blockade runners up from Wilmington; after that, Greene writes, Lee depended on the South Side Railroad and the Boydton Plank Road.",
+          evidence: "fact",
+          refs: [{ source: 0 }, { source: 1, locator: "Petersburg Campaign" }],
+          battleSlugs: ["petersburg"],
+        },
+        {
+          title: "Breaking away",
+          text: "By March 1865, the 1911 Britannica writes, Lee had resolved to abandon his lines and join Joseph E. Johnston in North Carolina, but the roads were not yet fit for artillery and wagons, and he attacked Fort Stedman to gain time; the attack failed. Grant was preparing his own move round Lee’s right and writes that he gave Sheridan orders, if needed, to cut loose and join Sherman. Sheridan broke Lee’s right at Five Forks on 1 April; on the 2nd the Union army broke through the lines, and Lee told Davis that Petersburg and Richmond must be abandoned that night.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "Petersburg Campaign" },
+            { source: 3, locator: "ch. LXIV" },
+            { source: 0 },
+          ],
+          battleSlugs: ["petersburg"],
+          campaignSlugs: ["petersburg-campaign"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Robert E. Lee, writing to Ethelbert Barksdale in February 1865",
+          stake:
+            "The Confederacy’s general-in-chief, urging a measure on the Confederate Congress in the last months of the war.",
+          says: "The white population cannot supply the necessities of a long war without overtaxing its capacity; the South must provide for a protracted struggle.",
+          refs: [{ source: 4 }],
+        },
+        {
+          who: "A. Wilson Greene",
+          stake:
+            "A modern historian of the Petersburg campaign, writing for Encyclopedia Virginia.",
+          says: "The earthworks let Lee stay defiant against two-to-one odds, while Grant strangled him by cutting his supply lines.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "The 1911 Britannica, on Petersburg",
+          stake: "A military history written half a century later.",
+          says: "Destroying the railroads was the surest way to defeat Lee, but necessarily slow.",
+          refs: [{ source: 1, locator: "Petersburg Campaign" }],
+        },
+        {
+          who: "Lee, as Pryor reports him after the war",
+          stake:
+            "The defeated commander, speaking to a confidant about his own war.",
+          says: "He fought the enemy at every step and got out of his army all that any men could do.",
+          refs: [{ source: 2 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Entrenchment bought time, and the question is what the time was for. Lee’s earlier hope, Pryor writes, had been to destroy the enemy’s army or discourage Northerners so deeply that they would demand an end to the war. Greene writes that Lincoln’s re-election in November relieved the pressure on Grant to show progress; after that, time served the side that could replace its men. Lee’s own letter of February 1865 states the arithmetic: the Confederacy’s white population could not supply a long war. The lines preserved the army without changing that arithmetic.",
+          evidence: "interpretation",
+          refs: [{ source: 2 }, { source: 0 }, { source: 4 }],
+        },
+        {
+          text: "The lines also fixed the army in place. The 1911 Britannica writes that Davis’s policy was to use Lee’s army to protect the capital, and that Richmond and Petersburg formed one fortress fed by its railroads; each railroad Grant cut made the lines longer to hold and harder to supply. When Lee decided to break away, the weather and Grant’s movement round his right gave him no time. Wellington’s volume asks when preserving an irreplaceable army is the decisive act; the Serbian volume shows an army that chose to retreat rather than be destroyed in place. Lee kept his army in its lines until the lines could no longer keep it.",
+          evidence: "interpretation",
+          refs: [{ source: 1, locator: "Petersburg Campaign" }, { source: 0 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Desertion in the last winter can be described from the sources, which name hunger, pessimism and the pleas of families as causes, but no research was read that could add a reliable mechanism to them. The lesson rests on what the sources record.",
+          evidence: "interpretation",
+          refs: [],
+          limit: "No mechanism is offered and no study is cited.",
+        },
+      ],
+      shadow: {
+        text: "The siege fell on the town as well as the armies. Greene writes that the Union army waged a limited and random war against the citizens of Petersburg: once the original Confederate works east of the city were taken, Union artillery could reach its factories, public buildings and homes; hundreds of buildings were damaged by shellfire, most of the eastern half of the town became uninhabitable, and its people became refugees driven from their homes by the prospect of sudden death. Inside the Confederate lines, the families whose pleas drew soldiers home were part of the same cost.",
+        evidence: "fact",
+        refs: [{ source: 0 }],
+      },
+      counterCase: {
+        text: "Tadamichi Kuribayashi on Iwo Jima in 1945 held fortified ground with no hope of relief and no way to break away. Britannica writes that, despite the apparent futility of resistance, he resolved to make the United States bleed for its victory: he had a network of tunnels built, kept his men in caves until the Americans advanced inland, and forbade the suicidal charges of earlier defences. The garrison held for weeks and was killed virtually to the last man; by some accounts Kuribayashi himself preferred death to capture. Lee’s lines held longer, but they held while railroads still fed them, and when they broke he tried to march his army away, and a week later surrendered it.",
+        evidence: "interpretation",
+        refs: [{ source: 5 }],
+        commanderSlug: "tadamichi-kuribayashi",
+        battleSlugs: ["iwo-jima"],
+      },
+      transfer: {
+        holdsWhen: [
+          "Holding a position buys time that something else, outside the position, can use.",
+          "The position’s supplies and the people holding it can last longer than the opponent’s patience.",
+        ],
+        failsWhen: [
+          "The time bought serves only to delay, while the opponent cuts what feeds the position.",
+          "The people inside are drawn away by hunger or by their families before the lines are ever broken.",
+        ],
+        questions: [
+          "What is your organisation defending, and what does it gain from holding it longer?",
+          "Which of the lines that protect you also keep you from moving?",
+          "What would make your people leave before any competitor broke through?",
+        ],
+      },
+      bearsOn:
+        "Petersburg joins the second and third answers. The Union’s resources showed in the warm bread at City Point and in the patience to cut one railroad after another; Lee’s choices showed in the decision to defend the capital from lines he could not leave in time. Persistence was on both sides: Grant’s in the long siege, Lee’s in holding it. The record answer appears in Lee’s own postwar verdict that his army had done all that any men could do.",
+      questions: [
+        {
+          prompt:
+            "How did Grant set out to defeat Lee once Petersburg could not be taken by assault, according to Greene?",
+          choices: [
+            "By cutting each supply line into the city from the south and west.",
+            "By waiting for Lee to attack.",
+            "By moving the whole army back to Washington.",
+          ],
+          answer: 0,
+          explanation:
+            "The 1911 Britannica calls the destruction of the railroads the surest method, but necessarily slow.",
+        },
+        {
+          prompt:
+            "Why did Lee attack Fort Stedman in March 1865, according to the 1911 Britannica?",
+          choices: [
+            "To capture Grant’s headquarters.",
+            "To relieve Richmond from the north.",
+            "To gain time, because he meant to abandon his lines and join Johnston but the roads were not yet fit to move.",
+          ],
+          answer: 2,
+          explanation:
+            "The attack failed, and Grant’s move round Lee’s right began days later.",
+        },
+        {
+          prompt:
+            "What did Kuribayashi forbid his men to do on Iwo Jima, according to Britannica?",
+          choices: [
+            "To dig tunnels.",
+            "To make the suicidal charges of earlier Japanese defences.",
+            "To fire on the landing beaches.",
+          ],
+          answer: 1,
+          explanation:
+            "He kept them in caves and tunnels so as to make the United States bleed for its victory.",
+        },
+      ],
+      sourceCheck: {
+        question: "Why did Lee’s army finally leave the Petersburg lines?",
+        witnesses: [
+          {
+            label: "Greene",
+            claim:
+              "Hunger, pessimism and the pleas of families drove veterans to desert through the winter.",
+          },
+          {
+            label: "1911 Britannica, Petersburg",
+            claim:
+              "Lee had resolved to abandon the lines and join Johnston, but the roads were not yet fit to move.",
+          },
+          {
+            label: "Grant, ch. LXIV",
+            claim:
+              "His move round Lee’s right aimed at the railroads that Lee needed to stay or to retreat.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Credit Grant’s final offensive alone.",
+            feedback:
+              "The offensive broke the lines, but Lee had already decided to leave them and his army was shrinking from inside.",
+          },
+          {
+            text: "Read the end as the meeting of three pressures: an army wasting from hunger and desertion, a commander already planning to leave, and an enemy moving to cut his last railroads.",
+            feedback:
+              "The sources describe different parts of one collapse; none alone explains its timing.",
+            best: true,
+          },
+          {
+            text: "Conclude that the army simply ran out of ammunition.",
+            feedback: "None of the sources read says so.",
+          },
+        ],
+        campaignSlug: "petersburg-campaign",
+      },
+      seminar: {
+        prompt:
+          "In the autumn of 1864 Lee could hold the Petersburg lines, abandon Richmond and manoeuvre, or seek a battle. Argue the choice from three positions: Lee after Lincoln’s re-election, Jefferson Davis, and a soldier in the trenches whose family has written asking him to come home.",
+        guidance:
+          "Use Greene, the 1911 Britannica’s account of the campaign, Pryor, and Lee’s letter to Barksdale. Say what the lines protected and what they cost.",
+      },
+      sources: [
+        s.greene,
+        s.ebPetersburg,
+        s.pryor,
+        s.grant64,
+        s.leeBarksdale,
+        s.britIwoJima,
+      ],
+    },
+    {
+      slug: "the-exchange-that-stopped",
+      title:
+        "The exchange that stopped: prisoners and the arithmetic of attrition",
+      part: "Grant against Lee",
+      themes: ["ethics", "judgement"],
+      claim:
+        "When a commander refuses an exchange of prisoners that his own men’s families beg for, the refusal can be defended only if he is clear which reason he is acting on, a principle or an arithmetic of attrition, and the cost falls on prisoners who have no voice in the decision.",
+      inBrief: {
+        strength:
+          "Grant refused to exchange prisoners on terms that excluded Black soldiers, and told Lee why in writing.",
+        shadow:
+          "He also gave a colder reason, that released prisoners would fight again, and Union prisoners died waiting.",
+      },
+      moment: {
+        text: "On 18 August 1864, as the Park Service prints it, Grant answered Benjamin Butler, the Union commissioner of exchange, about a Confederate offer to resume the exchange of prisoners: “It is hard on our men held in Southern prisons not to exchange them, but it is humanity to those left in the ranks to fight our battles. Every man we hold, when released on parole or otherwise, becomes an active soldier against us at once either directly or indirectly.” He added that releasing all Confederate prisoners at that moment would ensure Sherman’s defeat. The Park Service notes that the sentence was later engraved on the Wirz Monument in the town of Andersonville, as evidence that Grant had stopped the exchanges for callous reasons; it argues that the record is more complicated.",
+        evidence: "fact",
+        refs: [{ source: 0 }],
+      },
+      episodes: [
+        {
+          title: "Why the exchange stopped",
+          text: "The Park Service sets out the sequence. The Dix-Hill Cartel of July 1862 provided for equal exchanges and the parole of the balance. In December 1862 Jefferson Davis proclaimed that captured Black soldiers and their white officers would not be exchanged, and in May 1863 the Confederate Congress formalised it. In July 1863 men of the 54th Massachusetts captured at Fort Wagner were not exchanged with the white soldiers taken in the same assault, and on 30 July Lincoln suspended the cartel until Black and white prisoners were treated alike. Large-scale exchanges stopped by August 1863, when Grant was still an army commander in the West.",
+          evidence: "fact",
+          refs: [{ source: 0 }, { source: 1 }],
+          battleSlugs: [],
+        },
+        {
+          title: "Grant’s order of April 1864",
+          text: "In April 1864, as general-in-chief, Grant continued the policy. The Park Service at Richmond writes that he said the killing of surrendering Black soldiers at Fort Pillow on 12 April moved him to make a formal demand: on 17 April he wrote to Butler that no distinction whatever would be made in exchange between white and colored prisoners, and that non-acquiescence by the Confederate authorities would be regarded as a refusal to exchange. The Confederate secretary of war, James Seddon, refused, doubting whether the exchange of Black men for Confederate soldiers would be tolerated at all.",
+          evidence: "fact",
+          refs: [{ source: 2 }],
+          battleSlugs: [],
+        },
+        {
+          title: "Lee and Grant, October 1864",
+          text: "During the siege of Petersburg, Lee wrote to Grant proposing an exchange of soldiers of whatever color, but adding that Negroes belonging to Confederate citizens were not considered subjects of exchange and could not be returned. Grant answered that the government was bound to secure to all persons received into its armies the rights due to soldiers, and that denying those rights to men who had escaped from Southern masters led him to decline the exchange Lee asked. Both Park Service pages quote the exchange of letters.",
+          evidence: "fact",
+          refs: [{ source: 2 }, { source: 1 }],
+          battleSlugs: ["petersburg"],
+        },
+        {
+          title: "The arithmetic",
+          text: "The August letter, the Park Service at Andersonville writes, answered a narrower question. Confederate officials had approached Butler about resuming the full cartel, including Black prisoners. Grant approved an equal exchange, soldier for soldier, but not the cartel’s parole of the balance, because by then Confederate prisoners far outnumbered Union prisoners, released Confederates were likely to rejoin their units, and many Union prisoners had served out their enlistments and would go home. An agreement to resume exchanges was not reached until the winter of 1864–65.",
+          evidence: "fact",
+          refs: [{ source: 0 }],
+          battleSlugs: ["petersburg"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Ulysses S. Grant, in his letters of 1864",
+          stake:
+            "The general-in-chief, writing to Butler and Lee in the middle of the campaign.",
+          says: "No distinction between white and Black prisoners; and releasing prisoners would put soldiers back in the enemy’s ranks.",
+          refs: [{ source: 2 }, { source: 0 }],
+        },
+        {
+          who: "Robert E. Lee, writing to Grant on 3 October 1864",
+          stake:
+            "The Confederate commander, bound by his government’s policy and his own view of formerly enslaved men.",
+          says: "Negroes belonging to Confederate citizens are not subjects of exchange and cannot be returned.",
+          refs: [{ source: 2 }, { source: 1 }],
+        },
+        {
+          who: "James Seddon, Confederate secretary of war",
+          stake:
+            "The minister responsible for Confederate policy on prisoners.",
+          says: "The exchange of Black men for Confederate soldiers would hardly be tolerated.",
+          refs: [{ source: 2 }],
+        },
+        {
+          who: "The National Park Service at Andersonville",
+          stake:
+            "The custodian of the prison site, correcting a story told on a monument in the town.",
+          says: "Grant did not stop the exchanges; politicians on both sides who would not compromise did.",
+          refs: [{ source: 0 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Grant gave two reasons in 1864, and they are different kinds of reason. The April order rests on a principle, that soldiers of the United States must be treated alike whatever their color, and the October letter to Lee repeats it. The August letter rests on arithmetic: the side that could replace its losses gained by holding prisoners, because the other side could not. Judged by what Grant knew, both reasons were real, and the Confederate refusal to treat Black soldiers as prisoners of war made the principle impossible to satisfy without abandoning them.",
+          evidence: "interpretation",
+          refs: [{ source: 2 }, { source: 0 }],
+        },
+        {
+          text: "The arithmetic belongs with the persistence of the Overland Campaign: in both, the Union could bear losses the Confederacy could not, and Grant used the difference. That is the strategist’s case for it. The ethical case is weaker, because the cost fell on men who had no say: the Park Service notes that when Grant wrote in August the prison at Andersonville already held tens of thousands, and that its photographs were taken a few days earlier. The principle protected Black soldiers; the arithmetic spent white and Black prisoners alike.",
+          evidence: "interpretation",
+          refs: [{ source: 0 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Research on moral judgement could frame the choice between a principle and an outcome, but none was read for this volume, and the letters themselves show which reason Grant gave and when. The lesson rests on the letters.",
+          evidence: "interpretation",
+          refs: [],
+          limit: "No mechanism is offered and no study is cited.",
+        },
+      ],
+      shadow: {
+        text: "The prisoners paid. When the exchange broke down in 1863, the Park Service writes, prison populations rose sharply on both sides, and the Confederacy moved its Union prisoners from Richmond to a new stockade at Andersonville, Camp Sumter, opened in February 1864. Prisoners of both sides waited in camps whose populations kept growing. Grant’s August sentence later served as proof of Northern callousness, engraved on the Wirz Monument in the town of Andersonville; it is part of the record, and so is the Confederate policy it answered.",
+        evidence: "fact",
+        refs: [{ source: 1 }, { source: 0 }],
+      },
+      counterCase: {
+        text: "Richard I at Acre in 1191 shows prisoners spent when an exchange failed. Bahā’ al-Dīn, Saladin’s companion and biographer, writes that when Saladin delayed fulfilling the terms agreed for the surrender of Acre, Richard broke his promises to the Muslim garrison, led them out tied together with ropes, and had them killed in sight of Saladin’s advanced guard, sparing only men of note and those strong enough to work. He reports two explanations, revenge for Christians killed during the siege, or Richard’s unwillingness to leave so many prisoners behind when he marched on Ascalon, and adds that God knows the real reason. Saladin then had Frankish prisoners brought to him put to death. Grant held his prisoners rather than kill them; both men treated captives as a reckoning between armies.",
+        evidence: "interpretation",
+        refs: [{ source: 3, locator: "ch. CXVI and pp. 278–280" }],
+        commanderSlug: "richard-i",
+        battleSlugs: ["arsuf"],
+      },
+      cost: {
+        text: "The first prisoners refused exchange were Black soldiers. The Park Service writes that after the Union began enlisting Black soldiers the Confederacy insisted that captured Black men be treated as runaway slaves and returned to their owners, and that men of the 54th Massachusetts taken at Fort Wagner were held back when their white comrades were exchanged. Lee’s letter of October 1864 kept the same line for men who had escaped from Southern masters.",
+        evidence: "fact",
+        refs: [{ source: 1 }, { source: 0 }, { source: 2 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "The leader states the reason for a hard refusal, and the reason is one the people affected could recognise.",
+          "A principle is at stake that the other side refuses to accept, so that agreement would mean abandoning some of one’s own.",
+        ],
+        failsWhen: [
+          "A principle and an arithmetic are mixed, so that the cold reason later stands for the whole decision.",
+          "Those who bear the cost have no voice and no account in the decision.",
+        ],
+        questions: [
+          "When you refuse something your own people want, which reason are you acting on, and have you said so?",
+          "Whose welfare is being counted as a resource in your plans?",
+          "Which of your decisions would look callous if one sentence from it were carved in stone?",
+        ],
+      },
+      bearsOn:
+        "The exchange is the plainest case of the Union’s resources turned into policy: holding prisoners hurt the side that could not replace men. It also bears on the record. A single sentence of Grant’s, cut from its context, became Lost Cause evidence, while the Confederate refusal to exchange Black soldiers, which began the breakdown, dropped out of the story.",
+      questions: [
+        {
+          prompt:
+            "When did large-scale prisoner exchanges stop, according to the Park Service?",
+          choices: [
+            "In August 1863, after the Confederacy refused to exchange Black soldiers and Lincoln suspended the cartel; Grant was then in the West.",
+            "In August 1864, when Grant wrote to Butler.",
+            "In April 1865, at Appomattox.",
+          ],
+          answer: 0,
+          explanation:
+            "The Park Service calls the claim that Grant stopped the exchange a myth.",
+        },
+        {
+          prompt: "What did Grant demand on 17 April 1864?",
+          choices: [
+            "That all prisoners be released at once.",
+            "That exchanges be ended forever.",
+            "That no distinction whatever be made in exchange between white and colored prisoners.",
+          ],
+          answer: 2,
+          explanation:
+            "He wrote that non-acquiescence would be regarded as a refusal to exchange; Seddon refused.",
+        },
+        {
+          prompt:
+            "How did Grant answer Lee’s statement that formerly enslaved soldiers were not subjects of exchange?",
+          choices: [
+            "He accepted it.",
+            "He replied that the government was bound to secure to all persons in its armies the rights due to soldiers, and declined the exchange.",
+            "He referred the question to Lincoln.",
+          ],
+          answer: 1,
+          explanation:
+            "Both Park Service pages quote the letters of October 1864.",
+        },
+      ],
+      sourceCheck: {
+        question: "Did Grant stop the exchange of prisoners?",
+        witnesses: [
+          {
+            label: "Grant to Butler, 18 August 1864",
+            claim:
+              "It is hard on our men in Southern prisons, but humanity to those in the ranks; every man released becomes a soldier against us.",
+          },
+          {
+            label: "Park Service, Andersonville",
+            claim:
+              "Exchanges stopped in the summer of 1863, over the Confederacy’s refusal to exchange Black soldiers, before Grant held overall command.",
+          },
+          {
+            label: "Park Service, Richmond",
+            claim:
+              "Grant’s order of April 1864 demanded equal treatment of Black and white prisoners after Fort Pillow.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Take the August letter as the whole story: Grant stopped exchanges to win by attrition.",
+            feedback:
+              "The letter is real, but it came a year after exchanges stopped and answered a narrower question about the cartel.",
+          },
+          {
+            text: "Dismiss the August letter as irrelevant.",
+            feedback:
+              "It shows that Grant also weighed the arithmetic of attrition; that is part of the record.",
+          },
+          {
+            text: "Read the breakdown as caused by the Confederate refusal to exchange Black soldiers, and Grant’s two reasons, principle and arithmetic, as both his.",
+            feedback:
+              "The sequence of documents supports this; the monument quotes only one of them.",
+            best: true,
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "In August 1864 Butler asks Grant whether to resume the full exchange of prisoners. Argue the answer from three positions: Grant, a Union soldier in Andersonville, and a Black soldier of the United States Colored Troops facing capture at Petersburg.",
+        guidance:
+          "Use the Park Service pages on the exchange, the letters of April, August and October 1864, and Bahā’ al-Dīn on Acre. Say which reason each position would accept, and who would pay.",
+      },
+      sources: [
+        s.exchangeMyth,
+        s.andersonvilleAfricanAmericans,
+        s.exchangeHalted,
+        s.beha,
+      ],
+    },
+    {
+      slug: "whose-war",
+      title: "Whose war: the army of emancipation",
+      part: "Grant against Lee",
+      themes: ["ethics", "adaptation", "motivation"],
+      claim:
+        "When a war fought for one aim becomes a war for another, the side that adapts to the new aim may gain strength the old aim could not give, but those who fight for the new aim may pay most, and a side that adapts too late gains nothing from it.",
+      inBrief: {
+        strength:
+          "The Union turned men who had freed themselves into soldiers, and by the end of the war they were a substantial part of its army.",
+        shadow:
+          "Black soldiers were paid less, led only by white officers, killed after surrendering and refused exchange.",
+      },
+      moment: {
+        text: "On 18 February 1865 Robert E. Lee answered a Mississippi congressman, Ethelbert Barksdale, who had asked his opinion of employing Black men as Confederate soldiers. “I think the measure not only expedient, but necessary,” Lee wrote. The enemy would certainly use them if he could reach them; the white population could not supply the needs of a long war; under good officers, Lee thought, they would make efficient soldiers, and those who served should be freed: it would be neither just nor wise to require them to serve as slaves. Four years earlier the Confederacy’s founding states had declared that slavery was the cause for which they left the Union.",
+        evidence: "fact",
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      episodes: [
+        {
+          title: "From refugees to soldiers",
+          text: "Fleche writes that when the war began, Union recruiters refused Black volunteers, and that Lincoln feared Black soldiers would alienate conservative Northerners and the slaveholding border states. Enslaved people forced the question by escaping to Union lines; Grant writes that by the winter of 1862 so many had gathered around his army at Grand Junction that it could not advance, and that he set them to harvesting abandoned plantations for wages. The Park Service at Andersonville writes that the Emancipation Proclamation of January 1863 added the abolition of slavery to the Union’s war aims and declared that freed men would be received into the armed service; the United States Colored Troops recruited free Black men and men who had been enslaved, mostly under white officers. At Milliken’s Bend, during the Vicksburg siege, untested Black troops met a Confederate attack on a Union depot.",
+          evidence: "fact",
+          refs: [
+            { source: 2 },
+            { source: 3, locator: "ch. XXX" },
+            { source: 4 },
+            { source: 5 },
+          ],
+          battleSlugs: ["vicksburg"],
+          campaignSlugs: ["vicksburg-campaign"],
+        },
+        {
+          title: "Fort Pillow and the Crater",
+          text: "In April 1864 Forrest’s cavalry overpowered Fort Pillow’s garrison, a regiment of Black troops and some Tennessee cavalry; Grant quotes Forrest’s own dispatch boasting of the slaughter and notes that Forrest’s later report left that part out. At Petersburg, Burnside chose his Black division to lead the assault after the mine was exploded on 30 July; Grant writes that Meade interfered, and Greene that Meade doubted the division’s combat prowess and feared the political consequences if it failed and suffered. The white division sent instead failed. Fleche writes that Black soldiers took part in the fighting at the Crater and were subject to a massacre in its wake. Two months later a Black division captured the Confederate works at New Market Heights, and Fleche writes that Black soldiers there and at Fort Gilmer earned most of the Medals of Honor awarded to Black soldiers in the war.",
+          evidence: "fact",
+          refs: [
+            { source: 6, locator: "ch. XLVII" },
+            { source: 7, locator: "ch. LVII" },
+            { source: 8 },
+            { source: 2 },
+          ],
+          battleSlugs: ["petersburg"],
+          campaignSlugs: ["petersburg-campaign"],
+        },
+        {
+          title: "The Confederacy’s last vote",
+          text: "Martinez writes that through most of the war the Confederate government treated Black men as laborers, impressed for work on fortifications, not as soldiers. When Patrick Cleburne proposed emancipating and enlisting enslaved men in January 1864, the Davis administration declined to send the proposal to Congress and ordered the discussion stopped. A year later, with Lee’s support, the Confederate House narrowly passed a bill; the Senate passed an amended version by one vote, and Davis signed it on 13 March 1865. The Park Service at Richmond writes that the act did not promise freedom, leaving the relation of enslaved soldiers to their owners unchanged unless the owners and the states consented; Davis ordered manumission by military order ten days later. Two companies were mustered in Richmond before the city fell.",
+          evidence: "fact",
+          refs: [{ source: 9 }, { source: 10 }],
+          battleSlugs: ["petersburg"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Robert E. Lee, to Barksdale",
+          stake:
+            "The Confederacy’s general-in-chief, short of men in the last winter of the war.",
+          says: "Arming Black men is necessary, and those who serve should be freed.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "Andre Fleche",
+          stake:
+            "A modern historian writing Encyclopedia Virginia’s article on the United States Colored Troops.",
+          says: "Black soldiers were recruited reluctantly, paid unequally and led by white officers, and fought at Petersburg, the Crater and New Market Heights.",
+          refs: [{ source: 2 }],
+        },
+        {
+          who: "Jaime Amanda Martinez",
+          stake:
+            "A modern historian writing Encyclopedia Virginia’s article on Black Confederates.",
+          says: "Confederate leaders treated Black men as laborers, not soldiers; the Black Confederate of later commemoration is a myth.",
+          refs: [{ source: 9 }],
+        },
+        {
+          who: "Ulysses S. Grant",
+          stake:
+            "The general-in-chief whose armies included the United States Colored Troops, writing twenty years later.",
+          says: "The garrison of Fort Pillow fought bravely and was overpowered; Meade interfered with Burnside’s choice of the Black division at the Crater.",
+          refs: [
+            { source: 6, locator: "ch. XLVII" },
+            { source: 7, locator: "ch. LVII" },
+          ],
+        },
+      ],
+      strategist: [
+        {
+          text: "For the Union the change of aim added strength. The Park Service writes that the Proclamation both made abolition a war aim and opened the army to Black men, and that by the end of the war a substantial share of the Union’s forces were Black soldiers, most of whom had been enslaved when the war began. Each one was also a man the Confederacy could no longer use as labour. The change carried political risk, as Fleche notes of Lincoln’s fears for the border states, and it was made by a government that had first refused Black volunteers. Grant’s letter to Lee in October 1864, refusing any exchange that excluded men who had escaped from slavery, shows the army treating the new aim as binding.",
+          evidence: "interpretation",
+          refs: [{ source: 4 }, { source: 2 }, { source: 11 }],
+        },
+        {
+          text: "For the Confederacy the same move came too late and without its premise. Lee’s letter states the arithmetic of the army that could not be replaced, and his view that soldiers must be freed; but the act Congress passed withheld freedom, and Davis had to supply it by order. A war begun to keep slavery could not easily ask enslaved men to fight for it. The Park Service notes that Northern papers reported the Confederates losing more men to desertion each day than the new companies raised.",
+          evidence: "interpretation",
+          refs: [{ source: 0 }, { source: 10 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Research on why people fight for a cause could bear on the soldiers of the United States Colored Troops, but none was read, and the sources give their own reasons in what they did: men who escaped slavery, enlisted, refused unequal pay, and fought. The lesson rests on that record and does not speak for them.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered and no study is cited; few of the soldiers’ own words were read for this volume.",
+        },
+      ],
+      shadow: {
+        text: "Those who fought for the new aim paid most. Fleche writes that Congress set Black soldiers’ pay at the rate for military labourers, that they were often denied the bounties and aid for families given to white soldiers, and that regiments refused any pay until it was equalised, which Congress did in stages in 1864 and 1865. Commissions stayed almost entirely with white men. Black prisoners were refused exchange, and at Fort Pillow and after the Crater Black soldiers were killed after the fighting. The Union’s change of aim was real, and it was carried out by an army that did not treat the men who embodied it as equals.",
+        evidence: "fact",
+        refs: [{ source: 2 }, { source: 11 }],
+        battleSlugs: ["petersburg"],
+      },
+      counterCase: {
+        text: "The Confederacy’s own attempt shows the same move failing. Martinez writes that the Davis administration suppressed Cleburne’s proposal in January 1864 and passed a law only in March 1865, by one vote in the Senate. The Park Service at Richmond writes that the experiment produced two companies, recruited largely from men already conscripted as hospital attendants, and that the city was evacuated three weeks after they began mustering. Martinez adds that after the war the Lost Cause made a myth of the loyal Black Confederate soldier, though the men who appeared in Confederate uniform at reunions had most likely served as body servants. A cause that changes its means without changing its aim gains nothing from the change.",
+        evidence: "interpretation",
+        refs: [{ source: 9 }, { source: 10 }],
+        battleSlugs: ["petersburg"],
+      },
+      cost: {
+        text: "Before Black men were allowed to fight for either side, they were made to work for both. Martinez writes that Confederate states and the Confederate Congress passed laws to impress free and enslaved Black men for labour on fortifications, and that routine impressment calls forced thousands into service. Grant writes that the freedpeople who reached his lines in 1862 had no authority for their feeding unless they were employed by the army, and only able-bodied young men were suitable for that work.",
+        evidence: "fact",
+        refs: [{ source: 9 }, { source: 3, locator: "ch. XXX" }],
+      },
+      transfer: {
+        holdsWhen: [
+          "A new aim gives people a reason to join that the old aim never offered them.",
+          "The organisation is willing to treat those who embody the new aim as full members.",
+        ],
+        failsWhen: [
+          "The new aim is adopted only as a means, without accepting what it implies, as in the Confederacy’s last law.",
+          "The people the new aim depends on are asked to carry more of the cost and receive less of the reward.",
+        ],
+        questions: [
+          "Who joined your organisation because its purpose changed, and are they treated as equals?",
+          "Which change of aim are you making only as a means?",
+          "Who is paying most for your organisation’s new direction?",
+        ],
+      },
+      bearsOn:
+        "Emancipation complicates the second answer. Part of the Union’s growing resources were men who had freed themselves; resources were not simply the North’s population and industry but a change of aim that turned the Confederacy’s labour force into Union soldiers. The record answer appears in the Lost Cause’s Black Confederate, a story that replaced the Confederacy’s refusal to arm Black men until the last weeks of the war.",
+      questions: [
+        {
+          prompt:
+            "What did Lee write to Barksdale in February 1865 about arming Black men?",
+          choices: [
+            "That it would be useless.",
+            "That it was not only expedient but necessary, and that those who served should be freed.",
+            "That they should serve as laborers only.",
+          ],
+          answer: 1,
+          explanation:
+            "He argued that the white population could not supply the needs of a long war.",
+        },
+        {
+          prompt:
+            "What happened before the assault after the mine at Petersburg?",
+          choices: [
+            "Meade replaced the Black division Burnside had chosen to lead it; the white division sent instead failed.",
+            "The Black division refused to attack.",
+            "Grant cancelled the assault.",
+          ],
+          answer: 0,
+          explanation:
+            "Grant writes that Meade interfered; Greene gives Meade’s reasons, doubt and fear of political consequences.",
+        },
+        {
+          prompt:
+            "What did the Confederate law of 13 March 1865 say about freedom for enslaved soldiers, according to the Park Service?",
+          choices: [
+            "It freed all enslaved people in the Confederacy.",
+            "It freed every soldier and his family.",
+            "It did not change their relation to their owners unless owners and states consented; Davis ordered manumission separately.",
+          ],
+          answer: 2,
+          explanation:
+            "Lee had argued that soldiers should be freed; Congress did not write it into the law.",
+        },
+      ],
+      sourceCheck: {
+        question: "Did Black soldiers fight for the Confederacy?",
+        witnesses: [
+          {
+            label: "Martinez",
+            claim:
+              "Confederate leaders treated Black men as laborers; the law allowing Black soldiers passed only in March 1865.",
+          },
+          {
+            label: "Park Service, Richmond",
+            claim:
+              "Before 13 March 1865 Confederate law allowed only white men to serve as soldiers; two companies were mustered in the last weeks.",
+          },
+          {
+            label: "Later reunions, as Martinez describes them",
+            claim:
+              "Black men appeared in Confederate uniform at veterans’ reunions.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Take the reunion photographs as proof of Black Confederate soldiers.",
+            feedback:
+              "Martinez writes that those men had most likely served as body servants; the law forbade Black soldiers until March 1865.",
+          },
+          {
+            text: "Read the law and the government’s policy as the evidence: Black men were impressed as labourers, and only a handful were enlisted as soldiers in the last weeks.",
+            feedback:
+              "The documents of the time settle what later commemoration obscured.",
+            best: true,
+          },
+          {
+            text: "Conclude that the question cannot be answered.",
+            feedback:
+              "The law, the policy and the muster in Richmond answer it.",
+          },
+        ],
+        battleSlug: "petersburg",
+      },
+      seminar: {
+        prompt:
+          "In 1863 the Union decided to enlist Black soldiers, and in 1865 the Confederacy did too. Argue each decision from three positions: a man who had escaped slavery to Union lines, a white officer of the United States Colored Troops, and Lee writing to Barksdale.",
+        guidance:
+          "Use Fleche, Martinez, the Park Service pages, Lee’s letter and Grant’s chapters on Fort Pillow and the Crater. Say what each decision offered the men it asked to fight, and what it withheld.",
+      },
+      sources: [
+        s.leeBarksdale,
+        s.mississippi,
+        s.usct,
+        s.grant30,
+        s.andersonvilleAfricanAmericans,
+        s.vicksburgSiege,
+        s.grant47,
+        s.grant57,
+        s.greene,
+        s.blackConfederates,
+        s.armingEnslaved,
+        s.exchangeHalted,
+      ],
+    },
   ],
   inProgress:
-    "This volume is being written. Lessons 0 to 7 are published; the rest are added in reviewed batches.",
+    "This volume is being written. Lessons 0 to 10 are published; the rest are added in reviewed batches.",
 };

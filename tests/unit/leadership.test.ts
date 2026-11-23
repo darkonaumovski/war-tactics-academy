@@ -9,6 +9,7 @@ import {
 import { wellingtonVolume } from "../../data/leadership/arthur-wellesley";
 import { caesarVolume } from "../../data/leadership/julius-caesar";
 import { hannibalScipioVolume } from "../../data/leadership/hannibal-barca";
+import { grantLeeVolume } from "../../data/leadership/ulysses-s-grant";
 import { battles, campaigns } from "../../data/catalog";
 import commanders from "../../data/commanders.json";
 import {
@@ -324,6 +325,26 @@ describe("the Hannibal and Scipio volume", () => {
   });
 });
 
+describe("the Grant and Lee volume", () => {
+  it("stays unlisted and empty until its pilot ships", () => {
+    leadershipVolumeSchema.parse(grantLeeVolume);
+    for (const slug of [
+      grantLeeVolume.commanderSlug,
+      ...(grantLeeVolume.alsoCommanderSlugs ?? []),
+    ])
+      expect(
+        commanders.some((c) => c.slug === slug),
+        slug,
+      ).toBe(true);
+    expect(grantLeeVolume.alsoCommanderSlugs).toEqual(["robert-e-lee"]);
+    expect(grantLeeVolume.inProgress).toBeTruthy();
+    expect(grantLeeVolume.lessons).toEqual([]);
+    expect(leadershipVolumes).not.toContain(grantLeeVolume);
+    expect(volumeForCommander("ulysses-s-grant")).toBeUndefined();
+    expect(volumeForCommander("robert-e-lee")).toBeUndefined();
+  });
+});
+
 describe("problems compared across volumes", () => {
   it("are valid and name only existing volumes and lessons", () => {
     const slugs = leadershipProblems.map((p) => p.slug);
@@ -583,6 +604,26 @@ describe("the leadership lesson schema", () => {
       "Livy says Hannibal rode with his cavalry up to the Colline Gate to inspect the walls.",
       "As Plutarch tells it, Cato added to every vote: In my opinion, Carthage must be destroyed.",
       "As Livy tells it, Maharbal said: You know how to win victory, Hannibal, you do not know how to use it.",
+    ])
+      expect(accepts({ bearsOn: text }), text).toBe(true);
+  });
+
+  it("excludes the Grant and Lee volume's forged, later and misquoted sayings", () => {
+    for (const text of [
+      "Duty is the sublimest word in our language.",
+      "As Sherman said, war is hell.",
+      "I propose to fight it out on this line if it takes all summer.",
+      "It is well that war is so terrible, or we should grow too fond of it.",
+      "It's all my fault.",
+      "It’s all my fault, Lee said.",
+    ])
+      expect(accepts({ bearsOn: text }), text).toBe(false);
+    // The traced forms, with their reporters, stay allowed.
+    for (const text of [
+      "Grant wrote to Halleck on 11 May 1864 that he purposed to fight it out on this line if it took all summer.",
+      "Cooke, in 1871, has Lee murmur: It is well this is so terrible! we should grow too fond of it!",
+      "Fremantle heard Lee tell Wilcox: all this has been my fault.",
+      "Grant demanded no terms except an unconditional and immediate surrender.",
     ])
       expect(accepts({ bearsOn: text }), text).toBe(true);
   });

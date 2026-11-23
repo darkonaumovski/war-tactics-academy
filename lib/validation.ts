@@ -167,6 +167,11 @@ const excludedInLessons: [RegExp, string][] = [
   ],
   [/hannibal (ad|ante) portas/i, "later proverb"],
   [/carthago delenda|delenda est carthago/i, "later Latin form"],
+  [/duty is the sublimest word/i, "forged letter"],
+  [/war is (all )?hell/i, "later speech, not a saying of the war"],
+  [/propose to fight it out/i, "misquotation: Grant wrote “purpose”"],
+  [/well that war is so terrible/i, "later form of Cooke’s report"],
+  [/it[’']?s all my fault/i, "later form of Fremantle’s report"],
   [/no (more )?worlds (left )?to conquer/i, "distorted saying"],
   [
     /narcissis|psychopath|sociopath|megalomania|bipolar|alcoholi(c|sm)|paranoi(a|d)|dark triad/i,

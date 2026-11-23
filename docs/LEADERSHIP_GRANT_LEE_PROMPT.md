@@ -2,7 +2,7 @@
 
 Paste everything below the line into a new Claude Code session opened in this repository.
 
-**Status (23 November 2026):** written, not started. The user chose Grant, with Lee as the counter-volume, from the later volumes listed in `docs/LEADERSHIP_NEXT_VOLUMES_PROMPT.md`, after the Hannibal and Scipio volume and all its proposals were completed. Phase S, the studies phase, comes first.
+**Status (23 November 2026):** Phase S done. The user chose Grant, with Lee as the counter-volume, from the later volumes listed in `docs/LEADERSHIP_NEXT_VOLUMES_PROMPT.md`, after the Hannibal and Scipio volume and all its proposals were completed, and approved the six suggested studies: Fort Donelson and Shiloh (a new Western campaign of 1862), Chancellorsville (a new Chancellorsville campaign), the Wilderness and Spotsylvania (a new Overland campaign) and Petersburg (a new Petersburg campaign). Grant's profile now links six studies and Lee's five, eight distinct between them; what was read is in `docs/SOURCE_AUDIT.md`. Phase 0, the evidence pass and scaffold, is next.
 
 ## Why Grant and Lee, and what is missing (readiness analysis, 23 November 2026)
 

@@ -853,6 +853,43 @@ const leeReport: Source = {
   url: "https://explorepahistory.com/odocument.php?docId=1-4-F4",
   publisher: "ExplorePAhistory.com",
 };
+const civilWar1911: Source = {
+  title: "“American Civil War”, Encyclopædia Britannica, 11th ed. (1911)",
+  url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/American_Civil_War",
+  publisher: "Wikisource",
+};
+const wilderness1911: Source = {
+  title: "“Wilderness”, Encyclopædia Britannica, 11th ed. (1911)",
+  url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Wilderness",
+  publisher: "Wikisource",
+};
+const petersburg1911: Source = {
+  title: "“Petersburg”, Encyclopædia Britannica, 11th ed. (1911)",
+  url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Petersburg",
+  publisher: "Wikisource",
+};
+const shilohTennessee: Source = {
+  title: "Shiloh, Battle of — James L. McDonough (Tennessee Encyclopedia)",
+  url: "https://tennesseeencyclopedia.net/entries/battle-of-shiloh/",
+  publisher: "Tennessee Encyclopedia",
+};
+const jacksonVirginia: Source = {
+  title:
+    "Thomas J. “Stonewall” Jackson (1824–1863) — William Garrett Piston (Encyclopedia Virginia)",
+  url: "https://encyclopediavirginia.org/entries/jackson-thomas-j-stonewall-1824-1863/",
+  publisher: "Encyclopedia Virginia",
+};
+const leeVirginia: Source = {
+  title:
+    "Robert E. Lee (1807–1870) — Elizabeth Brown Pryor (Encyclopedia Virginia)",
+  url: "https://encyclopediavirginia.org/entries/lee-robert-e-1807-1870/",
+  publisher: "Encyclopedia Virginia",
+};
+const petersburgVirginia: Source = {
+  title: "Petersburg Campaign — A. Wilson Greene (Encyclopedia Virginia)",
+  url: "https://encyclopediavirginia.org/entries/petersburg-campaign/",
+  publisher: "Encyclopedia Virginia",
+};
 const atlantaAbt = battlefields(
   "https://www.battlefields.org/learn/articles/atlanta-campaign",
   "The Atlanta Campaign",
@@ -5628,6 +5665,55 @@ export const campaignDetails: Record<string, CampaignDetails> = {
     ],
     sources: [coburg, yusufPasa],
   },
+  "western-campaign-of-1862": {
+    summary:
+      "The Union advance up the Tennessee and Cumberland rivers in February 1862 and the battle of Shiloh in April, which broke the Confederate line in the West.",
+    narrative: [
+      {
+        title: "The river forts",
+        text: "The 1911 Britannica describes Forts Henry and Donelson as the centre of Albert Sidney Johnston’s line across Kentucky and Tennessee. Fort Henry fell to Foote’s gunboats on 6 February 1862; Grant marched overland to Donelson, where the garrison tried to cut its way out and then surrendered on the 16th, and Johnston’s whole line was thrust back to Corinth. McDonough adds that the Confederates retreated from northern Tennessee and that Nashville became the first Confederate state capital to fall.",
+        evidence: "fact",
+        studies: ["fort-donelson"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Shiloh and Corinth",
+        text: "Halleck sent Grant up the Tennessee towards Corinth, the junction of two railroads, with Buell’s army to join him. Johnston attacked Grant’s camps at Pittsburg Landing on 6 April before Buell arrived; on the 7th the combined Union armies drove the Confederates back to Corinth, which Beauregard evacuated after a siege. The Britannica writes that the campaign, completed by the naval victory at Memphis in June, cleared the Mississippi as far as Vicksburg.",
+        evidence: "fact",
+        studies: ["shiloh"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "What the campaign decided",
+        text: "McDonough judges that Shiloh turned back a major Southern counter-offensive, left a powerful Union army on the flank of the Mississippi line within reach of the Memphis and Charleston Railroad, and doomed the western Confederacy. The judgement is a historian’s reading of what followed.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 1 }],
+      },
+    ],
+    sources: [civilWar1911, shilohTennessee],
+  },
+  "chancellorsville-campaign": {
+    summary:
+      "Hooker’s attempt in the spring of 1863 to turn Lee’s position on the Rappahannock, defeated at Chancellorsville in early May.",
+    narrative: [
+      {
+        title: "Turning the Rappahannock line",
+        text: "While Sedgwick’s corps demonstrated at Fredericksburg, Hooker led the rest of the Army of the Potomac across the Rappahannock and the Rapidan and on 30 April reached Chancellorsville, in the Wilderness. Lee left Early to watch Sedgwick, met Hooker with the rest of his army and sent Jackson round the Union right. After Jackson’s attack and Lee’s blow against Sedgwick, Hooker’s army recrossed the rivers and marched back to Falmouth.",
+        evidence: "fact",
+        studies: ["chancellorsville"],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "The cost of the victory",
+        text: "Piston writes that the plan of the flank march was Lee’s and the execution Jackson’s, and that Jackson, wounded by his own men, died on 10 May. His death left a vacancy at corps level that was never filled, and Chancellorsville was the last decisive victory of the Army of Northern Virginia.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 1 }],
+      },
+    ],
+    sources: [wilderness1911, jacksonVirginia],
+  },
   "vicksburg-campaign": {
     summary:
       "Grant’s campaign of 1863 against Vicksburg, the Confederate stronghold on the Mississippi, which ended in surrender on 4 July.",
@@ -5670,6 +5756,34 @@ export const campaignDetails: Record<string, CampaignDetails> = {
     ],
     sources: [gettysburgNps, leeReport],
   },
+  "overland-campaign": {
+    summary:
+      "Grant’s campaign of May and June 1864 against Lee, from the Rapidan to the James, fought through the Wilderness, Spotsylvania, the North Anna and Cold Harbor.",
+    narrative: [
+      {
+        title: "From the Rapidan",
+        text: "The Army of the Potomac, directed by Grant, crossed the Rapidan on 4 May 1864 and met Lee in the Wilderness on the 5th and 6th. Pryor writes that Lee had not expected the Union army to push on after its losses there; instead it moved to Spotsylvania Court House, where, the 1911 Britannica records, the armies fought until the third week of May, most fiercely at the salient on 12 May.",
+        evidence: "fact",
+        studies: ["wilderness", "spotsylvania"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "Cold Harbor and the James",
+        text: "Grant kept edging south, and on 3 June the Union army attacked Lee’s fortifications at Cold Harbor and failed. Greene writes that when the campaign ended there Lee’s army still blocked the way to Richmond and could fight effectively on the defensive. Grant then moved past Lee, across the James, towards Petersburg.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 1 }, { source: 2 }],
+      },
+      {
+        title: "A campaign without pause",
+        text: "Greene describes the Overland Campaign as unprecedented and continuous combat. Pryor’s view is that Lee’s personal leadership in rallying his men helped him frustrate Grant’s powerful army for so long; the cost of that leadership, and of Grant’s refusal to retreat, fell on both armies.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 2 }, { source: 1 }],
+      },
+    ],
+    sources: [wilderness1911, leeVirginia, petersburgVirginia],
+  },
   "atlanta-campaign": {
     summary:
       "Sherman’s advance on Atlanta from May to September 1864, against Johnston and then Hood, which helped secure Lincoln’s re-election.",
@@ -5690,6 +5804,27 @@ export const campaignDetails: Record<string, CampaignDetails> = {
       },
     ],
     sources: [atlantaAbt],
+  },
+  "petersburg-campaign": {
+    summary:
+      "The siege of Petersburg and Richmond from June 1864 to April 1865, which ended with Lee’s evacuation of both cities and his surrender at Appomattox.",
+    narrative: [
+      {
+        title: "The siege",
+        text: "The 1911 Britannica describes Richmond and Petersburg as one vast fortress fed by canal and railroads. After the first assaults of 15–18 June 1864 failed to take Petersburg, Grant extended his lines west to cut those railroads one after another, while Lee answered each thrust with a counter-attack. Greene calls it the peak of field fortification in the war.",
+        evidence: "fact",
+        studies: ["petersburg"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "The end of the siege",
+        text: "After Sheridan’s victory at Five Forks on 1 April 1865, the Union army broke Lee’s lines on the 2nd, and Lee evacuated Petersburg and Richmond that night. Greene writes that the surrender at Appomattox on 9 April hastened the surrender of the other Confederate forces, making the Petersburg Campaign the proximate cause of the end of the war.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 1 }],
+      },
+    ],
+    sources: [petersburg1911, petersburgVirginia],
   },
   "campaign-of-1870": {
     summary:

@@ -5255,7 +5255,14 @@
     "strength": "The Vicksburg campaign and cooperation with other commanders demonstrate operational flexibility.",
     "limitation": "The Overland Campaign incurred severe casualties; Grant later regretted the assault at Cold Harbor.",
     "legacy": "His military leadership helped defeat a rebellion founded on slavery; his presidency also involved Reconstruction and protection of civil rights.",
-    "battleSlugs": ["vicksburg"],
+    "battleSlugs": [
+      "fort-donelson",
+      "shiloh",
+      "vicksburg",
+      "wilderness",
+      "spotsylvania",
+      "petersburg"
+    ],
     "source": {
       "title": "Ulysses S. Grant: Civil War biography",
       "url": "https://www.loc.gov/exhibits/civil-war-in-america/biographies/ulysses-s-grant.html",
@@ -5320,7 +5327,13 @@
     "strength": "Coordinated successful maneuvers at Second Manassas and Chancellorsville.",
     "limitation": "Offensive choices brought costly losses; the Gettysburg campaign failed to achieve its strategic aims.",
     "legacy": "Lee owned enslaved people and fought for a slaveholding Confederacy. Lost Cause mythology must be separated from historical assessment.",
-    "battleSlugs": ["gettysburg"],
+    "battleSlugs": [
+      "chancellorsville",
+      "gettysburg",
+      "wilderness",
+      "spotsylvania",
+      "petersburg"
+    ],
     "source": {
       "title": "Robert E. Lee and Slavery",
       "url": "https://www.nps.gov/arho/learn/historyculture/robert-e-lee-and-slavery.htm",
@@ -5385,7 +5398,7 @@
     "strength": "Linked campaigning to the opponent's wider economic and logistical system.",
     "limitation": "Operations inflicted extensive civilian hardship; later campaigns against Indigenous peoples remain central to evaluating his career.",
     "legacy": "His campaigns helped end the Confederacy, while debate continues about the scope and consequences of destructive warfare.",
-    "battleSlugs": ["vicksburg", "atlanta-campaign"],
+    "battleSlugs": ["shiloh", "vicksburg", "atlanta-campaign"],
     "source": {
       "title": "William Tecumseh Sherman",
       "url": "https://www.nps.gov/vick/learn/historyculture/william-tecumseh-sherman.htm",

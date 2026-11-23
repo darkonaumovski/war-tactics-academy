@@ -1247,10 +1247,21 @@ export const warDetails: Record<string, WarDetails> = {
       "Eastern, western and trans-Mississippi theaters, with a naval blockade of Confederate coasts.",
     developments: t(
       ["April 1861", "Confederate attack on Fort Sumter"],
+      ["February 1862", "Forts Henry and Donelson fall to Grant"],
+      ["April 1862", "Battle of Shiloh"],
       ["September 1862", "Battle of Antietam"],
       ["January 1863", "Emancipation Proclamation takes effect"],
+      [
+        "May 1863",
+        "Battle of Chancellorsville; Stonewall Jackson mortally wounded",
+      ],
       ["July 1863", "Gettysburg; Vicksburg surrenders"],
+      [
+        "May–June 1864",
+        "Overland campaign: the Wilderness, Spotsylvania, Cold Harbor",
+      ],
       ["1864", "Atlanta falls; March to the Sea"],
+      ["June 1864 – April 1865", "Siege of Petersburg"],
       ["April 1865", "Lee surrenders at Appomattox"],
       ["December 1865", "Thirteenth Amendment abolishes slavery"],
     ),

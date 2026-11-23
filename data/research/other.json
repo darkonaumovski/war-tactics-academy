@@ -7138,6 +7138,981 @@
     ]
   },
   {
+    "slug": "fort-donelson",
+    "sources": [
+      {
+        "title": "Personal Memoirs of U. S. Grant, chapter XXII: Investment of Fort Donelson—Surrender of the Fort",
+        "url": "https://en.wikisource.org/wiki/Personal_Memoirs_of_U._S._Grant/Chapter_XXII",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Personal Memoirs of U. S. Grant, chapter XXI: Movement on Fort Henry—Capture of Fort Henry",
+        "url": "https://en.wikisource.org/wiki/Personal_Memoirs_of_U._S._Grant/Chapter_XXI",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Fort Donelson (B. Franklin Cooling)",
+        "url": "https://tennesseeencyclopedia.net/entries/fort-donelson/",
+        "publisher": "Tennessee Encyclopedia, Tennessee Historical Society"
+      },
+      {
+        "title": "“American Civil War”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/American_Civil_War",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Personal Memoirs of U. S. Grant, chapter XXV: General Johnston—Remarks on Shiloh",
+        "url": "https://en.wikisource.org/wiki/Personal_Memoirs_of_U._S._Grant/Chapter_XXV",
+        "publisher": "Wikisource"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "In the winter of 1861–62 the Confederate line in the West ran from Columbus on the Mississippi through Bowling Green to Mill Springs in Kentucky. Grant describes Fort Henry on the Tennessee and Fort Donelson on the Cumberland as the points where the two rivers come within eleven miles of each other. Cooling writes that Tennessee Confederates built Fort Donelson in the summer of 1861 to guard the river approach to Middle Tennessee and Nashville; it was chiefly a water battery, enlarged against attack by land only after Fort Henry fell on 6 February 1862.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "ch. XXI"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "§ 7"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Grant writes that with Fort Henry the Union would have the Tennessee open as far as Muscle Shoals and the Memphis and Charleston Railroad would cease to serve the enemy for through traffic, while Fort Donelson was the gate to Nashville. His department commander, Henry W. Halleck, at first cut him short when he proposed the move; after Grant and Flag-Officer Andrew H. Foote telegraphed again on 28 January, Halleck ordered the advance on Fort Henry on 1 February. For Donelson, Grant writes, Halleck neither approved nor disapproved.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "ch. XXI"
+          },
+          {
+            "source": 0,
+            "locator": "ch. XXII"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Grant wanted to reach Donelson before it could be reinforced, judging that a small force at once was worth more than a much larger one a month later. His plan was for the troops to hold the garrison inside its lines while the gunboats silenced the water batteries and ran past to the river above Dover, after which surrender would be a matter of time. On the Confederate side, Cooling writes, Albert Sidney Johnston sent four generals to defend the post with vague instructions that included an eventual evacuation to save the force.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXII"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The fort stood on high ground two miles below the village of Dover, its heavy guns cut into the bluff above the Cumberland, with creeks swollen by back-water to the north and south. A line of rifle pits ran along the crest of the ridges west of it, and the trees in front had been felled outwards and sharpened as an abatis. The ground was broken and wooded. It was midwinter: Grant records rain and snow, freezing and thawing, and men who had thrown away their blankets and overcoats on the march; Cooling notes that the bitter weather disoriented both sides.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXII"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Grant's army had divisions under John A. McClernand and Charles F. Smith, and on 14 February a new division under Lew Wallace was formed from reinforcements. Foote's flotilla belonged to the navy and, Grant writes, was subject to Halleck, so the two commanders worked by consultation. The garrison was commanded by John B. Floyd, with Gideon Pillow, Simon Bolivar Buckner, Bushrod Johnson and the cavalry of Nathan Bedford Forrest. The 1911 Britannica calls Grant's troops raw and without decisive superiority in numbers.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXII"
+          },
+          {
+            "source": 1,
+            "locator": "ch. XXI"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "§ 7"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Grant marched from Fort Henry on 12 February without opposition and spent that afternoon and the next day closing the investment: Smith on the left, reaching Hickman Creek, McClernand on the right, covering the roads south from Dover. The troops were not entrenched, but Grant writes that the ridge crests protected them as well as rifle pits would have. Camp fires were allowed only far down the slopes, out of the enemy's sight. Wallace's division took the centre on the 14th.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXII"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 13 February McClernand sent three regiments, without orders, against a battery in the main line, and they were repulsed. On the 14th Foote's gunboats closed on the water batteries and were driven off; Foote was wounded and two of the strongest vessels were disabled. Before dawn on the 15th, while Grant was away visiting Foote, the garrison came out in force and drove back the Union right. That afternoon Smith's division carried the outer works on the left. During the night the Confederate generals decided to surrender, and on the 16th Buckner accepted Grant's terms.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXII"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Finding the right wing broken and its men standing about without ammunition, Grant reasoned that an enemy who had come out and then fallen back must be more shaken than his own men, and that whichever side attacked first would win. He had the men told to refill their cartridge boxes and ordered Smith to assault on the left, where he expected the line to be thin. In the Confederate council that night Floyd handed the command to Pillow, who declined it, and Buckner accepted it. When Buckner proposed commissioners to settle terms, Grant replied that no terms except unconditional and immediate surrender could be accepted.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXII"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Cooling calls the council at Dover the key to understanding Fort Donelson: Pillow wanted to hold, Buckner despaired, Floyd dithered, and Forrest left to take his cavalry out. He sets this indecision against Grant's flexibility in crisis and the arrival of Wallace's reinforcements, which checked the Confederate drive. The 1911 Britannica judges that the breakout failed when it was almost on the point of success and that the Confederate commanders proved unequal to the crisis.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "§ 7"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The garrison surrendered on 16 February 1862. Buckner accepted what he called ungenerous and unchivalrous terms, citing the change of commanders and the force against him. Floyd and Pillow had left during the night on the river transports with part of the garrison, and Forrest's cavalry escaped by fording the back-water south of Dover. Cooling adds that many men slipped away during the surrender and that the prisoners were exchanged six months later.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXII"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Grant lists what followed: Bowling Green, Columbus and Hickman in Kentucky fell, Clarksville and Nashville in Tennessee were taken with large stores, and the Tennessee and Cumberland were secured to the head of navigation. The 1911 Britannica writes that Johnston's whole line was thrust back to Corinth and the Memphis and Charleston Railroad. Cooling adds that the state government fled Nashville, that Floyd and Pillow were officially censured, and that the victory vaulted an unknown Union general into prominence.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 4,
+            "locator": "ch. XXV"
+          },
+          {
+            "source": 3,
+            "locator": "§ 8"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Grant took risks that rested on his knowledge of the men opposite: he writes that he expected to march up to Pillow's lines unopposed, and he told Buckner afterwards that he would not have tried the same approach against Buckner himself. The lesson cuts both ways. An army that wins a breakout and then cannot agree on what to do next gives back what it has won.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXII"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Grant's account was written more than twenty years later, and his portraits of Floyd and Pillow are hostile; he says Floyd's conscience as a former Secretary of War must have made him afraid of capture. Grant and Cooling disagree about the size of both armies, and Grant argues that the garrison was larger than Southern writers admitted. The 1911 Britannica praises the leadership of Smith, Wallace and McClernand, while Grant blames McClernand for the unauthorised assault of the 13th. Cooling's phrase for the Confederate council, an opera bouffe episode, is a judgement rather than a finding.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXII"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "§ 7"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Grant's Personal Memoirs, chapters XXI, XXII and XXV on Wikisource, give the commander's account of Fort Henry, the siege and its consequences, with the exchange of letters with Buckner. B. Franklin Cooling's article in the Tennessee Encyclopedia gives a modern historian's account of the Confederate command. The 1911 Britannica's article on the American Civil War places the forts in the western campaign of 1862.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Fort Henry falls",
+        "time": "6 February 1862",
+        "description": "Foote's gunboats take Fort Henry; most of its garrison has already left for Donelson."
+      },
+      {
+        "title": "Investment",
+        "time": "12–13 February 1862",
+        "description": "Grant marches across and closes on the fort; McClernand's unauthorised assault fails."
+      },
+      {
+        "title": "The gunboats repulsed",
+        "time": "14 February 1862",
+        "description": "Foote's flotilla attacks the water batteries and is driven off, its commander wounded."
+      },
+      {
+        "title": "Breakout and counter-attack",
+        "time": "15 February 1862",
+        "description": "The garrison drives back the Union right; Smith's division carries the outer works on the left."
+      },
+      {
+        "title": "Unconditional surrender",
+        "time": "16 February 1862",
+        "description": "Floyd and Pillow escape by night, and Buckner accepts Grant's terms."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Ulysses S. Grant",
+        "objective": "Take Fort Donelson before it could be reinforced and open the Cumberland to Nashville.",
+        "known": "He had reconnoitred the roads on 7 February, knew Pillow from the Mexican War and judged Floyd no soldier, and had seen the gunboats take Fort Henry.",
+        "uncertainty": "Whether the gunboats could silence the water batteries, and how fast Johnston would reinforce the garrison.",
+        "constraints": "Raw troops, rain and frozen roads, no tents, and a department commander who neither approved nor forbade the advance.",
+        "forces": "Divisions under McClernand and Smith, later joined by Lew Wallace's, with Foote's gunboat flotilla.",
+        "terrain": "Broken, wooded ridges around an entrenched line screened by felled trees and flanked by flooded creeks.",
+        "logistics": "Everything came by wagon from the landing several miles away, over roads cut up by rain and then frozen solid.",
+        "decision": "He invested the fort without entrenching, attacked on the left as soon as the breakout fell back, and refused any terms but unconditional surrender.",
+        "outcome": "The garrison surrendered on 16 February."
+      },
+      {
+        "name": "John B. Floyd, Gideon Pillow and Simon B. Buckner",
+        "objective": "Hold the Cumberland position or, as Johnston's instructions allowed, save the garrison by evacuating it.",
+        "known": "Fort Henry had fallen, but the gunboats had been beaten off on 14 February and the breakout had opened the road south.",
+        "uncertainty": "Whether to march out or return to the works after routing the Union right.",
+        "constraints": "A divided command, vague orders from Johnston and bitter winter weather.",
+        "forces": "The garrison with its water batteries, and Forrest's cavalry.",
+        "terrain": "An entrenched ridge line above the river, cut by ravines and flooded creeks.",
+        "logistics": "River transports at Dover were the one way out by water; Floyd and Pillow used them to escape.",
+        "decision": "They broke out on 15 February, fell back into the works, and in council Floyd and Pillow chose to leave while Buckner stayed to surrender.",
+        "outcome": "Buckner surrendered the remaining garrison unconditionally; Floyd and Pillow were later censured."
+      }
+    ]
+  },
+  {
+    "slug": "shiloh",
+    "sources": [
+      {
+        "title": "Personal Memoirs of U. S. Grant, chapter XXIV: The Army at Pittsburg Landing",
+        "url": "https://en.wikisource.org/wiki/Personal_Memoirs_of_U._S._Grant/Chapter_XXIV",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Personal Memoirs of U. S. Grant, chapter XXV: General Johnston—Remarks on Shiloh",
+        "url": "https://en.wikisource.org/wiki/Personal_Memoirs_of_U._S._Grant/Chapter_XXV",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Shiloh, Battle of (James L. McDonough)",
+        "url": "https://tennesseeencyclopedia.net/entries/battle-of-shiloh/",
+        "publisher": "Tennessee Encyclopedia, Tennessee Historical Society"
+      },
+      {
+        "title": "“American Civil War”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/American_Civil_War",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Shiloh National Military Park",
+        "url": "https://www.nps.gov/shil/learn/historyculture/shiloh.htm",
+        "publisher": "National Park Service, Shiloh National Military Park"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "McDonough writes that the fall of Forts Henry and Donelson collapsed the Confederate line across southern Kentucky and that Don Carlos Buell's army occupied Nashville. When Grant resumed command on 17 March 1862 he found his army divided between Savannah on the east bank of the Tennessee and Crump's and Pittsburg landings on the west. He moved the troops at Savannah to Pittsburg Landing to march on Corinth once Buell's Army of the Ohio arrived.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0,
+            "locator": "ch. XXIV"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Corinth was the junction of the Memphis and Charleston and the Mobile and Ohio railroads, which Grant calls the great strategic position in the West between the Tennessee and the Mississippi. McDonough adds that its capture would probably bring the fall of Memphis and open several hundred miles of the Mississippi. Halleck, in control of all Federal operations in the West, ordered Buell to join Grant. Grant writes that until Shiloh he believed, with many others, that one more decisive victory might make the rebellion collapse.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXIV"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "§ 8"
+          },
+          {
+            "source": 1,
+            "locator": "ch. XXV"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Grant meant to concentrate on the west bank, wait for Buell and then take the offensive against Corinth. Albert Sidney Johnston concentrated at Corinth to strike Grant before Buell could arrive. Grant cites Johnston's son and biographer for the larger design: to crush the army at Shiloh, then cross the Tennessee to destroy Buell and carry the war to the Ohio.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXIV"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 1,
+            "locator": "ch. XXV"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "A log meeting-house called Shiloh stood on the ridge between Snake and Lick creeks, two or three miles from Pittsburg Landing, which lay about twenty miles from Corinth. The Union camps formed a line from Lick Creek to Owl Creek, and Grant writes that high water in the streams protected both flanks and forced the attackers to come straight on. The ground was undulating and heavily timbered, with scattered clearings and much underbrush.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXIV"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Grant's Army of the Tennessee had divisions under William T. Sherman, John A. McClernand, Benjamin M. Prentiss and Stephen A. Hurlbut at Pittsburg, with C. F. Smith's division under W. H. L. Wallace while Smith lay ill, and Lew Wallace's division at Crump's Landing. Grant writes that three of the five divisions engaged on the first day were entirely raw. Johnston commanded the Confederate Army of Mississippi with P. G. T. Beauregard as his second. The 1911 Britannica calls the battle a savage scuffle between two half-disciplined hosts.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXIV"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "§ 9"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Sherman's raw division held Shiloh church, with McClernand on its left, then Prentiss's raw division and one of Sherman's brigades on the far left, while Hurlbut and Smith's division stood in reserve. The camps were not entrenched: Grant's engineer, James B. McPherson, reported that a defensive line would have to run behind the camps and away from water, and Grant regarded the campaign as an offensive one. Grant kept his headquarters at Savannah, nine miles away, to meet Buell, and he had been hurt when his horse fell on him on the night of 4 April.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXIV"
+          },
+          {
+            "source": 1,
+            "locator": "ch. XXV"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Johnston's march from Corinth was slowed by rain, complicated orders and inexperienced troops, so that a planned one-day march took three days. Fighting began at about five on the morning of 6 April, and through the day the Union divisions were driven back towards the river; Prentiss's division held the position the Confederates called the Hornets' Nest until it was surrounded and captured in the late afternoon. Johnston was wounded in mid-afternoon and bled to death. By evening Grant held a last line on the bluffs at the landing, supported by massed artillery and two gunboats. Lew Wallace and Buell's leading troops arrived after dark, and on 7 April the Union armies attacked along the whole line and drove the Confederates back towards Corinth.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0,
+            "locator": "ch. XXIV"
+          },
+          {
+            "source": 3,
+            "locator": "§ 9"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Grant chose drill and discipline over fortification, judging that his newly raised regiments needed the first more than the second. On the morning of the 6th he sent Lew Wallace an order to march to Pittsburg, and the route Wallace took became a lasting dispute. Before firing ceased that evening, and before reinforcements had reached the field, Grant visited each division commander and ordered an advance at first light, telling Sherman that the tactics of Donelson would win again. On the Confederate side Johnston refused Beauregard's wish to call off the attack, and Beauregard, in command after Johnston's death, chose not to attack the last Union line.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "ch. XXV"
+          },
+          {
+            "source": 0,
+            "locator": "ch. XXIV"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "McDonough argues that the Hornets' Nest cost the Confederates too much time and too many men and drew their attention away from the weaker Union left near the river, while an inefficient attack formation and confusion over whether to drive the enemy towards the landing or away from it slowed them further. Grant holds that victory was assured once Lew Wallace arrived; he credits Buell's troops with doing all there was for them to do on the 7th but denies that their arrival saved the first day.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0,
+            "locator": "ch. XXIV"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "By the evening of 7 April the Confederate army was retreating to Corinth and the Union armies held the field. The Park Service describes the battle around Shiloh Church and Pittsburg Landing as the largest engagement of the Mississippi Valley campaign. A few days later Halleck moved his headquarters to Pittsburg Landing and took command in the field; Grant writes that he was ignored as completely as if he had been at the most distant point of his district.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "§ 9"
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 1,
+            "locator": "ch. XXV"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Grant writes that after Shiloh he gave up all idea of saving the Union except by complete conquest, and that from then on his armies consumed everything within reach that could supply the enemy's armies, while protecting the persons of civilians. The 1911 Britannica records Halleck's siege of Corinth, which Beauregard evacuated, and says the first campaign of the western armies cleared the Mississippi as far as Vicksburg. McDonough calls Shiloh the bloodiest battle of the war up to that time. Congress established the national military park in 1894.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "ch. XXV"
+          },
+          {
+            "source": 3,
+            "locator": "§ 9"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "An army preparing to attack can itself be attacked. Grant's reasoning that the enemy would not leave strong entrenchments to take the initiative shaped how his camps were placed. On the second day the side that had reorganised overnight and attacked first held the advantage, as Grant had predicted.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXIV"
+          },
+          {
+            "source": 1,
+            "locator": "ch. XXV"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Grant insists there was no surprise, that Prentiss was not captured in his bed, and that the battle was more persistently misunderstood than any other of the war; McDonough writes that neither Grant nor Sherman expected an attack and that many Union soldiers were going about their Sunday routines when it came, and the 1911 Britannica says the camps were completely surprised. Grant changed his judgement of Lew Wallace in a footnote of June 1885 after reading a letter Wallace wrote before the battle. He also rejects the claim of Confederate writers that Shiloh was lost when Johnston fell. The date of Johnston's departure from Corinth differs between Grant and McDonough.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXIV"
+          },
+          {
+            "source": 1,
+            "locator": "ch. XXV"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3,
+            "locator": "§ 9"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Grant's Personal Memoirs, chapters XXIV and XXV on Wikisource, give the commander's account of the battle and his defence against its critics. James L. McDonough's article in the Tennessee Encyclopedia gives a modern historian's account. The 1911 Britannica's article on the American Civil War gives an older overview, and the National Park Service page records the park that preserves the field.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "The march from Corinth",
+        "time": "early April 1862",
+        "description": "Johnston's army takes three days instead of one to reach the Union camps."
+      },
+      {
+        "title": "The morning attack",
+        "time": "6 April 1862, from about 5 a.m.",
+        "description": "Confederate lines overrun the forward camps and drive the Union divisions back."
+      },
+      {
+        "title": "The Hornets' Nest",
+        "time": "6 April 1862, afternoon",
+        "description": "Prentiss and others hold a strong position until surrounded; Johnston is killed."
+      },
+      {
+        "title": "The last line at the landing",
+        "time": "6 April 1862, evening",
+        "description": "Artillery and gunboats on the bluffs stop the final attacks; Lew Wallace and Buell arrive after dark."
+      },
+      {
+        "title": "The second day",
+        "time": "7 April 1862",
+        "description": "The Union armies attack along the whole line and the Confederates retreat to Corinth."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Ulysses S. Grant",
+        "objective": "Concentrate at Pittsburg Landing, join Buell and march on Corinth.",
+        "known": "Confederate cavalry had become bold in his front, and a large enemy force was gathering at Corinth.",
+        "uncertainty": "Whether an attack would fall on Pittsburg Landing or on the stores at Crump's Landing.",
+        "constraints": "Many raw regiments, an injured ankle, headquarters at Savannah to meet Buell, and an army split by the river.",
+        "forces": "Six divisions of the Army of the Tennessee, with Buell's Army of the Ohio on the way.",
+        "terrain": "Wooded, undulating ground between flooded creeks, with the river at his back.",
+        "logistics": "Supplies came by steamer to the landings; the troops had no entrenchments.",
+        "decision": "He fought the first day without retreating across the river and ordered a general attack for the morning of the 7th.",
+        "outcome": "The Confederate army withdrew to Corinth, and Halleck took command in the field."
+      },
+      {
+        "name": "Albert Sidney Johnston, then P. G. T. Beauregard",
+        "objective": "Destroy Grant's army before Buell's arrival.",
+        "known": "Grant's camps lay between creeks on the west bank, with Buell's army marching from Nashville.",
+        "uncertainty": "Whether the noise of the slow march had warned the Union army, as Beauregard feared.",
+        "constraints": "Inexperienced troops, and generals who were still debating the attack on the morning it began.",
+        "forces": "The Army of Mississippi, organised in corps.",
+        "terrain": "Timbered country with underbrush, where formations lost touch with each other.",
+        "logistics": "Rain, complicated marching orders and rugged roads turned a one-day march from Corinth into three.",
+        "decision": "Johnston attacked on 6 April despite Beauregard's objection; after his death Beauregard halted for the night instead of attacking the landing.",
+        "outcome": "Driven from the field on 7 April, the army retreated to Corinth."
+      }
+    ]
+  },
+  {
+    "slug": "chancellorsville",
+    "sources": [
+      {
+        "title": "“Wilderness”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Wilderness",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“American Civil War”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/American_Civil_War",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“Hooker, Joseph”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hooker,_Joseph",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Thomas J. “Stonewall” Jackson (1824–1863) (William Garrett Piston)",
+        "url": "https://encyclopediavirginia.org/entries/jackson-thomas-j-stonewall-1824-1863/",
+        "publisher": "Encyclopedia Virginia, Virginia Humanities"
+      },
+      {
+        "title": "Robert E. Lee (1807–1870) (Elizabeth Brown Pryor)",
+        "url": "https://encyclopediavirginia.org/entries/lee-robert-e-1807-1870/",
+        "publisher": "Encyclopedia Virginia, Virginia Humanities"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Ambrose E. Burnside's Army of the Potomac had been repulsed in front of Lee's position at Fredericksburg in December 1862, and his attempt to manoeuvre in January ended in the Mud March, when rain and swollen rivers stopped all movement. The 1911 Britannica's Civil War article remarks that a Federal general could keep his men's confidence after a reverse but not after a farce. Burnside was replaced by Joseph Hooker, who had a reputation as a fine subordinate commander. Lee's Army of Northern Virginia still held the south bank of the Rappahannock.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Chancellorsville"
+          },
+          {
+            "source": 1,
+            "locator": "§ 21"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Hooker reorganised an army whose discipline had suffered from a run of failures, and the 1911 Britannica's article on him judges that few could have done it better. In April Lee was weakened by sending Longstreet's two divisions and several cavalry brigades to another theatre. Pryor writes that Lee fought large and costly battles because he hoped to destroy the enemy's army or to discourage Northerners so deeply that they would demand an end to the war, and that the Southern public was buoyed by victories such as this one.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 1,
+            "locator": "§ 21"
+          },
+          {
+            "source": 0,
+            "locator": "Chancellorsville"
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "After the failure of the frontal attack at Fredericksburg, Hooker resolved to turn Lee's flank and so gain the road to Richmond. Pryor writes that he believed he could trap Lee by attacking from several directions at once. Lee's object was to defeat the turning movement before it closed on him.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Chancellorsville"
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Chancellorsville was a farmhouse at a crossroads in the Wilderness, a large forest on the south bank of the Rapidan west of Fredericksburg. Hooker's main body had to cross both the Rappahannock and the Rapidan to reach it. Piston describes the woods and tangled underbrush through which Jackson's flank march passed, and notes that the terrain jumbled the attacking units once the assault began.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Chancellorsville"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Hooker commanded seven infantry corps and a large cavalry corps under George Stoneman; the 1911 Britannica's Civil War article says he had double Lee's force. Lee had Jackson's corps, one of whose divisions, under Jubal Early, stayed to watch Fredericksburg, the divisions of Richard H. Anderson and Lafayette McLaws, and J. E. B. Stuart's cavalry. Piston writes that Lee entrusted Jackson with the bulk of his available forces for the decisive movement.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Chancellorsville"
+          },
+          {
+            "source": 1,
+            "locator": "§ 21"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Hooker sent Stoneman's cavalry to demonstrate on his flank along the Rapidan and John Sedgwick's corps to demonstrate at Fredericksburg, while the rest of the army moved up the Rappahannock, crossed both rivers and on 30 April made its headquarters at Chancellorsville. Stuart reported the movement. Lee left Early to watch Sedgwick and brought Anderson, McLaws and three of Jackson's divisions to meet Hooker.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Chancellorsville"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Once across, the 1911 Britannica's article on Hooker writes, he checked the advance of his troops at the decisive moment; Encyclopedia Virginia's timeline has him slowed by fighting in the woods on 1–2 May. His army cleared and entrenched a position in the forest facing east and south. On 2 May Jackson marched round the Union army and late in the afternoon attacked its right flank, which broke; after sunset Jackson was wounded by his own men while riding forward. On 3 May Stuart, now commanding Jackson's corps, renewed the attack with Anderson, and Hooker fell back to an inner line covering the ford. At Fredericksburg Sedgwick broke through Early, but Lee turned on him with Early, McLaws and Anderson and drove him over the Rappahannock. Hooker's army recrossed and marched back to Falmouth.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0,
+            "locator": "Chancellorsville"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Facing an army twice his size, Lee divided his own again: Pryor writes that he did so precariously, squeezed the Union forces from two directions and then reunited his troops. Lee found a route by which Hooker could be attacked from the north and west and gave Jackson the turning movement. Piston writes that, although Jackson's partisans later claimed the plan for him, it was Lee's entirely, while Lee gave Jackson much discretion in carrying it out. Hooker's decision to halt and entrench handed the initiative to Lee.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 4
+          },
+          {
+            "source": 0,
+            "locator": "Chancellorsville"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The 1911 Britannica's Hooker article places the turn at the moment he checked his advance: Lee turned upon him and Jackson surprised and destroyed a whole corps. Piston adds that the march did not stay secret and that Union officers ignored evidence of the threat. The Wilderness article describes how a small Confederate force in front of Hooker kept most of his army idle behind its earthworks while Jackson struck its flank.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 0,
+            "locator": "Chancellorsville"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Hooker's army withdrew across the Rapidan and the Rappahannock in early May and marched back to its old camps at Falmouth. Hooker himself had been disabled during the battle. Pryor writes that Lee had turned a vulnerable defensive position into a brilliant tactical offence through surprise and daring.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "Chancellorsville"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Jackson's left arm was amputated, he developed pneumonia and died on 10 May. Piston writes that his death left a vacancy at corps level that was never filled: Lee reorganised the army into three corps under Longstreet, Richard S. Ewell and A. P. Hill, neither of the last two could match Jackson, and Chancellorsville was the last decisive victory of the Army of Northern Virginia. A month later Lee began his second invasion of the North. Hooker, no longer trusted in Washington, resigned his command on 28 June, on the eve of Gettysburg.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 1,
+            "locator": "§ 21"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A larger army that stops and waits behind earthworks gives the initiative to a smaller one. Dividing a force in the face of a stronger enemy worked here because the stronger enemy did not use his numbers, and the victory cost Lee the subordinate who had carried out the movement.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0,
+            "locator": "Chancellorsville"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Who conceived the flank march is disputed: Piston gives it entirely to Lee against the claims of Jackson's staff. The length of the march differs between the 1911 Britannica and Piston. The Britannica's Hooker article calls his defects as a commander-in-chief grave yet also names him one of the finest fighting generals of the service. Pryor calls the battle a brilliant victory but adds that historians have questioned whether Lee's costly offensive battles were the right strategy for the Confederacy.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 0,
+            "locator": "Chancellorsville"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The 1911 Britannica's article on the Wilderness covers the battle in detail, its Civil War article places it between Fredericksburg and Gettysburg, and its article on Hooker judges the Union commander. In Encyclopedia Virginia, William Garrett Piston's article on Jackson and Elizabeth Brown Pryor's article on Lee give modern assessments.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Hooker turns Lee's flank",
+        "time": "late April 1863",
+        "description": "Union corps cross the Rappahannock and Rapidan and reach Chancellorsville on 30 April."
+      },
+      {
+        "title": "Hooker halts",
+        "time": "1 May 1863",
+        "description": "The advance is checked and the army entrenches in the forest."
+      },
+      {
+        "title": "Jackson's flank attack",
+        "time": "2 May 1863",
+        "description": "Jackson's corps marches round the Union army and breaks its right; Jackson is wounded by his own men."
+      },
+      {
+        "title": "Lee closes in",
+        "time": "3–4 May 1863",
+        "description": "Stuart and Anderson drive Hooker to an inner line; Lee turns on Sedgwick at Fredericksburg."
+      },
+      {
+        "title": "Retreat across the river",
+        "time": "5–6 May 1863",
+        "description": "The Army of the Potomac recrosses and returns to Falmouth."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Joseph Hooker",
+        "objective": "Turn Lee's flank and gain the road to Richmond.",
+        "known": "Lee had been weakened by sending Longstreet's divisions away, and his army held the Rappahannock line at Fredericksburg.",
+        "uncertainty": "Where and how Lee would answer the turning movement once it was discovered.",
+        "constraints": "Two rivers to cross, a forest that hid movement, and an army recovering from a run of failures.",
+        "forces": "Seven infantry corps and a large cavalry corps.",
+        "terrain": "The Wilderness, a dense forest around the Chancellorsville crossroads.",
+        "logistics": "Most of his cavalry was detached under Stoneman, and the 1911 Britannica writes that a single brigade of Stuart's neutralised it.",
+        "decision": "He halted his advance on 1 May and took up an entrenched position, inviting Lee to attack.",
+        "outcome": "His right was broken on 2 May and his army retreated across the rivers."
+      },
+      {
+        "name": "Robert E. Lee",
+        "objective": "Defeat the turning movement before it closed on his army.",
+        "known": "Stuart's cavalry had reported the Union crossings, and Sedgwick's corps was across the river at Fredericksburg.",
+        "uncertainty": "Whether Sedgwick's attack at Fredericksburg or Hooker's force in the Wilderness was the main threat.",
+        "constraints": "A much smaller army with Longstreet's divisions absent.",
+        "forces": "Jackson's corps, including Early's division at Fredericksburg, Anderson's and McLaws's divisions and Stuart's cavalry.",
+        "terrain": "Woods and underbrush that hid a long march across the Union front.",
+        "logistics": "Jackson's divisions had to be called up from their positions below the Massaponax once Sedgwick crossed the river.",
+        "decision": "He divided his army, sent Jackson round Hooker's right, and then turned on Sedgwick.",
+        "outcome": "Hooker withdrew, but Jackson was mortally wounded."
+      }
+    ]
+  },
+  {
     "slug": "vicksburg",
     "sources": [
       {
@@ -7437,6 +8412,658 @@
         "logistics": "Once invested, the garrison had only what was in the city; at the meeting he told Grant he had rations for some time, which Grant recalled as about two weeks.",
         "decision": "He moved out under Johnston's orders, changed direction when they changed, was beaten at Champion Hill, then, after his council judged withdrawal impossible, held Vicksburg through the siege and surrendered on 4 July, a date he said he chose for better terms.",
         "outcome": "The surrender and parole of his army."
+      }
+    ]
+  },
+  {
+    "slug": "wilderness",
+    "sources": [
+      {
+        "title": "Personal Memoirs of U. S. Grant, chapter L: Entering the Wilderness—Battle of the Wilderness",
+        "url": "https://en.wikisource.org/wiki/Personal_Memoirs_of_U._S._Grant/Chapter_L",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Personal Memoirs of U. S. Grant, chapter LI: Movement by the Left Flank",
+        "url": "https://en.wikisource.org/wiki/Personal_Memoirs_of_U._S._Grant/Chapter_LI",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“Wilderness”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Wilderness",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Wilderness, Battle of the (Greg Mertz)",
+        "url": "https://encyclopediavirginia.org/entries/wilderness-battle-of-the/",
+        "publisher": "Encyclopedia Virginia, Virginia Humanities"
+      },
+      {
+        "title": "Robert E. Lee (1807–1870) (Elizabeth Brown Pryor)",
+        "url": "https://encyclopediavirginia.org/entries/lee-robert-e-1807-1870/",
+        "publisher": "Encyclopedia Virginia, Virginia Humanities"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After his victories in the West, Lincoln brought Grant east and placed him in command of all the Union armies. Mertz writes that Grant chose to travel with the Army of the Potomac rather than command from Washington, and quotes his instruction to its commander, George G. Meade, that wherever Lee went, Meade would go too. Grant writes that after three years of fighting the two armies had made no real progress towards the end of the war, and calls it a stand-off.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 0,
+            "locator": "ch. L"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Mertz writes that making the Confederate army rather than Richmond the objective was new for the Union army, and that Lincoln, fearing he would not be re-elected without a significant victory, had told Grant to seek out and destroy Lee. Grant writes that the campaign would bring heavier losses in a given time than any before, but that the carnage would be limited to a single year. Pryor writes that Lee knew his resources were too limited to force Grant back to Washington.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 0,
+            "locator": "ch. L"
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Grant meant to cross the Rapidan beyond Lee's right and get clear of the Wilderness before fighting; the 1911 Britannica describes a manoeuvre towards Lee's right rear. Mertz writes that Lee hoped to offset his inferior numbers and less certain leadership by catching Grant in the brambles of the Wilderness.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "Wilderness"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Grant describes the country as flat, cut by streams and covered with dense forest that in the Wilderness was almost impenetrable even for infantry except along the roads, with only a few clearings and small farms. Two roads ran west through it, the Orange Turnpike and the Orange Plank Road, crossed by the Brock Road. During the fighting the woods caught fire.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. L"
+          },
+          {
+            "source": 2,
+            "locator": "Wilderness"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The Army of the Potomac, under Meade, had the II Corps under Winfield Scott Hancock, the V under Gouverneur K. Warren, the VI under John Sedgwick and the cavalry under Philip H. Sheridan; Burnside's IX Corps was a separate command, and Grant directed them all from Meade's headquarters. Mertz writes that Grant left the army's organisation largely as he found it. Lee's corps were led by Longstreet, Ewell and A. P. Hill, and Mertz judges the last two less reliable than their predecessors.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "Wilderness"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 0,
+            "locator": "ch. L"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The army crossed the Rapidan at Germanna and Ely's fords on 4 May and halted for the night around Wilderness Tavern and Chancellorsville, inside the forest. The 1911 Britannica records the controversy over this early halt, which was made to protect a wagon train carrying fifteen days' supplies. Grant writes that the crossing surprised Lee, who did not learn the Union route until about one in the afternoon, and Mertz that Wilson's cavalry failed to picket the roads, so that the Union infantry did not know Lee was close.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "Wilderness"
+          },
+          {
+            "source": 0,
+            "locator": "ch. L"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 5 May Warren's corps attacked Ewell on the turnpike at about one o'clock after hours of delay, and Hancock and George W. Getty attacked Hill on the Plank Road until night. At five on 6 May Hancock broke Hill's corps, but Longstreet arrived and counter-attacked; Mertz recounts how Lee's soldiers shouted for him to go to the rear as he prepared to lead the Texas Brigade forward. In the late morning Longstreet's men used an unfinished railroad bed to strike Hancock's left, and Longstreet was then wounded by his own troops. A Confederate assault on the Brock Road line in the afternoon was beaten back, and at dusk John B. Gordon's brigade struck the Union right. On 7 May neither side attacked.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "Wilderness"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 0,
+            "locator": "ch. L"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Grant ordered his corps to attack at once rather than take time over dispositions, which Mertz calls new for the Army of the Potomac, and sent Burnside's corps to strike Hill's flank on the 6th, though it came into action only in the afternoon. On 7 May, instead of withdrawing as his predecessors had, he ordered the army south towards Spotsylvania. Grant gives two reasons: to stop Lee falling on Benjamin F. Butler's army near Richmond, and to get between Lee and his capital or draw him into open ground.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 2,
+            "locator": "Wilderness"
+          },
+          {
+            "source": 1,
+            "locator": "ch. LI"
+          },
+          {
+            "source": 0,
+            "locator": "ch. L"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The 1911 Britannica argues that the woods broke the force of each attack, Union and Confederate, and that Longstreet, like Jackson in the same woods a year before, was wounded at the critical moment, after which the battle came to a standstill. Grant believed that if Hancock's men had been able to see the confusion in the enemy's lines on the morning of the 6th, Lee would not have made another stand outside the Richmond defences.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "Wilderness"
+          },
+          {
+            "source": 0,
+            "locator": "ch. L"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The battle ended on 7 May with both armies in their entrenchments. Mertz calls it a Confederate tactical victory, while the 1911 Britannica writes that to Grant it was an indecisive victory that had given him a moral superiority he did not mean to give up. When the troops realised on the night of the 7th that they were marching south, Grant writes, they cheered him.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 2,
+            "locator": "Wilderness"
+          },
+          {
+            "source": 1,
+            "locator": "ch. LI"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Longstreet was out of action for five months, and Mertz writes that the battle revealed deep flaws in the command of the Army of Northern Virginia, with Hill ill and Ewell hesitant. Brush fires burned wounded men to death, as both Grant and Mertz record. The march south led to Spotsylvania, the North Anna and Cold Harbor, where, Mertz notes, Grant would be called a butcher.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 0,
+            "locator": "ch. L"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Dense terrain cancelled much of the advantage of numbers and made command at a distance difficult. The decision taken after the battle, to go on rather than go back, mattered more to the campaign than anything decided on the field.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. L"
+          },
+          {
+            "source": 2,
+            "locator": "Wilderness"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Mertz notes that the popular story of Griffin's outburst at headquarters has been embellished, and that after the war former Confederates used Ewell's delay over Gordon's attack to deflect blame from Lee. Whether the halt in the Wilderness on 4 May was an error is disputed, as the 1911 Britannica notes. Grant's view that a decisive success was within reach rests on facts he says were learned only afterwards.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 2,
+            "locator": "Wilderness"
+          },
+          {
+            "source": 0,
+            "locator": "ch. L"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Grant's Personal Memoirs, chapters L and LI on Wikisource, give the commander's account of the battle and of the decision to move south. The 1911 Britannica's article on the Wilderness gives a detailed staff narrative, and Greg Mertz's article in Encyclopedia Virginia a modern one. Elizabeth Brown Pryor's article on Lee gives his view of the campaign.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Crossing the Rapidan",
+        "time": "4 May 1864",
+        "description": "The Union army crosses at Germanna and Ely's fords and halts inside the forest."
+      },
+      {
+        "title": "The first day",
+        "time": "5 May 1864",
+        "description": "Warren attacks Ewell on the turnpike; Hancock and Getty attack Hill on the Plank Road."
+      },
+      {
+        "title": "Hancock's attack and Longstreet's arrival",
+        "time": "6 May 1864, morning",
+        "description": "Hill's corps breaks, then Longstreet counter-attacks across Widow Tapp's field."
+      },
+      {
+        "title": "The flank attack and the burning woods",
+        "time": "6 May 1864, late morning to dusk",
+        "description": "Longstreet turns Hancock's left and is wounded; assaults on the Brock Road and on the Union right follow."
+      },
+      {
+        "title": "The turn south",
+        "time": "7–8 May 1864",
+        "description": "Grant orders a night march towards Spotsylvania instead of a retreat."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Ulysses S. Grant",
+        "objective": "Bring Lee's army to battle and destroy it, beginning by passing through the Wilderness around its right.",
+        "known": "Lee lay in winter quarters behind the Rapidan, with Longstreet's corps some distance away.",
+        "uncertainty": "Whether Lee would fight in the forest or fall back.",
+        "constraints": "Dense woods, a huge wagon train, and an army whose habits and commanders he had inherited.",
+        "forces": "The Army of the Potomac under Meade, with Burnside's IX Corps as a separate command.",
+        "terrain": "Almost impenetrable forest with few roads and clearings.",
+        "logistics": "Ten days' rations and forage travelled in the wagons, with beef cattle driven behind.",
+        "decision": "He attacked at once on both roads and, after two days, marched south instead of retreating.",
+        "outcome": "A costly, indecisive battle followed by the move to Spotsylvania."
+      },
+      {
+        "name": "Robert E. Lee",
+        "objective": "Catch the Union army in the Wilderness, where its numbers counted for less.",
+        "known": "The Union army had crossed the Rapidan below his right and was marching into the forest.",
+        "uncertainty": "Whether Longstreet's corps would arrive in time to support Hill.",
+        "constraints": "Fewer men, and two new corps commanders less proven than Jackson had been.",
+        "forces": "The corps of Longstreet, Ewell and Hill, with Stuart's cavalry.",
+        "terrain": "Forest that hid movement and broke up formations.",
+        "logistics": "His army moved east from its winter quarters around Orange Court House.",
+        "decision": "He attacked on both roads and sent Longstreet's men through the railroad cut against Hancock's flank.",
+        "outcome": "He held the field but lost Longstreet for months, and Grant did not retreat."
+      }
+    ]
+  },
+  {
+    "slug": "spotsylvania",
+    "sources": [
+      {
+        "title": "Personal Memoirs of U. S. Grant, chapter LII: Battle of Spottsylvania",
+        "url": "https://en.wikisource.org/wiki/Personal_Memoirs_of_U._S._Grant/Chapter_LII",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Personal Memoirs of U. S. Grant, chapter LI: Movement by the Left Flank",
+        "url": "https://en.wikisource.org/wiki/Personal_Memoirs_of_U._S._Grant/Chapter_LI",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "“Wilderness”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Wilderness",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Spotsylvania Court House, Battle of (Greg Mertz)",
+        "url": "https://encyclopediavirginia.org/entries/spotsylvania-court-house-battle-of/",
+        "publisher": "Encyclopedia Virginia, Virginia Humanities"
+      },
+      {
+        "title": "“Spottsylvania”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Spottsylvania",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Robert E. Lee (1807–1870) (Elizabeth Brown Pryor)",
+        "url": "https://encyclopediavirginia.org/entries/lee-robert-e-1807-1870/",
+        "publisher": "Encyclopedia Virginia, Virginia Humanities"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Mertz writes that after a bloody tactical defeat such as the Wilderness the Army of the Potomac would in the past have stopped to regroup, but that Grant ordered it to keep moving towards Richmond. Grant's order of 7 May sent the army on a night march to Spotsylvania Court House, with the wagons moved east beforehand and the troops told to move off quietly once the vehicles were out of the enemy's hearing.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 1,
+            "locator": "ch. LI"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Grant writes that his object in moving to Spotsylvania was twofold: to stop Lee from reaching Richmond in time to crush Butler, and to get between Lee's army and its capital or, failing that, to draw it into open ground. Mertz writes that Lee expected Grant either to press south or to withdraw east towards Fredericksburg, and that a position at Spotsylvania covered both. Grant adds that Lee read the movement of the Union wagons as a partial retreat and reported it so to his government.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "ch. LI"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Grant meant to assemble at the courthouse on 8 May and manoeuvre again against Lee's right rear; when he found the Confederates there before him, he looked for a weak point to break. Lee's object was to block the road south; on 11 May, believing that Grant was moving away, he planned to strike the Union army on the march.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "Wilderness"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The field lay in the fork of the Po and the Ny rivers, among woods and marshes. The Confederate line ran along hills and ridges with open fields in front and, Mertz writes, formed a bulge that the soldiers called the Mule Shoe, which needed more men to hold than a straight line. At one bend, which became known as the Bloody Angle, a ravine in front of the line sheltered Union attackers. The 1911 Britannica's article on Spottsylvania County notes that the armies contended there for nearly two weeks, from 8 to 21 May 1864.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "Wilderness"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The Army of the Potomac under Meade, with Hancock's II, Warren's V and Sedgwick's VI Corps, and Burnside's separate IX Corps, all under Grant's direction; after Sedgwick was killed by a sharpshooter on 9 May, Horatio G. Wright took the VI Corps. Lee had Anderson commanding Longstreet's corps, Ewell's corps, and Hill's corps, which the 1911 Britannica places under Early. Both sources record a violent quarrel between Meade and Sheridan, after which Grant let Sheridan take the cavalry corps away to fight Stuart.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "Wilderness"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 0,
+            "locator": "ch. LII"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The march became a race. Anderson, ordered to march early on the 8th, moved on at once during the night; Mertz writes that he was escaping the choking fires of the Wilderness, the 1911 Britannica that he found no good resting place. Union cavalry failed to clear the Brock Road, and on the morning of the 8th Confederate cavalry held at the Spindle field until Anderson's infantry arrived. Grant writes that by accident Lee beat him to Spotsylvania.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 2,
+            "locator": "Wilderness"
+          },
+          {
+            "source": 1,
+            "locator": "ch. LI"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 8 May Warren's attacks near the Spindle farm failed. On the 9th Sedgwick was killed, Sheridan left on his raid, and Hancock crossed the Po beyond Lee's left. On the 10th a column of twelve regiments under Colonel Emory Upton broke into the Confederate works but, unsupported, had to withdraw. On the 11th Grant wrote to Halleck. At dawn on the 12th Hancock's corps, attacking in mass through fog, overran the Mule Shoe and took many prisoners and guns, and for about twenty hours the two sides fought at the Bloody Angle while Lee completed a new line across the base of the salient. Over the following week the Union army shifted east, and on 21 May the armies left Spotsylvania.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "Wilderness"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 0,
+            "locator": "ch. LII"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Grant let Sheridan go after Stuart, which Mertz judges cost the army the cavalry it needed for screening and intelligence. After Upton's attack he promoted him to brigadier general on the spot and, the 1911 Britannica writes, ordered superfluous entrenchments given up so that the corps had men to attack, then formed Hancock's corps in a dense mass for the 12th. Lee, Mertz writes, wanted to abandon the salient but was persuaded it could be held with artillery support, ordered a second line across its base, and on the night of the 11th, believing the Union army was moving away, withdrew the artillery from it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 0,
+            "locator": "ch. LII"
+          },
+          {
+            "source": 2,
+            "locator": "Wilderness"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The Confederate guns were being brought back into the salient just as Hancock's attack struck, and some were taken without firing a shot. But the 1911 Britannica and Mertz agree that success disordered the attackers into a crowd, which smaller Confederate units in good order could check. Lee then used the fighting at the Bloody Angle to buy time for the new line.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 2,
+            "locator": "Wilderness"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Lee held a new line and the Union army could not break it. Mertz calls Spotsylvania, like the Wilderness, a tactical draw that Grant turned into a strategic victory by refusing to retreat. Pryor writes that some of the heaviest fighting of the war took place there and that Lee, though outnumbered, held his own by swift manoeuvre and his personal role in rallying the ranks.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Sheridan beat Stuart at Yellow Tavern, where Stuart was killed, but the Union army had to plan for days on imperfect information. Sedgwick was, Mertz writes, the highest-ranking Union officer killed in the war. Grant moved on to the North Anna and Cold Harbor and finally across the James to Petersburg.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 2,
+            "locator": "Wilderness"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Earthworks thrown up every night shifted the advantage to the defender. Upton's column showed how such works could be broken, but each break needed troops ready to follow it up, and a dense mass that succeeds can lose its order as completely as one that fails.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. LII"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 2,
+            "locator": "Wilderness"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Grant prints his letter to Halleck of 11 May with the line that he proposed to fight it out on that line if it took all summer; the 1911 Britannica calls it his famous message. Whether the race to the courthouse was decided by the commanders or by accident is disputed: the Britannica says accidents counted for more than the measures of either general, and Mertz and the Britannica give different reasons for Anderson's early march. Mertz notes that the episode of soldiers sending Lee to the rear is one of several such stories told by veterans.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. LII"
+          },
+          {
+            "source": 2,
+            "locator": "Wilderness"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Grant's Personal Memoirs, chapters LI and LII on Wikisource, give the commander's orders and his letter to Halleck. The 1911 Britannica's article on the Wilderness gives a detailed narrative of the fighting at Spotsylvania, and its article on Spottsylvania County its dates. Greg Mertz's article in Encyclopedia Virginia gives a modern account, and Elizabeth Brown Pryor's article on Lee his part in it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "The race for the courthouse",
+        "time": "7–8 May 1864",
+        "description": "Anderson's corps arrives just ahead of Warren and repulses his attacks."
+      },
+      {
+        "title": "Upton's attack",
+        "time": "10 May 1864",
+        "description": "A column of twelve regiments breaks into the works but cannot be supported."
+      },
+      {
+        "title": "The Mule Shoe",
+        "time": "12 May 1864",
+        "description": "Hancock overruns the salient at dawn; the fight at the Bloody Angle lasts into the night."
+      },
+      {
+        "title": "Shifting east",
+        "time": "13–20 May 1864",
+        "description": "The Union army works round to the east, probing for a weak point."
+      },
+      {
+        "title": "Departure",
+        "time": "21 May 1864",
+        "description": "The armies leave Spotsylvania for the North Anna."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Ulysses S. Grant",
+        "objective": "Get between Lee and Richmond, or force him to fight in the open.",
+        "known": "Lee held an entrenched line around the courthouse after winning the race to it.",
+        "uncertainty": "Where Lee's line was weakest, and whether Lee was preparing to move.",
+        "constraints": "Woods and rivers that slowed every movement, and friction between Meade, Sheridan and the corps commanders.",
+        "forces": "Meade's army and Burnside's corps, without most of the cavalry after 9 May.",
+        "terrain": "The fork of the Po and the Ny, with woods, marshes and an entrenched salient.",
+        "logistics": "The wagons went back to Belle Plain for fresh provisions and ammunition while the army stayed in contact.",
+        "decision": "He attacked repeatedly, culminating in Hancock's mass assault on 12 May, and wrote that he would fight it out on that line.",
+        "outcome": "No breakthrough; after two weeks he moved south again."
+      },
+      {
+        "name": "Robert E. Lee",
+        "objective": "Block the road south and wear down the attacker from behind earthworks.",
+        "known": "Union wagons were moving east, which he read as a possible retreat towards Fredericksburg.",
+        "uncertainty": "Whether Grant was withdrawing or massing for a new attack on 11 May.",
+        "constraints": "Fewer men, a salient that needed more troops to hold, and Longstreet's corps under a new commander after his wounding.",
+        "forces": "The corps of Anderson, Ewell and Hill (under Early), with Stuart's cavalry until Sheridan drew it away.",
+        "terrain": "Ridges with open ground in front, and a bulge in the line that could be attacked from three sides.",
+        "logistics": "His men dug earthworks along the ridges through the night after they arrived.",
+        "decision": "He kept the salient, withdrew its artillery on the night of the 11th, and then fought to complete a new line across its base.",
+        "outcome": "He held the position, but the Union army did not retreat."
       }
     ]
   },
@@ -7758,6 +9385,369 @@
         "logistics": "He hoped that breaking the railroad behind Sherman would force him to attack on Confederate terms or retreat.",
         "decision": "He fought from entrenched lines, fell back each time he was outflanked and pressed repeatedly for a cavalry raid on Sherman's railroad.",
         "outcome": "He was relieved of command in mid-July, as Sherman's armies neared Atlanta, and later defended his strategy in his Narrative."
+      }
+    ]
+  },
+  {
+    "slug": "petersburg",
+    "sources": [
+      {
+        "title": "Personal Memoirs of U. S. Grant, chapter LVI: The Movement on Petersburg—The Investment of Petersburg",
+        "url": "https://en.wikisource.org/wiki/Personal_Memoirs_of_U._S._Grant/Chapter_LVI",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Personal Memoirs of U. S. Grant, chapter LVII: Mining the Works before Petersburg—Explosion of the Mine before Petersburg",
+        "url": "https://en.wikisource.org/wiki/Personal_Memoirs_of_U._S._Grant/Chapter_LVII",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Personal Memoirs of U. S. Grant, chapter LXIV: Battle of Five Forks",
+        "url": "https://en.wikisource.org/wiki/Personal_Memoirs_of_U._S._Grant/Chapter_LXIV",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Petersburg Campaign (A. Wilson Greene)",
+        "url": "https://encyclopediavirginia.org/entries/petersburg-campaign/",
+        "publisher": "Encyclopedia Virginia, Virginia Humanities"
+      },
+      {
+        "title": "“Petersburg”, Encyclopædia Britannica, 11th ed. (1911)",
+        "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Petersburg",
+        "publisher": "Wikisource"
+      },
+      {
+        "title": "Robert E. Lee (1807–1870) (Elizabeth Brown Pryor)",
+        "url": "https://encyclopediavirginia.org/entries/lee-robert-e-1807-1870/",
+        "publisher": "Encyclopedia Virginia, Virginia Humanities"
+      },
+      {
+        "title": "Personal Memoirs of U. S. Grant, chapter LV: Battle of Cold Harbor",
+        "url": "https://en.wikisource.org/wiki/Personal_Memoirs_of_U._S._Grant/Chapter_LV",
+        "publisher": "Wikisource"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Greene writes that when the Overland Campaign ended at Cold Harbor, Lee's army still blocked the way to Richmond and could fight effectively on the defensive. Grant writes that he always regretted the last assault at Cold Harbor. Lee's position was now so near Richmond, behind the swamps of the Chickahominy, that Grant decided his next move by the left flank would carry the army south of the James River.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 6,
+            "locator": "ch. LV"
+          },
+          {
+            "source": 0,
+            "locator": "ch. LVI"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Greene calls Petersburg the logistical key to the survival of Richmond. The 1911 Britannica describes Richmond and Petersburg as the salients of a vast fortress fed by canal and railroads, among them the Weldon line that brought the cargoes of blockade runners up from Wilmington, and writes that the fall of Petersburg would mean the fall of Richmond. Jefferson Davis's policy was to use Lee's army to protect his capital. Greene adds that Lincoln's re-election in November 1864 relieved the pressure on Grant to show progress in Virginia.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 4,
+            "locator": "Petersburg Campaign"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Grant first hoped to seize Petersburg by surprise before Lee could reinforce it. When that failed, Greene writes, he set out to strangle the city and Lee's army by cutting each supply line from the south and west. The 1911 Britannica lists his three possible routes to victory, a decisive battle in the field, a successful assault on the defences or the destruction of the railroads, and calls the last the surest but necessarily slow. Lee answered each Union move with counter-thrusts meant to limit its gains.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 4,
+            "locator": "Petersburg Campaign"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The original Confederate line east of the city, Grant writes, was a chain of redans on commanding ground joined by rifle pits. Petersburg stood on the Appomattox about ten miles from City Point on the navigable James, which became Grant's supply base. Greene writes that the campaign saw the peak of field fortification in the war, with the trenches in places less than four hundred yards apart, and that Union shelling made much of the eastern half of the town uninhabitable.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. LVI"
+          },
+          {
+            "source": 4,
+            "locator": "Petersburg Campaign"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Grant directed Meade's Army of the Potomac and Benjamin F. Butler's Army of the James, later under E. O. C. Ord, with Sheridan's cavalry recalled from the Shenandoah Valley for the last offensive. At first Petersburg was held by a small force under P. G. T. Beauregard; Lee's army arrived from 18 June. Greene writes that Lee fought the campaign at a two-to-one numerical disadvantage.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 4,
+            "locator": "Petersburg Campaign"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The army disengaged from Lee's front, crossed the Chickahominy and, on 14 June, began crossing the James on a pontoon bridge and by boat, while one corps went round by water. Grant calls the move hazardous: Lee had shorter lines and might have crushed Butler before help arrived. The 1911 Britannica writes that for four days Lee refused to believe reports that Grant was crossing, until Beauregard convinced him late on 17 June.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. LVI"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4,
+            "locator": "Petersburg Campaign"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 15 June William F. Smith's corps, with its United States Colored Troops, took several redans east of the city, but the attack was not pressed that night; on the 16th to the 18th further assaults gained more of the line until Lee's army arrived. On 30 July a mine dug by Pennsylvania miners was exploded under the Confederate works, but the attack into the crater failed. In August Union forces took the Weldon Railroad. Offensives in September and October extended the lines west and took Fort Harrison north of the James. Through a hard winter the Confederates suffered shortages and desertion. On 25 March 1865 Gordon's attack on Fort Stedman failed; on 1 April Sheridan won at Five Forks; on 2 April the Union army broke Lee's lines, and that night Lee evacuated Petersburg and Richmond.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. LVI"
+          },
+          {
+            "source": 1,
+            "locator": "ch. LVII"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4,
+            "locator": "Petersburg Campaign"
+          },
+          {
+            "source": 2,
+            "locator": "ch. LXIV"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Grant moved the army across the James, then turned to the railroads, and in March sent Sheridan round Lee's right with instructions that, if needed, he should cut loose and join Sherman in North Carolina. He approved the mine, at first, he writes, as a way of keeping the men occupied. Meade replaced the Colored division chosen to lead the assault; Greene writes that he doubted its prowess and feared the political consequences if it failed and suffered, and Grant calls Burnside's replacement choice a worse one. Lee, the 1911 Britannica writes, intended to leave his lines and join Joseph E. Johnston, and ordered the attack on Fort Stedman to gain time for that move.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. LVI"
+          },
+          {
+            "source": 2,
+            "locator": "ch. LXIV"
+          },
+          {
+            "source": 1,
+            "locator": "ch. LVII"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4,
+            "locator": "Petersburg Campaign"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Grant believed that Petersburg could have been carried on 15 June without much loss if Hancock had received his orders in time, and the 1911 Britannica that it might have been taken on the 18th while Lee was in temporary eclipse. Greene treats the capture of the Weldon Railroad in August as forcing Lee onto ever fewer supply routes, and Five Forks and the breakthrough of 2 April as the climax that ended the siege.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. LVI"
+          },
+          {
+            "source": 4,
+            "locator": "Petersburg Campaign"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Lee informed Davis on 2 April 1865 that Petersburg and Richmond must be abandoned, and early on the 3rd a Michigan regiment raised the flag over Petersburg's courthouse. Lincoln met Grant in the town that morning. Grant's armies pursued Lee west and cornered him at Appomattox Court House, where he surrendered on 9 April.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Greene calls the Petersburg Campaign the proximate cause of the end of the war, since the surrender at Appomattox hastened the surrender of other Confederate forces. He also records the cost to the town, where hundreds of buildings were damaged by shellfire and many residents became refugees. Pryor writes that Lee, unable to obtain critical supplies from the Confederate authorities, held on in miserable trenches for nearly nine months.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Once both sides could entrench, a direct assault rarely paid, and the campaign was decided by the slower work of cutting railroads and wearing down an army that could not replace men or supplies. Greene contrasts the United States Military Railroad that fed Grant's army from City Point with the Confederates' shortages of firewood, rations and clothing. The failures of 15 June and 30 July show how much depended on orders reaching the right commander in time.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 0,
+            "locator": "ch. LVI"
+          },
+          {
+            "source": 1,
+            "locator": "ch. LVII"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The failure of 15–18 June is explained differently: Grant blames orders that never reached Hancock, the 1911 Britannica Lee's slowness to believe that Grant had crossed. For the mine, Grant blames Ledlie, while Greene stresses Meade's political worry about the Colored division. Grant's description of the crater as the saddest affair he witnessed in the war is quoted by Greene. Even the campaign's length is given differently: 292 days by Greene, nearly nine months by Pryor.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. LVI"
+          },
+          {
+            "source": 4,
+            "locator": "Petersburg Campaign"
+          },
+          {
+            "source": 1,
+            "locator": "ch. LVII"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Grant's Personal Memoirs, chapters LV, LVI, LVII and LXIV on Wikisource, give the commander's account of Cold Harbor, the crossing of the James, the mine and Five Forks. A. Wilson Greene's article on the Petersburg Campaign in Encyclopedia Virginia gives a modern historian's account, and Elizabeth Brown Pryor's article on Lee his side of it. The 1911 Britannica's article on Petersburg contains a long section on the campaign.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Across the James",
+        "time": "12–15 June 1864",
+        "description": "The Union army leaves Cold Harbor and crosses the James on a pontoon bridge."
+      },
+      {
+        "title": "The first assaults",
+        "time": "15–18 June 1864",
+        "description": "The outer works fall, but Petersburg holds until Lee's army arrives."
+      },
+      {
+        "title": "The crater",
+        "time": "30 July 1864",
+        "description": "A mine is exploded under the Confederate works; the attack into the crater fails."
+      },
+      {
+        "title": "The railroads",
+        "time": "August 1864 – February 1865",
+        "description": "Union offensives take the Weldon Railroad and extend the lines west through a hard winter."
+      },
+      {
+        "title": "Fort Stedman and Five Forks",
+        "time": "25 March – 1 April 1865",
+        "description": "Lee's attack on Fort Stedman fails; Sheridan breaks his right at Five Forks."
+      },
+      {
+        "title": "The breakthrough",
+        "time": "2–3 April 1865",
+        "description": "The Union army breaks Lee's lines and Petersburg and Richmond are evacuated."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Ulysses S. Grant",
+        "objective": "Take Petersburg, and with it Richmond, by cutting the railroads that supplied Lee's army.",
+        "known": "Lee's army still blocked Richmond after Cold Harbor, and Petersburg was the junction of its supply lines.",
+        "uncertainty": "Whether Lee would detect the crossing of the James before Petersburg could be taken.",
+        "constraints": "Strong earthworks, corps commanders who hesitated before them, and detachments drawn off by Early's raid on Washington.",
+        "forces": "The Army of the Potomac and the Army of the James, with Sheridan's cavalry at the end.",
+        "terrain": "Entrenched lines east and south of the city, extending west over months.",
+        "logistics": "A huge base at City Point, connected to the front by the United States Military Railroad.",
+        "decision": "He crossed the James, then turned from assault to a steady extension of his lines against the railroads, and launched a final turning movement in March 1865.",
+        "outcome": "Lee abandoned Petersburg and Richmond on 2 April and surrendered a week later."
+      },
+      {
+        "name": "Robert E. Lee",
+        "objective": "Hold Petersburg and Richmond, as Davis's policy required, and keep the railroads open.",
+        "known": "After 18 June the Union army had concentrated in front of Petersburg and was reaching for the railroads.",
+        "uncertainty": "At first, whether Grant had really crossed the James; later, when the roads would allow his army to break away.",
+        "constraints": "Too few men to hold ever longer lines, supplies he could not obtain from the government, and mounting desertion.",
+        "forces": "The Army of Northern Virginia, with Beauregard's troops at Petersburg.",
+        "terrain": "Fortified lines from north of the James to Hatcher's Run.",
+        "logistics": "Wagons and worn railways bringing in dwindling supplies as one line after another was cut.",
+        "decision": "He met each Union thrust with a counter-attack, then struck at Fort Stedman to gain time to leave his lines and join Johnston.",
+        "outcome": "His lines broke on 2 April; he evacuated both cities and surrendered at Appomattox on 9 April."
       }
     ]
   },

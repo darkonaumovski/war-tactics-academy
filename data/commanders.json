@@ -591,6 +591,215 @@
     }
   },
   {
+    "slug": "quintus-fabius-maximus",
+    "name": "Quintus Fabius Maximus Verrucosus",
+    "years": "d. 203 BCE",
+    "state": "Roman Republic",
+    "eraId": "ancient",
+    "role": "Dictator in 217 BCE and five times consul, called Cunctator, the Delayer",
+    "summary": "Consul in 233 and 228 BCE and censor in 230, he was made dictator after Trasimene in 217 and refused battle with Hannibal, shadowing him through the hills, picking off his foragers and letting him roam Campania, a policy that brought him contempt at Rome and a command divided with his master of horse, Minucius. After Cannae his strategy was taken up again; consul three more times, he retook Tarentum in 209 and became princeps senatus. In 205 he led the opposition to Scipio’s invasion of Africa and failed. He died in 203, and Livy quotes Ennius’s verse that one man by his slowness restored the state.",
+    "approach": "Avoided pitched battle with a stronger field army and fought where Rome was strong. He kept to the hills out of reach of Hannibal’s cavalry, marched parallel to the enemy, took the strong positions first, kept his men together with supplies behind them and picked off stragglers and foragers, so that time, men and provisions would wear down an army that could not easily be replaced. Polybius gives the reasoning; Plutarch has him tell his friends that to be frightened from his course by abuse would make him a greater coward than he was held to be.",
+    "strength": "Patience under contempt and an accurate reading of where Rome’s advantage lay: Plutarch says that of all his enemies only Hannibal understood what he was doing. When Minucius was drawn into an ambush, Fabius’s legions came up and saved him, and Polybius says it was plain to those present that all had been lost by rashness and saved by caution.",
+    "limitation": "Hannibal outwitted him near Callicula in 217, driving cattle with burning torches on their horns to draw off the guards of the pass, and later turned Fabius’s own estates against him by sparing them while burning the land around. The caution that served Rome in 217 became, in Plutarch’s reading, an opposition to Scipio’s invasion of Africa that began in prudence and grew from rivalry: he tried to keep money and men from Scipio, moved his recall after Locri, and demanded a successor even after the victories in Africa.",
+    "legacy": "His name became a word: Britannica notes that a Fabian strategy has come to mean a gradual or cautious policy. Livy left open whether he was slow by nature or chose slowness for that war, and Plutarch wrote his life as a model of character. The delay was paid for by Rome’s allies, whose fields Hannibal burned before his eyes to provoke him.",
+    "battleSlugs": [],
+    "source": {
+      "title": "Quintus Fabius Maximus Verrucosus — Patrick Hunt and Britannica Editors",
+      "url": "https://www.britannica.com/biography/Quintus-Fabius-Maximus-Verrucosus",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Consul (233, 228, 215, 214 and 209 BCE); censor (230); dictator (217); princeps senatus (209); augur and pontifex",
+      "principalCommands": [
+        "The dictator’s army against Hannibal, 217 BCE",
+        "Consular armies in Campania and Samnium, 215–214 BCE",
+        "The recapture of Tarentum, 209 BCE"
+      ],
+      "timeline": [
+        {
+          "date": "233 BCE",
+          "event": "First consulship"
+        },
+        {
+          "date": "230 BCE",
+          "event": "Censor"
+        },
+        {
+          "date": "217 BCE",
+          "event": "Made dictator after Trasimene; refuses battle with Hannibal"
+        },
+        {
+          "date": "217 BCE",
+          "event": "Hannibal escapes his trap near Callicula by a night stratagem"
+        },
+        {
+          "date": "217 BCE",
+          "event": "Rescues his master of horse, Minucius, from an ambush"
+        },
+        {
+          "date": "216 BCE",
+          "event": "His strategy is set aside and Rome loses its army at Cannae"
+        },
+        {
+          "date": "215–214 BCE",
+          "event": "Third and fourth consulships, in Campania and Samnium"
+        },
+        {
+          "date": "209 BCE",
+          "event": "Fifth consulship; retakes Tarentum; princeps senatus"
+        },
+        {
+          "date": "205 BCE",
+          "event": "Opposes Scipio’s invasion of Africa in the senate"
+        },
+        {
+          "date": "204 BCE",
+          "event": "Moves Scipio’s recall after the scandal at Locri"
+        },
+        {
+          "date": "203 BCE",
+          "event": "Dies at a great age"
+        }
+      ],
+      "notableDecision": "After Trasimene in 217 BCE, as dictator, he refused to meet Hannibal in a pitched battle and shadowed him through the hills instead, letting him ravage the lands of Rome’s allies rather than risk the army Rome had left.",
+      "setback": "In 217 Hannibal escaped the trap Fabius had set near Callicula by a night stratagem with torch-bearing cattle, and in 216 his strategy was set aside when Rome sent a great army to fight and lost it at Cannae."
+    }
+  },
+  {
+    "slug": "hasdrubal-barca",
+    "name": "Hasdrubal Barca",
+    "years": "d. 207 BCE",
+    "state": "Carthage",
+    "eraId": "ancient",
+    "role": "Carthaginian commander in Spain, 218–208 BCE, and leader of the second invasion of Italy",
+    "summary": "The second son of Hamilcar Barca, he was left in command of Spain when his brother Hannibal marched for Italy in 218 BCE, and fought for years against the brothers Gnaeus and Publius Scipio, losing a fleet off the Ebro in 217 and a battle at Dertosa in 215, before the Scipios were beaten and killed in 211 or 212. After the younger Scipio took New Carthage, Hasdrubal was beaten at Baecula but escaped with most of his army, crossed the Pyrenees and the Alps, and entered Italy to join Hannibal. His despatches to his brother were captured, and in 207 the consuls Livius and Nero destroyed his army on the Metaurus, where he fell.",
+    "approach": "Held Spain for Carthage with the forces and colleagues sent to him; Polybius says he bore repeated defeat, and the failings of the commanders Carthage sent to work with him, with spirit and courage worthy of his father. When the younger Scipio took New Carthage and beat him at Baecula, he did not stay to lose his army defending what was left, but took it out of Spain to carry the war to Italy, as his brother had.",
+    "strength": "Endurance and the escape from Spain: beaten at Baecula, he left with his treasury, his elephants and most of his army, crossed the Pyrenees at their western end and made his way through Gaul and over the Alps into Italy, in the 1911 Britannica’s words, in safety. Livy says Romans at the time feared him as a second Hannibal.",
+    "limitation": "His Spanish allies left him: Polybius says the princes Andobales and Mandonius deserted his camp because he had demanded money and their wives and daughters as hostages, and most of the Iberians followed. In Italy his messengers to Hannibal were caught, so that the Romans knew his plan and his brother did not, and the consul Nero joined his colleague against him in secret.",
+    "legacy": "Polybius praised the way he fought his last battle, careful of his own safety while there was hope and unwilling to survive disgrace when there was none. Nero had his head thrown before Hannibal’s outposts, which the 1911 Britannica’s article on Hannibal calls a brutality that stains the Roman’s name and not Hannibal’s.",
+    "battleSlugs": ["baecula", "metaurus"],
+    "source": {
+      "title": "Hasdrubal (died 207 BCE) — Britannica Editors",
+      "url": "https://www.britannica.com/biography/Hasdrubal-Carthaginian-general-died-207-BCE",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Carthaginian general; commander in Spain after Hannibal’s departure for Italy (218 BCE)",
+      "principalCommands": [
+        "Carthaginian forces in Spain, 218–208 BCE",
+        "The second Carthaginian army in Italy, 207 BCE"
+      ],
+      "timeline": [
+        {
+          "date": "218 BCE",
+          "event": "Left in command of Spain when Hannibal marches for Italy"
+        },
+        {
+          "date": "217 BCE",
+          "event": "His fleet is largely destroyed by a Roman surprise attack off the Ebro"
+        },
+        {
+          "date": "215 BCE",
+          "event": "Defeated by the Scipios at Dertosa"
+        },
+        {
+          "date": "211 BCE",
+          "event": "Defeats the Scipio brothers, both killed (211 or 212 in the sources)"
+        },
+        {
+          "date": "208 BCE",
+          "event": "Beaten by the younger Scipio at Baecula (208 or 209); escapes with most of his army"
+        },
+        {
+          "date": "207 BCE",
+          "event": "Crosses the Alps into Italy; his despatches to Hannibal are captured"
+        },
+        {
+          "date": "207 BCE",
+          "event": "Killed at the Metaurus"
+        }
+      ],
+      "notableDecision": "Beaten by Scipio at Baecula, he broke away with his treasury, his elephants and most of his army and marched for Italy by the western Pyrenees, Gaul and the Alps, to join Hannibal rather than hold what was left of Carthaginian Spain.",
+      "setback": "In 207 BCE his messengers to Hannibal were caught and their despatches read; Nero marched north in secret to join Livius, and Hasdrubal’s army was destroyed on the Metaurus, where he fell."
+    }
+  },
+  {
+    "slug": "masinissa",
+    "name": "Masinissa",
+    "years": "c. 238–148 BCE",
+    "state": "Numidia (Massyli)",
+    "eraId": "ancient",
+    "role": "Numidian prince and cavalry commander, first for Carthage and then for Rome, and king of Numidia",
+    "summary": "Son of a chieftain of the Massyli and brought up in Carthage, he fought for Carthage in Spain from 211 to 206 BCE at the head of Numidian cavalry. After Ilipa he pledged himself to Scipio, who had earlier sent home his captured nephew. Driven from his kingdom by Syphax, he joined Scipio when the Romans invaded Africa in 204, took part in the burning of the camps and the victory at the Great Plains, and commanded the cavalry that decided Zama in 202. Made king of both Numidian peoples, he stayed loyal to Rome for half a century, encroaching on Carthaginian land, and died in 148, early in the war that destroyed Carthage.",
+    "approach": "Commanded light Numidian cavalry, and changed sides when Rome could give him what Carthage could not, his father’s throne. At the burning of the camps, Polybius says, Scipio followed his advice on the ground, and he posted his men at the exits from the flames; at Zama his horsemen broke Hannibal’s Numidians, rode off in pursuit and came back to strike the rear of the Carthaginian line.",
+    "strength": "His cavalry, which Livy says Scipio knew to be the master-spirit of the enemy’s horse, and a loyalty to Rome that Britannica calls unconditional and that lasted more than fifty years.",
+    "limitation": "His change of sides was a bargain for a kingdom, and its price was paid by Carthage after the war: the treaty of 201 forbade Carthage to make war even in self-defence without Rome’s permission, which, Britannica says, let him encroach on Carthaginian territory for as long as he judged that Rome wished Carthage weakened.",
+    "legacy": "Britannica credits his reign with an economic and political development of Numidia, settling many Numidians as farmers, that the Romans later built on. A territorial dispute between him and Carthage brought a Roman commission under the elder Cato about 155 BCE, after which Cato pressed for Carthage’s destruction; Masinissa died early in 148 without breaking with Rome.",
+    "battleSlugs": ["ilipa", "zama"],
+    "source": {
+      "title": "Masinissa — Britannica Editors",
+      "url": "https://www.britannica.com/biography/Masinissa",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Ruler-commander",
+      "titles": "Prince of the Massyli; king of the Massyli and the Massaesyli after the Second Punic War",
+      "principalCommands": [
+        "Numidian cavalry in Carthaginian service in Spain, 211–206 BCE",
+        "Numidian allies of Scipio in Africa, 204–202 BCE"
+      ],
+      "timeline": [
+        {
+          "date": "c. 238 BCE",
+          "event": "Born, son of a chieftain of the Massyli; brought up in Carthage"
+        },
+        {
+          "date": "211–206 BCE",
+          "event": "Fights for Carthage in Spain"
+        },
+        {
+          "date": "208 BCE",
+          "event": "Scipio sends home his nephew Massiva, captured after Baecula (208 or 209)"
+        },
+        {
+          "date": "206 BCE",
+          "event": "After Ilipa, meets Scipio and pledges to serve Rome in Africa"
+        },
+        {
+          "date": "204 BCE",
+          "event": "Driven out by Syphax, joins Scipio’s invasion of Africa"
+        },
+        {
+          "date": "203 BCE",
+          "event": "Takes part in the burning of the camps and the Great Plains; Syphax captured"
+        },
+        {
+          "date": "202 BCE",
+          "event": "Commands the Numidian cavalry at Zama"
+        },
+        {
+          "date": "201 BCE",
+          "event": "King of both Numidian peoples under the peace"
+        },
+        {
+          "date": "c. 155 BCE",
+          "event": "A Roman commission under Cato hears his dispute with Carthage"
+        },
+        {
+          "date": "148 BCE",
+          "event": "Dies early in the Third Punic War, still allied to Rome"
+        }
+      ],
+      "notableDecision": "After Ilipa in 206 BCE he left Carthage’s side and pledged himself to Scipio, promising, in Livy’s account, to serve Rome in Africa as he could not in Spain.",
+      "setback": "After his father’s death Syphax, the pro-Carthaginian king of the Massaesyli, drove him from power, and he held no kingdom until Scipio invaded Africa in 204 BCE."
+    }
+  },
+  {
     "slug": "marcus-licinius-crassus",
     "name": "Marcus Licinius Crassus",
     "years": "c. 115–53 BCE",

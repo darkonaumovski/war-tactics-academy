@@ -831,6 +831,7 @@ export const hannibalScipioVolume: LeadershipVolume = {
           { source: 0, locator: "3.80" },
         ],
       },
+      people: ["quintus-fabius-maximus"],
       counterCase: {
         text: "Marshal Marmont read Wellington at Salamanca in 1812 and was destroyed by the reading. Oman writes that after days of manoeuvre in which the allies had given ground whenever outflanked, Marmont, by his own exculpatory dispatch, was convinced that Wellington would retire again the moment his flank was threatened. He took the shifting of British reserves behind a crest for the start of a retreat and pushed his left forward to catch the rearguard; Jourdan wrote that he extended it much too far. Wellington, Oman says, was still hoping the French would commit themselves to some premature movement, with every man in hand. The Wellington volume’s lesson on the afternoon at Salamanca reads the day from Wellington’s side. Marmont had read a pattern as a character, when the pattern belonged to a situation that Wellington could end whenever the enemy erred.",
         evidence: "interpretation",
@@ -1591,6 +1592,7 @@ export const hannibalScipioVolume: LeadershipVolume = {
           { source: 2, locator: "25" },
         ],
       },
+      people: ["quintus-fabius-maximus", "hasdrubal-barca"],
       counterCase: {
         text: "Pompey held the same plan against Caesar in 48 and could not keep it. Plutarch says he feared a battle against Caesar’s veterans and meant to wear them down by delay and want of supplies; after Dyrrhachium his followers, sure of victory, were already canvassing for offices in Rome, and called him Agamemnon and King of Kings, accusing him of prolonging the war to keep his command. Plutarch says that with these speeches they forced him from his settled purpose, a man who was a slave to fame and loath to disappoint his friends, and he fought at Pharsalus. The Caesar volume’s lesson on a rival who knew him reads the battle; the Wellington volume’s on the only army reads Barclay de Tolly’s retreat, which was abandoned for the same reason. Fabius bore the contempt; Pompey could not.",
         evidence: "interpretation",
@@ -2096,6 +2098,7 @@ export const hannibalScipioVolume: LeadershipVolume = {
         ],
         battleSlugs: ["baecula", "metaurus"],
       },
+      people: ["hasdrubal-barca", "masinissa"],
       counterCase: {
         text: "Hasdrubal, son of Gisco, shows the same habit failing on the other side. At Ilipa he had watched Scipio for days and learned what Livy says both camps took for granted: that the armies would fight in the order they had been standing in, Romans against Carthaginians in the centre. He had learned the routine, and the routine was the trap. When Scipio attacked early and in reverse, Hasdrubal, surprised, formed his army in its usual order without time to feed it, and his best troops stood idle while his wings were broken. Learning the enemy’s pattern is useful only while the enemy is not using it to teach you.",
         evidence: "interpretation",
@@ -2353,6 +2356,7 @@ export const hannibalScipioVolume: LeadershipVolume = {
         evidence: "fact",
         refs: [{ source: 6, locator: "14.1–5" }],
       },
+      people: ["masinissa"],
       counterCase: {
         text: "Caesar shows generosity to enemies failing at its source. Suetonius says he spared Pompeians who asked, let those not yet pardoned come home and hold office, and answered plots with warnings; Plutarch says he gave honours and offices to men who had fought him, Brutus and Cassius among them, both made praetors, and refused a bodyguard. Suetonius names Cassius and the two Bruti at the head of the conspiracy that killed him, and records that two Pompeians he had pardoned took up arms again. The Caesar volume’s lesson on clemency reads that policy whole. The comparison is with Indibilis: generosity that depends on one man’s person holds only while that person is present and feared, and both commanders were tested by men they had spared.",
         evidence: "interpretation",
@@ -2609,6 +2613,7 @@ export const hannibalScipioVolume: LeadershipVolume = {
         evidence: "fact",
         refs: [{ source: 2, locator: "29.8–9, 29.19, 29.21" }],
       },
+      people: ["quintus-fabius-maximus"],
       counterCase: {
         text: "Caesar faced the same fork in 49 and took the other road. Suetonius says he asked the senate to let him keep the privilege the people had granted or make the others give up their armies, offered a compromise, and when the senate would not intervene and the tribunes who vetoed for him fled the city, crossed the Rubicon with his army. Pompey said he wanted turmoil because he could not pay for his promises; Cato swore to prosecute him the moment he disbanded. The Caesar volume’s lesson on the Rubicon follows where that road led. Scipio, threatened only by a vote, could afford to step back and win by results; Caesar, threatened by prosecution, believed he could not. Their states differed less than their stakes.",
         evidence: "interpretation",
@@ -2849,6 +2854,7 @@ export const hannibalScipioVolume: LeadershipVolume = {
         refs: [{ source: 0, locator: "15.1–4" }],
         battleSlugs: ["zama"],
       },
+      people: ["masinissa"],
       counterCase: {
         text: "Darius III shows the prepared answer failing. After Issus, Arrian says, some persuaded the king that he had been beaten because the field was too narrow, so at Gaugamela he chose open country and had all uneven ground levelled for his chariots and cavalry. Alexander led his army to the right until he was almost off the levelled ground, forcing Darius to send cavalry round to stop him. When the scythed chariots charged, the light troops in front shot down some and seized the reins of others, and where the rest came on, Arrian writes, the men opened their ranks as they had been told, let the chariots through and had them killed behind the line. Darius had prepared for the battle he had lost; Alexander, like Scipio at Zama, had prepared for the weapon he knew was coming. The Alexander volume’s lessons read what followed.",
         evidence: "interpretation",

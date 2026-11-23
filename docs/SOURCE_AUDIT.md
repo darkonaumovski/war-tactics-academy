@@ -2097,3 +2097,24 @@ What the batch changed in the evidence pass:
 - Source check: a draft of lesson 9's shadow said Black prisoners at Andersonville were treated as runaway slaves, which the page read states only of Confederate policy in general; it now says so. A draft called the Wirz Monument a monument to the prison's commandant, which nothing read states; it now names the monument only. Two episodes of lesson 9 linked campaigns they do not discuss, and the links were removed. Lesson 8's counter-case no longer says why Lee surrendered. Lesson 10 now says commissions stayed "almost entirely" with white men, as Fleche writes.
 
 Choices: no casualty or army figures; the numbers of prisoners at Andersonville, of Black soldiers in the Union army and of Medals of Honor are given in words ("tens of thousands", "a substantial share", "most of"), and Bahā' al-Dīn's count of the Acre prisoners is left out. Every page was read at the address cited; no scripted link check was run.
+
+## Leadership Lessons from Grant and Lee, batch G5: Appomattox and the ledger (23 November 2026)
+
+Lessons 11 and 12, `appomattox` and `the-ledger`, which complete Volume 8. Counter-cases: Caesar's clemency in the civil war (lesson 11) and Hannibal, the better tactician who lost his war (lesson 12). `inProgress` is removed; the volume has all thirteen lessons planned in the prompt, none merged or dropped.
+
+Sources read, as text or in the built-in browser:
+
+- Grant, _Personal Memoirs_, on Wikisource: chapter LXVII in full (the meeting at McLean's house, the written terms, the horses extended to the men, Lee's acceptance, the rations, the stopped salute of a hundred guns, the conversation between the lines on 10 April, the sword story as "the purest romance" and his judgement of the cause); chapters XXIV, XXV, XLVII and LV re-read for the ledger.
+- Joshua L. Chamberlain, _The Passing of the Armies_ (New York: Putnam, 1915), Internet Archive scan `cu31924026471569`: pp. 260–261, the salute at the surrender of arms.
+- Suetonius, _Julius_ 75, 76.1 and 80.4 (J. C. Rolfe, Loeb, on LacusCurtius): Caesar's clemency, the view that he abused his power and was justly slain, and the conspiracy.
+- The 1911 Britannica on Wikisource: "Hannibal (general)" (his failure to win the Italians, the lack of siege engines, his lieutenants, the absence of reinforcement); "Grant, Ulysses Simpson" and "Petersburg" re-read.
+- Encyclopedia Virginia: Pryor, "Robert E. Lee"; Piston, "James Longstreet"; Martinez, "Black Confederates"; Greene, "Petersburg Campaign"; the letter from Lee to Barksdale, all re-read.
+- Lee's report of the Gettysburg campaign and his letter to Davis of 8 July 1863; the Mississippi declaration; the Park Service's "An Unpleasant Legacy", "Cave life" and the Andersonville page on the exchange, all re-read.
+
+Sayings and stories: the sword story is given as Grant's correction of it, with the written terms that make it unnecessary; Chamberlain's salute is given as his recollection of 1915, with the note that Grant does not mention it; Lee's words between the lines on 10 April and his words on the terms are given as Grant reports them; Lee's postwar verdict on his army is given as Pryor reports it. No banned saying appears.
+
+The volume's answer, as lesson 12 gives it for the reader to contest: the Union's resources first, as the precondition; Grant's use of them second, the coordination of 1864 and a persistence that was strategy when it served a plan and not at Cold Harbor; Lee's own choices third; and the record over all, because the Lost Cause put the first answer forward to hide the third. The premise that persistence was a strategy is judged to hold only in part.
+
+Source check: a draft of lesson 11 named McLean as "Wilmer McLean", said the surrender of arms came "three days later" and that Chamberlain "commanded the Union troops there", none of which the pages read state; those were removed. A draft said the terms were silent on Black soldiers "whose treatment as prisoners Lee had refused" without citing the exchange pages in that lesson; it now says only that they said nothing of the Black soldiers in Grant's armies. A draft seminar placed Black soldiers of the Army of the James at Appomattox, which nothing read states. A draft of lesson 12 said Lee "won more of his battles than any other general of his side", which no source read states; it now cites Pryor on Chancellorsville. The ledger's shadow now cites Grant's chapter XLVII for Fort Pillow.
+
+Choices: no casualty or army figures; Lee's request for rations is given without his number. Every page was read at the address cited; no scripted link check was run.

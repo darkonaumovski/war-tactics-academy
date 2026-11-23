@@ -333,8 +333,8 @@ describe("the Grant and Lee volume", () => {
     expect(volumeForCommander("robert-e-lee")).toBe(grantLeeVolume);
   });
 
-  it("lists its pilot lessons in curriculum order", () => {
-    expect(grantLeeVolume.inProgress).toBeTruthy();
+  it("lists all its lessons in curriculum order", () => {
+    expect(grantLeeVolume.inProgress).toBeUndefined();
     expect(grantLeeVolume.lessons.map((l) => l.slug)).toEqual([
       "how-to-read-grant-and-lee",
       "unconditional-surrender",
@@ -347,6 +347,8 @@ describe("the Grant and Lee volume", () => {
       "the-army-that-could-not-be-replaced",
       "the-exchange-that-stopped",
       "whose-war",
+      "appomattox",
+      "the-ledger",
     ]);
   });
 });
@@ -435,6 +437,8 @@ describe("links from the rest of the site", () => {
       "reading-the-consul",
       "the-allies-who-stayed",
       "the-delayer",
+      "the-ledger",
+      // The Grant and Lee volume's ledger uses Hannibal as its counter-case.
       "the-ledger",
     ]);
     expect(

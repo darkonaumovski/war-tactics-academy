@@ -663,9 +663,7 @@ test("the Hannibal and Scipio volume lists all its lessons", async ({
     /\/leadership\/hannibal-barca\/the-meeting-at-zama\/$/,
   );
 });
-test("the Grant and Lee volume lists its published lessons", async ({
-  page,
-}) => {
+test("the Grant and Lee volume lists all its lessons", async ({ page }) => {
   await page.goto("/leadership/ulysses-s-grant");
   await expect(
     page.getByText(
@@ -675,8 +673,8 @@ test("the Grant and Lee volume lists its published lessons", async ({
   ).toBeVisible();
   await expect(
     page.getByRole("heading", { name: "A volume in progress" }),
-  ).toBeVisible();
-  await expect(page.getByRole("table").getByRole("row")).toHaveCount(12);
+  ).toHaveCount(0);
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(14);
   await page.goto("/commanders/robert-e-lee");
   await expect(
     page.getByRole("link", { name: /Leadership Lessons from Grant and Lee/ }),

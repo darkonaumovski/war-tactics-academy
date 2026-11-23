@@ -3,7 +3,8 @@ import type { LeadershipVolume, Source } from "../../lib/types";
 // the pilot, is lessons 0, the record, 5, Lee's third day, and 7, Grant's
 // persistence; batch G2 is lessons 1 to 3, Grant in the West; batch G3 is
 // lessons 4 and 6, the divided army and the general-in-chief; batch
-// G4 is lessons 8 to 10, Petersburg, the exchange and emancipation); docs/LEADERSHIP_EVIDENCE_GRANT_LEE.md records which sources
+// G4 is lessons 8 to 10, Petersburg, the exchange and emancipation; batch G5
+// is lessons 11 and 12, Appomattox and the ledger, which complete the volume); docs/LEADERSHIP_EVIDENCE_GRANT_LEE.md records which sources
 // can carry each lesson, and docs/SOURCE_AUDIT.md how each was read. Grant's
 // memoirs are cited by chapter on Wikisource; scanned books by page.
 const grant = (chapter: string, subject: string): Source => ({
@@ -165,6 +166,13 @@ const s = {
     url: "https://archive.org/details/lifesaladin00condgoog",
     publisher: "Internet Archive",
   },
+  chamberlain: {
+    title:
+      "Joshua L. Chamberlain, The Passing of the Armies (New York: Putnam, 1915)",
+    url: "https://archive.org/details/cu31924026471569",
+    publisher: "Internet Archive (Cornell University Library)",
+  },
+  ebHannibal: eb1911("Hannibal_(general)", "Hannibal (general)"),
   grant25: grant("XXV", "General Johnston—Remarks on Shiloh"),
   grant50: grant("L", "Entering the Wilderness—Battle of the Wilderness"),
   grant51: grant("LI", "Movement by the Left Flank"),
@@ -2903,7 +2911,492 @@ export const grantLeeVolume: LeadershipVolume = {
         s.exchangeHalted,
       ],
     },
+    {
+      slug: "appomattox",
+      title: "Appomattox: terms the defeated could accept",
+      part: "The end and after",
+      themes: ["restraint", "ethics", "communication"],
+      claim:
+        "When a victor offers generous terms, he can end a war faster and make the peace easier to keep, but only on conditions the defeated cannot later turn against the victory, and generosity to a beaten army settles nothing about what the war was fought over.",
+      inBrief: {
+        strength:
+          "Grant let Lee’s men go home on parole with their horses, fed them, and stopped his own army’s celebration.",
+        shadow:
+          "The generosity of the surrender became, in later telling, part of a story of honourable defeat that left out the cause.",
+      },
+      moment: {
+        text: "On the afternoon of 9 April 1865, in McLean’s house at Appomattox Court House, Grant met Lee. Grant writes that he had no sword, as he usually had none on horseback in the field, and wore a soldier’s blouse with his shoulder straps; Lee wore a new full uniform and a sword of considerable value. Grant had been jubilant on receiving Lee’s letter; now, he writes, his feelings were sad and depressed. He felt like anything rather than rejoicing at the downfall of a foe who had fought so long and valiantly and suffered so much for a cause, though that cause was, he believed, one of the worst for which a people ever fought, and one for which there was the least excuse.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "ch. LXVII" }],
+      },
+      episodes: [
+        {
+          title: "The terms",
+          text: "Grant writes the terms as a letter: rolls of all officers and men; officers to give their individual paroles not to take up arms against the United States until properly exchanged; arms and public property to be handed over, but not the officers’ side arms, horses or baggage; and each man allowed to return home, not to be disturbed by United States authority so long as he observed his parole and the laws where he lived. Lee, Grant writes, remarked with some feeling that the provision for the officers would have a happy effect on his army, and then asked whether the cavalrymen and artillerists, who owned their own horses, might keep them. Grant answered that as written the terms would not allow it, but that the country had been so raided by both armies that the men might not otherwise put in a crop, and he would instruct his officers to let every man who claimed a horse or mule take it home. Lee wrote a letter accepting the terms.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "ch. LXVII" }],
+          battleSlugs: ["petersburg"],
+          campaignSlugs: ["petersburg-campaign"],
+        },
+        {
+          title: "Rations, and the salute stopped",
+          text: "Before leaving, Lee said his men had lived for some days on parched corn alone and asked for rations; Grant told him to send his commissary to Appomattox Station for all the provisions he wanted from the captured trains. When news of the surrender reached the Union lines, Grant writes, the troops began firing a salute of a hundred guns; he had it stopped, because the Confederates were now prisoners and he did not want to exult over their downfall. The next morning the two men talked between the lines. Lee said that the South was a big country and that the Union army might have to march over it three or four times; Grant suggested that Lee advise the surrender of all the Confederate armies, and Lee answered that he could not do so without consulting the president.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "ch. LXVII" }],
+          battleSlugs: [],
+          campaignSlugs: ["petersburg-campaign"],
+        },
+        {
+          title: "The salute at the surrender of arms",
+          text: "The Confederate infantry then marched in to lay down their arms. Joshua Chamberlain, a Union general whose men were drawn up in line to receive them, wrote in a book published in 1915, fifty years later and after his death, that as each Confederate division came opposite his line his men shifted from order arms to carry, the marching salute; that John B. Gordon, at the head of the column, wheeled his horse, dropped the point of his sword in answer and had his brigades return the salute; and that there was no cheer or word of vain-glory on the Union side. Chamberlain asked whether such manhood was not to be welcomed back into a Union so tested. His is a recollection, given with its witness and its date, and Grant’s memoirs do not mention it.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "pp. 260–261" },
+            { source: 0, locator: "ch. LXVII" },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["petersburg-campaign"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Ulysses S. Grant",
+          stake:
+            "The victor, writing twenty years later, who also corrects the stories that had grown up about the surrender.",
+          says: "He wrote the terms himself, added the horses for the men, stopped the salute, and calls the story of Lee’s sword the purest romance.",
+          refs: [{ source: 0, locator: "ch. LXVII" }],
+        },
+        {
+          who: "Robert E. Lee, as Grant reports him",
+          stake: "The defeated commander, asking what he could for his men.",
+          says: "The terms would have a happy effect on his army; his men needed food; he could not advise the other armies to surrender without the president.",
+          refs: [{ source: 0, locator: "ch. LXVII" }],
+        },
+        {
+          who: "Joshua L. Chamberlain",
+          stake:
+            "A Union general at the surrender of arms, writing half a century later in a spirit of reconciliation between white veterans.",
+          says: "Honour answered honour as the two armies saluted.",
+          refs: [{ source: 1, locator: "pp. 260–261" }],
+        },
+        {
+          who: "A. Wilson Greene",
+          stake: "A modern historian of the Petersburg campaign.",
+          says: "Appomattox hastened the surrender of the other Confederate forces.",
+          refs: [{ source: 2 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "The terms were designed to end the fighting, not to punish. They sent the men home under parole with the means to farm, which Grant justified by the raiding the country had suffered; they protected the men from arrest so long as they kept their paroles; and they fed an army that had been living on parched corn. Lee’s fear, that the Union might have to march over the South three or four times, did not come true: Greene writes that Appomattox hastened the surrender of the other Confederate forces and so made the Petersburg campaign the proximate cause of the end of the war.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "ch. LXVII" }, { source: 2 }],
+        },
+        {
+          text: "The terms were also limited by what Grant could settle. They were written for an army, by its opponent; they said nothing of the cause that Grant, in the same chapter, called one of the worst a people ever fought for, nothing of the enslaved, and nothing of the Black soldiers in Grant’s own armies. Lee himself declined to advise the other armies to surrender without his president. A general can make a surrender; he cannot make the peace that follows it. Caesar’s volume and the Western Front volume’s lesson on ending a war both ask the same question about the limits of what a commander can settle.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "ch. LXVII" }, { source: 3 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Research on reconciliation after conflict could bear on Appomattox, but none was read for this volume, and the documents show the gestures directly: the horses, the rations, the stopped salute. The lesson rests on them and on what was later made of them.",
+          evidence: "interpretation",
+          refs: [],
+          limit: "No mechanism is offered and no study is cited.",
+        },
+      ],
+      shadow: {
+        text: "The generosity of the surrender was turned to other uses. Chamberlain’s account of honour answering honour, published half a century later, welcomes the defeated soldiers back without a word about why they had fought. Piston writes that after Lee’s death the Lost Cause made him the Confederacy’s stainless hero, beaten by numbers and never outgeneralled, and Martinez that it invented the loyal Black Confederate. The surrender’s courtesy became evidence for a story in which the war was a contest of honourable men, and the cause that Grant named at Appomattox dropped out of it.",
+        evidence: "interpretation",
+        refs: [
+          { source: 1, locator: "pp. 260–261" },
+          { source: 4 },
+          { source: 5 },
+        ],
+      },
+      counterCase: {
+        text: "Caesar’s clemency in the civil war, the subject of a lesson in his volume, shows generosity that did not secure the peace. Suetonius writes that Caesar showed admirable self-restraint and mercy in the war and in victory, that he spared Pompeians, allowed all those he had not yet pardoned to return to Italy and hold magistracies and commands, and preferred to quash plots against him rather than punish them. More than sixty men, led by Gaius Cassius and Marcus and Decimus Brutus, then conspired to kill him, and Suetonius records the view that he had abused his power and was justly slain. Clemency to defeated enemies did not settle what the war had been about, and it left them free to fight again by other means.",
+        evidence: "interpretation",
+        refs: [{ source: 6, locator: "75, 76.1, 80.4" }],
+        commanderSlug: "julius-caesar",
+        battleSlugs: ["pharsalus"],
+      },
+      cost: {
+        text: "By the end the Army of Northern Virginia was starving. Lee told Grant that his men had lived for some days on parched corn alone and had no forage for their animals, and Grant writes that his own army had depended on the country for forage as well. Pryor writes that the defeat at Sailor’s Creek three days before had left the Confederates desperately short of men and supplies.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "ch. LXVII" }, { source: 3 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "The terms let the defeated return to ordinary life, so that ending the contest is better for them than continuing it.",
+          "The victor forbids celebration over the defeated, so that the end does not become a new grievance.",
+        ],
+        failsWhen: [
+          "The terms are taken for a settlement of the dispute itself, which they do not address.",
+          "The courtesy of the ending is later used to rewrite why the contest was fought.",
+        ],
+        questions: [
+          "When you last ended a conflict, what did you give the other side that made ending better than continuing?",
+          "What did your terms leave unsettled, and who will settle it?",
+          "How might the courtesy you show now be retold, and by whom?",
+        ],
+      },
+      bearsOn:
+        "Appomattox adds to the record answer more than to the others. The surrender was ended by Grant’s terms and Lee’s acceptance, and it hastened the end of the war; but the way it was remembered, as honour answering honour, became one of the foundations of the story that made Lee’s defeat a matter of numbers rather than of choices or of cause.",
+      questions: [
+        {
+          prompt:
+            "What did Grant allow Confederate soldiers who owned horses to do?",
+          choices: [
+            "Nothing; all horses were confiscated.",
+            "Take their horses or mules home, so that they could put in a crop.",
+            "Sell their horses to the Union army.",
+          ],
+          answer: 1,
+          explanation:
+            "The written terms covered only the officers; Grant extended the privilege to the men after Lee asked.",
+        },
+        {
+          prompt: "Why did Grant stop the salute of a hundred guns?",
+          choices: [
+            "Because the Confederates were now prisoners and he did not want to exult over their downfall.",
+            "Because ammunition was short.",
+            "Because Lee asked him to.",
+          ],
+          answer: 0,
+          explanation: "He writes so in chapter LXVII.",
+        },
+        {
+          prompt:
+            "How should Chamberlain’s account of the salute at the surrender of arms be read?",
+          choices: [
+            "As an official report written that day.",
+            "As Grant’s account.",
+            "As a recollection published in 1915, fifty years later, by a witness writing in a spirit of reconciliation.",
+          ],
+          answer: 2,
+          explanation:
+            "It is evidence of what Chamberlain remembered and wished to say; Grant does not mention the salute.",
+        },
+      ],
+      sourceCheck: {
+        question: "Did Lee surrender his sword to Grant?",
+        witnesses: [
+          {
+            label: "Popular story",
+            claim: "Lee offered his sword and Grant returned it.",
+          },
+          {
+            label: "Grant, ch. LXVII",
+            claim:
+              "The story is the purest romance; the word sword was not mentioned until he wrote it into the terms.",
+          },
+          {
+            label: "Grant, ch. LXVII",
+            claim: "The terms exempted the officers’ side arms from surrender.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Keep the story, because it is widely told.",
+            feedback:
+              "Repetition is not evidence; the only participant who wrote about it says it did not happen.",
+          },
+          {
+            text: "Follow Grant: the terms let officers keep their side arms, so no sword was offered or returned.",
+            feedback:
+              "Grant was there, and the written terms support his account.",
+            best: true,
+          },
+          {
+            text: "Conclude that both versions are equally likely.",
+            feedback:
+              "The terms themselves, which Lee accepted in writing, make the story unnecessary.",
+          },
+        ],
+        campaignSlug: "petersburg-campaign",
+      },
+      seminar: {
+        prompt:
+          "On 9 April 1865 Grant could demand harsh terms, offer the terms he did, or try to settle more than the surrender of an army. Argue the choice from three positions: Grant at McLean’s house, a Confederate private with a horse and a farm, and a Black soldier of the United States Colored Troops.",
+        guidance:
+          "Use Grant’s chapter LXVII, Chamberlain’s recollection, Greene and Pryor. Say what the terms settled and what they left to others.",
+      },
+      sources: [
+        s.grant67,
+        s.chamberlain,
+        s.greene,
+        s.pryor,
+        s.longstreet,
+        s.blackConfederates,
+        s.suetonius,
+      ],
+    },
+    {
+      slug: "the-ledger",
+      title: "The ledger: why Grant won, and who paid",
+      part: "The end and after",
+      themes: ["judgement", "ethics"],
+      claim:
+        "When a commander’s side wins a war of attrition, the victory can be credited to his persistence only where his choices, and not his side’s resources alone, turned those resources into victory, and any verdict must count who paid and who told the story.",
+      inBrief: {
+        strength:
+          "The volume can answer its question: the Union’s resources made victory possible, and Grant’s persistence and coordination made it happen.",
+        shadow:
+          "The answer depends on a record shaped for a century by the losers, and the cost fell on people the commanders’ records barely name.",
+      },
+      moment: {
+        text: "Each commander left a verdict on his own war. Grant, at Appomattox, felt like anything rather than rejoicing at the downfall of a foe who had fought so long and valiantly, and judged the cause one of the worst for which a people ever fought. Lee, Pryor writes, told a confidant after the war that he had fought the enemy at every step and believed he had got out of his army all that any men could do. Neither verdict answers the question this volume has asked from its first lesson: why did Grant win?",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "ch. LXVII" }, { source: 1 }],
+      },
+      episodes: [
+        {
+          title: "Persistence",
+          text: "The volume’s evidence for persistence is strong but conditional. At Shiloh Grant ordered an attack for the morning of the second day before his reinforcements had reached the field; after the Wilderness he marched south instead of back, and the 1911 Britannica writes that he would have followed other unsuccessful generals into retirement had he not shown iron determination. But at Cold Harbor he attacked works that could not be carried, and he wrote that he always regretted it. Persistence served as strategy when each move put Lee in a worse position, and failed when it became the repetition of an attack.",
+          evidence: "interpretation",
+          refs: [
+            { source: 2, locator: "ch. XXIV" },
+            { source: 3 },
+            { source: 4, locator: "ch. LV" },
+          ],
+          battleSlugs: ["shiloh", "wilderness"],
+        },
+        {
+          title: "The Union’s resources",
+          text: "The Union had more men, railroads, a navy and the means to supply its armies, and Lee knew it: in July 1863 he wrote to Davis that the enemy could easily be reinforced while no addition could be made to his own numbers, and in February 1865 that the white population of the South could not supply a long war. But resources had not won the war in the East before 1864. Grant writes that until then the Union armies had acted separately, letting the Confederacy shift troops between them; what changed in 1864 was their use together, and Greene describes the military railroad that carried warm bread to the trenches at Petersburg.",
+          evidence: "interpretation",
+          refs: [
+            { source: 5 },
+            { source: 6 },
+            { source: 7, locator: "ch. XLVII" },
+            { source: 8 },
+          ],
+          battleSlugs: ["petersburg", "atlanta-campaign"],
+        },
+        {
+          title: "Lee’s own choices",
+          text: "Lee beat larger armies: at Chancellorsville, Pryor writes, he turned a vulnerable position into a brilliant offensive against a force double his size. But she also writes that he risked his scarce resources in large and costly battles in the hope of destroying the enemy’s army or breaking the North’s will, and that historians have asked whether a war of attrition would have served the Confederacy better. The victory at Chancellorsville encouraged the invasion that ended on the third day at Gettysburg, an offensive spent from an army that could not be replaced; at Petersburg he defended a capital from lines that fixed his army in place.",
+          evidence: "interpretation",
+          refs: [{ source: 1 }, { source: 9 }],
+          battleSlugs: ["chancellorsville", "gettysburg"],
+        },
+        {
+          title: "The record",
+          text: "For a century the losers wrote most of what readers met. Piston writes that Early and his allies blamed Longstreet for Gettysburg, and that Lee emerged as the Confederacy’s stainless hero, defeated by superior numbers but never outgeneralled. That story made the Union’s resources the only acceptable explanation, because it kept Lee’s choices out of view. Martinez describes the invented loyal Black Confederate; the Park Service at Andersonville, Grant’s sentence on prisoners carved on a monument without its context. The record does not decide which answer is true, but it decided for a long time which answers could be seen.",
+          evidence: "interpretation",
+          refs: [{ source: 10 }, { source: 11 }, { source: 12 }],
+          battleSlugs: ["gettysburg"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Ulysses S. Grant",
+          stake:
+            "The victor, writing his memoirs while dying, to answer his critics and provide for his family.",
+          says: "The armies had to act together, persistence had a price he sometimes regretted, and the cause he defeated was among the worst ever fought for.",
+          refs: [
+            { source: 7, locator: "ch. XLVII" },
+            { source: 4, locator: "ch. LV" },
+            { source: 0, locator: "ch. LXVII" },
+          ],
+        },
+        {
+          who: "Robert E. Lee, in his letters",
+          stake:
+            "The defeated commander, who wrote no memoir; his letters were written for his government during the war.",
+          says: "The enemy could be reinforced and his own army could not; the South could not supply a long war.",
+          refs: [{ source: 5 }, { source: 6 }],
+        },
+        {
+          who: "Elizabeth Brown Pryor",
+          stake:
+            "A modern biographer of Lee, writing for Encyclopedia Virginia.",
+          says: "Lee’s leadership frustrated Grant for a long time, but his costly offensives may not have been the right strategy.",
+          refs: [{ source: 1 }],
+        },
+        {
+          who: "William Garrett Piston",
+          stake: "A modern historian of Longstreet and of the Lost Cause.",
+          says: "The Lost Cause transferred Lee’s defeat to Longstreet and made Lee a hero beaten only by numbers.",
+          refs: [{ source: 10 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "The volume’s answer, offered for the reader to contest, ranks the four. First, the Union’s resources, which made victory possible and were the precondition of every Union success. Second, Grant’s use of them: the coordination of 1864 and a persistence that, at its best, was a strategy of keeping Lee’s army fighting until it could be besieged, and at its worst was a repeated assault. Third, Lee’s own choices, which won battles and spent an army that could not be replaced. Over all of them, the record: the Lost Cause put the first answer forward to hide the third, and Grant’s memoirs put the second forward in his own words.",
+          evidence: "interpretation",
+          refs: [
+            { source: 7, locator: "ch. XLVII" },
+            { source: 1 },
+            { source: 10 },
+          ],
+        },
+        {
+          text: "The premise that persistence was a strategy holds only in part. Grant’s own descriptions of his reasons, to get between Lee and Richmond, to keep Lee from reinforcing elsewhere, to cut the railroads, are strategic, and they are partly confirmed by what happened. But they were written twenty years later by the man whose reputation depended on them, and Cold Harbor shows him continuing an attack past its purpose. A reader who argues the opposite, that the North would have won under any competent general once it learned to use its strength together, has the Union’s numbers on their side, and must explain why it had not happened before Grant came east.",
+          evidence: "interpretation",
+          refs: [
+            { source: 4, locator: "ch. LV" },
+            { source: 7, locator: "ch. XLVII" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "The volume’s one psychological reading, on the sunk-cost effect in lesson 7, is a caution about persistence, not an explanation of victory. No research could weigh the four answers against each other; the ledger rests on the evidence of the lessons.",
+          evidence: "interpretation",
+          refs: [],
+          limit: "No mechanism is offered and no study is cited.",
+        },
+      ],
+      shadow: {
+        text: "The ledger has entries the commanders barely wrote. The Confederacy fought to keep people enslaved, as its own declarations say; Wesley Norris, whipped at Arlington in 1859, is one of the few of them whose words reached the commanders’ record. Black soldiers were refused exchange and killed after surrendering at Fort Pillow. Prisoners on both sides waited in camps that the breakdown of exchange filled. The people of Vicksburg lived in caves and those of Petersburg under shellfire. Grant writes that after Shiloh his armies consumed everything that could supply the enemy’s armies, and the 1911 Britannica that Sheridan destroyed railways across Virginia and made the James Canal useless. The soldiers of both armies paid most of all, and this volume gives no totals for them.",
+        evidence: "fact",
+        refs: [
+          { source: 13 },
+          { source: 14 },
+          { source: 12 },
+          { source: 7, locator: "ch. XLVII" },
+          { source: 15 },
+          { source: 8 },
+          { source: 16, locator: "ch. XXV" },
+          { source: 17, locator: "Petersburg Campaign" },
+        ],
+      },
+      counterCase: {
+        text: "Hannibal, whose volume ends with its own ledger, won the great battles of his war and lost it. The 1911 Britannica writes that he failed at first to win a following among the Italians, that without siege engines he could not take Rome, that his lieutenants were generally unable to hold their own when detached, and that neither his government nor his ally made good his losses, so that his chance of conquering Rome grew ever more remote. Like Lee, he was the better tactician on the side that could not replace its army; unlike Lee, his record was written by his enemies’ friends, not rewritten by his own side.",
+        evidence: "interpretation",
+        refs: [{ source: 18 }],
+        commanderSlug: "hannibal-barca",
+        battleSlugs: ["cannae", "zama"],
+      },
+      transfer: {
+        holdsWhen: [
+          "A contest was won by the side with more resources, and the question is what its leaders added.",
+          "The accounts of the contest can be traced to their authors, so that each answer can be tested against who told it.",
+        ],
+        failsWhen: [
+          "Success is credited to a leader’s persistence without asking whether the persistence served a plan.",
+          "The cost is left out because the people who paid it left few records.",
+        ],
+        questions: [
+          "When your organisation last won, how much was its resources and how much its leaders?",
+          "Which story of that victory do you tell, and who first told it?",
+          "Who paid for it, and are they in the account?",
+        ],
+      },
+      bearsOn:
+        "This lesson answers the volume’s question. Grant won because the Union’s resources were finally used together, under a commander who kept pressing when earlier commanders had stopped; Lee’s own offensives spent an army the Confederacy could not replace; and the record, rewritten for a century by the losers, decided which of these answers most readers were allowed to see. The reader is invited to argue the opposite.",
+      questions: [
+        {
+          prompt:
+            "What did Lee write to Davis in July 1863 that bears on the second answer, the Union’s resources?",
+          choices: [
+            "That the Union army was exhausted.",
+            "That the enemy could easily be reinforced while no addition could be made to his own numbers.",
+            "That the war would soon end.",
+          ],
+          answer: 1,
+          explanation:
+            "He made the same point in February 1865 about the white population of the South.",
+        },
+        {
+          prompt:
+            "Why does the volume rank the record over the other three answers?",
+          choices: [
+            "Because the record proves that Lee was the better general.",
+            "Because the record is always false.",
+            "Because for a century the Lost Cause decided which answers readers saw, putting the Union’s numbers forward to hide Lee’s choices.",
+          ],
+          answer: 2,
+          explanation:
+            "The record does not settle the question; it shaped which evidence the other answers could use.",
+        },
+        {
+          prompt:
+            "What must a reader who argues that any competent Union general would have won explain?",
+          choices: [
+            "Why the Union’s resources had not won the war in the East before 1864, when Grant made the armies act together.",
+            "Why Grant wrote memoirs.",
+            "Why the Confederacy seceded.",
+          ],
+          answer: 0,
+          explanation:
+            "Grant writes that before 1864 the armies acted separately, letting the Confederacy shift troops between them.",
+        },
+      ],
+      sourceCheck: {
+        question: "Why did Grant win?",
+        witnesses: [
+          {
+            label: "1911 Britannica, Grant",
+            claim:
+              "He showed the iron determination that Lincoln and the North wanted, whatever his mistakes.",
+          },
+          {
+            label: "Lee to Davis, July 1863",
+            claim:
+              "The enemy could easily be reinforced; no addition could be made to Lee’s numbers.",
+          },
+          {
+            label: "Piston, on the Lost Cause",
+            claim:
+              "Lee emerged as a hero defeated by superior numbers but never outgeneralled.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Accept the Lost Cause answer: numbers alone beat Lee.",
+            feedback:
+              "Numbers mattered, but the story was built to keep Lee’s own choices out of view, and the Union’s numbers had not won in the East before 1864.",
+          },
+          {
+            text: "Accept the Britannica’s answer: Grant’s determination alone won.",
+            feedback:
+              "Determination without resources would not have survived Cold Harbor; the Britannica itself concedes his mistakes.",
+          },
+          {
+            text: "Weigh all three: resources made victory possible, Grant’s use of them made it happen, and the Lost Cause shaped how the answer was told.",
+            feedback:
+              "The volume’s answer, offered for argument; each witness supplies part of it.",
+            best: true,
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Answer the volume’s question for yourself: why did Grant win? Argue from three positions: a Union veteran in 1885 reading Grant’s memoirs, a former Confederate officer in 1872 hearing Early’s speech, and a historian today with the declarations of secession and Wesley Norris’s testimony in front of them.",
+        guidance:
+          "Use the lessons of the volume. Rank the four answers, say what evidence each position would choose, and say who paid for the victory you describe.",
+      },
+      sources: [
+        s.grant67,
+        s.pryor,
+        s.grant24,
+        s.ebGrant,
+        s.grant55,
+        s.leeToDavis,
+        s.leeBarksdale,
+        s.grant47,
+        s.greene,
+        s.leeReport,
+        s.longstreet,
+        s.blackConfederates,
+        s.exchangeMyth,
+        s.mississippi,
+        s.unpleasantLegacy,
+        s.caveLife,
+        s.grant25,
+        s.ebPetersburg,
+        s.ebHannibal,
+      ],
+    },
   ],
-  inProgress:
-    "This volume is being written. Lessons 0 to 10 are published; the rest are added in reviewed batches.",
 };

@@ -1,7 +1,8 @@
 import type { LeadershipVolume, Source } from "../../lib/types";
 // Volume 8, shared by Grant and Lee, written in reviewed batches (batch G1,
 // the pilot, is lessons 0, the record, 5, Lee's third day, and 7, Grant's
-// persistence; batch G2 is lessons 1 to 3, Grant in the West); docs/LEADERSHIP_EVIDENCE_GRANT_LEE.md records which sources
+// persistence; batch G2 is lessons 1 to 3, Grant in the West; batch G3 is
+// lessons 4 and 6, the divided army and the general-in-chief); docs/LEADERSHIP_EVIDENCE_GRANT_LEE.md records which sources
 // can carry each lesson, and docs/SOURCE_AUDIT.md how each was read. Grant's
 // memoirs are cited by chapter on Wikisource; scanned books by page.
 const grant = (chapter: string, subject: string): Source => ({
@@ -77,6 +78,42 @@ const s = {
     title:
       "Napoleonic Wars: France and northern Europe, 1809–12, and the Russian campaign (Britannica Editors)",
     url: "https://www.britannica.com/event/Napoleonic-Wars/France-and-northern-Europe-1809-12",
+    publisher: "Encyclopædia Britannica",
+  },
+  grant46: grant(
+    "XLVI",
+    "Commissioned Lieutenant-General—Commanding the Armies of the United States",
+  ),
+  grant47: grant("XLVII", "The Military Situation—Plans for the Campaign"),
+  ebHooker: eb1911("Hooker,_Joseph", "Hooker, Joseph"),
+  ebPetersburg: eb1911("Petersburg", "Petersburg"),
+  jackson: virginia(
+    "jackson-thomas-j-stonewall-1824-1863",
+    "Thomas J. “Stonewall” Jackson (1824–1863) (William Garrett Piston)",
+  ),
+  mertzSpotsylvania: virginia(
+    "spotsylvania-court-house-battle-of",
+    "Spotsylvania Court House, Battle of (Greg Mertz)",
+  ),
+  atlantaAbt: {
+    title: "The Atlanta Campaign",
+    url: "https://www.battlefields.org/learn/articles/atlanta-campaign",
+    publisher: "American Battlefield Trust",
+  },
+  namWaterloo: {
+    title: "Battle of Waterloo",
+    url: "https://www.nam.ac.uk/explore/battle-waterloo",
+    publisher: "National Army Museum",
+  },
+  blucherWaterloo: {
+    title: "Blücher and the Waterloo campaign",
+    url: "https://www.napoleon.org/en/history-of-the-two-empires/close-up/a-close-up-on-blucher-and-the-waterloo-campaign",
+    publisher: "Fondation Napoléon",
+  },
+  britAutumn1813: {
+    title:
+      "Napoleonic Wars: Dispositions for the autumn campaign (of 1813) (Britannica Editors)",
+    url: "https://www.britannica.com/event/Napoleonic-Wars/Dispositions-for-the-autumn-campaign",
     publisher: "Encyclopædia Britannica",
   },
   grant25: grant("XXV", "General Johnston—Remarks on Shiloh"),
@@ -1173,6 +1210,236 @@ export const grantLeeVolume: LeadershipVolume = {
       ],
     },
     {
+      slug: "the-divided-army",
+      title: "The divided army: boldness against a larger enemy",
+      part: "Lee in Virginia",
+      themes: ["judgement", "organisation"],
+      claim:
+        "When a commander faces a larger army, he can win by dividing his own and striking where the enemy does not expect, but only while the enemy commander is slow to read it, and the subordinate who carries out the stroke may be lost with it.",
+      inBrief: {
+        strength:
+          "At Chancellorsville Lee divided an army half the size of Hooker’s, twice, and drove it back across the river.",
+        shadow:
+          "The victory cost him Jackson, and it encouraged the invasion that ended at Gettysburg.",
+      },
+      moment: {
+        text: "In the first days of May 1863 Joseph Hooker had what Lee lacked: the larger army, already across the Rappahannock and the Rapidan on Lee’s flank. The 1911 Britannica’s article on him calls the flanking movement well planned and well executed, and writes that at the decisive moment he checked the advance of his troops. His army cleared and entrenched a position in the forest, inviting attack from the east or south. Lee, the Britannica’s account of the battle continues, discovered a route by which the Federals could be attacked from the north and west instead, and Jackson was instructed to make the turning movement. Lee had already left Early’s division to watch Sedgwick at Fredericksburg; now he divided again, keeping only two divisions in front of Hooker.",
+        evidence: "fact",
+        refs: [{ source: 0 }, { source: 1, locator: "Chancellorsville" }],
+      },
+      episodes: [
+        {
+          title: "Hooker’s plan",
+          text: "Hooker inherited an army whose discipline had suffered from a run of failures and reorganised it, a task in which the 1911 Britannica writes he was excelled by few. After the repulse at Fredericksburg, he resolved to turn Lee’s flank rather than attack his front, sending his cavalry and Sedgwick’s corps to demonstrate while the rest of the army marched upriver. Pryor writes that Hooker believed he could trap Lee by attacking from several directions at once, and the 1911 Civil War article that Lee was outmanoeuvred and threatened in flank and rear.",
+          evidence: "fact",
+          refs: [
+            { source: 0 },
+            { source: 1, locator: "Chancellorsville" },
+            { source: 2 },
+            { source: 3, locator: "§ 21" },
+          ],
+          battleSlugs: ["chancellorsville"],
+          campaignSlugs: ["chancellorsville-campaign"],
+        },
+        {
+          title: "Dividing twice",
+          text: "Pryor writes that, facing a force double his size at Chancellorsville, Lee again precariously divided his army. The 1911 Britannica describes what that meant on 2 May: while Jackson took his corps on a long march round the Union right, Anderson and McLaws, with only a fraction of the army, demonstrated in front of Hooker and kept most of his men idle behind their earthworks, one cavalry brigade held off Hooker’s cavalry, and Early contained Sedgwick. Piston writes that the plan was Lee’s entirely, though Jackson’s partisans later claimed it for him, and that Lee gave Jackson much discretion in carrying it out.",
+          evidence: "fact",
+          refs: [
+            { source: 2 },
+            { source: 1, locator: "Chancellorsville" },
+            { source: 4 },
+          ],
+          battleSlugs: ["chancellorsville"],
+        },
+        {
+          title: "The stroke and its price",
+          text: "Piston writes that the march through the tangled woods did not stay secret, but that Union officers ignored the evidence; when Jackson attacked late in the afternoon he rolled up the Union flank, and his units became jumbled in the terrain. Riding forward after sunset to direct the pursuit, Jackson was wounded by his own men. Stuart took over his corps, renewed the attack the next day with Anderson, and Lee turned on Sedgwick at Fredericksburg and drove him over the river. Hooker’s army recrossed and marched back to its old camps.",
+          evidence: "fact",
+          refs: [{ source: 4 }, { source: 1, locator: "Chancellorsville" }],
+          battleSlugs: ["chancellorsville"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "William Garrett Piston",
+          stake:
+            "A modern historian writing Encyclopedia Virginia’s articles on Jackson and Longstreet.",
+          says: "The plan was Lee’s; Jackson’s staff later claimed it for him; Union officers ignored the evidence of the march.",
+          refs: [{ source: 4 }],
+        },
+        {
+          who: "Elizabeth Brown Pryor",
+          stake: "A modern biographer of Lee.",
+          says: "Through surprise and daring Lee turned a vulnerable defensive position into a brilliant tactical offence.",
+          refs: [{ source: 2 }],
+        },
+        {
+          who: "The 1911 Britannica, on Hooker",
+          stake:
+            "A biographical article written within living memory of the war, generous to Hooker as a fighting general.",
+          says: "Hooker’s grave defects as a commander-in-chief showed when he checked his advance at the decisive moment.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "Jackson’s partisans, as Piston reports them",
+          stake:
+            "Members of Jackson’s staff and admirers writing after his death, with a reputation to build.",
+          says: "The flank march was Jackson’s idea.",
+          refs: [{ source: 4 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged by what Lee knew, the division was a reading of Hooker as much as of the ground. Stuart’s cavalry had reported the Union movements; Hooker had halted and dug in; the forest hid a long march. If Hooker had attacked the thin line in front of him, the two divisions there could hardly have held, and Lee’s army might have been beaten in detail. The risk was acceptable only because the enemy commander had stopped. The Hannibal and Scipio volume’s lesson on reading the consul makes the same point about Hannibal and his opponents: the move depends on the man opposite.",
+          evidence: "interpretation",
+          refs: [{ source: 1, locator: "Chancellorsville" }, { source: 0 }],
+        },
+        {
+          text: "The stroke also depended on the subordinate who made it. Lee gave Jackson the larger part of the army and much discretion, Piston writes, and Jackson used it. That confidence was earned and could not be transferred: after Jackson’s death Lee reorganised the army into three corps under Longstreet, Ewell and A. P. Hill, and Piston judges that neither of the last two could match Jackson. A method that relies on one executor is only as durable as he is.",
+          evidence: "interpretation",
+          refs: [{ source: 4 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "It would be easy to say Hooker lost his nerve, but no research was read that could support a claim about his state of mind, and the 1911 Britannica’s phrase, an excessive sense of responsibility, is a verdict, not evidence. The lesson rests on what Hooker did: he stopped, and entrenched.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered and no study is cited; Hooker’s reasons are not documented in the sources read.",
+        },
+      ],
+      shadow: {
+        text: "The price came after the victory. Jackson’s left arm was amputated, and he died of pneumonia on 10 May; Piston writes that his death left a vacancy at corps level that was never filled and that Chancellorsville was the last decisive victory of the Army of Northern Virginia. The 1911 Britannica’s Civil War article records that a month later Lee began his second invasion of the North. A victory won by dividing in the face of a larger enemy encouraged the next offensive, and the next one was Gettysburg.",
+        evidence: "interpretation",
+        refs: [{ source: 4 }, { source: 3, locator: "§ 21" }],
+        battleSlugs: ["gettysburg"],
+      },
+      counterCase: {
+        text: "Napoleon in June 1815 divided his army against two enemies who together outnumbered him, and the detached wing did not return. The National Army Museum writes that his best chance was to keep Wellington and Blücher apart; after beating the Prussians at Ligny he detached a large force under Grouchy to follow them. Unknown to the French, the Prussians were still in good shape, kept in contact with Wellington, and were reorganised by their staff and brought to Waterloo within two days. The Fondation Napoléon notes that Grouchy beat the Prussian rearguard at Wavre the day after Waterloo, a useless victory, and that his failure to return was generally held to be the real reason Napoleon lost. Lee’s enemy stood still; Napoleon’s moved faster than he believed it could.",
+        evidence: "interpretation",
+        refs: [{ source: 5 }, { source: 6 }],
+        commanderSlug: "emmanuel-de-grouchy",
+        battleSlugs: ["waterloo"],
+      },
+      cost: {
+        text: "The 1911 Britannica writes that Jackson’s attack surprised the Federals, who fled in panic at nightfall, and that Sedgwick’s corps, about to break through at Fredericksburg, was assailed by three Confederate divisions and driven over the river. Its author gives the losses of both armies from a published register; this volume gives none. Pryor notes that the fighting included another Union charge up Marye’s Heights at Fredericksburg, where Burnside’s army had been repulsed in December.",
+        evidence: "fact",
+        refs: [{ source: 1, locator: "Chancellorsville" }, { source: 2 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "The larger side has stopped to wait, so that a smaller force in front can hold it while the rest moves.",
+          "The person sent to make the stroke can be trusted with discretion and has the means to use it.",
+        ],
+        failsWhen: [
+          "The other side reads the division and moves, as the Prussians did in 1815.",
+          "The success depends on one executor who cannot be replaced, or encourages a bolder attempt next time.",
+        ],
+        questions: [
+          "When your team is outnumbered, what is the larger side doing that leaves it open?",
+          "If your best person were lost in the next effort, what would the method still be worth?",
+          "Which of your successes made the next risk look smaller than it was?",
+        ],
+      },
+      bearsOn:
+        "Chancellorsville is the strongest evidence that Lee could beat the Union’s resources by generalship: a larger army driven back by a divided smaller one. It is also where the third answer, Lee’s own choices, begins: the victory encouraged the invasion of Pennsylvania, and it cost the subordinate who had made his boldest strokes possible. The record answer appears in the quarrel over who devised the flank march.",
+      questions: [
+        {
+          prompt:
+            "According to the 1911 Britannica’s article on Hooker, what did he do at the decisive moment?",
+          choices: [
+            "He attacked Lee’s front with his whole army.",
+            "He checked the advance of his troops, after a well-planned flanking movement.",
+            "He retreated across the Rappahannock at once.",
+          ],
+          answer: 1,
+          explanation:
+            "His army then cleared and entrenched a position in the forest, inviting attack from the east or south.",
+        },
+        {
+          prompt: "Who devised the flank march, according to Piston?",
+          choices: [
+            "Lee, who gave Jackson much discretion in carrying it out; Jackson’s partisans later claimed it for him.",
+            "Stuart, alone.",
+            "Longstreet, who was present at the battle.",
+          ],
+          answer: 0,
+          explanation:
+            "Longstreet’s divisions were detached elsewhere; Stuart reported the Union movements and later commanded Jackson’s corps.",
+        },
+        {
+          prompt:
+            "Why does the lesson use Napoleon’s detachment of Grouchy in 1815 as its counter-case?",
+          choices: [
+            "Because Napoleon never divided his army.",
+            "Because Grouchy disobeyed orders to attack Wellington.",
+            "Because the enemy Napoleon thought beaten kept in contact with its ally and joined it, so the detached wing was in the wrong place.",
+          ],
+          answer: 2,
+          explanation:
+            "The National Army Museum writes that the Prussians were still in good shape and reached Waterloo within two days.",
+        },
+      ],
+      sourceCheck: {
+        question: "Who should be credited with the plan of Chancellorsville?",
+        witnesses: [
+          {
+            label: "Piston",
+            claim:
+              "The plan was Lee’s entirely; Lee gave Jackson much discretion in executing it.",
+          },
+          {
+            label: "Jackson’s partisans, as Piston reports",
+            claim: "The plan originated with Jackson.",
+          },
+          {
+            label: "1911 Britannica, Wilderness",
+            claim:
+              "Lee discovered the route, and Jackson was instructed to execute the turning movement.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Credit Jackson, because his staff were there.",
+            feedback:
+              "His staff wrote after his death with a reputation to build, and the other accounts give the plan to Lee.",
+          },
+          {
+            text: "Credit Lee with the plan and Jackson with its execution, and treat the competing claim as part of the postwar making of reputations.",
+            feedback:
+              "Both modern and older accounts give Lee the plan; the discretion he allowed Jackson is part of what made it work.",
+            best: true,
+          },
+          {
+            text: "Conclude that the question does not matter.",
+            feedback:
+              "It matters to the lesson: the method depended on a commander willing to divide and a subordinate able to act alone.",
+          },
+        ],
+        battleSlug: "chancellorsville",
+      },
+      seminar: {
+        prompt:
+          "In early May 1863 Lee could fall back, attack Hooker’s entrenched front, or divide again. Argue the choice from three positions: Lee before Jackson marched, Anderson’s men left in front of Hooker’s army, and Hooker in his entrenchments.",
+        guidance:
+          "Use the 1911 Britannica’s accounts of the battle and of Hooker, Piston on Jackson and Pryor on Lee. Say what each side knew of the other, and what would have happened if Hooker had attacked.",
+      },
+      sources: [
+        s.ebHooker,
+        s.ebWilderness,
+        s.pryor,
+        s.ebCivilWar,
+        s.jackson,
+        s.namWaterloo,
+        s.blucherWaterloo,
+      ],
+    },
+    {
       slug: "the-third-day",
       title: "The third day: the offensive the army could not afford",
       part: "Lee in Virginia",
@@ -1392,6 +1659,248 @@ export const grantLeeVolume: LeadershipVolume = {
         s.longstreet,
         s.pryor,
         s.watson,
+      ],
+    },
+    {
+      slug: "general-in-chief",
+      title: "General-in-chief: directing every army at once",
+      part: "Grant against Lee",
+      themes: ["organisation", "communication"],
+      people: ["william-t-sherman"],
+      claim:
+        "When a commander is given the whole of a larger side’s forces, he can win by making them press the enemy together, but only if he can work with the political leadership and with generals he did not choose, and only as far as each of them carries out his part.",
+      inBrief: {
+        strength:
+          "Grant gave seventeen separate commands one plan, a simultaneous advance against the two Confederate field armies.",
+        shadow:
+          "Several of the parts failed, and he had to direct Meade’s army through a commander he had not chosen.",
+      },
+      moment: {
+        text: "On 9 March 1864 Lincoln handed Grant his commission as lieutenant-general at the Executive Mansion, reading from a paper he had written so that Grant, who disliked speaking in public, could prepare a reply. Grant writes that he had meant to stay in the West even with the new rank, but that once in Washington he saw that it was the place for the commanding general: no one else, probably, could resist the pressure that would be brought on him to give up his own plans for others. He put Sherman in his old western command and went back east.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "ch. XLVI" }],
+      },
+      episodes: [
+        {
+          title: "One plan for seventeen commands",
+          text: "Grant writes that the Union armies were divided into many departments with separate commanders, and that until then they had acted independently, so that the enemy could take troops from a quiet front to reinforce a threatened one. He determined to stop it. His plan was to concentrate everything possible against the two Confederate armies in the field and to move all along the line at once: Meade against Lee, Sherman from Chattanooga against Johnston’s army and Atlanta, Butler up the James towards Richmond and Petersburg, Sigel in the Shenandoah Valley, Crook in West Virginia and Banks against Mobile. Troops who guarded captured territory, he explained to Lincoln, could do it as well by advancing as by standing still; Grant reports Lincoln’s answer that if a man can’t skin, he must hold a leg while somebody else does.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "ch. XLVII" }],
+          battleSlugs: ["wilderness", "atlanta-campaign"],
+          campaignSlugs: ["overland-campaign", "atlanta-campaign"],
+        },
+        {
+          title: "Working through Meade",
+          text: "When Grant first visited the Army of the Potomac, Meade offered to step aside if Grant wanted someone from the West, such as Sherman. Grant kept him and writes that the offer raised his opinion of Meade even more than Gettysburg had. But Meade’s position, he adds, proved embarrassing: Grant travelled with Meade’s army and tried to make Meade’s position what it would have been if Grant were elsewhere, giving all orders for its movements through him. Mertz writes that Grant left the army’s organisation largely as he found it, and that in the Wilderness, angry at delays in carrying out his orders, he began to harbour doubts about its command. At Spotsylvania, Mertz writes, Grant let Sheridan take the cavalry away after a quarrel with Meade, which left Meade feeling humiliated and strained their relations.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "ch. XLVI" },
+            { source: 2 },
+            { source: 3 },
+          ],
+          battleSlugs: ["wilderness", "spotsylvania"],
+        },
+        {
+          title: "The parts that failed and the parts that held",
+          text: "Not every part moved as planned. Banks’s expedition up the Red River, which Grant writes he had opposed and which was ordered from Washington before his appointment, did not return in time to move on Mobile. The 1911 Britannica writes that Butler’s Army of the James was checked at Bermuda Hundred by a small force under Beauregard, and that in July Grant had to send a corps to Washington when Early, having driven back the Union force in the Valley, came within a day’s march of the capital. In Georgia the plan held: the American Battlefield Trust describes Sherman manoeuvring Johnston back to Atlanta, and Atlanta fell in September. Greene writes that Lincoln’s re-election in November relieved the pressure on Grant to show progress in Virginia.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "ch. XLVII" },
+            { source: 4, locator: "Petersburg Campaign" },
+            { source: 5 },
+            { source: 6 },
+          ],
+          battleSlugs: ["atlanta-campaign", "petersburg"],
+          campaignSlugs: ["petersburg-campaign"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Ulysses S. Grant",
+          stake:
+            "The general-in-chief, describing in his memoirs a plan he had made twenty years before and its execution by others.",
+          says: "The armies had acted separately; he made them move together, and the commanding general had to be where he could resist pressure from Washington.",
+          refs: [
+            { source: 0, locator: "ch. XLVI" },
+            { source: 1, locator: "ch. XLVII" },
+          ],
+        },
+        {
+          who: "Abraham Lincoln, as Grant reports him",
+          stake:
+            "The president who appointed Grant and needed a victory before the autumn election.",
+          says: "If a man can’t skin, he must hold a leg while somebody else does; and Grant could have anybody he wanted.",
+          refs: [{ source: 1, locator: "ch. XLVII" }],
+        },
+        {
+          who: "Greg Mertz",
+          stake:
+            "A modern historian writing Encyclopedia Virginia’s articles on the Wilderness and Spotsylvania.",
+          says: "Grant’s presence with the Army of the Potomac strained its command, and his decision to release Sheridan cost the army its screen.",
+          refs: [{ source: 2 }, { source: 3 }],
+        },
+        {
+          who: "The American Battlefield Trust",
+          stake:
+            "A preservation organisation’s account of the Atlanta campaign.",
+          says: "Sherman did not use his numbers in blunt frontal attacks as Grant was doing in Virginia, but manoeuvred round Johnston’s flank.",
+          refs: [{ source: 5 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "The design addressed a specific weakness. Separate Union armies had let the Confederacy move troops between threatened points; a simultaneous advance, even by weak forces, made every Confederate commander keep his men where they were. Grant’s explanation to Lincoln puts it plainly: troops that had to guard territory anyway could do it better by advancing. The plan did not require every part to succeed, only that each part hold enemy troops in place, which is why Lincoln’s frontier saying fits it.",
+          evidence: "interpretation",
+          refs: [{ source: 1, locator: "ch. XLVII" }],
+        },
+        {
+          text: "It also depended on people Grant had not chosen. Butler and Sigel already held their commands when Grant took over, Banks’s Red River expedition had been ordered from Washington before his appointment, and Meade commanded the army Grant travelled with. What Grant could choose, he did: Sherman in the West, and Sheridan for the cavalry after Lincoln told him he could have anybody he wanted. The 1911 Britannica calls Lincoln Grant’s most unwavering supporter, and Mertz writes that Lincoln, fearing defeat in the election without a victory, had told Grant to seek out and destroy Lee. The plan held where the general was Grant’s choice and the political support was firm.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "ch. XLVII" },
+            { source: 7 },
+            { source: 2 },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Research on coordinating large organisations exists, but none was read for this volume, and the documents show the problem directly: a plan that worked where the commander was chosen and supported, and stalled where he was not. The lesson rests on that comparison.",
+          evidence: "interpretation",
+          refs: [],
+          limit: "No mechanism is offered and no study is cited.",
+        },
+      ],
+      shadow: {
+        text: "The arrangement had costs. Grant travelling with Meade’s army made him, in practice, its commander, and Mertz describes the friction this caused: delays Grant blamed on the army, Meade humiliated over Sheridan, the cavalry away when the army needed its screen. The American Battlefield Trust contrasts Sherman’s manoeuvres with the blunt frontal attacks Grant was making against Lee in the same months; directing every army at once did not make Grant a different general in Virginia.",
+        evidence: "interpretation",
+        refs: [{ source: 2 }, { source: 3 }, { source: 5 }],
+      },
+      counterCase: {
+        text: "Napoleon’s autumn campaign of 1813 shows the same problem from the losing side, and the allies’ solution. Britannica writes that the allies divided their forces into three armies and agreed to avoid battle with Napoleon himself and attack his subordinates. Napoleon beat the main allied army at Dresden, but in the same week Oudinot was defeated at Grossbeeren, Macdonald routed on the Katzbach and Vandamme surrounded at Kulm, and Britannica calls the campaign the worst conceived and most disastrous of his career. A commander directing several armies at once can win only where he is present unless his subordinates can win without him; the allies built their plan on that, as Grant later built his.",
+        evidence: "interpretation",
+        refs: [{ source: 8 }],
+        commanderSlug: "napoleon-bonaparte",
+        battleSlugs: ["dresden", "leipzig"],
+      },
+      cost: {
+        text: "While the armies were concentrating in April 1864, Forrest’s cavalry attacked Fort Pillow on the Mississippi, held by a regiment of Black troops and a detachment of Tennessee cavalry. Grant writes that the garrison fought bravely but was overpowered, and quotes Forrest’s own dispatch boasting that the river was dyed with the blood of the slaughtered and that the facts would show Northerners that Black soldiers could not cope with Southerners; Forrest’s later report, Grant adds, left out the part which shocks humanity to read.",
+        evidence: "fact",
+        refs: [{ source: 1, locator: "ch. XLVII" }],
+      },
+      transfer: {
+        holdsWhen: [
+          "Separate parts of an organisation have been letting a competitor deal with them one at a time.",
+          "The leader can choose the key subordinates, or at least keep the political support to replace those who fail.",
+        ],
+        failsWhen: [
+          "The parts are led by people chosen for other reasons, who cannot carry out their share.",
+          "The leader directs one part in person and the arrangement leaves its own commander without authority.",
+        ],
+        questions: [
+          "Which parts of your organisation still act as if the others did not exist?",
+          "Who leads the parts of your plan, and who chose them?",
+          "Where you work alongside a manager whose team you direct, who is actually in charge?",
+        ],
+      },
+      bearsOn:
+        "This lesson is the strongest case for the second answer, the Union’s resources, used together. Grant’s plan turned the North’s larger forces into simultaneous pressure that the Confederacy could not meet everywhere. But resources alone had not done it before 1864, and the plan’s success in Georgia and failures elsewhere suggest that the answer depended on who led each part and on Lincoln’s support: resources, persistence and politics together.",
+      questions: [
+        {
+          prompt:
+            "What problem did Grant say his simultaneous advance was meant to stop?",
+          choices: [
+            "The Union armies acting separately, which let the enemy reinforce one threatened front from a quiet one.",
+            "The shortage of Union troops.",
+            "The Confederate navy’s attacks on supply lines.",
+          ],
+          answer: 0,
+          explanation:
+            "He writes that the armies had acted separately and independently, and that he determined to stop it.",
+        },
+        {
+          prompt:
+            "How did Grant handle the Army of the Potomac, which he travelled with?",
+          choices: [
+            "He replaced Meade with Sherman.",
+            "He gave all orders for its movements through Meade, a position Grant admits proved embarrassing.",
+            "He left it entirely to Meade and stayed in Washington.",
+          ],
+          answer: 1,
+          explanation:
+            "Meade had offered to step aside; Grant kept him, and Mertz describes the friction that followed.",
+        },
+        {
+          prompt:
+            "What did the allies agree in the autumn of 1813, according to Britannica?",
+          choices: [
+            "To seek battle with Napoleon at once.",
+            "To make peace on the Rhine.",
+            "To divide into three armies, avoid battle with Napoleon himself and attack his subordinates.",
+          ],
+          answer: 2,
+          explanation:
+            "Napoleon won at Dresden while his subordinates were beaten at Grossbeeren, the Katzbach and Kulm.",
+        },
+      ],
+      sourceCheck: {
+        question: "Did Grant’s plan of simultaneous advances work?",
+        witnesses: [
+          {
+            label: "Grant, ch. XLVII",
+            claim:
+              "Banks did not get back in time to take part in the programme as laid down.",
+          },
+          {
+            label: "1911 Britannica, Petersburg",
+            claim:
+              "Butler was checked at Bermuda Hundred, and Early’s raid forced Grant to send a corps to Washington.",
+          },
+          {
+            label: "American Battlefield Trust",
+            claim:
+              "Sherman manoeuvred Johnston back to Atlanta, which fell in September.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Judge the plan a failure, since several parts failed.",
+            feedback:
+              "The plan was designed so that weak parts would still hold enemy troops in place; the decisive parts were in Virginia and Georgia.",
+          },
+          {
+            text: "Judge the plan a success, since the war was won.",
+            feedback:
+              "Victory does not show which parts mattered; Banks and Butler contributed little, and Early’s raid drew troops away.",
+          },
+          {
+            text: "Judge it part by part: the design held where the commander was Grant’s choice and the pressure was sustained, and stalled where it was not.",
+            feedback:
+              "This separates the design from its execution, which is the lesson’s point.",
+            best: true,
+          },
+        ],
+        campaignSlug: "atlanta-campaign",
+      },
+      seminar: {
+        prompt:
+          "In March 1864 Grant could command from Washington, stay in the West, or travel with the Army of the Potomac. Argue the choice from three positions: Grant after receiving his commission, Meade, and Lincoln seven months before the election.",
+        guidance:
+          "Use Grant’s chapters XLVI and XLVII, Mertz on the Wilderness and Spotsylvania, and the 1911 Britannica on the Petersburg campaign. Say what each arrangement would have gained and cost.",
+      },
+      sources: [
+        s.grant46,
+        s.grant47,
+        s.mertzWilderness,
+        s.mertzSpotsylvania,
+        s.ebPetersburg,
+        s.atlantaAbt,
+        s.greene,
+        s.ebGrant,
+        s.britAutumn1813,
       ],
     },
     {
@@ -1657,5 +2166,5 @@ export const grantLeeVolume: LeadershipVolume = {
     },
   ],
   inProgress:
-    "This volume is being written. Lessons 0 to 3, 5 and 7 are published; the rest are added in reviewed batches.",
+    "This volume is being written. Lessons 0 to 7 are published; the rest are added in reviewed batches.",
 };

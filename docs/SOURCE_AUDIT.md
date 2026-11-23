@@ -2047,3 +2047,27 @@ What the batch changed in the evidence pass:
 - Source check: a draft said Grant's ankle was "crushed" (Grant: very much injured; now "badly injured"); a draft called Buckner Grant's friend (Grant: they were well acquainted from West Point and the old army; now so stated); the failed assaults at Vicksburg now cite the Park Service page as well as Grant.
 
 Choices: no casualty or army figures; Grant's "four or five thousand stragglers" becomes "thousands", and his count of the Confederate garrison is not given. Grant's description of the field covered with dead at Shiloh is the cost of lesson 2, without numbers. The freedpeople at Grand Junction appear in lesson 3's cost, in Grant's words about the orders that forbade expelling them and the wages paid for harvesting. The psychology of all three lessons is `base: "none"`. Every page was read at the address cited; no scripted link check was run.
+
+## Leadership Lessons from Grant and Lee, batch G3: the divided army and the general-in-chief (23 November 2026)
+
+Lesson 4, `the-divided-army` (Lee at Chancellorsville), and lesson 6, `general-in-chief` (Grant's plan of 1864). Counter-cases: Napoleon's detachment of Grouchy in June 1815, filed under `emmanuel-de-grouchy` with the Waterloo study (lesson 4), and Napoleon's autumn campaign of 1813 (lesson 6). Sherman is named in lesson 6's `people`. The volume now has eight of its thirteen lessons and stays in progress.
+
+Sources read, as text or in the built-in browser:
+
+- Grant, _Personal Memoirs_, on Wikisource: chapters XLVI (the commission of 9 March 1864 and Lincoln's prepared words; why the commanding general had to be in the East; Meade's offer to step aside; Meade's "embarrassing" position and orders given through him) and XLVII (the separate departments; the plan to concentrate against the two Confederate field armies and move all along the line; the objectives of Sherman, Butler, Sigel, Crook and Banks; Lincoln's saying about skinning and holding a leg, as Grant reports it; Sheridan given the cavalry; Banks's Red River expedition; Forrest at Fort Pillow, with Forrest's dispatch as Grant quotes it).
+- The 1911 Britannica on Wikisource: "Hooker, Joseph", "Wilderness" (the Chancellorsville section), "American Civil War" § 21 and "Petersburg" (Butler checked at Bermuda Hundred; Early's raid and the corps sent to Washington), all re-read; "Grant, Ulysses Simpson" (Lincoln his most unwavering supporter), re-read.
+- Encyclopedia Virginia: Piston, "Thomas J. 'Stonewall' Jackson"; Pryor, "Robert E. Lee"; Mertz, "Wilderness, Battle of the" and "Spotsylvania Court House, Battle of"; Greene, "Petersburg Campaign", all re-read.
+- American Battlefield Trust, "The Atlanta Campaign" (Sherman's manoeuvres against Johnston, set against Grant's frontal attacks; Hood's evacuation of Atlanta on 1 September).
+- National Army Museum, "Battle of Waterloo", and Fondation Napoléon, "Blücher and the Waterloo campaign" (Grouchy's useless victory at Wavre and the verdict on his failure to return).
+- Britannica Editors, "Napoleonic Wars: Dispositions for the autumn campaign", in the browser (the allies' agreement to avoid Napoleon and attack his subordinates; Grossbeeren, the Katzbach, Kulm; "the worst conceived and most disastrous of his career").
+
+Sayings and stories: Lincoln's "if a man can't skin he must hold a leg while somebody else does" is quoted as Grant reports it in chapter XLVII, more than twenty years later, and named as such. Forrest's dispatch on Fort Pillow is paraphrased from Grant's quotation without its numbers, with Grant's remark that Forrest's later report left the passage out. No banned saying appears.
+
+What the batch changed in the evidence pass:
+
+- Lesson 6 needed Grant's own account of his plan (correction 13); chapters XLVI and XLVII were read, and the lesson is built on them. Its counter-case is Napoleon in 1813 rather than Conrad von Hötzendorf, because the 1813 campaign shows both the failure of one commander directing several armies and the allies' answer to it, which resembles Grant's.
+- Lesson 4's counter-case is Napoleon's division of his army in 1815; it is filed under Grouchy's profile because the National Army Museum and the Fondation Napoléon centre on his detached wing, and the Waterloo study is linked.
+- Fort Pillow now has a read source, Grant's chapter XLVII; lesson 6 uses it as its cost, and lesson 10 will need its own reading of it and of the United States Colored Troops.
+- Source check: a draft said Butler, Sigel and Banks held their commands for political reasons, which nothing read states; it now says they already held their commands when Grant took over and that Banks's expedition was ordered from Washington. A draft counterfactual that Lee's thin front "could not have held" was softened to "could hardly have held". Two dates given as 1 May for Hooker's halt were replaced by "the first days of May", which the sources support.
+
+Choices: no casualty or army figures; Grant's count of commanders is kept as a count of commands, and Forrest's numbers are left out. Every page was read at the address cited; no scripted link check was run.

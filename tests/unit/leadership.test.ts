@@ -340,7 +340,9 @@ describe("the Grant and Lee volume", () => {
       "unconditional-surrender",
       "surprised-at-shiloh",
       "cutting-loose",
+      "the-divided-army",
       "the-third-day",
+      "general-in-chief",
       "fight-it-out-on-this-line",
     ]);
   });

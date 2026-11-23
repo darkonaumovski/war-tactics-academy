@@ -676,7 +676,7 @@ test("the Grant and Lee volume lists its published lessons", async ({
   await expect(
     page.getByRole("heading", { name: "A volume in progress" }),
   ).toBeVisible();
-  await expect(page.getByRole("table").getByRole("row")).toHaveCount(7);
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(9);
   await page.goto("/commanders/robert-e-lee");
   await expect(
     page.getByRole("link", { name: /Leadership Lessons from Grant and Lee/ }),
@@ -695,6 +695,11 @@ test("the Grant and Lee volume lists its published lessons", async ({
   await page.getByRole("link", { name: /Unconditional surrender/ }).click();
   await expect(page).toHaveURL(
     /\/leadership\/ulysses-s-grant\/unconditional-surrender\/$/,
+  );
+  await page.goto("/battles/chancellorsville");
+  await page.getByRole("link", { name: /The divided army/ }).click();
+  await expect(page).toHaveURL(
+    /\/leadership\/ulysses-s-grant\/the-divided-army\/$/,
   );
   await page.goto("/battles/vicksburg");
   await page.getByRole("link", { name: /Cutting loose/ }).click();

@@ -663,7 +663,7 @@ test("the Hannibal and Scipio volume lists all its lessons", async ({
     /\/leadership\/hannibal-barca\/the-meeting-at-zama\/$/,
   );
 });
-test("the Grant and Lee volume opens with its pilot lessons", async ({
+test("the Grant and Lee volume lists its published lessons", async ({
   page,
 }) => {
   await page.goto("/leadership/ulysses-s-grant");
@@ -676,7 +676,7 @@ test("the Grant and Lee volume opens with its pilot lessons", async ({
   await expect(
     page.getByRole("heading", { name: "A volume in progress" }),
   ).toBeVisible();
-  await expect(page.getByRole("table").getByRole("row")).toHaveCount(4);
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(7);
   await page.goto("/commanders/robert-e-lee");
   await expect(
     page.getByRole("link", { name: /Leadership Lessons from Grant and Lee/ }),
@@ -690,6 +690,16 @@ test("the Grant and Lee volume opens with its pilot lessons", async ({
   await page.getByRole("link", { name: /Fight it out on this line/ }).click();
   await expect(page).toHaveURL(
     /\/leadership\/ulysses-s-grant\/fight-it-out-on-this-line\/$/,
+  );
+  await page.goto("/battles/fort-donelson");
+  await page.getByRole("link", { name: /Unconditional surrender/ }).click();
+  await expect(page).toHaveURL(
+    /\/leadership\/ulysses-s-grant\/unconditional-surrender\/$/,
+  );
+  await page.goto("/battles/vicksburg");
+  await page.getByRole("link", { name: /Cutting loose/ }).click();
+  await expect(page).toHaveURL(
+    /\/leadership\/ulysses-s-grant\/cutting-loose\/$/,
   );
 });
 test("the volumes are compared problem by problem", async ({ page }) => {

@@ -1,7 +1,7 @@
 import type { LeadershipVolume, Source } from "../../lib/types";
 // Volume 8, shared by Grant and Lee, written in reviewed batches (batch G1,
 // the pilot, is lessons 0, the record, 5, Lee's third day, and 7, Grant's
-// persistence); docs/LEADERSHIP_EVIDENCE_GRANT_LEE.md records which sources
+// persistence; batch G2 is lessons 1 to 3, Grant in the West); docs/LEADERSHIP_EVIDENCE_GRANT_LEE.md records which sources
 // can carry each lesson, and docs/SOURCE_AUDIT.md how each was read. Grant's
 // memoirs are cited by chapter on Wikisource; scanned books by page.
 const grant = (chapter: string, subject: string): Source => ({
@@ -20,6 +20,65 @@ const virginia = (entry: string, title: string): Source => ({
   publisher: "Encyclopedia Virginia, Virginia Humanities",
 });
 const s = {
+  grant21: grant("XXI", "Movement on Fort Henry—Capture of Fort Henry"),
+  grant22: grant("XXII", "Investment of Fort Donelson"),
+  grant23: grant("XXIII", "Relieved of the Command—Restored to the Command"),
+  grant24: grant("XXIV", "The Army at Pittsburg Landing"),
+  grant30: grant(
+    "XXX",
+    "Van Dorn Captures Holly Springs—Collecting Forage and Food",
+  ),
+  grant32: grant(
+    "XXXII",
+    "Criticisms of the Northern Press—Running the Batteries",
+  ),
+  grant34: grant("XXXIV", "Capture of Port Gibson"),
+  grant35: grant("XXXV", "Movement against Jackson—Fall of Jackson"),
+  grant36: grant("XXXVI", "Battle of Black River Bridge"),
+  grant39: grant("XXXIX", "Retrospect of the Campaign"),
+  ebCivilWar: eb1911("American_Civil_War", "American Civil War"),
+  cooling: {
+    title: "Fort Donelson (B. Franklin Cooling)",
+    url: "https://tennesseeencyclopedia.net/entries/fort-donelson/",
+    publisher: "Tennessee Encyclopedia, Tennessee Historical Society",
+  },
+  mcdonough: {
+    title: "Shiloh, Battle of (James L. McDonough)",
+    url: "https://tennesseeencyclopedia.net/entries/battle-of-shiloh/",
+    publisher: "Tennessee Encyclopedia, Tennessee Historical Society",
+  },
+  tasic: {
+    title: "Warfare 1914-1918 (South East Europe) (Dmitar Tasić)",
+    url: "https://encyclopedia.1914-1918-online.net/article/warfare-1914-1918-south-east-europe/",
+    publisher:
+      "1914-1918-online. International Encyclopedia of the First World War",
+  },
+  iwm: {
+    title: "German response to D-Day",
+    url: "https://www.iwm.org.uk/history/second-world-war/d-day/the-german-response-to-d-day",
+    publisher: "Imperial War Museums",
+  },
+  ballard: {
+    title: "Civil War (Michael B. Ballard)",
+    url: "https://mississippiencyclopedia.org/overviews/civil-war/",
+    publisher: "Mississippi Encyclopedia, Center for Study of Southern Culture",
+  },
+  vicksburgSiege: {
+    title: "Vicksburg Siege",
+    url: "https://www.nps.gov/vick/learn/historyculture/vicksburgsiege.htm",
+    publisher: "National Park Service, Vicksburg National Military Park",
+  },
+  caveLife: {
+    title: "Cave life",
+    url: "https://www.nps.gov/vick/learn/historyculture/cave-life.htm",
+    publisher: "National Park Service, Vicksburg National Military Park",
+  },
+  britRussia: {
+    title:
+      "Napoleonic Wars: France and northern Europe, 1809–12, and the Russian campaign (Britannica Editors)",
+    url: "https://www.britannica.com/event/Napoleonic-Wars/France-and-northern-Europe-1809-12",
+    publisher: "Encyclopædia Britannica",
+  },
   grant25: grant("XXV", "General Johnston—Remarks on Shiloh"),
   grant50: grant("L", "Entering the Wilderness—Battle of the Wilderness"),
   grant51: grant("LI", "Movement by the Left Flank"),
@@ -406,6 +465,711 @@ export const grantLeeVolume: LeadershipVolume = {
         s.ebLee,
         s.suetonius,
         s.leeSlavery,
+      ],
+    },
+    {
+      slug: "unconditional-surrender",
+      title: "Unconditional surrender: taking the initiative",
+      part: "Grant in the West",
+      themes: ["judgement", "adaptation"],
+      claim:
+        "When a commander moves before his superiors or his enemy expect, he can win more than his orders asked, but only if he can hold what he takes when the enemy strikes back, and keep the confidence of the superiors he has outrun.",
+      inBrief: {
+        strength:
+          "Grant pressed to be allowed to take Fort Henry, marched on Donelson at once, and turned a breakout into a surrender.",
+        shadow:
+          "He had counted on his opponents’ weakness, and within three weeks his own superior had taken his command away.",
+      },
+      moment: {
+        text: "Before daylight on 16 February 1862, General Smith brought Grant a letter from Simon Bolivar Buckner, now commanding Fort Donelson, proposing commissioners to agree on terms of capitulation and an armistice until noon. Grant prints his reply: “No terms except an unconditional and immediate surrender can be accepted. I propose to move immediately upon your works.” Buckner answered that the distribution of his forces, after an unexpected change of commanders, and the overwhelming force against him compelled him to accept what he called the ungenerous and unchivalrous terms proposed. Ten days earlier Grant had not been sure he would be allowed to begin the campaign at all.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "ch. XXII" }],
+      },
+      episodes: [
+        {
+          title: "Asking to be let go",
+          text: "Grant writes that he had long thought the true line of operations was up the Tennessee and Cumberland rivers, where Fort Henry and Fort Donelson stood eleven miles apart. When he went to St. Louis to lay the plan before Halleck, he was cut short as if the plan were preposterous and returned crestfallen. With Flag-Officer Foote, who agreed with him, he renewed the proposal by telegraph on 28 January 1862; on 1 February he received orders to move, and on the 6th Foote’s gunboats took Fort Henry, most of whose garrison had already been sent towards Donelson.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "ch. XXI" }],
+          battleSlugs: [],
+          campaignSlugs: ["western-campaign-of-1862"],
+        },
+        {
+          title: "Before the enemy could reinforce",
+          text: "Grant writes that he was impatient to reach Donelson because he knew its importance and expected it to be reinforced quickly, judging that a smaller force on 8 February would do more than a much larger one a month later. Halleck said nothing for or against the move; an order to fortify Fort Henry instead reached Grant when he was already in front of Donelson. He had reconnoitred the roads, and he writes that he had known Pillow in Mexico and judged that he could march up to within gunshot of any works Pillow held. He invested the fort without entrenching, with raw troops in midwinter.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "ch. XXII" }],
+          battleSlugs: ["fort-donelson"],
+        },
+        {
+          title: "The counterstroke",
+          text: "On the morning of 15 February, while Grant was on board Foote’s flagship after the gunboats’ repulse, the garrison came out and drove back McClernand’s division, whose men had run out of ammunition. Grant found men standing in knots with no officer giving directions. He reasoned that an enemy who had attacked and then fallen back must be more demoralised than his own men, had them told to refill their cartridge boxes, and ordered Smith to assault on the left, which carried the outer works by night. Cooling sets Grant’s flexibility in crisis, and the reinforcements under Lew Wallace that checked the Confederate drive, against the indecision of the Confederate council that night.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "ch. XXII" }, { source: 2 }],
+          battleSlugs: ["fort-donelson"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Ulysses S. Grant",
+          stake:
+            "The victor, writing more than twenty years later, with his own letters to print and a grievance against Halleck.",
+          says: "He saw the line of operations, pressed for it, and won because he attacked first after the breakout.",
+          refs: [
+            { source: 1, locator: "ch. XXI" },
+            { source: 0, locator: "ch. XXII" },
+          ],
+        },
+        {
+          who: "B. Franklin Cooling",
+          stake:
+            "A modern historian of the river forts, writing for the Tennessee Encyclopedia.",
+          says: "The Confederate council at Dover, where no general could decide, is the key to understanding Fort Donelson.",
+          refs: [{ source: 2 }],
+        },
+        {
+          who: "Simon Bolivar Buckner, as Grant prints and reports him",
+          stake:
+            "The Confederate general left to surrender after his superiors fled, whom Grant had known at West Point and in the old army.",
+          says: "Had he been in command, Grant would not have reached Donelson so easily.",
+          refs: [{ source: 0, locator: "ch. XXII" }],
+        },
+        {
+          who: "The 1911 Britannica",
+          stake: "A general history of the war written half a century later.",
+          says: "Grant’s raw troops had no decisive superiority in numbers; the Confederate commanders proved unequal to the crisis.",
+          refs: [{ source: 3, locator: "§ 7" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged by what Grant knew, the march on Donelson was a calculated risk about people as much as places. He knew the ground from his reconnaissance, knew that Halleck had not forbidden the move, and believed that Pillow and Floyd would not stop him. He said as much to Buckner afterwards: he would not have tried the same approach against Buckner, and he had relied very much on their commander to let him come up to the works. The initiative rested on a reading of the enemy commander that happened to be right.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "ch. XXII" }],
+        },
+        {
+          text: "Holding what he took depended on the morning of the 15th. The breakout opened the road south, and Cooling writes that for much of the fighting the Confederates had the upper hand. What turned it was a quick decision by Grant, the reinforcement from Fort Henry and the paralysis of the Confederate command. Grant later argued that the initiative was wasted afterwards: one general willing to take responsibility in the West, he writes, could have marched on Chattanooga, Corinth, Memphis and Vicksburg with the troops then available. That is his claim, made with hindsight, about a chance that no one tested.",
+          evidence: "interpretation",
+          refs: [
+            { source: 2 },
+            { source: 0, locator: "ch. XXII" },
+            { source: 4, locator: "ch. XXIII" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "No research was read that could say why Grant pressed his superior where others waited, and the documents show his reasons directly: a line of operations he believed in, a reading of his opponents, and the judgement that time mattered more than numbers. The lesson relies on them.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered and no study is cited; Grant’s reasons are his own account.",
+        },
+      ],
+      shadow: {
+        text: "The initiative outran the superior. Grant writes that Halleck’s dispatches did not reach him, partly because a telegraph operator, later found to be a rebel, failed to forward them; that he went to Nashville, within his undefined command, without asking; and that Halleck then reported to Washington that Grant would not report his strength and that his army was more demoralised by victory than the army at Bull Run had been by defeat. McClellan ordered him relieved and authorised his arrest. In less than three weeks after the victory, Grant writes, he was virtually in arrest and without a command, until he was restored on 13 March.",
+        evidence: "fact",
+        refs: [{ source: 4, locator: "ch. XXIII" }],
+      },
+      counterCase: {
+        text: "Oskar Potiorek’s invasions of Serbia in 1914 show initiative that could not hold what it took. Tasić writes that Austro-Hungarian officers expected a punitive campaign, a brief autumn stroll, and that after the defeat at Cer and the deadlock on the Drina, Potiorek’s third offensive in November forced the Serbian army back and Belgrade to be evacuated. The withdrawal let the Serbs regroup and replenish their ammunition, and on 3 December they struck the exhausted and undermanned Austro-Hungarian troops, whose supply lines had been over-stretched, and drove them out of Serbia. Potiorek won ground faster than he could hold it; Grant took less, and held it when the garrison struck back.",
+        evidence: "interpretation",
+        refs: [{ source: 5 }],
+        commanderSlug: "oskar-potiorek",
+        battleSlugs: ["kolubara"],
+      },
+      cost: {
+        text: "The soldiers paid in the cold. Grant writes that during the siege there was rain and snow, freezing and thawing; camp fires were allowed only far down the hill out of the enemy’s sight; many men had thrown away their blankets and overcoats on the march; and after McClernand’s failed assault the houses near the lines were overcrowded with wounded. When the fort fell, Cooling writes, Nashvillians rioted and fled before the advancing Union troops.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "ch. XXII" }, { source: 2 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "Speed matters more than strength, because the other side will reinforce if given time.",
+          "The leader can answer the first counterstroke quickly, with people ready to act on a short order.",
+        ],
+        failsWhen: [
+          "The move depends on the opponent’s weakness, and the opponent turns out to be stronger than expected, as Grant admitted to Buckner.",
+          "The leader outruns the superiors whose confidence he needs, so that success itself becomes a complaint against him.",
+        ],
+        questions: [
+          "What would you have to hold if the other side struck back the day after your success?",
+          "Whose permission did your last bold move assume, and did they know it?",
+          "How much of your plan depends on a particular opponent making mistakes?",
+        ],
+      },
+      bearsOn:
+        "Fort Donelson is early evidence for the first answer, persistence, in the form of initiative, and against the second: the 1911 Britannica writes that Grant’s raw troops had no decisive superiority in numbers. It also shows the record at work. The demand for unconditional surrender made Grant famous, and the quarrel with Halleck that followed is known chiefly from Grant’s side.",
+      questions: [
+        {
+          prompt:
+            "What did Grant reply to Buckner’s proposal of commissioners?",
+          choices: [
+            "That he would accept an armistice until noon.",
+            "That no terms except an unconditional and immediate surrender could be accepted.",
+            "That he would let the garrison march out with its arms.",
+          ],
+          answer: 1,
+          explanation:
+            "He added that he proposed to move immediately upon the works; Buckner accepted what he called ungenerous and unchivalrous terms.",
+        },
+        {
+          prompt:
+            "How did Grant explain his decision to attack on the left after the breakout?",
+          choices: [
+            "An enemy who had attacked and fallen back must be more demoralised than his own men, so the side that attacked first would win.",
+            "Foote ordered him to attack.",
+            "The garrison had already surrendered.",
+          ],
+          answer: 0,
+          explanation:
+            "He had the men refill their cartridge boxes and sent Smith against the works, expecting a thin line.",
+        },
+        {
+          prompt: "What happened to Grant within three weeks of the victory?",
+          choices: [
+            "He was promoted to command all Union armies.",
+            "He was sent to the East.",
+            "He was relieved of his command and virtually in arrest after Halleck’s complaints, before being restored on 13 March.",
+          ],
+          answer: 2,
+          explanation:
+            "Grant writes that Halleck’s reports to Washington caused the trouble, and that Halleck did not tell him so.",
+        },
+      ],
+      sourceCheck: {
+        question: "Why did Fort Donelson fall?",
+        witnesses: [
+          {
+            label: "Grant, ch. XXII",
+            claim:
+              "After the breakout fell back, he attacked first, on the left, where the line was thin.",
+          },
+          {
+            label: "Cooling",
+            claim:
+              "The Confederate council could not decide; Floyd and Pillow fled and Buckner was left to surrender.",
+          },
+          {
+            label: "1911 Britannica, § 7",
+            claim:
+              "The breakout failed when almost successful, and the Confederate commanders proved unequal to the crisis.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Credit Grant alone, since he writes from the inside.",
+            feedback:
+              "Grant’s account explains his own decision but has every reason to make it decisive.",
+          },
+          {
+            text: "Credit the Confederate failure alone, since the council fled.",
+            feedback:
+              "The council met only after Smith’s assault had carried the outer works; Grant’s counterattack shaped the choice it faced.",
+          },
+          {
+            text: "Read the fall as the meeting of a quick Union decision and a paralysed Confederate command, as Cooling does.",
+            feedback:
+              "Both sides of the line decided the outcome; neither account alone explains it.",
+            best: true,
+          },
+        ],
+        battleSlug: "fort-donelson",
+      },
+      seminar: {
+        prompt:
+          "Grant went to Fort Henry and Fort Donelson with his superior’s grudging consent and to Nashville without asking. Argue his conduct from three positions: Grant in February 1862, Halleck reading the reports in St. Louis, and a soldier who had thrown away his overcoat on the march.",
+        guidance:
+          "Use Grant’s chapters XXI to XXIII and Cooling. Say what each could know, and whose account of the quarrel survives.",
+      },
+      sources: [
+        s.grant22,
+        s.grant21,
+        s.cooling,
+        s.ebCivilWar,
+        s.grant23,
+        s.tasic,
+      ],
+    },
+    {
+      slug: "surprised-at-shiloh",
+      title: "Surprised at Shiloh: caught unprepared and holding on",
+      part: "Grant in the West",
+      themes: ["judgement", "motivation"],
+      claim:
+        "When a commander is surprised in the field, he can recover if he keeps his army fighting and his reinforcements arrive in time, but the recovery does not excuse the surprise, and his superiors and the public may judge him by the first day.",
+      inBrief: {
+        strength:
+          "On the first night at Shiloh, before reinforcements reached the field, Grant ordered every division to attack at dawn.",
+        shadow:
+          "His camps were unentrenched and his army was caught at breakfast, and he spent twenty years denying it.",
+      },
+      moment: {
+        text: "On the night of 6 April 1862 rain fell in torrents on the army at Pittsburg Landing, which had been driven back a mile or more during the day. Grant writes that his ankle, badly injured when his horse fell on him two nights before, was so swollen that he could not rest; he moved to a log house under the bank, found it was a hospital where wounded men were having arms and legs amputated, and went back to his tree in the rain, finding the sight more unendurable than the enemy’s fire. Before the firing ceased that evening, and before any of Buell’s troops had reached the field, he had visited each division commander and ordered them to push forward at first light and engage the enemy as soon as found.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "ch. XXIV" }],
+      },
+      episodes: [
+        {
+          title: "An army that expected to attack",
+          text: "Grant writes that he regarded the campaign as an offensive one and had no idea the enemy would leave strong entrenchments at Corinth to attack him. His engineer, McPherson, had reported that a defensive line would have to run behind the camps and away from water, and Grant judged that his newly raised regiments needed drill and discipline more than practice with the pick and spade. He kept his headquarters at Savannah, nine miles away, to meet Buell. On the Confederate side, Johnston’s march from Corinth was slowed by rain and inexperience, and Grant notes that Beauregard argued against attacking and that the generals were still debating on the morning of the 6th.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "ch. XXIV" },
+            { source: 1, locator: "ch. XXV" },
+            { source: 2 },
+          ],
+          battleSlugs: ["shiloh"],
+        },
+        {
+          title: "The first day",
+          text: "McDonough writes that the first shots came at about five in the morning, that many Union soldiers were going about their Sunday routines, and that Confederate lines poured out of the woods into some of the camps. Three of Grant’s five divisions engaged were entirely raw, he writes, and some regiments broke at the first fire; thousands of stragglers sheltered under the river bluff. The line fell back again and again but did not break, Prentiss’s division held the position the Confederates called the Hornets’ Nest until it was surrounded, Johnston bled to death in the afternoon, and by evening a last line of artillery on the bluffs, with two gunboats, stopped the final attacks. Lew Wallace’s division, ordered up in the morning, took a longer road and arrived after dark.",
+          evidence: "fact",
+          refs: [{ source: 2 }, { source: 0, locator: "ch. XXIV" }],
+          battleSlugs: ["shiloh"],
+        },
+        {
+          title: "The second day and after",
+          text: "On 7 April, with Wallace and three of Buell’s divisions on the field, the Union armies attacked along the whole line, and by evening the Confederates were retreating to Corinth. A few days later Halleck moved his headquarters to Pittsburg Landing and took command in the field. Grant writes that although he was nominally second in command he was ignored, was never shown Buell’s reports, and so made no full report of the battle; public opinion, he says, had been most erroneously formed before correct accounts were published.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "ch. XXIV" },
+            { source: 1, locator: "ch. XXV" },
+            { source: 3, locator: "§ 9" },
+          ],
+          battleSlugs: ["shiloh"],
+          campaignSlugs: ["western-campaign-of-1862"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Ulysses S. Grant",
+          stake:
+            "The commander blamed for the surprise, answering his critics in the 1880s.",
+          says: "There was no surprise; the line held all day; victory was assured once Wallace arrived.",
+          refs: [
+            { source: 0, locator: "ch. XXIV" },
+            { source: 1, locator: "ch. XXV" },
+          ],
+        },
+        {
+          who: "James L. McDonough",
+          stake:
+            "A modern historian of the battle, writing for the Tennessee Encyclopedia.",
+          says: "Neither Grant nor Sherman expected an attack; the Hornets’ Nest cost the Confederates time and men and gave Grant his chance.",
+          refs: [{ source: 2 }],
+        },
+        {
+          who: "The 1911 Britannica",
+          stake: "A general history of the war, half a century later.",
+          says: "Johnston and Beauregard completely surprised Grant’s camps; the battle was a savage scuffle between two half-disciplined hosts.",
+          refs: [{ source: 3, locator: "§ 9" }],
+        },
+        {
+          who: "Lew Wallace, as Grant reports him",
+          stake:
+            "The division commander whose march on 6 April became a lifelong dispute.",
+          says: "His order was to join the right of the army, by the road he took; Grant softened his own verdict in 1885 after reading a letter Wallace wrote before the battle.",
+          refs: [{ source: 0, locator: "ch. XXIV" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged by what Grant knew before the battle, his dispositions had reasons: an offensive campaign, an enemy he expected to stay behind its works, a defensive line that would have left the creeks to the enemy, and a fear for the stores at Crump’s Landing. Confederate cavalry had grown bold, and skirmishing had gone on since 3 April; the warning signs were there and were read as raids. The strategist can accept his reasoning about entrenchment and still note that an army preparing to attack can be attacked, and that his headquarters were nine miles from it when it was.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "ch. XXIV" },
+            { source: 1, locator: "ch. XXV" },
+          ],
+        },
+        {
+          text: "The recovery had two parts. The first was the army’s: a line that bent back all day without breaking, the Hornets’ Nest, and the last line at the landing. The second was Grant’s order for the morning, given before he could know how much of Buell’s army would be across the river in time, and justified, he wrote, by the lesson of Donelson that the side that attacks first after a repulse wins. McDonough adds the Confederate side: Beauregard, in command after Johnston’s death, chose not to attack the landing that evening. Surprise is recovered from when the surprised side keeps fighting and the surprising side stops.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "ch. XXIV" }, { source: 2 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "It is tempting to explain the surprise by commanders seeing what they expected, but no research was read that could test such a claim about Grant and Sherman, and Grant’s own account gives his expectation in plain words. The lesson relies on what he wrote he expected and what happened.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered and no study is cited; what the commanders expected is known only from their own later accounts.",
+        },
+      ],
+      shadow: {
+        text: "The recovery does not excuse the surprise, and Grant spent much of a chapter arguing there was none. He insists that the Confederates were still in council when the battle began, which, he says, settles the question; McDonough and the 1911 Britannica say the camps were surprised. The men who fled were raw, Grant writes, and many later proved as gallant as any; the cost of the surprise fell on them and on the divisions overrun in their camps. Halleck’s taking the field and the newspapers’ verdict were the price Grant paid; the soldiers paid more.",
+        evidence: "interpretation",
+        refs: [
+          { source: 1, locator: "ch. XXV" },
+          { source: 2 },
+          { source: 3, locator: "§ 9" },
+          { source: 0, locator: "ch. XXIV" },
+        ],
+      },
+      counterCase: {
+        text: "Gerd von Rundstedt in Normandy shows a surprise that could not be recovered. The Imperial War Museums write that the German reaction to the landings of 6 June 1944 was slow and confused: bad weather had put the defenders off guard, Rommel was in Germany and many senior commanders were away from their posts, and the Allied deception plan convinced Hitler that the main landing would come in the Pas de Calais. Rundstedt, commander-in-chief in the West, had no direct control over the armoured reserve; he had to secure Hitler’s permission to release it, and its divisions arrived piecemeal, delayed by air attack and sabotage. By 1 July he had been told to retire. Grant’s reinforcements came under his own orders and arrived overnight; Rundstedt’s did not.",
+        evidence: "interpretation",
+        refs: [{ source: 4 }],
+        commanderSlug: "gerd-von-rundstedt",
+        battleSlugs: ["normandy"],
+      },
+      cost: {
+        text: "Grant describes an open field, held by his army on the second day, over which the Confederates had charged repeatedly the day before, so covered with dead that a man could have walked across it in any direction stepping on bodies; in a patch of thicket, not one bush was left standing unpierced by bullets. McDonough calls Shiloh the bloodiest battle of the war up to that time.",
+        evidence: "fact",
+        refs: [{ source: 1, locator: "ch. XXV" }, { source: 2 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "The surprised side keeps its organisation, even while giving ground, and has reserves on the way that its leader controls.",
+          "The leader can act on the first night, before the reinforcements arrive, rather than wait for them.",
+        ],
+        failsWhen: [
+          "The reserves belong to someone else, as Rundstedt’s armour belonged to Hitler.",
+          "The recovery is used to argue that the surprise never happened.",
+        ],
+        questions: [
+          "What warning signs in your organisation are being read as routine?",
+          "If you were caught unprepared tomorrow, whose reserves could you use without asking?",
+          "When you recovered from your last setback, did you also admit what caused it?",
+        ],
+      },
+      bearsOn:
+        "Shiloh is the hardest early test of persistence. Grant’s order on the first night is persistence in its plainest form, and it worked because his reinforcements arrived and his enemy stopped. But the record answer is strong here too: Grant’s chapter is an argument with the newspapers and Halleck, and the surprise he denied is the part the historians keep.",
+      questions: [
+        {
+          prompt:
+            "Why does Grant say he did not entrench the camps at Pittsburg Landing?",
+          choices: [
+            "Because Halleck forbade it.",
+            "Because he regarded the campaign as offensive, his engineer’s line would have been behind the camps and away from water, and his raw troops needed drill more than digging.",
+            "Because the ground was too hard.",
+          ],
+          answer: 1,
+          explanation: "He gives these reasons in chapters XXIV and XXV.",
+        },
+        {
+          prompt: "What did Grant order on the evening of 6 April?",
+          choices: [
+            "A retreat across the river.",
+            "That the divisions entrench and wait for Buell.",
+            "That every division push forward at first light and engage the enemy, before any of Buell’s troops had reached the field.",
+          ],
+          answer: 2,
+          explanation:
+            "He told Sherman that the tactics of Donelson would win at Shiloh.",
+        },
+        {
+          prompt:
+            "Why could Rundstedt not recover from the surprise in Normandy, according to the Imperial War Museums?",
+          choices: [
+            "He did not control the armoured reserve and needed Hitler’s permission to release it, and it arrived piecemeal under air attack.",
+            "He had no reserves at all.",
+            "He chose to retreat at once.",
+          ],
+          answer: 0,
+          explanation:
+            "Bad weather, absent commanders and the Allied deception plan added to the delay.",
+        },
+      ],
+      sourceCheck: {
+        question: "Was Grant’s army surprised at Shiloh?",
+        witnesses: [
+          {
+            label: "Grant, ch. XXV",
+            claim:
+              "The Confederate generals were still debating the attack when it began, which settles whether there was a surprise.",
+          },
+          {
+            label: "McDonough",
+            claim:
+              "Neither Grant nor Sherman expected an attack, and many soldiers were at their Sunday routines.",
+          },
+          {
+            label: "1911 Britannica, § 9",
+            claim: "Johnston and Beauregard completely surprised the camps.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Accept Grant, because he commanded the army.",
+            feedback:
+              "Grant’s argument is about the Confederates’ hesitation, not about what his own camps expected; he had every reason to deny the charge.",
+          },
+          {
+            text: "Accept that the camps were surprised, as the historians say, and read Grant’s argument as evidence of how much the charge hurt him.",
+            feedback:
+              "The Confederate debate shows the attack was not certain, not that the Union army expected it.",
+            best: true,
+          },
+          {
+            text: "Conclude that no one can know.",
+            feedback:
+              "The accounts agree on what happened at dawn; they differ on what to call it and on who was to blame.",
+          },
+        ],
+        battleSlug: "shiloh",
+      },
+      seminar: {
+        prompt:
+          "On the evening of 6 April Grant could retreat across the river, hold and wait, or attack in the morning. Argue the choice from three positions: Grant at nightfall, a soldier sheltering under the bluff, and Halleck reading the newspapers in St. Louis.",
+        guidance:
+          "Use Grant’s chapters XXIV and XXV, McDonough and the 1911 Britannica. Say what Grant knew of Buell’s and Wallace’s arrival when he gave his order.",
+      },
+      sources: [s.grant24, s.grant25, s.mcdonough, s.ebCivilWar, s.iwm],
+    },
+    {
+      slug: "cutting-loose",
+      title: "Cutting loose: operating without a line of supply",
+      part: "Grant in the West",
+      themes: ["adaptation", "organisation"],
+      claim:
+        "When a commander abandons his line of supply, he can move faster than his enemy expects, but only where the country can feed his army, the campaign is short, and what the country cannot supply, above all ammunition, can still be carried.",
+      inBrief: {
+        strength:
+          "Below Vicksburg Grant gave up his base, lived off the country for three weeks and beat the Confederate forces before they could combine.",
+        shadow:
+          "The country that fed his army was other people’s, and the siege that followed fell on the civilians of Vicksburg.",
+      },
+      moment: {
+        text: "At Grand Gulf, early in May 1863, Grant received a letter from Nathaniel Banks saying he could not reach Port Hudson before 10 May, and then with fewer men than expected. Grant’s plan had been to make Grand Gulf a base and join Banks first. He writes: “I therefore determined to move independently of Banks, cut loose from my base, destroy the rebel force in rear of Vicksburg and invest or capture the city.” He knew, he adds, that Halleck’s caution would make him disapprove, but that a reply from Washington would take so long that the plan would be proved or disproved before anyone could interfere.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "ch. XXXIV" }],
+      },
+      episodes: [
+        {
+          title: "The lesson of Holly Springs",
+          text: "In December 1862, Grant writes, he had not believed that a moving column could be supplied from an enemy’s country. Then Van Dorn captured his depot at Holly Springs and destroyed its stores, while Forrest cut the railroad behind him; it was more than two weeks before rations could be issued in the regular way. The episode, he writes, demonstrated the impossibility of maintaining so long a line in an enemy’s country. It also showed what the country around the army could provide while the depot was gone.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "ch. XXX" }],
+          battleSlugs: [],
+          campaignSlugs: ["vicksburg-campaign"],
+        },
+        {
+          title: "Below the city",
+          text: "After months of failed approaches through the flooded bayous, Grant ran the gunboats and transports past the Vicksburg batteries and crossed the Mississippi below the city, finding himself, he writes, in the enemy’s country with a vast river and the stronghold between him and his base. Sherman wrote to warn him that the army could not be supplied over a single road. Grant replied that he did not expect to supply full rations from Grand Gulf, only what hard bread, coffee and salt he could get up, and would make the country furnish the balance. Ammunition was the exception: he had every vehicle and draught animal in the area collected and loaded with it.",
+          evidence: "fact",
+          refs: [
+            { source: 2, locator: "ch. XXXII" },
+            { source: 0, locator: "ch. XXXIV" },
+          ],
+          battleSlugs: ["vicksburg"],
+        },
+        {
+          title: "Moving fast",
+          text: "Moving east against Jackson would uncover his communications, Grant writes, so he decided to have none and to move his whole force eastward. He took Jackson, cutting Vicksburg off from the railroad, and turned on Pemberton at Champion’s Hill and the Big Black. At the Big Black an officer delivered Halleck’s order of 11 May to go back to Grand Gulf and join Banks; Grant told him the order came too late. Most of the army, he writes, had by then been three weeks with only five days’ rations issued by the commissary, and abundance had been found in the country; by 21 May a new base on the Yazoo gave the troops full rations.",
+          evidence: "fact",
+          refs: [
+            { source: 3, locator: "ch. XXXV" },
+            { source: 4, locator: "ch. XXXVI" },
+            { source: 0, locator: "ch. XXXIV" },
+          ],
+          battleSlugs: ["vicksburg"],
+          campaignSlugs: ["vicksburg-campaign"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Ulysses S. Grant",
+          stake:
+            "The commander, writing two decades later about the campaign that made his name.",
+          says: "Time was worth more than reinforcements; cutting loose was the only course with any chance of success.",
+          refs: [
+            { source: 0, locator: "ch. XXXIV" },
+            { source: 5, locator: "ch. XXXIX" },
+          ],
+        },
+        {
+          who: "William T. Sherman, as Grant quotes his letter",
+          stake:
+            "Grant’s closest subordinate, who later marched through Georgia on the same principle.",
+          says: "The army could not be supplied over a single road; stop until it had wagons.",
+          refs: [{ source: 0, locator: "ch. XXXIV" }],
+        },
+        {
+          who: "Michael B. Ballard",
+          stake:
+            "A modern historian of Mississippi in the war, writing for the Mississippi Encyclopedia.",
+          says: "Historians debate Vicksburg’s military significance, but Davis and Lincoln both thought it vital; the civilians, towns and farmland suffered greatly.",
+          refs: [{ source: 6 }],
+        },
+        {
+          who: "The National Park Service",
+          stake:
+            "The custodian of the battlefield, describing the siege and the civilians’ caves.",
+          says: "Pemberton had over a year to fortify; the citizens took to caves dug into the hills.",
+          refs: [{ source: 7 }, { source: 8 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "The conditions in the claim held at Vicksburg, and Grant’s account shows him checking them. The country could feed the army: beef, mutton, poultry and forage were found in abundance, though bread and coffee were short. The campaign was short: about three weeks from the crossing to the siege lines. Ammunition was carried in every vehicle the army could find. The enemy was divided between Vicksburg and Jackson, and the navy held the river behind the army; Grant writes that without the navy the campaign could not have been made at all.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "ch. XXXIV" },
+            { source: 5, locator: "ch. XXXIX" },
+          ],
+        },
+        {
+          text: "The political condition mattered as much. Grant writes that the elections of 1862 had gone against the war, that voluntary enlistment had nearly ceased and the draft was resisted, and that a defeat or a backward movement would have made the draft impossible to enforce; a forward movement to a decisive victory was necessary. Cutting loose was a way of moving forward without waiting, and the slowness of communication with Washington, which Grant counted on, gave him the time to prove it. The Hannibal and Scipio volume’s lesson on crossing the Alps asks what happens when an army that lives off a country stays in it.",
+          evidence: "interpretation",
+          refs: [
+            { source: 5, locator: "ch. XXXIX" },
+            { source: 0, locator: "ch. XXXIV" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "No research was read that bears on a commander’s decision to give up his supply line, and Grant’s own account sets out the conditions he weighed. The lesson rests on those conditions and on whether they held.",
+          evidence: "interpretation",
+          refs: [],
+          limit: "No mechanism is offered and no study is cited.",
+        },
+      ],
+      shadow: {
+        text: "Living off the country meant taking from the people in it. Ballard writes that Mississippi’s civilians, towns and farmland suffered greatly, and that white civilians were terrorised by Union soldiers who robbed gardens, stole valuables and cut up furniture and bedding, though officers often tried to control their men. Grant writes that rations were issued to families left destitute in Jackson and that medicine and food were sent to Raymond. Nor did speed take the city: after cutting it off, Grant assaulted the works and failed, and in his memoirs he names the assault of 22 May at Vicksburg as one he regretted, with more justification than the last at Cold Harbor.",
+        evidence: "fact",
+        refs: [
+          { source: 6 },
+          { source: 5, locator: "ch. XXXIX" },
+          { source: 7 },
+          { source: 9, locator: "ch. LV" },
+        ],
+      },
+      counterCase: {
+        text: "Napoleon in Russia in 1812 shows the same method where the conditions failed. Britannica writes that his unprecedented efforts to assemble supplies and transport were quite insufficient for an advance so far into Russia; the transport columns failed to supply the marching troops, forage was lacking for the horses, and disease and overwork killed them. He reached Moscow, which was burned, and the Russians refused to make peace. On the retreat Smolensk, ravaged in August, was virtually destitute of supplies, and most of his losses came before the first snowfall. The country could not feed the army and the campaign was not short; Grant’s were both.",
+        evidence: "interpretation",
+        refs: [{ source: 10 }],
+        commanderSlug: "napoleon-bonaparte",
+        battleSlugs: ["borodino"],
+      },
+      cost: {
+        text: "The siege fell on the people of Vicksburg. The Park Service writes that Porter’s mortar boats shelled the town regularly and that its citizens dug caves into the hills, so many that one resident said the streets looked like avenues in a cemetery; Mary Loughborough’s memoir describes life underground, and an old resident told Mark Twain that the caves were sometimes so crowded there was no turning room. Freedpeople had come to the army in their thousands the winter before; Grant writes that government orders forbade expelling them, that humanity forbade letting them starve, and that he set them to harvesting abandoned plantations for wages under Chaplain John Eaton.",
+        evidence: "fact",
+        refs: [{ source: 8 }, { source: 1, locator: "ch. XXX" }],
+      },
+      transfer: {
+        holdsWhen: [
+          "The surroundings can supply most of what the effort consumes, and the effort is short.",
+          "What cannot be found locally can still be carried, and someone has made sure of it.",
+        ],
+        failsWhen: [
+          "The effort lasts longer than the surroundings can sustain it, as in Russia in 1812.",
+          "The people whose resources are taken are left out of the account.",
+        ],
+        questions: [
+          "Which of your plans depend on supplies that nobody has promised to deliver?",
+          "What is the one thing your team cannot find on the way and must carry?",
+          "Who pays when your team lives off the land, and do they appear in your plan?",
+        ],
+      },
+      bearsOn:
+        "Vicksburg tests the first two answers together. Cutting loose was persistence as method, taking risks to keep moving, and Grant’s reasons were political as much as military. But it worked because the Union had the navy, the river and an army large enough to be divided from its base and still win: the second answer, the Union’s resources, is in every condition Grant names.",
+      questions: [
+        {
+          prompt:
+            "What did Grant decide after hearing from Banks at Grand Gulf?",
+          choices: [
+            "To wait a month for Banks.",
+            "To return to Memphis.",
+            "To move independently of Banks, cut loose from his base and destroy the Confederate force behind Vicksburg.",
+          ],
+          answer: 2,
+          explanation:
+            "He expected Halleck to disapprove, and counted on the slowness of communication with Washington.",
+        },
+        {
+          prompt:
+            "What did Grant make sure his army carried, even while living off the country?",
+          choices: [
+            "Ammunition, loaded on every vehicle and draught animal collected in the area.",
+            "Tents for every company.",
+            "Full rations for a month.",
+          ],
+          answer: 0,
+          explanation:
+            "He writes that provisions could be taken from the country, but ammunition carried on the person is soon exhausted.",
+        },
+        {
+          prompt:
+            "Why does the lesson treat Napoleon’s Russian campaign as the counter-case?",
+          choices: [
+            "Because Napoleon refused to live off the country.",
+            "Because the country could not feed his army and the campaign was not short, the conditions that held for Grant.",
+            "Because Napoleon had no supply columns at all.",
+          ],
+          answer: 1,
+          explanation:
+            "Britannica writes that his supplies and transport were insufficient and that forage was lacking for the horses.",
+        },
+      ],
+      sourceCheck: {
+        question: "Why did Grant cut loose from his base?",
+        witnesses: [
+          {
+            label: "Grant, ch. XXXIV",
+            claim:
+              "Waiting for Banks would have cost a month while the enemy reinforced.",
+          },
+          {
+            label: "Grant, ch. XXXIX",
+            claim:
+              "After the elections of 1862 a backward movement would have made the draft impossible to enforce.",
+          },
+          {
+            label: "Sherman, as Grant quotes him",
+            claim:
+              "The army could not be supplied over a single road and should stop until it had wagons.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Take the military reason alone; the political one was added later.",
+            feedback:
+              "Grant gives both in his memoirs; the retrospect in chapter XXXIX is written later, but the pressure of 1862 is a matter of record.",
+          },
+          {
+            text: "Read the decision as a military judgement about time, made under political pressure, which Sherman, on the spot, thought too risky.",
+            feedback:
+              "Sherman’s letter is evidence that the risk was real at the time, not obvious only in hindsight.",
+            best: true,
+          },
+          {
+            text: "Conclude that Grant was simply lucky.",
+            feedback:
+              "Grant’s account shows him checking the conditions: food in the country, ammunition carried, a short campaign.",
+          },
+        ],
+        campaignSlug: "vicksburg-campaign",
+      },
+      seminar: {
+        prompt:
+          "At Grand Gulf Grant could wait for Banks, return north, or cut loose. Argue the choice from three positions: Grant in May 1863, Sherman writing from Hankinson’s ferry, and a family on a Mississippi farm in the army’s path.",
+        guidance:
+          "Use Grant’s chapters XXX to XXXIX, Ballard and the Park Service. Say what the country could supply, who supplied it, and what the army could not do without.",
+      },
+      sources: [
+        s.grant34,
+        s.grant30,
+        s.grant32,
+        s.grant35,
+        s.grant36,
+        s.grant39,
+        s.ballard,
+        s.vicksburgSiege,
+        s.caveLife,
+        s.grant55,
+        s.britRussia,
       ],
     },
     {
@@ -893,5 +1657,5 @@ export const grantLeeVolume: LeadershipVolume = {
     },
   ],
   inProgress:
-    "This volume is being written. Lessons 0, 5 and 7 are published; the rest are added in reviewed batches.",
+    "This volume is being written. Lessons 0 to 3, 5 and 7 are published; the rest are added in reviewed batches.",
 };

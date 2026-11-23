@@ -2020,3 +2020,30 @@ What the batch changed in the evidence pass:
 - Lee is not listed among lesson 7's `people`, because shared volumes treat both commanders as the subject.
 
 Choices: no casualty or army figures; the wounded at Cold Harbor are described with Grant's words that almost all had died before they could be collected, without his number. The human cost in lesson 0 is Wesley Norris's account; in lesson 5, the town of Gettysburg as the Park Service describes it; in lesson 7, the wounded between the lines at Cold Harbor and the wounded burned in the Wilderness. Every page was read at the address cited; no scripted link check was run.
+
+## Leadership Lessons from Grant and Lee, batch G2: Grant in the West (23 November 2026)
+
+Lessons 1 to 3 of Volume 8, Part I: `unconditional-surrender` (Fort Donelson), `surprised-at-shiloh` (Shiloh) and `cutting-loose` (Vicksburg). Counter-cases: Oskar Potiorek in Serbia in 1914 (lesson 1), Gerd von Rundstedt in Normandy (lesson 2) and Napoleon in Russia in 1812 (lesson 3). The volume now has six of its thirteen lessons and stays listed as in progress.
+
+Sources read, as text or in the built-in browser:
+
+- Grant, _Personal Memoirs_, on Wikisource: chapters XXI and XXII (re-read: Halleck's rebuff, the telegram with Foote, the march, the breakout, the letters with Buckner), XXIII (Halleck's complaints, McClellan's order, Grant relieved and "virtually in arrest", restored on 13 March; the lost dispatches), XXIV and XXV (re-read: dispositions, the first day, the night order, the field of dead, Halleck taking the field), XXX (Holly Springs and Van Dorn's raid; the freedpeople and Chaplain Eaton), XXXII (the failed bayou approaches; running the batteries; Lincoln and Halleck standing by him), XXXIII (in the enemy's country with the river behind), XXXIV (Banks's letter, the decision to cut loose, Sherman's letter and Grant's reply, ammunition loaded on every vehicle, the abundance of the country), XXXV (moving east with no communications), XXXVI (Halleck's order of 11 May arriving too late; five days' rations in three weeks; the Yazoo base) and XXXIX (the retrospect: the elections of 1862, the draft, time worth more than reinforcements, the navy; relief to families at Jackson and Raymond); LV re-read for the assault of 22 May 1863.
+- Tennessee Encyclopedia: Cooling, "Fort Donelson"; McDonough, "Shiloh, Battle of" (re-read).
+- The 1911 Britannica, "American Civil War", §§ 7 and 9 (re-read).
+- National Park Service, Vicksburg National Military Park: "Vicksburg Siege" and "Cave life" (re-read).
+- Michael B. Ballard, "Civil War", Mississippi Encyclopedia (re-read, including its account of Union soldiers' treatment of civilians).
+- Dmitar Tasić, "Warfare 1914-1918 (South East Europe)", 1914-1918-online, in the browser (the 1914 invasions and the Kolubara counter-offensive). Britannica's "World War I: The Serbian campaign, 1914" was also opened but does not name Potiorek, and is not cited.
+- Imperial War Museums, "German response to D-Day", in the browser.
+- Britannica Editors, "Napoleonic Wars: France and northern Europe, 1809–12, and the Russian campaign", in the browser (re-read).
+
+Sayings and stories: Grant's reply to Buckner is quoted from his printed text ("No terms except an unconditional and immediate surrender can be accepted. I propose to move immediately upon your works."), and Buckner's "ungenerous and unchivalrous" from his printed reply; the decision at Grand Gulf is quoted from chapter XXXIV; Sherman's warning and Grant's answer are given as Grant prints them; the "avenues in a cemetery" and Mark Twain's informant reach the lesson through the Park Service. No banned saying appears.
+
+What the batch changed in the evidence pass:
+
+- Lesson 1's counter-case is Potiorek, as proposed; Britannica's Serbian campaign section does not name him, so the lesson rests on Tasić, who gives the "brief autumn stroll", Belgrade evacuated and the counter-offensive of 3 December against troops whose supply lines were over-stretched.
+- Lesson 1 adds a shadow the evidence pass had not planned: Grant's own account (chapter XXIII) of being relieved within three weeks of the victory, after Halleck's reports to Washington. It is Grant's side of the quarrel and is presented as such.
+- Lesson 2's counter-case is Rundstedt, as proposed, framed on the Imperial War Museums' account that he had no direct control over the armoured reserve and was told to retire by 1 July.
+- Lesson 3's counter-case is Napoleon in 1812; the Hannibal and Scipio volume's `over-the-alps` is linked in prose, not repeated. The assault of 22 May 1863, which Grant names beside Cold Harbor as one he regretted, is in the shadow.
+- Source check: a draft said Grant's ankle was "crushed" (Grant: very much injured; now "badly injured"); a draft called Buckner Grant's friend (Grant: they were well acquainted from West Point and the old army; now so stated); the failed assaults at Vicksburg now cite the Park Service page as well as Grant.
+
+Choices: no casualty or army figures; Grant's "four or five thousand stragglers" becomes "thousands", and his count of the Confederate garrison is not given. Grant's description of the field covered with dead at Shiloh is the cost of lesson 2, without numbers. The freedpeople at Grand Junction appear in lesson 3's cost, in Grant's words about the orders that forbade expelling them and the wages paid for harvesting. The psychology of all three lessons is `base: "none"`. Every page was read at the address cited; no scripted link check was run.

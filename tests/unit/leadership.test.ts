@@ -337,6 +337,9 @@ describe("the Grant and Lee volume", () => {
     expect(grantLeeVolume.inProgress).toBeTruthy();
     expect(grantLeeVolume.lessons.map((l) => l.slug)).toEqual([
       "how-to-read-grant-and-lee",
+      "unconditional-surrender",
+      "surprised-at-shiloh",
+      "cutting-loose",
       "the-third-day",
       "fight-it-out-on-this-line",
     ]);

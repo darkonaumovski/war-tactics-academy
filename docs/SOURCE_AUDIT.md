@@ -1987,3 +1987,36 @@ What the reading changed:
 Sites: approximate coordinates for Dover (Fort Donelson), Pittsburg Landing, the Chancellorsville crossroads, the Wilderness Tavern area, Spotsylvania Court House and Petersburg.
 
 Choices: no army, casualty or prisoner figures are given, although the sources supply many; ratios appear only as a named source states them (Hooker's double strength in the 1911 Britannica, Lee's two-to-one disadvantage at Petersburg in Greene). The human cost is stated in words: the wounded burned in the Wilderness, the Bloody Angle, the shelling of Petersburg's houses and its refugees, and the winter of hunger and desertion in Lee's lines. Slavery as the war's cause and the Lost Cause are left to Phase 0 and the lessons; the studies take no position on them beyond Meade's reported fear for the Colored division at the crater. Every page was read at the address cited; no scripted link check was run.
+
+## Leadership Lessons from Grant and Lee, batch G1: the pilot (23 November 2026)
+
+The pilot of Volume 8 under `docs/LEADERSHIP_GRANT_LEE_PROMPT.md`: lesson 0, `how-to-read-grant-and-lee` (the record), lesson 5, `the-third-day` (Lee at Gettysburg) and lesson 7, `fight-it-out-on-this-line` (Grant's persistence). The volume is listed as in progress at `/leadership/ulysses-s-grant/`, and Lee's profile leads to it. Counter-cases: Caesar's self-written record (lesson 0), Ludendorff's offensives of 1918 (lesson 5) and Haig on the Somme (lesson 7).
+
+Sources read, as text or in the built-in browser:
+
+- Grant, _Personal Memoirs_, on Wikisource: chapters XXV (Shiloh misunderstood; no full report; the Confederate councils of war), L (the burning woods in the Wilderness), LI (the move south and the cheering), LII (the letter to Halleck of 11 May 1864), LV (the assault of 3 June, the letters with Lee about the wounded between the lines, and "I have always regretted that the last assault at Cold Harbor was ever made"), LVI (the crossing of the James) and LXVII (the sword "the purest romance"; his judgement of the Confederate cause).
+- Lee's report of the Gettysburg campaign, 20 January 1864, on ExplorePAhistory.com (from the _Official Records_), and his letter to Jefferson Davis of 8 July 1863 on the American Battlefield Trust, both re-read for this batch; the Park Service's "Gettysburg Overview", re-read.
+- Arthur J. L. Fremantle, _Three Months in the Southern States_ (1864), Internet Archive scan: the preface and pp. 267–269.
+- John Esten Cooke, _A Life of Gen. Robert E. Lee_ (New York, 1871), Internet Archive scan: the Fredericksburg passage.
+- The declarations of secession of Mississippi (Avalon Project) and of Georgia, Mississippi, South Carolina and Texas (American Battlefield Trust).
+- National Park Service, Arlington House: "Robert E. Lee and Slavery" and "An Unpleasant Legacy" (Norris's account of 1866 as the Park Service quotes it; Lee's denial; Freeman and Pryor).
+- Encyclopedia Virginia: Piston, "James Longstreet"; Pryor, "Robert E. Lee"; Mertz, "Wilderness, Battle of the"; Greene, "Petersburg Campaign".
+- The 1911 Britannica on Wikisource: "Grant, Ulysses Simpson", "Lee, Robert Edward", "Wilderness".
+- Suetonius, _Julius_ 56 (J. C. Rolfe, Loeb, on LacusCurtius), re-read.
+- 1914-1918-online, in the browser: Alexander Watson, "German Spring Offensives 1918"; William Philpott, "Somme, Battles of".
+- Phillip Greenwalt, "They Called Grant a Butcher. But Can a Butcher Have Regrets?", American Battlefield Trust.
+- Sean Heuston (2014), _Journal of American Studies_, abstract only.
+- Psychology: Stefan Roth, Thomas Robbert and Lennart Straus, "On the sunk-cost effect in economic decision-making: a meta-analytic review", _Business Research_ 8(1) (2015, online 2014), abstract only, read in the browser on Springer.
+
+Sayings and stories: Grant's letter to Halleck is quoted as "purposed to fight it out on that line", from his text; the regret over Cold Harbor is quoted from chapter LV; Lee's words to Wilcox are quoted from Fremantle with his date and his admiration for the South stated; Cooke's "so terrible" is paraphrased with Cooke as reporter and the note that he names no hearer; the forged "duty" sentence is named and debunked without being quoted in its own wording, which the schema now rejects; Grant's remark about thinking of what they were going to do themselves is paraphrased with Mertz as reporter. "Butcher" is given only as a label Mertz and Greenwalt report, with the statement that its origin is not known from the sources read. No banned saying appears.
+
+What the batch changed in the evidence pass:
+
+- The escalation-of-commitment review planned for lesson 7 (Sleesman and others, 2012) could not be read: the publisher's page sits behind a bot check, and no abstract was available through other services. The lesson uses the open-access meta-analysis of the sunk-cost effect by Roth, Robbert and Straus instead, abstract only, with its limits stated: monetary costs in economic decisions, not lives in war.
+- Lee's report does mention a delay on 3 July: Longstreet's dispositions "were not completed as early as was expected". Lessons 0 and 5 give that sentence beside Piston's statement that Lee never criticised Longstreet, and present it as a record of delay without blame.
+- Lesson 5's counter-case is Ludendorff in 1918, from Watson, as the evidence pass proposed; it is framed as the same wager on a larger scale, made because time ran against Germany, so that the lesson can say why refusing to attack is not always safe either.
+- Lesson 7's counter-case is Haig on the Somme, from Philpott, who also argues that the battle shifted the war of attrition in the Allies' favour; both judgements are given. The Western Front volume's `the-ledger-of-learning` and the Hannibal volume's `the-delayer` are linked in prose.
+- A first draft of lesson 0 said Grant denied that Prentiss's division was captured in its beds; that is in chapter XXIV, which the lesson does not cite, and was replaced by his argument from the Confederate councils of war in chapter XXV. A draft phrase that the third day's attack "would meet a fully manned line" was removed as unsupported.
+- Lee is not listed among lesson 7's `people`, because shared volumes treat both commanders as the subject.
+
+Choices: no casualty or army figures; the wounded at Cold Harbor are described with Grant's words that almost all had died before they could be collected, without his number. The human cost in lesson 0 is Wesley Norris's account; in lesson 5, the town of Gettysburg as the Park Service describes it; in lesson 7, the wounded between the lines at Cold Harbor and the wounded burned in the Wilderness. Every page was read at the address cited; no scripted link check was run.

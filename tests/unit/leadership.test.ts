@@ -103,6 +103,7 @@ describe("leadership volumes", () => {
       "arthur-wellesley",
       "julius-caesar",
       "hannibal-barca",
+      "ulysses-s-grant",
     ]);
     for (const x of leadershipVolumes) {
       leadershipVolumeSchema.parse(x);
@@ -326,22 +327,19 @@ describe("the Hannibal and Scipio volume", () => {
 });
 
 describe("the Grant and Lee volume", () => {
-  it("stays unlisted and empty until its pilot ships", () => {
-    leadershipVolumeSchema.parse(grantLeeVolume);
-    for (const slug of [
-      grantLeeVolume.commanderSlug,
-      ...(grantLeeVolume.alsoCommanderSlugs ?? []),
-    ])
-      expect(
-        commanders.some((c) => c.slug === slug),
-        slug,
-      ).toBe(true);
+  it("is found from both commanders' profiles", () => {
     expect(grantLeeVolume.alsoCommanderSlugs).toEqual(["robert-e-lee"]);
+    expect(volumeForCommander("ulysses-s-grant")).toBe(grantLeeVolume);
+    expect(volumeForCommander("robert-e-lee")).toBe(grantLeeVolume);
+  });
+
+  it("lists its pilot lessons in curriculum order", () => {
     expect(grantLeeVolume.inProgress).toBeTruthy();
-    expect(grantLeeVolume.lessons).toEqual([]);
-    expect(leadershipVolumes).not.toContain(grantLeeVolume);
-    expect(volumeForCommander("ulysses-s-grant")).toBeUndefined();
-    expect(volumeForCommander("robert-e-lee")).toBeUndefined();
+    expect(grantLeeVolume.lessons.map((l) => l.slug)).toEqual([
+      "how-to-read-grant-and-lee",
+      "the-third-day",
+      "fight-it-out-on-this-line",
+    ]);
   });
 });
 

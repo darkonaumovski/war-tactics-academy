@@ -93,6 +93,8 @@ Grades: **strong** means the lesson's main claims and its counter-evidence are i
 
 ## Psychology to read in the batches
 
+Batch G1 note: the Sleesman review below could not be read (the publisher's page sits behind a bot check), so lesson 7 uses Roth, Robbert and Straus (2015), an open-access meta-analysis of the sunk-cost effect, abstract only.
+
 - Lesson 7: Sleesman, Conlon, McNamara and Miles (2012), "Cleaning Up the Big Muddy: A Meta-Analytic Review of the Determinants of Escalation of Commitment", _Academy of Management Journal_ 55(3). The abstract was not readable in this pass; the batch must read it (abstract only) before citing it, or use `base: "none"`.
 - Lesson 0: `base: "none"` unless a review on collective memory is found and read.
 - Lessons 2, 4 and 6: no candidate yet; propose in the batch or use `base: "none"`. The popular-psychology list in the Napoleon prompt stays excluded.

@@ -663,6 +663,35 @@ test("the Hannibal and Scipio volume lists all its lessons", async ({
     /\/leadership\/hannibal-barca\/the-meeting-at-zama\/$/,
   );
 });
+test("the Grant and Lee volume opens with its pilot lessons", async ({
+  page,
+}) => {
+  await page.goto("/leadership/ulysses-s-grant");
+  await expect(
+    page.getByText(
+      "Why did Grant win: persistence, the Union’s resources, Lee’s own choices, or does the record decide what we see?",
+      { exact: true },
+    ),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("heading", { name: "A volume in progress" }),
+  ).toBeVisible();
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(4);
+  await page.goto("/commanders/robert-e-lee");
+  await expect(
+    page.getByRole("link", { name: /Leadership Lessons from Grant and Lee/ }),
+  ).toBeVisible();
+  await page.goto("/battles/gettysburg");
+  await page.getByRole("link", { name: /The third day/ }).click();
+  await expect(page).toHaveURL(
+    /\/leadership\/ulysses-s-grant\/the-third-day\/$/,
+  );
+  await page.goto("/battles/spotsylvania");
+  await page.getByRole("link", { name: /Fight it out on this line/ }).click();
+  await expect(page).toHaveURL(
+    /\/leadership\/ulysses-s-grant\/fight-it-out-on-this-line\/$/,
+  );
+});
 test("the volumes are compared problem by problem", async ({ page }) => {
   await page.goto("/leadership");
   await page.getByRole("link", { name: /Compare the volumes/ }).click();

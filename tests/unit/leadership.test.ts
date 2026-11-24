@@ -105,6 +105,7 @@ describe("leadership volumes", () => {
       "julius-caesar",
       "hannibal-barca",
       "ulysses-s-grant",
+      "william-slim",
     ]);
     for (const x of leadershipVolumes) {
       leadershipVolumeSchema.parse(x);
@@ -328,16 +329,18 @@ describe("the Hannibal and Scipio volume", () => {
 });
 
 describe("the Slim volume", () => {
-  it("stays unlisted and empty until its pilot ships", () => {
-    leadershipVolumeSchema.parse(slimVolume);
-    expect(commanders.some((c) => c.slug === slimVolume.commanderSlug)).toBe(
-      true,
-    );
+  it("is found from Slim's profile", () => {
     expect(slimVolume.alsoCommanderSlugs).toBeUndefined();
+    expect(volumeForCommander("william-slim")).toBe(slimVolume);
+  });
+
+  it("lists its pilot lessons in curriculum order", () => {
     expect(slimVolume.inProgress).toBeTruthy();
-    expect(slimVolume.lessons).toEqual([]);
-    expect(leadershipVolumes).not.toContain(slimVolume);
-    expect(volumeForCommander("william-slim")).toBeUndefined();
+    expect(slimVolume.lessons.map((l) => l.slug)).toEqual([
+      "how-to-read-slim",
+      "the-army-that-expected-to-lose",
+      "fighting-at-the-end-of-his-line",
+    ]);
   });
 });
 

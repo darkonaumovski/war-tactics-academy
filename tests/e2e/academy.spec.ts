@@ -1281,3 +1281,33 @@ test("light theme maintains accessible contrast", async ({ page }) => {
     ).toEqual([]);
   }
 });
+
+test("the Slim volume opens with its pilot lessons", async ({ page }) => {
+  await page.goto("/leadership/william-slim");
+  await expect(
+    page.getByText(
+      "How do you rebuild an army that has learned to lose: by leadership, by means, through the enemy’s mistakes, or does the record decide what we see?",
+      { exact: true },
+    ),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("heading", { name: "A volume in progress" }),
+  ).toBeVisible();
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(4);
+  await page.goto("/commanders/william-slim");
+  await expect(
+    page.getByRole("link", { name: /Leadership Lessons from William Slim/ }),
+  ).toBeVisible();
+  await page.goto("/battles/admin-box");
+  await page
+    .getByRole("link", { name: /The army that expected to lose/ })
+    .click();
+  await expect(page).toHaveURL(
+    /\/leadership\/william-slim\/the-army-that-expected-to-lose\/$/,
+  );
+  await page.goto("/battles/singapore-1942");
+  await page.getByRole("link", { name: /Letting the enemy come/ }).click();
+  await expect(page).toHaveURL(
+    /\/leadership\/william-slim\/fighting-at-the-end-of-his-line\/$/,
+  );
+});

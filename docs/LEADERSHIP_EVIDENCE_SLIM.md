@@ -79,10 +79,10 @@ Grades: **strong** means the lesson's main claims and its counter-evidence are i
     - Lesson 1: Oskar Potiorek (`oskar-potiorek`, `cer`, `drina-1914`, `kolubara`), whose first defeat in Serbia was followed by a second invasion on the same lines.
     - Lesson 2: link the Serbian volume's `the-retreat-that-kept-an-army`; Napoleon's retreat from Moscow in prose for an army that did not survive its retreat.
     - Lesson 3: James Longstreet at Gettysburg (`james-longstreet`, `gettysburg`), a senior subordinate whose advice was overruled; link the Western Front's `what-reaches-the-top`.
-    - Lesson 4: Robert E. Lee's army in the winter of 1864–1865 (`robert-e-lee`, `petersburg`), whose morale could not survive without the means; link Wellington's `the-scum-of-the-earth` and Caesar's `my-soldiers`.
+    - Lesson 4: Robert E. Lee's army in the winter of 1864–1865 (`robert-e-lee`, `petersburg`), whose morale could not survive without the means; link Wellington's `the-scum-of-the-earth` and Caesar's `my-soldiers`. _Changed in batch B1:_ the lesson uses Wavell's further attack on Donbaik in March 1943 (`first-arakan`), which Kirby says was ordered in the hope that a victory might restore morale, because it tests the claim more directly and its sources were already read.
     - Lesson 5: the German Sixth Army at Stalingrad (`stalingrad`, with `erich-von-manstein`), told to stand and promised an airlift that could not supply it.
     - Lesson 6: link the Hannibal volume's `an-army-of-many-peoples`; a counter-case to be proposed in its batch.
-    - Lesson 7: link Grant's `surprised-at-shiloh`; Mutaguchi's own plan as the mirror.
+    - Lesson 7: link Grant's `surprised-at-shiloh`; Mutaguchi's own plan as the mirror. _Changed in batch B1:_ the counter-case is Singapore in February 1942 (`singapore-1942`), a defence that waited for the attacker without the air or supply to outlast it, from the RAF's official history.
     - Lesson 8: Isoroku Yamamoto at Midway (`isoroku-yamamoto`, `midway`), whose gamble was read by the enemy; link the Hannibal volume's `reading-the-consul`.
     - Lesson 9: link Wellington's `a-short-leash` and Caesar's `lieutenants`.
     - Lesson 10: Erwin Rommel at the end of the Axis line in North Africa (`erwin-rommel`, `el-alamein`); link Wellington's `allies-he-could-not-command` and the Western Front's `coordination-by-persuasion`.

@@ -416,6 +416,9 @@ describe("problems compared across volumes", () => {
         (p) => p.slug,
       ),
     ).toEqual(["adapting", "settlement"]);
+    expect(
+      problemsForLesson("ulysses-s-grant", "the-third-day").map((p) => p.slug),
+    ).toEqual(["stopping", "irreplaceable"]);
   });
 });
 

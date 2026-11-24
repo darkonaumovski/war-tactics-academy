@@ -305,8 +305,8 @@ export function LeadershipComparePage() {
       />
       <Heading
         eyebrow="ACROSS THE VOLUMES"
-        title="The same problem, seven records"
-        description="Napoleon, Alexander, the Serbian Supreme Command, the Western Front commanders Foch and Haig, Wellington, Caesar, and Hannibal and Scipio met some of the same problems. Each problem below sets the lessons that test it side by side, with their claims, strengths and shadows. A note reading across them is an interpretation drawn only from those lessons, and compares conditions, not commanders. Seven records cannot prove a rule either."
+        title="The same problem, eight records"
+        description="Napoleon, Alexander, the Serbian Supreme Command, the Western Front commanders Foch and Haig, Wellington, Caesar, Hannibal and Scipio, and Grant and Lee met some of the same problems. Each problem below sets the lessons that test it side by side, with their claims, strengths and shadows. A note reading across them is an interpretation drawn only from those lessons, and compares conditions, not commanders. Eight records cannot prove a rule either."
       />
       <nav aria-label="Problems">
         <ul className="compare-jump">

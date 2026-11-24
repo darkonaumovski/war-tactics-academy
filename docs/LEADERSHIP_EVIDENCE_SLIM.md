@@ -96,6 +96,7 @@ Grades: **strong** means the lesson's main claims and its counter-evidence are i
 - Lesson 4: Oliver and others (1999), abstract read: cohesion correlates with group performance in military samples, correlational and not causal; Maier and Seligman (2016), abstract read, as the caution in correction 3. A review of collective efficacy may be added if one is found and read.
 - Lesson 8: Sleesman and others (2012), abstract, to be re-read by the batch.
 - Lesson 0: `base: "none"` unless a review on autobiographical or collective memory is read.
+- Lesson 1: _added in batch B2:_ Mezulis and others (2004), abstract read on Europe PMC, on self-serving attribution, linking the Caesar volume's use of it rather than repeating it.
 - Other lessons: no candidate yet; propose in the batch or use `base: "none"`.
 
 ## Profile: proposal for a later batch

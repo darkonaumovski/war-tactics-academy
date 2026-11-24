@@ -1282,7 +1282,7 @@ test("light theme maintains accessible contrast", async ({ page }) => {
   }
 });
 
-test("the Slim volume opens with its pilot lessons", async ({ page }) => {
+test("the Slim volume opens with its published lessons", async ({ page }) => {
   await page.goto("/leadership/william-slim");
   await expect(
     page.getByText(
@@ -1293,7 +1293,7 @@ test("the Slim volume opens with its pilot lessons", async ({ page }) => {
   await expect(
     page.getByRole("heading", { name: "A volume in progress" }),
   ).toBeVisible();
-  await expect(page.getByRole("table").getByRole("row")).toHaveCount(4);
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(7);
   await page.goto("/commanders/william-slim");
   await expect(
     page.getByRole("link", { name: /Leadership Lessons from William Slim/ }),
@@ -1309,5 +1309,10 @@ test("the Slim volume opens with its pilot lessons", async ({ page }) => {
   await page.getByRole("link", { name: /Letting the enemy come/ }).click();
   await expect(page).toHaveURL(
     /\/leadership\/william-slim\/fighting-at-the-end-of-his-line\/$/,
+  );
+  await page.goto("/battles/gallabat");
+  await page.getByRole("link", { name: /The first defeat/ }).click();
+  await expect(page).toHaveURL(
+    /\/leadership\/william-slim\/the-first-defeat\/$/,
   );
 });

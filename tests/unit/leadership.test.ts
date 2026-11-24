@@ -334,10 +334,13 @@ describe("the Slim volume", () => {
     expect(volumeForCommander("william-slim")).toBe(slimVolume);
   });
 
-  it("lists its pilot lessons in curriculum order", () => {
+  it("lists its published lessons in curriculum order", () => {
     expect(slimVolume.inProgress).toBeTruthy();
     expect(slimVolume.lessons.map((l) => l.slug)).toEqual([
       "how-to-read-slim",
+      "the-first-defeat",
+      "the-long-retreat",
+      "sidelined",
       "the-army-that-expected-to-lose",
       "fighting-at-the-end-of-his-line",
     ]);

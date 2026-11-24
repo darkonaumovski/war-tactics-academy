@@ -1613,4 +1613,106 @@ export const scenarios: Scenario[] = [
       },
     ],
   },
+  {
+    slug: "after-the-first-day-at-shiloh",
+    title: "Cross the river, or attack in the morning?",
+    battleSlug: "shiloh",
+    commander: "Ulysses S. Grant",
+    situation:
+      "The evening of 6 April 1862, at Pittsburg Landing on the Tennessee River. At dawn your army was attacked in its unentrenched camps, many of your men still at their Sunday routines, and all day it has been driven back. A last line of artillery on the bluffs above the landing, with two gunboats, has stopped the final Confederate attacks. Rain is falling in torrents, and thousands of stragglers are sheltering under the river bluff.",
+    known:
+      "Three of your five divisions engaged were raw, and some regiments broke at the first fire; Prentiss’s division held its ground until it was surrounded. The line bent back all day but never broke. Lew Wallace’s division, ordered up in the morning, took a longer road and is only now arriving, and Buell’s Army of the Ohio is coming up to cross the river, though you cannot know how much of his army will be across by morning. At Fort Donelson two months ago you saw an enemy who had attacked and then fallen back prove more demoralised than your own men.",
+    unknown:
+      "Whether the Confederates will attack the landing again tonight or in the morning, and how disordered their own army is after a day of attacking through woods; that their commander, Albert Sidney Johnston, bled to death in the afternoon; and how your superiors and the newspapers will judge a day on which your camps were surprised.",
+    historical:
+      "Before the firing ceased, and before any of Buell’s troops had reached the field, Grant visited each division commander and ordered them to push forward at first light and engage the enemy as soon as found. Beauregard, in command after Johnston’s death, had chosen not to attack the landing that evening. On 7 April, with Wallace’s division and three of Buell’s on the field, the Union armies attacked along the whole line, and by evening the Confederates were retreating to Corinth. The recovery did not restore Grant’s standing: a few days later Halleck took command in the field, and Grant, nominally second in command, was ignored. His memoirs spend much of a chapter denying that his army was surprised; McDonough and the 1911 Britannica say it was.",
+    options: [
+      {
+        text: "Take the army back across the Tennessee under cover of night and the gunboats, and rebuild it on the far bank.",
+        feedback:
+          "A night crossing by a beaten army, in torrential rain, with thousands of stragglers under the bluff, would have given the Confederates the field, the camps and the initiative, and confirmed the verdict that the army had been routed. The bluffs and the gunboats made the last line strong enough to hold where it stood. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Hold the line at the landing and wait until Buell’s whole army is across before deciding what to do.",
+        feedback:
+          "The position was strong, but waiting would have left the next move to the Confederates and given them time to reorganise after a day that had disordered them too. Grant gave his order before he could know how much of Buell’s army would arrive in time; waiting for that certainty would have meant no attack on the 7th. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Order every division to push forward at first light and attack wherever the enemy is found, with Wallace and whatever of Buell’s army has crossed.",
+        feedback:
+          "This matches the historical decision. It worked because the reinforcements were under Union orders and arrived overnight, and because the Confederates had stopped. It did not excuse the surprise: the cost of that fell on the raw regiments overrun in their camps, and Grant’s own price was Halleck’s arrival in the field.",
+        historical: true,
+      },
+    ],
+  },
+  {
+    slug: "lee-on-the-evening-of-2-july",
+    title: "Attack again, or manoeuvre?",
+    battleSlug: "gettysburg",
+    commander: "Robert E. Lee",
+    situation:
+      "The evening of 2 July 1863, at Gettysburg in Pennsylvania. After Chancellorsville you carried the war north, to revive Confederate morale and relieve the pressure on Vicksburg. You had not meant to fight a general battle so far from your base unless attacked, but coming unexpectedly on the whole Union army you judged that withdrawing through the mountains with your long trains would be difficult and dangerous. Yesterday your army drove the Union troops back through the town. Today you attacked both their flanks: Longstreet’s corps fought through the Wheatfield and the Peach Orchard to the base of Little Round Top, and Ewell’s evening attack on Cemetery Hill and Culp’s Hill gained ground it could not hold.",
+    known:
+      "The Union army holds the high ground south of the town in a curved line, strengthened with entrenchments, that lets it move troops quickly to its weaker sections. Today’s fighting has won positions from which your artillery could support a renewed assault, and you believe that better coordination would bring success. Your cavalry under Stuart has been away on an expedition, with your approval, and you have been short of reliable information. Longstreet, your senior corps commander, urged after the first day that the army disengage, and he wants to move round the Union left. You know that the enemy can be reinforced and that your own army cannot, and that much of the Southern public, buoyed by Chancellorsville, expects a quick victory.",
+    unknown:
+      "That your batteries will nearly exhaust their ammunition in a preliminary cannonade and be unable to support the infantry when it advances; how little a bombardment will do to the Union position; and whether one more success would destroy the Union army or only drive it back.",
+    historical:
+      "Lee wrote in his report that the result of the day’s operations induced the belief that, with proper concert of action and with the support the artillery could now give from the positions gained, the army would ultimately succeed, and it was determined to continue the attack. On 3 July, after the Confederates nearly took Culp’s Hill, he overruled Longstreet’s efforts to move round the Union left and ordered an assault on the Union centre. After a long bombardment that did little to soften the position, Pickett’s division and Heth’s, under Pettigrew, advanced across open fields and were driven back. Arthur Fremantle heard Lee tell General Wilcox that all this had been his fault. The next day the army began its retreat to Virginia, and five days later Lee wrote to Davis that the enemy could easily be reinforced while no addition could be made to his own numbers.",
+    options: [
+      {
+        text: "Renew the attack in the morning, this time against the Union centre, with the artillery massed to prepare the way.",
+        feedback:
+          "This matches the historical decision. It rested on a reasonable reading of the day’s gains and on the hope of one more success, made by a commander whose boldness had beaten larger armies; it also rested on what Lee did not know, that his guns would be short of ammunition. The assault failed and spent men his army could not replace. After his death others blamed Longstreet for the defeat; Lee’s own report blamed no one.",
+        historical: true,
+      },
+      {
+        text: "Move the army round the Union left, towards Washington, and make the enemy attack you on ground of your choosing.",
+        feedback:
+          "Longstreet urged a move of this kind. It would have used the strength of the defensive and kept the army’s numbers, but it meant marching an army that lived off enemy country, with long trains and little information about the enemy, across the front of a Union army that could follow, entrench again or decline to attack. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Break off the battle and withdraw through the mountains to Virginia while the army is still whole.",
+        feedback:
+          "It would have preserved the army that could not be replaced, but it gave up the invasion’s aims after two days of heavy fighting without a result, and Lee had already judged a withdrawal with long trains through the mountains difficult and dangerous. He made the same retreat after the third day, with an army weakened by the assault. A counterfactual.",
+        historical: false,
+      },
+    ],
+  },
+  {
+    slug: "after-the-wilderness",
+    title: "Withdraw, or move south?",
+    battleSlug: "wilderness",
+    commander: "Ulysses S. Grant",
+    situation:
+      "7 May 1864, in the Wilderness in Virginia. You are general-in-chief of all the Union armies, travelling with Meade’s Army of the Potomac. On 4 May the army crossed the Rapidan into the tangled woods near the old Chancellorsville battlefield, and for two days it has fought Lee’s army there. Both armies now lie in their entrenchments. The woods caught fire during the fighting, and wounded men who could not move were suffocated or burned to death. This army’s soldiers have seen earlier commanders retreat after battles like this one.",
+    known:
+      "Your plan is for every Union army to advance at once, so that the Confederacy cannot move troops from a quiet front to a threatened one: Butler’s Army of the James is moving up the James towards Richmond and Petersburg, and Sherman is moving against Johnston’s army in Georgia. Lee’s army is outnumbered and cannot replace its losses as yours can. Lincoln, who fears defeat in the November election without a victory, has told you to seek out and destroy Lee’s army. Some of your officers fear what Lee will do next.",
+    unknown:
+      "Whether Lee will reach Richmond in time to turn on Butler; how many more battles it will take to bring Lee’s army to a position it cannot leave; and how long the government and the Northern public will bear the losses.",
+    historical:
+      "On the night of 7 May the army marched out of its lines and turned south, towards Spotsylvania Court House; Grant writes that the men cheered so loudly as the columns turned that the enemy must have taken it for a night attack. He told an officer who feared what Lee would do to go back to his command and think about what they were going to do themselves. His stated aims were to keep Lee from reaching Richmond in time to crush Butler, and to get between Lee’s army and its capital or draw it into the open. Four days later, from Spotsylvania, he wrote to Halleck that he purposed to fight it out on that line if it took all summer. The fighting went on at Spotsylvania, the North Anna and Cold Harbor, where Grant made an assault he later regretted and was called a butcher, and the campaign ended at Petersburg, where Lee had to defend a city and its railroads instead of manoeuvring.",
+    options: [
+      {
+        text: "Withdraw north across the Rapidan to refit the army, as earlier commanders did after such battles.",
+        feedback:
+          "It would have spared the army an immediate battle, but it would have given Lee the initiative to turn on Butler, eased the pressure the simultaneous advance was meant to keep on every Confederate army, and told the government and the soldiers that the new general-in-chief was one more commander who went back. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "March south by the left flank towards Spotsylvania Court House, to get between Lee and Richmond or draw him into the open.",
+        feedback:
+          "This matches the historical decision. Each movement south put Lee in a worse position and kept his army fighting until it could be besieged at Petersburg, which is the case for persistence as a strategy. But the battles on the way also showed persistence turning into frontal attacks on works that could not be carried, and Grant himself regretted the last assault at Cold Harbor.",
+        historical: true,
+      },
+      {
+        text: "Stay in the Wilderness and renew the attacks on Lee’s entrenchments until his line breaks.",
+        feedback:
+          "Lee could not replace his losses, but two days in woods that hid the enemy and caught fire had shown how much the ground favoured the defender, and attacks on entrenchments here would have spent men without moving the army towards anything. A counterfactual.",
+        historical: false,
+      },
+    ],
+  },
 ];

@@ -209,6 +209,36 @@ const s = {
     url: "https://www.iwm.org.uk/history/second-world-war/india",
     publisher: "Imperial War Museums",
   },
+  sleesman: {
+    title:
+      "Dustin Sleesman and others, Cleaning up the big muddy: a meta-analytic review of the determinants of escalation of commitment (2012), abstract",
+    url: "https://doi.org/10.5465/amj.2010.0696",
+    publisher: "Academy of Management Journal",
+  },
+  midway: {
+    title: "H-006-1: Midway overview",
+    url: "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-006/h-006-1.html",
+    publisher: "Naval History and Heritage Command",
+  },
+  romanusCommand5: {
+    title:
+      "Charles F. Romanus and Riley Sunderland, Stilwell’s Command Problems (Washington: Office of the Chief of Military History, 1956), ch. V: The Burma Campaign in the Balance (United States Army in World War II)",
+    url: "https://www.ibiblio.org/hyperwar/USA/USA-CBI-Command/USA-CBI-Command-5.html",
+    publisher: "HyperWar (ibiblio)",
+  },
+  kirby4: kirby(4, "The Reconquest of Burma", 1965),
+  leese: {
+    title:
+      "Oliver Leese, “Operations in Burma from 12th November, 1944, to 15th August, 1945”, despatch of 4 February 1947, Supplement to the London Gazette, no. 39195, 12 April 1951",
+    url: "https://www.thegazette.co.uk/London/issue/39195/data.pdf",
+    publisher: "The London Gazette",
+  },
+  ndbRommel: {
+    title:
+      "Sönke Neitzel, “Rommel, Eugen Johannes Erwin”, Neue Deutsche Biographie 22 (2005) (in German)",
+    url: "https://www.deutsche-biographie.de/sfz107896.html",
+    publisher: "Deutsche Biographie",
+  },
 } satisfies Record<string, Source>;
 
 export const slimVolume: LeadershipVolume = {
@@ -2132,6 +2162,683 @@ export const slimVolume: LeadershipVolume = {
         s.saunders,
         s.richardsSingapore,
       ],
+    },
+    {
+      slug: "the-enemys-gamble",
+      title: "The enemy’s gamble: Mutaguchi and the Fifteenth Army",
+      part: "The decisive battle",
+      themes: ["judgement", "adaptation"],
+      claim:
+        "When an opponent stakes an offensive on capturing what he lacks and on his enemy behaving as before, a commander who reads that gamble can make it fail, but the gamble’s failure belongs to the opponent as much as to him: it is lost also by the warnings its own side ignored.",
+      inBrief: {
+        strength:
+          "Slim built his battle around what the Japanese offensive needed most: speed, and the supplies it hoped to capture.",
+        shadow:
+          "He misjudged the force against Kohima, and much of the Japanese defeat was made inside the Japanese command.",
+      },
+      moment: {
+        text: "The Japanese offensive against Imphal was a year old before it began. Arakawa Kenichi, writing for Japan’s National Institute for Defense Studies, concludes that Lieutenant-General Renya Mutaguchi planned it in the spring of 1943, after the first Chindit expedition and his promotion to command the Fifteenth Army, and carried it out in the spring of 1944 without revision. Its primary objective was to protect Burma, but Mutaguchi added to it what Arakawa calls his ambitious dream, which made it unfeasible and beyond the army’s capacity. The army’s own postwar monograph records the plan’s arithmetic: about three weeks for the attack, three weeks’ rations, and success dependent on surprise. Kirby adds what the Japanese hoped for: a base in India with great propaganda value, a threat to the airlift to China, and perhaps a revolt in Bengal and Bihar.",
+        evidence: "fact",
+        refs: [
+          { source: 1 },
+          { source: 0, locator: "plan of the Imphal operation" },
+          { source: 2, locator: "ch. XXXII" },
+        ],
+      },
+      episodes: [
+        {
+          title: "What the gamble needed",
+          text: "The British knew what the offensive needed. In a telegram of 15 March 1944, Kirby records, Mountbatten told the Chiefs of Staff that the loss of the Imphal plain would give the Japanese two all-weather airfields and abundant supplies of food. Slim’s plan, set out in the lesson on letting the enemy come, was built to deny them: to withdraw to the plain, keep the bases, and fight where the attacker’s supply would fail first. Reading the enemy commander here meant knowing what he could not do without, not predicting his every move; the force sent against Kohima, a division where a detachment had been expected, shows how much of the detail was missed.",
+          evidence: "fact",
+          refs: [{ source: 2, locator: "ch. XIII" }],
+          battleSlugs: ["imphal-kohima"],
+        },
+        {
+          title: "Warnings from inside",
+          text: "The gamble was questioned on its own side as it began. When the Chindits landed behind the Fifteenth Army in March, the monograph records, the chief of staff of the 5th Air Division judged the threat so serious that he recommended reconsidering the Imphal operation, and some of the Fifteenth Army’s own staff urged postponement; Mutaguchi believed the landings were a diversion heralding a counter-attack and went on. The commander of the 33rd Division, Yanagida, reported that Imphal could not be taken within the scheduled three weeks and that the rainy season and the supply difficulties would end in tragedy. He was told to execute his orders, and Mutaguchi later bypassed him and worked through his chief of staff. The monograph itself suggests that Yanagida’s pessimism was influenced by a misunderstood report.",
+          evidence: "fact",
+          refs: [
+            {
+              source: 0,
+              locator: "the Wingate airborne invasion; 33d Division",
+            },
+          ],
+          battleSlugs: ["imphal-kohima", "operation-thursday"],
+        },
+        {
+          title: "Optimism above",
+          text: "The doubts reached Tokyo and were not heard. Kirby writes that on 15 May 1944, when Hata, returning to Tokyo from a tour of the southern fronts with grave doubts, began his report to Tojo by saying that the Imphal operations stood little chance of success, Tojo stopped him and changed the subject. On 5 June Kawabe, Mutaguchi’s superior, urged him to continue. The monograph records that when Mutaguchi himself reported on 26 June that withdrawal was necessary, the Burma Area Army at first urged him to go on, because no order to suspend had come from above; only then did Kawabe propose suspension, which Tokyo and the Southern Army approved, and the orders were issued on 4 July.",
+          evidence: "fact",
+          refs: [
+            { source: 2, locator: "ch. XXIV" },
+            { source: 0, locator: "withdrawal from Imphal" },
+          ],
+          battleSlugs: ["imphal-kohima"],
+        },
+        {
+          title: "Sato",
+          text: "The commander who broke the gamble’s rules has two records. Kirby writes that Sato, commanding the 31st Division at Kohima and extremely short of food and ammunition, urged from the middle of May to be allowed to withdraw to where his division could be supplied; Mutaguchi refused, saying Imphal was about to fall, and when Sato began to withdraw without permission at the end of May, Mutaguchi sanctioned it after the event. The Japanese monograph says that Sato arbitrarily abandoned Kohima against orders, and that when ordered in June to stop and rejoin the battle he argued that the army’s failure to supply his division made it impossible to comply; Mutaguchi asked for him to be disciplined and replaced. Kirby adds that Sato’s earlier refusal to send a regiment to Imphal, blamed by the Japanese for their failure, rested on fears that were in fact well founded.",
+          evidence: "fact",
+          refs: [
+            { source: 2, locator: "ch. XXIII, XXIV, XXV" },
+            { source: 0, locator: "withdrawal from Imphal" },
+          ],
+          battleSlugs: ["imphal-kohima"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Arakawa Kenichi",
+          stake:
+            "A historian at Japan’s National Institute for Defense Studies, writing in 2002 about why his country’s army undertook the operation.",
+          says: "Mutaguchi’s plan was carried out a year later without revision, and once it was failing neither he nor Kawabe could bring himself to halt it.",
+          refs: [{ source: 1 }],
+        },
+        {
+          who: "Former officers of the Japanese Fifteenth Army",
+          stake:
+            "Compilers of their army’s record for the American occupation authorities, after its destruction.",
+          says: "Sato arbitrarily abandoned Kohima; the airborne landings upset the army’s timetable.",
+          refs: [{ source: 0, locator: "withdrawal from Imphal" }],
+        },
+        {
+          who: "Lieutenant-General Yanagida, 33rd Division",
+          stake:
+            "A divisional commander reporting to Mutaguchi in March 1944, as the monograph paraphrases his message.",
+          says: "Imphal could not be taken in three weeks, and the rains and supply would end in tragedy.",
+          refs: [{ source: 0, locator: "33d Division" }],
+        },
+        {
+          who: "S. Woodburn Kirby",
+          stake:
+            "The British official historian, using Japanese as well as British records.",
+          says: "Tojo stopped the report that the operation had little chance; Sato’s fears were well founded.",
+          refs: [{ source: 2, locator: "ch. XXIII, XXIV" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "The strategist judges Slim’s reading by what he could know. He could not know the enemy’s exact routes or the force sent against Kohima, and he misjudged both. He could know the shape of the gamble: an army crossing mountains with three weeks’ supplies must win quickly and feed itself on what it captures. His plan answered the shape rather than the detail, and that made it robust to the details he got wrong. A reading of an opponent that rests on what the opponent cannot do without is harder to deceive than one that rests on predicting his moves.",
+          evidence: "interpretation",
+          refs: [
+            { source: 2, locator: "ch. XIII" },
+            { source: 0, locator: "plan of the Imphal operation" },
+          ],
+        },
+        {
+          text: "The defeat was also made inside the Japanese command. The air division, the army staff, a divisional commander and the officer who reported in Tokyo all saw the danger; the plan went on because the man who made it would not change it and those above him would not hear the doubt. Arakawa’s summary judgement is that Mutaguchi failed to notice, or took no interest in, the change in the British and Indian army during 1943. The Hannibal volume’s lesson on reading the consul shows a commander who won by understanding his opponent; Imphal shows a commander who lost by declining to.",
+          evidence: "interpretation",
+          refs: [
+            {
+              source: 0,
+              locator: "the Wingate airborne invasion; 33d Division",
+            },
+            { source: 2, locator: "ch. XXIV" },
+            { source: 1 },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Escalation of commitment, and its limits",
+          base: "contested",
+          text: "Persisting with a failing course one is responsible for has a name, escalation of commitment, and Sleesman and his colleagues reviewed its many proposed determinants and theories by meta-analysis. The Napoleon and Western Front volumes have already set out why the classic laboratory finding is less secure than its fame; that discussion is not repeated here. Arakawa’s own explanation is a historian’s, not a psychologist’s: he writes that Mutaguchi and Kawabe lost sound military judgement by expecting too much of success, together with their characters. The sources show the refusals directly, at each level; no label adds to them.",
+          evidence: "interpretation",
+          refs: [{ source: 3 }, { source: 1 }],
+          limit:
+            "Only the abstract of the meta-analysis was read, and it does not say which determinants matter most. The research concerns individuals in modern organisations and experiments, not commanders in war, and it is no basis for a judgement of character.",
+        },
+      ],
+      shadow: {
+        text: "Reading the enemy is easier in retrospect than it was in March 1944. Slim expected a detachment against Kohima and a division came; the 17th Division’s withdrawal began late. Much of what defeated the gamble was the gamble itself: an army sent across mountains on three weeks’ food, divisional commanders overruled, a pessimistic report cut short in Tokyo. The Japanese monograph, for its part, lays blame on Yanagida’s caution and Sato’s disobedience, which is the record of an army explaining its defeat by its subordinates. The victor’s reading and the loser’s record each have reasons to put the cause somewhere convenient.",
+        evidence: "interpretation",
+        refs: [
+          { source: 2, locator: "ch. XIII, XXIV" },
+          { source: 0, locator: "33d Division; withdrawal from Imphal" },
+        ],
+        battleSlugs: ["imphal-kohima"],
+      },
+      counterCase: {
+        text: "Midway, in June 1942, is the gamble read by its enemy, and even there the reading was partial. The U.S. Navy’s history office writes that Yamamoto based his plan on inadequate intelligence and an inaccurate understanding of American intent, assuming that demoralised Americans would have to be drawn out to fight, and that he refused to consider that his plan might be compromised. Nimitz, from code-breaking and other intelligence, knew the objective, the approximate timing and the approximate forces, but not that Yamamoto’s main body of battleships trailed several hundred miles behind the carriers. Reading the gamble gave the defender his chance; it did not win the battle by itself, and the reader did not see everything. The same was true of Slim at Imphal.",
+        evidence: "interpretation",
+        refs: [{ source: 4 }],
+        commanderSlug: "isoroku-yamamoto",
+        battleSlugs: ["midway"],
+      },
+      cost: {
+        text: "The gamble’s cost fell on the men who carried its three weeks’ food. The Japanese monograph records men not carrying the wounded set to hauling the guns because almost all the horses were dead, and the rains draining the strength of men already weak; Kirby writes that by June the 31st Division’s morale had cracked and its troops were throwing away their arms. Between May and the end of June, he notes, three Japanese divisional commanders were relieved in the middle of the battle. On the other side were the defenders of Imphal and Kohima and the people of the hills where the armies fought. No figure for the Fifteenth Army’s losses is given here.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "withdrawal from Imphal" },
+          { source: 2, locator: "ch. XXV" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "The opponent’s plan depends on something it lacks and hopes to take from you, and you can deny it.",
+          "You plan against what the opponent cannot do without, so that errors about the detail do not break the plan.",
+        ],
+        failsWhen: [
+          "The reading rests on predicting the opponent’s moves rather than his needs.",
+          "Credit for the opponent’s failure is taken without noticing how much of it was made inside his own organisation.",
+        ],
+        questions: [
+          "What does your competitor’s plan need that it does not yet have?",
+          "Who inside your own organisation has warned that your current plan will fail, and what happened to the warning?",
+          "How much of your last success was your rival’s mistake?",
+        ],
+      },
+      bearsOn:
+        "Imphal gives the third answer to the volume’s question its strongest evidence. The enemy’s mistakes were real and were made at every level, from the plan of 1943 to Tokyo’s refusal to hear doubt in 1944. But the mistakes could be punished only by an army that could stand and be supplied, and by a commander who planned against the gamble’s needs; the enemy’s mistakes and the rebuilt army are two halves of one result.",
+      questions: [
+        {
+          prompt:
+            "According to Arakawa, how did Mutaguchi’s plan of 1943 change before it was carried out in 1944?",
+          choices: [
+            "It was reduced to a limited raid.",
+            "It was carried out without revision.",
+            "It was rewritten by the Southern Army.",
+          ],
+          answer: 1,
+          explanation:
+            "Arakawa writes that the plan was executed a year later without any revision, and that neither Mutaguchi nor Kawabe could bring himself to halt it.",
+        },
+        {
+          prompt:
+            "What happened when Hata began his report to Tojo on 15 May 1944 by saying the Imphal operations stood little chance of success?",
+          choices: [
+            "Tojo ordered the operation halted.",
+            "Tojo stopped him and changed the subject.",
+            "Tojo sent reinforcements.",
+          ],
+          answer: 1,
+          explanation: "Kirby records the scene from Japanese sources.",
+        },
+        {
+          prompt:
+            "Why did Sato say he could not obey the order of June 1944 to rejoin the battle?",
+          choices: [
+            "He had been wounded.",
+            "The Fifteenth Army had failed to send his division supplies.",
+            "He had orders from Tokyo.",
+          ],
+          answer: 1,
+          explanation:
+            "The monograph calls his withdrawal arbitrary; Kirby records that Mutaguchi sanctioned it after the event.",
+        },
+      ],
+      sourceCheck: {
+        question: "Was Sato right to withdraw from Kohima?",
+        witnesses: [
+          {
+            label: "Japanese Monograph No. 134",
+            claim: "He arbitrarily abandoned Kohima against orders.",
+          },
+          {
+            label: "Sato, as the monograph reports him",
+            claim:
+              "The army’s failure to supply his division made obedience impossible.",
+          },
+          {
+            label: "Kirby, official history",
+            claim:
+              "He had urged withdrawal from mid-May for lack of food and ammunition; Mutaguchi sanctioned it after the event.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Accept the monograph, since it is the Japanese army’s own record.",
+            feedback:
+              "The monograph is the record of the army whose plan failed, and it has reasons to place the failure on a disobedient subordinate.",
+          },
+          {
+            text: "Read the order and the supply together: the order to hold was given to a division the army could not feed, and Kirby’s dates show the request came before the disobedience.",
+            feedback:
+              "Disobedience and its cause are both in the record; the question is which came first.",
+            best: true,
+          },
+          {
+            text: "Accept Sato’s argument, since the division was starving.",
+            feedback:
+              "His argument is reported by the monograph that condemns him; Kirby’s account supports the hunger but records the disobedience too.",
+          },
+        ],
+        battleSlug: "imphal-kohima",
+      },
+      seminar: {
+        prompt:
+          "Who lost the battle of Imphal for Japan? Argue it from three positions: Mutaguchi, Sato and Yanagida.",
+        guidance:
+          "Use Monograph No. 134 on the plan, the warnings and the withdrawal, Arakawa’s summary, and Kirby on Tokyo and on Sato. Say what each man knew of the army’s supplies when he decided.",
+      },
+      sources: [s.jm134, s.arakawa, s.kirby3, s.sleesman, s.midway],
+    },
+    {
+      slug: "the-subordinate-with-a-patron",
+      title: "The subordinate with a patron: Wingate and the Chindits",
+      part: "The decisive battle",
+      themes: ["organisation", "communication"],
+      claim:
+        "When a commander is given a subordinate with a direct line to the head of government and aims of his own, he must make use of him, but he can control him only by setting firm limits on what he is given, and the judgement of the experiment may outlast them both.",
+      inBrief: {
+        strength:
+          "Slim gave Wingate his operation, launched it when it was in doubt, and kept the decision on reinforcements to himself.",
+        shadow:
+          "The force absorbed men and aircraft from the main battle, and its value is still argued by every source that describes it.",
+      },
+      moment: {
+        text: "Slim did not choose to have Special Force. Kirby writes that at the Quadrant conference at Quebec in August 1943 the Prime Minister and the Chiefs of Staff, deeply impressed by Orde Wingate’s theories and claims, which seemed to offer a chance of success in a theatre where there had been none, decided to increase his long-range penetration brigades from two to six. Auchinleck, Commander-in-Chief in India, protested that the decision was uneconomical and unsound, since such forces alone could not win decisive results; his arguments, which Kirby says events proved sound, were rejected, and to find the men he had to break up his best-trained and only battle-experienced British division and take a brigade from the newly arrived African division. The force that resulted came under Slim’s Fourteenth Army.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "ch. XXXII" }],
+      },
+      episodes: [
+        {
+          title: "The terms",
+          text: "In January 1944 Wingate asked for four extra battalions to garrison his strongholds. Kirby finds no record of his meeting with Slim, but Slim’s messages that evening and two days later are clear: one battalion would be ready, three more would be trained, and the decision whether and when they were flown in would rest with Slim, on purely military grounds; “Wingate realizes this”. Wingate wrote to Mountbatten that Slim had agreed at once to put four battalions at his disposal. When Slim repeated his terms on 24 January, Wingate’s first inclination, Kirby writes, was to propose that the whole operation be called off; on reflection he withdrew his request.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "ch. XII" }],
+          battleSlugs: ["operation-thursday"],
+        },
+        {
+          title: "Aims that differed",
+          text: "Wingate’s aims went beyond his orders. Kirby records that when Mountbatten explained the Allied strategy for the defeat of Japan in February, Wingate was extremely upset, and Mountbatten wrote to him that his attitude arose from his own plans for a continental advance through Burma to Hanoi, which had never been in his directive. Romanus and Sunderland write that Wingate hoped to force the Japanese out of northern Burma before the monsoon, aims far different from Slim’s plan to lure them to Imphal. On 9 March, told that his reserve brigades might be diverted to IV Corps, Wingate flew to Slim intending to resign; instead he argued for one of them, and Slim promised it if the main front went well.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "ch. XII" }, { source: 3 }],
+          battleSlugs: ["operation-thursday"],
+        },
+        {
+          title: "Launching it, and losing him",
+          text: "On 5 March, as the first gliders were about to leave, photographs showed one landing ground obstructed. Kirby writes that the final decision lay with Slim, who judged that cancelling would throw his campaign plan out of gear and break his promise to Stilwell to cut the Japanese 18th Division’s communications, and that the obstruction did not necessarily mean the plan was known; the brigade went to the other ground. On 24 March Wingate was killed in an air crash, and Giffard records that he was succeeded by Lentaigne. The commander of the 16th Brigade later wrote, as Romanus and Sunderland quote him, that the orders Wingate had just given his brigadiers were unknown to his own headquarters.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "ch. XII" },
+            { source: 1, locator: "on Special Force" },
+            { source: 3 },
+          ],
+          battleSlugs: ["operation-thursday"],
+        },
+        {
+          title: "Four verdicts",
+          text: "The sources disagree on what the experiment achieved. Kirby writes that once his force was committed Wingate abandoned his own precepts, using his brigades as if they were normal formations, with the capture of Indaw airfield an obsession, and that under Stilwell the force was worn down until it became completely ineffective. Giffard found that the operations had less effect than he had hoped and did not prove commensurate with the manpower and material spent, while paying tribute to Wingate as that rare combination of the dreamer and the man of action. The Japanese monograph credits the landings with upsetting the Fifteenth Army’s timetable, keeping its headquarters from moving forward until late April and cutting the supply routes of two divisions. Romanus and Sunderland call it a great aid to Stilwell and write that the Japanese 18th Division’s supply was fundamentally compromised.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "ch. XXXII" },
+            { source: 1, locator: "para. 114; tribute to Wingate" },
+            { source: 2, locator: "results of Wingate invasion" },
+            { source: 3 },
+          ],
+          battleSlugs: ["operation-thursday"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "S. Woodburn Kirby",
+          stake:
+            "The British official historian, writing in 1961 with the records of the commands Wingate had criticised.",
+          says: "Auchinleck’s objections were proved sound, and Wingate abandoned his own precepts in action.",
+          refs: [{ source: 0, locator: "ch. XXXII" }],
+        },
+        {
+          who: "George Giffard",
+          stake:
+            "Slim’s superior, writing in June 1945 about a force he had hoped would help the main battle.",
+          says: "The results were not commensurate with the cost; Wingate was a rare combination of the dreamer and the man of action.",
+          refs: [{ source: 1, locator: "para. 114; tribute to Wingate" }],
+        },
+        {
+          who: "Former officers of the Japanese Fifteenth Army",
+          stake:
+            "Compilers of the record of the army the Chindits attacked from behind.",
+          says: "The airborne force upset the army’s timetable and eventually led to the abandonment of northern Burma.",
+          refs: [{ source: 2, locator: "results of Wingate invasion" }],
+        },
+        {
+          who: "Romanus and Sunderland",
+          stake:
+            "American official historians of Stilwell’s command, which the Chindits served.",
+          says: "The Chindits were a great aid to Stilwell; their aims were far different from Slim’s.",
+          refs: [{ source: 3 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Slim could not refuse the force, and he did not try to. He gave it a task that fitted his own plan, cutting the communications of the division facing Stilwell, and he kept to himself the decisions that mattered: whether reserve battalions went in, when the reserve brigades were released. On 5 March he took the risk of launching it, because cancelling would have broken his plan and his promise to an ally. The method for a subordinate with a patron is to use what he brings and put limits on what he can take; it worked as far as Slim’s own decisions reached.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "ch. XII" }],
+        },
+        {
+          text: "The limits did not reach everything. The decision that created the force was taken in Quebec over the heads of the commanders in India; Wingate told Mountbatten what Slim had not agreed; and his aims, a continental advance and northern Burma cleared before the monsoon, were not his commander’s. The patron’s decision cost the main army a battle-experienced division and, in Giffard’s words, an expenditure in manpower and material that the results did not repay. Whether the return was worth it is exactly where the sources divide, by nationality and by the command each served.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "ch. XII, XXXII" },
+            { source: 3 },
+            { source: 1, locator: "para. 114" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Wingate is the figure in this volume about whose health and temperament most stories are told, and the volume’s rules forbid drawing conclusions about command from them. None was traced to a source read for this lesson, and none is used. The lesson rests on what the documents show: the messages that set the terms, the letters in which Wingate described them differently, and the orders and verdicts that followed.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered and no personal report about Wingate is used; the lesson rests on the official histories, the despatch and the Japanese monograph.",
+        },
+      ],
+      shadow: {
+        text: "Slim’s limits held for his own decisions but not for the force’s fate. After Wingate’s death it passed to Stilwell, who used it as ordinary infantry through the monsoon, and Kirby records that malaria, exertion on short rations and exposure wore it down until it was completely ineffective. The official history that judges Wingate so severely was written from the records of the commands he had attacked in his letters, and his defenders’ case is represented in this lesson only by the American and Japanese assessments; no book by them was read. The lesson cannot settle the dispute, and it should not pretend to.",
+        evidence: "interpretation",
+        refs: [{ source: 0, locator: "ch. XII, XXXII" }],
+        battleSlugs: ["operation-thursday"],
+      },
+      counterCase: {
+        text: "On the Japanese side, a superior who did not set limits gave the subordinate his way. Arakawa writes that Mutaguchi’s plan went unrevised because his superior, Kawabe, kept a loose rein on him, and because Inada, the Southern Army’s vice chief of staff who had urged him to modify it, was moved; and that once the operation was failing neither man could bring himself to halt it. The Japanese monograph records that it was not until the end of June 1944 that Kawabe proposed suspending it. A subordinate with ambitions beyond his orders is dangerous in any army; Kawabe’s case shows what happens when the commander above him does not draw the lines Slim drew.",
+        evidence: "interpretation",
+        refs: [{ source: 4 }, { source: 2, locator: "withdrawal from Imphal" }],
+        battleSlugs: ["imphal-kohima"],
+      },
+      cost: {
+        text: "The experiment was paid for by the men who marched in it and by the army it was taken from. Auchinleck had to break up a trained division and strip other units of some of their best young officers and men to raise it. The Chindits fought through the monsoon on short rations, and Kirby records the malaria and exposure that wore them out. Japanese battalions were pulled from their divisions to hunt them. The country between the Irrawaddy and the railway was fought over for months, and no source read gives the account of the people who lived there.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "ch. XXXII" }, { source: 3 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "A subordinate brings resources and backing from above, and the leader gives him a task that serves the leader’s own plan.",
+          "The leader keeps the decisions that commit further resources, and puts them in writing.",
+        ],
+        failsWhen: [
+          "The subordinate’s aims differ from the organisation’s, and no one above him draws the line, as with Kawabe and Mutaguchi.",
+          "The leader’s limits cover only what he controls, while the patron’s decision has already taken what the main effort needed.",
+        ],
+        questions: [
+          "Who in your organisation has a direct line above you, and what do they want that you do not?",
+          "Which decisions about their resources have you kept, and have you put them in writing?",
+          "How will you judge the experiment afterwards, and who will judge it differently?",
+        ],
+      },
+      bearsOn:
+        "Wingate’s operation tests the second answer to the volume’s question from an awkward side. Means decided elsewhere came to Slim in a form he had not chosen: a force made by a Prime Minister’s enthusiasm, at the cost of his own army. Leadership here meant using what he was given without being used by it. The enemy’s monograph credits the operation more than the British official history does, which is a reminder that the record of a success depends on whose plan it served.",
+      questions: [
+        {
+          prompt:
+            "What terms did Slim set in January 1944 for the extra battalions Wingate wanted?",
+          choices: [
+            "Four battalions at Wingate’s disposal at once.",
+            "One battalion ready and three trained, with the decision whether and when to fly them in resting with Slim.",
+            "No battalions at all.",
+          ],
+          answer: 1,
+          explanation:
+            "Wingate wrote to Mountbatten that Slim had agreed to four; Slim’s own messages say otherwise.",
+        },
+        {
+          prompt:
+            "Why did Slim decide to launch the operation on 5 March despite the blocked landing ground?",
+          choices: [
+            "Wingate threatened to resign.",
+            "Cancelling would upset his campaign plan and break his promise to Stilwell, and the obstruction did not prove the plan was known.",
+            "Mountbatten ordered him to.",
+          ],
+          answer: 1,
+          explanation: "Kirby says the final decision lay with Slim.",
+        },
+        {
+          prompt:
+            "According to Arakawa, why did Mutaguchi’s plan go unrevised?",
+          choices: [
+            "Tokyo ordered it unchanged.",
+            "Kawabe kept a loose rein on him, and the staff officer who urged changes was moved.",
+            "The plan was perfect.",
+          ],
+          answer: 1,
+          explanation:
+            "Arakawa adds that neither man could bring himself to halt the operation when it was failing.",
+        },
+      ],
+      sourceCheck: {
+        question: "Did Operation Thursday help defeat the Japanese at Imphal?",
+        witnesses: [
+          {
+            label: "Giffard, despatch, 1945",
+            claim:
+              "It did not affect the launching of the offensive and had little effect on its communications.",
+          },
+          {
+            label: "Japanese Monograph No. 134",
+            claim:
+              "It upset the Fifteenth Army’s timetable and cut the supply routes of two of its divisions.",
+          },
+          {
+            label: "Kirby, official history, 1961",
+            claim:
+              "Wingate abandoned his precepts, and Auchinleck’s objections were proved sound.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Prefer the Japanese monograph, since the enemy knows best what hurt him.",
+            feedback:
+              "The monograph is strong evidence of effect, but a defeated army also has reasons to attribute its failure to a dramatic stroke rather than to its own plan.",
+          },
+          {
+            text: "Set the effect against the cost: the Japanese record shows real effect on their timetable and supply, while the British sources weigh it against the men and aircraft taken from the main battle; both can be true.",
+            feedback:
+              "The disagreement is partly about different questions: what the force did, and whether it was worth what it cost.",
+            best: true,
+          },
+          {
+            text: "Prefer Kirby, since the official history had all the records.",
+            feedback:
+              "Kirby had the records of the commands Wingate criticised; his judgement is evidence, not a verdict beyond dispute.",
+          },
+        ],
+        battleSlug: "operation-thursday",
+      },
+      seminar: {
+        prompt:
+          "Was Special Force worth what it cost? Argue it from three positions: Slim, Auchinleck and Stilwell.",
+        guidance:
+          "Use Kirby on Quebec, the January terms and the retrospect, Giffard’s verdict, the Japanese monograph and Romanus and Sunderland. Say who decided to create the force and who paid for it.",
+      },
+      sources: [s.kirby3, s.giffard, s.jm134, s.romanusCommand5, s.arakawa],
+    },
+    {
+      slug: "last-in-line",
+      title: "Last in line: allies, masters and means decided elsewhere",
+      part: "The decisive battle",
+      themes: ["organisation", "adaptation"],
+      claim:
+        "When a commander stands at the end of a coalition’s priorities, he can plan only with what he is sent, and means can be taken away at the decisive moment; he can still choose what to ask for and what to improvise, but a plan that outruns his means succeeds only if the means are found in time.",
+      inBrief: {
+        strength:
+          "His army improvised river fleets and air bases and made do with less than it needed, and when his plan outran his means the means were found.",
+        shadow:
+          "Aircraft were taken from him in mid-campaign by a decision made for China, and the cost fell on a division holding a bridgehead.",
+      },
+      moment: {
+        text: "On 10 and 11 December 1944, as the Fourteenth Army was advancing into central Burma, transport aircraft were removed to China. Leese, commanding Allied land forces, writes in his despatch that on Wedemeyer’s request, made because of the crisis in China, two Chinese divisions were flown out of Burma, and that a large number of transport aircraft, many of them already allotted to the Fourteenth Army’s maintenance, went with them. The advance depended more and more on air supply as it outran its land communications; the loss, Leese writes, curtailed its freedom of action, and Slim calculated that his army’s operations were retarded by at least two weeks.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "paras. 51–52" }],
+      },
+      episodes: [
+        {
+          title: "Whose aircraft, whose priorities",
+          text: "The aircraft were American and the decision was not Burma’s. Kirby records that when the British Chiefs of Staff protested that Wedemeyer had been given what amounted to a blank cheque on all American air forces in South-East Asia, the American Chiefs replied that keeping transport aircraft for South-East Asia Command’s future operations was not justified when their transfer seemed imperative to halt an approaching catastrophe in China, and reminded them that the integration of the British and American air forces in December 1943 had reserved the right to reassign units. Air Transport Command was not under Mountbatten at all. In April 1945 Marshall gave the assurance that no American aircraft would be moved before the fall of Rangoon or 1 June, whichever came first.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "ch. XI, XXVII" }],
+          battleSlugs: ["meiktila-mandalay"],
+        },
+        {
+          title: "Stilwell",
+          text: "The coalition in Burma was not one chain of command. Romanus and Sunderland print the draft Stilwell wrote for Mountbatten early in 1944, listing his roles: chief of staff to Chiang Kai-shek, commander of the American theatre, never formally appointed deputy to Mountbatten, and, in his words, “serving under Slim”. The same historians record that when Mountbatten asked to divert aircraft from the airlift to China for the Arakan battle, Stilwell refused his concurrence, because he understood that only a Japanese battalion was causing the trouble and could not justify the diversion to the Generalissimo. Saunders writes that Stilwell contrived in some mysterious fashion to combine the duties of a string of appointments.",
+          evidence: "fact",
+          refs: [{ source: 2 }, { source: 3, locator: "ch. XV" }],
+          battleSlugs: ["admin-box"],
+        },
+        {
+          title: "What was asked for",
+          text: "Some of what was asked for came back. Leese writes that he kept pressing, that Mountbatten sent his chief of staff to London to put the case in person, and that on 26 January 1945 word came that the transport aircraft would be not only made up but increased. Kirby records that two of the three squadrons lent to China returned at the end of January and that two Canadian squadrons arrived. Other means never came: Saunders writes that the plan to use the sea could not be carried out because the ships and landing craft were not available, and would not be until the liberation of Europe had been accomplished.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "Section IV" },
+            { source: 1, locator: "ch. XXXIII" },
+            { source: 3, locator: "ch. XV" },
+          ],
+          battleSlugs: ["meiktila-mandalay"],
+        },
+        {
+          title: "What was done without",
+          text: "The army planned within what it had and improvised the rest. Kirby writes that deliveries to the Fourteenth Army in March and April 1945 fell short of its full requirements, and that the shortage did not deter it: by improvisation it made do with what it got. A fleet of river craft was built on the upper Chindwin from material brought hundreds of miles along poor roads and from local material, which Kirby calls a fine piece of imaginative planning; new air bases supplied by sea were built at Akyab and Kyaukpyu, ready only just in time. To keep the advance on Rangoon supplied, Leese cut XV Corps in Arakan down to one division, which virtually ended its operations on the coast.",
+          evidence: "fact",
+          refs: [{ source: 1, locator: "ch. XXXIV" }],
+          battleSlugs: ["meiktila-mandalay", "rangoon-1945"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Oliver Leese",
+          stake:
+            "Slim’s superior as commander of Allied land forces, writing in 1947 about a campaign he had directed.",
+          says: "The removal of the aircraft curtailed the army’s freedom of action and retarded its operations by at least two weeks.",
+          refs: [{ source: 0, locator: "paras. 51–52" }],
+        },
+        {
+          who: "The American Chiefs of Staff, as Kirby reports them",
+          stake:
+            "The owners of the aircraft, weighing Burma against a crisis in China.",
+          says: "Keeping the aircraft for future operations in Burma was not justified when China faced catastrophe.",
+          refs: [{ source: 1, locator: "ch. XI" }],
+        },
+        {
+          who: "Joseph Stilwell, in a draft for Mountbatten",
+          stake:
+            "The American theatre commander, chief of staff to Chiang Kai-shek, explaining his position in 1944.",
+          says: "He held several posts at once, was not formally Mountbatten’s deputy, and was serving under Slim.",
+          refs: [{ source: 2 }],
+        },
+        {
+          who: "S. Woodburn Kirby",
+          stake: "The British official historian, writing in 1965.",
+          says: "The army made do with what it got, by improvisation.",
+          refs: [{ source: 1, locator: "ch. XXXIV" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "A commander last in line controls what he asks for, what he plans and what he improvises. Mountbatten and Leese did the asking, and some of it worked; the aircraft came back and more were promised. Slim’s part was the plan, and it did not stay within his means. Kirby writes that in December 1944, soon after the squadrons were lent to China, Slim changed his plan so that the major battle would be fought south of the Irrawaddy, outside the economic range of transport aircraft working from Imphal, which made new air bases and more aircraft essential; the supreme and land-force headquarters had to find them. The army then made do with what it got. The bold plan proved right, but it depended on others finding the means in time.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "paras. 51–52; Section IV" },
+            { source: 1, locator: "ch. XXXIV" },
+          ],
+        },
+        {
+          text: "The constraints were not unreasonable from where they were set. The Americans faced a crisis in China; Europe needed the landing craft; Stilwell’s first duty was to the Generalissimo. Wellington’s volume asks what a commander can do with allies he cannot command, and the Western Front volume how coordination is achieved by persuasion; Burma adds the case of a commander who was not the ally that mattered most. The lesson from the record is less about protest than about building a plan that survives the loss of what can be taken away.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "ch. XI" },
+            { source: 2 },
+            { source: 3, locator: "ch. XV" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Research on decision-making under scarcity, or on how organisations adapt to cuts, could bear on this lesson, but none was read for this volume. The sources show the adaptation directly, in what was built and what was given up.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered; the lesson rests on the despatch, the official histories and the American history.",
+        },
+      ],
+      shadow: {
+        text: "Making do had a price that the army’s pride in it can hide. Leese writes that because the aircraft were lost, the lower crossing of the Irrawaddy took place about fourteen days late, and the 19th Indian Division, already across the river north of Mandalay, had to hold its bridgehead against a greater concentration of the enemy for those fourteen days longer, in very bitter fighting with severe casualties. Improvisation also depended on others: the airfields on the Arakan coast were ready only just in time, and the coastal corps was stripped to feed the advance. An army that makes do is praised; the men who held the bridgehead paid for the making do.",
+        evidence: "interpretation",
+        refs: [
+          { source: 0, locator: "paras. 52–53" },
+          { source: 1, locator: "ch. XXXIV" },
+        ],
+        battleSlugs: ["meiktila-mandalay"],
+      },
+      counterCase: {
+        text: "Rommel, at the end of the Axis line in North Africa, chose the opposite. Sönke Neitzel’s article in the Neue Deutsche Biographie records that after taking Tobruk in June 1942, against the strong opposition of his superior Kesselring and of Mussolini, who wanted Malta taken first, he obtained from Hitler the order to pursue the apparently beaten British army at once. In July and September 1942 the British stopped his badly supplied forces at El Alamein, and the dream of an advance to the Nile and beyond failed, Neitzel writes, not least through Rommel’s serious operational error. A commander last in line who asks for the farthest objective rather than the means to reach it can win a great deal quickly and then lose it at the end of his supply.",
+        evidence: "interpretation",
+        refs: [{ source: 4 }],
+        commanderSlug: "erwin-rommel",
+        battleSlugs: ["el-alamein"],
+      },
+      cost: {
+        text: "The cost of the decisions made elsewhere was paid in Burma. The 19th Indian Division fought longer in its bridgehead because the aircraft were gone; the Fourteenth Army lived on less than its full requirements through the decisive months. The Chinese divisions flown back to China went to another war. The river craft and airfields were built by men whose part the sources record mostly as an achievement of planning. No figures for these costs are given here.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "paras. 51–53" },
+          { source: 1, locator: "ch. XXXIV" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "The plan’s demands are matched, in time, by resources others can be persuaded to provide, and the organisation improvises the rest.",
+          "Someone above argues the case for more, while the organisation improvises with what it has.",
+        ],
+        failsWhen: [
+          "The plan depends on resources that belong to someone with other priorities, without a fallback.",
+          "The leader asks for the farthest objective rather than the means to reach it, as Rommel did in 1942.",
+        ],
+        questions: [
+          "Which of your resources can be taken away by a decision made elsewhere, and what happens if they are?",
+          "What have you asked for, and who is arguing your case above you?",
+          "What could your team build or improvise if the next cut came tomorrow?",
+        ],
+      },
+      bearsOn:
+        "Last in line is the volume’s second answer, means, seen from below. The means that won in 1945 were real, but they were decided in Washington, London and Chungking, and could be taken away mid-campaign. What the commander controlled was the plan and the improvisation; Slim’s plan outran his means and succeeded because they were found in time, as Rommel’s in 1942 were not. At the end of the line, leadership and means cannot be separated.",
+      questions: [
+        {
+          prompt:
+            "By how much did Slim calculate that the removal of transport aircraft in December 1944 retarded his army’s operations?",
+          choices: ["Not at all.", "At least two weeks.", "Six months."],
+          answer: 1,
+          explanation:
+            "Leese records Slim’s calculation, and the 19th Division’s longer stand in its bridgehead.",
+        },
+        {
+          prompt:
+            "Why did the American Chiefs of Staff say the aircraft could be moved to China?",
+          choices: [
+            "Burma had been won.",
+            "Keeping them for future operations in Burma was not justified against an approaching catastrophe in China, and the air forces’ integration allowed reassignment.",
+            "Slim did not need them.",
+          ],
+          answer: 1,
+          explanation:
+            "Kirby records the exchange; Marshall later assured Mountbatten of the aircraft until Rangoon fell or 1 June.",
+        },
+        {
+          prompt:
+            "What did Rommel obtain from Hitler after taking Tobruk, according to Neitzel?",
+          choices: [
+            "Permission to take Malta first.",
+            "The order to pursue the British at once, against the opposition of Kesselring and Mussolini.",
+            "Reinforcements of fuel for a defensive stand.",
+          ],
+          answer: 1,
+          explanation: "His badly supplied forces were stopped at El Alamein.",
+        },
+      ],
+      seminar: {
+        prompt:
+          "Was Burma’s place at the end of the line a fair decision? Argue it from three positions: Slim, Wedemeyer and a commander of the 19th Indian Division in its bridgehead.",
+        guidance:
+          "Use Leese’s despatch, Kirby on the exchange between the Chiefs of Staff and on the improvisation, Romanus and Sunderland on Stilwell, and Saunders on the landing craft. Say who decided each priority and who paid for it.",
+      },
+      sources: [s.leese, s.kirby4, s.romanusCommand5, s.saunders, s.ndbRommel],
     },
   ],
   inProgress:

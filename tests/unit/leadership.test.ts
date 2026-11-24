@@ -345,6 +345,9 @@ describe("the Slim volume", () => {
       "stand-and-be-supplied",
       "whose-army",
       "fighting-at-the-end-of-his-line",
+      "the-enemys-gamble",
+      "the-subordinate-with-a-patron",
+      "last-in-line",
     ]);
   });
 });
@@ -455,7 +458,7 @@ describe("links from the rest of the site", () => {
     const slugs = lessonsForBattle("borodino").map((x) => x.lesson.slug);
     expect(slugs).toContain("the-last-reserve");
     expect(slugs).toContain("who-can-tell-you-no");
-    expect(lessonsForBattle("midway")).toEqual([]);
+    expect(lessonsForBattle("guadalcanal")).toEqual([]);
     expect(lessonsForBattle("cannae").map((x) => x.lesson.slug)).toEqual([
       "parmenions-advice",
       "celeritas",

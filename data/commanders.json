@@ -5249,12 +5249,12 @@
     "years": "1822–1885",
     "state": "United States",
     "eraId": "industrial",
-    "role": "General-in-chief; later president",
-    "summary": "Led Union victories in the western theater before taking overall command of Union armies in 1864.",
-    "approach": "Coordinated simultaneous pressure across theaters and sustained operations against Confederate armies and resources.",
-    "strength": "The Vicksburg campaign and cooperation with other commanders demonstrate operational flexibility.",
-    "limitation": "The Overland Campaign incurred severe casualties; Grant later regretted the assault at Cold Harbor.",
-    "legacy": "His military leadership helped defeat a rebellion founded on slavery; his presidency also involved Reconstruction and protection of civil rights.",
+    "role": "General-in-chief of the Union armies, 1864–1865; eighteenth president of the United States",
+    "summary": "An Ohio-born West Point graduate who had resigned from the army in 1854, he was clerking in his father’s store at Galena when the war began. He rose from colonel of the 21st Illinois to command in the West: in February 1862 he took Forts Henry and Donelson and demanded unconditional surrender, in April his army was surprised at Shiloh and held on, and in 1863 he took Vicksburg and lifted the siege of Chattanooga. Made lieutenant general and general-in-chief in March 1864, he travelled with Meade’s Army of the Potomac and fought Lee from the Wilderness to Petersburg, cutting its supply lines one by one until Lee’s lines broke in April 1865 and Lee surrendered at Appomattox. He served two terms as president and finished his memoirs four days before he died of throat cancer.",
+    "approach": "Took the initiative and kept it, moving before his superiors or the enemy expected: at Fort Donelson, and below Vicksburg, where he cut loose from his base and lived off the country for three weeks. As general-in-chief he gave the separate Union armies one plan, a simultaneous advance, so that the Confederacy could no longer move troops between threatened fronts. In Virginia he made Lee’s army, not Richmond, the objective and kept it fighting, moving south after each battle instead of withdrawing.",
+    "strength": "Greene finds his most important military attributes in seizing and holding the initiative, his grasp of the political nature of modern war and his moral courage, and writes that no one in uniform on either side had more influence on the war’s outcome. He kept Lincoln’s trust, chose Sherman and Sheridan where he could choose, and directed armies hundreds of miles apart while facing Lee in person, which the 1911 Britannica called the greatest proof of his powers as a general.",
+    "limitation": "His camps at Shiloh were unentrenched and his army was surprised, which his memoirs spend a chapter denying. He made frontal assaults he later regretted, at Vicksburg on 22 May 1863 and at Cold Harbor on 3 June 1864, and the losses of the Overland Campaign had him called a butcher. Travelling with Meade’s army left its commander with reduced authority, and several parts of his 1864 plan failed: Butler on the James, Sigel in the Shenandoah Valley and the move on Mobile.",
+    "legacy": "His memoirs, written to provide for his family after his partners’ frauds bankrupted him, are among the most admired military memoirs; they are also a commander’s answer to his critics. His presidency saw the Fifteenth Amendment adopted in 1870 and was damaged by the corruption of men close to him. Reports of his drinking followed him from 1854, and Greene finds no evidence that drinking ever affected his conduct on a battlefield. The Lost Cause explained his victory by Northern numbers alone, an argument Greene calls unpersuasive in view of Vicksburg and Chattanooga.",
     "battleSlugs": [
       "fort-donelson",
       "shiloh",
@@ -5264,55 +5264,88 @@
       "petersburg"
     ],
     "source": {
-      "title": "Ulysses S. Grant: Civil War biography",
-      "url": "https://www.loc.gov/exhibits/civil-war-in-america/biographies/ulysses-s-grant.html",
-      "publisher": "Library of Congress"
+      "title": "Ulysses S. Grant (1822–1885) — A. Wilson Greene",
+      "url": "https://encyclopediavirginia.org/entries/grant-ulysses-s-1822-1885/",
+      "publisher": "Encyclopedia Virginia, Virginia Humanities"
     },
     "editorialStatus": "concise-profile",
     "details": {
       "category": "Coalition and theater commander",
-      "titles": "Lieutenant general and commanding general of the U.S. Army (1864–1869); 18th President of the United States (1869–1877)",
+      "titles": "Colonel of the 21st Illinois Infantry and brigadier general (1861); major general (1862; in the regular army from 1863); lieutenant general and general-in-chief of the Union armies (March 1864); general (1866); 18th President of the United States (1869–1877)",
       "principalCommands": [
-        "Union forces in the western theater, 1861–1863",
+        "Command at Cairo, Illinois, and the expedition against Forts Henry and Donelson, 1861–1862",
+        "Army of the Tennessee, 1862–1863",
         "Military Division of the Mississippi, 1863–1864",
-        "All Union armies, 1864–1865"
+        "All Union armies, 1864–1865, travelling with the Army of the Potomac"
       ],
       "timeline": [
         {
           "date": "1822",
-          "event": "Born in Point Pleasant, Ohio"
+          "event": "Born Hiram Ulysses Grant at Point Pleasant, Ohio, on 27 April"
+        },
+        {
+          "date": "1843",
+          "event": "Graduates from West Point, twenty-first in a class of thirty-nine"
         },
         {
           "date": "1846–1848",
-          "event": "Serves in the Mexican–American War"
+          "event": "Serves in the Mexican War under Taylor and then Scott"
         },
         {
-          "date": "1862",
-          "event": "Takes Forts Henry and Donelson; battle of Shiloh"
+          "date": "1854",
+          "event": "Resigns his commission, amid reports of drinking"
+        },
+        {
+          "date": "1861",
+          "event": "Colonel of the 21st Illinois, then brigadier general; seizes Paducah and fights at Belmont"
+        },
+        {
+          "date": "February 1862",
+          "event": "Takes Fort Henry and Fort Donelson, demanding unconditional surrender"
+        },
+        {
+          "date": "April 1862",
+          "event": "Surprised at Shiloh; wins on the second day, then serves as Halleck’s second-in-command"
         },
         {
           "date": "1863",
-          "event": "Vicksburg surrenders on 4 July; victory at Chattanooga"
+          "event": "Vicksburg surrenders on 4 July; lifts the siege of Chattanooga in November"
         },
         {
-          "date": "1864",
-          "event": "Promoted lieutenant general; Overland Campaign"
+          "date": "March 1864",
+          "event": "Lieutenant general and general-in-chief of all Union armies"
+        },
+        {
+          "date": "May–June 1864",
+          "event": "Overland Campaign: the Wilderness, Spotsylvania, North Anna and Cold Harbor"
+        },
+        {
+          "date": "June 1864–April 1865",
+          "event": "Siege of Petersburg"
+        },
+        {
+          "date": "9 April 1865",
+          "event": "Lee surrenders to him at Appomattox Court House"
         },
         {
           "date": "1865",
-          "event": "Lee surrenders at Appomattox"
+          "event": "Insists that the government is bound by the Appomattox terms when Lee is threatened with indictment for treason"
         },
         {
-          "date": "1869",
-          "event": "Becomes president"
+          "date": "1869–1877",
+          "event": "President for two terms; the Fifteenth Amendment is adopted in 1870"
+        },
+        {
+          "date": "1884",
+          "event": "Bankrupted by the failure of Grant and Ward; begins writing for the Century Magazine"
         },
         {
           "date": "1885",
-          "event": "Dies after completing his memoirs"
+          "event": "Finishes his memoirs four days before his death on 23 July"
         }
       ],
-      "notableDecision": "In May 1863 he moved his army below Vicksburg, cut loose from a conventional supply line and defeated Confederate forces inland before besieging the city.",
-      "setback": "He was surprised at Shiloh in April 1862. The 1864 Overland Campaign, including Cold Harbor, brought very heavy casualties."
+      "notableDecision": "In May 1863, below Vicksburg, learning that Banks could not join him before 10 May, he cut loose from his base and lived off the country for about three weeks, with ammunition loaded on every vehicle he could collect. He took Jackson and beat Pemberton at Champion’s Hill and the Big Black before besieging the city; Halleck’s order to go back and join Banks reached him too late.",
+      "setback": "At Shiloh on 6 April 1862 his unentrenched camps were attacked while many of his men were at their Sunday routines, and his army was driven back to the river. It held, and won the second day with Buell’s divisions, but Halleck took command in the field and Grant was left without real command. On 3 June 1864 he ordered the assault at Cold Harbor, which he wrote twenty years later he had always regretted."
     }
   },
   {
@@ -5321,12 +5354,12 @@
     "years": "1807–1870",
     "state": "Confederate States",
     "eraId": "industrial",
-    "role": "General, Army of Northern Virginia",
-    "summary": "Commanded the Confederacy's principal army in the eastern theater of the American Civil War.",
-    "approach": "Frequently sought initiative and decisive engagements despite a constrained resource base.",
-    "strength": "Coordinated successful maneuvers at Second Manassas and Chancellorsville.",
-    "limitation": "Offensive choices brought costly losses; the Gettysburg campaign failed to achieve its strategic aims.",
-    "legacy": "Lee owned enslaved people and fought for a slaveholding Confederacy. Lost Cause mythology must be separated from historical assessment.",
+    "role": "Commander of the Confederate Army of Northern Virginia, 1862–1865; Confederate general-in-chief, 1865",
+    "summary": "Son of the Revolutionary cavalry leader Henry “Light-Horse Harry” Lee, he graduated second in his class at West Point in 1829, served as an engineer and on Winfield Scott’s staff in Mexico, and in 1859 led the marines who captured John Brown at Harpers Ferry. When Virginia seceded in April 1861 he resigned from the U.S. Army and took command of the state’s forces. Given the Army of Northern Virginia in June 1862, he drove McClellan from Richmond and beat Pope at Second Manassas, Burnside at Fredericksburg and Hooker at Chancellorsville, but his invasions of the North ended at Antietam and Gettysburg. In 1864 he held Grant through the Overland Campaign and for nearly nine months at Petersburg, until his lines broke and he surrendered at Appomattox on 9 April 1865. He was president of Washington College until his death in 1870.",
+    "approach": "Sought the initiative against larger armies by bold manoeuvre: he divided his army in the face of the enemy before Second Manassas and twice at Chancellorsville, and fought large offensive battles in the hope, Pryor writes, of destroying the enemy’s army or so discouraging Northerners that they would demand an end to the war. He combined manoeuvre with earthworks from the Seven Days onward, led conspicuously on the field, and was reluctant to send troops away from Virginia.",
+    "strength": "Pryor credits his bold tactical manoeuvres and inspirational leadership: his men looked up to him for his bearing, his courage on the field, his fair dealing and his willingness to share their hardships, and his hands-on leadership in 1864 is one reason he frustrated Grant’s powerful machine for so long. At Chancellorsville, against an army twice his size, he turned a vulnerable position into a brilliant tactical offensive.",
+    "limitation": "Critics, Pryor writes, have questioned his strategic judgement, his waste of lives in needless battles and his unwillingness to fight in the West. He spent an army he knew could not be replaced: he renewed the attack at Gettysburg on 3 July 1863, and five days later wrote to Davis that the enemy could easily be reinforced while no addition could be made to his own numbers. Chancellorsville cost him Jackson, and at Petersburg his lines fixed his army in place while hunger and desertion emptied them.",
+    "legacy": "He fought for a Confederacy founded to keep slavery. As executor of his father-in-law’s will he held the Custis slaves for the five years it allowed and sought to keep them longer; Wesley Norris testified in 1866 that Lee had him, his sister and a cousin whipped after they ran in 1859. Lee privately denied it, his best-known biographer dismissed it as libel, and Pryor, in 2007, judged Norris’s account true. After the war he counselled acceptance in public and privately opposed the enfranchisement of African Americans. He wrote no memoir; after his death Jubal Early and others blamed Longstreet for Gettysburg and made Lee the stainless hero of the Lost Cause.",
     "battleSlugs": [
       "chancellorsville",
       "gettysburg",
@@ -5335,55 +5368,103 @@
       "petersburg"
     ],
     "source": {
-      "title": "Robert E. Lee and Slavery",
-      "url": "https://www.nps.gov/arho/learn/historyculture/robert-e-lee-and-slavery.htm",
-      "publisher": "National Park Service"
+      "title": "Robert E. Lee (1807–1870) — Elizabeth Brown Pryor",
+      "url": "https://encyclopediavirginia.org/entries/lee-robert-e-1807-1870/",
+      "publisher": "Encyclopedia Virginia, Virginia Humanities"
     },
     "editorialStatus": "concise-profile",
     "details": {
       "category": "Field commander",
-      "titles": "General; commander of the Confederate Army of Northern Virginia (1862–1865); Confederate general-in-chief (1865)",
-      "principalCommands": ["Army of Northern Virginia, 1862–1865"],
+      "titles": "Colonel of the 1st U.S. Cavalry (March 1861); commander of Virginia’s forces (April 1861); general in Confederate service (1861); commander of the Army of Northern Virginia (1862–1865); general-in-chief of the Confederate armies (February 1865)",
+      "principalCommands": [
+        "Confederate forces in western Virginia, 1861",
+        "Coastal fortifications of the Carolinas and Georgia, 1861–1862",
+        "Army of Northern Virginia, 1862–1865"
+      ],
       "timeline": [
         {
           "date": "1807",
-          "event": "Born in Virginia"
+          "event": "Born at Stratford Hall, Westmoreland County, Virginia, on 19 January"
         },
         {
-          "date": "1846–1848",
-          "event": "Serves in the Mexican–American War"
+          "date": "1829",
+          "event": "Graduates second in his class at West Point and joins the Corps of Engineers"
+        },
+        {
+          "date": "1831",
+          "event": "Marries Mary Anna Randolph Custis, great-granddaughter of Martha Washington"
+        },
+        {
+          "date": "1847",
+          "event": "Serves on Winfield Scott’s staff in Mexico, at Vera Cruz, Cerro Gordo and Chapultepec"
+        },
+        {
+          "date": "1852–1855",
+          "event": "Superintendent of West Point"
+        },
+        {
+          "date": "1857",
+          "event": "Becomes executor of G. W. P. Custis’s will and manager of the Custis slaves at Arlington"
         },
         {
           "date": "1859",
-          "event": "Leads the force that captures John Brown at Harpers Ferry"
+          "event": "Wesley Norris, his sister and a cousin are whipped after running from Arlington; in October Lee leads the marines at Harpers Ferry"
         },
         {
-          "date": "1861",
-          "event": "Resigns his U.S. commission and joins the Confederacy"
+          "date": "April 1861",
+          "event": "Resigns from the U.S. Army after Virginia secedes and takes command of its forces"
         },
         {
-          "date": "1862",
-          "event": "Takes command of the Army of Northern Virginia; Seven Days, Second Manassas and Antietam"
+          "date": "September 1861",
+          "event": "Defeated at Cheat Mountain in western Virginia"
         },
         {
-          "date": "1863",
-          "event": "Chancellorsville; defeated at Gettysburg"
+          "date": "June 1862",
+          "event": "Takes command of the Army of Northern Virginia; the Seven Days’ Battles"
         },
         {
-          "date": "1864–1865",
-          "event": "Siege of Petersburg"
+          "date": "August–December 1862",
+          "event": "Second Manassas, Antietam and Fredericksburg"
+        },
+        {
+          "date": "29 December 1862",
+          "event": "Executes the deed freeing the people enslaved on the Custis estates"
+        },
+        {
+          "date": "May 1863",
+          "event": "Chancellorsville; Jackson is mortally wounded by his own men"
+        },
+        {
+          "date": "July 1863",
+          "event": "Defeated at Gettysburg"
+        },
+        {
+          "date": "May–June 1864",
+          "event": "Overland Campaign against Grant"
+        },
+        {
+          "date": "June 1864–April 1865",
+          "event": "Holds the lines of Petersburg and Richmond"
+        },
+        {
+          "date": "February 1865",
+          "event": "General-in-chief of the Confederate armies; supports enlisting enslaved men"
+        },
+        {
+          "date": "9 April 1865",
+          "event": "Surrenders at Appomattox Court House"
         },
         {
           "date": "1865",
-          "event": "Surrenders at Appomattox"
+          "event": "Becomes president of Washington College, Lexington"
         },
         {
           "date": "1870",
-          "event": "Dies"
+          "event": "Dies at Lexington on 12 October"
         }
       ],
-      "notableDecision": "On 3 July 1863 at Gettysburg he ordered the massed assault on the Union center later known as Pickett's Charge.",
-      "setback": "His invasions of the North ended at Antietam (1862) and Gettysburg (1863). He fought for a Confederacy founded to preserve slavery, a context central to assessing his career."
+      "notableDecision": "At Chancellorsville in May 1863, facing an army twice his size already on his flank, he left a division to watch Sedgwick at Fredericksburg and then divided again, sending Jackson’s corps on a long march round the Union right while two divisions held Hooker in front. Jackson’s attack rolled up the Union flank and Hooker’s army recrossed the river, but Jackson was wounded by his own men and died.",
+      "setback": "At Gettysburg on 3 July 1863 he renewed the attack with a massed assault on the Union centre, which was repulsed; Arthur Fremantle heard him tell General Wilcox that all this had been his fault. Five days later he wrote to Davis that the enemy could be reinforced and his own army could not."
     }
   },
   {
@@ -5393,11 +5474,11 @@
     "state": "United States",
     "eraId": "industrial",
     "role": "Army commander; later commanding general",
-    "summary": "Served with Grant in the western theater, then led the Atlanta campaign and the March to the Sea.",
+    "summary": "Supported Grant at Forts Henry and Donelson, commanding a division at Shiloh and a corps at Vicksburg, then succeeded him in the West in 1864, took Atlanta in September and marched to the sea and north through the Carolinas, where Johnston surrendered to him in April 1865.",
     "approach": "Targeted Confederate transport, supplies and capacity to sustain the war while maneuvering large armies.",
-    "strength": "Linked campaigning to the opponent's wider economic and logistical system.",
-    "limitation": "Operations inflicted extensive civilian hardship; later campaigns against Indigenous peoples remain central to evaluating his career.",
-    "legacy": "His campaigns helped end the Confederacy, while debate continues about the scope and consequences of destructive warfare.",
+    "strength": "Linked campaigning to the opponent’s wider economic and logistical system. His manoeuvres pushed Johnston back to Atlanta, and its capture in September 1864, Britannica writes, restored Northern morale and helped secure Lincoln’s re-election.",
+    "limitation": "Learned command by degrees: at Bull Run his brigade attacked piecemeal, and at Shiloh his division was surprised; his assault at Kennesaw Mountain failed. He cleared Atlanta of its civilians, and his marches destroyed railroads and supplies across Georgia and the Carolinas. After the war he ordered in 1868 that Cheyennes and Arapahos who made war be punished as a whole tribe, and as commanding general he oversaw, the Library of Congress writes, the forced and violent removal of Native peoples from the Plains into reservations.",
+    "legacy": "His campaigns helped end the Confederacy. Britannica calls the March to the Sea generally regarded as the first use of total war in the modern era, and the Park Service notes that historians contend his policies brought a swifter end to the war; debate continues about the scope and consequences of destructive warfare, and his postwar command is central to evaluating his career.",
     "battleSlugs": ["shiloh", "vicksburg", "atlanta-campaign"],
     "source": {
       "title": "William Tecumseh Sherman",
@@ -5407,7 +5488,7 @@
     "editorialStatus": "concise-profile",
     "details": {
       "category": "Field commander",
-      "titles": "Major general; commander of the Military Division of the Mississippi (1864–1865); commanding general of the U.S. Army (1869–1883)",
+      "titles": "Major general; commander of the Military Division of the Mississippi (1864–1865); commander of the Military Division of the Missouri (in 1868); commanding general of the U.S. Army (1869–1883)",
       "principalCommands": [
         "Atlanta campaign, 1864",
         "March to the Sea and Carolinas campaign, 1864–1865"
@@ -5419,31 +5500,35 @@
         },
         {
           "date": "1861",
-          "event": "Brigade command at First Bull Run; relieved in Kentucky"
+          "event": "Brigade command at First Bull Run; relieved in Kentucky after demanding reinforcements on a scale that alarmed his superiors"
         },
         {
           "date": "1862",
-          "event": "Division command at Shiloh"
+          "event": "Division command at Shiloh, where his camps are surprised; promoted major general"
         },
         {
           "date": "1863",
-          "event": "Vicksburg and Chattanooga campaigns"
+          "event": "Commands a corps in the Vicksburg campaign; Chattanooga"
         },
         {
           "date": "1864",
-          "event": "Takes Atlanta on 2 September; marches to Savannah"
+          "event": "Takes Atlanta on 2 September; clears the city of civilians and marches to Savannah"
         },
         {
           "date": "1865",
-          "event": "Carolinas campaign; Johnston surrenders at Bennett Place"
+          "event": "Carolinas campaign; Johnston surrenders to him on 26 April"
+        },
+        {
+          "date": "1868",
+          "event": "Orders that Cheyennes and Arapahos who make war be punished as a whole tribe"
         },
         {
           "date": "1869–1883",
-          "event": "Commanding general during the wars against Plains nations"
+          "event": "Commanding general of the army during the removal of Plains peoples to reservations; retires in 1884"
         },
         {
           "date": "1891",
-          "event": "Dies"
+          "event": "Dies in New York"
         }
       ],
       "notableDecision": "In November–December 1864 he left Atlanta without a secure supply line, living off the country and deliberately destroying economic resources across Georgia.",

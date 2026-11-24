@@ -10,6 +10,7 @@ import { wellingtonVolume } from "../../data/leadership/arthur-wellesley";
 import { caesarVolume } from "../../data/leadership/julius-caesar";
 import { hannibalScipioVolume } from "../../data/leadership/hannibal-barca";
 import { grantLeeVolume } from "../../data/leadership/ulysses-s-grant";
+import { slimVolume } from "../../data/leadership/william-slim";
 import { battles, campaigns } from "../../data/catalog";
 import commanders from "../../data/commanders.json";
 import {
@@ -326,6 +327,20 @@ describe("the Hannibal and Scipio volume", () => {
   });
 });
 
+describe("the Slim volume", () => {
+  it("stays unlisted and empty until its pilot ships", () => {
+    leadershipVolumeSchema.parse(slimVolume);
+    expect(commanders.some((c) => c.slug === slimVolume.commanderSlug)).toBe(
+      true,
+    );
+    expect(slimVolume.alsoCommanderSlugs).toBeUndefined();
+    expect(slimVolume.inProgress).toBeTruthy();
+    expect(slimVolume.lessons).toEqual([]);
+    expect(leadershipVolumes).not.toContain(slimVolume);
+    expect(volumeForCommander("william-slim")).toBeUndefined();
+  });
+});
+
 describe("the Grant and Lee volume", () => {
   it("is found from both commanders' profiles", () => {
     expect(grantLeeVolume.alsoCommanderSlugs).toEqual(["robert-e-lee"]);
@@ -637,6 +652,22 @@ describe("the leadership lesson schema", () => {
       "Cooke, in 1871, has Lee murmur: It is well this is so terrible! we should grow too fond of it!",
       "Fremantle heard Lee tell Wilcox: all this has been my fault.",
       "Grant demanded no terms except an unconditional and immediate surrender.",
+    ])
+      expect(accepts({ bearsOn: text }), text).toBe(true);
+  });
+
+  it("excludes the Slim volume's untraced and unattributed sayings and the wartime slur", () => {
+    for (const text of [
+      "When you go home, tell them of us and say, for your tomorrow we gave our today.",
+      "As Slim put it, leadership is just plain you.",
+      "The Japs had cut the road.",
+    ])
+      expect(accepts({ bearsOn: text }), text).toBe(false);
+    // The traced forms, with their authors, stay allowed.
+    for (const text of [
+      "John Maxwell Edmonds wrote: When you go home, tell them of us and say, For your tomorrows these gave their today.",
+      "The Japanese had cut the road to Kohima.",
+      "Slim recalled that he had taken counsel of his fears.",
     ])
       expect(accepts({ bearsOn: text }), text).toBe(true);
   });

@@ -172,6 +172,12 @@ const excludedInLessons: [RegExp, string][] = [
   [/propose to fight it out/i, "misquotation: Grant wrote “purpose”"],
   [/well that war is so terrible/i, "later form of Cooke’s report"],
   [/it[’']?s all my fault/i, "later form of Fremantle’s report"],
+  [
+    /^(?![\s\S]*edmonds)[\s\S]*tell them of us/i,
+    "Kohima Epitaph without its author",
+  ],
+  [/leadership is (just )?plain you/i, "untraced saying"],
+  [/\bjaps?\b/i, "wartime slur"],
   [/no (more )?worlds (left )?to conquer/i, "distorted saying"],
   [
     /narcissis|psychopath|sociopath|megalomania|bipolar|alcoholi(c|sm)|paranoi(a|d)|dark triad/i,

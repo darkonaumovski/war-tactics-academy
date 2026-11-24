@@ -2140,3 +2140,15 @@ Sayings: Lincoln's "I can't spare this man; he fights" and Grant's description o
 Corrections to the earlier profiles: Grant's legacy line on the protection of civil rights was supported by no source read and is replaced with the Fifteenth Amendment (1911 Britannica) and the corruption of his administration (Library of Congress, Greene, 1911). Sherman's line on the wars against the Plains nations had no source; it now cites the Washita page and the Library of Congress guide. Draft wording narrowed: Sherman's relief in Kentucky is given without the 1911 article's troop figure; Lee's lieutenants' objections at Gettysburg, which Pryor reports, are left out, and the setback keeps to Lee's report and Fremantle; Grant's command at Cairo is not given the name "District of Cairo", which no source read uses.
 
 The profile count stays at 128. Every page was read at the address cited; no scripted link check was run, and the Encyclopedia Virginia and Britannica pages refuse scripted requests.
+
+## Commander profiles: Meade, Jackson, Longstreet and Sheridan, from the Leadership Lessons (24 November 2026)
+
+The last profile proposal of the Grant and Lee volume: four figures its lessons discuss without profiles of their own. 128 → 132 profiles. The sources and their limits are tabulated in `docs/COMMANDER_SOURCES.md`.
+
+Read for this batch: Encyclopedia Virginia, "George Gordon Meade (1815–1872)" by Ethan S. Rafuse, "Thomas J. 'Stonewall' Jackson (1824–1863)" and "James Longstreet (1821–1904)" by William Garrett Piston, and "Battle of Five Forks" by Peter C. Luebke, all in the built-in browser, because the site refuses scripted requests; Britannica's "Philip H. Sheridan" by its editors, in the browser; and the 1911 Britannica's "Meade, George Gordon", "Jackson, Thomas Jonathan", "Longstreet, James" and "Sheridan, Philip Henry" on Wikisource. The Park Service's Washita page and the Library of Congress guide on the Indian Wars, read for the previous batch, carry Sheridan's postwar command. Piston's two entries were previously read for the volume's lessons. All in English.
+
+Sayings: none is quoted. Bee's "stone wall" words, Lee's message about losing his right arm, Jackson's reported last words, Rafuse's unattributed "goggled eyed snapping turtle" and Lee's "old war horse" as a quotation are left out; the profile says only that Lee called Longstreet his old war horse, which Piston reports. Sherman's 1868 order is given as the Park Service prints it.
+
+Corrections and narrowing in the drafts: Meade's command of the Fifth Corps is dated to the winter of 1862–1863, not 1863; Longstreet's West Point classmates are not named, because Piston's timeline lists Grant and Pickett, who graduated in other years; Sheridan's 1868–1869 campaign is described without Britannica's "successful" or the 1911 article's "defeat and surrender". No casualty or army figures, and no count of the people Jackson enslaved, are given.
+
+Checks: the people-link test requires each named profile to exist and not to be the lesson's subject or counter-case; it passes. Every page was read at the address cited; no scripted link check was run.

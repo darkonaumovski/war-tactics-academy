@@ -5536,6 +5536,388 @@
     }
   },
   {
+    "slug": "george-g-meade",
+    "name": "George G. Meade",
+    "years": "1815–1872",
+    "state": "United States",
+    "eraId": "industrial",
+    "role": "Commander of the Union Army of the Potomac, 1863–1865",
+    "summary": "Born at Cádiz to American parents, he graduated from West Point in 1835 and spent much of his prewar career as an engineer, building lighthouses and surveying the Great Lakes. In the Civil War he rose from a brigade of Pennsylvania troops, through a division whose breakthrough was the Union army’s only significant success at Fredericksburg, to the Fifth Corps. Given command of the Army of the Potomac on 28 June 1863, three days before Gettysburg, he defeated Lee there. From 1864 Grant travelled with his army and made the important decisions on its movements, leaving their execution largely to Meade, who commanded it to the end of the war.",
+    "approach": "A prudent operational and tactical commander who, Rafuse writes, thought of the war as a contest between armies: he manoeuvred against Lee’s army and engaged it, and never seems to have considered operations against Virginia’s resources or its civilian population.",
+    "strength": "He took over an army in turmoil three days before a great battle, with the approval of nearly all its high command, and defeated Lee at Gettysburg with what Rafuse calls characteristic skill and determination. When Grant arrived he offered to step aside; Grant kept him, and later urged his promotion to major general in the regular army.",
+    "limitation": "Lincoln was often dissatisfied with his caution, and believed he had missed a golden opportunity to destroy Lee’s army after Gettysburg; his autumn campaign of 1863 produced no decisive engagement. A prickly personality soured his relations with subordinates and with Washington. Under Grant he never again had the independent authority he thought his due, and he was humiliated when Grant let Sheridan take the cavalry away after their quarrel at Spotsylvania.",
+    "legacy": "Rafuse counts him among the most important commanders of the war, and sees in his war between armies, rather than populations, part of the reason Grant brought hard war to Virginia. He was not present at the McLean House when Lee surrendered. After the war he held commands in the East and the South, among them the Third Military District of Georgia and Alabama, and died in Philadelphia in 1872.",
+    "battleSlugs": ["gettysburg", "wilderness", "spotsylvania", "petersburg"],
+    "source": {
+      "title": "George Gordon Meade (1815–1872) — Ethan S. Rafuse",
+      "url": "https://encyclopediavirginia.org/entries/meade-george-gordon-1815-1872/",
+      "publisher": "Encyclopedia Virginia, Virginia Humanities"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Brigadier general of volunteers (1861); major general of volunteers (1862); commander of the Fifth Corps (from the winter of 1862–1863); commander of the Army of the Potomac (June 1863–1865); major general in the regular army (August 1864)",
+      "principalCommands": [
+        "Brigade of the Pennsylvania Reserves, 1861–1862",
+        "Division in the Army of the Potomac, 1862",
+        "Fifth Corps, 1862–1863",
+        "Army of the Potomac, 1863–1865",
+        "Third Military District (Georgia and Alabama) and other departments after the war"
+      ],
+      "timeline": [
+        {
+          "date": "1815",
+          "event": "Born at Cádiz, Spain, to American parents, on 31 December"
+        },
+        {
+          "date": "1835",
+          "event": "Graduates from West Point, nineteenth in his class"
+        },
+        {
+          "date": "1846–1848",
+          "event": "Serves in the Mexican War; brevetted for gallantry at Monterrey"
+        },
+        {
+          "date": "1861",
+          "event": "Brigadier general, commanding a brigade of Pennsylvania troops"
+        },
+        {
+          "date": "June 1862",
+          "event": "First action at Gaines’s Mill; seriously wounded at Glendale on 30 June"
+        },
+        {
+          "date": "September 1862",
+          "event": "Commands a division at South Mountain and Antietam"
+        },
+        {
+          "date": "13 December 1862",
+          "event": "His division’s breakthrough is the only Union success at Fredericksburg"
+        },
+        {
+          "date": "28 June 1863",
+          "event": "Given command of the Army of the Potomac"
+        },
+        {
+          "date": "1–3 July 1863",
+          "event": "Defeats Lee at Gettysburg"
+        },
+        {
+          "date": "Autumn 1863",
+          "event": "Bristoe Station and Mine Run, without a decisive engagement"
+        },
+        {
+          "date": "March 1864",
+          "event": "Offers to step aside for Grant, who keeps him"
+        },
+        {
+          "date": "May 1864–April 1865",
+          "event": "Commands the army under Grant’s direction from the Wilderness to Appomattox"
+        },
+        {
+          "date": "1872",
+          "event": "Dies of pneumonia in Philadelphia on 6 November"
+        }
+      ],
+      "notableDecision": "Appointed three days before the battle, he fought at Gettysburg on the high ground south of the town to which the Union troops had fallen back on 1 July. Under him and Winfield Scott Hancock the line was strengthened overnight with entrenchments in a fish-hook that let its weaker sections be reinforced easily, and it held against Lee’s attacks on both flanks on 2 July and on the centre on 3 July.",
+      "setback": "After Gettysburg he pursued Lee with what Rafuse calls a proper degree of prudence, but Lee salvaged his army in a ten-day retreat to Virginia, and Lincoln believed a golden opportunity to destroy it had been missed."
+    }
+  },
+  {
+    "slug": "thomas-j-jackson",
+    "name": "Thomas J. “Stonewall” Jackson",
+    "years": "1824–1863",
+    "state": "Confederate States",
+    "eraId": "industrial",
+    "role": "Confederate lieutenant general, commander of the Second Corps of the Army of Northern Virginia",
+    "summary": "Born at Clarksburg in western Virginia and orphaned young, he graduated from West Point in 1846, won a brevet majority in Mexico and from 1851 taught at the Virginia Military Institute. At First Manassas in July 1861 his brigade’s stand earned him his nickname. His Shenandoah Valley campaign in the spring of 1862 kept Union troops from reinforcing the advance on Richmond; under Lee he was slow in the Seven Days, then destroyed Pope’s supply base before Second Manassas, took Harpers Ferry and held at Antietam and Fredericksburg. At Chancellorsville on 2 May 1863 he led the flank march that routed Hooker’s right, was wounded by his own men that night and died of pneumonia on 10 May.",
+    "approach": "Speed, surprise and manoeuvre: he marched his men so hard that they called themselves Jackson’s foot cavalry, and kept his plans so secret that his subordinates sometimes found his orders hard to carry out. He expected literal obedience regardless of circumstances and was, Piston writes, demanding, inflexible and single-minded.",
+    "strength": "As an independent commander he could be superb: in the Valley he defeated his enemies in detail and, by reinforcing Lincoln’s fear for Washington, affected the Union war effort for the rest of the war. Lee entrusted him with the bulk of the army for the flank march at Chancellorsville, and his singleness of purpose and determination were, in Piston’s words, matched by very few and exceeded by none.",
+    "limitation": "In the Seven Days he was tardy, worn down by overwork, a reluctance to delegate and lack of sleep, though poor maps and unclear orders from Lee contributed. He feuded with subordinates, arresting A. P. Hill and court-martialling Garnett, and left an unexplained gap in his line at Fredericksburg. As a subordinate he was less submissive than legend says, and in 1862 went over Lee’s head to Davis. He was a slaveholder, renting some of those he owned to others, and is not known to have criticised slavery.",
+    "legacy": "His death left a vacancy at corps level that Lee never filled, and Chancellorsville was the Army of Northern Virginia’s last decisive victory. His wartime martyrdom fed the Lost Cause question whether the South would have won had he lived, and writers turned an earnest, single-minded and in many ways ordinary soldier into a legend; Piston concludes that his reputation requires no artificial inflation. His partisans later claimed the Chancellorsville plan for him; Piston writes that it was Lee’s entirely.",
+    "battleSlugs": ["chancellorsville"],
+    "source": {
+      "title": "Thomas J. “Stonewall” Jackson (1824–1863) — William Garrett Piston",
+      "url": "https://encyclopediavirginia.org/entries/jackson-thomas-j-stonewall-1824-1863/",
+      "publisher": "Encyclopedia Virginia, Virginia Humanities"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Colonel in Virginia’s forces (April 1861); brigadier general (June 1861); major general (October 1861); lieutenant general (October 1862); commander of the Second Corps, Army of Northern Virginia (November 1862–May 1863)",
+      "principalCommands": [
+        "A Virginia brigade, later the Stonewall Brigade, 1861",
+        "A military district in the Shenandoah Valley, 1861–1862",
+        "A wing, then the Second Corps, of the Army of Northern Virginia, 1862–1863"
+      ],
+      "timeline": [
+        {
+          "date": "1824",
+          "event": "Born at Clarksburg, Virginia (now West Virginia), on 21 January"
+        },
+        {
+          "date": "1846",
+          "event": "Graduates from West Point, seventeenth of fifty-nine"
+        },
+        {
+          "date": "1847",
+          "event": "Brevet major for his conduct at Chapultepec"
+        },
+        {
+          "date": "1851",
+          "event": "Resigns from the army after a dispute with his commanding officer and joins the Virginia Military Institute"
+        },
+        {
+          "date": "1859",
+          "event": "Leads cadets providing security at the execution of John Brown"
+        },
+        {
+          "date": "April 1861",
+          "event": "Colonel in Virginia’s forces, at Harpers Ferry"
+        },
+        {
+          "date": "21 July 1861",
+          "event": "First Manassas, where his brigade’s stand gives him his nickname"
+        },
+        {
+          "date": "March–June 1862",
+          "event": "Shenandoah Valley campaign, from Kernstown to Cross Keys and Port Republic"
+        },
+        {
+          "date": "June–July 1862",
+          "event": "Slow in the Seven Days’ Battles, his first operations under Lee"
+        },
+        {
+          "date": "August 1862",
+          "event": "Destroys Pope’s supply base at Manassas Junction; Second Manassas"
+        },
+        {
+          "date": "September 1862",
+          "event": "Captures the garrison at Harpers Ferry; Antietam"
+        },
+        {
+          "date": "November 1862",
+          "event": "Lieutenant general and commander of the Second Corps"
+        },
+        {
+          "date": "13 December 1862",
+          "event": "Holds the right of Lee’s line at Fredericksburg"
+        },
+        {
+          "date": "2 May 1863",
+          "event": "Flank march and attack at Chancellorsville; wounded by his own men"
+        },
+        {
+          "date": "10 May 1863",
+          "event": "Dies of pneumonia after the amputation of his left arm"
+        }
+      ],
+      "notableDecision": "On 2 May 1863 at Chancellorsville, entrusted with the bulk of Lee’s available forces, he led a long march through the woods of the Wilderness round Hooker’s right and attacked late in the afternoon. The march was not wholly secret, but Union officers ignored the evidence, and the attack rolled up the Union flank.",
+      "setback": "In the Seven Days’ Battles of June and July 1862 his movements were slow and the drive he had shown in the Valley was lacking; Piston calls it not his finest hour, citing fatigue, unfamiliar ground, poor maps and unclear instructions from Lee."
+    }
+  },
+  {
+    "slug": "james-longstreet",
+    "name": "James Longstreet",
+    "years": "1821–1904",
+    "state": "Confederate States",
+    "eraId": "industrial",
+    "role": "Confederate lieutenant general, commander of the First Corps of the Army of Northern Virginia",
+    "summary": "Born in South Carolina and raised in Georgia and Alabama, he graduated from West Point in 1842 and won brevets for bravery in Mexico. Entering Confederate service in 1861, he became Lee’s senior subordinate and commanded the First Corps of the Army of Northern Virginia for most of the war. He fought in all Lee’s major battles of 1862 and 1863 except Chancellorsville, opposed Lee’s plans at Gettysburg and carried out the attacks of 2 and 3 July, helped win Chickamauga in the West and failed at Knoxville. Wounded by his own men in the Wilderness in May 1864, he returned in October and served until Appomattox. After the war he became a Republican, and the Lost Cause made him the scapegoat for Gettysburg.",
+    "approach": "Favoured field fortifications and defensive tactics where they could be used, and argued that the Western Theater, not Virginia, was the critical arena of the war. Lee called him his old war horse; his soldiers called him the old bulldog.",
+    "strength": "Piston judges him Lee’s principal subordinate and intimate confidant, a highly competent soldier deeply beloved by his men, with few peers and no superiors as a corps commander. At Chickamauga his attack drove half the Union army from the field, and in the Wilderness on 6 May 1864 the 1911 Britannica calls his counter-attack a model of impetuosity and skill.",
+    "limitation": "He performed poorly under Bragg in the Chattanooga campaign and failed to take Knoxville in his independent command. At Gettysburg he carried out attacks he had opposed, and the delays of 2 July, which the 1911 Britannica attributes partly to Lee’s own authority and to orders to conceal the march, were later turned against him. His postwar writings showed a jealousy of Lee’s and Jackson’s reputations that weakened his own defence.",
+    "legacy": "In his wartime reports and papers Lee never criticised him. After Lee’s death Jubal Early, who despised Longstreet’s politics, led a twenty-year campaign that blamed him for losing Gettysburg; with the defeat transferred to Longstreet, Lee became the Confederacy’s stainless hero. His support for biracial politics during Reconstruction, his offices under Grant and his command of the Louisiana militia against the White League in 1874 made him a figure of scorn across the South, a picture Douglas Southall Freeman codified in the 1930s and 1940s and later scholarship has revised.",
+    "battleSlugs": ["gettysburg", "wilderness", "petersburg"],
+    "source": {
+      "title": "James Longstreet (1821–1904) — William Garrett Piston",
+      "url": "https://encyclopediavirginia.org/entries/longstreet-james-1821-1904/",
+      "publisher": "Encyclopedia Virginia, Virginia Humanities"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Brigadier general (1861); major general (October 1861); lieutenant general (October 1862); commander of the First Corps, Army of Northern Virginia (1862–1865); after the war surveyor of customs at New Orleans, U.S. minister to the Ottoman Empire and U.S. marshal for Georgia",
+      "principalCommands": [
+        "A division in the Peninsula campaign and the Seven Days, 1862",
+        "A wing, then the First Corps, of the Army of Northern Virginia, 1862–1865",
+        "The expedition against Knoxville, 1863",
+        "The Louisiana state militia, 1874"
+      ],
+      "timeline": [
+        {
+          "date": "1821",
+          "event": "Born near Edgefield, South Carolina, on 8 January (the 1911 Britannica gives 8 February)"
+        },
+        {
+          "date": "1842",
+          "event": "Graduates from West Point"
+        },
+        {
+          "date": "1846–1848",
+          "event": "Wins brevets for bravery in the Mexican War"
+        },
+        {
+          "date": "1861",
+          "event": "Resigns from the U.S. Army and enters Confederate service as a brigadier general"
+        },
+        {
+          "date": "November 1862",
+          "event": "Commands the First Corps of the Army of Northern Virginia"
+        },
+        {
+          "date": "April–May 1863",
+          "event": "Besieges Suffolk while Lee fights at Chancellorsville"
+        },
+        {
+          "date": "July 1863",
+          "event": "At Gettysburg urges Lee to disengage, then attacks the Union left on 2 July and the centre on 3 July"
+        },
+        {
+          "date": "September 1863",
+          "event": "His attack decides the second day at Chickamauga"
+        },
+        {
+          "date": "November 1863",
+          "event": "Fails to recapture Knoxville"
+        },
+        {
+          "date": "6 May 1864",
+          "event": "Wounded by his own men in the Wilderness"
+        },
+        {
+          "date": "October 1864",
+          "event": "Returns to the First Corps for the Petersburg campaign and Appomattox"
+        },
+        {
+          "date": "1868",
+          "event": "Endorses Grant for president and becomes surveyor of customs at New Orleans"
+        },
+        {
+          "date": "1872",
+          "event": "Jubal Early opens his attack on Longstreet’s conduct at Gettysburg on 19 January"
+        },
+        {
+          "date": "1874",
+          "event": "Shot and briefly held prisoner leading the Louisiana militia against the White League on 14 September"
+        },
+        {
+          "date": "1880–1881",
+          "event": "U.S. minister to the Ottoman Empire"
+        },
+        {
+          "date": "1896",
+          "event": "Publishes From Manassas to Appomattox"
+        },
+        {
+          "date": "1904",
+          "event": "Dies at Gainesville, Georgia, on 2 January"
+        }
+      ],
+      "notableDecision": "In the Wilderness on 6 May 1864 he arrived as the Confederate right was being turned and routed, and counter-attacked at once. The 1911 Britannica writes that his attack drove the Union troops on that flank back into confusion, until he was shot by his own men while pushing it forward, which halted the assault for two hours.",
+      "setback": "At Gettysburg he urged Lee to disengage after the first day and later to manoeuvre round the Union left. Lee ordered him to attack the Union left on 2 July, which failed, and the centre on 3 July, the costly failure known as Pickett’s Charge."
+    }
+  },
+  {
+    "slug": "philip-h-sheridan",
+    "name": "Philip H. Sheridan",
+    "years": "1831–1888",
+    "state": "United States",
+    "eraId": "industrial",
+    "role": "Commander of the cavalry of the Army of the Potomac and of the Army of the Shenandoah, 1864–1865; later commanding general of the army",
+    "summary": "A West Point graduate of 1853 who served at frontier posts, he rose in the West in 1862 and 1863, at Booneville, Perryville, Stones River and Missionary Ridge, which brought him to Grant’s notice. Called east in 1864 to command the cavalry of the Army of the Potomac, he raided towards Richmond after the Wilderness, and Stuart was killed at Yellow Tavern. Given the Army of the Shenandoah in August, he beat Early at Winchester, Fisher’s Hill and Cedar Creek and destroyed the valley’s capacity to support Confederate operations. In 1865 he broke Lee’s right at Five Forks and helped cut off Lee’s retreat to Appomattox. After the war he commanded in Louisiana and Texas and then in the West, and succeeded Sherman as commanding general in 1883.",
+    "approach": "A fighting general who used cavalry as a striking force: his raids destroyed supplies and railroads, and at Five Forks his dismounted troopers held the Confederate front while infantry struck its flank. In the Shenandoah Valley he systematically destroyed the region’s capacity to feed and supply the Confederate armies.",
+    "strength": "Britannica calls his driving leadership in the last year of the war instrumental in defeating the Confederate army. At Five Forks he turned the Confederate right and made the lines of Petersburg and Richmond untenable, and his pursuit helped close Lee’s escape. The 1911 Britannica credits him with turning a rally into a victory at Cedar Creek by the force of his personal presence.",
+    "limitation": "His temper was costly. After his quarrel with Meade at Spotsylvania, Grant let him take the cavalry away on a raid, leaving the army without its screen; at Five Forks, blaming Gouverneur K. Warren for delays caused by rain-soaked roads and swampy ground, he relieved him in the middle of the battle, a removal a court of inquiry ruled improper in 1879. The destruction of the Shenandoah Valley fell on its people, and Britannica calls his administration of Reconstruction in Louisiana and Texas harsh; President Johnson removed him in 1867.",
+    "legacy": "In July 1868 Sherman wrote to him that if the Cheyennes and Arapahos resorted to acts of war they must be punished as a whole tribe, and that winter Sheridan conducted a campaign against the Plains peoples. As commanding general from 1883 he oversaw, with Sherman before him and Schofield after, what the Library of Congress calls the forced, violent relocation of Native peoples from the Plains and Black Hills into reservations. He was made general of the army shortly before his death in 1888 and spent his last months writing his memoirs.",
+    "battleSlugs": ["wilderness", "spotsylvania", "petersburg"],
+    "source": {
+      "title": "Philip H. Sheridan — Britannica Editors",
+      "url": "https://www.britannica.com/biography/Philip-H-Sheridan",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Colonel of the 2nd Michigan Cavalry (1862); brigadier general and then major general of volunteers (1862); commander of the Cavalry Corps, Army of the Potomac (1864–1865), and of the Army of the Shenandoah (1864–1865); major general in the regular army (1864); lieutenant general (1869); commanding general of the army (1883–1888); general of the army (1888)",
+      "principalCommands": [
+        "A division in the Army of the Ohio and the Army of the Cumberland, 1862–1863",
+        "Cavalry Corps, Army of the Potomac, 1864–1865",
+        "Army of the Shenandoah, 1864–1865",
+        "Fifth Military District (Louisiana and Texas), 1867",
+        "Department of the Missouri, 1867–1883",
+        "The U.S. Army, as commanding general, 1883–1888"
+      ],
+      "timeline": [
+        {
+          "date": "1831",
+          "event": "Born on 6 March, probably at Albany, New York"
+        },
+        {
+          "date": "1853",
+          "event": "Graduates from West Point and serves at frontier posts"
+        },
+        {
+          "date": "July 1862",
+          "event": "Routs a larger Confederate force at Booneville; brigadier general"
+        },
+        {
+          "date": "October 1862",
+          "event": "Commands a division at Perryville"
+        },
+        {
+          "date": "December 1862–January 1863",
+          "event": "Holds the Union right centre at Stones River; major general of volunteers"
+        },
+        {
+          "date": "November 1863",
+          "event": "His division’s assault on Missionary Ridge impresses Grant"
+        },
+        {
+          "date": "April 1864",
+          "event": "Commands the cavalry of the Army of the Potomac"
+        },
+        {
+          "date": "May 1864",
+          "event": "After a quarrel with Meade, raids towards Richmond; Stuart is killed at Yellow Tavern"
+        },
+        {
+          "date": "August 1864",
+          "event": "Commands the Army of the Shenandoah"
+        },
+        {
+          "date": "September–October 1864",
+          "event": "Beats Early at Winchester, Fisher’s Hill and Cedar Creek and lays waste the valley"
+        },
+        {
+          "date": "1 April 1865",
+          "event": "Breaks Lee’s right at Five Forks and relieves Warren"
+        },
+        {
+          "date": "April 1865",
+          "event": "Helps cut off Lee’s retreat before Appomattox"
+        },
+        {
+          "date": "1867",
+          "event": "Removed from command in Louisiana and Texas by President Johnson"
+        },
+        {
+          "date": "1868–1869",
+          "event": "Winter campaign against the Plains peoples"
+        },
+        {
+          "date": "1883",
+          "event": "Succeeds Sherman as commanding general of the army"
+        },
+        {
+          "date": "1888",
+          "event": "General of the army; dies at Nonquitt, Massachusetts, on 5 August"
+        }
+      ],
+      "notableDecision": "On 1 April 1865, with Warren’s Fifth Corps added to his cavalry, he struck Pickett’s force at Five Forks, beyond the end of Lee’s lines: dismounted cavalry pressed the Confederate front while the infantry fell on its refused left. The position collapsed by evening, the South Side Railroad lay open, and the next day the Union army broke through the lines of Petersburg.",
+      "setback": "He could not prevent defeat at Chickamauga in September 1863. At Five Forks, impatient and unable to find Warren while Warren redirected his divisions, he relieved him of command; the court of inquiry Warren won in 1879 ruled the removal improper, too late to restore his career."
+    }
+  },
+  {
     "slug": "helmuth-von-moltke",
     "name": "Helmuth von Moltke the Elder",
     "years": "1800–1891",

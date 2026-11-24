@@ -313,6 +313,7 @@ export const grantLeeVolume: LeadershipVolume = {
       title: "A war rewritten by the losers: how to read Grant and Lee",
       part: "Orientation",
       themes: ["communication", "judgement", "ethics"],
+      people: ["james-longstreet"],
       claim:
         "When the losing side of a war rewrites its record, a lesson drawn from that war is only as sound as the reader’s ability to separate what the commanders did and wrote at the time from what was written later to explain a defeat or defend a reputation.",
       inBrief: {
@@ -1271,6 +1272,7 @@ export const grantLeeVolume: LeadershipVolume = {
       title: "The divided army: boldness against a larger enemy",
       part: "Lee in Virginia",
       themes: ["judgement", "organisation"],
+      people: ["thomas-j-jackson"],
       claim:
         "When a commander faces a larger army, he can win by dividing his own and striking where the enemy does not expect, but only while the enemy commander is slow to read it, and the subordinate who carries out the stroke may be lost with it.",
       inBrief: {
@@ -1501,6 +1503,7 @@ export const grantLeeVolume: LeadershipVolume = {
       title: "The third day: the offensive the army could not afford",
       part: "Lee in Virginia",
       themes: ["judgement", "restraint"],
+      people: ["james-longstreet"],
       claim:
         "When a commander’s side cannot replace its losses, every offensive has to be weighed against the army it spends, and the weighing is hardest after a run of victories, when one more success seems within reach.",
       inBrief: {
@@ -1723,7 +1726,7 @@ export const grantLeeVolume: LeadershipVolume = {
       title: "General-in-chief: directing every army at once",
       part: "Grant against Lee",
       themes: ["organisation", "communication"],
-      people: ["william-t-sherman"],
+      people: ["william-t-sherman", "george-g-meade", "philip-h-sheridan"],
       claim:
         "When a commander is given the whole of a larger side’s forces, he can win by making them press the enemy together, but only if he can work with the political leadership and with generals he did not choose, and only as far as each of them carries out his part.",
       inBrief: {
@@ -2227,6 +2230,7 @@ export const grantLeeVolume: LeadershipVolume = {
         "The army that could not be replaced: defending a cause by entrenchment",
       part: "Grant against Lee",
       themes: ["judgement", "organisation", "restraint"],
+      people: ["philip-h-sheridan"],
       claim:
         "When a commander’s army cannot be replaced, he can hold a stronger enemy for a long time from fortified lines, but only while his supply lines hold and his men will stay, and the lines that protect his army also fix it in place.",
       inBrief: {

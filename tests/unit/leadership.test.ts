@@ -342,6 +342,8 @@ describe("the Slim volume", () => {
       "the-long-retreat",
       "sidelined",
       "the-army-that-expected-to-lose",
+      "stand-and-be-supplied",
+      "whose-army",
       "fighting-at-the-end-of-his-line",
     ]);
   });

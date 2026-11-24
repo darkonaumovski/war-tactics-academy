@@ -1293,7 +1293,7 @@ test("the Slim volume opens with its published lessons", async ({ page }) => {
   await expect(
     page.getByRole("heading", { name: "A volume in progress" }),
   ).toBeVisible();
-  await expect(page.getByRole("table").getByRole("row")).toHaveCount(7);
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(9);
   await page.goto("/commanders/william-slim");
   await expect(
     page.getByRole("link", { name: /Leadership Lessons from William Slim/ }),
@@ -1314,5 +1314,10 @@ test("the Slim volume opens with its published lessons", async ({ page }) => {
   await page.getByRole("link", { name: /The first defeat/ }).click();
   await expect(page).toHaveURL(
     /\/leadership\/william-slim\/the-first-defeat\/$/,
+  );
+  await page.goto("/battles/stalingrad");
+  await page.getByRole("link", { name: /Stand and be supplied/ }).click();
+  await expect(page).toHaveURL(
+    /\/leadership\/william-slim\/stand-and-be-supplied\/$/,
   );
 });

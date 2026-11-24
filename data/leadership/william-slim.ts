@@ -175,6 +175,40 @@ const s = {
     url: "https://encyclopediavirginia.org/entries/longstreet-james-1821-1904/",
     publisher: "Encyclopedia Virginia, Virginia Humanities",
   },
+  lemoStalingrad: {
+    title: "“Die Schlacht um Stalingrad” (in German)",
+    url: "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/schlacht-um-stalingrad-194243",
+    publisher: "LeMO, Deutsches Historisches Museum",
+  },
+  ndbPaulus: {
+    title:
+      "Manfred Kehrig, “Paulus, Friedrich Wilhelm Ernst”, Neue Deutsche Biographie 20 (2001) (in German)",
+    url: "https://www.deutsche-biographie.de/sfz94261.html",
+    publisher: "Deutsche Biographie",
+  },
+  barkawi: {
+    title:
+      "Tarak Barkawi, Soldiers of Empire: Indian and British Armies in World War II (Cambridge University Press, 2017), Introduction, publisher’s excerpt",
+    url: "https://assets.cambridge.org/97811071/69586/excerpt/9781107169586_excerpt.pdf",
+    publisher: "Cambridge University Press",
+  },
+  somervilleAfrica: {
+    title:
+      "“African participants in the Second World War”, with the recollections of Aziz Brimah, 81st West African Division, recorded by Christopher Somerville",
+    url: "https://www.christophersomerville.co.uk/mgtrust/afr2.htm",
+    publisher: "christophersomerville.co.uk",
+  },
+  somervilleIndia: {
+    title:
+      "“Participants from the Indian subcontinent in the Second World War”, with the recollections of Nila Kantan and Tilbahadur Thapa, recorded by Christopher Somerville",
+    url: "https://www.christophersomerville.co.uk/mgtrust/ind2.htm",
+    publisher: "christophersomerville.co.uk",
+  },
+  iwmIndia: {
+    title: "India and the Second World War",
+    url: "https://www.iwm.org.uk/history/second-world-war/india",
+    publisher: "Imperial War Museums",
+  },
 } satisfies Record<string, Source>;
 
 export const slimVolume: LeadershipVolume = {
@@ -1375,6 +1409,503 @@ export const slimVolume: LeadershipVolume = {
         s.oliver,
         s.maier,
         s.wavell43,
+      ],
+    },
+    {
+      slug: "stand-and-be-supplied",
+      title: "Stand and be supplied: the Admin Box",
+      part: "Rebuilding",
+      themes: ["organisation", "judgement"],
+      claim:
+        "When a commander orders encircled troops to stand fast, they can hold and turn an envelopment into a trap, but only if the means to supply them from the air were prepared before the order was given, the air is his, and reserves arrive in time; without the aircraft, the same order leaves the troops to starve.",
+      inBrief: {
+        strength:
+          "His order to stand fast when cut off was given months in advance, with the air supply and reserves to make it good.",
+        shadow:
+          "The aircraft were flown by an American-led command and won their sky with new fighters; surprise and slow reserves made the margin thin.",
+      },
+      moment: {
+        text: "In the early hours of 4 February 1944 a Japanese column under Major-General Sakurai passed through and round the 7th Indian Division in Arakan and within a day was deployed in its rear. On 6 February the division’s headquarters was overrun, and its commander, Messervy, fought his way out to Sinzweya, the administrative area, where clerks, cooks, gunners, mule drivers and part of a brigade formed what became known as the Admin Box. In the past, a Japanese envelopment like this had been followed by a British withdrawal. This time the order was to stay. Kirby records that when Slim took command of the Fourteenth Army in October 1943 he had made it clear that formations whose communications were cut were to stand fast and, supplied by air, form an anvil against which reserves would destroy the enemy in their rear; on the evening of 4 February he told Christison, commanding XV Corps, that his formations would be supplied by air if necessary.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "ch. IX, X" },
+          { source: 1, locator: "ch. X" },
+          { source: 2, locator: "para. 40" },
+        ],
+      },
+      episodes: [
+        {
+          title: "A promise prepared in advance",
+          text: "The order was only as good as the means behind it, and Kirby shows them being built before it was given. Air supply in the retreat of 1942 had been improvised: a scratch unit had fed refugees and Chinese troops leaving Burma. From December 1942 India Command trained air supply companies at Chaklala, and by the autumn of 1943 several were stationed at airfields in eastern Bengal. Slim had warned his chief administrative officer, Snelling, that he must be ready to maintain forward formations by air at any time; the air supply units were reinforced and their training intensified, and when the Japanese attack was expected Slim told Snelling to start packing day and night. With reserves at hand and the air supply organisation ready, Kirby writes, Slim felt that the offensive could be awaited with confidence.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "ch. III, IX" }],
+          battleSlugs: ["admin-box"],
+        },
+        {
+          title: "Whose aircraft",
+          text: "The aircraft were not Slim’s. Giffard records that in December 1943 the British and American transport squadrons were brought under one Troop Carrier Command, commanded by Brigadier-General W. D. Old of the United States Army Air Forces. Supply dropping began on 9 February, by night once Japanese fighters appeared, except over Sinzweya, where the hills ruled out night dropping and the aircraft flew special circuits by day; the beleaguered troops received not only food and ammunition but cigarettes, rum, mail and newspapers. Saunders credits the newly arrived Spitfire squadrons with winning the air that made it possible. The same squadrons were also supplying the 81st West African Division in the Kaladan and preparing to fly the Chindits into Burma; on 18 February Mountbatten asked to divert transport aircraft from the airlift to China. Kirby records that the Combined Chiefs of Staff authorised it on the 24th and that the aircraft arrived as the pass reopened, when the need for them was over.",
+          evidence: "fact",
+          refs: [
+            { source: 2, locator: "para. 122" },
+            { source: 0, locator: "ch. X" },
+            { source: 4 },
+          ],
+          battleSlugs: ["admin-box"],
+        },
+        {
+          title: "The box",
+          text: "The defenders of Sinzweya were not the army’s infantry. Madan, the Indian official historian, lists the doctor, the tankman, the gunner, the mule driver, the sapper, the clerk and the cook; Messervy ordered that there would be no withdrawal, and that the troops would dig in where they were and let the Japanese attack. Kirby writes that the garrison, largely administrative troops, fought magnificently and, helped by poorly co-ordinated Japanese attacks, repelled every attempt to break in; Madan notes that the Indian muleteers of the mule companies, never taken seriously as fighters, took the box’s first Japanese prisoner. From mid-February seriously wounded men were flown out from light-aircraft strips by American pilots of No. 1 Air Commando.",
+          evidence: "fact",
+          refs: [
+            { source: 1, locator: "ch. X" },
+            { source: 0, locator: "ch. X" },
+          ],
+          battleSlugs: ["admin-box"],
+        },
+        {
+          title: "The besieger besieged",
+          text: "The Japanese plan assumed the old pattern. Giffard quotes a captured directive of the 55th Division’s infantry group: as the enemy had previously suffered defeat, if a portion of them wavered the whole would at once be confused, and victory was certain. The Japanese army’s own monograph, written after the war by former officers of the 28th Army, describes the change from the other side: in the past they had won by surrounding the enemy, but now the enemy had adopted a strong perimeter defence which, supported by air supply, withstood their encircling tactics; after the middle of February lack of supplies, particularly food, handicapped them, while the British had adequate food and ammunition from the air. On the night of 23 February Colonel Tanahashi withdrew his force on his own responsibility; Sakurai was extremely angry, the monograph says, but came to see that lack of food had made it inevitable.",
+          evidence: "fact",
+          refs: [
+            { source: 2, locator: "para. 41" },
+            { source: 3, locator: "Ha-Go operation" },
+          ],
+          battleSlugs: ["admin-box"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "George Giffard",
+          stake:
+            "Slim’s superior as commander of 11th Army Group, writing his despatch in June 1945.",
+          says: "The division was supplied by air and so did not have to retire, the main cause of the Japanese defeat; the basic reason was that the troops refused to waver.",
+          refs: [{ source: 2, locator: "paras. 29, 41" }],
+        },
+        {
+          who: "S. Woodburn Kirby",
+          stake:
+            "The British official historian, writing in 1961 with the records of both sides.",
+          says: "The battle marked the turning point of the war in South-East Asia, and its outcome was psychologically of immense value.",
+          refs: [{ source: 0, locator: "ch. X" }],
+        },
+        {
+          who: "Former officers of the Japanese 28th Army",
+          stake:
+            "Compilers of their army’s record for the American occupation authorities.",
+          says: "The enemy’s perimeter defence, supported by air supply, withstood the encircling tactics that had won before.",
+          refs: [{ source: 3, locator: "Ha-Go operation" }],
+        },
+        {
+          who: "Hilary St. George Saunders",
+          stake: "The Royal Air Force’s official historian, writing in 1954.",
+          says: "The army was ordered to stand and rely on the air forces for supplies, and that is why the victory was won.",
+          refs: [{ source: 4 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "An order to stand fast when cut off is a promise from the commander to the troops: hold, and you will be fed and relieved. Its value lies entirely in whether it can be kept. Slim’s contribution was to tie the order to the means before it was needed: the warning to Snelling, the air supply units reinforced and trained, the reserves held ready. The means themselves came from many hands: India Command built the air supply organisation, an American-led command flew it, and the Spitfires won the sky. The method was Slim’s; its execution depended on others, as the volume’s question would predict.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "ch. III, IX" },
+            { source: 2, locator: "para. 122" },
+            { source: 4 },
+          ],
+        },
+        {
+          text: "The margin was thinner than the victory makes it look. Kirby writes that the Japanese achieved almost complete surprise, partly because XV Corps paid too little heed to reports from its forward troops, and that a small raiding detachment drew off the first reserves, so that no serious pressure reached the Japanese rear until 16 February, twelve days into the battle. The transport squadrons were committed to the West Africans and to the Chindit fly-in as well; had the crisis run into March, Kirby says, either the 7th Division’s supply or the fly-in would have had to give way unless more aircraft were found. The enemy’s supplies ran out first, which is what the method was designed to ensure, but only just.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "ch. X" }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "The order changed what encircled soldiers could expect, and Madan quotes Mountbatten’s view that the mail and newspapers dropped with the rations made the troops realise that, though encircled, they were never isolated. Research on expectation and stress could bear on that, but none was read for this volume, and the lesson on rebuilding has already set out what the cohesion research can and cannot say. The sources show the effect in the fighting and in the Japanese monograph’s account of the change.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered; the lesson rests on the official histories, the despatch and the Japanese monograph.",
+        },
+      ],
+      shadow: {
+        text: "The credit is claimed by every hand that helped. Kirby and Giffard credit Slim’s orders; Madan credits the farsightedness of the Allied higher command and the air force; Saunders writes of Mountbatten and the airmen, and of a victory won by air power, as simple as that. Each is partly right. The method also had conditions that Arakan in February 1944 happened to meet: air superiority, transport aircraft that could be spared for three weeks, and an enemy whose own supply could not outlast them. Where those conditions failed, as for the encircled army in the counter-case, the same order was fatal.",
+        evidence: "interpretation",
+        refs: [
+          { source: 0, locator: "ch. X" },
+          { source: 1, locator: "ch. X" },
+          { source: 4 },
+        ],
+        battleSlugs: ["admin-box"],
+      },
+      counterCase: {
+        text: "At Stalingrad in November 1942 the German Sixth Army was given the same order without the means. LeMO, the German Historical Museum’s history, writes that Hitler flatly refused Paulus’s request to break out and trusted the empty assurances of Göring, commanding the Luftwaffe, that the encircled army could be supplied from the air until relieved; the Wehrmacht lacked the capacity for either relief or air supply that winter, and the supplies the army needed were never delivered. Manstein’s relief attack stalled short of the pocket and was broken off. Kehrig’s biography of Paulus adds that he accepted the plan, unlike his corps commander Seydlitz, taking the promised air supply as the only possibility for the time being; when the relief stalled, a breakout was ruled out by the lack of fuel and the starving state of the troops. The order to stand was the same as Slim’s; the aircraft and the relief were not there.",
+        evidence: "interpretation",
+        refs: [{ source: 5 }, { source: 6 }],
+        commanderSlug: "erich-von-manstein",
+        battleSlugs: ["stalingrad"],
+      },
+      cost: {
+        text: "On the night of 7–8 February the Japanese overran the box’s main dressing station. Kirby, from the few survivors, writes that wounded men were tied and beaten and kept without food and water, that those who cried for water were shot, and that the rest were fired on when the area could no longer be held; Madan prints the account of Captain S. N. Basu, a doctor who escaped, that the medical staff were lined up and shot. The two accounts differ, and both describe the killing of wounded men and those caring for them. On the other side, the Japanese column ran out of food; Giffard writes that from 20 February its men tried to escape in small parties and many failed to get through.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "ch. X" },
+          { source: 1, locator: "ch. X" },
+          { source: 2, locator: "para. 39" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "The people told to hold their ground have been promised support that was prepared before the crisis and can actually be delivered.",
+          "Reserves are ready to break the pressure on them, and the opponent’s own supplies will run out first.",
+        ],
+        failsWhen: [
+          "The promise of support rests on capacity that does not exist, as at Stalingrad.",
+          "The same scarce resources are committed to other tasks that cannot wait.",
+        ],
+        questions: [
+          "When you ask a team to hold under pressure, what have you prepared to support them, and can it really be delivered?",
+          "Which of those resources belong to someone else, and what else are they committed to?",
+          "How long can the team hold, and how long will the relief take to arrive?",
+        ],
+      },
+      bearsOn:
+        "The Admin Box is the volume’s question in miniature. Leadership gave the order and prepared it; the means, transport aircraft under an American commander and fighters that won the air, made it possible; and the enemy’s mistake, a plan built on the assumption that the British would retreat and on supplies the column could carry, did the rest. Kirby calls the result psychologically of immense value: it was the first success the rebuilt army could believe in.",
+      questions: [
+        {
+          prompt:
+            "What had Slim ordered, before February 1944, for formations whose communications were cut?",
+          choices: [
+            "To withdraw at once to the nearest road.",
+            "To stand fast and, supplied by air, form an anvil against which reserves would destroy the enemy.",
+            "To break out in small parties through the jungle.",
+          ],
+          answer: 1,
+          explanation:
+            "Kirby records the order and the preparations Slim made with Snelling to make it practical.",
+        },
+        {
+          prompt:
+            "Who commanded the Troop Carrier Command that supplied the encircled formations?",
+          choices: [
+            "Slim himself.",
+            "Brigadier-General W. D. Old of the United States Army Air Forces.",
+            "Christison, the corps commander.",
+          ],
+          answer: 1,
+          explanation:
+            "Giffard records that British and American transport squadrons were unified under Old in December 1943.",
+        },
+        {
+          prompt:
+            "What does the Japanese monograph say changed in February 1944?",
+          choices: [
+            "The British attacked first.",
+            "The enemy now held strong perimeters supplied by air, which withstood the encircling tactics that had won before.",
+            "The Japanese ran out of ammunition on the first day.",
+          ],
+          answer: 1,
+          explanation:
+            "It adds that lack of food handicapped the Japanese after mid-February, while the British were supplied from the air.",
+        },
+      ],
+      sourceCheck: {
+        question:
+          "Did the transport aircraft borrowed from the route to China save the Admin Box?",
+        witnesses: [
+          {
+            label: "Peirse, as Saunders quotes him",
+            claim:
+              "He was compelled to request the loan of transport aircraft from the United States Air Transport Command, which were promptly and unstintingly supplied.",
+          },
+          {
+            label: "Kirby, official history",
+            claim:
+              "The diversion was authorised on 24 February; the aircraft arrived as the pass reopened and were returned in early March.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Accept Peirse: the borrowed aircraft supplied the box.",
+            feedback:
+              "Peirse describes the request and the response; Kirby’s dates show the aircraft arrived after the need had passed.",
+          },
+          {
+            text: "Read them together: the box was supplied by the squadrons already in the theatre, and the request shows how close the margin was if the battle had lasted longer.",
+            feedback:
+              "Both are true; the borrowed aircraft matter as evidence of the risk, not as the cause of the victory.",
+            best: true,
+          },
+          {
+            text: "Dismiss both, since the battle was won by the infantry.",
+            feedback:
+              "The infantry held because they were supplied; the question is which aircraft supplied them.",
+          },
+        ],
+        battleSlug: "admin-box",
+      },
+      seminar: {
+        prompt:
+          "Who won the Admin Box? Argue it from three positions: Slim, Brigadier-General Old of Troop Carrier Command, and Colonel Tanahashi.",
+        guidance:
+          "Use Kirby on the order, the preparations and the margin, Giffard on the aircraft and the captured directive, Madan on the garrison, Saunders on the air, and the Japanese monograph on the withdrawal. Say what each controlled.",
+      },
+      sources: [
+        s.kirby3,
+        s.madan,
+        s.giffard,
+        s.jm132,
+        s.saunders,
+        s.lemoStalingrad,
+        s.ndbPaulus,
+      ],
+    },
+    {
+      slug: "whose-army",
+      title: "Whose army? The soldiers of an empire that was ending",
+      part: "Rebuilding",
+      themes: ["motivation", "ethics"],
+      claim:
+        "When an army of many peoples fights for a state that many of its soldiers have reason to doubt, its commanders can help make it fight as one, but they cannot settle for its soldiers whose war it is, and the answer may change in defeat, in captivity or after victory.",
+      inBrief: {
+        strength:
+          "An army of Indian, Gurkha, African, Burmese and British soldiers fought increasingly well in a war many of them had little reason to call their own.",
+        shadow:
+          "It served a colonial state during a famine at its base, and some of its own former soldiers fought against it.",
+      },
+      moment: {
+        text: "In the autumn of 1943, as the Fourteenth Army was formed, famine struck Bengal, the province behind its front. Kirby attributes it to hoarding and a partial failure of the main crops, and records that at the end of October the Viceroy had to ask for military aid; the army organised the collection and transport of supplies and medical relief. The Imperial War Museums write that the bulk of the Fourteenth Army was Indian. In the same months the Japanese placed a division of the Indian National Army, raised from Indian soldiers captured in 1942, under the Fifteenth Army that was preparing to attack Imphal. Barkawi, a historian of the Indian Army, sums up the position: by 1943 Indian soldiers found their former comrades arrayed against them, the British had not promised any concrete step toward independence after the war, famine was consuming Bengal, and yet Indian soldiers went out to fight, increasingly effectively.",
+        evidence: "fact",
+        refs: [
+          { source: 4, locator: "ch. II, VI" },
+          { source: 3 },
+          { source: 0, locator: "Introduction" },
+        ],
+      },
+      episodes: [
+        {
+          title: "A volunteer army of a colonial state",
+          text: "The army was raised by voluntary enlistment, and it was organised by the colonial state around the idea of “martial races”, recruiting from favoured peoples into ethnically separate units. Barkawi writes that the war broke that structure: defeats and massive expansion forced the army to recruit beyond the favoured classes and to commission ever more Indian officers, many of them emergency-commissioned nationalists, with British officers new to India; and soldiers, he notes, fought effectively together without much of a common language. Before the war most of its soldiers had been, in his words, uneducated peasants serving a distant King-Emperor, fighting an enemy that promised them liberation from white colonialism. The Gurkhas came from Nepal, outside British India; the West African divisions from the Gold Coast, Nigeria, Sierra Leone and the Gambia.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "Introduction" },
+            { source: 2 },
+            { source: 1 },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["burma-campaign"],
+        },
+        {
+          title: "In their own words",
+          text: "A few soldiers’ reasons survive in their own words, recorded decades later by the writer Christopher Somerville. Aziz Brimah, the son of a Muslim community chief in Accra, served with the 81st West African Division in Burma. His motives, he said, were that the British had ended the tribal wars, that it was proper to help them in trouble, and that it was in his own people’s interest to face an expanding enemy before it reached them: “We knew that if we didn’t volunteer the enemy would come.” He took the fight as a holy war. Nila Kantan, a Brahmin from a village on the Godavari who had never met an Englishman, volunteered in 1940, was rejected for the infantry as too thin and served in supply units; in the desert he asked himself why they were fighting there, said that in the army they forgot their religion, and came to abhor war. Tilbahadur Thapa, a Gurkha with the Chindits in 1943, was captured, held in Rangoon jail and asked with the other prisoners whether he would work for the Japanese; every hand went up, he said, and he later escaped to the British lines.",
+          evidence: "fact",
+          refs: [{ source: 1 }, { source: 2 }],
+          battleSlugs: [],
+          campaignSlugs: ["burma-campaign"],
+        },
+        {
+          title: "The army that fed the famine’s base",
+          text: "The famine fell on the province that was the army’s base. Kirby records that the army’s relief organisation doubled the despatch of supplies to the affected areas within a fortnight and partly restored confidence, but that it was months before the situation returned to normal, and that India’s internal economy was reaching breaking point. His explanation of the famine, hoarding and crop failure, is the official historian’s; it is the only one read for this volume. The army that was being rebuilt to fight from Bengal did so while Bengal starved.",
+          evidence: "interpretation",
+          refs: [{ source: 4, locator: "ch. II" }],
+          battleSlugs: [],
+          campaignSlugs: ["burma-campaign"],
+        },
+        {
+          title: "After victory",
+          text: "The question of whose war it was was answered politically after the fighting. The Imperial War Museums write that India’s contribution to victory was so immense that it became a key argument for securing independence in 1947, the year in which partition divided British India into India and Pakistan. The Japanese had hoped for an answer of a different kind: Kirby writes that their planners thought the Imphal offensive might, with Bose’s Indian National Army, foment a revolt in Bengal and Bihar on a far greater scale than the riots of 1942. The soldiers of the Fourteenth Army defeated that offensive, and within three years the empire they had served in India was gone.",
+          evidence: "fact",
+          refs: [{ source: 3 }, { source: 4, locator: "ch. XXXII" }],
+          battleSlugs: ["imphal-kohima"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Aziz Brimah, 81st West African Division",
+          stake:
+            "A Gold Coast soldier, interviewed decades after the war for a British writer’s book.",
+          says: "The enemy would have come if they had not gone to meet it; he fought it as a holy war.",
+          refs: [{ source: 1 }],
+        },
+        {
+          who: "Nila Kantan, Indian Army supply units",
+          stake:
+            "A volunteer of 1940 from a village in southern India, interviewed decades later.",
+          says: "Every job in the army is useful; he wondered why they were fighting, and came to hate war.",
+          refs: [{ source: 2 }],
+        },
+        {
+          who: "Tarak Barkawi",
+          stake:
+            "A historian of the Indian Army, writing in 2017 about why its soldiers fought.",
+          says: "Indian soldiers fought increasingly effectively despite famine, the INA and no promise of independence, because the army itself made them into fighting groups.",
+          refs: [{ source: 0, locator: "Introduction" }],
+        },
+        {
+          who: "S. Woodburn Kirby",
+          stake:
+            "The British official historian, writing in 1961 from British and Japanese records.",
+          says: "The army organised famine relief in Bengal; the Japanese hoped the INA would help raise a revolt in India.",
+          refs: [{ source: 4, locator: "ch. II, XXXII" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "For the commander, the army’s composition was a fact of means, and the measures that made it fight, training, health and a first success, are the subject of the earlier lessons. What the commander could not supply was a cause the soldiers shared. The sources show several: Brimah’s fear of an enemy that would come to his home and his sense of obligation; Kantan’s pride in a job that mattered; and, in Barkawi’s argument, the army itself, whose discipline and training made groups that held together without a nation behind them. None of these is the empire’s own justification, and none was the commander’s to give.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1 },
+            { source: 2 },
+            { source: 0, locator: "Introduction" },
+          ],
+        },
+        {
+          text: "The enemy’s strategy counted on the question being open. Kirby writes that the Japanese hoped Imphal would bring a revolt in India with the help of the INA, and the INA division marched with the Fifteenth Army. The Fourteenth Army’s answer in 1944 was given on the battlefield, but the political answer came later and was not the empire’s: India’s war effort, the Imperial War Museums write, became an argument for independence. A commander can win the war he is given; he cannot decide what his soldiers’ victory will mean to them.",
+          evidence: "interpretation",
+          refs: [{ source: 4, locator: "ch. VI, XXXII" }, { source: 3 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Solidarity made by the army itself",
+          base: "theory",
+          text: "Barkawi argues that an army is a machine for group formation: regular discipline is a set of sturdy ritual techniques, many of them doubling as training, that work in almost any culture though always in a local idiom, and under the right conditions battle itself generates solidarity and the will to sacrifice. He sets this against the classic view, from Shils and Janowitz, that casualties break down the small groups that keep soldiers fighting. The argument explains how soldiers with different reasons, or none they would name, could fight well together; the lesson on rebuilding cites the cohesion research that measures something similar in modern units. It does not tell us what any one soldier thought.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "Introduction" }],
+          limit:
+            "Only the publisher’s excerpt of the introduction was read: it states the argument without the evidence of the chapters. It is historical sociology rather than psychology, and it describes the Indian Army as a whole rather than particular units.",
+        },
+      ],
+      shadow: {
+        text: "The soldiers’ voices in this lesson are few, recorded decades after the war and selected for publication by a British writer; none comes from the Indian National Army, from Burmese soldiers on either side, or from Bengal. The empire also used its soldiers as a story: Brimah recalled that on the way to India rumours spread among Indians that the Africans were cannibals with tails, and that the British authorities themselves began to spread the story to frighten the Japanese. An army that fought well under these conditions says much about its soldiers; it says little in favour of the state that raised it.",
+        evidence: "interpretation",
+        refs: [{ source: 1 }, { source: 2 }],
+      },
+      counterCase: {
+        text: "The same army’s hold failed in the defeat of 1941–1942. Barkawi writes that its war-raised battalions were overrun from Hong Kong to Rangoon, by way of Singapore, and that from the remnants of this defeated army the Japanese recruited the anti-British Indian National Army; war, he argues, made many Indian soldiers into political agents, especially those in Axis captivity. Kirby, writing from the British records, calls it the “so-called” Indian National Army and records its division placed under the Japanese Fifteenth Army for Imphal. The organisation that bound soldiers to the army in Arakan and at Imphal could not bind men whose army had surrendered and who were offered another cause. The Hannibal volume’s lesson on an army of many peoples asks how a commander held such an army together far from home; here the question is what happened when the army no longer held them.",
+        evidence: "interpretation",
+        refs: [
+          { source: 0, locator: "Introduction" },
+          { source: 4, locator: "ch. VI" },
+        ],
+        battleSlugs: ["singapore-1942", "imphal-kohima"],
+      },
+      cost: {
+        text: "The costs of this lesson fall on people the commanders’ sources rarely name. Bengal starved while the army’s base was built on it; Kirby gives the official explanation and the relief, not the dead. Soldiers of the INA and of the Fourteenth Army, former comrades, fought each other. Prisoners like Tilbahadur Thapa were held in conditions he described as bound together on their backs over a trench for their waste, in the heat, for a month. No figure for any of these is given here.",
+        evidence: "fact",
+        refs: [
+          { source: 4, locator: "ch. II" },
+          { source: 0, locator: "Introduction" },
+          { source: 2 },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "People with different reasons for being there are given training, purpose in their own work and the experience of succeeding together.",
+          "Their leaders know that the organisation’s cause is not necessarily theirs, and do not pretend otherwise.",
+        ],
+        failsWhen: [
+          "The organisation is defeated or absent, and someone else offers the people a cause, as in 1942.",
+          "Leaders assume that people who work well for them share the organisation’s aims.",
+        ],
+        questions: [
+          "Do you know why the people in your organisation are there, in their own words?",
+          "Which of your organisation’s aims would they not call their own?",
+          "If the organisation failed tomorrow, what would still hold them together?",
+        ],
+      },
+      bearsOn:
+        "The lesson tests what “leadership” can mean in the volume’s question. Slim could make an army of many peoples fight well, but the reasons its soldiers fought were their own, and some were the army’s doing rather than any commander’s. It also widens “the record”: the commanders’ sources describe the army as formations, and the soldiers’ own reasons reach us only in a few recollections recorded long afterwards.",
+      questions: [
+        {
+          prompt:
+            "What reasons did Aziz Brimah give for volunteering, as Somerville recorded them?",
+          choices: [
+            "He was conscripted and had no choice.",
+            "The British had ended the tribal wars, it was proper to help them, and the enemy would come if not met.",
+            "He wanted to see India.",
+          ],
+          answer: 1,
+          explanation: "He added that he fought the war as a holy war.",
+        },
+        {
+          prompt:
+            "How did the army respond to the Bengal famine, according to Kirby?",
+          choices: [
+            "It took no part in relief.",
+            "At the Viceroy’s request it organised the collection and transport of supplies and medical relief.",
+            "It moved its base out of Bengal.",
+          ],
+          answer: 1,
+          explanation:
+            "Kirby gives the official explanation of the famine and the relief; it was months before the situation returned to normal.",
+        },
+        {
+          prompt:
+            "What does Barkawi argue sustained the Indian Army’s soldiers, if not nationalism?",
+          choices: [
+            "Hatred of the Japanese alone.",
+            "The army itself, whose discipline, training and battle made soldiers into fighting groups.",
+            "A promise of independence after the war.",
+          ],
+          answer: 1,
+          explanation:
+            "He notes that the British had made no concrete promise of independence.",
+        },
+      ],
+      sourceCheck: {
+        question: "Why did the soldiers of the Fourteenth Army fight?",
+        witnesses: [
+          {
+            label: "Aziz Brimah, recalled decades later",
+            claim:
+              "To meet an expanding enemy before it reached home, and as a holy war.",
+          },
+          {
+            label: "Nila Kantan, recalled decades later",
+            claim:
+              "He volunteered, did a job he thought useful, and wondered why they were fighting.",
+          },
+          {
+            label: "Barkawi, historian, 2017",
+            claim:
+              "The army itself made them into groups that fought, without a nation behind them.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Generalise from Brimah: they fought to defend their homes.",
+            feedback:
+              "One soldier’s reasons, recalled decades later, cannot stand for an army of many peoples.",
+          },
+          {
+            text: "Treat the soldiers’ words as evidence of particular men’s reasons, and Barkawi’s argument as an explanation of how the army made such different men fight together; neither settles the question for the army as a whole.",
+            feedback:
+              "The sources answer different questions: why one man went, and how an organisation made many men fight.",
+            best: true,
+          },
+          {
+            text: "Assume they fought for the empire, since they served in its army.",
+            feedback:
+              "None of the soldiers quoted gives that reason, and the volume’s rules exclude assigning one reason to all.",
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Whose war was it? Argue it from three positions: a soldier of an Indian division at Imphal, a soldier of the Indian National Army, and a famine relief worker in Bengal in 1943.",
+        guidance:
+          "Use Barkawi’s introduction, Somerville’s recorded recollections, Kirby on the famine and on Japanese hopes, and the Imperial War Museums. Say which of these voices the sources preserve and which they do not.",
+      },
+      sources: [
+        s.barkawi,
+        s.somervilleAfrica,
+        s.somervilleIndia,
+        s.iwmIndia,
+        s.kirby3,
       ],
     },
     {

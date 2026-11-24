@@ -96,6 +96,7 @@ Grades: **strong** means the lesson's main claims and its counter-evidence are i
 - Lesson 4: Oliver and others (1999), abstract read: cohesion correlates with group performance in military samples, correlational and not causal; Maier and Seligman (2016), abstract read, as the caution in correction 3. A review of collective efficacy may be added if one is found and read.
 - Lesson 8: Sleesman and others (2012), abstract, to be re-read by the batch.
 - Lesson 0: `base: "none"` unless a review on autobiographical or collective memory is read.
+- Lesson 6: _added in batch B3:_ Barkawi, _Soldiers of Empire_ (2017), the publisher’s excerpt of the introduction, on how the army made its soldiers into fighting groups, cited with `base: "theory"` and its limits; correction 9 is met by soldiers’ recollections recorded by Christopher Somerville (Aziz Brimah, Nila Kantan, Tilbahadur Thapa), so lesson 6 stands. Its counter-case is the Indian Army’s defeat of 1941–1942 and the Indian National Army raised from it.
 - Lesson 1: _added in batch B2:_ Mezulis and others (2004), abstract read on Europe PMC, on self-serving attribution, linking the Caesar volume's use of it rather than repeating it.
 - Other lessons: no candidate yet; propose in the batch or use `base: "none"`.
 

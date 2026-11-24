@@ -7091,5 +7091,2179 @@
         "outcome": "His tank armies fought into Berlin from the south; when the boundary between the fronts was fixed, the centre of the city fell to Zhukov's zone and Konev turned Rybalko's corps west."
       }
     ]
+  },
+  {
+    "slug": "gallabat",
+    "sources": [
+      {
+        "title": "East African Campaign, 1940–41, ch. III: The First Encounters (Official History of the Indian Armed Forces in the Second World War, general editor Bisheshwar Prasad, 1963)",
+        "url": "https://www.ibiblio.org/hyperwar/UN/India/EAfrica/EAfrica-3.html",
+        "publisher": "Combined Inter-Services Historical Section, India and Pakistan (HyperWar)"
+      },
+      {
+        "title": "I. S. O. Playfair, The Mediterranean and Middle East, vol. I: The Early Successes against Italy (London: HMSO, 1954), ch. XXI: The Italians Lose the Initiative in East Africa (History of the Second World War, United Kingdom Military Series)",
+        "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-Med-I/UK-Med-I-21.html",
+        "publisher": "HyperWar (ibiblio)"
+      },
+      {
+        "title": "Archibald Wavell, “Operations in East Africa, November, 1940 – July, 1941”, despatch of 21 May 1942, Supplement to the London Gazette, no. 37645, 10 July 1946",
+        "url": "https://www.thegazette.co.uk/London/issue/37645/data.pdf",
+        "publisher": "The London Gazette"
+      },
+      {
+        "title": "The Abyssinian Campaigns: The Official Story of the Conquest of Italian East Africa (London: Ministry of Information, 1942)",
+        "url": "https://archive.org/details/abyssiniancampaigns",
+        "publisher": "Internet Archive"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "In the first week of July 1940, a month after Italy entered the war, Italian forces took the Sudanese frontier posts of Kassala, Gallabat and Kurmuk. Playfair writes that by the end of August the British had lost these posts, British Somaliland and Moyale on the Kenya border, while the Patriot movement against Italian rule was gaining strength inside Ethiopia. In September the 5th Indian Division and a squadron of tanks began to reach the Sudan.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. III"
+          },
+          {
+            "source": 1,
+            "locator": "ch. XXI"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Wavell ordered step-by-step action on the Sudan front, not a general offensive. At a meeting in Khartoum beginning on 28 October, the day Italy attacked Greece, the Secretary of State for War, Anthony Eden, proposed that Gallabat should be attacked early in November and Kassala early in January. Retaking the frontier posts would open an entry into Ethiopia through which to foster the revolt. The 1942 Ministry of Information account calls Gallabat the gate of the Abyssinian rebellion and of the province of Amhara, whose capital was Gondar.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "ch. XXI"
+          },
+          {
+            "source": 0,
+            "locator": "ch. III"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "On Wavell's instructions Major-General Heath of the 5th Indian Division planned an attack by the 10th Indian Infantry Brigade under Brigadier W. J. Slim, with a squadron of the 6th Royal Tank Regiment. In a first phase the 3rd Royal Garhwal Rifles, led by the tanks, were to take Gallabat Fort and if possible win a bridgehead over the dry river bed beyond it; in a second phase the 1st Essex were to attack Metemma. The aim, as the 1942 account puts it, was to break Metemma and open the caravan routes into Gojjam to support the Patriots.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. III"
+          },
+          {
+            "source": 1,
+            "locator": "ch. XXI"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Gallabat Fort stood on a ridge on the Sudanese side of a dry river bed with steep banks, the Boundary Khor, which marked the frontier; the post and village of Metemma lay beyond it. Clearings had been burnt round the fort for a field of fire. The ground was open, rocky and hard, with long grass that hid boulders and mines, and there was little cover from the air.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "ch. XXI"
+          },
+          {
+            "source": 0,
+            "locator": "ch. III"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Slim's brigade combined one British and two Indian battalions, as each brigade of the 5th Indian Division then did, with field artillery and a squadron of cruiser and light tanks. Both Italian posts had good field defences: Gallabat was held by a colonial battalion and Metemma by two more colonial battalions and irregular bande, with pack artillery and anti-tank weapons. The 1942 account names the Italian commander at Gallabat–Metemma as Lieutenant-Colonel Castagnola and the commander at Gondar, who promised him air support, as General Martini. Only a few bombers, fighters and army co-operation aircraft of the Royal Air Force were available, flying from temporary strips, against Italian fighters and bombers within range of the area.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "ch. XXI"
+          },
+          {
+            "source": 0,
+            "locator": "ch. III"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The attack was planned for 8 November, but reports at the end of October of Italian reinforcements moving up from Gondar brought it forward to 6 November. The 4th Baluch held the outpost line and stayed in reserve. The 1942 account says that the brigade assembled within a mile or two of the Italian lines without the Italian commander learning of it. Rain on the evening of 5 November made the forward landing ground unusable until mid-morning on the 6th.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. III"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Air and artillery bombardment opened at 5.30 on 6 November, and at 6.15 the Garhwalis attacked behind the tanks. The tanks failed to break the stockade, but two riflemen cut the wire and the fort was overrun by about 7.30; an Italian counter-attack towards the river bed was repulsed. By then most of the tanks were out of action. From mid-morning Italian bombers, with their fighters in command of the air, attacked the fort repeatedly; there was little cover and no anti-aircraft guns. The bombing continued on 7 November, and Slim withdrew from the fort to less exposed ground; Wavell's despatch says that artillery fire then made Metemma untenable for the Italians, though it could not be occupied. The Italians withdrew from Gallabat and Metemma towards Gondar on the night of 31 January 1941.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. III"
+          },
+          {
+            "source": 1,
+            "locator": "ch. XXI"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "With only one cruiser tank still running and the wire round Metemma intact, Slim decided on 6 November not to go on with the attack on Metemma and to consolidate the ground gained; Playfair describes the attack as postponed until the tanks could be repaired. The next day, with the tank workshop vehicle destroyed, no hope of repairs and the bombing continuing, Slim decided to evacuate Gallabat and withdraw to positions within artillery range of Metemma. Playfair places the decision in the afternoon of 7 November and the new position about three miles west of Gallabat; the withdrawal was not interfered with.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. III"
+          },
+          {
+            "source": 1,
+            "locator": "ch. XXI"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The loss of the tanks and the loss of the air decided the action. The Indian official history names the mechanical breakdown of the tanks and Italian air superiority as the two reasons for failure; Playfair says the tanks were disabled mainly by mines and boulders in the grass, and that the British fighters, inferior to the Italian ones, were shot down early. On the afternoon of 6 November the casualties of the bombing caused confusion, and elements in the rear began to withdraw without orders before the situation was brought under control.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. III"
+          },
+          {
+            "source": 1,
+            "locator": "ch. XXI"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Gallabat was taken but not held, and Metemma was not attacked. Playfair states plainly that the operation failed of its object; Wavell's despatch calls it a minor attack and a partially successful action. The Indian official history judges the results disappointing, though losses were inflicted on the Italians.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "ch. XXI"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 0,
+            "locator": "ch. III"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Wavell decided in early December to keep up the pressure at Gallabat without large-scale operations there and to make Kassala the main attack. Patrolling in November and December gave the 5th Indian Division the upper hand in no man's land and led the Italians to overestimate its strength. Playfair and the 1942 account agree that the attack encouraged the Patriots, who saw Italian posts attacked with modern weapons. When the Italians withdrew at the end of January, a detachment of the 9th Indian Infantry Brigade followed them towards Gondar.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "ch. XXI"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 0,
+            "locator": "ch. III"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Taking an objective is not the same as being able to hold it: a position won in the open could not be kept once the enemy controlled the air and the attackers had no anti-aircraft defence. An attack that depended on a few tanks to break wire failed when the tanks broke down and there were no spares or reserves. The Indian official history draws the lesson that all forward troops needed protection against air attack.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. III"
+          },
+          {
+            "source": 1,
+            "locator": "ch. XXI"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The sources differ on why the tanks failed (mechanical causes, or mines and boulders), on the losses on both sides, which are not given here, and on the result: the 1942 account says the action was fought to a standstill but served its purpose, Wavell's despatch calls it partially successful, and Playfair says it failed. The 1942 account was wartime official publicity and its detail of the Italian side, including the commanders' names, is not confirmed by the other sources read. None of the sources describes the action from Italian records, and none names the unit that began to withdraw without orders.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. III"
+          },
+          {
+            "source": 1,
+            "locator": "ch. XXI"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The Indian official history, written from the war diaries, gives the plan, the forces, the attack hour by hour and the decisions. Playfair's British official history gives the strategic setting, the air situation and the result. Wavell's despatch gives the commander-in-chief's view of the action and the policy that followed. The Ministry of Information's 1942 account gives a vivid narrative, with Italian names, written as wartime publicity.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. III"
+          },
+          {
+            "source": 1,
+            "locator": "ch. XXI"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Preparation",
+        "time": "28 October – 5 November 1940",
+        "description": "The attack is agreed at Khartoum and brought forward to forestall Italian reinforcements."
+      },
+      {
+        "title": "The fort taken",
+        "time": "Early morning, 6 November",
+        "description": "Bombardment, then the Garhwalis and the tanks storm Gallabat Fort; most tanks break down."
+      },
+      {
+        "title": "Command of the air lost",
+        "time": "6–7 November",
+        "description": "Italian bombers and fighters attack the fort; the attack on Metemma is abandoned."
+      },
+      {
+        "title": "Withdrawal",
+        "time": "7 November",
+        "description": "Slim pulls back from the fort to less exposed ground within artillery range of Metemma."
+      },
+      {
+        "title": "Italian withdrawal",
+        "time": "31 January 1941",
+        "description": "The Italians leave Gallabat and Metemma for Gondar."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "William Slim",
+        "objective": "Take Gallabat Fort and then Metemma, opening the frontier and the routes to the Patriots.",
+        "known": "The Italian posts were fortified; reinforcements were reported on the road from Gondar; his attack on Metemma depended on tanks to break its wire.",
+        "uncertainty": "Whether the tanks would survive the ground and whether the few British fighters could hold off the Italian air force.",
+        "constraints": "No anti-aircraft guns, no spare tanks and hard ground that made digging in difficult.",
+        "decision": "When the tanks broke down and the air was lost, he gave up the attack on Metemma and then the fort itself, withdrawing to ground from which artillery could cover Metemma.",
+        "forces": "The 10th Indian Infantry Brigade, a squadron of cruiser and light tanks and field artillery.",
+        "terrain": "Open, rocky ground around the fort and a steep-banked river bed before Metemma.",
+        "logistics": "A single workshop vehicle and spares for the tanks, both lost in the bombing.",
+        "outcome": "The fort was taken and given up; the operation failed of its object."
+      },
+      {
+        "name": "Lieutenant-Colonel Castagnola",
+        "objective": "Hold Gallabat and Metemma, the Italian posts on the road to Gondar.",
+        "known": "According to the 1942 British account, he had no warning of the attack; when Gallabat was overrun he still held Metemma and its wire.",
+        "uncertainty": "Whether reinforcements from Gondar would arrive in time.",
+        "constraints": "Colonial battalions with limited artillery; the fort at Gallabat lay on open ground under British artillery fire.",
+        "decision": "He called on Gondar for reinforcements and air action, and General Martini sent bombers and fighters that attacked the fort for two days.",
+        "forces": "Colonial battalions and irregular bande, with pack artillery and anti-tank weapons.",
+        "terrain": "Fortified posts on either side of the frontier river bed.",
+        "logistics": "Air support from Gondar and reinforcements on the road behind Metemma.",
+        "outcome": "Metemma held, and the British withdrew from Gallabat; the posts were given up only in the general withdrawal at the end of January 1941."
+      }
+    ]
+  },
+  {
+    "slug": "burma-1942",
+    "sources": [
+      {
+        "title": "S. Woodburn Kirby, The War Against Japan, vol. II: India's Most Dangerous Hour (London: HMSO, 1958), ch. IX–XII (History of the Second World War, United Kingdom Military Series)",
+        "url": "https://archive.org/details/war-against-japan-vol-2",
+        "publisher": "Internet Archive"
+      },
+      {
+        "title": "Archibald Wavell, “Operations in Burma from 15th December, 1941, to 20th May, 1942”, despatch of 14 July 1942 covering the reports of T. J. Hutton and H. R. L. G. Alexander, Supplement to the London Gazette, no. 38228, 11 March 1948",
+        "url": "https://www.thegazette.co.uk/London/issue/38228/data.pdf",
+        "publisher": "The London Gazette"
+      },
+      {
+        "title": "Charles F. Romanus and Riley Sunderland, Stilwell's Mission to China (Washington: Office of the Chief of Military History, 1953), ch. IV: China's Blockade Becomes Complete (United States Army in World War II)",
+        "url": "https://www.ibiblio.org/hyperwar/USA/USA-CBI-Mission/USA-CBI-Mission-4.html",
+        "publisher": "HyperWar (ibiblio)"
+      },
+      {
+        "title": "Burma, 1942: The U.S. Army Campaigns of World War II — Clayton R. Newell (Center of Military History, 1995)",
+        "url": "https://archive.org/details/Burma1942",
+        "publisher": "Internet Archive"
+      },
+      {
+        "title": "“Japanese forces occupied Rangoon, Burma, on March 8, 1942”, Timeline: A Window into the Early Showa Period",
+        "url": "https://www.jacar.go.jp/english/exhibition/shuhou-english/timeline/nenpyo19420308.html",
+        "publisher": "Japan Center for Asian Historical Records (JACAR), National Archives of Japan"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After invading southern Burma, the Japanese Fifteenth Army occupied Rangoon on 8 March 1942; the weekly Shashin Shuho put its troops entering the city on the cover of its issue of 1 April. Kirby describes the first air raids on Rangoon in December 1941 as starting a general exodus: the city's large Indian population set out to reach India overland. Alexander, who arrived to command the Army in Burma on 5 March, asked India for a corps commander, and Lieutenant-General W. J. Slim took command of the new Burma Corps on 19 March.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 4
+          },
+          {
+            "source": 0,
+            "locator": "ch. IX"
+          },
+          {
+            "source": 1,
+            "locator": "Alexander, paras. 19–23"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "After Rangoon the defence was meant to cover the road to China, the new base around Mandalay and the oilfields at Yenangyaung, on which the Allied forces depended for fuel. Chinese armies under Stilwell held the Sittang valley, but Kirby writes that Chiang Kai-shek was never prepared to commit them wholeheartedly to Burma, and Newell that he distrusted British motives and would fight there only long enough to keep the supply line open. The Japanese, with more divisions than the Allies had estimated, planned to advance north on three axes and fight the decisive battle for Mandalay by the middle of May. Kirby judges that most Burmese were neither pro-British nor pro-Japanese, though many helped the invader once he seemed to be winning; Newell writes that sympathetic Burmese gave the Japanese detailed information on Allied movements.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. IX, XII"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 0,
+            "locator": "ch. I"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Burma Corps was to hold the Irrawaddy valley and the oilfields while the Chinese held the Sittang valley, the two fronts separated by the Pegu Yomas. When central Burma could no longer be held, Alexander decided, and told Slim on 26 April, that his main object must be the defence of India: as much of the army as possible was to be brought out for reorganization, keeping touch with the Chinese and a position from which to re-enter Burma.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XII"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The Irrawaddy valley north of Prome was dry and very hot in April; water was scarce, and the chaungs, stream beds running down to the river, gave the defensive lines; the Pin Chaung, north of Yenangyaung, had a single ford usable by wheeled traffic. North of Mandalay the only route for the army was a narrow sandy track from Yeu to Shwegyin on the Chindwin, through innumerable chaungs and over flimsy bridges, and from there by river steamer to Kalewa and on through the malarial Kabaw valley to Tamu. The monsoon, due in mid-May, would turn the tracks to quagmires.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. X, XII"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Burma Corps comprised the 1st Burma Division under Bruce Scott, the 17th Indian Division under Cowan and the 7th Armoured Brigade; its staff and signals had to be found in Burma and it was never fully staffed. Stilwell commanded the Chinese Fifth and Sixth Armies under the Generalissimo's restrictions, and Lieutenant-General Sun Li-jen's 38th Division was placed under Slim's command in April. Iida's Fifteenth Army had four divisions. After the Japanese destroyed many Allied aircraft at Magwe on 22 March, the remaining air forces left Burma, and the Japanese had the air almost to themselves.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. IX–X"
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "On 19 March the corps was gathering in the Irrawaddy valley around Prome, with the 1st Burma Division coming across from the Sittang after relief by the Chinese 200th Division. The Chinese 200th Division held Toungoo, in the Sittang valley, unsupported; Newell calls its stand the longest defensive action of any Allied force in the campaign. Japanese road blocks and the action at Shwedaung at the end of March made Prome untenable, and on 1 April Alexander, with Wavell's approval, ordered Burma Corps back to the Allanmyo area.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. IX–X"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "In April the corps fell back up the Irrawaddy towards Magwe while the Japanese 33rd Division worked round its flanks. On 15 April Slim gave the signal to destroy the Yenangyaung oilfields. A Japanese regiment, moving unobserved, blocked the Pin Chaung ford behind the 1st Burma Division, which fought for two days in great heat without water; on 19 April it broke out to the east, abandoning its vehicles and guns, while the Chinese 38th Division attacked from the north too late to help. Lashio fell on 29 April, closing the Burma Road. Burma Corps crossed the Irrawaddy at the Ava bridge, fought at Monywa at the beginning of May, and raced the Japanese and the monsoon to the Shwegyin ferry, where the rearguard fought its last action on 10 May. The first heavy rains fell on 12 May; the rearguards reached Tamu by 19 May, and on 20 May IV Corps took command of the troops from Burma.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. X, XII"
+          },
+          {
+            "source": 2,
+            "locator": "ch. IV"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Slim delayed the demolition of the oilfields until 15 April because the Allied armies needed petrol until the last moment. He told Bruce Scott to hold on the Yin Chaung to give the Chinese time to strike, and when the 1st Burma Division was cut off he refused Bruce Scott's request to abandon his transport and break out, because the Chinese were to attack at dawn. Kirby records that a false report of Japanese in Kyaukpadaung led corps headquarters to recall troops that had crossed the Pin Chaung, losing the last chance of opening the road. In the withdrawal Slim sent the whole of the 2nd Burma Brigade up the Myittha valley to block a Japanese thrust, a change Alexander confirmed on 28 April. Alexander was determined not to abandon the wounded or the refugees on the Yeu–Shwegyin track; at Shwegyin, with too few steamers, the guns, tanks and nearly all the vehicles were destroyed.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. X, XII"
+          },
+          {
+            "source": 2,
+            "locator": "ch. IV"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The loss of the air at Magwe left the army without reconnaissance or cover. The loss of Toungoo opened the road into the Shan States and to Lashio, so that the whole Allied defence could be turned; Kirby calls Toungoo the key to it. The Yenangyaung action cost the 1st Burma Division much of its strength and its irreplaceable transport and guns. Alexander's decision of 25 April to retreat across the Irrawaddy, and of 26 April to make the defence of India his main object, turned the campaign into a race for the Chindwin.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. X, XII"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Burma was lost and China's land route was cut. Kirby writes that the Army in Burma retreated nearly a thousand miles in some three and a half months without once losing its cohesion, the longest retreat ever carried out by a British army, but that very little of its armament and equipment was brought out. Wavell's despatch names Slim, Cowan and Bruce Scott as good and resolute commanders to whose efforts it was largely due that the final withdrawal was so skilfully conducted. Stilwell, Newell records, said that they had been run out of Burma and ought to find out why and go back.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XII"
+          },
+          {
+            "source": 1,
+            "locator": "Wavell, para. 35"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The troops reached India exhausted, and dysentery and malaria took a heavy toll in the Kabaw valley; Kirby judges that another week east of the Chindwin might have led to complete disaster. Part of the Chinese force went back to China, but three divisions went west into India, where Stilwell began to prepare training bases. The Indian exodus left Burma without the labour and staff that had run its public services, and India had to become the base for any return.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XII"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 1,
+            "locator": "Alexander, para. 90"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "An army can lose a campaign and keep its cohesion if its commanders keep it fighting, keep it supplied on the way and accept the loss of what it cannot carry; but cohesion was bought with the abandonment of guns, tanks and transport, and the retreat's cost fell hardest on those who could not keep up. A coalition whose partners have different aims cannot fight one plan, and an army without air cover and with weak intelligence will be outflanked by an enemy who moves unobserved.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XII"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The sources differ on small and large points. Romanus and Sunderland date the start of the oilfield demolitions to 1 a.m. on 15 April, Kirby to Slim's signal at 1 p.m. that day. Kirby explains the late Chinese attack at the Pin Chaung by delays; Romanus and Sunderland say Sun refused to attack again on 18 April without further reconnaissance. Alexander's report holds that an army's needs must come before those of refugees, but that the Indian population, which felt it must get out or be murdered, had to be evacuated if the public services were not to break down; no source read records the refugees' own experience of the march, and their losses are not given here. The casualty figures in Kirby are also left out. The Japanese side is told here mostly through Kirby's use of Japanese records; the Japanese army's own monograph on this phase was not readable.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. X, XII"
+          },
+          {
+            "source": 2,
+            "locator": "ch. IV"
+          },
+          {
+            "source": 1,
+            "locator": "Alexander, para. 90"
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Kirby's British official history gives the narrative, the Japanese plans from their records and the review of the campaign. Wavell's despatch carries Hutton's and Alexander's reports, with their views on the Chinese, the refugees and the commanders. Romanus and Sunderland give the American and Chinese side at Yenangyaung, and Newell's brochure the theatre, the Chinese command and Stilwell's walk out. The JACAR timeline gives the Japanese wartime record of Rangoon's fall.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Prome",
+        "time": "19 March – early April 1942",
+        "description": "Slim takes command of Burma Corps; Toungoo falls and the corps leaves Prome."
+      },
+      {
+        "title": "Yenangyaung",
+        "time": "10–21 April",
+        "description": "The oilfields are destroyed; the 1st Burma Division is cut off and breaks out as the Chinese attack."
+      },
+      {
+        "title": "Across the Irrawaddy",
+        "time": "25 April – 5 May",
+        "description": "Alexander orders the retreat to India; Burma Corps crosses at Ava and fights at Monywa."
+      },
+      {
+        "title": "Shwegyin",
+        "time": "6–11 May",
+        "description": "The race for the Chindwin ferry; the rearguard's last action; guns and vehicles destroyed."
+      },
+      {
+        "title": "Into India",
+        "time": "12–20 May",
+        "description": "The monsoon breaks; the troops march through the Kabaw valley to Tamu and IV Corps takes command."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "William Slim",
+        "objective": "Hold the Irrawaddy front and the oilfields with the Chinese, then bring Burma Corps out to India intact.",
+        "known": "His corps was improvised and short of staff, the air had been lost, and the Japanese were moving round his flanks with road blocks.",
+        "uncertainty": "Whether the Chinese would attack when and where they agreed, and whether the army could reach the Chindwin before the Japanese and the monsoon.",
+        "constraints": "No air cover, a single track to the Chindwin, too few river steamers, and wounded and refugees who had to come with the army.",
+        "decision": "He held the oilfields until the last moment, used the Chinese 38th Division to relieve the trapped 1st Burma Division, blocked the Myittha valley, and brought the corps out through Shwegyin at the cost of its guns and vehicles.",
+        "forces": "Burma Corps: the 1st Burma Division, the 17th Indian Division and the 7th Armoured Brigade, with the Chinese 38th Division under command in April.",
+        "terrain": "The dry Irrawaddy valley, then the Yeu–Shwegyin track and the Chindwin.",
+        "logistics": "Staging camps stocked along the track; petrol to the last; nearly all equipment destroyed at Shwegyin.",
+        "outcome": "Burma was lost, but the corps reached India without losing its cohesion."
+      },
+      {
+        "name": "Shojiro Iida",
+        "objective": "Destroy the Allied armies in central Burma in a decisive battle for Mandalay and occupy the whole country.",
+        "known": "He had more divisions in Burma than the Allies believed, command of the air, and divisions able to move fast round the flanks of road-bound enemies.",
+        "uncertainty": "Whether the Allies would stand to fight in the Irrawaddy loop or slip away.",
+        "constraints": "The British and Chinese fronts lay in separate valleys divided by the Pegu Yomas, and he had planned for the decisive battle to be over by the middle of May.",
+        "decision": "When the Allies escaped the trap at Mandalay, he ordered his four divisions on 26 April to strike wide and deep behind them to cut their lines of retreat.",
+        "forces": "The Fifteenth Army's four divisions.",
+        "terrain": "The Irrawaddy and Sittang valleys and the Shan States.",
+        "logistics": "Motor transport and river craft behind fast-moving infantry.",
+        "outcome": "Burma was occupied and China's land route closed, but the British and part of the Chinese armies escaped to India."
+      }
+    ]
+  },
+  {
+    "slug": "first-arakan",
+    "sources": [
+      {
+        "title": "S. Woodburn Kirby, The War Against Japan, vol. II: India's Most Dangerous Hour (London: HMSO, 1958), ch. XV, XIX and XX (History of the Second World War, United Kingdom Military Series)",
+        "url": "https://archive.org/details/war-against-japan-vol-2",
+        "publisher": "Internet Archive"
+      },
+      {
+        "title": "N. N. Madan, The Arakan Operations, 1942–45 (Official History of the Indian Armed Forces in the Second World War, general editor Bisheshwar Prasad, 1954), ch. II–VIII",
+        "url": "https://archive.org/details/arakanoperations1942",
+        "publisher": "Internet Archive"
+      },
+      {
+        "title": "Archibald Wavell, “Operations in Eastern Theatre, Based on India, from March 1942 to December 31, 1942”, despatch of 27 September 1943, Supplement to the London Gazette, no. 37728, 18 September 1946",
+        "url": "https://www.thegazette.co.uk/London/issue/37728/data.pdf",
+        "publisher": "The London Gazette"
+      },
+      {
+        "title": "Archibald Wavell, “Operations in the India Command, from 1st January, 1943, to 20th June, 1943”, despatch of 27 June 1944, Supplement to the London Gazette, no. 38266, 22 April 1948",
+        "url": "https://www.thegazette.co.uk/London/issue/38266/data.pdf",
+        "publisher": "The London Gazette"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After the retreat from Burma in May 1942 Wavell planned to return in the next dry season. His despatch records that the heavy monsoon, malaria and the Congress disturbances of August and September in India delayed preparations, and that operations in Madagascar took the troops, ships and landing craft needed for a seaborne expedition. By the middle of November he had abandoned hope of taking Akyab from the sea and decided to try an advance from Chittagong down the Arakan coast to the Mayu peninsula, from which the island could be attacked at short range.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "paras. 28–31"
+          },
+          {
+            "source": 0,
+            "locator": "ch. XV"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Wavell writes that the operations had one objective only, Akyab island, and that he would not have committed troops to the unhealthy Arakan jungles had he had the naval and air forces and landing craft for a seaborne assault; sooner than keep his troops idle, he took the risk with troops who were not fully trained or equipped. He expected the Chinese in Yunnan and IV Corps in Assam to keep the Japanese in Upper Burma busy, but the Chinese made no move and IV Corps could do little, so the Japanese could reinforce Arakan.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3,
+            "locator": "paras. 15–16"
+          },
+          {
+            "source": 2,
+            "locator": "para. 31"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Under the plan Wavell gave Irwin's Eastern Army on 19 November, the 14th Indian Division under Lloyd was to advance overland down the Mayu peninsula, from whose tip a short-range assault on Akyab could be made with small craft. When Slim's XV Corps took command on 14 April 1943, the aim had become defensive: Slim's first operation instruction made it his object to hold the Maungdaw–Tunnels area, with Buthidaung to be held unless that endangered the main object.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XV, XX"
+          },
+          {
+            "source": 1,
+            "locator": "ch. II, VII"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Kirby describes Arakan as densely forested parallel hill ranges separated by narrow valleys of ricefields cut by tidal chaungs. The coastal strip of the Mayu peninsula narrows to a few hundred yards in the south between Donbaik and Foul Point and is flanked by the steep Mayu Range, crossed in 1942 by a single metalled road from Maungdaw to Buthidaung through two tunnels. The tidal chaungs were obstacles to tanks and, at high tide, to infantry. In the monsoon wheeled traffic stopped.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XV"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The advance was made by the 14th Indian Division, reinforced brigade by brigade, with Irwin giving Lloyd his orders. Slim's XV Corps, responsible for the defence of Bengal, took command in Arakan only on 14 April 1943; Kirby records that when Irwin ordered XV Corps to send forward a few Valentine tanks for the attack on Donbaik in February, Slim pointed out that they were too few, a view that was not accepted. On the Japanese side Koga's 55th Division, Kirby notes, had fought throughout the 1942 campaign. Madan says most of the Indian brigades had had practically no anti-malarial training and that reinforcements arrived untrained.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XV, XX"
+          },
+          {
+            "source": 1,
+            "locator": "ch. VII"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The advance began in the autumn of 1942. The Japanese withdrew from the Maungdaw–Buthidaung line, which the British occupied in mid-December, and the 14th Division pushed down both sides of the Mayu Range. In January it reached the Japanese positions at Donbaik, near the tip of the peninsula, and at Rathedaung on the Mayu River, which the Japanese had fortified and held.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3,
+            "locator": "paras. 3–8"
+          },
+          {
+            "source": 0,
+            "locator": "ch. XV"
+          },
+          {
+            "source": 1,
+            "locator": "ch. III"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Repeated attacks on Donbaik and Rathedaung from January to mid-February failed against well-sited, concealed bunkers, including the February attack with tanks. At the end of February Irwin accepted Lloyd's view that further attacks were unjustified, but at Wavell's wish a last attack on Donbaik was made on 18 March and failed. The reinforced Japanese then crossed the Mayu River and the range and struck the exposed flank of the troops on the peninsula; on 29 March Irwin countermanded Lloyd's order to withdraw, relieved him, and took command until Lomax arrived. Lomax extricated one brigade by the beach road; another broke into small groups and made its way out through the jungle without its equipment. In April the Japanese drove north; XV Corps took command on 14 April, and in early May the Japanese broke through on the range, Buthidaung was abandoned and Maungdaw was then given up. The British ended in May back where they had started in October 1942.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XV, XIX, XX"
+          },
+          {
+            "source": 3,
+            "locator": "paras. 9–14"
+          },
+          {
+            "source": 1,
+            "locator": "ch. IV–VII"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Wavell chose to attempt Akyab overland rather than wait for the means of a seaborne attack, and then to renew the attack on Donbaik in March. Irwin held on in the peninsula after its flank was exposed and countermanded Lloyd's withdrawal. Slim, taking over with troops whose morale he judged generally poor and in some units very low, wrote in an appreciation of 24 April that lines of defence in such country could always be turned, and that what was needed were strong, well-stocked pivots from which striking forces could destroy the enemy; he proposed to withdraw to the open Cox's Bazar area and let the Japanese string themselves out, writing: “Let him. Pursuing this policy we give the Japanese all the dirty work.” Irwin insisted that Maungdaw be held; on 8 May they compromised on giving up Maungdaw but holding a line from Bawli Bazar to Taung Bazar.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3,
+            "locator": "para. 15"
+          },
+          {
+            "source": 0,
+            "locator": "ch. XIX, XX"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Kirby identifies the failures at Donbaik and Rathedaung, which gave the Japanese time to bring up a well-trained division, as the turning point. Koga avoided frontal attacks and, using the central position and his control of the rivers, manoeuvred first the 14th and then the 26th Division out of their positions by deep outflanking attacks on their communications. In early May Lomax's plan to trap the advancing Japanese in a box on the Mayu Range failed; Slim reported to Irwin that the sides of the box had crumbled and the lid had opened without adequate reason, mainly because of the very low morale of units long in Arakan without relief.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XX"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Wavell's despatch concedes that strategically the army failed to reach Akyab and finished where it started, that the capture of Akyab overland was always a gamble, and that the serious loss was in prestige and morale; the greatest gain was experience of the enemy's methods and of the army's own defects in training and organization. On 20 May Wavell replaced Irwin, who had been in ill health for some time, with Giffard.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3,
+            "locator": "paras. 14, 19"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The campaign left the army in Arakan with its morale low, malaria widespread and the Japanese confirmed in their belief that British and Indian troops could be levered out of any position by cutting their communications. Slim's XV Corps held the monsoon line in 1943, and Madan records his instructions in June and October for the next season's operations. Kirby judges that the well-conceived plans prepared by Slim and Lomax might have succeeded with determined troops, and that morale could have been restored only by withdrawing the units that had been in Arakan too long.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XX"
+          },
+          {
+            "source": 1,
+            "locator": "ch. VIII"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Kirby draws the lesson that frontal attacks on well dug-in and skilfully sited positions never succeeded in Burma without overwhelming artillery or close support by tanks and aircraft, and that troops too dependent on their communications were levered out by an enemy who went round them. An offensive begun with partly trained troops at the end of a weak line of communication, and continued for prestige after its object had gone, cost more than the ground was worth. A commander who arrives at the end of a failing campaign can conduct its withdrawal and draw its lessons, but cannot reverse it.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XX"
+          },
+          {
+            "source": 3,
+            "locator": "para. 19"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Wavell wrote that on balance he would never regret ordering the campaign despite the lack of resources. Kirby, writing later with access to the records, judges that Wavell might have been well advised to cancel the attempt on Akyab once the initiative passed to the Japanese, that his order for a further attack on Donbaik in March was courting disaster, and that Irwin's instructions to Lomax showed how far his views were from the realities of the situation. Madan's Indian history emphasizes the troops' fatigue, malaria and lack of training. The casualty figure Wavell gives is not used here, and the Japanese side is told through Kirby's use of Japanese records.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 3,
+            "locator": "para. 19"
+          },
+          {
+            "source": 0,
+            "locator": "ch. XX"
+          },
+          {
+            "source": 1,
+            "locator": "ch. VII"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Kirby's British official history gives the terrain, the narrative from both sides, Slim's appreciation and a critical review of the campaign. Madan's Indian official history gives the operations brigade by brigade and the troops' condition. Wavell's two despatches give the commander-in-chief's reasons for the campaign and his verdict on it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "The advance",
+        "time": "Autumn 1942 – early January 1943",
+        "description": "The 14th Indian Division moves down the Mayu peninsula and valley towards Akyab."
+      },
+      {
+        "title": "Donbaik and Rathedaung",
+        "time": "January – 18 March 1943",
+        "description": "Repeated attacks on fortified positions fail, the last at Wavell's wish."
+      },
+      {
+        "title": "The Japanese counterstroke",
+        "time": "March – early April",
+        "description": "Outflanking attacks drive the British off the peninsula; Lloyd is relieved and Lomax takes over."
+      },
+      {
+        "title": "Slim takes command",
+        "time": "14 April – 7 May",
+        "description": "XV Corps tries to hold the Maungdaw–Tunnels line; the box fails and Buthidaung is abandoned."
+      },
+      {
+        "title": "Back to the start line",
+        "time": "8 May – monsoon 1943",
+        "description": "Maungdaw is given up and the corps holds the monsoon line further north."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "William Slim",
+        "objective": "Hold the Maungdaw–Tunnels area and, if it could not be held, bring the force back to ground where the Japanese would have to attack him.",
+        "known": "He took over troops whose morale was poor after months of failed attacks and withdrawals, weakened by malaria and untrained reinforcements, against an enemy who outflanked every line.",
+        "uncertainty": "Whether the Japanese would push on past Maungdaw before the monsoon, and whether his units would stand.",
+        "constraints": "An army commander, Irwin, who insisted on holding Maungdaw, and a single fresh but untried brigade.",
+        "decision": "He authorized the abandonment of Buthidaung, argued for a withdrawal to the Cox's Bazar area, and accepted a compromise line north of Maungdaw.",
+        "forces": "XV Corps with the 26th Indian Division and reinforcements.",
+        "terrain": "The Mayu Range, the tidal Mayu valley and the open country round Cox's Bazar.",
+        "logistics": "A road over the range through the Tunnels; supplies by sea and river in the monsoon.",
+        "outcome": "The force withdrew to its monsoon line; his idea of strong pivots for striking forces became the basis of later operations."
+      },
+      {
+        "name": "Takishi Koga",
+        "objective": "Defend Akyab, then gain and hold the Buthidaung–Maungdaw line through the monsoon to make a new British offensive harder.",
+        "known": "The British depended on their road and river communications and attacked his fortified positions frontally.",
+        "uncertainty": "How quickly the British could bring up fresh troops.",
+        "constraints": "A division at the end of its own communications, with control of the rivers as his advantage.",
+        "decision": "He held Donbaik and Rathedaung, then avoided frontal attacks and sent columns through the hills against the British flanks and communications.",
+        "forces": "The 55th Division, reinforced from Upper Burma.",
+        "terrain": "The hills and chaungs between the coast and the Kaladan.",
+        "logistics": "River communications he controlled.",
+        "outcome": "He drove the British back to their start line and held the Buthidaung–Maungdaw line."
+      }
+    ]
+  },
+  {
+    "slug": "admin-box",
+    "sources": [
+      {
+        "title": "S. Woodburn Kirby, The War Against Japan, vol. III: The Decisive Battles (London: HMSO, 1961), ch. IX–X (History of the Second World War, United Kingdom Military Series)",
+        "url": "https://archive.org/details/war-against-japan-vol-3",
+        "publisher": "Internet Archive"
+      },
+      {
+        "title": "N. N. Madan, The Arakan Operations, 1942–45 (Official History of the Indian Armed Forces in the Second World War, general editor Bisheshwar Prasad, 1954), ch. X: The Japanese Counter-Offensive",
+        "url": "https://archive.org/details/arakanoperations1942",
+        "publisher": "Internet Archive"
+      },
+      {
+        "title": "George Giffard, “Operations in Burma and North-East India from 16th November, 1943 to 22nd June, 1944”, despatch of 19 June 1945, Supplement to the London Gazette, no. 39171, 19 March 1951",
+        "url": "https://www.thegazette.co.uk/London/issue/39171/data.pdf",
+        "publisher": "The London Gazette"
+      },
+      {
+        "title": "Japanese Monograph No. 132: Burma Operations Record, 28th Army Operations in Akyab Area (revised 1958), compiled by former officers of the 28th Army",
+        "url": "https://www.ibiblio.org/hyperwar/Japan/Monos/pdfs/JM-132/JM-132.pdf",
+        "publisher": "Office of the Chief of Military History, U.S. Army (HyperWar)"
+      },
+      {
+        "title": "Hilary St. George Saunders, Royal Air Force 1939–1945, vol. III: The Fight Is Won (London: HMSO, 1954), ch. XV: Arakan, Kohima, and Imphal (History of the Second World War, United Kingdom Military Series)",
+        "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-RAF-III/UK-RAF-III-15.html",
+        "publisher": "HyperWar (ibiblio)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "A year after the failure of the first Arakan offensive, XV Indian Corps under Christison, part of Slim's Fourteenth Army, advanced again on the Mayu peninsula. Maungdaw fell on 9 January 1944, and the corps was regrouping for a deliberate attack on the Japanese defences east of the Mayu Range. The 5th Indian Division held the coastal side of the range and the 7th Indian Division the Kalapanzin valley to the east, linked by a road over the Ngakyedauk Pass.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. IX–X"
+          },
+          {
+            "source": 4,
+            "locator": "ch. XV"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Monograph No. 132, compiled after the war by former officers of the Japanese 28th Army, describes the Ha-Go offensive as a diversion ordered by the Burma Area Army to be launched in Arakan two or three weeks before the U-Go offensive against Imphal. Kirby writes that its ultimate object was to draw in and hold Fourteenth Army's reserves in Arakan while the Fifteenth Army overran the Imphal plain. Slim, for his part, judged that the self-confidence of his troops would be restored only if the unbroken run of Japanese success with infiltration and envelopment was ended, and he could not risk even a minor defeat at the start of the 1944 campaign.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 0,
+            "locator": "ch. X"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Hanaya, commanding the Japanese 55th Division, expected a British offensive in February or March and decided to forestall it. His Sakurai Column was to pass round the British left east of the Kalapanzin, seize Taung Bazar, block the Ngakyedauk Pass and destroy the 7th Indian Division from the rear; the 5th Indian Division was then to be destroyed in turn. Slim had already told his commanders that any unit whose communications were cut was to stand fast and attack its attackers' communications; he would supply it by air and bring up reserves to destroy the enemy in its rear.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. X"
+          },
+          {
+            "source": 2,
+            "locator": "paras. 30–32"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The battle was fought in an area about ten miles square between the Mayu Range and the tidal Kalapanzin River, crossed by jungle-clad ridges with small ricefields between them. Sinzweya, the 7th Division's administrative area, lay in an amphitheatre about a mile long surrounded by jungle-covered hills, with Ammunition Hill jutting into it. Morning mist and the noise of dew falling on dry undergrowth hid movement in the jungle, and knife-edge ridges made it hard for artillery to reach Japanese positions on reverse slopes.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. X"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "XV Corps had the 5th and 7th Indian Divisions forward, a regiment of medium tanks, and the 26th Indian Division and part of the 36th Division in reserve further back; the 81st West African Division was in the Kaladan valley. Hanaya divided the 55th Division into columns: one under Major-General Sakurai, built on the 112th Regiment under Colonel Tanahashi, to make the envelopment, and another under Colonel Doi to hold the defences west of the river. Above them, Lieutenant-General Shozo Sakurai's 28th Army sanctioned the plan. Spitfires newly arrived in the theatre gave the Allies the means to contest the air.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. X"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4,
+            "locator": "ch. XV"
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "On the evening of 3 February XV Corps was completing its regrouping for an attack due between 6 and 8 February. The Sakurai Column moved through the British lines in the darkness and mist of the early hours of 4 February. Kirby says it achieved almost complete surprise, partly because XV Corps had paid too little heed to information from forward troops in late January; within a day it was deployed behind the 7th Division.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. X"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On 6 February the 7th Division's headquarters was overrun, and Messervy and his staff fought their way out to Sinzweya, where the administrative troops, divisional troops and part of a brigade formed the Admin Box. The pass was blocked, and from 8 February Christison called for air supply for all formations east of the range; supply dropping began on 9 February, by night after enemy fighters appeared. On the night of 7–8 February the Japanese overran the main dressing station in the box and killed wounded men and medical staff before they were driven out. The other brigades dug in on their positions and held. From 16 February the 26th and 5th Divisions pressed on the Japanese rear and towards the pass. On 22 February, without food or ammunition, Tanahashi decided on his own authority to withdraw; the pass was reopened on 23–24 February, on the 24th Hanaya called off the offensive, and on 26 February the corps' communications were clear.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. X"
+          },
+          {
+            "source": 1,
+            "locator": "ch. X"
+          },
+          {
+            "source": 2,
+            "locator": "paras. 33–39"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "On the evening of 4 February Slim, at Christison's request, put a brigade of the 26th Division at XV Corps' disposal and told Christison that his formations would be supplied by air if necessary; the next day he gave him the whole division. Giffard records that he placed the 36th Division at Slim's disposal, and that Slim ordered all forward formations to hold their ground and had rations, ammunition and medical stores packed for delivery by air. Kirby notes that a small Japanese raiding force on the Bawli–Maungdaw road drew off the first reserves to come forward, delaying the striking force for days. On the Japanese side, Tanahashi's withdrawal without his superior's sanction made the end of the offensive certain; the monograph says Major-General Sakurai was extremely angry but later accepted that lack of food had made it inevitable.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. X"
+          },
+          {
+            "source": 2,
+            "locator": "para. 30"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The boxes did not break. Kirby writes that the Sinzweya garrison, largely administrative troops, fought magnificently and, helped by poorly co-ordinated Japanese attacks, repelled every attempt to break in. Air supply let encircled troops stand instead of retreating; Saunders argues it was made possible by the Spitfires' success in the air, while Madan calls it an innovation for Burma. The Japanese column, whose communications were precarious, ran short of food and ammunition from about mid-February, according to Japanese records cited by Kirby.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. X"
+          },
+          {
+            "source": 4,
+            "locator": "ch. XV"
+          },
+          {
+            "source": 1,
+            "locator": "ch. X"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Ha-Go offensive was abandoned and the remnants of the Sakurai Column withdrew. Giffard calls the defence the first successful reply to Japanese large-scale infiltration tactics in jungle country, and the basic reason for the victory the refusal of the troops to waver. XV Corps resumed its offensive in March, taking Buthidaung and Razabil, and the 5th Indian Division was then moved by air to the Imphal front.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "paras. 37–43"
+          },
+          {
+            "source": 0,
+            "locator": "ch. X"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Kirby judges that had the 7th Division been overwhelmed, Fourteenth Army's morale would have suffered seriously and it would have been impossible to move major formations from Arakan to the central front; instead the battle showed there was an answer to Japanese envelopment and gave the troops confidence in their leaders and in themselves. Saunders writes that the tactics that saved the Admin Box were repeated on a larger scale at Imphal. The diversion did not hold Fourteenth Army's reserves in Arakan.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. X"
+          },
+          {
+            "source": 4,
+            "locator": "ch. XV"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Encircled troops can hold if they are told beforehand that they will be supplied and reinforced, if the means of supply exist and if the air can be kept clear; the method failed where those conditions did not hold. An envelopment that depends on the enemy retreating fails when he stands, if its own supply depends on his giving way. Surprise was won through a failure to heed forward reports, and the reserves were slow to arrive; the method worked despite those faults, not because there were none.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. X"
+          },
+          {
+            "source": 2,
+            "locator": "paras. 40–41"
+          },
+          {
+            "source": 4,
+            "locator": "ch. XV"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Kirby calls the battle the turning point of the war in South-East Asia and the first time the Japanese met well-trained British and Indian formations; Madan calls the defence a turning point in the campaign. The Japanese monograph blames a Japanese tactical blunder, the belief that the main British force was bottled up at Sinzweya, and says the three British brigades nearby took no action, which let the column attack and then escape. Madan credits the box technique to South-East Asia Command, Kirby and Giffard to Slim's orders, and Saunders writes mostly of Mountbatten and the air force. The killings at the dressing station are told differently by the survivors Kirby and Madan cite. Saunders names the Japanese commander “General Hanayoa”. Casualty figures in the sources are not used here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. X"
+          },
+          {
+            "source": 1,
+            "locator": "ch. X"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4,
+            "locator": "ch. XV"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Kirby's British official history gives the ground, the plans of both sides from their records, the battle and a critical commentary. Madan's Indian official history gives the boxes, the escape of the divisional headquarters and a survivor's account of the dressing station. Giffard's despatch gives the army group commander's account and verdict. Monograph No. 132 gives the 28th Army's view, written by its former staff officers. Saunders's air history gives the fight for the air and the supply dropping.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Ha-Go",
+        "time": "4–6 February 1944",
+        "description": "The Sakurai Column passes round the 7th Division's flank and overruns its headquarters."
+      },
+      {
+        "title": "The boxes",
+        "time": "7–15 February",
+        "description": "The pass is blocked; the boxes hold under attack, supplied by air from 9 February."
+      },
+      {
+        "title": "The besieger besieged",
+        "time": "16–23 February",
+        "description": "The 26th and 5th Divisions press the Japanese rear; their food and ammunition run out."
+      },
+      {
+        "title": "Withdrawal",
+        "time": "22–26 February",
+        "description": "Tanahashi withdraws, the pass is reopened and Hanaya calls off the offensive."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "William Slim",
+        "objective": "End the run of Japanese success with envelopment and keep the 1944 campaign from opening with a defeat.",
+        "known": "A Japanese counter-offensive was expected, and he had prepared air supply and reserves for formations that were cut off.",
+        "uncertainty": "How large the force behind the 7th Division was and whether the boxes would hold until reserves arrived.",
+        "constraints": "Reserves far to the rear, and transport aircraft that would soon be needed at Imphal.",
+        "decision": "He confirmed his standing order to hold fast, promised air supply and sent forward the 26th and 36th Divisions to destroy the enemy behind the 7th Division.",
+        "forces": "XV Corps with the 5th and 7th Indian Divisions, reinforced by the 26th Indian and 36th Divisions.",
+        "terrain": "Jungle ridges and ricefields between the Mayu Range and the Kalapanzin.",
+        "logistics": "Supplies dropped by air to the boxes, and casualties flown out from a forward strip.",
+        "outcome": "The boxes held, the Japanese offensive failed and the 5th Division could be flown to Imphal."
+      },
+      {
+        "name": "T. Hanaya",
+        "objective": "Forestall the British offensive, destroy the 7th and then the 5th Indian Division, and hold British reserves in Arakan.",
+        "known": "In 1943 the same envelopment had levered the British out of every position they held.",
+        "uncertainty": "Whether the British would retreat again when their communications were cut.",
+        "constraints": "Inferior numbers, and columns behind the British lines with precarious communications.",
+        "decision": "He sent the Sakurai Column round the British flank to block the pass and attack from the rear, and called off the offensive on 24 February.",
+        "forces": "The 55th Division in columns, under the 28th Army.",
+        "terrain": "Hill tracks east of the Kalapanzin, then the valley behind the 7th Division.",
+        "logistics": "What the columns carried; no secure supply line once the British stood.",
+        "outcome": "The column was exhausted and withdrew; the offensive failed to hold British reserves in Arakan."
+      }
+    ]
+  },
+  {
+    "slug": "operation-thursday",
+    "sources": [
+      {
+        "title": "S. Woodburn Kirby, The War Against Japan, vol. III: The Decisive Battles (London: HMSO, 1961), ch. XII, XIV, XX and XXXII (History of the Second World War, United Kingdom Military Series)",
+        "url": "https://archive.org/details/war-against-japan-vol-3",
+        "publisher": "Internet Archive"
+      },
+      {
+        "title": "Charles F. Romanus and Riley Sunderland, Stilwell's Command Problems (Washington: Office of the Chief of Military History, 1956), ch. V: The Burma Campaign in the Balance (United States Army in World War II)",
+        "url": "https://www.ibiblio.org/hyperwar/USA/USA-CBI-Command/USA-CBI-Command-5.html",
+        "publisher": "HyperWar (ibiblio)"
+      },
+      {
+        "title": "Charles F. Romanus and Riley Sunderland, Stilwell's Command Problems (Washington: Office of the Chief of Military History, 1956), ch. VI: The Drive for Myitkyina (United States Army in World War II)",
+        "url": "https://www.ibiblio.org/hyperwar/USA/USA-CBI-Command/USA-CBI-Command-6.html",
+        "publisher": "HyperWar (ibiblio)"
+      },
+      {
+        "title": "George Giffard, “Operations in Burma and North-East India from 16th November, 1943 to 22nd June, 1944”, despatch of 19 June 1945, Supplement to the London Gazette, no. 39171, 19 March 1951",
+        "url": "https://www.thegazette.co.uk/London/issue/39171/data.pdf",
+        "publisher": "The London Gazette"
+      },
+      {
+        "title": "Japanese Monograph No. 134: Burma Operations Record, 15th Army Operations in Imphal Area and Withdrawal to Northern Burma (revised edition)",
+        "url": "https://www.ibiblio.org/hyperwar/Japan/Monos/pdfs/JM-134/JM-134.pdf",
+        "publisher": "Office of the Chief of Military History, U.S. Army (HyperWar)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Orde Wingate's first long-range penetration expedition into Burma in 1943, Kirby writes, the Prime Minister and the Chiefs of Staff at the Quadrant conference at Quebec in August 1943, deeply impressed by his theories, decided to increase his long-range penetration brigades from two to six. Auchinleck, then Commander-in-Chief India, protested that this broke up divisions needed for the main campaign and that such forces could not win decisive results on their own; he was overruled, and had to break up a battle-experienced British division and take a brigade from the newly arrived African division to find the men.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXXII"
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "By early 1944 the plans for a concentric offensive into Burma had shrunk. Kirby writes that Special Force was given the task of helping Stilwell's Chinese–American advance on Myitkyina by cutting the communications of the Japanese 18th Division, while Fourteenth Army made limited advances. Slim expected a Japanese offensive across the Chindwin and planned to fight it on the Imphal plain. Romanus and Sunderland write that Wingate's own hopes went much further: to concentrate brigades around Indaw, force the Japanese out of northern Burma and open the way for IV Corps to advance to the Chindwin, aims they call far different from Slim's plan to lure the Japanese to Imphal.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XII, XXXII"
+          },
+          {
+            "source": 1,
+            "locator": "ch. V"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Special Force was to fly into clearings named Broadway, Piccadilly and Chowringhee north-east of Indaw, establish defended strongholds with airstrips, and from them cut the railway and roads running north to the 18th Division. Wingate planned that each brigade would choose a stronghold inaccessible to armour and heavy artillery as a base for raiding columns. Slim agreed, but told him to learn from IV Corps' method of keeping mobile detachments outside defended areas. When Wingate asked for four extra battalions to garrison the strongholds, Slim agreed to have one battalion ready and three more trained, but kept the decision whether and when to fly them in to himself.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XII"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The landing grounds lay in jungle clearings between the Irrawaddy and the railway from Mandalay to Myitkyina, which carried supplies to the Japanese in the north. Strongholds were meant to be in country the enemy could not reach with tanks and guns; White City, the block on the railway near Mawlu, was not. Monsoon rains began in May and turned the operation into a struggle with disease and exposure as well as the enemy.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XII, XIV, XXXII"
+          },
+          {
+            "source": 1,
+            "locator": "ch. V"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Special Force, given the cover name of 3rd Indian Division though it included few Indian troops, had five brigades in action, largely drawn from the British 70th Division, with a West African brigade and Kachin levies; No. 1 Air Commando of the U.S. Army Air Forces gave it fighters, bombers and transports. It was under Slim's command until it passed to Stilwell on 17 May. Against it the Japanese at first gathered scratch units under Mutaguchi's Fifteenth Army, then battalions drawn from several divisions, an independent mixed brigade and the arriving 53rd Division; the new 33rd Army was formed in April partly to deal with it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "ch. V"
+          },
+          {
+            "source": 3,
+            "locator": "paras. 106–115"
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "On the afternoon of 5 March Slim, Wingate and the air commanders met at Lalaghat to see the 77th Brigade off. Half an hour before take-off, photographs from a reconnaissance flight sent without Wingate's knowledge showed Piccadilly blocked with tree trunks. Fearing betrayal, they considered calling the operation off; Calvert, commanding the brigade, was willing to go on, and the final decision lay with Slim. He judged that the blocking did not necessarily mean the Japanese knew the plan, that cancelling would throw his campaign plan out of gear, and that he had promised Stilwell to cut the 18th Division's communications. The whole brigade was sent to Broadway that night, just over an hour late.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XII"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Many gliders crashed on the rutted strip at Broadway, but American engineers had it ready for transports, and the fly-in of the 77th and 111th Brigades was complete by 11 March, with a third brigade marching in from Ledo. The 77th Brigade set up White City on the railway near Mawlu and held it against repeated attacks. On 24 March Wingate was killed when the American bomber carrying him crashed in the mountains west of Imphal; Slim appointed Lentaigne, the most experienced of his brigadiers, to succeed him. In April the force was moved north to support Stilwell, and on 17 May it passed to his command. Between 22 and 26 June the 77th Brigade and the Chinese 114th Regiment took Mogaung, and both claimed the credit. The exhausted brigades were then withdrawn.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "ch. V"
+          },
+          {
+            "source": 0,
+            "locator": "ch. XIV, XX"
+          },
+          {
+            "source": 2,
+            "locator": "ch. VI"
+          },
+          {
+            "source": 3,
+            "locator": "para. 115"
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Slim's decision of 5 March to go ahead despite the blocked landing ground kept the operation alive. Mutaguchi, told on 9 March of the landings, judged them a diversion heralding a counter-attack and held to his Imphal offensive, though the chief of staff of the 5th Air Division and some Fifteenth Army staff officers urged that it be reconsidered. Kirby judges that after the landings Wingate abandoned his own precepts, using his brigades to attack strongly defended places as if they were normal formations, with Indaw airfield an obsession. When Wingate gave the 14th Brigade orders that cut across Slim's plan, Kirby says he either misread Slim's wishes again or deliberately pursued his own; Slim ordered the brigade used as planned. Slim's choice of Lentaigne, and the transfer of the force to Stilwell, decided how the rest of it was spent.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XII, XIV, XXXII"
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The cutting of the railway was the operation's main effect. Romanus and Sunderland write that the Japanese had suspended supply to the 18th Division in January to build up stocks for Imphal, so that when the Chindits cut the line the division had to live on what it had, its supply position fundamentally compromised. The battalions sent against the Chindits were drawn from their parent units at key places. When the force came under Stilwell and was used as ordinary infantry through the monsoon, Kirby writes, malaria, exertion on short rations and exposure wore it down until it became completely ineffective.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "ch. V"
+          },
+          {
+            "source": 0,
+            "locator": "ch. XXXII"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Japanese communications to the north were cut for months, and Mogaung fell. Giffard wrote in June 1945 that the operations had less effect than he had hoped: they did not affect the launching of the Japanese offensive against Assam, had little effect on its communications, delayed only a few battalions of the 15th Division on their way to Imphal, and drew off only one battalion from Stilwell's front, so that the results did not prove commensurate with the manpower and material spent.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3,
+            "locator": "para. 114"
+          },
+          {
+            "source": 2,
+            "locator": "ch. VI"
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Kirby judges that the operation did little to help Fourteenth Army defeat the Japanese offensive, and even hampered it, because supplying five brigades by air aggravated the shortage of aircraft; a fresh Japanese division brought in partly to deal with the Chindits provided reinforcements for the Fifteenth Army. The Japanese monograph draws a different conclusion: that the airborne force upset the Fifteenth Army's timetable, kept its headquarters from moving forward until late April, cut the supply routes of two of its divisions and eventually led to the abandonment of northern Burma.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXXII"
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A force behind enemy lines can cut communications when air supply and air cover hold, but it cannot hold ground against an enemy who brings up guns and armour, and it wears out quickly if it is used as ordinary infantry. A subordinate with a direct line to the head of government, whose aims differ from his commander's, can be employed only by setting firm limits on what he is given; Slim kept the decision on reinforcements to himself. The cost fell on the men who marched through the monsoon on short rations and on the aircraft taken from the main battle.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XII, XXXII"
+          },
+          {
+            "source": 1,
+            "locator": "ch. V"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The value of the operation is disputed in the sources themselves. Kirby, writing for the British official history, is severe on Wingate's methods and finds that Auchinleck's objections were proved sound; Giffard found the results not worth the cost. The Japanese monograph credits the airborne force with upsetting the Imphal offensive and losing the Japanese northern Burma, and Romanus and Sunderland call the diversion a great aid to Stilwell. Kirby records that after his meeting with Slim in January Wingate told Mountbatten that Slim had agreed to put four battalions at his disposal, which Slim's own messages of the time do not bear out. Giffard's tribute called Wingate a rare combination of the dreamer and the man of action. Troop figures in the sources are not used here.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XII, XXXII"
+          },
+          {
+            "source": 3,
+            "locator": "para. 114"
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 1,
+            "locator": "ch. V"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Kirby's British official history gives the planning, the Slim–Wingate exchanges, the fly-in, Wingate's death and a critical retrospect. Romanus and Sunderland give the American view of Wingate's aims, the effect on the Japanese 18th Division and the fall of Mogaung. Giffard's despatch gives the army group commander's verdict, and Monograph No. 134 the Fifteenth Army's reaction and its own assessment.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "The fly-in",
+        "time": "5–11 March 1944",
+        "description": "Gliders and transports land two brigades behind the Japanese lines; a third marches in from Ledo."
+      },
+      {
+        "title": "White City",
+        "time": "March – April",
+        "description": "The 77th Brigade blocks the railway near Mawlu and holds its stronghold against attack."
+      },
+      {
+        "title": "Wingate's death",
+        "time": "24 March",
+        "description": "Wingate is killed in an air crash; Lentaigne takes command of Special Force."
+      },
+      {
+        "title": "North to Stilwell",
+        "time": "April – 17 May",
+        "description": "The force moves north and passes to Stilwell's command."
+      },
+      {
+        "title": "Mogaung",
+        "time": "22–26 June",
+        "description": "The 77th Brigade and Chinese troops take Mogaung; the worn-out brigades are withdrawn."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Orde Wingate",
+        "objective": "Use long-range penetration brigades, supplied by air from strongholds, to dislocate the Japanese in northern Burma and open the way for a general advance.",
+        "known": "His 1943 expedition had shown that columns could move and be supplied behind the Japanese lines; he had the backing of the Prime Minister and an air commando of his own.",
+        "uncertainty": "Whether the Japanese knew of the plan after a landing ground was found blocked, and how they would react.",
+        "constraints": "An army commander who kept the reinforcements under his own control, a role limited to helping Stilwell, and the coming monsoon.",
+        "decision": "He went ahead with the fly-in on 5 March and sent his brigades against the railway and Indaw.",
+        "forces": "Special Force's long-range penetration brigades and No. 1 Air Commando.",
+        "terrain": "Jungle clearings and the railway valley east of Indaw.",
+        "logistics": "Entirely by air, to strongholds with their own airstrips.",
+        "outcome": "He was killed on 24 March; his force cut the railway but was worn out under Stilwell."
+      },
+      {
+        "name": "Renya Mutaguchi",
+        "objective": "Carry through the Imphal offensive and keep the airborne force from disrupting it.",
+        "known": "An enemy airborne force had landed north and south-east of Katha on 5 March.",
+        "uncertainty": "How strong the force was; his own staff underrated it while the air division and the Burma Area Army took it more seriously.",
+        "constraints": "Troops already committed to Imphal, so that the force had to be met with scratch units and battalions taken from other divisions.",
+        "decision": "He judged the landings a diversion before a counter-attack, held to the Imphal offensive and sent improvised units against the airborne force.",
+        "forces": "Composite units and battalions from several divisions, later the 24th Independent Mixed Brigade and the 53rd Division.",
+        "terrain": "The railway corridor between Indaw and Myitkyina.",
+        "logistics": "Supply to the 18th Division cut, and his headquarters held back by the threat to its rear.",
+        "outcome": "The Imphal offensive went ahead, but the airborne force cut his communications and the Japanese lost northern Burma."
+      }
+    ]
+  },
+  {
+    "slug": "meiktila-mandalay",
+    "sources": [
+      {
+        "title": "S. Woodburn Kirby, The War Against Japan, vol. IV: The Reconquest of Burma (London: HMSO, 1965), ch. XV, XXIII, XXV and XXVI (History of the Second World War, United Kingdom Military Series)",
+        "url": "https://archive.org/details/war-against-japan-vol-4",
+        "publisher": "Internet Archive"
+      },
+      {
+        "title": "Oliver Leese, “Operations in Burma from 12th November, 1944, to 15th August, 1945”, despatch of 4 February 1947, Second Supplement to the London Gazette, no. 39195, 12 April 1951",
+        "url": "https://www.thegazette.co.uk/London/issue/39195/data.pdf",
+        "publisher": "The London Gazette"
+      },
+      {
+        "title": "Central Burma: The U.S. Army Campaigns of World War II — George L. MacGarrigle (Center of Military History, 1996)",
+        "url": "https://archive.org/details/CentralBurma",
+        "publisher": "Internet Archive"
+      },
+      {
+        "title": "Japanese Monograph No. 134: Burma Operations Record, 15th Army Operations in Imphal Area and Withdrawal to Northern Burma (revised edition)",
+        "url": "https://www.ibiblio.org/hyperwar/Japan/Monos/pdfs/JM-134/JM-134.pdf",
+        "publisher": "Office of the Chief of Military History, U.S. Army (HyperWar)"
+      },
+      {
+        "title": "Hilary St. George Saunders, Royal Air Force 1939–1945, vol. III: The Fight Is Won (London: HMSO, 1954), ch. XVI: The Rising Sun Sets (History of the Second World War, United Kingdom Military Series)",
+        "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-RAF-III/UK-RAF-III-16.html",
+        "publisher": "HyperWar (ibiblio)"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Imphal and Kohima the Fourteenth Army followed the Japanese across the Chindwin. Its plan for the 1944–1945 dry season, Operation CAPITAL, was to bring the Japanese armies to battle and destroy them on the Shwebo plain between the Chindwin and the Irrawaddy, north of Mandalay. Kimura, the new commander of the Burma Area Army, decided not to defend so far north, reasoning, MacGarrigle writes, that the Allies' supply problems would grow as they advanced south while his own eased; early in December Slim began to suspect it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XV"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Allied priorities were set elsewhere: Slim's revised plan of 17 and 20 December assumed that combat cargo squadrons would be moved from Burma to China and that no formation could be moved by air. Its object remained the destruction of the Japanese forces in Burma; its immediate aim was to make them fight in central Burma, where his own communications were shorter, and, for administrative reasons, to take a port in south Burma between March and May, before the monsoon.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XV"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Under the new plan, which Slim called EXTENDED CAPITAL, XXXIII Corps was to close up to the Irrawaddy and encircle Mandalay, while IV Corps moved up the Myittha valley, crossed the Irrawaddy near Pakokku and seized Meiktila and Thazi. Kirby explains why: Meiktila and Thazi were the key points on the road and railway from Mandalay to Rangoon and the main Japanese administrative area in central Burma, so the Japanese would have to fight to clear them. Leese's despatch adds that Meiktila held their principal airfields and that all their communications radiated from it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XV"
+          },
+          {
+            "source": 1,
+            "locator": "paras. 67, 102"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Below Mandalay lies what Leese calls the more open country of the Dry Belt, with Meiktila set among large lakes that narrowed the approaches. The Irrawaddy was wide: at the Nyaungu crossing more than a mile, with a wide sandy beach on the far side. IV Corps' route lay down the Gangaw and Myittha valleys, a long approach on which its divisions made their own roads. Mandalay's Fort Dufferin was a walled enclosure a mile square.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1,
+            "locator": "paras. 1, 67"
+          },
+          {
+            "source": 0,
+            "locator": "ch. XXIII, XXV"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Slim commanded the Fourteenth Army under Leese's Allied Land Forces South-East Asia. XXXIII Corps under Stopford and IV Corps under Messervy each had tank brigades; the 17th Indian Division under Cowan made the dash to Meiktila. Kimura's Burma Area Army had the 15th Army under Katamura holding the Irrawaddy front, the 33rd Army under Honda to the north-east and the 28th Army in the south-west, with units of the Indian National Army on the river near Pagan.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XV, XXIII"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "XXXIII Corps crossed the Irrawaddy north of Mandalay in January and west of it in February, drawing the Japanese counter-attacks. Meanwhile IV Corps moved south through the Gangaw valley. Leese describes the deception measures meant to persuade the Japanese that IV Corps was still on XXXIII Corps' left and that movement in the Gangaw valley was a small demonstration. On 14 February the 7th Indian Division began crossing near Nyaungu; at Pagan an Indian National Army company that had been left to hold the town surrendered to the Sikhs crossing to it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXIII"
+          },
+          {
+            "source": 1,
+            "locator": "para. 67"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "By 16 February the Nyaungu bridgehead was clear. On 21 February the 17th Division and a tank brigade broke out for Meiktila, supplied by air, and on 3 March cleared the town against a garrison that included hospital patients put into the defences. The Japanese then concentrated every unit they could to retake it, and through March Meiktila was besieged while its garrison struck out. In the north XXXIII Corps reached Mandalay early in March; on 20 March, after the remnants of the garrison had withdrawn in the night, Burmese civilians came out of Fort Dufferin under a white flag to say that no Japanese were left. On 28 March the Burma Area Army's chief of staff agreed to abandon the counter-offensive at Meiktila, and by the end of the month the battles were over.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXIII, XXV, XXVI"
+          },
+          {
+            "source": 1,
+            "locator": "paras. 103–105"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Slim's decision of mid-December to scrap CAPITAL for EXTENDED CAPITAL was the decisive one: having concluded from air reconnaissance, captured documents and reports from villagers that the Japanese meant to withdraw, he moved his main blow south. Kirby gives the main credit for the crossing at Nyaungu to Messervy and his commanders, who took risks and let nothing delay them. On the Japanese side, Kimura agreed in February to Katamura's plan for a counter-offensive against the expected thrust near Mandalay, and a conference at Meiktila judged that any thrust from Nyaungu would be on the scale of a Chindit raid. Katamura gave up the defence of Mandalay in mid-March when Meiktila made it pointless.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XV, XXIII, XXV"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "Kirby attributes the swift success at Nyaungu to the thrust striking the junction of the 15th and 28th Armies and to deception that fixed Japanese attention on Mandalay and made them think the Myittha valley threat was a diversion west of the river. The fall of Meiktila on 3 March cut the communications of the Japanese armies to the north; MacGarrigle writes that the drive on to Thazi cut off the Japanese troops north of it from their supplies and their best line of retreat. Saunders adds that fighters kept Japanese reconnaissance aircraft away from the Gangaw valley to hide IV Corps' move. The failure of the Japanese counter-offensive, in which their divisions lost most of their guns, decided the battle.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXIII, XXVI"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 4,
+            "locator": "ch. XVI"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Kirby writes that the 15th and 33rd Armies suffered a major defeat and that the Burma Area Army had virtually ceased to exist as a fighting force. Mandalay was occupied on 20 March. The road south to Rangoon lay open, and the Fourteenth Army turned to race the monsoon.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXVI"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "With the Japanese armies in central Burma broken, the Fourteenth Army could advance down the railway and the Irrawaddy towards Rangoon before the monsoon closed the airfields and the roads. By the time Mandalay fell, MacGarrigle notes, the American Mars Task Force and the Chinese forces had finished fighting in Burma and began to return to China.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXVI"
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A plan built for one enemy course of action can be changed in time if the commander reads the signs early and his army can move faster than the enemy can read the change; the change here depended on air supply, engineers who built roads and ferries, and deception. Striking at a base the enemy must recover forces him to fight on ground he did not choose. The success also depended on Japanese misjudgements, and it was won at the cost of towns and villages fought over in central Burma.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XV, XXIII"
+          },
+          {
+            "source": 1,
+            "locator": "para. 67"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The sources tell the plan differently. Kirby prints Slim's telegrams and appreciation and credits the change of plan to him; Leese's despatch, written as army group commander, presents the selection of Meiktila in his own voice. MacGarrigle's American brochure emphasizes that the armoured column was supplied entirely by air and that aerial resupply played a decisive role, and Saunders's air history argues that without air supremacy the plan could not but have failed; Saunders also praises the speed and skill with which Kimura concentrated against the crossings at Myinmu before IV Corps confounded him. The Japanese side is told through Kirby's use of Japanese records; the monographs on the 1945 operations were not readable here, and the Fifteenth Army's monograph ends in January 1945. Loss and prisoner figures in the sources are not used.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XV"
+          },
+          {
+            "source": 1,
+            "locator": "para. 67"
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4,
+            "locator": "ch. XVI"
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Kirby's British official history gives Slim's plan, the crossings, Meiktila, Mandalay and the Japanese conferences and orders from their records. Leese's despatch gives the army group view of the plan and the battle. MacGarrigle's brochure gives the American and Chinese context and the air supply. Monograph No. 134 gives the Fifteenth Army's withdrawal to the Irrawaddy up to January 1945. Saunders's air history gives the air supply, the air cover over IV Corps' approach and a view of Kimura's generalship.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "The change of plan",
+        "time": "December 1944",
+        "description": "The Japanese fall back behind the Irrawaddy; Slim replaces CAPITAL with EXTENDED CAPITAL."
+      },
+      {
+        "title": "Crossings",
+        "time": "January – 16 February 1945",
+        "description": "XXXIII Corps crosses near Mandalay; IV Corps moves in secret and crosses at Nyaungu."
+      },
+      {
+        "title": "The dash to Meiktila",
+        "time": "21 February – 3 March",
+        "description": "The 17th Division and a tank brigade break out and take Meiktila."
+      },
+      {
+        "title": "Meiktila besieged; Mandalay taken",
+        "time": "March",
+        "description": "The Japanese try to retake Meiktila; XXXIII Corps clears Mandalay, occupying Fort Dufferin on 20 March."
+      },
+      {
+        "title": "Japanese defeat",
+        "time": "28–31 March",
+        "description": "The counter-offensive is abandoned and the Japanese armies retreat."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "William Slim",
+        "objective": "Destroy the Japanese armies in central Burma and reach a south Burma port before the monsoon.",
+        "known": "Reconnaissance, captured documents and villagers' reports showed the Japanese withdrawing behind the Irrawaddy and not preparing to fight on the Shwebo plain.",
+        "uncertainty": "Whether the Japanese would withdraw from Burma, cover the southern ports or counter-attack when he was extended.",
+        "constraints": "Transport aircraft taken for China, no airborne force, and the monsoon in May.",
+        "decision": "He sent IV Corps in secret down the Myittha valley to cross near Pakokku and seize Meiktila, while XXXIII Corps drew the Japanese to Mandalay.",
+        "forces": "The Fourteenth Army: XXXIII and IV Corps with two tank brigades.",
+        "terrain": "The Gangaw and Myittha valleys, the Irrawaddy and the open Dry Belt.",
+        "logistics": "Air supply for the striking force, roads built by the army, and ferries across the Irrawaddy.",
+        "outcome": "Meiktila and Mandalay fell, and the Japanese armies in central Burma were broken."
+      },
+      {
+        "name": "H. Kimura",
+        "objective": "Hold southern Burma and defeat the British attempt to cross the Irrawaddy.",
+        "known": "The Allies' supply problems would grow as they advanced south; the British were crossing near Mandalay, and his intelligence expected their main thrust there.",
+        "uncertainty": "What force was moving through the Myittha valley, which the majority at the Meiktila conference judged no larger than a Chindit raid.",
+        "constraints": "Armies depleted by the defeat at Imphal and spread along a long river line.",
+        "decision": "He withdrew behind the Irrawaddy, approved a counter-offensive near Mandalay, and then threw every unit he could gather against Meiktila.",
+        "forces": "The 15th, 33rd and 28th Armies, with Indian National Army units.",
+        "terrain": "The Irrawaddy line and the communications centred on Meiktila.",
+        "logistics": "His main administrative base and airfields at Meiktila.",
+        "outcome": "Meiktila was lost and not retaken; his armies in central Burma were defeated."
+      }
+    ]
+  },
+  {
+    "slug": "rangoon-1945",
+    "sources": [
+      {
+        "title": "S. Woodburn Kirby, The War Against Japan, vol. IV: The Reconquest of Burma (London: HMSO, 1965), ch. XXVIII–XXXII (History of the Second World War, United Kingdom Military Series)",
+        "url": "https://archive.org/details/war-against-japan-vol-4",
+        "publisher": "Internet Archive"
+      },
+      {
+        "title": "Oliver Leese, “Operations in Burma from 12th November, 1944, to 15th August, 1945”, despatch of 4 February 1947, Second Supplement to the London Gazette, no. 39195, 12 April 1951",
+        "url": "https://www.thegazette.co.uk/London/issue/39195/data.pdf",
+        "publisher": "The London Gazette"
+      },
+      {
+        "title": "Hilary St. George Saunders, Royal Air Force 1939–1945, vol. III: The Fight Is Won (London: HMSO, 1954), ch. XVI: The Rising Sun Sets (History of the Second World War, United Kingdom Military Series)",
+        "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-RAF-III/UK-RAF-III-16.html",
+        "publisher": "HyperWar (ibiblio)"
+      },
+      {
+        "title": "Central Burma: The U.S. Army Campaigns of World War II — George L. MacGarrigle (Center of Military History, 1996)",
+        "url": "https://archive.org/details/CentralBurma",
+        "publisher": "Internet Archive"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "By the end of March 1945 the Japanese armies in central Burma had been defeated at Meiktila and Mandalay. Rangoon, the capital and the port through which the Fourteenth Army hoped to be supplied in the monsoon, lay some three hundred miles to the south. Kirby writes that from its commander downwards the army sensed that victory lay close ahead and that Rangoon could be reached in the short time left before the rains.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXVI, XXVIII"
+          },
+          {
+            "source": 2,
+            "locator": "ch. XVI"
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The advance depended on air supply, and Saunders writes that the capture of Rangoon had to be achieved by the end of May, when the American transport aircraft were to be withdrawn. Burmese politics were changing behind the Japanese lines: the Anti-Fascist Organization and the Burma National Army, commanded by Aung San, who had collaborated with the Japanese, began to rise against the Japanese about 27 March. Kirby records that Slim and Leese wanted the rising supported as an operational priority and that Mountbatten agreed, while the War Cabinet insisted that its leaders, as former collaborators, be told they would have to work their passage home and must not be treated as liberators of their country.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "ch. XVI"
+          },
+          {
+            "source": 0,
+            "locator": "ch. XXVIII"
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "IV Corps was to drive south down the railway from Meiktila through Pyawbwe and Toungoo to Pegu and Rangoon, and XXXIII Corps down the Irrawaddy valley. On 19 March Slim warned that the delays at Meiktila might stop him reaching Rangoon overland before the monsoon and recommended an amphibious attack on the city early in May as an insurance; Kirby notes that the initiative for a modified Operation DRACULA came from the Fourteenth Army. Mountbatten decided on 2 April to carry it out, with XV Corps' 26th Indian Division landing from the sea and a parachute battalion dropping at Elephant Point. Slim also ordered a fifteen-day stockpile built as far forward as Myingyan in case Rangoon could not be taken before the monsoon.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXVIII"
+          },
+          {
+            "source": 2,
+            "locator": "ch. XVI"
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "From Meiktila the road and railway ran south through the Sittang valley to Toungoo, Pegu and Rangoon, with the Pegu Yomas, a forested range, between them and the Irrawaddy valley. The airfields at Toungoo were vital to the air support of the advance and of DRACULA. In April came the first pre-monsoon showers; when the monsoon proper broke it would flood rivers and airfields and stop movement off the all-weather roads.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXVIII, XXXII"
+          },
+          {
+            "source": 2,
+            "locator": "ch. XVI"
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Slim's Fourteenth Army advanced with IV Corps under Messervy, led by the 17th and 5th Indian Divisions with a tank brigade, and XXXIII Corps under Stopford; Christison's XV Corps in Arakan mounted DRACULA under Leese's land forces command. On the Japanese side Kimura's Burma Area Army had the remnants of the 15th and 33rd Armies in the east and the 28th Army in the Irrawaddy valley, with a Rangoon Defence Force formed from rear-area units, convalescents and trainees.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXX–XXXII"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Kimura planned to hold a line from Loikaw through Toungoo to Prome, with the 33rd Army covering the 15th Army's withdrawal from the Mandalay battlefield. The 17th Division attacked the Japanese positions at Pyawbwe, which was surrounded by the evening of 9 April and taken in the only large action of the advance. Kirby writes that the speed of the Allied advance made Kimura's plans ineffective: Pyinmana was overrun before the 15th Army could reach it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXVIII, XXX"
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "After Pyawbwe the advance went south down the main road; Toungoo airfield was taken on 22 April, three days ahead of schedule, and aircraft were soon flying from it. The headquarters of the Burma Area Army left Rangoon for Moulmein on 23 April. The 17th Division reached Pegu at the end of April, found it held, and cleared it on 1 May. On the night of 2 May continuous torrential rain began, flooding the approaches to the new bridge over the Pegu River and the airfields at Toungoo. On 1 May a Gurkha parachute battalion took Elephant Point; on 2 May the seaborne landings went in unopposed, and the 26th Division entered Rangoon on 3 May. On 6 May it met the leading troops of the Fourteenth Army north of the city.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXIX, XXXII"
+          },
+          {
+            "source": 2,
+            "locator": "ch. XVI"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Slim's recommendation of 19 March, taken up by Leese and Mountbatten, gave the campaign its insurance. Slim decided early in April that he ought to meet Aung San so that the Burma National Army's activities could be co-ordinated with his own and kept under his orders. On the Japanese side Kimura ordered the 28th Army to defend Rangoon to the last, an order that could not be carried out; the 28th Army's commander, learning that Area Army headquarters had gone, moved his army into the Pegu Yomas, and the Japanese did not defend Rangoon.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXVIII, XXXI, XXXII"
+          },
+          {
+            "source": 2,
+            "locator": "ch. XVI"
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The capture of the Toungoo airfields ahead of time kept air support and supply moving south; the Japanese defence at Pegu and the rain of 2 May stopped the Fourteenth Army short of the city. The Japanese decision to abandon Rangoon meant that DRACULA met almost no resistance. The air history records that a Mosquito pilot, Wing Commander A. E. Saunders, landed at Mingaladon on 2 May, found the airfield deserted and reached the gaol, where Allied prisoners of war had been left by their guards.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXXII"
+          },
+          {
+            "source": 2,
+            "locator": "ch. XVI"
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "Rangoon was reoccupied before the monsoon. Saunders quotes Mountbatten's despatch: though the Fourteenth Army had technically lost the race, it was their drive that had really won the battle. MacGarrigle writes that by the end of May the Japanese forces in Burma were split into three groups, with the 28th Army trapped between the Irrawaddy and the Sittang.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "ch. XVI"
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The port could now supply the army through the monsoon. The Japanese left in the Pegu Yomas tried to break out across the Sittang in July and were destroyed, while Burmese guerrillas organized by Force 136 attacked the escaping troops. Aung San's forces had fought on the Allied side in the last weeks, and the questions the War Cabinet had raised about their place in a post-war Burma remained open.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "ch. XVI"
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 0,
+            "locator": "ch. XXVIII"
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "A commander racing a deadline can ask for an insurance he hopes not to need; here the seaborne landing that Slim proposed took the city when the overland advance was stopped by rain a few days short. Speed broke the enemy's plans for successive defensive lines faster than he could man them. The rising of the Burmese resistance showed that an army returning to a colony could not settle on its own who would rule it.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0,
+            "locator": "ch. XXVIII, XXX"
+          },
+          {
+            "source": 2,
+            "locator": "ch. XVI"
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The sources differ on who won the race and on details of its end. Saunders, writing the air force's history, gives Mountbatten's verdict that the Fourteenth Army's drive won the battle and stresses air supply; Leese's despatch tells the operation from the army group's view. Saunders dates the departure of the gaol guards to 25 April, while Kirby gives 29 April and prints the note they left. Kirby's narrative of the Burmese rising follows British official papers, which treated Aung San as a former collaborator; neither the resistance's own records nor Burmese accounts were read for this study. Figures in the sources for losses and prisoners are not used.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 2,
+            "locator": "ch. XVI"
+          },
+          {
+            "source": 0,
+            "locator": "ch. XXVIII, XXXII"
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Kirby's British official history gives the planning, the Burmese rising, the advance, the Japanese orders and the landings. Leese's despatch gives the army group commander's account. Saunders's air history gives the race with the monsoon, the air supply and the scene at Rangoon. MacGarrigle's brochure gives the position of the Japanese armies after the city fell.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Planning the race",
+        "time": "19 March – 2 April 1945",
+        "description": "Slim proposes a seaborne insurance; Mountbatten orders a modified DRACULA."
+      },
+      {
+        "title": "Pyawbwe",
+        "time": "Early April",
+        "description": "The 17th Division breaks the Japanese line south of Meiktila."
+      },
+      {
+        "title": "Down the railway",
+        "time": "10–29 April",
+        "description": "IV Corps drives south; Toungoo airfield falls on 22 April."
+      },
+      {
+        "title": "Pegu and the rain",
+        "time": "29 April – 2 May",
+        "description": "The 17th Division clears Pegu; torrential rain halts the advance."
+      },
+      {
+        "title": "DRACULA",
+        "time": "1–6 May",
+        "description": "Elephant Point is taken, the landings find Rangoon empty, and the forces link up north of the city."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "William Slim",
+        "objective": "Reach Rangoon before the monsoon and the withdrawal of the American transport aircraft.",
+        "known": "The Japanese in central Burma were beaten but would try to hold successive lines; his supply depended on aircraft that were due to leave.",
+        "uncertainty": "Whether the overland advance could reach Rangoon before the rains.",
+        "constraints": "Air supply, the delays caused at Meiktila, and a monsoon that would close the roads and airfields.",
+        "decision": "He drove IV Corps south down the railway as fast as it could go, built a stockpile in case it failed, and asked for a seaborne attack on Rangoon as insurance.",
+        "forces": "The Fourteenth Army: IV and XXXIII Corps.",
+        "terrain": "The Sittang valley road and railway, and the Irrawaddy valley.",
+        "logistics": "Air supply to airheads opened behind the advance, and the Toungoo airfields.",
+        "outcome": "His army was stopped by rain at Pegu, but the landing it had asked for took Rangoon."
+      },
+      {
+        "name": "H. Kimura",
+        "objective": "Hold southern Burma on a line through Toungoo and defend Rangoon.",
+        "known": "His armies had been badly beaten at Meiktila and were retreating in disorder.",
+        "uncertainty": "Where the British would strike from the sea, and how fast their armour could move.",
+        "constraints": "Shattered divisions, scattered formations out of their commanders' control, and an air force reduced to almost nothing.",
+        "decision": "He planned successive holding lines, left Rangoon for Moulmein with his headquarters and ordered the 28th Army to hold the city, which it could not do.",
+        "forces": "The 15th, 33rd and 28th Armies and the Rangoon Defence Force.",
+        "terrain": "The Sittang valley and the Pegu Yomas.",
+        "logistics": "Supply dumps in Rangoon that the Allied air forces were bombing.",
+        "outcome": "Rangoon was abandoned and his armies split, the 28th Army trapped in the Pegu Yomas."
+      }
+    ]
   }
 ]

@@ -9048,7 +9048,16 @@
     "strength": "Leadership and the management of men: his troops regarded him as one of their own. He kept the 1942 retreat from becoming a rout, and in 1944 his encircled formations stood and fought, supplied from the air.",
     "limitation": "His first battles as a senior commander were defeats: Burma Corps was driven out of Burma in 1942, and the XV Corps campaign in the Arakan in 1943 went badly, partly because the army commander, Noel Irwin, sidelined him.",
     "legacy": "After the war he was chief of the Imperial General Staff and governor-general of Australia. His memoir, Defeat into Victory, appeared in 1956; Mountbatten called him the finest general the Second World War produced.",
-    "battleSlugs": ["imphal-kohima"],
+    "battleSlugs": [
+      "gallabat",
+      "burma-1942",
+      "first-arakan",
+      "admin-box",
+      "operation-thursday",
+      "imphal-kohima",
+      "meiktila-mandalay",
+      "rangoon-1945"
+    ],
     "source": {
       "title": "William Slim: The soldiers’ soldier",
       "url": "https://www.nam.ac.uk/explore/william-slim",

@@ -286,50 +286,67 @@ export const collections: Collection[] = [
     slug: "ww2",
     title: "The Second World War",
     summary:
-      "Engagements of the Second World War in Europe, North Africa and the Pacific.",
+      "Engagements of the Second World War in Europe, Africa, Asia and the Pacific.",
     introduction:
-      "The collection follows the war in twenty-three studies, from the invasion of Poland in September 1939 to the fall of Berlin and the end of the battle for Okinawa in 1945, with the Battle of the Atlantic running through the whole war. They show Germany's victories of 1939 and 1940, its failure over Britain and before Moscow, Japan's offensive of 1941–1942 from Pearl Harbor to Singapore and its first check in the Coral Sea, the turning of the war on Guadalcanal, in the Atlantic and in three other theatres in 1942 and 1943, the Allied offensives of 1944 in Burma, in Normandy and in Belorussia, the last German and Japanese efforts at Arnhem, in the Ardennes, at Leyte Gulf and on Iwo Jima, and the final battles of Okinawa and Berlin. They also record the war against civilians that began with the invasion of Poland, became genocide in the east and, in Singapore, brought the massacre of Chinese civilians.",
+      "The collection follows the war in thirty studies, from the invasion of Poland in September 1939 to the fall of Berlin and the end of the battle for Okinawa in 1945, with the Battle of the Atlantic running through the whole war. They show Germany's victories of 1939 and 1940, its failure over Britain and before Moscow, an early British setback against Italy on the Sudan frontier, Japan's offensive of 1941–1942 from Pearl Harbor to Singapore and Burma and its first check in the Coral Sea, the turning of the war on Guadalcanal, in the Atlantic and in three other theatres in 1942 and 1943, the Allied offensives of 1944 in Burma, in Normandy and in Belorussia, the last German and Japanese efforts at Arnhem, in the Ardennes, at Leyte Gulf and on Iwo Jima, the reconquest of Burma, and the final battles of Okinawa and Berlin. Eight of the Burma and East African studies follow William Slim, from his first battle as a brigade commander to Rangoon. They also record the war against civilians that began with the invasion of Poland, became genocide in the east and, in Singapore, brought the massacre of Chinese civilians.",
     arc: [
       {
-        text: "In September 1939 Germany invaded Poland from three sides and the Soviet Union from the east; Poland was defeated within weeks and partitioned, and German forces shot Polish civilians, clergy, intellectuals and Jews from the first weeks. In May 1940 an armoured thrust through the Ardennes broke the French front at Sedan and reached the Channel, cutting the Allied armies in two; the British escaped from Dunkirk, and France signed an armistice in June. Over southern England in the summer and autumn of 1940, RAF Fighter Command, directed by its air defence system, denied the Luftwaffe the air superiority needed for an invasion.",
-        studies: ["poland-1939", "france-1940", "battle-of-britain"],
+        text: "In September 1939 Germany invaded Poland from three sides and the Soviet Union from the east; Poland was defeated within weeks and partitioned, and German forces shot Polish civilians, clergy, intellectuals and Jews from the first weeks. In May 1940 an armoured thrust through the Ardennes broke the French front at Sedan and reached the Channel, cutting the Allied armies in two; the British escaped from Dunkirk, and France signed an armistice in June. Over southern England in the summer and autumn of 1940, RAF Fighter Command, directed by its air defence system, denied the Luftwaffe the air superiority needed for an invasion. In November 1940, on the Sudan–Ethiopia frontier, an Indian brigade under Slim took the fort of Gallabat but had to give it up when its tanks broke down and the Italian air force commanded the sky.",
+        studies: [
+          "poland-1939",
+          "france-1940",
+          "battle-of-britain",
+          "gallabat",
+        ],
       },
       {
         text: "In June 1941 Germany invaded the Soviet Union in a war of annihilation. Its armies won vast encirclements, but the Red Army raised new armies, and by December the Germans had been stopped before Moscow. Behind the front the Einsatzgruppen and other units began the Holocaust by shooting, and Soviet prisoners of war died in vast numbers through deliberate starvation.",
         studies: ["barbarossa"],
       },
       {
-        text: "In October 1941 the Germans renewed their drive on Moscow. After new encirclements, mud and then frost stopped them within sight of the city, and on 5–6 December a Soviet counteroffensive, with fresh troops from the east, drove them back: the first major German defeat of the war. On 7 December Japan struck the US Pacific Fleet at Pearl Harbor, crippling its battleships but missing its carriers and bringing a united United States into the war. Its army advanced down the Malay Peninsula and took Singapore in February 1942, followed by the massacre of Chinese civilians in the Sook Ching. In May, in the Coral Sea, the first battle fought entirely by carrier aircraft turned back the invasion of Port Moresby.",
-        studies: ["moscow-1941", "pearl-harbor", "singapore-1942", "coral-sea"],
+        text: "In October 1941 the Germans renewed their drive on Moscow. After new encirclements, mud and then frost stopped them within sight of the city, and on 5–6 December a Soviet counteroffensive, with fresh troops from the east, drove them back: the first major German defeat of the war. On 7 December Japan struck the US Pacific Fleet at Pearl Harbor, crippling its battleships but missing its carriers and bringing a united United States into the war. Its army advanced down the Malay Peninsula and took Singapore in February 1942, followed by the massacre of Chinese civilians in the Sook Ching. Japanese forces took Rangoon in March and drove the British, Indian and Chinese armies out of Burma; Slim's Burma Corps reached India as the monsoon broke, with the Indian refugees who had fled the country. In May, in the Coral Sea, the first battle fought entirely by carrier aircraft turned back the invasion of Port Moresby.",
+        studies: [
+          "moscow-1941",
+          "pearl-harbor",
+          "singapore-1942",
+          "burma-1942",
+          "coral-sea",
+        ],
       },
       {
         text: "In 1942 the war turned in three theatres. At Midway American carrier forces, guided by intelligence that identified the objective, defeated Japan’s carrier striking force; the result altered the carrier balance but did not end the Pacific War. In Egypt, Second El Alamein was the British Army’s first clear, decisive victory over the Axis. At Stalingrad, urban fighting ended in a Soviet encirclement and the destruction of the trapped German Sixth Army.",
         studies: ["midway", "el-alamein", "stalingrad"],
       },
       {
-        text: "On Guadalcanal, from August 1942 to February 1943, American forces held the island's airfield through a series of land, sea and air battles until the Japanese evacuated it; with Midway it marked the turning point of the Pacific War. In the Atlantic, the longest campaign of the war, the U-boat crisis peaked in March 1943; in May very-long-range aircraft, escort carriers, support groups, radar and direction-finding defeated the wolf packs, and Dönitz withdrew them from the North Atlantic.",
-        studies: ["guadalcanal", "battle-of-the-atlantic"],
+        text: "On Guadalcanal, from August 1942 to February 1943, American forces held the island's airfield through a series of land, sea and air battles until the Japanese evacuated it; with Midway it marked the turning point of the Pacific War. In the Atlantic, the longest campaign of the war, the U-boat crisis peaked in March 1943; in May very-long-range aircraft, escort carriers, support groups, radar and direction-finding defeated the wolf packs, and Dönitz withdrew them from the North Atlantic. In Arakan a British advance on Akyab stalled before Donbaik in early 1943 and was driven back to its start line.",
+        studies: ["guadalcanal", "battle-of-the-atlantic", "first-arakan"],
       },
       {
         text: "Kursk, in July 1943, was the last major German offensive on the Eastern Front, and its failure was followed by major Soviet counteroffensives, at an immense human cost to both sides. In June 1944 the Allied landings in Normandy opened the second front that they considered essential to defeating Germany; the campaign opened the way to the liberation of France and the advance into Germany.",
         studies: ["kursk", "normandy"],
       },
       {
-        text: "In 1944 the Allies took the offensive on every front. At Imphal and Kohima a Japanese offensive into India failed against garrisons supplied by air, and the starving Japanese army was destroyed, opening the reconquest of Burma. In Belorussia, Operation Bagration, launched as the Western Allies fought in Normandy, used deception and deep breakthroughs to destroy Army Group Centre and carry the Red Army to the Vistula, where it halted while the Germans crushed the Warsaw Uprising.",
-        studies: ["imphal-kohima", "bagration"],
+        text: "In 1944 the Allies took the offensive on every front. In Arakan in February the encircled boxes of the 7th Indian Division held, supplied by air, against a Japanese envelopment, and in March Wingate's Chindits were flown in behind the Japanese lines in northern Burma. At Imphal and Kohima a Japanese offensive into India failed against garrisons supplied by air, and the starving Japanese army was destroyed, opening the reconquest of Burma. In Belorussia, Operation Bagration, launched as the Western Allies fought in Normandy, used deception and deep breakthroughs to destroy Army Group Centre and carry the Red Army to the Vistula, where it halted while the Germans crushed the Warsaw Uprising.",
+        studies: [
+          "admin-box",
+          "operation-thursday",
+          "imphal-kohima",
+          "bagration",
+        ],
       },
       {
-        text: "In September 1944 an airborne and armoured thrust through the Netherlands, Market Garden, took every bridge but the last, at Arnhem, where the British airborne division was destroyed. In October Japan's last great fleet operation, aimed at the landing on Leyte, failed despite drawing Halsey away with a decoy, and its navy ceased to be a strategic force. In December Germany's last offensive in the west surprised the Americans in the Ardennes but was stopped at St Vith and Bastogne and short of the Meuse. In February and March 1945 US Marines took Iwo Jima from a garrison dug into tunnels and caves, at a cost that foreshadowed an invasion of Japan.",
+        text: "In September 1944 an airborne and armoured thrust through the Netherlands, Market Garden, took every bridge but the last, at Arnhem, where the British airborne division was destroyed. In October Japan's last great fleet operation, aimed at the landing on Leyte, failed despite drawing Halsey away with a decoy, and its navy ceased to be a strategic force. In December Germany's last offensive in the west surprised the Americans in the Ardennes but was stopped at St Vith and Bastogne and short of the Meuse. In February and March 1945 US Marines took Iwo Jima from a garrison dug into tunnels and caves, at a cost that foreshadowed an invasion of Japan. In Burma in the same months Slim's Fourteenth Army seized Meiktila behind the Japanese armies holding the Irrawaddy and took Mandalay.",
         studies: [
           "market-garden",
           "leyte-gulf",
           "battle-of-the-bulge",
           "iwo-jima",
+          "meiktila-mandalay",
         ],
       },
       {
-        text: "In April 1945 the last great battles began in Europe and the Pacific. On Okinawa, the base needed for an invasion of Japan, the Japanese let the Americans land and fought from caves and ridges around Shuri while kamikazes struck the fleet; by June a large part of the island's civilian population had died, many ordered by the Japanese military to kill themselves. On the Oder, Zhukov's and Konev's fronts raced for Berlin, broke through at the Seelow Heights and took the city street by street; Hitler killed himself on 30 April, the garrison surrendered on 2 May and Germany capitulated within a week, amid mass violence against the city's civilians. The cost of Okinawa shaped American expectations of an invasion of Japan.",
-        studies: ["okinawa", "berlin-1945"],
+        text: "In April 1945 the last great battles began in Europe and the Pacific. On Okinawa, the base needed for an invasion of Japan, the Japanese let the Americans land and fought from caves and ridges around Shuri while kamikazes struck the fleet; by June a large part of the island's civilian population had died, many ordered by the Japanese military to kill themselves. On the Oder, Zhukov's and Konev's fronts raced for Berlin, broke through at the Seelow Heights and took the city street by street; Hitler killed himself on 30 April, the garrison surrendered on 2 May and Germany capitulated within a week, amid mass violence against the city's civilians. The cost of Okinawa shaped American expectations of an invasion of Japan. In Burma the Fourteenth Army raced the monsoon south, and in early May a seaborne landing found Rangoon abandoned by the Japanese.",
+        studies: ["okinawa", "berlin-1945", "rangoon-1945"],
       },
     ],
     wars: ["ww2"],

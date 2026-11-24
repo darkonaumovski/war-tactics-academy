@@ -316,7 +316,7 @@ Four profiles proposed by the Grant and Lee volume of Leadership Lessons, for fi
 
 - Approximate lifetimes are labeled with `c.`, and BCE dates are explicit. These display strings are not machine-sortable date intervals.
 - `eraId` is a browsing category, not a claim that a career fits a single period. Belisarius is grouped with late antiquity; early nineteenth-century southern African history is placed in the industrial-era catalog for chronological navigation.
-- Empty `battleSlugs` arrays mean that no direct command association is provided among the current 171 engagements (two profiles: Shaka, for whom no reliable account of a battle was found, and Antipater, whose battles, Megalopolis, Lamia and Crannon, are not in the catalog). They do not mean that the figure fought no important battles.
+- Empty `battleSlugs` arrays mean that no direct command association is provided among the current 178 engagements (two profiles: Shaka, for whom no reliable account of a battle was found, and Antipater, whose battles, Megalopolis, Lamia and Crannon, are not in the catalog). They do not mean that the figure fought no important battles.
 - `battleSlugs` connect commanders only to existing engagement records. A linked figure may have strategic or coordinating responsibility rather than local tactical command; Zhukov, Eisenhower and Nimitz are examples.
 - Richard I is not linked to Hattin, which preceded his crusade. Scipio is not represented as the commander at Cannae.
 - Alexander, Caesar, the Mongol commanders, Nader Shah and other conquerors are presented with the violence and coercion of conquest.

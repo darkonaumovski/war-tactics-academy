@@ -339,6 +339,49 @@ const cmhCentralBurma = cmh(
   "George L. MacGarrigle",
   1996,
 );
+const kirbyJapan = (
+  vol: number,
+  title: string,
+  year: number,
+  chapters: string,
+) =>
+  archive(
+    `war-against-japan-vol-${vol}`,
+    `S. Woodburn Kirby, The War Against Japan, vol. ${["", "I", "II", "III", "IV", "V"][vol]}: ${title} (London: HMSO, ${year}), ${chapters} (History of the Second World War, United Kingdom Military Series)`,
+  );
+const kirbyDangerous = kirbyJapan(
+  2,
+  "India's Most Dangerous Hour",
+  1958,
+  "ch. IX–XII, XV, XIX–XX",
+);
+const kirbyDecisive = kirbyJapan(
+  3,
+  "The Decisive Battles",
+  1961,
+  "ch. X, XII and XXXII",
+);
+const kirbyReconquest = kirbyJapan(
+  4,
+  "The Reconquest of Burma",
+  1965,
+  "ch. XV, XXIII–XXXII",
+);
+const saundersRisingSun = ukOfficial(
+  "UK-RAF-III/UK-RAF-III-16",
+  "Hilary St. George Saunders, Royal Air Force 1939–1945, vol. III: The Fight Is Won (London: HMSO, 1954), ch. XVI: The Rising Sun Sets",
+);
+const playfairEastAfrica = ukOfficial(
+  "UK-Med-I/UK-Med-I-21",
+  "I. S. O. Playfair, The Mediterranean and Middle East, vol. I: The Early Successes against Italy (London: HMSO, 1954), ch. XXI: The Italians Lose the Initiative in East Africa",
+);
+const eastAfricaIndian: Source = {
+  title:
+    "East African Campaign, 1940–41, ch. III: The First Encounters (Official History of the Indian Armed Forces in the Second World War, general editor Bisheshwar Prasad, 1963)",
+  url: "https://www.ibiblio.org/hyperwar/UN/India/EAfrica/EAfrica-3.html",
+  publisher:
+    "Combined Inter-Services Historical Section, India and Pakistan (HyperWar)",
+};
 const cmhNormandy = cmh(
   "NormandyCmh72-18",
   "Normandy",
@@ -3577,7 +3620,7 @@ export const campaignDetails: Record<string, CampaignDetails> = {
   },
   "japanese-offensive-of-1941-1942": {
     summary:
-      "Japan’s opening offensive of December 1941 to the spring of 1942: the attack on Pearl Harbor and the conquest of Malaya, Singapore, the Philippines and the Netherlands Indies.",
+      "Japan’s opening offensive of December 1941 to the spring of 1942: the attack on Pearl Harbor and the conquest of Malaya, Singapore, the Philippines, the Netherlands Indies and Burma.",
     narrative: [
       {
         title: "The plan",
@@ -3599,6 +3642,13 @@ export const campaignDetails: Record<string, CampaignDetails> = {
         evidence: "fact",
         studies: ["singapore-1942"],
         refs: [{ source: 2 }, { source: 3 }, { source: 4 }],
+      },
+      {
+        title: "Burma",
+        text: "Rangoon fell on 8 March 1942. Kirby writes that the defence of Burma then depended on holding the road to China, the base at Mandalay and the oilfields at Yenangyaung. Chinese armies held the Sittang valley and Slim's new Burma Corps the Irrawaddy; outflanked and without air cover, the corps destroyed the oilfields in April, and after Alexander made the defence of India his main object it withdrew across the Chindwin, reaching India as the monsoon broke in May. Kirby calls it the longest retreat ever carried out by a British army, made without the army once losing its cohesion.",
+        evidence: "fact",
+        studies: ["burma-1942"],
+        refs: [{ source: 5 }],
       },
       {
         title: "The southern area",
@@ -3628,6 +3678,7 @@ export const campaignDetails: Record<string, CampaignDetails> = {
       ussbsSouth,
       amhDefensive,
       richardsSingapore,
+      kirbyDangerous,
     ],
   },
   "south-pacific-operations-of-1942": {
@@ -3940,8 +3991,15 @@ export const campaignDetails: Record<string, CampaignDetails> = {
   },
   "burma-campaign": {
     summary:
-      "The war in Burma and on the Indian frontier, above all the defeat of the Japanese offensive against Imphal and Kohima in 1944 and the Allied reconquest of Burma that followed.",
+      "The war in Burma and on the Indian frontier from the first Arakan offensive of 1942–1943 to the fall of Rangoon in 1945, above all the defeat of the Japanese offensive against Imphal and Kohima in 1944 and the Allied reconquest of Burma that followed.",
     narrative: [
+      {
+        title: "The first Arakan offensive",
+        text: "In the dry season of 1942–1943 a British advance down the Arakan coast towards Akyab stalled before fortified Japanese positions at Donbaik and Rathedaung. Japanese outflanking attacks then drove it back, and by May 1943, with Slim's XV Corps given command only at the end, it was back where it had started. Kirby concludes that frontal attacks on well-sited Japanese positions never succeeded in Burma without overwhelming artillery or close support by tanks and aircraft.",
+        evidence: "fact",
+        studies: ["first-arakan"],
+        refs: [{ source: 3 }],
+      },
       {
         title: "Operation C",
         text: "In early 1944 the Japanese launched an offensive whose object, Saunders writes, seemed to be nothing less than the invasion of India. In a first phase they would take Chittagong on the Arakan front and draw Slim’s reserves into battle; a month later they would seize the bases at Imphal and Dimapur, cut the lines of communication through Assam and install Subhas Chandra Bose at the head of a government on Indian soil.",
@@ -3953,8 +4011,15 @@ export const campaignDetails: Record<string, CampaignDetails> = {
         title: "The Admin Box",
         text: "The Arakan attack opened on 4 February. By the 10th the Japanese had cut the Nyakyedauk Pass and surrounded the British “Admin Box”, expecting the encircled troops to retreat as before. Instead they stood and were supplied by air under Spitfire cover, and by mid-March the besiegers had become the besieged.",
         evidence: "fact",
-        studies: [],
-        refs: [{ source: 0 }],
+        studies: ["admin-box"],
+        refs: [{ source: 0 }, { source: 4 }],
+      },
+      {
+        title: "The Chindits",
+        text: "From 5 March 1944 Wingate's Special Force was flown into northern Burma to cut the communications of the Japanese facing Stilwell's advance. Kirby judges that it did little to help Fourteenth Army defeat the Imphal offensive and that supplying it by air aggravated the shortage of aircraft; its achievements, he writes, must be gauged by the help it gave on the northern front.",
+        evidence: "interpretation",
+        studies: ["operation-thursday"],
+        refs: [{ source: 4 }],
       },
       {
         title: "Imphal",
@@ -3978,6 +4043,20 @@ export const campaignDetails: Record<string, CampaignDetails> = {
         refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
       },
       {
+        title: "Meiktila and Mandalay",
+        text: "When the Japanese withdrew behind the Irrawaddy in December 1944, Slim replaced his plan to fight on the Shwebo plain: XXXIII Corps crossed near Mandalay to hold the Japanese attention while IV Corps, moved in secret through the Gangaw valley, crossed at Nyaungu and took Meiktila on 3 March 1945. Saunders writes that fighters kept Japanese reconnaissance aircraft away from the valley. The Japanese failed to retake Meiktila, Mandalay was occupied on 20 March, and Kirby writes that the Burma Area Army had virtually ceased to exist as a fighting force.",
+        evidence: "fact",
+        studies: ["meiktila-mandalay"],
+        refs: [{ source: 5 }, { source: 6 }],
+      },
+      {
+        title: "Rangoon",
+        text: "The Fourteenth Army then raced south against the monsoon and took the Toungoo airfields on 22 April. Rain stopped it at Pegu on 2 May, but a seaborne landing it had asked for as insurance, Operation DRACULA, found Rangoon abandoned, and the 26th Indian Division entered the city on 3 May. MacGarrigle writes that the Japanese forces left in Burma were split into three groups.",
+        evidence: "fact",
+        studies: ["rangoon-1945"],
+        refs: [{ source: 5 }, { source: 6 }, { source: 2 }],
+      },
+      {
         title: "War on air supply",
         text: "Saunders argues that air supply was the decisive factor in the defeat of the Japanese, first in the Arakan and then at Kohima and Imphal, because it let encircled troops stand instead of retreating. Hogan’s brochure shows the American effort in the theatre aimed at the route to China, with Stilwell, pressed by the Joint Chiefs, driving for Myitkyina even while the British were holding off the Japanese offensive into India.",
         evidence: "interpretation",
@@ -3992,7 +4071,15 @@ export const campaignDetails: Record<string, CampaignDetails> = {
         refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
       },
     ],
-    sources: [saundersImphal, cmhIndiaBurma, cmhCentralBurma],
+    sources: [
+      saundersImphal,
+      cmhIndiaBurma,
+      cmhCentralBurma,
+      kirbyDangerous,
+      kirbyDecisive,
+      kirbyReconquest,
+      saundersRisingSun,
+    ],
   },
   "north-west-europe-campaign": {
     summary:
@@ -5867,6 +5954,27 @@ export const campaignDetails: Record<string, CampaignDetails> = {
       },
     ],
     sources: [adwaBr, baratieri],
+  },
+  "east-african-campaign": {
+    summary:
+      "The British campaign of 1940–1941 against Italian East Africa, opened on the Sudan frontier by the attack on Gallabat in November 1940.",
+    narrative: [
+      {
+        title: "The Sudan frontier",
+        text: "Italy took the Sudanese frontier posts of Kassala, Gallabat and Kurmuk in July 1940, a month after entering the war. Wavell ordered step-by-step action rather than a general offensive, and in November an Indian brigade under Slim attacked Gallabat to open an entry into Ethiopia for the Patriot revolt; it took the fort but gave it up when its tanks broke down and the Italian air force commanded the sky.",
+        evidence: "fact",
+        studies: ["gallabat"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "From Kassala to Amba Alagi",
+        text: "Playfair describes the campaign that followed as growing from events rather than from a single design: Platt's pursuit from Kassala in January 1941, the long fight for Keren and its capture in March, Cunningham's advance from Kenya to Addis Ababa, and the encirclement of the Duke of Aosta's forces at Amba Alagi in May. The Emperor entered his capital on 5 May. The Italians had withdrawn from Gallabat at the end of January.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+    ],
+    sources: [playfairEastAfrica, eastAfricaIndian],
   },
   "baltic-fleet-voyage": {
     summary:

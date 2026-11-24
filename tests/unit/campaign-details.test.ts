@@ -39,6 +39,7 @@ const shortContexts = new Set([
   "petersburg-campaign",
   "campaign-of-1870",
   "adwa-campaign",
+  "east-african-campaign",
   "baltic-fleet-voyage",
   "northwestern-campaign-of-1953-1954",
 ]);
@@ -76,6 +77,7 @@ describe("campaign narratives", () => {
       "danubian-campaign-of-1789",
       "dardanelles-campaign",
       "deccan-campaign-of-1803",
+      "east-african-campaign",
       "east-prussian-campaign",
       "eastern-front-in-1916",
       "egyptian-and-syrian-campaign",

@@ -717,12 +717,15 @@ test("the volumes are compared problem by problem", async ({ page }) => {
   await page.getByRole("link", { name: /Compare the volumes/ }).click();
   await expect(page).toHaveURL(/\/leadership\/compare\/$/);
   await expect(
-    page.getByRole("heading", { name: "The same problem, eight records" }),
+    page.getByRole("heading", { name: "The same problem, nine records" }),
   ).toBeVisible();
-  await expect(page.locator(".compare-problem")).toHaveCount(11);
-  await expect(page.locator(".compare-note")).toHaveCount(11);
+  await expect(page.locator(".compare-problem")).toHaveCount(12);
+  await expect(page.locator(".compare-note")).toHaveCount(12);
   const stopping = page.locator("#stopping");
-  await expect(stopping.locator(".compare-card")).toHaveCount(16);
+  await expect(stopping.locator(".compare-card")).toHaveCount(18);
+  await expect(
+    page.locator("#rebuilding").getByText("No lesson in this volume"),
+  ).toHaveCount(4);
   await expect(stopping.getByText("Interpretation")).toBeVisible();
   await expect(
     page.locator("#taking-over").getByText("No lesson in this volume"),

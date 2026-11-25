@@ -437,9 +437,18 @@ describe("problems compared across volumes", () => {
     expect(
       problemsForLesson("julius-caesar", "two-fronts").map((p) => p.slug),
     ).toEqual(["stopping", "who-pays"]);
-    expect(problemsForLesson("julius-caesar", "the-reverse-explained")).toEqual(
-      [],
-    );
+    expect(
+      problemsForLesson("julius-caesar", "the-reverse-explained").map(
+        (p) => p.slug,
+      ),
+    ).toEqual(["rebuilding"]);
+    expect(
+      problemsForLesson("william-slim", "the-enemys-gamble").map((p) => p.slug),
+    ).toEqual(["adapting", "dissent", "stopping"]);
+    expect(
+      problemsForLesson("william-slim", "the-long-retreat").map((p) => p.slug),
+    ).toEqual(["irreplaceable", "who-pays"]);
+    expect(problemsForLesson("william-slim", "whose-army")).toHaveLength(1);
     expect(
       problemsForLesson("hannibal-barca", "the-meeting-at-zama").map(
         (p) => p.slug,

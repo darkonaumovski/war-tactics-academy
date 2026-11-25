@@ -1715,4 +1715,106 @@ export const scenarios: Scenario[] = [
       },
     ],
   },
+  {
+    slug: "slim-before-imphal",
+    title: "Hold forward, or fall back to the plain?",
+    battleSlug: "imphal-kohima",
+    commander: "William Slim",
+    situation:
+      "7 March 1944, at IV Corps headquarters at Imphal. For weeks the evidence of a Japanese offensive across the Chindwin has been growing: rafts and country boats gathering on the river, power craft appearing, a pall of dust spreading over the jungle tracks from movement by night, a fresh regiment identified and heavy artillery reported at Kalemyo. IV Corps holds the Imphal plain, the base for the whole front, with two divisions far forward: the 17th Indian Division at Tiddim and the 20th near Tamu. You have come to discuss with its commander, Scoones, how to meet the blow.",
+    known:
+      "Scoones proposes to withdraw the forward divisions to the plain, hold its vital points with the fewest troops and assemble a reserve to destroy the Japanese on ground of his own choosing. Left forward, the two divisions could be cut off, imperilling the defence of the plain; near it, the attacker would have a long line of communication over mountains and you a short one. Scoones’s appreciation expects a detachment of up to four battalions to move against the road from Kohima to Imphal. A move of the 5th Indian Division from Arakan, where a Japanese offensive has just been beaten, is planned, but how fast it can come depends on transport aircraft you do not control.",
+    unknown:
+      "Exactly when the offensive will begin and how fast it will move; that the Japanese plan allows about three weeks for the attack, with three weeks’ rations, and depends on surprise and a quick success; and that a whole division, not a detachment, is marching on Kohima.",
+    historical:
+      "Slim agreed to Scoones’s plan, provided that permission to withdraw was given to the divisional commanders by Scoones personally, and only when he was satisfied beyond all reasonable doubt that a major offensive had begun. Kirby writes that the proviso led to the 17th Division’s withdrawal being left until too late: it began only when the Japanese were already across its road, and Scoones had to use his reserves to extricate it. When the division’s communications were cut, Slim asked urgently for aircraft, and Mountbatten diverted them from the airlift to China without waiting for approval; the 5th Division began to fly in on 19 March. The battle on the plain destroyed the Japanese offensive, but Kirby also calls the hurried withdrawal of a brigade from Kohima, which Slim upheld, a mistake.",
+    options: [
+      {
+        text: "Keep both divisions forward at Tiddim and Tamu and meet the Japanese as they come out of the mountains.",
+        feedback:
+          "Giffard explained why this was rejected: left forward, the divisions gave the Japanese excellent chances to cut them off and imperil the plain, which was Slim’s first task, and fighting forward would have given the attacker a short line of supply and you a long one. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Agree to withdraw to the plain, but only on Scoones’s own order once he is certain that a major offensive has begun.",
+        feedback:
+          "This matches the historical decision. The plan was sound: an attacker carrying three weeks’ food across mountains must win quickly, and a defender near his base can wait. The proviso made the timing depend on certainty, and certainty came late; the 17th Division fought its way back, the reserves were used to save it, and the aircraft that replaced them came from a superior’s risk.",
+        historical: true,
+      },
+      {
+        text: "Withdraw both divisions to the plain at once, before the Japanese move.",
+        feedback:
+          "An early withdrawal would have avoided the 17th Division’s fighting retreat, but it would have given up the forward positions and roads before the offensive was certain, perhaps on a false alarm, and the sources read do not say how the Japanese would have answered it. A counterfactual.",
+        historical: false,
+      },
+    ],
+  },
+  {
+    slug: "slim-in-december-1944",
+    title: "Keep the plan, or change it?",
+    battleSlug: "meiktila-mandalay",
+    commander: "William Slim",
+    situation:
+      "Mid-December 1944, at Fourteenth Army headquarters. Your plan for the dry season, CAPITAL, is to bring the Japanese armies to battle between the Chindwin and the Irrawaddy, on the Shwebo plain north of Mandalay, and destroy them there. Your army has crossed the Chindwin at three points and is advancing. Now the evidence is changing.",
+    known:
+      "The Japanese 15th Division seems to have pulled back, the 53rd has broken contact and fallen back across the Irrawaddy, the 33rd is weakening, and there is no sign of more than delaying positions north of Mandalay; the 19th Division meets little opposition. Captured documents, reports from the inhabitants of liberated Burmese villages and air reconnaissance of troops and supplies moving south across the Irrawaddy all point to a withdrawal behind the river. Three combat cargo squadrons are being moved to China, and no formation can be moved by air. A good route runs down the Myittha valley to the Irrawaddy near Pakokku; south of the river lie Meiktila and Thazi, the key points on the road and railway to Rangoon and the main Japanese administrative area in central Burma.",
+    unknown:
+      "Whether the Japanese mean to make their main stand on the Irrawaddy or only to delay you; whether the extra aircraft, engineers and transport a new plan would need will be provided; and how quickly the Japanese would see a thrust towards Meiktila for what it was.",
+    historical:
+      "On 16 December Slim’s chief of staff telegraphed that CAPITAL was being scrapped, and on 17 and 20 December Slim sent Leese a new plan, EXTENDED CAPITAL: XXXIII Corps would close up to the Irrawaddy and encircle Mandalay while IV Corps moved down the Myittha valley, crossed near Pakokku and seized Meiktila. His appreciation asked for more aircraft, engineers and transport, and said that without them operations would be limited to the line Meiktila–Yenangyaung. Deception fixed the Japanese on Mandalay, and a Japanese conference judged that any thrust from Nyaungu would be no bigger than a Chindit raid. Meiktila fell on 3 March 1945, and by the end of March, Kirby writes, the Burma Area Army had virtually ceased to exist as a fighting force. The aircraft were made up and increased from late January, but Slim calculated that their removal in December had delayed his army by at least two weeks.",
+    options: [
+      {
+        text: "Scrap CAPITAL: hold the Japanese at Mandalay with one corps, send the other in secret down the Myittha valley to cross near Pakokku and seize Meiktila, ask for the aircraft it needs and name a fallback.",
+        feedback:
+          "This matches the historical decision. It answered either Japanese choice, since a force at Meiktila would cut off an army standing at Mandalay or bar the road of one withdrawing. It depended on speed made by engineers and air supply, on deception, on aircraft others had to find, and on the enemy’s misreading of the threat.",
+        historical: true,
+      },
+      {
+        text: "Keep CAPITAL and press straight on to Mandalay and the Irrawaddy crossings with the whole army.",
+        feedback:
+          "If the Japanese had withdrawn behind the river, this would have meant a frontal crossing of a great river against a prepared enemy, with the army’s supply growing longer as Kimura’s grew shorter, which is what Kimura’s own plan counted on. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Halt on the Shwebo plain until the aircraft taken to China are returned and the enemy’s intentions are clear.",
+        feedback:
+          "Waiting would have given the Japanese time to recover. Slim wrote to Leese that if the enemy were given time, considerably greater forces would be needed after the monsoon to achieve the same object, and the monsoon set a deadline for any advance on a port. A counterfactual.",
+        historical: false,
+      },
+    ],
+  },
+  {
+    slug: "sato-at-kohima",
+    title: "Obey, or withdraw?",
+    battleSlug: "imphal-kohima",
+    commander: "Kotoku Sato",
+    situation:
+      "The last days of May 1944, on the ridges around Kohima. Your 31st Division was sent across the mountains in March to take Kohima and block the road from Dimapur to Imphal, carrying about three weeks’ supplies. In April it pressed the garrison into a shrinking perimeter, but British reinforcements broke through to it, and through May your division has been attacked from every side as the monsoon sets in.",
+    known:
+      "Your division is extremely short of food and ammunition, and the Fifteenth Army has sent it neither since the operation began. From the middle of May you have urged the army to let you withdraw to a position where the division can be supplied; Mutaguchi has refused, saying that the fall of Imphal is imminent, and has ordered you to hold Kohima at all costs. In April you kept a regimental group at Kohima rather than send it to Imphal as ordered, judging that you could not otherwise hold the ridge.",
+    unknown:
+      "Whether Imphal is in fact about to fall; whether supplies will ever reach you; and how the army will judge a division that retires without orders.",
+    historical:
+      "By the end of May, Kirby writes, Sato realised that his division faced imminent destruction; on 31 May he organised a rearguard under Miyazaki to delay any advance along the Imphal road and ordered the rest of his division to withdraw across country. The Japanese monograph says that he arbitrarily abandoned Kohima against orders. Mutaguchi, unaware of the division’s state, sanctioned the withdrawal after the event and ordered it to prepare an attack elsewhere; in June, ordered to stop and rejoin the battle, Sato retorted that the army’s failure to send him supplies or ammunition made it impossible to comply and freed him from any obligation to obey. Mutaguchi asked for him to be disciplined and replaced, and he was relieved on 27 June. Kirby writes that by then the division’s morale had cracked. The offensive was suspended in early July.",
+    options: [
+      {
+        text: "Hold Kohima at all costs, as ordered, in the hope that Imphal falls and the road opens behind you.",
+        feedback:
+          "Imphal did not fall, and Kirby writes that by the end of May the division faced imminent destruction. Holding would have spent the division on an order resting on the army’s belief that victory was near, which its own staff and commanders had begun to doubt. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Send your strongest regiment south to join the attack on Imphal, as the army wanted, and hold Kohima with the rest.",
+        feedback:
+          "Kirby writes that Sato’s fears of what would happen if he parted with a regimental group were in fact well founded: the regiment kept at Kohima in April was what stopped a British envelopment from reaching the road behind his division. Weakening the division further at the end of May would have risked losing both Kohima and the regiment. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Organise a rearguard and withdraw the division towards where it can be supplied, without waiting for permission.",
+        feedback:
+          "This matches the historical decision. The monograph condemns it as arbitrary; Kirby shows that Sato asked to withdraw first and was refused. It saved part of the division from destruction at Kohima, but it ended the army’s last hope of taking Imphal, and the men who withdrew, without supplies, had to make their way back through the monsoon.",
+        historical: true,
+      },
+    ],
+  },
 ];

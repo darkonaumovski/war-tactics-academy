@@ -53,9 +53,9 @@ it("covers every perspective field for battles with commander perspectives", () 
         expect(p[key], `${study.slug}: ${p.name} ${key}`).toBeTruthy();
   }
 });
-it("defines forty-two exercises, each with one historical choice and a study", () => {
-  expect(scenarios).toHaveLength(42);
-  expect(new Set(scenarios.map((s) => s.slug)).size).toBe(42);
+it("defines forty-five exercises, each with one historical choice and a study", () => {
+  expect(scenarios).toHaveLength(45);
+  expect(new Set(scenarios.map((s) => s.slug)).size).toBe(45);
   for (const s of scenarios) {
     expect(
       s.options.filter((o) => o.historical),

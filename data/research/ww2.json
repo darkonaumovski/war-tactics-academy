@@ -4585,6 +4585,16 @@
         "title": "Arakawa Kenichi, “Japanese War Leadership in Burma Theater: Imphal”, in Summary of Sessions, International Forum on War History 2002",
         "url": "https://www.nids.mod.go.jp/english/event/forum/pdf/2002.pdf",
         "publisher": "National Institute for Defense Studies, Ministry of Defense of Japan"
+      },
+      {
+        "title": "S. Woodburn Kirby, The War Against Japan, vol. III: The Decisive Battles (London: HMSO, 1961), ch. XIII, XVI, XXI, XXIV, XXV and XXXII (History of the Second World War, United Kingdom Military Series)",
+        "url": "https://archive.org/details/war-against-japan-vol-3",
+        "publisher": "Internet Archive"
+      },
+      {
+        "title": "Japanese Monograph No. 134: Burma Operations Record, 15th Army Operations in Imphal Area and Withdrawal to Northern Burma (revised edition)",
+        "url": "https://www.ibiblio.org/hyperwar/Japan/Monos/pdfs/JM-134/JM-134.pdf",
+        "publisher": "Office of the Chief of Military History, U.S. Army (HyperWar)"
       }
     ],
     "sections": [
@@ -4603,7 +4613,7 @@
       },
       {
         "title": "Political and strategic context",
-        "text": "Earlier in the war British troops had fallen back when their supply lines were cut and had largely stopped operations in the monsoon. South East Asia Command now ordered troops to stand firm, rely on air supply and keep fighting. The Japanese sought to pre-empt a planned British invasion of Burma. The Japan Center for Asian Historical Records, part of the National Archives of Japan, gives the operation's purpose as cutting the Allied supply route to Chiang Kai-shek and inciting anti-British movements in India, in collaboration with Subhas Chandra Bose's Indian National Army. Arakawa Kenichi, of the Japanese Ministry of Defense's National Institute for Defense Studies, adds that the worsening course of the war and the Tojo government's cooperation with Bose in 1943 pushed the operation forward.",
+        "text": "Earlier in the war British troops had fallen back when their supply lines were cut and had largely stopped operations in the monsoon. South East Asia Command now ordered troops to stand firm, rely on air supply and keep fighting. The Japanese sought to pre-empt a planned British invasion of Burma. The Japan Center for Asian Historical Records, part of the National Archives of Japan, gives the operation's purpose as cutting the Allied supply route to Chiang Kai-shek and inciting anti-British movements in India, in collaboration with Subhas Chandra Bose's Indian National Army. Arakawa Kenichi, of the Japanese Ministry of Defense's National Institute for Defense Studies, adds that the worsening course of the war and the Tojo government's cooperation with Bose in 1943 pushed the operation forward. Kirby, the British official historian, writes that the Japanese knew they were taking a considerable risk but felt it had to be accepted, because the line of the Chindwin could not be defended with the forces they had in Burma.",
         "evidence": "fact",
         "refs": [
           {
@@ -4617,12 +4627,16 @@
           },
           {
             "source": 4
+          },
+          {
+            "source": 5,
+            "locator": "ch. XXXII"
           }
         ]
       },
       {
         "title": "Campaign objectives",
-        "text": "In March 1944 the Japanese Fifteenth Army launched Operation U-Go to capture the British supply bases on the Imphal Plain and cut the Dimapur–Imphal road at Kohima. Holding Imphal would disrupt Allied air supplies to China, delay a British return to Burma and give Japan a base for attacks on India. Arakawa argues that the operation's primary objective was to protect the whole of Burma, but that Mutaguchi, prompted by the first Chindit expedition of Orde Wingate and by his own promotion to command the Fifteenth Army, added an ambitious aim of his own that put it beyond the army's capacity.",
+        "text": "In March 1944 the Japanese Fifteenth Army launched Operation U-Go to capture the British supply bases on the Imphal Plain and cut the Dimapur–Imphal road at Kohima. Holding Imphal would disrupt Allied air supplies to China, delay a British return to Burma and give Japan a base for attacks on India. Arakawa argues that the operation's primary objective was to protect the whole of Burma, but that Mutaguchi, prompted by the first Chindit expedition of Orde Wingate and by his own promotion to command the Fifteenth Army, added an ambitious aim of his own that put it beyond the army's capacity. Monograph No. 134, compiled after the war by former Japanese officers for the U.S. Army, records the chain of approval: after a war game in December 1943, Lieutenant-General Ayabe of the Southern Army's staff judged that holding the line of Kohima and the hills west of Imphal was essential to the defence of Burma, and that the operation should go ahead despite its risks; in Tokyo he answered five questions on seaborne attack, strength, air support, supply and the reliability of the plan; and on 7 January 1944 Imperial General Headquarters assented, while stressing the next day that the operation needed careful control to bring it to a favourable conclusion as early as possible. The Burma Area Army's order of 19 January set the aim as destroying the enemy at Imphal and establishing strong positions covering Kohima and Imphal before the rainy season. Kirby adds the calculation behind it: if the plain was taken by mid-April, the monsoon would cancel the Allies' air advantage, the captured dumps and the plain's rice would feed the army, and troops cut off from ground supply were assumed unable to hold out for long, despite the Allies' transport aircraft.",
         "evidence": "fact",
         "refs": [
           {
@@ -4633,6 +4647,14 @@
           },
           {
             "source": 4
+          },
+          {
+            "source": 5,
+            "locator": "ch. XXXII"
+          },
+          {
+            "source": 6,
+            "locator": "pp. 76–78"
           }
         ]
       },
@@ -4651,7 +4673,7 @@
       },
       {
         "title": "Opposing forces and command structures",
-        "text": "Lieutenant-General Renya Mutaguchi commanded three Japanese divisions and one Indian National Army division. Lieutenant-General William Slim's Fourteenth Army held the front: IV Corps under Geoffrey Scoones at Imphal, and XXXIII Corps under Montagu Stopford, which relieved Kohima and Imphal. Slim had rebuilt the army's morale, trained it in jungle warfare and introduced defensive boxes that could be supplied by air.",
+        "text": "Lieutenant-General Renya Mutaguchi commanded three Japanese divisions and one Indian National Army division: the 33rd under Lieutenant-General G. Yanagida, the 15th under Lieutenant-General M. Yamauchi and the 31st under Lieutenant-General Kotoku Sato. Above him stood Kawabe's Burma Area Army and the Southern Army. Lieutenant-General William Slim's Fourteenth Army held the front: IV Corps under Geoffrey Scoones at Imphal, and XXXIII Corps under Montagu Stopford, which relieved Kohima and Imphal. Above Slim stood General George Giffard of 11th Army Group, who, Kirby writes, left the conduct of the battle to Slim and stayed in the background, ready to support him. Slim had rebuilt the army's morale, trained it in jungle warfare and introduced defensive boxes that could be supplied by air.",
         "evidence": "fact",
         "refs": [
           {
@@ -4659,22 +4681,37 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 5,
+            "locator": "ch. XXIV, XXV, XXXII"
+          },
+          {
+            "source": 6
           }
         ]
       },
       {
         "title": "Initial deployment",
-        "text": "Mutaguchi expected to destroy IV Corps quickly and seize its supplies before his own logistics failed. The 33rd Division was to cut off the 17th Indian Division south of Imphal and the 15th Division to cut the road to Kohima, while the 31st Division under Kotoku Sato surrounded Kohima to block relief from Dimapur. The defenders of Kohima were a scratch garrison under Colonel Hugh Richards.",
+        "text": "Scoones's plan, which Slim approved on 7 March, was to withdraw IV Corps onto the Imphal plain, make the Japanese lengthen their communications and then destroy them in a counter-offensive: the 17th Division was to break clean from Tiddim and fall back without help, the 20th to withdraw slowly from the Kabaw Valley to the Shenam Pass, and the 23rd, with most of the armour, to form a mobile reserve. Slim, fearing the effect of an unnecessary withdrawal on morale, added that there was to be no retirement until the corps commander was certain a major offensive had begun. Mutaguchi expected to destroy IV Corps quickly and seize its supplies before his own logistics failed; the capture of Imphal was scheduled to take three weeks. The 33rd Division was to cut off the 17th Indian Division south of Imphal and the 15th Division to cut the road to Kohima, while the 31st Division surrounded Kohima to block relief from Dimapur. Kirby notes that Mutaguchi committed the whole of his forces and kept no reserve. The defenders of Kohima were a scratch garrison under Colonel Hugh Richards.",
         "evidence": "fact",
         "refs": [
           {
             "source": 0
+          },
+          {
+            "source": 5,
+            "locator": "ch. XXXII"
+          },
+          {
+            "source": 6,
+            "locator": "pp. 103–104"
           }
         ]
       },
       {
         "title": "Chronological phases",
-        "text": "The Japanese advance on Imphal began on 8 March, and on 29 March they cut the Imphal–Kohima road. By early April both Kohima and Imphal were surrounded. At Kohima the garrison, supplied by air, held a shrinking perimeter on Garrison Hill from 5 to 18 April in some of the bitterest fighting of the war, at one point separated from the Japanese only by the tennis court of the Deputy Commissioner's bungalow; the British 2nd Division broke through on 18 April. Fighting around Kohima went on until mid-May, when Sato's division began to withdraw. Japanese attacks on Imphal failed against the Indian divisions there. Despite the monsoon, the Allies counter-attacked up the road, and on 22 June XXXIII Corps linked up with IV Corps at Imphal. The battles ended on 18 July.",
+        "text": "The Japanese advance on Imphal began on 8 March. On the morning of 13 March Scoones, convinced that the offensive had begun, gave the 17th Division permission to withdraw; its orders went out the next afternoon, and it had to fight its way north through Japanese roadblocks, using almost all of IV Corps' reserves to extricate it. The 5th Indian Division was flown in from the Arakan to replace them. On 29 March the Japanese cut the Imphal–Kohima road, and by early April both Kohima and Imphal were surrounded. At Kohima the garrison, supplied by air, held a shrinking perimeter from 5 to 18 April in some of the bitterest fighting of the war, at one point separated from the Japanese only by the tennis court of the Deputy Commissioner's bungalow. On 18 April the 161st Brigade, freed by the 2nd Division's arrival at Jotsoma, broke through and raised the siege, and two days later a brigade of the 2nd Division took over the defence. The 2nd Division then fought to drive the 31st Division from around the ridge, while the Japanese attacks on Imphal failed against the Indian divisions there. On 31 May Sato began to withdraw, leaving a rearguard on the road. Despite the monsoon, the Allies pushed up the road, and on 22 June, at a cutting near milestone 109, the 2nd Division's advanced guard met a patrol of the 5th Indian Division advancing from the south. Southern Army ordered the offensive suspended on 4 July, Kawabe ordered the 15th Army back on 9 July, and the battles ended on 18 July.",
         "evidence": "fact",
         "refs": [
           {
@@ -4685,12 +4722,20 @@
           },
           {
             "source": 3
+          },
+          {
+            "source": 5,
+            "locator": "ch. XIII, XVI, XXI, XXIV, XXV"
+          },
+          {
+            "source": 6,
+            "locator": "pp. 139–143, 155–156"
           }
         ]
       },
       {
         "title": "Important command decisions",
-        "text": "Slim's army stood and fought on the Imphal plain, its encircled formations supplied by air rather than retreating, as South East Asia Command now required. Mountbatten sent the 2nd Division to Dimapur, and the 5th Indian Division was flown from the Arakan to Imphal in two days. Mutaguchi gambled on capturing Allied supplies, quarrelled with his divisional commanders and kept attacking long after the offensive had clearly failed, when he could have withdrawn. Arakawa explains why the plan went ahead unchanged: conceived in the spring of 1943, it was carried out a year later without revision, because Mutaguchi's superior, Lieutenant-General Kawabe, kept a loose rein on him and Major-General Inada, the Southern Army's vice chief of staff who had urged changes, was moved; and once the operation was failing, neither Mutaguchi nor Kawabe could bring himself to halt it.",
+        "text": "Slim's army stood and fought on the Imphal plain, its encircled formations supplied by air rather than retreating, as South East Asia Command now required. Mountbatten sent the 2nd Division to Dimapur, and the 5th Indian Division was flown from the Arakan to Imphal in two days. Kirby records that Slim later said he should have ordered the 17th Division's withdrawal when he approved the plan, rather than leave the moment to the corps commander; but Kirby adds that the crisis would not have arisen either if IV Corps had acted on a patrol's report of 9 March that the Japanese had crossed the Manipur River, or if the 17th Division had not delayed its move for nearly a day, and calls it the product of several errors, none serious on its own. At Kohima, Slim confirmed an order that pulled the 161st Brigade back to Nichuguard to protect Dimapur, leaving the Assam Regiment's outposts at Jessami and Kharasom to get out alone; Kirby says there can be no question that the withdrawal was a mistake, since the army's order had not called for it to be immediate. Later, Stopford refused his divisional commander's proposal to give up the Kohima ridge, because withdrawal would raise Japanese morale and alarm the Nagas. On the Japanese side, Yanagida proposed at the end of March that the offensive be suspended, arguing that Imphal could not be taken in the scheduled three weeks; Mutaguchi ordered him to carry on and later had him replaced. Around 19 April Sato was ordered to send three battalions to Imphal; after a failed attack on Garrison Hill on 23 April he decided to disregard the order, judging that he could not otherwise hold Kohima. Mutaguchi gambled on capturing Allied supplies, quarrelled with his divisional commanders and kept attacking long after the offensive had clearly failed, when he could have withdrawn. Arakawa explains why the plan went ahead unchanged: conceived in the spring of 1943, it was carried out a year later without revision, because Mutaguchi's superior, Lieutenant-General Kawabe, kept a loose rein on him and Major-General Inada, the Southern Army's vice chief of staff who had urged changes, was moved; and once the operation was failing, neither Mutaguchi nor Kawabe could bring himself to halt it. The monograph and Kirby both show it: Mutaguchi recommended withdrawal only on 26 June, and Kawabe, unwilling to act without Southern Army's approval, ordered the offensive continued while he sent a staff officer to Singapore.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -4701,12 +4746,20 @@
           },
           {
             "source": 4
+          },
+          {
+            "source": 5,
+            "locator": "ch. XVI, XXI, XXV, XXXII"
+          },
+          {
+            "source": 6,
+            "locator": "pp. 103–104, 123–125, 155–156"
           }
         ]
       },
       {
         "title": "Decisive turning points",
-        "text": "The garrison's stand at Kohima and the failure of the attacks on Imphal by early May denied the Japanese the supplies they depended on. Allied logistics and air supply, which the National Army Museum calls decisive, allowed rapid reinforcement and kept the garrisons fighting. Arakawa stresses that the British and Indian army had changed during 1943, postponing its offensive, adopting the defensive box and retraining, and that Mutaguchi did not notice or took no interest in the change.",
+        "text": "The garrison's stand at Kohima and the failure of the attacks on Imphal by early May denied the Japanese the supplies they depended on. Allied logistics and air supply, which the National Army Museum calls decisive, allowed rapid reinforcement and kept the garrisons fighting. Arakawa stresses that the British and Indian army had changed during 1943, postponing its offensive, adopting the defensive box and retraining, and that Mutaguchi did not notice or took no interest in the change. Kirby explains how the Japanese plan undid itself: by sending the whole of the 31st Division to Kohima, Mutaguchi left himself too weak at Imphal, with no reserve to exploit the surprise he had gained against the 17th Division, and afterwards fed in his remaining units piecemeal. By the end of April the 31st Division could not spare a regiment for Imphal and still hold Kohima. By mid-May, Kirby judges, defeat should have been plain to Mutaguchi and Kawabe; they still had interior lines and could have withdrawn to a shorter front, but instead drove their troops beyond the limit of endurance until, early in June, the resistance around Kohima collapsed. The monograph dates the moment of certainty to 20 June, when the British broke through the last defences on the Kohima–Imphal road.",
         "evidence": "fact",
         "refs": [
           {
@@ -4717,12 +4770,20 @@
           },
           {
             "source": 4
+          },
+          {
+            "source": 5,
+            "locator": "ch. XXXII"
+          },
+          {
+            "source": 6,
+            "locator": "pp. 131–132, 155"
           }
         ]
       },
       {
         "title": "Outcome",
-        "text": "The National Army Museum calls Imphal–Kohima one of the biggest defeats the Japanese army ever suffered. When Mutaguchi's plan to seize Allied supplies failed, his men starved during the worst of the monsoon; most of his army was killed, wounded or missing. Mutaguchi was relieved of command and forced into retirement.",
+        "text": "The National Army Museum calls Imphal–Kohima one of the biggest defeats the Japanese army ever suffered. When Mutaguchi's plan to seize Allied supplies failed, his men starved during the worst of the monsoon; most of his army was killed, wounded or missing. Mutaguchi was relieved of command and forced into retirement. The monograph records the 31st Division's discipline breaking down in the retreat until a new commander rallied it, and the route between the Yu and the Chindwin marked by dead and dying Japanese soldiers, with the Chindwin in flood, no crossing prepared and little food in the assembly area on its western bank. Kirby notes that three Japanese divisional commanders were relieved in the middle of the battle, between 10 May and 27 June, and judges the defeat of the 15th Army decisive: the initiative passed to the Allies, who never lost it again.",
         "evidence": "fact",
         "refs": [
           {
@@ -4733,12 +4794,20 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 5,
+            "locator": "ch. XXV, XXXII"
+          },
+          {
+            "source": 6,
+            "locator": "pp. 157–159"
           }
         ]
       },
       {
         "title": "Consequences",
-        "text": "The victory opened the way for the reconquest of Burma. The Fourteenth Army crossed the Chindwin during the monsoon, supplied by air, won bridgeheads over the Irrawaddy and took Meiktila and Mandalay in March 1945, and Rangoon fell in May. The cemeteries at Imphal and Kohima, with the Kohima Epitaph, commemorate the dead. In Japan, the weekly Shashin Shuho reported the capture of Kohima and the rapid advance with the Indian National Army; its last article on the battle, on 31 May 1944, still praised the army's achievements but described the enemy more guardedly.",
+        "text": "The victory opened the way for the reconquest of Burma. The Fourteenth Army crossed the Chindwin during the monsoon, supplied by air, won bridgeheads over the Irrawaddy and took Meiktila and Mandalay in March 1945, and Rangoon fell in May. The cemeteries at Imphal and Kohima, with the Kohima Epitaph, commemorate the dead. In Japan, the weekly Shashin Shuho reported the capture of Kohima and the rapid advance with the Indian National Army; its last article on the battle, on 31 May 1944, still praised the army's achievements but described the enemy more guardedly. The pursuit began at once: according to the monograph, the British tried to trap the 15th Army west of the Chindwin, with the 19th, 20th, 5th Indian and 11th East African Divisions advancing on air supply along the whole front.",
         "evidence": "fact",
         "refs": [
           {
@@ -4749,12 +4818,16 @@
           },
           {
             "source": 3
+          },
+          {
+            "source": 6,
+            "locator": "p. 159"
           }
         ]
       },
       {
         "title": "Historical lessons",
-        "text": "Logistics decided the battle: an offensive that depends on capturing the enemy's supplies fails if the enemy holds, while air supply allowed encircled troops to stand. Morale, training and confidence restored by a commander can turn a defeated army into a winning one. Persisting with a failed offensive turns a setback into a disaster.",
+        "text": "Logistics decided the battle: an offensive that depends on capturing the enemy's supplies fails if the enemy holds, while air supply allowed encircled troops to stand. Morale, training and confidence restored by a commander can turn a defeated army into a winning one. Persisting with a failed offensive turns a setback into a disaster. Kirby draws a lesson about generalship from both sides: when commanders meet the unexpected, the one who can tell determination from obstinacy and flexibility from vacillation wins. He credits Giffard, Slim and their commanders with determination without obstinacy, shown in the early decision to withdraw to the plain and in the move of the 5th Division by air, while the Japanese, having planned in meticulous detail, rarely adapted their plans to the unexpected.",
         "evidence": "interpretation",
         "refs": [
           {
@@ -4762,12 +4835,16 @@
           },
           {
             "source": 2
+          },
+          {
+            "source": 5,
+            "locator": "ch. XXXII"
           }
         ]
       },
       {
         "title": "Historiographical debates",
-        "text": "The sources give different loss figures; JACAR's are not used. Both the National Army Museum and the Imperial War Museums call the battle a turning point, but the Imperial War Museums note that it is among the lesser-known battles of the war. The British sources mention the Indian National Army only as one division under Mutaguchi; the Japanese archive's account makes cooperation with it, and the hope of stirring anti-British movements in India, part of the operation's purpose. Arakawa's paper, given at the Japanese Ministry of Defense's forum on war history in 2002 and read here in its English summary, traces the disaster to Mutaguchi's excessive sense of mission and to a command system that let his plan go unrevised, a judgement close to the British sources' view of Mutaguchi.",
+        "text": "The sources give different loss figures; JACAR's are not used. Both the National Army Museum and the Imperial War Museums call the battle a turning point, but the Imperial War Museums note that it is among the lesser-known battles of the war. The British sources mention the Indian National Army only as one division under Mutaguchi; the Japanese archive's account makes cooperation with it, and the hope of stirring anti-British movements in India, part of the operation's purpose. Arakawa's paper, given at the Japanese Ministry of Defense's forum on war history in 2002 and read here in its English summary, traces the disaster to Mutaguchi's excessive sense of mission and to a command system that let his plan go unrevised, a judgement close to the British sources' view of Mutaguchi. Kirby and the Japanese monograph also disagree on particulars. The monograph says a Japanese battalion took Garrison Hill by surprise on 5 April and left it next day because its column commander, Miyazaki, wrongly believed the British had gone; Kirby says only that the battalion was moved after a report that the hill had been captured. On Sato's retreat, the monograph says he abandoned Kohima arbitrarily against Mutaguchi's order to hold, while Kirby writes that Mutaguchi, unaware of the division's state, sanctioned the withdrawal so as to use it against Palel, and on 10 June ordered it stopped; Sato replied that the army's failure to send supplies freed him from any obligation to obey. On Tokyo, both say that Hata came back from Burma doubtful and that Tojo preferred a more hopeful report; the monograph has Tojo hear Hata's advice and decide against it, while Kirby has him stop Hata at his first sentence, that the operation stood little chance of success, and change the subject. The monograph's compilers warn that most of its orders were reconstructed from memory; its casualty lists, and the strength figures in both works, are not used.",
         "evidence": "uncertainty",
         "refs": [
           {
@@ -4784,12 +4861,20 @@
           },
           {
             "source": 4
+          },
+          {
+            "source": 5,
+            "locator": "ch. XXI, XXIV, XXV"
+          },
+          {
+            "source": 6,
+            "locator": "foreword, preface, pp. 119–121, 142–143, 155"
           }
         ]
       },
       {
         "title": "Source references",
-        "text": "The National Army Museum gives the background, the commanders, the plans, the sieges, the air supply and the aftermath, and in a separate article Slim's methods. The Imperial War Museums give Operation U-Go, the siege of Kohima, the link-up and the outcome. The Japan Center for Asian Historical Records gives the Japanese purpose and the wartime reporting of the battle, and the English summary of Arakawa Kenichi's paper for the National Institute for Defense Studies gives a Japanese analysis of Mutaguchi's plan and the command decisions behind it.",
+        "text": "The National Army Museum gives the background, the commanders, the plans, the sieges, the air supply and the aftermath, and in a separate article Slim's methods. The Imperial War Museums give Operation U-Go, the siege of Kohima, the link-up and the outcome. The Japan Center for Asian Historical Records gives the Japanese purpose and the wartime reporting of the battle, and the English summary of Arakawa Kenichi's paper for the National Institute for Defense Studies gives a Japanese analysis of Mutaguchi's plan and the command decisions behind it. Kirby's volume of the British official history gives the plans and their timing, the withdrawal of the 17th Division, the defence and relief of Kohima, the reopening of the road and the Japanese withdrawal, and closes with a retrospect judging both sides' commanders. Monograph No. 134, compiled from the recollections of Mutaguchi and his officers and revised in 1957 with Kawabe's diary, gives the Japanese approval, plans and orders, Yanagida's and Sato's disputes with the army, and the suspension and retreat.",
         "evidence": "fact",
         "refs": [
           {
@@ -4806,6 +4891,12 @@
           },
           {
             "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
           }
         ]
       }
@@ -4814,32 +4905,32 @@
       {
         "title": "U-Go",
         "time": "8 March – early April 1944",
-        "description": "Japanese divisions cross into India, cut the road at Kohima and surround Imphal."
+        "description": "Japanese divisions cross into India; the 17th Division fights its way back to the plain, the 5th Division is flown in, and Kohima and Imphal are surrounded."
       },
       {
         "title": "Siege of Kohima",
         "time": "5–18 April 1944",
-        "description": "The garrison, supplied by air, holds Garrison Hill until the 2nd Division breaks through."
+        "description": "The garrison, supplied by air, holds Garrison Hill until the 161st Brigade breaks through."
       },
       {
         "title": "Kohima and Imphal",
         "time": "19 April – May 1944",
-        "description": "Bitter fighting at Kohima; Japanese attacks on Imphal fail; the monsoon begins."
+        "description": "The 2nd Division fights to clear Kohima; Japanese attacks on Imphal fail; the monsoon begins and Sato withdraws on 31 May."
       },
       {
         "title": "Relief and retreat",
         "time": "June – 18 July 1944",
-        "description": "XXXIII Corps links up with IV Corps on 22 June; the starving Japanese army retreats."
+        "description": "The road is reopened on 22 June; the offensive is suspended on 4 July and the starving Japanese army retreats to the Chindwin."
       }
     ],
     "perspectives": [
       {
         "name": "William Slim",
         "objective": "Defeat the Japanese offensive on ground of his choosing and prepare the return to Burma.",
-        "known": "Japanese divisions were advancing into north-east India, and air supply could sustain encircled troops.",
-        "uncertainty": "Whether Kohima could hold until relief arrived.",
+        "known": "Japanese divisions were preparing to advance into north-east India, and air supply could sustain encircled troops; the exact moment the offensive would begin was not known.",
+        "uncertainty": "When the offensive would begin, and whether Kohima could hold until relief arrived.",
         "constraints": "The hills around the Imphal plain and the coming monsoon.",
-        "decision": "He fought on the Imphal plain, let encircled formations stand in boxes supplied by air, and reinforced by road, rail and air.",
+        "decision": "He approved Scoones's withdrawal to the plain on condition that it wait until the offensive was certain, fought on the Imphal plain, let encircled formations stand in boxes supplied by air, and reinforced by road, rail and air.",
         "forces": "The Fourteenth Army with IV and XXXIII Corps.",
         "terrain": "The Imphal plain and the road through Kohima.",
         "logistics": "Air supply of men and stores, and evacuation of casualties by air.",
@@ -4851,11 +4942,23 @@
         "known": "The British depended on the road from Dimapur through Kohima; according to Arakawa he paid no attention to the changes in British tactics and training during 1943.",
         "uncertainty": "How quickly the British could reinforce.",
         "constraints": "A plan that depended on capturing British stocks, and a superior who kept a loose rein on him rather than revising it.",
-        "decision": "He carried out his plan of 1943 a year later without revision, attacked Imphal and Kohima together and could not bring himself to halt the offensive after it had failed.",
+        "decision": "He carried out his plan of 1943 a year later without revision, attacked Imphal and Kohima together, overruled Yanagida's proposal to suspend the offensive, and could not bring himself to halt it after it had failed.",
         "forces": "The Fifteenth Army's three divisions and an Indian National Army division.",
         "terrain": "Mountains and jungle between the Chindwin and Imphal.",
         "logistics": "No supply line able to sustain the army once the British stores were not taken.",
         "outcome": "His army starved in the monsoon and was destroyed; he was relieved of command."
+      },
+      {
+        "name": "Kotoku Sato",
+        "objective": "Take Kohima and hold it, blocking any relief of Imphal from Dimapur.",
+        "known": "His division had received neither supplies nor reinforcements from the rear, and by May its ammunition and food were almost gone.",
+        "uncertainty": "Whether Imphal would fall, as the army insisted, before his division could no longer fight.",
+        "constraints": "Orders from Mutaguchi to send battalions to Imphal and then to hold Kohima at all costs, and the monsoon, which cut the roads behind him.",
+        "decision": "He disregarded the order to send troops to Imphal in April and withdrew from Kohima on 31 May without permission, arguing that the army's failure to supply him freed him from his obligation to obey.",
+        "forces": "The 31st Division.",
+        "terrain": "The Kohima ridge and the hills along the Imphal road.",
+        "logistics": "Only what the division carried or found; nothing came forward from the army.",
+        "outcome": "The division retreated in disorder, and he was relieved of command on 27 June."
       }
     ]
   },

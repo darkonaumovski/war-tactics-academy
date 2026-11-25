@@ -2373,7 +2373,16 @@
     "strength": "His war diary provides unusually rich evidence about command, supplies and personal responsibilities.",
     "limitation": "Court politics interrupted his command; popular retellings can overstate the role of turtle ships in every victory.",
     "legacy": "Killed at Noryang, he became a central figure in Korean historical memory. His surviving writings should be distinguished from later legend.",
-    "battleSlugs": ["hansan-island"],
+    "battleSlugs": [
+      "okpo",
+      "sacheon-1592",
+      "danghangpo",
+      "hansan-island",
+      "busanpo",
+      "chilcheollyang",
+      "myeongnyang",
+      "noryang"
+    ],
     "source": {
       "title": "The Great Admiral Yi Sun-sin: exhibition and primary documents",
       "url": "https://vcm.museum.go.kr/ENG/contents/E0202010000.do?exhiSpThemId=3225173&listType=gallery&menuId=current&schM=view",

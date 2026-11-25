@@ -912,7 +912,11 @@ test("commander profile shows its command record and role filter", async ({
   await expect(
     page.getByRole("heading", { name: "Chronology" }),
   ).toBeAttached();
-  await expect(page.locator(".chronology")).toContainText("Myeongnyang");
+  // The profile's own chronology comes first; the command record adds one
+  // list per year of linked studies.
+  await expect(page.locator(".chronology").first()).toContainText(
+    "Myeongnyang",
+  );
   await expect(
     page.getByRole("heading", { name: "Defeats & reverses" }),
   ).toBeVisible();

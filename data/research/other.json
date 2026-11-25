@@ -5169,6 +5169,885 @@
     ]
   },
   {
+    "slug": "okpo",
+    "sources": [
+      {
+        "title": "Yi Sun-sin, report on the battle of Okpo (玉浦破倭兵狀, 1592), in Yi chungmugong jeonseo (Complete Works of Yi Sun-sin, 1795), vol. 2, in Classical Chinese",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=MO#/dir/node?dataId=ITKC_MO_0232A_0050_010_0070",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Yi Sun-sin, report on going to the aid of Gyeongsang (赴援慶尙道狀, 1592), in Yi chungmugong jeonseo (Complete Works of Yi Sun-sin, 1795), vol. 2, in Classical Chinese",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=MO#/dir/node?dataId=ITKC_MO_0232A_0050_010_0050",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Yi Sun-sin, Nanjung ilgi (war diary), 5th month of 1592 (壬辰五月), in Yi chungmugong jeonseo (Complete Works of Yi Sun-sin, 1795), vol. 5, in Classical Chinese",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=MO#/dir/node?dataId=ITKC_MO_0232A_0080_010_0050",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Seonjo sujeong sillok (revised Annals of King Seonjo), 25th year, 5th month, 1st day: Yi Sun-sin defeats the Japanese off Geoje, Korean translation with the original",
+        "url": "https://sillok.history.go.kr/id/knb_12505001_020",
+        "publisher": "Veritable Records of the Joseon Dynasty, National Institute of Korean History"
+      },
+      {
+        "title": "옥포해전 (The battle of Okpo) — Jo Seong-do, in Korean",
+        "url": "https://encykorea.aks.ac.kr/Article/E0038825",
+        "publisher": "Encyclopedia of Korean Culture, Academy of Korean Studies"
+      },
+      {
+        "title": "Kawaguchi Chōju, Seikan iryaku (征韓偉略, 1831), vol. 1, in Classical Chinese",
+        "url": "https://zh.wikisource.org/wiki/%E5%BE%81%E9%9F%93%E5%81%89%E7%95%A5/%E5%8D%B7%E4%B9%8B%E4%B8%80",
+        "publisher": "Wikisource (Chinese)"
+      },
+      {
+        "title": "W. G. Aston, “Hideyoshi's Invasion of Korea”, chapter I, Transactions of the Asiatic Society of Japan, vol. 6, part 1 (1878)",
+        "url": "https://archive.org/details/in.gov.ignca.26012",
+        "publisher": "Internet Archive"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "The Japanese invasion began at Busan in the 4th lunar month of 1592 and moved quickly north. Won Gyun, commander of the Right Gyeongsang fleet, wrote to Yi Sun-sin, commander of the Left Jeolla fleet, that the Japanese had landed at Busan, Gimhae and other places, that the coastal forts were falling and his own headquarters was lost, and asked the Jeolla fleet to come to Dangpo. The revised Annals of King Seonjo say that Won Gyun had first sunk his ships and dispersed his men, and that his officer Yi Un-ryong talked him out of seeking safety ashore.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Yi was a provincial commander who could not take his fleet out of his own province without orders. He reported the appeal to the court and waited for its order to join the Gyeongsang fleet. His report argues that the invasion had gone so far because the coastal commanders had not fought at sea and had let the enemy land at will. While he was at sea, news reached him that the king had left the capital for the northwest. The Japanese compilation Seikan iryaku, following the Korean minister Ryu Seong-ryong's Jingbirok, says that Yi at first declined, citing the boundary of his command, and sailed only after Won Gyun's messenger Yi Yeong-nam had come back several times.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Yi's aim, as his reports set it out, was to join the Gyeongsang fleet and destroy the Japanese ships, so that the troops already ashore would have to fear for their rear, and then to press on towards Cheonseong, Gadeok and Busan. The Japanese ships at Okpo were not looking for battle: when the Korean fleet found them, their crews were ashore burning and plundering the harbour.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Okpo is a harbour on the east coast of Geoje Island. The Japanese ships lay in the harbour while their crews were ashore, and when attacked they rowed out along the shore rather than across open water. Geoje's steep, wooded hills gave the survivors a refuge and made a pursuit ashore dangerous. The fleets fought again the same evening at Happo, near Ungcheon, and the next morning at Jeokjinpo, near Goseong.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Yi commanded the Left Jeolla fleet: panokseon warships with smaller escorts and fishing boats taken into service. His reports name each commander and his post in the fleet, among them Jeong Un of Nokdo and Eo Yeong-dam of Gwangyang. The Right Jeolla fleet under Yi Eok-gi was to follow but did not arrive in time. Won Gyun brought what was left of the Right Gyeongsang fleet; Yi's report says he came with almost nothing, while the encyclopedia credits him with a few more ships. The encyclopedia names Tōdō Takatora as the commander of the Japanese ships at Okpo, and the Seikan iryaku records Tōdō's defeat at Karashima, its name for Geoje.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Yi's diary for the first days of the 5th month records the commanders' resolve, except one magistrate who seemed to want to avoid the expedition, and the beheading of a sailor who had deserted. His report records that deserters were executed and displayed to steady the men. The fleet sailed on the 4th day and reached the rendezvous off Dangpo, where Won Gyun was not waiting; he arrived on the 6th. The commanders of both provinces were given their orders together, and the fleet spent the night off Songmipo on Geoje.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "At noon on the 7th day the scouts signalled the enemy. Yi ordered his commanders not to move rashly but to hold steady, and the fleet advanced in line into the harbour of Okpo, where the Japanese were ashore burning the village. They ran back to their ships and rowed out along the shore. The Korean ships closed and attacked with guns and arrows; the Japanese threw their cargo overboard, and many abandoned their ships and climbed the cliffs. Yi wanted to land archers to pursue them, but the forest was thick, the enemy might come round behind, and night was falling, so he withdrew to Yeongdeungpo. That evening ships sighted passing were chased to Happo and destroyed there, and on the morning of the 8th more were burned at Jeokjinpo. A refugee on the shore told Yi what the raiders had done. Before the fleet could go further, word came that the king had left the capital, and the fleets turned home, reaching Yi's base on the 9th.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "The first decision was to go at all. The revised Annals say that most of Yi's commanders thought they could barely hold their own province, and that Jeong Un and the officer Song Hui-rip urged him to go, while Eo Yeong-dam offered to act as pilot. Yi's report shows the risks he weighed: unfamiliar waters, no pilots, no support from the Gyeongsang commanders who had fled, and the hope of waiting for the Right Jeolla fleet. At Okpo he insisted on a steady advance, and afterwards he refused to send men ashore into Geoje's forests. On the news of the king's flight he chose to return to base rather than press on to Busan.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The battle was decided by surprise. The Japanese were caught with their crews ashore and could not form; their ships fled along the shore and their men took to the land. Yi's own explanation for how few enemy dead he could count is the same: the Japanese ships, he wrote, always hugged the shore and their crews escaped to land when cornered.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Korean fleets destroyed most of the Japanese ships they found at Okpo, Happo and Jeokjinpo, and freed Koreans held aboard them, among them a boy whose account of his capture Yi recorded in his report. The king rewarded Yi with promotion to the rank of gaseon daebu. Yi's report also complained that Won Gyun's men had shot at his own while trying to take a prize, and that a Gyeongsang magistrate had never come despite repeated summons.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Okpo was the first Korean victory at sea of the war, and Yi sailed again at the end of the month. His report describes the refugees who waved from the hills as his ships passed, and his promise to take them off on the way back, which the news of the king's flight prevented. The complaints about Won Gyun's men in this first report foreshadow the quarrel between the two admirals that grew over the next sorties.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Okpo suggests that a commander who prepared his own force can act when the system around him has collapsed, but it also shows the limits: Yi would not move without orders, and his success depended on finding an enemy dispersed and unready. His refusal to chase the enemy into unknown, wooded country shows a commander measuring success by what he could keep rather than by heads taken.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The sources disagree about Won Gyun. The revised Annals, compiled decades later, and the Seikan iryaku, following Jingbirok, say he sank his own fleet and had to be persuaded to fight; Yi's report says he came with almost nothing; the encyclopedia credits him with more ships than Yi does. All of these accounts come from Yi's side or from writers who admired him. The dates also differ: the Seikan iryaku puts Tōdō's defeat at Karashima on the 7th day by the Japanese calendar, which it equates with the 6th in Korea, while Yi's report puts Okpo on the 7th. The Japanese record says only that Tōdō fought at Karashima and lost. Aston, writing in 1878 from Japanese and Korean records, judged that a decisive Korean victory at sea that summer probably checked the Japanese advance and preserved China from invasion; the battle he describes, won by a feigned retreat, matches Hansan rather than Okpo.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Yi's report on Okpo and his report on going to Gyeongsang's aid, read in the original in the 1795 Complete Works, give the decision to sail, the battle and its aftermath in his own words. His diary for the 5th month records the preparations, but its entries from the 5th to the 28th day are missing, so the diary does not cover the battle itself. The revised Annals give the court's later account. The Encyclopedia of Korean Culture gives a modern synthesis by a naval historian, and the Seikan iryaku and Aston give the Japanese side as far as it is recorded.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Sailing east",
+        "time": "4th–6th days of the 5th lunar month, 1592",
+        "description": "Yi leaves his base, waits off Dangpo and is joined by Won Gyun."
+      },
+      {
+        "title": "Okpo",
+        "time": "7th day, noon",
+        "description": "The fleets surprise Japanese ships raiding Okpo; the crews flee ashore and the ships are destroyed."
+      },
+      {
+        "title": "Happo",
+        "time": "7th day, evening",
+        "description": "Ships sighted passing are chased to Happo and destroyed."
+      },
+      {
+        "title": "Jeokjinpo and home",
+        "time": "8th–9th days",
+        "description": "More raiders are burned at Jeokjinpo; news of the king's flight sends the fleets home."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Yi Sun-sin",
+        "objective": "Join the Gyeongsang fleet, as the court ordered, and destroy the Japanese ships raiding the south coast.",
+        "known": "Won Gyun's reports that the Gyeongsang forts and fleet had fallen, and that the Japanese were plundering the coast.",
+        "uncertainty": "Waters he did not know, without pilots and without the Right Jeolla fleet he had hoped to wait for.",
+        "constraints": "A fleet that included fishing boats taken into service, commanders reluctant to leave their own province, and deserters.",
+        "decision": "He sailed, advanced in a steady line at Okpo, would not land in Geoje's forests, and turned home on the news of the king's flight.",
+        "forces": "The Left Jeolla fleet, with the remnant of the Right Gyeongsang fleet under Won Gyun.",
+        "terrain": "A harbour on Geoje's east coast, with steep wooded hills behind it.",
+        "logistics": "His own base; rice taken from the Japanese ships was given to the hungry rowers.",
+        "outcome": "The raiders were destroyed at Okpo, Happo and Jeokjinpo, and he was promoted."
+      },
+      {
+        "name": "Tōdō Takatora",
+        "objective": "Secure Geoje and its anchorages behind the advancing army; the encyclopedia names him as commander of the ships at Okpo.",
+        "known": "The Korean defences on the coast had collapsed in the first weeks of the invasion.",
+        "uncertainty": "Whether any Korean fleet was left to oppose him.",
+        "constraints": "Crews spread ashore plundering, and ships in a harbour with no room to form.",
+        "decision": "When the Korean fleet appeared, his ships fled along the shore and the crews took to the hills.",
+        "forces": "Ships of the Japanese fleet raiding the Geoje coast.",
+        "terrain": "Okpo harbour and the wooded hills of Geoje.",
+        "logistics": "Supplies taken from the Korean coast.",
+        "outcome": "The Seikan iryaku records only that Tōdō fought at Karashima and lost."
+      }
+    ]
+  },
+  {
+    "slug": "sacheon-1592",
+    "sources": [
+      {
+        "title": "Yi Sun-sin, report on the second sortie, from Sacheon to Yulpo (唐浦破倭兵狀, 1592), in Yi chungmugong jeonseo (Complete Works of Yi Sun-sin, 1795), vol. 2, in Classical Chinese",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=MO#/dir/node?dataId=ITKC_MO_0232A_0050_010_0080",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Yi Sun-sin, Nanjung ilgi (war diary), 5th month of 1592 (壬辰五月), in Yi chungmugong jeonseo (Complete Works of Yi Sun-sin, 1795), vol. 5, in Classical Chinese",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=MO#/dir/node?dataId=ITKC_MO_0232A_0080_010_0050",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Yi Sun-sin, Nanjung ilgi (war diary), 6th month of 1592 (壬辰六月), in Yi chungmugong jeonseo (Complete Works of Yi Sun-sin, 1795), vol. 5, in Classical Chinese",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=MO#/dir/node?dataId=ITKC_MO_0232A_0080_010_0060",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Seonjo sujeong sillok (revised Annals of King Seonjo), 25th year, 5th month, 1st day: Yi Sun-sin defeats the Japanese off Geoje, Korean translation with the original",
+        "url": "https://sillok.history.go.kr/id/knb_12505001_020",
+        "publisher": "Veritable Records of the Joseon Dynasty, National Institute of Korean History"
+      },
+      {
+        "title": "Seonjo sujeong sillok, 25th year, 6th month, 1st day [2]: Yi Sun-sin defeats the Japanese in succession, Korean translation (Jo Myeong-geun, 1989) with the original",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=JT#/dir/node?dataId=ITKC_JT_N1_A25_06A_01A_00020",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Seonjo sujeong sillok, 25th year, 6th month, 1st day [3]: Won Gyun proposes a joint report, and Yi Sun-sin reports alone, Korean translation (Jo Myeong-geun, 1989) with the original",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=JT#/dir/node?dataId=ITKC_JT_N1_A25_06A_01A_00030",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "사천해전 (The battle of Sacheon) — Jo Seong-do, in Korean",
+        "url": "https://encykorea.aks.ac.kr/Article/E0026034",
+        "publisher": "Encyclopedia of Korean Culture, Academy of Korean Studies"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Okpo, Japanese ships moved west of Geoje, burning coastal villages. Yi had agreed with Yi Eok-gi, commander of the Right Jeolla fleet, to assemble on the 3rd day of the 6th month, but on the 27th day of the 5th month Won Gyun reported Japanese ships near Sacheon and Gonyang, and Yi sailed alone on the 29th rather than wait.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The king had fled north, and the Japanese held the coast east of Geoje. Yi's report on this sortie sets out his reasons for sailing early: if he waited for the agreed day, the Japanese might gather and grow stronger. It also records a rule he made for his fleet: men who fought to the death would be rewarded first even if they took no heads, because the race for heads had got men killed.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Yi meant to find and destroy the Japanese ships west of Geoje before they could gather. The Japanese at Sacheon had camped on a ridge above their ships, apparently to raid inland from a secure anchorage.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "At Sacheon the Japanese held a steep ridge stretching along the shore, with a command tent on the summit, and moored their ships below it. The tide was out, so the heavy panokseon could not close with the ships, and arrows shot from below could not reach the camp. At Dangpo, three days later, the Japanese ships lay in the anchorage below the fort, with many men in the town.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Yi led the Left Jeolla fleet, with the turtle ship as the assault ship under its own commander, and joined Won Gyun, who had a few ships left. His report describes the turtle ship, which he says he had built in case of invasion: a dragon's head at the bow with a cannon in its mouth, iron spikes on its back, and a hull from which the crew could see out but the enemy could not see in, so that it could charge among the enemy and fire. The revised Annals add that its back was planked like a turtle's shell, with blades set in it and covered with matting, and that it could fire in all directions.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Yi met Won Gyun at Noryang and asked him where the enemy was. A Japanese ship coming from Gonyang fled towards Sacheon along the shore and was chased and burned, and the fleet followed it to the anchorage at Sacheon.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "At Sacheon the Japanese on the ridge brandished their swords at the Korean ships below. Yi told his commanders that the enemy was overconfident and that if the fleet pretended to withdraw they would come down to their ships and follow. The fleet turned away; part of the Japanese force came down, some to the ships and some to the shore, firing as they came. As the tide rose, the turtle ship charged among the Japanese ships and fired its cannon, Yi pressed in behind, and the whole fleet attacked with guns and arrows until the Japanese ships were destroyed. The survivors fell back up the hill. Yi would not land in the thick woods at dusk, and left a few of the enemy's boats unburned to lure the survivors back to the shore. During the fight a bullet struck him in the left shoulder and passed out through his back, without serious injury. On the 2nd day of the 6th month the fleet attacked the Japanese at Dangpo, where the turtle ship rammed the great towered ship and the Japanese commander on its tower was shot and fell; more Japanese ships arriving from Geoje fled when they saw the fleet.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Yi made four choices on this sortie that his report explains. He sailed early without Yi Eok-gi, judging delay more dangerous than going alone. At Sacheon he feigned a withdrawal to draw the Japanese off their ridge and waited for the tide before closing. He used the turtle ship as the spearhead of the attack. And he refused to land in the woods at dusk. After the battle he refused heads collected by Gyeongsang fishermen, sending them to Won Gyun rather than taking credit for another province's men. The revised Annals add that he directed the fighting all day after being wounded and had the bullet cut out only afterwards.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The battle turned when the feigned withdrawal brought the Japanese down from the ridge and the rising tide let the Korean ships close; the turtle ship's charge opened the attack.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Japanese ships at Sacheon and Dangpo were destroyed, and Yi was wounded. The sortie went on to Danghangpo and Yulpo. After it the king promoted Yi again, to the rank of jaheon daebu.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The sortie confirmed the pattern of Okpo, and began the quarrel between Yi and Won Gyun. The revised Annals say that Won Gyun proposed a joint report of their victories; Yi suggested waiting, then sent his own report by night, describing Won Gyun as a commander who had lost his fleet and had no merit in the fighting. When Won Gyun learned of it, the Annals say, he resented it deeply, and from then on each reported separately; the rift between them dates from this.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 5
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Sacheon suggests that a commander can draw a defended enemy off strong ground if he reads the enemy's mood and the tide together, and that a new weapon is most useful as the point of a familiar formation rather than on its own. It also shows the price of leading from the front: Yi was wounded in the first battle of the sortie.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The encyclopedia calls Sacheon the turtle ship's first battle, and Yi's report is the first to describe it in action. Neither his report nor the Annals say that the ship was armoured with iron plates; they describe iron spikes and a planked roof. The later claim that it was the first ironclad rests on other descriptions. The revised Annals compress the first two sorties into one account and place Yi's wound there. At Dangpo, Yi's officers found a gilded fan inscribed with Hideyoshi's name and the title of the Lord of Chikuzen; Yi concluded that the commander killed there was that lord, but the fan names another man as its recipient, so the identification is Yi's inference.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Yi's report on the second sortie, read in the original, is the fullest source, with his diary entries for the 29th day of the 5th month and the 6th month. The revised Annals give the court's later summary and the story of the joint report, and the Encyclopedia of Korean Culture a modern synthesis. No Japanese account of Sacheon was found in the sources read.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Sailing early",
+        "time": "29th day of the 5th lunar month, 1592",
+        "description": "Yi sails without the Right Jeolla fleet and joins Won Gyun at Noryang."
+      },
+      {
+        "title": "Sacheon",
+        "time": "29th day",
+        "description": "A feigned withdrawal draws the Japanese down; the turtle ship leads the attack as the tide rises; Yi is wounded."
+      },
+      {
+        "title": "Searching the shore",
+        "time": "1st day of the 6th month",
+        "description": "Won Gyun's men search for the wounded and dead; the fleet moves to Saryang."
+      },
+      {
+        "title": "Dangpo",
+        "time": "2nd day of the 6th month",
+        "description": "The turtle ship rams the towered flagship; the Japanese commander is shot and the ships destroyed."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Yi Sun-sin",
+        "objective": "Find and destroy the Japanese ships west of Geoje before they could gather.",
+        "known": "Won Gyun's report of Japanese ships near Sacheon and Gonyang.",
+        "uncertainty": "Whether to wait for the Right Jeolla fleet, and how to reach an enemy camped above its ships.",
+        "constraints": "A low tide, an enemy on high ground, and thick woods ashore.",
+        "decision": "He sailed early, feigned a withdrawal, waited for the tide and sent the turtle ship in first.",
+        "forces": "The Left Jeolla fleet with the turtle ship, and Won Gyun's few remaining ships.",
+        "terrain": "A ridge above the anchorage at Sacheon; the anchorage below the fort at Dangpo.",
+        "logistics": "His own base; the Right Jeolla fleet joined on the 4th day of the 6th month.",
+        "outcome": "The ships at Sacheon and Dangpo were destroyed; he was wounded and promoted."
+      },
+      {
+        "name": "The Japanese commanders at Sacheon",
+        "objective": "Hold an anchorage and camp from which to raid inland.",
+        "known": "A Korean fleet had destroyed ships at Okpo a few weeks earlier.",
+        "uncertainty": "Whether the Korean ships below could reach them on the ridge.",
+        "constraints": "Ships moored at the foot of the hill, dependent on the tide.",
+        "decision": "When the Korean fleet turned away, part of the force came down to the ships and the shore to pursue.",
+        "forces": "A camp on the ridge and ships moored below it.",
+        "terrain": "A steep ridge above the anchorage.",
+        "logistics": "What could be taken from the country around.",
+        "outcome": "Their ships were destroyed and the survivors fell back up the hill."
+      }
+    ]
+  },
+  {
+    "slug": "danghangpo",
+    "sources": [
+      {
+        "title": "Yi Sun-sin, report on the second sortie, from Sacheon to Yulpo (唐浦破倭兵狀, 1592), in Yi chungmugong jeonseo (Complete Works of Yi Sun-sin, 1795), vol. 2, in Classical Chinese",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=MO#/dir/node?dataId=ITKC_MO_0232A_0050_010_0080",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Yi Sun-sin, Nanjung ilgi (war diary), 6th month of 1592 (壬辰六月), in Yi chungmugong jeonseo (Complete Works of Yi Sun-sin, 1795), vol. 5, in Classical Chinese",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=MO#/dir/node?dataId=ITKC_MO_0232A_0080_010_0060",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Seonjo sujeong sillok, 25th year, 6th month, 1st day [2]: Yi Sun-sin defeats the Japanese in succession, Korean translation (Jo Myeong-geun, 1989) with the original",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=JT#/dir/node?dataId=ITKC_JT_N1_A25_06A_01A_00020",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "당항포해전 (The battles of Danghangpo) — Jo Seong-do, in Korean",
+        "url": "https://encykorea.aks.ac.kr/Article/E0013958",
+        "publisher": "Encyclopedia of Korean Culture, Academy of Korean Studies"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Japanese ships that escaped the fight at Dangpo on the 2nd day of the 6th month of 1592 fled towards Geoje. On the 4th day Yi Eok-gi arrived with the Right Jeolla fleet, which, Yi wrote, lifted the spirits of crews who had been fighting alone. On the 5th, naturalised residents of Geoje told the admirals that the ships had moved to Danghangpo, an inlet in Goseong.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The joint fleets of Jeolla, with Won Gyun, now held the waters west of Geoje. Ashore, Korean troops under the magistrate of Haman were following the Japanese, and Yi saw them in camp near Jinhae as he approached the inlet.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Yi meant to destroy the ships that had escaped Dangpo before they could rejoin the main Japanese force. His particular concern, his report says, was that if the Japanese were cornered they would abandon their ships and escape ashore, as at Okpo.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Danghangpo is a long inlet between hills, which Yi was told ran some way inland and was wide enough for ships to fight in. Its mouth could be closed by a few ships, and the Japanese ships lay against the western shore near its head.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The combined fleet was led by Yi and Yi Eok-gi, with Won Gyun. Yi's report describes the Japanese ships at Danghangpo: black-hulled, with a great flagship carrying a painted three-storey tower like a temple hall, and black banners inscribed with the invocation of the Lotus Sutra.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "Yi first sent a few warships to inspect the inlet, with orders to feign a retreat if chased, and kept the rest of the fleet hidden. When the scouts signalled that the enemy was there, he left ships at the mouth as a guard and led the fleet in, in line ahead.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The fleet surrounded the Japanese ships and the turtle ship charged in, firing. After a long exchange Yi judged that if the Japanese lost hope they would take to the land, so he ordered the fleet to open one side and pretend to fall back. The towered flagship and the ships around it took the opening and made for the middle of the inlet, where the Korean ships closed round them, the turtle ship rammed the tower, and fire arrows set the curtains and sails alight; the Japanese commander on the tower was shot and fell. A few ships fled, but the Korean ships pursued and destroyed the rest, while many Japanese escaped into the hills. Yi deliberately left one ship as a way out. At dawn on the 6th day, Yi Sun-sin of Bangdap, an officer of similar name, waited at the mouth, caught the ship as the survivors came out in it, and killed their young commander. Among the papers in it was a muster list signed in blood. On the 7th day the fleet caught and destroyed more ships off Yulpo.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Yi's key decisions were to reconnoitre before entering, to use a feigned retreat to bring the Japanese into the middle of the inlet, and to leave the enemy a way out twice, once to draw their ships into the open and once to catch the survivors. After Yulpo he decided against going on to Busan: his report lists his supplies exhausted, his men tired and many wounded, the narrow river at Yangsan where the Japanese held the banks, and the danger of being caught between Busan and Yangsan far from his own province.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The battle turned when the Japanese ships took the opening Yi had made and left the shore, where they could be surrounded in open water rather than abandoned.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Japanese ships at Danghangpo were destroyed, and the king promoted Yi. The revised Annals say that after Danghangpo and Yeongdeungpo the navy's reputation was greatly raised.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The fleets dispersed on the 10th day of the 6th month. Yi's report describes refugees from the coastal districts coming to his base and being settled near it, and his orders that Koreans found aboard Japanese ships were to be rescued, not killed. A month later the fleets fought again at Hansan Island. The encyclopedia records a second battle at Danghangpo in 1594, when Yi again trapped Japanese ships in the inlet.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Danghangpo suggests that an enemy who can escape ashore is better offered a way out to sea, where he can be destroyed, than cornered against the land; it also shows the value of reconnaissance before committing to a confined water.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The encyclopedia presents Danghangpo as the product of Yi's careful planning, an account that rests largely on his own report. The revised Annals compress the second sortie into a few lines. Yi noted that the Japanese flew red flags at Okpo, white at Sacheon, yellow at Dangpo and black at Danghangpo, and inferred that each belonged to a different command; that is his reading, not a fact from Japanese records. No Japanese account of Danghangpo was found in the sources read.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Yi's report on the second sortie and his diary entry for the 5th day of the 6th month, read in the original, give the battle in his words. The revised Annals give the court's summary and the encyclopedia a modern account, including the second battle of 1594.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Intelligence",
+        "time": "4th–5th days of the 6th lunar month, 1592",
+        "description": "The Right Jeolla fleet joins; fishermen report the escaped ships in Danghangpo."
+      },
+      {
+        "title": "Into the inlet",
+        "time": "5th day",
+        "description": "Scouts confirm the enemy; the fleet leaves a guard at the mouth and enters in line."
+      },
+      {
+        "title": "The opened line",
+        "time": "5th day",
+        "description": "Yi opens a way out; the Japanese ships come into the open and are destroyed."
+      },
+      {
+        "title": "Dawn at the mouth",
+        "time": "6th–7th days",
+        "description": "The ship left as a way out is caught at dawn; more ships are destroyed off Yulpo."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Yi Sun-sin",
+        "objective": "Destroy the ships that had escaped Dangpo before they rejoined the main Japanese force.",
+        "known": "Reports from Geoje residents that the ships were in Danghangpo, and the shape of the inlet.",
+        "uncertainty": "Whether the inlet was wide enough to fight in, and whether the Japanese would abandon their ships.",
+        "constraints": "A confined inlet with a single mouth, and an enemy who could escape ashore.",
+        "decision": "He reconnoitred, entered in line, then opened a way out to bring the Japanese ships into open water.",
+        "forces": "The combined Jeolla fleets with Won Gyun.",
+        "terrain": "A long inlet between hills.",
+        "logistics": "Supplies running low by the end of the sortie, which decided him against going on to Busan.",
+        "outcome": "The Japanese ships were destroyed, and the survivors' ship was caught at the mouth next morning."
+      },
+      {
+        "name": "The Japanese commanders at Danghangpo",
+        "objective": "Escape the Korean fleet after Dangpo and shelter in a protected inlet.",
+        "known": "The Korean fleet had destroyed ships at Okpo, Sacheon and Dangpo.",
+        "uncertainty": "Whether the Korean fleet would find them.",
+        "constraints": "An inlet with a single exit.",
+        "decision": "When the Korean line opened, the flagship and its escort made for the gap.",
+        "forces": "Ships that had escaped Dangpo and others from the inlet.",
+        "terrain": "The head of a long inlet.",
+        "logistics": "What they carried.",
+        "outcome": "Their ships were destroyed; many men escaped into the hills."
+      }
+    ]
+  },
+  {
     "slug": "hansan-island",
     "sources": [
       {
@@ -5421,6 +6300,1285 @@
         "logistics": "The Japanese account read does not describe his supply, so it is not reconstructed here.",
         "decision": "He pursued the small Joseon force out of the strait; the encyclopedia describes the Japanese as attacking in high spirits, as if to avenge earlier defeats.",
         "outcome": "His fleet was largely burned or captured; survivors abandoned their ships and escaped ashore, and the Seikan iryaku says he barely escaped to Gimhae."
+      }
+    ]
+  },
+  {
+    "slug": "busanpo",
+    "sources": [
+      {
+        "title": "Yi Sun-sin, report on the attack on Busan (釜山破倭兵狀, 1592), in Yi chungmugong jeonseo (Complete Works of Yi Sun-sin, 1795), vol. 2, in Classical Chinese",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=MO#/dir/node?dataId=ITKC_MO_0232A_0050_010_0110",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Yi Sun-sin, Nanjung ilgi (war diary), 8th month of 1592 (壬辰八月), in Yi chungmugong jeonseo (Complete Works of Yi Sun-sin, 1795), vol. 5, in Classical Chinese",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=MO#/dir/node?dataId=ITKC_MO_0232A_0080_010_0070",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Seonjo sujeong sillok, 25th year, 8th month, 1st day [2]: Yi Sun-sin and others attack the enemy at Busan but cannot defeat them, Korean translation (Jo Myeong-geun, 1989) with the original",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=JT#/dir/node?dataId=ITKC_JT_N1_A25_08A_01A_00020",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "부산포해전 (The battle of Busanpo) — Jo Seong-do, in Korean",
+        "url": "https://encykorea.aks.ac.kr/Article/E0024286",
+        "publisher": "Encyclopedia of Korean Culture, Academy of Korean Studies"
+      },
+      {
+        "title": "이순신 (Yi Sun-sin) — Lee Jang-hee, in Korean",
+        "url": "https://encykorea.aks.ac.kr/Article/E0044900",
+        "publisher": "Encyclopedia of Korean Culture, Academy of Korean Studies"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After the summer battles, Yi reported that the waters west of Gadeok were clear of Japanese ships. The Japanese armies inland were seen moving down the rivers towards the coast with loaded boats, apparently withdrawing, and Yi planned to strike as they withdrew, by land and sea together. The fleets of Left and Right Jeolla sailed on the 24th day of the 8th month of 1592 and met Won Gyun off Saryang.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "Busan was the Japanese army's port and main base in Korea. Yi's report says the Japanese had pulled down the official buildings in the town and built their own houses inside and outside the walls, making it a lair for a long stay. The governor of Gyeongsang had reported that the Japanese inland were withdrawing by night towards the coast.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "Yi aimed to destroy the Japanese ships gathered at Busan and the shipping that supplied their army, and if possible to clear the base itself in a combined attack with the land forces. The Japanese aim was to hold their base and keep their ships safe under the guns ashore.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The fleet approached along the coast past the mouths of the rivers at Yangsan and Gimhae, which Yi found too narrow for his warships. At Busan the Japanese ships lay in three groups under the hills east of the fort, and their troops held the heights and the town, from which they could fire down on the harbour.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "The combined fleet of the three provinces was led by Yi with Yi Eok-gi and Won Gyun. Yi's report names the commanders who led the attack, among them Jeong Un of Nokdo, Yi Eon-ryang commanding the turtle ship, and Yi Sun-sin of Bangdap. The Japanese held Busan with ships, a garrison in the town and troops in positions on the hills, some of them mounted.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The fleet moved slowly along the coast from the 24th to the 29th day of the 8th month, as Yi's diary records, and on the 29th destroyed a few ships coming out of the Yangsan river. On the morning of the 1st day of the 9th month it passed Molundae and destroyed Japanese ships moored along the shore at Hwajun-gumi, Dadaepo, Seopyeongpo and Jeolyeongdo, burning them with their cargo. Scouts sent ahead reported the main Japanese anchorage at Busan.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "Yi told the other admirals that if they turned back now the enemy would despise them, and gave the signal to advance. The leading ships, among them the turtle ship, destroyed the Japanese advance guard off Choryang, and the fleet went in. The Japanese did not come out; their men took to the hills and fired down with guns and arrows, large iron shot and stones, and some of the shots struck the Korean ships. The fleet fought all day and destroyed many of the ships moored under the hills. Yi wanted to land his best men, but the Japanese held several positions ashore and had horsemen, and his fleet had none; with night falling, and fearing an attack from front and rear, he withdrew to Gadeok. Jeong Un was killed in the attack, struck in the head by a large iron ball.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Yi decided to attack despite the strength of the base, so as not to show weakness, and then decided not to land. The next day he decided against attacking again: his report says that burning the base and the remaining ships while the Japanese armies were still spread inland might leave them with no way home and make them desperate, and that it was better to wait until the land forces could attack together. Wind and waves had also damaged his ships. He ranked this as the hardest-fought of his battles that year, although it brought no heads, and asked that the men be rewarded for the fighting.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The Japanese refusal to fight at sea decided the day: by staying ashore under their guns, they kept the Korean fleet from closing on their base, and the fleet could do no more than burn ships at their moorings.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Korean fleet burned a large part of the Japanese shipping at Busan and withdrew on the 2nd day of the 9th month; Busan remained in Japanese hands. Jeong Un, who had led the fleet's attacks since the first sortie, was killed.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "Busan was the last of Yi's sorties of 1592. The Japanese held the port for the rest of the war, and a combined attack by land and sea never came. The encyclopedia's entry on Yi records that in 1593 he attacked Busan and Ungcheon again, moved his base to Hansan Island, and was made the first commander of the navies of all three southern provinces.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Busan suggests the limits of sea power against an enemy that holds the shore: a fleet can burn ships at anchor but cannot take a port without troops to land. It also shows a commander choosing not to drive a beaten enemy to desperation while his own side could not finish the work.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The sources disagree on what Busan was. Yi called it the hardest fight and the greatest achievement of the year; the encyclopedia's entries describe a great victory; the revised Annals say that Yi and the others attacked but could not win, burning empty ships before withdrawing. The difference lies partly in what each counts: ships destroyed, or the base left untouched. No Japanese account of the attack was found in the sources read; the Seikan iryaku does not record it.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Yi's report on the attack, read in the original, gives the plan, the battle and his reasons for withdrawing; his diary for the 8th month covers the approach but stops before the battle. The revised Annals give the court's later verdict. The encyclopedia's entries on the battle and on Yi give modern accounts.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Approach",
+        "time": "24th–29th days of the 8th lunar month, 1592",
+        "description": "The combined fleet moves east along the coast and probes the river mouths."
+      },
+      {
+        "title": "Coastal sweep",
+        "time": "1st day of the 9th month, morning",
+        "description": "Japanese ships moored at Hwajun-gumi, Dadaepo, Seopyeongpo and Jeolyeongdo are burned."
+      },
+      {
+        "title": "Busan",
+        "time": "1st day of the 9th month",
+        "description": "The fleet attacks the anchorage under fire from the hills and burns many ships; Jeong Un is killed."
+      },
+      {
+        "title": "Withdrawal",
+        "time": "1st–2nd days of the 9th month",
+        "description": "Unable to land, the fleet withdraws to Gadeok and disperses."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Yi Sun-sin",
+        "objective": "Destroy the Japanese shipping at Busan, and clear the base in a combined attack if possible.",
+        "known": "Reports that the Japanese armies were withdrawing to the coast, and his scouts' sighting of the anchorage.",
+        "uncertainty": "How strongly the Japanese held the shore, and whether landing was possible.",
+        "constraints": "No troops or horsemen to land, an enemy on the heights, and narrow river mouths closed to his ships.",
+        "decision": "He attacked to avoid showing weakness, burned ships at their moorings, would not land, and withdrew.",
+        "forces": "The combined fleet of the three provinces, with the turtle ship.",
+        "terrain": "A harbour overlooked by hills held by the enemy.",
+        "logistics": "Ships damaged by wind and waves after the battle.",
+        "outcome": "Many ships were burned, but Busan stayed in Japanese hands, and Jeong Un was killed."
+      },
+      {
+        "name": "The Japanese garrison of Busan",
+        "objective": "Hold the army's base and protect the ships in the harbour.",
+        "known": "The Korean fleet had beaten every Japanese fleet that met it at sea that year.",
+        "uncertainty": "Whether the Korean fleet would try to land.",
+        "constraints": "Ships moored under the hills, unable to fight the Korean fleet on the water.",
+        "decision": "They stayed ashore and fired down on the Korean ships from the heights.",
+        "forces": "Ships, a garrison in the town and troops in positions on the hills, some mounted.",
+        "terrain": "The town and the hills above the harbour.",
+        "logistics": "The base's own stores, and houses built for a long stay.",
+        "outcome": "Many ships were burned, but the base held."
+      }
+    ]
+  },
+  {
+    "slug": "chilcheollyang",
+    "sources": [
+      {
+        "title": "칠천량해전 (The battle of Chilcheollyang) — Jo Seong-do, in Korean",
+        "url": "https://encykorea.aks.ac.kr/Article/E0058551",
+        "publisher": "Encyclopedia of Korean Culture, Academy of Korean Studies"
+      },
+      {
+        "title": "원균 (Won Gyun) — Lee Jeong-il, in Korean",
+        "url": "https://encykorea.aks.ac.kr/Article/E0040619",
+        "publisher": "Encyclopedia of Korean Culture, Academy of Korean Studies"
+      },
+      {
+        "title": "이순신 (Yi Sun-sin) — Lee Jang-hee, in Korean",
+        "url": "https://encykorea.aks.ac.kr/Article/E0044900",
+        "publisher": "Encyclopedia of Korean Culture, Academy of Korean Studies"
+      },
+      {
+        "title": "Seonjo sillok (Annals of King Seonjo), 30th year, 3rd month, 13th day [2]: the ministers to discuss Yi Sun-sin's punishment, Korean translation (Bak Chan-su, 1987) with the original",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=JT#/dir/node?dataId=ITKC_JT_N0_A30_03A_13A_00020",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Seonjo sillok, 30th year, 7th month, 22nd day [3]: the king and the Border Defence Council discuss the defeat of Won Gyun's fleet, Korean translation (Maeng Cheon-sul, 1988) with the original",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=JT#/dir/node?dataId=ITKC_JT_N0_A30_07A_22A_00030",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Yi Sun-sin, Nanjung ilgi (war diary), 4th month of 1597 (丁酉四月), in Yi chungmugong jeonseo (Complete Works of Yi Sun-sin, 1795), vol. 8, in Classical Chinese",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=MO#/dir/node?dataId=ITKC_MO_0232A_0110_010_0010",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Yi Sun-sin, Nanjung ilgi (war diary), 7th month of 1597 (丁酉七月), in Yi chungmugong jeonseo (Complete Works of Yi Sun-sin, 1795), vol. 8, in Classical Chinese",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=MO#/dir/node?dataId=ITKC_MO_0232A_0110_010_0040",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Kawaguchi Chōju, Seikan iryaku (征韓偉略, 1831), vol. 4, in Classical Chinese",
+        "url": "https://zh.wikisource.org/wiki/%E5%BE%81%E9%9F%93%E5%81%89%E7%95%A5/%E5%8D%B7%E4%B9%8B%E5%9B%9B",
+        "publisher": "Wikisource (Chinese)"
+      },
+      {
+        "title": "W. G. Aston, “Hideyoshi's Invasion of Korea”, chapter IV, Transactions of the Asiatic Society of Japan, vol. 11 (1883)",
+        "url": "https://archive.org/details/in.gov.ignca.26017",
+        "publisher": "Internet Archive"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "Peace talks between Ming China and Japan broke down, and Japan invaded Korea again in 1597. Before the second invasion, according to the encyclopedia's entry on Yi and the Seikan iryaku, a Japanese double agent named Yoshira, serving Konishi Yukinaga, told the Korean commander Kim Eung-seo that Katō Kiyomasa would cross to Korea on a given day and could be caught at sea. The court ordered Yi to intercept him; Yi suspected a trap and delayed, and Katō landed. The Seikan iryaku says that Konishi had set out to divide the Korean commanders, knowing of the quarrel between Yi and Won Gyun.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 7
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "On the 13th day of the 3rd month of 1597 the king sent his ministers a memorandum listing Yi's crimes: deceiving the court, which was disrespect to the king; letting the enemy go without attacking, which was betraying the country; taking others' merit and slandering them; and acting without restraint. Such crimes, the king wrote, deserved death under the law, and he asked the ministers how to proceed. The encyclopedia's entry on Yi, by Lee Jang-hee, ties the charges to factional attacks on Yi's patron Ryu Seong-ryong and to Won Gyun's accusations, and records that Yi was interrogated and, through the minister Jeong Tak's defence, spared and sent to serve without rank under the commander-in-chief Gwon Yul. The entry on Won Gyun, by Lee Jeong-il, records that Won had been moved to land commands after Yi was made commander of the three provinces' navies in 1593, and was given Yi's command in the 2nd month of 1597. Yi's diary takes up on the 1st day of the 4th month, the day he left prison; on the road south he learned of his mother's death.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The court and Gwon Yul wanted the fleet to strike at the Japanese crossing near Busan. The encyclopedia says the Japanese, judging that their first invasion had failed for lack of command of the sea, aimed to lure the Korean fleet towards Busan and destroy it first; in the Annals the king recalls Hideyoshi's saying that the navy must be broken before the army could be taken.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "The fleet was based at Hansan Island. The approaches to Busan were exposed and far from the base; the king recalled after the defeat that Won Gyun had once said the waters off Jeolyeongdo were hard to operate in. Chilcheollyang, off Geoje, is where the fleet anchored on its way back towards Hansan.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Won Gyun commanded the navies of the three provinces, with Yi Eok-gi of Right Jeolla, Choe Ho of Chungcheong and Bae Seol of Right Gyeongsang. The Japanese fleet was led by Tōdō Takatora, Wakisaka Yasuharu and Katō Yoshiaki, with Shimazu troops on Geoje ready to attack from the land.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 7
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The encyclopedia records that Won Gyun's first sorties cost men and ships, that Gwon Yul had him flogged and ordered him out again, and that he then sailed from Hansan with the whole fleet towards Busan. Near Busan the fleet was scattered by wind and by the Japanese; at Gadeok, crews who went ashore for water were attacked; and the fleet fell back to anchor at Chilcheollyang. Aston, from the Japanese side, gives the same sequence.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 7
+          },
+          {
+            "source": 8
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On the night of the 15th day of the 7th month the Japanese attacked by sea and by land. By morning the Korean ships were surrounded; most were burned or broken, Yi Eok-gi and Choe Ho were killed, and Won Gyun escaped ashore, where he was killed. Bae Seol got away with a few ships. Yi's diary records the news as it reached him: on the 14th, reports of fighting off Jeolyeongdo; on the 16th, a sailor who had walked back from the coast; and on the 18th, word that the fleet had been routed on the 16th, with Won Gyun and the other admirals killed. Gwon Yul came to him and said nothing could be done; Yi offered to go to the coast and see for himself, and on the 21st, at Noryang, survivors told him that their commander had fled first on seeing the enemy.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 6
+          },
+          {
+            "source": 7
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "The decisions that led to the defeat were the court's and Gwon Yul's: to remove Yi on the strength of the double agent's story and the charges against him, and then to press Won Gyun into an attack he had warned against. The Seikan iryaku, following Jingbirok, says Won Gyun could not refuse because he had himself accused Yi of not attacking; the Won Gyun entry says he lost following the court's unreasonable orders. In the Annals the king blamed heaven, then said the defeat came because the commander-in-chief pressed Won Gyun, who had not wanted to go, and quoted Bae Seol's refusal to send his men to certain death. Yi's own decision, without command or ships, was to go to the coast and learn what was left.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 6
+          },
+          {
+            "source": 7
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The fleet was caught at night in a narrow anchorage by an attack from sea and land. In the Annals the minister Yi Hang-bok explains why so few escaped: in open water some could have got away, but anchored in a confined place and surprised, they were driven ashore and almost all were lost.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The navies of the three provinces were destroyed, with most of their commanders. The Japanese gained control of the south coast and could move west by sea and land, and Namwon soon fell. Tōdō Takatora was rewarded, the Seikan iryaku says, with authority over the Japanese ships.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 7
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "At court, the ministers agreed that a new naval commander must be appointed to gather what remained; the encyclopedia records that after hearing the report of the defeat the court reappointed Yi as commander of the three provinces' navies. In 1604 Won Gyun was enrolled with Yi and Gwon Yul among the first-class merit subjects of the war.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Chilcheollyang suggests what can follow when a government removes a proven commander on a deception and drives his successor into an attack he had advised against. Responsibility here was shared between the court, the commander-in-chief and the admiral, and the sources do not allow it to be placed on one of them alone.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 1
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Won Gyun's reputation is the volume's central dispute. The Seikan iryaku, following Jingbirok, and Aston portray him as an intriguer who undid Yi's arrangements, drank and punished without measure; Yi's diary records what others told him of Won Gyun's misconduct, and Yi was his rival. The Won Gyun entry presents a commander who fought on with scattered forces, quarrelled with Yi over credit, and lost following the court's orders, and notes that he has long been recorded as the typical cowardly commander. The dates also differ: the Seikan iryaku sets the attack on the night of the 15th, rejecting dates in Jingbirok and other Japanese records, while Yi's diary has the fleet routed on the 16th.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 6
+          },
+          {
+            "source": 7
+          },
+          {
+            "source": 8
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "The encyclopedia's entries on the battle, on Won Gyun and on Yi give modern Korean accounts from different standpoints. The Annals give the king's charges against Yi and the court's discussion of the defeat in the words recorded at the time. Yi's diary, read in the original, gives his journey south and the news as it reached him. The Seikan iryaku gives the Japanese side from family records and Jingbirok, and Aston an early Western account.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          },
+          {
+            "source": 7
+          },
+          {
+            "source": 8
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Removal",
+        "time": "2nd–4th lunar months, 1597",
+        "description": "Yi is arrested and interrogated, then sent south to serve without rank; Won Gyun is given the fleet."
+      },
+      {
+        "title": "Pressed to sail",
+        "time": "6th–7th months",
+        "description": "Won Gyun is flogged and ordered out again; the fleet sails towards Busan and is scattered."
+      },
+      {
+        "title": "Night attack",
+        "time": "15th–16th days of the 7th month",
+        "description": "The Japanese attack the fleet at anchor at Chilcheollyang by sea and land; it is destroyed."
+      },
+      {
+        "title": "Aftermath",
+        "time": "16th–22nd days",
+        "description": "Yi hears the news, goes to the coast and questions survivors."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Won Gyun",
+        "objective": "Carry out the court's and Gwon Yul's orders to strike at the Japanese crossing near Busan.",
+        "known": "Earlier sorties had cost men and ships; he had said the waters off Busan were hard to fight in.",
+        "uncertainty": "Where the Japanese fleet would strike, and whether his tired crews could hold.",
+        "constraints": "Orders from the commander-in-chief and the court, enforced by a flogging, and his own earlier criticism of Yi for not attacking.",
+        "decision": "He took the whole fleet towards Busan, then fell back and anchored at Chilcheollyang.",
+        "forces": "The navies of the three provinces.",
+        "terrain": "Exposed waters off Busan, and a narrow anchorage off Geoje.",
+        "logistics": "Crews short of water, who went ashore at Gadeok and were attacked.",
+        "outcome": "The fleet was destroyed in a night and morning attack, and he was killed ashore."
+      },
+      {
+        "name": "Yi Sun-sin",
+        "objective": "Serve without rank under Gwon Yul as ordered.",
+        "known": "News of the fleet's defeat as it reached him, and the survivors' accounts.",
+        "uncertainty": "What, if anything, was left of the navy.",
+        "constraints": "No command, no ships, and mourning for his mother.",
+        "decision": "He offered to go to the coast to see the damage, and questioned survivors at Noryang.",
+        "forces": "None.",
+        "terrain": "The road from Gwon Yul's headquarters to the coast.",
+        "logistics": "None of his own.",
+        "outcome": "He was reappointed commander of the three provinces' navies."
+      }
+    ]
+  },
+  {
+    "slug": "myeongnyang",
+    "sources": [
+      {
+        "title": "명량대첩 (The great victory at Myeongnyang) — Jo Seong-do, in Korean",
+        "url": "https://encykorea.aks.ac.kr/Article/E0018250",
+        "publisher": "Encyclopedia of Korean Culture, Academy of Korean Studies"
+      },
+      {
+        "title": "Yi Sun-sin, Nanjung ilgi (war diary), 8th month of 1597 (丁酉八月), in Yi chungmugong jeonseo (Complete Works of Yi Sun-sin, 1795), vol. 8, in Classical Chinese",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=MO#/dir/node?dataId=ITKC_MO_0232A_0110_010_0050",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Yi Sun-sin, Nanjung ilgi (war diary), 9th month of 1597 (丁酉九月), in Yi chungmugong jeonseo (Complete Works of Yi Sun-sin, 1795), vol. 8, in Classical Chinese",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=MO#/dir/node?dataId=ITKC_MO_0232A_0110_010_0060",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Seonjo sillok, 30th year, 11th month, 10th day [5]: a dispatch to the Ming commander's headquarters on the enemy and on Korean successes, Korean translation (Kim Neung-ha, 1988) with the original",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=JT#/dir/node?dataId=ITKC_JT_N0_A30_11A_10A_00050",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Seonjo sujeong sillok, 30th year, 9th month, 1st day [3]: Yi Sun-sin defeats the enemy below Byeokpajeong on Jindo, Korean translation (Jo Su-ik, 1989) with the original",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=JT#/dir/node?dataId=ITKC_JT_N1_A30_09A_01A_00030",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Ogawa Takaaki, “Toward better understanding of the battle of Myeongnyang: Review of Literature”, Bulletin of International Pacific University, no. 19, English abstract only (the article is in Japanese)",
+        "url": "https://ipu.repo.nii.ac.jp/record/792/files/11_%E5%B0%8F%E5%B7%9D%E9%9A%86%E7%AB%A0_19%E5%8F%B7.pdf",
+        "publisher": "International Pacific University repository"
+      },
+      {
+        "title": "Kawaguchi Chōju, Seikan iryaku (征韓偉略, 1831), vol. 5, in Classical Chinese",
+        "url": "https://zh.wikisource.org/wiki/%E5%BE%81%E9%9F%93%E5%81%89%E7%95%A5/%E5%8D%B7%E4%B9%8B%E4%BA%94",
+        "publisher": "Wikisource (Chinese)"
+      },
+      {
+        "title": "W. G. Aston, “Hideyoshi's Invasion of Korea”, chapter IV, Transactions of the Asiatic Society of Japan, vol. 11 (1883)",
+        "url": "https://archive.org/details/in.gov.ignca.26017",
+        "publisher": "Internet Archive"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After the fleet was destroyed at Chilcheollyang, Yi was reappointed by a royal letter that reached him on the 3rd day of the 8th month of 1597. He set out at once for the coast, gathering men and weapons on the way; his diary records towns and granaries abandoned or burned by retreating officials. On land the Japanese took Namwon and advanced into Jeolla.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The court reported to the Ming headquarters that since the loss of Hansan the Japanese had overrun the south. It forwarded Yi's report of the battle and described the result as a small victory that had blunted the enemy, so that Japanese ships would not enter the western sea.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The encyclopedia says the Japanese fleet meant to pass along the south coast into the western sea in step with the army. Yi aimed to stop it at Myeongnyang, the passage into the western sea. A captive who escaped told Yi that the Japanese meant to destroy the remnant of his fleet and then sail up to the river at the capital.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Myeongnyang is the narrow strait between Jindo and the mainland, with strong tidal currents. On the 15th day of the 9th month Yi judged that with so few ships he could not fight with the strait behind him, and moved to the anchorage in front of the Right Jeolla naval base. The encyclopedia records that the current turned during the battle, to the disadvantage of the larger fleet in the narrows.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Yi had only the handful of warships that Bae Seol had brought away from Chilcheollyang, with scout boats; refugees' boats gathered behind the fleet. His commanders included Kim Eok-chu of Right Jeolla, whose appointment Yi thought undeserved, An Wi of Geoje, Kim Eung-ham, and Song Yeo-jong of Nokdo. Bae Seol, who had joined Yi, deserted on the 2nd day of the 9th month. The Japanese fleet was much larger; a Japanese who had surrendered to Yi, named Junsa, identified one of its commanders as Madashi.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "On the 28th day of the 8th month a few Japanese ships appeared, and the Gyeongsang commander wanted to retreat; Yi held and chased them off, then moved to Byeokpajin. A night attack on the 7th day of the 9th month was beaten off. After the intelligence of the 14th, Yi moved back to the Right Jeolla base on the 15th, assembled his commanders and told them, citing the military classics, that those who resolve to die live and those who seek to live die, and that one man holding a narrow path can frighten a thousand. He warned that any breach of orders would be punished under military law. That night, his diary says, he dreamed that a spirit told him how to win and how to lose.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "On the morning of the 16th the Japanese fleet entered the strait and surrounded Yi's ships. His commanders, judging the odds hopeless, hung back; Kim Eok-chu withdrew far off. Yi's ship advanced alone, firing its guns, with his officers shooting from the deck, and he told his frightened crew that however many ships the enemy had, they could not overcome his. When the other ships still held back, he signalled Kim Eung-ham, the commander of his centre, and An Wi, and called out to An Wi to ask whether he wanted to die under military law. An Wi charged into the enemy, and Japanese ships closed on his and their men tried to board; Yi came to his aid. Junsa, looking down into the water, identified a man in a patterned red robe as Madashi, and Yi had him hauled aboard and cut to pieces, which, the diary says, broke the enemy's spirit. The Korean ships attacked together and the Japanese withdrew. Yi called it truly heaven's luck, and, the waters being dangerous and his position isolated, moved his fleet away that night.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Yi made four choices that the diary records. He moved off the strait to fight at its mouth rather than with it at his back. He led from the front when his commanders hung back. He used the threat of military law to bring them into the fight, then held off punishing them because the battle was still in the balance. And after the battle he withdrew north rather than hold the strait.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "In Yi's diary the killing of Madashi broke the Japanese spirit; in the encyclopedia the turning tide disordered the larger fleet in the narrows. The two explanations are not exclusive.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 2
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Japanese vanguard was driven back. Over the next days Yi's fleet withdrew north along the coast of Jeolla to Gogunsan, where refugees' boats gathered and officials came to see him; he sent his report of the battle from there. The court described the result to the Ming as a small victory that kept the Japanese out of the western sea.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The encyclopedia judges that the victory turned the course of the second invasion in Korea's favour by blocking the western sea. The court, writing to the Ming, hoped that with Ming ships the navy could gather its strength again and recover the route to Hansan.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Myeongnyang suggests that a commander with almost nothing left can still choose the ground and the moment, and that his own example and the threat of punishment may hold a frightened force together for one battle. It does not show that such a battle wins a campaign by itself.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 2
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "The battle's scale and meaning are disputed. The encyclopedia and Korean tradition present a great victory that blocked the western sea; the court in 1597 called it a small victory. Ogawa Takaaki, reviewing the literature, argues from the accounts of two Koreans captured by the Japanese fleet just after the battle, and from Yi's withdrawal north, that the Koreans won a tactical victory over the vanguard while the Japanese navy won the campaign. The Seikan iryaku records only Jingbirok's statement that Yi defeated a Japanese force off Jindo and killed a commander named Mada, whom Japanese scholars could not identify, and Aston reduced the fighting to slight engagements. The revised Annals say Yi attacked riding the current. The encyclopedia reports that an iron chain laid across the strait and refugees' boats disguised as warships appear only in some records.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          },
+          {
+            "source": 7
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Yi's diary for the 8th and 9th months of 1597, read in the original, is the fullest source. The Annals give the court's report of Yi's dispatch to the Ming, and the revised Annals a later summary. The encyclopedia gives a modern Korean account, Ogawa's abstract a dissenting reading, and the Seikan iryaku and Aston what the Japanese records preserved.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          },
+          {
+            "source": 7
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Reinstated",
+        "time": "3rd–30th days of the 8th lunar month, 1597",
+        "description": "Yi travels to the coast, gathering men and the ships left from Chilcheollyang."
+      },
+      {
+        "title": "Contact",
+        "time": "7th–15th days of the 9th month",
+        "description": "A night attack is beaten off; Yi moves back to the Right Jeolla base."
+      },
+      {
+        "title": "The strait",
+        "time": "16th day",
+        "description": "Yi holds the strait as the Japanese vanguard surrounds his ships; Madashi is killed and the Japanese withdraw."
+      },
+      {
+        "title": "Withdrawal",
+        "time": "17th–21st days",
+        "description": "The fleet sails north along the coast to Gogunsan."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Yi Sun-sin",
+        "objective": "Stop the Japanese fleet passing into the western sea.",
+        "known": "Intelligence from a returned captive that the Japanese meant to destroy his remnant and sail on to the capital.",
+        "uncertainty": "Whether his commanders would fight, and how long so few ships could hold.",
+        "constraints": "A handful of warships, deserting and reluctant commanders, and a strait with dangerous currents.",
+        "decision": "He fought at the mouth of the strait, led from the front, forced his commanders into action and withdrew afterwards.",
+        "forces": "The warships saved from Chilcheollyang, with scout boats.",
+        "terrain": "The tidal strait between Jindo and the mainland.",
+        "logistics": "Refugees brought food to the fleet after the battle.",
+        "outcome": "The Japanese vanguard was driven back, and his fleet withdrew north."
+      },
+      {
+        "name": "The Japanese commanders at Myeongnyang",
+        "objective": "Destroy what was left of the Korean navy and pass into the western sea.",
+        "known": "The Korean fleet had been destroyed at Chilcheollyang a few weeks earlier.",
+        "uncertainty": "How many ships Yi had gathered.",
+        "constraints": "A narrow strait and a turning tide.",
+        "decision": "They entered the strait in strength and surrounded Yi's ships.",
+        "forces": "A fleet far larger than Yi's.",
+        "terrain": "The tidal strait between Jindo and the mainland.",
+        "logistics": "The fleet supporting the army's advance through Jeolla.",
+        "outcome": "The vanguard withdrew after losing ships and the commander the Koreans called Madashi."
+      }
+    ]
+  },
+  {
+    "slug": "noryang",
+    "sources": [
+      {
+        "title": "노량해전 (The battle of Noryang) — Jo Seong-do, in Korean",
+        "url": "https://encykorea.aks.ac.kr/Article/E0012716",
+        "publisher": "Encyclopedia of Korean Culture, Academy of Korean Studies"
+      },
+      {
+        "title": "Yi Sun-sin, Nanjung ilgi (war diary), 9th month of 1598 (戊戌九月), in Yi chungmugong jeonseo (Complete Works of Yi Sun-sin, 1795), vol. 8, in Classical Chinese",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=MO#/dir/node?dataId=ITKC_MO_0232A_0110_010_0110",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Yi Sun-sin, Nanjung ilgi (war diary), 10th month of 1598 (戊戌十月), in Yi chungmugong jeonseo (Complete Works of Yi Sun-sin, 1795), vol. 8, in Classical Chinese",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=MO#/dir/node?dataId=ITKC_MO_0232A_0110_010_0120",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Yi Sun-sin, Nanjung ilgi (war diary), 11th month of 1598 (戊戌十一月), in Yi chungmugong jeonseo (Complete Works of Yi Sun-sin, 1795), vol. 8, in Classical Chinese",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=MO#/dir/node?dataId=ITKC_MO_0232A_0110_010_0130",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Seonjo sillok, 31st year, 11th month, 27th day [5]: Yi Deok-hyeong's report on the navy, with the historians' comment, Korean translation (Yi Hae-gwon, 1988) with the original",
+        "url": "https://db.itkc.or.kr/dir/item?itemId=JT#/dir/node?dataId=ITKC_JT_N0_A31_11A_27A_00050",
+        "publisher": "Korean Classics Database (Institute for the Translation of Korean Classics)"
+      },
+      {
+        "title": "Zhang Tingyu and others, Ming shi (History of the Ming, 1739), vol. 247, biographies of Chen Lin and Deng Zilong, in Classical Chinese",
+        "url": "https://zh.wikisource.org/wiki/%E6%98%8E%E5%8F%B2/%E5%8D%B7247",
+        "publisher": "Wikisource (Chinese)"
+      },
+      {
+        "title": "Kawaguchi Chōju, Seikan iryaku (征韓偉略, 1831), vol. 5, in Classical Chinese",
+        "url": "https://zh.wikisource.org/wiki/%E5%BE%81%E9%9F%93%E5%81%89%E7%95%A5/%E5%8D%B7%E4%B9%8B%E4%BA%94",
+        "publisher": "Wikisource (Chinese)"
+      },
+      {
+        "title": "“露粱海戰과 이순신 戰死 狀況에 관한 고찰” (The sea battle of Noryang and the circumstances of Yi Sun-sin's death), Military History (Institute for Military History, Ministry of National Defense), 2011, English abstract only",
+        "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001535993",
+        "publisher": "Korea Citation Index"
+      },
+      {
+        "title": "W. G. Aston, “Hideyoshi's Invasion of Korea”, chapter IV, Transactions of the Asiatic Society of Japan, vol. 11 (1883)",
+        "url": "https://archive.org/details/in.gov.ignca.26017",
+        "publisher": "Internet Archive"
+      },
+      {
+        "title": "G. A. Ballard, The Influence of the Sea on the Political History of Japan (London: John Murray, 1921), ch. II",
+        "url": "https://archive.org/details/influenceofseaon00balluoft",
+        "publisher": "Internet Archive"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Historical background",
+        "text": "After Hideyoshi died in 1598, the Japanese armies in Korea gathered on the south coast to withdraw; his dying orders, the Seikan iryaku says, were to bring the troops home. Konishi Yukinaga held a fortress near Suncheon, which the Koreans called Waegyo. Yi and the Ming admiral Chen Lin left their base on Gogeumdo to blockade it.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Political and strategic context",
+        "text": "The war was now a coalition. Yi's diary for the 9th and 10th months records joint attacks on the Suncheon fortress with Chen Lin's fleet and the Ming general Liu Ting's army; Liu Ting withdrew his troops, to Yi's anger, and a night attack by Chen Lin cost Ming ships, which Yi called the admiral's confusion. In the 11th month the diary records Japanese envoys coming to Chen Lin's headquarters with gifts to discuss peace, and Ming soldiers seizing a supply ship that Korean officers had captured. The Ming shi records that Chen Lin commanded the Ming fleet, with Deng Zilong among his subordinates.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Campaign objectives",
+        "text": "The Japanese aimed to bring Konishi's garrison out and home. The encyclopedia says Konishi bribed Chen Lin to let a boat through, which summoned Shimazu Yoshihiro and other commanders to relieve him. The Seikan iryaku says Chen Lin, on learning that the Japanese were withdrawing, broke off the peace and sent Deng Zilong and Yi to intercept them. Yi aimed to destroy the relief fleet and the withdrawing armies.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Geography and terrain",
+        "text": "Noryang is the strait between Namhae Island and the mainland, on the route from Sacheon and Goseong to Suncheon. The Japanese ships that escaped fled into Gwaneumpo bay on Namhae, where, according to the encyclopedia and the Military History article, Yi was shot.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 7
+          }
+        ]
+      },
+      {
+        "title": "Opposing forces and command structures",
+        "text": "Yi led the Korean fleet and Chen Lin the Ming fleet, with Deng Zilong in the van. The Seikan iryaku, comparing Japanese family records with Chinese accounts, concludes that the Japanese fleet that met them was Shimazu Yoshihiro's, not Konishi's as some accounts say; the Ming shi has Shimazu killed, while the Seikan iryaku has him escape and return to Japan.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Initial deployment",
+        "text": "The Annals' historians record that Yi saw Japanese boats leaving the fortress, told Chen Lin that a relief force would come within a day or so, and urged him to go out and meet it; Chen Lin at first refused and agreed only when Yi pleaded with tears. The two fleets rowed through the night and reached Noryang before dawn.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Chronological phases",
+        "text": "The fleets met the Japanese at dawn on the 19th day of the 11th month. The Seikan iryaku, which dates the battle to the 18th by the Japanese calendar, describes a fog in which the two sides came upon each other suddenly; Deng Zilong, over seventy, boarded a Korean ship with his men and was killed when fire missiles thrown from another ship set it alight; Yi came to his aid and was shot through the chest. In the Annals, Yi Deok-hyeong's report says the Japanese were routed, many ships broken and many men drowned, and that Yi and several commanders were killed by gunfire; the surviving ships fled to Namhae, and Konishi, seeing the defeat, escaped by the open sea. The Seikan iryaku says Shimazu barely escaped to Karashima, and Konishi got away round the south of Namhae.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Important command decisions",
+        "text": "Yi pressed an unwilling ally into battle and fought at the front. Accounts of his death agree that it was concealed so that the fighting would go on, but differ on who concealed it. The encyclopedia gives his last words as an order not to announce his death while the battle was at its height; the Annals' historians say his son began to weep and Yi Mun-uk stopped him, covered the body and beat the drum; the Seikan iryaku, following Jingbirok, says his nephew hid his death and urged on the fighting.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Decisive turning points",
+        "text": "The allied fleets caught the relief force in the narrows at night and dawn, before it could join Konishi, and drove its survivors into Gwaneumpo.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Outcome",
+        "text": "The Japanese relief fleet was heavily defeated, but Konishi's garrison escaped, and the Japanese armies left Korea. Yi was killed, with Deng Zilong and several Korean commanders. Noryang was the last great battle of the war.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          }
+        ]
+      },
+      {
+        "title": "Consequences",
+        "text": "The Annals' historians praised Yi as loyal, brave and able, strict in discipline and loved by his soldiers, and lamented that the court had misused him: had he not been removed in 1596 and 1597, they wrote, Hansan would not have been lost. The Ming shi credits the victory to Chen Lin, who was ranked first in merit.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          }
+        ]
+      },
+      {
+        "title": "Historical lessons",
+        "text": "Noryang suggests that a commander in a coalition may have to drive an ally to fight when the ally's interest lies in letting the enemy go, and that a war's end can depend on whether the allies want the same thing. It also shows the cost of command from the front.",
+        "evidence": "interpretation",
+        "refs": [
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          }
+        ]
+      },
+      {
+        "title": "Historiographical debates",
+        "text": "Almost everything about Noryang is disputed. The Japanese commander was Shimazu in the Seikan iryaku and Konishi in other accounts; the Ming shi gives the victory to Chen Lin and has Yi die trying to rescue Deng Zilong, while the Korean sources put Yi at its centre. Who hid his death differs between the sources. The theory that Yi took his own life in the battle is examined and doubted in the Military History article, whose abstract places his death near Gwaneumpo at dawn, from a stray bullet. Ballard, a British admiral writing in 1921, called Yi the equal of Nelson, but placed his removal from command in 1593 and gave Konishi command of the Japanese fleet, and he noted that Korean and Japanese accounts disagreed about how many Japanese ships escaped. Aston records only that the Chinese and Korean fleet attacked one division of the withdrawing Japanese.",
+        "evidence": "uncertainty",
+        "refs": [
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          },
+          {
+            "source": 7
+          },
+          {
+            "source": 8
+          },
+          {
+            "source": 9
+          },
+          {
+            "source": 0
+          }
+        ]
+      },
+      {
+        "title": "Source references",
+        "text": "Yi's diary for the 9th to 11th months of 1598, read in the original, ends on the 17th day of the 11th month, two days before the battle. The Annals give Yi Deok-hyeong's report and the historians' judgement; the Ming shi the Ming view; the Seikan iryaku the Japanese view, with its own weighing of the sources. The encyclopedia and the abstract of the Military History article give modern Korean accounts, and Ballard and Aston early Western ones.",
+        "evidence": "fact",
+        "refs": [
+          {
+            "source": 0
+          },
+          {
+            "source": 1
+          },
+          {
+            "source": 2
+          },
+          {
+            "source": 3
+          },
+          {
+            "source": 4
+          },
+          {
+            "source": 5
+          },
+          {
+            "source": 6
+          },
+          {
+            "source": 7
+          },
+          {
+            "source": 8
+          },
+          {
+            "source": 9
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "title": "Blockade",
+        "time": "9th–10th lunar months, 1598",
+        "description": "Korean and Ming forces attack Konishi's fortress near Suncheon; the Ming army withdraws."
+      },
+      {
+        "title": "Negotiations",
+        "time": "14th–17th days of the 11th month",
+        "description": "Japanese envoys bring gifts to Chen Lin; Yi warns that a relief force will come."
+      },
+      {
+        "title": "Noryang",
+        "time": "Night of the 18th to dawn of the 19th",
+        "description": "The allied fleets meet the relief fleet in the strait; Deng Zilong and Yi are killed."
+      },
+      {
+        "title": "Withdrawal",
+        "time": "19th day onwards",
+        "description": "The Japanese survivors flee; Konishi escapes; the Japanese armies leave Korea."
+      }
+    ],
+    "perspectives": [
+      {
+        "name": "Yi Sun-sin",
+        "objective": "Destroy the Japanese relief fleet and the withdrawing armies before they left Korea.",
+        "known": "Boats had left Konishi's fortress, which he took as a call for relief; Japanese envoys had been courting Chen Lin.",
+        "uncertainty": "Whether Chen Lin would fight, and when the relief force would come.",
+        "constraints": "A Ming ally with its own interests, and a narrow strait at night.",
+        "decision": "He pressed Chen Lin to sail, rowed through the night to Noryang and fought at the front.",
+        "forces": "The rebuilt Korean fleet, beside the Ming fleet.",
+        "terrain": "The strait between Namhae and the mainland, and Gwaneumpo bay.",
+        "logistics": "The base on Gogeumdo.",
+        "outcome": "The relief fleet was defeated; he was killed in the battle."
+      },
+      {
+        "name": "Shimazu Yoshihiro",
+        "objective": "Relieve Konishi's garrison at Suncheon and bring the armies home under Hideyoshi's last orders.",
+        "known": "Konishi was blockaded by the Korean and Ming fleets, and a peace had been negotiated with Ming commanders.",
+        "uncertainty": "Whether the allied fleets would let the withdrawal pass.",
+        "constraints": "Night and fog in narrow waters, with his son left behind ill.",
+        "decision": "He sailed at night towards Suncheon and met the allied fleets at dawn.",
+        "forces": "The Japanese ships gathered from Sacheon, Goseong and Namhae.",
+        "terrain": "The Noryang strait.",
+        "logistics": "The withdrawal ports on the south coast.",
+        "outcome": "He escaped with heavy losses to Karashima and returned to Japan."
       }
     ]
   },

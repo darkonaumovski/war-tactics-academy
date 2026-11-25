@@ -811,6 +811,81 @@ const hansanEk: Source = {
   url: "https://encykorea.aks.ac.kr/Article/E0061676",
   publisher: "Encyclopedia of Korean Culture",
 };
+// Yi Sun-sin's reports and diary in the 1795 Complete Works, and the Annals
+// of King Seonjo, in the Korean Classics Database (Yi volume, Phase S).
+const itkc =
+  "Korean Classics Database (Institute for the Translation of Korean Classics)";
+const itkcSource =
+  (item: "MO" | "JT", prefix: string) =>
+  (id: string, title: string): Source => ({
+    title,
+    url: `https://db.itkc.or.kr/dir/item?itemId=${item}#/dir/node?dataId=${prefix}${id}`,
+    publisher: itkc,
+  });
+const yiWorks = itkcSource("MO", "ITKC_MO_0232A_");
+const seonjoAnnals = itkcSource("JT", "ITKC_JT_");
+const yiReportAid = yiWorks(
+  "0050_010_0050",
+  "Yi Sun-sin, report on going to the aid of Gyeongsang (1592), in Yi chungmugong jeonseo, vol. 2, in Classical Chinese",
+);
+const yiReportSecondSortie = yiWorks(
+  "0050_010_0080",
+  "Yi Sun-sin, report on the second sortie, from Sacheon to Yulpo (1592), in Yi chungmugong jeonseo, vol. 2, in Classical Chinese",
+);
+const yiReportBusan = yiWorks(
+  "0050_010_0110",
+  "Yi Sun-sin, report on the attack on Busan (1592), in Yi chungmugong jeonseo, vol. 2, in Classical Chinese",
+);
+const yiDiary1597Ninth = yiWorks(
+  "0110_010_0060",
+  "Yi Sun-sin, war diary, 9th month of 1597, in Yi chungmugong jeonseo, vol. 8, in Classical Chinese",
+);
+const yiDiary1598Eleventh = yiWorks(
+  "0110_010_0130",
+  "Yi Sun-sin, war diary, 11th month of 1598, in Yi chungmugong jeonseo, vol. 8, in Classical Chinese",
+);
+const annals1592Okpo: Source = {
+  title:
+    "Seonjo sujeong sillok (revised Annals of King Seonjo), 25th year, 5th month, 1st day: Yi Sun-sin defeats the Japanese off Geoje, in Korean translation",
+  url: "https://sillok.history.go.kr/id/knb_12505001_020",
+  publisher:
+    "Veritable Records of the Joseon Dynasty, National Institute of Korean History",
+};
+const annals1592JointReport = seonjoAnnals(
+  "N1_A25_06A_01A_00030",
+  "Seonjo sujeong sillok, 25th year, 6th month, 1st day [3]: Won Gyun proposes a joint report, in Korean translation",
+);
+const annals1592Busan = seonjoAnnals(
+  "N1_A25_08A_01A_00020",
+  "Seonjo sujeong sillok, 25th year, 8th month, 1st day [2]: the attack on Busan, in Korean translation",
+);
+const annals1597Charges = seonjoAnnals(
+  "N0_A30_03A_13A_00020",
+  "Seonjo sillok (Annals of King Seonjo), 30th year, 3rd month, 13th day [2]: Yi Sun-sin’s punishment, in Korean translation",
+);
+const annals1597Defeat = seonjoAnnals(
+  "N0_A30_07A_22A_00030",
+  "Seonjo sillok, 30th year, 7th month, 22nd day [3]: the court discusses the fleet’s defeat, in Korean translation",
+);
+const annals1597Dispatch = seonjoAnnals(
+  "N0_A30_11A_10A_00050",
+  "Seonjo sillok, 30th year, 11th month, 10th day [5]: dispatch to the Ming commander’s headquarters, in Korean translation",
+);
+const annals1598Noryang = seonjoAnnals(
+  "N0_A31_11A_27A_00050",
+  "Seonjo sillok, 31st year, 11th month, 27th day [5]: Yi Deok-hyeong’s report on the navy, with the historians’ comment, in Korean translation",
+);
+const yiEk: Source = {
+  title: "이순신 (Yi Sun-sin), by Lee Jang-hee, in Korean",
+  url: "https://encykorea.aks.ac.kr/Article/E0044900",
+  publisher: "Encyclopedia of Korean Culture",
+};
+const mingShiChenLin: Source = {
+  title:
+    "Ming shi, vol. 247, biographies of Chen Lin and Deng Zilong, in Classical Chinese",
+  url: `https://zh.wikisource.org/wiki/${encodeURI("明史/卷247")}`,
+  publisher: "Wikisource (Chinese)",
+};
 const sekigaharaBr = britannica(
   "event/Battle-of-Sekigahara",
   "Battle of Sekigahara — Myles Hudson",
@@ -5531,24 +5606,118 @@ export const campaignDetails: Record<string, CampaignDetails> = {
   },
   "joseon-naval-operations-of-1592": {
     summary:
-      "Admiral Yi Sun-sin’s naval campaign of 1592 against the Japanese invasion of Korea, which culminated at Hansan Island.",
+      "Admiral Yi Sun-sin’s naval campaign of 1592 against the Japanese invasion of Korea, from Okpo to the attack on Busan.",
     narrative: [
       {
-        title: "Cutting the sea route",
-        text: "Appointed commander in Left Jeolla in 1591, Yi trained his men, stocked supplies and developed the turtle ship, so that his fleet, unlike most of the Korean forces, was ready when the Japanese invaded in 1592. His victories off the south coast cut the Japanese armies off from supplies and reinforcements. In the seventh month the Japanese admiral Wakisaka led 73 ships to Geoje; a herdsman told Yi that some seventy lay at Gyeonnaeryang, and in the battle that followed 47 were destroyed and 12 captured.",
+        title: "Ready when the invasion came",
+        text: "Appointed commander in Left Jeolla in 1591, Yi trained his men, stocked supplies and developed the turtle ship, so that his fleet, unlike most of the Korean forces, was ready when the Japanese invaded in 1592. Britannica judges that his victories off the south coast cut the Japanese armies off from supplies and reinforcements.",
+        evidence: "interpretation",
+        studies: [],
+        refs: [{ source: 0 }],
+      },
+      {
+        title: "Going to Gyeongsang’s aid",
+        text: "Won Gyun, commander of the Right Gyeongsang fleet, wrote to Yi that the coastal forts had fallen and asked the Jeolla fleet to come. Yi reported the appeal and waited for the court’s order before leaving his province. The revised Annals say most of his commanders thought they could barely hold their own province, and that Jeong Un and Song Hui-rip urged him to go. He sailed early in the 5th lunar month and won the first Korean victory at sea at Okpo.",
         evidence: "fact",
-        studies: ["hansan-island"],
-        refs: [{ source: 0 }, { source: 1 }],
+        studies: ["okpo"],
+        refs: [{ source: 2 }, { source: 3 }],
+      },
+      {
+        title: "Four sorties",
+        text: "Yi sailed four times that year. The first sortie destroyed raiders at Okpo, Happo and Jeokjinpo. The second, from the end of the 5th month, fought at Sacheon, where the turtle ship went into action, at Dangpo, at Danghangpo, after the Right Jeolla fleet joined, and off Yulpo. In the 7th month a herdsman told the admirals of the Japanese fleet at Gyeonnaeryang, and the third sortie destroyed it off Hansan Island and fought again at Angolpo. The fourth, in the 9th month, attacked the Japanese base at Busan.",
+        evidence: "fact",
+        studies: [
+          "okpo",
+          "sacheon-1592",
+          "danghangpo",
+          "hansan-island",
+          "busanpo",
+        ],
+        refs: [{ source: 5 }, { source: 1 }, { source: 6 }],
+      },
+      {
+        title: "Two admirals",
+        text: "The revised Annals date the quarrel between Yi and Won Gyun to the second sortie: Won Gyun proposed a joint report of their victories, but Yi sent his own by night, describing Won Gyun as a commander who had lost his fleet and had no merit in the fighting. From then on each reported separately.",
+        evidence: "fact",
+        studies: [],
+        refs: [{ source: 4 }],
+      },
+      {
+        title: "The limits at Busan",
+        text: "At Busan the Japanese would not come out, and fired on the fleet from the hills. Yi burned many ships at their moorings but could not land without troops or horsemen, and withdrew, intending to return when the land forces could attack with him. He counted it his hardest fight of the year; the revised Annals say that he attacked but could not win.",
+        evidence: "uncertainty",
+        studies: ["busanpo"],
+        refs: [{ source: 6 }, { source: 7 }],
       },
       {
         title: "The turtle ship",
-        text: "Britannica says the turtle ship is thought to have been the first ironclad, a claim resting on descriptions of plates on its upper deck. The Korean Encyclopedia’s figures for the Japanese losses at Hansan come from the Korean side.",
+        text: "Britannica says the turtle ship is thought to have been the first ironclad, a claim resting on descriptions of plates on its upper deck. Yi’s own report of 1592 describes a dragon’s head at the bow with a cannon in its mouth and iron spikes on a covered back, and does not mention armour plating.",
         evidence: "uncertainty",
-        studies: [],
-        refs: [{ source: 0 }, { source: 1 }],
+        studies: ["sacheon-1592"],
+        refs: [{ source: 0 }, { source: 5 }],
       },
     ],
-    sources: [yiBr, hansanEk],
+    sources: [
+      yiBr,
+      hansanEk,
+      yiReportAid,
+      annals1592Okpo,
+      annals1592JointReport,
+      yiReportSecondSortie,
+      yiReportBusan,
+      annals1592Busan,
+    ],
+  },
+  "joseon-naval-operations-of-1597-1598": {
+    summary:
+      "The war at sea in the second Japanese invasion: Yi Sun-sin’s removal, the fleet’s destruction at Chilcheollyang, his return at Myeongnyang and his death at Noryang.",
+    narrative: [
+      {
+        title: "Removal",
+        text: "In the 3rd lunar month of 1597 the king accused Yi of deceiving the court, letting the enemy go, taking others’ credit and acting without restraint, crimes he said deserved death. The Korean Encyclopedia’s entry on Yi ties his arrest to a Japanese double agent’s report of a crossing Yi would not intercept, to factional attacks on his patron Ryu Seong-ryong and to Won Gyun’s accusations. Yi was interrogated and sent to serve without rank, and Won Gyun was given the fleet.",
+        evidence: "fact",
+        studies: ["chilcheollyang"],
+        refs: [{ source: 0 }, { source: 1 }],
+      },
+      {
+        title: "The fleet lost",
+        text: "Pressed by the commander-in-chief Gwon Yul to attack towards Busan, Won Gyun’s fleet was destroyed at its anchorage at Chilcheollyang in the 7th month. At court the king called it the will of heaven, then said the defeat came because the commander-in-chief pressed Won Gyun, who had not wanted to go.",
+        evidence: "fact",
+        studies: ["chilcheollyang"],
+        refs: [{ source: 2 }],
+      },
+      {
+        title: "Reinstatement",
+        text: "Yi was reappointed in the 8th month and gathered the few ships left. On the 16th day of the 9th month he held the strait of Myeongnyang against the Japanese vanguard, then withdrew north. Writing to the Ming, the court called it a small victory that would keep the Japanese out of the western sea.",
+        evidence: "fact",
+        studies: ["myeongnyang"],
+        refs: [{ source: 3 }, { source: 4 }],
+      },
+      {
+        title: "With the Ming fleet",
+        text: "In 1598 Yi fought beside the Ming admiral Chen Lin against Konishi Yukinaga’s fortress near Suncheon. His diary records Japanese envoys bringing Chen Lin gifts to discuss peace. When the Japanese summoned a relief fleet, Yi persuaded Chen Lin to meet it, and on the 19th day of the 11th month the allies defeated it in the Noryang strait; Yi was killed.",
+        evidence: "fact",
+        studies: ["noryang"],
+        refs: [{ source: 5 }, { source: 6 }],
+      },
+      {
+        title: "Credit and blame",
+        text: "The Annals’ historians wrote that Won Gyun’s greed and cruelty had lost him his men and brought the defeat of 1597, and that the court’s misuse of Yi was to be regretted; the Ming shi gives first merit for Noryang to Chen Lin. Each was written from its own side, and the studies set them beside the others.",
+        evidence: "uncertainty",
+        studies: [],
+        refs: [{ source: 6 }, { source: 7 }],
+      },
+    ],
+    sources: [
+      annals1597Charges,
+      yiEk,
+      annals1597Defeat,
+      yiDiary1597Ninth,
+      annals1597Dispatch,
+      yiDiary1598Eleventh,
+      annals1598Noryang,
+      mingShiChenLin,
+    ],
   },
   "sekigahara-campaign": {
     summary:

@@ -46,7 +46,14 @@ export function BattleMap({ battle }: { battle: Battle }) {
   // Sea battles draw ship markers instead of land units.
   const naval = [
     "actium",
+    "okpo",
+    "sacheon-1592",
+    "danghangpo",
     "hansan-island",
+    "busanpo",
+    "chilcheollyang",
+    "myeongnyang",
+    "noryang",
     "tsushima",
     "jutland",
     "battle-of-the-atlantic",

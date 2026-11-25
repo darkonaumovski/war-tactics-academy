@@ -866,18 +866,30 @@ export const warDetails: Record<string, WarDetails> = {
     participants: ["Joseon Korea", "Toyotomi Japan", "Ming China"],
     geography: "The Korean peninsula and the waters off its southern coast.",
     developments: t(
-      ["24 May 1592", "Japanese forces take Busan; the invasion begins"],
-      ["1592", "Joseon naval victories at Okpo, Dangpo, Danghangpo and Yulpo"],
+      [
+        "4th lunar month 1592",
+        "Japanese forces land at Busan; the invasion begins",
+      ],
+      [
+        "5th–6th lunar months 1592",
+        "Joseon naval victories at Okpo, Sacheon, Dangpo, Danghangpo and Yulpo",
+      ],
       ["7th lunar month 1592", "Battle of Hansan Island, followed by Angolpo"],
+      ["9th lunar month 1592", "Yi Sun-sin attacks the Japanese base at Busan"],
       ["10th lunar month 1592", "Defence of Jinju"],
       ["2nd lunar month 1593", "Victory at Haengju"],
       ["1593", "Yi Sun-sin given command of the entire Korean fleet"],
       [
-        "1597",
-        "Second invasion; the Korean navy is almost destroyed and Yi reinstated",
+        "2nd–3rd lunar months 1597",
+        "Second invasion; Yi Sun-sin charged and removed, and Won Gyun given the fleet",
+      ],
+      ["7th lunar month 1597", "The Korean fleet destroyed at Chilcheollyang"],
+      [
+        "8th–9th lunar months 1597",
+        "Yi reinstated; he holds the strait of Myeongnyang",
       ],
       [
-        "16 December 1598",
+        "11th lunar month 1598 (16 December)",
         "Yi Sun-sin killed off Noryang in the final campaign",
       ],
     ),

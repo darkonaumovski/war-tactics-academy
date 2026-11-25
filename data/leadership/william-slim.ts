@@ -1,14 +1,14 @@
 import type { LeadershipVolume, Source } from "../../lib/types";
-// Volume 9, on William Slim, written in reviewed batches (batch B1, the
-// pilot, is lessons 0, the record, 4, the rebuilding, and 7, Imphal; batch B2
-// is Part I, lessons 1–3, Gallabat, the retreat of 1942 and the first Arakan);
+// Volume 9, on William Slim, written in reviewed batches: B1, the pilot
+// (lessons 0, 4 and 7), then B2 to B5, Parts I to IV in curriculum order,
+// ending with the ledger that answers the volume's question;
 // docs/LEADERSHIP_EVIDENCE_SLIM.md records which sources can carry each
 // lesson, and docs/SOURCE_AUDIT.md how each was read. Slim's own books are in
 // copyright, so his words reach the volume through the sources that quote
 // them, and through his openly readable lecture of 1957. The official
 // histories are cited by volume with chapter locators.
-const kirby = (vol: 2 | 3 | 4, title: string, year: number): Source => ({
-  title: `S. Woodburn Kirby, The War Against Japan, vol. ${["", "", "II", "III", "IV"][vol]}: ${title} (London: HMSO, ${year}) (History of the Second World War, United Kingdom Military Series)`,
+const kirby = (vol: 2 | 3 | 4 | 5, title: string, year: number): Source => ({
+  title: `S. Woodburn Kirby, The War Against Japan, vol. ${["", "", "II", "III", "IV", "V"][vol]}: ${title} (London: HMSO, ${year}) (History of the Second World War, United Kingdom Military Series)`,
   url: `https://archive.org/details/war-against-japan-vol-${vol}`,
   publisher: "Internet Archive",
 });
@@ -238,6 +238,35 @@ const s = {
       "Sönke Neitzel, “Rommel, Eugen Johannes Erwin”, Neue Deutsche Biographie 22 (2005) (in German)",
     url: "https://www.deutsche-biographie.de/sfz107896.html",
     publisher: "Deutsche Biographie",
+  },
+  kirby5: kirby(5, "The Surrender of Japan", 1969),
+  macgarrigle: {
+    title:
+      "George L. MacGarrigle, Central Burma (The U.S. Army Campaigns of World War II, Center of Military History, 1996)",
+    url: "https://archive.org/details/CentralBurma",
+    publisher: "Internet Archive",
+  },
+  saunders16: {
+    title:
+      "Hilary St. George Saunders, Royal Air Force 1939–1945, vol. III: The Fight Is Won (London: HMSO, 1954), ch. XVI: The Rising Sun Sets (History of the Second World War, United Kingdom Military Series)",
+    url: "https://www.ibiblio.org/hyperwar/UN/UK/UK-RAF-III/UK-RAF-III-16.html",
+    publisher: "HyperWar (ibiblio)",
+  },
+  ndbMoltke: {
+    title:
+      "Heinrich Walle, “Moltke, Helmuth Graf von”, Neue Deutsche Biographie 18 (1997) (in German)",
+    url: "https://www.deutsche-biographie.de/sfz64977.html",
+    publisher: "Deutsche Biographie",
+  },
+  britBelisarius: {
+    title: "John Walton Barker, “Belisarius”",
+    url: "https://www.britannica.com/biography/Belisarius",
+    publisher: "Encyclopaedia Britannica",
+  },
+  britAungSan: {
+    title: "“Aung San” (Britannica Editors)",
+    url: "https://www.britannica.com/biography/Aung-San",
+    publisher: "Encyclopaedia Britannica",
   },
 } satisfies Record<string, Source>;
 
@@ -2840,7 +2869,704 @@ export const slimVolume: LeadershipVolume = {
       },
       sources: [s.leese, s.kirby4, s.romanusCommand5, s.saunders, s.ndbRommel],
     },
+    {
+      slug: "the-changed-plan",
+      title: "The changed plan: Meiktila",
+      part: "Victory",
+      themes: ["adaptation", "judgement"],
+      claim:
+        "When the enemy declines the battle a plan was built for, a commander can win more by changing the plan than by pursuing it, but only if he reads the signs early, keeps a fallback for the means he may not get, and his army can move faster than the enemy can read the change.",
+      inBrief: {
+        strength:
+          "Slim scrapped his plan within days of reading the Japanese withdrawal and struck at the base they had to defend.",
+        shadow:
+          "The new plan outran his aircraft, depended on deception and the enemy’s misjudgement, and its credit is claimed by more than one headquarters.",
+      },
+      moment: {
+        text: "Slim’s plan for the dry season of 1944–1945, Operation CAPITAL, was to bring the Japanese armies to battle between the Chindwin and the Irrawaddy and destroy them there. Early in December, Kirby writes, he began to suspect that Kimura, the new Japanese commander, did not intend to fight so far north: the dispositions of the Japanese divisions, the lack of opposition to the 19th Division, captured documents, reports from the inhabitants of liberated Burmese villages and air reconnaissance of troops and supplies moving south all pointed the same way. On 16 December Slim’s chief of staff telegraphed that the original plan was being scrapped; on 17 December Slim sent Leese a summary of a new plan, which he called EXTENDED CAPITAL, and on 20 December a full appreciation.",
+        evidence: "fact",
+        refs: [{ source: 0, locator: "ch. XV" }],
+      },
+      episodes: [
+        {
+          title: "Striking at what the enemy must defend",
+          text: "If the Japanese would not fight north of Mandalay, Slim had to place a force south of it, so that they would have to fight to extricate themselves. Kirby records the plan: XXXIII Corps would close up to the Irrawaddy and encircle Mandalay, while IV Corps moved down the Myittha valley, crossed the river near Pakokku and seized Meiktila and Thazi, the key points on the road and railway between Mandalay and Rangoon and the main Japanese administrative area in central Burma. Leese’s despatch records that Slim had always had an alternative plan in mind in case the enemy chose to fight east of the river, and in its own voice draws attention to the selection of Meiktila as the focal point of all the Japanese communications and their chief airfield centre.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "ch. XV" },
+            { source: 1, locator: "paras. 60–61, 67" },
+          ],
+          battleSlugs: ["meiktila-mandalay"],
+        },
+        {
+          title: "Asking for the means, and keeping a fallback",
+          text: "The plan was larger than the resources Slim then had. Kirby sets out what his appreciation asked for: a river transport service on the Chindwin and the Irrawaddy in place of a road, airfields every fifty miles along the advance, more engineer and transport companies, and above all more aircraft to lift supplies over longer distances. Operations could not go beyond the third phase unless extra aircraft were provided; if they were not, operations would be limited to taking and holding the line Meiktila–Yenangyaung. In forwarding the appreciation, Slim wrote that the prize before them was of a value quite out of proportion to the few extra resources required to achieve it.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "ch. XV" }],
+          battleSlugs: ["meiktila-mandalay"],
+        },
+        {
+          title: "Making the enemy misread the change",
+          text: "Speed depended on the Japanese seeing the wrong threat. Kirby writes that Slim’s strategic object was to make them believe that the whole army was moving on Mandalay and that the force in the Myittha valley was a small diversion; Leese describes the devices used to persuade them that IV Corps was still on the left of XXXIII Corps. Saunders writes that Kimura, denied the help of air reconnaissance, concentrated his reserves against the crossings near Mandalay with astonishing speed and skill, and was confounded when IV Corps broke out towards Meiktila. Kirby records from Japanese records that a conference at Meiktila in February heard some officers fear a thrust from Nyaungu, but that the majority judged it would be on the scale of a Chindit operation, which the forces on the spot could deal with.",
+          evidence: "fact",
+          refs: [
+            { source: 0, locator: "ch. XXIII" },
+            { source: 1, locator: "para. 67" },
+            { source: 3 },
+          ],
+          battleSlugs: ["meiktila-mandalay"],
+        },
+        {
+          title: "Meiktila",
+          text: "IV Corps crossed the Irrawaddy near Nyaungu in mid-February, and Meiktila fell on 3 March. Kirby gives the reasons for the swift success: the thrust struck the junction of the Japanese 15th and 28th Armies, and the deception had fixed their attention on Mandalay; but the main credit, he writes, must go to Messervy and his commanders, who took risks and let nothing delay them. The Japanese concentrated every unit they could to break the stranglehold on their main line of communication, and failed. By the end of March, Kirby concludes, the Burma Area Army had virtually ceased to exist as a fighting force.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "ch. XXIII, XXVI" }],
+          battleSlugs: ["meiktila-mandalay"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "S. Woodburn Kirby",
+          stake:
+            "The British official historian, writing in 1965 with Slim’s telegrams and the Japanese records.",
+          says: "Slim scrapped CAPITAL on the evidence of a Japanese withdrawal; the main credit for the crossing goes to Messervy and his commanders.",
+          refs: [{ source: 0, locator: "ch. XV, XXIII" }],
+        },
+        {
+          who: "Oliver Leese",
+          stake:
+            "Slim’s superior, writing in 1947 about a battle fought under his army group.",
+          says: "Slim always had an alternative plan, and the selection of Meiktila deserves attention.",
+          refs: [{ source: 1, locator: "paras. 60–61, 67" }],
+        },
+        {
+          who: "Hilary St. George Saunders",
+          stake: "The Royal Air Force’s official historian, writing in 1954.",
+          says: "Kimura, denied air reconnaissance, concentrated with astonishing speed and skill and was confounded.",
+          refs: [{ source: 3 }],
+        },
+        {
+          who: "George L. MacGarrigle",
+          stake:
+            "A historian of the U.S. Army’s Center of Military History, writing in 1996.",
+          says: "Kimura chose not to defend so far north, reasoning that the Allies’ supply would worsen as they advanced while his own eased.",
+          refs: [{ source: 2 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Judged by what Slim knew in mid-December, the change was a decision under uncertainty. Leese writes that there was still doubt whether the Japanese meant to make a main stand on the Irrawaddy or merely to delay, though one report said they would not hold Mandalay. The new plan was robust to either: if the Japanese stood at Mandalay, a force at Meiktila cut them off; if they withdrew, it barred their road. Kimura’s own reasoning, that the Allies’ supply would worsen as they advanced, was sound, and Slim’s plan accepted that cost in order to strike before Kimura could use it.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "paras. 59–60" },
+            { source: 2 },
+            { source: 0, locator: "ch. XV" },
+          ],
+        },
+        {
+          text: "The change worked because the army could move faster than the enemy could read it, and that speed was made by others as much as by the plan: engineers who built roads and ferries, air supply, deception, and a Japanese command denied air reconnaissance. The plan also kept a fallback, to stop at Meiktila and Yenangyaung if the aircraft did not come. The Napoleon volume’s lesson on planning for being wrong asks what a commander prepares for the case where his first plan fails; Slim’s answer here was to have the second plan ready before the first was abandoned, and to say what he would do if the means for it were refused.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "ch. XV, XXIII" }, { source: 3 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Research on how people revise plans in the face of new evidence could bear on the change of December 1944, but none was read for this volume. The sources show the revision directly: the evidence Kirby lists, the dates of the telegrams, and the conditions Slim attached.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered; the lesson rests on the official history, the despatch and the air history.",
+        },
+      ],
+      shadow: {
+        text: "The credit for the change is divided among those who recorded it. Kirby credits the plan to Slim’s telegrams; Leese presents the selection of Meiktila in his own voice; Kirby gives the main credit for the crossing to Messervy; Saunders stresses that Kimura fought blind, without air reconnaissance. The plan also outran its aircraft, as the lesson on being last in line shows, and it was made with poor intelligence: Leese writes that compared with other theatres they were often virtually fighting in the dark. The enemy’s judgement at Meiktila, that the thrust would be a raid, did much of the work.",
+        evidence: "interpretation",
+        refs: [
+          { source: 0, locator: "ch. XV, XXIII" },
+          { source: 1, locator: "paras. 59, 67" },
+          { source: 3 },
+        ],
+        battleSlugs: ["meiktila-mandalay"],
+      },
+      counterCase: {
+        text: "Helmuth von Moltke the Younger in 1914 is the commander whose plan was not changed in time. Heinrich Walle’s article in the Neue Deutsche Biographie names the causes of the German failure on the Marne: the technical inadequacy of communications between the supreme headquarters and the front, the wide independence Moltke allowed his army commanders, and his hesitation to intervene in time when operations departed from the overall plan. On 9 September, with the German armies threatened with envelopment near Paris, he ordered the retreat behind the Aisne, and on 14 September he had to hand the direction of operations to Falkenhayn. A plan that is not revised while there is still time is revised by the enemy.",
+        evidence: "interpretation",
+        refs: [{ source: 4 }],
+        commanderSlug: "helmuth-von-moltke-the-younger",
+        battleSlugs: ["marne-1914"],
+      },
+      cost: {
+        text: "The change moved the battle into the towns of central Burma. Meiktila was taken and then besieged for a month; Mandalay’s Fort Dufferin was bombarded with medium artillery and rockets before the remnants of its garrison tried to escape through the ruins. Kirby records that at one position near Meiktila many of the Japanese dead seemed to be hospital patients who had killed themselves. The Japanese divisions that counter-attacked at Meiktila were destroyed as fighting forces. The Burmese who lived in these towns appear in the sources as the inhabitants who reported the Japanese movements and as the population of places fought over; no figure is given here.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "ch. XV, XXIII, XXVI" },
+          { source: 1, locator: "para. 115" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "The leader reads early that the competition has declined the contest the plan was built for, and has a second plan ready.",
+          "The new plan says what it needs, and what will be done if it does not get it.",
+        ],
+        failsWhen: [
+          "The leader waits for certainty, or leaves subordinates to drift from a plan that no longer fits, as Moltke did in 1914.",
+          "The change depends on the competition misreading it, and they do not.",
+        ],
+        questions: [
+          "What evidence would tell you that the contest your plan expects is not going to happen?",
+          "What is your second plan, and what would it need that you do not have?",
+          "If the extra resources were refused, where would you stop?",
+        ],
+      },
+      bearsOn:
+        "Meiktila is the volume’s first answer at its strongest: a commander’s reading and his changed plan won a decisive battle. But the plan rested on means others had to find, on corps commanders who took the risks, and on an enemy who misread the change. Leadership changed the plan; the rebuilt army, the aircraft and the enemy’s error made it work.",
+      questions: [
+        {
+          prompt:
+            "What evidence led Slim, in December 1944, to suspect that the Japanese would not fight north of Mandalay?",
+          choices: [
+            "A Japanese radio announcement.",
+            "Their dispositions, the lack of opposition to the 19th Division, captured documents, reports from Burmese villagers and air reconnaissance.",
+            "A report from Mountbatten’s headquarters in Kandy.",
+          ],
+          answer: 1,
+          explanation:
+            "Kirby lists the evidence and dates the decision to scrap CAPITAL to 16 December.",
+        },
+        {
+          prompt:
+            "What did Slim propose if the extra aircraft he asked for were not provided?",
+          choices: [
+            "To abandon the offensive.",
+            "To limit operations to taking and holding the line Meiktila–Yenangyaung.",
+            "To attack Rangoon from the sea.",
+          ],
+          answer: 1,
+          explanation:
+            "Kirby prints the appreciation, with its conditions and its fallback.",
+        },
+        {
+          prompt:
+            "How did the Japanese conference at Meiktila in February 1945 judge a possible thrust from Nyaungu?",
+          choices: [
+            "As the main Allied effort.",
+            "As likely to be on the scale of a Chindit operation, which local forces could deal with.",
+            "As impossible across the Irrawaddy.",
+          ],
+          answer: 1,
+          explanation:
+            "Kirby records the majority opinion from Japanese records; some officers feared a powerful thrust.",
+        },
+      ],
+      sourceCheck: {
+        question: "Whose plan was Meiktila?",
+        witnesses: [
+          {
+            label: "Kirby, official history",
+            claim:
+              "Slim scrapped CAPITAL and set out EXTENDED CAPITAL in his telegrams of 16–20 December.",
+          },
+          {
+            label: "Leese, despatch, 1947",
+            claim:
+              "Slim always had an alternative plan; Leese draws attention to the selection of Meiktila.",
+          },
+          {
+            label: "Kirby, on the crossing",
+            claim:
+              "The main credit must go to Messervy and his commanders, who took risks.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Credit Leese, since the despatch presents the choice of Meiktila as his.",
+            feedback:
+              "Leese also credits Slim with the alternative plan; a despatch speaks in its author’s voice about decisions made under his command.",
+          },
+          {
+            text: "Read the levels: Slim made the plan, Leese approved and presented it, and Messervy’s corps carried out the part on which it turned.",
+            feedback:
+              "The documents Kirby prints show the plan’s author; the despatch shows its sponsor; the crossing shows its executors.",
+            best: true,
+          },
+          {
+            text: "Credit the air force, since Kimura fought without air reconnaissance.",
+            feedback:
+              "Saunders’s point is about a condition of the plan, not its authorship.",
+          },
+        ],
+        battleSlug: "meiktila-mandalay",
+      },
+      seminar: {
+        prompt:
+          "Was Slim right to scrap CAPITAL in December 1944 before he was certain? Argue it from three positions: Slim, Leese and Kimura.",
+        guidance:
+          "Use Kirby on the evidence, the appreciation and its conditions, Leese on the doubt and the alternative plan, MacGarrigle on Kimura’s reasoning and Saunders on his concentration. Say what each knew on 16 December.",
+      },
+      sources: [s.kirby4, s.leese, s.macgarrigle, s.saunders16, s.ndbMoltke],
+    },
+    {
+      slug: "after-rangoon",
+      title: "After Rangoon: victory, and a superior who wanted him gone",
+      part: "Victory",
+      themes: ["succession", "ethics"],
+      claim:
+        "When a commander is pushed aside at the moment of victory, how he answers can tell his army what its victory was worth, but the decision is rarely his alone, and the victory’s meaning is settled by others, among them the people whose country it was fought in.",
+      inBrief: {
+        strength:
+          "Offered a lesser command after Rangoon, Slim declined it, and the attempt to replace him was dropped.",
+        shadow:
+          "The affair is known mostly from his biographer, Leese’s side is unread, and the victory’s political meaning belonged to others.",
+      },
+      moment: {
+        text: "Rangoon was entered on 3 May 1945 by the 26th Indian Division, ahead of the Fourteenth Army’s leading division, which was still north of the city when the monsoon broke that day; the two met north of Rangoon on 6 May. Saunders quotes Mountbatten’s despatch: though the Fourteenth Army had technically lost the race for Rangoon, it was their drive that had really won the battle. The next day, Kirby writes, Leese called Slim to his headquarters at Meiktila and told him in private that he proposed to place Christison in command of the Fourteenth Army and that Slim would remain in command in Burma.",
+        evidence: "fact",
+        refs: [{ source: 5 }, { source: 0, locator: "ch. III" }],
+      },
+      episodes: [
+        {
+          title: "A footnote in the official history",
+          text: "Kirby gives Leese’s reasons as operational. With Rangoon taken, Leese decided that the Fourteenth Army’s headquarters should leave Burma to plan the reconquest of Malaya, and that a new Burma Army, formed from XXXIII Corps’ headquarters, should take its place; a planning staff for the Fourteenth Army was set up in Delhi under Christison the same day. The rest is a footnote: Slim was not prepared to accept the Burma command, and the proposal was later dropped on Mountbatten’s orders. The official history, written with full access to the records, gives the affair two sentences.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "ch. III" }],
+          battleSlugs: ["rangoon-1945"],
+        },
+        {
+          title: "The army’s answer",
+          text: "The Australian Dictionary of Biography tells the affair from Slim’s side. After Rangoon was taken, it writes, Leese decided that he would replace Slim; the decision was greeted with dismay and incredulity by the officers and men of the Fourteenth Army, and was quashed in London. Slim was promoted general on 1 July 1945 and took over from Leese just as the war ended in August. The two accounts differ in where the decision was reversed, Mountbatten’s headquarters or London, and agree that Slim refused the lesser post.",
+          evidence: "fact",
+          refs: [{ source: 1 }, { source: 0, locator: "ch. III" }],
+          battleSlugs: ["rangoon-1945"],
+        },
+        {
+          title: "Aung San",
+          text: "The victory’s meaning in Burma was not the army’s to decide. Kirby writes that the Burma National Army, originally raised by the Japanese, had become the military wing of the Anti-Fascist Organization under Aung San, and that late in March 1945 Mountbatten told the Chiefs of Staff a nationalist rising against the Japanese was imminent; Britannica records that Aung San switched his army to the Allied cause that month. The War Cabinet replied that its leaders must not be given the impression that they were regarded as liberators or political leaders of the country. When Aung San came to Slim at Meiktila on 16 May, Kirby records, he presented himself as the military representative of a provisional government come as an Allied commander; Slim told him that he and his army had no legal status, and suggested that it might become part of Burma’s future defence forces.",
+          evidence: "fact",
+          refs: [{ source: 0, locator: "ch. V" }, { source: 3 }],
+          battleSlugs: ["rangoon-1945"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "S. Woodburn Kirby",
+          stake:
+            "The official historian, writing in 1969, who records the proposal in a footnote.",
+          says: "Slim would not accept the Burma command, and the proposal was dropped on Mountbatten’s orders.",
+          refs: [{ source: 0, locator: "ch. III" }],
+        },
+        {
+          who: "The Australian Dictionary of Biography",
+          stake: "A biographical entry of 2002, drawing on Slim’s biographers.",
+          says: "The army met the decision with dismay and incredulity, and it was quashed in London.",
+          refs: [{ source: 1 }],
+        },
+        {
+          who: "Aung San, as Kirby reports him",
+          stake:
+            "Commander of the Burma National Army, which had fought for the Japanese and turned against them in 1945.",
+          says: "He came as the military representative of a provisional government, an Allied commander, to treat with the British.",
+          refs: [{ source: 0, locator: "ch. V" }],
+        },
+        {
+          who: "Mountbatten, as Saunders quotes his despatch",
+          stake: "The Supreme Allied Commander, writing after the campaign.",
+          says: "The Fourteenth Army technically lost the race for Rangoon, but its drive had really won the battle.",
+          refs: [{ source: 5 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Leese’s proposal had a logic the sources record: the Fourteenth Army’s headquarters was the obvious instrument for the next campaign, in Malaya, and someone had to command in Burma. What the sources do not record is Leese’s own account of why Slim was to be moved rather than asked; none was read, and the lesson cannot supply it. A commander’s answer at such a moment is limited to what he will accept. Slim declined the lesser post, which left the decision to those above Leese, and they reversed it.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "ch. III" }, { source: 1 }],
+        },
+        {
+          text: "The second test after Rangoon was political, and the sources show its limits. The War Cabinet wanted Aung San kept in his place; Slim, who had wanted to meet him to co-ordinate the Burma National Army’s operations, told him he had no legal status. Britannica records that within two years an agreement provided for Burma’s independence within a year, and that Aung San was assassinated in July 1947. The commander could decide whom his army fought beside; he could not decide what the country he had reconquered would become.",
+          evidence: "interpretation",
+          refs: [{ source: 0, locator: "ch. V" }, { source: 3 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Nothing in the sources records what Slim thought or felt about the attempt to replace him, and the volume does not guess. The memoir, which describes it, is in copyright and was not read; the lesson rests on the official history’s footnote and the biography.",
+          evidence: "interpretation",
+          refs: [],
+          limit: "No mechanism is offered and no state of mind is inferred.",
+        },
+      ],
+      shadow: {
+        text: "The story of the commander nearly removed at the moment of victory is told here mostly from his side. The biography reports the army’s dismay; Leese’s account was not read; the official history gives two sentences. A reader who meets the affair as a vindication of Slim should notice how little of the record speaks for the other party. The army’s victory also did not settle Burma’s future: the British treated the Burmese army that had changed sides as former collaborators without legal status, and within three years Burma left the empire.",
+        evidence: "interpretation",
+        refs: [
+          { source: 0, locator: "ch. III, V" },
+          { source: 1 },
+          { source: 3 },
+        ],
+        battleSlugs: ["rangoon-1945"],
+      },
+      counterCase: {
+        text: "Belisarius, Justinian’s general, is the victorious commander whom his master did remove. John Walton Barker writes in Britannica that after Belisarius had destroyed the Vandal kingdom and taken Italy, the Goths offered to surrender if he would rule over them as emperor; Justinian had already come to fear that so popular a commander might aim at his throne, and although Belisarius refused the title, he was recalled in disfavour, later stripped of his command on charges of disloyalty, and sent back to Italy without sufficient men and money. Barker adds that despite his treatment Belisarius never wavered in his obedience. The Hannibal volume’s lesson on what Rome and Carthage did with their victorious generals asks the same question of Scipio; here the master’s suspicion had its way.",
+        evidence: "interpretation",
+        refs: [{ source: 4 }],
+        commanderSlug: "belisarius",
+        battleSlugs: ["dara"],
+      },
+      cost: {
+        text: "The victory had its last costs after Rangoon. The Japanese 28th Army, trapped west of the Sittang, broke out in July; Kirby quotes an account of men lying by day on floating islands in the swamps and floundering by night, up to the neck in water, without food, exhausted men losing consciousness and sinking into the bog. He calls the break-out an heroic effort by a half-starved army without guns or air support. In Mandalay, Leese records, Fort Dufferin had been bombarded with medium artillery and rockets before the remnants of its garrison tried to escape. No figure is given here.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "ch. IV" },
+          { source: 6, locator: "para. 115" },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "The person pushed aside at the moment of success states plainly what they will and will not accept, and leaves the decision to those above.",
+          "Those above can see what the team thinks of the change.",
+        ],
+        failsWhen: [
+          "The person’s superiors fear his success more than they value it, as Justinian feared Belisarius.",
+          "The success is taken to settle questions that belong to other people.",
+        ],
+        questions: [
+          "If you were moved aside at the moment your team succeeded, what would you accept, and what would your answer tell the team?",
+          "Whose account of a contested decision about you have you never heard?",
+          "What does your organisation’s success decide, and what does it leave to others?",
+        ],
+      },
+      bearsOn:
+        "After Rangoon tests the record more than any other answer. The story of Slim’s near-removal is one of the strongest parts of his reputation, and it reaches us chiefly through his biographer; the official history keeps it in a footnote. The victory itself was the rebuilt army’s, but what it was worth was decided in London, in Mountbatten’s headquarters and, within three years, in Burma and India.",
+      questions: [
+        {
+          prompt:
+            "What did Leese propose to Slim on 7 May 1945, according to Kirby?",
+          choices: [
+            "That Slim command the invasion of Malaya.",
+            "That Christison command the Fourteenth Army and Slim remain in command in Burma.",
+            "That Slim retire.",
+          ],
+          answer: 1,
+          explanation:
+            "Slim would not accept the Burma command, and the proposal was dropped on Mountbatten’s orders.",
+        },
+        {
+          prompt:
+            "How does the Australian Dictionary of Biography say the Fourteenth Army received the decision to replace Slim?",
+          choices: [
+            "With indifference.",
+            "With dismay and incredulity.",
+            "With approval.",
+          ],
+          answer: 1,
+          explanation:
+            "It adds that the decision was quashed in London; Leese’s side was not read.",
+        },
+        {
+          prompt: "What did Slim tell Aung San at Meiktila on 16 May 1945?",
+          choices: [
+            "That he would recognise his provisional government.",
+            "That he and his army had no legal status, and that his army might become part of Burma’s future defence forces.",
+            "That his army would be disbanded at once.",
+          ],
+          answer: 1,
+          explanation:
+            "Kirby records the meeting; the War Cabinet had ruled that the movement’s leaders were not to be treated as liberators.",
+        },
+      ],
+      sourceCheck: {
+        question: "How was the attempt to replace Slim reversed?",
+        witnesses: [
+          {
+            label: "Kirby, official history, 1969",
+            claim: "It was dropped on Mountbatten’s orders.",
+          },
+          {
+            label: "Australian Dictionary of Biography, 2002",
+            claim:
+              "It was quashed in London, after dismay and incredulity in the army.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Prefer Kirby, since the official history had the records.",
+            feedback:
+              "Kirby had the records, but gives the affair only a footnote; it does not say what moved Mountbatten.",
+          },
+          {
+            text: "Read them together: Mountbatten could have given the order after London intervened, and neither source gives Leese’s side; the reader should hold the question open.",
+            feedback:
+              "The two accounts are compatible, and both are thin; the gap is Leese’s own account.",
+            best: true,
+          },
+          {
+            text: "Prefer the biography, since it gives the army’s reaction.",
+            feedback:
+              "The army’s reaction is evidence of feeling, not of who reversed the decision.",
+          },
+        ],
+        battleSlug: "rangoon-1945",
+      },
+      seminar: {
+        prompt:
+          "What did the victory at Rangoon settle? Argue it from three positions: Slim, Leese and Aung San.",
+        guidance:
+          "Use Kirby on the proposal and on Aung San, the Australian Dictionary of Biography, Saunders’s quotation of Mountbatten and Britannica on Aung San. Say which of these voices the sources let speak for itself.",
+      },
+      sources: [
+        s.kirby5,
+        s.adb,
+        s.kirby4,
+        s.britAungSan,
+        s.britBelisarius,
+        s.saunders16,
+        s.leese,
+      ],
+    },
+    {
+      slug: "the-ledger",
+      title: "The ledger: how a beaten army was rebuilt, and who paid",
+      part: "Victory",
+      themes: ["judgement", "ethics"],
+      claim:
+        "When an army beaten in one campaign wins the next, the victory can be credited to its commander’s leadership only where his choices, and not the means sent to him or the enemy’s errors alone, made the difference, and any verdict must count who paid and who wrote the record.",
+      inBrief: {
+        strength:
+          "The volume can answer its question: an army that had broken in Arakan in 1943 destroyed the Japanese armies in Burma in 1945, and its commander’s methods and plans were part of the reason.",
+        shadow:
+          "The rebuilding began before him, the means came from others, the enemy made grave mistakes, and his reputation rests on a record he wrote well.",
+      },
+      moment: {
+        text: "In May 1943 the units in Arakan, Kirby writes, had lost the will to resist; their morale could have been restored only by withdrawing them. In February 1944 the same official history calls the Admin Box the first time the Japanese met well-trained British and Indian formations, and by the end of March 1945 the Burma Area Army had virtually ceased to exist as a fighting force. The Australian Dictionary of Biography calls the transformation of a defeated force into a proud army Slim’s greatest achievement. This volume has asked from its first lesson how that transformation happened: by leadership, by means, through the enemy’s mistakes, or whether the record decides what we see.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "ch. XX" },
+          { source: 1, locator: "ch. X" },
+          { source: 2, locator: "ch. XXVI" },
+          { source: 5 },
+        ],
+      },
+      episodes: [
+        {
+          title: "Leadership",
+          text: "The evidence for Slim’s own part is real and specific. He drew a method from the failure in Arakan: strong pivots that the enemy must attack, and striking forces to destroy him; he ordered formations to stand fast when cut off and prepared the air supply to make the order good; he chose to fight at Imphal where the attacker’s supply would fail first; and in December 1944 he scrapped one plan for a better one within days. The biography credits him above all with maintaining morale. But the same sources show his errors, at the Pin Chaung in 1942, at Monywa, in the timing at Imphal, and in the force he expected at Kohima.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "ch. X, XII, XX" },
+            { source: 1, locator: "ch. IX, X, XIII" },
+            { source: 2, locator: "ch. XV" },
+            { source: 5 },
+          ],
+          battleSlugs: [
+            "first-arakan",
+            "admin-box",
+            "imphal-kohima",
+            "meiktila-mandalay",
+          ],
+        },
+        {
+          title: "Means",
+          text: "The means were decided elsewhere and were decisive. India Command built the air supply organisation from December 1942 and ordered the training and health measures of late 1943; the transport squadrons that kept encircled formations fighting were British and American, and aircraft were borrowed from the airlift to China in the crises of 1944; the Imperial War Museums record that the bulk of the army was Indian, and India was its base. Kirby writes that in 1945 the army made do, by improvisation, with less than it needed; the means were sufficient only because they were found, just, in time.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "ch. III, IX" },
+            { source: 2, locator: "ch. XXXIV" },
+            { source: 6 },
+          ],
+          battleSlugs: ["admin-box", "rangoon-1945"],
+        },
+        {
+          title: "The enemy’s mistakes",
+          text: "The Japanese made grave mistakes, and their own historians say so. Arakawa writes that Mutaguchi carried out a plan of 1943 a year later without revision, failed to notice or took no interest in the change in the British and Indian army, and could not bring himself to halt the offensive when it failed. In February 1945 a Japanese conference at Meiktila judged that a thrust from Nyaungu would be on the scale of a Chindit raid. But the mistakes could be punished only by an army able to stand, be supplied and strike at the right place; at Arakan in 1943 the same Japanese tactics had won.",
+          evidence: "interpretation",
+          refs: [
+            { source: 4 },
+            { source: 2, locator: "ch. XXIII" },
+            { source: 0, locator: "ch. XX" },
+          ],
+          battleSlugs: ["imphal-kohima", "meiktila-mandalay"],
+        },
+        {
+          title: "The record",
+          text: "The record shapes all three. The memoir, which the biography calls one of the best-written books of the war, reaches this volume only through those who quote it; the official historians, by their own account, were given full access to official documents, those of the commands they judged among them; the Japanese monographs were written by the defeated for their occupiers. The soldiers’ own reasons survive in a handful of recollections recorded decades later; Barkawi’s explanation, that the army itself made its soldiers into fighting groups, is a historian’s, from the introduction to his book. Each answer to the volume’s question comes through a different witness.",
+          evidence: "interpretation",
+          refs: [
+            { source: 5 },
+            { source: 1, locator: "front matter" },
+            { source: 8, locator: "Introduction" },
+          ],
+          battleSlugs: [],
+          campaignSlugs: ["burma-campaign"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "S. Woodburn Kirby",
+          stake:
+            "The British official historian, writing between 1958 and 1969 with the records of both sides.",
+          says: "The Arakan units of 1943 had lost the will to resist; by March 1945 the Burma Area Army had virtually ceased to exist.",
+          refs: [
+            { source: 0, locator: "ch. XX" },
+            { source: 2, locator: "ch. XXVI" },
+          ],
+        },
+        {
+          who: "Arakawa Kenichi",
+          stake:
+            "A Japanese military historian, writing in 2002 for his country’s defence ministry.",
+          says: "Mutaguchi’s plan went unrevised, and he did not notice the change in his enemy.",
+          refs: [{ source: 4 }],
+        },
+        {
+          who: "The Australian Dictionary of Biography",
+          stake: "A biographical entry of 2002.",
+          says: "The transformation of a defeated force into a proud army was Slim’s greatest achievement.",
+          refs: [{ source: 5 }],
+        },
+        {
+          who: "Tarak Barkawi",
+          stake: "A historian of the Indian Army, writing in 2017.",
+          says: "Indian soldiers fought increasingly effectively despite famine, the INA and no promise of independence.",
+          refs: [{ source: 8, locator: "Introduction" }],
+        },
+      ],
+      strategist: [
+        {
+          text: "The volume’s answer, offered for the reader to contest, ranks the four. First, the means and the rebuilding behind the army: training, health and air supply ordered from India and flown by an Allied command, without which no order to stand could have been kept. Second, Slim’s methods and plans, which turned those means into a way of fighting the Japanese could not answer and, at Meiktila, into a decisive battle. Third, the enemy’s mistakes, which were real and were punished because the army could punish them. Over all three lies the record, which gives the commander the credit most readers meet.",
+          evidence: "interpretation",
+          refs: [
+            { source: 1, locator: "ch. III, X" },
+            { source: 2, locator: "ch. XV, XXIII" },
+            { source: 4 },
+            { source: 5 },
+          ],
+        },
+        {
+          text: "The volume’s premise has to be tested too. Had the army learned to lose? In 1942, Kirby writes, it retreated nearly a thousand miles without once losing its cohesion; that is not an army that had learned to lose, but one that had been outmatched in training, equipment and the air. In Arakan in 1943 particular units, left too long without relief and filled with untrained men, did break. The premise holds for those units and that year; for the army as a whole, “badly prepared and badly supplied” describes 1942 better than “learned to lose”, and the rebuilding was as much training and supply as morale.",
+          evidence: "interpretation",
+          refs: [
+            { source: 0, locator: "ch. XII, XX" },
+            { source: 8, locator: "Introduction" },
+          ],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "The ledger offers no new mechanism. The volume used research where it had a sound base: on self-serving explanations of defeat, on cohesion and group performance, on why “learned helplessness” does not fit an army, on escalation of commitment as a contested label, and on how an army makes fighting groups, each from an abstract or an excerpt with its limits stated. Elsewhere it relied on the documents and said so. A single campaign cannot show which of a commander’s qualities caused a victory, and the qualities themselves reach us chiefly through others’ description of them.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered; the ledger rests on the evidence of the earlier lessons.",
+        },
+      ],
+      shadow: {
+        text: "The answer depends on a record shaped by the man it judges. Slim’s memoir is admired for the faults it admits, and it decides much of what readers see; this volume could not read it, and met his leadership through his biographer, the official historians’ quotations and the Japanese army’s view of its own failure. The soldiers who did most of the fighting, Indian, Gurkha, African, Burmese and British, appear in the commanders’ records chiefly as formations. A verdict that credits the commander should be held as lightly as the record that supports it.",
+        evidence: "interpretation",
+        refs: [{ source: 5 }, { source: 8, locator: "Introduction" }],
+      },
+      counterCase: {
+        text: "The Japanese tried to rebuild a beaten army too. After Imphal, MacGarrigle writes, Tokyo told the Burma Area Army not to count on reinforcements; its new commander, Kimura, chose not to defend northern Burma, reasoning soundly that the Allies’ supply would worsen as they advanced while his own eased. Saunders writes that, denied air reconnaissance and moving only by night, Kimura concentrated his forces against the crossings near Mandalay with astonishing speed and skill, and was confounded at Meiktila. By the end of March, Kirby writes, his army had virtually ceased to exist. Skilled command without air, supply or reinforcement could not rebuild what the Fourteenth Army had been rebuilt with. The Serbian volume’s ledger of survival and the Western Front volume’s ledger of learning weigh other armies rebuilt after defeat; this case is the enemy’s.",
+        evidence: "interpretation",
+        refs: [
+          { source: 10 },
+          { source: 9 },
+          { source: 2, locator: "ch. XXVI" },
+        ],
+        battleSlugs: ["meiktila-mandalay"],
+      },
+      cost: {
+        text: "The ledger must count who paid. The soldiers of every army: Indian, Gurkha, African, Burmese, British, Chinese, American, Japanese and those of the Indian National Army. The Indian and Burmese refugees of 1942, of whom Kirby writes that many thousands died on the way. Bengal, where famine struck the army’s base in 1943. The Naga people, who left along the hill tracks as the Japanese approached Kohima and appear in the official history chiefly as a question of loyalty. The prisoners and the far larger number of Asian labourers who died building the Burma–Siam railway. The Japanese soldiers who went hungry at Kohima and starved in the swamps of the Sittang. The towns of central Burma fought over in 1945. And within three years the empire the army served was gone from India and Burma: the Imperial War Museums write that India’s war effort was a key argument for independence in 1947, the year of partition, and Britannica that an agreement of January 1947 provided for Burma’s independence within a year. No figures are given here.",
+        evidence: "fact",
+        refs: [
+          { source: 0, locator: "ch. XI" },
+          { source: 1, locator: "ch. II, XVI, XXIV" },
+          { source: 2, locator: "ch. XXIII, XXVI" },
+          { source: 3, locator: "ch. IV; appendix 30" },
+          { source: 6 },
+          { source: 7 },
+        ],
+      },
+      transfer: {
+        holdsWhen: [
+          "A leader rebuilding a beaten organisation can show which of the changes were theirs, which were sent to them, and which were the competition’s mistakes.",
+          "The record of the recovery can be read from more than one side, including the people who did the work.",
+        ],
+        failsWhen: [
+          "The recovery is credited to the leader alone, because the leader’s account is the one most people read.",
+          "Skill in command is expected to make up for means that are not there, as for Kimura in 1945.",
+        ],
+        questions: [
+          "In the recovery you are proudest of, what was sent to you, what did you change, and what did the competition get wrong?",
+          "Whose account of that recovery have you never read?",
+          "Who paid for it, and does any record name them?",
+        ],
+      },
+      bearsOn:
+        "The volume’s answer: the army that had learned to lose in Arakan was rebuilt by training, health and air supply that came largely from outside its commander’s control; it was made to win by a commander whose methods and plans fitted those means to an enemy who made grave mistakes; and it is remembered chiefly through that commander’s own admired account. Leadership is the second answer, not the first, and the most visible.",
+      questions: [
+        {
+          prompt:
+            "How does the volume rank the four answers to its question, for the reader to contest?",
+          choices: [
+            "Leadership first, then the record.",
+            "Means and the rebuilding first, Slim’s methods and plans second, the enemy’s mistakes third, and the record over all.",
+            "The enemy’s mistakes alone.",
+          ],
+          answer: 1,
+          explanation:
+            "The ranking is an argument from the evidence of the lessons, offered to be contested.",
+        },
+        {
+          prompt:
+            "What does Kirby say of the army’s retreat from Burma in 1942?",
+          choices: [
+            "That it dissolved into a rout.",
+            "That it retreated nearly a thousand miles without once losing its cohesion.",
+            "That it was evacuated by sea.",
+          ],
+          answer: 1,
+          explanation:
+            "The evidence complicates the premise that the army had simply learned to lose.",
+        },
+        {
+          prompt:
+            "Why does the ledger take Kimura’s Burma Area Army as its counter-case?",
+          choices: [
+            "Because Kimura was a poor commander.",
+            "Because skilled command without air, supply or reinforcement could not rebuild a beaten army.",
+            "Because the Japanese did not try to rebuild.",
+          ],
+          answer: 1,
+          explanation:
+            "Saunders praises Kimura’s concentration; Kirby records his army’s destruction.",
+        },
+      ],
+      seminar: {
+        prompt:
+          "Argue the opposite of the volume’s answer: that Slim’s leadership was the first cause of the victory. Then answer it from the positions of an Indian soldier of 1943, a Japanese staff officer of 1945 and an official historian.",
+        guidance:
+          "Use the evidence of the whole volume: Kirby on Arakan, the Admin Box, Imphal and Meiktila; Arakawa; the biography; Barkawi; and the soldiers’ recollections. Say which evidence each side must explain away.",
+      },
+      sources: [
+        s.kirby2,
+        s.kirby3,
+        s.kirby4,
+        s.kirby5,
+        s.arakawa,
+        s.adb,
+        s.iwmIndia,
+        s.britAungSan,
+        s.barkawi,
+        s.saunders16,
+        s.macgarrigle,
+      ],
+    },
   ],
-  inProgress:
-    "This volume is being written. Its pilot lessons are published; the rest are added in reviewed batches.",
 };

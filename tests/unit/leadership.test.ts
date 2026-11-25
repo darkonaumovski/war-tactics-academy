@@ -334,8 +334,8 @@ describe("the Slim volume", () => {
     expect(volumeForCommander("william-slim")).toBe(slimVolume);
   });
 
-  it("lists its published lessons in curriculum order", () => {
-    expect(slimVolume.inProgress).toBeTruthy();
+  it("lists all its lessons in curriculum order", () => {
+    expect(slimVolume.inProgress).toBeUndefined();
     expect(slimVolume.lessons.map((l) => l.slug)).toEqual([
       "how-to-read-slim",
       "the-first-defeat",
@@ -348,6 +348,9 @@ describe("the Slim volume", () => {
       "the-enemys-gamble",
       "the-subordinate-with-a-patron",
       "last-in-line",
+      "the-changed-plan",
+      "after-rangoon",
+      "the-ledger",
     ]);
   });
 });

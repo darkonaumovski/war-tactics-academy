@@ -9042,12 +9042,12 @@
     "years": "1891–1970",
     "state": "United Kingdom",
     "eraId": "world-wars",
-    "role": "Commander of the Fourteenth Army in Burma 1943–1945",
-    "summary": "Led the Burma Corps' long retreat to India in 1942, then commanded the Fourteenth Army, which turned back the Japanese invasion of north-east India at Imphal and Kohima in 1944 and reconquered most of Burma in 1945.",
-    "approach": "Rebuilt his soldiers' morale, trained them for jungle warfare, and fought with defensive boxes and formations supplied by air in country without continuous front lines.",
-    "strength": "Leadership and the management of men: his troops regarded him as one of their own. He kept the 1942 retreat from becoming a rout, and in 1944 his encircled formations stood and fought, supplied from the air.",
-    "limitation": "His first battles as a senior commander were defeats: Burma Corps was driven out of Burma in 1942, and the XV Corps campaign in the Arakan in 1943 went badly, partly because the army commander, Noel Irwin, sidelined him.",
-    "legacy": "After the war he was chief of the Imperial General Staff and governor-general of Australia. His memoir, Defeat into Victory, appeared in 1956; Mountbatten called him the finest general the Second World War produced.",
+    "role": "Commander of Burma Corps in the retreat of 1942 and of the Fourteenth Army, 1943–1945; later chief of the Imperial General Staff and governor-general of Australia",
+    "summary": "Born in Bristol, he was commissioned in 1914, wounded at Gallipoli and again in Mesopotamia, and transferred in 1919 to the Indian Army, where he served with the Gurkhas. In November 1940 his 10th Indian Brigade took the Italian frontier fort of Gallabat and gave it up the next day, a failure he later blamed on himself. He led Burma Corps out of Burma in 1942, took command in Arakan in 1943 only as a failed offensive ended, and from October 1943 commanded the new Fourteenth Army, whose encircled formations held in Arakan and at Imphal and Kohima in 1944, and which took Meiktila and Mandalay and raced the monsoon to Rangoon in 1945. Days after Rangoon fell his superior, Leese, proposed to replace him; the proposal was dropped, and Slim succeeded Leese as the war ended.",
+    "approach": "From the failed Arakan campaign he drew a method of strong, well-stocked positions that the enemy would have to attack, with striking forces to destroy him rather than lines to hold. He ordered formations cut off by Japanese envelopment to stand fast and be supplied by air, and prepared the air supply before he needed it. He planned against what the enemy could not do without: at Imphal he fought where the attacker’s supply would fail first, and in December 1944, when the Japanese declined battle north of Mandalay, he changed his plan within days and struck at Meiktila, the base they had to defend.",
+    "strength": "The Australian Dictionary of Biography calls maintaining morale his pre-eminent contribution: he spoke to as many soldiers as possible, man to man, they came to know him as “Uncle Bill”, and it judges the transformation of a defeated force into a proud army his greatest achievement. The British official history calls the Admin Box, fought on his method, the turning point of the war in South-East Asia, and credits his telegrams of December 1944 with the change of plan that destroyed the Japanese armies in central Burma.",
+    "limitation": "Much of what he is credited with was shared or inherited. The official history credits the training, health and malaria measures of late 1943 to Auchinleck as commander-in-chief in India; the transport aircraft that kept his formations fighting were British and American, and some were taken from the airlift to China; and his victories turned also on Japanese mistakes. He made errors of his own: in 1942 sending a whole brigade up the Myittha valley uncovered Monywa, at Imphal his proviso left the 17th Division’s withdrawal until too late, and he upheld a withdrawal from Kohima that the official history calls a mistake.",
+    "legacy": "His memoir, Defeat into Victory (1956), sold widely and was hailed as one of the best and best-written books on the Second World War, and it still shapes how the campaign is read. Mountbatten considered him the finest general the war produced. He was chief of the Imperial General Staff and, from 1953 to 1960, governor-general of Australia, and was made a viscount in 1960. The army he led was largely Indian, with African, Gurkha, Burmese and British formations, and within three years of its victory the empire it served had left India and Burma.",
     "battleSlugs": [
       "gallabat",
       "burma-1942",
@@ -9059,20 +9059,21 @@
       "rangoon-1945"
     ],
     "source": {
-      "title": "William Slim: The soldiers’ soldier",
-      "url": "https://www.nam.ac.uk/explore/william-slim",
-      "publisher": "National Army Museum"
+      "title": "M. D. de B. Collins Persse, “Slim, Sir William Joseph (1891–1970)”, Australian Dictionary of Biography, vol. 16 (2002)",
+      "url": "https://adb.anu.edu.au/biography/slim-william-joseph-11713",
+      "publisher": "National Centre of Biography, Australian National University"
     },
     "editorialStatus": "concise-profile",
     "details": {
       "category": "Field commander",
-      "titles": "Commander of the Fourteenth Army 1943–1945; field marshal and chief of the Imperial General Staff 1948–1952; Viscount Slim 1960",
+      "titles": "Commander of the Fourteenth Army 1943–1945; commander-in-chief, Allied Land Forces South-East Asia, 1945; chief of the Imperial General Staff 1948–1952; field marshal 1949; governor-general of Australia 1953–1960; Viscount Slim 1960",
       "principalCommands": [
-        "10th Indian Brigade, East Africa, 1940",
-        "10th Indian Division, Iraq, Syria and Iran, 1941",
+        "10th Indian Infantry Brigade, 1939–1941",
+        "10th Indian Division, Syria and Persia, 1941",
         "Burma Corps, 1942",
-        "XV Corps, Arakan, 1943",
-        "Fourteenth Army, 1943–1945"
+        "XV Corps, Bengal and Arakan, 1942–1943",
+        "Fourteenth Army, 1943–1945",
+        "Allied Land Forces South-East Asia, 1945"
       ],
       "timeline": [
         {
@@ -9080,36 +9081,48 @@
           "event": "Born in Bristol"
         },
         {
-          "date": "1915",
-          "event": "Wounded at Gallipoli; later wins the Military Cross in Mesopotamia"
+          "date": "1914–1917",
+          "event": "Commissioned; wounded at Gallipoli in 1915 and in Mesopotamia in 1917, where he wins the Military Cross"
         },
         {
-          "date": "1934–1937",
-          "event": "Teaches at the Staff College, Camberley"
+          "date": "1919",
+          "event": "Transfers to the Indian Army; from 1920 serves with the 6th Gurkha Rifles"
         },
         {
-          "date": "1940",
-          "event": "Commands the 10th Indian Brigade in East Africa; wounded"
+          "date": "1934–1936",
+          "event": "Indian Army instructor at the Staff College, Camberley"
+        },
+        {
+          "date": "November 1940",
+          "event": "His 10th Indian Brigade takes Gallabat and gives it up; wounded soon after in an air attack"
         },
         {
           "date": "1941",
-          "event": "Leads the 10th Indian Division in Iraq, Syria and Iran"
+          "event": "Commands the 10th Indian Division in Syria and Persia"
         },
         {
-          "date": "March 1942",
+          "date": "19 March 1942",
           "event": "Takes command of Burma Corps and leads its retreat to India"
         },
         {
-          "date": "1943",
-          "event": "Commands XV Corps in the Arakan"
+          "date": "14 April 1943",
+          "event": "XV Corps takes command in Arakan as the offensive fails"
         },
         {
           "date": "October 1943",
           "event": "Given command of the new Fourteenth Army"
         },
         {
+          "date": "February 1944",
+          "event": "The Admin Box holds, supplied by air"
+        },
+        {
           "date": "March–July 1944",
           "event": "Turns back the Japanese offensive at Imphal and Kohima"
+        },
+        {
+          "date": "December 1944",
+          "event": "Scraps his plan and strikes at Meiktila"
         },
         {
           "date": "March 1945",
@@ -9117,23 +9130,31 @@
         },
         {
           "date": "3 May 1945",
-          "event": "Rangoon falls"
+          "event": "Rangoon is entered"
+        },
+        {
+          "date": "7 May 1945",
+          "event": "Leese proposes to replace him; the proposal is dropped"
+        },
+        {
+          "date": "August 1945",
+          "event": "Succeeds Leese as the war ends"
         },
         {
           "date": "1948",
-          "event": "Becomes chief of the Imperial General Staff and field marshal"
+          "event": "Chief of the Imperial General Staff; field marshal in 1949"
         },
         {
           "date": "1953–1960",
-          "event": "Governor-general of Australia"
+          "event": "Governor-general of Australia; Defeat into Victory published in 1956"
         },
         {
           "date": "1970",
           "event": "Dies in London"
         }
       ],
-      "notableDecision": "At Imphal and Kohima in 1944 he had his encircled formations stand and fight, supplied by air, rather than retreat.",
-      "setback": "In 1942 his Burma Corps, heavily outnumbered, was driven out of Burma in a retreat of some 900 miles."
+      "notableDecision": "In December 1944, on evidence that the Japanese would not fight north of Mandalay, he scrapped his plan within days and sent IV Corps to seize Meiktila, the base they had to defend, while XXXIII Corps held their attention at Mandalay.",
+      "setback": "His first battles as a senior commander were defeats: Gallabat in 1940; the retreat from Burma in 1942, in which Burma Corps kept its cohesion but lost nearly all its guns and vehicles; and Arakan in 1943, where he took command only as a failed offensive ended."
     }
   },
   {

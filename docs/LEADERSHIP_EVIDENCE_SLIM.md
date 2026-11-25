@@ -104,7 +104,7 @@ Grades: **strong** means the lesson's main claims and its counter-evidence are i
 
 ## Profile: proposal for a later batch
 
-- **William Slim.** The profile cites the National Army Museum. Revise from the ADB entry, which names its author, with Kirby and the Phase S studies: Gallabat and his self-blame; the retreat; the first Arakan and Irwin's attempt to relieve him; the Admin Box, Imphal, Operation Thursday, Meiktila and Rangoon; Leese's attempt to replace him; the memoir and its reception. Date the Mountbatten judgement as the National Army Museum does, or give it without a date as the ADB does; correct the timeline's wound to early 1941, after Gallabat, as the ADB places it. Proposed linked source: the ADB.
+- **William Slim.** The profile cites the National Army Museum. Revise from the ADB entry, which names its author, with Kirby and the Phase S studies: Gallabat and his self-blame; the retreat; the first Arakan and Irwin's attempt to relieve him; the Admin Box, Imphal, Operation Thursday, Meiktila and Rangoon; Leese's attempt to replace him; the memoir and its reception. Date the Mountbatten judgement as the National Army Museum does, or give it without a date as the ADB does; correct the timeline's wound to early 1941, after Gallabat, as the ADB places it. Proposed linked source: the ADB. _Done on 25 November 2026:_ every field rewritten and the ADB linked; see `docs/COMMANDER_SOURCES.md`.
 - **Missing profiles,** for Phase 4: Renya Mutaguchi, Orde Wingate, Joseph Stilwell and Louis Mountbatten, as the prompt proposes.
 
 ## Decisions for approval

@@ -1972,6 +1972,7 @@ export const slimVolume: LeadershipVolume = {
       title: "Letting the enemy come: Imphal",
       part: "The decisive battle",
       themes: ["judgement", "adaptation"],
+      people: ["louis-mountbatten"],
       claim:
         "When a commander draws an attacker to fight at the end of its supply line, he can destroy it, but only if he times his own withdrawal correctly and can reinforce and supply his troops faster than the enemy; withdrawing too late can lose what the plan was meant to save.",
       inBrief: {
@@ -2448,6 +2449,7 @@ export const slimVolume: LeadershipVolume = {
       title: "The subordinate with a patron: Wingate and the Chindits",
       part: "The decisive battle",
       themes: ["organisation", "communication"],
+      people: ["orde-wingate"],
       claim:
         "When a commander is given a subordinate with a direct line to the head of government and aims of his own, he must make use of him, but he can control him only by setting firm limits on what he is given, and the judgement of the experiment may outlast them both.",
       inBrief: {
@@ -2681,6 +2683,7 @@ export const slimVolume: LeadershipVolume = {
       title: "Last in line: allies, masters and means decided elsewhere",
       part: "The decisive battle",
       themes: ["organisation", "adaptation"],
+      people: ["joseph-stilwell", "louis-mountbatten"],
       claim:
         "When a commander stands at the end of a coalition’s priorities, he can plan only with what he is sent, and means can be taken away at the decisive moment; he can still choose what to ask for and what to improvise, but a plan that outruns his means succeeds only if the means are found in time.",
       inBrief: {
@@ -3113,6 +3116,7 @@ export const slimVolume: LeadershipVolume = {
       title: "After Rangoon: victory, and a superior who wanted him gone",
       part: "Victory",
       themes: ["succession", "ethics"],
+      people: ["louis-mountbatten"],
       claim:
         "When a commander is pushed aside at the moment of victory, how he answers can tell his army what its victory was worth, but the decision is rarely his alone, and the victory’s meaning is settled by others, among them the people whose country it was fought in.",
       inBrief: {

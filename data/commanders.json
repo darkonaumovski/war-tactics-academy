@@ -9158,6 +9158,236 @@
     }
   },
   {
+    "slug": "orde-wingate",
+    "name": "Orde Wingate",
+    "years": "1903–1944",
+    "state": "United Kingdom",
+    "eraId": "world-wars",
+    "role": "Commander of the Chindits and of Special Force in Burma, 1943–1944",
+    "summary": "Born at Naini Tal in India and commissioned in the Royal Artillery in 1923, he served in the Sudan and, as an intelligence officer in Palestine in 1936–1939, organised night patrols against Arab raids on Jewish communities along the oil pipeline. In 1941 he led an Ethiopian and Sudanese force against the Italians. In Burma his first long-range penetration expedition, the Chindits of February–May 1943, supplied from the air, carried out guerrilla operations against the Japanese as far as the Irrawaddy and then had to return to India by a roundabout route. At the Quadrant conference in August 1943 the Prime Minister and the Chiefs of Staff, impressed by his theories, decided to enlarge his force from two brigades to six, and in March 1944 Special Force flew into central Burma in Operation Thursday. He was killed in an air crash on 24 March 1944.",
+    "approach": "Long-range penetration: columns that moved behind the enemy’s front, supplied by air, to attack his communications. For 1944 he planned strongholds with airstrips in country that enemy armour and heavy artillery could not reach, as bases from which columns would raid and to which they could return, a conception the British official history calls sound in the circumstances.",
+    "strength": "Britannica calls him an outstanding irregular commander. The Japanese army’s own record credits the airborne invasion of 1944 with upsetting the Fifteenth Army’s timetable, cutting the supply routes of two of its divisions and eventually leading to the abandonment of northern Burma, and the American official historians write that the Japanese 18th Division’s supply was fundamentally compromised. Giffard, who doubted the results, called him that rare combination of the dreamer and the man of action.",
+    "limitation": "The British official history is severe: once his force was committed in 1944, Kirby writes, he abandoned his own precepts and used his brigades as if they were normal formations, with the capture of Indaw airfield an obsession and one stronghold placed where enemy armour and artillery could reach it, and Auchinleck’s objections to breaking up divisions for his force were proved sound. Giffard found that the results were not commensurate with the manpower and material spent. His aims, a continental advance and northern Burma cleared before the monsoon, went beyond his orders and his commander’s plan, and he told Mountbatten that Slim had agreed to reinforcements that Slim’s own messages did not grant.",
+    "legacy": "After his death his force passed to Stilwell and was worn out in the monsoon. The value of his operations is still divided in the sources, largely by the command each served: the British official history and Giffard doubt it, the Japanese monograph and the American official historians credit it. Stories about his health and temperament are many; this profile does not use them.",
+    "battleSlugs": ["operation-thursday"],
+    "source": {
+      "title": "“Orde Charles Wingate” (Britannica Editors)",
+      "url": "https://www.britannica.com/biography/Orde-Charles-Wingate",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Royal Artillery officer; acting major general and commander of Special Force (the 3rd Indian Division), 1943–1944",
+      "principalCommands": [
+        "Night patrols in Palestine, 1936–1939",
+        "An Ethiopian and Sudanese force against the Italians, January–May 1941",
+        "The 77th Long Range Penetration Brigade, the first Chindit expedition, 1943",
+        "Special Force, 1943–1944"
+      ],
+      "timeline": [
+        {
+          "date": "1903",
+          "event": "Born at Naini Tal, India"
+        },
+        {
+          "date": "1923",
+          "event": "Commissioned in the Royal Artillery"
+        },
+        {
+          "date": "1936–1939",
+          "event": "Organises night patrols in Palestine"
+        },
+        {
+          "date": "January–May 1941",
+          "event": "Leads an Ethiopian and Sudanese force against the Italians"
+        },
+        {
+          "date": "February–May 1943",
+          "event": "First Chindit expedition into Burma, supplied from the air"
+        },
+        {
+          "date": "August 1943",
+          "event": "The Quadrant conference enlarges his force from two brigades to six"
+        },
+        {
+          "date": "January 1944",
+          "event": "Slim keeps the decision on reinforcing his strongholds to himself"
+        },
+        {
+          "date": "5 March 1944",
+          "event": "Operation Thursday is launched"
+        },
+        {
+          "date": "24 March 1944",
+          "event": "Killed in an air crash"
+        }
+      ],
+      "notableDecision": "For 1944 he planned to fly his brigades into central Burma and build strongholds with airstrips, out of reach of enemy armour and heavy artillery, from which columns would cut the communications of the Japanese facing Stilwell.",
+      "setback": "Once his force was committed, Kirby writes, it was used against strongly defended places as if it were a normal formation, and Giffard judged that the results did not repay the manpower and material spent."
+    }
+  },
+  {
+    "slug": "joseph-stilwell",
+    "name": "Joseph Stilwell",
+    "years": "1883–1946",
+    "state": "United States",
+    "eraId": "world-wars",
+    "role": "Chief of staff to Chiang Kai-shek and commander of U.S. forces in China, Burma and India, 1942–1944",
+    "summary": "A West Point graduate of 1904 who studied Chinese and served in Tianjin and as military attaché in Beijing, he arrived in the Far East early in 1942 to command American forces in the China–Burma–India theatre and to serve as chief of staff to Chiang Kai-shek. He commanded the Chinese Fifth and Sixth Armies in Burma in 1942, was driven out, and walked to India with his party. He then trained Chinese divisions in India and led Chinese and American forces in northern Burma, while holding several appointments at once. In October 1944, after Chiang refused to place his armies under Stilwell’s command, Roosevelt recalled him at Chiang’s request. He commanded the U.S. Tenth Army in 1945 and died in 1946.",
+    "approach": "MacGarrigle writes that he believed, with the U.S. Joint Chiefs of Staff, that the first task was to retake Burma and reopen the land route to China, and that to do it he equipped and trained Chinese divisions in India, the X Force, and sought a larger force in south-west China, so that the two could squeeze the Japanese out of northern Burma.",
+    "strength": "He knew China and its language. In May 1942, Newell writes, he led a mixed party of staff, nurses, soldiers and civilians on foot out of Burma and into India without losing a single member, and he named the defeat plainly: they had been run out of Burma and ought to find out why and go back. The Chinese divisions he trained in India returned to fight in Burma, and the road from Ledo to China was named after him.",
+    "limitation": "He held too many posts to serve any one alliance wholly: Saunders writes that he contrived in some mysterious fashion to combine the duties of deputy to Mountbatten, commander of all American forces in the theatre, chief of staff to Chiang and commander in northern Burma, and his own draft to Mountbatten insists that he was never formally appointed deputy and was serving under Slim. In February 1944 he refused to concur in diverting aircraft from the airlift to China for the Arakan battle, because he understood that only one Japanese battalion was causing the trouble. His relations with Chiang ended in his recall.",
+    "legacy": "Britannica records that early in 1945 the Ledo Road was renamed the Stilwell Road in his honour, and that in August 1945 he received the surrender of the Japanese forces in the Ryukyu Islands. In the Slim volume he is the coalition partner whose several loyalties show what it meant for Burma to stand at the end of others’ priorities.",
+    "battleSlugs": ["burma-1942", "operation-thursday"],
+    "source": {
+      "title": "“Joseph W. Stilwell” (Britannica Editors)",
+      "url": "https://www.britannica.com/biography/Joseph-W-Stilwell",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "Chief of staff to Chiang Kai-shek and commanding general of U.S. forces in China, Burma and India, 1942–1944; general, 1944; commander of the U.S. Tenth Army, 1945",
+      "principalCommands": [
+        "The Chinese Fifth and Sixth Armies in Burma, 1942",
+        "U.S. forces in the China–Burma–India theatre, 1942–1944",
+        "Chinese and American forces in northern Burma, 1943–1944",
+        "The U.S. Tenth Army, 1945"
+      ],
+      "timeline": [
+        {
+          "date": "1883",
+          "event": "Born at Palatka, Florida"
+        },
+        {
+          "date": "1904",
+          "event": "Graduates from West Point"
+        },
+        {
+          "date": "1926–1929",
+          "event": "Serves in Tianjin"
+        },
+        {
+          "date": "1935–1939",
+          "event": "Military attaché in Beijing"
+        },
+        {
+          "date": "Early 1942",
+          "event": "Arrives as chief of staff to Chiang Kai-shek and commander of U.S. forces in the theatre"
+        },
+        {
+          "date": "May 1942",
+          "event": "Walks out of Burma to India with his party"
+        },
+        {
+          "date": "February 1944",
+          "event": "Refuses to concur in diverting aircraft from the airlift to China for Arakan"
+        },
+        {
+          "date": "October 1944",
+          "event": "Recalled at Chiang’s request; Wedemeyer replaces him"
+        },
+        {
+          "date": "August 1945",
+          "event": "Receives the Japanese surrender in the Ryukyu Islands"
+        },
+        {
+          "date": "1946",
+          "event": "Dies in San Francisco"
+        }
+      ],
+      "notableDecision": "After the defeat of 1942 he set out to retake northern Burma and reopen the land route to China by training Chinese divisions in India and planning a joint offensive with a larger Chinese force from Yunnan.",
+      "setback": "In 1942 the Chinese armies he commanded in Burma were defeated, and he reached India on foot with what was left of his command."
+    }
+  },
+  {
+    "slug": "louis-mountbatten",
+    "name": "Louis Mountbatten",
+    "years": "1900–1979",
+    "state": "United Kingdom",
+    "eraId": "world-wars",
+    "role": "Supreme Allied Commander, South East Asia, 1943–1946; last viceroy of India",
+    "summary": "A great-grandson of Queen Victoria through his mother, he entered the Royal Navy in 1913, commanded the destroyer Kelly and a flotilla at the outbreak of the Second World War, and in April 1942 became chief of combined operations. His appointment as Supreme Allied Commander for South-East Asia in 1943, Britannica writes, prompted complaints of nepotism against his cousin the king. His command, with Slim’s Fourteenth Army as its main land force, conducted the campaign that recaptured Burma. As viceroy in 1947 he administered the transfer of power to India and Pakistan and the partition of the subcontinent, and he was later first sea lord and chief of the Defence Staff. He was killed in 1979 by a bomb that the Provisional IRA planted in his boat.",
+    "approach": "He held together a command of British, Indian, American and Chinese forces whose means were decided elsewhere, and used the discretion he had to meet emergencies: in February and March 1944 he asked for, and then took on his own authority, transport aircraft from the airlift to China so that encircled formations could be supplied and a division flown to Imphal.",
+    "strength": "Kirby writes that when the 17th Division was cut off in March 1944, Mountbatten diverted aircraft from the airlift to China without waiting for covering approval from the Chiefs of Staff, and the 5th Indian Division was flown in; Saunders quotes his own despatch on the risk he took with the goodwill of the President and the American Chiefs. Britannica credits him with successfully conducting the campaign that led to the recapture of Burma. In 1945 he urged London not to suppress the Burmese nationalist rising against the Japanese.",
+    "limitation": "Many of the means his campaign depended on were not his: the landing craft for amphibious operations went to Europe, and the American transport aircraft could be moved to China by a decision made in Washington. His command had to work with Stilwell, who held several posts at once and answered also to Chiang Kai-shek, and with Wingate, whose force had been enlarged by the Prime Minister and the Chiefs of Staff at Quebec. The partition he administered in 1947 is the subject of an Imperial War Museums account that asks how it went so wrong.",
+    "legacy": "Mountbatten is the source of the judgement, quoted by Slim’s biographers, that Slim was the finest general the Second World War produced. He was created viscount in 1946 and earl, as Earl Mountbatten of Burma, in 1947, was governor-general of India until June 1948, first sea lord from 1955 to 1959 and chief of the Defence Staff from 1959 to 1965.",
+    "battleSlugs": ["admin-box", "imphal-kohima", "rangoon-1945"],
+    "source": {
+      "title": "“Louis Mountbatten, 1st Earl Mountbatten” (Britannica Editors)",
+      "url": "https://www.britannica.com/biography/Louis-Mountbatten-1st-Earl-Mountbatten",
+      "publisher": "Encyclopaedia Britannica"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "Chief of combined operations, 1942–1943; Supreme Allied Commander, South East Asia, 1943–1946; viceroy of India, March–August 1947; governor-general of India, 1947–1948; first sea lord, 1955–1959; admiral of the fleet, 1956; chief of the Defence Staff, 1959–1965; Earl Mountbatten of Burma, 1947",
+      "principalCommands": [
+        "The destroyer Kelly and the 5th Destroyer Flotilla, 1939",
+        "Combined Operations, 1942–1943",
+        "South East Asia Command, 1943–1946",
+        "The Mediterranean Fleet, 1952–1954"
+      ],
+      "timeline": [
+        {
+          "date": "1900",
+          "event": "Born at Frogmore House, Windsor"
+        },
+        {
+          "date": "1913",
+          "event": "Enters the Royal Navy"
+        },
+        {
+          "date": "1939",
+          "event": "Commands the destroyer Kelly and the 5th Destroyer Flotilla"
+        },
+        {
+          "date": "April 1942",
+          "event": "Chief of combined operations"
+        },
+        {
+          "date": "1943",
+          "event": "Supreme Allied Commander, South East Asia"
+        },
+        {
+          "date": "February 1944",
+          "event": "Asks to divert aircraft from the airlift to China for the Arakan battle"
+        },
+        {
+          "date": "March 1944",
+          "event": "Diverts aircraft from the airlift without waiting for approval, to fly the 5th Indian Division to Imphal"
+        },
+        {
+          "date": "March 1945",
+          "event": "Urges that the Burmese nationalist rising not be suppressed"
+        },
+        {
+          "date": "May 1945",
+          "event": "The proposal to replace Slim is dropped on his orders"
+        },
+        {
+          "date": "March–August 1947",
+          "event": "Viceroy of India; partition takes effect at midnight on 14–15 August"
+        },
+        {
+          "date": "1955–1959",
+          "event": "First sea lord"
+        },
+        {
+          "date": "1959–1965",
+          "event": "Chief of the Defence Staff"
+        },
+        {
+          "date": "1979",
+          "event": "Killed by a Provisional IRA bomb"
+        }
+      ],
+      "notableDecision": "In March 1944, with the 17th Division cut off at Imphal, he diverted transport aircraft from the airlift to China without waiting for the Chiefs of Staff’s approval, so that the 5th Indian Division could be flown in from Arakan.",
+      "setback": "The amphibious operations his command planned could not be carried out because the ships and landing craft were not available until the liberation of Europe had been accomplished."
+    }
+  },
+  {
     "slug": "george-s-patton",
     "name": "George S. Patton Jr.",
     "years": "1885–1945",

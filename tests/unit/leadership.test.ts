@@ -11,6 +11,7 @@ import { caesarVolume } from "../../data/leadership/julius-caesar";
 import { hannibalScipioVolume } from "../../data/leadership/hannibal-barca";
 import { grantLeeVolume } from "../../data/leadership/ulysses-s-grant";
 import { slimVolume } from "../../data/leadership/william-slim";
+import { yiVolume } from "../../data/leadership/yi-sun-sin";
 import { battles, campaigns } from "../../data/catalog";
 import commanders from "../../data/commanders.json";
 import {
@@ -325,6 +326,17 @@ describe("the Hannibal and Scipio volume", () => {
       "both-rejected",
       "the-ledger",
     ]);
+  });
+});
+
+describe("the Yi volume", () => {
+  it("is scaffolded but not listed until its pilot", () => {
+    leadershipVolumeSchema.parse(yiVolume);
+    expect(yiVolume.commanderSlug).toBe("yi-sun-sin");
+    expect(yiVolume.lessons).toEqual([]);
+    expect(yiVolume.inProgress).toBeDefined();
+    expect(leadershipVolumes).not.toContain(yiVolume);
+    expect(volumeForCommander("yi-sun-sin")).toBeUndefined();
   });
 });
 
@@ -691,6 +703,25 @@ describe("the leadership lesson schema", () => {
       "John Maxwell Edmonds wrote: When you go home, tell them of us and say, For your tomorrows these gave their today.",
       "The Japanese had cut the road to Kohima.",
       "Slim recalled that he had taken counsel of his fears.",
+    ])
+      expect(accepts({ bearsOn: text }), text).toBe(true);
+  });
+
+  it("excludes the Yi volume's untraced and unattributed sayings", () => {
+    for (const text of [
+      "Yi told the court that he still had twelve warships.",
+      "Yi was undefeated in twenty-three battles.",
+      "He never lost a battle at sea.",
+      "The turtle ship was the first ironclad.",
+      "Tōgō Heihachirō said he was no match for Yi Sun-sin.",
+    ])
+      expect(accepts({ bearsOn: text }), text).toBe(false);
+    // The traced forms, with their sources, stay allowed.
+    for (const text of [
+      "Yi Bun's Record of Conduct says Yi told the court he still had twelve warships.",
+      "Ballard wrote that Yi never knew defeat.",
+      "Britannica says the turtle ship is thought to have been the first ironclad.",
+      "Those who resolve to die live, Yi told his commanders, citing the military classics.",
     ])
       expect(accepts({ bearsOn: text }), text).toBe(true);
   });

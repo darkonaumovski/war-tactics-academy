@@ -180,6 +180,23 @@ const excludedInLessons: [RegExp, string][] = [
   [/\bjaps?\b/i, "wartime slur"],
   [/no (more )?worlds (left )?to conquer/i, "distorted saying"],
   [
+    /^(?![\s\S]*(yi bun|record of conduct))[\s\S]*(still|yet) (have|has|had) twelve/i,
+    "the twelve ships without Yi Bun’s Record of Conduct",
+  ],
+  [
+    /\b(twenty-three|23)\s+(battles|victories|engagements|sea battles)\b/i,
+    "untraced count",
+  ],
+  [
+    /^(?![\s\S]*ballard)[\s\S]*never (lost a (battle|sea battle|fight)|knew defeat)/i,
+    "untraced claim without Ballard",
+  ],
+  [
+    /^(?![\s\S]*britannica)[\s\S]*first ironclad/i,
+    "turtle ship as the first ironclad without Britannica",
+  ],
+  [/t[oō]g[oō][^.]{0,160}\b(yi|nelson)\b/i, "untraced anecdote"],
+  [
     /narcissis|psychopath|sociopath|megalomania|bipolar|alcoholi(c|sm)|paranoi(a|d)|dark triad/i,
     "psychiatric label",
   ],

@@ -107,6 +107,7 @@ describe("leadership volumes", () => {
       "hannibal-barca",
       "ulysses-s-grant",
       "william-slim",
+      "yi-sun-sin",
     ]);
     for (const x of leadershipVolumes) {
       leadershipVolumeSchema.parse(x);
@@ -330,13 +331,18 @@ describe("the Hannibal and Scipio volume", () => {
 });
 
 describe("the Yi volume", () => {
-  it("is scaffolded but not listed until its pilot", () => {
-    leadershipVolumeSchema.parse(yiVolume);
-    expect(yiVolume.commanderSlug).toBe("yi-sun-sin");
-    expect(yiVolume.lessons).toEqual([]);
+  it("is found from Yi's profile", () => {
+    expect(yiVolume.alsoCommanderSlugs).toBeUndefined();
+    expect(volumeForCommander("yi-sun-sin")).toBe(yiVolume);
+  });
+
+  it("lists its pilot lessons in curriculum order, in progress", () => {
     expect(yiVolume.inProgress).toBeDefined();
-    expect(leadershipVolumes).not.toContain(yiVolume);
-    expect(volumeForCommander("yi-sun-sin")).toBeUndefined();
+    expect(yiVolume.lessons.map((l) => l.slug)).toEqual([
+      "how-to-read-yi",
+      "the-agents-story",
+      "the-remnant",
+    ]);
   });
 });
 

@@ -147,6 +147,65 @@ const s = {
     url: "https://www.nationalww2museum.org/war/articles/iwo-jima-and-okinawa-death-japans-doorstep",
     publisher: "The National WWII Museum, New Orleans",
   },
+  reportAid: mo(
+    "0050_010_0050",
+    `Yi Sun-sin, report on going to the aid of Gyeongsang (赴援慶尙道狀, 1592), in ${works}, vol. 2, in Classical Chinese`,
+  ),
+  reportDangpo: mo(
+    "0050_010_0080",
+    `Yi Sun-sin, report on the second sortie, from Sacheon to Yulpo (唐浦破倭兵狀, 1592), in ${works}, vol. 2, in Classical Chinese`,
+  ),
+  reportHansan: mo(
+    "0050_010_0090",
+    `Yi Sun-sin, report on the battles of Gyeonnaeryang and Angolpo (見乃梁破倭兵狀, 1592), in ${works}, vol. 2, in Classical Chinese`,
+  ),
+  diary1592_5: mo(
+    "0080_010_0050",
+    `Yi Sun-sin, war diary, 5th month of 1592, in ${works}, vol. 5, in Classical Chinese`,
+  ),
+  diary1592_6: mo(
+    "0080_010_0060",
+    `Yi Sun-sin, war diary, 6th month of 1592, in ${works}, vol. 5, in Classical Chinese`,
+  ),
+  annals1592Jun: jt(
+    "N1_A25_06A_01A_00020",
+    "Seonjo sujeong sillok, 25th year, 6th month, 1st day [2]: Yi Sun-sin defeats the Japanese in succession, Korean translation (Jo Myeong-geun, 1989)",
+  ),
+  ekOkpo: ek(
+    "E0038825",
+    "옥포해전 (The battle of Okpo) — Jo Seong-do, in Korean",
+  ),
+  ekSacheon: ek(
+    "E0026034",
+    "사천해전 (The battle of Sacheon) — Jo Seong-do, in Korean",
+  ),
+  ekDanghangpo: ek(
+    "E0013958",
+    "당항포해전 (The battles of Danghangpo) — Jo Seong-do, in Korean",
+  ),
+  ekHansan: ek(
+    "E0061676",
+    "한산도대첩 (The great victory at Hansan Island) — Jo Seong-do, in Korean",
+  ),
+  seikan2: ws(
+    "征韓偉略/卷之二",
+    "Kawaguchi Chōju, Seikan iryaku (1831), vol. 2, in Classical Chinese",
+  ),
+  royalArmouries: {
+    title: "Waterloo 1815",
+    url: "https://royalarmouries.org/objects-and-stories/stories/waterloo-1815",
+    publisher: "Royal Armouries",
+  },
+  nagashino: {
+    title: "Battle of Nagashino — Stephen Turnbull",
+    url: "https://www.britannica.com/event/Battle-of-Nagashino",
+    publisher: "Encyclopaedia Britannica",
+  },
+  polybius: {
+    title: "Polybius, Histories, book 3, trans. Evelyn S. Shuckburgh (1889)",
+    url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0234%3Abook%3D3&force=y",
+    publisher: "Perseus Digital Library, Tufts University",
+  },
 } satisfies Record<string, Source>;
 
 export const yiVolume: LeadershipVolume = {
@@ -400,6 +459,677 @@ export const yiVolume: LeadershipVolume = {
         s.annals1597Jan,
         s.adb,
         s.annals1597Jul,
+      ],
+    },
+    {
+      slug: "beyond-his-province",
+      title: "Beyond his province: going where the orders do not reach",
+      part: "The first year",
+      themes: ["judgement", "motivation"],
+      claim:
+        "When a commander’s neighbours have collapsed, he may go to their aid beyond his own command, but if he waits for authority he keeps his superiors’ trust at the price of time, and whether he can go at all depends on the captains who must follow him.",
+      inBrief: {
+        strength:
+          "Yi took the only intact fleet in the south out of its province, with the court’s order, and won the first Korean victory at sea.",
+        shadow:
+          "He waited for orders and allies while the Gyeongsang coast burned, and steadied his crews by beheading deserters.",
+      },
+      moment: {
+        text: "On the 29th day of the 4th month of 1592 a letter reached Yi Sun-sin, commander of the Left Jeolla fleet, from Won Gyun, commander of the Right Gyeongsang fleet to the east. The Japanese had landed at Busan and Gimhae, Won Gyun wrote; the coastal forts had fallen one after another, the beacons had gone dark, and his own headquarters was lost. He asked Yi to send every ship he had to Dangpo. Yi’s province had not yet been touched. His own report on the appeal records that the neighbouring garrison on Namhae had fled before seeing the enemy, and that his fleet numbered fewer ships than he wanted to take into waters he did not know.",
+        evidence: "fact",
+        refs: [{ source: 0 }],
+      },
+      episodes: [
+        {
+          title: "The appeal",
+          text: "Yi’s report on going to Gyeongsang’s aid shows a province coming apart. His messenger found the Namhae town empty, its granaries open and its armoury stripped, and Yi ordered that if the report was true the stores were to be burned so that they would not feed the enemy. Some of his own soldiers and their families were slipping away by night; he had deserters beheaded and displayed. The report also gives his explanation of the disaster: the coastal commanders had not fought at sea and had let the enemy land at will, and had they kept their fleets on the water, the country would not have been brought so low.",
+          evidence: "fact",
+          refs: [{ source: 0 }],
+          battleSlugs: [],
+          campaignSlugs: ["joseon-naval-operations-of-1592"],
+        },
+        {
+          title: "The captains",
+          text: "The revised Annals of King Seonjo, compiled after the war, say that when Won Gyun’s messenger arrived most of Yi’s captains argued that they could barely hold their own province and had no time for another; only Jeong Un of Nokdo and the officer Song Hui-rip urged him, with tears, to go, saying that against the enemy there was no line between one province and another, and that blunting the enemy’s spearhead would also save their own. Yi was greatly pleased, and Eo Yeong-dam of Gwangyang offered to act as pilot. Yi’s diary for the first days of the 5th month records the captains’ resolve, one magistrate who seemed to want to avoid the expedition, and a sailor who deserted and was beheaded.",
+          evidence: "fact",
+          refs: [{ source: 1 }, { source: 2 }],
+          battleSlugs: ["okpo"],
+        },
+        {
+          title: "Waiting",
+          text: "Yi did not sail at once. His report says he meant to wait until the Right Jeolla fleet, which the provincial governor had ordered to follow him, arrived; that he lacked pilots for Gyeongsang’s waters and had no support from the Gyeongsang commanders, who had fled; and that, hearing the enemy was nearing the capital, he longed to march to the king but, as a frontier commander, could not leave his post without orders. His report on Okpo opens with the court’s order to join the Gyeongsang fleet. The Japanese compilation Seikan iryaku, following Ryu Seong-ryong’s Jingbirok, tells it more harshly: Yi first declined, citing the boundary of his command, and sailed only after Won Gyun’s messenger had come back several times.",
+          evidence: "fact",
+          refs: [{ source: 0 }, { source: 3 }, { source: 4 }],
+          battleSlugs: [],
+        },
+        {
+          title: "Okpo",
+          text: "The fleet sailed on the 4th day of the 5th month without the Right Jeolla ships, met Won Gyun off Dangpo on the 6th, and on the 7th found Japanese ships raiding the harbour of Okpo on Geoje. Yi ordered his captains to hold steady, the fleet advanced in line, and the Japanese, caught with their crews ashore, fled along the shore and abandoned their ships. That evening and the next morning more were destroyed at Happo and Jeokjinpo. Then the news that the king had left the capital reached the fleet, and Yi turned home. The court promoted him.",
+          evidence: "fact",
+          refs: [{ source: 3 }, { source: 1 }, { source: 5 }],
+          battleSlugs: ["okpo"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Yi Sun-sin, in his report of 1592",
+          stake:
+            "A provincial commander explaining to the court why he would go, and why not yet.",
+          says: "He would gladly die striking the enemy, but could not move without orders, pilots or the fleet that was to follow him.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "Won Gyun, as Yi’s report quotes his letter",
+          stake:
+            "The neighbouring commander whose province had fallen, asking for help.",
+          says: "Every ship Yi had should come to Dangpo.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "Jeong Un, as the revised Annals report him",
+          stake: "One of Yi’s captains, the commander of Nokdo.",
+          says: "There is no line between provinces against the enemy; blunting him there saves our own.",
+          refs: [{ source: 1 }],
+        },
+        {
+          who: "Kawaguchi Chōju, following Jingbirok",
+          stake:
+            "A Japanese compiler of 1831, relying on a Korean minister’s memoir.",
+          says: "Yi first refused, citing his boundary, and went only when asked again and again.",
+          refs: [{ source: 4 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Yi weighed time against risk. Every day he waited, the Gyeongsang coast burned; but his fleet was the only intact force on the south coast, and taking it alone into unknown waters, without pilots or allies, risked losing it in the first week. He waited for the court’s order and for a few days for the Right Jeolla fleet, then sailed without the latter. At Okpo the risk paid: he found the enemy dispersed and unready.",
+          evidence: "interpretation",
+          refs: [{ source: 0 }, { source: 3 }],
+        },
+        {
+          text: "Going to Gyeongsang’s aid was also a way of defending Jeolla. Jeong Un’s argument, as the Annals give it, was that the enemy’s spearhead had to be blunted where it was; Yi’s own report argued that the land had been lost because no one had fought at sea. A commander who goes beyond his orders to fight on another’s ground can be defending his own.",
+          evidence: "interpretation",
+          refs: [{ source: 1 }, { source: 0 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Research on helping across organisational boundaries, and on how groups decide whether to act when others are failing, could bear on Yi’s captains, but none was read for this volume. The lesson rests on what the reports, the diary and the Annals record.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered; the captains’ reasons are those the sources give.",
+        },
+      ],
+      shadow: {
+        text: "Yi’s waiting has a cost the reports do not count: the days in which the Gyeongsang coast was left to the raiders. His discipline had another: deserters beheaded and displayed, before the fleet had fought. And his own reports of these weeks blame others freely: the coastal commanders who fled, the magistrate who would not come, Won Gyun’s men who shot at his own.",
+        evidence: "interpretation",
+        refs: [{ source: 0 }, { source: 3 }, { source: 2 }],
+      },
+      counterCase: {
+        text: "Emmanuel de Grouchy, sent by Napoleon after the Prussians beaten at Ligny in June 1815, kept to his orders. The Royal Armouries’ account of the campaign records that one of his corps commanders, Gérard, urged him to abandon the pursuit and march to the sound of the guns at Waterloo; Grouchy pressed on, was held by the Prussian rearguard at Wavre, and was still fighting there when the battle was lost, while an order from Napoleon to come and crush the Prussian corps on his flank came too late. Yi waited for orders and then went beyond his province; Grouchy obeyed his orders when the situation had outrun them.",
+        evidence: "interpretation",
+        refs: [{ source: 6 }],
+        commanderSlug: "emmanuel-de-grouchy",
+        battleSlugs: ["waterloo"],
+      },
+      cost: {
+        text: "The people of the Gyeongsang coast, who fled into the hills while their villages were plundered; the deserters executed to steady the fleet; and the captive boy taken from his family near Busan, whose account of his capture Yi recorded after Okpo.",
+        evidence: "fact",
+        refs: [{ source: 0 }, { source: 3 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "A neighbouring unit has failed and asks for help that lies outside one’s own remit.",
+          "One’s own unit is intact, and the risk of acting is losing it.",
+        ],
+        failsWhen: [
+          "Waiting for authority lets the situation pass beyond help.",
+          "The people who must do the work have not been persuaded.",
+        ],
+        questions: [
+          "When a neighbouring team failed, whose permission did you wait for, and what did the wait cost?",
+          "Which of your people argued for going, and which against?",
+          "What would you have had to risk to go a day earlier?",
+        ],
+      },
+      bearsOn:
+        "The first year gives the first evidence for obedience. Yi waited for the court’s order before leaving his province, and the court rewarded him for it with promotion. The same court, five years later, would accuse him of not attacking when ordered. The contrast is the volume’s question: obedience protected him in 1592 because it came with victories.",
+      questions: [
+        {
+          prompt:
+            "What did Won Gyun ask of Yi in his letter of the 4th month of 1592?",
+          choices: [
+            "That Yi stay in Jeolla and defend it.",
+            "That Yi send every ship he had to Dangpo.",
+            "That Yi march to the capital.",
+          ],
+          answer: 1,
+          explanation:
+            "Yi’s report on going to Gyeongsang’s aid quotes the letter.",
+        },
+        {
+          prompt:
+            "According to the revised Annals, who urged Yi to go to Gyeongsang’s aid when most of his captains were against it?",
+          choices: [
+            "Won Gyun and Yi Eok-gi.",
+            "Jeong Un and Song Hui-rip.",
+            "The king himself.",
+          ],
+          answer: 1,
+          explanation:
+            "They argued that there was no line between provinces against the enemy.",
+        },
+        {
+          prompt: "Why did Yi turn home after Okpo, Happo and Jeokjinpo?",
+          choices: [
+            "His fleet had been defeated.",
+            "News reached the fleet that the king had left the capital.",
+            "Won Gyun ordered him back.",
+          ],
+          answer: 1,
+          explanation:
+            "His report on Okpo records the news and his decision to return.",
+        },
+      ],
+      sourceCheck: {
+        question: "Did Yi hesitate to go to Gyeongsang’s aid?",
+        witnesses: [
+          {
+            label: "Yi’s report, 1592",
+            claim:
+              "He would go, but waited for orders, pilots and the Right Jeolla fleet.",
+          },
+          {
+            label: "The revised Annals",
+            claim:
+              "Most of his captains were against it; Jeong Un and Song Hui-rip urged him, and he was greatly pleased.",
+          },
+          {
+            label: "Seikan iryaku, following Jingbirok",
+            claim:
+              "He first declined, citing his boundary, and went only when asked repeatedly.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Accept Yi’s report: he explained his own reasons at the time.",
+            feedback:
+              "His reasons are the best evidence of what he weighed, but he was writing to the court that would judge him.",
+          },
+          {
+            text: "Read all three as agreeing that he waited, and differing on why: caution and orders in his own account, his captains’ reluctance in the Annals, his boundary in Jingbirok.",
+            feedback:
+              "The fact of the wait is common ground; the reasons depend on who wrote, and when.",
+            best: true,
+          },
+          {
+            text: "Accept the Seikan iryaku: it is the outside view.",
+            feedback:
+              "On this point it follows a Korean memoir, Jingbirok, so it is not an independent Japanese witness.",
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Yi waited for the court’s order before going to Gyeongsang’s aid. Argue whether he waited too long, from three positions: Won Gyun, Jeong Un and a villager on the Geoje coast.",
+        guidance:
+          "Use Yi’s report on going to Gyeongsang’s aid, the revised Annals and the Okpo report. Say what each knew on the day.",
+      },
+      sources: [
+        s.reportAid,
+        s.annals1592,
+        s.diary1592_5,
+        s.reportOkpo,
+        s.seikan1,
+        s.ekOkpo,
+        s.royalArmouries,
+      ],
+    },
+    {
+      slug: "the-new-ship",
+      title: "The new ship: a weapon inside an old formation",
+      part: "The first year",
+      themes: ["adaptation", "judgement"],
+      claim:
+        "When a new weapon is used as the point of a trained force, it can open a battle, but it does not win alone, and the legend that grows around it may outrun what its makers said it did.",
+      inBrief: {
+        strength:
+          "Yi sent the turtle ship in first, at the moment the tide and a feigned withdrawal had made, and the fleet behind it did the rest.",
+        shadow:
+          "The ship became a national symbol and a claim to the world’s first ironclad that its maker’s own description does not make.",
+      },
+      moment: {
+        text: "On the 29th day of the 5th month of 1592, at Sacheon, a ship went into action that Yi had built in case of invasion. His report on the sortie describes it: a dragon’s head at the bow with a cannon in its mouth, iron spikes set on its back, and a hull from which the crew could see out while the enemy could not see in, so that it could charge among even hundreds of enemy ships and fire. On this sortie it served as the ship of the assault commander, at the head of the fleet.",
+        evidence: "fact",
+        refs: [{ source: 0 }],
+      },
+      episodes: [
+        {
+          title: "Sacheon",
+          text: "At Sacheon the Japanese held a steep ridge above their moored ships, the tide was out, and Yi’s arrows could not reach them. He told his captains that the enemy was overconfident and would follow if the fleet seemed to withdraw. The fleet turned away; part of the Japanese force came down to the ships and the shore. As the tide rose, the turtle ship charged among the Japanese ships and fired first, Yi pressed in behind, and the fleet destroyed the ships. A bullet struck Yi in the left shoulder and passed out through his back without serious injury; his diary records it in the same words. The encyclopedia calls Sacheon the turtle ship’s first battle.",
+          evidence: "fact",
+          refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+          battleSlugs: ["sacheon-1592"],
+        },
+        {
+          title: "Dangpo",
+          text: "Three days later, at Dangpo, the Japanese commander sat in a towered flagship. Yi’s report says he sent the turtle ship straight at it; it rammed the ship below the tower and fired its cannon up into it, and the commander, shot by an arrow, fell. The revised Annals tell the same scene and add that the king promoted Yi again after the sortie. Among the plunder was a gilded fan bearing Hideyoshi’s name and the title of the Lord of Chikuzen, and Yi concluded that the commander killed was that lord; the fan names another man as its recipient, so the identification is his inference.",
+          evidence: "fact",
+          refs: [{ source: 0 }, { source: 3 }],
+          battleSlugs: ["sacheon-1592"],
+        },
+        {
+          title: "What the Annals and the Japanese remembered",
+          text: "The revised Annals, compiled after the war, describe the turtle ship more fully than Yi did: a planked roof like a turtle’s back with narrow crossing paths, the rest set with blades and spikes and covered with matting, a dragon’s head with a gun port at the bow, gun ports on every side, and a speed that let it pass through the enemy unharmed. The Japanese compilation Seikan iryaku, following Jingbirok, gives it a part at Hansan: arched like a turtle, its fighters and rowers inside, firing in all directions and moving among the Japanese ships like a weaver’s shuttle.",
+          evidence: "fact",
+          refs: [{ source: 4 }, { source: 5 }],
+          battleSlugs: ["hansan-island"],
+        },
+        {
+          title: "The legend",
+          text: "The nomination of Yi’s diary to UNESCO’s Memory of the World register says that Korea built the world’s first armour-plated warships. Yi’s own description says nothing of armour plating: it gives iron spikes and a covered back. The revised Annals give planking, blades and matting. A claim made by a national heritage agency four centuries later is evidence of what the ship has come to mean, not of how it was built.",
+          evidence: "uncertainty",
+          refs: [{ source: 6 }, { source: 0 }, { source: 4 }],
+          battleSlugs: ["sacheon-1592"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Yi Sun-sin, in his report of 1592",
+          stake: "The ship’s maker, reporting its first use to the court.",
+          says: "He had built it fearing invasion, to charge among the enemy and fire.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "The compilers of the revised Annals",
+          stake:
+            "Court historians writing after the war, when the ship was already famous.",
+          says: "It passed through the enemy unharmed and won wherever it went.",
+          refs: [{ source: 4 }],
+        },
+        {
+          who: "Kawaguchi Chōju, following Jingbirok",
+          stake: "A Japanese compiler of 1831 relying on a Korean memoir.",
+          says: "The turtle ships moved among the Japanese like a shuttle and broke their ships with gunfire.",
+          refs: [{ source: 5 }],
+        },
+        {
+          who: "The Cultural Heritage Administration, 2012",
+          stake:
+            "A national heritage agency nominating the diary for international recognition.",
+          says: "Korea built the world’s first armour-plated warships.",
+          refs: [{ source: 6 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "The turtle ship opened the attack; it did not make the victories alone. Okpo, three weeks earlier, was won without it, by a fleet advancing in line with guns and arrows against an enemy caught dispersed. At Sacheon the decisive moves were the feigned withdrawal that brought the Japanese off their ridge and the tide that let the fleet close; the turtle ship was the point of the attack the fleet then delivered. Its value was to break into a formation the fleet could then destroy.",
+          evidence: "interpretation",
+          refs: [{ source: 0 }, { source: 2 }],
+        },
+        {
+          text: "Yi also changed how his fleet fought around the new ship. His report on the sortie records a standing order that men who fought to the death would be rewarded first even if they took no heads, because the race for heads had cost lives; and he refused heads brought in by Gyeongsang fishermen, sending them to Won Gyun. A new weapon is used well when the rules for using it change with it.",
+          evidence: "interpretation",
+          refs: [{ source: 0 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Research on how new technology is adopted by organisations, and on how symbols gather meaning, could bear on the turtle ship, but none was read for this volume. The lesson rests on what the sources say the ship was and did.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered; the lesson compares descriptions by their authors and dates.",
+        },
+      ],
+      shadow: {
+        text: "A weapon that becomes a symbol is hard to see clearly. The turtle ship is now one of Korea’s best-known images, and the claim to the world’s first ironclad is made by a national agency in an international nomination. Yi himself was wounded on the sortie that introduced it, leading from close behind it. The legend gives the ship credit that belonged to the fleet, the tide and the captains who followed it in.",
+        evidence: "interpretation",
+        refs: [{ source: 6 }, { source: 0 }],
+      },
+      counterCase: {
+        text: "Oda Nobunaga at Nagashino in 1575 also won with a new weapon inside a prepared position. Britannica, in Stephen Turnbull’s article, records that he placed matchlock musketeers behind a palisade of staked fences staggered in three layers, with gaps for a counter-attack, and had them fire volleys at the Takeda cavalry that had beaten the Tokugawa two years before; the charge broke, and the Takeda fought on until mid-afternoon before retreating. Britannica calls it the first modern Japanese battle. As with the turtle ship, the weapon worked inside a formation built for it, and its fame has outrun the description of how it was used.",
+        evidence: "interpretation",
+        refs: [{ source: 7 }],
+        commanderSlug: "oda-nobunaga",
+        battleSlugs: ["nagashino"],
+      },
+      cost: {
+        text: "Yi’s report on the sortie names the men of his fleet killed and wounded by bullets and arrows, ordered their bodies carried home for burial and their families provided for, and records Korean captives taken from the Japanese ships, among them a girl from Ulsan whose account of the Japanese commander he set down. The Japanese crews who drowned or fled ashore are counted only as enemies.",
+        evidence: "fact",
+        refs: [{ source: 0 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "A new tool gives an advantage at one point of an operation, and the rest of the organisation is trained to exploit the opening.",
+          "The rules and incentives around the tool change with it.",
+        ],
+        failsWhen: [
+          "The tool is credited with what the organisation and the circumstances achieved.",
+          "The story of the tool replaces the record of how it was used.",
+        ],
+        questions: [
+          "Which new tool in your work is credited with a success that the people around it made?",
+          "What rule had to change before the tool could be used well?",
+          "Who first described the tool, and how does that description compare with what is now said of it?",
+        ],
+      },
+      bearsOn:
+        "The turtle ship belongs to the third answer, results: it helped win the victories of 1592 that made Yi indispensable. It also belongs to the fourth: the ship’s legend, like Yi’s, has grown in later hands, and a reader of the volume must keep Yi’s own description apart from what was later said of his ship and of him.",
+      questions: [
+        {
+          prompt: "How did Yi describe the turtle ship in his report of 1592?",
+          choices: [
+            "As an iron-plated warship.",
+            "As a ship with a dragon’s head and cannon at the bow, iron spikes on its back, and a hull the enemy could not see into.",
+            "As a captured Japanese ship.",
+          ],
+          answer: 1,
+          explanation:
+            "His report does not mention armour plating; the claim to the first ironclad is later.",
+        },
+        {
+          prompt:
+            "What decided the battle at Sacheon besides the turtle ship’s charge?",
+          choices: [
+            "A Ming fleet arriving.",
+            "A feigned withdrawal that brought the Japanese off their ridge, and the rising tide that let the fleet close.",
+            "A storm that wrecked the Japanese ships.",
+          ],
+          answer: 1,
+          explanation:
+            "Yi’s report sets out both; the turtle ship opened the attack the fleet delivered.",
+        },
+        {
+          prompt:
+            "Why did Yi conclude that the commander killed at Dangpo was the Lord of Chikuzen?",
+          choices: [
+            "A prisoner told him so.",
+            "A gilded fan found on the flagship bore Hideyoshi’s name and that title, though it named another man as its recipient.",
+            "The Japanese records say so.",
+          ],
+          answer: 1,
+          explanation: "The identification is Yi’s inference from the fan.",
+        },
+      ],
+      sourceCheck: {
+        question: "Was the turtle ship the world’s first ironclad?",
+        witnesses: [
+          {
+            label: "UNESCO nomination, 2012",
+            claim: "Korea built the world’s first armour-plated warships.",
+          },
+          {
+            label: "Yi’s report, 1592",
+            claim:
+              "A dragon’s head with a cannon, iron spikes on its back, a hull the enemy could not see into.",
+          },
+          {
+            label: "The revised Annals",
+            claim:
+              "A planked roof like a turtle’s back, set with blades and covered with matting.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Accept the UNESCO nomination: it is an official international document.",
+            feedback:
+              "It is a nomination written by a national agency, four centuries after the ship, and it cites no description of plating.",
+          },
+          {
+            text: "Start from the maker’s own description, note what it says and does not say, and treat later claims as evidence of the ship’s reputation.",
+            feedback:
+              "Yi’s report and the Annals describe spikes, planking and matting; neither describes armour plating.",
+            best: true,
+          },
+          {
+            text: "Dismiss the turtle ship as a legend.",
+            feedback:
+              "Yi’s report records it in action at Sacheon and Dangpo; the ship is real, the superlative is the question.",
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Argue how much of the victories of 1592 belongs to the turtle ship, from three positions: its assault commander, a captain of a panokseon behind it, and a historian writing for a national museum.",
+        guidance:
+          "Use Yi’s reports on Okpo and the second sortie, the revised Annals and the UNESCO nomination. Remember that Okpo was won without it.",
+      },
+      sources: [
+        s.reportDangpo,
+        s.diary1592_5,
+        s.ekSacheon,
+        s.annals1592Jun,
+        s.annals1592,
+        s.seikan2,
+        s.unesco,
+        s.nagashino,
+      ],
+    },
+    {
+      slug: "a-way-out",
+      title: "A way out: shaping where the enemy fights",
+      part: "The first year",
+      themes: ["judgement", "restraint"],
+      claim:
+        "When an enemy who is losing can escape to the shore, a commander may do better to offer him a way out to sea, where he can be destroyed, but the method needs room to fight, an enemy who takes the opening, and a commander willing to count what a trapped enemy would do to the people ashore.",
+      inBrief: {
+        strength:
+          "At Danghangpo, Hansan and Angolpo Yi chose where the enemy would fight, and twice opened a way out to bring him into open water.",
+        shadow:
+          "At Hansan the way out led to an island where survivors would starve; the method served destruction first.",
+      },
+      moment: {
+        text: "On the 5th day of the 6th month of 1592 the Korean fleets came to the mouth of Danghangpo, a long inlet in Goseong where the Japanese ships that had escaped from Dangpo were sheltering. Yi’s report on the sortie records his worry: if the Japanese were cornered they would abandon their ships and escape into the hills, as they had at Okpo, and could not all be destroyed. He sent a few warships in to look, with orders to feign a retreat if they were chased, and kept the rest of the fleet out of sight.",
+        evidence: "fact",
+        refs: [{ source: 0 }],
+      },
+      episodes: [
+        {
+          title: "Danghangpo",
+          text: "The scouts signalled the enemy; Yi left ships at the mouth and led the fleet in. The Japanese ships lay against the shore near the head of the inlet, among them a flagship with a painted three-storey tower and black banners bearing the invocation of the Lotus Sutra. The Korean ships surrounded them and the turtle ship charged in. Then, judging that the Japanese would take to the land if they lost hope, Yi ordered the fleet to open one side and pretend to fall back. The flagship and its escort made for the gap and were caught in open water and destroyed. Yi left one ship deliberately as a way out; at dawn an officer waiting at the mouth caught it as the survivors came out in it.",
+          evidence: "fact",
+          refs: [{ source: 0 }, { source: 1 }, { source: 2 }],
+          battleSlugs: ["danghangpo"],
+        },
+        {
+          title: "Hansan",
+          text: "A month later a herdsman told the admirals that a large Japanese fleet lay in Gyeonnaeryang, a strait off Geoje. Yi’s report on the battle explains his choice of ground: the strait was narrow and full of hidden rocks, so that his ships would foul each other, and if the Japanese were cornered they would land; he would draw them out into the waters off Hansan Island, which lies between Geoje and Goseong with no way to swim ashore, so that even those who landed would starve. A few panokseon attacked and fell back; the Japanese followed into open water, and the fleet turned on them in a crane-wing formation. The Seikan iryaku, following Jingbirok, describes the same feigned withdrawal, the Korean ships turning together at a drumbeat once the Japanese were clear of the narrows.",
+          evidence: "fact",
+          refs: [{ source: 3 }, { source: 4 }, { source: 5 }],
+          battleSlugs: ["hansan-island"],
+        },
+        {
+          title: "Angolpo",
+          text: "The next day the fleets found more Japanese ships at Angolpo, in a shallow harbour that dried at low tide, and the Japanese would not come out. The fleets went in by turns and destroyed most of them. Yi then stopped. His report says that if every ship were burned, the Japanese ashore would become desperate men, and the villagers hiding in the hills would be slaughtered; so he drew back a short distance for the night. Before dawn the Japanese cut their cables and fled in the ships that were left.",
+          evidence: "fact",
+          refs: [{ source: 3 }],
+          battleSlugs: ["hansan-island"],
+        },
+        {
+          title: "The stranded",
+          text: "When the fleet passed Hansan Island again on its way home, the Japanese who had landed there were starving, too weak to walk, sleeping on the shore; Yi wrote that they had no way out, like birds in a cage. Short of supplies and with news of the enemy advancing on Jeonju, he left them to the soldiers and people of Geoje.",
+          evidence: "fact",
+          refs: [{ source: 3 }],
+          battleSlugs: ["hansan-island"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Yi Sun-sin, in his reports of 1592",
+          stake:
+            "The commander explaining his choices to the court that rewarded his victories.",
+          says: "A cornered enemy will escape ashore; draw him into open water, and do not drive him to desperation where the people are hiding.",
+          refs: [{ source: 0 }, { source: 3 }],
+        },
+        {
+          who: "Kawaguchi Chōju, following Jingbirok",
+          stake: "A Japanese compiler of 1831 relying on a Korean memoir.",
+          says: "Yi drew the Japanese out of the narrows by a feigned retreat and turned on them at a drumbeat.",
+          refs: [{ source: 4 }],
+        },
+        {
+          who: "Jo Seong-do, Encyclopedia of Korean Culture",
+          stake: "A naval historian of the Korea Naval Academy.",
+          says: "Danghangpo, fought twice, was the product of Yi’s careful planning.",
+          refs: [{ source: 2 }],
+        },
+        {
+          who: "Homer Hulbert, as the encyclopedia quotes him",
+          stake: "An American writer on Korea, in 1906.",
+          says: "Hansan was Korea’s Salamis.",
+          refs: [{ source: 5 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "The common thread is that Yi decided where the enemy would fight. At Danghangpo he reconnoitred before entering a confined water; at Hansan he refused to fight in a strait that favoured the enemy and drew him into one that favoured himself. The opening he left was a tool for bringing the enemy to the place he wanted. It worked because the Japanese, as the encyclopedia’s account of Hansan has it, came on in high spirits as if to avenge their defeats, and took the bait.",
+          evidence: "interpretation",
+          refs: [{ source: 0 }, { source: 3 }, { source: 5 }],
+        },
+        {
+          text: "Angolpo shows the same method turned to another end. There the opening was left not to destroy the enemy but to spare the people ashore from a trapped and desperate one. A commander who leaves an enemy a way out may be setting a trap or limiting a war’s cost, and the sources show Yi doing both within two days.",
+          evidence: "interpretation",
+          refs: [{ source: 3 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Research on how people behave when cornered, and on deception in competition, could bear on Yi’s method, but none was read for this volume. The lesson rests on Yi’s stated reasons and the battles’ course.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered; the enemy’s behaviour is as the Korean and Japanese accounts describe it.",
+        },
+      ],
+      shadow: {
+        text: "The way out at Hansan was not mercy. Yi chose the waters off the island because survivors who reached it would starve, and they did: he found them too weak to walk and left them. The method’s success also depended on an enemy who took the opening; where the Japanese would not come out, as at Angolpo, the fleet had to go in after them under fire. And every account of these battles, Korean and Japanese, rests in part on Yi’s own reports.",
+        evidence: "interpretation",
+        refs: [{ source: 3 }, { source: 0 }],
+      },
+      counterCase: {
+        text: "At Cannae in 216 BCE Hannibal left the Romans no way out. Polybius describes his crescent of Iberian and Celtic infantry giving way before the Roman legions, which pressed into the centre until the African heavy infantry on both wings turned inward and charged their flanks; the Romans, caught between two lines, fought on in groups but could not escape. The Hannibal volume reads the battle as the fruit of reading the consul. Yi, facing an enemy who could escape ashore, did the reverse: he opened the line so that the enemy would leave the land behind.",
+        evidence: "interpretation",
+        refs: [{ source: 6 }],
+        commanderSlug: "hannibal-barca",
+        battleSlugs: ["cannae"],
+      },
+      cost: {
+        text: "The villagers hiding in the hills above Angolpo, whose safety Yi weighed; the Japanese left starving on Hansan Island; the Korean captives freed from the Japanese ships; and the refugees from the coastal districts who came to Yi’s base after the second sortie and were settled near it.",
+        evidence: "fact",
+        refs: [{ source: 3 }, { source: 0 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "A competitor or opponent who is losing can withdraw to ground where he cannot be reached.",
+          "There is open ground where the contest can be decided, and the opponent can be drawn there.",
+        ],
+        failsWhen: [
+          "The opponent does not take the opening and stays where he is strong.",
+          "The way out is offered without counting who else stands in its path.",
+        ],
+        questions: [
+          "When did you last leave a rival a way out, and where did it lead?",
+          "Who stood in the path of the way out you offered?",
+          "Where would you rather your opponent fought, and how could you bring him there?",
+        ],
+      },
+      bearsOn:
+        "These victories are the results on which Yi’s standing rested. They are also the measure the court later used against him: in 1597 the king complained that Yi had done nothing since 1592. A commander whose early successes set the standard may find that caution afterwards is judged against them.",
+      questions: [
+        {
+          prompt: "Why did Yi open a gap in his line at Danghangpo?",
+          choices: [
+            "His fleet was being defeated.",
+            "He judged that the Japanese, if they lost hope, would abandon their ships and escape ashore; the gap drew them into open water.",
+            "To let the Right Jeolla fleet in.",
+          ],
+          answer: 1,
+          explanation: "His report on the sortie gives the reasoning.",
+        },
+        {
+          prompt: "Why did Yi stop short of burning every ship at Angolpo?",
+          choices: [
+            "He had run out of ammunition.",
+            "He feared that Japanese trapped ashore would become desperate and slaughter the villagers hiding in the hills.",
+            "Won Gyun ordered him to stop.",
+          ],
+          answer: 1,
+          explanation:
+            "His report on the battle says so; the Japanese fled before dawn.",
+        },
+        {
+          prompt: "Why did Yi choose the waters off Hansan Island?",
+          choices: [
+            "Because the Ming fleet was there.",
+            "Because Gyeonnaeryang was narrow and rocky, and survivors who landed on Hansan would have no way off.",
+            "Because the Japanese chose it.",
+          ],
+          answer: 1,
+          explanation: "His report sets out both reasons.",
+        },
+      ],
+      sourceCheck: {
+        question: "Did Hansan decide the war at sea?",
+        witnesses: [
+          {
+            label: "Jo Seong-do, Encyclopedia of Korean Culture",
+            claim:
+              "It nearly destroyed the main Japanese fleet and frustrated the plan to advance by land and sea together.",
+          },
+          {
+            label: "Yi’s report on Hansan and Angolpo",
+            claim:
+              "Afterwards a lookout still counted many Japanese ships in the rivers at Yangsan and Gimhae.",
+          },
+          {
+            label: "Seikan iryaku",
+            claim:
+              "Wakisaka escaped, and in his anger attacked again and took a Korean ship.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Accept the encyclopedia: Hansan was decisive.",
+            feedback:
+              "It is a well-founded judgement of the battle’s effect on the Japanese plan, but Yi’s own report and the Japanese record show a war at sea that went on.",
+          },
+          {
+            text: "Separate the battle’s effect on the Japanese plan, which the encyclopedia argues, from the claim that it ended the war at sea, which Yi’s report and the Japanese record contradict.",
+            feedback:
+              "A battle can decide a campaign’s shape without ending the fighting; the war at sea went on for six years.",
+            best: true,
+          },
+          {
+            text: "Accept the Seikan iryaku: Hansan changed little.",
+            feedback:
+              "Its account of Wakisaka’s revenge is a family record of one commander, not a judgement of the campaign.",
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "At Hansan Yi chose ground where survivors would starve; at Angolpo he held back to spare villagers. Argue whether these were the same principle or two different ones, from three positions: a villager above Angolpo, a Japanese sailor stranded on Hansan, and Yi writing to the court.",
+        guidance:
+          "Use Yi’s reports on the second sortie and on Hansan and Angolpo, and the Seikan iryaku. Keep Yi’s stated reasons apart from their effects.",
+      },
+      sources: [
+        s.reportDangpo,
+        s.diary1592_6,
+        s.ekDanghangpo,
+        s.reportHansan,
+        s.seikan2,
+        s.ekHansan,
+        s.polybius,
       ],
     },
     {

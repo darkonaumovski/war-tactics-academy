@@ -336,10 +336,13 @@ describe("the Yi volume", () => {
     expect(volumeForCommander("yi-sun-sin")).toBe(yiVolume);
   });
 
-  it("lists its pilot lessons in curriculum order, in progress", () => {
+  it("lists its lessons so far in curriculum order, in progress", () => {
     expect(yiVolume.inProgress).toBeDefined();
     expect(yiVolume.lessons.map((l) => l.slug)).toEqual([
       "how-to-read-yi",
+      "beyond-his-province",
+      "the-new-ship",
+      "a-way-out",
       "the-agents-story",
       "the-remnant",
     ]);
@@ -499,6 +502,8 @@ describe("links from the rest of the site", () => {
       "the-ledger",
       // The Grant and Lee volume's ledger uses Hannibal as its counter-case.
       "the-ledger",
+      // The Yi volume sets Cannae against the way out Yi left the enemy.
+      "a-way-out",
     ]);
     expect(
       lessonsForBattle("granicus").map((x) => x.volume.commanderSlug),

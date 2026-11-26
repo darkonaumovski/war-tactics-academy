@@ -1,6 +1,6 @@
 import type { LeadershipVolume, Source } from "../../lib/types";
 // Volume 10, on Yi Sun-sin, written in reviewed batches: P1, the pilot
-// (lessons 0, 6 and 8), then the rest in curriculum order;
+// (lessons 0, 6 and 8), then P2–P4 in curriculum order;
 // docs/LEADERSHIP_EVIDENCE_YI.md records which sources can carry each lesson,
 // and docs/SOURCE_AUDIT.md how each was read. Yi's diary, his reports and the
 // Annals of King Seonjo are read in the original Classical Chinese or in
@@ -256,6 +256,38 @@ const s = {
       "A. H. Mezulis, L. Y. Abramson, J. S. Hyde and B. L. Hankin, “Is there a universal positivity bias in attributions? A meta-analytic review of individual, developmental, and cultural differences in the self-serving attributional bias”, Psychological Bulletin (2004), abstract only",
     url: "https://europepmc.org/article/MED/15367078",
     publisher: "Europe PMC",
+  },
+  diary1598_9: mo(
+    "0110_010_0110",
+    `Yi Sun-sin, war diary, 9th month of 1598, in ${works}, vol. 8, in Classical Chinese`,
+  ),
+  diary1598_10: mo(
+    "0110_010_0120",
+    `Yi Sun-sin, war diary, 10th month of 1598, in ${works}, vol. 8, in Classical Chinese`,
+  ),
+  diary1598_11: mo(
+    "0110_010_0130",
+    `Yi Sun-sin, war diary, 11th month of 1598, in ${works}, vol. 8, in Classical Chinese`,
+  ),
+  ekNoryang: ek(
+    "E0012716",
+    "노량해전 (The battle of Noryang) — Jo Seong-do, in Korean",
+  ),
+  kciNoryang: {
+    title:
+      "Je Jang-myeong, “露粱海戰과 이순신 戰死 狀況에 관한 고찰” (The sea battle of Noryang and the circumstances of Yi Sun-sin’s death), Military History (Gunsa), no. 78 (Institute for Military History, Ministry of National Defense, 2011), English abstract only",
+    url: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001535993",
+    publisher: "Korea Citation Index",
+  },
+  evJackson: {
+    title: "Thomas J. “Stonewall” Jackson (1824–1863) — William Garrett Piston",
+    url: "https://encyclopediavirginia.org/entries/jackson-thomas-j-stonewall-1824-1863/",
+    publisher: "Encyclopedia Virginia, Virginia Humanities",
+  },
+  belisarius: {
+    title: "John Walton Barker, “Belisarius”",
+    url: "https://www.britannica.com/biography/Belisarius",
+    publisher: "Encyclopaedia Britannica",
   },
 } satisfies Record<string, Source>;
 
@@ -2308,7 +2340,697 @@ export const yiVolume: LeadershipVolume = {
         s.iwo,
       ],
     },
+    {
+      slug: "an-ally-who-would-let-them-go",
+      title: "An ally who would let them go: Chen Lin",
+      part: "The end",
+      themes: ["communication", "ethics"],
+      claim:
+        "When an ally gains more from letting the enemy go than from fighting, a commander who cannot give him orders may still keep him in the fight by giving him the credit, refusing the enemy’s offers himself and holding him to the purpose he says he serves, but the ally’s own record may then claim the victory.",
+      inBrief: {
+        strength:
+          "Yi kept a Ming admiral who was taking the enemy’s gifts in the blockade, refused the enemy’s offers himself, and argued for captives the admiral wanted to kill.",
+        shadow:
+          "He held the ally partly by handing him credit Korean crews had earned, and the story of the noble admiral and the venal ally is told mostly by Yi’s nephew.",
+      },
+      moment: {
+        text: "At dusk on the 14th day of the 11th month of 1598, a small Japanese boat came to the headquarters of the Ming admiral Chen Lin with pigs and wine. Konishi Yukinaga, blockaded in his fortress near Suncheon by the Korean and Ming fleets, wanted to go home now that Hideyoshi was dead. Over the next two days, Yi’s diary records, boats came and went to discuss peace; Chen Lin sent one of his officers, Chen Wentong, into the Japanese camp, and three Japanese boats brought the admiral horses, spears and swords. The diary records each visit without comment. His nephew’s Record of Conduct says Konishi had bribed Chen Lin heavily to lift the blockade, and that when Chen Lin asked Yi to agree to peace, Yi replied that a commander may not speak of peace, and an enemy of the country may not be let go.",
+        evidence: "fact",
+        refs: [{ source: 3 }, { source: 0 }],
+      },
+      episodes: [
+        {
+          title: "An overbearing ally",
+          text: "Chen Lin had arrived with a Ming fleet in the 7th month. The Record of Conduct says Yi met him with a feast, and that because Chen Lin was overbearing the king, worried, ordered Yi to treat him generously and not to anger him. The Ming soldiers began to plunder. Yi had the huts of his camp pulled down and his own bedding carried to the ships, and told Chen Lin’s servant that the people, who had looked to the Ming troops as to their parents, could not bear the plunder and would flee, and that as their commander he would leave too. Chen Lin came running, took his hand and agreed that Yi might punish Ming offenders; afterwards, Yi Bun says, the Ming soldiers feared Yi more than their own admiral. The Ming shi, the official Ming history compiled in 1739, calls Chen Lin a resourceful commander who was greedy wherever he served, and records that he had been dismissed for it more than once.",
+          evidence: "fact",
+          refs: [{ source: 0 }, { source: 5 }],
+          battleSlugs: [],
+          campaignSlugs: ["joseon-naval-operations-of-1597-1598"],
+        },
+        {
+          title: "Giving away the credit",
+          text: "A few days later, at a feast Yi gave for him, a Ming officer reported that the Korean ships had caught the enemy at dawn while the Ming ships, with the wind against them, had not fought. Chen Lin flew into a rage. Yi, the Record of Conduct says, understood why: he told Chen Lin that a victory won in his camp was his victory, handed him the heads the Korean crews had taken, and suggested he report it to the emperor so soon after his arrival. Chen Lin was delighted, and the king praised Yi for bringing honour to the Ming general. Yi Bun adds that Chen Lin, having watched Yi’s command, came to ride in a Korean ship in battle and leave the signals and the direction to him, and urged him more than once to take service with the Ming.",
+          evidence: "fact",
+          refs: [{ source: 0 }],
+          battleSlugs: [],
+          campaignSlugs: ["joseon-naval-operations-of-1597-1598"],
+        },
+        {
+          title: "The siege of Suncheon",
+          text: "The two fleets sailed in the 9th month, and on the 20th, Yi’s diary records, they joined the Ming general Liu Ting’s army in attacking Konishi’s fortress by land and sea. The fighting went on for days, and the diary names the Korean officers and counts the Ming soldiers killed. On the 3rd day of the 10th month Chen Lin, acting on a secret letter from Liu Ting, attacked at night and lost ships; Yi wrote that the admiral’s confusion was beyond words. The Record of Conduct says Yi had warned him to turn back as the tide fell, and sent ships to cover the stranded Ming vessels. On the 6th Yi learned that Liu Ting meant to withdraw, and wrote of his bitter anger; by the 9th the Ming army had gone, and the fleets drew off. The diary breaks off from the 13th day of the 10th month to the 7th of the 11th.",
+          evidence: "fact",
+          refs: [{ source: 1 }, { source: 2 }, { source: 0 }],
+          battleSlugs: [],
+          campaignSlugs: ["joseon-naval-operations-of-1597-1598"],
+        },
+        {
+          title: "The captives on Namhae",
+          text: "The Record of Conduct says that Chen Lin, having taken the enemy’s gifts and wishing to open their way home, proposed to leave Konishi alone and attack the Japanese on Namhae Island instead. Yi said that the people on Namhae were Koreans taken captive, not Japanese. Chen Lin answered that having joined the enemy they were the enemy, and could be killed easily for many heads. Yi said the emperor had ordered the enemy fought to save the lives of his small country’s people, not to kill them; Chen Lin, angry, said the emperor had given him a long sword; Yi said one death was nothing to regret, and that as commander he would never let the enemy go to kill his own people. Konishi, Yi Bun says, also sent Yi guns and swords, which he refused. On the 17th, Yi Bun says, fires showed that Konishi had called for help. The Annals’ historians say Yi, having seen a boat leave the fortress days before, told Chen Lin that a relief force would come the next day and urged him to meet it, and that Chen Lin refused until Yi pleaded with tears. The encyclopedia says Chen Lin had let one of Konishi’s boats through and told Yi, who reproached him. The Seikan iryaku gives another reason: told that Hideyoshi was dead and the Japanese leaving, Chen Lin saw a chance to win fame and broke off the peace.",
+          evidence: "fact",
+          refs: [{ source: 0 }, { source: 4 }, { source: 7 }, { source: 6 }],
+          battleSlugs: ["noryang"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Yi Bun, Record of Conduct",
+          stake: "Yi’s nephew and family biographer, writing after his death.",
+          says: "Chen Lin took the enemy’s bribes and wanted to let them go; Yi refused peace and would not let him kill the captives on Namhae.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "Yi Sun-sin, in his diary",
+          stake:
+            "The commander’s private record, which stops two days before Noryang.",
+          says: "Japanese envoys came and went at Chen Lin’s headquarters with gifts, and Ming soldiers took a prize Korean officers had captured.",
+          refs: [{ source: 3 }],
+        },
+        {
+          who: "The Annals’ historians, 1598",
+          stake:
+            "Court historians writing after Yi’s death, who blamed the court for misusing him.",
+          says: "Chen Lin refused to sail until Yi pleaded with tears.",
+          refs: [{ source: 4 }],
+        },
+        {
+          who: "Kawaguchi Chōju, Seikan iryaku",
+          stake:
+            "A Japanese compiler of 1831, weighing Japanese and Chinese accounts.",
+          says: "Chen Lin broke off the peace once he learned the Japanese were leaving, because he saw a chance to win fame.",
+          refs: [{ source: 6 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "The blockade of Suncheon had three commanders with three interests. The Japanese wanted only to leave. For the Ming commanders a negotiated withdrawal ended the war without more losses, and the gifts made it profitable; Liu Ting withdrew his army, and Chen Lin received envoys. For Yi, letting the Japanese go meant leaving the invaders unpunished and, he argued, abandoning the captives they held. The diary’s entries for the 10th and 11th months show an ally whose interest was not Yi’s, wavering between a night attack on another general’s letter and a peace on the enemy’s terms.",
+          evidence: "interpretation",
+          refs: [{ source: 2 }, { source: 3 }, { source: 0 }],
+        },
+        {
+          text: "Yi’s means were the means of a commander without authority. He gave Chen Lin credit and reports to send home; he made his own conduct visible, pulling down his camp rather than complain; he refused the enemy’s gifts himself; and he argued from the purpose the Ming said they served. The record says these worked, in the end: the Ming fleet sailed to Noryang. But the account of how they worked is mostly Yi Bun’s, and the Seikan iryaku gives Chen Lin a reason of his own.",
+          evidence: "interpretation",
+          refs: [{ source: 0 }, { source: 4 }, { source: 6 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Research on bargaining in coalitions, and on persuasion between allies of unequal power, could bear on how Yi held Chen Lin, but none was read for this volume. The lesson rests on what the diary, the Record of Conduct and the histories say was done and said.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered; Chen Lin’s motives are given only as the Korean, Japanese and Ming accounts describe them.",
+        },
+      ],
+      shadow: {
+        text: "The story of the incorruptible Korean admiral and the venal Ming one is told mostly by Yi’s nephew and by Korean historians. The Ming shi tells it the other way: it gives the victory and the first place in merit to Chen Lin, and has Yi die going to the rescue of Chen Lin’s subordinate. Yi’s own methods included handing Chen Lin the heads his crews had taken, so that the Ming admiral could report a victory that was not his, the same traffic in credit that the lesson on the joint report examines. And the king’s order to keep Chen Lin pleased bound Yi as tightly as the ally did.",
+        evidence: "interpretation",
+        refs: [{ source: 0 }, { source: 5 }],
+      },
+      counterCase: {
+        text: "Gebhard Leberecht von Blücher, beaten at Ligny in June 1815, could have left his ally to fight alone. The Royal Armouries’ account of the campaign records that he agreed to support Wellington in the coming battle although his chief of staff, Gneisenau, doubted the resolve of Wellington’s army and argued against going to its aid; Blücher ignored the advice, Prussian corps came to Wellington’s aid during the afternoon at Waterloo, and Bülow’s corps bore the brunt of some of the bloodiest fighting of the day at Plancenoit. The Wellington volume reads that alliance from Wellington’s side in its lesson on allies he could not command. Blücher kept his word against his own staff’s advice; Chen Lin had to be held to the fight against the enemy’s gifts.",
+        evidence: "interpretation",
+        refs: [{ source: 8 }],
+        commanderSlug: "gebhard-leberecht-von-blucher",
+        battleSlugs: ["waterloo"],
+      },
+      cost: {
+        text: "The Korean officers and Ming soldiers killed in the siege of Suncheon, whom the diary names and counts, among them Hwang Se-deuk, the cousin of Yi’s wife; the Ming ships lost in the night attack; the captives on Namhae, whose lives were argued over; and Yi himself, killed days later in the battle he had pressed on his ally.",
+        evidence: "fact",
+        refs: [{ source: 2 }, { source: 0 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "The ally can be given something it values more than what the opponent offers, such as credit with its own superiors.",
+          "The leader’s own conduct, visible to the ally, shows that he will not take the opponent’s terms.",
+        ],
+        failsWhen: [
+          "The ally’s own government rewards a negotiated end more than a victory.",
+          "The only credit the leader has to give was earned by his own people, who are not asked.",
+        ],
+        questions: [
+          "What does your partner gain by letting the problem go, and what can you offer instead?",
+          "Whose credit are you giving away to keep a partner with you, and who earned it?",
+          "Which of your own people would pay if your partner made a separate deal?",
+        ],
+      },
+      bearsOn:
+        "The last year changes the volume’s question. The danger was no longer only the court but an ally the court had told Yi to keep pleased. He led by giving credit away, refusing the enemy’s terms himself and arguing from the ally’s own stated purpose, and the record of it is largely his family’s.",
+      questions: [
+        {
+          prompt:
+            "According to the Record of Conduct, how did Yi answer when Chen Lin asked him to agree to peace?",
+          choices: [
+            "The court had forbidden it.",
+            "A commander may not speak of peace, and an enemy of the country may not be let go.",
+            "He would agree if Chen Lin shared the gifts.",
+          ],
+          answer: 1,
+          explanation:
+            "Yi Bun gives the reply; Yi’s diary records the envoys’ visits without comment.",
+        },
+        {
+          prompt:
+            "What did Chen Lin propose to attack instead of Konishi’s fortress, according to Yi Bun?",
+          choices: [
+            "The Japanese base at Busan.",
+            "The people on Namhae, whom Yi said were Koreans taken captive.",
+            "Liu Ting’s camp.",
+          ],
+          answer: 1,
+          explanation:
+            "Yi argued that the emperor had sent the Ming to save Korean lives, not to take them.",
+        },
+        {
+          prompt:
+            "How do the Annals’ historians and the Seikan iryaku differ on why Chen Lin sailed for Noryang?",
+          choices: [
+            "Both say the emperor ordered it.",
+            "The historians say Yi pleaded with tears; the Seikan iryaku says Chen Lin saw a chance to win fame once he learned the Japanese were leaving.",
+            "Both say Konishi had refused to pay him.",
+          ],
+          answer: 1,
+          explanation:
+            "The two reasons need not exclude each other, and each source had its own view of the Ming admiral.",
+        },
+      ],
+      sourceCheck: {
+        question: "Why did Chen Lin fight at Noryang?",
+        witnesses: [
+          {
+            label: "The Annals’ historians",
+            claim: "Because Yi pleaded with him in tears.",
+          },
+          {
+            label: "Seikan iryaku",
+            claim:
+              "Because, once he knew the Japanese were leaving, he saw a chance to win fame.",
+          },
+          {
+            label: "Encyclopedia of Korean Culture",
+            claim:
+              "Because Yi reproached him after he had let one of Konishi’s boats through.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Accept the Korean accounts: Yi persuaded him.",
+            feedback:
+              "They agree with each other, but both are Korean and written after Yi’s death; they do not say what Chen Lin wanted.",
+          },
+          {
+            text: "Hold the accounts together: Yi pressed him, and Chen Lin may also have had his own reason to fight a withdrawing enemy once the peace was no longer worth keeping.",
+            feedback:
+              "Each source explains the decision from its own side; together they make a persuasion and an interest, not a single cause.",
+            best: true,
+          },
+          {
+            text: "Accept the Seikan iryaku: it is the only account that weighs the sources.",
+            feedback:
+              "It weighs the Japanese and Chinese sources, but it has no access to what passed between the two admirals.",
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Argue Chen Lin’s case from his own seat: a Ming admiral far from home, with a peace on offer and a war his emperor wanted ended. Then argue Yi’s, and say what each owed the other.",
+        guidance:
+          "Use the diary for the 9th to 11th months of 1598, the Record of Conduct, the Annals’ historians, the Ming shi and the Seikan iryaku. Keep Yi Bun’s account of Chen Lin apart from what the diary records.",
+      },
+      sources: [
+        s.haengnok,
+        s.diary1598_9,
+        s.diary1598_10,
+        s.diary1598_11,
+        s.annals1598,
+        s.mingshi,
+        s.seikan5,
+        s.ekNoryang,
+        s.royalArmouries,
+      ],
+    },
+    {
+      slug: "noryang",
+      title: "Noryang: the last battle",
+      part: "The end",
+      themes: ["motivation", "succession"],
+      claim:
+        "When a commander leads from the front to the end, his presence may hold a fleet together and his death may have to be hidden to finish the battle, but what that death meant is settled by those who write the record, each with a stake in it.",
+      inBrief: {
+        strength:
+          "Yi pressed an unwilling ally into a night action, met the relief fleet in the narrows before it could join Konishi, and fought at the front until he was killed.",
+        shadow:
+          "His death in the last battle of a war that was ending made his legend; every account of it, including who hid it, comes from someone with a stake.",
+      },
+      moment: {
+        text: "On the night of the 18th day of the 11th month of 1598, the Record of Conduct says, the Korean and Ming fleets left their anchorage at the second watch and reached the strait of Noryang at the fourth. During the third watch, on the way, Yi washed his hands on his ship, knelt and prayed to heaven that if this enemy were destroyed he would die without regret. At dawn on the 19th, while he was urging on the fight, he was struck by a bullet. His nephew Yi Bun, who wrote that account, gives his last words: the battle was at its height, and his death was not to be spoken of. Yi’s own diary had ended two days before.",
+        evidence: "fact",
+        refs: [{ source: 1 }, { source: 6 }],
+      },
+      episodes: [
+        {
+          title: "The night row",
+          text: "The Annals’ historians record that Yi, having seen boats leave Konishi’s fortress days before, told Chen Lin that they must have gone for help, that a large force would come soon, and that if the allies went out to meet it first they would probably succeed; Chen Lin agreed only when Yi pleaded with tears. The fleets rowed through the night and reached Noryang before dawn, and the enemy came as Yi had said. The Record of Conduct adds that on the 17th Konishi had lit fires answered from Namhae, and that on the evening of the 18th Japanese ships came out from Namhae and gathered. The Seikan iryaku, comparing Japanese family records with Chinese accounts, says the fleet coming to Konishi’s relief was Shimazu Yoshihiro’s, which had sailed at night leaving his ailing son to follow, and that at first light, in a morning fog, the Ming van came upon it and both sides were startled. It dates the battle to the 18th by the Japanese calendar.",
+          evidence: "fact",
+          refs: [{ source: 0 }, { source: 1 }, { source: 3 }],
+          battleSlugs: ["noryang"],
+        },
+        {
+          title: "At the front",
+          text: "The Ming shi says that Deng Zilong, a Ming commander past seventy and eager for the first honours, leapt with picked men aboard a Korean ship and attacked; fire missiles thrown by mistake from another ship fell into his, it caught fire, the enemy closed, and he was killed; Yi went to his aid and was killed too. The Seikan iryaku says Yi came to Deng’s rescue through arrows and stones, and a bullet struck his chest and came out at his back. Je Jang-myeong, in an article in the Korean journal Military History, read here by its English abstract, places the death at dawn near the route to Gwaneumpo bay, from a stray Japanese bullet that struck him in the chest near the heart, and says it is certain Yi was wearing armour. The encyclopedia has him shot while pursuing the last fleeing ships towards Gwaneumpo. The Record of Conduct says Chen Lin’s own ship was surrounded and nearly taken, and Korean captains, seeing the flagship’s flags urging them on, went to rescue it.",
+          evidence: "fact",
+          refs: [
+            { source: 4 },
+            { source: 3 },
+            { source: 5 },
+            { source: 2 },
+            { source: 1 },
+          ],
+          battleSlugs: ["noryang"],
+        },
+        {
+          title: "Who hid it",
+          text: "Every account agrees that his death was hidden so the fight would go on; they disagree on who hid it. The Record of Conduct says his eldest son Hoe and his nephew Wan, standing beside him with bows, agreed that announcing it would throw the fleet into confusion and give the enemy their chance; they carried the body inside, and only they and his servant Geumi knew, not even Song Hui-rip, whom he trusted; they went on waving the flags. The Annals’ historians say his son began to weep and the men were alarmed, until Yi Mun-uk, beside him, stopped the weeping, covered the body with clothes and beat the drum to advance, so that the men, thinking Yi alive, fought on; people said afterwards that the dead Yi had beaten the living enemy. The Seikan iryaku, following Jingbirok, says his nephew hid his death. Je Jang-myeong’s abstract says it was the captain Song Hui-rip, on the flagship, who kept the death hidden and the command going, the very man the family account says did not know.",
+          evidence: "uncertainty",
+          refs: [{ source: 1 }, { source: 0 }, { source: 3 }, { source: 5 }],
+          battleSlugs: ["noryang"],
+        },
+        {
+          title: "After",
+          text: "When the fighting ended, the Record of Conduct says, Chen Lin brought his ship alongside calling for Yi; Wan, standing at the bow, wept that his uncle was dead; Chen Lin fell down three times, lamenting that Yi had saved him even after death, and the Ming soldiers threw down their food. Yi Deok-hyeong’s report to the court says the Japanese were routed and the survivors fled to Namhae, and that Konishi, seeing the defeat, escaped by the open sea; Yi and several commanders had been killed by gunfire. The historians add that when the news spread, the people of Jeolla wept, old women and children among them. The encyclopedia says Konishi’s men passed south of Namhae and withdrew with Shimazu’s through Busan, and that Noryang ended the war.",
+          evidence: "fact",
+          refs: [{ source: 1 }, { source: 0 }, { source: 2 }],
+          battleSlugs: ["noryang"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Yi Bun, Record of Conduct",
+          stake:
+            "Yi’s nephew, writing the family’s account; the men he says hid the death are Yi’s son and another nephew.",
+          says: "Only Yi’s son, a nephew and a servant knew of his death, and they kept the flags moving.",
+          refs: [{ source: 1 }],
+        },
+        {
+          who: "The Annals’ historians, 1598",
+          stake:
+            "Court historians writing soon after his death, who blamed the court for misusing him.",
+          says: "Yi Mun-uk stopped the weeping, covered the body and beat the drum, and the dead Yi beat the living enemy.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "Je Jang-myeong, Military History (abstract)",
+          stake:
+            "A modern Korean military historian, read here only by his abstract.",
+          says: "Song Hui-rip kept the death hidden; the theory that Yi sought death is doubtful.",
+          refs: [{ source: 5 }],
+        },
+        {
+          who: "The Ming shi",
+          stake: "The official history of the Ming, compiled in 1739.",
+          says: "Yi died going to the rescue of Deng Zilong, and the victory was Chen Lin’s.",
+          refs: [{ source: 4 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Noryang was fought against a relief force, not the garrison. The allies met Shimazu’s fleet in the narrows before it could join Konishi and broke it; Konishi slipped out round the south of Namhae. The Japanese were leaving whatever happened. What the battle decided was how many of the invaders left and at what cost, not whether they left, and on that the accounts disagree.",
+          evidence: "interpretation",
+          refs: [{ source: 0 }, { source: 2 }, { source: 3 }],
+        },
+        {
+          text: "The concealment says something about how the fleet was commanded. In a close action at night and dawn, directed by flags and drums from the flagship, the fleet could lose its cohesion if the flagship stopped signalling. Whoever hid the death, every account agrees that it was hidden and the signals kept going. That is the strength and the risk of a command built round one visible leader: it holds while he is seen, and it must be faked when he falls.",
+          evidence: "interpretation",
+          refs: [{ source: 1 }, { source: 0 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Whether Yi sought death at Noryang has been argued from his prayer and from his treatment by the court. No research bearing on that question was read for this volume, and the lesson does not diagnose him. Je Jang-myeong’s abstract examines the theory and doubts it; the prayer comes from a family source written after his death.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered; the lesson does not infer Yi’s intentions from his prayer or from his exposure at the front.",
+        },
+      ],
+      shadow: {
+        text: "Yi’s death made the legend: the prayer, the last words, the hidden death, the battle won by a dead man. Each comes from someone with a stake: the family, the court historians who blamed the court for misusing him, a Japanese compiler following the memoir of Yi’s patron, a modern historian. Leading from the front cost the fleet its commander in the last battle of a war that was already ending. And the Ming history turns the same death into a rescue of a Ming commander, in a victory it gives to Chen Lin.",
+        evidence: "interpretation",
+        refs: [{ source: 1 }, { source: 0 }, { source: 3 }, { source: 4 }],
+      },
+      counterCase: {
+        text: "Thomas J. Jackson, at Chancellorsville in May 1863, also fell at the moment of victory while leading from the front. William Garrett Piston writes in Encyclopedia Virginia that Jackson’s flank attack rolled up the Union right, that his units became jumbled in the tangled woods, and that while riding forward after sunset to direct them he was accidentally wounded by his own men; Stuart led his corps for the rest of the campaign, and Hooker retreated. Jackson died of pneumonia days later, and his death left a corps command that was never successfully filled. Piston adds that Jackson’s partisans later claimed the battle plan as his, when it was entirely Lee’s. Yi’s death was hidden to finish a battle at the end of a war; Jackson’s was not hidden, and his army fought on without him. Both deaths were then shaped by those who wrote about them.",
+        evidence: "interpretation",
+        refs: [{ source: 7 }],
+        commanderSlug: "thomas-j-jackson",
+        battleSlugs: ["chancellorsville"],
+      },
+      cost: {
+        text: "Yi himself; Deng Zilong and the men who boarded with him; the Korean commanders killed beside Yi, whom Yi Deok-hyeong’s report names; the Japanese crews burned and drowned in the strait, whose numbers the accounts dispute; and Shimazu’s men, whom the Seikan iryaku describes fighting to the death to get their commander away.",
+        evidence: "fact",
+        refs: [{ source: 0 }, { source: 4 }, { source: 3 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "The leader’s visible presence is what keeps a dispersed effort coordinated.",
+          "Those around the leader know what to do if the leader falls, and can keep the signals going.",
+        ],
+        failsWhen: [
+          "The effort is ending anyway, and the leader’s risk buys little that others could not buy.",
+          "No one has been prepared to take over, so the leader’s fall has to be hidden instead of succeeded.",
+        ],
+        questions: [
+          "If you were gone tomorrow, who would keep the signals going, and would they have to hide that you were gone?",
+          "Which of the risks you take buys something only you can buy?",
+          "Who will tell the story of how your work ended, and what stake will they have in it?",
+        ],
+      },
+      bearsOn:
+        "Noryang answers the volume’s question with a death. Yi ended the war fighting, beyond the court’s reach, and the record of his last hours was written by his family, by the court’s historians and by his ally’s, each with a reason to tell it their way.",
+      questions: [
+        {
+          prompt:
+            "Which account says that only Yi’s son, a nephew and a servant knew of his death?",
+          choices: [
+            "The Annals’ historians.",
+            "The Record of Conduct.",
+            "The Ming shi.",
+          ],
+          answer: 1,
+          explanation:
+            "The Annals name Yi Mun-uk instead, and Je Jang-myeong’s abstract names Song Hui-rip, whom the Record of Conduct says did not know.",
+        },
+        {
+          prompt: "According to the Ming shi, how did Yi die?",
+          choices: [
+            "Pursuing Konishi out to sea.",
+            "Going to the rescue of Deng Zilong.",
+            "By his own hand.",
+          ],
+          answer: 1,
+          explanation:
+            "The Seikan iryaku agrees; the Korean accounts put Yi at the centre of the battle.",
+        },
+        {
+          prompt:
+            "What does Je Jang-myeong’s abstract conclude about the theory that Yi sought death?",
+          choices: [
+            "That it is proved by his prayer.",
+            "That it is doubtful: he was struck by a stray bullet while wearing armour.",
+            "Nothing: it does not discuss it.",
+          ],
+          answer: 1,
+          explanation:
+            "The abstract alone was read; its full argument has not been checked here.",
+        },
+      ],
+      sourceCheck: {
+        question: "Who hid Yi’s death?",
+        witnesses: [
+          {
+            label: "Yi Bun, Record of Conduct",
+            claim:
+              "His son Hoe, his nephew Wan and his servant Geumi; not even Song Hui-rip knew.",
+          },
+          {
+            label: "The Annals’ historians",
+            claim: "Yi Mun-uk, who covered the body and beat the drum.",
+          },
+          {
+            label: "Je Jang-myeong (abstract)",
+            claim: "Song Hui-rip, the captain on the flagship.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Trust the family: Yi’s son and nephew were there.",
+            feedback:
+              "The family account is close to the event, and it also gives the family the credit; it excludes the man the modern article names.",
+          },
+          {
+            text: "Set the accounts side by side: all agree the death was hidden and the signals kept going; who did it is disputed, and each account has a stake in the answer.",
+            feedback:
+              "What the accounts share is the firmest ground; the names are where each writer’s interest shows.",
+            best: true,
+          },
+          {
+            text: "Trust the modern article: it is the most recent.",
+            feedback:
+              "It is read here only by its abstract, so its evidence cannot be checked, and being recent does not make it right.",
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Argue whether Yi should have been at the front at Noryang, from three seats: a captain of his fleet, Chen Lin and the king.",
+        guidance:
+          "Use the Record of Conduct, the Annals’ historians, the Ming shi, the Seikan iryaku and Je Jang-myeong’s abstract. Keep the accounts of his death apart, and do not infer his intentions from his prayer.",
+      },
+      sources: [
+        s.annals1598,
+        s.haengnok,
+        s.ekNoryang,
+        s.seikan5,
+        s.mingshi,
+        s.kciNoryang,
+        s.diary1598_11,
+        s.evJackson,
+      ],
+    },
+    {
+      slug: "the-ledger",
+      title: "The ledger: obedience, evasion, results or the record",
+      part: "The end",
+      themes: ["judgement", "ethics"],
+      claim:
+        "When a commander’s own government is a danger to him, no single course, whether obedience, evasion or results, protects him for long, and once he is dead the record, written by people with a stake in it, decides which of them he is remembered for.",
+      inBrief: {
+        strength:
+          "The volume can answer its question: the fleet Yi kept in being made him necessary to a court that distrusted him, and his results restored him.",
+        shadow:
+          "Evasion brought him to trial, results came only after a disaster, the costs fell on people who wrote little, and the hero was largely made by his family and the court’s historians.",
+      },
+      moment: {
+        text: "In the 10th month of 1604, six years after Noryang, the court drew up its roll of merit for the war. Yi’s nephew records that Yi was placed first and given the posthumous rank of Left State Councillor, and the Korean encyclopedia notes that Won Gyun was enrolled with him in the first class. Seven years before that roll, the same king had written to his ministers that Yi’s crimes deserved death. This volume has asked from its first lesson how a commander leads when his own government is the greater danger: by obedience, by evasion, by results, or whether the record decides who was in danger.",
+        evidence: "fact",
+        refs: [{ source: 1 }, { source: 4 }, { source: 2 }],
+      },
+      episodes: [
+        {
+          title: "Obedience and evasion",
+          text: "Yi’s record contains both. In the 3rd month of 1597 the king’s memorandum accused him of deceiving the court, letting the enemy go without attacking and taking others’ merit, crimes deserving death; he was imprisoned, then sent to serve without rank under the commander-in-chief. His successor carried out the order Yi had resisted and lost the fleet, and after the defeat the king said it had come because the commander-in-chief pressed Won Gyun, who had not wanted to go. The court that punished evasion in the spring blamed enforced obedience in the summer.",
+          evidence: "fact",
+          refs: [{ source: 2 }, { source: 1 }, { source: 3 }],
+          battleSlugs: ["chilcheollyang"],
+          campaignSlugs: ["joseon-naval-operations-of-1597-1598"],
+        },
+        {
+          title: "Results",
+          text: "Results restored him. The Annals’ historians of 1598 wrote that when Yi returned to command after Chilcheollyang he gathered the surviving men, prepared weapons, opened farms for the garrison and sold fish and salt to feed the fleet, so that within months its name was feared again. They wrote that had the court not removed him from command in 1596 and 1597, the fleet would not have been lost and Jeolla and Chungcheong would not have become the enemy’s den. In 1598, the Record of Conduct says, the king praised him for bringing honour to the Ming general.",
+          evidence: "fact",
+          refs: [{ source: 0 }, { source: 1 }],
+          battleSlugs: ["noryang"],
+        },
+        {
+          title: "The record",
+          text: "The record was made by people with stakes. The Record of Conduct, by his nephew Yi Bun, supplies most of the sayings this volume has traced: the prayer, the last words, the refusal of peace. The Annals’ historians blamed the court’s misuse of him and called Won Gyun greedy and cruel beyond compare. The Ming shi gave the victory and the first place in merit to Chen Lin; the Seikan iryaku calls Chen Lin’s claim to have killed Shimazu Yoshihiro false, and records that at home Shimazu was rewarded above all for the victory that made the withdrawal possible. G. A. Ballard, a British admiral writing in 1921, said that if any man was Nelson’s equal it was this commander who never knew defeat, and credited his victories to the spirit he gave men whom Ballard judged poorer fighters than the Japanese.",
+          evidence: "fact",
+          refs: [
+            { source: 1 },
+            { source: 0 },
+            { source: 5 },
+            { source: 6 },
+            { source: 7 },
+          ],
+          battleSlugs: ["noryang"],
+        },
+        {
+          title: "Who paid",
+          text: "The other column of the ledger is longer. At the court meeting of the 1st month of 1597 the king heard that Yi’s officers, recruiting rowers in Namwon, had seized men’s relatives and killed a local officer. The captives on Namhae lived because Yi argued for them, by his nephew’s account. The crews of the fleet lost at Chilcheollyang died under his successor. The Seikan iryaku, quoting Jingbirok, describes the country at the end of the war as ruined and desolate for a thousand li, and records the losses the war cost the Ming in men and silver. The Japanese and Ming dead at Noryang are counted differently in every account.",
+          evidence: "fact",
+          refs: [{ source: 8 }, { source: 1 }, { source: 3 }, { source: 6 }],
+          battleSlugs: [],
+          campaignSlugs: ["joseon-naval-operations-of-1597-1598"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "King Seonjo, 1597",
+          stake: "The king who removed Yi, writing to his ministers.",
+          says: "Yi had deceived the court and let the enemy go; his crimes deserved death.",
+          refs: [{ source: 2 }],
+        },
+        {
+          who: "The Annals’ historians, 1598",
+          stake: "Court historians writing after Yi’s death.",
+          says: "The court misused him; had he not been removed, the fleet would not have been lost.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "Lee Jeong-il, Encyclopedia of Korean Culture",
+          stake: "A modern historian who has reassessed Won Gyun.",
+          says: "Won Gyun was enrolled with Yi in the first class of merit, yet has been remembered as the typical coward.",
+          refs: [{ source: 4 }],
+        },
+        {
+          who: "G. A. Ballard, 1921",
+          stake: "A British admiral writing a naval history of Japan.",
+          says: "If any man was Nelson’s equal, it was this commander who never knew defeat.",
+          refs: [{ source: 7 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "As a guide to conduct, each answer failed somewhere. Evasion, refusing to sail on an enemy agent’s story, preserved the fleet and brought Yi to trial. Obedience, Won Gyun’s, lost the fleet. Results restored Yi, but only after a disaster had made his judgement visible. What held through all of it was the fleet itself: the base, the ships and the crews he could still raise, which made him necessary to a court that distrusted him.",
+          evidence: "interpretation",
+          refs: [{ source: 2 }, { source: 3 }, { source: 0 }],
+        },
+        {
+          text: "The court was not one danger but a changing one. The same king called for Yi’s death in the 3rd month of 1597, blamed his commander-in-chief for the defeat in the 7th, and praised Yi in 1598. A commander who reads his government as a fixed enemy misses that its judgement moved with events, and that his own conduct, such as the recruitment in Namwon, gave it reasons as well as pretexts.",
+          evidence: "interpretation",
+          refs: [{ source: 2 }, { source: 3 }, { source: 1 }, { source: 8 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Research on hindsight in judging decisions, and on how reputations form after death, could bear on how the record of Yi was made, but none was read for this volume. The lesson rests on who wrote what, and when.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered; the lesson describes the record’s authors and their stakes, not their minds.",
+        },
+      ],
+      shadow: {
+        text: "The ledger can be balanced too neatly in Yi’s favour. The hero of the record was made largely by his family and by historians who wrote after his death and blamed the court; Won Gyun’s reputation was made, in part, as his foil, though the state ranked them together. Yi’s own account includes the recruitment in Namwon and the heads handed to Chen Lin to keep him in the fight. And a verdict that rests on results was written by those who knew how the war ended.",
+        evidence: "interpretation",
+        refs: [{ source: 1 }, { source: 0 }, { source: 4 }, { source: 8 }],
+      },
+      counterCase: {
+        text: "Belisarius, the general of the emperor Justinian, faced the same danger from his own ruler in the 6th century. John Walton Barker writes in Britannica that by 540 the Goths, hard pressed, offered to surrender if Belisarius would rule them as emperor, and that Justinian already feared so popular a commander might aim at the throne. Belisarius accepted the surrender and refused the title, which antagonized the Goths without relieving Justinian’s suspicions. He was recalled in temporary disfavour, later stripped of his command on charges of disloyalty and saved from ruin only by the empress Theodora’s intervention, then sent back to Italy without enough men or money, while the war was left to Narses, who received the emperor’s fuller support. Belisarius refused the crown and was still suspected; Yi evaded an order and was punished, then restored by a disaster. Neither course protected a popular commander from a ruler who feared him.",
+        evidence: "interpretation",
+        refs: [{ source: 9 }],
+        commanderSlug: "belisarius",
+        battleSlugs: [],
+      },
+      cost: {
+        text: "The people of the south coast and of the provinces the Japanese overran after Chilcheollyang; the men taken in Namwon for the fleet’s rowers, and their relatives; the captives whose lives were argued over; the crews of every fleet, Korean, Japanese and Ming; and Yi himself, killed in the last battle.",
+        evidence: "fact",
+        refs: [{ source: 0 }, { source: 8 }, { source: 1 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "A leader’s standing depends on superiors whose judgement changes with events.",
+          "The leader’s record will be written by others, after the leader can no longer answer.",
+        ],
+        failsWhen: [
+          "One course, whether obedience, evasion or results, is taken as a sure protection.",
+          "The past is judged by the record alone, without asking who wrote it.",
+        ],
+        questions: [
+          "Which of your decisions would you defend by obedience, which by results, and which only by the record?",
+          "Who is writing the record of your work, and what do they need it to say?",
+          "Whose costs are missing from the account of your success?",
+        ],
+      },
+      bearsOn:
+        "This is the volume’s answer. Obedience did not save Won Gyun or the fleet; evasion saved the fleet and brought Yi to trial; results restored him, but only after a disaster; and the record, written by his family, the court’s historians, the Ming and a British admiral, decided what he became. The danger from the court was real and changing, and the costs fell on people who wrote little of the record.",
+      questions: [
+        {
+          prompt:
+            "Where was Yi placed in the court’s roll of merit in 1604, according to the Record of Conduct?",
+          choices: ["He was left out.", "First.", "Behind Won Gyun."],
+          answer: 1,
+          explanation:
+            "Lee Jeong-il notes that Won Gyun was enrolled with him in the first class.",
+        },
+        {
+          prompt:
+            "According to the Seikan iryaku, what was false in the Ming account of the end of the war?",
+          choices: [
+            "That Yi was killed.",
+            "Chen Lin’s claim to have killed Shimazu Yoshihiro.",
+            "That Konishi escaped.",
+          ],
+          answer: 1,
+          explanation:
+            "The Ming shi repeats the claim; the Seikan iryaku has Shimazu escape and return to Japan.",
+        },
+        {
+          prompt:
+            "What did the Annals’ historians of 1598 blame for the loss of the fleet in 1597?",
+          choices: [
+            "Won Gyun alone.",
+            "The court’s removal of Yi in 1596 and 1597.",
+            "The Ming.",
+          ],
+          answer: 1,
+          explanation:
+            "They also called Won Gyun greedy and cruel; both judgements were written after Yi’s death.",
+        },
+      ],
+      sourceCheck: {
+        question: "Was the court the greater danger to Yi?",
+        witnesses: [
+          {
+            label: "King Seonjo, 3rd month of 1597",
+            claim:
+              "Yi had deceived the court and let the enemy go; his crimes deserved death.",
+          },
+          {
+            label: "King Seonjo, 7th month of 1597",
+            claim:
+              "The defeat came because the commander-in-chief pressed Won Gyun.",
+          },
+          {
+            label: "The Annals’ historians, 1598",
+            claim: "The court misused him.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Yes: the king called for his death.",
+            feedback:
+              "The same king blamed his commander-in-chief four months later and praised Yi in 1598; the danger was real, and it changed.",
+          },
+          {
+            text: "Weigh the danger by date: real in the spring of 1597, lifted by the disaster in the summer, and settled after his death by historians who blamed the court.",
+            feedback:
+              "Each witness speaks for one moment; the record shows a danger that rose and fell with events.",
+            best: true,
+          },
+          {
+            text: "No: the danger was invented by later admirers.",
+            feedback:
+              "The king’s memorandum is the court’s own record, written before any admirer.",
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Write the ledger of Yi’s command in two columns: what he achieved, and who paid. Then argue which of the four answers, obedience, evasion, results or the record, best describes how he survived his government, and for how long.",
+        guidance:
+          "Use every lesson of this volume. For each entry, say who recorded it and when, and keep Yi Bun’s account apart from the diary and the court record.",
+      },
+      sources: [
+        s.annals1598,
+        s.haengnok,
+        s.annals1597Mar13,
+        s.annals1597Jul,
+        s.ekWon,
+        s.mingshi,
+        s.seikan5,
+        s.ballard,
+        s.annals1597Jan,
+        s.belisarius,
+      ],
+    },
   ],
-  inProgress:
-    "This volume is being written. Its lessons are added in reviewed batches.",
 };

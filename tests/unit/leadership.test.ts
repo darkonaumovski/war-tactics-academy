@@ -336,8 +336,8 @@ describe("the Yi volume", () => {
     expect(volumeForCommander("yi-sun-sin")).toBe(yiVolume);
   });
 
-  it("lists its lessons so far in curriculum order, in progress", () => {
-    expect(yiVolume.inProgress).toBeDefined();
+  it("lists all its lessons in curriculum order", () => {
+    expect(yiVolume.inProgress).toBeUndefined();
     expect(yiVolume.lessons.map((l) => l.slug)).toEqual([
       "how-to-read-yi",
       "beyond-his-province",
@@ -348,6 +348,9 @@ describe("the Yi volume", () => {
       "the-agents-story",
       "the-successor",
       "the-remnant",
+      "an-ally-who-would-let-them-go",
+      "noryang",
+      "the-ledger",
     ]);
   });
 });

@@ -1289,9 +1289,7 @@ test("light theme maintains accessible contrast", async ({ page }) => {
   }
 });
 
-test("the Yi volume lists its lessons so far, in progress", async ({
-  page,
-}) => {
+test("the Yi volume lists all its lessons", async ({ page }) => {
   await page.goto("/leadership/yi-sun-sin");
   await expect(
     page.getByText(
@@ -1301,8 +1299,8 @@ test("the Yi volume lists its lessons so far, in progress", async ({
   ).toBeVisible();
   await expect(
     page.getByRole("heading", { name: "A volume in progress" }),
-  ).toBeVisible();
-  await expect(page.getByRole("table").getByRole("row")).toHaveCount(10);
+  ).toHaveCount(0);
+  await expect(page.getByRole("table").getByRole("row")).toHaveCount(13);
   await page.goto("/commanders/yi-sun-sin");
   await expect(
     page.getByRole("link", { name: /Leadership Lessons from Yi Sun-sin/ }),
@@ -1324,6 +1322,12 @@ test("the Yi volume lists its lessons so far, in progress", async ({
   await page.goto("/battles/iwo-jima");
   await page.getByRole("link", { name: /The remnant/ }).click();
   await expect(page).toHaveURL(/\/leadership\/yi-sun-sin\/the-remnant\/$/);
+  await page.goto("/battles/noryang");
+  await page.getByRole("link", { name: /Noryang: the last battle/ }).click();
+  await expect(page).toHaveURL(/\/leadership\/yi-sun-sin\/noryang\/$/);
+  await page.goto("/battles/chancellorsville");
+  await page.getByRole("link", { name: /Noryang: the last battle/ }).click();
+  await expect(page).toHaveURL(/\/leadership\/yi-sun-sin\/noryang\/$/);
 });
 
 test("the Slim volume lists all its lessons", async ({ page }) => {

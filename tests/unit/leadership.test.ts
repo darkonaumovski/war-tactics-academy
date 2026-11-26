@@ -343,7 +343,10 @@ describe("the Yi volume", () => {
       "beyond-his-province",
       "the-new-ship",
       "a-way-out",
+      "what-a-fleet-cannot-do",
+      "the-joint-report",
       "the-agents-story",
+      "the-successor",
       "the-remnant",
     ]);
   });
@@ -518,7 +521,7 @@ describe("links from the rest of the site", () => {
     expect(volumeForCommander("napoleon-bonaparte")?.lessons).toHaveLength(19);
     expect(
       counterCaseLessons("radomir-putnik").map((x) => x.lesson.slug),
-    ).toEqual(["when-the-leader-leaves"]);
+    ).toEqual(["when-the-leader-leaves", "the-successor"]);
     expect(
       counterCaseLessons("paul-von-hindenburg").map((x) => x.lesson.slug),
     ).toEqual(["who-decided", "how-to-end-it"]);

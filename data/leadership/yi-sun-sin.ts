@@ -206,6 +206,57 @@ const s = {
     url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0234%3Abook%3D3&force=y",
     publisher: "Perseus Digital Library, Tufts University",
   },
+  reportBusan: mo(
+    "0050_010_0110",
+    `Yi Sun-sin, report on the attack on Busan (釜山破倭兵狀, 1592), in ${works}, vol. 2, in Classical Chinese`,
+  ),
+  diary1592_8: mo(
+    "0080_010_0070",
+    `Yi Sun-sin, war diary, 8th month of 1592, in ${works}, vol. 5, in Classical Chinese`,
+  ),
+  diary1597_7: mo(
+    "0110_010_0040",
+    `Yi Sun-sin, war diary, 7th month of 1597, in ${works}, vol. 8, in Classical Chinese`,
+  ),
+  annals1592Joint: jt(
+    "N1_A25_06A_01A_00030",
+    "Seonjo sujeong sillok, 25th year, 6th month, 1st day [3]: Won Gyun proposes a joint report, and Yi Sun-sin reports alone, Korean translation (Jo Myeong-geun, 1989)",
+  ),
+  annals1592Busan: jt(
+    "N1_A25_08A_01A_00020",
+    "Seonjo sujeong sillok, 25th year, 8th month, 1st day [2]: Yi Sun-sin and others attack the enemy at Busan but cannot defeat them, Korean translation (Jo Myeong-geun, 1989)",
+  ),
+  ekBusan: ek(
+    "E0024286",
+    "부산포해전 (The battle of Busanpo) — Jo Seong-do, in Korean",
+  ),
+  ekChil: ek(
+    "E0058551",
+    "칠천량해전 (The battle of Chilcheollyang) — Jo Seong-do, in Korean",
+  ),
+  epkenhans: {
+    title: "Michael Epkenhans, “Jutland, Battle of”",
+    url: "https://encyclopedia.1914-1918-online.net/article/jutland-battle-of/",
+    publisher:
+      "1914-1918-online. International Encyclopedia of the First World War",
+  },
+  labienus: {
+    title: "“Labienus”, Encyclopædia Britannica, 11th ed. (1911)",
+    url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Labienus",
+    publisher: "Wikisource",
+  },
+  bjelajac: {
+    title: "Mile Bjelajac, “Serbia”",
+    url: "https://encyclopedia.1914-1918-online.net/article/serbia/",
+    publisher:
+      "1914-1918-online. International Encyclopedia of the First World War",
+  },
+  mezulis: {
+    title:
+      "A. H. Mezulis, L. Y. Abramson, J. S. Hyde and B. L. Hankin, “Is there a universal positivity bias in attributions? A meta-analytic review of individual, developmental, and cultural differences in the self-serving attributional bias”, Psychological Bulletin (2004), abstract only",
+    url: "https://europepmc.org/article/MED/15367078",
+    publisher: "Europe PMC",
+  },
 } satisfies Record<string, Source>;
 
 export const yiVolume: LeadershipVolume = {
@@ -1133,6 +1184,445 @@ export const yiVolume: LeadershipVolume = {
       ],
     },
     {
+      slug: "what-a-fleet-cannot-do",
+      title: "What a fleet cannot do: the limits of victory at sea",
+      part: "The first year",
+      themes: ["restraint", "judgement"],
+      claim:
+        "When an enemy will not fight at sea and holds the shore, a fleet can burn his ships but cannot take his base without troops to land, and a commander who holds back from driving a beaten enemy to desperation may be right and still be recorded as having failed.",
+      inBrief: {
+        strength:
+          "Yi attacked the Japanese base at Busan, burned much of its shipping, and would not risk his crews ashore against an enemy he could not reach.",
+        shadow:
+          "Busan stayed in Japanese hands for the rest of the war, and the court’s record calls the attack a failure.",
+      },
+      moment: {
+        text: "On the 1st day of the 9th month of 1592 the combined fleets of Jeolla and Gyeongsang came round the headland of Molundae to Busan, the port where the Japanese invasion had landed and the army’s main base in Korea. Scouts sent ahead reported the Japanese ships moored in three groups under the hills east of the fort. Yi’s report records what he told the other admirals: if they turned back now, without attacking, the enemy would despise them.",
+        evidence: "fact",
+        refs: [{ source: 0 }],
+      },
+      episodes: [
+        {
+          title: "The plan",
+          text: "After the summer’s battles Yi reported that the waters west of Gadeok were clear of Japanese ships, and that the Japanese armies inland were moving down the rivers towards the coast with loaded boats, apparently withdrawing. His plan was to strike them as they withdrew, by land and sea together. The fleets sailed on the 24th day of the 8th month, met Won Gyun, and worked slowly east along the coast, as Yi’s diary for those days records, probing the river mouths at Yangsan and Gimhae, which proved too narrow for his warships.",
+          evidence: "fact",
+          refs: [{ source: 0 }, { source: 1 }],
+          battleSlugs: [],
+          campaignSlugs: ["joseon-naval-operations-of-1592"],
+        },
+        {
+          title: "Busan",
+          text: "The leading ships, among them the turtle ship, destroyed the Japanese advance guard and the fleet went in. The Japanese did not come out: their men left the ships and took to the hills, from several positions firing down with guns and arrows, large iron shot and stones, some of which struck the Korean ships. The fleet fought all day and burned many of the moored ships. Yi wanted to land his best men, but the Japanese held several positions ashore and had horsemen, and his fleet had none; with night falling and fearing to be caught between them, he withdrew. Jeong Un of Nokdo, who, Yi wrote, had been first into the attack on every sortie since the war began, was killed, struck in the head by a large iron ball.",
+          evidence: "fact",
+          refs: [{ source: 0 }, { source: 2 }],
+          battleSlugs: ["busanpo"],
+        },
+        {
+          title: "The next day",
+          text: "Yi did not go back in. His report gives his reasons: the Japanese had pulled down the official buildings in the town and built their own houses inside and outside the walls, a base for a long stay; to burn it and all their ships while their armies were still spread inland might leave them no way home and make them desperate, and it was better to wait until the land forces could attack with him. Wind and waves had damaged his ships. He ranked the day as the hardest-fought of all his battles that year, though it brought no heads, and asked that the men be rewarded for the fighting.",
+          evidence: "fact",
+          refs: [{ source: 0 }],
+          battleSlugs: ["busanpo"],
+        },
+        {
+          title: "Two verdicts",
+          text: "The Korean encyclopedia’s modern entries describe a great victory: Jo Seong-do’s entry on the battle and Lee Jang-hee’s entry on Yi both record heavy losses inflicted on the Japanese shipping. The revised Annals of King Seonjo, compiled after the war, record it in a single entry headed as an attack that could not defeat the enemy: the Japanese, beaten at sea again and again, had gathered at Busan and Dongnae and would not fight; the navy could not land, burned empty ships and withdrew, and Jeong Un was killed.",
+          evidence: "uncertainty",
+          refs: [{ source: 3 }, { source: 4 }, { source: 2 }],
+          battleSlugs: ["busanpo"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "Yi Sun-sin, in his report of 1592",
+          stake:
+            "The commander reporting to a court that measured success in victories and heads.",
+          says: "It was the hardest fight of the year, and the base could only be destroyed by land and sea together.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "The compilers of the revised Annals",
+          stake: "Court historians writing after the war.",
+          says: "Yi attacked the enemy at Busan but could not defeat them.",
+          refs: [{ source: 2 }],
+        },
+        {
+          who: "Jo Seong-do, Encyclopedia of Korean Culture",
+          stake: "A naval historian of the Korea Naval Academy.",
+          says: "The navy destroyed a great part of the Japanese shipping at Busan.",
+          refs: [{ source: 3 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "Yi read the limits correctly. A fleet without troops could destroy what floated, but the Japanese had made Busan a fortified town held from the heights, with horsemen behind it; landing archers there would have risked the crews the navy could not replace. What he could do from the water, he did. The plan he described, a combined attack when the armies came down to the coast, was the only way to take the base, and it depended on a land force the Korean side did not have that autumn.",
+          evidence: "interpretation",
+          refs: [{ source: 0 }],
+        },
+        {
+          text: "The restraint had a long cost. The combined attack never came, and Busan remained the Japanese base for the rest of the war. Four years later, when the court lost patience with its admiral, the king complained that Yi had done nothing since 1592. A commander who stops at the limit of what his force can do may be right on the day and still leave a record that his superiors read as inaction.",
+          evidence: "interpretation",
+          refs: [{ source: 0 }, { source: 5 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Research on how outcomes are judged by those who did not see the decision could bear on the two verdicts of Busan, but none was read for this volume. The lesson rests on what each source records.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered; the two verdicts are compared by their authors and dates.",
+        },
+      ],
+      shadow: {
+        text: "Yi reported a battle that left the enemy’s base untouched as the year’s greatest achievement, and asked rewards for it. That may be fair to men who fought all day under fire; it is also a commander describing a check in the language of victory. And the restraint he explained, sparing an enemy who might become desperate, left that enemy in possession of the port through which every later Japanese army came.",
+        evidence: "interpretation",
+        refs: [{ source: 0 }, { source: 2 }],
+      },
+      counterCase: {
+        text: "Jutland, in 1916, is the case of a sea battle whose meaning depended on who counted. Michael Epkenhans writes that the German fleet inflicted heavier losses on the British Grand Fleet than it suffered, yet could not change the strategic situation or break the British blockade; Germany made the battle a myth of victory, with a Jutland Day, while in Britain it was remembered as a missed chance to annihilate the enemy, after John Jellicoe avoided a night action his fleet was not trained for. As at Busan, a fleet’s achievement on the day and its effect on the war pointed different ways, and each side’s record chose one.",
+        evidence: "interpretation",
+        refs: [{ source: 6 }],
+        commanderSlug: "john-jellicoe",
+        battleSlugs: ["jutland"],
+      },
+      cost: {
+        text: "Jeong Un, killed in the attack, and the other men of the fleet whom Yi’s report names as killed and wounded; the people of Busan, whose town had become the enemy’s base; and the Japanese crews and garrison, whose losses the Korean accounts count and the Japanese records read for this volume do not mention.",
+        evidence: "fact",
+        refs: [{ source: 0 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "A team can damage a competitor’s operations but cannot take its stronghold without help it does not have.",
+          "Pressing further would risk resources that cannot be replaced.",
+        ],
+        failsWhen: [
+          "The help that would finish the work never comes, and the stronghold remains.",
+          "Superiors judge only the visible result, and the reasons for stopping are not on their record.",
+        ],
+        questions: [
+          "What did you leave undone because the means to finish it were not yours?",
+          "How did you report a result that was less than it looked?",
+          "Who later read your restraint as inaction?",
+        ],
+      },
+      bearsOn:
+        "Busan shows how results can be read two ways. The victories of 1592 made Yi indispensable; Busan, the last and hardest, left the enemy’s base intact and set the standard by which the court later judged his caution. The third answer to the volume’s question, results, depends on who decides what counts as one.",
+      questions: [
+        {
+          prompt: "Why did Yi not land his men at Busan?",
+          choices: [
+            "He had been ordered not to.",
+            "The Japanese held positions ashore and had horsemen, his fleet had none, and night was falling.",
+            "The Ming fleet arrived and took over.",
+          ],
+          answer: 1,
+          explanation: "His report sets out the reasons.",
+        },
+        {
+          prompt: "How do the revised Annals record the attack on Busan?",
+          choices: [
+            "As the greatest victory of the war.",
+            "As an attack that could not defeat the enemy, who would not come out to fight.",
+            "They do not mention it.",
+          ],
+          answer: 1,
+          explanation:
+            "The modern encyclopedia’s entries describe a great victory; the two verdicts count different things.",
+        },
+        {
+          prompt:
+            "Why did Yi decide against attacking Busan again the next day?",
+          choices: [
+            "His fleet had been destroyed.",
+            "He feared that destroying the base while the Japanese armies were inland would make them desperate, and preferred to wait for a combined attack by land and sea.",
+            "The court ordered him home.",
+          ],
+          answer: 1,
+          explanation:
+            "His report also mentions damage to his ships from wind and waves.",
+        },
+      ],
+      sourceCheck: {
+        question: "Was the attack on Busan a victory?",
+        witnesses: [
+          {
+            label: "Yi’s report, 1592",
+            claim:
+              "The hardest-fought battle of the year, deserving the greatest reward.",
+          },
+          {
+            label: "The revised Annals",
+            claim:
+              "The navy attacked but could not defeat the enemy, burned empty ships and withdrew.",
+          },
+          {
+            label: "Jo Seong-do, Encyclopedia of Korean Culture",
+            claim: "A great victory over the Japanese shipping at Busan.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Accept Yi’s report: he was there.",
+            feedback:
+              "He was there, and his account of the fighting is the best we have; but he was asking for rewards, and he does not claim the base was taken.",
+          },
+          {
+            text: "Agree on what happened, many ships burned and the base untouched, and see that each verdict counts a different part of it.",
+            feedback:
+              "The facts are largely shared; the verdict depends on whether one counts ships or the base.",
+            best: true,
+          },
+          {
+            text: "Accept the Annals: Busan was a defeat.",
+            feedback:
+              "The Annals do not call it a defeat; they record that the enemy could not be beaten at Busan, which is a different claim.",
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Argue whether Yi should have attacked Busan again the next day, from three positions: Yi, a captain who had served with Jeong Un, and a minister at court reading the report.",
+        guidance:
+          "Use Yi’s report, his diary for the 8th month and the revised Annals. Say what each could know, and what the court could not.",
+      },
+      sources: [
+        s.reportBusan,
+        s.diary1592_8,
+        s.annals1592Busan,
+        s.ekBusan,
+        s.ekYi,
+        s.annals1597Jan,
+        s.epkenhans,
+      ],
+    },
+    {
+      slug: "the-joint-report",
+      title: "The joint report: credit, rivals and the court",
+      part: "Rivals and the court",
+      themes: ["communication", "ethics"],
+      claim:
+        "When two commanders share a victory, how each reports it shapes their rivalry as much as their standing at court, and a report that is accurate about a colleague’s failings may still cost the service later, if it turns the colleague into an enemy.",
+      inBrief: {
+        strength:
+          "Yi’s reports were prompt and detailed, and he rewarded his men for fighting rather than for heads.",
+        shadow:
+          "He reported alone, put Won Gyun’s failings on the record, and the court later charged him with taking others’ credit.",
+      },
+      moment: {
+        text: "After the second sortie of 1592, the revised Annals of King Seonjo record, Won Gyun proposed that he and Yi send a joint report of their victories. Yi suggested that they take their time; then, that night, he sent his own report, describing how Won Gyun had lost his fleet and had nothing to lean on, and how he had no merit in the fighting. When Won Gyun learned of it, the Annals say, he resented it deeply. From then on each reported his own achievements, and the rift between the two admirals began there.",
+        evidence: "fact",
+        refs: [{ source: 0 }],
+      },
+      episodes: [
+        {
+          title: "What Yi wrote",
+          text: "Yi’s report on Okpo, his first victory, already treats Won Gyun harshly. Won Gyun was not at the agreed meeting place; he arrived with almost nothing of his fleet left; his men shot at Yi’s own sailors while trying to seize a captured ship, and Yi wrote that a commander who could not restrain his men was beyond excuse; and a Gyeongsang magistrate, summoned again and again by Won Gyun, never came. The report asks the court to deal with both.",
+          evidence: "fact",
+          refs: [{ source: 1 }],
+          battleSlugs: ["okpo"],
+        },
+        {
+          title: "Heads and credit",
+          text: "The court rewarded victories by the heads taken. Yi’s report on the second sortie records a rule he had made for his own fleet: men who fought to the death would be rewarded first even if they took no heads, because the race for heads had cost lives. The same report says that after the fighting Won Gyun sent boats to collect the heads of Japanese killed by arrows, and that when Gyeongsang fishermen brought heads to Yi he refused them as another province’s and sent them to Won Gyun. Two ways of counting credit, in two fleets fighting side by side, were bound to produce two accounts of who had done what.",
+          evidence: "fact",
+          refs: [{ source: 2 }],
+          battleSlugs: ["sacheon-1592"],
+        },
+        {
+          title: "The grievance at court",
+          text: "By 1597 the quarrel had reached the king. At the court meeting of the 27th day of the 1st month, the minister Kim Su said Won Gyun often told him that Yi had stolen his credit; another official said Yi had given Won Gyun’s credit to his own captain Gwon Jun and reported first without consulting him; and the king said Yi had claimed as his own plan a raid that two other officers had arranged. Ryu Seong-ryong recalled thinking the rewards of 1592 too generous, and the king said Won Gyun had been rewarded only because he sent his brother to report his victories. Another minister said the two men could no longer serve together.",
+          evidence: "fact",
+          refs: [{ source: 3 }],
+          battleSlugs: [],
+          campaignSlugs: ["joseon-naval-operations-of-1597-1598"],
+        },
+        {
+          title: "The charge",
+          text: "When the king listed Yi’s crimes in the 3rd month of 1597, one was taking others’ merit and slandering them; the Annals add a note that Yi had reported Won Gyun’s grown son as a child to belittle his merit. The encyclopedia’s entry on Won Gyun, by Lee Jeong-il, tells the quarrel from Won Gyun’s side: the two fell out over the rewards, Won Gyun resisted bitterly when Yi was given command of all three navies in 1593, and he was moved to a land command. In 1604 both men were enrolled among the first-class merit subjects of the war.",
+          evidence: "fact",
+          refs: [{ source: 4 }, { source: 5 }],
+          battleSlugs: [],
+        },
+      ],
+      witnesses: [
+        {
+          who: "The compilers of the revised Annals",
+          stake: "Court historians writing after the war, sympathetic to Yi.",
+          says: "Won Gyun proposed a joint report; Yi reported alone, and the rift began there.",
+          refs: [{ source: 0 }],
+        },
+        {
+          who: "Yi Sun-sin, in his report on Okpo",
+          stake: "The victorious commander reporting to the court.",
+          says: "Won Gyun came with almost nothing, and his men shot at Yi’s own.",
+          refs: [{ source: 1 }],
+        },
+        {
+          who: "Won Gyun, as Kim Su reported him in 1597",
+          stake: "Yi’s rival, complaining to a minister.",
+          says: "Yi stole his credit.",
+          refs: [{ source: 3 }],
+        },
+        {
+          who: "Lee Jeong-il, Encyclopedia of Korean Culture",
+          stake: "A modern historian who has reassessed Won Gyun.",
+          says: "The two fell out over rewards, and Won Gyun fought on with what was left of his fleet.",
+          refs: [{ source: 5 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "A report is an act of command. By reporting alone, Yi secured the credit the court would reward and put Won Gyun’s weakness on the record. But a navy of two provinces needed two admirals who would fight together, and by 1597 a minister told the king that they could not; the king worried that if Won Gyun advanced, Yi would not come to his aid. The cost of the report was paid in cooperation, years later.",
+          evidence: "interpretation",
+          refs: [{ source: 0 }, { source: 3 }],
+        },
+        {
+          text: "Yi’s rule on heads was sound for his fleet: it kept men fighting instead of stopping to take trophies. It also meant that his fleet produced fewer of the heads the court counted, while Won Gyun’s men gathered them. Where the measure of credit at the top differs from the rule at the bottom, rival commanders will each have honest grounds for thinking the other took more than his share.",
+          evidence: "interpretation",
+          refs: [{ source: 2 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "Self-serving attribution",
+          base: "meta-analysis",
+          text: "A meta-analysis of 266 studies by Mezulis and colleagues found that people attribute their successes to themselves, and their failures to circumstances, far more than the reverse, and that the bias is present in nearly every sample studied, though markedly smaller in Asian samples than in American or Western ones. Applied with care, the finding gives a reason to expect two commanders sharing a victory each to see more of it as his own, and to read both men’s claims of credit with caution. It does not show that either Yi or Won Gyun reported falsely.",
+          evidence: "interpretation",
+          refs: [{ source: 6 }],
+          limit:
+            "Abstract only. The studies are of modern individuals, mostly in experimental settings; the bias was smaller in Asian samples; nothing here can be applied to particular men of the sixteenth century except as a reason for caution in reading their claims.",
+        },
+      ],
+      shadow: {
+        text: "The records of this quarrel are Yi’s: his own reports, the revised Annals compiled by historians who admired him, and a modern tradition in which he is the hero. Won Gyun’s side survives mainly in the complaints others reported at court, his report of 1597, and Lee Jeong-il’s reassessment. Yi’s reports were accurate enough to win the court’s trust in 1592, and the same court, in 1597, charged him with taking others’ credit.",
+        evidence: "interpretation",
+        refs: [{ source: 0 }, { source: 4 }, { source: 5 }],
+      },
+      counterCase: {
+        text: "Titus Labienus served as Caesar’s legate through the Gallic campaigns and took his place whenever Caesar went to Rome. The 1911 Britannica writes that when the civil war broke out he was one of the first to desert Caesar, probably because his sense of his own importance was not adequately recognised, and that his ill fortune under Pompey was as marked as his success under Caesar. Caesar’s volume reads him in its lesson on lieutenants. The quarrel over credit between Yi and Won Gyun did not end in desertion, but it ended in a court that could no longer keep both men in the same fleet.",
+        evidence: "interpretation",
+        refs: [{ source: 7 }],
+        commanderSlug: "titus-labienus",
+        battleSlugs: ["pharsalus"],
+      },
+      cost: {
+        text: "The men killed in the race for heads that Yi’s rule was meant to stop; the Japanese dead whose heads were taken and whose ears were cut off and salted to be counted at court; and, in the end, the fleet itself, commanded in 1597 by one of two admirals whose rivalry the court could not resolve.",
+        evidence: "interpretation",
+        refs: [{ source: 2 }, { source: 3 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "Two leaders share a success and report it separately to the same superiors.",
+          "The superiors reward by a measure that the leaders’ own rules do not use.",
+        ],
+        failsWhen: [
+          "An accurate report of a colleague’s failure is made without regard to the cooperation needed later.",
+          "Credit is claimed in a way the colleague can describe as theft.",
+        ],
+        questions: [
+          "When did you last report a shared success alone, and what did it cost the partnership?",
+          "What does your organisation count as credit, and does your own team count the same way?",
+          "Which of your colleagues has a version of a shared success in which you took too much?",
+        ],
+      },
+      bearsOn:
+        "The danger from the court in 1597 grew partly from the rivalry Yi’s reports of 1592 helped to make. The record answer is double here: the account of the quarrel that most readers meet is Yi’s and his admirers’, and it was also Yi’s reporting that the court in the end held against him.",
+      questions: [
+        {
+          prompt:
+            "According to the revised Annals, what did Yi do when Won Gyun proposed a joint report in 1592?",
+          choices: [
+            "He agreed and signed it.",
+            "He suggested waiting, then sent his own report that night describing Won Gyun’s lost fleet and lack of merit.",
+            "He refused to report at all.",
+          ],
+          answer: 1,
+          explanation: "The Annals date the rift between them from this.",
+        },
+        {
+          prompt: "What rule did Yi make for his fleet about heads?",
+          choices: [
+            "That only men who took heads would be rewarded.",
+            "That men who fought to the death would be rewarded first even if they took no heads.",
+            "That no heads were to be taken at all.",
+          ],
+          answer: 1,
+          explanation:
+            "His report says the race for heads had cost lives; the court still counted heads.",
+        },
+        {
+          prompt:
+            "What did the minister Kim Su tell the king at the court meeting of the 1st month of 1597?",
+          choices: [
+            "That Yi had been wrongly accused.",
+            "That Won Gyun often told him Yi had stolen his credit.",
+            "That Won Gyun should be dismissed.",
+          ],
+          answer: 1,
+          explanation:
+            "The grievance over credit was part of the case against Yi.",
+        },
+      ],
+      sourceCheck: {
+        question: "Who began the quarrel between Yi and Won Gyun?",
+        witnesses: [
+          {
+            label: "The revised Annals",
+            claim:
+              "Yi reported alone after Won Gyun proposed a joint report; the rift began there.",
+          },
+          {
+            label: "Lee Jeong-il, Encyclopedia of Korean Culture",
+            claim:
+              "They fell out over the rewards, and Won Gyun resisted Yi’s appointment over him.",
+          },
+          {
+            label: "Kim Su, at court in 1597",
+            claim: "Won Gyun often said Yi had stolen his credit.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Blame Won Gyun: he resented Yi’s success.",
+            feedback:
+              "His resentment is recorded, but so is the report that caused it.",
+          },
+          {
+            text: "See a quarrel that both men fed, over a credit the court measured in a way neither fleet shared, recorded mostly by Yi’s side.",
+            feedback:
+              "Each witness confirms part of it; together they show why the court could not settle it.",
+            best: true,
+          },
+          {
+            text: "Blame Yi: he reported alone.",
+            feedback:
+              "His report was accurate about Won Gyun’s losses, and the court rewarded both men in the end.",
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Rewrite the joint report that Won Gyun proposed in 1592, as Yi might have sent it. Then argue, from Yi’s seat, Won Gyun’s and a minister’s, whether it would have changed what happened in 1597.",
+        guidance:
+          "Use the Okpo and second sortie reports, the revised Annals and the court meeting of 1597. Keep what each man did apart from what each claimed.",
+      },
+      sources: [
+        s.annals1592Joint,
+        s.reportOkpo,
+        s.reportDangpo,
+        s.annals1597Jan,
+        s.annals1597Mar13,
+        s.ekWon,
+        s.mezulis,
+        s.labienus,
+      ],
+    },
+    {
       slug: "the-agents-story",
       title: "The agent’s story: refusing an order the enemy wrote",
       part: "Rivals and the court",
@@ -1358,6 +1848,229 @@ export const yiVolume: LeadershipVolume = {
         s.haengnok,
         s.annals1597Jul,
         s.macgarrigle,
+      ],
+    },
+    {
+      slug: "the-successor",
+      title: "The successor: ordered to attack",
+      part: "Rivals and the court",
+      themes: ["judgement", "succession"],
+      claim:
+        "When a successor is appointed because he promised what his predecessor would not do, he may be unable to refuse the order to do it, and the defeat that follows belongs to more than one person.",
+      inBrief: {
+        strength:
+          "The court’s own record of the defeat names the pressure from above as its cause, beside the admiral who carried out the order.",
+        shadow:
+          "Won Gyun is remembered as the villain of Yi’s story; the sources that say so are his enemies’, and the decisions were shared.",
+      },
+      moment: {
+        text: "In the spring of 1597 Won Gyun took command of the navies of the three southern provinces at Hansan Island, the base Yi had held for years. At the court meeting of the 1st month the king had argued for him: Won Gyun had been first into the fighting in 1592, and a commander who led from the front was worth having because the men copied him. One minister had warned that appointing him might make matters worse. Within six months the fleet he inherited was gone.",
+        evidence: "fact",
+        refs: [{ source: 0 }],
+      },
+      episodes: [
+        {
+          title: "The promise",
+          text: "Won Gyun had criticised Yi for not attacking. The Japanese compilation Seikan iryaku, following Ryu Seong-ryong’s Jingbirok, says he had won Yi’s command by accusing him of seeing the enemy and not advancing, and so could not now refuse when the commander-in-chief, Gwon Yul, believing another report from the same Japanese agent, pressed him to sail. The same account, from an author hostile to him, says he changed Yi’s arrangements at Hansan, dismissed the officers Yi had trusted, and drank and punished without measure.",
+          evidence: "fact",
+          refs: [{ source: 1 }],
+          battleSlugs: [],
+          campaignSlugs: ["joseon-naval-operations-of-1597-1598"],
+        },
+        {
+          title: "Pressed",
+          text: "The encyclopedia’s entry on the battle records that Won Gyun’s first sorties under the new orders cost men and ships, that Gwon Yul had him flogged and ordered him out again, and that he then sailed from Hansan with the whole fleet towards Busan. Near Busan the fleet was scattered by wind and by the enemy; at Gadeok, crews who went ashore for water were attacked; and the fleet fell back to anchor at Chilcheollyang, off Geoje. In the court’s discussion after the defeat, the king recalled that Won Gyun had once said the waters off Jeolyeongdo, near Busan, were hard to operate in.",
+          evidence: "fact",
+          refs: [{ source: 2 }, { source: 3 }],
+          battleSlugs: ["chilcheollyang"],
+        },
+        {
+          title: "Chilcheollyang",
+          text: "On the night of the 15th day of the 7th month the Japanese attacked the anchored fleet by sea and from the land. By morning it was surrounded; most of the ships were burned or broken, the admirals of Right Jeolla and Chungcheong were killed, and Won Gyun escaped ashore and was killed there. Bae Seol got away with a few ships. Yi, serving without rank, heard the news on the 18th; on the 21st, at Noryang, survivors told him their commander had fled first on seeing the enemy. That is the account of men who survived, given to Won Gyun’s rival.",
+          evidence: "fact",
+          refs: [{ source: 2 }, { source: 4 }],
+          battleSlugs: ["chilcheollyang"],
+        },
+        {
+          title: "The reckoning",
+          text: "When the report reached the court on the 22nd, the king first called the defeat the will of heaven. Then he said that the fleet should have held Hansan as a tiger holds its ground, that it had been driven out to this defeat, and that the defeat had come because the commander-in-chief pressed Won Gyun, who from the start had not wanted to go. He repeated what he had heard of Bae Seol: that he would rather die alone under military law than send his men into a place of death. The minister Yi Hang-bok explained why so few escaped: anchored in a narrow place and surprised, the crews were driven ashore. The ministers agreed that a new naval commander had to be found.",
+          evidence: "fact",
+          refs: [{ source: 3 }],
+          battleSlugs: ["chilcheollyang"],
+        },
+      ],
+      witnesses: [
+        {
+          who: "King Seonjo, after the defeat",
+          stake:
+            "The king who had removed Yi and appointed Won Gyun six months before.",
+          says: "The defeat came because the commander-in-chief pressed Won Gyun, who had not wanted to go.",
+          refs: [{ source: 3 }],
+        },
+        {
+          who: "Lee Jeong-il, Encyclopedia of Korean Culture",
+          stake: "A modern historian who has reassessed Won Gyun.",
+          says: "Won Gyun attacked Busan following the court’s unreasonable orders and was defeated.",
+          refs: [{ source: 5 }],
+        },
+        {
+          who: "Kawaguchi Chōju, following Jingbirok",
+          stake:
+            "A Japanese compiler of 1831 relying on the memoir of Yi’s patron.",
+          says: "Won Gyun had accused Yi of not attacking, and so could not refuse when ordered to.",
+          refs: [{ source: 1 }],
+        },
+        {
+          who: "Survivors at Noryang, as Yi’s diary records them",
+          stake:
+            "Men who had escaped the defeat, speaking to Won Gyun’s rival.",
+          says: "Their commander fled first on seeing the enemy.",
+          refs: [{ source: 4 }],
+        },
+      ],
+      strategist: [
+        {
+          text: "The order Won Gyun received was the one Yi had resisted: to take the fleet into the waters near Busan to strike at the enemy’s crossing. Won Gyun himself had once called those waters hard to fight in. The fleet sailed far from its base, ran short of water, was scattered, and anchored for the night in a narrow place where an attack from sea and land could trap it. Each step can be laid at the admiral’s door; the first step was ordered by the court and enforced by the commander-in-chief with a flogging.",
+          evidence: "interpretation",
+          refs: [{ source: 2 }, { source: 3 }],
+        },
+        {
+          text: "The court’s own verdict divided the blame. The king blamed heaven, then the commander-in-chief, and quoted Bae Seol’s refusal with something like approval; the ministers turned at once to finding a new commander. A successor appointed to do what his predecessor would not had little room to refuse, and the court, having removed the man who refused, had made the attack hard to stop.",
+          evidence: "interpretation",
+          refs: [{ source: 3 }, { source: 0 }],
+        },
+      ],
+      psychologist: [
+        {
+          mechanism: "None offered",
+          base: "none",
+          text: "Research on escalation of commitment, and on how a leader who has criticised a predecessor is bound by the criticism, could bear on this case, but none was read for this lesson. The lesson rests on what the court record and the other sources say was decided, and by whom.",
+          evidence: "interpretation",
+          refs: [],
+          limit:
+            "No mechanism is offered; Won Gyun’s motives are given only as his enemies and the court describe them.",
+        },
+      ],
+      shadow: {
+        text: "It is easy to make Won Gyun the villain of Yi’s story or, in reaction, its victim. The sources that portray him as a coward, a drunkard and an intriguer come from Jingbirok, written by Yi’s patron, from Yi’s diary and from later admirers; the sources that defend him are a modern reassessment and the honour the state gave him in 1604. He did choose the anchorage, and survivors said he fled first. The court also chose, and so did its commander-in-chief.",
+        evidence: "interpretation",
+        refs: [{ source: 1 }, { source: 4 }, { source: 5 }],
+      },
+      counterCase: {
+        text: "In 1914 the Serbian army, having beaten the first Austro-Hungarian invasion, was pressed by its allies to attack. Mile Bjelajac writes that the Allies overestimated what the Serbian army could do, since it was still awaiting promised rifles, artillery ammunition and bridging equipment, and firmly insisted on an offensive across the frontier; the Serbians reluctantly crossed the Sava, and when the Austro-Hungarians returned their artillery ammunition ran out and they fell back beyond Belgrade before counter-attacking. The Serbian volume reads the decision in its lesson on allies who ask you to attack. The Serbian command, under Radomir Putnik, obeyed an order it doubted and kept its army in being; Won Gyun obeyed one and lost the fleet.",
+        evidence: "interpretation",
+        refs: [{ source: 6 }],
+        commanderSlug: "radomir-putnik",
+        battleSlugs: ["syrmia-1914"],
+      },
+      cost: {
+        text: "The crews of three provinces’ fleets, burned, drowned or killed ashore at Chilcheollyang; the admirals of Right Jeolla and Chungcheong; Won Gyun himself; and the people of the south coast and of Namwon, which fell soon after, once the Japanese could move west by sea.",
+        evidence: "fact",
+        refs: [{ source: 2 }],
+      },
+      transfer: {
+        holdsWhen: [
+          "A leader is appointed because the previous leader would not take a course the superiors wanted.",
+          "The superiors then order that course, and enforce it.",
+        ],
+        failsWhen: [
+          "The new leader’s earlier criticism leaves him no ground to refuse.",
+          "Blame afterwards falls on the one who carried out the order, and not on those who gave it.",
+        ],
+        questions: [
+          "What did you promise when you took over, and has it bound you to something you now doubt?",
+          "Who ordered the decision you are being blamed for?",
+          "When did a predecessor’s refusal turn out to have been right?",
+        ],
+      },
+      bearsOn:
+        "Chilcheollyang is the volume’s answer to obedience from the other side: Won Gyun obeyed and lost the fleet. It is also the event that vindicated Yi’s evasion and restored him by results. And it shows that the court could judge itself: the king who had called for Yi’s death in the spring blamed his own commander-in-chief in the summer.",
+      questions: [
+        {
+          prompt:
+            "According to the king after the defeat, why was the fleet lost?",
+          choices: [
+            "Because Won Gyun disobeyed orders.",
+            "Because the commander-in-chief pressed Won Gyun, who had not wanted to go.",
+            "Because Yi refused to help.",
+          ],
+          answer: 1,
+          explanation: "He also called it the will of heaven.",
+        },
+        {
+          prompt:
+            "What, according to the Seikan iryaku following Jingbirok, left Won Gyun unable to refuse the order to sail?",
+          choices: [
+            "He had promised the Ming.",
+            "He had won Yi’s command by accusing him of not attacking.",
+            "He was under arrest.",
+          ],
+          answer: 1,
+          explanation:
+            "The account comes from the memoir of Yi’s patron, hostile to Won Gyun.",
+        },
+        {
+          prompt: "Why, according to Yi Hang-bok, did so few escape?",
+          choices: [
+            "There was no wind.",
+            "The fleet was anchored in a narrow place and surprised, and the crews were driven ashore.",
+            "The ships were too slow.",
+          ],
+          answer: 1,
+          explanation: "In open water, he said, some could have got away.",
+        },
+      ],
+      sourceCheck: {
+        question: "Who lost the fleet at Chilcheollyang?",
+        witnesses: [
+          {
+            label: "King Seonjo, after the defeat",
+            claim:
+              "The commander-in-chief, by pressing Won Gyun to sail when he did not want to.",
+          },
+          {
+            label: "Survivors, in Yi’s diary",
+            claim: "Won Gyun, who fled first on seeing the enemy.",
+          },
+          {
+            label: "Lee Jeong-il, Encyclopedia of Korean Culture",
+            claim: "The court, whose orders Won Gyun followed.",
+          },
+        ],
+        prompt: "How should a reader weigh these?",
+        options: [
+          {
+            text: "Blame Won Gyun: the survivors saw him flee.",
+            feedback:
+              "Their account is evidence, given to his rival after the event; it does not explain why the fleet was where it was.",
+          },
+          {
+            text: "Divide the responsibility: the court ordered the attack, the commander-in-chief enforced it, and the admiral carried it out badly.",
+            feedback:
+              "Each witness names one link; the record shows all three.",
+            best: true,
+          },
+          {
+            text: "Blame the court alone: Won Gyun only obeyed.",
+            feedback:
+              "He chose the anchorage and the conduct of the fleet; obedience does not cover how an order is carried out.",
+          },
+        ],
+      },
+      seminar: {
+        prompt:
+          "Argue the responsibility for Chilcheollyang from three seats: the king, Gwon Yul and Won Gyun. Then argue whether the court should have restored Yi.",
+        guidance:
+          "Use the court meetings of the 1st and 7th months of 1597, the encyclopedia’s entries on the battle and on Won Gyun, and Yi’s diary. Keep the hostile accounts of Won Gyun apart from the facts they record.",
+      },
+      sources: [
+        s.annals1597Jan,
+        s.seikan4,
+        s.ekChil,
+        s.annals1597Jul,
+        s.diary1597_7,
+        s.ekWon,
+        s.bjelajac,
       ],
     },
     {

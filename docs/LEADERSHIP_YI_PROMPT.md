@@ -1,6 +1,6 @@
 # Leadership Lessons, Volume 10: Yi Sun-sin
 
-**Status (25 November 2026):** Phase 0 done and approved, with the evidence pass's decisions (twelve lessons, lesson 8 folded into lessons 6 and 9; the banned sayings; the counter-cases; pilot lessons 0, 6 and 8): the volume plan below (question, traps, curriculum, phases) is written, `docs/LEADERSHIP_EVIDENCE_YI.md` grades its thirteen lessons and traces its sayings, and the volume is scaffolded unlisted at `data/leadership/yi-sun-sin.ts`, with its banned sayings in `lib/validation.ts`. Phase S done (`0cda2cb`). The pilot is written (batch P1): lessons 0, 6 and 8, the record, the agent's story and the remnant, with the volume listed as in progress at `/leadership/yi-sun-sin/`. Batch P2 adds lessons 1–3, the first year: beyond his province, the new ship and a way out. Batch P3 adds lessons 4, 5 and 7: what a fleet cannot do, the joint report and the successor. Batch P4 adds lessons 9–11, an ally who would let them go, Noryang and the ledger, and completes the volume, which is no longer marked as in progress; Phases 3 and 4 remain to be proposed. The seven studies are written, each from four or more sources read in this session, with a new campaign `joseon-naval-operations-of-1597-1598` and the 1592 campaign's narrative rewritten without ship numbers; Yi's profile links eight studies; what was read is in `docs/SOURCE_AUDIT.md`. The user chose to go ahead with Yi Sun-sin after the source check in `docs/LEADERSHIP_YI_SOURCE_CHECK.md` (`96b6cc9`), which found the volume feasible on lawful sources, but in Classical Chinese and Korean rather than English. The user approved the seven studies below and chose Chilcheollyang as the eighth. The rest of the volume prompt (its question, curriculum, traps and later phases) is written after Phase S, when the studies show what the lessons can carry, as the Slim volume's evidence pass reshaped its curriculum.
+**Status (25 November 2026):** Phase 0 done and approved, with the evidence pass's decisions (twelve lessons, lesson 8 folded into lessons 6 and 9; the banned sayings; the counter-cases; pilot lessons 0, 6 and 8): the volume plan below (question, traps, curriculum, phases) is written, `docs/LEADERSHIP_EVIDENCE_YI.md` grades its thirteen lessons and traces its sayings, and the volume is scaffolded unlisted at `data/leadership/yi-sun-sin.ts`, with its banned sayings in `lib/validation.ts`. Phase S done (`0cda2cb`). The pilot is written (batch P1): lessons 0, 6 and 8, the record, the agent's story and the remnant, with the volume listed as in progress at `/leadership/yi-sun-sin/`. Batch P2 adds lessons 1–3, the first year: beyond his province, the new ship and a way out. Batch P3 adds lessons 4, 5 and 7: what a fleet cannot do, the joint report and the successor. Batch P4 adds lessons 9–11, an ally who would let them go, Noryang and the ledger, and completes the volume, which is no longer marked as in progress; Phase 3 step 1 is done: the hub, the strength-and-shadow table, Yi's profile, the twelve counter-case profiles, the fourteen linked studies, search and the sitemap pick the volume up without new code, and the README has its feature line; the comparison batch T9 (step 2) and Phase 4 remain. The seven studies are written, each from four or more sources read in this session, with a new campaign `joseon-naval-operations-of-1597-1598` and the 1592 campaign's narrative rewritten without ship numbers; Yi's profile links eight studies; what was read is in `docs/SOURCE_AUDIT.md`. The user chose to go ahead with Yi Sun-sin after the source check in `docs/LEADERSHIP_YI_SOURCE_CHECK.md` (`96b6cc9`), which found the volume feasible on lawful sources, but in Classical Chinese and Korean rather than English. The user approved the seven studies below and chose Chilcheollyang as the eighth. The rest of the volume prompt (its question, curriculum, traps and later phases) is written after Phase S, when the studies show what the lessons can carry, as the Slim volume's evidence pass reshaped its curriculum.
 
 ## Readiness
 
@@ -234,5 +234,53 @@ The Phase S reading in `docs/SOURCE_AUDIT.md`, and for the lessons: Yi's diary a
 - **Phase 0.** The evidence pass, `docs/LEADERSHIP_EVIDENCE_YI.md`; route `/leadership/yi-sun-sin/`; the scaffold, unlisted; the banned sayings. One commit.
 - **Phase 1, pilot.** Lessons 0, 6 and 9: the record, the agent's story and the remnant, which test the question from the record, the court and the battle. Stop for the user to judge.
 - **Phase 2.** The remaining lessons in batches of two to four, in curriculum order.
-- **Phase 3, integration** and a comparison-page batch: add the volume's lessons to the existing problems, and propose a new problem if one arises, such as "a government against its commander".
+- **Phase 3, integration** and a comparison-page batch: add the volume's lessons to the existing problems, and propose a new problem if one arises, such as "a government against its commander". Planned in detail below, after the volume was completed (`2ce61e8`).
+
+### Phase 3 plan (26 November 2026)
+
+Two commits, as for the Slim volume (`7c1993d`, then batch T8 `3fc1a83`), each shown for approval first.
+
+**Step 1, integration (no new code expected).** On the built site, at desktop width and at 375 pixels:
+
+- the Leadership Lessons hub lists the volume as complete, and `/leadership/yi-sun-sin/` shows twelve lessons in five parts with the strength-and-shadow table;
+- Yi's profile links the volume and the lessons that discuss him;
+- the twelve counter-case profiles link back to their lessons: Grouchy, Nobunaga, Hannibal, Jellicoe, Labienus, Slim, Stilwell, Putnik, Kuribayashi, Blücher, Jackson and Belisarius;
+- the engagement studies link their lessons: Yi's seven (Okpo, Sacheon, Danghangpo, Busanpo, Chilcheollyang, Myeongnyang, Noryang) and the counter-case battles (Waterloo, Nagashino, Cannae, Jutland, Syrmia 1914, Iwo Jima, Chancellorsville);
+- search finds the lessons, and the sitemap lists all thirteen routes.
+
+Then add the README feature line for the volume, the release row for `2ce61e8`, and the status in this prompt and the roadmap. Any defect found goes into the report, not silently into the commit.
+
+**Step 2, comparison batch T9.** Yi becomes the tenth column of `/leadership/compare/`. Every placement below is to be confirmed against the lesson's own claim and text when the note is written; each note gains a Yi passage and a closing condition drawn only from the linked lessons.
+
+| Problem                       | Yi lessons                                             | Why                                                                                      |
+| ----------------------------- | ------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
+| Reading the record            | `how-to-read-yi`, `the-joint-report`                   | The diary, the reports and Yi Bun's sayings; two admirals' reports of the same victories |
+| Taking over an organisation   | `the-successor`, `the-remnant`                         | Won Gyun inheriting a fleet and an order; Yi inheriting what was left of it              |
+| Rebuilding after defeat       | `the-remnant`                                          | Gathering men and ships after Chilcheollyang, held together by example and by fear       |
+| Presence and shared risk      | `noryang`, `the-remnant`                               | His ship alone in the strait; his death at the front in the last battle                  |
+| Reading the enemy             | `the-new-ship`, `a-way-out`                            | A new ship for a new kind of fight; the lure at Hansan after Danghangpo                  |
+| Who can tell you no           | `the-agents-story`                                     | A commander telling his court no, and the arrest it cost him                             |
+| When to stop, when to persist | `what-a-fleet-cannot-do`                               | Busan: what a fleet could not do against an enemy ashore                                 |
+| What cannot be replaced       | `the-successor`                                        | The fleet, lost at Chilcheollyang and not to be replaced                                 |
+| Succession                    | `the-successor`, `noryang`                             | A successor bound by his promise; a death hidden so the battle could go on               |
+| Allies and coalitions         | `an-ally-who-would-let-them-go`, `beyond-his-province` | Chen Lin and the peace on offer; going to the aid of another province's fleet            |
+| Victory and settlement        | none                                                   | The war ended by the enemy's withdrawal; the volume is named among those with no lesson  |
+| Who pays                      | `the-ledger`                                           | The ledger's second column                                                               |
+
+That is seventeen entries under eleven problems, and nineteen from all twelve lessons with the new problem below.
+
+**Proposed new thirteenth problem: "The government at home"**, asking: when the leader's own government can recall, replace or punish him, what keeps his command, and what does keeping it cost? The Yi volume's question is this problem, and several volumes already have a lesson on it:
+
+- Yi: `the-agents-story`, `the-ledger`;
+- Wellington: `the-government-at-home`;
+- the Serbian Supreme Command: `after-the-chief`;
+- Caesar: `the-rubicon`, the commander who turned on the authority that gave him his army;
+- Hannibal and Scipio: `taking-the-war-to-africa` and `both-rejected`;
+- Slim: `after-rangoon`;
+- Grant and Lee: `general-in-chief`, if its text bears it out on Grant and the political leadership;
+- Foch and Haig: to be checked in the batch (the volume mentions Lloyd George in several lessons, but none is titled for him);
+- Napoleon and Alexander: named as having no lesson, since each was the government; the note says so.
+
+**The grid.** Ten volumes in three columns leave the tenth card alone on a last row on screens wider than 1200 pixels. Recommended: on those screens, a lone last column spans the full row, so the Yi entries read as a closing band rather than a stray card; two columns between 760 and 1200 pixels already give five full rows, and one column below. The alternative is to leave the lone card as it falls. The heading becomes "The same problem, ten records". Tests count the new column, cards and problem; a source-audit section records the placements, and the commit carries the README row for the Step 1 commit.
+
 - **Phase 4, optional, ask first.** Up to three Decision Room exercises (candidates: Yi on Won Gyun's appeal in 1592; Yi ordered to intercept Katō in 1597; Won Gyun ordered to sail in 1597), and profiles for figures the lessons need (Won Gyun, Chen Lin, Gwon Yul, Ryu Seong-ryong), with a revision of Yi's profile.

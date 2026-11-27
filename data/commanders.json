@@ -2367,12 +2367,12 @@
     "years": "1545–1598",
     "state": "Joseon Korea",
     "eraId": "early-modern",
-    "role": "Admiral",
-    "summary": "Led Korean naval resistance during Japan's invasions of Korea in the 1590s.",
-    "approach": "Used coastal knowledge, preparation and naval gunnery to contest Japanese maritime movement.",
-    "strength": "His war diary provides unusually rich evidence about command, supplies and personal responsibilities.",
-    "limitation": "Court politics interrupted his command; popular retellings can overstate the role of turtle ships in every victory.",
-    "legacy": "Killed at Noryang, he became a central figure in Korean historical memory. His surviving writings should be distinguished from later legend.",
+    "role": "Commander of the Left Jeolla navy from 1591 and of the navies of the three southern provinces from 1593; removed in 1597 and restored after Chilcheollyang",
+    "summary": "Born in Seoul in 1545 into a family whose fortunes had declined, he passed the military examination in 1576 and served on the northern frontier, where, punished after a raid on his post that he had asked for more men to meet, he served for the first time without rank. Recommended by Ryu Seong-ryong, he was made commander of the Left Jeolla navy in 1591 and built ships and gathered stores. In the 5th month of 1592, with the court’s order, he took his fleet beyond his province and won at Okpo, then at Sacheon, Dangpo, Danghangpo, Hansan and Angolpo, and attacked the Japanese base at Busan. Made commander of the navies of the three provinces in 1593, he was arrested in 1597 after he would not throw his fleet at a crossing an enemy agent had announced, served again without rank, and was restored when his successor’s fleet was destroyed at Chilcheollyang. With what was left he held the strait of Myeongnyang and rebuilt the fleet, and in 1598, fighting beside the Ming admiral Chen Lin, he was killed at Noryang as the Japanese withdrew.",
+    "approach": "He chose where the enemy would fight: he drew fleets out of harbours and narrows into open water by feigned withdrawals, sent the turtle ship in first at the moment the tide or the lure had made, and at Danghangpo opened a way out so that the enemy would not take to the land. At Angolpo and Busan he held back from driving a beaten enemy ashore to desperation. He reported promptly and in detail, rewarded his men for fighting rather than for the heads they took, and during the truce and again after 1597 settled refugees, opened farms and sold fish and salt to keep the fleet supplied. At Myeongnyang he chose the mouth of a strait, where a larger fleet would have to come at him through the narrows.",
+    "strength": "His own reports to the court and his war diary survive in the original, and they show a commander who chose his ground, timed his attacks and counted what a trapped enemy would do to the villagers ashore. The fleet he kept in being made him necessary to a court that distrusted him: the king who wrote in 1597 that his crimes deserved death had to restore him that summer, and the court’s historians wrote after his death that had he not been removed the fleet would not have been lost.",
+    "limitation": "The sayings that made him famous, from the twelve ships to his last words, come from his nephew Yi Bun’s Record of Conduct, not from his own hand. His reports put his rival Won Gyun’s failings on the record, and the court later charged him with taking others’ credit; at the court meeting of the 1st month of 1597 it was reported that his officers, recruiting rowers in Namwon, had seized men’s relatives and killed a local officer. He kept order by beheading deserters and men who raised a false alarm. In 1592 he waited for orders while the Gyeongsang coast burned, and in 1597 the court, forwarding his report of Myeongnyang to the Ming, called it a small victory, after which he withdrew north.",
+    "legacy": "Killed at Noryang on the 19th day of the 11th month of 1598, he was enrolled first among the merit subjects of the war in 1604, with Won Gyun also in the first class, and given the posthumous name Chungmu in 1643; his diary and reports were printed in his Complete Works in 1795. He became a national hero, while Won Gyun came to be remembered as the coward of his story, and in 1921 a British admiral, G. A. Ballard, called him Nelson’s equal. Who hid his death at Noryang, and whether he sought it, are still disputed; the encyclopedia calls the later theories conjecture without firm evidence.",
     "battleSlugs": [
       "okpo",
       "sacheon-1592",
@@ -2384,50 +2384,92 @@
       "noryang"
     ],
     "source": {
-      "title": "The Great Admiral Yi Sun-sin: exhibition and primary documents",
-      "url": "https://vcm.museum.go.kr/ENG/contents/E0202010000.do?exhiSpThemId=3225173&listType=gallery&menuId=current&schM=view",
-      "publisher": "National Museum of Korea"
+      "title": "이순신 (Yi Sun-sin) — Lee Jang-hee, in Korean",
+      "url": "https://encykorea.aks.ac.kr/Article/E0044900",
+      "publisher": "Encyclopedia of Korean Culture, Academy of Korean Studies"
     },
     "editorialStatus": "concise-profile",
     "details": {
       "category": "Naval commander",
-      "titles": "Joseon admiral; Supreme Naval Commander of the Three Provinces (Samdo Sugun Tongjesa)",
+      "titles": "Commander of the Left Jeolla navy (Jeolla jwado sugun jeoldosa), 1591; commander of the navies of the three provinces (Samdo sugun tongjesa), 1593–1597 and 1597–1598; posthumously Left State Councillor, with the posthumous name Chungmu",
       "principalCommands": [
-        "Left Jeolla Naval Command, from 1591",
-        "Joseon fleet in the Imjin War, 1592–1598"
+        "Left Jeolla navy, from 1591",
+        "Navies of the three southern provinces, based at Hansan Island, 1593–1597",
+        "The fleet rebuilt after Chilcheollyang, 1597–1598",
+        "The Korean fleet beside Chen Lin’s Ming fleet, 1598"
       ],
       "timeline": [
         {
           "date": "1545",
-          "event": "Born in Hanseong (Seoul)"
+          "event": "Born in Seoul"
+        },
+        {
+          "date": "1576",
+          "event": "Passes the military examination"
         },
         {
           "date": "1591",
-          "event": "Appointed commander of the Left Jeolla Navy"
+          "event": "Made commander of the Left Jeolla navy"
         },
         {
-          "date": "1592",
-          "event": "Victories at Okpo, Sacheon and Hansan Island"
+          "date": "5th month of 1592",
+          "event": "With the court’s order, leaves his province and wins at Okpo"
+        },
+        {
+          "date": "5th–6th months of 1592",
+          "event": "Sacheon, Dangpo and Danghangpo; the turtle ship in battle"
+        },
+        {
+          "date": "7th month of 1592",
+          "event": "Hansan and Angolpo"
+        },
+        {
+          "date": "9th month of 1592",
+          "event": "Attacks the Japanese base at Busan; Jeong Un is killed"
         },
         {
           "date": "1593",
-          "event": "Appointed supreme naval commander"
+          "event": "Commander of the navies of the three provinces, based at Hansan"
         },
         {
-          "date": "1597",
-          "event": "Dismissed and imprisoned; reinstated after the fleet's destruction at Chilcheollyang"
+          "date": "1st–3rd months of 1597",
+          "event": "Will not act on an enemy agent’s report; arrested on charges the king says deserve death"
         },
         {
-          "date": "1597",
-          "event": "Victory at Myeongnyang"
+          "date": "4th month of 1597",
+          "event": "Released to serve without rank; learns of his mother’s death"
         },
         {
-          "date": "1598",
-          "event": "Killed at the battle of Noryang"
+          "date": "7th month of 1597",
+          "event": "Won Gyun’s fleet is destroyed at Chilcheollyang"
+        },
+        {
+          "date": "8th month of 1597",
+          "event": "Restored to command"
+        },
+        {
+          "date": "16th day of the 9th month of 1597",
+          "event": "Myeongnyang"
+        },
+        {
+          "date": "2nd month of 1598",
+          "event": "Moves his base to Gogeumdo; joined by Chen Lin’s Ming fleet"
+        },
+        {
+          "date": "9th–11th months of 1598",
+          "event": "Blockades Konishi Yukinaga’s fortress near Suncheon"
+        },
+        {
+          "date": "19th day of the 11th month of 1598",
+          "event": "Killed at Noryang"
+        },
+        {
+          "date": "1604",
+          "event": "Enrolled first among the merit subjects of the war"
         }
       ],
-      "notableDecision": "At Myeongnyang in 1597 he fought with a much-reduced fleet in a narrow channel where tidal currents limited the enemy's numerical advantage.",
-      "setback": "In 1597 he was dismissed and imprisoned after court intrigue and his refusal of an order he judged a trap. The fleet was then destroyed at Chilcheollyang under his successor."
+      "notableDecision": "At Myeongnyang in the 9th month of 1597, with the few ships that had survived Chilcheollyang, he refused the court’s order to fight on land, chose the mouth of the strait, where a larger fleet would have to come at him through the narrows, and took his own ship in alone when his captains held back.",
+      "setback": "In 1597 he would not throw his fleet at a crossing an enemy agent had announced; the king charged him with deceiving the court and letting the enemy go, crimes he said deserved death, and he was imprisoned and sent to serve without rank. The fleet he had built was then destroyed at Chilcheollyang under his successor."
     }
   },
   {

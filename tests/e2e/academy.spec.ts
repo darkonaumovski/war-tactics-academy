@@ -717,12 +717,26 @@ test("the volumes are compared problem by problem", async ({ page }) => {
   await page.getByRole("link", { name: /Compare the volumes/ }).click();
   await expect(page).toHaveURL(/\/leadership\/compare\/$/);
   await expect(
-    page.getByRole("heading", { name: "The same problem, nine records" }),
+    page.getByRole("heading", { name: "The same problem, ten records" }),
   ).toBeVisible();
-  await expect(page.locator(".compare-problem")).toHaveCount(12);
-  await expect(page.locator(".compare-note")).toHaveCount(12);
+  await expect(page.locator(".compare-problem")).toHaveCount(13);
+  await expect(page.locator(".compare-note")).toHaveCount(13);
   const stopping = page.locator("#stopping");
-  await expect(stopping.locator(".compare-card")).toHaveCount(18);
+  await expect(stopping.locator(".compare-card")).toHaveCount(19);
+  const government = page.locator("#government-at-home");
+  await expect(government.locator(".compare-card")).toHaveCount(9);
+  await expect(government.getByText("No lesson in this volume")).toHaveCount(3);
+  // On wide screens the tenth column spans the last row of three.
+  await page.setViewportSize({ width: 1440, height: 900 });
+  const widths = await stopping.evaluate((section) => {
+    const grid = section.querySelector(".compare-grid")!;
+    const last = grid.lastElementChild!;
+    return [
+      grid.getBoundingClientRect().width,
+      last.getBoundingClientRect().width,
+    ];
+  });
+  expect(widths[1]).toBeCloseTo(widths[0], 0);
   await expect(
     page.locator("#rebuilding").getByText("No lesson in this volume"),
   ).toHaveCount(4);

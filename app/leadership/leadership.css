@@ -209,8 +209,7 @@
 .compare-grid {
   display: grid;
   /* At most three columns at every width, so no card is narrower than about
-     300 pixels and nine volumes make three full rows of three; four columns
-     on wide screens would leave one volume alone on a last row. */
+     300 pixels; four columns on wide screens would only narrow the cards. */
   grid-template-columns: repeat(
     min(var(--compare-columns, 3), 3),
     minmax(0, 1fr)
@@ -219,6 +218,21 @@
 }
 .compare-column {
   min-width: 0;
+}
+/* With ten volumes the tenth column would sit alone on a last row of three.
+   There it spans the row, and its own cards are laid out three across. */
+@media (min-width: 1201px) {
+  .compare-column:last-child:nth-child(3n + 1) {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 16px;
+    align-items: start;
+  }
+  .compare-column:last-child:nth-child(3n + 1) > h3,
+  .compare-column:last-child:nth-child(3n + 1) > .compare-empty {
+    grid-column: 1 / -1;
+  }
 }
 .compare-column h3 {
   margin: 0 0 10px;

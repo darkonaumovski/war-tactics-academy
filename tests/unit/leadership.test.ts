@@ -448,7 +448,7 @@ describe("problems compared across volumes", () => {
   it("finds the problems a lesson is compared under", () => {
     expect(
       problemsForLesson("radomir-putnik", "after-the-chief").map((p) => p.slug),
-    ).toEqual(["dissent", "succession"]);
+    ).toEqual(["dissent", "government-at-home", "succession"]);
     expect(problemsForLesson("napoleon-bonaparte", "the-ledger")).toHaveLength(
       1,
     );
@@ -484,6 +484,18 @@ describe("problems compared across volumes", () => {
     expect(
       problemsForLesson("ulysses-s-grant", "the-third-day").map((p) => p.slug),
     ).toEqual(["stopping", "irreplaceable"]);
+    expect(
+      problemsForLesson("yi-sun-sin", "the-successor").map((p) => p.slug),
+    ).toEqual(["taking-over", "irreplaceable", "succession"]);
+    expect(
+      problemsForLesson("yi-sun-sin", "the-agents-story").map((p) => p.slug),
+    ).toEqual(["dissent", "government-at-home"]);
+    expect(
+      problemsForLesson("arthur-wellesley", "the-government-at-home").map(
+        (p) => p.slug,
+      ),
+    ).toEqual(["dissent", "government-at-home"]);
+    expect(problemsForLesson("yi-sun-sin", "the-ledger")).toHaveLength(2);
   });
 });
 

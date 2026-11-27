@@ -1817,4 +1817,106 @@ export const scenarios: Scenario[] = [
       },
     ],
   },
+  {
+    slug: "yi-and-won-gyuns-appeal",
+    title: "Go beyond your province, or wait for orders?",
+    battleSlug: "okpo",
+    commander: "Yi Sun-sin",
+    situation:
+      "The last days of the 4th lunar month of 1592, at the Left Jeolla naval base. The Japanese landed at Busan two weeks ago, and the Gyeongsang navies have not fought: their commanders have fled or sunk their own ships. A messenger has come from Won Gyun, the Right Gyeongsang commander, asking for help. Your fleet is the only one in the south still intact, and your post is the coast of your own province.",
+    known:
+      "Your messenger found the Namhae town empty, its granaries open and its armoury stripped. Some of your own soldiers and their families are slipping away by night. The provincial governor has ordered the Right Jeolla fleet to follow you, but it has not come. You have no pilots for Gyeongsang’s waters and no support from its commanders. As a frontier commander you may not leave your post without orders, and the enemy is said to be nearing the capital. Most of your captains argue that they can barely hold their own province; Jeong Un of Nokdo and Song Hui-rip urge you, with tears, to go, saying that against this enemy there is no line between one province and another.",
+    unknown:
+      "Whether and when the court’s order will come; whether the Right Jeolla fleet will arrive; and that the first Japanese ships you meet will be raiding a harbour with their crews ashore.",
+    historical:
+      "Yi’s report says he meant to wait for the Right Jeolla fleet and could not leave his post without orders; his report on Okpo opens with the court’s order to join the Gyeongsang fleet. He sailed on the 4th day of the 5th month without the Right Jeolla ships, met Won Gyun on the 6th, and on the 7th caught Japanese ships raiding the harbour of Okpo, their crews ashore; more were destroyed at Happo and Jeokjinpo. When news came that the king had left the capital, he turned home, and the court promoted him. The Japanese compilation Seikan iryaku, following Ryu Seong-ryong’s Jingbirok, tells it more harshly: Yi first declined, citing the boundary of his command, and sailed only after Won Gyun’s messenger had come back several times.",
+    options: [
+      {
+        text: "Sail at once with your own fleet, without waiting for the court’s order or the Right Jeolla ships.",
+        feedback:
+          "Speed might have saved some of the Gyeongsang coast, but you would have sailed without pilots or allies into waters you did not know, and without the authority your post required, at a court that would later judge you for every departure from its orders. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Prepare the fleet and steady the crews, wait for the court’s order, and sail when it comes, with the Right Jeolla ships if they arrive in time.",
+        feedback:
+          "This matches the historical decision. The order came, the fleet sailed without the Right Jeolla ships, and Okpo was the first Korean victory at sea; the court rewarded obedience that came with victory. The cost was time, paid by the Gyeongsang coast, and the Seikan iryaku remembers the waiting as reluctance.",
+        historical: true,
+      },
+      {
+        text: "Keep the fleet in Jeolla’s waters to guard your own province, and tell Won Gyun that his coast is not your command.",
+        feedback:
+          "This is what most of your captains advised, and it would have kept the fleet whole, but it would have left the enemy free at sea to come west in its own time, and, as Jeong Un argued, blunting its spearhead in Gyeongsang was also a way of defending Jeolla. A counterfactual.",
+        historical: false,
+      },
+    ],
+  },
+  {
+    slug: "yi-and-the-agents-report",
+    title: "Act on the enemy agent’s report?",
+    battleSlug: "chilcheollyang",
+    commander: "Yi Sun-sin",
+    situation:
+      "The 1st lunar month of 1597, at Hansan Island. Peace talks between the Ming and Japan have failed, and the Japanese are bringing their armies back to Korea. You command the navies of the three southern provinces from Hansan, where you have kept the fleet for years. An order arrives from the court: intercept the Japanese general Katō Kiyomasa at sea as he crosses.",
+    known:
+      "The order rests on a report from Yoshira, a Japanese agent serving Konishi Yukinaga, who has told the Gyeongsang army commander Kim Eung-seo the day Katō will cross and that the navy can take him at sea. The court believes it and presses you to go. To meet him you must take the fleet far from Hansan towards Busan, the enemy’s base, in waters it chooses; you keep the fleet at Hansan because Geoje, nearer the enemy, has no sheltered anchorage and faces it across the water. At court you have critics: your quarrel with Won Gyun over the credit for 1592 has reached the ministers, and your patron Ryu Seong-ryong has enemies of his own there.",
+    unknown:
+      "Whether Katō will cross when the agent says, or has already crossed; whether Konishi means to destroy Katō or to draw out your fleet and divide you from the court; and what the court will do if you do not go.",
+    historical:
+      "The sources differ. Lee Jang-hee’s entry in the Encyclopedia of Korean Culture says Yi knew it for a trap but sailed reluctantly, and that Katō had landed days before. The Seikan iryaku says Yi suspected a trick and delayed for days, until the agent came back to say that Katō had landed and to ask, with feigned regret, why the Koreans had not intercepted him. At the court meeting of the 27th day of the 1st month the king said Yi had let slip a chance heaven had given and could not be forgiven even if he brought back Katō’s head; in the 3rd month the king wrote that Yi’s crimes deserved death. Yi was arrested, interrogated and sent to serve without rank, and the fleet was given to Won Gyun, who lost it at Chilcheollyang in the 7th month.",
+    options: [
+      {
+        text: "Sail at once with the whole fleet to the waters off Busan and wait for Katō’s ships on the day the agent named.",
+        feedback:
+          "If the encyclopedia is right that Katō had already landed, the fleet would have found nothing; if the report was a trap, it would have been waiting in the enemy’s waters, far from its base, on a day the enemy had chosen. It would have shown the court the obedience it wanted. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Refuse in writing, explaining why the report cannot be trusted and why the fleet must stay at Hansan, and accept the consequences.",
+        feedback:
+          "A reasoned refusal would have put your judgement on the record before the event, but the court had already decided that the chance was real; the same reasons were heard at the court meeting of the 1st month and did not save you. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Doubt the report and delay, then go out late and without conviction, so that you neither stake the fleet on it nor openly defy the order.",
+        feedback:
+          "This matches the historical decision as the encyclopedia and the Seikan iryaku tell it, though they disagree on how far Yi went. It kept the fleet whole, and Yi was right about the agent. But it satisfied no one: the court read caution as disobedience, the king called his crimes deserving of death, and the fleet he had kept whole went to the rival who promised to attack.",
+        historical: true,
+      },
+    ],
+  },
+  {
+    slug: "won-gyun-ordered-to-sail",
+    title: "Sail as ordered, or refuse?",
+    battleSlug: "chilcheollyang",
+    commander: "Won Gyun",
+    situation:
+      "Early in the 7th lunar month of 1597, at Hansan Island. You command the navies of the three southern provinces, given to you in place of Yi Sun-sin, whom you criticised for seeing the enemy and not attacking. The Japanese have returned in force, and the commander-in-chief, Gwon Yul, with the chief inspector Yi Won-ik, has ordered you to take the fleet out against the enemy near Busan.",
+    known:
+      "Your first sortie under the new orders cost you An Hong-guk of Boseong and achieved nothing. The raid you then sent Bae Seol to make on Ungcheon lost ships, and Gwon Yul had you flogged for it and ordered you out again. A Japanese agent has again told a Korean commander the day enemy ships will arrive, and Gwon Yul believes him. You yourself once said that the waters off Jeolyeongdo, near Busan, were hard to operate in. Hansan is a strong base, and the fleet is the only one Korea has.",
+    unknown:
+      "That the Japanese will learn of your movements in advance; that wind and the enemy will scatter the fleet near Busan; that crews going ashore for water at Gadeok will be attacked; and that an anchorage on the way back will be attacked by night from the sea and the land.",
+    historical:
+      "Won Gyun sailed from Hansan with the whole fleet towards Busan. Near Busan the fleet was scattered by wind and by the enemy; at Gadeok, crews who went ashore for water were attacked; and it fell back to anchor at Chilcheollyang, off Geoje. On the night of the 15th the Japanese attacked by sea and from the land. Most of the ships were burned or broken, the Right Jeolla and Chungcheong commanders were killed, and Won Gyun escaped ashore and was killed there; Bae Seol got away with a few ships. When the report reached the court, the king said the fleet should have held Hansan, that it had been driven out to this defeat, and that the commander-in-chief had pressed Won Gyun, who from the start had not wanted to go. In the 8th month Yi Sun-sin was restored to command.",
+    options: [
+      {
+        text: "Obey: take the whole fleet out of Hansan towards Busan and seek the enemy as ordered.",
+        feedback:
+          "This matches the historical decision. Won Gyun had won his command by accusing Yi of not attacking, and, flogged and ordered out again, had no ground left to refuse. The fleet was lost, and the king afterwards blamed the commander-in-chief who pressed him; the survivors, speaking to Yi, blamed Won Gyun, who they said fled first. Obedience did not protect him, and the decision was not his alone.",
+        historical: true,
+      },
+      {
+        text: "Refuse: tell Gwon Yul that you will not take the fleet into the waters off Busan, and accept the punishment.",
+        feedback:
+          "After the defeat the king repeated what he had heard of Bae Seol, that he would rather die alone under military law than send his men into a place of death, and the court wished the fleet had held Hansan. But a refusal would have been the same caution for which Yi had been removed and you appointed. A counterfactual.",
+        historical: false,
+      },
+      {
+        text: "Keep the main fleet at Hansan and send only a detachment forward to show that the order is being carried out.",
+        feedback:
+          "A detachment would have risked less than the whole fleet and kept the base held, but the first sortie and Bae Seol’s raid had already shown what small forces achieved, and Gwon Yul had flogged you for them. A counterfactual.",
+        historical: false,
+      },
+    ],
+  },
 ];

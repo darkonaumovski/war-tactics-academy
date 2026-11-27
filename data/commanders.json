@@ -2473,6 +2473,309 @@
     }
   },
   {
+    "slug": "won-gyun",
+    "name": "Won Gyun",
+    "years": "1540–1597",
+    "state": "Joseon Korea",
+    "eraId": "early-modern",
+    "role": "Right Gyeongsang naval commander in 1592; commander of the navies of the three southern provinces in 1597, killed at Chilcheollyang",
+    "summary": "A military officer promoted for fighting on the northern frontier, he became Right Gyeongsang naval commander in 1592. When the Japanese landed, the Gyeongsang navies scattered without fighting: the revised Annals say he sank his own ships before an officer talked him out of fleeing, while Lee Jeong-il’s encyclopedia entry has him gather what men he could and appeal again and again for help. With Yi Sun-sin’s fleet he fought through the victories of 1592. Their quarrel over the rewards grew bitter, and when Yi was given command of the three navies in 1593 Won Gyun resisted and was moved to land commands. In the 2nd month of 1597, after Yi’s arrest, he took Yi’s command; pressed by the court and flogged by the commander-in-chief, he took the whole fleet towards Busan in the 7th month, and it was destroyed at Chilcheollyang, where he was killed.",
+    "approach": "He sought battle and was first into the fighting: at the court meeting of the 1st month of 1597 the king argued for him because he had led from the front in 1592 and a commander who did so was worth having. He criticised Yi for seeing the enemy and not attacking, and while serving on land he put plans for naval operations to the court more than once.",
+    "strength": "When the other Gyeongsang commanders fled in 1592 he kept fighting with scattered forces, called in Yi’s fleet and fought beside it through that summer’s victories. The state enrolled him in 1604, with Yi and Gwon Yul, among the first-class merit subjects of the war.",
+    "limitation": "Much of what is said against him comes from Yi’s side: Yi’s reports of 1592 complain that his men shot at Yi’s sailors while seizing a prize; Jingbirok, by Yi’s patron, through the Seikan iryaku, has him change Yi’s arrangements at Hansan, dismiss Yi’s trusted officers, and drink and punish without measure; survivors told Yi that he fled first at Chilcheollyang; and the Annals’ historians of 1598 called him greedy and cruel beyond compare. Against that, the king blamed the commander-in-chief for pressing him into the defeat. What is not disputed is that he took the fleet into waters near Busan that he had himself called hard to operate in, and anchored it where it was surprised by night.",
+    "legacy": "Enrolled in the first class of merit in 1604 and given posthumous office, he has been remembered, Lee Jeong-il writes, as the typical coward, while Yi became a national hero; Lee’s own entry presents him as a commander who fought on with scattered forces and was defeated following the court’s unreasonable orders. In Yi’s story he is the foil, and the portrait of him comes largely from the side of his rival.",
+    "battleSlugs": [
+      "okpo",
+      "sacheon-1592",
+      "hansan-island",
+      "busanpo",
+      "chilcheollyang"
+    ],
+    "source": {
+      "title": "원균 (Won Gyun) — Lee Jeong-il, in Korean",
+      "url": "https://encykorea.aks.ac.kr/Article/E0040619",
+      "publisher": "Encyclopedia of Korean Culture, Academy of Korean Studies"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Naval commander",
+      "titles": "Right Gyeongsang naval commander, 1592; Chungcheong and then Left Jeolla army commander, from 1594; commander of the navies of the three provinces (Samdo sugun tongjesa), 1597; first-class merit subject, 1604",
+      "principalCommands": [
+        "Right Gyeongsang navy, 1592–1594",
+        "Chungcheong, then Left Jeolla, army commands, 1594–1597",
+        "Navies of the three southern provinces, 2nd–7th months of 1597"
+      ],
+      "timeline": [
+        {
+          "date": "1540",
+          "event": "Born"
+        },
+        {
+          "date": "1592",
+          "event": "Right Gyeongsang naval commander"
+        },
+        {
+          "date": "4th month of 1592",
+          "event": "The Japanese land; the Gyeongsang navies scatter, and he appeals to Yi for help"
+        },
+        {
+          "date": "5th–9th months of 1592",
+          "event": "Fights beside Yi at Okpo, Sacheon, Hansan and Busan"
+        },
+        {
+          "date": "8th month of 1593",
+          "event": "Yi is given command of the three navies; Won Gyun resists"
+        },
+        {
+          "date": "12th month of 1594",
+          "event": "Moved to the Chungcheong army command, later to Left Jeolla"
+        },
+        {
+          "date": "2nd month of 1597",
+          "event": "Takes command of the three navies after Yi’s arrest"
+        },
+        {
+          "date": "7th month of 1597",
+          "event": "Flogged by the commander-in-chief and ordered out; sails from Hansan towards Busan"
+        },
+        {
+          "date": "15th–16th days of the 7th month of 1597",
+          "event": "The fleet is destroyed at Chilcheollyang; he is killed ashore"
+        },
+        {
+          "date": "1604",
+          "event": "Enrolled among the first-class merit subjects of the war"
+        }
+      ],
+      "notableDecision": "In the 7th month of 1597, flogged by the commander-in-chief and ordered out again, he took the whole fleet from Hansan towards Busan, into waters he had himself once called hard to operate in.",
+      "setback": "At Chilcheollyang, where the fleet anchored off Geoje after it was scattered near Busan, it was attacked by sea and from the land on the night of the 15th day of the 7th month of 1597; most of the ships were lost, and he was killed ashore."
+    }
+  },
+  {
+    "slug": "gwon-yul",
+    "name": "Gwon Yul",
+    "years": "1537–1599",
+    "state": "Joseon Korea",
+    "eraId": "early-modern",
+    "role": "Victor of Haengju in 1593 and commander-in-chief of the Joseon armies (dowonsu), who pressed Won Gyun to sail in 1597",
+    "summary": "Son of a chief state councillor, he passed the civil examination only in 1582 and held minor posts until 1591, when Ryu Seong-ryong recommended him for a frontier command. When the war began he was made magistrate of Gwangju; he argued against the Jeolla governor’s attacks on small Japanese forces near Yongin, which ended in defeat, and then held the pass at Ichi against Kobayakawa Takakage’s troops, keeping Jeolla from invasion. Made governor of Jeolla, he marched north, held the mountain fortress of Doksan near Suwon until the Japanese withdrew, and on the 12th day of the 2nd month of 1593 beat off a Japanese assault on the fortress of Haengju near the capital. Made commander-in-chief that year, he was dismissed in 1596 for executing deserters summarily, then restored. In 1597, believing an enemy agent’s report, he pressed Won Gyun to take the fleet towards Busan and had him flogged when his first sorties failed. In 1597 and 1598 he fought beside Ming armies at Ulsan and Suncheon. He resigned in 1599 and died that year.",
+    "approach": "Against Japanese armies stronger in the field he chose fortified positions and made the enemy attack them: at Ichi; at Doksan, where he held out and raided the withdrawing enemy; and at Haengju, a hill fortress near the capital closed with a palisade, which he occupied after leaving a few men at Doksan to look like his whole army, and which a much larger Japanese army assaulted and failed to take. Before Yongin he argued against spending his province’s troops on small fights while the main enemy was near.",
+    "strength": "Lee Jang-hee’s entry credits the victory at Haengju to his unified command of regular troops and monk soldiers under assault; with Ichi it kept the Japanese out of Jeolla in 1592 and threatened their hold on the capital in 1593.",
+    "limitation": "In 1596 he was dismissed for executing deserters summarily. In 1597, by the Seikan iryaku’s account, he believed the enemy agent’s second report, pressed Won Gyun to sail and, by the encyclopedia’s account of Chilcheollyang, had him flogged when the first sorties failed; after the defeat the king said it had come because the commander-in-chief pressed Won Gyun, who had not wanted to go. Lee Jang-hee’s entry on him passes over Chilcheollyang in silence.",
+    "legacy": "Posthumously made chief state councillor, he was enrolled in 1604 among the first-class merit subjects of the war, with Yi Sun-sin and Won Gyun. A shrine to his victory was built at Haengju in 1841. His posthumous name is Chungjang.",
+    "battleSlugs": [],
+    "source": {
+      "title": "권율 (Gwon Yul) — Lee Jang-hee, in Korean",
+      "url": "https://encykorea.aks.ac.kr/Article/E0007022",
+      "publisher": "Encyclopedia of Korean Culture, Academy of Korean Studies"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Field commander",
+      "titles": "Magistrate of Gwangju and governor of Jeolla, 1592; commander-in-chief (dowonsu), 1593–1596 and 1597–1599; posthumously chief state councillor, with the posthumous name Chungjang",
+      "principalCommands": [
+        "Gwangju troops at Ichi, 1592",
+        "Jeolla army at Doksan and Haengju, 1592–1593",
+        "Joseon armies as commander-in-chief, 1593–1596 and 1597–1599"
+      ],
+      "timeline": [
+        {
+          "date": "1537",
+          "event": "Born, son of the chief state councillor Gwon Cheol"
+        },
+        {
+          "date": "1582",
+          "event": "Passes the civil examination"
+        },
+        {
+          "date": "1592",
+          "event": "Holds the pass at Ichi; made governor of Jeolla"
+        },
+        {
+          "date": "12th month of 1592",
+          "event": "Marches north and holds the fortress of Doksan near Suwon"
+        },
+        {
+          "date": "12th day of the 2nd month of 1593",
+          "event": "Beats off the Japanese assault on Haengju"
+        },
+        {
+          "date": "6th month of 1593",
+          "event": "Made commander-in-chief"
+        },
+        {
+          "date": "1596",
+          "event": "Dismissed for executing deserters summarily; soon restored"
+        },
+        {
+          "date": "7th month of 1597",
+          "event": "Presses Won Gyun to take the fleet towards Busan; the fleet is lost at Chilcheollyang"
+        },
+        {
+          "date": "1597–1598",
+          "event": "Fights beside Ming armies at Ulsan and Suncheon"
+        },
+        {
+          "date": "1599",
+          "event": "Resigns and dies"
+        },
+        {
+          "date": "1604",
+          "event": "Enrolled among the first-class merit subjects of the war"
+        }
+      ],
+      "notableDecision": "In the 2nd month of 1593 he moved his army from Doksan to the hill fortress of Haengju near the capital, leaving a few men behind to look like his whole force, closed it with a palisade and waited for the Japanese to attack it.",
+      "setback": "In the 7th month of 1597 he pressed Won Gyun to take the fleet towards Busan on an enemy agent’s report and flogged him when the first sorties failed; the fleet was destroyed at Chilcheollyang, and the king blamed the commander-in-chief."
+    }
+  },
+  {
+    "slug": "ryu-seong-ryong",
+    "name": "Ryu Seong-ryong",
+    "years": "1542–1607",
+    "state": "Joseon Korea",
+    "eraId": "early-modern",
+    "role": "Chief state councillor and chief commissioner for military affairs in the Imjin War; Yi Sun-sin’s patron and the author of Jingbirok",
+    "summary": "A scholar-official and a disciple of Yi Hwang, he passed the civil examination in 1566 and rose to be Left State Councillor by 1591, when, expecting a Japanese invasion, he recommended Gwon Yul for a frontier command and Yi Sun-sin, then a county magistrate, for the Left Jeolla navy. When the Japanese landed in 1592 he took charge of the war as minister of war and chief commissioner for military affairs; made chief state councillor, he followed the king north and was dismissed at Pyongyang on his opponents’ impeachment. Restored as commissioner, he joined the Ming general Li Rusong in retaking Pyongyang in 1593, and as chief state councillor again directed the armies of four provinces. He opposed the Ming retreat after Byeokjegwan and the peace talks, pressed for new weapons, fortifications and the military training agency set up in 1594, and supported Yi at court. In 1598 he was impeached and stripped of office; restored in 1600, he did not serve again. His Jingbirok is his account of the war.",
+    "approach": "He directed the war as a civil minister: he chose and recommended commanders, coordinated the Korean armies with the Ming, and pressed for the institutions and stores the war needed, from a training agency that studied the Ming drill manual Jixiao xinshu to farms for garrisons and salt for the starving.",
+    "strength": "He saw the war coming and put the right men forward: both Yi Sun-sin and Gwon Yul owed their commands to his recommendation. His Jingbirok and collected works are, the encyclopedia says, indispensable sources for the history of the war.",
+    "limitation": "His standing rose and fell with the court’s factions, and his enemies used Yi, his protégé, against him. At the court meeting of the 1st month of 1597 he agreed that Yi had stayed long at Hansan doing little and had failed to intercept Katō, and argued against replacing him only because changing commanders in a crisis was hard. Jingbirok, the source of much of what is said against Won Gyun, is the account of Yi’s patron.",
+    "legacy": "Enrolled in 1604 among the second-class merit subjects for escorting the king, he was given the posthumous name Munchung. Jingbirok shaped later accounts of the war in Korea and, through the Seikan iryaku, in Japan; the Japanese compiler drew on it for Okpo, Hansan, Chilcheollyang and Noryang.",
+    "battleSlugs": [],
+    "source": {
+      "title": "유성룡 (Ryu Seong-ryong) — Lee Jang-hee, in Korean",
+      "url": "https://encykorea.aks.ac.kr/Article/E0041546",
+      "publisher": "Encyclopedia of Korean Culture, Academy of Korean Studies"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Coalition and theater commander",
+      "titles": "Left State Councillor, 1591; minister of war and chief commissioner for military affairs (dochechalsa), 1592; chief state councillor, 1592 and 1593–1598; commissioner of four provinces, 1593; posthumous name Munchung",
+      "principalCommands": [
+        "Chief commissioner for military affairs, 1592",
+        "Commissioner of Pyeongan, then of the three and four southern provinces, 1592–1593",
+        "Director of the military training agency, from 1594"
+      ],
+      "timeline": [
+        {
+          "date": "1542",
+          "event": "Born"
+        },
+        {
+          "date": "1566",
+          "event": "Passes the civil examination"
+        },
+        {
+          "date": "1591",
+          "event": "Left State Councillor; recommends Gwon Yul and Yi Sun-sin for commands"
+        },
+        {
+          "date": "4th month of 1592",
+          "event": "Directs the war as minister of war and chief commissioner; dismissed at Pyongyang"
+        },
+        {
+          "date": "1593",
+          "event": "Retakes Pyongyang with Li Rusong; chief state councillor and commissioner of four provinces"
+        },
+        {
+          "date": "1594",
+          "event": "Directs the new military training agency"
+        },
+        {
+          "date": "1st month of 1597",
+          "event": "At court, half defends Yi against the king’s charges"
+        },
+        {
+          "date": "1598",
+          "event": "Impeached and stripped of office"
+        },
+        {
+          "date": "1604",
+          "event": "Enrolled among the second-class merit subjects"
+        },
+        {
+          "date": "1607",
+          "event": "Dies"
+        }
+      ],
+      "notableDecision": "In 1591, expecting a Japanese invasion, he recommended Yi Sun-sin, then a county magistrate, for the command of the Left Jeolla navy, and Gwon Yul for a frontier command.",
+      "setback": "In 1598 his opponents impeached him for failing to go to the Ming court to answer the charges of the Ming commissioner Ding Yingtai, and he was stripped of office; he did not serve again."
+    }
+  },
+  {
+    "slug": "chen-lin",
+    "name": "Chen Lin",
+    "years": "d. after 1606",
+    "state": "Ming China",
+    "eraId": "early-modern",
+    "role": "Ming admiral who commanded the Ming fleet in Korea in 1598, beside Yi Sun-sin, at the blockade of Suncheon and at Noryang",
+    "summary": "A native of Wengyuan in Guangdong, he rose from the last years of the Jiajing reign by putting down bandits and rebels in Guangdong, and was dismissed more than once: after a mutiny his exactions provoked, for greed, and for bribing Shi Xing. Recalled in 1597 when the peace with Japan failed, he led troops from Guangdong to Korea, and in 1598 was given command of the Ming fleet. Beside Yi Sun-sin he blockaded Konishi Yukinaga’s fortress near Suncheon, received the Japanese envoys who came with gifts to ask for a way home, and in the 11th month sailed with Yi to Noryang to meet the fleet coming to Konishi’s relief. Ranked first in merit for the war, he went on to campaign against Yang Yinglong in Bozhou and against the Miao in Guizhou, and died in office in Guangdong.",
+    "approach": "The Ming shi calls him resourceful and able with troops, but greedy wherever he served. In Korea, by Yi Bun’s account, he was overbearing at first and let his soldiers plunder until Yi shamed him into allowing Yi to punish them; having watched Yi’s command, he came to ride in Korean ships in battle and leave the signals to Yi.",
+    "strength": "He brought a Ming fleet into the last year of the war and, in the end, took it to Noryang against a withdrawing enemy. He could be persuaded, and he let an allied commander he could not command direct the fighting: Yi Bun writes that the Ming soldiers came to fear Yi more than their own admiral.",
+    "limitation": "The Ming shi records his greed and his dismissals. Yi’s diary records Japanese envoys and gifts at his headquarters; the Korean encyclopedia says Konishi bribed him and that he let a boat through; Yi Bun has him propose to attack the captive Koreans on Namhae for easy heads. On the 3rd day of the 10th month of 1598 he attacked at night on another general’s letter and lost ships to the falling tide. The Seikan iryaku calls his claim to have killed Shimazu Yoshihiro false, and the Ming shi repeats the claim.",
+    "legacy": "The Ming shi gives him the victory at Noryang and the first place in merit; Korean accounts give the battle to Yi and remember Chen Lin’s grief at his death, and the Seikan iryaku credits the Japanese escape to Shimazu. His record in Korea reaches us almost wholly through writers with a stake: the official history of his own dynasty, Yi’s nephew and the court historians of Joseon, and a Japanese compiler.",
+    "battleSlugs": ["noryang"],
+    "source": {
+      "title": "Zhang Tingyu and others, Ming shi (1739), vol. 247, biographies of Chen Lin and Deng Zilong, in Classical Chinese",
+      "url": "https://zh.wikisource.org/wiki/%E6%98%8E%E5%8F%B2/%E5%8D%B7247",
+      "publisher": "Wikisource (Chinese)"
+    },
+    "editorialStatus": "concise-profile",
+    "details": {
+      "category": "Naval commander",
+      "titles": "Commander against the Japanese (yuwo zongbingguan), 1598, in charge of the Ming fleet in Korea; later regional commander of Huguang, Guizhou and Guangdong",
+      "principalCommands": [
+        "Troops from Guangdong sent to Korea, 1597",
+        "The Ming fleet in Korea, 1598",
+        "Huguang army in the Bozhou campaign, 1600",
+        "Guizhou, then Guangdong"
+      ],
+      "timeline": [
+        {
+          "date": "Before 1567",
+          "event": "An officer in Guangdong, putting down bandits"
+        },
+        {
+          "date": "1592",
+          "event": "Called north as the war in Korea begins, for his knowledge of the Japanese"
+        },
+        {
+          "date": "During the peace talks",
+          "event": "Dismissed for bribing Shi Xing"
+        },
+        {
+          "date": "1597",
+          "event": "Recalled as the peace fails; leads Guangdong troops to Korea"
+        },
+        {
+          "date": "2nd month of 1598",
+          "event": "Made commander against the Japanese, and given the fleet"
+        },
+        {
+          "date": "9th–11th months of 1598",
+          "event": "Blockades Konishi’s fortress near Suncheon beside Yi"
+        },
+        {
+          "date": "19th day of the 11th month of 1598",
+          "event": "Noryang; ranked first in merit for the war"
+        },
+        {
+          "date": "1600",
+          "event": "Campaigns against Yang Yinglong in Bozhou"
+        },
+        {
+          "date": "1606",
+          "event": "Campaigns against the Miao in Guizhou"
+        },
+        {
+          "date": "After 1606",
+          "event": "Dies in office in Guangdong"
+        }
+      ],
+      "notableDecision": "In the 11th month of 1598, after receiving the Japanese envoys and their gifts, he sailed with Yi through the night to meet the relief fleet at Noryang: the Annals’ historians say Yi pleaded with tears, the Seikan iryaku that Chen Lin saw a chance to win fame.",
+      "setback": "On the 3rd day of the 10th month of 1598, acting on a secret letter from the Ming general Liu Ting, he attacked Konishi’s fortress at night and lost ships stranded by the falling tide; Yi wrote that the admiral’s confusion was beyond words."
+    }
+  },
+  {
     "slug": "oda-nobunaga",
     "name": "Oda Nobunaga",
     "years": "1534–1582",

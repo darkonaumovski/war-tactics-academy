@@ -314,6 +314,7 @@ export const yiVolume: LeadershipVolume = {
         "A commander written by his nephew, his court and his nation: how to read Yi",
       part: "Orientation",
       themes: ["communication", "judgement"],
+      people: ["won-gyun", "ryu-seong-ryong"],
       claim:
         "When a commander’s own papers survive but his fame rests on what others wrote about him, the reader learns most by setting each famous story beside the document closest to the event, because family memorials, court histories and later admirers each chose what to keep.",
       inBrief: {
@@ -1436,6 +1437,7 @@ export const yiVolume: LeadershipVolume = {
       title: "The joint report: credit, rivals and the court",
       part: "Rivals and the court",
       themes: ["communication", "ethics"],
+      people: ["won-gyun"],
       claim:
         "When two commanders share a victory, how each reports it shapes their rivalry as much as their standing at court, and a report that is accurate about a colleague’s failings may still cost the service later, if it turns the colleague into an enemy.",
       inBrief: {
@@ -1659,6 +1661,7 @@ export const yiVolume: LeadershipVolume = {
       title: "The agent’s story: refusing an order the enemy wrote",
       part: "Rivals and the court",
       themes: ["judgement", "restraint"],
+      people: ["won-gyun", "ryu-seong-ryong"],
       claim:
         "When a commander will not act on intelligence he suspects, he may be right about the enemy and still be removed by his own side, because a court that has waited years for an attack can read caution as disobedience, and the commander’s past successes do not explain his present inaction.",
       inBrief: {
@@ -1887,6 +1890,7 @@ export const yiVolume: LeadershipVolume = {
       title: "The successor: ordered to attack",
       part: "Rivals and the court",
       themes: ["judgement", "succession"],
+      people: ["won-gyun", "gwon-yul"],
       claim:
         "When a successor is appointed because he promised what his predecessor would not do, he may be unable to refuse the order to do it, and the defeat that follows belongs to more than one person.",
       inBrief: {
@@ -2345,6 +2349,7 @@ export const yiVolume: LeadershipVolume = {
       title: "An ally who would let them go: Chen Lin",
       part: "The end",
       themes: ["communication", "ethics"],
+      people: ["chen-lin"],
       claim:
         "When an ally gains more from letting the enemy go than from fighting, a commander who cannot give him orders may still keep him in the fight by giving him the credit, refusing the enemy’s offers himself and holding him to the purpose he says he serves, but the ally’s own record may then claim the victory.",
       inBrief: {
@@ -2576,6 +2581,7 @@ export const yiVolume: LeadershipVolume = {
       title: "Noryang: the last battle",
       part: "The end",
       themes: ["motivation", "succession"],
+      people: ["chen-lin"],
       claim:
         "When a commander leads from the front to the end, his presence may hold a fleet together and his death may have to be hidden to finish the battle, but what that death meant is settled by those who write the record, each with a stake in it.",
       inBrief: {
@@ -2807,6 +2813,7 @@ export const yiVolume: LeadershipVolume = {
       title: "The ledger: obedience, evasion, results or the record",
       part: "The end",
       themes: ["judgement", "ethics"],
+      people: ["won-gyun"],
       claim:
         "When a commander’s own government is a danger to him, no single course, whether obedience, evasion or results, protects him for long, and once he is dead the record, written by people with a stake in it, decides which of them he is remembered for.",
       inBrief: {

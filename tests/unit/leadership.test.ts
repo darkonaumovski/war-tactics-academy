@@ -159,6 +159,17 @@ describe("leadership volumes", () => {
       "parmenions-advice",
       "the-cost-of-frankness",
     ]);
+    expect(lessonsDiscussing("won-gyun").map((x) => x.lesson.slug)).toEqual([
+      "how-to-read-yi",
+      "the-joint-report",
+      "the-agents-story",
+      "the-successor",
+      "the-ledger",
+    ]);
+    expect(lessonsDiscussing("chen-lin").map((x) => x.lesson.slug)).toEqual([
+      "an-ally-who-would-let-them-go",
+      "noryang",
+    ]);
   });
 });
 

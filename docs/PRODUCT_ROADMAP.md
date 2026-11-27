@@ -1,6 +1,6 @@
 # Product roadmap
 
-The battle expansion is complete: 185 engagements with studies in six collections (Alexander, Rome, Napoleon, the First World War, the Serbian Front and the Second World War), 139 commander profiles, ten courses and forty-five decision exercises, with a readable atlas, collection pages, shareable catalog filters, campaign route maps, commander career strips and search by war, campaign and commander. The priorities below follow from it.
+The battle expansion is complete: 185 engagements with studies in six collections (Alexander, Rome, Napoleon, the First World War, the Serbian Front and the Second World War), 139 commander profiles, ten courses and forty-eight decision exercises, with a readable atlas, collection pages, shareable catalog filters, campaign route maps, commander career strips and search by war, campaign and commander. The priorities below follow from it.
 
 ## Priority 1 — Editorial depth and evidence
 
